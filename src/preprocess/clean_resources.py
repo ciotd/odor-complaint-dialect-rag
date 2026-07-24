@@ -39,6 +39,12 @@ GRAMMAR = {
 # 실사용 빈도가 낮아 제외하는 어미(현지인 확인, 2026-07-24): 전라 '-당께라우'
 BANNED_FORMS = ["당께라우"]
 
+# 규칙이 아니라 '문장 예문 쌍'인 category (LLM이 스스로 라벨링).
+# standard_form/dialect_form이 통째로 문장이라 검색소스에 들어가면 사실상
+# '미리 만든 few-shot 검색'이 되어 C1과 C_kb 구분이 무너진다(research_scope 5.1).
+# 규칙셋에서 빼고 참조용 grammar_examples.jsonl로 보낸다. (2026-07-24, 경상 79건)
+BANNED_CATEGORIES = {"예문대조규칙"}
+
 # 문장/속담 판단: 종결어미
 _SENT_TAIL = re.compile(r"(다|까|라|네|군|지|요|음|함)$")
 
@@ -109,7 +115,7 @@ def clean_grammar(base):
     rules, examples, stats = [], [], {}
     for reg, paths in GRAMMAR.items():
         seen = set()
-        n_in = kept = dup = n_ex = banned = 0
+        n_in = kept = dup = n_ex = banned = drop_ex_cat = 0
         for p in paths:
             for r in _load_rules(base, p):
                 n_in += 1
@@ -119,6 +125,12 @@ def clean_grammar(base):
                     continue  # 실사용 빈도 낮은 어미: 규칙·예문 모두 제외
                 sf = str(r.get("standard_form", "")).strip()
                 exp = str(r.get("explanation", "")).strip()
+                # 문장 예문 쌍(예문대조규칙): 규칙 아님 → 참조용 예문으로 이관
+                if r.get("grammar_category") in BANNED_CATEGORIES:
+                    examples.append({"region": reg, "standard": sf,
+                                     "dialect": df, "from": "예문대조규칙"})
+                    drop_ex_cat += 1
+                    continue
                 # 예문 분리 (검색소스 제외, 참조용 별도 보관)
                 for ex in (r.get("examples") or []):
                     examples.append({"region": reg,
@@ -138,7 +150,8 @@ def clean_grammar(base):
                     "keywords": r.get("keywords") or [],
                 })
                 kept += 1
-        stats[reg] = dict(input=n_in, kept=kept, dup=dup, banned=banned, examples_split=n_ex)
+        stats[reg] = dict(input=n_in, kept=kept, dup=dup, banned=banned,
+                          drop_ex_cat=drop_ex_cat, examples_split=n_ex)
     return rules, examples, stats
 
 
@@ -170,9 +183,10 @@ def main():
     write_jsonl(rules, os.path.join(args.output, "grammar_rules.jsonl"))
     write_jsonl(examples, os.path.join(args.output, "grammar_examples.jsonl"))
     print("\n=== 문법 정제 (규칙만, 예문 분리) ===")
-    print(f"{'권역':<4}{'입력규칙':>8}{'유지':>6}{'중복':>6}{'제외어미':>8}{'분리예문':>8}")
+    print(f"{'권역':<4}{'입력규칙':>8}{'유지':>6}{'중복':>6}{'제외어미':>8}{'예문대조':>8}{'분리예문':>8}")
     for reg, s in gstats.items():
-        print(f"{reg:<4}{s['input']:>8}{s['kept']:>6}{s['dup']:>6}{s.get('banned', 0):>8}{s['examples_split']:>8}")
+        print(f"{reg:<4}{s['input']:>8}{s['kept']:>6}{s['dup']:>6}"
+              f"{s.get('banned', 0):>8}{s.get('drop_ex_cat', 0):>8}{s['examples_split']:>8}")
     print(f"  → 총 유지 규칙: {len(rules)} / 분리 예문(참조용): {len(examples)}")
     print(f"  제외 어미(BANNED_FORMS): {BANNED_FORMS}")
 
