@@ -37,13 +37,35 @@ _SYMBOL_TAGS = {"SF", "SP", "SS", "SSO", "SSC", "SE", "SO",
 
 
 def tokenize_morph(text):
-    """형태소 단위 토큰화 (kiwipiepy). 기호류 품사 제외, 형태(form) 문자열 반환."""
+    """형태소 단위 토큰화 (kiwipiepy). 기호류 품사 제외, 형태(form) 문자열 반환.
+    규칙(문법) 검색용 — 어미·조사까지 포함해 BM25로 매칭한다."""
     global _kiwi
     if _kiwi is None:
         from kiwipiepy import Kiwi
         _kiwi = Kiwi()
     return [t.form for t in _kiwi.tokenize(str(text))
             if t.tag not in _SYMBOL_TAGS]
+
+
+# 어휘 표제어 매칭용: 내용어(명사·동사·형용사)만. 조사·어미·부사는 배제
+# (그건 규칙 DB가 담당). 용언은 어간을 표제어형(+다)으로 복원해 정확매칭.
+_CONTENT_TAGS = {"NNG", "NNP", "VV", "VA"}
+
+
+def content_keys(text):
+    """질의에서 내용어를 뽑아 (표층형, [표제어 후보키]) 목록 반환.
+    명사: [form], 용언: [form+'다', form]. → head 정확매칭에 사용."""
+    global _kiwi
+    if _kiwi is None:
+        from kiwipiepy import Kiwi
+        _kiwi = Kiwi()
+    out = []
+    for t in _kiwi.tokenize(str(text)):
+        if t.tag in ("NNG", "NNP"):
+            out.append((t.form, [t.form]))
+        elif t.tag in ("VV", "VA"):
+            out.append((t.form, [t.form + "다", t.form]))
+    return out
 
 
 # ── BM25 (z/에서 복사 + 역색인 최적화) ─────────────────────────────────────
@@ -87,12 +109,6 @@ class BM25:
 
 
 # ── 색인 텍스트 정의 (무엇을 검색 대상으로 삼는가) ─────────────────────────
-def _vocab_text(r):
-    """어휘 색인 텍스트: 표제어 + 뜻풀이. dialect(방언형)는 색인하지 않는다
-    (표준어 질의로 검색하므로 매칭 대상은 표준어 쪽)."""
-    return f"{r.get('head') or ''} {r.get('gloss') or ''}"
-
-
 def _rule_text(r):
     """규칙 색인 텍스트: 표준형 + keywords(검색 훅). explanation은 길어서
     색인하면 매칭이 희석되므로 주입 페이로드로만 쓰고 색인엔 넣지 않는다."""
@@ -115,11 +131,20 @@ class KBRetriever:
         rules = _read_jsonl(kb_dir / "grammar_rules.jsonl")
         self.regions = sorted({r["region"] for r in vocab} |
                               {r["region"] for r in rules})
-        # 권역별 분리 색인 (검색·idf 모두 권역 내부에서)
-        self.vocab_idx, self.rule_idx = {}, {}
+        # 권역별 분리 색인.
+        #  어휘: head(표제어) → 항목들 정확매칭 인덱스 (BM25 아님, 사전 조회).
+        #        head=None(뜻풀이만) 항목은 정확매칭 불가라 제외.
+        #  규칙: 형태소 BM25 (어미·조사를 fuzzy 매칭해야 하므로).
+        self.head_index, self.rule_idx = {}, {}
         for reg in self.regions:
-            self.vocab_idx[reg] = _Index(
-                [r for r in vocab if r["region"] == reg], _vocab_text)
+            hidx = {}
+            for r in vocab:
+                if r["region"] != reg:
+                    continue
+                h = r.get("head")
+                if h:
+                    hidx.setdefault(h, []).append(r)
+            self.head_index[reg] = hidx
             self.rule_idx[reg] = _Index(
                 [r for r in rules if r["region"] == reg], _rule_text)
 
@@ -131,32 +156,35 @@ class KBRetriever:
         """
         if region not in self.regions:
             raise ValueError(f"미등록 권역: {region} (가능: {self.regions})")
-        qtok = tokenize_morph(query)
         out = {"lexicon": [], "rules": []}
         if use_lex:
-            out["lexicon"] = self._search_vocab(qtok, region, k_lex)
+            out["lexicon"] = self._search_vocab(query, region, k_lex)
         if use_rule:
-            out["rules"] = self._search_rules(qtok, region, k_rule)
+            out["rules"] = self._search_rules(tokenize_morph(query), region, k_rule)
         return out
 
-    def _search_vocab(self, qtok, region, k):
-        """어휘 검색. 같은 표제어의 방언형이 여러 레코드로 나뉘어 있으므로
-        표제어 단위로 묶어 방언 후보를 모은다(점수는 최대값)."""
-        raw = self.vocab_idx[region].search(qtok, k * 6)  # 묶기 전 여유있게
-        grouped = {}  # key: (head, gloss) → 집계
-        for r, s in raw:
-            key = (r.get("head"), r.get("gloss"))
-            g = grouped.setdefault(key, {
-                "head": r.get("head"), "gloss": r.get("gloss"),
-                "pos": r.get("pos"), "dialects": [], "score": 0.0})
-            if r["dialect"] not in g["dialects"]:
-                g["dialects"].append(r["dialect"])
-            g["score"] = max(g["score"], s)
-        ranked = sorted(grouped.values(), key=lambda x: x["score"], reverse=True)
-        for g in ranked[:k]:
-            g["dialects"] = g["dialects"][:5]  # 방언형 후보 과다 방지
-            g["score"] = round(g["score"], 3)
-        return ranked[:k]
+    def _search_vocab(self, query, region, k):
+        """어휘 검색 = 표제어 정확매칭(사전 조회). 질의의 내용어(명사·용언)를
+        표제어형으로 복원해 head와 정확히 일치하는 것만 반환. 기능어(조사·어미·
+        부사)는 매칭 대상이 아님(그건 규칙 DB 담당) → BM25식 잡음 없음."""
+        idx = self.head_index[region]
+        seen, out = set(), []
+        for _surface, keys in content_keys(query):
+            hit = next((kk for kk in keys if kk in idx), None)
+            if not hit or hit in seen:
+                continue
+            seen.add(hit)
+            entries = idx[hit]
+            dialects = []
+            for e in entries:
+                if e["dialect"] not in dialects:
+                    dialects.append(e["dialect"])
+            out.append({"head": hit, "gloss": entries[0].get("gloss"),
+                        "pos": entries[0].get("pos"),
+                        "dialects": dialects[:5], "score": 1.0})
+            if len(out) >= k:
+                break
+        return out
 
     def _search_rules(self, qtok, region, k):
         out = []
