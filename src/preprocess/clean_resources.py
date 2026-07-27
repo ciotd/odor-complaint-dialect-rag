@@ -45,6 +45,22 @@ BANNED_FORMS = ["당께라우"]
 # 규칙셋에서 빼고 참조용 grammar_examples.jsonl로 보낸다. (2026-07-24, 경상 79건)
 BANNED_CATEGORIES = {"예문대조규칙"}
 
+# 규칙 검수 결정(2026-07-27) — malformed 항목 제거/필드교정. rule_overrides.json 참조.
+_OVERRIDE_PATH = os.path.join(_HERE, "rule_overrides.json")
+
+
+def _load_overrides():
+    """rule_overrides.json → (drop_set, fix_map). 원본 standard_form으로 매칭."""
+    if not os.path.isfile(_OVERRIDE_PATH):
+        return set(), {}
+    with open(_OVERRIDE_PATH, encoding="utf-8") as f:
+        ov = json.load(f)
+    drop = {(d["region"], d["standard_form"]) for d in ov.get("drop", [])}
+    fix = {(x["region"], x["match"]):
+           {"standard_form": x["standard_form"], "dialect_form": x["dialect_form"]}
+           for x in ov.get("fix", [])}
+    return drop, fix
+
 # 문장/속담 판단: 종결어미
 _SENT_TAIL = re.compile(r"(다|까|라|네|군|지|요|음|함)$")
 
@@ -112,10 +128,11 @@ def _load_rules(base, path):
 
 
 def clean_grammar(base):
+    drop_ov, fix_ov = _load_overrides()
     rules, examples, stats = [], [], {}
     for reg, paths in GRAMMAR.items():
         seen = set()
-        n_in = kept = dup = n_ex = banned = drop_ex_cat = 0
+        n_in = kept = dup = n_ex = banned = drop_ex_cat = drop_review = fixed = 0
         for p in paths:
             for r in _load_rules(base, p):
                 n_in += 1
@@ -131,6 +148,14 @@ def clean_grammar(base):
                                      "dialect": df, "from": "예문대조규칙"})
                     drop_ex_cat += 1
                     continue
+                # 검수 override: 서술형 제거 / 필드 교정(원본 sf로 매칭)
+                if (reg, sf) in drop_ov:
+                    drop_review += 1
+                    continue
+                if (reg, sf) in fix_ov:
+                    fx = fix_ov[(reg, sf)]
+                    sf, df = fx["standard_form"], fx["dialect_form"]
+                    fixed += 1
                 # 예문 분리 (검색소스 제외, 참조용 별도 보관)
                 for ex in (r.get("examples") or []):
                     examples.append({"region": reg,
@@ -151,7 +176,8 @@ def clean_grammar(base):
                 })
                 kept += 1
         stats[reg] = dict(input=n_in, kept=kept, dup=dup, banned=banned,
-                          drop_ex_cat=drop_ex_cat, examples_split=n_ex)
+                          drop_ex_cat=drop_ex_cat, drop_review=drop_review,
+                          fixed=fixed, examples_split=n_ex)
     return rules, examples, stats
 
 
@@ -183,10 +209,12 @@ def main():
     write_jsonl(rules, os.path.join(args.output, "grammar_rules.jsonl"))
     write_jsonl(examples, os.path.join(args.output, "grammar_examples.jsonl"))
     print("\n=== 문법 정제 (규칙만, 예문 분리) ===")
-    print(f"{'권역':<4}{'입력규칙':>8}{'유지':>6}{'중복':>6}{'제외어미':>8}{'예문대조':>8}{'분리예문':>8}")
+    print(f"{'권역':<4}{'입력규칙':>8}{'유지':>6}{'중복':>6}{'제외어미':>8}"
+          f"{'예문대조':>8}{'검수제거':>8}{'검수수정':>8}{'분리예문':>8}")
     for reg, s in gstats.items():
         print(f"{reg:<4}{s['input']:>8}{s['kept']:>6}{s['dup']:>6}"
-              f"{s.get('banned', 0):>8}{s.get('drop_ex_cat', 0):>8}{s['examples_split']:>8}")
+              f"{s.get('banned', 0):>8}{s.get('drop_ex_cat', 0):>8}"
+              f"{s.get('drop_review', 0):>8}{s.get('fixed', 0):>8}{s['examples_split']:>8}")
     print(f"  → 총 유지 규칙: {len(rules)} / 분리 예문(참조용): {len(examples)}")
     print(f"  제외 어미(BANNED_FORMS): {BANNED_FORMS}")
 

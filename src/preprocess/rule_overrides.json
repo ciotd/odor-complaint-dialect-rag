@@ -1,0 +1,15 @@
+{
+  "_comment": "규칙 검수(2026-07-27, 사용자+협업) 결정. malformed 10건 처리. clean_resources.py가 정제 시 적용. drop=서술형(형태매핑 아님) 제거, fix=설명에 파묻힌 실제 형태쌍만 추출. 유지 2건(#1 경어법, #10 충청 종결어미)은 길이 오탐이라 override 없음.",
+  "drop": [
+    {"region": "경상", "standard_form": "모음체계 (6/7/8모음)", "reason": "서술형(동남방언 모음체계 설명) — 형태→형태 변환 아님"},
+    {"region": "경상", "standard_form": "성조 체계", "reason": "서술형(동남방언은 성조방언) — 변환 형태 없음"},
+    {"region": "경상", "standard_form": "모음조화 지역차 (경북)", "reason": "서술형(모음조화 지역차) — 구체 형태 없음"}
+  ],
+  "fix": [
+    {"region": "경상", "match": "주격조사 -이가/-(이)란 (경북)", "standard_form": "-이/가", "dialect_form": "-이가, -(이)란", "note": "설명(존칭주격 -께서 대신 -이/가)은 explanation에 유지"},
+    {"region": "경상", "match": "속격조사 -에/-으/-이 (경북)", "standard_form": "-의", "dialect_form": "-에/-으/-이/-오/-우"},
+    {"region": "경상", "match": "공동격조사 -카/-캉 (경북)", "standard_form": "-와/-과", "dialect_form": "-카/-캉"},
+    {"region": "경상", "match": "선어말어미 -앗-/-것- (경북)", "standard_form": "-았-, -겠-", "dialect_form": "-앗-, -것-"},
+    {"region": "경상", "match": "부정법 몬/몯 + 단형 선호 (경북)", "standard_form": "못", "dialect_form": "몬/몯", "note": "단형부정 선호 등 사용경향 서술은 형태쌍이 아니라 버림"}
+  ]
+}
