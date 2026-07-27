@@ -24,7 +24,12 @@ MODELS = [
     ("openai", "gpt-5.4-mini"),
     ("openai", "gpt-5-mini"),
     ("openai", "gpt-5-nano"),
+    # 로컬 vLLM (sunmin2 재사용). 서버 미기동 시 자동 제외.
+    ("local", "Qwen/Qwen3.6-27B"),
 ]
+
+# 로컬 vLLM 서버 (OpenAI 호환). thinking 비활성(생성 태스크).
+LOCAL_BASE_URL = "http://localhost:8000/v1"
 
 # ── 슬롯 수집 확률(채택률) — 미채택 슬롯은 '미언급' ───────────────────
 #   위치 100% / 악취종류 90% / 강도 50% / 지속 50% / 원인 10%

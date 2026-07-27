@@ -98,6 +98,31 @@ def call_anthropic(model: str, prompt: str, max_tokens: int, timeout: float) -> 
     )
 
 
+def call_local(model: str, prompt: str, max_tokens: int, timeout: float) -> dict:
+    """로컬 vLLM(OpenAI 호환). 인증 없음, thinking 비활성(생성 태스크)."""
+    body = {
+        "model": model,
+        "messages": [
+            {"role": "system", "content": SYSTEM_MSG},
+            {"role": "user", "content": prompt},
+        ],
+        "max_tokens": max_tokens,
+        # Qwen3 계열: 생성 태스크이므로 사고과정 비활성(sunmin2와 동일)
+        "chat_template_kwargs": {"enable_thinking": False},
+    }
+    url = config.LOCAL_BASE_URL.rstrip("/") + "/chat/completions"
+    return _post(url, body, {}, "openai", timeout)  # 응답 스키마는 openai와 동일
+
+
+def local_up(timeout: float = 3.0) -> bool:
+    try:
+        req = urllib.request.Request(config.LOCAL_BASE_URL.rstrip("/") + "/models")
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            return resp.status == 200
+    except Exception:
+        return False
+
+
 def _post(url: str, body: dict, headers: dict, provider: str, timeout: float, _try: int = 0) -> dict:
     headers = {"Content-Type": "application/json", **headers}
     req = urllib.request.Request(
@@ -229,6 +254,7 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--n", type=int, default=6, help="시나리오 개수(권역 순환)")
     ap.add_argument("--models", type=str, default="", help="쉼표구분 모델 포함 필터(부분일치)")
+    ap.add_argument("--regions", type=str, default="", help="쉼표구분 권역키 필터(예: 경상,전라)")
     ap.add_argument("--exclude", type=str, default="", help="쉼표구분 모델 제외 필터(부분일치)")
     ap.add_argument("--max-tokens", type=int, default=2500)
     ap.add_argument("--timeout", type=float, default=300.0)
@@ -241,8 +267,11 @@ def main() -> None:
     have = {
         "openai": bool(os.environ.get("OPENAI_API_KEY", "").strip()),
         "anthropic": bool(os.environ.get("ANTHROPIC_API_KEY", "").strip()),
+        "local": local_up(),
     }
-    print(f"[키] OpenAI={'OK' if have['openai'] else '없음'} · Anthropic={'OK' if have['anthropic'] else '없음'}")
+    print(f"[키] OpenAI={'OK' if have['openai'] else '없음'} · "
+          f"Anthropic={'OK' if have['anthropic'] else '없음'} · "
+          f"Local(vLLM)={'OK' if have['local'] else '미기동'}")
 
     models = list(config.MODELS)
     if args.models:
@@ -260,6 +289,10 @@ def main() -> None:
     template = (HERE / "prompts" / "prompt_template.txt").read_text(encoding="utf-8")
     rng = random.Random(args.seed)
     regions = config.REGION_KEYS
+    if args.regions:
+        want = [w.strip() for w in args.regions.split(",") if w.strip()]
+        regions = [r for r in config.REGION_KEYS if r in want] or config.REGION_KEYS
+        print(f"[권역] {regions}")
     _ensure_orig_sampler()  # 데이터 파일 풀 사전 로드(첫 1회 수 초)
     scenarios = []
     for i in range(args.n):
@@ -281,7 +314,8 @@ def main() -> None:
 
     def work(task):
         sc, prompt, provider, model = task
-        fn = call_openai if provider == "openai" else call_anthropic
+        fn = {"openai": call_openai, "anthropic": call_anthropic,
+              "local": call_local}[provider]
         res = fn(model, prompt, args.max_tokens, args.timeout)
         return sc["scenario_id"], model, provider, res
 
