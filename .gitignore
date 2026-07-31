@@ -15,3 +15,9 @@ data/raw/*.json
 
 # 방언 지식 리소스 정제 결과 (네이버 사전/문법서 파생물 — 라이선스상 커밋 금지)
 data/dialect_kb/
+
+# 방언성 표지 손목록 (AI-Hub 코퍼스/사전 파생 — 데이터 번들과 함께 별도 배포; 스크립트로 재현 가능)
+docs/dialect_markers*.csv
+
+# 방언 코퍼스 (AI-Hub 등 외부 데이터 — 저장소 밖 별도 배포)
+dialect_corpus/
