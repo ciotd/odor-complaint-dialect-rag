@@ -127,6 +127,15 @@ class _Index:
         return [(self.records[i], s) for i, s in self.bm25.top_k(query_tokens, k)]
 
 
+# 종결어미·조사·존대(경어/높임) 규칙은 존댓말 민원 어디에나 적용되는 '권역 일반' 규칙이라
+# BM25로는 초고빈도(예: '요')라 검색이 안 걸린다 → 해당 권역이면 항상 고정 주입한다.
+# (카테고리 라벨이 권역마다 달라 부분문자열로 매칭: 경상은 '경어법'이 존대 종결을 담음.)
+_FIXED_RULE_CATS = ("종결", "조사", "경어", "높임")
+def _is_fixed_rule(category):
+    c = str(category or "")
+    return any(t in c for t in _FIXED_RULE_CATS)
+
+
 class KBRetriever:
     def __init__(self, kb_dir=KB_DIR):
         kb_dir = Path(kb_dir)
@@ -138,7 +147,7 @@ class KBRetriever:
         #  어휘: head(표제어) → 항목들 정확매칭 인덱스 (BM25 아님, 사전 조회).
         #        head=None(뜻풀이만) 항목은 정확매칭 불가라 제외.
         #  규칙: 형태소 BM25 (어미·조사를 fuzzy 매칭해야 하므로).
-        self.head_index, self.rule_idx = {}, {}
+        self.head_index, self.rule_idx, self.fixed_rules = {}, {}, {}
         for reg in self.regions:
             hidx = {}
             for r in vocab:
@@ -150,6 +159,13 @@ class KBRetriever:
             self.head_index[reg] = hidx
             self.rule_idx[reg] = _Index(
                 [r for r in rules if r["region"] == reg], _rule_text)
+            # 종결·조사·존대 규칙 = 항상 주입(BM25 우회)
+            self.fixed_rules[reg] = [
+                {"category": r.get("category"), "standard_form": r.get("standard_form"),
+                 "dialect_form": r.get("dialect_form"), "explanation": r.get("explanation"),
+                 "score": None, "fixed": True}
+                for r in rules
+                if r["region"] == reg and _is_fixed_rule(r.get("category"))]
 
     def retrieve(self, query, region, use_lex=True, use_rule=True,
                  k_lex=5, k_rule=5):
@@ -163,7 +179,12 @@ class KBRetriever:
         if use_lex:
             out["lexicon"] = self._search_vocab(query, region, k_lex)
         if use_rule:
-            out["rules"] = self._search_rules(tokenize_morph(query), region, k_rule)
+            retrieved = self._search_rules(tokenize_morph(query), region, k_rule)
+            fixed = self.fixed_rules.get(region, [])
+            seen = {(x["standard_form"], x["dialect_form"]) for x in fixed}
+            # 고정(종결·조사·존대) 먼저 + BM25 검색분(중복 제외)
+            out["rules"] = fixed + [r for r in retrieved
+                                    if (r["standard_form"], r["dialect_form"]) not in seen]
         return out
 
     def _search_vocab(self, query, region, k):
