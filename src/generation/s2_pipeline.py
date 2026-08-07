@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
 """S2(변환) 전략 생성 하네스 — 표준어 생성 → (검색·주입) → 방언 변환.
 
-C0 / C1 / C_kb 비교를 '변환 단계'에서만 다르게 하여 RAG 효과를 분리한다:
-  - S2×C0  : 표준어 대화 생성 → (지식 없이) 방언 변환
-  - S2×C1  : 표준어 대화 생성 → 고정 few-shot 예시 주입 → 방언 변환 (쿼리 무관)
-  - S2×C_kb: 표준어 대화 생성 → 민원인 표준어 발화를 쿼리로 검색 → 지식 주입 변환
+변환 단계에서만 조건을 달리해 RAG 효과를 분리한다:
+  - S2×C0       : 표준어 대화 생성 → (지식 없이) 방언 변환
+  - S2×C1       : 표준어 대화 생성 → 고정 few-shot 예시 주입 → 방언 변환 (쿼리 무관)
+  - S2×C_kb_lex : 표준어 대화 생성 → 어휘만 검색·주입 → 방언 변환  (RQ2 분해)
+  - S2×C_kb_rule: 표준어 대화 생성 → 규칙만 검색·주입 → 방언 변환  (RQ2 분해)
+  - S2×C_kb     : 표준어 대화 생성 → 어휘+규칙 검색·주입 → 방언 변환 (C_kb-both)
 변환 프롬프트는 knowledge_block 유무만 다르고 나머지는 동일(공정 비교).
 C1은 RAG 검색 없이 고정 예시만 주입 → "예시가 있어서" 생기는 효과를 C_kb와 분리.
 
@@ -12,7 +14,8 @@ C1은 RAG 검색 없이 고정 예시만 주입 → "예시가 있어서" 생기
 미매칭 부분은 프롬프트에 없으므로 LLM 자체 지식으로 출력됨 → coverage를 로그로 남긴다.
 
 사용:
-  python src/generation/s2_pipeline.py --n 8 --regions 경상,전라 --model Qwen --conditions c0,c1,c_kb
+  python src/generation/s2_pipeline.py --n 10 --regions 경상,전라,충청,강원,제주 \\
+      --model Qwen/Qwen3.6-27B --conditions c0,c1,c_kb_lex,c_kb_rule,c_kb
 """
 import argparse
 import json
@@ -88,15 +91,18 @@ def parse_turns(text: str):
 
 
 def retrieve_knowledge(retr, complainant_lines, region, k_lex, k_rule,
-                       cap_lex=20, cap_rule=10):
-    """민원인 표준어 발화들 → 통합 검색. (knowledge_block, coverage)."""
+                       use_lex=True, use_rule=True, cap_lex=20, cap_rule=10):
+    """민원인 표준어 발화들 → 통합 검색. (knowledge_block, coverage).
+
+    use_lex / use_rule 스위치로 C_kb-lex / C_kb-rule / C_kb-both 조건 대응.
+    """
     lex, rules = {}, {}
     n_content = n_hit = 0
     for line in complainant_lines:
-        # coverage: 이 발화의 내용어 중 몇 개가 어휘 DB에 걸리나
         keys = content_keys(line)
         n_content += len(keys)
-        hits = retr.retrieve(line, region, k_lex=k_lex, k_rule=k_rule)
+        hits = retr.retrieve(line, region, use_lex=use_lex, use_rule=use_rule,
+                             k_lex=k_lex, k_rule=k_rule)
         matched_heads = {g["head"] for g in hits["lexicon"]}
         for surface, cand in keys:
             if any(c in matched_heads for c in cand):
@@ -112,6 +118,14 @@ def retrieve_knowledge(retr, complainant_lines, region, k_lex, k_rule,
            "lex_rate": round(n_hit / n_content, 3) if n_content else 0.0,
            "n_lex": len(agg["lexicon"]), "n_rules": len(agg["rules"])}
     return block, cov
+
+
+# 조건명 → (use_lex, use_rule) 매핑
+_COND_SWITCHES = {
+    "c_kb_lex":  (True,  False),
+    "c_kb_rule": (False, True),
+    "c_kb":      (True,  True),
+}
 
 
 def main():
@@ -139,7 +153,8 @@ def main():
 
     std_tmpl = (PROMPTS / "prompt_standard.txt").read_text(encoding="utf-8")
     conv_tmpl = (PROMPTS / "convert_template.txt").read_text(encoding="utf-8")
-    retr = KBRetriever() if "c_kb" in conditions else None
+    needs_retr = any(c in conditions for c in ("c_kb", "c_kb_lex", "c_kb_rule"))
+    retr = KBRetriever() if needs_retr else None
     c1_examples = load_c1_examples() if "c1" in conditions else {}
 
     # 시나리오 샘플 (run.py와 동일 방식·시드 → 재현/공정)
@@ -172,21 +187,28 @@ def main():
         complainant = [u for sp, u in turns if sp == "민원인"]
         print(f"  ① 표준어 {len(turns)}턴(민원인 {len(complainant)}) 생성")
 
-        # ②-a 검색(조건 c_kb만)
-        block, cov = "", None
-        if "c_kb" in conditions and complainant:
-            raw, cov = retrieve_knowledge(retr, complainant, region,
-                                          args.k_lex, args.k_rule)
-            block = ("\n[활용할 방언 지식 — 우선 참고하되, 없는 표현은 자연스러운 방언으로]\n"
-                     + raw + "\n") if raw else ""
-            print(f"  ②검색 어휘{cov['n_lex']}·규칙{cov['n_rules']} "
+        # ②-a 검색 (c_kb / c_kb_lex / c_kb_rule 조건)
+        kb_blocks, cov = {}, None
+        for cond, (ul, ur) in _COND_SWITCHES.items():
+            if cond not in conditions or not complainant:
+                continue
+            raw, _cov = retrieve_knowledge(retr, complainant, region,
+                                           args.k_lex, args.k_rule,
+                                           use_lex=ul, use_rule=ur)
+            kb_blocks[cond] = (
+                "\n[활용할 방언 지식 — 우선 참고하되, 없는 표현은 자연스러운 방언으로]\n"
+                + raw + "\n") if raw else ""
+            if cov is None:
+                cov = _cov  # coverage는 c_kb 기준으로만 로그
+        if cov:
+            print(f"  ②검색(c_kb) 어휘{cov['n_lex']}·규칙{cov['n_rules']} "
                   f"(어휘 coverage {cov['lex_rate']})")
 
         # ②-b 변환 (조건별)
         conv = {}
         for cond in conditions:
-            if cond == "c_kb":
-                kb = block
+            if cond in _COND_SWITCHES:
+                kb = kb_blocks.get(cond, "")
             elif cond == "c1":
                 exs = c1_examples.get(region, [])
                 kb = format_c1_block(exs) if exs else ""
