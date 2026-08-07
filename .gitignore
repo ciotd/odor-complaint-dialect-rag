@@ -9,6 +9,9 @@ __pycache__/
 .venv/
 venv/
 
+# 원본 리소스 zip 번들
+*.zip
+
 # 원본 대형 지명 파일(별도 전달) — 저장소에는 안 올림
 data/raw/*.csv
 data/raw/*.json
