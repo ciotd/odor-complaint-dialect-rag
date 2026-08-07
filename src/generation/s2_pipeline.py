@@ -1,16 +1,18 @@
 # -*- coding: utf-8 -*-
 """S2(변환) 전략 생성 하네스 — 표준어 생성 → (검색·주입) → 방언 변환.
 
-C0 vs C_kb 비교를 '변환 단계'에서만 다르게 하여 RAG 효과를 분리한다:
+C0 / C1 / C_kb 비교를 '변환 단계'에서만 다르게 하여 RAG 효과를 분리한다:
   - S2×C0  : 표준어 대화 생성 → (지식 없이) 방언 변환
+  - S2×C1  : 표준어 대화 생성 → 고정 few-shot 예시 주입 → 방언 변환 (쿼리 무관)
   - S2×C_kb: 표준어 대화 생성 → 민원인 표준어 발화를 쿼리로 검색 → 지식 주입 변환
 변환 프롬프트는 knowledge_block 유무만 다르고 나머지는 동일(공정 비교).
+C1은 RAG 검색 없이 고정 예시만 주입 → "예시가 있어서" 생기는 효과를 C_kb와 분리.
 
 쿼리 = ①단계에서 만든 '민원인 표준어 발화'. 어휘=표제어 정확매칭, 규칙=형태소 BM25.
 미매칭 부분은 프롬프트에 없으므로 LLM 자체 지식으로 출력됨 → coverage를 로그로 남긴다.
 
 사용:
-  python src/generation/s2_pipeline.py --n 8 --regions 경상,전라 --model Qwen --conditions c0,c_kb
+  python src/generation/s2_pipeline.py --n 8 --regions 경상,전라 --model Qwen --conditions c0,c1,c_kb
 """
 import argparse
 import json
@@ -30,6 +32,22 @@ from src.retrieval.kb_retriever import (  # noqa: E402
 )
 
 PROMPTS = _REPO / "prompts"
+_C1_EXAMPLES_PATH = _REPO / "data" / "c1_examples.json"
+
+
+def load_c1_examples() -> dict:
+    """권역별 고정 few-shot 예시 로드."""
+    with open(_C1_EXAMPLES_PATH, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def format_c1_block(examples: list) -> str:
+    """고정 예시 목록 → 프롬프트 블록 문자열."""
+    lines = ["\n[방언 변환 예시 — 아래처럼 변환한다]\n"]
+    for ex in examples:
+        lines.append(f"표준어: {ex['standard']}")
+        lines.append(f"방언:   {ex['dialect']}\n")
+    return "\n".join(lines)
 
 
 def provider_of(model: str) -> str:
@@ -122,6 +140,7 @@ def main():
     std_tmpl = (PROMPTS / "prompt_standard.txt").read_text(encoding="utf-8")
     conv_tmpl = (PROMPTS / "convert_template.txt").read_text(encoding="utf-8")
     retr = KBRetriever() if "c_kb" in conditions else None
+    c1_examples = load_c1_examples() if "c1" in conditions else {}
 
     # 시나리오 샘플 (run.py와 동일 방식·시드 → 재현/공정)
     run._ensure_orig_sampler()
@@ -166,7 +185,13 @@ def main():
         # ②-b 변환 (조건별)
         conv = {}
         for cond in conditions:
-            kb = block if cond == "c_kb" else ""
+            if cond == "c_kb":
+                kb = block
+            elif cond == "c1":
+                exs = c1_examples.get(region, [])
+                kb = format_c1_block(exs) if exs else ""
+            else:  # c0
+                kb = ""
             cp = fill(conv_tmpl, {"region_name": rname,
                                   "knowledge_block": kb,
                                   "standard_dialogue": std_dialogue})
