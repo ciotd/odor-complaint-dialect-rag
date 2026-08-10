@@ -32,7 +32,10 @@ HERE = Path(__file__).resolve().parent
 OPENAI_URL = "https://api.openai.com/v1/chat/completions"
 ANTHROPIC_URL = "https://api.anthropic.com/v1/messages"
 ANTHROPIC_VERSION = "2023-06-01"
-SYSTEM_MSG = "너는 악취 민원 상담 시나리오 생성기다. 출력은 오직 대화체만 포함한다."
+SYSTEM_MSG = (
+    "너는 악취 민원 상담 시나리오 생성기다. 출력은 오직 대화체만 포함한다. "
+    "반드시 한국어만 사용한다. 중국어·일본어·영어 등 외국어 문자를 단 한 글자도 출력하지 않는다."
+)
 
 
 # ── .env 로딩 (기존 프로젝트 키 재사용) ──────────────────────────────
@@ -99,7 +102,7 @@ def call_anthropic(model: str, prompt: str, max_tokens: int, timeout: float) -> 
 
 
 def call_local(model: str, prompt: str, max_tokens: int, timeout: float) -> dict:
-    """로컬 vLLM(OpenAI 호환). 인증 없음, thinking 비활성(생성 태스크)."""
+    """로컬 vLLM(OpenAI 호환). VLLM_API_KEY를 Bearer 토큰으로 사용."""
     body = {
         "model": model,
         "messages": [
@@ -110,13 +113,18 @@ def call_local(model: str, prompt: str, max_tokens: int, timeout: float) -> dict
         # Qwen3 계열: 생성 태스크이므로 사고과정 비활성(sunmin2와 동일)
         "chat_template_kwargs": {"enable_thinking": False},
     }
+    headers = {"Authorization": f"Bearer {os.environ.get('VLLM_API_KEY', '')}"}
+
     url = config.LOCAL_BASE_URL.rstrip("/") + "/chat/completions"
-    return _post(url, body, {}, "openai", timeout)  # 응답 스키마는 openai와 동일
+    return _post(url, body, headers, "openai", timeout)  # 응답 스키마는 openai와 동일
 
 
 def local_up(timeout: float = 3.0) -> bool:
+    base = config.LOCAL_BASE_URL.rstrip("/")
+    # /v1 제거 후 /health로 확인 (인증 불필요)
+    health_url = base.rsplit("/v1", 1)[0] + "/health"
     try:
-        req = urllib.request.Request(config.LOCAL_BASE_URL.rstrip("/") + "/models")
+        req = urllib.request.Request(health_url)
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             return resp.status == 200
     except Exception:

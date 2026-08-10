@@ -96,6 +96,10 @@ def retrieve_knowledge(retr, complainant_lines, region, k_lex, k_rule,
 
     use_lex / use_rule 스위치로 C_kb-lex / C_kb-rule / C_kb-both 조건 대응.
     """
+    if region not in retr.regions:
+        empty_cov = {"content_words": 0, "lex_hits": 0, "lex_rate": 0.0,
+                     "n_lex": 0, "n_rules": 0}
+        return "", empty_cov
     lex, rules = {}, {}
     n_content = n_hit = 0
     for line in complainant_lines:
@@ -120,11 +124,12 @@ def retrieve_knowledge(retr, complainant_lines, region, k_lex, k_rule,
     return block, cov
 
 
-# 조건명 → (use_lex, use_rule) 매핑
+# 조건명 → (use_lex, use_rule) 매핑 (c_kb_c1은 c_kb와 동일 검색 + C1 예시 추가)
 _COND_SWITCHES = {
     "c_kb_lex":  (True,  False),
     "c_kb_rule": (False, True),
     "c_kb":      (True,  True),
+    "c_kb_c1":   (True,  True),
 }
 
 
@@ -153,9 +158,10 @@ def main():
 
     std_tmpl = (PROMPTS / "prompt_standard.txt").read_text(encoding="utf-8")
     conv_tmpl = (PROMPTS / "convert_template.txt").read_text(encoding="utf-8")
-    needs_retr = any(c in conditions for c in ("c_kb", "c_kb_lex", "c_kb_rule"))
+    needs_retr = any(c in _COND_SWITCHES for c in conditions)
     retr = KBRetriever() if needs_retr else None
-    c1_examples = load_c1_examples() if "c1" in conditions else {}
+    needs_c1 = any(c in ("c1", "c_kb_c1") for c in conditions)
+    c1_examples = load_c1_examples() if needs_c1 else {}
 
     # 시나리오 샘플 (run.py와 동일 방식·시드 → 재현/공정)
     run._ensure_orig_sampler()
@@ -198,8 +204,8 @@ def main():
             kb_blocks[cond] = (
                 "\n[활용할 방언 지식 — 우선 참고하되, 없는 표현은 자연스러운 방언으로]\n"
                 + raw + "\n") if raw else ""
-            if cov is None:
-                cov = _cov  # coverage는 c_kb 기준으로만 로그
+            if cond == "c_kb":
+                cov = _cov  # coverage 로그는 c_kb(어휘+규칙 모두) 기준
         if cov:
             print(f"  ②검색(c_kb) 어휘{cov['n_lex']}·규칙{cov['n_rules']} "
                   f"(어휘 coverage {cov['lex_rate']})")
@@ -207,7 +213,11 @@ def main():
         # ②-b 변환 (조건별)
         conv = {}
         for cond in conditions:
-            if cond in _COND_SWITCHES:
+            if cond == "c_kb_c1":
+                kb_part = kb_blocks.get(cond, "")
+                exs = c1_examples.get(region, [])
+                kb = kb_part + (format_c1_block(exs) if exs else "")
+            elif cond in _COND_SWITCHES:
                 kb = kb_blocks.get(cond, "")
             elif cond == "c1":
                 exs = c1_examples.get(region, [])

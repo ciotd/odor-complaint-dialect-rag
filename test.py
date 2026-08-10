@@ -1,10 +1,13 @@
+import os
+from pathlib import Path
+
+from dotenv import load_dotenv
 from openai import OpenAI
 
-# 동료에게 받은 주소와 포트로 수정
-BASE_URL = "http://192.168.100.1:8001/v1"
+load_dotenv(Path(__file__).resolve().parent / ".env")
 
-# API key가 없으면 "EMPTY" 사용
-API_KEY = "EMPTY"
+BASE_URL = "http://192.168.100.1:8001/v1"
+API_KEY = os.environ.get("VLLM_API_KEY", "")
 
 client = OpenAI(
     base_url=BASE_URL,
