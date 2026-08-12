@@ -65,6 +65,26 @@ def _load_overrides():
            for x in ov.get("fix", [])}
     return drop, fix
 
+
+# 주입 부적합 규칙 판별(2026-08-12 1차 자동 정제): 추상 음운·자모 리스트·문장형은
+# 프롬프트에 넣어도 모델이 어절 단위로 적용 못 함. 어미/형태소 치환 규칙만 남긴다.
+_JAMO = re.compile(r'[ㄱ-ㅎㅏ-ㅣ]')  # 자모 단독 = 음운 규칙 신호
+_PHON_WORDS = ("음운", "모음", "자음", "움라우트", "된소리", "구개음화", "연음", "유기음",
+               "경음", "후두", "전설", "후설", "단모음", "이중모음", "예사소리", "축약", "탈락")
+
+
+def is_injectable_rule(sf, df, exp):
+    """어절 단위 주입 가능한 어미/형태소 규칙인가. 음운·리스트·문장형이면 False."""
+    if _JAMO.search(sf) or _JAMO.search(df):
+        return False  # ㄱ→ㄲ, 외/의/류 같은 자모 규칙
+    if "," in sf or "," in df or "、" in sf:
+        return False  # 콤마 나열(음운/어휘 리스트)
+    if any(w in exp for w in _PHON_WORDS):
+        return False  # 설명이 음운 현상
+    if len(sf.split()) >= 3 or len(sf) > 15:
+        return False  # 문장형(예문 오염)
+    return True
+
 # 문장/속담 판단: 종결어미
 _SENT_TAIL = re.compile(r"(다|까|라|네|군|지|요|음|함)$")
 
@@ -137,7 +157,7 @@ def clean_grammar(base):
     for reg, paths in GRAMMAR.items():
         seen = set()
         n_in = kept = dup = n_ex = banned = drop_ex_cat = drop_review = fixed = 0
-        drop_null = 0
+        drop_null = drop_phon = 0
         for p in paths:
             for r in _load_rules(base, p):
                 n_in += 1
@@ -150,6 +170,10 @@ def clean_grammar(base):
                 # 구조화 폼 없는 규칙(설명문만) 제외: 검색·주입 불가 (제주 나무위키 파생 다수)
                 if r.get("grammar_category") not in BANNED_CATEGORIES and (not sf or not df):
                     drop_null += 1
+                    continue
+                # 주입 부적합(추상 음운·자모 리스트·문장형) 제외: 어미/형태소 규칙만 유지
+                if r.get("grammar_category") not in BANNED_CATEGORIES and not is_injectable_rule(sf, df, exp):
+                    drop_phon += 1
                     continue
                 # 문장 예문 쌍(예문대조규칙): 규칙 아님 → 참조용 예문으로 이관
                 if r.get("grammar_category") in BANNED_CATEGORIES:
@@ -186,7 +210,8 @@ def clean_grammar(base):
                 kept += 1
         stats[reg] = dict(input=n_in, kept=kept, dup=dup, banned=banned,
                           drop_ex_cat=drop_ex_cat, drop_review=drop_review,
-                          fixed=fixed, examples_split=n_ex, drop_null=drop_null)
+                          fixed=fixed, examples_split=n_ex, drop_null=drop_null,
+                          drop_phon=drop_phon)
     return rules, examples, stats
 
 
@@ -224,7 +249,7 @@ def main():
         print(f"{reg:<4}{s['input']:>8}{s['kept']:>6}{s['dup']:>6}"
               f"{s.get('banned', 0):>8}{s.get('drop_ex_cat', 0):>8}"
               f"{s.get('drop_review', 0):>8}{s.get('fixed', 0):>8}"
-              f"{s.get('drop_null', 0):>7}{s['examples_split']:>8}")
+              f"{s.get('drop_null', 0):>7}{s.get('drop_phon', 0):>7}{s['examples_split']:>8}")
     print(f"  → 총 유지 규칙: {len(rules)} / 분리 예문(참조용): {len(examples)}")
     print(f"  제외 어미(BANNED_FORMS): {BANNED_FORMS}")
 
