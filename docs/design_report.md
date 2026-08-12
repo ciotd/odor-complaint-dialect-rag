@@ -40,9 +40,26 @@
 - **LLM 기반 합성 데이터 생성(저자원·대화)** — DiaSynth, 저자원 LLM 데이터 생성 전략 연구
   (타깃언어 예시 + LLM 수정이 강력하다는 보고 → 본 연구 few-shot 우위와 연결).
 - **RAG for controllable generation** — Lewis et al. (2020) 등 지식 주입 생성.
-- **어미/표지 기반 방언 식별** — Stable Lexical Marker Analysis(코퍼스 기반 어휘변이 마커),
-  한국어 방언 식별(단 음성 기반) → 본 지표의 방법적 뿌리. LLM-as-judge(A단계 독립 참조 근거).
-  *(인용 후보 조사 완료, 저자·연도 최종 대조 필요.)*
+  Bengali 표준→방언 RAG 번역 비교(arXiv 2512.14179) 등 저자원 방언에 RAG 적용 사례.
+- **어미/표지 기반 방언 식별·평가** — Stable Lexical Marker Analysis(코퍼스 기반 어휘변이 마커),
+  Dialect-robust Evaluation(ACL 2023), CTRLEval(reference-free 제어생성 평가, ACL 2022).
+  LLM-as-judge(A단계 독립 참조 근거).
+
+### 2.1 가장 근접한 선행연구 — DIA-REFINE (반드시 인용·차별화)
+
+**DIA-REFINE**(arXiv 2511.06680, "Steering LLMs toward Korean Local Speech")는 한국어 방언을
+LLM으로 생성/변환하고, **Dialect Fidelity Score(DFS)**·**Target Dialect Ratio(TDR)**로 방언성을
+자동 측정한다. 우리의 방언율/누수율과 목적이 겹친다. → **본 연구의 자동 지표는 신규성으로 주장하지
+않으며, DIA-REFINE을 인용하고 도구로만 사용**한다.
+
+**차별점(본 연구가 다루고 그들이 다루지 않은 것):**
+1. **과제·도메인:** 그들은 단문 표준→방언 *번역*, 본 연구는 공공 민원(악취) **다중턴 대화 생성**.
+2. **지식 주입(KB/RAG) 비교:** 그들은 KB·RAG 없이 BM25 예시 검색만. 본 연구는 **어휘+문법 KB
+   검색·주입(C_kb)**을 few-shot과 분리 비교 — "**RAG가 few-shot을 넘는가**"는 그들이 안 던진 질문.
+3. **지표 방식:** 그들은 학습된 분류기(라벨 5만)+임베딩. 본 연구는 **학습 불필요 어미 마커**(경량·투명).
+4. **범위:** 그들 3권역(전라·경상·제주), 본 연구 **5권역**(+충청·강원) · **로컬 오픈소스 전용**.
+
+*(인용 서지·연도 최종 대조 필요.)*
 
 ---
 
