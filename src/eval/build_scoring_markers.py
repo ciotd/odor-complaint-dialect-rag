@@ -12,7 +12,9 @@
 """
 import csv, os, collections
 HERE=os.path.dirname(os.path.abspath(__file__)); ROOT=os.path.abspath(os.path.join(HERE,"..",".."))
-V2=os.path.join(ROOT,"docs","dialect_markers_v2.csv")
+# v3(1인+2인발화 통합)이 있으면 우선 사용, 없으면 v2(2인발화)
+_V3=os.path.join(ROOT,"docs","dialect_markers_v3.csv")
+V2=_V3 if os.path.exists(_V3) else os.path.join(ROOT,"docs","dialect_markers_v2.csv")
 V1=os.path.join(ROOT,"docs","dialect_markers.csv")
 OUT=os.path.join(ROOT,"docs","dialect_markers_scoring.csv")
 THRESHOLD=8
@@ -35,12 +37,18 @@ def register_std(std):
         return "중립"   # 연결어미·조사
     return "반말"
 
+import re as _re
+_NONHAN=_re.compile(r"[^가-힣]")          # 구두점·공백·숫자 포함 = 정렬/전사 노이즈
+# 명백한 노이즈(원본 대조로 확인): 더거=말더듬 아티팩트, 새그럽다=어휘(음운변이)
+NOISE_BLOCK={"더거","새그러워서","새그라워서","새구라워서"}
+
 rows=list(csv.DictReader(open(V2,encoding="utf-8-sig")))
 sel=[]; i=0
 for r in rows:
     if int(r["총빈도"])<THRESHOLD: continue
     if r["변별력"]=="광역공유": continue
     if not r["방언꼬리"].strip() or not r["표준꼬리"].strip(): continue   # 빈 이형태(아티팩트) 제거
+    if _NONHAN.search(r["방언꼬리"]) or r["방언꼬리"] in NOISE_BLOCK: continue   # 노이즈 제거
     reg=register_std(r["표준꼬리"])          # 표준 꼬리 기준 레지스터
     include = "Y" if reg in ("존대","중립") else "N"   # 반말=기록만
     i+=1
