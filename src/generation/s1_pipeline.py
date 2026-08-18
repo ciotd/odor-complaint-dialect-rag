@@ -107,12 +107,10 @@ def retrieve_knowledge(retr, query_text, region, k_lex, k_rule,
 
 
 # 조건명 → (use_lex, use_rule, use_examples) 매핑
-#   c_kb_ex / c_kb_ex_c1 = 규칙+예문(actionable) 주입
+#   c_kb = 규칙+예문(actionable). 예문 부착이 S1서 유의하게 도움(2026-08-18) → 정식 채택.
 _COND_SWITCHES = {
-    "c_kb":       (True, True, False),
-    "c_kb_c1":    (True, True, False),
-    "c_kb_ex":    (True, True, True),
-    "c_kb_ex_c1": (True, True, True),
+    "c_kb":    (True, True, True),
+    "c_kb_c1": (True, True, True),
 }
 
 
@@ -142,7 +140,7 @@ def main():
     gen_tmpl = (PROMPTS / "prompt_template.txt").read_text(encoding="utf-8")
     needs_retr = any(c in _COND_SWITCHES for c in conditions)
     retr = KBRetriever() if needs_retr else None
-    needs_c1 = any(c in ("c1", "c_kb_c1", "c_kb_ex_c1") for c in conditions)
+    needs_c1 = any(c in ("c1", "c_kb_c1") for c in conditions)
     c1_examples = load_c1_examples() if needs_c1 else {}
     regional_examples = load_regional_examples() if needs_c1 else {}
 
@@ -185,7 +183,7 @@ def main():
         # 조건별 직접 생성
         generated = {}
         for cond in conditions:
-            if cond in ("c_kb_c1", "c_kb_ex_c1"):
+            if cond == "c_kb_c1":
                 kb_part = kb_blocks.get(cond, "")
                 reg_ex = regional_examples.get(region, "")
                 exs = c1_examples.get(region, [])

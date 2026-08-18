@@ -21,7 +21,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
 SCORING = os.path.join(ROOT, "docs", "dialect_markers_scoring.csv")
 
-CONDITIONS = ["c0", "c1", "c_kb", "c_kb_c1", "c_kb_ex", "c_kb_ex_c1"]
+CONDITIONS = ["c0", "c1", "c_kb", "c_kb_c1"]
 
 
 # ── 마커 테이블 로드 ──────────────────────────────────────────

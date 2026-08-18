@@ -126,15 +126,13 @@ def retrieve_knowledge(retr, complainant_lines, region, k_lex, k_rule,
     return block, cov
 
 
-# 조건명 → (use_lex, use_rule, use_examples) 매핑 (c_kb_c1=c_kb 검색 + C1 예시)
-#   c_kb_ex / c_kb_ex_c1 = 규칙+예문(actionable) 주입
+# 조건명 → (use_lex, use_rule, use_examples) 매핑
+#   c_kb = 규칙+예문(actionable). 예문 부착 정식 채택(2026-08-18).
 _COND_SWITCHES = {
-    "c_kb_lex":   (True,  False, False),
-    "c_kb_rule":  (False, True,  False),
-    "c_kb":       (True,  True,  False),
-    "c_kb_c1":    (True,  True,  False),
-    "c_kb_ex":    (True,  True,  True),
-    "c_kb_ex_c1": (True,  True,  True),
+    "c_kb_lex":  (True,  False, True),
+    "c_kb_rule": (False, True,  True),
+    "c_kb":      (True,  True,  True),
+    "c_kb_c1":   (True,  True,  True),
 }
 
 
@@ -165,7 +163,7 @@ def main():
     conv_tmpl = (PROMPTS / "convert_template.txt").read_text(encoding="utf-8")
     needs_retr = any(c in _COND_SWITCHES for c in conditions)
     retr = KBRetriever() if needs_retr else None
-    needs_c1 = any(c in ("c1", "c_kb_c1", "c_kb_ex_c1") for c in conditions)
+    needs_c1 = any(c in ("c1", "c_kb_c1") for c in conditions)
     c1_examples = load_c1_examples() if needs_c1 else {}
 
     # 시나리오 샘플 (run.py와 동일 방식·시드 → 재현/공정)
@@ -218,7 +216,7 @@ def main():
         # ②-b 변환 (조건별)
         conv = {}
         for cond in conditions:
-            if cond in ("c_kb_c1", "c_kb_ex_c1"):
+            if cond == "c_kb_c1":
                 kb_part = kb_blocks.get(cond, "")
                 exs = c1_examples.get(region, [])
                 kb = kb_part + (format_c1_block(exs) if exs else "")
