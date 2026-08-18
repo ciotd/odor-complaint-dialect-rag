@@ -91,10 +91,12 @@ def parse_turns(text: str):
 
 
 def retrieve_knowledge(retr, complainant_lines, region, k_lex, k_rule,
-                       use_lex=True, use_rule=True, cap_lex=20, cap_rule=10):
+                       use_lex=True, use_rule=True, use_examples=False,
+                       cap_lex=20, cap_rule=10):
     """민원인 표준어 발화들 → 통합 검색. (knowledge_block, coverage).
 
     use_lex / use_rule 스위치로 C_kb-lex / C_kb-rule / C_kb-both 조건 대응.
+    use_examples=True면 규칙에 예문 부착(C_kb+예문).
     """
     if region not in retr.regions:
         empty_cov = {"content_words": 0, "lex_hits": 0, "lex_rate": 0.0,
@@ -117,19 +119,22 @@ def retrieve_knowledge(retr, complainant_lines, region, k_lex, k_rule,
             rules.setdefault((r["standard_form"], r["dialect_form"]), r)
     agg = {"lexicon": list(lex.values())[:cap_lex],
            "rules": list(rules.values())[:cap_rule]}
-    block = format_for_prompt(agg)
+    block = format_for_prompt(agg, use_examples=use_examples)
     cov = {"content_words": n_content, "lex_hits": n_hit,
            "lex_rate": round(n_hit / n_content, 3) if n_content else 0.0,
            "n_lex": len(agg["lexicon"]), "n_rules": len(agg["rules"])}
     return block, cov
 
 
-# 조건명 → (use_lex, use_rule) 매핑 (c_kb_c1은 c_kb와 동일 검색 + C1 예시 추가)
+# 조건명 → (use_lex, use_rule, use_examples) 매핑 (c_kb_c1=c_kb 검색 + C1 예시)
+#   c_kb_ex / c_kb_ex_c1 = 규칙+예문(actionable) 주입
 _COND_SWITCHES = {
-    "c_kb_lex":  (True,  False),
-    "c_kb_rule": (False, True),
-    "c_kb":      (True,  True),
-    "c_kb_c1":   (True,  True),
+    "c_kb_lex":   (True,  False, False),
+    "c_kb_rule":  (False, True,  False),
+    "c_kb":       (True,  True,  False),
+    "c_kb_c1":    (True,  True,  False),
+    "c_kb_ex":    (True,  True,  True),
+    "c_kb_ex_c1": (True,  True,  True),
 }
 
 
@@ -160,7 +165,7 @@ def main():
     conv_tmpl = (PROMPTS / "convert_template.txt").read_text(encoding="utf-8")
     needs_retr = any(c in _COND_SWITCHES for c in conditions)
     retr = KBRetriever() if needs_retr else None
-    needs_c1 = any(c in ("c1", "c_kb_c1") for c in conditions)
+    needs_c1 = any(c in ("c1", "c_kb_c1", "c_kb_ex_c1") for c in conditions)
     c1_examples = load_c1_examples() if needs_c1 else {}
 
     # 시나리오 샘플 (run.py와 동일 방식·시드 → 재현/공정)
@@ -195,12 +200,12 @@ def main():
 
         # ②-a 검색 (c_kb / c_kb_lex / c_kb_rule 조건)
         kb_blocks, cov = {}, None
-        for cond, (ul, ur) in _COND_SWITCHES.items():
+        for cond, (ul, ur, uex) in _COND_SWITCHES.items():
             if cond not in conditions or not complainant:
                 continue
             raw, _cov = retrieve_knowledge(retr, complainant, region,
                                            args.k_lex, args.k_rule,
-                                           use_lex=ul, use_rule=ur)
+                                           use_lex=ul, use_rule=ur, use_examples=uex)
             kb_blocks[cond] = (
                 "\n[활용할 방언 지식 — 우선 참고하되, 없는 표현은 자연스러운 방언으로]\n"
                 + raw + "\n") if raw else ""
@@ -213,7 +218,7 @@ def main():
         # ②-b 변환 (조건별)
         conv = {}
         for cond in conditions:
-            if cond == "c_kb_c1":
+            if cond in ("c_kb_c1", "c_kb_ex_c1"):
                 kb_part = kb_blocks.get(cond, "")
                 exs = c1_examples.get(region, [])
                 kb = kb_part + (format_c1_block(exs) if exs else "")

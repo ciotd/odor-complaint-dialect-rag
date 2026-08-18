@@ -163,7 +163,7 @@ class KBRetriever:
             self.fixed_rules[reg] = [
                 {"category": r.get("category"), "standard_form": r.get("standard_form"),
                  "dialect_form": r.get("dialect_form"), "explanation": r.get("explanation"),
-                 "score": None, "fixed": True}
+                 "examples": r.get("examples") or [], "score": None, "fixed": True}
                 for r in rules
                 if r["region"] == reg and _is_fixed_rule(r.get("category"))]
 
@@ -229,8 +229,9 @@ def _read_jsonl(path):
 
 
 # ── 주입용 포맷 (프롬프트에 넣을 문자열) ───────────────────────────────────
-def format_for_prompt(hits):
-    """retrieve() 결과를 프롬프트 주입용 텍스트로."""
+def format_for_prompt(hits, use_examples=False):
+    """retrieve() 결과를 프롬프트 주입용 텍스트로.
+    use_examples=True면 규칙 뒤에 예문 1개 부착(C_kb+예문 조건, actionable)."""
     lines = []
     if hits.get("lexicon"):
         lines.append("[방언 어휘]")
@@ -240,9 +241,13 @@ def format_for_prompt(hits):
     if hits.get("rules"):
         lines.append("[방언 문법 규칙]")
         for r in hits["rules"]:
-            lines.append(
-                f"- {r['standard_form']} → {r['dialect_form']} "
-                f"({r['explanation']})")
+            line = f"- {r['standard_form']} → {r['dialect_form']} ({r['explanation']})"
+            if use_examples:
+                exs = r.get("examples") or []
+                if exs:
+                    e = exs[0]
+                    line += f" [예: {e.get('standard')}→{e.get('dialect')}]"
+            lines.append(line)
     return "\n".join(lines)
 
 

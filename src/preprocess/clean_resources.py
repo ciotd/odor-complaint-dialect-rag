@@ -165,12 +165,14 @@ def clean_grammar(base):
                     fx = fix_ov[(reg, sf)]
                     sf, df = fx["standard_form"], fx["dialect_form"]
                     fixed += 1
-                # 예문 분리 (검색소스 제외, 참조용 별도 보관)
+                # 예문: 참조용 전체 분리 보관 + 규칙에 최대 2개 유지(C_kb+예문 주입용)
+                rule_exs = []
                 for ex in (r.get("examples") or []):
-                    examples.append({"region": reg,
-                                     "standard": ex.get("standard"),
-                                     "dialect": ex.get("dialect")})
+                    es, ed = ex.get("standard"), ex.get("dialect")
+                    examples.append({"region": reg, "standard": es, "dialect": ed})
                     n_ex += 1
+                    if es and ed and es != ed and len(rule_exs) < 2:
+                        rule_exs.append({"standard": es, "dialect": ed})
                 key = (df, exp[:40])  # 강원 2파일 병합 시 중복 제거
                 if key in seen:
                     dup += 1
@@ -182,6 +184,7 @@ def clean_grammar(base):
                     "standard_form": sf, "dialect_form": df,
                     "explanation": exp,
                     "keywords": r.get("keywords") or [],
+                    "examples": rule_exs,   # C_kb+예문 조건에서 주입
                 })
                 kept += 1
         stats[reg] = dict(input=n_in, kept=kept, dup=dup, banned=banned,

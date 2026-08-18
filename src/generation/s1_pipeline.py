@@ -84,8 +84,10 @@ def fill(template: str, mapping: dict) -> str:
 
 
 def retrieve_knowledge(retr, query_text, region, k_lex, k_rule,
-                       use_lex=True, use_rule=True, cap_lex=20, cap_rule=10):
-    """시나리오 쿼리 텍스트 → 지식 블록 + coverage."""
+                       use_lex=True, use_rule=True, use_examples=False,
+                       cap_lex=20, cap_rule=10):
+    """시나리오 쿼리 텍스트 → 지식 블록 + coverage.
+    use_examples=True면 규칙에 예문 부착(C_kb+예문)."""
     if region not in retr.regions:
         empty_cov = {"content_words": 0, "lex_hits": 0, "lex_rate": 0.0,
                      "n_lex": 0, "n_rules": 0}
@@ -97,17 +99,20 @@ def retrieve_knowledge(retr, query_text, region, k_lex, k_rule,
     matched_heads = {g["head"] for g in hits["lexicon"]}
     n_hit = sum(1 for _, cand in keys if any(c in matched_heads for c in cand))
     agg = {"lexicon": hits["lexicon"][:cap_lex], "rules": hits["rules"][:cap_rule]}
-    block = format_for_prompt(agg)
+    block = format_for_prompt(agg, use_examples=use_examples)
     cov = {"content_words": n_content, "lex_hits": n_hit,
            "lex_rate": round(n_hit / n_content, 3) if n_content else 0.0,
            "n_lex": len(agg["lexicon"]), "n_rules": len(agg["rules"])}
     return block, cov
 
 
-# 조건명 → (use_lex, use_rule) 매핑
+# 조건명 → (use_lex, use_rule, use_examples) 매핑
+#   c_kb_ex / c_kb_ex_c1 = 규칙+예문(actionable) 주입
 _COND_SWITCHES = {
-    "c_kb":    (True, True),
-    "c_kb_c1": (True, True),
+    "c_kb":       (True, True, False),
+    "c_kb_c1":    (True, True, False),
+    "c_kb_ex":    (True, True, True),
+    "c_kb_ex_c1": (True, True, True),
 }
 
 
@@ -137,7 +142,7 @@ def main():
     gen_tmpl = (PROMPTS / "prompt_template.txt").read_text(encoding="utf-8")
     needs_retr = any(c in _COND_SWITCHES for c in conditions)
     retr = KBRetriever() if needs_retr else None
-    needs_c1 = any(c in ("c1", "c_kb_c1") for c in conditions)
+    needs_c1 = any(c in ("c1", "c_kb_c1", "c_kb_ex_c1") for c in conditions)
     c1_examples = load_c1_examples() if needs_c1 else {}
     regional_examples = load_regional_examples() if needs_c1 else {}
 
@@ -162,12 +167,12 @@ def main():
 
         # 조건별 KB 블록 검색
         kb_blocks, cov = {}, None
-        for cond, (ul, ur) in _COND_SWITCHES.items():
+        for cond, (ul, ur, uex) in _COND_SWITCHES.items():
             if cond not in conditions:
                 continue
             raw, _cov = retrieve_knowledge(retr, query, region,
                                            args.k_lex, args.k_rule,
-                                           use_lex=ul, use_rule=ur)
+                                           use_lex=ul, use_rule=ur, use_examples=uex)
             kb_blocks[cond] = (
                 "\n[활용할 방언 지식 — 우선 참고하되, 없는 표현은 자연스러운 방언으로]\n"
                 + raw + "\n") if raw else ""
@@ -180,7 +185,7 @@ def main():
         # 조건별 직접 생성
         generated = {}
         for cond in conditions:
-            if cond == "c_kb_c1":
+            if cond in ("c_kb_c1", "c_kb_ex_c1"):
                 kb_part = kb_blocks.get(cond, "")
                 reg_ex = regional_examples.get(region, "")
                 exs = c1_examples.get(region, [])
