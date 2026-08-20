@@ -15,9 +15,11 @@ sys.path.insert(0, _REPO)
 sys.path.insert(0, _HERE)
 
 from eval_conditions import complainant_turns, words_of  # noqa: E402
-from vocab_dialect_rate import build_ref, word_hits  # noqa: E402
+from vocab_dialect_rate import build_ref, build_ref_aihub, word_hits  # noqa: E402
 from stats_test import boot_ci, paired_test  # noqa: E402
 from src.retrieval.kb_retriever import KBRetriever  # noqa: E402
+
+_AIHUB_CSV = os.path.join(_REPO, "docs", "dialect_vocab_aihub.csv")
 
 CONDS = ["c0", "c1", "c_kb", "c_kb_c1"]
 PAIRS = [("c_kb", "c0"), ("c_kb", "c1"), ("c_kb_c1", "c1")]
@@ -52,8 +54,14 @@ def main():
     if not files:
         print("사용: python vocab_stats.py results/s1_*.jsonl results/s2_*.jsonl")
         sys.exit(1)
-    print("KB 색인 중...")
-    ref = build_ref(KBRetriever())
+    use_aihub = "--rag-ref" not in sys.argv and os.path.exists(_AIHUB_CSV)
+    if use_aihub:
+        print(f"참조 = AI-Hub 독립 어휘 ({os.path.basename(_AIHUB_CSV)})")
+        ref = build_ref_aihub(_AIHUB_CSV)
+    else:
+        print("참조 = RAG 사전(홈 어드밴티지)")
+        ref = build_ref(KBRetriever())
+    print("참조 어휘수: " + ", ".join(f"{r}={len(v)}" for r, v in ref.items()))
     rng = np.random.default_rng(SEED)
 
     for path in files:

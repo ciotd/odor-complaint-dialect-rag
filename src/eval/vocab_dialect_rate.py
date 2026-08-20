@@ -67,6 +67,23 @@ def build_ref(retr, kiwi_filter=True):
     return ref
 
 
+def build_ref_aihub(csv_path, kiwi_filter=True):
+    """AI-Hub 추출 어휘 CSV -> 권역별 방언어휘 집합 (RAG 사전과 독립 참조).
+    동일 객관 규칙(kiwi 표준어 제외)을 일관 적용."""
+    import csv as _csv
+    ref = collections.defaultdict(set)
+    with open(csv_path, encoding="utf-8-sig") as f:
+        for row in _csv.DictReader(f):
+            region = row["권역"]
+            d = _NONHAN.sub("", row["방언어휘"])
+            if len(d) < 2:
+                continue
+            if kiwi_filter and _is_standard(d):
+                continue
+            ref[region].add(d)
+    return dict(ref)
+
+
 def word_hits(forms, turns):
     """어절 단위 매칭: 어절이 참조 방언형과 같거나 그것으로 시작(어간+조사)하면 적중.
     부분문자열(그때'부터') 오탐을 배제. 적중한 방언형 종류 집합 반환."""
