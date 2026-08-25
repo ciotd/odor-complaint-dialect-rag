@@ -56,9 +56,10 @@ focused하게 주입**하면 생성이 개선되는가? (**경북 방언** 국�
 
 ## 진행 상태
 - 스키마 확정(`kg_schema.md`).
-- **의문법(격식 4등급)** 완료: 하이소·하소·하게·해라 (`kg_nodes_interrogative.md`).
-- **서술법(6등급)** 완료: 하이소·하소·하게·해라·해체·해요체류 (`kg_nodes_declarative.md`).
-- 남은 것: 명령법·청유법·비격식 의문(해체/해요체) · 지역분포 세부 · 기계가독 변환 · 검증(②) 라운드.
+- **원천 완결 — 4종결법 전부 추출**(격식+비격식):
+  - 서술법 `kg_nodes_declarative.md` · 의문법 `kg_nodes_interrogative.md`
+  - 명령법 `kg_nodes_imperative.md` · 청유법 `kg_nodes_propositive.md`
+- 남은 것: 지역분포 세부(선택) · **기계가독 변환(JSON triples)** · **검증(②) 라운드** · (b) 검색 파이프라인.
 
 ## 결정 로그
 - 2026-08-25: 내부 태그 v1-retrieval / v2-graph. 폴더 방식①(v1 그대로 + v2_graph/ 신설). 공유자원 기존경로 참조.

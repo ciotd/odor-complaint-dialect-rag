@@ -86,7 +86,7 @@
 
 ## 7. 진행
 - [x] 스키마 확정
-- [x] 의문법 격식 4등급 (`kg_nodes_interrogative.md`)
-- [x] 서술법 6등급 (`kg_nodes_declarative.md`)
-- [ ] 명령법·청유법·비격식 의문(해체/해요체)
-- [ ] 지역분포 세부 · 기계가독 변환 · 검증(②) 라운드
+- [x] **원천 완결**: 서술·의문·명령·청유법 전부 (격식+비격식) — `kg_nodes_{declarative,interrogative,imperative,propositive}.md`
+- [ ] 지역분포 세부(선택)
+- [ ] 기계가독 변환(JSON triples)
+- [ ] 검증(②) 라운드 + (b) 검색 파이프라인
