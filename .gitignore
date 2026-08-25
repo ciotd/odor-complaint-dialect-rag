@@ -24,3 +24,6 @@ docs/dialect_markers*.csv
 
 # 방언 코퍼스 (AI-Hub 등 외부 데이터 — 저장소 밖 별도 배포)
 dialect_corpus/
+
+# 방언학 논문 PDF (CC BY-NC-ND 등 — 재배포 금지. v2 문법 소스는 로컬에만 두고 사실만 인용)
+*.pdf
