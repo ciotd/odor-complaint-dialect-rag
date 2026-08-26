@@ -15,7 +15,7 @@ from substitution import load_lexicon, load_grammar_flat, get_substitutions
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.abspath(os.path.join(HERE, "..", ".."))
 KB = os.path.join(HERE, "..", "data", "kg_rules.jsonl")
-INPUTS = os.path.join(HERE, "..", "data", "eval_inputs.jsonl")
+INPUTS = os.path.join(HERE, "..", "data", "eval_pairs.jsonl")   # AI-Hub 실제 (표준,방언_ref) 쌍
 OUT = os.path.join(HERE, "..", "results", "ablation.jsonl")
 
 LLM_URL = "http://192.168.100.1:8001/v1/chat/completions"
