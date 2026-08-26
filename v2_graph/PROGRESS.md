@@ -16,6 +16,8 @@
 - [x] **원천 완결**: 4종결법(서술·의문·명령·청유)×격식/비격식 추출 (`kg_nodes_*.md`)
 - [x] **통합 KB**: `data/kg_rules.jsonl` (39규칙·167어미형)
 - [x] 평가 데이터 확정: **AI-Hub 경상 코퍼스** (경북/경남 미분리 → 경상 통합 사용(A) + 경북 프레이밍)
+- [x] 자질추출 방식: **kiwi+규칙** (필요시 LLM 보조)
+- [x] **프로토타입 ①②** (`src/convert_prototype.py`) + **전체 파이프라인 데모 ①②③④** (`src/pipeline_demo.py`, 실제 Qwen)
 
 ## ⬜ 다음 할 일 (우선순위)
 1. **조사·기타 문법 KB 편입** (v1 경상 문법론 소스에서 있는 대로) — 짧음
@@ -40,9 +42,28 @@
 - `docs/kg_schema.md` — KG 스키마(노드/엣지/검증상태 규약)
 - `docs/kg_nodes_{declarative,interrogative,imperative,propositive}.md` — 종결법별 추출 노트(사람검증용)
 - `data/kg_rules.jsonl` — 기계가독 통합 KB(코드용)
+- `src/convert_prototype.py` — 자질추출(①)+KG조회(②) 프로토타입
+- `src/pipeline_demo.py` — 전체 파이프라인(①②③④) 데모, 실제 Qwen 호출
 - `../PROJECT_MAP.md` — v1/v2 전체 지도
 - 소스 PDF(로컬만, 재배포금지): `경북방언_종결어미_연구.pdf`(backbone)
 
-## 🕒 타임라인 로그
-- 2026-08-25: v2 착수. v1 문법DB 품질문제(전라·강원 LLM조작물) 정제. KG 스키마·원천완결·KB생성.
-  과제/스코프/평가 확정. 참고: SURGE·EDC(둘 다 focused검색 선례), DIA-REFINE(베이스라인).
+## 🕒 빌드 순서 (여기까지 온 길 — 헷갈리면 이거 보기)
+```
+1. v1/v2 분리 + 폴더            (PROJECT_MAP, v2_graph/)
+2. 연구 정의                    (KG vs RAG덤프 + training-free / 표준→방언 발화변환 / 경북)
+3. 근거논문 SURGE              (서브그래프 검색 아이디어)
+4. 소스논문 조현준2018 정독      → KG 축 확정(종결법×높임×판정설명×결합환경)
+5. KG 스키마 확정              (kg_schema.md)
+6. 문법 추출 → 노드노트 4개     (kg_nodes_*.md)
+7. 통합 KB 생성               (kg_rules.jsonl, 39규칙)
+8. EDC 논문                   (canonicalization·검색 2번째 선례)
+9. 자질추출 방식 결정          (kiwi+규칙)
+10. 프로토타입 ①②            (convert_prototype.py: 자질추출→KG조회)
+11. 전체 파이프라인 데모 ①②③④ (pipeline_demo.py: 실제 LLM, KG"-노" vs 덤프"-니꺼")
+── 지금: 파이프라인 작동 확인(n=1). 다음: 여러 문장 + 평가 ──
+```
+
+## 🕒 날짜 로그
+- 2026-08-25: v2 착수. v1 문법DB 정제. KG 스키마·원천완결·KB생성. 과제/스코프/평가 확정.
+- 2026-08-26: kiwi 자질추출 결정. 프로토타입(①②)·전체 파이프라인 데모(①②③④) 작동 확인.
+  단일 예시서 KG(focused) "-노"(정답) vs 덤프 "-니꺼"(오답) 대비 확인(n=1, 일화).
