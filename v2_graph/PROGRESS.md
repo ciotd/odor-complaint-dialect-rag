@@ -22,10 +22,11 @@
 ## ⬜ 다음 할 일 (우선순위)
 1. ~~치환 레이어 정리~~ ✅ **완료**: 조건부 KG=종결어미+음운 / flat 치환=어휘+조사+선어말+부정+활용+부사
 2. ~~치환 로더 + 음운 KB 편입~~ ✅ **완료** (substitution.py 런타임 참조 / kg_rules 53레코드=종결39+음운14)
-3. ~~표준 입력셋~~ ✅ eval_inputs.jsonl (28문장, 셀 라벨)
-4. ~~ablation 파이프라인 구축~~ ✅ run_ablation.py (치환만/치환+KG/치환+덤프)
-   ⏸ **실행 대기 — 로컬 vLLM(192.168.100.1:8001) 다운.** 서버 뜨면 `python run_ablation.py` 실행
-5. **평가**: reference-tolerant + LLM judge 쌍대. 전체 + 조건부케이스 분해 (실행 후)
+3. ~~평가셋~~ ✅ **AI-Hub 실제 문장쌍** (build_eval_set.py → eval_pairs.jsonl, 일반35+의문25,
+   표준+방언정답+유형). 수작업 28문장은 인위적이라 폐기. 자질추출 85% 커버(STD_ENDING 확장).
+4. ~~ablation 파이프라인 구축~~ ✅ run_ablation.py (치환만/치환+KG/치환+덤프, eval_pairs 입력)
+   ⏸ **실행 대기 — 로컬 vLLM(192.168.100.1:8001) 다운.** 서버 뜨면 `python run_ablation.py`
+5. **평가**: 방언정답 대조(reference) + LLM judge 쌍대. 전체 + **의문셋(판정/설명) 분해** (실행 후)
 6. **검증(②) 라운드**
 
 ## ❓ 열린 결정/질문
