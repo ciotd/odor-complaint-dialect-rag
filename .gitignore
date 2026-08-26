@@ -27,3 +27,6 @@ dialect_corpus/
 
 # 방언학 논문 PDF (CC BY-NC-ND 등 — 재배포 금지. v2 문법 소스는 로컬에만 두고 사실만 인용)
 *.pdf
+
+# AI-Hub 파생 평가쌍 (저작권 — 재배포 금지, 스크립트로 재현)
+v2_graph/data/eval_pairs.jsonl
