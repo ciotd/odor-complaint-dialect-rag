@@ -30,3 +30,6 @@ dialect_corpus/
 
 # AI-Hub 파생 평가쌍 (저작권 — 재배포 금지, 스크립트로 재현)
 v2_graph/data/eval_pairs.jsonl
+
+# v1 악취 파생 테스트셋 (생성물 — 스크립트로 재현)
+v2_graph/data/eval_odor.jsonl

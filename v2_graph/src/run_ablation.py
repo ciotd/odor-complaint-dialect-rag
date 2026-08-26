@@ -15,8 +15,8 @@ from substitution import load_lexicon, load_grammar_flat, get_substitutions
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.abspath(os.path.join(HERE, "..", ".."))
 KB = os.path.join(HERE, "..", "data", "kg_rules.jsonl")
-INPUTS = os.path.join(HERE, "..", "data", "eval_pairs.jsonl")   # AI-Hub 실제 (표준,방언_ref) 쌍
-OUT = os.path.join(HERE, "..", "results", "ablation.jsonl")
+DATA = os.path.join(HERE, "..", "data")
+DEFAULT_IN = os.path.join(DATA, "eval_pairs.jsonl")   # AI-Hub 실제 (표준,방언_ref) 쌍
 
 LLM_URL = "http://192.168.100.1:8001/v1/chat/completions"
 MODEL = "Qwen/Qwen3.6-27B"
@@ -87,10 +87,14 @@ def prompt(sent, lex, jong, phon, mode):
 
 
 def main():
-    n = int(sys.argv[1]) if len(sys.argv) > 1 else 10**9
+    args = sys.argv[1:]
+    inp = next((a for a in args if a.endswith(".jsonl")), DEFAULT_IN)
+    n = next((int(a) for a in args if a.isdigit()), 10**9)
+    base = os.path.splitext(os.path.basename(inp))[0]
+    OUT = os.path.join(HERE, "..", "results", f"ablation_{base}.jsonl")
     lex = load_lexicon()
     jong, phon = load_kb()
-    inputs = [json.loads(l) for l in open(INPUTS, encoding="utf-8") if l.strip()][:n]
+    inputs = [json.loads(l) for l in open(inp, encoding="utf-8") if l.strip()][:n]
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     results = []
     for i, item in enumerate(inputs, 1):
