@@ -21,10 +21,14 @@ kiwi = Kiwi()
 _HAN = re.compile(r"[가-힣]")
 
 
-def extract(target=60, maxfiles=600):
+Q_END = {"나", "노", "냐", "느냐", "으냐", "는가", "ㄴ가", "은가", "는고", "ㄴ고", "니"}
+
+
+def extract(n_gen=35, n_q=25, maxfiles=800):
+    """일반셋(n_gen) + 의문셋(n_q). 둘 다 실제 AI-Hub. 유형 태그 포함."""
     z = zipfile.ZipFile(ZIP)
     names = [n for n in z.namelist() if n.lower().endswith(".json")]
-    pairs, seen = [], set()
+    gen, q, seen = [], [], set()
     for n in names[:maxfiles]:
         d = json.loads(z.read(n).decode("utf-8"))
         segs = sorted(d.get("transcription", {}).get("segments", []),
@@ -36,34 +40,35 @@ def extract(target=60, maxfiles=600):
             if not tok:
                 continue
             tk = kiwi.tokenize(tok)
-            if tk and tk[-1].tag == "EF":            # 종결어미 = 문장 끝
+            if tk and tk[-1].tag == "EF":
                 ss = " ".join(t for t in std[start:i + 1] if t)
                 dd = " ".join(t for t in dia[start:i + 1] if t)
+                last = tk[-1].form
                 start = i + 1
-                if not (14 <= len(ss) <= 42) or ss == dd:
-                    continue
-                if not _HAN.search(ss):
-                    continue
-                if ss in seen:
+                if not (12 <= len(ss) <= 42) or ss == dd or not _HAN.search(ss) or ss in seen:
                     continue
                 seen.add(ss)
-                pairs.append((ss, dd))
-        if len(pairs) >= target:
+                if last in Q_END and len(q) < n_q:
+                    q.append((ss, dd, "의문"))
+                elif len(gen) < n_gen:
+                    gen.append((ss, dd, "일반"))
+        if len(gen) >= n_gen and len(q) >= n_q:
             break
-    return pairs[:target]
+    return gen + q
 
 
 def main():
-    target = int(sys.argv[1]) if len(sys.argv) > 1 else 60
-    pairs = extract(target)
+    pairs = extract()
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as f:
-        for i, (ss, dd) in enumerate(pairs, 1):
-            f.write(json.dumps({"id": f"A{i:03d}", "표준": ss, "방언_ref": dd},
+        for i, (ss, dd, typ) in enumerate(pairs, 1):
+            f.write(json.dumps({"id": f"A{i:03d}", "표준": ss, "방언_ref": dd, "유형": typ},
                                ensure_ascii=False) + "\n")
-    print(f"저장: {OUT} ({len(pairs)}쌍)")
-    print("샘플:")
-    for ss, dd in pairs[:8]:
+    import collections
+    c = collections.Counter(t for _, _, t in pairs)
+    print(f"저장: {OUT} ({len(pairs)}쌍, {dict(c)})")
+    print("의문 샘플:")
+    for ss, dd, t in [p for p in pairs if p[2] == "의문"][:6]:
         print(f"  {ss}  →  {dd}")
 
 
