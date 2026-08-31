@@ -18,8 +18,8 @@ KB = os.path.join(HERE, "..", "data", "kg_rules.jsonl")
 DATA = os.path.join(HERE, "..", "data")
 DEFAULT_IN = os.path.join(DATA, "eval_pairs.jsonl")   # AI-Hub 실제 (표준,방언_ref) 쌍
 
-LLM_URL = "http://192.168.100.1:8001/v1/chat/completions"
-MODEL = "Qwen/Qwen3.6-27B"
+LLM_URL = "http://210.91.154.131:20443/deployment/h62c653382d33577c908af03fdb2c62b2/v1/chat/completions"
+MODEL = "Qwen3.8-27B"
 SYS = "너는 표준 한국어를 경상북도(경북) 방언으로 바꾸는 변환기다. 의미는 그대로 두고 방언 문장 한 줄만 출력한다."
 
 
@@ -73,16 +73,16 @@ def phon_block(phon):
 
 
 def prompt(sent, lex, jong, phon, mode):
-    head = (f"다음 표준어 문장을 경북 방언으로 바꿔라. 의미 유지, 방언 문장 한 줄만.\n\n"
-            f"[어휘 치환]\n{subs_block(sent, lex)}\n")
-    if mode == "치환만":
+    # 치환 사전·음운 블록 제거(2026-08-28): 어휘/발음은 모델 파라미터 지식에 맡기고
+    # 조건별 차이를 '종결어미 지식 주입 방식' 하나로만 둔다.
+    head = "다음 표준어 문장을 경북 방언으로 바꿔라. 의미 유지, 방언 문장 한 줄만.\n"
+    if mode == "plain":
         body = ""
-    elif mode == "치환+KG":
+    elif mode == "KG":
         ef, _ = ending_focused(sent, jong)
-        body = f"\n[적용 어미규칙(이 문장에 해당)]\n{ef}\n\n[음운규칙]\n{phon_block(phon)}\n"
-    elif mode == "치환+덤프":
-        body = (f"\n[전체 어미규칙 — 알맞은 것 선택]\n{endings_dump(jong)}\n\n"
-                f"[음운규칙]\n{phon_block(phon)}\n")
+        body = f"\n[적용 어미규칙(이 문장에 해당)]\n{ef}\n"
+    elif mode == "덤프":
+        body = f"\n[전체 어미규칙 — 알맞은 것 선택]\n{endings_dump(jong)}\n"
     return head + body + f"\n[표준어] {sent}\n[경북 방언]"
 
 
@@ -91,8 +91,8 @@ def main():
     inp = next((a for a in args if a.endswith(".jsonl")), DEFAULT_IN)
     n = next((int(a) for a in args if a.isdigit()), 10**9)
     base = os.path.splitext(os.path.basename(inp))[0]
-    OUT = os.path.join(HERE, "..", "results", f"ablation_{base}.jsonl")
-    lex = load_lexicon()
+    OUT = os.path.join(HERE, "..", "results", f"ablation_{base}_nolex.jsonl")
+    lex = None
     jong, phon = load_kb()
     inputs = [json.loads(l) for l in open(inp, encoding="utf-8") if l.strip()][:n]
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
@@ -100,14 +100,14 @@ def main():
     for i, item in enumerate(inputs, 1):
         sent = item["표준"]
         row = {**item, "출력": {}}
-        for mode in ("치환만", "치환+KG", "치환+덤프"):
+        for mode in ("plain", "KG", "덤프"):
             try:
                 row["출력"][mode] = call_llm(prompt(sent, lex, jong, phon, mode))
             except Exception as e:
                 row["출력"][mode] = f"[ERR {e}]"
         results.append(row)
         print(f"[{i}/{len(inputs)}] {sent}")
-        for m in ("치환만", "치환+KG", "치환+덤프"):
+        for m in ("plain", "KG", "덤프"):
             print(f"    {m:<8} → {row['출력'][m]}")
     with open(OUT, "w", encoding="utf-8") as f:
         for r in results:
