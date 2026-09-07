@@ -2,7 +2,7 @@
 """v2-graph (b) 전체 파이프라인 데모: 표준→경북 방언, ①추출→②KG조회→③주입→④LLM생성.
 KG-focused(서브그래프만) vs Dump(전체 규칙) 대조. 실제 로컬 Qwen 호출.
 
-사용: python v2_graph/src/pipeline_demo.py "뭐 먹었니?"
+사용: python src/pipeline_demo.py "뭐 먹었니?"  (archive/v2_failed에서 실행)
 """
 import sys, os, json, urllib.request
 from convert_prototype import load_kb, extract, lookup  # 같은 폴더

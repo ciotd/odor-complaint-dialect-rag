@@ -12,9 +12,9 @@ import json, os
 from kiwipiepy import Kiwi
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-REPO = os.path.abspath(os.path.join(HERE, "..", ".."))
-VOCAB = os.path.join(REPO, "data", "dialect_kb", "vocab_clean.jsonl")
-GRAM = os.path.join(REPO, "data", "dialect_kb", "grammar_rules.jsonl")
+V1_ROOT = os.path.abspath(os.path.join(HERE, "..", "..", "v1_retrieval"))
+VOCAB = os.path.join(V1_ROOT, "data", "dialect_kb", "vocab_clean.jsonl")
+GRAM = os.path.join(V1_ROOT, "data", "dialect_kb", "grammar_rules.jsonl")
 
 kiwi = Kiwi()
 _CONTENT = {"NNG", "NNP", "MAG"}          # 명사·부사: 표면형 매칭

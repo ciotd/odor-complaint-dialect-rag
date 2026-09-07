@@ -18,9 +18,15 @@ data/raw/*.json
 
 # 방언 지식 리소스 정제 결과 (네이버 사전/문법서 파생물 — 라이선스상 커밋 금지)
 data/dialect_kb/
+archive/v1_retrieval/data/dialect_kb/
 
 # 방언성 표지 손목록 (AI-Hub 코퍼스/사전 파생 — 데이터 번들과 함께 별도 배포; 스크립트로 재현 가능)
 docs/dialect_markers*.csv
+archive/v1_retrieval/docs/dialect_markers*.csv
+
+# AI-Hub 코퍼스에서 추출한 방언 어휘 빈도표 (재배포 제외)
+docs/dialect_vocab_aihub.csv
+archive/v1_retrieval/docs/dialect_vocab_aihub.csv
 
 # 방언 코퍼스 (AI-Hub 등 외부 데이터 — 저장소 밖 별도 배포)
 dialect_corpus/
@@ -30,6 +36,14 @@ dialect_corpus/
 
 # AI-Hub 파생 평가쌍 (저작권 — 재배포 금지, 스크립트로 재현)
 v2_graph/data/eval_pairs.jsonl
+archive/v2_failed/data/eval_pairs.jsonl
 
 # v1 악취 파생 테스트셋 (생성물 — 스크립트로 재현)
 v2_graph/data/eval_odor.jsonl
+archive/v2_failed/data/eval_odor.jsonl
+
+# 현재 KG 연구의 로컬 어휘 스냅샷 (네이버 방언 사전 파생, 재배포 금지)
+sources/gyeongsang/lexical/gyeongsang_vocab.json
+
+# 실패한 v2의 로컬 서버 점검 파일에는 임시 접근 자격증명이 포함될 수 있음
+archive/v2_failed/scratch/

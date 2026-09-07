@@ -18,7 +18,8 @@ from collections import Counter
 
 _HERE = os.path.dirname(os.path.abspath(__file__))
 _REPO = os.path.abspath(os.path.join(_HERE, "..", ".."))
-DEFAULT_IN = os.path.abspath(os.path.join(_REPO, "..", "RAG_resource"))
+# 보관 폴더로 이동한 뒤에도 저장소 밖의 기존 원자료 위치를 가리킨다.
+DEFAULT_IN = os.path.abspath(os.path.join(_REPO, "..", "..", "..", "RAG_resource"))
 DEFAULT_OUT = os.path.join(_REPO, "data", "dialect_kb")
 
 # 5권역. 제주는 v2 사용(2026-08-11 편입): jeju_vocab_v2(단어형 91%)·jeju_grammar_v2.

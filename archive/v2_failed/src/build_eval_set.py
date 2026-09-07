@@ -5,7 +5,7 @@
 표준측 = standard(있으면) else dialect(=표준과 동일). 방언측 = dialect. 토큰 1:1 정렬 유지.
 필터: 길이 14~42자, 표준≠방언(방언 차이 있음), 중복 제거.
 
-출력: v2_graph/data/eval_pairs.jsonl  {id, 표준, 방언_ref}
+출력: archive/v2_failed/data/eval_pairs.jsonl  {id, 표준, 방언_ref}
       ※ AI-Hub 저작권 → gitignore. 스크립트로 재현.
 사용: python build_eval_set.py [N목표]
 """
@@ -13,8 +13,8 @@ import zipfile, json, os, sys, re
 from kiwipiepy import Kiwi
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-REPO = os.path.abspath(os.path.join(HERE, "..", ".."))
-ZIP = os.path.join(REPO, "..", "dialect_corpus", "aihub", "VL_02. 경상도_03. 2인발화.zip")
+PROJECT_ROOT = os.path.abspath(os.path.join(HERE, "..", "..", ".."))
+ZIP = os.path.join(PROJECT_ROOT, "..", "dialect_corpus", "aihub", "VL_02. 경상도_03. 2인발화.zip")
 OUT = os.path.join(HERE, "..", "data", "eval_pairs.jsonl")
 
 kiwi = Kiwi()

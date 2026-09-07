@@ -2,7 +2,7 @@
 
 > ⚠️ **이 문서는 폐기됐다 (2026-08-31).** 아래 내용은 실행된 적 없는 설계를 기술하고 있고,
 > 재현 명령·서버 주소·평가셋 성격이 모두 현재와 다르다.
-> **새 세션은 [`RESET_2026-08-31.md`](RESET_2026-08-31.md)를 읽을 것.**
+> **새 세션은 [`RESET_2026-08-31.md`](../../current_kg/docs/RESET_2026-08-31.md)를 읽을 것.**
 > 무엇이 왜 틀렸는지는 그 문서 §9에 정리돼 있다.
 
 작성 2026-08-27. 새 세션/작업자는 이 문서 → PROGRESS.md → README.md 순으로 읽으면 이어서 진행 가능.
@@ -10,14 +10,14 @@
 ## 한 줄
 경북 방언 문법을 KG로 구축 → **표준어→경상 방언 발화 변환**. **광범위 치환(어휘·음운·조사) +
 조건부 종결어미 KG**를 얹어 **ablation(치환만 vs 치환+KG)으로 KG 순수 기여 측정.** training-free.
-(v1=악취 RAG 연구와 별개. v1 정본 = `../docs/research_scope.md`.)
+(v1=악취 RAG 연구와 별개. v1 보관 문서 = `../v1_retrieval/docs/research_scope.md`.)
 
 ## 읽을 순서
 1. **이 문서(HANDOFF)** — 현재 상태·다음 액션
 2. **PROGRESS.md** — 빌드 순서(1~12)·타임라인·다음 할 일
 3. **README.md** — 정본(과제·스코프·평가·결정로그 상세)
 4. docs/kg_schema.md, kg_nodes_*.md — KG 스키마·규칙
-5. ../PROJECT_MAP.md — v1/v2 전체 지도
+5. ../../PROJECT_MAP.md — 현재 전체 지도
 
 ## 현재 상태 (2026-08-27)
 - ✅ KG: `data/kg_rules.jsonl` (종결어미 39 + 음운 14, domain 필드)
@@ -34,8 +34,8 @@
 ```
 1) 서버 확인:  curl -s http://192.168.100.1:8001/v1/models   (또는 포트 체크)
 2) 생성 실행:
-   python v2_graph/src/run_ablation.py                            # AI-Hub 60
-   python v2_graph/src/run_ablation.py v2_graph/data/eval_odor.jsonl   # 악취 40
+   python src/run_ablation.py                                  # AI-Hub 60
+   python src/run_ablation.py data/eval_odor.jsonl             # 악취 40
    → results/ablation_eval_pairs.jsonl, ablation_eval_odor.jsonl
 3) raw 출력 육안검증 (치환만/치환+KG/치환+덤프 실제 차이 확인)  ← 사용자와 함께
 4) 본 걸 근거로 eval/judge 스크립트 설계·작성:
@@ -46,8 +46,8 @@
 
 ## 재현 주의 (gitignore된 것)
 - eval_pairs.jsonl / eval_odor.jsonl (AI-Hub·v1 파생, 저작권) → **build_*.py로 재생성.**
-- 원본: `../dialect_corpus/aihub/*.zip`, `../results/s2_20260818_135335.jsonl` 필요.
-- 방언학 논문 PDF(로컬만), `../data/dialect_kb/`(v1 KB, 라이선스상 gitignore).
+- 원본: `../../../dialect_corpus/aihub/*.zip`, `../v1_retrieval/results/s2_20260818_135335.jsonl` 필요.
+- 방언학 논문 PDF(로컬만), `../v1_retrieval/data/dialect_kb/`(v1 KB, 라이선스상 gitignore).
 
 ## 작업 규율 (사용자 요구 — 꼭 지킬 것)
 - **새 설계·분석은 과정(방법·기준)을 먼저 공유·점검한 뒤 진행.** 완성본 투척 금지, 하나씩.

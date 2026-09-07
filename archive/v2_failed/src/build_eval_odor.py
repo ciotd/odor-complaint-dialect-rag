@@ -4,17 +4,17 @@
 v1 S2 결과의 standard_dialogue(표준 대화)에서 민원인 발화를 시나리오마다 골고루 뽑음.
 gold 방언 정답 없음(v1 방언은 결함 RAG) → judge 전용 테스트.
 
-출력: v2_graph/data/eval_odor.jsonl  {id, 표준, 도메인:"악취"}
+출력: archive/v2_failed/data/eval_odor.jsonl  {id, 표준, 도메인:"악취"}
       ※ v1 생성물 파생 → gitignore(스크립트 재현).
 """
 import json, os, sys, re
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "src", "eval"))
+HERE = os.path.dirname(os.path.abspath(__file__))
+V1_ROOT = os.path.abspath(os.path.join(HERE, "..", "..", "v1_retrieval"))
+sys.path.insert(0, V1_ROOT)
+sys.path.insert(0, os.path.join(V1_ROOT, "src", "eval"))
 from eval_conditions import complainant_turns  # noqa: E402
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-REPO = os.path.abspath(os.path.join(HERE, "..", ".."))
-SRC = os.path.join(REPO, "results", "s2_20260818_135335.jsonl")
+SRC = os.path.join(V1_ROOT, "results", "s2_20260818_135335.jsonl")
 OUT = os.path.join(HERE, "..", "data", "eval_odor.jsonl")
 
 _GREET = re.compile(r"안녕하세요|신고하려고|전화(를)? (드|걸)")
