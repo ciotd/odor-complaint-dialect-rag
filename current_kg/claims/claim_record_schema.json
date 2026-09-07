@@ -1,0 +1,440 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.invalid/current_kg/claims/claim_record_schema.json",
+  "title": "Gyeongsang Dialect Atomic Claim Record",
+  "description": "원문에서 독립적으로 검증할 수 있는 주장 하나를 기록하는 Claim 장부 규격이다. KG 노드·관계 규격이나 운영 Rule 규격이 아니다.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "record_version",
+    "claim_id",
+    "source_id",
+    "source_location",
+    "evidence",
+    "claim_text",
+    "claim_basis",
+    "phenomenon_labels",
+    "form_mentions",
+    "geography",
+    "temporal_context",
+    "usage_conditions_raw",
+    "modern_relevance",
+    "claim_links",
+    "extraction",
+    "review"
+  ],
+  "properties": {
+    "record_version": {
+      "const": "1.0.0"
+    },
+    "claim_id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9_]*-C[0-9]{4,}$",
+      "description": "예: JO2018-C0001"
+    },
+    "source_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "source_registry.json에 있고 eligible_for_claims=true인 ID"
+    },
+    "source_location": {
+      "$ref": "#/$defs/source_location"
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/evidence_item"
+      }
+    },
+    "claim_text": {
+      "type": "string",
+      "minLength": 1,
+      "description": "원문 의미를 확대하지 않은 원자 단위 한국어 진술"
+    },
+    "claim_basis": {
+      "type": "string",
+      "enum": [
+        "explicit_author_statement",
+        "table_or_count_reading",
+        "example_observation",
+        "survey_result",
+        "editorial_description"
+      ]
+    },
+    "phenomenon_labels": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "검색을 위한 잠정 표지. KG 노드 유형으로 확정하지 않는다."
+    },
+    "form_mentions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/form_mention"
+      }
+    },
+    "geography": {
+      "$ref": "#/$defs/geography"
+    },
+    "temporal_context": {
+      "$ref": "#/$defs/temporal_context"
+    },
+    "usage_conditions_raw": {
+      "$ref": "#/$defs/usage_conditions_raw"
+    },
+    "modern_relevance": {
+      "$ref": "#/$defs/modern_relevance"
+    },
+    "claim_links": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/claim_link"
+      },
+      "description": "전수 추출 후 일치·충돌·세분화 관계를 기록한다. 최초 추출 시 빈 배열."
+    },
+    "extraction": {
+      "$ref": "#/$defs/extraction"
+    },
+    "review": {
+      "$ref": "#/$defs/review"
+    }
+  },
+  "$defs": {
+    "nullable_string": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "string_list": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "source_location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pdf_page",
+        "printed_page",
+        "section",
+        "table_or_figure",
+        "example_id",
+        "locator_note"
+      ],
+      "properties": {
+        "pdf_page": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "PDF 뷰어 기준 1부터 시작하는 페이지"
+        },
+        "printed_page": {
+          "$ref": "#/$defs/nullable_string"
+        },
+        "section": {
+          "$ref": "#/$defs/nullable_string"
+        },
+        "table_or_figure": {
+          "$ref": "#/$defs/nullable_string"
+        },
+        "example_id": {
+          "$ref": "#/$defs/nullable_string"
+        },
+        "locator_note": {
+          "$ref": "#/$defs/nullable_string"
+        }
+      }
+    },
+    "evidence_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "evidence_type",
+        "representation",
+        "text"
+      ],
+      "properties": {
+        "evidence_type": {
+          "type": "string",
+          "enum": [
+            "author_statement",
+            "definition",
+            "table",
+            "frequency_count",
+            "survey_result",
+            "linguistic_example",
+            "comparison",
+            "editorial_explanation"
+          ]
+        },
+        "representation": {
+          "type": "string",
+          "enum": [
+            "verbatim_excerpt",
+            "table_transcription",
+            "example_transcription",
+            "faithful_summary"
+          ]
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1000
+        }
+      }
+    },
+    "form_mention": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "text",
+        "role",
+        "source_spelling",
+        "note"
+      ],
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "role": {
+          "type": "string",
+          "enum": [
+            "dialect_form",
+            "standard_form",
+            "variant",
+            "cooccurring_form",
+            "rejected_or_unnatural_form",
+            "other"
+          ]
+        },
+        "source_spelling": {
+          "type": "string",
+          "minLength": 1,
+          "description": "원문의 표기를 그대로 보존"
+        },
+        "note": {
+          "$ref": "#/$defs/nullable_string"
+        }
+      }
+    },
+    "geography": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "region_raw",
+        "normalized_regions",
+        "subregions",
+        "normalization_note"
+      ],
+      "properties": {
+        "region_raw": {
+          "$ref": "#/$defs/string_list"
+        },
+        "normalized_regions": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "enum": [
+              "경상 전역 공통",
+              "경북",
+              "경남",
+              "세부 지역 미상"
+            ]
+          }
+        },
+        "subregions": {
+          "$ref": "#/$defs/string_list"
+        },
+        "normalization_note": {
+          "$ref": "#/$defs/nullable_string"
+        }
+      }
+    },
+    "temporal_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_publication_year",
+        "language_data_period",
+        "speaker_age_or_generation",
+        "note"
+      ],
+      "properties": {
+        "source_publication_year": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1900,
+          "maximum": 2100
+        },
+        "language_data_period": {
+          "$ref": "#/$defs/nullable_string"
+        },
+        "speaker_age_or_generation": {
+          "$ref": "#/$defs/string_list"
+        },
+        "note": {
+          "$ref": "#/$defs/nullable_string"
+        }
+      }
+    },
+    "usage_conditions_raw": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sentence_type",
+        "speech_level",
+        "semantic_function",
+        "morphosyntactic_environment",
+        "lexical_constraints",
+        "discourse_context",
+        "style_or_genre",
+        "other"
+      ],
+      "properties": {
+        "sentence_type": {
+          "$ref": "#/$defs/string_list"
+        },
+        "speech_level": {
+          "$ref": "#/$defs/string_list"
+        },
+        "semantic_function": {
+          "$ref": "#/$defs/string_list"
+        },
+        "morphosyntactic_environment": {
+          "$ref": "#/$defs/string_list"
+        },
+        "lexical_constraints": {
+          "$ref": "#/$defs/string_list"
+        },
+        "discourse_context": {
+          "$ref": "#/$defs/string_list"
+        },
+        "style_or_genre": {
+          "$ref": "#/$defs/string_list"
+        },
+        "other": {
+          "$ref": "#/$defs/string_list"
+        }
+      },
+      "description": "문헌 표현을 가능한 한 원문 용어로 기록하며 아직 공통 KG 용어로 정규화하지 않는다."
+    },
+    "modern_relevance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "note"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "not_assessed",
+            "needs_contemporary_speaker_validation",
+            "contemporary_source_support",
+            "source_reports_decline",
+            "source_reports_mixed_use"
+          ]
+        },
+        "note": {
+          "$ref": "#/$defs/nullable_string"
+        }
+      }
+    },
+    "claim_link": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "target_claim_id",
+        "relation",
+        "note"
+      ],
+      "properties": {
+        "target_claim_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_]*-C[0-9]{4,}$"
+        },
+        "relation": {
+          "type": "string",
+          "enum": [
+            "supports",
+            "equivalent_to",
+            "overlaps_with",
+            "refines",
+            "contradicts"
+          ]
+        },
+        "note": {
+          "$ref": "#/$defs/nullable_string"
+        }
+      }
+    },
+    "extraction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "extracted_by",
+        "extracted_at",
+        "notes"
+      ],
+      "properties": {
+        "extracted_by": {
+          "type": "string",
+          "minLength": 1
+        },
+        "extracted_at": {
+          "type": "string",
+          "format": "date"
+        },
+        "notes": {
+          "$ref": "#/$defs/string_list"
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "reviewed_by",
+        "reviewed_at",
+        "notes"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "unreviewed",
+            "approved",
+            "revised",
+            "rejected"
+          ]
+        },
+        "reviewed_by": {
+          "$ref": "#/$defs/nullable_string"
+        },
+        "reviewed_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "notes": {
+          "$ref": "#/$defs/string_list"
+        }
+      }
+    }
+  }
+}

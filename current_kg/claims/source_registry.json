@@ -1,0 +1,200 @@
+{
+  "registry_version": "1.0.0",
+  "updated_at": "2026-09-07",
+  "policy": {
+    "claim_source_rule": "eligible_for_claims가 true인 자료만 신규 Claim의 근거로 사용할 수 있다.",
+    "independent_evaluation_rule": "evaluation_candidate 자료는 Claim 추출과 KG 구축에 사용하지 않는다.",
+    "deferred_source_rule": "deferred 자료는 별도 검토가 승인되기 전까지 Claim 또는 운영 Rule로 변환하지 않는다."
+  },
+  "sources": [
+    {
+      "source_id": "JO2018",
+      "title": "경북방언의 종결어미 연구",
+      "author_or_editor": "조현준",
+      "publication_year": 2018,
+      "source_type": "doctoral_dissertation",
+      "bibliographic_note": "대구가톨릭대학교 대학원 국어국문학과 박사학위논문, 2018년 2월",
+      "file": {
+        "path": "sources/gyeongsang/academic/경북방언_종결어미_연구.pdf",
+        "storage": "project_local_untracked",
+        "git_tracked": false,
+        "pages": 265,
+        "sha256": "3b48d6356b9efe95fe06dbd9f4db61031795cb3fb48aa87da0f192fcc1ee6c3d"
+      },
+      "role": "primary_claim_source",
+      "eligible_for_claims": true,
+      "allowed_uses": [
+        "문헌별 원자 Claim 추출",
+        "출처 위치가 붙은 예문·표·빈도 기록"
+      ],
+      "forbidden_uses": [
+        "현대 경북 화자의 자연스러움을 자동 보증",
+        "자료 내 빈도를 현대 사용 확률로 해석"
+      ],
+      "geographic_scope": {
+        "normalized_regions": [
+          "경북"
+        ],
+        "raw_scope_note": "경주·월성·성주·영덕·상주·안동·봉화·군위·대구·달성·구미·선산·예천"
+      },
+      "language_data_context": {
+        "period": "1978~1984년 조사 자료",
+        "speakers": "제보자 654명, 대부분 60~70대",
+        "genre_or_method": "한국구비문학대계 경상북도 편의 설화·민요·무가·구술 발화 분석"
+      },
+      "review_status": "source_structure_reviewed"
+    },
+    {
+      "source_id": "RYU2014",
+      "title": "표준어 간섭 및 방언에 대한 의식으로 인한 경남 함양 방언 문법 형태의 변화 연구",
+      "author_or_editor": "류성기",
+      "publication_year": 2014,
+      "source_type": "journal_article",
+      "bibliographic_note": "배달말 55호, 학술지 지면 55~92쪽, 2014년 12월 게재 확정",
+      "file": {
+        "path": "sources/gyeongsang/academic/표준어 간섭 및 방언에 대한 의식으로 인한 경남 함양 방언 문법 형태의 변화 연구.pdf",
+        "storage": "project_local_untracked",
+        "git_tracked": false,
+        "pages": 38,
+        "sha256": "2ae9c22e1a7cc9f470909bdf9cfe5f7e002d868c208a55ce23fed479ae5d9973"
+      },
+      "role": "primary_claim_source",
+      "eligible_for_claims": true,
+      "allowed_uses": [
+        "문헌별 원자 Claim 추출",
+        "세대·사용 변화·표준어 간섭 관련 조사 결과 기록"
+      ],
+      "forbidden_uses": [
+        "함양의 결과를 경남 전체나 경상 전역으로 자동 확대",
+        "소수 제보자 결과를 현대 화자 전체의 사용 확률로 해석"
+      ],
+      "geographic_scope": {
+        "normalized_regions": [
+          "경남"
+        ],
+        "raw_scope_note": "경남 함양군 서하면 신기마을·오현마을 및 함양읍"
+      },
+      "language_data_context": {
+        "period": "2014년 7월 현지 조사",
+        "speakers": "주·보조 제보자 6명은 79~88세, 사용 확인 65세 1명·12세 2명, 의식 조사 65세 이상 40명·초등학교 6학년 45명",
+        "genre_or_method": "현지 조사, 문법형 사용 확인, 방언 의식 조사"
+      },
+      "review_status": "source_structure_reviewed"
+    },
+    {
+      "source_id": "NAMU20260901",
+      "title": "동남 방언",
+      "author_or_editor": "나무위키 공동 편집 문서",
+      "publication_year": 2026,
+      "source_type": "web_document_snapshot",
+      "bibliographic_note": "나무위키 동남 방언 문서의 2026-09-01 판을 PDF로 저장한 자료",
+      "file": {
+        "path": "sources/gyeongsang/web/동남 방언.pdf",
+        "storage": "project_local_untracked",
+        "git_tracked": false,
+        "pages": 55,
+        "sha256": "97a5ccceeb15d9b80370f1a505c5eebd6e69e9da9a57ade1bed8e19303b9f80c"
+      },
+      "role": "primary_claim_source",
+      "eligible_for_claims": true,
+      "allowed_uses": [
+        "문서에 명시된 설명·예시를 출처가 붙은 Claim 후보로 보존",
+        "현대 자연스러움·금지 표현·지역 차이의 검토 후보 발굴"
+      ],
+      "forbidden_uses": [
+        "개별 서술을 학술적으로 검증된 사실로 자동 승격",
+        "출처가 없는 예시를 검토 없이 운영 Rule로 사용"
+      ],
+      "geographic_scope": {
+        "normalized_regions": [
+          "경상 전역 공통",
+          "경북",
+          "경남",
+          "세부 지역 미상"
+        ],
+        "raw_scope_note": "문서가 동남 방언 전반과 여러 세부 지역을 함께 설명하므로 Claim별로 다시 판정"
+      },
+      "language_data_context": {
+        "period": "문서 판 2026-09-01; 개별 서술의 조사 시점은 Claim별 확인",
+        "speakers": "체계적인 제보자 표본 없음",
+        "genre_or_method": "공동 편집 웹 문서의 로컬 PDF 스냅샷"
+      },
+      "review_status": "source_structure_reviewed"
+    },
+    {
+      "source_id": "NAVER_GYEONGSANG_VOCAB_SNAPSHOT",
+      "title": "경상도 어휘 JSON",
+      "author_or_editor": "네이버 사전 기반으로 수집된 기존 로컬 자료",
+      "publication_year": null,
+      "source_type": "lexical_json_snapshot",
+      "bibliographic_note": "개별 항목의 원출처와 라이선스를 아직 전수 복원하지 않은 작업 스냅샷",
+      "file": {
+        "path": "sources/gyeongsang/lexical/gyeongsang_vocab.json",
+        "storage": "project_local_untracked",
+        "git_tracked": false,
+        "pages": null,
+        "sha256": "1e4dda447a85d165719bac009559e6569c1f6dd3958e14d2d71464c79466e394"
+      },
+      "role": "deferred_lexical_candidate",
+      "eligible_for_claims": false,
+      "allowed_uses": [
+        "추후 자동 통계와 층화 표본 감사",
+        "별도 어휘 지식 계층의 후보 평가"
+      ],
+      "forbidden_uses": [
+        "현재 문법 Claim 추출",
+        "표준어-방언 문자열 쌍을 검토 없이 생성 치환 Rule로 사용"
+      ],
+      "geographic_scope": {
+        "normalized_regions": [
+          "세부 지역 미상"
+        ],
+        "raw_scope_note": "항목별 원자료의 지역 범위를 추후 복원해야 함"
+      },
+      "language_data_context": {
+        "period": null,
+        "speakers": null,
+        "genre_or_method": "사전 기반 어휘 수집 자료"
+      },
+      "review_status": "deferred_pending_lexical_audit"
+    },
+    {
+      "source_id": "AIHUB_GYEONGSANG_2PERSON",
+      "title": "AI-Hub 경상도 2인 발화 코퍼스",
+      "author_or_editor": "AI-Hub",
+      "publication_year": null,
+      "source_type": "parallel_dialect_corpus",
+      "bibliographic_note": "로컬 파일명 VL_02. 경상도_03. 2인발화.zip; 과거 v2에서 60개 문장쌍을 추출한 적이 있음",
+      "file": {
+        "path": "../dialect_corpus/aihub/VL_02. 경상도_03. 2인발화.zip",
+        "storage": "external_local_untracked",
+        "git_tracked": false,
+        "pages": null,
+        "sha256": "b63bca7dbc650fd8babee4b646d658ddb14c2186327a11a067c22a217a728fec"
+      },
+      "role": "independent_evaluation_candidate",
+      "eligible_for_claims": false,
+      "allowed_uses": [
+        "새 KG 구축과 분리된 독립 평가 후보 검토",
+        "화자·파일·연령 메타데이터를 보존한 새 평가 설계 후보"
+      ],
+      "forbidden_uses": [
+        "Claim 추출",
+        "KG 노드·관계 또는 운영 Rule의 근거",
+        "과거 60문장 평가셋을 검토 없이 그대로 재사용"
+      ],
+      "geographic_scope": {
+        "normalized_regions": [
+          "세부 지역 미상"
+        ],
+        "raw_scope_note": "경상도 범주이며 경북·경남 및 세부 지역 구분은 평가 설계 시 메타데이터로 재검토"
+      },
+      "language_data_context": {
+        "period": null,
+        "speakers": "코퍼스 메타데이터를 평가 설계 시 별도 확인",
+        "genre_or_method": "2인 발화 병렬 코퍼스"
+      },
+      "review_status": "reserved_for_independent_evaluation"
+    }
+  ]
+}
