@@ -1,0 +1,598 @@
+{
+  "batch_id": "JO2018-B012",
+  "source_id": "JO2018",
+  "status": "partial_source_extraction",
+  "body_pages": [
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127
+  ],
+  "units": [
+    {
+      "location": "PDF117 / 하이소체 의문의 판정·설명 포괄",
+      "claim_ids": [
+        "JO2018-B012-C001"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF118 / -니껴/-ㅂ니껴의 수의 ㅂ과 -디껴계 미확인",
+      "claim_ids": [
+        "JO2018-B012-C002"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF118,119 / -니꺼/-ㅂ니꺼의 수의 ㅂ과 -디꺼계 미확인",
+      "claim_ids": [
+        "JO2018-B012-C003"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF119 / 의문 -입니까/-십니까의 -습니까 대치",
+      "claim_ids": [
+        "JO2018-B012-C004"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF119 / 표21 하이소체 의문 목록",
+      "claim_ids": [
+        "JO2018-B012-C005"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF120 / -이껴의 등급 설정과 ㄴ 탈락 가능성",
+      "claim_ids": [
+        "JO2018-B012-C006"
+      ],
+      "hold": "신승원·황대화·정인상·이상규·최명옥 원자료 미확인; ㄴ 탈락은 가능성 설명이고 PDF127은 동사 결합 미관찰"
+    },
+    {
+      "location": "PDF121,122 / -껴/-꺼 계열의 자료 분포와 모음변이 추정",
+      "claim_ids": [
+        "JO2018-B012-C007"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF122 / -니껴와 -ㅂ니껴의 지역 차이",
+      "claim_ids": [
+        "JO2018-B012-C008"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF123 / -니꺼계 북부 감소와 -ㅂ니꺼/-ㅂ디꺼 미관찰",
+      "claim_ids": [
+        "JO2018-B012-C009"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF123 / 표준형 의문어미의 전지역 설명 한계",
+      "claim_ids": [
+        "JO2018-B012-C010"
+      ],
+      "hold": "PDF123 전지역·최다지역 기술과 PDF121 표22의 형태별 분포·수치 차이"
+    },
+    {
+      "location": "PDF124 / -ㄴ교/-꾜/-ㄴ기요 동남부 분포와 문법화 추정",
+      "claim_ids": [
+        "JO2018-B012-C011"
+      ],
+      "hold": "PDF124 주를 중심으로 결락 가능성·분포 단정은 PDF129 표24와 불일치; 문법화는 추정"
+    },
+    {
+      "location": "PDF125 / -(ㅂ)니껴/-(ㅂ)니꺼의 결합 대상",
+      "claim_ids": [
+        "JO2018-B012-C012"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF126 / -디껴/-디꺼계 ㅂ 수의성의 유보",
+      "claim_ids": [
+        "JO2018-B012-C013"
+      ],
+      "hold": "저자도 예 부족으로 수의 결합 판단 유보; 예77ㄱ은 이상스럽디껴인데 해설은 -ㅂ디껴로 지칭"
+    },
+    {
+      "location": "PDF126 / -까/-꺼/-껴 대립의 모음 변화 분석",
+      "claim_ids": [
+        "JO2018-B012-C014"
+      ],
+      "hold": "역사적 순서·동화의 저자 추정과 예78ㅂ 표면/분석의 차이 미확정"
+    },
+    {
+      "location": "PDF127 / -이껴의 형용사·계사 결합과 매개모음",
+      "claim_ids": [
+        "JO2018-B012-C015"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF127 / -시껴의 주체존대 부정과 결합형 분석",
+      "claim_ids": [
+        "JO2018-B012-C016"
+      ],
+      "hold": "저자의 역사·형태소 결합 분석 및 주체존대 분석 배제는 독립 검증 미완료"
+    },
+    {
+      "location": "PDF127 / -ㄹ리껴/-ㄹ시껴의 미래와 -겠습니까 대응",
+      "claim_ids": [
+        "JO2018-B012-C017"
+      ],
+      "hold": null
+    }
+  ],
+  "page_dispositions": [
+    {
+      "page": 117,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B012-C001"
+      ],
+      "reason": "의문법 도입·예69 전반 및 각주125–126 읽음. 수사의문 예외와 하이소체 판정/설명 포괄 추출."
+    },
+    {
+      "page": 118,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B012-C002",
+        "JO2018-B012-C003"
+      ],
+      "reason": "예69 완결·수의ㅂ/지역 유보, 예70 및 -디꺼계 미관찰은 PDF119에 연결."
+    },
+    {
+      "page": 119,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B012-C003",
+        "JO2018-B012-C004",
+        "JO2018-B012-C005"
+      ],
+      "reason": "예71 표준형 변이·표21 목록 추출; -까/-꺼/-껴 대립 서술은 후속 PDF126 분석에 통합."
+    },
+    {
+      "page": 120,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B012-C006"
+      ],
+      "reason": "연구사·등급 비교와 -이껴 하이소체 분석을 보류 저장; 각주127–128 읽음."
+    },
+    {
+      "page": 121,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B012-C007"
+      ],
+      "reason": "표22 이미지로 13행 확인. 점·숫자0 구별하여 빈도 맥락 저장. 분포 본문을 PDF122 첫 문장과 연결."
+    },
+    {
+      "page": 122,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B012-C007",
+        "JO2018-B012-C008"
+      ],
+      "reason": "예72와 형태별 지역 대립 추출. 각주129–130 외부지역 재인용은 보류 장부."
+    },
+    {
+      "page": 123,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B012-C009",
+        "JO2018-B012-C010"
+      ],
+      "reason": "예73·74와 -꺼 분포 추출, 표준형 모든지역·최다지역은 표 불일치로 보류. 예75ㄱ은 다음쪽 연결."
+    },
+    {
+      "page": 124,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B012-C011"
+      ],
+      "reason": "예75 완결·동남부 분포 보류, 비교 서론 읽음. 각주132 재인용은 기존 Claim 중복 방지; 각주133 역사설 장부."
+    },
+    {
+      "page": 125,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B012-C012"
+      ],
+      "reason": "예76 용언·계사·선어말어미 결합 추출, 예77 전체 읽음. 수의성 유보는 PDF126과 연결."
+    },
+    {
+      "page": 126,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B012-C013",
+        "JO2018-B012-C014"
+      ],
+      "reason": "-디껴/-디꺼 수의성 유보 및 모음 변화 추정 저장. 예78·다음 -이껴/-시껴/-리껴 절 도입 읽음."
+    },
+    {
+      "page": 127,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B012-C015",
+        "JO2018-B012-C016",
+        "JO2018-B012-C017"
+      ],
+      "reason": "예79 및 -이껴 결합·-시껴 분석 유보·미래 대응 추출. 각주134와 하소체 도입 읽음; 다음 배치 예80으로 연결."
+    }
+  ],
+  "source_context": {
+    "corpus_period_basis": {
+      "page": 29,
+      "excerpt": "1978년부터 1984년 사이에 조사된 내용을 싣고 있다.",
+      "publication_year": 2018,
+      "individual_utterance_date": null,
+      "note": "자료 전체 조사기간. 재인용 연구 시점이나 개별 발화연도로 자동 전파하지 않음."
+    },
+    "table22": {
+      "page": 121,
+      "kind": "source_frequency_context_not_generation",
+      "columns": [
+        "상주",
+        "구미",
+        "대구",
+        "달성",
+        "성주",
+        "군위",
+        "경주",
+        "영덕",
+        "안동",
+        "예천",
+        "봉화"
+      ],
+      "rows": [
+        {
+          "ending": "-니껴",
+          "counts": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            41,
+            31,
+            82,
+            152,
+            107,
+            76
+          ],
+          "printed_total": 489
+        },
+        {
+          "ending": "-ㅂ니껴",
+          "counts": [
+            null,
+            2,
+            10,
+            7,
+            null,
+            null,
+            8,
+            3,
+            null,
+            3,
+            3
+          ],
+          "printed_total": 36
+        },
+        {
+          "ending": "-디껴",
+          "counts": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            3,
+            1,
+            1,
+            6,
+            4,
+            2
+          ],
+          "printed_total": 17
+        },
+        {
+          "ending": "-ㅂ디껴",
+          "counts": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null,
+            null,
+            null
+          ],
+          "printed_total": 1
+        },
+        {
+          "ending": "-시껴",
+          "counts": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            1,
+            0,
+            1,
+            1,
+            1,
+            null
+          ],
+          "printed_total": 4
+        },
+        {
+          "ending": "-이껴",
+          "counts": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            14,
+            5,
+            13,
+            38,
+            24,
+            26
+          ],
+          "printed_total": 120
+        },
+        {
+          "ending": "-ㄹ리껴",
+          "counts": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            4,
+            15,
+            5,
+            8
+          ],
+          "printed_total": 32
+        },
+        {
+          "ending": "-니꺼",
+          "counts": [
+            5,
+            40,
+            68,
+            46,
+            54,
+            32,
+            58,
+            48,
+            15,
+            7,
+            1
+          ],
+          "printed_total": 374
+        },
+        {
+          "ending": "-ㅂ니꺼",
+          "counts": [
+            2,
+            10,
+            14,
+            22,
+            17,
+            4,
+            8,
+            4,
+            null,
+            1,
+            null
+          ],
+          "printed_total": 82
+        },
+        {
+          "ending": "-디꺼",
+          "counts": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null
+          ],
+          "printed_total": 1
+        },
+        {
+          "ending": "-ㅂ디꺼",
+          "counts": [
+            null,
+            null,
+            5,
+            null,
+            1,
+            null,
+            1,
+            1,
+            null,
+            null,
+            null
+          ],
+          "printed_total": 8
+        },
+        {
+          "ending": "-ㅂ니까/습니까",
+          "counts": [
+            269,
+            267,
+            104,
+            123,
+            49,
+            453,
+            219,
+            152,
+            146,
+            257,
+            131
+          ],
+          "printed_total": 2170
+        },
+        {
+          "ending": "-ㅂ디까/습디까",
+          "counts": [
+            5,
+            6,
+            5,
+            1,
+            null,
+            5,
+            2,
+            2,
+            1,
+            1,
+            null
+          ],
+          "printed_total": 28
+        }
+      ],
+      "missing_mark": "원표 ·와 숫자0(-시껴 경주)을 구별",
+      "no_generation_weight": true
+    }
+  },
+  "open_items": [
+    {
+      "location": "PDF120",
+      "issue": "신승원·황대화·정인상·이상규·최명옥 원자료 미확인; ㄴ 탈락은 가능성 설명이고 PDF127은 동사 결합 미관찰",
+      "claim_id": "JO2018-B012-C006"
+    },
+    {
+      "location": "PDF123",
+      "issue": "PDF123 전지역·최다지역 기술과 PDF121 표22의 형태별 분포·수치 차이",
+      "claim_id": "JO2018-B012-C010"
+    },
+    {
+      "location": "PDF124",
+      "issue": "PDF124 주를 중심으로 결락 가능성·분포 단정은 PDF129 표24와 불일치; 문법화는 추정",
+      "claim_id": "JO2018-B012-C011"
+    },
+    {
+      "location": "PDF126",
+      "issue": "저자도 예 부족으로 수의 결합 판단 유보; 예77ㄱ은 이상스럽디껴인데 해설은 -ㅂ디껴로 지칭",
+      "claim_id": "JO2018-B012-C013"
+    },
+    {
+      "location": "PDF126",
+      "issue": "역사적 순서·동화의 저자 추정과 예78ㅂ 표면/분석의 차이 미확정",
+      "claim_id": "JO2018-B012-C014"
+    },
+    {
+      "location": "PDF127",
+      "issue": "저자의 역사·형태소 결합 분석 및 주체존대 분석 배제는 독립 검증 미완료",
+      "claim_id": "JO2018-B012-C016"
+    },
+    {
+      "location": "PDF118 예69 해설",
+      "issue": "-이껴가 두 번 열거되며 예문 전체를 어미표와 자동 일대일 대응시키지 않음",
+      "claim_id": null
+    },
+    {
+      "location": "PDF118 예70ㄷ/PDF125 예77ㄹ",
+      "issue": "동일 발화 그디꺼의 출처가 7-13:74/예천과 7-18:336/예천으로 다름. 원 대계 미확인",
+      "claim_id": null
+    },
+    {
+      "location": "PDF120·각주127–128",
+      "issue": "북한 연구 표기·등급 비교는 연구사 맥락; 각주128 원자료 미확인",
+      "claim_id": null
+    },
+    {
+      "location": "PDF122 각주129–130",
+      "issue": "삼척·강원 남부 동해안·서남방언의 -니껴 분포는 전혜숙2008·김병제1965 재인용; 경북 전용성 판단 근거로 쓰지 않음",
+      "claim_id": null
+    },
+    {
+      "location": "PDF123 각주131",
+      "issue": "한국방언자료집1989의 분포 목록에 영양·의성·고령·선산 등이 중복. 대계 분포와 통합하지 않음",
+      "claim_id": null
+    },
+    {
+      "location": "PDF124 각주132–133",
+      "issue": "-는교 기원은 B001-C002의 같은 이혁화2009 재인용과 중복 추출하지 않음; 정용구1994의 니잇가>니이까>니까>니꺼 역사 분석 원자료 미확인",
+      "claim_id": null
+    },
+    {
+      "location": "PDF125 서두",
+      "issue": "이기갑2003의 -습- 규칙적 탈락 재인용은 저자의 -ㅂ- 수의 결합과 동일 주장으로 합치지 않음",
+      "claim_id": null
+    },
+    {
+      "location": "PDF127 각주134",
+      "issue": "정희선2013의 -니껴→-이껴 실현 보고는 저자의 결합환경 구별과 다름; 원자료 미확인",
+      "claim_id": null
+    }
+  ],
+  "audit": {
+    "text_read": true,
+    "pdftotext_layout": true,
+    "pdf_pages_visually_checked": [
+      119,
+      121
+    ],
+    "independent_reviewer": false
+  },
+  "validation": {
+    "passed": true,
+    "commands": [
+      "python3 current_kg/claims/v3/check_batch.py",
+      "python3 current_kg/design_probe/probe.py",
+      "python3 current_kg/design_probe/coverage_check.py",
+      "python3 current_kg/claims/v3/check_all_v3.py --check-receipt",
+      "python3 current_kg/claims/v3/check_honorifics.py",
+      "python3 current_kg/claims/v3/check_phonology.py",
+      "python3 current_kg/claims/v3/check_jo2018.py --export",
+      "python3 current_kg/claims/v3/check_jo2018.py --check-saved",
+      "python3 current_kg/claims/v3/check_honorifics.py --check-receipt",
+      "python3 current_kg/claims/v3/check_phonology.py --check-receipt",
+      "python3 current_kg/claims/v3/check_overview.py --check-receipt",
+      "python3 current_kg/claims/v3/check_ryu2014.py --check-receipt",
+      "git diff --check"
+    ],
+    "scope": "저장된 모든 bundle의 구조·참조·근거·조건 및 기존 회귀 검사. 문헌 전체 추출 완료 아님.",
+    "jo_checks": 32,
+    "all_bundle_count": 48,
+    "all_claim_count": 561,
+    "saved_graph_reconstructed": true,
+    "not_validated": [
+      "JO2018 PDF137–265 및 PDF136 예87 후속 해설",
+      "문헌 언어학적 정답",
+      "현대 자연스러움",
+      "운영 생성 성능"
+    ]
+  }
+}

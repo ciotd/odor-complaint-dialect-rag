@@ -1,0 +1,2115 @@
+{
+  "format_version": "3.0-draft.1",
+  "status": "extraction_draft",
+  "entities": [
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C001.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "친밀성에 따른 하소 사용 편집 결론",
+        "source_analysis_scope": "§2.2.8 결론",
+        "evidence_refs": [
+          "NAMU_HONORIFICS_20260908-B004-C001.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C002.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "하게체 어미 목록",
+        "source_analysis_scope": "§2.3 표·각주66–68",
+        "evidence_refs": [
+          "NAMU_HONORIFICS_20260908-B004-C002.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C003.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "하게체 판정 의문",
+        "source_analysis_scope": "§2.3 의문 기능 대조",
+        "evidence_refs": [
+          "NAMU_HONORIFICS_20260908-B004-C003.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C004.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "하게체 설명 의문",
+        "source_analysis_scope": "§2.3 의문 기능 대조",
+        "evidence_refs": [
+          "NAMU_HONORIFICS_20260908-B004-C004.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C005.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "하게체 의문 + 요/예의 높임",
+        "source_analysis_scope": "§2.3 각주67",
+        "evidence_refs": [
+          "NAMU_HONORIFICS_20260908-B004-C005.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C006.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "대화 상대와 혼잣말 구별",
+        "source_analysis_scope": "§2.3 다랭이마을 전사·각주69–74",
+        "evidence_refs": [
+          "NAMU_HONORIFICS_20260908-B004-C006.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C007.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "하게체 친족·사회관계 맥락",
+        "source_analysis_scope": "§2.3 김해 음성·사회관계 재인용·각주75",
+        "evidence_refs": [
+          "NAMU_HONORIFICS_20260908-B004-C007.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C008.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "해라체 목록과 거라 제한",
+        "source_analysis_scope": "§2.4 표·사용 맥락·각주77",
+        "evidence_refs": [
+          "NAMU_HONORIFICS_20260908-B004-C008.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C009.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "해라체 설명의문 는데",
+        "source_analysis_scope": "§2.4 의문 는데",
+        "evidence_refs": [
+          "NAMU_HONORIFICS_20260908-B004-C009.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C010.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "젊은 경북 남부 해라체 대화 예",
+        "source_analysis_scope": "§2.4 영상 나/노/가·각주78–80",
+        "evidence_refs": [
+          "NAMU_HONORIFICS_20260908-B004-C010.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C011.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "북부 라/로 의문과 세대",
+        "source_analysis_scope": "§2.4.1·각주3·7·83",
+        "evidence_refs": [
+          "NAMU_HONORIFICS_20260908-B004-C011.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C012.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "안동 나/으나와 노",
+        "source_analysis_scope": "§2.4.1 전통 안동 매개모음",
+        "evidence_refs": [
+          "NAMU_HONORIFICS_20260908-B004-C012.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C013.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "영덕 라/로 영상 전사",
+        "source_analysis_scope": "§2.4.1 영덕 두 영상·각주81–82",
+        "evidence_refs": [
+          "NAMU_HONORIFICS_20260908-B004-C013.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C014.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "울진 의문 나/노 통합 주장",
+        "source_analysis_scope": "§2.4.2 국어방언문법·김차균 재인용 및 각주83",
+        "evidence_refs": [
+          "NAMU_HONORIFICS_20260908-B004-C014.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C015.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "서부 나 확대와 기존형 병존",
+        "source_analysis_scope": "§2.4.3·각주4·9",
+        "evidence_refs": [
+          "NAMU_HONORIFICS_20260908-B004-C015.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C016.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "설명의문 나의 지역 예",
+        "source_analysis_scope": "§2.4.3 의령·김천·대구 예·각주84–86",
+        "evidence_refs": [
+          "NAMU_HONORIFICS_20260908-B004-C016.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C017.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "진주·하동 네 설명의문",
+        "source_analysis_scope": "§2.4.4 네 의문",
+        "evidence_refs": [
+          "NAMU_HONORIFICS_20260908-B004-C017.e"
+        ]
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C001.e",
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_pages": [
+        19
+      ],
+      "locator": "§2.2.8 결론",
+      "excerpt": "더 보태 보자면, 대부분 지역에서 모르는 사람에게 다짜고짜 '하소'를 사용하면 기분 나빠하는 사람이 많다. 즉 모르는 사이끼\n 리는 '하이소'와 '하소'의 어감 차이를 확실히 구분한다는 것이다.\n 또 잘 모르는 사이끼리는 보통 '하이소, 하입시다'를 하이소체에, '하소, 합시다'를 하소체에만 사용한다는 것이 두 어체를 구분\n 한다는 것에 있어 가장 큰 증거다.\n 요약하자면, 친밀한 사이끼리는 하소를 하이소의 줄임말로서 주로 한 구절의 어미에 쓴다고 보면 된다. 친하지 않은 사람한테\n 는 하이소조차도 너무 마구잡이로 쓰면 굉장히 무례하므로 결국 위의 하십시더, 하시소로 상당 부분 바꿔야 한다. 하십시더, 하\n 시소, 하시야 됩니데이를 쓰다가도 말 끝에 잠깐 한번 하소나 하이소가 들어가는 건 상관없다. 말끝까지 하시소로 도배해 버리\n 면 그건 그것대로 기분이 묘하니까.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C002.e",
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_pages": [
+        19,
+        34
+      ],
+      "locator": "§2.3 표·각주66–68",
+      "excerpt": "2.3. 하게체\n              평서법          명령법    청유법             의문법\n   하게체 -네/-(이)ㄹ세/-(이)세[66] -게 -(으)세/-(으)ㅁ세 -(느)ㄴ가/ㄴ강/ㄴ고/ㄴ공[67]\n[…]\n하게체는 표준어에서 아주 빠르게 소멸하고 있는 어체로 실제로 들어본 사람이 거의 없을 것이다. 경상도 내에서도 빠르게 소\n 멸하고 있다. 경상도 전역에 전체적으로 분포한 것으로 보이나 나이 드신 분 말고는 사용이 거의 없다. 예를 들어 경북 남동부\n 경주시의 옛 사투리 자료를 보면 분명 하게체를 사용하는 사람이 있는데 지금 젊은이들은 들어본 사람이 거의 없을 것이다\n [68]. 현재는 경남 남부 일부 섬 말고는 다른 곳에서 꽤 듣기 힘들 듯하다.\n[…]\n26. 9. 8.   오후 6:21                  동남 방언/상대 높임법 - 나무위키\n [58] 전통 과자 산자의 방언. 찹쌀가루를 반죽하여 납작하게 만들어 말린 것을 기름에 튀기고 꿀을 바른 후 그 앞뒤에 튀긴 밥\n 풀이나 깨를 붙여 만든 유과. 문서를 보면 알겠지만 그 당시에는 무지 귀한 과자였을 것이다.\n [62] 물론 지금 가족끼리 하게체를 쓰는 지역은 전멸에 가깝다.\n [63] 하이소체를 기본으로 사용할 때 하소체의 '-하소, -합시다'만 빌려 사용함으로써 친근한 느낌 표현\n [64] 하소체를 기본으로 사용할 때는 하이소체의 '-(스)ㅂ니다, -(스)ㅂ니까'만 빌려서 더욱 존중하는 느낌 표현\n [65] 하게체를 기본으로 사용할 때 해라체의 '-나/노/가/고'만 빌려 사용함으로써 친근한 느낌 표현\n [66] '-이다, 아니다'에서 '-었-, -겠-' 선어말어미가 없을 때 쓰이기도 한다. 그 사람일세. 그 사람이었네.\n [67] 의문법에 첨사 '-요/예'가 붙으면 '-(느)ㄴ고요/ㄴ가요/ㄴ공요/ㄴ강요', '-(느)ㄴ고예/ㄴ가예/ㄴ공예/ㄴ강예'가 되는데 이\n 때는 높임 정도가 해요체가 된다. 현대에 들어서는 잘 안 쓰이나 보다.\n [68] 물론 아직 쓰이긴 한다.\n [69] 확실하진 않으나 사람 이름일 듯. 미선이를 빨리 발음해서 미시~이네처럼 들릴 수도 있다. 아니면 정말 이름이 미신일 수\n 도 있다.\n [70] 혼잣말이라서 이 대목에만 해체를 쓴다. 이때의 '-(느)ㄴ고?'는 하게체가 아니라 해체에 쓰이는 의문 어미로 보면 된다.\n 주로 자기 자신에게 되물을 때 쓴다. 예) 아가 왜 그러는고... 어지 그거 땜에 그러나.\n [71] 허께이다가 눈에 띄는데, 서남 방언 동부에서 쓰는 '허이다체'이다.\n [72] 하도록. 앞의 문장과 연결하면 '처리를 하도록'. 보통 다른 지역에서는 '-그로, 구로'라고 한다.\n [73] 하이소체로 바뀌었다\n [74] 혼잣말이라서 해체로 바뀌었다\n [75] 이 논문도 분명 다른 논문을 참조해서 작성되었기 때문에 1997년보다 이전 정보이다.\n [76] 얘\n [77] '-거라'를 붙이면 정중한 하대의 의미가 더 강해지기 때문에 어른들이 쓰는 말이라는 것을 짐작할 수 있다. 특정한 용언에\n 서만 쓸 수 있나 보다. 가다, 사다, 앉다, 서다, 나다, 자다 등. 사실 잘 쓰이진 않고 케바케다.\n [78] 내삐리다(내다 버리다)의 준말\n [79] 대구 일부 지역에서만 쓰이는 은어다\n [80] 비모음이다\n [81] 뭔데!? 해가 빠져 캄캄하면 오려고 했더냐?\n [82] 아직\n [83] 경북 북동부 지역은 원래 -(이)가/(이)고 대신 -(이)라/(이)로를 쓴다\n [84] 한길(표준어). 사람과 차량이 많이 다니는 큰 길\n [85] 많이, 잔뜩과 같은 어원이지만 잔뜩보다는 많다라는 의미로 쓰인다.\n [86] 댕기다(다니다)\n [87] 경북 북부만 씀\nhttps://namu.wiki/w/  동남 방언/상대 높임법                                        34/35",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C003.e",
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_pages": [
+        19
+      ],
+      "locator": "§2.3 의문 기능 대조",
+      "excerpt": "의문형의 경우 해라체 '-나/노/가/고'와 마찬가지로 판정 의문문일 때 'ㅏ'계열, 설명 의문문일 때 'ㅗ'계열 종결어미를 가진다.\n 예를 들면 '뭐 하는고? 잘 하는가? 왜 그건고? 이게 그건가?' 같은 것이다. 이런 현상은 제주어의 ᄒᆞ여체에서도 동일하게 나타\n 난다.\n -공, -강 같이 콧소리를 넣는 것은 어느 지역에 특정되지 않고 경북, 경남 모두 나타나는 현상으로 보인다.\n      자네, 그래, 요새 아들내민 머 하고 지내는고, 잘 지내는강? 그리? 잘 댔네. 과일 함 보고 싶은가. 고마 막 담아 보게, 아\n      레 막 들어 와가 싱싱하네. 한 쪼가리 들어보게. 맛있는가. 하나 더 담아 돌라 그랬는가? 그러세. 내 인심 쓰겠네.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C004.e",
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_pages": [
+        19
+      ],
+      "locator": "§2.3 의문 기능 대조",
+      "excerpt": "의문형의 경우 해라체 '-나/노/가/고'와 마찬가지로 판정 의문문일 때 'ㅏ'계열, 설명 의문문일 때 'ㅗ'계열 종결어미를 가진다.\n 예를 들면 '뭐 하는고? 잘 하는가? 왜 그건고? 이게 그건가?' 같은 것이다. 이런 현상은 제주어의 ᄒᆞ여체에서도 동일하게 나타\n 난다.\n -공, -강 같이 콧소리를 넣는 것은 어느 지역에 특정되지 않고 경북, 경남 모두 나타나는 현상으로 보인다.\n      자네, 그래, 요새 아들내민 머 하고 지내는고, 잘 지내는강? 그리? 잘 댔네. 과일 함 보고 싶은가. 고마 막 담아 보게, 아\n      레 막 들어 와가 싱싱하네. 한 쪼가리 들어보게. 맛있는가. 하나 더 담아 돌라 그랬는가? 그러세. 내 인심 쓰겠네.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C005.e",
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_pages": [
+        19,
+        34
+      ],
+      "locator": "§2.3 각주67",
+      "excerpt": "26. 9. 8.   오후 6:21                  동남 방언/상대 높임법 - 나무위키\n [58] 전통 과자 산자의 방언. 찹쌀가루를 반죽하여 납작하게 만들어 말린 것을 기름에 튀기고 꿀을 바른 후 그 앞뒤에 튀긴 밥\n 풀이나 깨를 붙여 만든 유과. 문서를 보면 알겠지만 그 당시에는 무지 귀한 과자였을 것이다.\n [62] 물론 지금 가족끼리 하게체를 쓰는 지역은 전멸에 가깝다.\n [63] 하이소체를 기본으로 사용할 때 하소체의 '-하소, -합시다'만 빌려 사용함으로써 친근한 느낌 표현\n [64] 하소체를 기본으로 사용할 때는 하이소체의 '-(스)ㅂ니다, -(스)ㅂ니까'만 빌려서 더욱 존중하는 느낌 표현\n [65] 하게체를 기본으로 사용할 때 해라체의 '-나/노/가/고'만 빌려 사용함으로써 친근한 느낌 표현\n [66] '-이다, 아니다'에서 '-었-, -겠-' 선어말어미가 없을 때 쓰이기도 한다. 그 사람일세. 그 사람이었네.\n [67] 의문법에 첨사 '-요/예'가 붙으면 '-(느)ㄴ고요/ㄴ가요/ㄴ공요/ㄴ강요', '-(느)ㄴ고예/ㄴ가예/ㄴ공예/ㄴ강예'가 되는데 이\n 때는 높임 정도가 해요체가 된다. 현대에 들어서는 잘 안 쓰이나 보다.\n [68] 물론 아직 쓰이긴 한다.\n [69] 확실하진 않으나 사람 이름일 듯. 미선이를 빨리 발음해서 미시~이네처럼 들릴 수도 있다. 아니면 정말 이름이 미신일 수\n 도 있다.\n [70] 혼잣말이라서 이 대목에만 해체를 쓴다. 이때의 '-(느)ㄴ고?'는 하게체가 아니라 해체에 쓰이는 의문 어미로 보면 된다.\n 주로 자기 자신에게 되물을 때 쓴다. 예) 아가 왜 그러는고... 어지 그거 땜에 그러나.\n [71] 허께이다가 눈에 띄는데, 서남 방언 동부에서 쓰는 '허이다체'이다.\n [72] 하도록. 앞의 문장과 연결하면 '처리를 하도록'. 보통 다른 지역에서는 '-그로, 구로'라고 한다.\n [73] 하이소체로 바뀌었다\n [74] 혼잣말이라서 해체로 바뀌었다\n [75] 이 논문도 분명 다른 논문을 참조해서 작성되었기 때문에 1997년보다 이전 정보이다.\n [76] 얘\n [77] '-거라'를 붙이면 정중한 하대의 의미가 더 강해지기 때문에 어른들이 쓰는 말이라는 것을 짐작할 수 있다. 특정한 용언에\n 서만 쓸 수 있나 보다. 가다, 사다, 앉다, 서다, 나다, 자다 등. 사실 잘 쓰이진 않고 케바케다.\n [78] 내삐리다(내다 버리다)의 준말\n [79] 대구 일부 지역에서만 쓰이는 은어다\n [80] 비모음이다\n [81] 뭔데!? 해가 빠져 캄캄하면 오려고 했더냐?\n [82] 아직\n [83] 경북 북동부 지역은 원래 -(이)가/(이)고 대신 -(이)라/(이)로를 쓴다\n [84] 한길(표준어). 사람과 차량이 많이 다니는 큰 길\n [85] 많이, 잔뜩과 같은 어원이지만 잔뜩보다는 많다라는 의미로 쓰인다.\n [86] 댕기다(다니다)\n [87] 경북 북부만 씀\nhttps://namu.wiki/w/  동남 방언/상대 높임법                                        34/35",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C006.e",
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_pages": [
+        20,
+        34
+      ],
+      "locator": "§2.3 다랭이마을 전사·각주69–74",
+      "excerpt": "경상남도 남서부 끄트머리에 있는 섬인 다랭이마을의 하게체다. 3분 55초부터 할머니가 어법에 아주 정확히 들어 맞는 하게\n 체를 구사하고 있다. 이장이 구사하는 건 하이소체다. 다랭이마을은 전라도와 접해 있는 관계로 '하다'를 '허다'라고 하는 경향\n 이 강하다. 자세한 것은  지도 참고\n      할머니: 이장인가?\n      이장: 예, 맞십니다. 이장입니다.\n      할머니: 아~이, 다린 기 아니고, 요 미신(?)[69]네 개가 고마 깝작시리 그마 죽었네. 그걸 무이 우찔 허머 대겠는고? 우리\n      거이 청년들이 나가서 저건 쫌 묻어야 안 하겄는가?\n      이장: 아, 그래예(?), 개가.\n      할머니: 어, 예.\n      이장: 아, 와 그 개가 죽어 삤는고?[70]\n      할머니: 몰라 그 마, 아프도 안 하고 마 그리 즉시로 죽어 빘네\n      이장: 아 예, 알겄십니다. 그럼 내가 청년회 회장한테랑 이야기를 해 갖고...\n      할머니: 어, 예.\n      이장: ...저, 저, 묻도록 그래 허께이다. [71]\n      할머니: 어~이, 빨리 그리 우찌 처리르 허고로[72] 해 주게이.\n      이장: 예, 알겄십니다.\n      할머니: 어~이, 감사하네. 예.\n      PD: 이렇게 통화를 하십니까?\n      할머니: 에.\n      옆 할머니: ...촌말.\n      할머니: 차고 맞고 죽어도 그기 촌말입니다[73]. 딱 안 맞는가 배, 잘 하는데 안 맞는가 배[74].",
+      "kind": "reported_attestation"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C007.e",
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_pages": [
+        20,
+        21,
+        34
+      ],
+      "locator": "§2.3 김해 음성·사회관계 재인용·각주75",
+      "excerpt": "다음은 경남 동부 김해시의 음성 자료이다. 초반에서 하게체를 조금 들어볼 수 있다.  링크\n      자네 이 사람아, 오늘 지녁에 내 따라 같이 가세.\n      그래 자네 이 사람아, 오데 가는고?\n      마, 자네야 갔다 오게.\n      아무 것이 이 사람 그래 잘 드가세.\n[…]\n1997년 이기갑의 '한국어 방언들 사이의 상대높임법 비교 연구' 논문[75]을 보면 경상도 반촌(양반들이 모여 사는 동네) 등에\n 서 친밀한 여성 친족들 사이에서 쓰인다고 한다. 경북 반촌은 경향에 따라 하게체가 쓰이고 일반 민촌에서는 해라체를 쓴다.\n 그리고 반촌에서 장모가 사위에게 쓰는 전형적인 말투다. 반촌에서 친하지 않은 남성 손아랫사람에게 존중의 의미로 쓸 수 있\n 다고도 한다.\n[…]\n26. 9. 8.   오후 6:21                      동남 방언/상대 높임법 - 나무위키\n 다음은 이상규 교수의 1991년 '경북방언의 경어법' 저널 내용이다. 가부장적으로 들릴 수도 있지만, 반촌에서 남성 친족 손윗\n 사람에게는 하이소체나 하소체를 쓰고, 여성 친족 손윗사람들에게는 하게체를 쓴다고 한다. 2013년에 경북 북부 봉화군에서\n 남성이 어머니에게 사용하는 것이 확인되었다.  링크.\n 이런 남녀 성별에 따른 상대높임법 분화는 옛부터 전국적으로 사용되었고, 하게체 자체가 소멸하지 않은 모든 방언권에서 아\n 직도 사용되는 경향을 보인다. 그러나 현대에 와서 안 좋은 시선을 받으니 빠르게 소멸하고 있는 것으로 보인다. 반촌(양반이\n 사는 촌)에서만 쓰던 말인데 양반이 없어진 지금 쓰지 말라고 강요하지 않아도 정말 몇 년 안 지나서 금방 사라질 문화이기도\n 하다.\n 현재까지도 하게체를 사용하는 지역이 있다면 추가하면 좋다. 예를 들어 경상남도 동남쪽 끝 남해군과 하동군은 이 하게체가\n 여성 장년 노년층에서 아주 활발하게 쓰이고 있다.",
+      "kind": "reported_attestation"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C008.e",
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_pages": [
+        21,
+        34
+      ],
+      "locator": "§2.4 표·사용 맥락·각주77",
+      "excerpt": "2.4. 해라체\n         평서법 명령법 청유법                의문법\n  해라체 -(느)ㄴ다 -어/아라 -자 -나/-노/-(이)가/-(이)고\n 해라체는 표준어에서는 문어에서 주로 쓰이는 문체로, 특히 해라체 평서법은 구어에서는 일부 용법을 제외하면 거의 쓰이지\n 않는다. 그러나 경상도에서는 방언이 쇠퇴한 젊은 세대일지라도 친한 사이에서는 해체보다 해라체가 더 많이 쓰인다. 그래서\n 말 끝마다 책을 읽듯 '-다'로 끝나는 경우가 많아 타 지방 사람이라면 무뚝뚝하게 들릴 수도 있다. 하지만 표준어 해체와 동일\n 한 위치에 있다고 봐도 될 만큼 경상도에서는 평범한 표현이다.\n 늙으신 분들은 대부분 순수한 해라체를 사용하지 않고 '동남방언 해체'를 섞어 쓴다. 젊은 세대로 넘어오며 동남방언 해체가 표\n 준어 해체로 교체되는 경향이 강해지고 있다.\n 의문형 어미 -나/-노/-(이)가/-(이)고의 사용법은 해당 항목 참고. 다른 의문 어미로 '-(느)ㄴ데?'가 가끔 쓰인다. 경북과 경남\n 모두 사용한다. 표준어와 사용법이 같아서 오직 '-노/-(이)고'(설명의문문)이 들어갈 자리만 사용할 수 있다.\n      야[76]야, 여~어 와가 과일 함 보고 가거[77]라. 아레 막 들와가 싱싱하다. 한 쪼가리 무우 볼래? 맛있제. 하나 더 담아 달\n      라고? 오야. 내 인심 쪼매 썼대이.\n[…]\n26. 9. 8.   오후 6:21                  동남 방언/상대 높임법 - 나무위키\n [58] 전통 과자 산자의 방언. 찹쌀가루를 반죽하여 납작하게 만들어 말린 것을 기름에 튀기고 꿀을 바른 후 그 앞뒤에 튀긴 밥\n 풀이나 깨를 붙여 만든 유과. 문서를 보면 알겠지만 그 당시에는 무지 귀한 과자였을 것이다.\n [62] 물론 지금 가족끼리 하게체를 쓰는 지역은 전멸에 가깝다.\n [63] 하이소체를 기본으로 사용할 때 하소체의 '-하소, -합시다'만 빌려 사용함으로써 친근한 느낌 표현\n [64] 하소체를 기본으로 사용할 때는 하이소체의 '-(스)ㅂ니다, -(스)ㅂ니까'만 빌려서 더욱 존중하는 느낌 표현\n [65] 하게체를 기본으로 사용할 때 해라체의 '-나/노/가/고'만 빌려 사용함으로써 친근한 느낌 표현\n [66] '-이다, 아니다'에서 '-었-, -겠-' 선어말어미가 없을 때 쓰이기도 한다. 그 사람일세. 그 사람이었네.\n [67] 의문법에 첨사 '-요/예'가 붙으면 '-(느)ㄴ고요/ㄴ가요/ㄴ공요/ㄴ강요', '-(느)ㄴ고예/ㄴ가예/ㄴ공예/ㄴ강예'가 되는데 이\n 때는 높임 정도가 해요체가 된다. 현대에 들어서는 잘 안 쓰이나 보다.\n [68] 물론 아직 쓰이긴 한다.\n [69] 확실하진 않으나 사람 이름일 듯. 미선이를 빨리 발음해서 미시~이네처럼 들릴 수도 있다. 아니면 정말 이름이 미신일 수\n 도 있다.\n [70] 혼잣말이라서 이 대목에만 해체를 쓴다. 이때의 '-(느)ㄴ고?'는 하게체가 아니라 해체에 쓰이는 의문 어미로 보면 된다.\n 주로 자기 자신에게 되물을 때 쓴다. 예) 아가 왜 그러는고... 어지 그거 땜에 그러나.\n [71] 허께이다가 눈에 띄는데, 서남 방언 동부에서 쓰는 '허이다체'이다.\n [72] 하도록. 앞의 문장과 연결하면 '처리를 하도록'. 보통 다른 지역에서는 '-그로, 구로'라고 한다.\n [73] 하이소체로 바뀌었다\n [74] 혼잣말이라서 해체로 바뀌었다\n [75] 이 논문도 분명 다른 논문을 참조해서 작성되었기 때문에 1997년보다 이전 정보이다.\n [76] 얘\n [77] '-거라'를 붙이면 정중한 하대의 의미가 더 강해지기 때문에 어른들이 쓰는 말이라는 것을 짐작할 수 있다. 특정한 용언에\n 서만 쓸 수 있나 보다. 가다, 사다, 앉다, 서다, 나다, 자다 등. 사실 잘 쓰이진 않고 케바케다.\n [78] 내삐리다(내다 버리다)의 준말\n [79] 대구 일부 지역에서만 쓰이는 은어다\n [80] 비모음이다\n [81] 뭔데!? 해가 빠져 캄캄하면 오려고 했더냐?\n [82] 아직\n [83] 경북 북동부 지역은 원래 -(이)가/(이)고 대신 -(이)라/(이)로를 쓴다\n [84] 한길(표준어). 사람과 차량이 많이 다니는 큰 길\n [85] 많이, 잔뜩과 같은 어원이지만 잔뜩보다는 많다라는 의미로 쓰인다.\n [86] 댕기다(다니다)\n [87] 경북 북부만 씀\nhttps://namu.wiki/w/  동남 방언/상대 높임법                                        34/35",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C009.e",
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_pages": [
+        21
+      ],
+      "locator": "§2.4 의문 는데",
+      "excerpt": "2.4. 해라체\n         평서법 명령법 청유법                의문법\n  해라체 -(느)ㄴ다 -어/아라 -자 -나/-노/-(이)가/-(이)고\n 해라체는 표준어에서는 문어에서 주로 쓰이는 문체로, 특히 해라체 평서법은 구어에서는 일부 용법을 제외하면 거의 쓰이지\n 않는다. 그러나 경상도에서는 방언이 쇠퇴한 젊은 세대일지라도 친한 사이에서는 해체보다 해라체가 더 많이 쓰인다. 그래서\n 말 끝마다 책을 읽듯 '-다'로 끝나는 경우가 많아 타 지방 사람이라면 무뚝뚝하게 들릴 수도 있다. 하지만 표준어 해체와 동일\n 한 위치에 있다고 봐도 될 만큼 경상도에서는 평범한 표현이다.\n 늙으신 분들은 대부분 순수한 해라체를 사용하지 않고 '동남방언 해체'를 섞어 쓴다. 젊은 세대로 넘어오며 동남방언 해체가 표\n 준어 해체로 교체되는 경향이 강해지고 있다.\n 의문형 어미 -나/-노/-(이)가/-(이)고의 사용법은 해당 항목 참고. 다른 의문 어미로 '-(느)ㄴ데?'가 가끔 쓰인다. 경북과 경남\n 모두 사용한다. 표준어와 사용법이 같아서 오직 '-노/-(이)고'(설명의문문)이 들어갈 자리만 사용할 수 있다.\n      야[76]야, 여~어 와가 과일 함 보고 가거[77]라. 아레 막 들와가 싱싱하다. 한 쪼가리 무우 볼래? 맛있제. 하나 더 담아 달\n      라고? 오야. 내 인심 쪼매 썼대이.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C010.e",
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_pages": [
+        22,
+        34
+      ],
+      "locator": "§2.4 영상 나/노/가·각주78–80",
+      "excerpt": "영상 내에서 해라체의 의문형 어미 '-나/-노/-(이)가'를 사용하고 있다. 두 남성은 비교적 젊은 경북 남부 해라체를 구사한다.\n 일부 이중모음이 단모음화되지 않는다.\n      형: 니 우에 옷 어디 내삤노[78]?\n      동생: 댔다 마 신경 쓰지 마라.\n      형: 내 껀데 어예 신경을 안 쓰노?\n      동생: 담깄다[79].\n      형: 담깄다고?\n      동생: 어~어[80], 담깄다.\n      형: 누구한테?\n      동생: 친구.\n      형: 친구 누구?\n      동생: 광수.\n      형: 아, 가 눈 띵그라~이 키 크고 콧구멍 크고 고 모공 큰 아 가?\n      동생: 어~어, 가다.\n      형: 가 맞나?\n      동생: 어~어, 가한테 담깄다.\n      형: 가 지금 어딨노?\n      동생: 저거 집에 있겠지.\n      형: 가자. 가한테 가가 히~아가 대갈통 다 뿌사 가지고 니 옷 찾아 주께.\n      동생: 안 된다. 가 건딜먼 담긴다.\n      형: 담긴다고?\n      동생: 어~어, 담긴다.\n      형: 장난하나? 내가 그런 얼라가 무섭어 가지고 내 빼 삐까?\n      동생: 문신 있다.\n      형: 문신?\n      동생: 어~어.\n      형: 무슨 문신?\n      동생: 용 문신.\n      형: 호랑이 문신이믄 이기는데.\n      동생: 잉어도 있다.\n      형: 내 담기겠네.\n      동생: 그래가 같이 갈 기가?\n      형: 월급 타면 내 니 옷 사 주께.",
+      "kind": "reported_attestation"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C011.e",
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_pages": [
+        22,
+        23,
+        31,
+        34
+      ],
+      "locator": "§2.4.1·각주3·7·83",
+      "excerpt": "2.4.1. -(이)라, -(이)로형 어미\n -(이)라, -(이)로는 안동시 등 경북 북부와 북동부 지방에서 쓰이는 의문형 어미로 -(이)라 = -(이)가, -(이)로 = -(이)고 대신\n 쓰인다. 경북 동부 방언권도 위쪽 지역은 이 어체를 쓴다\nhttps://namu.wiki/w/  동남 방언/상대 높임법                                            22/35\n[…]\n안동에서 아주 나이드신 분들은 '-(이)가/-(이)고'를 보수적인 형태로 사용하고 있으며 젊은 세대로 넘어오며 점점 '-(이)라/-\n (이)로'형으로 교체되는 중이다. 어떻게 보면 방언이 다른 지역에 통합되는 것이 아니라 점점 분화되는 희귀한 광경을 직접 경\n 험하고 있는 것이다.\n 또한 전통 안동 방언에서 '-나/-(으)나'는 동사/형용사에 따라 쓰임이 갈린다고 한다. 그에 반해 '-노'는 매개모음이 없다.\n                    평서법 명령법 청유법              의문법\n  -(이)라, -(이)로형 어미 -(느)ㄴ다 -어/아라 -자 -(으)나/-노/-(이)라/-(이)로",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C012.e",
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_pages": [
+        23
+      ],
+      "locator": "§2.4.1 전통 안동 매개모음",
+      "excerpt": "안동에서 아주 나이드신 분들은 '-(이)가/-(이)고'를 보수적인 형태로 사용하고 있으며 젊은 세대로 넘어오며 점점 '-(이)라/-\n (이)로'형으로 교체되는 중이다. 어떻게 보면 방언이 다른 지역에 통합되는 것이 아니라 점점 분화되는 희귀한 광경을 직접 경\n 험하고 있는 것이다.\n 또한 전통 안동 방언에서 '-나/-(으)나'는 동사/형용사에 따라 쓰임이 갈린다고 한다. 그에 반해 '-노'는 매개모음이 없다.\n                    평서법 명령법 청유법              의문법\n  -(이)라, -(이)로형 어미 -(느)ㄴ다 -어/아라 -자 -(으)나/-노/-(이)라/-(이)로",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C013.e",
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_pages": [
+        23,
+        24,
+        34
+      ],
+      "locator": "§2.4.1 영덕 두 영상·각주81–82",
+      "excerpt": "3분 34초\n      할머니: 만데!? 해가 빠지 캄캄하먼 올라캤다아?[81] 지랄도 지랄도. 만데 인제 오노? 빨리 가아 들온나 진짜. 만데...\n      걱정하며 졸인 마음을 생각하면 윽박지르는 걸로도 모자란다.\n      할머니: 이~이 캔다꼬 해가 어둡두룩 있나. 어 머 여~어 머 이~이 이~이, 이기 이기 이기 머로? 이기. 세사~아 이거 캔\n      다꼬 그리 가가 있나, 어~어?\n[…]\n1분 40초\n      할머니: 이, 여보세요. 막내라?\n      아우가 낳은 아들, 상모다.\n      할머니: 밥 묵자꼬? 마, 집에 오나? 아이구 안줌[82] 반찬도 안 하고... 오야.",
+      "kind": "reported_attestation"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C014.e",
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_pages": [
+        24,
+        34
+      ],
+      "locator": "§2.4.2 국어방언문법·김차균 재인용 및 각주83",
+      "excerpt": "2.4.2. -나, -노형 어미\n 이기갑의 『국어방언문법』에 따르면 경북 북동부 끝쪽에 자리한 울진군에서만 의문어미 -(이)라/(이)로[83]가 -나/노와 통합되\n 는 경향을 띤다고 한다. '아이라?'가 '아이나?', '머로?'가 '머노?'가 되는 식. 이런 용례를 보이는 것은 울진군 밖에 없으니 울진\n 지역어라고 부르는 것이 맞다.\n               평서법 명령법 청유법 의문법\n   -나, -노형 어미 -(느)ㄴ다 -어/아라 -자 -나/-노\n[…]\n중부 동해안 방언의 성조 비교(김차균) p.1116에서 '[울진] 이게에 누옷이고(누옷이노)?'라는 예문이 존재한다.\n 아쉽게도 인터넷에 제대로 된 대화를 담은 영상이 없는 것 같다. 사용자가 너무 적기 때문이다.\n 이론적으로 바로 위 문단에 있는 '-(이)라/-(이)로'형 어미와 억양이 비슷할 것으로 보인다.\n 2.4.3. -나형 어미\n '-나'는 경북 서부와 경남 서부에서 쓰이는 의문형 어미로 -나/노/가/고 대신 쓰인다. 그렇다고 해서 -나/-노/-(이)가/-(이)고를\n 안 쓰는 것은 아니다.\n            평서법 명령법 청유법               의문법\n   -나형 어미 -(느)ㄴ다 -어/아라 -자 -나/-노/-(이)가/-(이)고, -나",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C015.e",
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_pages": [
+        24,
+        25,
+        31,
+        32
+      ],
+      "locator": "§2.4.3·각주4·9",
+      "excerpt": "중부 동해안 방언의 성조 비교(김차균) p.1116에서 '[울진] 이게에 누옷이고(누옷이노)?'라는 예문이 존재한다.\n 아쉽게도 인터넷에 제대로 된 대화를 담은 영상이 없는 것 같다. 사용자가 너무 적기 때문이다.\n 이론적으로 바로 위 문단에 있는 '-(이)라/-(이)로'형 어미와 억양이 비슷할 것으로 보인다.\n 2.4.3. -나형 어미\n '-나'는 경북 서부와 경남 서부에서 쓰이는 의문형 어미로 -나/노/가/고 대신 쓰인다. 그렇다고 해서 -나/-노/-(이)가/-(이)고를\n 안 쓰는 것은 아니다.\n            평서법 명령법 청유법               의문법\n   -나형 어미 -(느)ㄴ다 -어/아라 -자 -나/-노/-(이)가/-(이)고, -나",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C016.e",
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_pages": [
+        25,
+        34
+      ],
+      "locator": "§2.4.3 의령·김천·대구 예·각주84–86",
+      "excerpt": "29초 경 설명의문문에 '-나'를 사용하는 것을 들을 수 있다. 경남 서부 의령군 사투리를 사용한다.\n      PD: 안 무서워요?\n      할머니: 머 무섭나? 한질[84]에게 사람이 짜드르[85] 때~애기[86] 쌓는데. 무섭기야 머 무섭나? (다른 지역에서는 원래\n      '-노'가 들어갈 자리이다.)\n[…]\n경북 서부 김천시의 방언 문단을 보면 '뭐라나(뭐라 하니)', '뭐 카나(뭐라고 하니)'라는 문장이 있는데 이것도 -나형 어미로 보\n 인다.\n 이는 대구에서도 쓰이는 듯한데, 아래 문장은 대구광역시에 사는 50대 화자가 직접 말한 예문이다.\n      이건 언제 다 보고 자나. (원래 '-노'가 들어갈 자리이다.)\n      상추 이게 다나. (원래 '-(이)가'가 들어갈 자리이다.)",
+      "kind": "reported_attestation"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C017.e",
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_pages": [
+        25
+      ],
+      "locator": "§2.4.4 네 의문",
+      "excerpt": "2.4.4. -네형 어미\n '-네'는 경상남도 서부에 있는 진주시와 남서부 끝에 있는 하동군과 주위에서 자주 쓰는 의문형 어미로, -(이)가/(이)고/나/노\n 와 더불어 쓰인다. 어떤 이는 '-는데?'가 줄어들어서 생긴 용법으로 본다. 이게 신빙성이 있는 게 '-는데?'는 '-노?, -(이)고?'가\n 들어갈 자리만 들어갈 수 있는데 '-네?' 또한 같은 용법으로만 쓸 수 있기 때문.\n          평서법 명령법 청유법                의문법\n  -네형 어미 -(느)ㄴ다 -어/아라 -자 -(이)가/-(이)고/-나/-노/-네\n 아쉽게도 인터넷에 제대로 된 대화를 담은 영상이 없는 것 같다.",
+      "kind": "source_statement"
+    }
+  ],
+  "claims": [
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C001",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "상대높임",
+        "종결어미",
+        "담화"
+      ],
+      "source_terms": [
+        "친밀성에 따른 하소 사용 편집 결론"
+      ],
+      "target_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C001.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C001.a",
+          "kind": "scope_caveat",
+          "target_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C001.usage"
+          ],
+          "content": {
+            "assertion": "친소 관계에 따라 하소/하이소 구별·혼용; 친하지 않은 상대에게 시 결합을 상당 부분 사용하라는 편집 제안",
+            "examples": [
+              "하십시더",
+              "하시소",
+              "하시야 됩니데이"
+            ],
+            "caveat": "한 구절 끝의 사용, 마구잡이 사용, 도배 같은 정량화 불가 표현; 자동 빈도·배치 정책으로 옮기지 않음",
+            "operational_status": "held",
+            "analysis_author": "source",
+            "source_scope": "친밀성에 따른 하소 사용 편집 결론",
+            "operational_status_basis": "extractor_policy_pending_review",
+            "example_transcription_policy": "PDF 철자 유지; 인용 일부·문장 경계 발췌이며 미확보 음성을 직접 청취한 전사 아님"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C001.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C001.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "세부 적용 지역 미확보; 문헌 제목으로 경상 전역 공통을 부여하지 않음"
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C001.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "발화·조사 시점 미확보; 발행·수집일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C001.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "PDF 문법 설명·편집 판단",
+            "source_scope": "§2.2.8 결론"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C001.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "문헌 주장 초안; 정답·현대 자연스러움·생성 선택 우선순위 미검증",
+        "편집자 판단·범위 또는 분석 미확정; 운영 생성 보류"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C002",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "상대높임",
+        "종결어미"
+      ],
+      "source_terms": [
+        "하게체 어미 목록"
+      ],
+      "target_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C002.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C002.a",
+          "kind": "scoped_inventory",
+          "target_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C002.usage"
+          ],
+          "content": {
+            "entries": [
+              {
+                "function": "평서법",
+                "forms": [
+                  "-네",
+                  "-(이)ㄹ세",
+                  "-(이)세"
+                ]
+              },
+              {
+                "function": "명령법",
+                "forms": [
+                  "-게"
+                ]
+              },
+              {
+                "function": "청유법",
+                "forms": [
+                  "-(으)세",
+                  "-(으)ㅁ세"
+                ]
+              },
+              {
+                "function": "의문법",
+                "forms": [
+                  "-(느)ㄴ가",
+                  "-ㄴ강",
+                  "-ㄴ고",
+                  "-ㄴ공"
+                ]
+              }
+            ],
+            "restrictions": [
+              "(이)ㄹ세/(이)세는 이다·아니다에서 었/겠 없을 때 쓰이기도 한다는 각주66; 전체 평서 네에 전파 금지",
+              "강/공은 경북·경남 모두 보인다는 추정; 전역 공통 확정 아님",
+              "경남 남부 일부 섬 등 사용·쇠퇴 주장은 표본 시점 미상"
+            ],
+            "operational_status": "draft_not_approved",
+            "analysis_author": "source",
+            "source_scope": "하게체 어미 목록",
+            "operational_status_basis": "extractor_policy_pending_review",
+            "example_transcription_policy": "PDF 철자 유지; 인용 일부·문장 경계 발췌이며 미확보 음성을 직접 청취한 전사 아님"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C002.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C002.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "세부 적용 지역 미확보; 문헌 제목으로 경상 전역 공통을 부여하지 않음"
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C002.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "발화·조사 시점 미확보; 발행·수집일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C002.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "PDF 문법 설명·편집 판단",
+            "source_scope": "§2.3 표·각주66–68"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C002.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "문헌 주장 초안; 정답·현대 자연스러움·생성 선택 우선순위 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C003",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "상대높임",
+        "종결어미"
+      ],
+      "source_terms": [
+        "하게체 판정 의문"
+      ],
+      "target_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C003.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C003.a",
+          "kind": "conditioned_realization",
+          "target_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C003.usage"
+          ],
+          "content": {
+            "forms": [
+              "-(느)ㄴ가",
+              "-ㄴ강"
+            ],
+            "source_examples": [
+              "잘 하는가?",
+              "이게 그건가?"
+            ],
+            "operational_status": "draft_not_approved",
+            "analysis_author": "source",
+            "source_scope": "하게체 판정 의문",
+            "operational_status_basis": "extractor_policy_pending_review",
+            "example_transcription_policy": "PDF 철자 유지; 인용 일부·문장 경계 발췌이며 미확보 음성을 직접 청취한 전사 아님"
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "NAMU_HONORIFICS_20260908-B004-C003.usage",
+                "feature": "base_style",
+                "value": "하게체"
+              },
+              {
+                "op": "eq",
+                "target": "NAMU_HONORIFICS_20260908-B004-C003.usage",
+                "feature": "sentence_function",
+                "value": "의문"
+              },
+              {
+                "op": "eq",
+                "target": "NAMU_HONORIFICS_20260908-B004-C003.usage",
+                "feature": "question_type",
+                "value": "판정"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C003.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C003.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "세부 적용 지역 미확보; 문헌 제목으로 경상 전역 공통을 부여하지 않음"
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C003.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "발화·조사 시점 미확보; 발행·수집일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C003.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "PDF 문법 설명·편집 판단",
+            "source_scope": "§2.3 의문 기능 대조"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C003.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "문헌 주장 초안; 정답·현대 자연스러움·생성 선택 우선순위 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C004",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "상대높임",
+        "종결어미"
+      ],
+      "source_terms": [
+        "하게체 설명 의문"
+      ],
+      "target_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C004.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C004.a",
+          "kind": "conditioned_realization",
+          "target_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C004.usage"
+          ],
+          "content": {
+            "forms": [
+              "-(느)ㄴ고",
+              "-ㄴ공"
+            ],
+            "source_examples": [
+              "뭐 하는고?",
+              "왜 그건고?"
+            ],
+            "operational_status": "draft_not_approved",
+            "analysis_author": "source",
+            "source_scope": "하게체 설명 의문",
+            "operational_status_basis": "extractor_policy_pending_review",
+            "example_transcription_policy": "PDF 철자 유지; 인용 일부·문장 경계 발췌이며 미확보 음성을 직접 청취한 전사 아님"
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "NAMU_HONORIFICS_20260908-B004-C004.usage",
+                "feature": "base_style",
+                "value": "하게체"
+              },
+              {
+                "op": "eq",
+                "target": "NAMU_HONORIFICS_20260908-B004-C004.usage",
+                "feature": "sentence_function",
+                "value": "의문"
+              },
+              {
+                "op": "eq",
+                "target": "NAMU_HONORIFICS_20260908-B004-C004.usage",
+                "feature": "question_type",
+                "value": "설명"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C004.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C004.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "세부 적용 지역 미확보; 문헌 제목으로 경상 전역 공통을 부여하지 않음"
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C004.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "발화·조사 시점 미확보; 발행·수집일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C004.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "PDF 문법 설명·편집 판단",
+            "source_scope": "§2.3 의문 기능 대조"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C004.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "문헌 주장 초안; 정답·현대 자연스러움·생성 선택 우선순위 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C005",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "상대높임",
+        "종결어미"
+      ],
+      "source_terms": [
+        "하게체 의문 + 요/예의 높임"
+      ],
+      "target_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C005.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C005.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C005.usage"
+          ],
+          "content": {
+            "forms": [
+              "-(느)ㄴ고요",
+              "-ㄴ가요",
+              "-ㄴ공요",
+              "-ㄴ강요",
+              "-(느)ㄴ고예",
+              "-ㄴ가예",
+              "-ㄴ공예",
+              "-ㄴ강예"
+            ],
+            "result_style": "해요체 높임 정도",
+            "caveat": "현대 잘 안 쓰이나 보다; JO2018 하게체+요 불 대조 전 동일 분석으로 합치지 않음",
+            "operational_status": "held",
+            "analysis_author": "source",
+            "source_scope": "하게체 의문 + 요/예의 높임",
+            "operational_status_basis": "extractor_policy_pending_review",
+            "example_transcription_policy": "PDF 철자 유지; 인용 일부·문장 경계 발췌이며 미확보 음성을 직접 청취한 전사 아님"
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "NAMU_HONORIFICS_20260908-B004-C005.usage",
+                "feature": "base_construction",
+                "value": "하게체 의문형"
+              },
+              {
+                "op": "any",
+                "args": [
+                  {
+                    "op": "eq",
+                    "target": "NAMU_HONORIFICS_20260908-B004-C005.usage",
+                    "feature": "attached_particle",
+                    "value": "요"
+                  },
+                  {
+                    "op": "eq",
+                    "target": "NAMU_HONORIFICS_20260908-B004-C005.usage",
+                    "feature": "attached_particle",
+                    "value": "예"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C005.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C005.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "세부 적용 지역 미확보; 문헌 제목으로 경상 전역 공통을 부여하지 않음"
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C005.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "발화·조사 시점 미확보; 발행·수집일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C005.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "PDF 문법 설명·편집 판단",
+            "source_scope": "§2.3 각주67"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C005.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "문헌 주장 초안; 정답·현대 자연스러움·생성 선택 우선순위 미검증",
+        "출처의 동형 어미 재분석 여부·JO2018와 지역/분류 대조 전 운영 보류"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C006",
+      "record_type": "attestation",
+      "categories": [
+        "상대높임",
+        "종결어미",
+        "담화"
+      ],
+      "source_terms": [
+        "대화 상대와 혼잣말 구별"
+      ],
+      "target_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C006.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C006.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C006.usage"
+          ],
+          "content": {
+            "turns": [
+              {
+                "speaker": "할머니",
+                "addressee": "이장",
+                "text": "이장인가?",
+                "source_style": "하게체"
+              },
+              {
+                "speaker": "이장",
+                "addressee": "할머니",
+                "text": "예, 맞십니다. 이장입니다.",
+                "source_style": "하이소체"
+              },
+              {
+                "speaker": "이장",
+                "addressee": "자기 자신",
+                "text": "아, 와 그 개가 죽어 삤는고?",
+                "source_style": "해체(각주70의 분석)"
+              },
+              {
+                "speaker": "할머니",
+                "addressee": "PD",
+                "text": "차고 맞고 죽어도 그기 촌말입니다",
+                "source_style": "하이소체"
+              },
+              {
+                "speaker": "할머니",
+                "addressee": "자기 자신",
+                "text": "딱 안 맞는가 배, 잘 하는데 안 맞는가 배",
+                "source_style": "해체"
+              }
+            ],
+            "notes": [
+              "-(느)ㄴ고는 각주70에서 자기 되묻기 해체로 분석; 형식만 보고 하게체 아님",
+              "미신(?) 사람 이름 불명 유지",
+              "허께이다는 각주71에서 서남 허이다체로 분석, 경상 공통 생성형 편입 안 함",
+              "허고로=하도록, 해 주게이 요청 예 보존"
+            ],
+            "operational_status": "held",
+            "analysis_author": "source",
+            "source_scope": "대화 상대와 혼잣말 구별",
+            "operational_status_basis": "extractor_policy_pending_review",
+            "example_transcription_policy": "PDF 철자 유지; 인용 일부·문장 경계 발췌이며 미확보 음성을 직접 청취한 전사 아님"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C006.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C006.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "다랭이마을(원20쪽의 남서부 설명; 외부 지리 교정 없음)",
+            "exclusive_to_region": null,
+            "widespread_use_established": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C006.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C006.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "발화·조사 시점 미확보; 발행·수집일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C006.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "PDF의 재인용·전사",
+            "source_scope": "§2.3 다랭이마을 전사·각주69–74"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C006.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "문헌 주장 초안; 정답·현대 자연스러움·생성 선택 우선순위 미검증",
+        "재인용 원자료 미확인; 독립 증거 중복 계산 및 운영 생성 보류"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C007",
+      "record_type": "attestation",
+      "categories": [
+        "상대높임",
+        "종결어미",
+        "담화"
+      ],
+      "source_terms": [
+        "하게체 친족·사회관계 맥락"
+      ],
+      "target_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C007.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C007.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C007.usage"
+          ],
+          "content": {
+            "reported_examples": [
+              "자네 이 사람아, 오늘 지녁에 내 따라 같이 가세.",
+              "그래 자네 이 사람아, 오데 가는고?",
+              "마, 자네야 갔다 오게."
+            ],
+            "social_contexts": [
+              "반촌 친밀한 여성 친족끼리",
+              "장모→사위",
+              "친하지 않은 남성 손아랫사람 존중",
+              "남성 친족 손윗사람에게 하이소·하소, 여성 친족 손윗사람에게 하게체라는 1991 자료 인용"
+            ],
+            "attestation": "2013 봉화 남성이 어머니에게 사용했다는 위키의 외부 링크 소개",
+            "period_caveat": "1997 논문 자체 재인용이므로 1997보다 이전 정보; 1991도 발행시점, 2013은 출처가 제시한 확인 연도",
+            "current_scope": "남해·하동 여성 장·노년층 활발이라는 설명; 시점·표본 불명",
+            "operational_status": "held",
+            "analysis_author": "source",
+            "source_scope": "하게체 친족·사회관계 맥락",
+            "operational_status_basis": "extractor_policy_pending_review",
+            "example_transcription_policy": "PDF 철자 유지; 인용 일부·문장 경계 발췌이며 미확보 음성을 직접 청취한 전사 아님"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C007.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C007.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "김해·경북 반촌·봉화·남해·하동 각각의 주장 범위",
+            "exclusive_to_region": null,
+            "widespread_use_established": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C007.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C007.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "발화·조사 시점 미확보; 발행·수집일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C007.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "PDF의 재인용·전사",
+            "source_scope": "§2.3 김해 음성·사회관계 재인용·각주75"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C007.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "문헌 주장 초안; 정답·현대 자연스러움·생성 선택 우선순위 미검증",
+        "재인용 원자료 미확인; 독립 증거 중복 계산 및 운영 생성 보류"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C008",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "상대높임",
+        "종결어미"
+      ],
+      "source_terms": [
+        "해라체 목록과 거라 제한"
+      ],
+      "target_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C008.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C008.a",
+          "kind": "scoped_inventory",
+          "target_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C008.usage"
+          ],
+          "content": {
+            "entries": [
+              {
+                "function": "평서법",
+                "forms": [
+                  "-(느)ㄴ다"
+                ]
+              },
+              {
+                "function": "명령법",
+                "forms": [
+                  "-어/아라"
+                ]
+              },
+              {
+                "function": "청유법",
+                "forms": [
+                  "-자"
+                ]
+              },
+              {
+                "function": "의문법",
+                "forms": [
+                  "-나",
+                  "-노",
+                  "-(이)가",
+                  "-(이)고"
+                ]
+              }
+            ],
+            "context": "친한 사이 구어; 해체와 섞임, 젊은층은 표준어 해체로 교체 경향",
+            "restricted_variant": {
+              "form": "-거라",
+              "effect": "정중한 하대가 강함",
+              "source_lemmas": [
+                "가다",
+                "사다",
+                "앉다",
+                "서다",
+                "나다",
+                "자다"
+              ],
+              "modality": "특정 용언에서만 쓸 수 있나 보다, 잘 안 쓰이고 경우에 따라 다름"
+            },
+            "caveat": "거라를 목록 전체에 생산적으로 붙이지 않음",
+            "operational_status": "held",
+            "analysis_author": "source",
+            "source_scope": "해라체 목록과 거라 제한",
+            "operational_status_basis": "extractor_policy_pending_review",
+            "example_transcription_policy": "PDF 철자 유지; 인용 일부·문장 경계 발췌이며 미확보 음성을 직접 청취한 전사 아님"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C008.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C008.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "세부 적용 지역 미확보; 문헌 제목으로 경상 전역 공통을 부여하지 않음"
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C008.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "발화·조사 시점 미확보; 발행·수집일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C008.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "PDF 문법 설명·편집 판단",
+            "source_scope": "§2.4 표·사용 맥락·각주77"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C008.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "문헌 주장 초안; 정답·현대 자연스러움·생성 선택 우선순위 미검증",
+        "거라 생산성·정중한 하대 판단 및 세대 분포 미확정; 기본 목록과 구별하여 운영 보류"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C009",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "상대높임",
+        "종결어미"
+      ],
+      "source_terms": [
+        "해라체 설명의문 는데"
+      ],
+      "target_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C009.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C009.a",
+          "kind": "conditioned_realization",
+          "target_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C009.usage"
+          ],
+          "content": {
+            "forms": [
+              "-(느)ㄴ데?"
+            ],
+            "source_alternatives": [
+              "-노",
+              "-(이)고"
+            ],
+            "restriction": "판정의문 자리에 전파하지 않음",
+            "operational_status": "draft_not_approved",
+            "analysis_author": "source",
+            "source_scope": "해라체 설명의문 는데",
+            "operational_status_basis": "extractor_policy_pending_review",
+            "example_transcription_policy": "PDF 철자 유지; 인용 일부·문장 경계 발췌이며 미확보 음성을 직접 청취한 전사 아님"
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "NAMU_HONORIFICS_20260908-B004-C009.usage",
+                "feature": "base_style",
+                "value": "해라체"
+              },
+              {
+                "op": "eq",
+                "target": "NAMU_HONORIFICS_20260908-B004-C009.usage",
+                "feature": "question_type",
+                "value": "설명"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C009.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C009.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "경북·경남 모두라는 원문 설명; 세부 분포 미상",
+            "exclusive_to_region": null,
+            "widespread_use_established": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C009.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C009.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "발화·조사 시점 미확보; 발행·수집일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C009.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "PDF 문법 설명·편집 판단",
+            "source_scope": "§2.4 의문 는데"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C009.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "문헌 주장 초안; 정답·현대 자연스러움·생성 선택 우선순위 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C010",
+      "record_type": "attestation",
+      "categories": [
+        "상대높임",
+        "종결어미"
+      ],
+      "source_terms": [
+        "젊은 경북 남부 해라체 대화 예"
+      ],
+      "target_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C010.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C010.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C010.usage"
+          ],
+          "content": {
+            "source_examples": [
+              "가 맞나?",
+              "가 지금 어딨노?",
+              "그래가 같이 갈 기가?"
+            ],
+            "participants": "형·동생",
+            "source_context": "영상으로 제시된 대화; 실제 자발 발화 여부 미확인",
+            "notes": [
+              "담기다는 대구 일부 은어라는 각주79, 문법 규칙으로 추출 안 함",
+              "어~어 비모음 주석·내삐리다 준말은 발화 맥락"
+            ],
+            "operational_status": "held",
+            "analysis_author": "source",
+            "source_scope": "젊은 경북 남부 해라체 대화 예",
+            "operational_status_basis": "extractor_policy_pending_review",
+            "example_transcription_policy": "PDF 철자 유지; 인용 일부·문장 경계 발췌이며 미확보 음성을 직접 청취한 전사 아님"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C010.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C010.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "경북 남부",
+            "exclusive_to_region": null,
+            "widespread_use_established": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C010.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C010.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "발화·조사 시점 미확보; 발행·수집일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C010.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "PDF의 재인용·전사",
+            "source_scope": "§2.4 영상 나/노/가·각주78–80"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C010.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "문헌 주장 초안; 정답·현대 자연스러움·생성 선택 우선순위 미검증",
+        "재인용 원자료 미확인; 독립 증거 중복 계산 및 운영 생성 보류"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C011",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "상대높임",
+        "종결어미"
+      ],
+      "source_terms": [
+        "북부 라/로 의문과 세대"
+      ],
+      "target_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C011.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C011.a",
+          "kind": "regional_variant",
+          "target_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C011.usage"
+          ],
+          "content": {
+            "entries": [
+              {
+                "source_form": "-(이)가",
+                "function": "의문",
+                "forms": [
+                  "-(이)라"
+                ]
+              },
+              {
+                "source_form": "-(이)고",
+                "function": "의문",
+                "forms": [
+                  "-(이)로"
+                ]
+              }
+            ],
+            "caveat": "안동 아주 나이든 화자 가/고 보수형 병존; 세대별 교체 경향. 북동부 전체 배타형 아님",
+            "specific_scope": "경북 동부 북쪽 영천·영덕도 각주7에 언급",
+            "operational_status": "draft_not_approved",
+            "analysis_author": "source",
+            "source_scope": "북부 라/로 의문과 세대",
+            "operational_status_basis": "extractor_policy_pending_review",
+            "example_transcription_policy": "PDF 철자 유지; 인용 일부·문장 경계 발췌이며 미확보 음성을 직접 청취한 전사 아님"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C011.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C011.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "안동 등 경북 북부·북동부; 경북 동부 위쪽",
+            "exclusive_to_region": null,
+            "widespread_use_established": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C011.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C011.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "발화·조사 시점 미확보; 발행·수집일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C011.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "PDF 문법 설명·편집 판단",
+            "source_scope": "§2.4.1·각주3·7·83"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C011.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "문헌 주장 초안; 정답·현대 자연스러움·생성 선택 우선순위 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C012",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "상대높임",
+        "종결어미"
+      ],
+      "source_terms": [
+        "안동 나/으나와 노"
+      ],
+      "target_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C012.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C012.a",
+          "kind": "scope_caveat",
+          "target_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C012.usage"
+          ],
+          "content": {
+            "forms": [
+              "-나",
+              "-(으)나",
+              "-노"
+            ],
+            "assertion": "나/으나는 동사·형용사에 따라 갈림; 노는 매개모음 없음",
+            "gap": "본문은 어떤 품사에 어느 형태인지 명시적으로 방향을 명시하지 않음; 추론하지 않음",
+            "operational_status": "held",
+            "analysis_author": "source",
+            "source_scope": "안동 나/으나와 노",
+            "operational_status_basis": "extractor_policy_pending_review",
+            "example_transcription_policy": "PDF 철자 유지; 인용 일부·문장 경계 발췌이며 미확보 음성을 직접 청취한 전사 아님"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C012.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C012.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "전통 안동",
+            "exclusive_to_region": null,
+            "widespread_use_established": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C012.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C012.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "발화·조사 시점 미확보; 발행·수집일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C012.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "PDF 문법 설명·편집 판단",
+            "source_scope": "§2.4.1 전통 안동 매개모음"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C012.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "문헌 주장 초안; 정답·현대 자연스러움·생성 선택 우선순위 미검증",
+        "나으나 품사별 대응 방향 미명시; 다른 자료·상관 추론으로 채우지 않음"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C013",
+      "record_type": "attestation",
+      "categories": [
+        "상대높임",
+        "종결어미"
+      ],
+      "source_terms": [
+        "영덕 라/로 영상 전사"
+      ],
+      "target_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C013.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C013.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C013.usage"
+          ],
+          "content": {
+            "source_examples": [
+              "이기 이기 이기 머로?",
+              "막내라?"
+            ],
+            "media_locators": [
+              "3분34초",
+              "1분40초"
+            ],
+            "participants": "첫 영상 할머니 대화; 둘째 영상 할머니→아우의 아들 상모",
+            "caveat": "두 영상의 별도 대화; 한 대화로 합치지 않음",
+            "operational_status": "held",
+            "analysis_author": "source",
+            "source_scope": "영덕 라/로 영상 전사",
+            "operational_status_basis": "extractor_policy_pending_review",
+            "example_transcription_policy": "PDF 철자 유지; 인용 일부·문장 경계 발췌이며 미확보 음성을 직접 청취한 전사 아님"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C013.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C013.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "영덕",
+            "exclusive_to_region": null,
+            "widespread_use_established": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C013.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C013.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "발화·조사 시점 미확보; 발행·수집일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C013.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "PDF의 재인용·전사",
+            "source_scope": "§2.4.1 영덕 두 영상·각주81–82"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C013.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "문헌 주장 초안; 정답·현대 자연스러움·생성 선택 우선순위 미검증",
+        "재인용 원자료 미확인; 독립 증거 중복 계산 및 운영 생성 보류"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C014",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "상대높임",
+        "종결어미"
+      ],
+      "source_terms": [
+        "울진 의문 나/노 통합 주장"
+      ],
+      "target_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C014.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C014.a",
+          "kind": "regional_variant",
+          "target_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C014.usage"
+          ],
+          "content": {
+            "entries": [
+              {
+                "source_form": "아이라?",
+                "forms": [
+                  "아이나?"
+                ]
+              },
+              {
+                "source_form": "머로?",
+                "forms": [
+                  "머노?"
+                ]
+              }
+            ],
+            "reported_example": "[울진] 이게에 누옷이고(누옷이노)?",
+            "sources": [
+              "이기갑 국어방언문법",
+              "김차균 중부 동해안 방언의 성조 비교 p.1116"
+            ],
+            "caveats": [
+              "울진만이라는 위키 주장과 누옷이고/누옷이노 병존 예를 함께 보존",
+              "억양 유사 추측은 자동 운율 규칙 아님",
+              "울진이라는 문헌의 지역 한정은 독립 검증한 배타성 아님"
+            ],
+            "operational_status": "held",
+            "analysis_author": "source",
+            "source_scope": "울진 의문 나/노 통합 주장",
+            "operational_status_basis": "extractor_policy_pending_review",
+            "example_transcription_policy": "PDF 철자 유지; 인용 일부·문장 경계 발췌이며 미확보 음성을 직접 청취한 전사 아님"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C014.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C014.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "울진",
+            "exclusive_to_region": null,
+            "widespread_use_established": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C014.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C014.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "발화·조사 시점 미확보; 발행·수집일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C014.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "PDF 문법 설명·편집 판단",
+            "source_scope": "§2.4.2 국어방언문법·김차균 재인용 및 각주83"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C014.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "문헌 주장 초안; 정답·현대 자연스러움·생성 선택 우선순위 미검증",
+        "재인용 원자료 미확인; 독립 증거 중복 계산 및 운영 생성 보류"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C015",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "상대높임",
+        "종결어미"
+      ],
+      "source_terms": [
+        "서부 나 확대와 기존형 병존"
+      ],
+      "target_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C015.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C015.a",
+          "kind": "regional_variant",
+          "target_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C015.usage"
+          ],
+          "content": {
+            "forms": [
+              "-나"
+            ],
+            "source_slots": [
+              "-나",
+              "-노",
+              "-(이)가",
+              "-(이)고"
+            ],
+            "coexist": [
+              "-나",
+              "-노",
+              "-(이)가",
+              "-(이)고"
+            ],
+            "modality": "가끔 사용, 원래 네형태 배제하지 않음",
+            "operational_status": "draft_not_approved",
+            "analysis_author": "source",
+            "source_scope": "서부 나 확대와 기존형 병존",
+            "operational_status_basis": "extractor_policy_pending_review",
+            "example_transcription_policy": "PDF 철자 유지; 인용 일부·문장 경계 발췌이며 미확보 음성을 직접 청취한 전사 아님"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C015.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C015.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "경북 서부·경남 서부; 끝지방이라는 각주 범위 보존",
+            "exclusive_to_region": null,
+            "widespread_use_established": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C015.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C015.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "발화·조사 시점 미확보; 발행·수집일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C015.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "PDF 문법 설명·편집 판단",
+            "source_scope": "§2.4.3·각주4·9"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C015.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "문헌 주장 초안; 정답·현대 자연스러움·생성 선택 우선순위 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C016",
+      "record_type": "attestation",
+      "categories": [
+        "상대높임",
+        "종결어미"
+      ],
+      "source_terms": [
+        "설명의문 나의 지역 예"
+      ],
+      "target_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C016.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C016.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C016.usage"
+          ],
+          "content": {
+            "entries": [
+              {
+                "region": "의령",
+                "forms": [
+                  "머 무섭나?"
+                ]
+              },
+              {
+                "region": "김천(위키 방언 문단 재인용)",
+                "forms": [
+                  "뭐라나",
+                  "뭐 카나"
+                ]
+              },
+              {
+                "region": "대구 50대 화자",
+                "forms": [
+                  "이건 언제 다 보고 자나.",
+                  "상추 이게 다나."
+                ]
+              }
+            ],
+            "caveat": "의령29초 영상 전사; 김천은 이 유형으로 보인다는 추정; 대구 직접 말한 예라는 편집 보고이지 우리가 직접 수집한 증거 아님",
+            "operational_status": "held",
+            "analysis_author": "source",
+            "source_scope": "설명의문 나의 지역 예",
+            "operational_status_basis": "extractor_policy_pending_review",
+            "example_transcription_policy": "PDF 철자 유지; 인용 일부·문장 경계 발췌이며 미확보 음성을 직접 청취한 전사 아님"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C016.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C016.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "의령·김천·대구 각 예 한정",
+            "exclusive_to_region": null,
+            "widespread_use_established": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C016.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C016.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "발화·조사 시점 미확보; 발행·수집일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C016.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "PDF의 재인용·전사",
+            "source_scope": "§2.4.3 의령·김천·대구 예·각주84–86"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C016.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "문헌 주장 초안; 정답·현대 자연스러움·생성 선택 우선순위 미검증",
+        "재인용 원자료 미확인; 독립 증거 중복 계산 및 운영 생성 보류"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908-B004-C017",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "상대높임",
+        "종결어미"
+      ],
+      "source_terms": [
+        "진주·하동 네 설명의문"
+      ],
+      "target_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C017.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C017.a",
+          "kind": "conditioned_realization",
+          "target_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C017.usage"
+          ],
+          "content": {
+            "forms": [
+              "-네?"
+            ],
+            "source_alternatives": [
+              "-노?",
+              "-(이)고?"
+            ],
+            "coexist": [
+              "-(이)가",
+              "-(이)고",
+              "-나",
+              "-노"
+            ],
+            "historical_hypothesis": "-는데? 축약이라는 일부 견해, 미확정",
+            "restriction": "설명 의문 자리만 가능하다는 원문; 판정에 일반화 안 함",
+            "operational_status": "held",
+            "analysis_author": "source",
+            "source_scope": "진주·하동 네 설명의문",
+            "operational_status_basis": "extractor_policy_pending_review",
+            "example_transcription_policy": "PDF 철자 유지; 인용 일부·문장 경계 발췌이며 미확보 음성을 직접 청취한 전사 아님"
+          },
+          "condition": {
+            "op": "eq",
+            "target": "NAMU_HONORIFICS_20260908-B004-C017.usage",
+            "feature": "question_type",
+            "value": "설명"
+          }
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_HONORIFICS_20260908-B004-C017.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C017.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "진주·하동과 주위",
+            "exclusive_to_region": null,
+            "widespread_use_established": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C017.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C017.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "발화·조사 시점 미확보; 발행·수집일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908-B004-C017.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "PDF 문법 설명·편집 판단",
+            "source_scope": "§2.4.4 네 의문"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_HONORIFICS_20260908-B004-C017.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "문헌 주장 초안; 정답·현대 자연스러움·생성 선택 우선순위 미검증",
+        "단편 용법 기술·어원 추정; 실발화 예 미제시, 운영 전 검토"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    }
+  ],
+  "policies": []
+}

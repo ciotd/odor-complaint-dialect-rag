@@ -1,0 +1,628 @@
+{
+  "format_version": "3.0-draft.1",
+  "status": "extraction_draft",
+  "entities": [
+    {
+      "id": "JO2018-B002-C001.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "대계 표기의 음운 해석 한계",
+        "evidence_refs": [
+          "JO2018-B002-C001.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B002-C002.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "당시 경북 단모음 체계",
+        "evidence_refs": [
+          "JO2018-B002-C002.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B002-C003.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-니껴/-니꺼의 관찰 지역 분포",
+        "evidence_refs": [
+          "JO2018-B002-C003.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B002-C004.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "동일 화자의 방언형·표준형 혼용",
+        "evidence_refs": [
+          "JO2018-B002-C004.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B002-C005.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "영덕 혼용의 실제 발화 예",
+        "evidence_refs": [
+          "JO2018-B002-C005.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B002-C006.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "인자/인제 담화 기능의 문맥별 차이",
+        "evidence_refs": [
+          "JO2018-B002-C006.e"
+        ]
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "JO2018-B002-C001.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        32
+      ],
+      "locator": "PDF32 / 인쇄 20: 대계 표기의 음운 해석 한계",
+      "excerpt": "이를 분석하면,[\n           Ǝ]와 [\n               ａ]와 장모음의 실현에서 차이를 보인다.즉,\n당시 경북방언에서 실현되는 모음 체계와는 관계없이 표준어형을 그대로 표\n기하거나,전사자의 자의적 표기로 인해 일관성 없이 표기되어 있음을 알\n수 있다.또한 장모음의 실현 여부 및 다른 운율적 요소들은 형태 음소적\n표기로 인해 파악하기 어렵다.이러한 확인은 음성 자료를 활용하여 정확한\n전사를 통해서만 확인이 가능한 부분이다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B002-C002.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        32
+      ],
+      "locator": "PDF32 / 인쇄 20: 당시 경북 단모음 체계",
+      "excerpt": "20)잘 알려져 있는 것처럼,당시 경북방언의 단 모음은 /\n                               i/\n                                ,/Ɛ\n                                  /,/\n                                    Ǝ/,/\n                                       a/,/\n                                          u/,/\n                                             o/의 6\n                                                 모음\n  체계로 /ㅡ,ㅓ/\n          와/ ㅔ,ㅐ/\n                는 변별력이 없다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B002-C003.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        35
+      ],
+      "locator": "PDF35 / 인쇄 23: -니껴/-니꺼의 관찰 지역 분포",
+      "excerpt": "(\n 5ㄱ,ㄴ)\n     은 경북방언에서 상대 높임법으로 쓰이는 ‘\n                           -니껴’\n                              와 ‘\n                                -니꺼’\n                                   의 용\n례이다.실제    대계 에서 두 형태의 사용 지역을 확인해본 결과,‘\n                                     -니껴’\n                                        는\n예천,봉화 등 경북 북부 지역에서 주로 사용되는 반면,‘\n                              -니꺼’\n                                 는 이와는 반\n대로 대구,경주 등 경북 남부 지역에서 사용이 빈번하다.즉 지역적으로 사\n용 양상에서 차이가 나타난다.그리고        한국방언자료집 과 기존 연구를 검\n토해 본 결과,이와 동일한 결과를 보여주고 있다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B002-C004.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        35
+      ],
+      "locator": "PDF35 / 인쇄 23: 동일 화자의 방언형·표준형 혼용",
+      "excerpt": "(\n                  5ㄷ,ㄹ)\n                      은 한 화자가 방언형인 ‘\n                                   -니껴’\n                                      ,\n‘\n-ㅂ시더’\n    와 표준어인 ‘\n           -ㅂ니까’\n               ,‘-ㅂ시다’\n                     를 혼용해서 쓰고 있다.즉,표준어\n의 영향으로 이 방언권의 종결어미에 대한 사용 양상에 변화가 생기고 있다\n는 증거이다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B002-C005.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        35
+      ],
+      "locator": "PDF35 / 인쇄 23: 영덕 혼용의 실제 발화 예",
+      "excerpt": "ㄷ.“\n        아부지 바이 뜨시니껴?\n                   ”카고,형,아침마중 와가주고.또 여름이며는 또,“\n                                             덥잖십\n        니까?\n          ”그래 여름이며는 여름 옷에 머 아부지 해드려라.\n                                    (7-7\n                                       :48\n                                         2/영덕)",
+      "kind": "reported_attestation"
+    },
+    {
+      "id": "JO2018-B002-C006.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        38
+      ],
+      "locator": "PDF38 / 인쇄 26: 인자/인제 담화 기능의 문맥별 차이",
+      "excerpt": "(\n 6),(\n    7)에서는 ‘\n          인자,인제’\n               의 담화표지가 실현되고 있다.(\n                               6)에서는 문장\n접속 기능으로 담화 표지가 실현되고 있는데,발화자가 방언형 ‘\n                                 인자’\n                                   와 표\n준어 ‘\n   인제’\n     를 동시에 사용하고 있다.(\n                   7)에서 전자의 ‘\n                            인자’\n                              는 군말,후자의\n‘\n인자’\n  는 화제 전환의 담화 표지로 쓰이고 있다.즉 하나의 담화 표지는 각\n텍스트에서 다양한 기능으로 나타나고 있다.즉,이러한 구술 자료는 담화\n표지의 갖는 다양한 기능을 분석할 수 있다.",
+      "kind": "source_statement"
+    }
+  ],
+  "claims": [
+    {
+      "id": "JO2018-B002-C001",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "음운",
+        "표기"
+      ],
+      "source_terms": [
+        "대계 표기의 음운 해석 한계"
+      ],
+      "target_refs": [
+        "JO2018-B002-C001.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B002-C001.a",
+          "kind": "scope_caveat",
+          "target_refs": [
+            "JO2018-B002-C001.usage"
+          ],
+          "content": {
+            "source_locator": "PDF32 / 인쇄 20: 대계 표기의 음운 해석 한계",
+            "source_analysis": "대계의 표준어형·자의적 전사와 형태 음소 표기 때문에 모음 및 장모음·운율을 표기만으로 확정하기 어렵다. 음성에 근거한 정확한 전사가 필요하다는 저자의 제한을 보존한다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "held",
+            "forms": []
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B002-C001.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B002-C001.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 region 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B002-C001.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B002-C001.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B002-C001.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "원 음성 미청취; 원문 표기를 실제 음가로 사용하지 않음"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B002-C002",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "음운",
+        "표기"
+      ],
+      "source_terms": [
+        "당시 경북 단모음 체계"
+      ],
+      "target_refs": [
+        "JO2018-B002-C002.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B002-C002.a",
+          "kind": "scoped_inventory",
+          "target_refs": [
+            "JO2018-B002-C002.usage"
+          ],
+          "content": {
+            "source_locator": "PDF32 / 인쇄 20: 당시 경북 단모음 체계",
+            "source_analysis": "각주20은 당시 경북방언을 6모음 체계로 설명하고 ㅡ/ㅓ와 ㅔ/ㅐ의 변별력이 없다고 한다. 방언 전체에 예외 없는 출력 철자 치환으로 만들지 않는다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "held",
+            "forms": []
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B002-C002.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B002-C002.region",
+          "dimension": "region",
+          "value": {
+            "raw_scope": "당시 경북방언",
+            "exclusivity": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B002-C002.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "JO2018-B002-C002.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B002-C002.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B002-C002.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "각주 개괄 설명의 세부 지역·화자 및 음가 확인 미완료"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B002-C003",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미",
+        "지역분포"
+      ],
+      "source_terms": [
+        "-니껴/-니꺼의 관찰 지역 분포"
+      ],
+      "target_refs": [
+        "JO2018-B002-C003.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B002-C003.a",
+          "kind": "regional_prevalence",
+          "target_refs": [
+            "JO2018-B002-C003.usage"
+          ],
+          "content": {
+            "source_locator": "PDF35 / 인쇄 23: -니껴/-니꺼의 관찰 지역 분포",
+            "source_analysis": "대계에서 -니껴는 예천·봉화 등 경북 북부에 주로, -니꺼는 대구·경주 등 경북 남부에 빈번하다고 보고한다. 지역 전용성이나 행정 경남 대비가 아니다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-니껴",
+              "-니꺼"
+            ],
+            "regional_observations": [
+              {
+                "form": "-니껴",
+                "regions": [
+                  "예천",
+                  "봉화"
+                ],
+                "source_qualifier": "주로"
+              },
+              {
+                "form": "-니꺼",
+                "regions": [
+                  "대구",
+                  "경주"
+                ],
+                "source_qualifier": "빈번"
+              }
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B002-C003.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B002-C003.region",
+          "dimension": "region",
+          "value": {
+            "raw_scope": "예천·봉화 등 경북 북부 / 대구·경주 등 경북 남부",
+            "exclusivity": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B002-C003.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "JO2018-B002-C003.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B002-C003.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B002-C003.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 본문 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B002-C004",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미",
+        "상대높임",
+        "담화"
+      ],
+      "source_terms": [
+        "동일 화자의 방언형·표준형 혼용"
+      ],
+      "target_refs": [
+        "JO2018-B002-C004.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B002-C004.a",
+          "kind": "coexisting_endings",
+          "target_refs": [
+            "JO2018-B002-C004.usage"
+          ],
+          "content": {
+            "source_locator": "PDF35 / 인쇄 23: 동일 화자의 방언형·표준형 혼용",
+            "source_analysis": "저자는 동일 화자가 -니껴/-ㅂ니까, -ㅂ시더/-ㅂ시다를 혼용하는 것을 표준어 영향과 변화의 증거로 분석한다. 개별 발화의 공존 관찰과 변화의 인과 해석을 구분한다.",
+            "extractor_interpretation": "혼용 관찰은 저장하되 표준어 영향의 인과성을 독립 입증한 것으로 취급하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-니껴",
+              "-ㅂ시더",
+              "-ㅂ니까",
+              "-ㅂ시다"
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B002-C004.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B002-C004.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 region 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B002-C004.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B002-C004.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B002-C004.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 본문 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B002-C005",
+      "record_type": "attestation",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "영덕 혼용의 실제 발화 예"
+      ],
+      "target_refs": [
+        "JO2018-B002-C005.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B002-C005.a",
+          "kind": "attested_form",
+          "target_refs": [
+            "JO2018-B002-C005.usage"
+          ],
+          "content": {
+            "source_locator": "PDF35 / 인쇄 23: 영덕 혼용의 실제 발화 예",
+            "source_analysis": "예(5ㄷ)의 아부지에게 하는 발화에서 뜨시니껴와 덥잖십니까가 계절별 인용 발화에 나타난다. 임의의 어간 분절이나 전 용언 결합 규칙을 추가하지 않는다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "draft_not_approved",
+            "forms": [],
+            "source_examples": [
+              {
+                "text": "아부지 바이 뜨시니껴?",
+                "judgment": "source_attestation_not_acceptability_test"
+              },
+              {
+                "text": "덥잖십니까?",
+                "judgment": "source_attestation_not_acceptability_test"
+              }
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B002-C005.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B002-C005.region",
+          "dimension": "region",
+          "value": {
+            "raw_scope": "영덕",
+            "exclusivity": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B002-C005.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "JO2018-B002-C005.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B002-C005.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B002-C005.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 본문 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B002-C006",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "담화표지"
+      ],
+      "source_terms": [
+        "인자/인제 담화 기능의 문맥별 차이"
+      ],
+      "target_refs": [
+        "JO2018-B002-C006.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B002-C006.a",
+          "kind": "variant_usage_context",
+          "target_refs": [
+            "JO2018-B002-C006.usage"
+          ],
+          "content": {
+            "source_locator": "PDF38 / 인쇄 26: 인자/인제 담화 기능의 문맥별 차이",
+            "source_analysis": "예(6)의 인자·인제는 문장 접속 기능으로 공존한다. 예(7)의 전자 인자는 군말, 후자는 화제 전환으로 설명한다. 한 형태에 단일 기능을 고정하지 않는다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "held",
+            "forms": [
+              "인자",
+              "인제"
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B002-C006.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B002-C006.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 region 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B002-C006.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B002-C006.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B002-C006.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "예(7)의 인자 출현 수와 전자/후자 지시 범위를 확정하지 못함; PDF37 행 출처도 서로 다름"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    }
+  ],
+  "policies": []
+}

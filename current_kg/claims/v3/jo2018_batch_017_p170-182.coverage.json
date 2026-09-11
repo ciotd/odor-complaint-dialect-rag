@@ -1,0 +1,642 @@
+{
+  "batch_id": "JO2018-B017",
+  "source_id": "JO2018",
+  "status": "partial_source_extraction",
+  "body_pages": [
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182
+  ],
+  "units": [
+    {
+      "location": "PDF170,171 / 표37 하이소 청유 목록과 이 결합",
+      "claim_ids": [
+        "JO2018-B017-C001"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF172 / 입시더의 등급 분석과 미관찰형",
+      "claim_ids": [
+        "JO2018-B017-C002"
+      ],
+      "hold": "선행연구 등급/미관찰형 원자료 미확인. 분류 선택과 발화 혼용을 단일 등급 치환으로 결합하지 않음"
+    },
+    {
+      "location": "PDF173 / 이시더·입시더 자료 분포와 미관찰 한정",
+      "claim_ids": [
+        "JO2018-B017-C003"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF172,173 / 입시다/입시더의 분포 비교와 모음 기원 추정",
+      "claim_ids": [
+        "JO2018-B017-C004"
+      ],
+      "hold": "지역 일반화의 범위 불일치 및 모음 기원은 저자 가설. 표38과 직접 대조 필요"
+    },
+    {
+      "location": "PDF174 / 이시더의 동사 직접 청유와 체언 서술 구별",
+      "claim_ids": [
+        "JO2018-B017-C005"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF174,175 / 예130 청유·명령·서술·의문 등급 혼용",
+      "claim_ids": [
+        "JO2018-B017-C006"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF175,176 / 하소 청유 ㅁ시더 비음동화 기술의 불일치",
+      "claim_ids": [
+        "JO2018-B017-C007"
+      ],
+      "hold": "ㅁ시더=ㅂ시다 및 이시더/입니더 비교의 원문 불일치; 자동 비음동화 규칙 운영 보류"
+    },
+    {
+      "location": "PDF176 / 표39 하소 청유 목록",
+      "claim_ids": [
+        "JO2018-B017-C008"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF177 / ㅂ시더의 하소 분류 논증과 ㅂ세다 미관찰",
+      "claim_ids": [
+        "JO2018-B017-C009"
+      ],
+      "hold": "재인용의 등급·ㅂ세다 원자료 미확인; 본문의 형태 대립 분류는 실제 혼용을 배제하지 않음"
+    },
+    {
+      "location": "PDF178 / 시더/ㅂ시더의 자료 내 분포",
+      "claim_ids": [
+        "JO2018-B017-C010"
+      ],
+      "hold": "동부 전용 서술과 표40 군위의 시더 관찰 범위 불일치; 원문 분포를 독점 조건으로 운영하지 않음"
+    },
+    {
+      "location": "PDF178,179 / ㅂ시더 기원 가설과 시다 대립 부재",
+      "claim_ids": [
+        "JO2018-B017-C011"
+      ],
+      "hold": "기원 추정 및 분포 일반화; 표40 동부 공존이 있어 상보 분포로 구현하지 않음"
+    },
+    {
+      "location": "PDF179,180 / 시더 청유의 대응과 시제·동작동사 조건",
+      "claim_ids": [
+        "JO2018-B017-C012"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF180 / 시더이의 선택 이와 시데이의 필수 이",
+      "claim_ids": [
+        "JO2018-B017-C013"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF180,181 / 예137 등급 일치 해설 속 혼용 사례",
+      "claim_ids": [
+        "JO2018-B017-C014"
+      ],
+      "hold": "같은 등급끼리라는 요약과 예137ㄴ의 하소/하이소 혼용 해설 불일치"
+    },
+    {
+      "location": "PDF181 / ㅂ시다의 필수 ㅂ과 혼용",
+      "claim_ids": [
+        "JO2018-B017-C015"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF182 / 시데이의 직접 결합·높임 및 청유 분류 유보",
+      "claim_ids": [
+        "JO2018-B017-C016"
+      ],
+      "hold": "예140ㄱ 청유/금지명령 및 높임 등급 추정 미확정. 기존 B008-C011의 동일 예 각주 보류와 연결"
+    },
+    {
+      "location": "PDF182 / 시더이/시데이의 분절 대안과 단일 용례 유보",
+      "claim_ids": [
+        "JO2018-B017-C017"
+      ],
+      "hold": "두 분절·모음변화 대안과 단일 용례로 인한 저자 유보; 니데이 등급 설명의 범위도 미결"
+    }
+  ],
+  "page_dispositions": [
+    {
+      "page": 170,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B017-C001"
+      ],
+      "reason": "청유 도입·예126 이시더/입시더 직접 보 어간 결합 읽음; 표37로 연결."
+    },
+    {
+      "page": 171,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B017-C001"
+      ],
+      "reason": "예127 및 표37 이미지 확인·이 결합 목록 추출. 선행연구 종결법 분류·각주182–183은 맥락."
+    },
+    {
+      "page": 172,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B017-C002",
+        "JO2018-B017-C004"
+      ],
+      "reason": "등급 선택·미관찰형 보류 및 표38 이미지/전수 통계 별도 저장. 분포는 PDF173과 연결."
+    },
+    {
+      "page": 173,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B017-C003",
+        "JO2018-B017-C004"
+      ],
+      "reason": "예128·지역 분포 추출과 입시더 모음 기원 보류. 마지막 도입의 하이소/하소 지칭 불일치 장부."
+    },
+    {
+      "page": 174,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B017-C005",
+        "JO2018-B017-C006"
+      ],
+      "reason": "예129 체언/동사 기능 구별 추출·각주185 확인. 예130 전체는 PDF175 해설과 연결."
+    },
+    {
+      "page": 175,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B017-C006",
+        "JO2018-B017-C007"
+      ],
+      "reason": "예130 혼용·1980년대 해석 추출, 각주186–187 확인. 예131은 PDF176과 연결."
+    },
+    {
+      "page": 176,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B017-C007",
+        "JO2018-B017-C008"
+      ],
+      "reason": "예131 후속·비음동화/표기 불일치 보류. 예132·표39 이미지 확인 및 목록 저장."
+    },
+    {
+      "page": 177,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B017-C009"
+      ],
+      "reason": "ㅂ시더 분류·ㅂ세다 미관찰 보류; 표40 이미지/전수 통계 별도 저장·각주188 맥락."
+    },
+    {
+      "page": 178,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B017-C010",
+        "JO2018-B017-C011"
+      ],
+      "reason": "예133·134 및 지역 분포 읽음. 동부 전용 주장 보류; 각주189 재인용. 표준형 기원은 다음쪽 연결."
+    },
+    {
+      "page": 179,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B017-C011",
+        "JO2018-B017-C012"
+      ],
+      "reason": "모음 기원 유보·예135 공유 원인 맥락. 예136 전체·시더 대응은 PDF180 결합조건과 연결·각주190 재인용."
+    },
+    {
+      "page": 180,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B017-C012",
+        "JO2018-B017-C013",
+        "JO2018-B017-C014"
+      ],
+      "reason": "동작동사/시제 조건 보충·후행 이 필수/선택 추출. 예137은 PDF181과 연결·각주191 존재사 재인용 보류."
+    },
+    {
+      "page": 181,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B017-C014",
+        "JO2018-B017-C015"
+      ],
+      "reason": "예137 후속·요약 불일치 보류. 예138·139 ㅂ시다 필수 ㅂ 및 혼용 추출; 오 등급 설명 미결."
+    },
+    {
+      "page": 182,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B017-C016",
+        "JO2018-B017-C017"
+      ],
+      "reason": "예140 직접 결합·등급/청유 모호성 보류. 시더이/시데이 두 분석과 단일용례 유보까지 처리. 각주192 구술 해석 한계 보존."
+    }
+  ],
+  "source_context": {
+    "corpus_period_basis": {
+      "page": 29,
+      "excerpt": "1978년부터 1984년 사이에 조사된 내용을 싣고 있다.",
+      "publication_year": 2018,
+      "individual_utterance_date": null,
+      "note": "자료 전체 조사기간. 재인용 연구 시점이나 개별 발화연도로 자동 전파하지 않음."
+    },
+    "table38": {
+      "page": 172,
+      "kind": "source_frequency_context_not_generation",
+      "columns": [
+        "상주",
+        "구미",
+        "대구",
+        "달성",
+        "성주",
+        "군위",
+        "경주",
+        "영덕",
+        "안동",
+        "예천",
+        "봉화"
+      ],
+      "rows": [
+        {
+          "ending": "-이시더",
+          "counts": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            2,
+            1,
+            null,
+            null,
+            null
+          ],
+          "printed_total": 3
+        },
+        {
+          "ending": "-입시더",
+          "counts": [
+            null,
+            9,
+            14,
+            18,
+            8,
+            2,
+            1,
+            1,
+            null,
+            null,
+            null
+          ],
+          "printed_total": 53
+        },
+        {
+          "ending": "-입시다",
+          "counts": [
+            3,
+            9,
+            6,
+            null,
+            2,
+            19,
+            7,
+            1,
+            1,
+            1,
+            null
+          ],
+          "printed_total": 49
+        }
+      ],
+      "missing_mark": "원표 ·, 0으로 바꾸지 않음",
+      "no_generation_weight": true
+    },
+    "table40": {
+      "page": 177,
+      "kind": "source_frequency_context_not_generation",
+      "columns": [
+        "상주",
+        "구미",
+        "대구",
+        "달성",
+        "성주",
+        "군위",
+        "경주",
+        "영덕",
+        "안동",
+        "예천",
+        "봉화"
+      ],
+      "rows": [
+        {
+          "ending": "-시더",
+          "counts": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            13,
+            18,
+            22,
+            31,
+            17,
+            16
+          ],
+          "printed_total": 117
+        },
+        {
+          "ending": "-ㅂ시더",
+          "counts": [
+            1,
+            21,
+            44,
+            36,
+            13,
+            12,
+            59,
+            15,
+            8,
+            null,
+            4
+          ],
+          "printed_total": 213
+        },
+        {
+          "ending": "-시데이",
+          "counts": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null,
+            1,
+            null,
+            null
+          ],
+          "printed_total": 2
+        },
+        {
+          "ending": "-ㅂ시다",
+          "counts": [
+            79,
+            94,
+            47,
+            39,
+            31,
+            105,
+            92,
+            65,
+            27,
+            56,
+            28
+          ],
+          "printed_total": 663
+        }
+      ],
+      "missing_mark": "원표 ·, 0으로 바꾸지 않음",
+      "no_generation_weight": true,
+      "printed_group_totals": {
+        "시더/ㅂ시더": 330,
+        "시데이": 2,
+        "ㅂ시다": 712
+      }
+    },
+    "resume": {
+      "status": "incomplete",
+      "last_read_page": 182,
+      "next_page": 183,
+      "unread_pages": [
+        183,
+        265
+      ],
+      "whole_source_receipt_written": false,
+      "reason": "하소 청유 절 끝까지 처리. 다음은 하게체 청유. 이번 시도 작업 길이로 전체 미완료."
+    },
+    "attempt3_graph_contracts": {
+      "reason": "기존 규약의 content 내부 확장. 새 목록별 보류·원 그림 순서·후행 이 필수성·표칸 어미 연결을 검증하고 근거/조건을 보존함. 검증기 완화 없음.",
+      "schemas": [
+        "source_inventory_holds",
+        "explicit_sequence_schemas",
+        "postposed_element_constraints",
+        "inflection_cell_links"
+      ],
+      "scope": "표칸과 어미의 연결은 추출자 대조임을 표시. 미제시 활용형 생성·문헌 정답·현대 자연스러움 검증 아님."
+    },
+    "attempt3_summary": {
+      "status": "incomplete",
+      "new_bundles": 4,
+      "new_claims": 61,
+      "new_held_claims": 21,
+      "total_claims": 218,
+      "total_held_claims": 80,
+      "last_processed_pdf_page": 182,
+      "next_pdf_page": 183,
+      "receipt_written": false,
+      "ledger_item_count_including_prior_history": 199,
+      "prior_boundary_note": "B013의 예87 후속 미독은 PDF137–138 읽기로 해소. 어데+있는가의 의문사 조건은 여전히 미결이어서 운영보류 유지."
+    }
+  },
+  "open_items": [
+    {
+      "location": "PDF172",
+      "issue": "선행연구 등급/미관찰형 원자료 미확인. 분류 선택과 발화 혼용을 단일 등급 치환으로 결합하지 않음",
+      "claim_id": "JO2018-B017-C002"
+    },
+    {
+      "location": "PDF172,173",
+      "issue": "지역 일반화의 범위 불일치 및 모음 기원은 저자 가설. 표38과 직접 대조 필요",
+      "claim_id": "JO2018-B017-C004"
+    },
+    {
+      "location": "PDF175,176",
+      "issue": "ㅁ시더=ㅂ시다 및 이시더/입니더 비교의 원문 불일치; 자동 비음동화 규칙 운영 보류",
+      "claim_id": "JO2018-B017-C007"
+    },
+    {
+      "location": "PDF177",
+      "issue": "재인용의 등급·ㅂ세다 원자료 미확인; 본문의 형태 대립 분류는 실제 혼용을 배제하지 않음",
+      "claim_id": "JO2018-B017-C009"
+    },
+    {
+      "location": "PDF178",
+      "issue": "동부 전용 서술과 표40 군위의 시더 관찰 범위 불일치; 원문 분포를 독점 조건으로 운영하지 않음",
+      "claim_id": "JO2018-B017-C010"
+    },
+    {
+      "location": "PDF178,179",
+      "issue": "기원 추정 및 분포 일반화; 표40 동부 공존이 있어 상보 분포로 구현하지 않음",
+      "claim_id": "JO2018-B017-C011"
+    },
+    {
+      "location": "PDF180,181",
+      "issue": "같은 등급끼리라는 요약과 예137ㄴ의 하소/하이소 혼용 해설 불일치",
+      "claim_id": "JO2018-B017-C014"
+    },
+    {
+      "location": "PDF182",
+      "issue": "예140ㄱ 청유/금지명령 및 높임 등급 추정 미확정. 기존 B008-C011의 동일 예 각주 보류와 연결",
+      "claim_id": "JO2018-B017-C016"
+    },
+    {
+      "location": "PDF182",
+      "issue": "두 분절·모음변화 대안과 단일 용례로 인한 저자 유보; 니데이 등급 설명의 범위도 미결",
+      "claim_id": "JO2018-B017-C017"
+    },
+    {
+      "location": "PDF171 각주182–183·PDF172 각주184·PDF177 각주188",
+      "issue": "부록6은 미처리. 공동법/권유법/추김법 통합은 저자의 연구 분류 맥락. 아예/어예의 비격식 분류 재인용은 운영 보류",
+      "claim_id": null
+    },
+    {
+      "location": "PDF173 하이소 청유 분석 도입",
+      "issue": "시더/ㅂ시더/ㅂ시다를 하이소체라고 지칭한 도입과 뒤 하소 분류 차이; 임의 교정하지 않음",
+      "claim_id": null
+    },
+    {
+      "location": "PDF174 각주185",
+      "issue": "체언 서술 말이시더 예는 본문 동사 청유 이시더와 구분. 기존 서술 시더 분석의 새 독립 용례로 중복 계산하지 않음",
+      "claim_id": null
+    },
+    {
+      "location": "PDF175 각주186–187",
+      "issue": "ㅂ니꺼 등급 재인용 차이와 심더 니 탈락 설명은 기존 B006/B012와 중복; 임의 합의 등급을 만들지 않음",
+      "claim_id": null
+    },
+    {
+      "location": "PDF176 예131 해설",
+      "issue": "입니더/입시더, ㅁ시더/ㅂ시다 표기 차이 이미지 확인 후 유지. 시데이 청유 해석은 PDF182 보류로 연결",
+      "claim_id": "JO2018-B017-C007"
+    },
+    {
+      "location": "PDF177 표40",
+      "issue": "ㅂ시다 행 합663과 인쇄 소계712 불일치. 49 차이는 표38 입시다 총수와 같으나 소계 범위를 추정 수정하지 않음",
+      "claim_id": null
+    },
+    {
+      "location": "PDF178 예133 해설·각주189",
+      "issue": "시더이의 예138ㅁ 지시는 실제 예133ㅁ과 불일치. 한국방언자료집 지역 목록은 원자료 미확인",
+      "claim_id": null
+    },
+    {
+      "location": "PDF179 예135 해설",
+      "issue": "시데이 낮은 빈도의 원인을 종결법 공유로 보는 설명은 인과 검증 없이 맥락 보존",
+      "claim_id": null
+    },
+    {
+      "location": "PDF179 각주190·PDF180 각주191",
+      "issue": "최동주 통시 형성은 재인용 미확인. 최명옥 동사·존재사 잇- 결합은 본문 동작동사만 조건과 범위가 달라 운영 보류",
+      "claim_id": null
+    },
+    {
+      "location": "PDF181 예139ㄷ",
+      "issue": "하오를 해라체 의문 오로 분류하는 저자 설명은 앞 등급체계와 정합성 미결. 원문 예를 교정하지 않음",
+      "claim_id": null
+    },
+    {
+      "location": "PDF182 각주192",
+      "issue": "어울림 현상·자연스러움은 저자의 구술 해석이며 현대 화자 자연스러움 검증 아님",
+      "claim_id": null
+    },
+    {
+      "location": "PDF176 표39·PDF182",
+      "issue": "-시데이 부분 보류를 목록별 보류로 추가해 목록 경로의 후보 노출도 차단",
+      "claim_id": "JO2018-B017-C008"
+    }
+  ],
+  "audit": {
+    "text_read": true,
+    "pdftotext_layout": true,
+    "pdf_pages_visually_checked": [
+      171,
+      172,
+      176,
+      177
+    ],
+    "independent_reviewer": false,
+    "cross_checked_original_table_pages": [
+      65,
+      66
+    ],
+    "footnote_evidence_note": "본문에서 이미 읽고 인용한 각주160/163–165/168–169/185/191이 evidence 발췌에서도 실제 연결되도록 끝 범위를 같은 쪽 하단까지 확장. 조건·유보 내용과 쪽별 판정은 유지."
+  },
+  "validation": {
+    "passed": true,
+    "commands": [
+      "python3 current_kg/claims/v3/check_batch.py",
+      "python3 current_kg/design_probe/probe.py",
+      "python3 current_kg/design_probe/coverage_check.py",
+      "python3 current_kg/claims/v3/check_all_v3.py --check-receipt",
+      "python3 current_kg/claims/v3/check_honorifics.py",
+      "python3 current_kg/claims/v3/check_phonology.py",
+      "python3 current_kg/claims/v3/check_overview.py",
+      "python3 current_kg/claims/v3/check_ryu2014.py",
+      "python3 current_kg/claims/v3/check_jo2018.py",
+      "python3 current_kg/claims/v3/check_jo2018.py --export",
+      "python3 current_kg/claims/v3/check_jo2018.py --check-saved",
+      "python3 current_kg/claims/v3/check_honorifics.py --check-receipt",
+      "python3 current_kg/claims/v3/check_phonology.py --check-receipt",
+      "python3 current_kg/claims/v3/check_overview.py --check-receipt",
+      "python3 current_kg/claims/v3/check_ryu2014.py --check-receipt",
+      "git diff --check"
+    ],
+    "scope": "저장된 전체 bundle 구조·참조·근거·조건, 기존 15건·17개 검사와 47개 설계 회귀, JO 50개 검사 및 저장 그래프 재구성. 문헌 전체 완료나 정답 검증 아님.",
+    "jo_checks": 50,
+    "all_bundle_count": 52,
+    "all_claim_count": 622,
+    "saved_graph_reconstructed": true,
+    "not_validated": [
+      "PDF183–265 미독·미처리",
+      "문헌 언어학적 정답",
+      "현대 자연스러움",
+      "생성 성능"
+    ],
+    "resolved_failures": [
+      "PDF172 각주184의 자리 이동으로 연속 발췌 앵커 불일치: 실제 텍스트에 맞춰 범위 지정 후 저장. 원문 일치 검사 유지.",
+      "담화 청자 라벨 다수 청자의 원문 일치 실패: 원문 다수의 청자로 수정하여 검사 통과.",
+      "본문에서 읽은 각주를 근거 발췌에도 직접 보존하도록 실제 읽은 쪽 범위 전체로 확장. 중간 준비 스크립트의 경계 앵커 실패는 저장 전에 발생했고 최종 검사는 통과."
+    ],
+    "graph_counts": {
+      "source_rows": 56,
+      "inflection_cells": 16,
+      "overlap_cells": 95,
+      "missing_cells": 2,
+      "realizations": 64,
+      "held_realizations": 6,
+      "ending_schemas": 78,
+      "ending_function_rows": 6,
+      "attachment_rows": 13,
+      "sequence_schemas": 2,
+      "postposed_constraints": 2,
+      "inflection_ending_links": 5,
+      "held_form_paths_blocked": 2
+    }
+  }
+}

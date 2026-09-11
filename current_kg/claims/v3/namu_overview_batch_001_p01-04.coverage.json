@@ -1,0 +1,214 @@
+{
+  "source_id": "NAMU20260901",
+  "status": "draft_extracted_with_open_items",
+  "body_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "units": [
+    {
+      "pages": [
+        3
+      ],
+      "locator": "§2.2 일반 상대높임 개관표",
+      "claim_ids": [
+        "NAMU20260901-B001-C001"
+      ],
+      "hold": "PDF3 개관표의 세부 결합·이형태 조건 미제시; 표의 슬래시·물결을 완전한 활용형으로 자동 전개하지 않음."
+    },
+    {
+      "pages": [
+        3
+      ],
+      "locator": "§2.2 해라체 약속법",
+      "claim_ids": [
+        "NAMU20260901-B001-C002"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        3
+      ],
+      "locator": "§2.2 간접 인용 경음화",
+      "claim_ids": [
+        "NAMU20260901-B001-C003"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        3
+      ],
+      "locator": "§2.2 의문 인용 제한·냐꼬 유보",
+      "claim_ids": [
+        "NAMU20260901-B001-C004"
+      ],
+      "hold": "PDF3 옛한글 인용형 및 -냐꼬의 발생·분포 미확정. 원문 보존하되 운영 인용 변환 보류."
+    },
+    {
+      "pages": [
+        3
+      ],
+      "locator": "§2.2 -지/-제 문장유형별 분포",
+      "claim_ids": [
+        "NAMU20260901-B001-C005"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        3
+      ],
+      "locator": "§2.2 일반적 사실 -니라",
+      "claim_ids": [
+        "NAMU20260901-B001-C006"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        3,
+        4
+      ],
+      "locator": "§2.2 경북 북부 상대높임 개관표",
+      "claim_ids": [
+        "NAMU20260901-B001-C007"
+      ],
+      "hold": "PDF3–4 개관표는 실제 어간·이형태 결합 조건을 생략한 목록. 같은 이름의 말씨를 일반표와 동일 분석으로 합치지 않음."
+    },
+    {
+      "pages": [
+        4
+      ],
+      "locator": "§2.2 경북 북부 -지/-제 교체",
+      "claim_ids": [
+        "NAMU20260901-B001-C008"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        4,
+        48
+      ],
+      "locator": "§2.2 -이로-와 -읻-",
+      "claim_ids": [
+        "NAMU20260901-B001-C009"
+      ],
+      "hold": "PDF4·48 각주1의 형태소·역사 분석은 검증 전. 괄호 대응을 생산적 치환으로 일반화하지 않음."
+    },
+    {
+      "pages": [
+        4
+      ],
+      "locator": "§2.2 -더-와 -나/-노 축약",
+      "claim_ids": [
+        "NAMU20260901-B001-C010"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        4
+      ],
+      "locator": "§2.2 안동 중심 -(으)ㄹ라/로",
+      "claim_ids": [
+        "NAMU20260901-B001-C011"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        4,
+        49
+      ],
+      "locator": "§2.2 어떠하노 축약 및 나형",
+      "claim_ids": [
+        "NAMU20260901-B001-C012"
+      ],
+      "hold": "PDF4·49 각주2는 각 형태의 구체 지역·음운 조건을 미제시. 노→나 전역 변환 금지."
+    },
+    {
+      "pages": [
+        4
+      ],
+      "locator": "§2.2 서부 -나 통합 경향",
+      "claim_ids": [
+        "NAMU20260901-B001-C013"
+      ],
+      "hold": null
+    }
+  ],
+  "source_context": [],
+  "open_items": [
+    {
+      "location": "PDF [3]: §2.2 일반 상대높임 개관표",
+      "issue": "PDF3 개관표의 세부 결합·이형태 조건 미제시; 표의 슬래시·물결을 완전한 활용형으로 자동 전개하지 않음.",
+      "claim_ids": [
+        "NAMU20260901-B001-C001"
+      ]
+    },
+    {
+      "location": "PDF [3]: §2.2 의문 인용 제한·냐꼬 유보",
+      "issue": "PDF3 옛한글 인용형 및 -냐꼬의 발생·분포 미확정. 원문 보존하되 운영 인용 변환 보류.",
+      "claim_ids": [
+        "NAMU20260901-B001-C004"
+      ]
+    },
+    {
+      "location": "PDF [3, 4]: §2.2 경북 북부 상대높임 개관표",
+      "issue": "PDF3–4 개관표는 실제 어간·이형태 결합 조건을 생략한 목록. 같은 이름의 말씨를 일반표와 동일 분석으로 합치지 않음.",
+      "claim_ids": [
+        "NAMU20260901-B001-C007"
+      ]
+    },
+    {
+      "location": "PDF [4, 48]: §2.2 -이로-와 -읻-",
+      "issue": "PDF4·48 각주1의 형태소·역사 분석은 검증 전. 괄호 대응을 생산적 치환으로 일반화하지 않음.",
+      "claim_ids": [
+        "NAMU20260901-B001-C009"
+      ]
+    },
+    {
+      "location": "PDF [4, 49]: §2.2 어떠하노 축약 및 나형",
+      "issue": "PDF4·49 각주2는 각 형태의 구체 지역·음운 조건을 미제시. 노→나 전역 변환 금지.",
+      "claim_ids": [
+        "NAMU20260901-B001-C012"
+      ]
+    }
+  ],
+  "audit": {
+    "text_read": true,
+    "pdftotext_layout": true,
+    "pdf_pages_visually_checked": [
+      3,
+      4
+    ],
+    "linguistic_truth_verified": false
+  },
+  "page_dispositions": [
+    {
+      "page": 1,
+      "status": "context_only",
+      "reason": "제목·분류·2026-09-01 수정시각·인쇄시각·접힌 방언 목록. 발화시점으로 사용하지 않음."
+    },
+    {
+      "page": 2,
+      "status": "context_only",
+      "reason": "목차·정의·사용 인구 및 문법 하위 문서 참조. 인구 수치를 생성 Claim으로 만들지 않음."
+    },
+    {
+      "page": 3,
+      "status": "extracted",
+      "reason": "높임 개관표·해라체 약속·인용 제한·지/제·니라·북부 표 시작. 표 도식과 의문 인용 미결은 운영 보류."
+    },
+    {
+      "page": 4,
+      "status": "extracted",
+      "reason": "북부 표 끝·축약·서부 의문 분포. 음운 도입·악센트·ㅂ 활용은 B002에서 다음 쪽·각주와 함께 추출."
+    }
+  ]
+}

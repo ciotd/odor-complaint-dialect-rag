@@ -1,0 +1,151 @@
+{
+  "source_id": "NAMU_GRAMMAR_20260908",
+  "status": "partial_source_extraction",
+  "body_pages": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "units": [
+    {
+      "pages": [
+        8,
+        9,
+        10
+      ],
+      "locator": "§3.3.1 원칙·예문",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B003-C001"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        10
+      ],
+      "locator": "§3.3.1 (이)가·(이)고",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B003-C002"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        8,
+        11
+      ],
+      "locator": "§3.3.1 표와 불규칙 설명",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B003-C003"
+      ],
+      "hold": "PDF8과 11의 -시- 처리 불일치; 결합 분석 전체 운영 적용 보류"
+    },
+    {
+      "pages": [
+        11,
+        12
+      ],
+      "locator": "§3.3.1 수사의문 예",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B003-C004"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        12
+      ],
+      "locator": "§3.3.1.1",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B003-C005"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        12,
+        13
+      ],
+      "locator": "§3.3.1.2 첫째 어미",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B003-C006"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        12,
+        13
+      ],
+      "locator": "§3.3.1.2 머꼬·까자고 대조",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B003-C007"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        13
+      ],
+      "locator": "§3.3.1.2 둘째 어미",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B003-C008"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        14
+      ],
+      "locator": "§3.3.2 경북 북부",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B003-C009"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        14
+      ],
+      "locator": "§3.3.2 울진",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B003-C010"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        14
+      ],
+      "locator": "§3.3.2 서부",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B003-C011"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        14,
+        46
+      ],
+      "locator": "§3.3.2 경남 서부·각주31–32",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B003-C012"
+      ],
+      "hold": null
+    }
+  ],
+  "context": [
+    "중세어 잔재·영어 대응은 설명 맥락; 접힌 표 각주의 미확보 예문은 추정하지 않음",
+    "PDF8 본문 전부 및 9–14쪽 연속 경계 확인"
+  ],
+  "open_issues": [
+    "PDF8/11 -시- 결합 충돌",
+    "머꼬 어원 정황 및 세대 분포 미검증"
+  ],
+  "schema_note": "기존 v3 유지; content 내부 operational_status와 표의 dash_semantics 추가. 보류는 자동 생성 불가."
+}

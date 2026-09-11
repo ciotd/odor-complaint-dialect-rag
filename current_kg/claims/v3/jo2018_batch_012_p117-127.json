@@ -1,0 +1,1945 @@
+{
+  "format_version": "3.0-draft.1",
+  "status": "extraction_draft",
+  "entities": [
+    {
+      "id": "JO2018-B012-C001.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "하이소체 의문의 판정·설명 포괄",
+        "evidence_refs": [
+          "JO2018-B012-C001.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B012-C002.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-니껴/-ㅂ니껴의 수의 ㅂ과 -디껴계 미확인",
+        "evidence_refs": [
+          "JO2018-B012-C002.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B012-C003.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-니꺼/-ㅂ니꺼의 수의 ㅂ과 -디꺼계 미확인",
+        "evidence_refs": [
+          "JO2018-B012-C003.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B012-C004.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "의문 -입니까/-십니까의 -습니까 대치",
+        "evidence_refs": [
+          "JO2018-B012-C004.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B012-C005.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "표21 하이소체 의문 목록",
+        "evidence_refs": [
+          "JO2018-B012-C005.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B012-C006.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-이껴의 등급 설정과 ㄴ 탈락 가능성",
+        "evidence_refs": [
+          "JO2018-B012-C006.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B012-C007.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-껴/-꺼 계열의 자료 분포와 모음변이 추정",
+        "evidence_refs": [
+          "JO2018-B012-C007.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B012-C008.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-니껴와 -ㅂ니껴의 지역 차이",
+        "evidence_refs": [
+          "JO2018-B012-C008.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B012-C009.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-니꺼계 북부 감소와 -ㅂ니꺼/-ㅂ디꺼 미관찰",
+        "evidence_refs": [
+          "JO2018-B012-C009.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B012-C010.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "표준형 의문어미의 전지역 설명 한계",
+        "evidence_refs": [
+          "JO2018-B012-C010.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B012-C011.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-ㄴ교/-꾜/-ㄴ기요 동남부 분포와 문법화 추정",
+        "evidence_refs": [
+          "JO2018-B012-C011.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B012-C012.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-(ㅂ)니껴/-(ㅂ)니꺼의 결합 대상",
+        "evidence_refs": [
+          "JO2018-B012-C012.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B012-C013.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-디껴/-디꺼계 ㅂ 수의성의 유보",
+        "evidence_refs": [
+          "JO2018-B012-C013.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B012-C014.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-까/-꺼/-껴 대립의 모음 변화 분석",
+        "evidence_refs": [
+          "JO2018-B012-C014.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B012-C015.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-이껴의 형용사·계사 결합과 매개모음",
+        "evidence_refs": [
+          "JO2018-B012-C015.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B012-C016.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-시껴의 주체존대 부정과 결합형 분석",
+        "evidence_refs": [
+          "JO2018-B012-C016.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B012-C017.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-ㄹ리껴/-ㄹ시껴의 미래와 -겠습니까 대응",
+        "evidence_refs": [
+          "JO2018-B012-C017.e"
+        ]
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "JO2018-B012-C001.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        117
+      ],
+      "locator": "PDF117 / 하이소체 의문의 판정·설명 포괄",
+      "excerpt": "125)물론,의문문의 구조를 가지면서 의미상 의문을 나타내지 않는 수사 의문문도 존재한\n   다.\n126)앞서 언급한 것처럼,의문문은 판정 의문문과 설명 의문문으로도 구분이 가능하다.특\n   히 하게체 의문법에서는 그러한 구분이 뚜렷하게 나타나는 것에 반해,하이소체 의문법\n   종결어미들은 이 둘을 아우르며 쓰인다.이에 대해서는 형태별 특성을 다루면서 언급하기\n   로 한다.\n\n                       -1\n                        05-",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B012-C002.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        118
+      ],
+      "locator": "PDF118 / -니껴/-ㅂ니껴의 수의 ㅂ과 -디껴계 미확인",
+      "excerpt": "(\n 69)\n   에서는 ‘\n       -니껴’\n          ,‘-ㅂ니껴’\n                ,‘-ㄹ니껴’\n                      ,‘-ㄹ라니껴’\n                             ,‘-시껴’\n                                  ,‘-이껴’\n                                       ,‘-이\n껴’\n ,‘-디껴’\n      ,-ㅂ디껴‘\n           ,-ㄹ리껴’\n                가 쓰이고 있는데,공통적으로 ‘\n                                -껴’\n                                  를 포함하\n고 있으며,윗사람인 청자가 나타나면서 [\n                     +높임]\n                        으로 쓰이고 있다.또한 하\n이소체 서술법의 ‘\n         -니더/\n            ㅂ니더’\n               와 같이,‘\n                    -니껴’\n                       와 ‘\n                         -ㅂ니껴’\n                             의 경우 동일 어\n간의 환경에도 불구하고 ‘\n             -ㅂ-’\n                이 수의적으로 나타나지만,지역적으로는 대\n립을 보인다.그러나 ‘\n           -디껴’\n              ,‘-ㅂ디껴’\n                    의 경우는 그러한 현상이 발견되지 않\n는다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B012-C003.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        118,
+        119
+      ],
+      "locator": "PDF118,119 / -니꺼/-ㅂ니꺼의 수의 ㅂ과 -디꺼계 미확인",
+      "excerpt": "(\n 70)\n   에서는 ‘\n       -니꺼’\n          ,‘-ㅂ니꺼’\n                ,‘-디꺼’\n                     ,‘-ㅂ디꺼’\n                           가 쓰이고 있는데,공통적\n으로 ‘\n   -꺼’\n     를 포함하고 있으며,‘\n                -니껴’\n                   와 반모음만 차이가 난다.또한 ‘\n                                    -니\n꺼’\n ,‘-ㅂ니꺼’\n       는 ‘\n         -니껴’\n            ,‘-ㅂ니껴’\n                  와 동일하게 ‘\n                         -ㅂ-’\n                            이 수의적으로 나타나지\n\n\n                       -1\n                        06-\n만,‘\n  -디꺼’\n     ,‘-ㅂ디꺼’\n           는 ‘\n             -디껴’\n                ,‘-ㅂ디껴’\n                      와 동일하게 그러한 수의적 교체\n현상이 발견되지 않는다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B012-C004.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        119
+      ],
+      "locator": "PDF119 / 의문 -입니까/-십니까의 -습니까 대치",
+      "excerpt": "(\n 71)\n   에서는 ‘\n       -ㅂ니까’\n           ,‘-습니까’\n                 ,‘-ㅂ디까’\n                       ,‘-습디까’\n                             ,‘-입니까’\n                                   가 쓰이고\n있다.‘\n   -ㅂ니까’\n       ,‘-습니까’\n             ,‘-ㅂ디까’\n                   ,‘-습디까’\n                         는 표준어와 동일한 쓰임을\n보여주고 있으며,(\n         71ㅁ,ㅂ)\n              의 ‘\n                -입니까’\n                    ,‘-십니까’\n                          는 ‘\n                            -습니까’\n                                로 대치가 가\n능한데,‘\n    -습-’대신 ‘\n           -입-’\n              과 ‘\n                -십-’\n                   이 쓰인 경우이다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B012-C005.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        119
+      ],
+      "locator": "PDF119 / 표21 하이소체 의문 목록",
+      "excerpt": "만,‘\n  -디꺼’\n     ,‘-ㅂ디꺼’\n           는 ‘\n             -디껴’\n                ,‘-ㅂ디껴’\n                      와 동일하게 그러한 수의적 교체\n현상이 발견되지 않는다.\n 다음으로 표준형에 해당하는 종결어미는 다음과 같이 나타난다.\n\n\n     (\n     71)ㄱ.“\n          아버님,이거 이거 보이소.똑 이거 마 가 가마 안되겠습니까?\n                                          ”(7\n                                            -14\n                                              :11\n                                                2/\n         달성)\n       ㄴ.“\n         장인 왔습니까?”\n                 (7-1\n                    2:2\n                      02/\n                        군위)\n       ㄷ.“\n         그래 머라 캅디까?”\n                   (7-1\n                      :34\n                        1/경주)\n       ㄹ.“\n         그러머 칼이 어떻습디까?”\n                      (7-1\n                         1:3\n                           0/군위)\n       ㅁ.“\n         아이고 선생님 반찬이 그래가 되겠입니까?”\n                               (7-6\n                                  :67\n                                    /영덕)\n       ㅂ.“\n         저 선생님,울아부지 무진 병인지 병명 제반 뭐 좀 그 병날비 좀 빼\n         겠십니까?”\n              (7-1\n                 3:5\n                   76/\n                     대구)\n\n\n (\n 71)\n   에서는 ‘\n       -ㅂ니까’\n           ,‘-습니까’\n                 ,‘-ㅂ디까’\n                       ,‘-습디까’\n                             ,‘-입니까’\n                                   가 쓰이고\n있다.‘\n   -ㅂ니까’\n       ,‘-습니까’\n             ,‘-ㅂ디까’\n                   ,‘-습디까’\n                         는 표준어와 동일한 쓰임을\n보여주고 있으며,(\n         71ㅁ,ㅂ)\n              의 ‘\n                -입니까’\n                    ,‘-십니까’\n                          는 ‘\n                            -습니까’\n                                로 대치가 가\n능한데,‘\n    -습-’대신 ‘\n           -입-’\n              과 ‘\n                -십-’\n                   이 쓰인 경우이다.\n 이상으로 하이소체 의문법 종결어미의 유형은 다음과 같이 정리할 수 있\n다.\n\n\n                 <표 21> 하이소체 의문법 종결어미\n\n 높임등급      유형                   종결어미\n                   -니껴/\n                      ㅂ니껴,-니꺼/\n                             ㅂ니꺼,-디꺼/\n                                    ㅂ디꺼,-디껴/\n                                           ㅂ디\n           방언형\n 하이소체              껴,-시껴,-이껴,-ㄹ리껴\n           표준형     -ㅂ니까/\n                       습니까,-ㅂ디까/\n                               습디까",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B012-C006.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        120
+      ],
+      "locator": "PDF120 / -이껴의 등급 설정과 ㄴ 탈락 가능성",
+      "excerpt": "-이껴:하이소체(\n          신승원:\n             1990)\n       하소체(\n          황대화:\n             1998)\n                 ,(정인상:\n                      199\n                        8),(\n                           이상규:\n                              1991)\n                                  ,(최명옥:\n                                       1980)\n\n\n ‘\n -이껴’\n    는 기존 연구에서 등급 체계상 혼란을 보이는 종결어미이다.신승\n원(\n 1990)\n     은 영풍 지역어에서 하이소체로 쓰이고 있는 것으로 보는 반면,최\n명옥(\n  1980)등은 하소체로 설정하고 있다.이러한 차이는 형태론적으로 볼\n때,명령법의 ‘\n       -이소 :-소’\n              처럼 그 등급이 설정되어야 하는데,‘\n                                 -이껴 :-껴’\n의 대립은 나타나지 않는다.그러나 ‘\n                   -이껴’\n                      는 표준형의 ‘\n                             -ㅂ니까/\n                                 습니까’\n                                    에\n대응되며,‘\n     -니껴’\n        에서 ‘\n           -ㄴ-’\n              이 탈락한 형태일 가능성으로 미루어볼 때128),\n하이소체에 해당하는 것으로 볼 수 있다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B012-C007.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        121,
+        122
+      ],
+      "locator": "PDF121,122 / -껴/-꺼 계열의 자료 분포와 모음변이 추정",
+      "excerpt": "방언형의 지역 분포에서 특징적인 것은,이른바 ‘\n                          -껴’\n                            계열과 ‘\n                                -꺼’\n                                  계열이\n지역적 차이를 나타내고 있다는 점이다.‘\n                     -니껴’\n                        ,‘-이껴’\n                             ,‘-디껴’등은 경주,\n영덕,안동,예천 지역을 중심으로 나타나는 반면에,성주를 기점으로 구미,\n상주 지역에서는 단 한 차례도 나타나지 않는다.다만,‘\n                             -ㅂ니껴’\n                                 만 대구,달\n성 지역에서 몇 차례 발견된다.이는 하이소체 서술법의 ‘\n                              -니더’\n                                 ,‘-ㅂ니더’\n                                       의\n지역 분포와도 일치한다.반대로 ‘\n                 -니꺼’\n                    ,‘-ㅂ니꺼’등은 구미,대구,달성 지\n역에 주로 분포하며 예천,봉화 등의 지역으로 갈수록 그 쓰임이 적게 나타\n난다.그리고 ‘\n       -꺼’\n         계열이 표준형과 대응되는 형태만 존재하는 것으로 보아,\n\n\n\n                                  -1\n                                   09-\n하이소체 서술법의 ‘\n          -ㅂ니더 :-ㅂ니다’\n                    와 마찬가지로 모음 변이형일 가능성\n도 배제할 수 없다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B012-C008.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        122
+      ],
+      "locator": "PDF122 / -니껴와 -ㅂ니껴의 지역 차이",
+      "excerpt": "(\n   72)ㄱ.“\n        아부지,왜 밥을 안 잡숫니껴?”\n                        (7-1\n                           0:1\n                             30/\n                               봉화)\n       ㄴ.“\n         아이 손님요 주무십니껴?”\n                      (7-1\n                         7:1\n                           50/\n                             예천)\n       ㄷ.“\n         아이구,죽을 쫌 낄러(\n                    끓여)\n                      놨고,저 우리 영감 할매이 멀 꺼(\n                                        먹을 것)\n         죽을 쫌낄러 놨는데,어떻게 할니껴?\n                           ”(7\n                             -2:\n                               228\n                                 /경주)\n       ㄹ.“\n         그― 새 형님 그 머,몇 말로 주실라니껴?\n                               ”(7\n                                 -9:\n                                   84/\n                                     안동)\n       ㅁ.“\n         여 이진사댁이 어데냐?”“\n                      내라꼬!\n                         ”“아,그러시껴?”\n                                  (7-9\n                                     :36\n                                       5/안동)\n       ㅂ.“\n         아무거시 에미 자나?\n                   ”카이께,“\n                        어버님 소리 아이껴?그 문 열고 들오\n         소.나,아 젖 먹이니더.\n                     ”(7\n                       -11\n                         :44\n                           2/군위)\n       ㅅ.“\n         누가 아버님 앞에 술 한잔 먹고 저저[\n                             강조해서]\n                                 닭고기 큼직한 거 먹디\n         껴?\n          ”(7\n            -17\n              :32\n                9/예천)\n       ㅇ.“\n         아이구 선생님,어예만 좋을리껴?\n                         (7-9\n                            :99\n                              1/안동)\n\n\n ‘  는 주로 안동,예천,봉화의 경북중동 동부방언129)에서 주로 나타나\n -니껴’\n는 반면,상주,구미 지역에서는 한 차례도 나타나지 않는다.이와는 반대로,\n‘\n-ㅂ니껴’\n    는 대구,달성 지역에서 나타나는데,하이소체 서술법의 ‘\n                                 -니더/\n                                    ㅂ\n니더’\n  와 마찬가지로 ‘\n          -ㅂ-’\n             의 유무에서 지역적 차이가 두드러지게 나탄난\n 1\n다.3\n  0) 마찬가지로 ‘\n           -ㅂ-’\n              이 결합하지 않고 다른 형태소가 결합한 ‘\n                                    -시껴’\n                                       ,‘-\n이껴’\n  ,‘-디껴’등은 경북중동 동부방언에서는 쓰인다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B012-C009.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        123
+      ],
+      "locator": "PDF123 / -니꺼계 북부 감소와 -ㅂ니꺼/-ㅂ디꺼 미관찰",
+      "excerpt": "‘\n -니꺼’\n    는 대부분 지역에서 고루 나타나지만,북부지역으로 갈수록 그 빈\n           1\n도수가 적게 나타난다.31\n             ) 특히,‘\n                  -ㅂ니꺼’\n                      ,‘-ㅂ디꺼’\n                            의 경우 안동과 봉화 지\n역에서는 단 한 차례도 나타나지 않는다.즉,‘\n                        -니껴’\n                           와 ‘\n                             -니꺼’\n                                는 지역적 차\n이를 보여주고 있다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B012-C010.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        123
+      ],
+      "locator": "PDF123 / 표준형 의문어미의 전지역 설명 한계",
+      "excerpt": "‘\n -ㅂ니까/\n     습니까’\n        ,‘-ㅂ디까/\n              습디까’\n                 는 모든 지역에 걸쳐서 나타난다.흥미\n로운 점은,‘\n      -껴’\n        계열을 포함하여 ‘\n                 -는교’\n                    ,‘-ㄴ기요’등 방언형이 거의 나타나\n지 않는 구미와 상주 지역에서 가장 많이 나타난다는 것이다.즉,해당 지역\n에서는 하이소체에 해당하는 방언형 대신 표준어형을 더 쓰고 있음을 추정\n할 수 있다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B012-C011.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        124
+      ],
+      "locator": "PDF124 / -ㄴ교/-꾜/-ㄴ기요 동남부 분포와 문법화 추정",
+      "excerpt": "‘\n -ㄴ교’\n    와 ‘\n      -꾜’\n        는 사용 빈도수는 많지 않지만,주를 중심으로 그 분포가\n두드러지게 나타나고 상주 지역을 비롯한 경북 서부방언과 안동,예천 등의\n북부 지역에서는 나타나지 않는다.‘\n                  -ㄴ기요’\n                      도 이와 동일한 경향을 보인다.\n그러므로 ‘\n     -ㄴ교’\n        ,‘-꾜’\n            ,‘-ㄴ기요’\n                  는 경북 동남부 지역에서 두드러지게 사용\n되는 형태임을 알 수 있다.주목할 부분은,다른 방언형들에 비해 ‘\n                                   -ㄴ교’\n                                      와\n‘\n-ㄴ기요’\n    의 사용 빈도가 상당히 높게 나타난다는 것이다.이는 ‘\n                                 -ㄴ기요’\n                                     가\n일종의 문법화 과정을 거치면서 ‘\n                 -ㄴ교’\n                    로 쓰이는 것과 관련이 있을 것으로\n    1\n추정된다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B012-C012.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        125
+      ],
+      "locator": "PDF125 / -(ㅂ)니껴/-(ㅂ)니꺼의 결합 대상",
+      "excerpt": "‘\n -니껴’\n    ,‘-니꺼’등에 대한 기존 연구에서는 ‘\n                         ㅁ니껴/\n                            슴니껴’\n                               (황대화:\n                                   1998)\n                                       ,\n‘\nㅁ니꺼/\n   ㅁ니껴’\n      (김영황:\n          2013)\n              ,‘-니껴/\n                   이껴’\n                     (이상규:\n                         1991,정희선:\n                                 2013)등 형\n태 제시방식에 있어서 차이를 보인다.또한 이기갑(\n                          2003:\n                              258)\n                                 에서는 ‘\n                                     -니껴’\n가 “\n  ‘-습-’\n      이 규칙적으로 탈락하는 점에서 ‘\n                       -니더’\n                          나 ‘\n                            -디더’\n                               와 아무런 차이\n를 보이지 않는다.\n         ”라고 언급하고 있다.그러나 앞서 살펴본 것처럼,‘\n                                    -니껴’\n                                       ,\n‘\n-ㅂ니꺼’\n    는 ‘\n      -ㅂ-’\n         이 수의적으로 쓰이며,용언 어간이나 계사 등과 자유롭게\n결합한다.\n\n\n  (\n  76)ㄱ.“\n       아이구 아저씨,인제 오십니껴?”\n                       (7-2\n                          :32\n                            1/경주)\n     ㄴ.“\n       사돈 오시니껴?”\n               (7-1\n                  7:3\n                    62/\n                      예천)\n     ㄷ.“\n       형님 오십니꺼?어데 갔다 오십니꺼?”\n                          (7-16:\n                               98구미)\n     ㄹ.“\n       아이!나는 비가 와서 아이 오실 줄 알았더니 하마 오시니꺼?\n                                       ”(7\n                                         -17\n                                           :63\n                                             9예천)\n     ㅁ.“\n       고기 많이 해 줍디꺼?”\n                   (7-4\n                      :18\n                        3/성주)\n     ㅂ.“\n       아이고,정에 정도령이니껴?나는 월례씨더.\n                            ”(7\n                              -1:\n                                349\n                                  /경주)\n     ㅅ.“\n       조부가 그래 어예 죽었니껴?”\n                      (7-1\n                         :52\n                           /경주)\n     ㅇ.“\n       미안하믄 어엘(\n              어쩔)\n                랍니까? 그래 우리 딸을 고만 내가 데루 가문\n        어떻겠니껴?”\n              (7-1\n                 8:2\n                   03/\n                     예천)\n     ㅈ.“\n       그래 아무데도 아픈 데도 없이믄 그래 와 그래 잡숫는 것도 이렇게\n        안 자시고 그래 우짤낍니껴?”\n                       (7-14:\n                            379/\n                               달성)\n\n\n ‘\n -(ㅂ)\n    니껴’\n      ,‘-(\n         ㅂ)니꺼’\n             는 수의적 결합뿐만 아니라 선어말어미 ‘\n                                  -시-’\n                                     (76\nㄱ,ㄴ,\n   ㄷ,ㄹ)\n      ,‘-었-’\n           (76ㅅ)\n               ,‘-겠-’\n                    (76ㅇ)등과도 자유롭게 결합한다.(\n                                       76ㅈ)\n은 의존명사와 계사가 축약된 ‘\n                끼(것+이)\n                     ’에 결합하고 있다.그러나 ‘\n                                    -디껴/\nㅂ디껴’\n   ,‘-디꺼/\n        ㅂ디꺼’\n           에서는 그러한 현상을 찾아보기 어렵다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B012-C013.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        126
+      ],
+      "locator": "PDF126 / -디껴/-디꺼계 ㅂ 수의성의 유보",
+      "excerpt": "(\n 77ㄱ,ㄷ)\n      의 ‘\n        -ㅂ디껴’\n            와 ‘\n              -ㅂ디꺼’\n                  와 (\n                    77ㄴ,ㄹ)\n                         의 ‘\n                           -디껴’\n                              ,‘-디꺼’\n                                   를 비교\n하였을 때,수의적 탈락 여부를 확인하기 어렵다.그러나 ‘\n                              -시-’\n                                 ,‘-었-’등과\n의 선어말어미와의 결합이 가능하고,‘\n                   -(ㅂ)\n                      니껴’\n                        ,‘-(\n                           ㅂ)니꺼’\n                               와 결합 환경에\n서 크게 차이가 나지 않는 것으로 보아,‘\n                      -디껴/\n                         ㅂ디껴’\n                            ,‘-디꺼/\n                                 ㅂ디꺼’또한\n수의적 결합이 가능한 것으로 보인다.그러나 이들은 한 차례의 예만 나타\n나 판단하기 어려운 부분이 있다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B012-C014.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        126
+      ],
+      "locator": "PDF126 / -까/-꺼/-껴 대립의 모음 변화 분석",
+      "excerpt": "(\n 78ㄱ,ㄴ,ㄷ)\n        의 ‘\n          -ㅂ니까’\n              와 ‘\n                -ㅂ니꺼’\n                    ,‘-ㅂ니껴’\n                          ,(7\n                            8ㄹ,ㅁ,ㅂ)\n                                  의 ‘\n                                    -ㅂ디까’\n                                        ,\n‘\n-ㅂ디꺼’‘\n     -ㅂ디껴’\n         는 ‘\n           -까 :-꺼 :-껴’\n                     의 대립을 보여준다.이로 미루어 보아\n모음의 교체(\n      -까>-꺼)및 모음 동화(\n                   -꺼>-껴)\n                        가 순차적으로 변화한 것으로 보\n인다.또한 이러한 모음 차이를 보일 뿐,동일한 기능으로 쓰이고 있는데,이는\n하이소체 서술법 ‘\n         -ㅂ니다/\n             습니다’\n                ,‘-니더/\n                     ㅂ니더’\n                        에서처럼,높임의 형태소 ‘\n                                     -니\n-’뒤에 /\n     ㅏ/가 /\n         ㅓ/로 변하는 경북방언의 특성을 보여주는 것이라 할 수 있다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B012-C015.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        127
+      ],
+      "locator": "PDF127 / -이껴의 형용사·계사 결합과 매개모음",
+      "excerpt": "(\n 79ㄱ,ㄴ,ㄷ)\n        의 ‘\n          -이껴’\n             는 ‘\n               -니껴/\n                  ㅂ니껴’\n                     와 달리,어간 말음에 따라 매개\n모음이 나타난다.또한 결합 관계에 있어서도 형용사 어간과 계사와의 결합\n                              1\n은 가능하나,동사 어간과 쓰이는 경우는 나타나지 않는다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B012-C016.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        127
+      ],
+      "locator": "PDF127 / -시껴의 주체존대 부정과 결합형 분석",
+      "excerpt": "(79ㄹ,ㅁ)\n                                       의\n‘\n-ㄹ시껴’\n    와 ‘\n      -시껴’\n         는 조금 독특한 형태이다.특히,(\n                          79ㅁ)\n                             은 ‘\n                               오니껴 :오시\n껴’\n 가 함께 쓰이는데,‘\n           -시-’\n              를 주체 존대로 본다면,‘\n                           -니-’\n                              가 탈락한 것으로\n볼 수도 있다.그러나 하이소체 서술법의 ‘\n                      -시더’\n                         와 마찬가지로 여기에 쓰인\n‘\n-시-’\n   는 주체 존대가 아닌,‘\n               ​(\n                 의존명사)+ 이-(\n                          지정사)+ -이-(\n                                   청자높임\n소)\n ’의 결합형이다.왜냐하면 공시적으로 ‘\n                     -껴’\n                       만 쓰이는 경우는 나타나지 않\n기 때문이다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B012-C017.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        127
+      ],
+      "locator": "PDF127 / -ㄹ리껴/-ㄹ시껴의 미래와 -겠습니까 대응",
+      "excerpt": "(\n       79ㅂ)\n          의 ‘\n            -ㄹ리껴’\n                는 (\n                  79ㄹ)\n                     인 ‘\n                       -ㄹ시껴’\n                           와 같은 기능을 가진\n것으로,표준어의 ‘\n         -겠습니까’\n              에 대응된다.앞서 살펴본 해라체 서술법의 ‘\n                                     -\nㄹ꾸마’\n   와 마찬가지로 ‘\n           -ㄹ-’\n              이 미래를 나타내는 것으로 ‘\n                             -겠-’\n                                과 같은 기능\n을 가진다.",
+      "kind": "source_statement"
+    }
+  ],
+  "claims": [
+    {
+      "id": "JO2018-B012-C001",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "하이소체 의문의 판정·설명 포괄"
+      ],
+      "target_refs": [
+        "JO2018-B012-C001.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B012-C001.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B012-C001.usage"
+          ],
+          "content": {
+            "source_locator": "PDF117 / 하이소체 의문의 판정·설명 포괄",
+            "source_analysis": "각주125는 수사의문도 존재함을, 각주126은 하이소체 어미가 판정·설명 의문을 아우르며 하게체처럼 형태 구분이 뚜렷하지 않음을 밝힌다. 의문 형식이면 반드시 실제 답변 요구라는 조건을 만들지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [],
+            "question_types": [
+              "판정 의문",
+              "설명 의문"
+            ],
+            "exception": "수사 의문: 의문 구조이나 의미상 의문을 나타내지 않음"
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B012-C001.usage",
+                "feature": "speech_level",
+                "value": "하이소체"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B012-C001.usage",
+                "feature": "sentence_function",
+                "value": "의문법"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B012-C001.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B012-C001.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C001.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C001.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B012-C001.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B012-C002",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-니껴/-ㅂ니껴의 수의 ㅂ과 -디껴계 미확인"
+      ],
+      "target_refs": [
+        "JO2018-B012-C002.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B012-C002.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B012-C002.usage"
+          ],
+          "content": {
+            "source_locator": "PDF118 / -니껴/-ㅂ니껴의 수의 ㅂ과 -디껴계 미확인",
+            "source_analysis": "-니껴/-ㅂ니껴는 동일 어간 환경에도 ㅂ이 수의적으로 나타나지만 지역 대립이 있다고 한다. -디껴/-ㅂ디껴에서는 같은 현상이 발견되지 않는다고 제한한다. 뒤 PDF126의 추정적 가능성을 함께 검토해야 한다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-니껴",
+              "-ㅂ니껴",
+              "-디껴",
+              "-ㅂ디껴"
+            ],
+            "optional_element": "-ㅂ-",
+            "optional_scope": [
+              "-니껴",
+              "-ㅂ니껴"
+            ],
+            "not_established_for": [
+              "-디껴",
+              "-ㅂ디껴"
+            ],
+            "regional_caveat": "동일 환경 수의성과 지역 대립을 동시에 기술; 지역 무관 자유교체 아님"
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B012-C002.usage",
+                "feature": "speech_level",
+                "value": "하이소체"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B012-C002.usage",
+                "feature": "sentence_function",
+                "value": "의문법"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B012-C002.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B012-C002.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C002.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C002.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B012-C002.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B012-C003",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-니꺼/-ㅂ니꺼의 수의 ㅂ과 -디꺼계 미확인"
+      ],
+      "target_refs": [
+        "JO2018-B012-C003.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B012-C003.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B012-C003.usage"
+          ],
+          "content": {
+            "source_locator": "PDF118,119 / -니꺼/-ㅂ니꺼의 수의 ㅂ과 -디꺼계 미확인",
+            "source_analysis": "-니꺼/-ㅂ니꺼도 ㅂ이 수의적으로 나타난다고 하나 -디꺼/-ㅂ디꺼는 같은 수의 교체가 관찰되지 않는다고 한다. -니껴와 -니꺼는 반모음 차이라고 기술한다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-니꺼",
+              "-ㅂ니꺼",
+              "-디꺼",
+              "-ㅂ디꺼",
+              "-니껴"
+            ],
+            "optional_element": "-ㅂ-",
+            "optional_scope": [
+              "-니꺼",
+              "-ㅂ니꺼"
+            ],
+            "not_established_for": [
+              "-디꺼",
+              "-ㅂ디꺼"
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B012-C003.usage",
+                "feature": "speech_level",
+                "value": "하이소체"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B012-C003.usage",
+                "feature": "sentence_function",
+                "value": "의문법"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B012-C003.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B012-C003.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C003.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C003.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B012-C003.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B012-C004",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "의문 -입니까/-십니까의 -습니까 대치"
+      ],
+      "target_refs": [
+        "JO2018-B012-C004.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B012-C004.a",
+          "kind": "conditional_correspondence",
+          "target_refs": [
+            "JO2018-B012-C004.usage"
+          ],
+          "content": {
+            "source_locator": "PDF119 / 의문 -입니까/-십니까의 -습니까 대치",
+            "source_analysis": "예71ㅁ·ㅂ의 -입니까/-십니까는 -습니까로 대치 가능하며 -습- 대신 -입-/-십-이 쓰인 경우라고 설명한다. -십-을 주체 높임으로 자동 분절하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-입니까",
+              "-십니까",
+              "-습니까",
+              "-습-",
+              "-입-",
+              "-십-"
+            ],
+            "correspondence_scope": "예71ㅁ·ㅂ",
+            "source_form": "-습니까",
+            "target_forms": [
+              "-입니까",
+              "-십니까"
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B012-C004.usage",
+                "feature": "speech_level",
+                "value": "하이소체"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B012-C004.usage",
+                "feature": "sentence_function",
+                "value": "의문법"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B012-C004.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B012-C004.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C004.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C004.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B012-C004.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B012-C005",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "표21 하이소체 의문 목록"
+      ],
+      "target_refs": [
+        "JO2018-B012-C005.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B012-C005.a",
+          "kind": "scoped_inventory",
+          "target_refs": [
+            "JO2018-B012-C005.usage"
+          ],
+          "content": {
+            "source_locator": "PDF119 / 표21 하이소체 의문 목록",
+            "source_analysis": "원표의 방언형과 표준형 목록을 슬래시 도식 그대로 보존한다. 원표에 없는 어미 결합을 생성하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-니껴/ㅂ니껴",
+              "-니꺼/ㅂ니꺼",
+              "-디꺼/ㅂ디꺼",
+              "-디껴",
+              "-ㅂ디껴",
+              "-시껴",
+              "-이껴",
+              "-ㄹ리껴",
+              "-ㅂ니까/습니까",
+              "-ㅂ디까/습디까"
+            ],
+            "source_inventory": {
+              "방언형": [
+                "-니껴/ㅂ니껴",
+                "-니꺼/ㅂ니꺼",
+                "-디꺼/ㅂ디꺼",
+                "-디껴",
+                "-ㅂ디껴",
+                "-시껴",
+                "-이껴",
+                "-ㄹ리껴"
+              ],
+              "표준형": [
+                "-ㅂ니까/습니까",
+                "-ㅂ디까/습디까"
+              ]
+            },
+            "table_transcription_note": "PDF119 표21 이미지를 확인. 줄바꿈 사이에 왼쪽 유형·등급 라벨이 끼어 텍스트가 분리된 -디껴/ㅂ디껴 셀은 두 명시 어미를 각각 저장. 같은 슬래시 그룹임을 유지하며 새 결합형을 만들지 않음.",
+            "source_inventory_groupings": [
+              {
+                "members": [
+                  "-디껴",
+                  "-ㅂ디껴"
+                ],
+                "printed_joiner": "/",
+                "pdf_page": 119
+              }
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B012-C005.usage",
+                "feature": "speech_level",
+                "value": "하이소체"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B012-C005.usage",
+                "feature": "sentence_function",
+                "value": "의문법"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B012-C005.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B012-C005.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C005.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C005.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B012-C005.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B012-C006",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-이껴의 등급 설정과 ㄴ 탈락 가능성"
+      ],
+      "target_refs": [
+        "JO2018-B012-C006.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B012-C006.a",
+          "kind": "scope_caveat",
+          "target_refs": [
+            "JO2018-B012-C006.usage"
+          ],
+          "content": {
+            "source_locator": "PDF120 / -이껴의 등급 설정과 ㄴ 탈락 가능성",
+            "source_analysis": "선행연구의 하이소/하소 분류를 비교하고 저자는 -ㅂ니까/습니까 대응과 -니껴의 ㄴ 탈락 가능성으로 하이소체를 택한다. 명령 -이소:-소와 달리 -이껴:-껴의 대립은 나타나지 않는다고 한다. 탈락 가능성을 생산적 동사 -이껴 규칙으로 확정하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "held",
+            "forms": [
+              "-이껴",
+              "-니껴",
+              "-껴",
+              "-ㅂ니까/습니까"
+            ],
+            "reported_source": "PDF120 신승원1990 등 등급 비교 및 각주128 강신항1978"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B012-C006.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B012-C006.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C006.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C006.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B012-C006.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증",
+        "신승원·황대화·정인상·이상규·최명옥 원자료 미확인; ㄴ 탈락은 가능성 설명이고 PDF127은 동사 결합 미관찰"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B012-C007",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-껴/-꺼 계열의 자료 분포와 모음변이 추정"
+      ],
+      "target_refs": [
+        "JO2018-B012-C007.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B012-C007.a",
+          "kind": "regional_prevalence",
+          "target_refs": [
+            "JO2018-B012-C007.usage"
+          ],
+          "content": {
+            "source_locator": "PDF121,122 / -껴/-꺼 계열의 자료 분포와 모음변이 추정",
+            "source_analysis": "-니껴/-이껴/-디껴는 경주·영덕·안동·예천 중심, -니꺼/-ㅂ니꺼는 구미·대구·달성 중심이라고 설명한다. 서부 미관찰과 -ㅂ니껴 예외를 함께 보존한다. -꺼가 표준형의 모음변이일 가능성은 저자의 추정이지 확인된 역사 규칙이 아니다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-니껴",
+              "-이껴",
+              "-디껴",
+              "-ㅂ니껴",
+              "-니꺼",
+              "-ㅂ니꺼"
+            ],
+            "source_scope_limit": "조사 자료의 상대 분포. -ㅂ니껴 표22 구미2도 있어 서부 전계열 부재로 일반화 금지",
+            "tentative_analysis": "-꺼의 표준형 모음 변이 가능성"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B012-C007.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B012-C007.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C007.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C007.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B012-C007.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B012-C008",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-니껴와 -ㅂ니껴의 지역 차이"
+      ],
+      "target_refs": [
+        "JO2018-B012-C008.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B012-C008.a",
+          "kind": "regional_prevalence",
+          "target_refs": [
+            "JO2018-B012-C008.usage"
+          ],
+          "content": {
+            "source_locator": "PDF122 / -니껴와 -ㅂ니껴의 지역 차이",
+            "source_analysis": "-니껴는 안동·예천·봉화 중심이고 상주·구미 미관찰, -ㅂ니껴는 대구·달성에서 나타난다고 기술한다. -시껴/-이껴/-디껴도 경북중동 동부방언에 쓰인다는 자료 설명이며 다른 지역의 불가능을 뜻하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-니껴",
+              "-ㅂ니껴",
+              "-시껴",
+              "-이껴",
+              "-디껴"
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B012-C008.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B012-C008.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C008.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C008.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B012-C008.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B012-C009",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-니꺼계 북부 감소와 -ㅂ니꺼/-ㅂ디꺼 미관찰"
+      ],
+      "target_refs": [
+        "JO2018-B012-C009.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B012-C009.a",
+          "kind": "regional_prevalence",
+          "target_refs": [
+            "JO2018-B012-C009.usage"
+          ],
+          "content": {
+            "source_locator": "PDF123 / -니꺼계 북부 감소와 -ㅂ니꺼/-ㅂ디꺼 미관찰",
+            "source_analysis": "-니꺼는 대부분 지역에 나타나나 북부로 갈수록 적으며 -ㅂ니꺼/-ㅂ디꺼는 안동·봉화 미관찰이라고 한다. 원문의 북부를 경북 전체나 행정 경남과의 대립으로 치환하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-니꺼",
+              "-ㅂ니꺼",
+              "-ㅂ디꺼"
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B012-C009.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B012-C009.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C009.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C009.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B012-C009.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B012-C010",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "표준형 의문어미의 전지역 설명 한계"
+      ],
+      "target_refs": [
+        "JO2018-B012-C010.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B012-C010.a",
+          "kind": "regional_prevalence",
+          "target_refs": [
+            "JO2018-B012-C010.usage"
+          ],
+          "content": {
+            "source_locator": "PDF123 / 표준형 의문어미의 전지역 설명 한계",
+            "source_analysis": "저자는 -ㅂ니까/습니까 및 -ㅂ디까/습디까가 모든 지역에 나타나고 구미·상주에서 가장 많다고 설명한다. 표22의 -ㅂ디까/습디까 성주·봉화 미관찰과 -ㅂ니까/습니까 군위453 등을 함께 보면 모든 형태의 최다 지역으로 확정할 수 없다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "held",
+            "forms": [
+              "-ㅂ니까/습니까",
+              "-ㅂ디까/습디까"
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B012-C010.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B012-C010.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C010.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C010.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B012-C010.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증",
+        "PDF123 전지역·최다지역 기술과 PDF121 표22의 형태별 분포·수치 차이"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B012-C011",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-ㄴ교/-꾜/-ㄴ기요 동남부 분포와 문법화 추정"
+      ],
+      "target_refs": [
+        "JO2018-B012-C011.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B012-C011.a",
+          "kind": "regional_prevalence",
+          "target_refs": [
+            "JO2018-B012-C011.usage"
+          ],
+          "content": {
+            "source_locator": "PDF124 / -ㄴ교/-꾜/-ㄴ기요 동남부 분포와 문법화 추정",
+            "source_analysis": "경북 동남부의 분포와 -ㄴ기요에서 -ㄴ교로의 문법화 가능성을 설명한다. 본문의 주를 중심으로는 원문 결락 가능성이 있고, 서부·안동·예천 미관찰은 뒤 표24와 대조가 필요하다. 앞의 빈도 많지 않다와 뒤의 상당히 높다는 비교 범위도 미확정이다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "held",
+            "forms": [
+              "-ㄴ교",
+              "-꾜",
+              "-ㄴ기요"
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B012-C011.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B012-C011.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C011.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C011.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B012-C011.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증",
+        "PDF124 주를 중심으로 결락 가능성·분포 단정은 PDF129 표24와 불일치; 문법화는 추정"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B012-C012",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-(ㅂ)니껴/-(ㅂ)니꺼의 결합 대상"
+      ],
+      "target_refs": [
+        "JO2018-B012-C012.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B012-C012.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B012-C012.usage"
+          ],
+          "content": {
+            "source_locator": "PDF125 / -(ㅂ)니껴/-(ㅂ)니꺼의 결합 대상",
+            "source_analysis": "저자는 ㅂ 수의 결합 및 용언·계사 결합을 기술하고 예76에서 -시-/-었-/-겠-과의 결합, 것+이가 축약된 끼 뒤 결합을 제시한다. -디껴/-디꺼 계열의 수의 교체는 여기서 확인하기 어렵다고 유보한다. 이기갑의 규칙적 -습- 탈락 보고는 저자의 수의 결합 분석과 구분한다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-(ㅂ)니껴",
+              "-(ㅂ)니꺼",
+              "-시-",
+              "-었-",
+              "-겠-"
+            ],
+            "attachment_targets": [
+              "용언 어간",
+              "계사",
+              "선어말어미 -시-",
+              "선어말어미 -었-",
+              "선어말어미 -겠-",
+              "것+이 축약형 끼"
+            ],
+            "source_examples": [
+              {
+                "text": "오십니껴",
+                "judgment": "source_attestation_not_acceptability_test"
+              },
+              {
+                "text": "오시니꺼",
+                "judgment": "source_attestation_not_acceptability_test"
+              },
+              {
+                "text": "죽었니껴",
+                "judgment": "source_attestation_not_acceptability_test"
+              },
+              {
+                "text": "우짤낍니껴",
+                "judgment": "source_attestation_not_acceptability_test"
+              }
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B012-C012.usage",
+                "feature": "speech_level",
+                "value": "하이소체"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B012-C012.usage",
+                "feature": "sentence_function",
+                "value": "의문법"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B012-C012.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B012-C012.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C012.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C012.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B012-C012.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B012-C013",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-디껴/-디꺼계 ㅂ 수의성의 유보"
+      ],
+      "target_refs": [
+        "JO2018-B012-C013.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B012-C013.a",
+          "kind": "tentative_realization",
+          "target_refs": [
+            "JO2018-B012-C013.usage"
+          ],
+          "content": {
+            "source_locator": "PDF126 / -디껴/-디꺼계 ㅂ 수의성의 유보",
+            "source_analysis": "-시-/-었- 결합이 가능하고 -(ㅂ)니껴/-(ㅂ)니꺼와 결합 환경이 비슷해서 수의 결합 가능성을 제시하지만 한 차례 예뿐이라 판단이 어렵다고 저자가 유보한다. 앞의 미관찰 설명을 자유교체 규칙으로 덮어쓰지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "held",
+            "forms": [
+              "-디껴/ㅂ디껴",
+              "-디꺼/ㅂ디꺼",
+              "-시-",
+              "-었-"
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B012-C013.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B012-C013.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C013.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C013.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B012-C013.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [
+        {
+          "type": "qualifies",
+          "target": "JO2018-B012-C002",
+          "basis": "extractor_comparison",
+          "evidence_refs": [
+            "JO2018-B012-C013.e"
+          ]
+        },
+        {
+          "type": "qualifies",
+          "target": "JO2018-B012-C003",
+          "basis": "extractor_comparison",
+          "evidence_refs": [
+            "JO2018-B012-C013.e"
+          ]
+        }
+      ],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증",
+        "저자도 예 부족으로 수의 결합 판단 유보; 예77ㄱ은 이상스럽디껴인데 해설은 -ㅂ디껴로 지칭"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B012-C014",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-까/-꺼/-껴 대립의 모음 변화 분석"
+      ],
+      "target_refs": [
+        "JO2018-B012-C014.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B012-C014.a",
+          "kind": "historical_account",
+          "target_refs": [
+            "JO2018-B012-C014.usage"
+          ],
+          "content": {
+            "source_locator": "PDF126 / -까/-꺼/-껴 대립의 모음 변화 분석",
+            "source_analysis": "동일 기능의 -까:-꺼:-껴 대립을 모음 교체 및 동화의 순차 변화로 추정한다. 예78ㅂ의 표면 이상스럽디껴와 해설 -ㅂ디껴의 차이를 보존한다. 관찰된 대립에서 모든 형태·지역의 음운 치환을 생성하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "held",
+            "forms": [
+              "-까",
+              "-꺼",
+              "-껴"
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B012-C014.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B012-C014.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C014.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C014.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B012-C014.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증",
+        "역사적 순서·동화의 저자 추정과 예78ㅂ 표면/분석의 차이 미확정"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B012-C015",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-이껴의 형용사·계사 결합과 매개모음"
+      ],
+      "target_refs": [
+        "JO2018-B012-C015.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B012-C015.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B012-C015.usage"
+          ],
+          "content": {
+            "source_locator": "PDF127 / -이껴의 형용사·계사 결합과 매개모음",
+            "source_analysis": "-이껴는 어간 말음에 따른 매개모음이 나타나며 형용사·계사와 결합 가능하지만 동사 결합은 자료에 나타나지 않는다고 설명한다. 미관찰을 전 시대의 비문으로 바꾸지 않고 -니껴/-ㅂ니껴와 결합 환경을 구별한다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-이껴",
+              "-니껴/ㅂ니껴"
+            ],
+            "attachment_targets": [
+              "형용사 어간",
+              "계사"
+            ],
+            "unattested_attachment": "동사 어간",
+            "mediating_vowel": "어간 말음에 따름; 이 문단만으로 모든 말음별 표를 만들지 않음"
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B012-C015.usage",
+                "feature": "speech_level",
+                "value": "하이소체"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B012-C015.usage",
+                "feature": "sentence_function",
+                "value": "의문법"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B012-C015.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B012-C015.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C015.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C015.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B012-C015.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [
+        {
+          "type": "qualifies",
+          "target": "JO2018-B012-C006",
+          "basis": "extractor_comparison",
+          "evidence_refs": [
+            "JO2018-B012-C015.e"
+          ]
+        }
+      ],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B012-C016",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-시껴의 주체존대 부정과 결합형 분석"
+      ],
+      "target_refs": [
+        "JO2018-B012-C016.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B012-C016.a",
+          "kind": "historical_account",
+          "target_refs": [
+            "JO2018-B012-C016.usage"
+          ],
+          "content": {
+            "source_locator": "PDF127 / -시껴의 주체존대 부정과 결합형 분석",
+            "source_analysis": "오니껴:오시껴 대조에서 -시-를 주체존대로 보면 -니- 탈락 해석도 가능하나 저자는 의존명사+지정사+청자높임소의 결합형으로 분석한다. 공시적으로 -껴 단독 쓰임이 없다는 논거를 보존하되 형태소 분석을 운영에서 자동 추론하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "held",
+            "forms": [
+              "오니껴",
+              "오시껴",
+              "-시-",
+              "-니-",
+              "-껴"
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B012-C016.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B012-C016.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C016.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C016.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B012-C016.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증",
+        "저자의 역사·형태소 결합 분석 및 주체존대 분석 배제는 독립 검증 미완료"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B012-C017",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-ㄹ리껴/-ㄹ시껴의 미래와 -겠습니까 대응"
+      ],
+      "target_refs": [
+        "JO2018-B012-C017.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B012-C017.a",
+          "kind": "conditional_correspondence",
+          "target_refs": [
+            "JO2018-B012-C017.usage"
+          ],
+          "content": {
+            "source_locator": "PDF127 / -ㄹ리껴/-ㄹ시껴의 미래와 -겠습니까 대응",
+            "source_analysis": "-ㄹ리껴는 -ㄹ시껴와 같은 기능으로 표준어 -겠습니까에 대응하고 -ㄹ-이 미래를 나타내 -겠-과 같은 기능이라고 설명한다. 앞의 -시껴 내부 분석을 다른 어미에 복사하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-ㄹ리껴",
+              "-ㄹ시껴",
+              "-겠습니까",
+              "-ㄹ-",
+              "-겠-"
+            ],
+            "source_form": "-겠습니까",
+            "target_forms": [
+              "-ㄹ리껴",
+              "-ㄹ시껴"
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B012-C017.usage",
+                "feature": "speech_level",
+                "value": "하이소체"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B012-C017.usage",
+                "feature": "sentence_function",
+                "value": "의문법"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B012-C017.usage",
+                "feature": "meaning",
+                "value": "미래"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B012-C017.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B012-C017.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C017.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B012-C017.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B012-C017.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    }
+  ],
+  "policies": []
+}

@@ -1,0 +1,242 @@
+{
+  "batch_id": "JO2018-B022",
+  "source_id": "JO2018",
+  "status": "partial_source_extraction",
+  "body_pages": [
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224
+  ],
+  "units": [
+    {
+      "location": "PDF217,218 / 해체 명령 -제의 문맥 판정과 -시- 대치 유보",
+      "claim_ids": [
+        "JO2018-B022-C001"
+      ],
+      "hold": "예185 번호 불일치·하시제의 -지 대치 제한 근거 범위 미확정. 모든 시+지 금지로 일반화하지 않음"
+    },
+    {
+      "location": "PDF218,219,220 / 비격식 명령 해여·해예 미관찰 기술의 충돌",
+      "claim_ids": [
+        "JO2018-B022-C002"
+      ],
+      "hold": "동일 절 내 미관찰 진술과 예문·표가 상충하므로 부재/금지 규칙 보류"
+    },
+    {
+      "location": "PDF218,219 / 표53 비격식 명령 목록 및 예187 여 결합",
+      "claim_ids": [
+        "JO2018-B022-C003"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF220 / 명령 요형의 셔요 분석과 예188 시요 표기",
+      "claim_ids": [
+        "JO2018-B022-C004"
+      ],
+      "hold": "예188ㄴ 잡수시요와 해설 셔요 불일치; 시요를 자동 셔요로 정규화하지 않음"
+    },
+    {
+      "location": "PDF220,221 / 명령 여의 타 지역 관찰 및 담화 혼용",
+      "claim_ids": [
+        "JO2018-B022-C005"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF222 / 해체 청유의 화자·청자 포함 조건",
+      "claim_ids": [
+        "JO2018-B022-C006"
+      ],
+      "hold": "김정균 재인용 원자료·구체 용례 미확인"
+    },
+    {
+      "location": "PDF222,223 / 표55 비격식 청유 목록과 여 미관찰",
+      "claim_ids": [
+        "JO2018-B022-C007"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF223,224 / 갑시요의 대치 분석과 발화 오류 가능성",
+      "claim_ids": [
+        "JO2018-B022-C008"
+      ],
+      "hold": "단일 관찰 및 저자의 발화 오류 가능성 유보"
+    },
+    {
+      "location": "PDF224 / 청유 지요의 높임과 문장유형 구분",
+      "claim_ids": [
+        "JO2018-B022-C009"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF224 / 서지예의 청유 분류에 대한 서술 반론",
+      "claim_ids": [
+        "JO2018-B022-C010"
+      ],
+      "hold": "표55 청유 분류와 저자 서술 반론을 함께 보존; 용법 판정 보류"
+    }
+  ],
+  "page_dispositions": [
+    {
+      "page": 217,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B022-C001"
+      ],
+      "reason": "예185 및 명령 문맥 설명 읽고 번호·대치 제약 불일치 보류."
+    },
+    {
+      "page": 218,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B022-C001",
+        "JO2018-B022-C002",
+        "JO2018-B022-C003"
+      ],
+      "reason": "전쪽 결론·예186·187 읽음; 해여 부재 충돌 보류, 여 명령 실현형 저장."
+    },
+    {
+      "page": 219,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B022-C002",
+        "JO2018-B022-C003"
+      ],
+      "reason": "표53/54 이미지·각주212 읽고 목록 및 지예 항목별 보류."
+    },
+    {
+      "page": 220,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B022-C002",
+        "JO2018-B022-C004",
+        "JO2018-B022-C005"
+      ],
+      "reason": "전쪽 예 부재 문장 완결·예188·189 읽음; 셔요 표기 불일치 및 여 타지역 관찰."
+    },
+    {
+      "page": 221,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B022-C005"
+      ],
+      "reason": "예190 전체·담화 해설 읽음; 여 혼용과 예190ㄱ 화행 유보 기록."
+    },
+    {
+      "page": 222,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B022-C006",
+        "JO2018-B022-C007"
+      ],
+      "reason": "해체 청유 포함조건 보류; 예191 읽고 표55/후속 저자 반론과 연결."
+    },
+    {
+      "page": 223,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B022-C007",
+        "JO2018-B022-C008"
+      ],
+      "reason": "표55/56 이미지·예192ㄱ·각주213 읽음; 시요·지예 보류 포함 목록 저장."
+    },
+    {
+      "page": 224,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B022-C008",
+        "JO2018-B022-C009",
+        "JO2018-B022-C010"
+      ],
+      "reason": "예192 후속·193·각주214 읽음; 갑시요 오류 가능성, 지요 화자·청자 조건, 지예 서술 반론 분리."
+    }
+  ],
+  "source_context": {
+    "corpus_period_basis": {
+      "page": 29,
+      "excerpt": "1978년부터 1984년 사이에 조사된 내용을 싣고 있다.",
+      "publication_year": 2018,
+      "individual_utterance_date": null,
+      "note": "자료 전체 조사기간. 재인용 연구 시점이나 개별 발화연도로 자동 전파하지 않음."
+    },
+    "frequency_tables": "표54·56 이미지와 모든 행을 읽음. 빈도는 맥락이며 생성 Claim에 수치 저장 안 함. 별도 수치 셀 전사는 미수행."
+  },
+  "open_items": [
+    {
+      "location": "PDF217,218",
+      "issue": "예185 번호 불일치·하시제의 -지 대치 제한 근거 범위 미확정. 모든 시+지 금지로 일반화하지 않음",
+      "claim_id": "JO2018-B022-C001"
+    },
+    {
+      "location": "PDF218,219,220",
+      "issue": "동일 절 내 미관찰 진술과 예문·표가 상충하므로 부재/금지 규칙 보류",
+      "claim_id": "JO2018-B022-C002"
+    },
+    {
+      "location": "PDF220",
+      "issue": "예188ㄴ 잡수시요와 해설 셔요 불일치; 시요를 자동 셔요로 정규화하지 않음",
+      "claim_id": "JO2018-B022-C004"
+    },
+    {
+      "location": "PDF222",
+      "issue": "김정균 재인용 원자료·구체 용례 미확인",
+      "claim_id": "JO2018-B022-C006"
+    },
+    {
+      "location": "PDF223,224",
+      "issue": "단일 관찰 및 저자의 발화 오류 가능성 유보",
+      "claim_id": "JO2018-B022-C008"
+    },
+    {
+      "location": "PDF224",
+      "issue": "표55 청유 분류와 저자 서술 반론을 함께 보존; 용법 판정 보류",
+      "claim_id": "JO2018-B022-C010"
+    },
+    {
+      "location": "PDF223 각주213",
+      "issue": "한국방언자료집의 명령/청유 통합 분류와 울진 -시요 재인용: 원자료 미확인; 영덕 전용성으로 환원하지 않음.",
+      "claim_id": null
+    }
+  ],
+  "audit": {
+    "text_read": true,
+    "pdftotext_layout": true,
+    "pdf_pages_visually_checked": [
+      219,
+      223
+    ],
+    "independent_reviewer": false
+  },
+  "validation": {
+    "passed": true,
+    "commands": [
+      "python3 current_kg/claims/v3/check_batch.py",
+      "python3 current_kg/design_probe/probe.py",
+      "python3 current_kg/design_probe/coverage_check.py",
+      "python3 current_kg/claims/v3/check_all_v3.py --check-receipt",
+      "python3 current_kg/claims/v3/check_honorifics.py",
+      "python3 current_kg/claims/v3/check_phonology.py",
+      "python3 current_kg/claims/v3/check_overview.py",
+      "python3 current_kg/claims/v3/check_ryu2014.py",
+      "git diff --check",
+      "python3 current_kg/claims/v3/check_jo2018.py",
+      "python3 current_kg/claims/v3/check_jo2018.py --export",
+      "python3 current_kg/claims/v3/check_jo2018.py --check-saved",
+      "python3 current_kg/claims/v3/check_jo2018.py --check-saved --check-receipt"
+    ],
+    "scope": "구조·참조·실제 원문 근거·조건·회귀·저장 그래프 재구성. 문헌 정답·현대 자연스러움·운영 생성 승인이 아님.",
+    "all_source_pages_reviewed": true,
+    "extraction_holds_remain": true,
+    "jo_check_count": 65,
+    "saved_graph_reconstructed": true,
+    "receipt_checked": true
+  }
+}

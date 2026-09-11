@@ -1,0 +1,2281 @@
+{
+  "format_version": "3.0-draft.1",
+  "status": "extraction_draft",
+  "entities": [
+    {
+      "id": "RYU2014-B005-C001.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "사동접미사와 조사 예",
+        "evidence_refs": [
+          "RYU2014-B005-E022",
+          "RYU2014-B005-E023"
+        ],
+        "scope": "함양 현지조사 자료의 해당 문법 용법; 지역 전용 여부 미확보"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C002.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "우·구·추 사동의 아라 결합",
+        "evidence_refs": [
+          "RYU2014-B005-E022",
+          "RYU2014-B005-E023"
+        ],
+        "scope": "함양 현지조사 자료의 해당 문법 용법; 지역 전용 여부 미확보"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C003.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "피동접미사와 조사 예",
+        "evidence_refs": [
+          "RYU2014-B005-E023"
+        ],
+        "scope": "함양 현지조사 자료의 해당 문법 용법; 지역 전용 여부 미확보"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C004.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "고 있다 진행",
+        "evidence_refs": [
+          "RYU2014-B005-E023",
+          "RYU2014-B005-E024"
+        ],
+        "scope": "함양 현지조사 자료의 해당 문법 용법; 지역 전용 여부 미확보"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C005.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "종결 보조동사",
+        "evidence_refs": [
+          "RYU2014-B005-E024"
+        ],
+        "scope": "함양 현지조사 자료의 해당 문법 용법; 지역 전용 여부 미확보"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C006.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "어 주다 봉사",
+        "evidence_refs": [
+          "RYU2014-B005-E024"
+        ],
+        "scope": "함양 현지조사 자료의 해당 문법 용법; 지역 전용 여부 미확보"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C007.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "시행 보다 분류와 추측형 예",
+        "evidence_refs": [
+          "RYU2014-B005-E024"
+        ],
+        "scope": "함양 현지조사 자료의 해당 문법 용법; 지역 전용 여부 미확보"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C008.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "어 놓다 보유",
+        "evidence_refs": [
+          "RYU2014-B005-E024",
+          "RYU2014-B005-E025"
+        ],
+        "scope": "함양 현지조사 자료의 해당 문법 용법; 지역 전용 여부 미확보"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C009.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "게 맨들다 사동",
+        "evidence_refs": [
+          "RYU2014-B005-E024",
+          "RYU2014-B005-E025"
+        ],
+        "scope": "함양 현지조사 자료의 해당 문법 용법; 지역 전용 여부 미확보"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C010.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "어 지다·게 되다",
+        "evidence_refs": [
+          "RYU2014-B005-E024",
+          "RYU2014-B005-E025"
+        ],
+        "scope": "함양 현지조사 자료의 해당 문법 용법; 지역 전용 여부 미확보"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C011.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "지 마라 금지",
+        "evidence_refs": [
+          "RYU2014-B005-E024",
+          "RYU2014-B005-E025"
+        ],
+        "scope": "함양 현지조사 자료의 해당 문법 용법; 지역 전용 여부 미확보"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C012.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "싸다·보이다·한다·하다 기능별 결합",
+        "evidence_refs": [
+          "RYU2014-B005-E024",
+          "RYU2014-B005-E025"
+        ],
+        "scope": "함양 현지조사 자료의 해당 문법 용법; 지역 전용 여부 미확보"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C013.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "보조동사 출현과 감소",
+        "evidence_refs": [
+          "RYU2014-B005-E024",
+          "RYU2014-B005-E025"
+        ],
+        "scope": "함양 현지조사 자료의 해당 문법 용법; 지역 전용 여부 미확보"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C014.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "보조형용사 싶다·보다·있다",
+        "evidence_refs": [
+          "RYU2014-B005-E025",
+          "RYU2014-B005-E026"
+        ],
+        "scope": "함양 현지조사 자료의 해당 문법 용법; 지역 전용 여부 미확보"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C015.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "추측 싶다 및 형용사 시인 하다 미제시",
+        "evidence_refs": [
+          "RYU2014-B005-E025",
+          "RYU2014-B005-E026"
+        ],
+        "scope": "함양 현지조사 자료의 해당 문법 용법; 지역 전용 여부 미확보"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C016.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "형용사 지 않다·지 못하다 출현",
+        "evidence_refs": [
+          "RYU2014-B005-E025",
+          "RYU2014-B005-E026"
+        ],
+        "scope": "함양 현지조사 자료의 해당 문법 용법; 지역 전용 여부 미확보"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "RYU2014-B005-E022",
+      "source_id": "RYU2014",
+      "pdf_pages": [
+        22
+      ],
+      "locator": "PDF 22 / 학술지 76쪽, 본문·표·각주 전체 문맥; 세부 위치는 assertion.content.source_locator",
+      "excerpt": "배 달 말(55)\n\n\n      형은 일이 있어서 못                                       형은 일이 있어 몬\n                         못       10      0         몬\n  못,  간다.                                               간다.\n-지 못- 형은 일이 있어서 가지\n                       -지 못-     (90)   (70) .(-지 못-)            .\n      못한다.\n -지\n      너는 아직 가지 마라. -지 말다                      -지 말다 니는 아직 가지 마라.\n 말다\n\n\n\n 2.7. 사동, 피동 접미사\n\n 사동이란 사동주가 피사동주로 하여금 어떤 행위를 하게 하는 것을 말한\n다. 그리고 사동이 이루어지려면 주동사에 사동접미사가 붙어 이루어진 사\n동사를 활용한 사동과 ‘-게 하다’와 같이 보조동사 ‘하다’를 활용한 사동이\n있다. 그리고 피동은 피동주가 능동주에 의해서 행위를 입는 것을 말하는데,\n이것도 능동사에 피동접미사가 결합하여 이루어진 피동사를 활용한 피동과\n보조동사 ‘지다’가 결합된 ‘-어 지다’ 형태에 의하여 피동을 이루는 경우가\n있다. 여기에서는 사동사와 피동사에 결합된 사동접미사와 피동접미사에 대\n하여 알아보겠다.\n\n\n\n 2.7.1. 사동 접미사\n\n 함양 방언에서 사동사를 파생시키는 사동접미사에는 ‘-이-, -이우-, -기-,\n-히-, -리-, -우-, -구-, -추-, -애-’가 있다. 표준어와 같다. 다만 ‘-우-, -구-, -추-’\n의 형태가 명령형 어미 ‘-아라’와 결합하여 축약된 ‘깨아라, 돋가라, 낮차라’\n로 표현된다. 이러한 형태는 60대와 10대에서 변함없이 쓰이고 있다.\n\n\n                               방언 사용\n             표준어                                        방언\n                                비율\n          예            형태      60대 10대       형태              예\n엄마가 아기에게 젖을 먹인다.        -이-                  -이-   엄마가 아한테 젖 먹인다.\n\n\n\n\n                              - 76 -",
+      "kind": "source_statement"
+    },
+    {
+      "id": "RYU2014-B005-E023",
+      "source_id": "RYU2014",
+      "pdf_pages": [
+        23
+      ],
+      "locator": "PDF 23 / 학술지 77쪽, 본문·표·각주 전체 문맥; 세부 위치는 assertion.content.source_locator",
+      "excerpt": "표준어 간섭 및 방언에 대한 의식으로 인한 경남 함양 방언 문법 형태의 변화 연구\n\n\n\n운전사가 차를 세운다       -이우-             -이우- 운전수 차 세운다.\n네가 나를 웃기는구나!      -기-              -기-   네가 나를 웃기네.\n아기에게 옷을 입혀라.      -히-              -히-   아한테 옷 입히라.\n그 나무를 잘 살려라.      -리-              -리-   그 나무를 잘 살랴라.\n잠을 깨워라.           -우-              -우-   잠 깨아라\n두둑을 돋구어라.         -구-              -구-   입맛을 돋가라.\n좀 낮춰 봐.           -추-              -추-   낮차라\n못 쓴 것들은 다 없애라.    -애-              -애-   없애버려라.\n\n\n\n 2.7.2. 피동 접미사\n\n 함양 방언에서 피동사를 파생시키는 피동접미사에는 ‘-이-, -기-, -히-, -리-’가\n있다. 표준어와 같다. 이러한 형태는 60대와 10대에서 변함없이 쓰이고 있다.\n\n\n                         방언 사용\n           표준어                              방언\n                          비율\n          예       형태     60대 10대   형태            예\n머리카락 보인다.         -이-              -이-   머리카락 빈다.\n소식이 끊겼다.          -기-              -기-   소식 끊깄다.\n문이 닫혔다.           -히-              -히-   애기가 업힜다.\n새 소리가 들린다.        -리-              -리-   새 소리 들린다.\n\n\n\n 2.8. 보조 용언\n\n 보조용언에는 보조동사와 보조형용사가 있다. 그 수가 많으나 여기에서는\n질문지에 제시된 함양 방언에서의 보조용언에 대해서만 알아보겠다.\n\n\n\n 2.8.1. 보조동사\n\n 보조동사는 ‘진행, 종결, 봉사, 시행, 보유, 사동, 피동, 부정, 강세, 짐작,\n\n\n\n                        - 77 -",
+      "kind": "source_statement"
+    },
+    {
+      "id": "RYU2014-B005-E003",
+      "source_id": "RYU2014",
+      "pdf_pages": [
+        3
+      ],
+      "locator": "PDF 3 / 학술지 57쪽, 본문·표·각주 전체 문맥; 세부 위치는 assertion.content.source_locator",
+      "excerpt": "표준어 간섭 및 방언에 대한 의식으로 인한 경남 함양 방언 문법 형태의 변화 연구\n\n\n가 있다. 피동접미사에는 ‘-이-, -기-, -히-, -리-’가 있다. 표준어와 같다.\n 여덟째로 보조용언으로 함양 방언에서 표준어와 비슷하나 방언형에 없던\n‘-어 가다, -어 오다, -어 내다, -어 갖고, -지 못하다, -지 않다’ 형태가 60대\n이후부터 활발하게 쓰이게 되었다.\n 아홉째로 부사 형태 중 ‘쪼깨만, 한거석, 제와/보도시, 절로, 까딱하면, 백\n지’ 등이 60대에서는 0-30% 정도 쓰이게 되었다. 10대에서는 0-10% 정도 쓰\n이게 되었다. 대신 ‘그냥, 매우’는 안 쓰였으나 60대, 10대 모두에서 100%\n사용되고 있다.\n 열째로 10대에 비해 노인들은 사투리에 대한 비하감을 많이 갖고 있다.\n표준어를 배우는 곳은 10대 초반은 학교와 텔레비전이고, 60대 이상은 대부\n분 텔레비전의 영향을 받고 있다.\n\n\n 주제어: 대명사, 조사, 종결어미와 경어법, 연결어미, 시제, 부정, 사동·피동, 보조용\n      언, 부사\n\n\n\n\n                     1. 서 론\n\n 이 연구는 경남 함양 방언의 문법 형태로는 어떤 형태들이 쓰였는지 알아\n보고1), 또 이 문법 형태가 표준어의 영향으로 어떻게 변화되고 있는가를 연\n구한 것이다. 함양 방언에 대한 조사는 2014년 7월 22일부터 24일까지 함양\n군 서하면 신기 마을, 오현 마을에서 이루어졌다. 조사자는 논자를 비롯한\n진주교대 국어과 학생 임현빈, 이성환, 이해솔, 유동혁, 진희진, 김주연이다.\n문법 형태에 대한 조사지는 국립국어원 지역어조사추진위원회(2006)에 바탕\n을 두고, 이를 조금 보완한 조사지로서 류성기(2013)에서 사용한 조사지를\n\n\n 1) 방언의 문법 형태를 조사할 때에는 각 문법 형태의 모습을 조사하는 데 충실하\n    려고 하였기 때문에 방언 제보자에게 최대한 이 지역 방언 형태가 무엇인 지를\n    알아내려고 하였다.\n\n\n                      - 57 -",
+      "kind": "source_statement"
+    },
+    {
+      "id": "RYU2014-B005-E004",
+      "source_id": "RYU2014",
+      "pdf_pages": [
+        4
+      ],
+      "locator": "PDF 4 / 학술지 58쪽, 본문·표·각주 전체 문맥; 세부 위치는 assertion.content.source_locator",
+      "excerpt": "배 달 말(55)\n\n\n활용하였다. 제보자는 다음과 같다.\n\n\n  1) 주 제보자\n     (1) 이름: 신종렬 성별(남)    (88)세 학력(국민학교)\n         출생지: 함양군 서하면     생활지: 서하면 오현 마을\n     (2) 이름: 송정순 성별(여)    (79)세 학력(무)\n         출생지: 함양군 백전면     생활지: 서하면신기 마을\n     (3) 이름: 강창의 성별(남)    (80)세 학력(무)\n         출생지: 함양군 서하면     생활지: 서하면 오현 마을\n  2) 보조 제보자\n     (1) 이름: 전영순 성별(여)     (87)세   학력(무)   거주지: 신기 마을\n    (2) 이름: 박두리 성별(여)      (84)세   학력(무)   거주지: 신기 마을\n    (3) 이름: 탁도순 성별(여)      (80)세   학력(무)   거주지: 신기 마을\n\n\n 위와 같은 대상자를 조사한 문법 형태는 현재에 잘 사용되지 않은 형태도\n있다. 그래서 이 문법 형태들의 사용 정도를 알아보기 위해 함양읍에 살고\n있는 60대 중반 이상의 사람과 또 이와 50년 이상 차이가 나는 10대 초반의\n어린이들에게 사용 정도를 조사하였다. 그래서 이 방언 형태 사용 정도의\n변화를 바탕으로 하여 방언 문법 형태가 표준어의 간섭으로 어떻게 변화되\n어 가고 있는지를 알아보았다2). 60대 중반의 확인자는 현재 봉강 3리 이장\n권경점 씨다. 그는 이장으로서 여러 사람들을 만나 대화하는 사람으로서 그\n지역 사람들의 함양 방언 사용 정도를 잘 알고 있었다. 10대 초반 확인자는\n초등학생들이다. 인적 사항은 다음과 같다3).\n\n\n  1) (60대 중반 이후) 방언 사용 확인 조사 대상자\n\n 2) 심사자 B, C가 언급한 바처럼 유럽 사회 방언학 연구에서처럼 ‘현장 시간(apparent\n    time)’ 사 방법으로 한 세대(20-30년) 차이로 2-3세대 정도 조사할 필요성이 있\n    겠다. 그리고 10대, 60대 모두 다수의 대상자를 대상으로 하는 것이 바람직할\n    것이라 본다.\n 3) 이들에게 표준어의 간섭에 의한 방언 사용 정도의 조사는 비교적 자연스럽게\n    이해하는 수준에서 조사하였다. 그리하여 일상생활에서 자연스럽게 쓰는 정도\n    를 알아보려고 하였다.\n\n\n                         - 58 -",
+      "kind": "source_statement"
+    },
+    {
+      "id": "RYU2014-B005-E005",
+      "source_id": "RYU2014",
+      "pdf_pages": [
+        5
+      ],
+      "locator": "PDF 5 / 학술지 59쪽, 본문·표·각주 전체 문맥; 세부 위치는 assertion.content.source_locator",
+      "excerpt": "표준어 간섭 및 방언에 대한 의식으로 인한 경남 함양 방언 문법 형태의 변화 연구\n\n\n    (1) 제1 대상자   성별(여)   (65)세    이름: 권경점   학력(고졸)\n         출생지: 함양읍    생활지: 함양읍       현 생활지: 함양읍\n         함께 살고 있는 가족: 혼자\n  2) (10대 초반) 방언 사용 확인 조사 대상자:\n     (1) 제1 대상자   성별(남)  ( 12)세 이름: 강민성 학력(초등 5년)\n        출생지: 함양읍    생활지: 함양읍     현 생활지: 함양읍\n        함께 살고 있는 가족: 부모(함양 거주)\n    (2) 제2 대상자 성별(남) ( 12)세 이름: 권찬희 학력(초등 5년)\n        출생지: 함양읍    생활지: 함양읍     현 생활지: 함양읍\n        함께 살고 있는 가족: 부모(함양 거주)\n\n\n 이 함양 방언에 대한 논의에서는 함양 방언의 문법 형태를 표준어와 비교\n하여 표로 나타내겠으며, 또 표준어의 간섭 현상으로 변화된 양상은 표준어\n와 방언 사이에 칸을 두어 방언 사용 정도를 ‘%’ 비율로 표시할 것이다.4)\n만약 사용 세대가 바뀌거나 다른 사유에 의해서 방언형이 표준어나 다른 방\n언으로 바뀐 것이 있으면 방언 칸에 괄호를 써서 나타내겠다. 그리고 본고는\n문법 형태에 대한 것이므로 성조 표시나 음장 표시는 특별한 경우를 제외하\n고는 제시하지 않겠다.\n 방언 사용에 대한 함양 사람들의 의식을 알기 위해 함양읍에 살기 위한\n60대 중반 이후의 사람들과 10대 초반의 초등학생들의 표준어와 방언에 대\n한 의식을 조사하였다. 그리하여 그들이 표준어와 방언에 대한 어떤 생각을\n가지고 있으며, 그를 통하여 그들의 언어가 어떤 영향을 받았을 지에 대한\n생각을 논해 보기로 하겠다.\n 지금까지 함양 방언의 문법 형태에 대한 체계적인 연구는 이루어지지 않\n았다. 강대갑(1985)는 함양 방언의 용언 접속어미에 대한 연구를 하였고, 강\n대갑(1998)에서는 함양 방언이 전북 방언, 경북 방언, 경남 방언, 전남 방언의\n영향을 받고 있다는 논의를 하였다. 그러나 문법 형태 전반에 대한 총체적인\n연구가 필요하다. 김정대 외(2010)에서 경남 지역어의 어휘, 음운, 문법에\n\n 4) 방언 사용 정도를 10%라 했다면 90%는 표준어를 사용하는 것이고, 0%라 했다\n    면 표준어를 100% 사용하는 것이다. 표준어와 방언의 형태가 같은 것의 사용\n    정도는 빈칸으로 두었다.\n\n\n                         - 59 -",
+      "kind": "source_statement"
+    },
+    {
+      "id": "RYU2014-B005-E024",
+      "source_id": "RYU2014",
+      "pdf_pages": [
+        24
+      ],
+      "locator": "PDF 24 / 학술지 78쪽, 본문·표·각주 전체 문맥; 세부 위치는 assertion.content.source_locator",
+      "excerpt": "배 달 말(55)\n\n\n당위, 시인’ 등 그 수가 많다. 함양 방언에서는 진행을 나타내는 보조동사는\n‘(-고) 있다’, 종결은 ‘(-어) 삐다, (-고) 나다, 고 말다’, 봉사는 ‘(-어) 주다’,\n시행은 ‘(-어) 보다’, 보유는 ‘(-어) 놓다’, 사동은 ‘(-게) 맨들다’, 피동은 ‘(-어)\n지다, (-게) 되다’, 부정은 ‘(-지) 마라’, 강세는 ‘(-어) 싸다’, 짐작은 ‘(-어) 보\n이다’, 당위는 ‘(-어야) 한다’, 시인은 ‘(-기는) 하다’ 등이 쓰인다.\n 이러한 보조동사 형태 사용의 변화는 ‘-어 삐다’와 같은 형태가 표준어 형\n태와 같은 ‘-어 버리다’로 변해가고, ‘-고 나다, -게 맨들다, -어 싸다’와 같은\n형태가 안 쓰이거나 거의 안 쓰이게 되기도 하였지만, 진행의 ‘-어 가다, -어\n오다’, 종결의 ‘-어 내다’, 보유의 ‘-어 갖고’, 부정의 ‘-지 못-’과 같은 형태의\n보조동사는 원래 방언형에서는 안 쓰였으나 60대, 10대에서 활발하게 사용\n되는 형태로 등장하였다.\n\n\n                                방언 사용\n                표준어                                  방언\n구분                               비율\n            예           형태      60대 10대    형태             예\n     청소를 다 해 간다.      (-어) 가다 (100) (100) .(-어 가다) .(청소 다 했다.)\n진행 날씨가 점점 추워 온다.      (-어) 오다 (100) (15) .(-어 오다)         .\n     편지를 쓰고 있다.       (-고) 있다             (-고) 있다 놀고 있다.\n     길을 잃어 버렸다.       (어) 버리다    5    0   (-어) 삐다 이자 뿠다.\n                                                     밥을 묵고 나서\n     밥을 먹고 나서 갔다.     (-고) 나다         x   (-고) 나다\n                                                     갔다.\n종결                                                   .(문제를\n     드디어 문제를 풀어 냈다. (-어) 내다 (30)     (70) .(-어 내다)\n                                                     풀었다.)\n                                                     농사짓고\n     그 일을 하고야 말겠다.    (-야) 말다             (-고) 말다\n                                                     말란다.\n봉사 꽃을 만들어 주었다.        (-어) 주다             (-어) 주다 맨들어 줬다.\n시행 안 오는가 보다.          (-어) 보다             (-어) 보다 안 오는 가 배.\n                                                     .(책상에 얹어\n보유 책을 책상에 얹어 두었다. (-어) 두다                    .\n                                                     놨다.)\n\n\n\n\n                         - 78 -",
+      "kind": "source_statement"
+    },
+    {
+      "id": "RYU2014-B005-E025",
+      "source_id": "RYU2014",
+      "pdf_pages": [
+        25
+      ],
+      "locator": "PDF 25 / 학술지 79쪽, 본문·표·각주 전체 문맥; 세부 위치는 assertion.content.source_locator",
+      "excerpt": "표준어 간섭 및 방언에 대한 의식으로 인한 경남 함양 방언 문법 형태의 변화 연구\n\n\n                                                       책상에 얹어\n     책을 책상에 얹어 놓았다. (-어) 놓다                  (-어) 놓다\n                                                       놨다.\n보유\n                       (-어)                            .(책을 읽고\n     책을 읽어 가지고 와라.             (100) (100) .(-어 갖고)\n                      가지다                              온다.)\n                                                       .(누를 가라\n     누구를 가게 하느냐?     (-게) 하다                    .\n                                                       카나?)\n사동\n                       (-게)                    (-게)    일이 잘 되게\n     일이 잘 되게 만들었다.                     x\n                      만들다                     맨들다      만들었다.\n     종이가 잘 접혀 진다.    (-어) 지다                 (-어) 지다 점점 덥어 진다.\n피동\n     나도 가게 되었다.      (-게) 되다                 (-게) 되다 나도 가게 됐다.\n                      (-지)\n     나는 가지 않는다.                                 .      .(나는 안 간다.)\n                     아니하다\n부정 울지 말아라            (-지) 말다                 (-지) 마라 울지 마.\n                       (-지)\n     너는 오지 못한다.                (90)   (70)   .(-지 못-) .(너는 못 온다.)\n                      못하다\n                                                     낮에 사온\n   낮에 사온 강아지가 울어 (-어) 대다\n강세                             100     5     (-어) 싸다 강새이가 울어\n   댄다.\n                                                     쌌는다.\n                       (-어)                    (-어)\n짐작 기분이 좋아 보인다.                                         좋아 비네.\n                      보이다                     보이다\n                      (-어야)                   (-어야)    약을 꼭 무야\n당위 약을 꼭 먹어야 한다.\n                       한다                      한다      한다.\n                      (-기)는                   (-기)는    밥을 묵기는\n시인 밥을 먹기는 했다.\n                       하다                       하다     했다.\n\n\n\n 2.8.2. 보조 형용사\n\n 함양 방언에 쓰이는 보조형용사에는 희망 보조형용사 ‘(-고) 싶다’, 추측\n보조형용사 ‘(-ㄴ가) 보다’, 상태 보조형용사 ‘(-어) 있다’가 쓰인다. 그런데\n원래 방언형에 없던 부정 보조 형용사 ‘-지 않-, -지 못하-’ 형태가 60대와\n10대 모두에 쓰여 점점 표준화되어 가고 있음을 알 수 있다. 10대에서는 ‘-지\n못하다’와 같은 형태가 안 쓰인 점도 있으나 어휘 사용의 양이 적은 관계일\n\n\n\n\n                        - 79 -",
+      "kind": "source_statement"
+    },
+    {
+      "id": "RYU2014-B005-E026",
+      "source_id": "RYU2014",
+      "pdf_pages": [
+        26
+      ],
+      "locator": "PDF 26 / 학술지 80쪽, 본문·표·각주 전체 문맥; 세부 위치는 assertion.content.source_locator",
+      "excerpt": "배 달 말(55)\n\n\n수도 있다. 추측의 ‘(-는가, -나, -ㄹ까) 싶다’ 보조 형용사는 여전히 안 쓰이고\n있다.\n\n\n                                   방언 사용\n 구               표준어                                  방언\n                                    비율\n 분\n             예           형태        60대 10대     형태             예\n희망 집에 가고 싶다.           (-고) 싶다               (-고) 싶다 집에 가고 싶다.\n      날씨가 덥지 않다.       (-지) 않다 (100) (50)    .(-지 않다) .(날씨가 안 덥다.)\n부정 살림이 넉넉하지                                    .(-지   .(살림이 안\n                       (-지) 못하다 (100) (x)\n      못하다.                                    못하다)    넉넉하다.)\n                       (- 가/는가,\n      저 것이 학교인가 보다                           (- 가) 보다 저게 학굔갑다.\n                         -나) 보다\n추측\n                        -는가, -나,\n      이제 가는가 싶다                     x   x       .     .(이제 가는 갑다.)\n                       - 까) 싶다\n상태 여기에 앉아 있어라.         (-어) 있다               (-어) 있다 여 앉아 있어라.\n시인 크기는 하다.             (-기는) 하다                 .     .(크다)\n\n\n\n\n 2.9. 부사\n\n 함양 방언에서 쓰이는 부사 중 특징적인 것은 ‘마이, 쪼께만, 한거석, 제와/\n보도시, 절로, 까딱하면/꺼떡하면, 백지, 쪽바로’ 등이다. 이러한 형태들은\n후세대로 오면서 방언 사용 비율이 점차 약화되어 가고 있다. 그리고 ‘꺼떡\n하면, 쪽바로, 가마이’는 10대에서도 활발하게 사용되는데, 이 외에는 표준어\n형태를 쓰는 비율이 후세대로 오면서 늘어나거나 표준어만 쓰는 경우도 있\n게 되었다. 방언형에 없던 ‘그냥, 매우’ 부사는 60대 및 10대에서 100% 사용\n되는 것을 알 수 있다. 전체적으로 볼 때 표준어는 없어지지 않고 사용되고\n있는데, 방언 형태는 소수의 부사를 제외하고는 사용빈도가 약화되거나 안\n쓰이게 되었다.\n\n\n\n\n                              - 80 -",
+      "kind": "source_statement"
+    }
+  ],
+  "claims": [
+    {
+      "id": "RYU2014-B005-C001",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "사동",
+        "파생"
+      ],
+      "source_terms": [
+        "사동접미사와 조사 예"
+      ],
+      "target_refs": [
+        "RYU2014-B005-C001.usage"
+      ],
+      "assertions": [
+        {
+          "id": "RYU2014-B005-C001.a",
+          "kind": "scoped_inventory",
+          "target_refs": [
+            "RYU2014-B005-C001.usage"
+          ],
+          "content": {
+            "source_locator": "§2.7.1 사동접미사 전체 표",
+            "source_analysis": "논문은 -이-/-이우-/-기-/-히-/-리-/-우-/-구-/-추-/-애-를 사동접미사로 분석하고 표준어와 같다고 한다. 표의 각 예에 붙인 접미사 분석이며 모든 동사에 붙이는 생산적 선택 규칙이 아니다. 세운다의 -이우- 역시 저자 분석으로 보존한다.",
+            "extractor_interpretation": "원문 분류와 형태를 해당 용법에 한정해 기록. 표 예문은 전체 예증이며 미제시 결합·표준어 대응을 추론하지 않음.",
+            "generation_policy": "초안 검토 대상. 조사 사용비율을 선택 확률로 쓰지 않으며 지역·세대 밖으로 자동 확대하지 않음.",
+            "operational_status": "draft_not_approved",
+            "construction_rows": [
+              {
+                "usage": "먹인다 사동",
+                "ending": "-이-",
+                "surface": "엄마가 아한테 젖 먹인다.",
+                "hold": null,
+                "layer": "whole_source_example"
+              },
+              {
+                "usage": "세운다 사동",
+                "ending": "-이우-",
+                "surface": "운전수 차 세운다.",
+                "hold": null,
+                "layer": "whole_source_example"
+              },
+              {
+                "usage": "웃기네 사동",
+                "ending": "-기-",
+                "surface": "네가 나를 웃기네.",
+                "hold": null,
+                "layer": "whole_source_example"
+              },
+              {
+                "usage": "입히라 사동",
+                "ending": "-히-",
+                "surface": "아한테 옷 입히라.",
+                "hold": null,
+                "layer": "whole_source_example"
+              },
+              {
+                "usage": "살랴라 사동",
+                "ending": "-리-",
+                "surface": "그 나무를 잘 살랴라.",
+                "hold": null,
+                "layer": "whole_source_example"
+              },
+              {
+                "usage": "깨아라 사동",
+                "ending": "-우-",
+                "surface": "잠 깨아라",
+                "hold": null,
+                "layer": "whole_source_example"
+              },
+              {
+                "usage": "돋가라 사동",
+                "ending": "-구-",
+                "surface": "입맛을 돋가라.",
+                "hold": null,
+                "layer": "whole_source_example"
+              },
+              {
+                "usage": "낮차라 사동",
+                "ending": "-추-",
+                "surface": "낮차라",
+                "hold": null,
+                "layer": "whole_source_example"
+              },
+              {
+                "usage": "없애 사동",
+                "ending": "-애-",
+                "surface": "없애버려라.",
+                "hold": null,
+                "layer": "whole_source_example"
+              }
+            ],
+            "analysis_attribution": "접미사 지정은 출처의 분석; 어근·파생 어간 자동 복원 없음"
+          },
+          "condition": {
+            "op": "eq",
+            "target": "RYU2014-B005-C001.usage",
+            "feature": "source_derivation",
+            "value": "사동"
+          }
+        }
+      ],
+      "evidence_refs": [
+        "RYU2014-B005-E022",
+        "RYU2014-B005-E023"
+      ],
+      "annotations": [
+        {
+          "id": "RYU2014-B005-C001.region",
+          "dimension": "region",
+          "value": {
+            "raw": "경남 함양군 서하면 신기·오현 마을 문법형 조사 / 함양읍 사용 확인",
+            "exclusive_to_region": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C001.utterance_period",
+          "dimension": "utterance_period",
+          "value": {
+            "survey_period": "2014년 7월 22~24일 문법형 현지 조사",
+            "publication_year": 2014,
+            "individual_example_utterance_date": null,
+            "usage_confirmation_date": "2014년 조사 맥락; 별도 일자 미제시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C001.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "method": "조사지에 의한 형태 조사와 별도의 세대 사용 확인",
+            "grammar_informants": "79~88세 주·보조 제보자 6명",
+            "usage_confirmants": "65세 1명·12세 2명; 의식 조사 표본과 다름",
+            "source_notation": "괄호: 사용 확인 때 출현; x: 양쪽 형태 미사용; 빈 비율: 동일형",
+            "example_status": "논문 제시 예; 개별 자연발화 일시 미확보"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 화자의 자연스러움·문헌 정답 미검증",
+        "미제시 결합 환경과 지역 배타성 미확보"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C002",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "사동",
+        "형태음운",
+        "종결어미"
+      ],
+      "source_terms": [
+        "우·구·추 사동의 아라 결합"
+      ],
+      "target_refs": [
+        "RYU2014-B005-C002.usage"
+      ],
+      "assertions": [
+        {
+          "id": "RYU2014-B005-C002.a",
+          "kind": "scoped_inventory",
+          "target_refs": [
+            "RYU2014-B005-C002.usage"
+          ],
+          "content": {
+            "source_locator": "§2.7.1 본문 명령 결합 축약",
+            "source_analysis": "논문은 -우-/-구-/-추-가 명령형 -아라와 결합해 깨아라·돋가라·낮차라로 축약된다고 명시한다. 이 세 형태의 결합 관계만 기록하고 같은 접미사의 모든 어휘에 자동 확대하지 않는다.",
+            "extractor_interpretation": "원문 분류와 형태를 해당 용법에 한정해 기록. 표 예문은 전체 예증이며 미제시 결합·표준어 대응을 추론하지 않음.",
+            "generation_policy": "초안 검토 대상. 조사 사용비율을 선택 확률로 쓰지 않으며 지역·세대 밖으로 자동 확대하지 않음.",
+            "operational_status": "draft_not_approved",
+            "source_examples": [
+              {
+                "text": "깨아라",
+                "judgment": "source_attestation_not_acceptability_test"
+              },
+              {
+                "text": "돋가라",
+                "judgment": "source_attestation_not_acceptability_test"
+              },
+              {
+                "text": "낮차라",
+                "judgment": "source_attestation_not_acceptability_test"
+              }
+            ],
+            "source_derivations": [
+              {
+                "usage": "깨아라 사동 명령",
+                "suffix": "-우-",
+                "ending": "-아라",
+                "surface": "깨아라"
+              },
+              {
+                "usage": "돋가라 사동 명령",
+                "suffix": "-구-",
+                "ending": "-아라",
+                "surface": "돋가라"
+              },
+              {
+                "usage": "낮차라 사동 명령",
+                "suffix": "-추-",
+                "ending": "-아라",
+                "surface": "낮차라"
+              }
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "RYU2014-B005-C002.usage",
+                "feature": "derivation",
+                "value": "사동"
+              },
+              {
+                "op": "eq",
+                "target": "RYU2014-B005-C002.usage",
+                "feature": "following_ending",
+                "value": "-아라"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "RYU2014-B005-E022",
+        "RYU2014-B005-E023"
+      ],
+      "annotations": [
+        {
+          "id": "RYU2014-B005-C002.region",
+          "dimension": "region",
+          "value": {
+            "raw": "경남 함양군 서하면 신기·오현 마을 문법형 조사 / 함양읍 사용 확인",
+            "exclusive_to_region": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C002.utterance_period",
+          "dimension": "utterance_period",
+          "value": {
+            "survey_period": "2014년 7월 22~24일 문법형 현지 조사",
+            "publication_year": 2014,
+            "individual_example_utterance_date": null,
+            "usage_confirmation_date": "2014년 조사 맥락; 별도 일자 미제시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C002.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "method": "조사지에 의한 형태 조사와 별도의 세대 사용 확인",
+            "grammar_informants": "79~88세 주·보조 제보자 6명",
+            "usage_confirmants": "65세 1명·12세 2명; 의식 조사 표본과 다름",
+            "source_notation": "괄호: 사용 확인 때 출현; x: 양쪽 형태 미사용; 빈 비율: 동일형",
+            "example_status": "논문 제시 예; 개별 자연발화 일시 미확보"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [
+        {
+          "type": "qualifies",
+          "target": "RYU2014-B005-C001",
+          "basis": "source_statement",
+          "evidence_refs": [
+            "RYU2014-B005-E022",
+            "RYU2014-B005-E023"
+          ]
+        }
+      ],
+      "gaps": [
+        "현대 화자의 자연스러움·문헌 정답 미검증",
+        "미제시 결합 환경과 지역 배타성 미확보"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C003",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "피동",
+        "파생"
+      ],
+      "source_terms": [
+        "피동접미사와 조사 예"
+      ],
+      "target_refs": [
+        "RYU2014-B005-C003.usage"
+      ],
+      "assertions": [
+        {
+          "id": "RYU2014-B005-C003.a",
+          "kind": "scoped_inventory",
+          "target_refs": [
+            "RYU2014-B005-C003.usage"
+          ],
+          "content": {
+            "source_locator": "§2.7.2 피동접미사 표",
+            "source_analysis": "-이-/-기-/-히-/-리-의 피동접미사를 보고한다. -히- 행 표준어 예는 문이 닫혔다, 방언 예는 애기가 업힜다로 다른 술어이다. 문장 전체 대응 번역 쌍으로 보지 않는다.",
+            "extractor_interpretation": "원문 분류와 형태를 해당 용법에 한정해 기록. 표 예문은 전체 예증이며 미제시 결합·표준어 대응을 추론하지 않음.",
+            "generation_policy": "초안 검토 대상. 조사 사용비율을 선택 확률로 쓰지 않으며 지역·세대 밖으로 자동 확대하지 않음.",
+            "operational_status": "draft_not_approved",
+            "construction_rows": [
+              {
+                "usage": "빈다 피동",
+                "ending": "-이-",
+                "surface": "머리카락 빈다.",
+                "hold": null,
+                "layer": "whole_source_example"
+              },
+              {
+                "usage": "끊깄다 피동",
+                "ending": "-기-",
+                "surface": "소식 끊깄다.",
+                "hold": null,
+                "layer": "whole_source_example"
+              },
+              {
+                "usage": "업힜다 피동",
+                "ending": "-히-",
+                "surface": "애기가 업힜다.",
+                "hold": null,
+                "layer": "whole_source_example"
+              },
+              {
+                "usage": "들린다 피동",
+                "ending": "-리-",
+                "surface": "새 소리 들린다.",
+                "hold": null,
+                "layer": "whole_source_example"
+              }
+            ],
+            "source_paired_example_caveat": "닫혔다→업힜다 어휘 치환 규칙 생성 금지"
+          },
+          "condition": {
+            "op": "eq",
+            "target": "RYU2014-B005-C003.usage",
+            "feature": "source_derivation",
+            "value": "피동"
+          }
+        }
+      ],
+      "evidence_refs": [
+        "RYU2014-B005-E023"
+      ],
+      "annotations": [
+        {
+          "id": "RYU2014-B005-C003.region",
+          "dimension": "region",
+          "value": {
+            "raw": "경남 함양군 서하면 신기·오현 마을 문법형 조사 / 함양읍 사용 확인",
+            "exclusive_to_region": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C003.utterance_period",
+          "dimension": "utterance_period",
+          "value": {
+            "survey_period": "2014년 7월 22~24일 문법형 현지 조사",
+            "publication_year": 2014,
+            "individual_example_utterance_date": null,
+            "usage_confirmation_date": "2014년 조사 맥락; 별도 일자 미제시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C003.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "method": "조사지에 의한 형태 조사와 별도의 세대 사용 확인",
+            "grammar_informants": "79~88세 주·보조 제보자 6명",
+            "usage_confirmants": "65세 1명·12세 2명; 의식 조사 표본과 다름",
+            "source_notation": "괄호: 사용 확인 때 출현; x: 양쪽 형태 미사용; 빈 비율: 동일형",
+            "example_status": "논문 제시 예; 개별 자연발화 일시 미확보"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 화자의 자연스러움·문헌 정답 미검증",
+        "미제시 결합 환경과 지역 배타성 미확보"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C004",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "보조용언",
+        "상"
+      ],
+      "source_terms": [
+        "고 있다 진행"
+      ],
+      "target_refs": [
+        "RYU2014-B005-C004.usage"
+      ],
+      "assertions": [
+        {
+          "id": "RYU2014-B005-C004.a",
+          "kind": "scoped_inventory",
+          "target_refs": [
+            "RYU2014-B005-C004.usage"
+          ],
+          "content": {
+            "source_locator": "§2.8.1 진행 있다",
+            "source_analysis": "질문지 범위에서 진행 보조동사 (-고) 있다를 제시하고 놀고 있다를 예로 든다. -어 가다/-어 오다는 원 형태 없이 사용 확인에 출현한 별도 행이다.",
+            "extractor_interpretation": "원문 분류와 형태를 해당 용법에 한정해 기록. 표 예문은 전체 예증이며 미제시 결합·표준어 대응을 추론하지 않음.",
+            "generation_policy": "초안 검토 대상. 조사 사용비율을 선택 확률로 쓰지 않으며 지역·세대 밖으로 자동 확대하지 않음.",
+            "operational_status": "draft_not_approved",
+            "construction_rows": [
+              {
+                "usage": "진행",
+                "ending": "(-고) 있다",
+                "surface": "놀고 있다.",
+                "hold": null,
+                "layer": "whole_source_example"
+              }
+            ]
+          },
+          "condition": {
+            "op": "eq",
+            "target": "RYU2014-B005-C004.usage",
+            "feature": "source_auxiliary_function",
+            "value": "진행"
+          }
+        }
+      ],
+      "evidence_refs": [
+        "RYU2014-B005-E023",
+        "RYU2014-B005-E024"
+      ],
+      "annotations": [
+        {
+          "id": "RYU2014-B005-C004.region",
+          "dimension": "region",
+          "value": {
+            "raw": "경남 함양군 서하면 신기·오현 마을 문법형 조사 / 함양읍 사용 확인",
+            "exclusive_to_region": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C004.utterance_period",
+          "dimension": "utterance_period",
+          "value": {
+            "survey_period": "2014년 7월 22~24일 문법형 현지 조사",
+            "publication_year": 2014,
+            "individual_example_utterance_date": null,
+            "usage_confirmation_date": "2014년 조사 맥락; 별도 일자 미제시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C004.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "method": "조사지에 의한 형태 조사와 별도의 세대 사용 확인",
+            "grammar_informants": "79~88세 주·보조 제보자 6명",
+            "usage_confirmants": "65세 1명·12세 2명; 의식 조사 표본과 다름",
+            "source_notation": "괄호: 사용 확인 때 출현; x: 양쪽 형태 미사용; 빈 비율: 동일형",
+            "example_status": "논문 제시 예; 개별 자연발화 일시 미확보"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 화자의 자연스러움·문헌 정답 미검증",
+        "미제시 결합 환경과 지역 배타성 미확보"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C005",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "보조용언",
+        "상"
+      ],
+      "source_terms": [
+        "종결 보조동사"
+      ],
+      "target_refs": [
+        "RYU2014-B005-C005.usage"
+      ],
+      "assertions": [
+        {
+          "id": "RYU2014-B005-C005.a",
+          "kind": "scoped_inventory",
+          "target_refs": [
+            "RYU2014-B005-C005.usage"
+          ],
+          "content": {
+            "source_locator": "§2.8.1 종결 삐다·나다·말다",
+            "source_analysis": "종결 기능에 (-어) 삐다, (-고) 나다, (-고) 말다를 제시한다. 삐다의 이자 뿠다, 나다의 밥을 묵고 나서 갔다, 말다의 농사짓고 말란다를 보존한다. 표준어 (-야) 말다와 대응하더라도 모든 -고를 -야와 교체하지 않는다.",
+            "extractor_interpretation": "원문 분류와 형태를 해당 용법에 한정해 기록. 표 예문은 전체 예증이며 미제시 결합·표준어 대응을 추론하지 않음.",
+            "generation_policy": "초안 검토 대상. 조사 사용비율을 선택 확률로 쓰지 않으며 지역·세대 밖으로 자동 확대하지 않음.",
+            "operational_status": "draft_not_approved",
+            "construction_rows": [
+              {
+                "usage": "종결 삐다",
+                "ending": "(-어) 삐다",
+                "surface": "이자 뿠다.",
+                "hold": null,
+                "layer": "whole_source_example"
+              },
+              {
+                "usage": "종결 나다",
+                "ending": "(-고) 나다",
+                "surface": "밥을 묵고 나서 갔다.",
+                "hold": null,
+                "layer": "whole_source_example"
+              },
+              {
+                "usage": "종결 말다",
+                "ending": "(-고) 말다",
+                "surface": "농사짓고 말란다.",
+                "hold": null,
+                "layer": "whole_source_example"
+              }
+            ]
+          },
+          "condition": {
+            "op": "eq",
+            "target": "RYU2014-B005-C005.usage",
+            "feature": "source_auxiliary_function",
+            "value": "종결"
+          }
+        }
+      ],
+      "evidence_refs": [
+        "RYU2014-B005-E024"
+      ],
+      "annotations": [
+        {
+          "id": "RYU2014-B005-C005.region",
+          "dimension": "region",
+          "value": {
+            "raw": "경남 함양군 서하면 신기·오현 마을 문법형 조사 / 함양읍 사용 확인",
+            "exclusive_to_region": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C005.utterance_period",
+          "dimension": "utterance_period",
+          "value": {
+            "survey_period": "2014년 7월 22~24일 문법형 현지 조사",
+            "publication_year": 2014,
+            "individual_example_utterance_date": null,
+            "usage_confirmation_date": "2014년 조사 맥락; 별도 일자 미제시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C005.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "method": "조사지에 의한 형태 조사와 별도의 세대 사용 확인",
+            "grammar_informants": "79~88세 주·보조 제보자 6명",
+            "usage_confirmants": "65세 1명·12세 2명; 의식 조사 표본과 다름",
+            "source_notation": "괄호: 사용 확인 때 출현; x: 양쪽 형태 미사용; 빈 비율: 동일형",
+            "example_status": "논문 제시 예; 개별 자연발화 일시 미확보"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 화자의 자연스러움·문헌 정답 미검증",
+        "미제시 결합 환경과 지역 배타성 미확보"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C006",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "보조용언"
+      ],
+      "source_terms": [
+        "어 주다 봉사"
+      ],
+      "target_refs": [
+        "RYU2014-B005-C006.usage"
+      ],
+      "assertions": [
+        {
+          "id": "RYU2014-B005-C006.a",
+          "kind": "scoped_inventory",
+          "target_refs": [
+            "RYU2014-B005-C006.usage"
+          ],
+          "content": {
+            "source_locator": "§2.8.1 봉사",
+            "source_analysis": "봉사 보조동사 (-어) 주다와 맨들어 줬다를 제시한다. 수혜자 높임이나 드리다와의 교체 조건은 제시되지 않는다.",
+            "extractor_interpretation": "원문 분류와 형태를 해당 용법에 한정해 기록. 표 예문은 전체 예증이며 미제시 결합·표준어 대응을 추론하지 않음.",
+            "generation_policy": "초안 검토 대상. 조사 사용비율을 선택 확률로 쓰지 않으며 지역·세대 밖으로 자동 확대하지 않음.",
+            "operational_status": "draft_not_approved",
+            "construction_rows": [
+              {
+                "usage": "봉사",
+                "ending": "(-어) 주다",
+                "surface": "맨들어 줬다.",
+                "hold": null,
+                "layer": "whole_source_example"
+              }
+            ]
+          },
+          "condition": {
+            "op": "eq",
+            "target": "RYU2014-B005-C006.usage",
+            "feature": "source_auxiliary_function",
+            "value": "봉사"
+          }
+        }
+      ],
+      "evidence_refs": [
+        "RYU2014-B005-E024"
+      ],
+      "annotations": [
+        {
+          "id": "RYU2014-B005-C006.region",
+          "dimension": "region",
+          "value": {
+            "raw": "경남 함양군 서하면 신기·오현 마을 문법형 조사 / 함양읍 사용 확인",
+            "exclusive_to_region": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C006.utterance_period",
+          "dimension": "utterance_period",
+          "value": {
+            "survey_period": "2014년 7월 22~24일 문법형 현지 조사",
+            "publication_year": 2014,
+            "individual_example_utterance_date": null,
+            "usage_confirmation_date": "2014년 조사 맥락; 별도 일자 미제시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C006.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "method": "조사지에 의한 형태 조사와 별도의 세대 사용 확인",
+            "grammar_informants": "79~88세 주·보조 제보자 6명",
+            "usage_confirmants": "65세 1명·12세 2명; 의식 조사 표본과 다름",
+            "source_notation": "괄호: 사용 확인 때 출현; x: 양쪽 형태 미사용; 빈 비율: 동일형",
+            "example_status": "논문 제시 예; 개별 자연발화 일시 미확보"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 화자의 자연스러움·문헌 정답 미검증",
+        "미제시 결합 환경과 지역 배타성 미확보"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C007",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "보조용언"
+      ],
+      "source_terms": [
+        "시행 보다 분류와 추측형 예"
+      ],
+      "target_refs": [
+        "RYU2014-B005-C007.usage"
+      ],
+      "assertions": [
+        {
+          "id": "RYU2014-B005-C007.a",
+          "kind": "scoped_inventory",
+          "target_refs": [
+            "RYU2014-B005-C007.usage"
+          ],
+          "content": {
+            "source_locator": "§2.8.1 시행 보다 행",
+            "source_analysis": "표는 시행 (-어) 보다로 분류하면서 표준어 예 안 오는가 보다, 방언 예 안 오는 가 배를 둔다. -어 보다 시행 구성의 실현형이라고 자동 연결하지 않는다.",
+            "extractor_interpretation": "원문 분류와 형태를 해당 용법에 한정해 기록. 표 예문은 전체 예증이며 미제시 결합·표준어 대응을 추론하지 않음.",
+            "generation_policy": "초안 검토 대상. 조사 사용비율을 선택 확률로 쓰지 않으며 지역·세대 밖으로 자동 확대하지 않음.",
+            "operational_status": "held",
+            "construction_rows": [
+              {
+                "usage": "원문 시행 분류",
+                "ending": "(-어) 보다",
+                "surface": "안 오는 가 배.",
+                "hold": "원 분류·예의 결합/의미 불일치",
+                "layer": "whole_source_example"
+              }
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "RYU2014-B005-E024"
+      ],
+      "annotations": [
+        {
+          "id": "RYU2014-B005-C007.region",
+          "dimension": "region",
+          "value": {
+            "raw": "경남 함양군 서하면 신기·오현 마을 문법형 조사 / 함양읍 사용 확인",
+            "exclusive_to_region": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C007.utterance_period",
+          "dimension": "utterance_period",
+          "value": {
+            "survey_period": "2014년 7월 22~24일 문법형 현지 조사",
+            "publication_year": 2014,
+            "individual_example_utterance_date": null,
+            "usage_confirmation_date": "2014년 조사 맥락; 별도 일자 미제시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C007.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "method": "조사지에 의한 형태 조사와 별도의 세대 사용 확인",
+            "grammar_informants": "79~88세 주·보조 제보자 6명",
+            "usage_confirmants": "65세 1명·12세 2명; 의식 조사 표본과 다름",
+            "source_notation": "괄호: 사용 확인 때 출현; x: 양쪽 형태 미사용; 빈 비율: 동일형",
+            "example_status": "논문 제시 예; 개별 자연발화 일시 미확보"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 화자의 자연스러움·문헌 정답 미검증",
+        "미제시 결합 환경과 지역 배타성 미확보",
+        "어미 도식 (-어) 보다와 예 안 오는 가 배의 분석/의미 불일치. §2.8.2 추측 보다와 자동 병합 보류."
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C008",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "보조용언"
+      ],
+      "source_terms": [
+        "어 놓다 보유"
+      ],
+      "target_refs": [
+        "RYU2014-B005-C008.usage"
+      ],
+      "assertions": [
+        {
+          "id": "RYU2014-B005-C008.a",
+          "kind": "scoped_inventory",
+          "target_refs": [
+            "RYU2014-B005-C008.usage"
+          ],
+          "content": {
+            "source_locator": "§2.8.1 보유 놓다·두다 행",
+            "source_analysis": "보유 (-어) 놓다와 책상에 얹어 놨다를 제시한다. (-어) 두다 행에는 원 형태가 점이고 같은 예가 괄호로 나타나므로 -두다를 방언형 목록에 자동 추가하지 않는다.",
+            "extractor_interpretation": "원문 분류와 형태를 해당 용법에 한정해 기록. 표 예문은 전체 예증이며 미제시 결합·표준어 대응을 추론하지 않음.",
+            "generation_policy": "초안 검토 대상. 조사 사용비율을 선택 확률로 쓰지 않으며 지역·세대 밖으로 자동 확대하지 않음.",
+            "operational_status": "draft_not_approved",
+            "construction_rows": [
+              {
+                "usage": "보유",
+                "ending": "(-어) 놓다",
+                "surface": "책상에 얹어 놨다.",
+                "hold": null,
+                "layer": "whole_source_example"
+              }
+            ],
+            "source_absent_row": "(-어) 두다; 방언 형태 점·괄호 예 책상에 얹어 놨다"
+          },
+          "condition": {
+            "op": "eq",
+            "target": "RYU2014-B005-C008.usage",
+            "feature": "source_auxiliary_function",
+            "value": "보유"
+          }
+        }
+      ],
+      "evidence_refs": [
+        "RYU2014-B005-E024",
+        "RYU2014-B005-E025"
+      ],
+      "annotations": [
+        {
+          "id": "RYU2014-B005-C008.region",
+          "dimension": "region",
+          "value": {
+            "raw": "경남 함양군 서하면 신기·오현 마을 문법형 조사 / 함양읍 사용 확인",
+            "exclusive_to_region": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C008.utterance_period",
+          "dimension": "utterance_period",
+          "value": {
+            "survey_period": "2014년 7월 22~24일 문법형 현지 조사",
+            "publication_year": 2014,
+            "individual_example_utterance_date": null,
+            "usage_confirmation_date": "2014년 조사 맥락; 별도 일자 미제시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C008.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "method": "조사지에 의한 형태 조사와 별도의 세대 사용 확인",
+            "grammar_informants": "79~88세 주·보조 제보자 6명",
+            "usage_confirmants": "65세 1명·12세 2명; 의식 조사 표본과 다름",
+            "source_notation": "괄호: 사용 확인 때 출현; x: 양쪽 형태 미사용; 빈 비율: 동일형",
+            "example_status": "논문 제시 예; 개별 자연발화 일시 미확보"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 화자의 자연스러움·문헌 정답 미검증",
+        "미제시 결합 환경과 지역 배타성 미확보"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C009",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "보조용언",
+        "사동"
+      ],
+      "source_terms": [
+        "게 맨들다 사동"
+      ],
+      "target_refs": [
+        "RYU2014-B005-C009.usage"
+      ],
+      "assertions": [
+        {
+          "id": "RYU2014-B005-C009.a",
+          "kind": "scoped_inventory",
+          "target_refs": [
+            "RYU2014-B005-C009.usage"
+          ],
+          "content": {
+            "source_locator": "§2.8.1 사동 맨들다·하다 행",
+            "source_analysis": "본문과 형태 칸은 (-게) 맨들다, 예는 일이 잘 되게 만들었다. (-게) 하다 행은 형태가 점이고 괄호 예 누를 가라 카나?를 제시한다.",
+            "extractor_interpretation": "원문 분류와 형태를 해당 용법에 한정해 기록. 표 예문은 전체 예증이며 미제시 결합·표준어 대응을 추론하지 않음.",
+            "generation_policy": "초안 검토 대상. 조사 사용비율을 선택 확률로 쓰지 않으며 지역·세대 밖으로 자동 확대하지 않음.",
+            "operational_status": "held",
+            "construction_rows": [
+              {
+                "usage": "사동",
+                "ending": "(-게) 맨들다",
+                "surface": "일이 잘 되게 만들었다.",
+                "hold": "형태 칸/예 표기 불일치",
+                "layer": "whole_source_example"
+              }
+            ],
+            "source_absent_row": {
+              "form": "(-게) 하다",
+              "example": "(누를 가라 카나?)"
+            }
+          },
+          "condition": {
+            "op": "eq",
+            "target": "RYU2014-B005-C009.usage",
+            "feature": "source_auxiliary_function",
+            "value": "사동"
+          }
+        }
+      ],
+      "evidence_refs": [
+        "RYU2014-B005-E024",
+        "RYU2014-B005-E025"
+      ],
+      "annotations": [
+        {
+          "id": "RYU2014-B005-C009.region",
+          "dimension": "region",
+          "value": {
+            "raw": "경남 함양군 서하면 신기·오현 마을 문법형 조사 / 함양읍 사용 확인",
+            "exclusive_to_region": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C009.utterance_period",
+          "dimension": "utterance_period",
+          "value": {
+            "survey_period": "2014년 7월 22~24일 문법형 현지 조사",
+            "publication_year": 2014,
+            "individual_example_utterance_date": null,
+            "usage_confirmation_date": "2014년 조사 맥락; 별도 일자 미제시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C009.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "method": "조사지에 의한 형태 조사와 별도의 세대 사용 확인",
+            "grammar_informants": "79~88세 주·보조 제보자 6명",
+            "usage_confirmants": "65세 1명·12세 2명; 의식 조사 표본과 다름",
+            "source_notation": "괄호: 사용 확인 때 출현; x: 양쪽 형태 미사용; 빈 비율: 동일형",
+            "example_status": "논문 제시 예; 개별 자연발화 일시 미확보"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 화자의 자연스러움·문헌 정답 미검증",
+        "미제시 결합 환경과 지역 배타성 미확보",
+        "맨들다 형태 칸과 만들었다 예의 변이 분석 및 -게 하다 행 인용 대체의 구조 미확정. 원문 없는 맨들었다 예를 만들지 않음."
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C010",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "보조용언",
+        "피동"
+      ],
+      "source_terms": [
+        "어 지다·게 되다"
+      ],
+      "target_refs": [
+        "RYU2014-B005-C010.usage"
+      ],
+      "assertions": [
+        {
+          "id": "RYU2014-B005-C010.a",
+          "kind": "scoped_inventory",
+          "target_refs": [
+            "RYU2014-B005-C010.usage"
+          ],
+          "content": {
+            "source_locator": "§2.8.1 피동 지다·되다",
+            "source_analysis": "원문 피동 분류에 (-어) 지다와 (-게) 되다가 제시되고 점점 덥어 진다/나도 가게 됐다를 예로 든다. 덥어 진다의 상태 변화 예를 논항 교체형 피동으로 단정하지 않는다.",
+            "extractor_interpretation": "원문 분류와 형태를 해당 용법에 한정해 기록. 표 예문은 전체 예증이며 미제시 결합·표준어 대응을 추론하지 않음.",
+            "generation_policy": "초안 검토 대상. 조사 사용비율을 선택 확률로 쓰지 않으며 지역·세대 밖으로 자동 확대하지 않음.",
+            "operational_status": "draft_not_approved",
+            "construction_rows": [
+              {
+                "usage": "원문 피동 분류 지다",
+                "ending": "(-어) 지다",
+                "surface": "점점 덥어 진다.",
+                "hold": "상태 변화 예와 피동 분류의 범위 미분석",
+                "layer": "whole_source_example"
+              },
+              {
+                "usage": "원문 피동 분류 되다",
+                "ending": "(-게) 되다",
+                "surface": "나도 가게 됐다.",
+                "hold": null,
+                "layer": "whole_source_example"
+              }
+            ]
+          },
+          "condition": {
+            "op": "eq",
+            "target": "RYU2014-B005-C010.usage",
+            "feature": "source_auxiliary_function",
+            "value": "피동(원문 분류)"
+          }
+        }
+      ],
+      "evidence_refs": [
+        "RYU2014-B005-E024",
+        "RYU2014-B005-E025"
+      ],
+      "annotations": [
+        {
+          "id": "RYU2014-B005-C010.region",
+          "dimension": "region",
+          "value": {
+            "raw": "경남 함양군 서하면 신기·오현 마을 문법형 조사 / 함양읍 사용 확인",
+            "exclusive_to_region": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C010.utterance_period",
+          "dimension": "utterance_period",
+          "value": {
+            "survey_period": "2014년 7월 22~24일 문법형 현지 조사",
+            "publication_year": 2014,
+            "individual_example_utterance_date": null,
+            "usage_confirmation_date": "2014년 조사 맥락; 별도 일자 미제시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C010.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "method": "조사지에 의한 형태 조사와 별도의 세대 사용 확인",
+            "grammar_informants": "79~88세 주·보조 제보자 6명",
+            "usage_confirmants": "65세 1명·12세 2명; 의식 조사 표본과 다름",
+            "source_notation": "괄호: 사용 확인 때 출현; x: 양쪽 형태 미사용; 빈 비율: 동일형",
+            "example_status": "논문 제시 예; 개별 자연발화 일시 미확보"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 화자의 자연스러움·문헌 정답 미검증",
+        "미제시 결합 환경과 지역 배타성 미확보"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C011",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "보조용언",
+        "부정"
+      ],
+      "source_terms": [
+        "지 마라 금지"
+      ],
+      "target_refs": [
+        "RYU2014-B005-C011.usage"
+      ],
+      "assertions": [
+        {
+          "id": "RYU2014-B005-C011.a",
+          "kind": "scoped_inventory",
+          "target_refs": [
+            "RYU2014-B005-C011.usage"
+          ],
+          "content": {
+            "source_locator": "§2.8.1 부정 금지 행",
+            "source_analysis": "부정 보조동사 형태 칸은 (-지) 마라, 예는 울지 마. §2.6의 -지 말다 금지와 같은 금지형 관찰이며 마라를 새 기본형이라고 추론하지 않는다.",
+            "extractor_interpretation": "원문 분류와 형태를 해당 용법에 한정해 기록. 표 예문은 전체 예증이며 미제시 결합·표준어 대응을 추론하지 않음.",
+            "generation_policy": "초안 검토 대상. 조사 사용비율을 선택 확률로 쓰지 않으며 지역·세대 밖으로 자동 확대하지 않음.",
+            "operational_status": "draft_not_approved",
+            "construction_rows": [
+              {
+                "usage": "금지",
+                "ending": "(-지) 마라",
+                "surface": "울지 마.",
+                "hold": null,
+                "layer": "whole_source_example"
+              }
+            ],
+            "source_form_analysis": "마라 표기는 원문 형태 칸; 표제 기본형 확정 아님"
+          },
+          "condition": {
+            "op": "eq",
+            "target": "RYU2014-B005-C011.usage",
+            "feature": "source_auxiliary_function",
+            "value": "금지"
+          }
+        }
+      ],
+      "evidence_refs": [
+        "RYU2014-B005-E024",
+        "RYU2014-B005-E025"
+      ],
+      "annotations": [
+        {
+          "id": "RYU2014-B005-C011.region",
+          "dimension": "region",
+          "value": {
+            "raw": "경남 함양군 서하면 신기·오현 마을 문법형 조사 / 함양읍 사용 확인",
+            "exclusive_to_region": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C011.utterance_period",
+          "dimension": "utterance_period",
+          "value": {
+            "survey_period": "2014년 7월 22~24일 문법형 현지 조사",
+            "publication_year": 2014,
+            "individual_example_utterance_date": null,
+            "usage_confirmation_date": "2014년 조사 맥락; 별도 일자 미제시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C011.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "method": "조사지에 의한 형태 조사와 별도의 세대 사용 확인",
+            "grammar_informants": "79~88세 주·보조 제보자 6명",
+            "usage_confirmants": "65세 1명·12세 2명; 의식 조사 표본과 다름",
+            "source_notation": "괄호: 사용 확인 때 출현; x: 양쪽 형태 미사용; 빈 비율: 동일형",
+            "example_status": "논문 제시 예; 개별 자연발화 일시 미확보"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 화자의 자연스러움·문헌 정답 미검증",
+        "미제시 결합 환경과 지역 배타성 미확보"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C012",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "보조용언",
+        "담화"
+      ],
+      "source_terms": [
+        "싸다·보이다·한다·하다 기능별 결합"
+      ],
+      "target_refs": [
+        "RYU2014-B005-C012.usage"
+      ],
+      "assertions": [
+        {
+          "id": "RYU2014-B005-C012.a",
+          "kind": "scoped_inventory",
+          "target_refs": [
+            "RYU2014-B005-C012.usage"
+          ],
+          "content": {
+            "source_locator": "§2.8.1 강세·짐작·당위·시인",
+            "source_analysis": "강세 (-어) 싸다, 짐작 (-어) 보이다, 당위 (-어야) 한다, 시인 (-기)는 하다를 기능별로 구분한다. 표에 울어 쌌는다, 좋아 비네, 무야 한다, 묵기는 했다를 제시한다. 형태음운 일반 규칙은 추가하지 않는다.",
+            "extractor_interpretation": "원문 분류와 형태를 해당 용법에 한정해 기록. 표 예문은 전체 예증이며 미제시 결합·표준어 대응을 추론하지 않음.",
+            "generation_policy": "초안 검토 대상. 조사 사용비율을 선택 확률로 쓰지 않으며 지역·세대 밖으로 자동 확대하지 않음.",
+            "operational_status": "draft_not_approved",
+            "construction_rows": [
+              {
+                "usage": "강세",
+                "ending": "(-어) 싸다",
+                "surface": "낮에 사온 강새이가 울어 쌌는다.",
+                "hold": null,
+                "layer": "whole_source_example"
+              },
+              {
+                "usage": "짐작",
+                "ending": "(-어) 보이다",
+                "surface": "좋아 비네.",
+                "hold": null,
+                "layer": "whole_source_example"
+              },
+              {
+                "usage": "당위",
+                "ending": "(-어야) 한다",
+                "surface": "약을 꼭 무야 한다.",
+                "hold": null,
+                "layer": "whole_source_example"
+              },
+              {
+                "usage": "시인",
+                "ending": "(-기)는 하다",
+                "surface": "밥을 묵기는 했다.",
+                "hold": null,
+                "layer": "whole_source_example"
+              }
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "RYU2014-B005-E024",
+        "RYU2014-B005-E025"
+      ],
+      "annotations": [
+        {
+          "id": "RYU2014-B005-C012.region",
+          "dimension": "region",
+          "value": {
+            "raw": "경남 함양군 서하면 신기·오현 마을 문법형 조사 / 함양읍 사용 확인",
+            "exclusive_to_region": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C012.utterance_period",
+          "dimension": "utterance_period",
+          "value": {
+            "survey_period": "2014년 7월 22~24일 문법형 현지 조사",
+            "publication_year": 2014,
+            "individual_example_utterance_date": null,
+            "usage_confirmation_date": "2014년 조사 맥락; 별도 일자 미제시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C012.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "method": "조사지에 의한 형태 조사와 별도의 세대 사용 확인",
+            "grammar_informants": "79~88세 주·보조 제보자 6명",
+            "usage_confirmants": "65세 1명·12세 2명; 의식 조사 표본과 다름",
+            "source_notation": "괄호: 사용 확인 때 출현; x: 양쪽 형태 미사용; 빈 비율: 동일형",
+            "example_status": "논문 제시 예; 개별 자연발화 일시 미확보"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 화자의 자연스러움·문헌 정답 미검증",
+        "미제시 결합 환경과 지역 배타성 미확보"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C013",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "보조용언",
+        "사용 변화"
+      ],
+      "source_terms": [
+        "보조동사 출현과 감소"
+      ],
+      "target_refs": [
+        "RYU2014-B005-C013.usage"
+      ],
+      "assertions": [
+        {
+          "id": "RYU2014-B005-C013.a",
+          "kind": "reported_emergence",
+          "target_refs": [
+            "RYU2014-B005-C013.usage"
+          ],
+          "content": {
+            "source_locator": "§2.8.1 보조동사 변화",
+            "source_analysis": "원 조사에는 없던 -어 가다/-어 오다/-어 내다/-어 갖고/-지 못-이 사용 확인에 출현했다. -어 삐다는 -어 버리다로 바뀌어가며 -고 나다/-게 맨들다/-어 싸다 사용도 감소한다고 한다. 각각의 점·괄호·x를 빈도가 같은 것으로 통일하지 않는다.",
+            "extractor_interpretation": "원문 분류와 형태를 해당 용법에 한정해 기록. 표 예문은 전체 예증이며 미제시 결합·표준어 대응을 추론하지 않음.",
+            "generation_policy": "초안 검토 대상. 조사 사용비율을 선택 확률로 쓰지 않으며 지역·세대 밖으로 자동 확대하지 않음.",
+            "operational_status": "held",
+            "reported_forms": [
+              "-어 가다",
+              "-어 오다",
+              "-어 내다",
+              "-어 갖고",
+              "-지 못-"
+            ],
+            "reported_decline": [
+              "-어 삐다",
+              "-고 나다",
+              "-게 맨들다",
+              "-어 싸다"
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "RYU2014-B005-E024",
+        "RYU2014-B005-E025"
+      ],
+      "annotations": [
+        {
+          "id": "RYU2014-B005-C013.region",
+          "dimension": "region",
+          "value": {
+            "raw": "경남 함양군 서하면 신기·오현 마을 문법형 조사 / 함양읍 사용 확인",
+            "exclusive_to_region": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C013.utterance_period",
+          "dimension": "utterance_period",
+          "value": {
+            "survey_period": "2014년 7월 22~24일 문법형 현지 조사",
+            "publication_year": 2014,
+            "individual_example_utterance_date": null,
+            "usage_confirmation_date": "2014년 조사 맥락; 별도 일자 미제시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C013.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "method": "조사지에 의한 형태 조사와 별도의 세대 사용 확인",
+            "grammar_informants": "79~88세 주·보조 제보자 6명",
+            "usage_confirmants": "65세 1명·12세 2명; 의식 조사 표본과 다름",
+            "source_notation": "괄호: 사용 확인 때 출현; x: 양쪽 형태 미사용; 빈 비율: 동일형",
+            "example_status": "논문 제시 예; 개별 자연발화 일시 미확보"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [
+        {
+          "type": "qualifies",
+          "target": "RYU2014-B005-C004",
+          "basis": "source_statement",
+          "evidence_refs": [
+            "RYU2014-B005-E024",
+            "RYU2014-B005-E025"
+          ]
+        },
+        {
+          "type": "qualifies",
+          "target": "RYU2014-B005-C005",
+          "basis": "source_statement",
+          "evidence_refs": [
+            "RYU2014-B005-E024",
+            "RYU2014-B005-E025"
+          ]
+        },
+        {
+          "type": "qualifies",
+          "target": "RYU2014-B005-C008",
+          "basis": "source_statement",
+          "evidence_refs": [
+            "RYU2014-B005-E024",
+            "RYU2014-B005-E025"
+          ]
+        },
+        {
+          "type": "qualifies",
+          "target": "RYU2014-B005-C009",
+          "basis": "source_statement",
+          "evidence_refs": [
+            "RYU2014-B005-E024",
+            "RYU2014-B005-E025"
+          ]
+        },
+        {
+          "type": "qualifies",
+          "target": "RYU2014-B005-C012",
+          "basis": "source_statement",
+          "evidence_refs": [
+            "RYU2014-B005-E024",
+            "RYU2014-B005-E025"
+          ]
+        }
+      ],
+      "gaps": [
+        "현대 화자의 자연스러움·문헌 정답 미검증",
+        "미제시 결합 환경과 지역 배타성 미확보",
+        "질문지/제보자 한정의 사용 변화. 원 문법형 점·괄호 예는 새 형태의 직접 예문이 아닐 수 있어 실현형 생성 보류."
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C014",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "보조용언"
+      ],
+      "source_terms": [
+        "보조형용사 싶다·보다·있다"
+      ],
+      "target_refs": [
+        "RYU2014-B005-C014.usage"
+      ],
+      "assertions": [
+        {
+          "id": "RYU2014-B005-C014.a",
+          "kind": "scoped_inventory",
+          "target_refs": [
+            "RYU2014-B005-C014.usage"
+          ],
+          "content": {
+            "source_locator": "§2.8.2 희망·추측·상태",
+            "source_analysis": "보조형용사 희망 (-고) 싶다, 추측 (-ㄴ가) 보다, 상태 (-어) 있다를 제시한다. 저게 학굔갑다의 축약 예를 보존하되 일반 축약 규칙을 만들지 않는다. 추측 싶다와 희망 싶다는 분리한다.",
+            "extractor_interpretation": "원문 분류와 형태를 해당 용법에 한정해 기록. 표 예문은 전체 예증이며 미제시 결합·표준어 대응을 추론하지 않음.",
+            "generation_policy": "초안 검토 대상. 조사 사용비율을 선택 확률로 쓰지 않으며 지역·세대 밖으로 자동 확대하지 않음.",
+            "operational_status": "draft_not_approved",
+            "construction_rows": [
+              {
+                "usage": "희망",
+                "ending": "(-고) 싶다",
+                "surface": "집에 가고 싶다.",
+                "hold": null,
+                "layer": "whole_source_example"
+              },
+              {
+                "usage": "추측",
+                "ending": "(-ㄴ가) 보다",
+                "surface": "저게 학굔갑다.",
+                "hold": null,
+                "layer": "whole_source_example"
+              },
+              {
+                "usage": "상태",
+                "ending": "(-어) 있다",
+                "surface": "여 앉아 있어라.",
+                "hold": null,
+                "layer": "whole_source_example"
+              }
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "RYU2014-B005-E025",
+        "RYU2014-B005-E026"
+      ],
+      "annotations": [
+        {
+          "id": "RYU2014-B005-C014.region",
+          "dimension": "region",
+          "value": {
+            "raw": "경남 함양군 서하면 신기·오현 마을 문법형 조사 / 함양읍 사용 확인",
+            "exclusive_to_region": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C014.utterance_period",
+          "dimension": "utterance_period",
+          "value": {
+            "survey_period": "2014년 7월 22~24일 문법형 현지 조사",
+            "publication_year": 2014,
+            "individual_example_utterance_date": null,
+            "usage_confirmation_date": "2014년 조사 맥락; 별도 일자 미제시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C014.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "method": "조사지에 의한 형태 조사와 별도의 세대 사용 확인",
+            "grammar_informants": "79~88세 주·보조 제보자 6명",
+            "usage_confirmants": "65세 1명·12세 2명; 의식 조사 표본과 다름",
+            "source_notation": "괄호: 사용 확인 때 출현; x: 양쪽 형태 미사용; 빈 비율: 동일형",
+            "example_status": "논문 제시 예; 개별 자연발화 일시 미확보"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 화자의 자연스러움·문헌 정답 미검증",
+        "미제시 결합 환경과 지역 배타성 미확보"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C015",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "보조용언"
+      ],
+      "source_terms": [
+        "추측 싶다 및 형용사 시인 하다 미제시"
+      ],
+      "target_refs": [
+        "RYU2014-B005-C015.usage"
+      ],
+      "assertions": [
+        {
+          "id": "RYU2014-B005-C015.a",
+          "kind": "scoped_inventory",
+          "target_refs": [
+            "RYU2014-B005-C015.usage"
+          ],
+          "content": {
+            "source_locator": "§2.8.2 추측 싶다·시인 하다 부재 행",
+            "source_analysis": "추측 (-는가/-나/-ㄹ까) 싶다는 계속 안 쓴다고 한다. 표는 이제 가는 갑다를 괄호 예로 준다. 형용사 시인 (-기는) 하다 행은 형태 점·괄호 크다이다. 이를 일반적인 싶다/기는 하다 금지로 확대하지 않는다.",
+            "extractor_interpretation": "원문 분류와 형태를 해당 용법에 한정해 기록. 표 예문은 전체 예증이며 미제시 결합·표준어 대응을 추론하지 않음.",
+            "generation_policy": "초안 검토 대상. 조사 사용비율을 선택 확률로 쓰지 않으며 지역·세대 밖으로 자동 확대하지 않음.",
+            "operational_status": "held",
+            "source_absent_rows": [
+              {
+                "form": "(-는가, -나, -ㄹ까) 싶다",
+                "example": "(이제 가는 갑다.)"
+              },
+              {
+                "form": "(-기는) 하다",
+                "example": "(크다)"
+              }
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "RYU2014-B005-E025",
+        "RYU2014-B005-E026"
+      ],
+      "annotations": [
+        {
+          "id": "RYU2014-B005-C015.region",
+          "dimension": "region",
+          "value": {
+            "raw": "경남 함양군 서하면 신기·오현 마을 문법형 조사 / 함양읍 사용 확인",
+            "exclusive_to_region": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C015.utterance_period",
+          "dimension": "utterance_period",
+          "value": {
+            "survey_period": "2014년 7월 22~24일 문법형 현지 조사",
+            "publication_year": 2014,
+            "individual_example_utterance_date": null,
+            "usage_confirmation_date": "2014년 조사 맥락; 별도 일자 미제시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C015.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "method": "조사지에 의한 형태 조사와 별도의 세대 사용 확인",
+            "grammar_informants": "79~88세 주·보조 제보자 6명",
+            "usage_confirmants": "65세 1명·12세 2명; 의식 조사 표본과 다름",
+            "source_notation": "괄호: 사용 확인 때 출현; x: 양쪽 형태 미사용; 빈 비율: 동일형",
+            "example_status": "논문 제시 예; 개별 자연발화 일시 미확보"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [
+        {
+          "type": "qualifies",
+          "target": "RYU2014-B005-C014",
+          "basis": "source_statement",
+          "evidence_refs": [
+            "RYU2014-B005-E025",
+            "RYU2014-B005-E026"
+          ]
+        }
+      ],
+      "gaps": [
+        "현대 화자의 자연스러움·문헌 정답 미검증",
+        "미제시 결합 환경과 지역 배타성 미확보",
+        "질문지 내 부재 응답; 희망 싶다와 보조동사 시인 하다의 존재를 함께 보존해야 함. 구성별 생산적 금지 규칙 보류."
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "RYU2014-B005-C016",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "보조용언",
+        "부정",
+        "사용 변화"
+      ],
+      "source_terms": [
+        "형용사 지 않다·지 못하다 출현"
+      ],
+      "target_refs": [
+        "RYU2014-B005-C016.usage"
+      ],
+      "assertions": [
+        {
+          "id": "RYU2014-B005-C016.a",
+          "kind": "reported_emergence",
+          "target_refs": [
+            "RYU2014-B005-C016.usage"
+          ],
+          "content": {
+            "source_locator": "§2.8.2 부정 형용사 사용 확인",
+            "source_analysis": "-지 않다는 양 세대 출현, -지 못하다는 60대 출현·10대 x로 표에 기록된다. 본문은 양 세대 출현이라고 총괄한 뒤 10대 미사용 항목도 있음을 유보하고 어휘 사용량이 적어서일 수도 있다고 추측한다.",
+            "extractor_interpretation": "원문 분류와 형태를 해당 용법에 한정해 기록. 표 예문은 전체 예증이며 미제시 결합·표준어 대응을 추론하지 않음.",
+            "generation_policy": "초안 검토 대상. 조사 사용비율을 선택 확률로 쓰지 않으며 지역·세대 밖으로 자동 확대하지 않음.",
+            "operational_status": "held",
+            "reported_forms": [
+              "-지 않다",
+              "-지 못하다"
+            ],
+            "source_hypothesis": "어휘 사용의 양이 적은 관계일 수도 있다",
+            "source_examples_as_alternatives": [
+              "(날씨가 안 덥다.)",
+              "(살림이 안 넉넉하다.)"
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "RYU2014-B005-E025",
+        "RYU2014-B005-E026"
+      ],
+      "annotations": [
+        {
+          "id": "RYU2014-B005-C016.region",
+          "dimension": "region",
+          "value": {
+            "raw": "경남 함양군 서하면 신기·오현 마을 문법형 조사 / 함양읍 사용 확인",
+            "exclusive_to_region": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C016.utterance_period",
+          "dimension": "utterance_period",
+          "value": {
+            "survey_period": "2014년 7월 22~24일 문법형 현지 조사",
+            "publication_year": 2014,
+            "individual_example_utterance_date": null,
+            "usage_confirmation_date": "2014년 조사 맥락; 별도 일자 미제시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "RYU2014-B005-C016.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "method": "조사지에 의한 형태 조사와 별도의 세대 사용 확인",
+            "grammar_informants": "79~88세 주·보조 제보자 6명",
+            "usage_confirmants": "65세 1명·12세 2명; 의식 조사 표본과 다름",
+            "source_notation": "괄호: 사용 확인 때 출현; x: 양쪽 형태 미사용; 빈 비율: 동일형",
+            "example_status": "논문 제시 예; 개별 자연발화 일시 미확보"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "RYU2014-B005-E003",
+            "RYU2014-B005-E004",
+            "RYU2014-B005-E005"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [
+        {
+          "type": "qualifies",
+          "target": "RYU2014-B005-C014",
+          "basis": "source_statement",
+          "evidence_refs": [
+            "RYU2014-B005-E025",
+            "RYU2014-B005-E026"
+          ]
+        }
+      ],
+      "gaps": [
+        "현대 화자의 자연스러움·문헌 정답 미검증",
+        "미제시 결합 환경과 지역 배타성 미확보",
+        "본문 총괄과 표의 범위를 구별. 10대 x 원인에 대한 저자 추측은 검증된 생성 조건 아님."
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    }
+  ],
+  "policies": []
+}

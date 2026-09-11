@@ -1,0 +1,30 @@
+{
+  "kind": "connection_and_generation_smoke_not_evaluation",
+  "started_at": "2026-09-11T06:48:45.624245+00:00",
+  "ended_at": "2026-09-11T06:48:46.085464+00:00",
+  "settings_source": "test.py",
+  "settings_source_sha256": "f9be0af114cf8125322f4a4d8558e396c1c8f6560c787ac499b12d19fff994ea",
+  "script_sha256": "7070d4fe55a310c2cfdbc3a00dd131b3b068bafb9d78f24a7d9568e3fb8ea1f9",
+  "endpoint": "http://210.91.154.131:20443/deployment/heb564988074398aaf0d5b35fd4e8368c/qwen/v1/chat/completions",
+  "request": {
+    "model": "Qwen3.8-27B",
+    "messages": [
+      {"role": "system", "content": "너는 표준 한국어를 경상북도(경북) 방언으로 바꾸는 변환기다. 의미는 그대로 두고 방언 문장 한 줄만 출력한다."},
+      {"role": "user", "content": "다음 표준어 문장을 방언으로 바꿔라.\n오늘은 시간이 없어서 내일 다시 갈게."}
+    ],
+    "max_tokens": 512,
+    "temperature": 0.3,
+    "top_p": 0.8,
+    "top_k": 20,
+    "chat_template_kwargs": {"enable_thinking": false}
+  },
+  "input": "오늘은 시간이 없어서 내일 다시 갈게.",
+  "kg_used": false,
+  "available_models": ["Qwen3.8-27B"],
+  "status": "succeeded",
+  "response_model": "Qwen3.8-27B",
+  "output": "오늘은 시간이가 없어서 내일 또 가겄다.",
+  "finish_reason": "stop",
+  "usage": {"prompt_tokens": 73, "total_tokens": 87, "completion_tokens": 14, "prompt_tokens_details": null},
+  "elapsed_seconds": 0.461
+}

@@ -1,0 +1,91 @@
+{
+  "source_id": "NAMU_GRAMMAR_20260908",
+  "status": "partial_source_extraction",
+  "body_pages": [
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "units": [
+    {
+      "pages": [
+        44,
+        50
+      ],
+      "locator": "§7 인터넷 예문·각주140–141",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B012-C001"
+      ],
+      "hold": "원 인터넷 출처·화자 미상, 편집 예문; 운영 생성 근거 보류"
+    },
+    {
+      "pages": [
+        44,
+        45,
+        50
+      ],
+      "locator": "§7 최명옥 예문·각주142",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B012-C002"
+      ],
+      "hold": "재인용 예문·편집 수정; 독립 관찰·운영 근거 보류"
+    },
+    {
+      "pages": [
+        45,
+        51
+      ],
+      "locator": "§8 기타·각주143",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B012-C003"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        45
+      ],
+      "locator": "§8 마지막 문장",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B012-C004"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        4
+      ],
+      "locator": "§3.1.2 남쪽 설명 보충",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B012-C005"
+      ],
+      "hold": "추정 역사 설명; 절대 시기·원자료 미확보, 생성 치환 보류"
+    },
+    {
+      "pages": [
+        29
+      ],
+      "locator": "§6.2 맛 표현 표",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B012-C006"
+      ],
+      "hold": null
+    }
+  ],
+  "context": [
+    "44쪽 외래어 나머지 및 50쪽 각주138–139는 어휘 맥락. 구루마를 끌고 간다는 관용 결합은 어휘 의미 확장 맥락",
+    "45쪽 r1346 계보는 NAMU20260901과 독립 증거 중복 계산 금지",
+    "45–51쪽 각주는 본문 해당 배치와 함께 처리. 51쪽 라이선스·편집 주의는 출처 맥락",
+    "4쪽 기존 보류 I05 및 29쪽 맵다 활용을 보충; 기존 15 Claim 내용 보존"
+  ],
+  "open_issues": [
+    "인터넷·학술서 재인용 예문 운영 보류",
+    "기존 B001-I01~I04 미결은 계속 보존"
+  ],
+  "schema_note": "기존 v3 유지; content 내부 operational_status와 표의 dash_semantics 추가. 보류는 자동 생성 불가."
+}

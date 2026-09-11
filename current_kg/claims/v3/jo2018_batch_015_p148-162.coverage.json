@@ -1,0 +1,681 @@
+{
+  "batch_id": "JO2018-B015",
+  "source_id": "JO2018",
+  "status": "partial_source_extraction",
+  "body_pages": [
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162
+  ],
+  "units": [
+    {
+      "location": "PDF148 / 하다의 -이소/-시소 교체와 -이소이 강조",
+      "claim_ids": [
+        "JO2018-B015-C001"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF149 / 표29 하이소체 명령 목록",
+      "claim_ids": [
+        "JO2018-B015-C002"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF150 / -이소/-소 높임 대립에 의한 저자 분류",
+      "claim_ids": [
+        "JO2018-B015-C003"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF150 / 명령 목록에 포함된 청유·약속 및 미관찰형",
+      "claim_ids": [
+        "JO2018-B015-C004"
+      ],
+      "hold": "선행연구·사전 재인용 및 현대 구어 평가 미검증"
+    },
+    {
+      "location": "PDF151 / 하이소 명령형의 자료 내 지역 분포",
+      "claim_ids": [
+        "JO2018-B015-C005"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF152 / -이소의 시 결합 및 당부 이",
+      "claim_ids": [
+        "JO2018-B015-C006"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF152,153 / -이시소와 -시시소의 높임 중첩 유보",
+      "claim_ids": [
+        "JO2018-B015-C007"
+      ],
+      "hold": "높임 등급 약화 추정 및 -시- 중첩 분석은 저자도 단일 용례로 유보"
+    },
+    {
+      "location": "PDF153 / -시오/ㅂ시오와 시 선행·중첩 관찰",
+      "claim_ids": [
+        "JO2018-B015-C008"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF154 / 예107 동일 청자에 대한 명령형 혼용",
+      "claim_ids": [
+        "JO2018-B015-C009"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF155 / 그림3 명령 결합 구조와 수의 결합",
+      "claim_ids": [
+        "JO2018-B015-C010"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF155 / -쇼의 어간 말음 비제약 관찰과 기원 대안",
+      "claim_ids": [
+        "JO2018-B015-C011"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF156 / 하소 명령 -소의 매개모음·소이 당부",
+      "claim_ids": [
+        "JO2018-B015-C012"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF157 / -소의 하소 분류와 자료 분포",
+      "claim_ids": [
+        "JO2018-B015-C013"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF157,158 / -으소/-어소 변별 부재와 높임 혼용",
+      "claim_ids": [
+        "JO2018-B015-C014"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF158,159 / 표33 하게 명령 목록과 다른 종결기능 구별",
+      "claim_ids": [
+        "JO2018-B015-C015"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF159 / 하게 명령의 친밀·성별 조건 재인용",
+      "claim_ids": [
+        "JO2018-B015-C016"
+      ],
+      "hold": "재인용 화자 성별·친밀 조건 및 나 분석 원자료 미확인"
+    },
+    {
+      "location": "PDF160 / 하게 명령 지역 분포와 구려 관찰",
+      "claim_ids": [
+        "JO2018-B015-C017"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF161 / -게의 동사·시 결합과 성인 손아랫사람 대우",
+      "claim_ids": [
+        "JO2018-B015-C018"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF162 / -세 명령의 직접 결합·청자 조건과 -세이",
+      "claim_ids": [
+        "JO2018-B015-C019"
+      ],
+      "hold": null
+    }
+  ],
+  "page_dispositions": [
+    {
+      "page": 148,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B015-C001"
+      ],
+      "reason": "명령법 도입 맥락·예100 이소/시소 교체·강조 이 추출; 예101은 PDF149와 연결."
+    },
+    {
+      "page": 149,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B015-C002"
+      ],
+      "reason": "예101 후반·표29 목록 추출. 선행연구 세분화·각주166은 맥락."
+    },
+    {
+      "page": 150,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B015-C003",
+        "JO2018-B015-C004"
+      ],
+      "reason": "등급 선택·미관찰형과 재인용 보류. 표30 이미지 확인·통계 별도 저장·각주167 확인."
+    },
+    {
+      "page": 151,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B015-C005"
+      ],
+      "reason": "예102·103 및 분포 설명 읽음. 이소류 분포 추출; 표준형 상대 빈도는 맥락."
+    },
+    {
+      "page": 152,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B015-C006",
+        "JO2018-B015-C007"
+      ],
+      "reason": "예104·105와 각주168 읽음. 시 선행·당부 이 추출, 표기/음성 보고 유보."
+    },
+    {
+      "page": 153,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B015-C007",
+        "JO2018-B015-C008"
+      ],
+      "reason": "예105 중첩 유보·예106 시 결합 추출; 각주169–170 재인용·미관찰 구별."
+    },
+    {
+      "page": 154,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B015-C009"
+      ],
+      "reason": "예107 전체·관계별 혼용 추출. 각주171 사동 이는 높임 이와 구별."
+    },
+    {
+      "page": 155,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B015-C010",
+        "JO2018-B015-C011"
+      ],
+      "reason": "그림3 이미지 확인·두 순서 도식 저장; 예108 쇼 실제형 연결, 기원 대안·각주172–173 유보."
+    },
+    {
+      "page": 156,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B015-C012"
+      ],
+      "reason": "예109·표31 읽음. 소 매개모음·소이 당부·목록 저장; 선행연구 도입 맥락."
+    },
+    {
+      "page": 157,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B015-C013",
+        "JO2018-B015-C014"
+      ],
+      "reason": "소 등급 분류·분포 저장. 표32 이미지 확인/통계 저장; 예110은 다음쪽과 연결."
+    },
+    {
+      "page": 158,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B015-C014",
+        "JO2018-B015-C015"
+      ],
+      "reason": "예110 후반·모음 비변별/혼용 추출. 예111은 PDF159 목록과 연결."
+    },
+    {
+      "page": 159,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B015-C015",
+        "JO2018-B015-C016"
+      ],
+      "reason": "표33 이미지·기능 구별 추출; 성별/친밀·게나 재인용 보류·각주175 확인."
+    },
+    {
+      "page": 160,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B015-C017"
+      ],
+      "reason": "표34 이미지·전수 수치 맥락 저장. 예112·지역 분포·구려 형태 연결·각주176 보류."
+    },
+    {
+      "page": 161,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B015-C018"
+      ],
+      "reason": "예113 전체·게 동사/시 결합과 손아랫사람 대우 추출. 번호 불일치 장부."
+    },
+    {
+      "page": 162,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B015-C019"
+      ],
+      "reason": "예114·세 명령의 결합/참여자 조건·세이 당부 추출, 공유 용법 유보. 해라체 도입은 PDF163으로 연결."
+    }
+  ],
+  "source_context": {
+    "corpus_period_basis": {
+      "page": 29,
+      "excerpt": "1978년부터 1984년 사이에 조사된 내용을 싣고 있다.",
+      "publication_year": 2018,
+      "individual_utterance_date": null,
+      "note": "자료 전체 조사기간. 재인용 연구 시점이나 개별 발화연도로 자동 전파하지 않음."
+    },
+    "table30": {
+      "page": 150,
+      "kind": "source_frequency_context_not_generation",
+      "columns": [
+        "상주",
+        "구미",
+        "대구",
+        "달성",
+        "성주",
+        "군위",
+        "경주",
+        "영덕",
+        "안동",
+        "예천",
+        "봉화"
+      ],
+      "rows": [
+        {
+          "ending": "-이소",
+          "counts": [
+            61,
+            219,
+            151,
+            104,
+            102,
+            178,
+            108,
+            25,
+            25,
+            36,
+            19
+          ],
+          "printed_total": 1028
+        },
+        {
+          "ending": "-시소",
+          "counts": [
+            8,
+            3,
+            6,
+            5,
+            5,
+            17,
+            34,
+            21,
+            4,
+            11,
+            10
+          ],
+          "printed_total": 124
+        },
+        {
+          "ending": "-시오/ㅂ시오",
+          "counts": [
+            103,
+            61,
+            12,
+            43,
+            32,
+            56,
+            100,
+            99,
+            34,
+            71,
+            63
+          ],
+          "printed_total": 674
+        },
+        {
+          "ending": "-쇼",
+          "counts": [
+            1,
+            2,
+            5,
+            2,
+            null,
+            null,
+            1,
+            null,
+            null,
+            1,
+            null
+          ],
+          "printed_total": 12
+        }
+      ],
+      "missing_mark": "원표 ·, 0으로 바꾸지 않음",
+      "no_generation_weight": true,
+      "printed_group_totals": {
+        "방언형": 2598,
+        "표준형": 686
+      }
+    },
+    "table32": {
+      "page": 157,
+      "kind": "source_frequency_context_not_generation",
+      "columns": [
+        "상주",
+        "구미",
+        "대구",
+        "달성",
+        "성주",
+        "군위",
+        "경주",
+        "영덕",
+        "안동",
+        "예천",
+        "봉화"
+      ],
+      "rows": [
+        {
+          "ending": "-소",
+          "counts": [
+            50,
+            124,
+            154,
+            86,
+            87,
+            188,
+            342,
+            149,
+            127,
+            56,
+            77
+          ],
+          "printed_total": 1440
+        },
+        {
+          "ending": "-소이",
+          "counts": [
+            1,
+            null,
+            null,
+            null,
+            null,
+            4,
+            null,
+            1,
+            null,
+            null,
+            null
+          ],
+          "printed_total": 6
+        }
+      ],
+      "missing_mark": "원표 ·, 0으로 바꾸지 않음",
+      "no_generation_weight": true,
+      "printed_group_totals": {
+        "방언형": 2598
+      }
+    },
+    "table34": {
+      "page": 160,
+      "kind": "source_frequency_context_not_generation",
+      "columns": [
+        "상주",
+        "구미",
+        "대구",
+        "달성",
+        "성주",
+        "군위",
+        "경주",
+        "영덕",
+        "안동",
+        "예천",
+        "봉화"
+      ],
+      "rows": [
+        {
+          "ending": "-세이",
+          "counts": [
+            null,
+            2,
+            2,
+            null,
+            null,
+            2,
+            11,
+            6,
+            6,
+            null,
+            1
+          ],
+          "printed_total": 30
+        },
+        {
+          "ending": "-게",
+          "counts": [
+            53,
+            49,
+            32,
+            22,
+            24,
+            81,
+            8,
+            38,
+            58,
+            61,
+            39
+          ],
+          "printed_total": 465
+        },
+        {
+          "ending": "-세",
+          "counts": [
+            5,
+            5,
+            null,
+            null,
+            null,
+            7,
+            1,
+            7,
+            8,
+            4,
+            10
+          ],
+          "printed_total": 47
+        },
+        {
+          "ending": "-구려",
+          "counts": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            1,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "printed_total": 1
+        }
+      ],
+      "missing_mark": "원표 ·, 0으로 바꾸지 않음",
+      "no_generation_weight": true
+    },
+    "attempt3_graph_contracts": {
+      "reason": "기존 규약의 content 내부 확장. 새 목록별 보류·원 그림 순서·후행 이 필수성·표칸 어미 연결을 검증하고 근거/조건을 보존함. 검증기 완화 없음.",
+      "schemas": [
+        "source_inventory_holds",
+        "explicit_sequence_schemas",
+        "postposed_element_constraints",
+        "inflection_cell_links"
+      ],
+      "scope": "표칸과 어미의 연결은 추출자 대조임을 표시. 미제시 활용형 생성·문헌 정답·현대 자연스러움 검증 아님."
+    }
+  },
+  "open_items": [
+    {
+      "location": "PDF150",
+      "issue": "선행연구·사전 재인용 및 현대 구어 평가 미검증",
+      "claim_id": "JO2018-B015-C004"
+    },
+    {
+      "location": "PDF152,153",
+      "issue": "높임 등급 약화 추정 및 -시- 중첩 분석은 저자도 단일 용례로 유보",
+      "claim_id": "JO2018-B015-C007"
+    },
+    {
+      "location": "PDF159",
+      "issue": "재인용 화자 성별·친밀 조건 및 나 분석 원자료 미확인",
+      "claim_id": "JO2018-B015-C016"
+    },
+    {
+      "location": "PDF149 각주166·PDF156 각주174·PDF159 각주175",
+      "issue": "부록5는 후속 처리 대상. 선행연구 범주차는 맥락이며 직접 규칙 근거 아님",
+      "claim_id": null
+    },
+    {
+      "location": "PDF150 표30·PDF157 표32",
+      "issue": "두 표 방언형 소계 모두 2598로 인쇄되어 개별 표 행 합과 불일치. 두 표를 합산한 범위일 가능성은 자동 보정하지 않음",
+      "claim_id": null
+    },
+    {
+      "location": "PDF152 각주168",
+      "issue": "저자의 음성 확인 보고를 추출자의 확인으로 바꾸지 않음; 있이이소/있시이소 표기·발음 복원 보류",
+      "claim_id": "JO2018-B015-C006"
+    },
+    {
+      "location": "PDF153 각주169–170·PDF155 각주172–173",
+      "issue": "-시오/ㅂ시오의 다른 선어말어미 미관찰 한정 유지. 백두현·김병제·신창순·이상규·김태엽의 등급/형성 및 옛 예는 재인용 미검증",
+      "claim_id": null
+    },
+    {
+      "location": "PDF154 각주171",
+      "issue": "낋이이소/낋이소 첫 이는 사동접미사; 이 중복에서 높임을 자동 도출하지 않음",
+      "claim_id": null
+    },
+    {
+      "location": "PDF155 예108 해설",
+      "issue": "원문 ㄷ·ㅁ·ㅂ으로 지시하나 예문은 ㄱ–ㅁ; 쇼 용례는 ㄷ·ㄹ·ㅁ. 임의 예번호 수정하지 않음",
+      "claim_id": null
+    },
+    {
+      "location": "PDF158 예110 해설",
+      "issue": "으이소/으소 혼용을 ㄷ으로 지시하나 실제 잡으이소/잡으소는 ㄹ; 원번호 불일치 보존",
+      "claim_id": null
+    },
+    {
+      "location": "PDF160 각주176",
+      "issue": "한국방언자료집 재인용은 -세의 명령 지역 미제시; 청유 지역을 명령 분포로 합치지 않음",
+      "claim_id": null
+    },
+    {
+      "location": "PDF161 예113 해설",
+      "issue": "해설 번호가 112ㄷ–ㅁ이나 실제 예113; 형태·화자관계는 원 예에 근거하고 번호 불일치 장부",
+      "claim_id": null
+    },
+    {
+      "location": "PDF162 각주177",
+      "issue": "사전은 세를 청유법으로만 기술한다는 재인용; 본문의 명령 관찰과 출처별 분리",
+      "claim_id": null
+    }
+  ],
+  "audit": {
+    "text_read": true,
+    "pdftotext_layout": true,
+    "pdf_pages_visually_checked": [
+      150,
+      155,
+      157,
+      159,
+      160
+    ],
+    "independent_reviewer": false,
+    "cross_checked_original_table_pages": [
+      65,
+      66
+    ],
+    "footnote_evidence_note": "본문에서 이미 읽고 인용한 각주160/163–165/168–169/185/191이 evidence 발췌에서도 실제 연결되도록 끝 범위를 같은 쪽 하단까지 확장. 조건·유보 내용과 쪽별 판정은 유지."
+  },
+  "validation": {
+    "passed": true,
+    "commands": [
+      "python3 current_kg/claims/v3/check_batch.py",
+      "python3 current_kg/design_probe/probe.py",
+      "python3 current_kg/design_probe/coverage_check.py",
+      "python3 current_kg/claims/v3/check_all_v3.py --check-receipt",
+      "python3 current_kg/claims/v3/check_honorifics.py",
+      "python3 current_kg/claims/v3/check_phonology.py",
+      "python3 current_kg/claims/v3/check_overview.py",
+      "python3 current_kg/claims/v3/check_ryu2014.py",
+      "python3 current_kg/claims/v3/check_jo2018.py",
+      "python3 current_kg/claims/v3/check_jo2018.py --export",
+      "python3 current_kg/claims/v3/check_jo2018.py --check-saved",
+      "python3 current_kg/claims/v3/check_honorifics.py --check-receipt",
+      "python3 current_kg/claims/v3/check_phonology.py --check-receipt",
+      "python3 current_kg/claims/v3/check_overview.py --check-receipt",
+      "python3 current_kg/claims/v3/check_ryu2014.py --check-receipt",
+      "git diff --check"
+    ],
+    "scope": "저장된 전체 bundle 구조·참조·근거·조건, 기존 15건·17개 검사와 47개 설계 회귀, JO 50개 검사 및 저장 그래프 재구성. 문헌 전체 완료나 정답 검증 아님.",
+    "jo_checks": 50,
+    "all_bundle_count": 52,
+    "all_claim_count": 622,
+    "saved_graph_reconstructed": true,
+    "not_validated": [
+      "PDF183–265 미독·미처리",
+      "문헌 언어학적 정답",
+      "현대 자연스러움",
+      "생성 성능"
+    ],
+    "resolved_failures": [
+      "PDF172 각주184의 자리 이동으로 연속 발췌 앵커 불일치: 실제 텍스트에 맞춰 범위 지정 후 저장. 원문 일치 검사 유지.",
+      "담화 청자 라벨 다수 청자의 원문 일치 실패: 원문 다수의 청자로 수정하여 검사 통과.",
+      "본문에서 읽은 각주를 근거 발췌에도 직접 보존하도록 실제 읽은 쪽 범위 전체로 확장. 중간 준비 스크립트의 경계 앵커 실패는 저장 전에 발생했고 최종 검사는 통과."
+    ],
+    "graph_counts": {
+      "source_rows": 56,
+      "inflection_cells": 16,
+      "overlap_cells": 95,
+      "missing_cells": 2,
+      "realizations": 64,
+      "held_realizations": 6,
+      "ending_schemas": 78,
+      "ending_function_rows": 6,
+      "attachment_rows": 13,
+      "sequence_schemas": 2,
+      "postposed_constraints": 2,
+      "inflection_ending_links": 5,
+      "held_form_paths_blocked": 2
+    }
+  }
+}

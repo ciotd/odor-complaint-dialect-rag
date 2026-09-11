@@ -1,0 +1,221 @@
+{
+  "version": "0.1.0",
+  "status": "provisional",
+  "policy": [
+    "primary는 한 개, related는 복수 허용",
+    "문헌 절 제목은 source_location.section에 별도 보존",
+    "secondary는 primary 아래의 세부 분류 ID",
+    "functions는 조건·기능 검색용 보조 표지이며 형태 범주와 분리",
+    "연구 맥락과 원문 문제는 문법 규칙이 아니다"
+  ],
+  "categories": [
+    {
+      "id": "pronoun",
+      "label": "대명사",
+      "subcategories": [
+        {
+          "id": "personal",
+          "label": "인칭 대명사"
+        },
+        {
+          "id": "reflexive",
+          "label": "재귀 대명사"
+        },
+        {
+          "id": "interrogative",
+          "label": "의문 대명사"
+        },
+        {
+          "id": "demonstrative",
+          "label": "지시 대명사"
+        }
+      ]
+    },
+    {
+      "id": "particle",
+      "label": "조사",
+      "subcategories": [
+        {
+          "id": "case",
+          "label": "격조사"
+        },
+        {
+          "id": "auxiliary",
+          "label": "보조사"
+        },
+        {
+          "id": "conjunctive",
+          "label": "접속조사"
+        }
+      ]
+    },
+    {
+      "id": "final_ending",
+      "label": "종결어미",
+      "subcategories": [
+        {
+          "id": "imperative",
+          "label": "명령형"
+        },
+        {
+          "id": "propositive",
+          "label": "청유형"
+        },
+        {
+          "id": "interrogative",
+          "label": "의문형"
+        },
+        {
+          "id": "declarative",
+          "label": "서술형"
+        },
+        {
+          "id": "exclamative",
+          "label": "감탄형"
+        }
+      ]
+    },
+    {
+      "id": "connective_ending",
+      "label": "연결어미",
+      "subcategories": [
+        {
+          "id": "coordinate",
+          "label": "대등 연결"
+        },
+        {
+          "id": "subordinate",
+          "label": "종속 연결"
+        },
+        {
+          "id": "auxiliary",
+          "label": "보조적 연결"
+        },
+        {
+          "id": "quotative",
+          "label": "인용"
+        }
+      ]
+    },
+    {
+      "id": "tense_aspect",
+      "label": "시제·상",
+      "subcategories": [
+        {
+          "id": "future",
+          "label": "미래"
+        },
+        {
+          "id": "present",
+          "label": "현재"
+        },
+        {
+          "id": "past",
+          "label": "과거"
+        },
+        {
+          "id": "adnominal",
+          "label": "관형사형"
+        }
+      ]
+    },
+    {
+      "id": "negation",
+      "label": "부정",
+      "subcategories": [
+        {
+          "id": "short",
+          "label": "단형 부정"
+        },
+        {
+          "id": "long",
+          "label": "장형 부정"
+        },
+        {
+          "id": "prohibitive",
+          "label": "금지"
+        }
+      ]
+    },
+    {
+      "id": "causative",
+      "label": "사동",
+      "subcategories": [
+        {
+          "id": "suffix",
+          "label": "접미사 사동"
+        }
+      ]
+    },
+    {
+      "id": "passive",
+      "label": "피동",
+      "subcategories": [
+        {
+          "id": "suffix",
+          "label": "접미사 피동"
+        }
+      ]
+    },
+    {
+      "id": "auxiliary_predicate",
+      "label": "보조용언",
+      "subcategories": [
+        {
+          "id": "verb",
+          "label": "보조동사"
+        },
+        {
+          "id": "adjective",
+          "label": "보조형용사"
+        }
+      ]
+    },
+    {
+      "id": "adverb",
+      "label": "부사",
+      "subcategories": [
+        {
+          "id": "lexical",
+          "label": "부사 표현"
+        }
+      ]
+    },
+    {
+      "id": "research_context",
+      "label": "연구 맥락",
+      "subcategories": [
+        {
+          "id": "method",
+          "label": "조사 방법"
+        },
+        {
+          "id": "notation",
+          "label": "표기·해석"
+        },
+        {
+          "id": "attitude",
+          "label": "방언 의식"
+        },
+        {
+          "id": "limitation",
+          "label": "한계"
+        }
+      ]
+    },
+    {
+      "id": "source_issue",
+      "label": "원문 검토 사항",
+      "subcategories": [
+        {
+          "id": "conflict",
+          "label": "서술 불일치"
+        },
+        {
+          "id": "reading",
+          "label": "판독 보류"
+        }
+      ]
+    }
+  ]
+}

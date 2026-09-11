@@ -47,3 +47,11 @@ sources/gyeongsang/lexical/gyeongsang_vocab.json
 
 # 실패한 v2의 로컬 서버 점검 파일에는 임시 접근 자격증명이 포함될 수 있음
 archive/v2_failed/scratch/
+
+# 로컬 모델 연결 테스트: 실제 게이트웨이 인증 토큰 포함
+/test.py
+
+# 상세 에이전트 실행 로그/프로세스 파일은 로컬 보존 (완료 receipt는 추적)
+current_kg/claims/v3/background_run/*.events.jsonl
+current_kg/claims/v3/background_run/*.stderr
+current_kg/claims/v3/background_run/*.lock

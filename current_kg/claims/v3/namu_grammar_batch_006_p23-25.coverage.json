@@ -1,0 +1,63 @@
+{
+  "source_id": "NAMU_GRAMMAR_20260908",
+  "status": "partial_source_extraction",
+  "body_pages": [
+    23,
+    24,
+    25
+  ],
+  "units": [
+    {
+      "pages": [
+        23
+      ],
+      "locator": "§5 영천 세대 대조",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B006-C001"
+      ],
+      "hold": "원 관찰·조사시기 미확보 및 -었는 전국분포 의문형 재인용; 운영 보류"
+    },
+    {
+      "pages": [
+        24
+      ],
+      "locator": "§5 가시개로 설명",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B006-C002"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        24
+      ],
+      "locator": "§5.1 부산",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B006-C003"
+      ],
+      "hold": "세대 분포 표본·시점 미상; 운영 세대 필터 보류"
+    },
+    {
+      "pages": [
+        24,
+        25,
+        26,
+        47
+      ],
+      "locator": "§5.2 대구 전체·각주54",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B006-C004"
+      ],
+      "hold": "뭉뚱그린 세대 기술; 전 세대 공통과 일부 회피 등 유보 동시 보존, 운영 연령 필터 보류"
+    }
+  ],
+  "context": [
+    "23–24쪽 경주 80/50/30/10대 표는 편집자 예상이라고 명시: 관찰 Claim 미생성; 원문은 evidence에 보존하지 않은 맥락 예문으로 분류",
+    "§4는 다른 문서 링크뿐. 26쪽 첫 문장은 대구 설명의 연속으로 읽음"
+  ],
+  "open_issues": [
+    "경주 예상 예문을 세대별 관찰로 사용할 수 없음",
+    "대구 세대 구간 중첩·강한 부재 서술"
+  ],
+  "schema_note": "기존 v3 유지; content 내부 operational_status와 표의 dash_semantics 추가. 보류는 자동 생성 불가."
+}

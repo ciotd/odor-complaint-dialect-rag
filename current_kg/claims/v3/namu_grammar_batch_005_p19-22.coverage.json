@@ -1,0 +1,118 @@
+{
+  "source_id": "NAMU_GRAMMAR_20260908",
+  "status": "partial_source_extraction",
+  "body_pages": [
+    19,
+    20,
+    21,
+    22
+  ],
+  "units": [
+    {
+      "pages": [
+        19,
+        20
+      ],
+      "locator": "§3.6 -ㅣ이 표와 기능",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B005-C001"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        20,
+        21
+      ],
+      "locator": "§3.6 -이 표·어감",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B005-C002"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        21,
+        47
+      ],
+      "locator": "§3.6 남용 예·각주43",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B005-C003"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        19,
+        21
+      ],
+      "locator": "§3.6 지역·세대·확장",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B005-C004"
+      ],
+      "hold": "지역 미확정·미래 예상·전사 재인용; 범용 운영 적용 보류"
+    },
+    {
+      "pages": [
+        21,
+        22,
+        47
+      ],
+      "locator": "§3.7 표·각주45–50",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B005-C005"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        22,
+        47
+      ],
+      "locator": "§3.7 억양·각주49–50",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B005-C006"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        22
+      ],
+      "locator": "§3.7 경북 북부",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B005-C007"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        22,
+        23,
+        47
+      ],
+      "locator": "§3.7 니껴형 표·각주51–52",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B005-C008"
+      ],
+      "hold": "어원·과거회상 결합은 알려져 있다는 간접 설명; 원 분석 확인 전 운영 보류"
+    }
+  ],
+  "context": [
+    "§3.7 끝 23쪽에서 확인; §3.5 19쪽 앞부분은 B004에 포함"
+  ],
+  "open_issues": [
+    "니껴형 재인용성·어원",
+    "-대이 지역·변이 관찰 범위"
+  ],
+  "schema_note": "기존 v3 유지; content 내부 operational_status와 표의 dash_semantics 추가. 보류는 자동 생성 불가.",
+  "visual_audit": {
+    "pdf_pages": [
+      21,
+      22,
+      23
+    ],
+    "method": "pdftoppm PNG and view_image",
+    "scope": "줄바꿈·병합셀·표기 원문 대조; 언어학적 정답 검증 아님"
+  }
+}

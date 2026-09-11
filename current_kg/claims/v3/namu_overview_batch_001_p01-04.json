@@ -1,0 +1,1849 @@
+{
+  "format_version": "3.0-draft.1",
+  "status": "extraction_draft",
+  "entities": [
+    {
+      "id": "NAMU20260901-B001-C001.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§2.2 일반 상대높임 개관표",
+        "evidence_refs": [
+          "NAMU20260901-B001-C001.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C001.table_usage.0",
+      "type": "Usage",
+      "properties": {
+        "label": "서술",
+        "evidence_refs": [
+          "NAMU20260901-B001-C001.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C001.table_usage.1",
+      "type": "Usage",
+      "properties": {
+        "label": "의문",
+        "evidence_refs": [
+          "NAMU20260901-B001-C001.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C001.table_usage.2",
+      "type": "Usage",
+      "properties": {
+        "label": "명령",
+        "evidence_refs": [
+          "NAMU20260901-B001-C001.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C001.table_usage.3",
+      "type": "Usage",
+      "properties": {
+        "label": "청유",
+        "evidence_refs": [
+          "NAMU20260901-B001-C001.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C002.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§2.2 해라체 약속법",
+        "evidence_refs": [
+          "NAMU20260901-B001-C002.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C003.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§2.2 간접 인용 경음화",
+        "evidence_refs": [
+          "NAMU20260901-B001-C003.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C003.entry.0",
+      "type": "Usage",
+      "properties": {
+        "label": "-다 하고",
+        "evidence_refs": [
+          "NAMU20260901-B001-C003.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C003.entry.1",
+      "type": "Usage",
+      "properties": {
+        "label": "-자 하고",
+        "evidence_refs": [
+          "NAMU20260901-B001-C003.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C003.entry.2",
+      "type": "Usage",
+      "properties": {
+        "label": "-라 하고",
+        "evidence_refs": [
+          "NAMU20260901-B001-C003.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C004.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§2.2 의문 인용 제한·냐꼬 유보",
+        "evidence_refs": [
+          "NAMU20260901-B001-C004.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C005.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§2.2 -지/-제 문장유형별 분포",
+        "evidence_refs": [
+          "NAMU20260901-B001-C005.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C005.entry.0",
+      "type": "Usage",
+      "properties": {
+        "label": "평서법",
+        "evidence_refs": [
+          "NAMU20260901-B001-C005.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C005.entry.1",
+      "type": "Usage",
+      "properties": {
+        "label": "판정 의문문",
+        "evidence_refs": [
+          "NAMU20260901-B001-C005.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C005.entry.2",
+      "type": "Usage",
+      "properties": {
+        "label": "설명 의문문",
+        "evidence_refs": [
+          "NAMU20260901-B001-C005.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C006.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§2.2 일반적 사실 -니라",
+        "evidence_refs": [
+          "NAMU20260901-B001-C006.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C007.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§2.2 경북 북부 상대높임 개관표",
+        "evidence_refs": [
+          "NAMU20260901-B001-C007.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C007.table_usage.0",
+      "type": "Usage",
+      "properties": {
+        "label": "서술",
+        "evidence_refs": [
+          "NAMU20260901-B001-C007.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C007.table_usage.1",
+      "type": "Usage",
+      "properties": {
+        "label": "의문",
+        "evidence_refs": [
+          "NAMU20260901-B001-C007.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C007.table_usage.2",
+      "type": "Usage",
+      "properties": {
+        "label": "명령",
+        "evidence_refs": [
+          "NAMU20260901-B001-C007.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C007.table_usage.3",
+      "type": "Usage",
+      "properties": {
+        "label": "청유",
+        "evidence_refs": [
+          "NAMU20260901-B001-C007.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C007.table_usage.4",
+      "type": "Usage",
+      "properties": {
+        "label": "감탄",
+        "evidence_refs": [
+          "NAMU20260901-B001-C007.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C007.table_usage.5",
+      "type": "Usage",
+      "properties": {
+        "label": "약속",
+        "evidence_refs": [
+          "NAMU20260901-B001-C007.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C008.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§2.2 경북 북부 -지/-제 교체",
+        "evidence_refs": [
+          "NAMU20260901-B001-C008.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C009.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§2.2 -이로-와 -읻-",
+        "evidence_refs": [
+          "NAMU20260901-B001-C009.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C009.entry.0",
+      "type": "Usage",
+      "properties": {
+        "label": "-이로소이다",
+        "evidence_refs": [
+          "NAMU20260901-B001-C009.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C009.entry.1",
+      "type": "Usage",
+      "properties": {
+        "label": "-이로세/일세",
+        "evidence_refs": [
+          "NAMU20260901-B001-C009.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C009.entry.2",
+      "type": "Usage",
+      "properties": {
+        "label": "-이로다",
+        "evidence_refs": [
+          "NAMU20260901-B001-C009.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C010.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§2.2 -더-와 -나/-노 축약",
+        "evidence_refs": [
+          "NAMU20260901-B001-C010.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C010.entry.0",
+      "type": "Usage",
+      "properties": {
+        "label": "-더나",
+        "evidence_refs": [
+          "NAMU20260901-B001-C010.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C010.entry.1",
+      "type": "Usage",
+      "properties": {
+        "label": "-더노",
+        "evidence_refs": [
+          "NAMU20260901-B001-C010.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C011.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§2.2 안동 중심 -(으)ㄹ라/로",
+        "evidence_refs": [
+          "NAMU20260901-B001-C011.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C011.entry.0",
+      "type": "Usage",
+      "properties": {
+        "label": "-(으)ㄹ- + -나",
+        "evidence_refs": [
+          "NAMU20260901-B001-C011.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C011.entry.1",
+      "type": "Usage",
+      "properties": {
+        "label": "-(으)ㄹ- + -노",
+        "evidence_refs": [
+          "NAMU20260901-B001-C011.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C012.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§2.2 어떠하노 축약 및 나형",
+        "evidence_refs": [
+          "NAMU20260901-B001-C012.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C012.entry.0",
+      "type": "Usage",
+      "properties": {
+        "label": "어떠하노",
+        "evidence_refs": [
+          "NAMU20260901-B001-C012.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C012.entry.1",
+      "type": "Usage",
+      "properties": {
+        "label": "나형 어미를 쓰는 지역",
+        "evidence_refs": [
+          "NAMU20260901-B001-C012.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C013.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§2.2 서부 -나 통합 경향",
+        "evidence_refs": [
+          "NAMU20260901-B001-C013.e"
+        ]
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "NAMU20260901-B001-C001.e",
+      "source_id": "NAMU20260901",
+      "pdf_pages": [
+        3
+      ],
+      "locator": "§2.2 일반 상대높임 개관표",
+      "excerpt": "동남 방언의 고유한 상대 높임법은 하이소체, 하소체, 하게체, 해라체, 해예/해요체, 해체 등이 있다.\n 일반적으로 다음과 같이 나타난다.\n      하이소체           해예체             하소체(남부)      하게체                    해라체\n  서 -(스)ㅂ니다~더, -(스) -어예, -어요         -요/-소        -네, -(이)ㄹ세             -다/(느)ㄴ다, -니\n  술 ㅂ디다~더                                                                라, -어\n  의 -(스)ㅂ니까~꺼, -(스) -어예, -어요         -요/-소, -(느)ㄴ -(느)ㄴ가/ㄴ강/ㄴ            -나/노/(이)가/\n  문 ㅂ디까~꺼                            교(동부)        고/ㄴ공                   (이)고, -어\n  명 -(으)이소           -(으)세예/-세요, - -(으)소          -게                     -어라, -어\n  령                  어예/어요\n  청 -(으)입시다~더            명령과 동일              -(으)ㅂ시다~더 -세                 -자, -어\n  유\n 해라체 약속법으로",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU20260901-B001-C002.e",
+      "source_id": "NAMU20260901",
+      "pdf_pages": [
+        3
+      ],
+      "locator": "§2.2 해라체 약속법",
+      "excerpt": "해라체 약속법으로 '-(으)마, -(으)ㄹ구마'가 나타나기도 한다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU20260901-B001-C003.e",
+      "source_id": "NAMU20260901",
+      "pdf_pages": [
+        3
+      ],
+      "locator": "§2.2 간접 인용 경음화",
+      "excerpt": "동남 방언에서 간접 인용은 '-다꼬, -자꼬, -라꼬'등 '-고'가 경음화하는 경향을 보인다. 원형태가 '-다/자/라 하고'인 '종결어미\n + 하고' 꼴에서 '하고'가 '꼬'로 축약한 것이다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU20260901-B001-C004.e",
+      "source_id": "NAMU20260901",
+      "pdf_pages": [
+        3
+      ],
+      "locator": "§2.2 의문 인용 제한·냐꼬 유보",
+      "excerpt": "특이하게도 의문어미 '-(이)가/-(이)고/-나/-노'는 '-다ᇹ고, -라ᇹ고, -자ᇹ고' 같은 인용 형태가 없다. 보통은 뒤에 '하고, 그라고, 카\n 고, 그카고, -라고'를 붙여 '이기 그기가 하고, 와 묵노 그라고'처럼 사용된다. '-냐ᇹ고'[냐꼬]가 쓰이는 것으로도 보이는데 최근\n 에 생겨난 것인지 흔히 발견되지는 않는다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU20260901-B001-C005.e",
+      "source_id": "NAMU20260901",
+      "pdf_pages": [
+        3
+      ],
+      "locator": "§2.2 -지/-제 문장유형별 분포",
+      "excerpt": "'-지' 어미는 평서법에서 '-지~제'로, 의문법 중 판정 의문문에서 '-제', 설명 의문문에서 '-지'로 나타난다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU20260901-B001-C006.e",
+      "source_id": "NAMU20260901",
+      "pdf_pages": [
+        3
+      ],
+      "locator": "§2.2 일반적 사실 -니라",
+      "excerpt": "일반적인 사실을 말할 때 '-니라'가 가끔 쓰인다. '꿩은 봄만 되머 우니라.'",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU20260901-B001-C007.e",
+      "source_id": "NAMU20260901",
+      "pdf_pages": [
+        3,
+        4
+      ],
+      "locator": "§2.2 경북 북부 상대높임 개관표",
+      "excerpt": "경북 북부 지역은 다음과 같이 나타난다. 다른 방언과 다르게 감탄/약속형 어미가 다양하다.\n      하소체             해요체          하오체      하게체                    해라체\n  서 -니더/-(으)이더, -디 -어요, -어예 -(으)오/소, -(으)이, -네, -(이)               -다/(느)ㄴ다, -(이)ㄷ다, -\n  술 이더, -(이)ㄷ시더                    -(이)요    ㄷ세                     니라, -어\n  의 -니껴/-(으)이껴, -디 -어요, -어예 -(으)오/소, -ㄴ가/ㄴ강/ㄴ고/ㄴ                   -(으)나/-나/노/(이)라/(이)\n  문 이껴                             -(이)요    공, -(느)ㄴ게나             로/(이)가/(이)고, -어\n[…]\n   명 -(으)소, -(으)이소            -(으)세요/세예, -(으)오        -게          -어라, -어\n   령                          -어요/어예\n   청 -(으)시더                   명령과 동일       (없음)       -세          -자, -지/제, -어\n   유\n   감       (없음)               -어요, -어예     (없음)            (없음)   -어라, -구나, -괴, -네, -\n   탄                                                              (으)ㄹ세, -(이)ㄷ세\n   약 -(으)ㅁ시더                  -(으)ㄹ게요/ㄹ    (없음)       -(으)ㅁ세      -(으)마, -(으)ㄹ구마/ㄹ거\n   속                          게예                                  마, -(으)ㄹ게/ㄹ거이",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU20260901-B001-C008.e",
+      "source_id": "NAMU20260901",
+      "pdf_pages": [
+        4
+      ],
+      "locator": "§2.2 경북 북부 -지/-제 교체",
+      "excerpt": "경북 북부 방언에서 '-지' 어미는 평서법/의문법 구분이 모호해져 보통 '-지/제'가 교체된다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU20260901-B001-C009.e",
+      "source_id": "NAMU20260901",
+      "pdf_pages": [
+        4,
+        48
+      ],
+      "locator": "§2.2 -이로-와 -읻-",
+      "excerpt": "조사 '-이-'의 불규칙 '-이로-'가 '-읻-'으로 바뀌어 '-읻시더(-이로소이다), -읻세(-이로세/일세), -읻다(-이로다)'가 나타난다.\n[…]\n[1] 술 + 가락 → 숟가락과 같이 ㄷ으로 적었다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU20260901-B001-C010.e",
+      "source_id": "NAMU20260901",
+      "pdf_pages": [
+        4
+      ],
+      "locator": "§2.2 -더-와 -나/-노 축약",
+      "excerpt": "경북을 중심으로 '-나/노'에 '-더-' 어미가 결합하면 '-더나/-더노'뿐만 아니라 축약형인 '-다아/-도오'도 쓰인다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU20260901-B001-C011.e",
+      "source_id": "NAMU20260901",
+      "pdf_pages": [
+        4
+      ],
+      "locator": "§2.2 안동 중심 -(으)ㄹ라/로",
+      "excerpt": "안동을 중심으\n 로 쓰이는 '-(으)ㄹ-' 선어말어미에 '-나/노'가 결합한 '-(으)ㄹ라/-(으)ㄹ로'도 나타난다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU20260901-B001-C012.e",
+      "source_id": "NAMU20260901",
+      "pdf_pages": [
+        4,
+        49
+      ],
+      "locator": "§2.2 어떠하노 축약 및 나형",
+      "excerpt": "'어떻노/어떠노'도 지역에 따라 '어떠\n 하노'가 줄어든 '어또오'로 나타난다.\n[…]\n[2] 나형 어미를 쓰는 지역은 '어따아'로 나타난다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU20260901-B001-C013.e",
+      "source_id": "NAMU20260901",
+      "pdf_pages": [
+        4
+      ],
+      "locator": "§2.2 서부 -나 통합 경향",
+      "excerpt": "'-나/노/(이)가/(이)고'는 경상도와 멀어질수록 '-나'와 통합하고, 그 너머로는 '-냐/니'가 되는 경향을 보인다. 대표적으로 경북\n 서부와 경남 서부, 영동 방언 남부 지역의 해라체 어미는 '-나'로 자주 나타난다. 그 너머인 서남 방언, 충청 방언, 영서 방언, 영\n 동 방언 북부는 '-냐/니'가 나타난다.",
+      "kind": "source_statement"
+    }
+  ],
+  "claims": [
+    {
+      "id": "NAMU20260901-B001-C001",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "상대높임",
+        "종결어미"
+      ],
+      "source_terms": [
+        "§2.2 일반 상대높임 개관표"
+      ],
+      "target_refs": [
+        "NAMU20260901-B001-C001.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU20260901-B001-C001.a",
+          "kind": "scoped_inventory",
+          "target_refs": [
+            "NAMU20260901-B001-C001.usage"
+          ],
+          "content": {
+            "source_analysis": "출처의 말씨별 서술·의문·명령·청유 목록. 하소체는 남부로 표기하며 의문 -(느)ㄴ교는 동부라는 셀 내부 제한이 있다.",
+            "extractor_interpretation": "원문 명시 범위만 구조화. 미제시 결합·형태소 분석·전역 치환을 추론하지 않음.",
+            "generation_policy": "운영 미승인 초안. 출처 분석과 생성 정책을 구별하며 현대 자연스러움 미검증.",
+            "operational_status": "held",
+            "ending_inventory_table": {
+              "headers": [
+                "하이소체",
+                "해예체",
+                "하소체(남부)",
+                "하게체",
+                "해라체"
+              ],
+              "rows": [
+                {
+                  "usage_ref": "NAMU20260901-B001-C001.table_usage.0",
+                  "speech_act": "서술",
+                  "cells": [
+                    "-(스)ㅂ니다~더, -(스)ㅂ디다~더",
+                    "-어예, -어요",
+                    "-요/-소",
+                    "-네, -(이)ㄹ세",
+                    "-다/(느)ㄴ다, -니라, -어"
+                  ]
+                },
+                {
+                  "usage_ref": "NAMU20260901-B001-C001.table_usage.1",
+                  "speech_act": "의문",
+                  "cells": [
+                    "-(스)ㅂ니까~꺼, -(스)ㅂ디까~꺼",
+                    "-어예, -어요",
+                    "-요/-소, -(느)ㄴ교(동부)",
+                    "-(느)ㄴ가/ㄴ강/ㄴ고/ㄴ공",
+                    "-나/노/(이)가/(이)고, -어"
+                  ]
+                },
+                {
+                  "usage_ref": "NAMU20260901-B001-C001.table_usage.2",
+                  "speech_act": "명령",
+                  "cells": [
+                    "-(으)이소",
+                    "-(으)세예/-세요, -어예/어요",
+                    "-(으)소",
+                    "-게",
+                    "-어라, -어"
+                  ]
+                },
+                {
+                  "usage_ref": "NAMU20260901-B001-C001.table_usage.3",
+                  "speech_act": "청유",
+                  "cells": [
+                    "-(으)입시다~더",
+                    "명령과 동일",
+                    "-(으)ㅂ시다~더",
+                    "-세",
+                    "-자, -어"
+                  ]
+                }
+              ],
+              "interpretation": "원문 표의 화행×말씨 목록. 각 셀은 원문 그대로인 어미 도식이며 실제 어휘 활용형이 아니다. 없음·명령과 동일도 보존."
+            }
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU20260901-B001-C001.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU20260901-B001-C001.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "동남 방언 문서 맥락; 세부 분포·경상 전역 공통성 미확보"
+        },
+        {
+          "id": "NAMU20260901-B001-C001.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "개별 조사·발화 시점 미제시. 문서 판 2026-09-01 및 인쇄 2026-09-03과 구별"
+        },
+        {
+          "id": "NAMU20260901-B001-C001.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_description": "위키의 문법 설명·제시 예",
+            "exclusivity": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU20260901-B001-C001.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "PDF3 개관표의 세부 결합·이형태 조건 미제시; 표의 슬래시·물결을 완전한 활용형으로 자동 전개하지 않음.",
+        "문헌 설명의 정답·현대 화자 선호 및 미제시 결합 환경은 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C002",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미",
+        "약속"
+      ],
+      "source_terms": [
+        "§2.2 해라체 약속법"
+      ],
+      "target_refs": [
+        "NAMU20260901-B001-C002.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU20260901-B001-C002.a",
+          "kind": "conditioned_realization",
+          "target_refs": [
+            "NAMU20260901-B001-C002.usage"
+          ],
+          "content": {
+            "source_analysis": "해라체 약속법에서 두 도식이 나타나기도 함.",
+            "extractor_interpretation": "원문 명시 범위만 구조화. 미제시 결합·형태소 분석·전역 치환을 추론하지 않음.",
+            "generation_policy": "운영 미승인 초안. 출처 분석과 생성 정책을 구별하며 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-(으)마",
+              "-(으)ㄹ구마"
+            ],
+            "form_layer": "ending_schema"
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "NAMU20260901-B001-C002.usage",
+                "feature": "speech_level",
+                "value": "해라체"
+              },
+              {
+                "op": "eq",
+                "target": "NAMU20260901-B001-C002.usage",
+                "feature": "speech_act",
+                "value": "약속"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "NAMU20260901-B001-C002.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU20260901-B001-C002.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "동남 방언 문서 맥락; 세부 분포·경상 전역 공통성 미확보"
+        },
+        {
+          "id": "NAMU20260901-B001-C002.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "개별 조사·발화 시점 미제시. 문서 판 2026-09-01 및 인쇄 2026-09-03과 구별"
+        },
+        {
+          "id": "NAMU20260901-B001-C002.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_description": "위키의 문법 설명·제시 예",
+            "exclusivity": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU20260901-B001-C002.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "문헌 설명의 정답·현대 화자 선호 및 미제시 결합 환경은 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C003",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "인용",
+        "형태음운"
+      ],
+      "source_terms": [
+        "§2.2 간접 인용 경음화"
+      ],
+      "target_refs": [
+        "NAMU20260901-B001-C003.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU20260901-B001-C003.a",
+          "kind": "conditioned_realization",
+          "target_refs": [
+            "NAMU20260901-B001-C003.usage"
+          ],
+          "content": {
+            "source_analysis": "-다/자/라 하고의 하고→꼬 축약으로 -다꼬·-자꼬·-라꼬를 설명. 경향이지 모든 인용의 무조건 치환이 아님.",
+            "extractor_interpretation": "원문 명시 범위만 구조화. 미제시 결합·형태소 분석·전역 치환을 추론하지 않음.",
+            "generation_policy": "운영 미승인 초안. 출처 분석과 생성 정책을 구별하며 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "mandatory": false,
+            "source_forms": [
+              "-다/자/라 하고"
+            ],
+            "entries": [
+              {
+                "usage_ref": "NAMU20260901-B001-C003.entry.0",
+                "source_expression": "-다 하고",
+                "forms": [
+                  "-다꼬"
+                ]
+              },
+              {
+                "usage_ref": "NAMU20260901-B001-C003.entry.1",
+                "source_expression": "-자 하고",
+                "forms": [
+                  "-자꼬"
+                ]
+              },
+              {
+                "usage_ref": "NAMU20260901-B001-C003.entry.2",
+                "source_expression": "-라 하고",
+                "forms": [
+                  "-라꼬"
+                ]
+              }
+            ]
+          },
+          "condition": {
+            "op": "eq",
+            "target": "NAMU20260901-B001-C003.usage",
+            "feature": "source_construction",
+            "value": "종결어미 + 하고"
+          }
+        }
+      ],
+      "evidence_refs": [
+        "NAMU20260901-B001-C003.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU20260901-B001-C003.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "동남 방언 문서 맥락; 세부 분포·경상 전역 공통성 미확보"
+        },
+        {
+          "id": "NAMU20260901-B001-C003.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "개별 조사·발화 시점 미제시. 문서 판 2026-09-01 및 인쇄 2026-09-03과 구별"
+        },
+        {
+          "id": "NAMU20260901-B001-C003.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_description": "위키의 문법 설명·제시 예",
+            "exclusivity": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU20260901-B001-C003.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "문헌 설명의 정답·현대 화자 선호 및 미제시 결합 환경은 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C004",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "인용",
+        "의문"
+      ],
+      "source_terms": [
+        "§2.2 의문 인용 제한·냐꼬 유보"
+      ],
+      "target_refs": [
+        "NAMU20260901-B001-C004.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU20260901-B001-C004.a",
+          "kind": "scope_caveat",
+          "target_refs": [
+            "NAMU20260901-B001-C004.usage"
+          ],
+          "content": {
+            "source_analysis": "-(이)가/-(이)고/-나/-노는 본문이 든 인용형을 갖지 않고 하고·그라고·카고·그카고·-라고를 뒤에 붙임. -냐꼬 관찰은 출처 자체가 발생 시기와 사용을 유보함.",
+            "extractor_interpretation": "원문 명시 범위만 구조화. 미제시 결합·형태소 분석·전역 치환을 추론하지 않음.",
+            "generation_policy": "운영 미승인 초안. 출처 분석과 생성 정책을 구별하며 현대 자연스러움 미검증.",
+            "operational_status": "held",
+            "source_examples": [
+              "이기 그기가 하고",
+              "와 묵노 그라고"
+            ],
+            "alternatives": [
+              "하고",
+              "그라고",
+              "카고",
+              "그카고",
+              "-라고"
+            ],
+            "tentative": "-냐ᇹ고[냐꼬]"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU20260901-B001-C004.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU20260901-B001-C004.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "동남 방언 문서 맥락; 세부 분포·경상 전역 공통성 미확보"
+        },
+        {
+          "id": "NAMU20260901-B001-C004.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "개별 조사·발화 시점 미제시. 문서 판 2026-09-01 및 인쇄 2026-09-03과 구별"
+        },
+        {
+          "id": "NAMU20260901-B001-C004.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_description": "위키의 문법 설명·제시 예",
+            "exclusivity": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU20260901-B001-C004.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "PDF3 옛한글 인용형 및 -냐꼬의 발생·분포 미확정. 원문 보존하되 운영 인용 변환 보류.",
+        "문헌 설명의 정답·현대 화자 선호 및 미제시 결합 환경은 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C005",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미",
+        "의문"
+      ],
+      "source_terms": [
+        "§2.2 -지/-제 문장유형별 분포"
+      ],
+      "target_refs": [
+        "NAMU20260901-B001-C005.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU20260901-B001-C005.a",
+          "kind": "scoped_inventory",
+          "target_refs": [
+            "NAMU20260901-B001-C005.usage"
+          ],
+          "content": {
+            "source_analysis": "평서 -지~제, 판정의문 -제, 설명의문 -지. 다음 쪽 경북 북부 교체 단서를 별도 연결한다.",
+            "extractor_interpretation": "원문 명시 범위만 구조화. 미제시 결합·형태소 분석·전역 치환을 추론하지 않음.",
+            "generation_policy": "운영 미승인 초안. 출처 분석과 생성 정책을 구별하며 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "scope_caveat": "경북 북부는 B001-C008의 구분 모호 단서 적용",
+            "entries": [
+              {
+                "usage_ref": "NAMU20260901-B001-C005.entry.0",
+                "source_expression": "평서법",
+                "forms": [
+                  "-지",
+                  "-제"
+                ]
+              },
+              {
+                "usage_ref": "NAMU20260901-B001-C005.entry.1",
+                "source_expression": "판정 의문문",
+                "forms": [
+                  "-제"
+                ]
+              },
+              {
+                "usage_ref": "NAMU20260901-B001-C005.entry.2",
+                "source_expression": "설명 의문문",
+                "forms": [
+                  "-지"
+                ]
+              }
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU20260901-B001-C005.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU20260901-B001-C005.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "동남 방언 문서 맥락; 세부 분포·경상 전역 공통성 미확보"
+        },
+        {
+          "id": "NAMU20260901-B001-C005.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "개별 조사·발화 시점 미제시. 문서 판 2026-09-01 및 인쇄 2026-09-03과 구별"
+        },
+        {
+          "id": "NAMU20260901-B001-C005.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_description": "위키의 문법 설명·제시 예",
+            "exclusivity": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU20260901-B001-C005.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "문헌 설명의 정답·현대 화자 선호 및 미제시 결합 환경은 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C006",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "§2.2 일반적 사실 -니라"
+      ],
+      "target_refs": [
+        "NAMU20260901-B001-C006.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU20260901-B001-C006.a",
+          "kind": "conditioned_realization",
+          "target_refs": [
+            "NAMU20260901-B001-C006.usage"
+          ],
+          "content": {
+            "source_analysis": "일반적인 사실 서술에서 가끔 쓰임.",
+            "extractor_interpretation": "원문 명시 범위만 구조화. 미제시 결합·형태소 분석·전역 치환을 추론하지 않음.",
+            "generation_policy": "운영 미승인 초안. 출처 분석과 생성 정책을 구별하며 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-니라"
+            ],
+            "source_examples": [
+              "꿩은 봄만 되머 우니라."
+            ],
+            "frequency_qualifier": "가끔"
+          },
+          "condition": {
+            "op": "eq",
+            "target": "NAMU20260901-B001-C006.usage",
+            "feature": "discourse_function",
+            "value": "일반적인 사실"
+          }
+        }
+      ],
+      "evidence_refs": [
+        "NAMU20260901-B001-C006.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU20260901-B001-C006.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "동남 방언 문서 맥락; 세부 분포·경상 전역 공통성 미확보"
+        },
+        {
+          "id": "NAMU20260901-B001-C006.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "개별 조사·발화 시점 미제시. 문서 판 2026-09-01 및 인쇄 2026-09-03과 구별"
+        },
+        {
+          "id": "NAMU20260901-B001-C006.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_description": "위키의 문법 설명·제시 예",
+            "exclusivity": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU20260901-B001-C006.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "문헌 설명의 정답·현대 화자 선호 및 미제시 결합 환경은 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C007",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "상대높임",
+        "종결어미"
+      ],
+      "source_terms": [
+        "§2.2 경북 북부 상대높임 개관표"
+      ],
+      "target_refs": [
+        "NAMU20260901-B001-C007.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU20260901-B001-C007.a",
+          "kind": "scoped_inventory",
+          "target_refs": [
+            "NAMU20260901-B001-C007.usage"
+          ],
+          "content": {
+            "source_analysis": "일반표와 별개인 경북 북부 표. 하소체·해요체·하오체·하게체·해라체와 감탄·약속을 포함하며 미제시 칸을 보존.",
+            "extractor_interpretation": "원문 명시 범위만 구조화. 미제시 결합·형태소 분석·전역 치환을 추론하지 않음.",
+            "generation_policy": "운영 미승인 초안. 출처 분석과 생성 정책을 구별하며 현대 자연스러움 미검증.",
+            "operational_status": "held",
+            "ending_inventory_table": {
+              "headers": [
+                "하소체",
+                "해요체",
+                "하오체",
+                "하게체",
+                "해라체"
+              ],
+              "rows": [
+                {
+                  "usage_ref": "NAMU20260901-B001-C007.table_usage.0",
+                  "speech_act": "서술",
+                  "cells": [
+                    "-니더/-(으)이더, -디이더, -(이)ㄷ시더",
+                    "-어요, -어예",
+                    "-(으)오/소, -(이)요",
+                    "-(으)이, -네, -(이)ㄷ세",
+                    "-다/(느)ㄴ다, -(이)ㄷ다, -니라, -어"
+                  ]
+                },
+                {
+                  "usage_ref": "NAMU20260901-B001-C007.table_usage.1",
+                  "speech_act": "의문",
+                  "cells": [
+                    "-니껴/-(으)이껴, -디이껴",
+                    "-어요, -어예",
+                    "-(으)오/소, -(이)요",
+                    "-ㄴ가/ㄴ강/ㄴ고/ㄴ공, -(느)ㄴ게나",
+                    "-(으)나/-나/노/(이)라/(이)로/(이)가/(이)고, -어"
+                  ]
+                },
+                {
+                  "usage_ref": "NAMU20260901-B001-C007.table_usage.2",
+                  "speech_act": "명령",
+                  "cells": [
+                    "-(으)소, -(으)이소",
+                    "-(으)세요/세예, -어요/어예",
+                    "-(으)오",
+                    "-게",
+                    "-어라, -어"
+                  ]
+                },
+                {
+                  "usage_ref": "NAMU20260901-B001-C007.table_usage.3",
+                  "speech_act": "청유",
+                  "cells": [
+                    "-(으)시더",
+                    "명령과 동일",
+                    "(없음)",
+                    "-세",
+                    "-자, -지/제, -어"
+                  ]
+                },
+                {
+                  "usage_ref": "NAMU20260901-B001-C007.table_usage.4",
+                  "speech_act": "감탄",
+                  "cells": [
+                    "(없음)",
+                    "-어요, -어예",
+                    "(없음)",
+                    "(없음)",
+                    "-어라, -구나, -괴, -네, -(으)ㄹ세, -(이)ㄷ세"
+                  ]
+                },
+                {
+                  "usage_ref": "NAMU20260901-B001-C007.table_usage.5",
+                  "speech_act": "약속",
+                  "cells": [
+                    "-(으)ㅁ시더",
+                    "-(으)ㄹ게요/ㄹ게예",
+                    "(없음)",
+                    "-(으)ㅁ세",
+                    "-(으)마, -(으)ㄹ구마/ㄹ거마, -(으)ㄹ게/ㄹ거이"
+                  ]
+                }
+              ],
+              "interpretation": "원문 표의 화행×말씨 목록. 각 셀은 원문 그대로인 어미 도식이며 실제 어휘 활용형이 아니다. 없음·명령과 동일도 보존."
+            }
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU20260901-B001-C007.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU20260901-B001-C007.region",
+          "dimension": "region",
+          "value": {
+            "source_description": "경북 북부",
+            "exclusivity": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU20260901-B001-C007.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU20260901-B001-C007.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "개별 조사·발화 시점 미제시. 문서 판 2026-09-01 및 인쇄 2026-09-03과 구별"
+        },
+        {
+          "id": "NAMU20260901-B001-C007.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_description": "위키의 문법 설명·제시 예",
+            "exclusivity": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU20260901-B001-C007.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "PDF3–4 개관표는 실제 어간·이형태 결합 조건을 생략한 목록. 같은 이름의 말씨를 일반표와 동일 분석으로 합치지 않음.",
+        "문헌 설명의 정답·현대 화자 선호 및 미제시 결합 환경은 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C008",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미",
+        "의문"
+      ],
+      "source_terms": [
+        "§2.2 경북 북부 -지/-제 교체"
+      ],
+      "target_refs": [
+        "NAMU20260901-B001-C008.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU20260901-B001-C008.a",
+          "kind": "scope_caveat",
+          "target_refs": [
+            "NAMU20260901-B001-C008.usage"
+          ],
+          "content": {
+            "source_analysis": "경북 북부에서는 평서·의문 구분이 모호해져 보통 -지/제가 교체됨.",
+            "extractor_interpretation": "원문 명시 범위만 구조화. 미제시 결합·형태소 분석·전역 치환을 추론하지 않음.",
+            "generation_policy": "운영 미승인 초안. 출처 분석과 생성 정책을 구별하며 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-지",
+              "-제"
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU20260901-B001-C008.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU20260901-B001-C008.region",
+          "dimension": "region",
+          "value": {
+            "source_description": "경북 북부",
+            "exclusivity": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU20260901-B001-C008.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU20260901-B001-C008.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "개별 조사·발화 시점 미제시. 문서 판 2026-09-01 및 인쇄 2026-09-03과 구별"
+        },
+        {
+          "id": "NAMU20260901-B001-C008.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_description": "위키의 문법 설명·제시 예",
+            "exclusivity": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU20260901-B001-C008.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [
+        {
+          "type": "qualifies",
+          "target": "NAMU20260901-B001-C005",
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU20260901-B001-C008.e"
+          ]
+        }
+      ],
+      "gaps": [
+        "문헌 설명의 정답·현대 화자 선호 및 미제시 결합 환경은 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C009",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "서술격",
+        "형태음운"
+      ],
+      "source_terms": [
+        "§2.2 -이로-와 -읻-"
+      ],
+      "target_refs": [
+        "NAMU20260901-B001-C009.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU20260901-B001-C009.a",
+          "kind": "conditioned_realization",
+          "target_refs": [
+            "NAMU20260901-B001-C009.usage"
+          ],
+          "content": {
+            "source_analysis": "조사 -이-의 불규칙 -이로-가 -읻-으로 바뀐다고 설명. ㄷ 표기는 술+가락→숟가락 비유를 따름.",
+            "extractor_interpretation": "원문 명시 범위만 구조화. 미제시 결합·형태소 분석·전역 치환을 추론하지 않음.",
+            "generation_policy": "운영 미승인 초안. 출처 분석과 생성 정책을 구별하며 현대 자연스러움 미검증.",
+            "operational_status": "held",
+            "entries": [
+              {
+                "usage_ref": "NAMU20260901-B001-C009.entry.0",
+                "source_expression": "-이로소이다",
+                "forms": [
+                  "-읻시더"
+                ]
+              },
+              {
+                "usage_ref": "NAMU20260901-B001-C009.entry.1",
+                "source_expression": "-이로세/일세",
+                "forms": [
+                  "-읻세"
+                ]
+              },
+              {
+                "usage_ref": "NAMU20260901-B001-C009.entry.2",
+                "source_expression": "-이로다",
+                "forms": [
+                  "-읻다"
+                ]
+              }
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU20260901-B001-C009.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU20260901-B001-C009.region",
+          "dimension": "region",
+          "value": {
+            "source_description": "경북 북부 설명 맥락",
+            "exclusivity": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU20260901-B001-C009.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU20260901-B001-C009.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "개별 조사·발화 시점 미제시. 문서 판 2026-09-01 및 인쇄 2026-09-03과 구별"
+        },
+        {
+          "id": "NAMU20260901-B001-C009.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_description": "위키의 문법 설명·제시 예",
+            "exclusivity": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU20260901-B001-C009.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "PDF4·48 각주1의 형태소·역사 분석은 검증 전. 괄호 대응을 생산적 치환으로 일반화하지 않음.",
+        "문헌 설명의 정답·현대 화자 선호 및 미제시 결합 환경은 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C010",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미",
+        "형태음운"
+      ],
+      "source_terms": [
+        "§2.2 -더-와 -나/-노 축약"
+      ],
+      "target_refs": [
+        "NAMU20260901-B001-C010.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU20260901-B001-C010.a",
+          "kind": "conditioned_realization",
+          "target_refs": [
+            "NAMU20260901-B001-C010.usage"
+          ],
+          "content": {
+            "source_analysis": "경북 중심으로 -더나/-더노와 축약 -다아/-도오가 공존.",
+            "extractor_interpretation": "원문 명시 범위만 구조화. 미제시 결합·형태소 분석·전역 치환을 추론하지 않음.",
+            "generation_policy": "운영 미승인 초안. 출처 분석과 생성 정책을 구별하며 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "entries": [
+              {
+                "usage_ref": "NAMU20260901-B001-C010.entry.0",
+                "source_expression": "-더나",
+                "forms": [
+                  "-더나",
+                  "-다아"
+                ]
+              },
+              {
+                "usage_ref": "NAMU20260901-B001-C010.entry.1",
+                "source_expression": "-더노",
+                "forms": [
+                  "-더노",
+                  "-도오"
+                ]
+              }
+            ]
+          },
+          "condition": {
+            "op": "eq",
+            "target": "NAMU20260901-B001-C010.usage",
+            "feature": "preceding_preending",
+            "value": "-더-"
+          }
+        }
+      ],
+      "evidence_refs": [
+        "NAMU20260901-B001-C010.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU20260901-B001-C010.region",
+          "dimension": "region",
+          "value": {
+            "source_description": "경북 중심",
+            "exclusivity": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU20260901-B001-C010.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU20260901-B001-C010.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "개별 조사·발화 시점 미제시. 문서 판 2026-09-01 및 인쇄 2026-09-03과 구별"
+        },
+        {
+          "id": "NAMU20260901-B001-C010.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_description": "위키의 문법 설명·제시 예",
+            "exclusivity": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU20260901-B001-C010.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "문헌 설명의 정답·현대 화자 선호 및 미제시 결합 환경은 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C011",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미",
+        "선어말어미"
+      ],
+      "source_terms": [
+        "§2.2 안동 중심 -(으)ㄹ라/로"
+      ],
+      "target_refs": [
+        "NAMU20260901-B001-C011.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU20260901-B001-C011.a",
+          "kind": "conditioned_realization",
+          "target_refs": [
+            "NAMU20260901-B001-C011.usage"
+          ],
+          "content": {
+            "source_analysis": "안동 중심 -(으)ㄹ- 선어말어미에 -나/노 결합을 제시.",
+            "extractor_interpretation": "원문 명시 범위만 구조화. 미제시 결합·형태소 분석·전역 치환을 추론하지 않음.",
+            "generation_policy": "운영 미승인 초안. 출처 분석과 생성 정책을 구별하며 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "entries": [
+              {
+                "usage_ref": "NAMU20260901-B001-C011.entry.0",
+                "source_expression": "-(으)ㄹ- + -나",
+                "forms": [
+                  "-(으)ㄹ라"
+                ]
+              },
+              {
+                "usage_ref": "NAMU20260901-B001-C011.entry.1",
+                "source_expression": "-(으)ㄹ- + -노",
+                "forms": [
+                  "-(으)ㄹ로"
+                ]
+              }
+            ]
+          },
+          "condition": {
+            "op": "eq",
+            "target": "NAMU20260901-B001-C011.usage",
+            "feature": "preceding_preending",
+            "value": "-(으)ㄹ-"
+          }
+        }
+      ],
+      "evidence_refs": [
+        "NAMU20260901-B001-C011.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU20260901-B001-C011.region",
+          "dimension": "region",
+          "value": {
+            "source_description": "안동 중심",
+            "exclusivity": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU20260901-B001-C011.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU20260901-B001-C011.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "개별 조사·발화 시점 미제시. 문서 판 2026-09-01 및 인쇄 2026-09-03과 구별"
+        },
+        {
+          "id": "NAMU20260901-B001-C011.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_description": "위키의 문법 설명·제시 예",
+            "exclusivity": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU20260901-B001-C011.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "문헌 설명의 정답·현대 화자 선호 및 미제시 결합 환경은 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C012",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "의문",
+        "형태음운"
+      ],
+      "source_terms": [
+        "§2.2 어떠하노 축약 및 나형"
+      ],
+      "target_refs": [
+        "NAMU20260901-B001-C012.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU20260901-B001-C012.a",
+          "kind": "conditioned_realization",
+          "target_refs": [
+            "NAMU20260901-B001-C012.usage"
+          ],
+          "content": {
+            "source_analysis": "지역에 따라 어떻노/어떠노에 대응하는 어또오. 각주2는 나형 어미 지역에 어따아를 제시.",
+            "extractor_interpretation": "원문 명시 범위만 구조화. 미제시 결합·형태소 분석·전역 치환을 추론하지 않음.",
+            "generation_policy": "운영 미승인 초안. 출처 분석과 생성 정책을 구별하며 현대 자연스러움 미검증.",
+            "operational_status": "held",
+            "entries": [
+              {
+                "usage_ref": "NAMU20260901-B001-C012.entry.0",
+                "source_expression": "어떠하노",
+                "forms": [
+                  "어또오"
+                ]
+              },
+              {
+                "usage_ref": "NAMU20260901-B001-C012.entry.1",
+                "source_expression": "나형 어미를 쓰는 지역",
+                "forms": [
+                  "어따아"
+                ]
+              }
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU20260901-B001-C012.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU20260901-B001-C012.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "동남 방언 문서 맥락; 세부 분포·경상 전역 공통성 미확보"
+        },
+        {
+          "id": "NAMU20260901-B001-C012.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "개별 조사·발화 시점 미제시. 문서 판 2026-09-01 및 인쇄 2026-09-03과 구별"
+        },
+        {
+          "id": "NAMU20260901-B001-C012.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_description": "위키의 문법 설명·제시 예",
+            "exclusivity": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU20260901-B001-C012.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "PDF4·49 각주2는 각 형태의 구체 지역·음운 조건을 미제시. 노→나 전역 변환 금지.",
+        "문헌 설명의 정답·현대 화자 선호 및 미제시 결합 환경은 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU20260901-B001-C013",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "의문",
+        "지역변이"
+      ],
+      "source_terms": [
+        "§2.2 서부 -나 통합 경향"
+      ],
+      "target_refs": [
+        "NAMU20260901-B001-C013.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU20260901-B001-C013.a",
+          "kind": "regional_prevalence",
+          "target_refs": [
+            "NAMU20260901-B001-C013.usage"
+          ],
+          "content": {
+            "source_analysis": "경북 서부·경남 서부·영동 남부의 해라체에 -나가 자주 나타남. 그 너머 타 방언의 -냐/니 설명은 비교 맥락.",
+            "extractor_interpretation": "원문 명시 범위만 구조화. 미제시 결합·형태소 분석·전역 치환을 추론하지 않음.",
+            "generation_policy": "운영 미승인 초안. 출처 분석과 생성 정책을 구별하며 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-나"
+            ],
+            "not_exclusive": true,
+            "comparison_only": [
+              "서남",
+              "충청",
+              "영서",
+              "영동 북부"
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU20260901-B001-C013.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU20260901-B001-C013.region",
+          "dimension": "region",
+          "value": {
+            "source_description": "경북 서부·경남 서부·영동 방언 남부",
+            "exclusivity": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU20260901-B001-C013.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU20260901-B001-C013.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "개별 조사·발화 시점 미제시. 문서 판 2026-09-01 및 인쇄 2026-09-03과 구별"
+        },
+        {
+          "id": "NAMU20260901-B001-C013.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_description": "위키의 문법 설명·제시 예",
+            "exclusivity": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU20260901-B001-C013.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "문헌 설명의 정답·현대 화자 선호 및 미제시 결합 환경은 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    }
+  ],
+  "policies": []
+}

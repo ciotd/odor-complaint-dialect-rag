@@ -1,0 +1,252 @@
+{
+  "batch_id": "JO2018-B002",
+  "source_id": "JO2018",
+  "status": "partial_source_extraction",
+  "body_pages": [
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41
+  ],
+  "units": [
+    {
+      "location": "PDF32 / 인쇄 20: 대계 표기의 음운 해석 한계",
+      "claim_ids": [
+        "JO2018-B002-C001"
+      ],
+      "hold": "원 음성 미청취; 원문 표기를 실제 음가로 사용하지 않음"
+    },
+    {
+      "location": "PDF32 / 인쇄 20: 당시 경북 단모음 체계",
+      "claim_ids": [
+        "JO2018-B002-C002"
+      ],
+      "hold": "각주 개괄 설명의 세부 지역·화자 및 음가 확인 미완료"
+    },
+    {
+      "location": "PDF35 / 인쇄 23: -니껴/-니꺼의 관찰 지역 분포",
+      "claim_ids": [
+        "JO2018-B002-C003"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF35 / 인쇄 23: 동일 화자의 방언형·표준형 혼용",
+      "claim_ids": [
+        "JO2018-B002-C004"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF35 / 인쇄 23: 영덕 혼용의 실제 발화 예",
+      "claim_ids": [
+        "JO2018-B002-C005"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF38 / 인쇄 26: 인자/인제 담화 기능의 문맥별 차이",
+      "claim_ids": [
+        "JO2018-B002-C006"
+      ],
+      "hold": "예(7)의 인자 출현 수와 전자/후자 지시 범위를 확정하지 못함; PDF37 행 출처도 서로 다름"
+    }
+  ],
+  "page_dispositions": [
+    {
+      "page": 28,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "연구대상 18책·지역·장르, 개정본 제외 및 각주7–9 자료 한계"
+    },
+    {
+      "page": 29,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "조사기간 1978–1984, 654명, 주로 60·70대; 각주10–14 포함"
+    },
+    {
+      "page": 30,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "자료 제공 방식과 각주15–17; 외부 음성 접근은 수행하지 않음"
+    },
+    {
+      "page": 31,
+      "status": "held",
+      "claim_ids": [],
+      "reason": "음운 예(1) 및 재인용 IPA 예(2) 읽음; 음가 목록 구조화 보류; 각주18 출처 표기"
+    },
+    {
+      "page": 32,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B002-C001",
+        "JO2018-B002-C002"
+      ],
+      "reason": "표기의 음운 한계 및 각주20 추출; IPA 재인용 목록 구조화 보류"
+    },
+    {
+      "page": 33,
+      "status": "held",
+      "claim_ids": [],
+      "reason": "예(3) 전사·표준어 대역 읽음; IPA 시각 대조 미완료로 보류. 티롱 예(4)는 어휘 연구 맥락"
+    },
+    {
+      "page": 34,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "티롱 의미 추정과 제보자 풀이; 문법 연구의 의의; 각주22는 맥락"
+    },
+    {
+      "page": 35,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B002-C003",
+        "JO2018-B002-C004",
+        "JO2018-B002-C005"
+      ],
+      "reason": "지역 분포·혼용·관찰 예 3건; 연구 방법론은 맥락"
+    },
+    {
+      "page": 36,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "예(6) 이야기 속 아이·선생님·아주머니 대화 전반; PDF37과 이어 읽음"
+    },
+    {
+      "page": 37,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "예(6) 후반 및 예(7), 작품 내적 대화 구분; 인자와 출처행의 모호성은 PDF38 Claim 장부"
+    },
+    {
+      "page": 38,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B002-C006"
+      ],
+      "reason": "인자/인제 기능을 운영 보류로 추출; 텍스트 계층도는 연구 맥락"
+    },
+    {
+      "page": 39,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "국어학적 가치 종합·연구 절차 전반"
+    },
+    {
+      "page": 40,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "전산화 및 지역분포 방법·각주23–26, 분류 기준 출처 보존"
+    },
+    {
+      "page": 41,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "연구 방법 결말: 공시적 범위와 역사 분석 제한"
+    }
+  ],
+  "source_context": {
+    "source_scope": {
+      "pages": [
+        28,
+        29
+      ],
+      "investigation_period": "1978–1984",
+      "publication_period": "2018년 2월",
+      "regions": [
+        "경주",
+        "월성",
+        "성주",
+        "대구",
+        "달성",
+        "구미",
+        "선산",
+        "영덕",
+        "상주",
+        "안동",
+        "봉화",
+        "군위",
+        "예천"
+      ],
+      "speakers": 654,
+      "speaker_ages": "대부분 60,70대",
+      "genres": [
+        "설화",
+        "민요",
+        "무가"
+      ],
+      "excluded": "2008년 시작 개정·증보사업 자료"
+    },
+    "method_limitations": [
+      {
+        "page": 30,
+        "note": "각주17: 조사자-제보자 면담인 구술 발화와 자연 발화를 구별. PDF31의 자연성 평가와 구분."
+      },
+      {
+        "page": 40,
+        "note": "각주26: 최명옥(1994)의 서부/중동동부/중동서부 구획 채택. 행정 경북/경남으로 자동 변환하지 않음."
+      },
+      {
+        "page": 41,
+        "note": "1980년대 공시 연구; 특별한 경우 외에는 기원·통시 변화를 다루지 않음."
+      }
+    ],
+    "corpus_period_basis": {
+      "page": 29,
+      "excerpt": "1978년부터 1984년 사이에 조사된 내용을 싣고 있다.",
+      "publication_year": 2018,
+      "individual_utterance_date": null,
+      "note": "자료 전체 조사기간과 개별 발화 시점 구별. 재인용 선행연구에는 이 시점을 자동 전파하지 않음."
+    }
+  },
+  "open_items": [
+    {
+      "location": "PDF32",
+      "issue": "원 음성 미청취; 원문 표기를 실제 음가로 사용하지 않음",
+      "claim_id": "JO2018-B002-C001"
+    },
+    {
+      "location": "PDF32",
+      "issue": "각주 개괄 설명의 세부 지역·화자 및 음가 확인 미완료",
+      "claim_id": "JO2018-B002-C002"
+    },
+    {
+      "location": "PDF38",
+      "issue": "예(7)의 인자 출현 수와 전자/후자 지시 범위를 확정하지 못함; PDF37 행 출처도 서로 다름",
+      "claim_id": "JO2018-B002-C006"
+    },
+    {
+      "location": "PDF31",
+      "issue": "예(2) 한국방언자료집 재인용 IPA 지역 목록의 구조화 보류; 본문 발화와 음가 동일시 불가",
+      "claim_id": null
+    },
+    {
+      "location": "PDF32",
+      "issue": "예(2ㄴ) IPA 목록과 각주20 실제 기호 시각 대조 미완료",
+      "claim_id": null
+    },
+    {
+      "location": "PDF33",
+      "issue": "예(3) 정밀전사 IPA 기호·성조·장단 전체의 시각 대조 및 구조화 미완료; 원 음성 미확인",
+      "claim_id": null
+    }
+  ],
+  "audit": {
+    "text_read": true,
+    "pdftotext_layout": true,
+    "pdf_pages_visually_checked": [],
+    "independent_reviewer": false
+  }
+}

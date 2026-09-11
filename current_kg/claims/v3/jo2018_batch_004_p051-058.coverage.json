@@ -1,0 +1,227 @@
+{
+  "batch_id": "JO2018-B004",
+  "source_id": "JO2018",
+  "status": "partial_source_extraction",
+  "body_pages": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58
+  ],
+  "units": [
+    {
+      "location": "PDF52 / 인쇄 40: 격식체 등급의 고정성과 비격식체의 유동성",
+      "claim_ids": [
+        "JO2018-B004-C001"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF53 / 인쇄 41: 해요·해예와 격식체의 높임 대상 혼용",
+      "claim_ids": [
+        "JO2018-B004-C002"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF54 / 인쇄 42: 다수 청자 앞 해라체·해요체 혼용 담화",
+      "claim_ids": [
+        "JO2018-B004-C003"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF54 / 인쇄 42: -제/-지러의 하게체·해라체 혼용",
+      "claim_ids": [
+        "JO2018-B004-C004"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF55 / 인쇄 43: 하이소체에 -요가 결합한 실제형",
+      "claim_ids": [
+        "JO2018-B004-C005"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF55 / 인쇄 43: 하이소체+요와 하게체+요의 자료 한계",
+      "claim_ids": [
+        "JO2018-B004-C006"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF56 / 인쇄 44: 해예체 독립 비격식체 설정",
+      "claim_ids": [
+        "JO2018-B004-C007"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF57 / 인쇄 45: -여의 서술 편의 표기와 분석 선택",
+      "claim_ids": [
+        "JO2018-B004-C008"
+      ],
+      "hold": "재인용 분석·대치 조건 원 연구 미확인"
+    },
+    {
+      "location": "PDF58 / 인쇄 46: 해예체 하게체 제외 및 혼용",
+      "claim_ids": [
+        "JO2018-B004-C009"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF58 / 인쇄 46: 해여체와 하소체의 친밀 조건",
+      "claim_ids": [
+        "JO2018-B004-C010"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF58 / 인쇄 46: 해여체의 하게체 자리와 용법 대치",
+      "claim_ids": [
+        "JO2018-B004-C011"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF58 / 인쇄 46: 해예·해여·해요의 관찰 지역",
+      "claim_ids": [
+        "JO2018-B004-C012"
+      ],
+      "hold": null
+    }
+  ],
+  "page_dispositions": [
+    {
+      "page": 51,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "격식·비격식 도입, 표7 전반 및 각주36–37; 역사 분석·표 행 구조화 보류"
+    },
+    {
+      "page": 52,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B004-C001"
+      ],
+      "reason": "표7 후반·격식/비격식 개괄 추출; 예10 전반과 각주38 맥락"
+    },
+    {
+      "page": 53,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B004-C002"
+      ],
+      "reason": "예10 후반·예11 및 해요/해예 혼용 추출"
+    },
+    {
+      "page": 54,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B004-C003",
+        "JO2018-B004-C004"
+      ],
+      "reason": "다수 청자 담화 및 해체 혼용 추출; 각주40 해여체 예외는 PDF58에서 추출, 각주41 연구별 분류 보류"
+    },
+    {
+      "page": 55,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B004-C005",
+        "JO2018-B004-C006"
+      ],
+      "reason": "하이소체+요 4어절 및 제한 저장, 각주42–45 확인"
+    },
+    {
+      "page": 56,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B004-C007"
+      ],
+      "reason": "그림1과 해예체 설정 해설; 용어 차이 보류, 각주46 추출"
+    },
+    {
+      "page": 57,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B004-C008"
+      ],
+      "reason": "예14 전체와 각주47 분석 선택·표기 정책 추출"
+    },
+    {
+      "page": 58,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B004-C009",
+        "JO2018-B004-C010",
+        "JO2018-B004-C011",
+        "JO2018-B004-C012"
+      ],
+      "reason": "해예의 하게체 제외·해여의 친밀 조건·친구 대치·지역 분포 4건; 표8 구조화 보류"
+    }
+  ],
+  "source_context": {
+    "corpus_period_basis": {
+      "page": 29,
+      "excerpt": "1978년부터 1984년 사이에 조사된 내용을 싣고 있다.",
+      "publication_year": 2018,
+      "individual_utterance_date": null,
+      "note": "자료 전체 조사기간과 개별 발화 시점 구별. 재인용 선행연구에는 이 시점을 자동 전파하지 않음."
+    }
+  },
+  "open_items": [
+    {
+      "location": "PDF57",
+      "issue": "재인용 분석·대치 조건 원 연구 미확인",
+      "claim_id": "JO2018-B004-C008"
+    },
+    {
+      "location": "PDF51",
+      "issue": "각주36 -니이더 내부 -이-의 역사·높임 관여 분석: 원 연구 및 본문 결합 분석 대기",
+      "claim_id": null
+    },
+    {
+      "location": "PDF51",
+      "issue": "표7 첫 부분의 연구자별 분류는 연구 맥락; 구조화 미완료",
+      "claim_id": null
+    },
+    {
+      "location": "PDF52",
+      "issue": "표7 계속의 연구자별 분류 구조화 미완료",
+      "claim_id": null
+    },
+    {
+      "location": "PDF54",
+      "issue": "각주41 -지러의 연구자별 등급 충돌 목록: 본문 혼용 관찰과 별도로 원 연구 검토 보류",
+      "claim_id": null
+    },
+    {
+      "location": "PDF55",
+      "issue": "각주45 히여체 표기는 앞뒤 해여체와 불일치; 별도 형태로 생성하지 않음",
+      "claim_id": null
+    },
+    {
+      "location": "PDF56",
+      "issue": "그림1의 해체+요와 본문 해라체+요 용어 차이: 도식의 범위 자동 일반화 보류",
+      "claim_id": null
+    },
+    {
+      "location": "PDF58",
+      "issue": "표8 도형 경계에 따른 등급별 대응은 이미지 대조 전 구조화 보류; 본문 조건 Claim으로 보존",
+      "claim_id": null
+    }
+  ],
+  "audit": {
+    "text_read": true,
+    "pdftotext_layout": true,
+    "pdf_pages_visually_checked": [],
+    "independent_reviewer": false
+  }
+}

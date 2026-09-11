@@ -1,0 +1,2727 @@
+{
+  "format_version": "3.0-draft.1",
+  "status": "extraction_draft",
+  "entities": [
+    {
+      "id": "NAMU_GRAMMAR_20260908-U-삐다",
+      "type": "Usage",
+      "properties": {
+        "lemma": "삐다",
+        "source_gloss": null,
+        "gloss_footnote": null,
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_GRAMMAR_20260908-E001"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-U-직이다",
+      "type": "Usage",
+      "properties": {
+        "lemma": "직이다",
+        "source_gloss": "죽이다",
+        "gloss_footnote": 6,
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_GRAMMAR_20260908-E001",
+          "NAMU_GRAMMAR_20260908-E014"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-U-디지다",
+      "type": "Usage",
+      "properties": {
+        "lemma": "디지다",
+        "source_gloss": "(속되게) 죽다",
+        "gloss_footnote": 7,
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_GRAMMAR_20260908-E001",
+          "NAMU_GRAMMAR_20260908-E014"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-U-뎁히다",
+      "type": "Usage",
+      "properties": {
+        "lemma": "뎁히다",
+        "source_gloss": "데우다",
+        "gloss_footnote": 8,
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_GRAMMAR_20260908-E001",
+          "NAMU_GRAMMAR_20260908-E014"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-U-비이다",
+      "type": "Usage",
+      "properties": {
+        "lemma": "비이다",
+        "source_gloss": "보이다",
+        "gloss_footnote": 9,
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_GRAMMAR_20260908-E001",
+          "NAMU_GRAMMAR_20260908-E014"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-U-시다",
+      "type": "Usage",
+      "properties": {
+        "lemma": "시다",
+        "source_gloss": "쉬다",
+        "gloss_footnote": 10,
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_GRAMMAR_20260908-E001",
+          "NAMU_GRAMMAR_20260908-E014"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-U-주다",
+      "type": "Usage",
+      "properties": {
+        "lemma": "주다",
+        "source_gloss": null,
+        "gloss_footnote": null,
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_GRAMMAR_20260908-E004"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-U-꾸다",
+      "type": "Usage",
+      "properties": {
+        "lemma": "꾸다",
+        "source_gloss": null,
+        "gloss_footnote": null,
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_GRAMMAR_20260908-E004"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-U-두다",
+      "type": "Usage",
+      "properties": {
+        "lemma": "두다",
+        "source_gloss": null,
+        "gloss_footnote": null,
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_GRAMMAR_20260908-E004"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-U-내루다",
+      "type": "Usage",
+      "properties": {
+        "lemma": "내루다",
+        "source_gloss": "내리다",
+        "gloss_footnote": 11,
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_GRAMMAR_20260908-E006",
+          "NAMU_GRAMMAR_20260908-E014"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-U-사우다",
+      "type": "Usage",
+      "properties": {
+        "lemma": "사우다",
+        "source_gloss": "싸우다",
+        "gloss_footnote": 12,
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_GRAMMAR_20260908-E006",
+          "NAMU_GRAMMAR_20260908-E014"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-U-뿌수다",
+      "type": "Usage",
+      "properties": {
+        "lemma": "뿌수다",
+        "source_gloss": "부수다",
+        "gloss_footnote": 13,
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_GRAMMAR_20260908-E006",
+          "NAMU_GRAMMAR_20260908-E014"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-U-말루다",
+      "type": "Usage",
+      "properties": {
+        "lemma": "말루다",
+        "source_gloss": "말리다",
+        "gloss_footnote": 14,
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_GRAMMAR_20260908-E006",
+          "NAMU_GRAMMAR_20260908-E014"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-U-뎁후다",
+      "type": "Usage",
+      "properties": {
+        "lemma": "뎁후다",
+        "source_gloss": "데우다",
+        "gloss_footnote": 16,
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_GRAMMAR_20260908-E006",
+          "NAMU_GRAMMAR_20260908-E010"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-U-섞우다",
+      "type": "Usage",
+      "properties": {
+        "lemma": "섞우다",
+        "source_gloss": "섞다",
+        "gloss_footnote": 18,
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_GRAMMAR_20260908-E006",
+          "NAMU_GRAMMAR_20260908-E014"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-U-배우다",
+      "type": "Usage",
+      "properties": {
+        "lemma": "배우다",
+        "source_gloss": null,
+        "gloss_footnote": null,
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_GRAMMAR_20260908-E006"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-U-뱉다",
+      "type": "Usage",
+      "properties": {
+        "lemma": "뱉다",
+        "source_gloss": null,
+        "gloss_footnote": null,
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_GRAMMAR_20260908-E007"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-U-뺏다",
+      "type": "Usage",
+      "properties": {
+        "lemma": "뺏다",
+        "source_gloss": null,
+        "gloss_footnote": null,
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_GRAMMAR_20260908-E007"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-U-맺다",
+      "type": "Usage",
+      "properties": {
+        "lemma": "맺다",
+        "source_gloss": null,
+        "gloss_footnote": null,
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_GRAMMAR_20260908-E007"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-U-겎다",
+      "type": "Usage",
+      "properties": {
+        "lemma": "겎다",
+        "source_gloss": "겪다",
+        "gloss_footnote": 19,
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_GRAMMAR_20260908-E008",
+          "NAMU_GRAMMAR_20260908-E014"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-U-젭다",
+      "type": "Usage",
+      "properties": {
+        "lemma": "젭다",
+        "source_gloss": "힘에 '겹다' (경남 방언)",
+        "gloss_footnote": 20,
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_GRAMMAR_20260908-E008",
+          "NAMU_GRAMMAR_20260908-E014"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-K-받침 없는 ㅣ형 어간",
+      "type": "Construction",
+      "properties": {
+        "label": "받침 없는 ㅣ형 어간"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-K-마지막 형태소 1음절 ㅜ형",
+      "type": "Construction",
+      "properties": {
+        "label": "마지막 형태소 1음절 ㅜ형"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-K-마지막 형태소 2음절 이상 ㅜ형",
+      "type": "Construction",
+      "properties": {
+        "label": "마지막 형태소 2음절 이상 ㅜ형"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-K-받침 있는 ㅐ형",
+      "type": "Construction",
+      "properties": {
+        "label": "받침 있는 ㅐ형"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-K-ㅔ형",
+      "type": "Construction",
+      "properties": {
+        "label": "ㅔ형"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-K-말라의 뜻별 강세",
+      "type": "Construction",
+      "properties": {
+        "label": "말라의 뜻별 강세"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-K-원인이유 -아가",
+      "type": "Construction",
+      "properties": {
+        "label": "원인이유 -아가"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-K--으니의 발음",
+      "type": "Construction",
+      "properties": {
+        "label": "-으니의 발음"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-K-싸우다와 싸오다",
+      "type": "Construction",
+      "properties": {
+        "label": "싸우다와 싸오다"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "NAMU_GRAMMAR_20260908-E000",
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_pages": [
+        3
+      ],
+      "locator": "서론의 지역·개인·세대 차이 유의 문단",
+      "excerpt": "아래에 기재된 문법 사항들은 지역별 차이가 있을 수 있으니 그 점은 감안하는 것이 좋다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-E001",
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_pages": [
+        3,
+        4
+      ],
+      "locator": "3.1.1 본문과 활용표",
+      "excerpt": "어간이 받침 없이 'ㅣ'로 끝날 경우, 그 뒤에 어미 '-아/어' 계열이 놓일 때 '-아/어' 없이 활용한다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-E002",
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_pages": [
+        3
+      ],
+      "locator": "3.1.1 마지막 문장",
+      "excerpt": "한국어의 방언(최명옥)에 따르면 경북 동부 해안가는 같은 조건에서 ㅔ로 활용된다고 한다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-E003",
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_pages": [
+        4
+      ],
+      "locator": "ㅣ형 표 아래 단서",
+      "excerpt": "다만 어간이 2음절 이하일 때는 덜 일어난다고 한다. (이어도 → [여도], 치어도 → [처도])",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-E004",
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_pages": [
+        4
+      ],
+      "locator": "3.1.2 북쪽 설명과 표",
+      "excerpt": "경상도 북쪽 지역은 어간의 마지막 형태소가 1음절이면서 받침 없이 'ㅜ'로 끝날 때, 그 뒤에 어미 '-아/어' 계열이 놓이면 'ㅜ'가 'ㅗ'로 바뀐다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-E005",
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_pages": [
+        4
+      ],
+      "locator": "3.1.2 남쪽 설명과 표",
+      "excerpt": "남쪽 지역 기본적으로 ㅗ를 사용하나 가끔씩 '-아/어' 없이 활용한다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-E006",
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_pages": [
+        5
+      ],
+      "locator": "3.1.3 본문과 표",
+      "excerpt": "어간의 마지막 형태소가 2음절 이상이면서 받침 없이 'ㅜ'로 끝날 경우, 그 뒤에 어미 '-아/어' 계열이 놓일 때 'ㅜ'가 탈락하고 '-아'만이 붙는다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-E007",
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_pages": [
+        5
+      ],
+      "locator": "3.1.4 본문과 ㅐ형 표",
+      "excerpt": "지역마다 다르지만, 어간의 마지막 음절이 받침이 있으면서 모음이 ㅐ일 경우, 그 뒤에 어미 '-아/어' 계열이 놓일 때 표준어와 달리 '-아'가 붙는다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-E008",
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_pages": [
+        5
+      ],
+      "locator": "3.1.4 ㅔ형 설명과 겎다/젭다 표",
+      "excerpt": "어간의 모음이 ㅔ이면 '-어'가 붙는 것으로 보인다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-E009",
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_pages": [
+        46
+      ],
+      "locator": "각주 15",
+      "excerpt": "자동사인 '마르다' 역시 '말라'이지만, 강세가 1음절에 있다. 이와 달리 사동사 '말루다'의 활용형 '말라'는 2음절에 강세가 있다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-E010",
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_pages": [
+        46
+      ],
+      "locator": "각주 16",
+      "excerpt": "데우다. 뎁히다와 같은 단어지만 뎁후다는 경남 지방에서 더 자주 쓰이는 것 같다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-E011",
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_pages": [
+        5
+      ],
+      "locator": "3.1.3 역사 설명 마지막 문장",
+      "excerpt": "일부 경남 지역은 '싸우다'를 '싸오다'라고 하는 것 보니",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-E012",
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_pages": [
+        45
+      ],
+      "locator": "각주 3",
+      "excerpt": "-아서(원인, 이유): '-아가'만 사용하지 않고, '-아서'도 사용한다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-E013",
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_pages": [
+        45
+      ],
+      "locator": "각주 4",
+      "excerpt": "ㄴ 발음을 생략해 '-으이'와 같이 발음하기도 한다",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-E014",
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_pages": [
+        45,
+        46
+      ],
+      "locator": "각주 5–14,18–20",
+      "excerpt": "표제어 뜻과 활용표 어미 해설. 각주 원문은 해당 PDF 위치에 보존.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-E015",
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_pages": [
+        4
+      ],
+      "locator": "3.1.1 표 아래 형성 설명",
+      "excerpt": "애껴라 → 애께라 / 애께라 → 애끼라",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-E016",
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_pages": [
+        5
+      ],
+      "locator": "3.1.3 역사 설명",
+      "excerpt": "이런 현상의 이유는 '-우-' 접미가 중세 한국어 때 '-오-'였기 때문인데, 특이하게도 이런 활용이 확장된 것으로 보인다.",
+      "kind": "source_statement"
+    }
+  ],
+  "claims": [
+    {
+      "id": "NAMU_GRAMMAR_20260908-C0001",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "용언 활용",
+        "형태음운"
+      ],
+      "source_terms": [
+        "3.1.1 받침 없는 ㅣ형 어간"
+      ],
+      "target_refs": [
+        "NAMU_GRAMMAR_20260908-K-받침 없는 ㅣ형 어간"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0001.a",
+          "kind": "conditioned_realization",
+          "target_refs": [
+            "NAMU_GRAMMAR_20260908-K-받침 없는 ㅣ형 어간"
+          ],
+          "content": {
+            "operation": "-아/어 없이 활용",
+            "headers": [
+              "-아",
+              "-아라",
+              "-아가",
+              "-았다",
+              "-으니",
+              "-으모",
+              "-라고",
+              "-고"
+            ],
+            "paradigm": [
+              {
+                "usage_ref": "NAMU_GRAMMAR_20260908-U-삐다",
+                "lemma": "삐다",
+                "forms": [
+                  [
+                    "삐",
+                    "뻬"
+                  ],
+                  [
+                    "삐라",
+                    "뻬라"
+                  ],
+                  [
+                    "삐가",
+                    "뻬가"
+                  ],
+                  [
+                    "삤다",
+                    "뼀다"
+                  ],
+                  [
+                    "삐니"
+                  ],
+                  [
+                    "삐모"
+                  ],
+                  [
+                    "삐라고"
+                  ],
+                  [
+                    "삐고"
+                  ]
+                ]
+              },
+              {
+                "usage_ref": "NAMU_GRAMMAR_20260908-U-직이다",
+                "lemma": "직이다",
+                "forms": [
+                  [
+                    "직이",
+                    "직에"
+                  ],
+                  [
+                    "직이라",
+                    "직에라"
+                  ],
+                  [
+                    "직이가",
+                    "직에가"
+                  ],
+                  [
+                    "직있다",
+                    "직엤다"
+                  ],
+                  [
+                    "직이니"
+                  ],
+                  [
+                    "직이모"
+                  ],
+                  [
+                    "직이라고"
+                  ],
+                  [
+                    "직이고"
+                  ]
+                ]
+              },
+              {
+                "usage_ref": "NAMU_GRAMMAR_20260908-U-디지다",
+                "lemma": "디지다",
+                "forms": [
+                  [
+                    "디지",
+                    "디제"
+                  ],
+                  [
+                    "디지라",
+                    "디제라"
+                  ],
+                  [
+                    "디지가",
+                    "디제가"
+                  ],
+                  [
+                    "디짔다",
+                    "디젰다"
+                  ],
+                  [
+                    "디지니"
+                  ],
+                  [
+                    "디지모"
+                  ],
+                  [
+                    "디지라고"
+                  ],
+                  [
+                    "디지고"
+                  ]
+                ]
+              },
+              {
+                "usage_ref": "NAMU_GRAMMAR_20260908-U-뎁히다",
+                "lemma": "뎁히다",
+                "forms": [
+                  [
+                    "뎁히",
+                    "뎁헤"
+                  ],
+                  [
+                    "뎁히라",
+                    "뎁헤라"
+                  ],
+                  [
+                    "뎁히가",
+                    "뎁헤가"
+                  ],
+                  [
+                    "뎁힜다",
+                    "뎁헸다"
+                  ],
+                  [
+                    "뎁히니"
+                  ],
+                  [
+                    "뎁히모"
+                  ],
+                  [
+                    "뎁히라고"
+                  ],
+                  [
+                    "뎁히고"
+                  ]
+                ]
+              },
+              {
+                "usage_ref": "NAMU_GRAMMAR_20260908-U-비이다",
+                "lemma": "비이다",
+                "forms": [
+                  [
+                    "비이",
+                    "베에"
+                  ],
+                  [
+                    "비이라",
+                    "베에라"
+                  ],
+                  [
+                    "비이가",
+                    "베에가"
+                  ],
+                  [
+                    "비있다",
+                    "베엤다"
+                  ],
+                  [
+                    "비이니"
+                  ],
+                  [
+                    "비이모"
+                  ],
+                  [
+                    "비이라고"
+                  ],
+                  [
+                    "비이고"
+                  ]
+                ]
+              },
+              {
+                "usage_ref": "NAMU_GRAMMAR_20260908-U-시다",
+                "lemma": "시다",
+                "forms": [
+                  [
+                    "시"
+                  ],
+                  [
+                    "시라"
+                  ],
+                  [
+                    "시가"
+                  ],
+                  [
+                    "싰다"
+                  ],
+                  [
+                    "시니"
+                  ],
+                  [
+                    "시모"
+                  ],
+                  [
+                    "시라고"
+                  ],
+                  [
+                    "시고"
+                  ]
+                ]
+              }
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "NAMU_GRAMMAR_20260908-K-받침 없는 ㅣ형 어간",
+                "feature": "following_ending_family",
+                "value": "-아/어"
+              },
+              {
+                "op": "eq",
+                "target": "NAMU_GRAMMAR_20260908-K-받침 없는 ㅣ형 어간",
+                "feature": "stem_final_vowel",
+                "value": "ㅣ"
+              },
+              {
+                "op": "eq",
+                "target": "NAMU_GRAMMAR_20260908-K-받침 없는 ㅣ형 어간",
+                "feature": "stem_has_coda",
+                "value": false
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_GRAMMAR_20260908-E001",
+        "NAMU_GRAMMAR_20260908-E014",
+        "NAMU_GRAMMAR_20260908-E000"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0001.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "세부 지역 미상",
+            "exclusive_to_region": null,
+            "widespread_use_established": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E001",
+            "NAMU_GRAMMAR_20260908-E014"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0001.period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 설명의 조사·발화 시점 미기재; PDF 수정일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0001.context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "문헌의 문법 설명",
+            "speaker_listener": null,
+            "source_scope_warning": "지역·개인·세대별 차이가 있을 수 있음"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E000"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움·세부 지역 분포·우선순위 미검증",
+        "C0002의 경북 동부 해안 변이와 C0003의 모호한 빈도 단서를 함께 조회",
+        "표의 두 줄 변이 순서를 보존했으나 혼합 사용이나 동일 빈도를 뜻하지 않음",
+        "시다의 ㅔ형은 표에 없으므로 추가하지 않음"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-C0002",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "용언 활용",
+        "형태음운"
+      ],
+      "source_terms": [
+        "경북 동부 해안가 ㅔ 활용"
+      ],
+      "target_refs": [
+        "NAMU_GRAMMAR_20260908-K-받침 없는 ㅣ형 어간"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0002.a",
+          "kind": "regional_variant",
+          "target_refs": [
+            "NAMU_GRAMMAR_20260908-K-받침 없는 ㅣ형 어간"
+          ],
+          "content": {
+            "operation": "같은 조건에서 ㅔ로 활용",
+            "attributed_to": "한국어의 방언(최명옥)",
+            "original_consulted": false
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "NAMU_GRAMMAR_20260908-K-받침 없는 ㅣ형 어간",
+                "feature": "following_ending_family",
+                "value": "-아/어"
+              },
+              {
+                "op": "eq",
+                "target": "NAMU_GRAMMAR_20260908-K-받침 없는 ㅣ형 어간",
+                "feature": "stem_final_vowel",
+                "value": "ㅣ"
+              },
+              {
+                "op": "eq",
+                "target": "NAMU_GRAMMAR_20260908-K-받침 없는 ㅣ형 어간",
+                "feature": "stem_has_coda",
+                "value": false
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_GRAMMAR_20260908-E002",
+        "NAMU_GRAMMAR_20260908-E000"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0002.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "경북 동부 해안가",
+            "exclusive_to_region": null,
+            "widespread_use_established": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E002"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0002.period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 설명의 조사·발화 시점 미기재; PDF 수정일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0002.context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "문헌의 문법 설명",
+            "speaker_listener": null,
+            "source_scope_warning": "지역·개인·세대별 차이가 있을 수 있음"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E000"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [
+        {
+          "type": "qualifies",
+          "target": "NAMU_GRAMMAR_20260908-C0001",
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E002"
+          ]
+        }
+      ],
+      "gaps": [
+        "현대 자연스러움·세부 지역 분포·우선순위 미검증",
+        "재인용 원자료 미확보"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-C0003",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "용언 활용",
+        "형태음운"
+      ],
+      "source_terms": [
+        "2음절 이하 단서"
+      ],
+      "target_refs": [
+        "NAMU_GRAMMAR_20260908-K-받침 없는 ㅣ형 어간"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0003.a",
+          "kind": "scope_caveat",
+          "target_refs": [
+            "NAMU_GRAMMAR_20260908-K-받침 없는 ㅣ형 어간"
+          ],
+          "content": {
+            "source_statement": "어간이 2음절 이하일 때는 덜 일어난다고 한다",
+            "examples": [
+              "이어도 → [여도]",
+              "치어도 → [처도]"
+            ],
+            "interpretation_status": "무엇이 덜 일어나는지 적용 범위 추가 대조 필요",
+            "operationalized": false
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_GRAMMAR_20260908-E003",
+        "NAMU_GRAMMAR_20260908-E000"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0003.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "세부 지역 미상",
+            "exclusive_to_region": null,
+            "widespread_use_established": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E003"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0003.period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 설명의 조사·발화 시점 미기재; PDF 수정일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0003.context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "문헌의 문법 설명",
+            "speaker_listener": null,
+            "source_scope_warning": "지역·개인·세대별 차이가 있을 수 있음"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E000"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [
+        {
+          "type": "qualifies",
+          "target": "NAMU_GRAMMAR_20260908-C0001",
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E003"
+          ]
+        }
+      ],
+      "gaps": [
+        "현대 자연스러움·세부 지역 분포·우선순위 미검증",
+        "2음절 이하 금지 조건으로 변환하지 않음"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-C0004",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "용언 활용",
+        "형태음운"
+      ],
+      "source_terms": [
+        "3.1.2 북쪽 1음절 ㅜ형"
+      ],
+      "target_refs": [
+        "NAMU_GRAMMAR_20260908-K-마지막 형태소 1음절 ㅜ형"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0004.a",
+          "kind": "conditioned_realization",
+          "target_refs": [
+            "NAMU_GRAMMAR_20260908-K-마지막 형태소 1음절 ㅜ형"
+          ],
+          "content": {
+            "operation": "ㅜ→ㅗ",
+            "source_derivation": [
+              "주어",
+              "줘",
+              "조"
+            ],
+            "headers": [
+              "-아",
+              "-아라",
+              "-아가",
+              "-았다",
+              "-으니",
+              "-으모",
+              "-라고",
+              "-고"
+            ],
+            "paradigm": [
+              {
+                "usage_ref": "NAMU_GRAMMAR_20260908-U-주다",
+                "lemma": "주다",
+                "forms": [
+                  [
+                    "조",
+                    "주"
+                  ],
+                  [
+                    "조라",
+                    "주라"
+                  ],
+                  [
+                    "조가",
+                    "주가"
+                  ],
+                  [
+                    "좄다",
+                    "줐다"
+                  ],
+                  [
+                    "주니"
+                  ],
+                  [
+                    "주모"
+                  ],
+                  [
+                    "주라고"
+                  ],
+                  [
+                    "주고"
+                  ]
+                ]
+              },
+              {
+                "usage_ref": "NAMU_GRAMMAR_20260908-U-꾸다",
+                "lemma": "꾸다",
+                "forms": [
+                  [
+                    "꼬",
+                    "꾸"
+                  ],
+                  [
+                    "꼬라",
+                    "꾸라"
+                  ],
+                  [
+                    "꼬가",
+                    "꾸가"
+                  ],
+                  [
+                    "꽀다",
+                    "꿌다"
+                  ],
+                  [
+                    "꾸니"
+                  ],
+                  [
+                    "꾸모"
+                  ],
+                  [
+                    "꾸라고"
+                  ],
+                  [
+                    "꾸고"
+                  ]
+                ]
+              },
+              {
+                "usage_ref": "NAMU_GRAMMAR_20260908-U-두다",
+                "lemma": "두다",
+                "forms": [
+                  [
+                    "도",
+                    "두"
+                  ],
+                  [
+                    "도라",
+                    "두라"
+                  ],
+                  [
+                    "도가",
+                    "두가"
+                  ],
+                  [
+                    "돘다",
+                    "둤다"
+                  ],
+                  [
+                    "두니"
+                  ],
+                  [
+                    "두모"
+                  ],
+                  [
+                    "두라고"
+                  ],
+                  [
+                    "두고"
+                  ]
+                ]
+              }
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "NAMU_GRAMMAR_20260908-K-마지막 형태소 1음절 ㅜ형",
+                "feature": "following_ending_family",
+                "value": "-아/어"
+              },
+              {
+                "op": "eq",
+                "target": "NAMU_GRAMMAR_20260908-K-마지막 형태소 1음절 ㅜ형",
+                "feature": "final_morpheme_syllable_class",
+                "value": "1음절"
+              },
+              {
+                "op": "eq",
+                "target": "NAMU_GRAMMAR_20260908-K-마지막 형태소 1음절 ㅜ형",
+                "feature": "stem_final_vowel",
+                "value": "ㅜ"
+              },
+              {
+                "op": "eq",
+                "target": "NAMU_GRAMMAR_20260908-K-마지막 형태소 1음절 ㅜ형",
+                "feature": "stem_has_coda",
+                "value": false
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_GRAMMAR_20260908-E004",
+        "NAMU_GRAMMAR_20260908-E000"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0004.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "경상도 북쪽 지역",
+            "exclusive_to_region": null,
+            "widespread_use_established": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E004"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0004.period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 설명의 조사·발화 시점 미기재; PDF 수정일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0004.context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "문헌의 문법 설명",
+            "speaker_listener": null,
+            "source_scope_warning": "지역·개인·세대별 차이가 있을 수 있음"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E000"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움·세부 지역 분포·우선순위 미검증",
+        "북쪽을 경북 전체와 동일시하지 않음",
+        "공유 표에는 남쪽의 ㅜ형 변이도 함께 수록되므로 표 전체를 북쪽 전용으로 읽지 않음"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-C0005",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "용언 활용",
+        "형태음운"
+      ],
+      "source_terms": [
+        "3.1.2 남쪽 변이"
+      ],
+      "target_refs": [
+        "NAMU_GRAMMAR_20260908-K-마지막 형태소 1음절 ㅜ형"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0005.a",
+          "kind": "regional_variant",
+          "target_refs": [
+            "NAMU_GRAMMAR_20260908-K-마지막 형태소 1음절 ㅜ형"
+          ],
+          "content": {
+            "operation": "기본적으로 ㅗ, 가끔 -아/어 없이 활용",
+            "quantified_frequency": null
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "NAMU_GRAMMAR_20260908-K-마지막 형태소 1음절 ㅜ형",
+                "feature": "following_ending_family",
+                "value": "-아/어"
+              },
+              {
+                "op": "eq",
+                "target": "NAMU_GRAMMAR_20260908-K-마지막 형태소 1음절 ㅜ형",
+                "feature": "final_morpheme_syllable_class",
+                "value": "1음절"
+              },
+              {
+                "op": "eq",
+                "target": "NAMU_GRAMMAR_20260908-K-마지막 형태소 1음절 ㅜ형",
+                "feature": "stem_final_vowel",
+                "value": "ㅜ"
+              },
+              {
+                "op": "eq",
+                "target": "NAMU_GRAMMAR_20260908-K-마지막 형태소 1음절 ㅜ형",
+                "feature": "stem_has_coda",
+                "value": false
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_GRAMMAR_20260908-E005",
+        "NAMU_GRAMMAR_20260908-E000"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0005.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "경상도 남쪽 지역",
+            "exclusive_to_region": null,
+            "widespread_use_established": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E005"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0005.period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 설명의 조사·발화 시점 미기재; PDF 수정일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0005.context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "문헌의 문법 설명",
+            "speaker_listener": null,
+            "source_scope_warning": "지역·개인·세대별 차이가 있을 수 있음"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E000"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [
+        {
+          "type": "qualifies",
+          "target": "NAMU_GRAMMAR_20260908-C0004",
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E005"
+          ]
+        }
+      ],
+      "gaps": [
+        "현대 자연스러움·세부 지역 분포·우선순위 미검증",
+        "남쪽을 경남 전체와 동일시하지 않음"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-C0006",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "용언 활용",
+        "형태음운"
+      ],
+      "source_terms": [
+        "3.1.3 다음절 ㅜ형"
+      ],
+      "target_refs": [
+        "NAMU_GRAMMAR_20260908-K-마지막 형태소 2음절 이상 ㅜ형"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0006.a",
+          "kind": "conditioned_realization",
+          "target_refs": [
+            "NAMU_GRAMMAR_20260908-K-마지막 형태소 2음절 이상 ㅜ형"
+          ],
+          "content": {
+            "operation": "ㅜ 탈락 후 -아 결합",
+            "headers": [
+              "-아",
+              "-아라",
+              "-아가",
+              "-았다",
+              "-으니",
+              "-으모",
+              "-라고",
+              "-고"
+            ],
+            "paradigm": [
+              {
+                "usage_ref": "NAMU_GRAMMAR_20260908-U-내루다",
+                "lemma": "내루다",
+                "forms": [
+                  [
+                    "내라"
+                  ],
+                  [
+                    "내라라"
+                  ],
+                  [
+                    "내라가"
+                  ],
+                  [
+                    "내랐다"
+                  ],
+                  [
+                    "내루니"
+                  ],
+                  [
+                    "내루모"
+                  ],
+                  [
+                    "내루라고"
+                  ],
+                  [
+                    "내루고"
+                  ]
+                ]
+              },
+              {
+                "usage_ref": "NAMU_GRAMMAR_20260908-U-사우다",
+                "lemma": "사우다",
+                "forms": [
+                  [
+                    "사아"
+                  ],
+                  [
+                    "사아라"
+                  ],
+                  [
+                    "사아가"
+                  ],
+                  [
+                    "사았다"
+                  ],
+                  [
+                    "사우니"
+                  ],
+                  [
+                    "사우모"
+                  ],
+                  [
+                    "사우라고"
+                  ],
+                  [
+                    "사우고"
+                  ]
+                ]
+              },
+              {
+                "usage_ref": "NAMU_GRAMMAR_20260908-U-뿌수다",
+                "lemma": "뿌수다",
+                "forms": [
+                  [
+                    "뿌사"
+                  ],
+                  [
+                    "뿌사라"
+                  ],
+                  [
+                    "뿌사가"
+                  ],
+                  [
+                    "뿌샀다"
+                  ],
+                  [
+                    "뿌수니"
+                  ],
+                  [
+                    "뿌수모"
+                  ],
+                  [
+                    "뿌수라고"
+                  ],
+                  [
+                    "뿌수고"
+                  ]
+                ]
+              },
+              {
+                "usage_ref": "NAMU_GRAMMAR_20260908-U-말루다",
+                "lemma": "말루다",
+                "forms": [
+                  [
+                    "말라"
+                  ],
+                  [
+                    "말라라"
+                  ],
+                  [
+                    "말라가"
+                  ],
+                  [
+                    "말랐다"
+                  ],
+                  [
+                    "말루니"
+                  ],
+                  [
+                    "말루모"
+                  ],
+                  [
+                    "말루라고"
+                  ],
+                  [
+                    "말루고"
+                  ]
+                ]
+              },
+              {
+                "usage_ref": "NAMU_GRAMMAR_20260908-U-뎁후다",
+                "lemma": "뎁후다",
+                "forms": [
+                  [
+                    "뎁하"
+                  ],
+                  [
+                    "뎁하라"
+                  ],
+                  [
+                    "뎁하가"
+                  ],
+                  [
+                    "뎁핬다"
+                  ],
+                  [
+                    "뎁후니"
+                  ],
+                  [
+                    "뎁후모"
+                  ],
+                  [
+                    "뎁후라고"
+                  ],
+                  [
+                    "뎁후고"
+                  ]
+                ]
+              },
+              {
+                "usage_ref": "NAMU_GRAMMAR_20260908-U-섞우다",
+                "lemma": "섞우다",
+                "forms": [
+                  [
+                    "섞아"
+                  ],
+                  [
+                    "섞아라"
+                  ],
+                  [
+                    "섞아가"
+                  ],
+                  [
+                    "섞았다"
+                  ],
+                  [
+                    "섞우니"
+                  ],
+                  [
+                    "섞우모"
+                  ],
+                  [
+                    "섞우라고"
+                  ],
+                  [
+                    "섞우고"
+                  ]
+                ]
+              },
+              {
+                "usage_ref": "NAMU_GRAMMAR_20260908-U-배우다",
+                "lemma": "배우다",
+                "forms": [
+                  [
+                    "배아"
+                  ],
+                  [
+                    "배아라"
+                  ],
+                  [
+                    "배아가"
+                  ],
+                  [
+                    "배았다"
+                  ],
+                  [
+                    "배우니"
+                  ],
+                  [
+                    "배우모"
+                  ],
+                  [
+                    "배우라고"
+                  ],
+                  [
+                    "배우고"
+                  ]
+                ]
+              }
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "NAMU_GRAMMAR_20260908-K-마지막 형태소 2음절 이상 ㅜ형",
+                "feature": "following_ending_family",
+                "value": "-아/어"
+              },
+              {
+                "op": "eq",
+                "target": "NAMU_GRAMMAR_20260908-K-마지막 형태소 2음절 이상 ㅜ형",
+                "feature": "final_morpheme_syllable_class",
+                "value": "2음절 이상"
+              },
+              {
+                "op": "eq",
+                "target": "NAMU_GRAMMAR_20260908-K-마지막 형태소 2음절 이상 ㅜ형",
+                "feature": "stem_final_vowel",
+                "value": "ㅜ"
+              },
+              {
+                "op": "eq",
+                "target": "NAMU_GRAMMAR_20260908-K-마지막 형태소 2음절 이상 ㅜ형",
+                "feature": "stem_has_coda",
+                "value": false
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_GRAMMAR_20260908-E006",
+        "NAMU_GRAMMAR_20260908-E014",
+        "NAMU_GRAMMAR_20260908-E010",
+        "NAMU_GRAMMAR_20260908-E000"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0006.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "세부 지역 미상",
+            "exclusive_to_region": null,
+            "widespread_use_established": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E006",
+            "NAMU_GRAMMAR_20260908-E014",
+            "NAMU_GRAMMAR_20260908-E010"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0006.period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 설명의 조사·발화 시점 미기재; PDF 수정일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0006.context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "문헌의 문법 설명",
+            "speaker_listener": null,
+            "source_scope_warning": "지역·개인·세대별 차이가 있을 수 있음"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E000"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움·세부 지역 분포·우선순위 미검증",
+        "원문의 마지막 형태소와 어간 전체 길이를 임의로 동일시하지 않음"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-C0007",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "용언 활용",
+        "형태음운"
+      ],
+      "source_terms": [
+        "3.1.4 ㅐ형 어간"
+      ],
+      "target_refs": [
+        "NAMU_GRAMMAR_20260908-K-받침 있는 ㅐ형"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0007.a",
+          "kind": "conditioned_realization",
+          "target_refs": [
+            "NAMU_GRAMMAR_20260908-K-받침 있는 ㅐ형"
+          ],
+          "content": {
+            "operation": "-아 결합",
+            "headers": [
+              "-아",
+              "-아라",
+              "-아가",
+              "-았다",
+              "-으니",
+              "-으모",
+              "-라고",
+              "-고"
+            ],
+            "paradigm": [
+              {
+                "usage_ref": "NAMU_GRAMMAR_20260908-U-뱉다",
+                "lemma": "뱉다",
+                "forms": [
+                  [
+                    "뱉아"
+                  ],
+                  [
+                    "뱉아라"
+                  ],
+                  [
+                    "뱉아가"
+                  ],
+                  [
+                    "뱉았다"
+                  ],
+                  [
+                    "뱉으니"
+                  ],
+                  [
+                    "뱉으모"
+                  ],
+                  [
+                    "뱉으라고"
+                  ],
+                  [
+                    "뱉고"
+                  ]
+                ]
+              },
+              {
+                "usage_ref": "NAMU_GRAMMAR_20260908-U-뺏다",
+                "lemma": "뺏다",
+                "forms": [
+                  [
+                    "뺏아"
+                  ],
+                  [
+                    "뺏아라"
+                  ],
+                  [
+                    "뺏아가"
+                  ],
+                  [
+                    "뺏았다"
+                  ],
+                  [
+                    "뺏으니"
+                  ],
+                  [
+                    "뺏으모"
+                  ],
+                  [
+                    "뺏으라고"
+                  ],
+                  [
+                    "뺏고"
+                  ]
+                ]
+              },
+              {
+                "usage_ref": "NAMU_GRAMMAR_20260908-U-맺다",
+                "lemma": "맺다",
+                "forms": [
+                  [
+                    "맺아"
+                  ],
+                  [
+                    "맺아라"
+                  ],
+                  [
+                    "맺아가"
+                  ],
+                  [
+                    "맺았다"
+                  ],
+                  [
+                    "맺으니"
+                  ],
+                  [
+                    "맺으모"
+                  ],
+                  [
+                    "맺으라고"
+                  ],
+                  [
+                    "맺고"
+                  ]
+                ]
+              }
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "NAMU_GRAMMAR_20260908-K-받침 있는 ㅐ형",
+                "feature": "following_ending_family",
+                "value": "-아/어"
+              },
+              {
+                "op": "eq",
+                "target": "NAMU_GRAMMAR_20260908-K-받침 있는 ㅐ형",
+                "feature": "stem_final_vowel",
+                "value": "ㅐ"
+              },
+              {
+                "op": "eq",
+                "target": "NAMU_GRAMMAR_20260908-K-받침 있는 ㅐ형",
+                "feature": "stem_has_coda",
+                "value": true
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_GRAMMAR_20260908-E007",
+        "NAMU_GRAMMAR_20260908-E000"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0007.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "주로 남쪽 지역; 일부 지역은 사용하지 않음",
+            "exclusive_to_region": null,
+            "widespread_use_established": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E007"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0007.period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 설명의 조사·발화 시점 미기재; PDF 수정일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0007.context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "문헌의 문법 설명",
+            "speaker_listener": null,
+            "source_scope_warning": "지역·개인·세대별 차이가 있을 수 있음"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E000"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움·세부 지역 분포·우선순위 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-C0008",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "용언 활용",
+        "형태음운"
+      ],
+      "source_terms": [
+        "ㅔ형 어간 대비"
+      ],
+      "target_refs": [
+        "NAMU_GRAMMAR_20260908-K-ㅔ형"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0008.a",
+          "kind": "tentative_realization",
+          "target_refs": [
+            "NAMU_GRAMMAR_20260908-K-ㅔ형"
+          ],
+          "content": {
+            "operation": "-어 결합",
+            "source_modality": "것으로 보인다",
+            "headers": [
+              "-아",
+              "-아라",
+              "-아가",
+              "-았다",
+              "-으니",
+              "-으모",
+              "-라고",
+              "-고"
+            ],
+            "paradigm": [
+              {
+                "usage_ref": "NAMU_GRAMMAR_20260908-U-겎다",
+                "lemma": "겎다",
+                "forms": [
+                  [
+                    "겎어"
+                  ],
+                  [
+                    "겎어라"
+                  ],
+                  [
+                    "겎어가"
+                  ],
+                  [
+                    "겎었다"
+                  ],
+                  [
+                    "겎으니"
+                  ],
+                  [
+                    "겎으모"
+                  ],
+                  [
+                    "겎으라고"
+                  ],
+                  [
+                    "겎고"
+                  ]
+                ]
+              },
+              {
+                "usage_ref": "NAMU_GRAMMAR_20260908-U-젭다",
+                "lemma": "젭다",
+                "forms": [
+                  [
+                    "젭어"
+                  ],
+                  [
+                    "젭어라"
+                  ],
+                  [
+                    "젭어가"
+                  ],
+                  [
+                    "젭었다"
+                  ],
+                  [
+                    "젭으니"
+                  ],
+                  [
+                    "젭으모"
+                  ],
+                  [
+                    "젭으라고"
+                  ],
+                  [
+                    "젭고"
+                  ]
+                ]
+              }
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "NAMU_GRAMMAR_20260908-K-ㅔ형",
+                "feature": "following_ending_family",
+                "value": "-아/어"
+              },
+              {
+                "op": "eq",
+                "target": "NAMU_GRAMMAR_20260908-K-ㅔ형",
+                "feature": "stem_final_vowel",
+                "value": "ㅔ"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_GRAMMAR_20260908-E008",
+        "NAMU_GRAMMAR_20260908-E014",
+        "NAMU_GRAMMAR_20260908-E000"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0008.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "세부 지역 미상",
+            "exclusive_to_region": null,
+            "widespread_use_established": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E008",
+            "NAMU_GRAMMAR_20260908-E014"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0008.period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 설명의 조사·발화 시점 미기재; PDF 수정일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0008.context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "문헌의 문법 설명",
+            "speaker_listener": null,
+            "source_scope_warning": "지역·개인·세대별 차이가 있을 수 있음"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E000"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움·세부 지역 분포·우선순위 미검증",
+        "ㅐ/ㅔ 발음 합류만으로 표기와 활용을 합치지 않음",
+        "젭다에 붙은 경남 표지를 ㅔ형 전체의 지역으로 확대하지 않음"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-C0009",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "형태음운",
+        "의미별 용법"
+      ],
+      "source_terms": [
+        "각주 15 강세 구별"
+      ],
+      "target_refs": [
+        "NAMU_GRAMMAR_20260908-K-말라의 뜻별 강세"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0009.a",
+          "kind": "prosodic_contrast",
+          "target_refs": [
+            "NAMU_GRAMMAR_20260908-K-말라의 뜻별 강세"
+          ],
+          "content": {
+            "contrasts": [
+              {
+                "lemma": "마르다",
+                "source_pos": "자동사",
+                "surface": "말라",
+                "stressed_syllable": 1
+              },
+              {
+                "lemma": "말루다",
+                "source_pos": "사동사",
+                "surface": "말라",
+                "stressed_syllable": 2
+              }
+            ],
+            "text_only_limitation": "강세를 일반 철자 차이로 바꾸지 않음"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_GRAMMAR_20260908-E009",
+        "NAMU_GRAMMAR_20260908-E000"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0009.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "세부 지역 미상",
+            "exclusive_to_region": null,
+            "widespread_use_established": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E009"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0009.period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 설명의 조사·발화 시점 미기재; PDF 수정일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0009.context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "문헌의 문법 설명",
+            "speaker_listener": null,
+            "source_scope_warning": "지역·개인·세대별 차이가 있을 수 있음"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E000"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움·세부 지역 분포·우선순위 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-C0010",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "용언 활용",
+        "형태음운"
+      ],
+      "source_terms": [
+        "각주 16 지역 우세"
+      ],
+      "target_refs": [
+        "NAMU_GRAMMAR_20260908-U-뎁후다"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0010.a",
+          "kind": "regional_variant",
+          "target_refs": [
+            "NAMU_GRAMMAR_20260908-U-뎁후다"
+          ],
+          "content": {
+            "operation": "뎁후다가 뎁히다와 같은 뜻이며 경남에서 더 자주 쓰이는 것 같다는 설명",
+            "source_modality": "것 같다",
+            "quantified_frequency": null
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_GRAMMAR_20260908-E010",
+        "NAMU_GRAMMAR_20260908-E000"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0010.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "경남 지방",
+            "exclusive_to_region": null,
+            "widespread_use_established": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E010"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0010.period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 설명의 조사·발화 시점 미기재; PDF 수정일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0010.context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "문헌의 문법 설명",
+            "speaker_listener": null,
+            "source_scope_warning": "지역·개인·세대별 차이가 있을 수 있음"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E000"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움·세부 지역 분포·우선순위 미검증",
+        "경남 전역·현대 보편형 판정 아님"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-C0011",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "용언 활용",
+        "형태음운"
+      ],
+      "source_terms": [
+        "3.1.3 싸오다 언급"
+      ],
+      "target_refs": [
+        "NAMU_GRAMMAR_20260908-K-싸우다와 싸오다"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0011.a",
+          "kind": "regional_variant",
+          "target_refs": [
+            "NAMU_GRAMMAR_20260908-K-싸우다와 싸오다"
+          ],
+          "content": {
+            "operation": "일부 경남에서 싸우다를 싸오다라고 함",
+            "source_modality": "관찰 언급; 지역 목록 미기재"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_GRAMMAR_20260908-E011",
+        "NAMU_GRAMMAR_20260908-E000"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0011.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "일부 경남 지역",
+            "exclusive_to_region": null,
+            "widespread_use_established": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E011"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0011.period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 설명의 조사·발화 시점 미기재; PDF 수정일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0011.context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "문헌의 문법 설명",
+            "speaker_listener": null,
+            "source_scope_warning": "지역·개인·세대별 차이가 있을 수 있음"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E000"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움·세부 지역 분포·우선순위 미검증",
+        "뒤따르는 역사적 추론은 사용 분포의 확정 근거가 아님"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-C0012",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "연결어미"
+      ],
+      "source_terms": [
+        "각주 3 -아가/-아서"
+      ],
+      "target_refs": [
+        "NAMU_GRAMMAR_20260908-K-원인이유 -아가"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0012.a",
+          "kind": "coexisting_endings",
+          "target_refs": [
+            "NAMU_GRAMMAR_20260908-K-원인이유 -아가"
+          ],
+          "content": {
+            "function": "원인·이유",
+            "forms": [
+              "-아가",
+              "-아서"
+            ],
+            "exclusive": false
+          },
+          "condition": {
+            "op": "eq",
+            "target": "NAMU_GRAMMAR_20260908-K-원인이유 -아가",
+            "feature": "meaning",
+            "value": "원인·이유"
+          }
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_GRAMMAR_20260908-E012",
+        "NAMU_GRAMMAR_20260908-E000"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0012.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "세부 지역 미상",
+            "exclusive_to_region": null,
+            "widespread_use_established": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E012"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0012.period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 설명의 조사·발화 시점 미기재; PDF 수정일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0012.context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "문헌의 문법 설명",
+            "speaker_listener": null,
+            "source_scope_warning": "지역·개인·세대별 차이가 있을 수 있음"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E000"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움·세부 지역 분포·우선순위 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-C0013",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "용언 활용",
+        "형태음운"
+      ],
+      "source_terms": [
+        "각주 4 ㄴ 생략"
+      ],
+      "target_refs": [
+        "NAMU_GRAMMAR_20260908-K--으니의 발음"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0013.a",
+          "kind": "pronunciation_variant",
+          "target_refs": [
+            "NAMU_GRAMMAR_20260908-K--으니의 발음"
+          ],
+          "content": {
+            "input": "-으니",
+            "variant": "-으이",
+            "modality": "발음하기도 한다",
+            "mandatory": false
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_GRAMMAR_20260908-E013",
+        "NAMU_GRAMMAR_20260908-E000"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0013.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "세부 지역 미상",
+            "exclusive_to_region": null,
+            "widespread_use_established": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E013"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0013.period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 설명의 조사·발화 시점 미기재; PDF 수정일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0013.context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "문헌의 문법 설명",
+            "speaker_listener": null,
+            "source_scope_warning": "지역·개인·세대별 차이가 있을 수 있음"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E000"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움·세부 지역 분포·우선순위 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-C0014",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "용언 활용",
+        "형태음운"
+      ],
+      "source_terms": [
+        "3.1.1 형성 설명"
+      ],
+      "target_refs": [
+        "NAMU_GRAMMAR_20260908-K-받침 없는 ㅣ형 어간"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0014.a",
+          "kind": "historical_account",
+          "target_refs": [
+            "NAMU_GRAMMAR_20260908-K-받침 없는 ㅣ형 어간"
+          ],
+          "content": {
+            "chains": [
+              [
+                "애껴라",
+                "애께라",
+                "애끼라"
+              ]
+            ],
+            "source_analysis": "ㅕ의 ㅔ 단모음화와 ㅔ→ㅣ 변화로 설명; 경북 동부는 뒤 변화가 덜 일어난 것으로 분석",
+            "generation_operation": false
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_GRAMMAR_20260908-E015",
+        "NAMU_GRAMMAR_20260908-E000"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0014.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "세부 지역 미상",
+            "exclusive_to_region": null,
+            "widespread_use_established": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E015"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0014.period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 설명의 조사·발화 시점 미기재; PDF 수정일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0014.context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "문헌의 문법 설명",
+            "speaker_listener": null,
+            "source_scope_warning": "지역·개인·세대별 차이가 있을 수 있음"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E000"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움·세부 지역 분포·우선순위 미검증",
+        "문헌의 형성 설명이지 현대 모든 문자열의 치환 규칙이 아님"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908-C0015",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "용언 활용",
+        "형태음운"
+      ],
+      "source_terms": [
+        "3.1.3 형성 설명"
+      ],
+      "target_refs": [
+        "NAMU_GRAMMAR_20260908-K-마지막 형태소 2음절 이상 ㅜ형"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0015.a",
+          "kind": "historical_account",
+          "target_refs": [
+            "NAMU_GRAMMAR_20260908-K-마지막 형태소 2음절 이상 ㅜ형"
+          ],
+          "content": {
+            "chains": [
+              [
+                "셰오다",
+                "셰와",
+                "세아"
+              ],
+              [
+                "싸호다",
+                "싸화",
+                "싸아"
+              ]
+            ],
+            "source_analysis": "-우-의 옛 -오-형과 단모음화, 원형의 모음 변화로 설명; 활용 확대는 추정",
+            "generation_operation": false
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_GRAMMAR_20260908-E016",
+        "NAMU_GRAMMAR_20260908-E000"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0015.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "세부 지역 미상",
+            "exclusive_to_region": null,
+            "widespread_use_established": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E016"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0015.period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 설명의 조사·발화 시점 미기재; PDF 수정일로 대체하지 않음"
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908-C0015.context",
+          "dimension": "usage_context",
+          "value": {
+            "kind": "문헌의 문법 설명",
+            "speaker_listener": null,
+            "source_scope_warning": "지역·개인·세대별 차이가 있을 수 있음"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "NAMU_GRAMMAR_20260908-E000"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움·세부 지역 분포·우선순위 미검증",
+        "어원 자료 직접 검증 전",
+        "남쪽 ㅗ→ㅜ 변화 추정도 운영 치환 규칙으로 쓰지 않음"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    }
+  ],
+  "policies": [
+    {
+      "id": "NAMU_GRAMMAR_20260908-P001",
+      "applies_to": [
+        "NAMU_GRAMMAR_20260908-K-받침 없는 ㅣ형 어간",
+        "NAMU_GRAMMAR_20260908-K-마지막 형태소 1음절 ㅜ형",
+        "NAMU_GRAMMAR_20260908-K-마지막 형태소 2음절 이상 ㅜ형",
+        "NAMU_GRAMMAR_20260908-K-받침 있는 ㅐ형",
+        "NAMU_GRAMMAR_20260908-K-ㅔ형",
+        "NAMU_GRAMMAR_20260908-K-말라의 뜻별 강세",
+        "NAMU_GRAMMAR_20260908-K-원인이유 -아가",
+        "NAMU_GRAMMAR_20260908-K--으니의 발음",
+        "NAMU_GRAMMAR_20260908-K-싸우다와 싸오다"
+      ],
+      "target_profile": "지역 미지정 일반 경상도 텍스트",
+      "priority": "undetermined",
+      "rationale": "첫 추출의 지역·현대 사용 근거를 대조하기 전이며 자료에 실렸다는 이유로 범지역 우선으로 승격하지 않음",
+      "decided_by": "extractor_pending_review",
+      "decided_on": "2026-09-10",
+      "not_a_grammatical_claim": true
+    }
+  ]
+}

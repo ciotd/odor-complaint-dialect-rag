@@ -1,0 +1,1305 @@
+{
+  "format_version": "3.0-draft.1",
+  "status": "extraction_draft",
+  "entities": [
+    {
+      "id": "JO2018-B004-C001.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "격식체 등급의 고정성과 비격식체의 유동성",
+        "evidence_refs": [
+          "JO2018-B004-C001.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B004-C002.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "해요·해예와 격식체의 높임 대상 혼용",
+        "evidence_refs": [
+          "JO2018-B004-C002.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B004-C003.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "다수 청자 앞 해라체·해요체 혼용 담화",
+        "evidence_refs": [
+          "JO2018-B004-C003.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B004-C004.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-제/-지러의 하게체·해라체 혼용",
+        "evidence_refs": [
+          "JO2018-B004-C004.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B004-C005.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "하이소체에 -요가 결합한 실제형",
+        "evidence_refs": [
+          "JO2018-B004-C005.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B004-C006.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "하이소체+요와 하게체+요의 자료 한계",
+        "evidence_refs": [
+          "JO2018-B004-C006.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B004-C007.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "해예체 독립 비격식체 설정",
+        "evidence_refs": [
+          "JO2018-B004-C007.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B004-C008.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-여의 서술 편의 표기와 분석 선택",
+        "evidence_refs": [
+          "JO2018-B004-C008.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B004-C009.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "해예체 하게체 제외 및 혼용",
+        "evidence_refs": [
+          "JO2018-B004-C009.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B004-C010.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "해여체와 하소체의 친밀 조건",
+        "evidence_refs": [
+          "JO2018-B004-C010.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B004-C011.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "해여체의 하게체 자리와 용법 대치",
+        "evidence_refs": [
+          "JO2018-B004-C011.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B004-C012.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "해예·해여·해요의 관찰 지역",
+        "evidence_refs": [
+          "JO2018-B004-C012.e"
+        ]
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "JO2018-B004-C001.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        52
+      ],
+      "locator": "PDF52 / 인쇄 40: 격식체 등급의 고정성과 비격식체의 유동성",
+      "excerpt": "격식체와 비격식체로 나눌 수 있는 명료한 기준38)은,격식체 종결어미는\n높임의 등급이 일반적으로 고정적인 데 반해,비격식체 종결어미는 높임의\n등급과 상관없다는 점이다.즉 비격식체는 격식체와 달리 유동성이 강하다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B004-C002.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        53
+      ],
+      "locator": "PDF53 / 인쇄 41: 해요·해예와 격식체의 높임 대상 혼용",
+      "excerpt": "(\n 11ㄱ,ㄴ,ㄷ)\n        은 화자가 높임의 대상인 아버지,선생님,어머니에게 각각\n‘\n-니더’\n   와 ‘\n     -지요’\n        (11ㄱ)\n            ,‘-가요’\n                 ,‘-ㅂ니더’\n                       .‘-ㅂ니꺼’\n                             (11ㄴ)\n                                 ,‘-ㅂ니꺼’\n                                       ,‘-지\n예’\n (11ㄷ)\n     를 쓰고 있다.즉 격식체에 해당하는 서술법의 ‘\n                              -니더’\n                                 ,의문법의 ‘\n                                       -\n니꺼’\n  와 함께 비격식체인 ‘\n             -지요’\n                ,‘-가요’\n                     ,‘-지예’\n                          가 혼용해서 나타난다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B004-C003.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        54
+      ],
+      "locator": "PDF54 / 인쇄 42: 다수 청자 앞 해라체·해요체 혼용 담화",
+      "excerpt": "39)이들 예문은 구술 내용상에 등장하는 화자와 청자가 아닌,제보자가 다수의 청자를 대상\n  으로 설명하는 부분이다.즉,화자가 조사자를 포함한 다수의 청자에게 구술하고 있는 상\n  황으로,이러한 화자-청자 관계에서는 해라체와 해요체가 혼용해서 나타나는 경우가 상당\n  히 많다.이러한 현상은 일상생활에서도 쉽게 발견할 수 있는데,강의 시간에 교수자가\n  학생들에게 해라체와 해요체를 함께 사용하는 경우가 여기에 해당될 것이다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B004-C004.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        54
+      ],
+      "locator": "PDF54 / 인쇄 42: -제/-지러의 하게체·해라체 혼용",
+      "excerpt": "(\n 12)\n   는 해체의 종결어미인 ‘\n               -제’\n                 ,‘-지러’\n                      가 하게체,해라체와 혼용해서 나\n타나는 용례이다.‘\n         -제’\n           가 하게체의 ‘\n                  -네’\n                    (12ㄱ)\n                        ,해라체의 ‘\n                              -다’\n                                ,해체의 ‘\n                                     -\n어’\n (12ㄴ)\n     와 함께 쓰이며,‘  4\n              -지러’1\n                  )가 하게체의 ‘\n                          -네’\n                            (12ㄷ)\n                                ,해라체 의문법의\n‘\n-나’\n  (12ㄹ)\n      와 혼용해서 나타난다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B004-C005.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        55
+      ],
+      "locator": "PDF55 / 인쇄 43: 하이소체에 -요가 결합한 실제형",
+      "excerpt": "(\n   13)ㄱ.a\n        :“니가 무슨 머시로,이도로 갈라 카냐.\n                             ”\n        b:“\n          백성을 좀 안정을 시케 놓고 오겠심니더요.\n                                ”(7\n                                  -3:\n                                    184\n                                      /경주)\n      ㄴ.동래 정씨가 토째비 설에 믜 쓰고 정승 났답니다요.\n                                   (7-5\n                                      :50\n                                        0/성주)\n      ㄷ.그 사체를 알고 고햐(\n                   고향)\n                     을 알았지,안찾이며는 그 모든 것이 아입니까요.\n        그르이까 그 자손들이 지금까지도 그 공로가 그 사람께 있어요.\n                                         (7-7\n                                            :82\n                                              /영덕)\n      ㄹ.“\n        이름은 무엇입니까요?”\n                   (7-1\n                      1:1\n                        35/\n                          군위)\n\n\n (\n 13)\n   은 ‘\n     -니더’\n        ,‘-니다’\n             와 ‘\n               -ㅂ니까’\n                   에 ‘\n                     -요’\n                       가 결합하여 [\n                              +높임]\n                                 을 보여주고\n있다.즉,‘\n     하이소체+요’\n           43\n            )의 구성으로,비격식체는 결합 관계에 있어서도 격\n                    4\n식체와 다르게 수의적 결합이 가능하다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B004-C006.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        55
+      ],
+      "locator": "PDF55 / 인쇄 43: 하이소체+요와 하게체+요의 자료 한계",
+      "excerpt": "43\n            )의 구성으로,비격식체는 결합 관계에 있어서도 격\n                    4\n식체와 다르게 수의적 결합이 가능하다.4\n                     )\n\n 위와 같이,비격식체의 해요체는 격식체의 하이소체,해라체와 함께 나타\n날 수 있으며,해체는 하게체와 해라체와 함께 나타나면서 그 등급의 유연\n성을 확인할 수 있다.\n           4) 그러므로 비격식체는 격식체와는 다른 성격을 보여\n            5\n\n주고 있으므로 이를 구분할 필요가 있다.\n 지금까지 살펴본 내용을 도식화하면 다음과 같다.\n\n\n\n\n42) 표준국어대사전 에서도 “격식체인 ‘\n                      해라체’와 ‘\n                            하게체’ 를 쓸 자리에 두루 쓰는 비격식체”\n  로 설명하고 있다.\n43)‘\n   하이소체+요’구성을 보이는 예문이 많이 발견되지는 않는다.그 이유 중 하나는,하이\n  소체 자체가 높임을 나타내는 것이므로 굳이 ‘-요’를 첨가할 이유가 없기 때문이다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B004-C007.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        56
+      ],
+      "locator": "PDF56 / 인쇄 44: 해예체 독립 비격식체 설정",
+      "excerpt": "46)‘\n   해예체’는 지금껏 설정되지 않은 비격식체로,기존 연구에서는 대부분 해요체와 같이 형\n  태만 언급되어 왔다.이상규(  199\n                     1)에서는 ‘ -아요( 예)\n                                   ,-지요(예),-거든요(예)’\n                                                  로 하소체에\n  포함시켰고,최동주( 2003\n                )에서는 ‘-데+-요/예’ 를 하소체로,박창원( 199\n                                             1)에서는 ‘-라예,-아\n  예,-지예,-거든예’를 합쇼체로,이기갑(   2003)에서는 ‘예’\n                                      를 두루높임,박원우(  1973)\n                                                       에서는\n  해요체에 포함시켜 다루었다.그러나 이 연구에서는 경북 서부 지역에서 특정적으로 쓰이\n  는 해여체처럼,대구,달성 등의 경북 중동 지역에서 특징적으로 나타나는 해예체도 비격\n  식체로 설정하기로 한다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B004-C008.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        57
+      ],
+      "locator": "PDF57 / 인쇄 45: -여의 서술 편의 표기와 분석 선택",
+      "excerpt": "47)‘\n   -여’혹은 ‘\n         -어여’\n            에 관해서는 두 가지 견해가 있다.안귀남(   20\n                                       04)\n                                         에서는 용언의 서술법\n  어미 ‘\n     -어/지’\n         ,부사,체언+계사와 공기하고 체언 다음에 올 수 없다고 언급하면서 문장종\n  결조사로 보고 있다.반면,이혁화( 200\n                       7)에서는 경북 서부방언의 종결어미 ‘  -어여’\n                                                 가 [\n                                                   존\n  대]의‘-어요’\n         나[비존대]‘어’\n                 로 대치가 가능함을 보여주면서,이 형태를 해요체와 함께 비\n  격식체에 포함시키고 있다.여기에서는 이혁화(  200\n                              7)에 따라 ‘\n                                     -어여’를 비격식체로 다루기\n  로 한다.그리고 서술의 편의상 ‘\n                   -여’로 표기한다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B004-C009.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        58
+      ],
+      "locator": "PDF58 / 인쇄 46: 해예체 하게체 제외 및 혼용",
+      "excerpt": "게 ‘\n  -지예’\n     와 ‘\n       -입니까’\n           ,(14ㄷ)\n                은 다수의 청자에게 ‘\n                           -라’\n                             와 ‘\n                               -라예’\n                                  를 쓰고 있\n다.즉,해예체 종결어미는 해요체와 마찬가지로 하게체를 제외한 모든 등급\n에서 유동적으로 쓰이고 있다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B004-C010.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        58
+      ],
+      "locator": "PDF58 / 인쇄 46: 해여체와 하소체의 친밀 조건",
+      "excerpt": "(\n                14ㄹ)\n                   은 ‘\n                     -노’\n                       와 ‘\n                         -여’\n                           ,(14ㅁ)\n                                은 ‘\n                                  -여’\n                                    와 ‘\n                                      -다’\n가 쓰이면서 해라체와 해여체가,(\n                 14ㅂ)\n                    은 ‘\n                      -여’\n                        와 ‘\n                          -ㅂ니다’\n                              가 함께 쓰이면\n서 해여체와 하소체가 같이 나타나 해요체,해예체와 동일한 쓰임을 보여준\n다.그러나 해여체게 하소체와 쓰일 때에는 친밀한 관계가 아니면 쓰이지\n않는 특성을 보여준다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B004-C011.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        58
+      ],
+      "locator": "PDF58 / 인쇄 46: 해여체의 하게체 자리와 용법 대치",
+      "excerpt": "주목되는 점은,해요체와 해예체와는 다르게 해여체는 하게체에서도 쓰인\n다는 점이다.(\n       14ㅅ)\n          에서는 친구 사이의 대화로 여기에 쓰인 ‘\n                                -여’\n                                  를 하게체\n의 ‘\n  -게’\n    나 ‘\n      -세’\n        로 대치하여도 의미가 변하지 않는다.즉 해여체는 모든 높\n              4\n임 등급에서 사용되고 있다.8\n               )\n\n 경북방언에 나타나는",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B004-C012.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        58
+      ],
+      "locator": "PDF58 / 인쇄 46: 해예·해여·해요의 관찰 지역",
+      "excerpt": "경북방언에 나타나는 비격식체인 해예체는 대구,달성 등의 경북 중동 서\n부지역에서 주로 나타나고,해여체는 김천,구미 등의 경북 서부지역에서 특\n징적으로 쓰인다.표준어의 해요체는 모든 지역에서 나타난다.",
+      "kind": "source_statement"
+    }
+  ],
+  "claims": [
+    {
+      "id": "JO2018-B004-C001",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "격식체 등급의 고정성과 비격식체의 유동성"
+      ],
+      "target_refs": [
+        "JO2018-B004-C001.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B004-C001.a",
+          "kind": "scope_caveat",
+          "target_refs": [
+            "JO2018-B004-C001.usage"
+          ],
+          "content": {
+            "source_locator": "PDF52 / 인쇄 40: 격식체 등급의 고정성과 비격식체의 유동성",
+            "source_analysis": "저자는 격식체 높임 등급이 일반적으로 고정적인 반면 비격식체는 유동성이 강하다고 구별한다. 등급과 상관없다는 개괄을 뒤의 해요체/해예체의 하게체 제외와 해여체 친밀 조건을 무시하는 허용 규칙으로 사용하지 않는다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "draft_not_approved",
+            "forms": []
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B004-C001.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B004-C001.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 region 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B004-C001.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B004-C001.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B004-C001.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 본문 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B004-C002",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미",
+        "상대높임",
+        "담화"
+      ],
+      "source_terms": [
+        "해요·해예와 격식체의 높임 대상 혼용"
+      ],
+      "target_refs": [
+        "JO2018-B004-C002.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B004-C002.a",
+          "kind": "coexisting_endings",
+          "target_refs": [
+            "JO2018-B004-C002.usage"
+          ],
+          "content": {
+            "source_locator": "PDF53 / 인쇄 41: 해요·해예와 격식체의 높임 대상 혼용",
+            "source_analysis": "아버지·선생님·어머니에게 격식체와 -지요/-가요/-지예가 함께 나타난다고 분석한다. 관계는 이야기 속 각 예문 참여자에 한정한다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-지요",
+              "-가요",
+              "-지예"
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B004-C002.usage",
+                "feature": "listener_role",
+                "value": "예11ㄱ·ㄴ·ㄷ의 높임 대상"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B004-C002.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B004-C002.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 region 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B004-C002.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B004-C002.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B004-C002.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 본문 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B004-C003",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미",
+        "상대높임",
+        "담화"
+      ],
+      "source_terms": [
+        "다수 청자 앞 해라체·해요체 혼용 담화"
+      ],
+      "target_refs": [
+        "JO2018-B004-C003.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B004-C003.a",
+          "kind": "variant_usage_context",
+          "target_refs": [
+            "JO2018-B004-C003.usage"
+          ],
+          "content": {
+            "source_locator": "PDF54 / 인쇄 42: 다수 청자 앞 해라체·해요체 혼용 담화",
+            "source_analysis": "예11ㄹ·ㅁ·ㅂ은 이야기 속 대화가 아니라 제보자가 조사자를 포함한 다수 청자에게 설명하는 구술이다. 이 상황에서 해라체와 해요체 혼용이 많다고 설명하며 강의 비유도 제시한다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "draft_not_approved",
+            "forms": []
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B004-C003.usage",
+                "feature": "discourse_layer",
+                "value": "제보자의 구술"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B004-C003.usage",
+                "feature": "listener_scope",
+                "value": "조사자 포함 다수 청자"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B004-C003.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B004-C003.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 region 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B004-C003.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B004-C003.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B004-C003.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 본문 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B004-C004",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미",
+        "상대높임",
+        "담화"
+      ],
+      "source_terms": [
+        "-제/-지러의 하게체·해라체 혼용"
+      ],
+      "target_refs": [
+        "JO2018-B004-C004.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B004-C004.a",
+          "kind": "coexisting_endings",
+          "target_refs": [
+            "JO2018-B004-C004.usage"
+          ],
+          "content": {
+            "source_locator": "PDF54 / 인쇄 42: -제/-지러의 하게체·해라체 혼용",
+            "source_analysis": "해체 -제는 -네(12ㄱ), -다/-어(12ㄴ)와, -지러는 -네(12ㄷ), -나(12ㄹ)와 공존한다. -지러의 고정 높임등급을 형태 자체에 붙이지 않는다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-제",
+              "-지러",
+              "-네",
+              "-다",
+              "-어",
+              "-나"
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B004-C004.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B004-C004.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 region 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B004-C004.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B004-C004.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B004-C004.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 본문 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B004-C005",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "하이소체에 -요가 결합한 실제형"
+      ],
+      "target_refs": [
+        "JO2018-B004-C005.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B004-C005.a",
+          "kind": "attested_form",
+          "target_refs": [
+            "JO2018-B004-C005.usage"
+          ],
+          "content": {
+            "source_locator": "PDF55 / 인쇄 43: 하이소체에 -요가 결합한 실제형",
+            "source_analysis": "예13은 -니더/-니다/-ㅂ니까에 -요가 결합한 높임을 보이며 저자는 하이소체+요로 분석한다. 모든 어미에 -요를 붙이는 생산적 규칙으로 확대하지 않는다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-요"
+            ],
+            "construction_rows": [
+              {
+                "usage": "예13ㄱ 하이소체+요",
+                "ending": "-요",
+                "surface": "오겠심니더요",
+                "layer": "source_surface",
+                "features": {
+                  "base_style": "하이소체",
+                  "attached_particle": "-요",
+                  "source_example": "13ㄱ"
+                },
+                "hold": null
+              },
+              {
+                "usage": "예13ㄴ 하이소체+요",
+                "ending": "-요",
+                "surface": "났답니다요",
+                "layer": "source_surface",
+                "features": {
+                  "base_style": "하이소체",
+                  "attached_particle": "-요",
+                  "source_example": "13ㄴ"
+                },
+                "hold": null
+              },
+              {
+                "usage": "예13ㄷ 하이소체+요",
+                "ending": "-요",
+                "surface": "아입니까요",
+                "layer": "source_surface",
+                "features": {
+                  "base_style": "하이소체",
+                  "attached_particle": "-요",
+                  "source_example": "13ㄷ"
+                },
+                "hold": null
+              },
+              {
+                "usage": "예13ㄹ 하이소체+요",
+                "ending": "-요",
+                "surface": "무엇입니까요",
+                "layer": "source_surface",
+                "features": {
+                  "base_style": "하이소체",
+                  "attached_particle": "-요",
+                  "source_example": "13ㄹ"
+                },
+                "hold": null
+              }
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B004-C005.usage",
+                "feature": "base_style",
+                "value": "하이소체"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B004-C005.usage",
+                "feature": "attached_particle",
+                "value": "-요"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B004-C005.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B004-C005.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 region 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B004-C005.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B004-C005.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B004-C005.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 본문 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B004-C006",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "하이소체+요와 하게체+요의 자료 한계"
+      ],
+      "target_refs": [
+        "JO2018-B004-C006.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B004-C006.a",
+          "kind": "scope_caveat",
+          "target_refs": [
+            "JO2018-B004-C006.usage"
+          ],
+          "content": {
+            "source_locator": "PDF55 / 인쇄 43: 하이소체+요와 하게체+요의 자료 한계",
+            "source_analysis": "각주43은 하이소체+요 예가 많지 않으며 하이소체 자체가 높임이라 -요 첨가 이유가 적다는 해석을 제시한다. 각주44는 하게체+요 구성이 보이지 않는다고 한다. 자료 내 미관찰을 모든 시대의 비문 판정으로 바꾸지 않는다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "draft_not_approved",
+            "forms": [],
+            "not_attested_in_source": "하게체+요"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B004-C006.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B004-C006.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 region 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B004-C006.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B004-C006.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B004-C006.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [
+        {
+          "type": "qualifies",
+          "target": "JO2018-B004-C005",
+          "basis": "source_statement",
+          "evidence_refs": [
+            "JO2018-B004-C006.e"
+          ]
+        }
+      ],
+      "gaps": [
+        "현대 자연스러움 및 본문 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B004-C007",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미",
+        "상대높임",
+        "담화"
+      ],
+      "source_terms": [
+        "해예체 독립 비격식체 설정"
+      ],
+      "target_refs": [
+        "JO2018-B004-C007.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B004-C007.a",
+          "kind": "variant_usage_context",
+          "target_refs": [
+            "JO2018-B004-C007.usage"
+          ],
+          "content": {
+            "source_locator": "PDF56 / 인쇄 44: 해예체 독립 비격식체 설정",
+            "source_analysis": "선행연구에서 다른 등급에 포함하던 해예체를 저자는 대구·달성 등 경북 중동 지역에 특징적인 비격식체로 설정한다. 다른 지역에서 불가능하다는 뜻은 아니다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "draft_not_approved",
+            "forms": []
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B004-C007.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B004-C007.region",
+          "dimension": "region",
+          "value": {
+            "raw_scope": "대구, 달성 등 경북 중동 지역",
+            "exclusivity": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B004-C007.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "JO2018-B004-C007.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B004-C007.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B004-C007.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 본문 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B004-C008",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-여의 서술 편의 표기와 분석 선택"
+      ],
+      "target_refs": [
+        "JO2018-B004-C008.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B004-C008.a",
+          "kind": "scope_caveat",
+          "target_refs": [
+            "JO2018-B004-C008.usage"
+          ],
+          "content": {
+            "source_locator": "PDF57 / 인쇄 45: -여의 서술 편의 표기와 분석 선택",
+            "source_analysis": "각주47은 안귀남(2004)의 용언 -어/지·부사·체언+계사 공기 및 체언 직후 불가 분석과, 이혁화(2007)의 존대 -어요/비존대 어 대치 분석을 소개하고 후자를 채택한다. 서술 편의상 -여로 표기한다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "held",
+            "forms": [
+              "-어여",
+              "-여"
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B004-C008.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B004-C008.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 region 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B004-C008.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B004-C008.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B004-C008.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "재인용 분석·대치 조건 원 연구 미확인"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B004-C009",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "해예체 하게체 제외 및 혼용"
+      ],
+      "target_refs": [
+        "JO2018-B004-C009.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B004-C009.a",
+          "kind": "scope_caveat",
+          "target_refs": [
+            "JO2018-B004-C009.usage"
+          ],
+          "content": {
+            "source_locator": "PDF58 / 인쇄 46: 해예체 하게체 제외 및 혼용",
+            "source_analysis": "예14ㄱ·ㄴ·ㄷ 해설에서 해예체는 해요체처럼 하게체를 제외한 모든 등급에서 유동적으로 쓰인다고 한다. 다음 해여체 설명의 하게체 허용을 옮기지 않는다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-지예",
+              "-라예"
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B004-C009.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B004-C009.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 region 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B004-C009.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B004-C009.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B004-C009.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 본문 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B004-C010",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "해여체와 하소체의 친밀 조건"
+      ],
+      "target_refs": [
+        "JO2018-B004-C010.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B004-C010.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B004-C010.usage"
+          ],
+          "content": {
+            "source_locator": "PDF58 / 인쇄 46: 해여체와 하소체의 친밀 조건",
+            "source_analysis": "해여체는 해라체 및 하소체와 공존하지만 하소체와 함께 쓸 때는 친밀한 관계가 아니면 쓰이지 않는다고 설명한다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-여"
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B004-C010.usage",
+                "feature": "cooccurring_style",
+                "value": "하소체"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B004-C010.usage",
+                "feature": "relationship",
+                "value": "친밀한 관계"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B004-C010.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B004-C010.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 region 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B004-C010.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B004-C010.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B004-C010.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 본문 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B004-C011",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "해여체의 하게체 자리와 용법 대치"
+      ],
+      "target_refs": [
+        "JO2018-B004-C011.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B004-C011.a",
+          "kind": "conditional_correspondence",
+          "target_refs": [
+            "JO2018-B004-C011.usage"
+          ],
+          "content": {
+            "source_locator": "PDF58 / 인쇄 46: 해여체의 하게체 자리와 용법 대치",
+            "source_analysis": "해여체는 해요·해예와 달리 하게체에서도 쓰인다. 친구 사이 예14ㅅ의 -여는 -게/-세로 대치해도 의미가 변하지 않는다고 설명한다. 앞선 하소체 친밀 조건은 유지한다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-여",
+              "-게",
+              "-세"
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B004-C011.usage",
+                "feature": "relationship",
+                "value": "친구 사이"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B004-C011.usage",
+                "feature": "source_example",
+                "value": "14ㅅ"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B004-C011.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B004-C011.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 region 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B004-C011.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B004-C011.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B004-C011.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 본문 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B004-C012",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미",
+        "지역분포"
+      ],
+      "source_terms": [
+        "해예·해여·해요의 관찰 지역"
+      ],
+      "target_refs": [
+        "JO2018-B004-C012.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B004-C012.a",
+          "kind": "regional_prevalence",
+          "target_refs": [
+            "JO2018-B004-C012.usage"
+          ],
+          "content": {
+            "source_locator": "PDF58 / 인쇄 46: 해예·해여·해요의 관찰 지역",
+            "source_analysis": "해예체는 대구·달성 등 경북 중동 서부에 주로, 해여체는 김천·구미 등 경북 서부에 특징적으로 쓰이며 표준어 해요체는 모든 지역에 나타난다는 저자의 개괄. 김천은 본문 설명 지역이며 13개 조사 지역 목록에 자동 추가하지 않는다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "draft_not_approved",
+            "forms": []
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B004-C012.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B004-C012.region",
+          "dimension": "region",
+          "value": {
+            "raw_scope": "대구·달성 등 / 김천·구미 등 / 자료 설명 범위의 모든 지역",
+            "exclusivity": null
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B004-C012.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "JO2018-B004-C012.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B004-C012.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B004-C012.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 본문 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    }
+  ],
+  "policies": []
+}

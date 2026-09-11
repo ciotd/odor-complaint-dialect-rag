@@ -1,0 +1,909 @@
+{
+  "format_version": "3.0-draft.1",
+  "status": "extraction_draft",
+  "entities": [
+    {
+      "id": "JO2018-B009-C001.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-데이의 높임별 필수 선행 요소",
+        "evidence_refs": [
+          "JO2018-B009-C001.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B009-C002.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-구마·-소 높임 분류의 선행연구 차이",
+        "evidence_refs": [
+          "JO2018-B009-C002.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B009-C003.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-구마/-구매의 자료 내 지역 분포",
+        "evidence_refs": [
+          "JO2018-B009-C003.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B009-C004.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-소의 구술 설화 사용 맥락",
+        "evidence_refs": [
+          "JO2018-B009-C004.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B009-C005.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-구마의 결합 대상과 인칭",
+        "evidence_refs": [
+          "JO2018-B009-C005.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B009-C006.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-구마의 하이소체 혼용과 감탄 해석",
+        "evidence_refs": [
+          "JO2018-B009-C006.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B009-C007.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-소의 결합·운소별 문장 유형",
+        "evidence_refs": [
+          "JO2018-B009-C007.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B009-C008.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-소와 높임어미 혼용의 화용적 중화",
+        "evidence_refs": [
+          "JO2018-B009-C008.e"
+        ]
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "JO2018-B009-C001.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        95
+      ],
+      "locator": "PDF95 / -데이의 높임별 필수 선행 요소",
+      "excerpt": "103)‘-데이’\n        는 실제 하이소체와 해라체에 쓰인다.그러나 종결어미의 구성에서 차이를 보인\n   다.하이소체로 쓰이기 위해서는 ‘  -니-’\n                          나 ‘\n                            -시-’\n                               가 결합해야하고,해라체는 그러한 결합\n   없이 쓰인다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B009-C002.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        95,
+        96
+      ],
+      "locator": "PDF95,96 / -구마·-소 높임 분류의 선행연구 차이",
+      "excerpt": "-구마:하소체(\n         서정욱:\n            198\n              1,이태욱:\n                   198\n                     6,김영태:\n                          199\n                            6)\n       하게체(\n          황대화:\n             199\n               8,김영황:\n                    201\n                      3,박원우:\n                           197\n                             3)\n      해라체(\n         이상규:\n            199\n              9)\n   -소:하소체(\n         이혁화:\n            2007ㄱ,전인득:\n                     1979,민원식:\n                             1994,장희승:\n                                     2000)\n      하오체(\n         김정균:\n            199\n              8,조욱현:\n                   1993)\n\n\n ‘\n -구마’\n    의 경우 격식체인 하소체,하게체,해라체의 모든 등급에서 혼란을\n보이고 있다.김영태(\n          1996:\n              29)\n                에서는 보조용언 활용체계를 제시하면서 아주\n높임에 포함시켰으며,황대화(\n              1998:\n                  234)\n                     에서는 육진방언의 ‘\n                               옵구마(\n                                  꾸마)\n                                    ’와\n일치된 것으로,이상규(\n           1999:\n               138)\n                  에서는 수상하대에 속하는 서술법으로 ‘\n                                      -구\n마’\n 를 제시하였다.실제 ‘\n            -구마’\n               는 일종의 감탄의 의미를 가지므로,그 정확\n                      1\n한 등급을 설정하기가 어려운 부분이 있다.01\n                        ) 그러나 앞서 문장 종결법에\n\n서 언급하였듯이,청자에게 초점이 있는 의문법이나 명령법의 경우에는 그\n높임의 등급에 따라서 형태를 달리하지만,감탄은 청자보다는 화자의 주관\n적 느낌을 표현하는 것이기 때문에 높임의 설정이 불분명하다.그러므로 감\n탄을 나타내는 종결어미의 등급은 빈자리가 많으며,쓰이는 형태들도 그 등\n급의 위치를 정확하게 설정하기 어려운 면이 있다.\n                          10\n                           2)\n\n ‘\n -소’\n   는 현대 구어에서는 거의 쓰이지 않는 표현으로,표준어에서는 하오\n체로 제시하고 있다.이에 따라 김정균(\n                    1998)\n                        ,조욱현(\n                            1993)\n                                에서도 하오체를\n설정하고 있는데,그러한 설정이 없는 경우에는 하소체에 포함시키는 경우\n가 대부분이다.‘\n        -데이’\n           의 경우도 하소체와 해라체의 두 가지 경우가 발견된\n 1\n다.0\n  3) 이러한 등급의 견해 차이는 세 가지로 해석될 수 있다.첫째는 각 형\n\n태가 지역별로 다른 등급을 보여줄 수 있다는 가능성,둘째는 각각의 형태\n가 다양한 등급에 쓰일 수 있다는 가능성,셋째는 분석의 오류일 가능성이\n다.특히 단일어미가 아닌,융합형 형태소의 경우104) 그 분석 기준에 따라\n\n101)앞의 <표 4> 감탄법 종결어미 목록 체계 참고.\n102)앞서 언급하였지만,감탄과 관련된 종결어미는 다른 문장 종결법에 비해,상대 높임법\n   에 대한 빈자리가 많으며,통사적으로 서술법과 크게 다르지 않기 때문이다.\n103)‘-데이’\n        는 실제 하이소체와 해라체에 쓰인다.그러나 종결어미의 구성에서 차이를 보인\n   다.하이소체로 쓰이기 위해서는 ‘  -니-’\n                          나 ‘\n                            -시-’\n                               가 결합해야하고,해라체는 그러한 결합\n   없이 쓰인다.\n\n                       -8\n                        3-\n달라질 수 있다.실제 구술 자료를 통해 어떤 등급에서 사용되고 있는지 확\n인해야 할 부분이다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B009-C003.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        96,
+        97
+      ],
+      "locator": "PDF96,97 / -구마/-구매의 자료 내 지역 분포",
+      "excerpt": "하소체 서술법 종결어미는 표준형인 ‘\n                    -소’\n                      가 빈도수를 비롯하여 전 지역에\n서 고루 분포한다.반면,방언형인 ‘\n                  -구마’\n                     는 상대적으로 빈도수가 적게 나타\n나며,그 쓰임에 있어서도 ‘\n              -소’\n                보다는 높게 나타나지 않는다.\n 첫째,‘\n    -구마’\n       와 관련된 종결어미의 지역 분포와 사용 양상을 살펴보자.\n\n\n     (\n     45)ㄱ.“\n          오늘은 저 아버님 나무 없구마.나무해 와야 되겠소.\n                                     ”(7\n                                       -4:\n                                         251\n                                           /성주)\n          ㄴ.“\n            예끼,성님(\n                 형님)좀 나가만 좋을끼구마는.\n                                ”(7\n                                  -2:\n                                    90/\n                                      경주)\n          ㄷ.장모산에 거기 참 날 가물 때 미(\n                              무덤)파로 우리들 서너 번 가 밨꾸매\n            (\n            7-1\n              :55\n                0/경주)\n ‘\n -구마’\n    는 성주를 중심으로 경북 서부방언권에 주로 분포하며,예천 지역\n에서는 한 차례도 나타나지 않았다.‘\n                   -구매’\n                      는 경주 지역에서 단 한 차례만\n\n104)‘\n    -니더’\n       ,‘-디더’\n            ,‘-니데이’등이 융합형 종결어미에 속한다.\n\n                                    -8\n                                     4-\n발견될 뿐,보편적으로 쓰이는 종결어미는 아니다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B009-C004.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        97
+      ],
+      "locator": "PDF97 / -소의 구술 설화 사용 맥락",
+      "excerpt": "‘\n -소’\n   는 현대 구어에서는 잘 쓰이지 않는 표현이지만,설화를 구술하고 있\n다는 자료의 특성으로 인해 사용 빈도가 높은 것으로 보인다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B009-C005.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        97
+      ],
+      "locator": "PDF97 / -구마의 결합 대상과 인칭",
+      "excerpt": "‘\n -구마’\n    는 계사,용언의 어간,선어말어미 등과 자유롭게 결합하며 인칭에\n서도 제약이 없다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B009-C006.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        98
+      ],
+      "locator": "PDF98 / -구마의 하이소체 혼용과 감탄 해석",
+      "excerpt": "(\n 47)\n   의 ‘\n     -구마’\n        는 높임 등급에서 혼란을 보인 형태이다.이에 대해 황대화\n(\n1998:\n    234)\n       에서는 ‘\n           -구마’\n              를 육진방언의 ‘\n                      -옵구마(\n                          꾸마)\n                            ’와 일치하는 것으로\n보았는데,‘\n     -구만’\n        의 선행형태로 추측하고 있다.(\n                        47ㄱ)\n                           은 ‘\n                             -구마’\n                                와 하이소체\n서술법 ‘\n    -심다’\n       ,하이소체 명령법 ‘\n                 -이소’\n                    와 쓰이고,(\n                          47ㄴ)\n                             은 ‘\n                               -ㅂ니다’\n                                   가 쓰\n이면서 주어에 손윗사람인 형님도 나타난다.이러한 상황으로 볼 때,‘\n                                    -구마’\n는 하이소체 서술법에서도 쓰이는 것으로 볼 수 있다.그러나 ‘\n                                 -구마’\n                                    가 화\n자의 감탄을 나타낸다는 점으로 미루어 볼 때,등급에 상관없이 자유롭게\n나타날 수 있는 여지도 충분히 있다.(\n                    47ㅅ)\n                       의 ‘\n                         -구매’\n                            는 한 차례만 나타난\n형태로,‘\n    -니더’\n       와 ‘\n         -니데이’\n             와 같은 구조를 가진다.즉 ‘\n                            -구마’\n                               에 ‘\n                                 -이’\n                                   가 첨\n가되어 나타난 것으로 보인다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B009-C007.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        98
+      ],
+      "locator": "PDF98 / -소의 결합·운소별 문장 유형",
+      "excerpt": "‘\n -소’\n   는 동사 어간과 직접 결합할 경우에는 명령법,문말의 운소가 상승조\n이면 의문법으로 쓰이는 범용 어미이다.‘\n                     -았-’\n                        ,‘-겠-’등의 시제와 관련된\n선어말어미와 형용사와 결합할 때는 서술법으로 쓰인다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B009-C008.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        99
+      ],
+      "locator": "PDF99 / -소와 높임어미 혼용의 화용적 중화",
+      "excerpt": "1\n대 높임법에서는 하오체에 해당한다.06\n                    ) 그러나 (\n                          48ㄱ)\n                             에서는 ‘\n                                 -소’\n                                   와 하이소\n체 서술법의 ‘\n       -ㅂ니다’\n           ,(48ㄴ)\n                에서는 ‘\n                    -소’\n                      와 하이소체 의문법의 ‘\n                                  -ㅂ니까’\n                                      ,\n(\n48ㄷ)\n   에서는 ‘\n       -소’\n         와 하소체 명령법의 ‘\n                    -소’\n                      ,(48ㄹ)\n                           에서는 ‘\n                               -소’\n                                 와 하이소체\n청유법의 ‘\n     -ㅂ시다’\n         가 쓰이면서 상대 높임법의 각 등분에서 차이를 보이고\n있다.그러나 이는 높임의 청자에게 화용론적 중화를 보여주는 것이지,형태\n상 등급의 차이는 분명히 드러난다.",
+      "kind": "source_statement"
+    }
+  ],
+  "claims": [
+    {
+      "id": "JO2018-B009-C001",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-데이의 높임별 필수 선행 요소"
+      ],
+      "target_refs": [
+        "JO2018-B009-C001.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B009-C001.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B009-C001.usage"
+          ],
+          "content": {
+            "source_locator": "PDF95 / -데이의 높임별 필수 선행 요소",
+            "source_analysis": "각주103은 하이소체 -데이에 -니-나 -시-가 필요하고 해라체에는 그러한 결합 없이 쓰인다고 구별한다. 본문의 하소체/해라체 열거와 각주의 하이소체/해라체를 통일하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-데이",
+              "-니-",
+              "-시-"
+            ],
+            "combination_by_level": [
+              {
+                "speech_level": "하이소체",
+                "required_preceding_any": [
+                  "-니-",
+                  "-시-"
+                ]
+              },
+              {
+                "speech_level": "해라체",
+                "without_preceding": [
+                  "-니-",
+                  "-시-"
+                ]
+              }
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B009-C001.usage",
+                "feature": "ending",
+                "value": "-데이"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B009-C001.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B009-C001.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B009-C001.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B009-C001.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B009-C001.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B009-C002",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-구마·-소 높임 분류의 선행연구 차이"
+      ],
+      "target_refs": [
+        "JO2018-B009-C002.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B009-C002.a",
+          "kind": "scope_caveat",
+          "target_refs": [
+            "JO2018-B009-C002.usage"
+          ],
+          "content": {
+            "source_locator": "PDF95,96 / -구마·-소 높임 분류의 선행연구 차이",
+            "source_analysis": "선행연구의 -구마/-소/-데이 등급이 다르며 저자는 지역차·복수등급 사용·분석 오류의 세 가능성을 구별하고 실제 구술 확인이 필요하다고 한다. 어떤 가능성도 확정하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "held",
+            "forms": [
+              "-구마",
+              "-소",
+              "-데이"
+            ],
+            "reported_source": "PDF95의 서정욱·이태욱·김영태·황대화·김영황·박원우·이상규·이혁화·전인득·민원식·장희승·김정균·조욱현 연구 비교"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B009-C002.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B009-C002.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B009-C002.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B009-C002.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B009-C002.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증",
+        "선행연구 원자료 미확인; 등급 차이 원인 미결. PDF95 본문과 각주103의 -데이 등급 열거도 다름"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B009-C003",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-구마/-구매의 자료 내 지역 분포"
+      ],
+      "target_refs": [
+        "JO2018-B009-C003.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B009-C003.a",
+          "kind": "regional_prevalence",
+          "target_refs": [
+            "JO2018-B009-C003.usage"
+          ],
+          "content": {
+            "source_locator": "PDF96,97 / -구마/-구매의 자료 내 지역 분포",
+            "source_analysis": "저자는 -구마가 성주 중심 경북 서부방언권에 주로 분포하고 예천에서는 미관찰, -구매는 경주에서만 관찰됐다고 설명한다. 표16의 군위·경주 수치와 성주 중심 설명의 정합성은 미결이다. 지역 전용성으로 해석하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "held",
+            "forms": [
+              "-구마",
+              "-구매"
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B009-C003.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B009-C003.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B009-C003.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B009-C003.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B009-C003.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증",
+        "PDF96 표16은 -구마 성주9·군위97·경주40인데 본문은 성주 중심으로 기술; 분포 우세의 판단 근거 미확정"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B009-C004",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-소의 구술 설화 사용 맥락"
+      ],
+      "target_refs": [
+        "JO2018-B009-C004.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B009-C004.a",
+          "kind": "variant_usage_context",
+          "target_refs": [
+            "JO2018-B009-C004.usage"
+          ],
+          "content": {
+            "source_locator": "PDF97 / -소의 구술 설화 사용 맥락",
+            "source_analysis": "저자는 -소의 자료 내 쓰임을 설화 구술이라는 자료 특성과 연관지어 추정한다. 현대 구어에서 잘 쓰이지 않는다는 저자의 상대적 시점 설명은 현대 조사로 검증된 사실이 아니다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "held",
+            "forms": [
+              "-소"
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B009-C004.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B009-C004.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B009-C004.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B009-C004.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B009-C004.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증",
+        "2018년 저자의 현대 구어 평가·장르 원인 추정; 별도 현대 자료 및 인과 검증 없음"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B009-C005",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-구마의 결합 대상과 인칭"
+      ],
+      "target_refs": [
+        "JO2018-B009-C005.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B009-C005.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B009-C005.usage"
+          ],
+          "content": {
+            "source_locator": "PDF97 / -구마의 결합 대상과 인칭",
+            "source_analysis": "-구마는 계사·용언 어간·선어말어미 등과 결합하며 인칭 제약이 없다고 저자가 기술한다. 감탄 의미와 높임의 화용적 가변성은 PDF98에 별도로 남긴다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-구마"
+            ],
+            "attachment_targets": [
+              "계사",
+              "용언 어간",
+              "선어말어미"
+            ],
+            "person_restriction": "저자 기술상 제약 없음"
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B009-C005.usage",
+                "feature": "sentence_function",
+                "value": "서술법"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B009-C005.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B009-C005.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B009-C005.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B009-C005.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B009-C005.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B009-C006",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-구마의 하이소체 혼용과 감탄 해석"
+      ],
+      "target_refs": [
+        "JO2018-B009-C006.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B009-C006.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B009-C006.usage"
+          ],
+          "content": {
+            "source_locator": "PDF98 / -구마의 하이소체 혼용과 감탄 해석",
+            "source_analysis": "예47ㄱ·ㄴ에서 -구마가 하이소체 -심다/-이소/-ㅂ니다와 공존하므로 하이소체 서술에도 쓰인다고 저자는 해석한다. 감탄 때문에 등급에 관계없이 나타날 여지가 있다는 부분은 가능성 설명이다. -구매의 -이 첨가 설명은 기존 B008-C012와 중복 생성하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-구마",
+              "-심다",
+              "-이소",
+              "-ㅂ니다"
+            ],
+            "scope_limit": "전 등급 자유 사용은 확정 조건이 아닌 저자의 가능성 진술"
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B009-C006.usage",
+                "feature": "discourse",
+                "value": "예47ㄱ·ㄴ의 하이소체 혼용"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B009-C006.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B009-C006.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B009-C006.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B009-C006.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B009-C006.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [
+        {
+          "type": "qualifies",
+          "target": "JO2018-B009-C005",
+          "basis": "extractor_comparison",
+          "evidence_refs": [
+            "JO2018-B009-C006.e"
+          ]
+        }
+      ],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B009-C007",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-소의 결합·운소별 문장 유형"
+      ],
+      "target_refs": [
+        "JO2018-B009-C007.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B009-C007.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B009-C007.usage"
+          ],
+          "content": {
+            "source_locator": "PDF98 / -소의 결합·운소별 문장 유형",
+            "source_analysis": "동사 어간 직접 결합이면 명령법, 문말 상승조이면 의문법, -았-/-겠- 등 시제 선어말어미 및 형용사 결합이면 서술법으로 기술한다. 조건이 겹칠 때의 우선순위는 이 문단에 없으므로 자동 분기 순서를 만들지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-소",
+              "-았-",
+              "-겠-"
+            ],
+            "classification_rows": [
+              {
+                "function": "명령법",
+                "features": {
+                  "predicate_pos": "동사",
+                  "attachment": "어간 직접 결합",
+                  "source_ending": "-소"
+                }
+              },
+              {
+                "function": "의문법",
+                "features": {
+                  "sentence_final_pitch": "상승조",
+                  "source_ending": "-소"
+                }
+              },
+              {
+                "function": "서술법",
+                "features": {
+                  "attachment": "시제 관련 선어말어미 -았-/-겠- 등",
+                  "source_ending": "-소"
+                }
+              },
+              {
+                "function": "서술법",
+                "features": {
+                  "predicate_pos": "형용사",
+                  "source_ending": "-소"
+                }
+              }
+            ],
+            "cross_bundle_qualifies": [
+              {
+                "target": "JO2018-B008-C013",
+                "basis": "extractor_comparison"
+              }
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B009-C007.usage",
+                "feature": "ending",
+                "value": "-소"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B009-C007.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B009-C007.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B009-C007.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B009-C007.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B009-C007.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B009-C008",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-소와 높임어미 혼용의 화용적 중화"
+      ],
+      "target_refs": [
+        "JO2018-B009-C008.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B009-C008.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B009-C008.usage"
+          ],
+          "content": {
+            "source_locator": "PDF99 / -소와 높임어미 혼용의 화용적 중화",
+            "source_analysis": "예48에서 -소가 -ㅂ니다/-ㅂ니까/-ㅂ시다와 쓰이지만 저자는 높임 청자에 대한 화용론적 중화로 설명하고 형태상 등급 차이를 유지한다. 혼용에서 형태의 등급 동등성을 추론하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-소",
+              "-ㅂ니다",
+              "-ㅂ니까",
+              "-ㅂ시다"
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B009-C008.usage",
+                "feature": "discourse",
+                "value": "예48 높임 청자 혼용"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B009-C008.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B009-C008.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B009-C008.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B009-C008.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B009-C008.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    }
+  ],
+  "policies": []
+}

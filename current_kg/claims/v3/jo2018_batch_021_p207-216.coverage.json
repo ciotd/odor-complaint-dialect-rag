@@ -1,0 +1,238 @@
+{
+  "batch_id": "JO2018-B021",
+  "source_id": "JO2018",
+  "status": "partial_source_extraction",
+  "body_pages": [
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216
+  ],
+  "units": [
+    {
+      "location": "PDF207,208 / 표49 해체 의문 목록과 표준형 대응",
+      "claim_ids": [
+        "JO2018-B021-C001"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF209,210 / 의문 -제/-지 판정 일반화의 예외",
+      "claim_ids": [
+        "JO2018-B021-C002"
+      ],
+      "hold": "PDF209 판정 일반화와 PDF210 예174ㄱ 설명 의문 불일치; 운소·화행 맥락 추가 확인 필요"
+    },
+    {
+      "location": "PDF210,211 / 확인 의문 -제/-지러/-지로의 결합",
+      "claim_ids": [
+        "JO2018-B021-C003"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF211 / -까/ㄹ까·-꼬/ㄹ꼬 수의 ㄹ 및 -께 대응",
+      "claim_ids": [
+        "JO2018-B021-C004"
+      ],
+      "hold": "예176ㄷ 실제 해줄까, ㅁ 실제 할꼬, ㅂ 실제 열어보께와 해설 번호 불일치. 동일 어간 교체쌍 전사 미확정"
+    },
+    {
+      "location": "PDF212 / -네/-ㄴ데 의문 기능 및 -래/ㄹ래 예",
+      "claim_ids": [
+        "JO2018-B021-C005"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF212,213 / 표51 높임 비격식 의문 목록과 하이소+요 미관찰",
+      "claim_ids": [
+        "JO2018-B021-C006"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF214,215,216 / 의문 -여와 해체 결합 부정의 분석 충돌",
+      "claim_ids": [
+        "JO2018-B021-C007"
+      ],
+      "hold": "비격식/해체/해라 분류 용어 및 결합 범위 상충; 불가 규칙 생성 보류"
+    },
+    {
+      "location": "PDF215,216 / 높임 비격식 의문 실제 결합형과 -강/-공 예 결합 미관찰",
+      "claim_ids": [
+        "JO2018-B021-C008"
+      ],
+      "hold": null
+    }
+  ],
+  "page_dispositions": [
+    {
+      "page": 207,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B021-C001"
+      ],
+      "reason": "예171·172 읽고 다음쪽 목록과 연결; 억양값 임의 추가 없음."
+    },
+    {
+      "page": 208,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B021-C001"
+      ],
+      "reason": "표49·50 이미지 확인 및 의문 목록 추출. 각주201 연구사 맥락."
+    },
+    {
+      "page": 209,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B021-C002"
+      ],
+      "reason": "표50 후반 이미지 및 예173·각주202–203; 판정 일반화는 다음쪽 반례로 보류."
+    },
+    {
+      "page": 210,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B021-C002",
+        "JO2018-B021-C003"
+      ],
+      "reason": "예174·175 및 각주204 읽음; 우예야 되지 반례와 확인 의문 결합 저장."
+    },
+    {
+      "page": 211,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B021-C003",
+        "JO2018-B021-C004"
+      ],
+      "reason": "예175 해설·176·각주205–206 읽음; 까/꼬/께 번호 불일치 보류. 지러 하대는 자료 한정."
+    },
+    {
+      "page": 212,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B021-C005",
+        "JO2018-B021-C006"
+      ],
+      "reason": "예177·178·179 앞부분 읽음; 기존 데이 유보 중복 방지, 래 결합형 저장."
+    },
+    {
+      "page": 213,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B021-C006"
+      ],
+      "reason": "예179 후속·180·181 및 표51 읽고 높임 의문 목록 저장."
+    },
+    {
+      "page": 214,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B021-C007"
+      ],
+      "reason": "표52 전반 이미지 및 각주207–208; 여 결합 불가 진술 보류."
+    },
+    {
+      "page": 215,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B021-C007",
+        "JO2018-B021-C008"
+      ],
+      "reason": "표52 후반 이미지·예182·183 앞부분·각주209 읽음; 번호 잘림 후속 원문으로 확인."
+    },
+    {
+      "page": 216,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B021-C007",
+        "JO2018-B021-C008"
+      ],
+      "reason": "예183 후속·184·각주210–211 읽음; 실제 결합 6개 및 분류 충돌·재인용 보류."
+    }
+  ],
+  "source_context": {
+    "corpus_period_basis": {
+      "page": 29,
+      "excerpt": "1978년부터 1984년 사이에 조사된 내용을 싣고 있다.",
+      "publication_year": 2018,
+      "individual_utterance_date": null,
+      "note": "자료 전체 조사기간. 재인용 연구 시점이나 개별 발화연도로 자동 전파하지 않음."
+    }
+  },
+  "open_items": [
+    {
+      "location": "PDF209,210",
+      "issue": "PDF209 판정 일반화와 PDF210 예174ㄱ 설명 의문 불일치; 운소·화행 맥락 추가 확인 필요",
+      "claim_id": "JO2018-B021-C002"
+    },
+    {
+      "location": "PDF211",
+      "issue": "예176ㄷ 실제 해줄까, ㅁ 실제 할꼬, ㅂ 실제 열어보께와 해설 번호 불일치. 동일 어간 교체쌍 전사 미확정",
+      "claim_id": "JO2018-B021-C004"
+    },
+    {
+      "location": "PDF214,215,216",
+      "issue": "비격식/해체/해라 분류 용어 및 결합 범위 상충; 불가 규칙 생성 보류",
+      "claim_id": "JO2018-B021-C007"
+    },
+    {
+      "location": "PDF209 각주202–203 / PDF211 각주206",
+      "issue": "확인 의문 기지 전제·제/지 세대 분포·지더/지러 상이 기원 재인용은 개별 Claim 보류. 자료 사용률을 생성 조건으로 넣지 않음.",
+      "claim_id": null
+    },
+    {
+      "location": "PDF208–209 표50 / PDF214–215 표52",
+      "issue": "표 이미지 확인·분류 읽음, 수치 전수 전사는 미수행. 표52 가예의 행합4/기재1 등 통계 불일치를 문법으로 이동하지 않음.",
+      "claim_id": null
+    },
+    {
+      "location": "PDF215 각주209 / PDF216 각주210–211",
+      "issue": "최학근 -덩가예·자료집 여 활용형별 지역 목록 재인용 구조화 보류. PDF216 라예/제예는 표51/52 항목과 달라 생성 후보 미추가.",
+      "claim_id": null
+    }
+  ],
+  "audit": {
+    "text_read": true,
+    "pdftotext_layout": true,
+    "pdf_pages_visually_checked": [
+      208,
+      209,
+      214,
+      215
+    ],
+    "independent_reviewer": false
+  },
+  "validation": {
+    "passed": true,
+    "commands": [
+      "python3 current_kg/claims/v3/check_batch.py",
+      "python3 current_kg/design_probe/probe.py",
+      "python3 current_kg/design_probe/coverage_check.py",
+      "python3 current_kg/claims/v3/check_all_v3.py --check-receipt",
+      "python3 current_kg/claims/v3/check_honorifics.py",
+      "python3 current_kg/claims/v3/check_phonology.py",
+      "python3 current_kg/claims/v3/check_overview.py",
+      "python3 current_kg/claims/v3/check_ryu2014.py",
+      "git diff --check",
+      "python3 current_kg/claims/v3/check_jo2018.py",
+      "python3 current_kg/claims/v3/check_jo2018.py --export",
+      "python3 current_kg/claims/v3/check_jo2018.py --check-saved",
+      "python3 current_kg/claims/v3/check_jo2018.py --check-saved --check-receipt"
+    ],
+    "scope": "구조·참조·실제 원문 근거·조건·회귀·저장 그래프 재구성. 문헌 정답·현대 자연스러움·운영 생성 승인이 아님.",
+    "all_source_pages_reviewed": true,
+    "extraction_holds_remain": true,
+    "jo_check_count": 65,
+    "saved_graph_reconstructed": true,
+    "receipt_checked": true
+  }
+}

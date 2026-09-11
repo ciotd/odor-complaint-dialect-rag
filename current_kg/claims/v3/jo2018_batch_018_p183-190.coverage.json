@@ -1,0 +1,230 @@
+{
+  "batch_id": "JO2018-B018",
+  "source_id": "JO2018",
+  "status": "partial_source_extraction",
+  "body_pages": [
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190
+  ],
+  "units": [
+    {
+      "location": "PDF183 / 하게체 청유 -세의 어간 결합과 매개모음",
+      "claim_ids": [
+        "JO2018-B018-C001"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF184 / 청유 -까 분류에 대한 의문법 반론",
+      "claim_ids": [
+        "JO2018-B018-C002"
+      ],
+      "hold": "재인용의 문맥·운소 미확인; 청유/의문 분석 경쟁 보존"
+    },
+    {
+      "location": "PDF184 / 청유 -음세/-으세이의 재인용과 자료 미관찰",
+      "claim_ids": [
+        "JO2018-B018-C003"
+      ],
+      "hold": "재인용 원자료 및 청유 결합 미확인; 예상형을 허용형으로 승격하지 않음"
+    },
+    {
+      "location": "PDF185 / -세의 자료 내 전 지역 분포",
+      "claim_ids": [
+        "JO2018-B018-C004"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF185,186 / -세의 청유·명령·서술 구분",
+      "claim_ids": [
+        "JO2018-B018-C005"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF186,187 / 해라체 청유 -제/-제이와 -자 목록",
+      "claim_ids": [
+        "JO2018-B018-C006"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF188 / -지 청유 재인용의 운소·인칭 유보",
+      "claim_ids": [
+        "JO2018-B018-C007"
+      ],
+      "hold": "재인용 원문·운소 미확인; 문장유형 확정 보류"
+    },
+    {
+      "location": "PDF188 / -지머 분절에 대한 저자의 서술어미+감탄사 분석",
+      "claim_ids": [
+        "JO2018-B018-C008"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF189 / -제이 관찰 위치의 비독점적 분포",
+      "claim_ids": [
+        "JO2018-B018-C009"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF190 / 청유 -자의 동사·인칭·선어말 제약",
+      "claim_ids": [
+        "JO2018-B018-C010"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF190 / -제의 해라·하게 혼용과 -제이의 완곡 추정",
+      "claim_ids": [
+        "JO2018-B018-C011"
+      ],
+      "hold": "-제이 완곡 기능은 저자 추정; 혼용에서 모든 환경 높임 등가를 도출하지 않음"
+    }
+  ],
+  "page_dispositions": [
+    {
+      "page": 183,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B018-C001"
+      ],
+      "reason": "하게체 청유 -세 목록·직접 결합·예141 및 표41 읽고 추출."
+    },
+    {
+      "page": 184,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B018-C002",
+        "JO2018-B018-C003"
+      ],
+      "reason": "예142·각주193 읽음; 청유/의문 분류 경쟁 및 미관찰 -음세/-으세이 보류 Claim."
+    },
+    {
+      "page": 185,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B018-C004",
+        "JO2018-B018-C005"
+      ],
+      "reason": "표42 이미지 및 예143·144ㄱ 읽음; 자료 분포 및 다음쪽 -세 기능 대조 추출."
+    },
+    {
+      "page": 186,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B018-C005",
+        "JO2018-B018-C006"
+      ],
+      "reason": "예144 후속·기능 구분 추출. 해라체 도입·예145 다음쪽 해설과 연결."
+    },
+    {
+      "page": 187,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B018-C006"
+      ],
+      "reason": "예145 해설·예146·표43·각주194 읽고 목록·화자 행위 조건 보존."
+    },
+    {
+      "page": 188,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B018-C007",
+        "JO2018-B018-C008"
+      ],
+      "reason": "재인용 예147의 문장유형 보류; 예148 -지+뭐 저자 분석 추출."
+    },
+    {
+      "page": 189,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B018-C009"
+      ],
+      "reason": "표44 이미지·예149와 등지의 비독점 범위 보존; 통계는 맥락."
+    },
+    {
+      "page": 190,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B018-C010",
+        "JO2018-B018-C011"
+      ],
+      "reason": "예150 -자 결합 제약과 예151 혼용·완곡 추정 분리. PDF191 비격식체 도입 경계 확인."
+    }
+  ],
+  "source_context": {
+    "corpus_period_basis": {
+      "page": 29,
+      "excerpt": "1978년부터 1984년 사이에 조사된 내용을 싣고 있다.",
+      "publication_year": 2018,
+      "individual_utterance_date": null,
+      "note": "자료 전체 조사기간. 재인용 연구 시점이나 개별 발화연도로 자동 전파하지 않음."
+    },
+    "frequency_tables": "표42(PDF185)·표44(PDF189) 이미지 확인. 수치는 생성 Claim에 넣지 않으며 이번 배치에서는 수치 셀 전사를 하지 않음."
+  },
+  "open_items": [
+    {
+      "location": "PDF184",
+      "issue": "재인용의 문맥·운소 미확인; 청유/의문 분석 경쟁 보존",
+      "claim_id": "JO2018-B018-C002"
+    },
+    {
+      "location": "PDF184",
+      "issue": "재인용 원자료 및 청유 결합 미확인; 예상형을 허용형으로 승격하지 않음",
+      "claim_id": "JO2018-B018-C003"
+    },
+    {
+      "location": "PDF188",
+      "issue": "재인용 원문·운소 미확인; 문장유형 확정 보류",
+      "claim_id": "JO2018-B018-C007"
+    },
+    {
+      "location": "PDF190",
+      "issue": "-제이 완곡 기능은 저자 추정; 혼용에서 모든 환경 높임 등가를 도출하지 않음",
+      "claim_id": "JO2018-B018-C011"
+    }
+  ],
+  "audit": {
+    "text_read": true,
+    "pdftotext_layout": true,
+    "pdf_pages_visually_checked": [
+      185,
+      189
+    ],
+    "independent_reviewer": false
+  },
+  "validation": {
+    "passed": true,
+    "commands": [
+      "python3 current_kg/claims/v3/check_batch.py",
+      "python3 current_kg/design_probe/probe.py",
+      "python3 current_kg/design_probe/coverage_check.py",
+      "python3 current_kg/claims/v3/check_all_v3.py --check-receipt",
+      "python3 current_kg/claims/v3/check_honorifics.py",
+      "python3 current_kg/claims/v3/check_phonology.py",
+      "python3 current_kg/claims/v3/check_overview.py",
+      "python3 current_kg/claims/v3/check_ryu2014.py",
+      "git diff --check",
+      "python3 current_kg/claims/v3/check_jo2018.py",
+      "python3 current_kg/claims/v3/check_jo2018.py --export",
+      "python3 current_kg/claims/v3/check_jo2018.py --check-saved",
+      "python3 current_kg/claims/v3/check_jo2018.py --check-saved --check-receipt"
+    ],
+    "scope": "구조·참조·실제 원문 근거·조건·회귀·저장 그래프 재구성. 문헌 정답·현대 자연스러움·운영 생성 승인이 아님.",
+    "all_source_pages_reviewed": true,
+    "extraction_holds_remain": true,
+    "jo_check_count": 65,
+    "saved_graph_reconstructed": true,
+    "receipt_checked": true
+  }
+}

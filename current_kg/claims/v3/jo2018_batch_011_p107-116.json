@@ -1,0 +1,2100 @@
+{
+  "format_version": "3.0-draft.1",
+  "status": "extraction_draft",
+  "entities": [
+    {
+      "id": "JO2018-B011-C001.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-ㄹ다/-ㄷ다 도입 설명의 표기 차이",
+        "evidence_refs": [
+          "JO2018-B011-C001.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B011-C002.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "해라체 -데이/-ㄹ데이의 높임 요소 부재",
+        "evidence_refs": [
+          "JO2018-B011-C002.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B011-C003.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "표19 해라체 서술 목록",
+        "evidence_refs": [
+          "JO2018-B011-C003.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B011-C004.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-지러의 해체 설정과 자료 내 하소체 미관찰",
+        "evidence_refs": [
+          "JO2018-B011-C004.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B011-C005.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "감탄 -래이와 미관찰 -래의 범위",
+        "evidence_refs": [
+          "JO2018-B011-C005.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B011-C006.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-꾸마이/-꾸매이/-구마이의 재인용·미관찰",
+        "evidence_refs": [
+          "JO2018-B011-C006.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B011-C007.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-ㄹ다/-ㅅ다/-ㄹ끼다의 자료 내 분포",
+        "evidence_refs": [
+          "JO2018-B011-C007.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B011-C008.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-데이의 지역별 사용 설명",
+        "evidence_refs": [
+          "JO2018-B011-C008.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B011-C009.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "감탄 -아라/어라와 -래이의 관찰 분포",
+        "evidence_refs": [
+          "JO2018-B011-C009.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B011-C010.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-꾸마와 -구마 분포 비교의 한계",
+        "evidence_refs": [
+          "JO2018-B011-C010.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B011-C011.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-ㄹ다의 추측·가능성과 결합 유보",
+        "evidence_refs": [
+          "JO2018-B011-C011.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B011-C012.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-ㅅ다의 강조 해석 유보와 계사 결합",
+        "evidence_refs": [
+          "JO2018-B011-C012.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B011-C013.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-ㄹ끼다의 추측 구성 분석",
+        "evidence_refs": [
+          "JO2018-B011-C013.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B011-C014.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-데이/-다 대치와 친밀·강조 기능",
+        "evidence_refs": [
+          "JO2018-B011-C014.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B011-C015.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "감탄 -라/-래이의 품사·모음과 명령 대비",
+        "evidence_refs": [
+          "JO2018-B011-C015.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B011-C016.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-꾸마의 동사 직접 결합과 매개모음",
+        "evidence_refs": [
+          "JO2018-B011-C016.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B011-C017.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-꾸마/-ㄹ꾸마 수의적 ㄹ과 기원 재인용",
+        "evidence_refs": [
+          "JO2018-B011-C017.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B011-C018.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-꾸마의 약속 의미",
+        "evidence_refs": [
+          "JO2018-B011-C018.e"
+        ]
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "JO2018-B011-C001.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        107
+      ],
+      "locator": "PDF107 / -ㄹ다/-ㄷ다 도입 설명의 표기 차이",
+      "excerpt": "(\n  57)ㄱ.“\n       부처님한테 시주는 내가 많이 할 모양이께네 우리집에 손님 안 오도록\n       걸객이 안 오도록 좀 해주마 내가 시주를 마이 하겠다.\n                                    ”(7\n                                      -14\n                                        :46\n                                          /달성)\n     ㄴ.“\n       그래 안 가만 니를 여기 놔두고 간다.\n                           ”(7\n                             -7:\n                               35/\n                                 영덕)\n     ㄷ.“\n       니 간 후에 십여 일 덜 돼서 어떤 사람이 자꾸 갖다서,이 조가주설랑\n       우리가 여 잘 사는데.이게 누 재물인동 몰따.\n                               ”(7\n                                 -9:\n                                   842\n                                     /안동)\n     ㄹ.a\n       :“이게 뭐로?\n              ”\n      b:“\n        영장잇다,영장잇다.\n                 ”(7\n                   -17\n                     :11\n                       4/예천)\n     ㅁ.a\n       :“아이고 선상님입니꺼?”\n      b:“\n        어,그런데 니 이만하만 인제는 살끼다.인질랑 뭐든지 곤치 달라거\n        던 내 눈 어둡아 안 된다 캐래이.\n                          ”(7\n                            -12\n                              :67\n                                1/군위)\n\n\n (\n 57)\n   에서는 표준형인 ‘\n            -ㄴ다’\n               와 더불어 방언형인 ‘\n                          -ㄹ다’\n                             와 ‘\n                               -ㄷ다’\n                                  ,‘-ㄹ끼\n다’\n 가 쓰인다.‘\n       -ㄹ다’\n          는 어간 모음과 직접 결합하여 쓰이며,‘\n                               -ㄷ다’\n                                  는 ‘\n                                    -다’\n의 형태론적 이형태로 나타난다.‘\n                 -ㄹ끼다’\n                     는 ‘\n                       -ㄹ 것이다’\n                             의 문법화 과정을\n거친 형태이다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B011-C002.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        108
+      ],
+      "locator": "PDF108 / 해라체 -데이/-ㄹ데이의 높임 요소 부재",
+      "excerpt": "(\n 58)\n   에서는 ‘\n       -데이’\n          ,‘-ㄹ데이’\n                가 발견된다.하이소체에서 ‘\n                              -니데이’\n                                  ,‘-ㅂ니\n데이’\n  와의 차이점은,‘\n          -니-’\n             와 ‘\n               -ㅂ니-’\n                   가 나타나지 않으면서 그 등급이 해라\n체로 나타난다.‘\n        -ㄹ데이’\n            는 앞서 살펴본 ‘\n                     -ㄹ다’\n                        와 같은 환경에서 쓰인다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B011-C003.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        109
+      ],
+      "locator": "PDF109 / 표19 해라체 서술 목록",
+      "excerpt": "<표 19> 해라체 서술법 종결어미\n\n 높임등급   유형                   종결어미\n\n        방언형   -ㄹ다,-ㅅ다,-ㄹ끼다,-데이,-래이,-(\n                                    ㄹ)꾸마\n 해라체\n        표준형   -다,-ㄴ다,-아라/\n                        어라",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B011-C004.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        109,
+        110
+      ],
+      "locator": "PDF109,110 / -지러의 해체 설정과 자료 내 하소체 미관찰",
+      "excerpt": "첫째,기존 연구에서 비격식체를 설정하지 않은 경우,대부분 비격식체의\n해체를 해라체에 포함시켜 다루고 있다.대표적으로 ‘\n                           -지러’\n                              의 경우를 살펴\n보기로 한다.\n\n\n   -지러:하소체(\n          황대화:\n             199\n               8,리동빈:\n                    200\n                      4)\n        하게체(\n           김태엽:\n              199\n                6,황대화:\n                     199\n                       8)\n        해라체(\n           최명옥:\n              198\n                0,이상규:\n                     199\n                       1,최동주:\n                            200\n                              3)\n        해체(\n          김정균:\n             199\n               8)\n\n\n ‘\n -지러’\n    의 경우 하소체,하게체,해라체,해체에 걸쳐 모든 등급에 설정되\n어 나타난다.황대화(\n          1998)\n              에서는 ‘\n                  -지러’\n                     가 하소체,하게체에 걸쳐 쓰이는\n\n115)아래 2)(\n         4)‘\n           -꾸마’\n              의 통사적 부분 참고.\n116)[\n    부록 3]참고.\n\n                       -9\n                        7-\n것으로 보았고,김태엽(\n           1996)\n               에서는 예사높임,최명옥(\n                           1980)\n                               ,이상규(\n                                   1991)\n                                       에\n서는 해라체로 설정하여 그 등급이 상이하게 나타난다.이와 관련하여 최동\n주(\n 2003:\n     103)\n        에서는 하게체와 해라체의 등급상의 차이를 설명하고 있는데,\n실제 ‘\n   -지러’\n      는 하게체와 해라체를 아우르는 ‘\n                       해체’계열에 속하는 것으로 보\n고 있다.즉 이 형태가 쓰일 때 등장하는 청자의 등급은 하게체와 해라체를\n아우르는 것으로,김정균(\n            1998)\n                과 같이 해체에 포함시키는 것이 체계적이라\n      1\n할 수 있다.1\n       7) 그리고 황대화(\n                 1998)\n                     에서 설정한 하소체의 경우를          대계 에\n서 살펴본 결과,‘\n         -지러’\n            가 하소체로 쓰이는 경우는 나타나지 않았다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B011-C005.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        110
+      ],
+      "locator": "PDF110 / 감탄 -래이와 미관찰 -래의 범위",
+      "excerpt": "둘째,표준형와 방언형이 대응되는 형태들이 나타난다.특히,형태소 결합\n방식에서 방언적 특성이 드러난다.‘\n                  -아라/\n                     어라 :-래이’\n                            가 그러하다.특이한\n점은,‘\n   -라’\n     에 대응되는 형태인 ‘\n                -래’\n                  는 존재하지 않고,‘\n                            -래이’\n                               만 나타난다는\n특성이 있다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B011-C006.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        110
+      ],
+      "locator": "PDF110 / -꾸마이/-꾸매이/-구마이의 재인용·미관찰",
+      "excerpt": "넷째,황대화(\n       1998)\n           ,김영황(\n               2013)\n                   에서는 ‘\n                       -꾸마’\n                          와 함께 ‘\n                               -꾸마이’\n                                   ,‘-꾸매이’\n를 제시하고 있다.그러나      대계 에서 ‘\n                         -꾸마(\n                            꾸매)\n                              ’만 나타날 뿐,나머지 형\n태는 발견되지 않는다.이와 마찬가지로,‘\n                     -구매’\n                        가 ‘\n                          -구마+이’\n                               의 구조라면 ‘\n                                      -\n구마이’\n   가 쓰일 것으로 예측할 수 있다.그러나         대계 에서는 발견되지 않는\n다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B011-C007.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        112
+      ],
+      "locator": "PDF112 / -ㄹ다/-ㅅ다/-ㄹ끼다의 자료 내 분포",
+      "excerpt": "‘\n -다’\n   와 ‘\n     -ㄴ다’\n        는 해라체의 대부분을 차지하고 있다.‘\n                            -ㄹ다’\n                               는 경주,영덕\n지역에서 주로 분포하고120),‘  는 예천에서 단 한 차례만 발견되며121),\n                 -ㅅ다’\n‘\n-ㄹ끼다’\n    는 안동을 제외한 모든 지역에서 고루 나타난다.이 형태들은 공통\n적으로 성주와 상주 지역으로 갈수록 거의 나타나지 않는다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B011-C008.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        112
+      ],
+      "locator": "PDF112 / -데이의 지역별 사용 설명",
+      "excerpt": "‘\n -데이’\n    는 상주,구미 등의 경북 서부방언에서는 거의 나타나지 않고,경\n주,영덕을 중심으로 한 경북 동부방언에서 주로 쓰이는데,하이소체의 ‘\n                                     -니\n데이’\n  와 같은 양상을 보인다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B011-C009.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        113
+      ],
+      "locator": "PDF113 / 감탄 -아라/어라와 -래이의 관찰 분포",
+      "excerpt": "‘\n -아라/\n    어라’\n      는 사용 빈도가 높지는 않지만 경주,군위 지역에서 주로 쓰\n이며,‘\n   -래이’\n      는 영덕에서만 그 사용이 보일 뿐,다른 지역에서는 나타나지\n않는다.즉,‘\n      -ㄹ다’\n         와 마찬가지로,경북 서부방언에서는 거의 쓰이지 않는\n것으로 보인다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B011-C010.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        113
+      ],
+      "locator": "PDF113 / -꾸마와 -구마 분포 비교의 한계",
+      "excerpt": "‘\n -꾸마’\n    는 경주 영덕 등지에서 그 사용이 빈번하고,안동,봉화 지역에서는\n나타나지 않는데,‘\n         -구마’\n            와 대체로 일치된 경향을 보인다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B011-C011.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        114
+      ],
+      "locator": "PDF114 / -ㄹ다의 추측·가능성과 결합 유보",
+      "excerpt": "(\n 65ㄱ,ㄴ)\n      의 ‘\n        -다’\n          와 ‘\n            -ㄴ다’\n               는 사실이나 상태를 나타내는 기능으로 표준\n어와 크게 다르지 않다.(\n             65ㄷ,ㄹ)\n                  의 ‘\n                    -ㄹ다’\n                       는 ‘\n                         봐야 되겠다’\n                               ,‘자겠다’\n                                    에 대\n응되는 표현으로,‘\n         -ㄹ다’\n            의 ‘\n              -ㄹ-’\n                 은 추측과 가능성을 지닌 형태소로 볼 수\n있다.또한 계사나 용언 어간과 직접 결합하여 쓰이는 경우만 나타나는\n 1\n데,2\n  2) 앞서 살펴본 하게체의 ‘\n                 -ㄹ세’\n                    와 동일한 환경이며 등급에서만 차이를\n보인다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B011-C012.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        114
+      ],
+      "locator": "PDF114 / -ㅅ다의 강조 해석 유보와 계사 결합",
+      "excerpt": "‘\n    -ㄹ세 :-ㄹ다’\n            처럼 (\n               65ㅁ)\n                  의 ‘\n                    -ㅅ다’\n                       는 일종의 강조를 나타나는 기\n                              1\n능으로 보이나,용례가 한 차례만 나타나 판단하기 어렵다.2\n                               3) 또한 하게체\n\n의 ‘\n  -ㅅ세’\n     와 같이,계사와 결합하는 것으로 보아,‘\n                          -ㅅ세 :-ㅅ다’\n                                  의 등급 관\n계를 갖는다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B011-C013.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        114
+      ],
+      "locator": "PDF114 / -ㄹ끼다의 추측 구성 분석",
+      "excerpt": "(\n       65ㅂ,ㅅ)\n            의 ‘\n              -ㄹ끼다’\n                  는 ‘\n                    -ㄹ(\n                      관형사형 어미)+ 것(\n                                 의존명사)\n+‘\n 이’(\n   계사)+ -다(\n          종결어미)\n              ’의 구조를 가진 결합형으로,실제로는 계사에\n‘\n-다’\n  가 결합한 형태이다.경북방언에서는 의존명사 ‘\n                          것’이 ‘\n                              기’로 쓰일 때가\n많은데,추측을 나타낼 때는 ‘\n               -ㄹ끼다’\n                   로 많이 나타난다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B011-C014.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        115
+      ],
+      "locator": "PDF115 / -데이/-다 대치와 친밀·강조 기능",
+      "excerpt": "‘\n -다’\n   와 ‘\n     -데이’\n        는 서로 대치가 가능한 형태로,하이소체 서술법의 ‘\n                                   -ㅂ니\n다’\n ,‘-ㅂ니데이’\n        와 동일한 환경을 가진다.다만,‘\n                         -(ㅂ)\n                            니-’\n                              의 유무 차이로 등\n급에서 차이를 보인다.\n\n\n  (\n  66)ㄱ.야야!잘 했데이.참 잘했다.우린 아무래도 산다.우린 굶어 죽질 아 한\n        다.니가 목숨 마이(\n                  많이)살렸다.\n                        (7-9\n                           :77\n                             9/안동)\n    ㄴ.“\n      그래 내가,니이가 지마 너거는 여 몬 있데이.저 강둑에 멀리 나가야\n        되지.너가 있으이 시끄럽아 안 되겠다.너거가 가야 된데이.\n                                       ”(7\n                                         -13\n                                           :75\n                                             6/\n        대구)\n    ㄷ.니를 잡으러 오는 사람 있다.그르이께네 내 씨기는대로 꼭 해야 된데\n        이.\n         (7-1\n            8:5\n              64/\n                예천)\n    ㄹ.일도 못 하그러 하고 니가 하고,어예든잘 해야 된데이.\n                                   (7-9\n                                      :95\n                                        4/안동)\n\n\n ‘\n -데이’\n    는 본용언에 결합하여 쓰이기도 하지만(\n                        66ㄱ,ㄴ)\n                             ,‘-야 되-’\n                                    처럼 대\n체로 보조 용언 구문에서 쓰이는 경우가 많다(\n                        66ㄷ,ㄹ)\n                             .또한 ‘\n                                 -다’\n                                   가 쓰일\n때보다는 좀 더 친밀감을 주는 표현으로,일종의 강조의 기능을 가진다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B011-C015.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        115,
+        116
+      ],
+      "locator": "PDF115,116 / 감탄 -라/-래이의 품사·모음과 명령 대비",
+      "excerpt": "‘\n -라’\n   ,‘-래이’\n        는 형용사와만 결합하며,감탄의 의미를 수반한다.\n\n\n  (\n  67)ㄱ.애이고 답답아라.\n               (7-1:\n                   363/\n                      경주)\n    ㄴ.“\n      얄궂어라.도사가 왜 행례 못 지내구로 하노?이 무슨 일로 이카노?\n                                         ”(7-12:\n                                               163/\n        군위)\n    ㄷ.“\n      아이구 좋아래이.아이구 좋아래이,이 눈 오는데 보이 조리 장사 올\n        따.\n         ”(7\n           -6:\n             631\n               /영덕)\n    ㄹ.“\n      아이구 얄궂어래이”\n               (7-7:\n                   95/\n                     영덕)\n\n\n                      -1\n                       03-\n(\n 67ㄱ,ㄴ)\n      의 ‘\n        -아라/\n           어라’\n             는 어간의 모음에 따라 쓰이면서 표준어의 쓰임\n과 크게 다르지 않는데,(\n             67ㄷ,ㄹ)\n                  의 ‘\n                    -래이’\n                       는 선행 모음에 상관없이 자유\n롭게 나타난다.또한 이들은 일반적으로 감탄사와 공기하며 쓰이고,동사와\n결합할 때는 명령법으로 쓰인다.‘\n                 -아/\n                   어라+이’\n                       의 구조로 ‘\n                             -이’\n                               는 일종의 강\n조의 기능을 갖는다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B011-C016.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        116
+      ],
+      "locator": "PDF116 / -꾸마의 동사 직접 결합과 매개모음",
+      "excerpt": "‘\n -꾸마’\n    는 동사 어간과 직접 결합하여 쓰이는데,앞서 살펴본 ‘\n                                 -구마’\n                                    와는\n다른 환경을 가진다.\n\n\n  (\n  68)ㄱ.“\n       아,마 저거 두 뿌리 날 두가.주머 저 내 팔푼 세금은 가 주꾸마.면해\n        기로 하지.\n             ”(7\n               -2:\n                 154\n                   /경주)\n    ㄴ.“\n      야아,내가 이 밑에 가서 냇물에 가 내 씻고 오꾸마.니 여 있거라.\n                                          ”(\n                                           7-1\n                                             4:8\n                                               8/\n        달성)\n    ㄷ.“\n      아 이 사람아 나 돈 안 받으꾸마.\n                        \"(7\n                          -3:\n                            235\n                              /경주)\n    ㄹ.내인드로 오느라,오며는 내가 대우를 해주꾸마.\n                              (7-6\n                                 :14\n                                   9/영덕)\n    ㅁ.“\n      오야.니,니 좋다.니 아이라도 뭐 일꾼 딜일(\n                              들일)놈,니,니 살림을\n        할라만 내 논마질 줄꾸마.\n                     ”(7\n                       -11\n                         :29\n                           2/군위)\n\n\n (\n 68)\n   의 ‘\n     -꾸마’\n        는 동사 ‘\n             주다’\n               와 대부분 결합하여 쓰이고,‘\n                              하다’\n                                ,‘보다’\n                                    ,‘오\n다,받다’등 동사 어간과 직접 결합하여 나타난다.또한 어간 말음에 따라\n매개모임이 개입하기도 한다",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B011-C017.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        116
+      ],
+      "locator": "PDF116 / -꾸마/-ㄹ꾸마 수의적 ㄹ과 기원 재인용",
+      "excerpt": "한편,황대화(\n       1998:\n           210)\n              에서는 미래나 의지를 나타내는 ‘\n                               -ㄹ’\n                                 과 ‘\n                                   -구마’\n                                      와의\n결합에서 생겨난 ‘\n         -ㄹ’탈락형으로 보면서 ‘\n                      -구마’\n                         와 ‘\n                           -꾸마’\n                              를 구분하였다.\n실제 (\n   65ㄹ,ㅁ)\n        에서는 동사 ‘\n               주다’\n                 에 ‘\n                   -꾸마’\n                      와 ‘\n                        -ㄹ꾸마’\n                            가 함께 쓰이고 있는\n데,‘\n  -ㄹ’\n    이 수의적으로 나타남을 알 수 있다.\n\n\n\n                     -1\n                      04-",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B011-C018.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        108
+      ],
+      "locator": "PDF108 / -꾸마의 약속 의미",
+      "excerpt": "(\n 60)\n   에서는 ‘\n       -꾸마’\n          ,‘-ㄹ꾸마’\n                가 쓰이는데,이 중 ‘\n                           -ㄹ꾸마’\n                               는 ‘\n                                 -니데이/\n                                     ㅂ니\n데이’\n  와 같이,동일한 결합 관계에서 ‘\n                   -꾸마’\n                      ,‘-ㄹ꾸마’\n                            가 수의적으로 나타나\n     11\n기도 한다. 5\n       ) 또한 ‘\n            -꾸마’\n               는 일종의 약속의 표현으로 쓰이는 종결어미이다.",
+      "kind": "source_statement"
+    }
+  ],
+  "claims": [
+    {
+      "id": "JO2018-B011-C001",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-ㄹ다/-ㄷ다 도입 설명의 표기 차이"
+      ],
+      "target_refs": [
+        "JO2018-B011-C001.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B011-C001.a",
+          "kind": "scope_caveat",
+          "target_refs": [
+            "JO2018-B011-C001.usage"
+          ],
+          "content": {
+            "source_locator": "PDF107 / -ㄹ다/-ㄷ다 도입 설명의 표기 차이",
+            "source_analysis": "본문은 -ㄹ다를 어간 모음 직접 결합, -ㄷ다를 -다의 형태론적 이형태로 기술하지만 표19 및 뒤 분석은 -ㅅ다를 제시한다. -ㄷ다를 -ㅅ다로 자동 정정하지 않는다. -ㄹ끼다 형성 설명은 PDF114에서 조건과 함께 추출한다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "held",
+            "forms": [
+              "-ㄹ다",
+              "-ㄷ다",
+              "-다"
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B011-C001.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B011-C001.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C001.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C001.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B011-C001.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증",
+        "PDF107 -ㄷ다 표기와 PDF109 표19·PDF114 -ㅅ다 분석의 불일치. -ㄹ다 계사 결합도 PDF114 각주122에서 자료 미관찰"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B011-C002",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "해라체 -데이/-ㄹ데이의 높임 요소 부재"
+      ],
+      "target_refs": [
+        "JO2018-B011-C002.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B011-C002.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B011-C002.usage"
+          ],
+          "content": {
+            "source_locator": "PDF108 / 해라체 -데이/-ㄹ데이의 높임 요소 부재",
+            "source_analysis": "-데이/-ㄹ데이는 하이소체의 -니-/-ㅂ니-가 나타나지 않는 해라체이고 -ㄹ데이는 -ㄹ다와 같은 환경에서 쓰인다고 한다. 어간별 새 활용형을 만들지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-데이",
+              "-ㄹ데이",
+              "-니-",
+              "-ㅂ니-",
+              "-ㄹ다"
+            ],
+            "cross_bundle_qualifies": [
+              {
+                "target": "JO2018-B009-C001",
+                "basis": "extractor_comparison"
+              }
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B011-C002.usage",
+                "feature": "speech_level",
+                "value": "해라체"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B011-C002.usage",
+                "feature": "sentence_function",
+                "value": "서술법"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B011-C002.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B011-C002.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C002.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C002.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B011-C002.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B011-C003",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "표19 해라체 서술 목록"
+      ],
+      "target_refs": [
+        "JO2018-B011-C003.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B011-C003.a",
+          "kind": "scoped_inventory",
+          "target_refs": [
+            "JO2018-B011-C003.usage"
+          ],
+          "content": {
+            "source_locator": "PDF109 / 표19 해라체 서술 목록",
+            "source_analysis": "방언형 -ㄹ다/-ㅅ다/-ㄹ끼다/-데이/-래이/-(ㄹ)꾸마와 표준형 -다/-ㄴ다/-아라/어라를 원표대로 목록화한다. -(ㄹ)꾸마 괄호를 새로운 실제 활용형으로 확장하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-ㄹ다",
+              "-ㅅ다",
+              "-ㄹ끼다",
+              "-데이",
+              "-래이",
+              "-(ㄹ)꾸마",
+              "-다",
+              "-ㄴ다",
+              "-아라/어라"
+            ],
+            "source_inventory": {
+              "방언형": [
+                "-ㄹ다",
+                "-ㅅ다",
+                "-ㄹ끼다",
+                "-데이",
+                "-래이",
+                "-(ㄹ)꾸마"
+              ],
+              "표준형": [
+                "-다",
+                "-ㄴ다",
+                "-아라/어라"
+              ]
+            }
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B011-C003.usage",
+                "feature": "speech_level",
+                "value": "해라체"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B011-C003.usage",
+                "feature": "sentence_function",
+                "value": "서술법"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B011-C003.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B011-C003.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C003.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C003.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B011-C003.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B011-C004",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-지러의 해체 설정과 자료 내 하소체 미관찰"
+      ],
+      "target_refs": [
+        "JO2018-B011-C004.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B011-C004.a",
+          "kind": "scope_caveat",
+          "target_refs": [
+            "JO2018-B011-C004.usage"
+          ],
+          "content": {
+            "source_locator": "PDF109,110 / -지러의 해체 설정과 자료 내 하소체 미관찰",
+            "source_analysis": "선행연구의 -지러 분류를 비교하고 저자는 하게체·해라체를 아우르는 해체 설정을 채택한다. 대계에는 하소체로 쓰이는 경우가 없다고 하나 이를 모든 담화에서의 하소체 금지로 바꾸지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "held",
+            "forms": [
+              "-지러"
+            ],
+            "reported_source": "황대화1998·리동빈2004·김태엽1996·최명옥1980·이상규1991·최동주2003·김정균1998"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B011-C004.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B011-C004.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C004.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C004.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B011-C004.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증",
+        "선행연구 원자료·청자 등급 판정 독립 미확인; 자료 내 미관찰과 보편적 불가능을 구별"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B011-C005",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "감탄 -래이와 미관찰 -래의 범위"
+      ],
+      "target_refs": [
+        "JO2018-B011-C005.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B011-C005.a",
+          "kind": "scope_caveat",
+          "target_refs": [
+            "JO2018-B011-C005.usage"
+          ],
+          "content": {
+            "source_locator": "PDF110 / 감탄 -래이와 미관찰 -래의 범위",
+            "source_analysis": "해라체 서술의 -아라/어라에 대응하는 -래이는 나타나지만 -래는 없다고 설명한다. 각주119에서 해체의 -라:-래:-래이 구성과 구별하므로 다른 용법의 -래까지 금지하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-아라/어라",
+              "-래",
+              "-래이"
+            ],
+            "scope_limit": "PDF110 각주119의 해체 -라 계열은 별도 범위"
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B011-C005.usage",
+                "feature": "speech_level",
+                "value": "해라체"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B011-C005.usage",
+                "feature": "sentence_function",
+                "value": "서술법"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B011-C005.usage",
+                "feature": "meaning",
+                "value": "감탄"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B011-C005.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B011-C005.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C005.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C005.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B011-C005.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B011-C006",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-꾸마이/-꾸매이/-구마이의 재인용·미관찰"
+      ],
+      "target_refs": [
+        "JO2018-B011-C006.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B011-C006.a",
+          "kind": "scope_caveat",
+          "target_refs": [
+            "JO2018-B011-C006.usage"
+          ],
+          "content": {
+            "source_locator": "PDF110 / -꾸마이/-꾸매이/-구마이의 재인용·미관찰",
+            "source_analysis": "황대화·김영황은 -꾸마이/-꾸매이를 제시하나 대계에는 -꾸마(꾸매)만 나타난다고 기술한다. -구마+이 분석에서 예상하는 -구마이도 자료에는 없다고 한다. 예측 형태를 관찰 후보로 승격하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "held",
+            "forms": [
+              "-꾸마이",
+              "-꾸매이",
+              "-꾸마",
+              "-꾸매",
+              "-구마이"
+            ],
+            "reported_source": "황대화(1998), 김영황(2013)"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B011-C006.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B011-C006.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C006.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C006.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B011-C006.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증",
+        "재인용 원 연구 미확인. -구마이는 분석상 예상형이며 대계 미관찰"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B011-C007",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-ㄹ다/-ㅅ다/-ㄹ끼다의 자료 내 분포"
+      ],
+      "target_refs": [
+        "JO2018-B011-C007.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B011-C007.a",
+          "kind": "regional_prevalence",
+          "target_refs": [
+            "JO2018-B011-C007.usage"
+          ],
+          "content": {
+            "source_locator": "PDF112 / -ㄹ다/-ㅅ다/-ㄹ끼다의 자료 내 분포",
+            "source_analysis": "-ㄹ다는 경주·영덕 중심, -ㅅ다는 예천 관찰, -ㄹ끼다는 안동을 제외한 전 지역 관찰로 설명한다. 성주·상주 쪽으로 거의 없다는 개괄은 표20의 -ㄹ끼다 성주12·상주7 등과 함께 보며 전용성·금지 조건으로 쓰지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-ㄹ다",
+              "-ㅅ다",
+              "-ㄹ끼다"
+            ],
+            "source_scope_limit": "대계에서의 관찰 분포; 각주120–121의 다른 연구 분포는 별도 재인용"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B011-C007.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B011-C007.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C007.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C007.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B011-C007.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B011-C008",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-데이의 지역별 사용 설명"
+      ],
+      "target_refs": [
+        "JO2018-B011-C008.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B011-C008.a",
+          "kind": "regional_prevalence",
+          "target_refs": [
+            "JO2018-B011-C008.usage"
+          ],
+          "content": {
+            "source_locator": "PDF112 / -데이의 지역별 사용 설명",
+            "source_analysis": "-데이는 상주·구미 등 경북 서부에는 드물고 경주·영덕 중심 동부에서 주로 쓰여 하이소체 -니데이와 비슷하다고 기술한다. 행정 경남 대비나 현대 지역 전용성으로 변환하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-데이",
+              "-니데이"
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B011-C008.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B011-C008.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C008.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C008.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B011-C008.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B011-C009",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "감탄 -아라/어라와 -래이의 관찰 분포"
+      ],
+      "target_refs": [
+        "JO2018-B011-C009.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B011-C009.a",
+          "kind": "regional_prevalence",
+          "target_refs": [
+            "JO2018-B011-C009.usage"
+          ],
+          "content": {
+            "source_locator": "PDF113 / 감탄 -아라/어라와 -래이의 관찰 분포",
+            "source_analysis": "-아라/어라는 경주·군위에서 주로, -래이는 영덕에서만 관찰되었다는 자료 설명이다. 경북 서부에서 거의 없다는 것을 서부 금지로 해석하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-아라/어라",
+              "-래이"
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B011-C009.usage",
+                "feature": "sentence_function",
+                "value": "서술법"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B011-C009.usage",
+                "feature": "meaning",
+                "value": "감탄"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B011-C009.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B011-C009.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C009.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C009.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B011-C009.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B011-C010",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-꾸마와 -구마 분포 비교의 한계"
+      ],
+      "target_refs": [
+        "JO2018-B011-C010.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B011-C010.a",
+          "kind": "regional_prevalence",
+          "target_refs": [
+            "JO2018-B011-C010.usage"
+          ],
+          "content": {
+            "source_locator": "PDF113 / -꾸마와 -구마 분포 비교의 한계",
+            "source_analysis": "-꾸마는 경주·영덕에서 빈번하고 안동·봉화 미관찰이며 -구마와 대체로 일치한다고 기술한다. 표16의 -구마는 안동·봉화에 수치가 있으므로 두 형태에 동일 지역 조건을 복사하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-꾸마",
+              "-구마"
+            ],
+            "scope_limit": "대체로라는 저자 유보 유지; -구마 안동·봉화 관찰은 PDF96 표16 참조"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B011-C010.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B011-C010.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C010.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C010.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B011-C010.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B011-C011",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-ㄹ다의 추측·가능성과 결합 유보"
+      ],
+      "target_refs": [
+        "JO2018-B011-C011.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B011-C011.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B011-C011.usage"
+          ],
+          "content": {
+            "source_locator": "PDF114 / -ㄹ다의 추측·가능성과 결합 유보",
+            "source_analysis": "-ㄹ다의 -ㄹ-을 추측·가능성으로 분석하고 계사·용언 어간 직접 결합 및 하게체 -ㄹ세와 높임 차이를 기술한다. 각주122에서는 대계의 계사 결합 예가 없다고 하므로 일반 계사 생산성을 운영에 적용하지 않는다. 예65ㄹ을 자겠다로 대응시킨 해설도 실제 좋을따와 대조가 필요하다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "held",
+            "forms": [
+              "-ㄹ다",
+              "-ㄹ세"
+            ],
+            "meaning": [
+              "추측",
+              "가능성"
+            ],
+            "attachment_targets": [
+              "계사",
+              "용언 어간"
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B011-C011.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B011-C011.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C011.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C011.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B011-C011.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증",
+        "PDF114 본문 계사 결합 기술/각주122 자료 미관찰 및 예65ㄹ 좋을따/해설 자겠다 대응 불일치"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B011-C012",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-ㅅ다의 강조 해석 유보와 계사 결합"
+      ],
+      "target_refs": [
+        "JO2018-B011-C012.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B011-C012.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B011-C012.usage"
+          ],
+          "content": {
+            "source_locator": "PDF114 / -ㅅ다의 강조 해석 유보와 계사 결합",
+            "source_analysis": "예65ㅁ의 -ㅅ다는 계사 결합으로 하게체 -ㅅ세와 등급 대조를 이루나 강조 기능은 한 용례뿐이라 저자도 판단이 어렵다고 한다. 각주123의 감탄 분석은 재인용이다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "held",
+            "forms": [
+              "-ㅅ다",
+              "-ㅅ세"
+            ],
+            "attachment_targets": [
+              "계사"
+            ],
+            "tentative_meaning": "강조"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B011-C012.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B011-C012.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C012.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C012.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B011-C012.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증",
+        "강조 기능은 저자 유보. 다른 연구의 감탄 설명을 합쳐 확정 의미로 만들지 않음"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B011-C013",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-ㄹ끼다의 추측 구성 분석"
+      ],
+      "target_refs": [
+        "JO2018-B011-C013.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B011-C013.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B011-C013.usage"
+          ],
+          "content": {
+            "source_locator": "PDF114 / -ㄹ끼다의 추측 구성 분석",
+            "source_analysis": "-ㄹ(관형사형 어미)+것(의존명사)+이(계사)+-다(종결어미)로 분석하며 실질적으로 계사에 -다가 붙은 형태라고 설명한다. 것의 기 실현과 추측 -ㄹ끼다를 연결하되 모든 것 표현을 기로 치환하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-ㄹ끼다",
+              "-다"
+            ],
+            "source_components": [
+              "-ㄹ(관형사형 어미)",
+              "것(의존명사)",
+              "이(계사)",
+              "-다(종결어미)"
+            ],
+            "scope_limit": "각주124의 더 자연스럽다는 설명은 저자의 대계 발화 맥락 해석이며 현대 자연스러움 검증 아님"
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B011-C013.usage",
+                "feature": "speech_level",
+                "value": "해라체"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B011-C013.usage",
+                "feature": "sentence_function",
+                "value": "서술법"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B011-C013.usage",
+                "feature": "meaning",
+                "value": "추측"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B011-C013.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B011-C013.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C013.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C013.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B011-C013.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B011-C014",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-데이/-다 대치와 친밀·강조 기능"
+      ],
+      "target_refs": [
+        "JO2018-B011-C014.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B011-C014.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B011-C014.usage"
+          ],
+          "content": {
+            "source_locator": "PDF115 / -데이/-다 대치와 친밀·강조 기능",
+            "source_analysis": "-다/-데이는 대치 가능하며 -(ㅂ)니- 유무로 하이소체와 등급이 다르다고 한다. -데이는 본용언에도 붙고 -야 되- 같은 보조용언 구문에도 쓰이며 -다보다 친밀감을 주는 강조 표현으로 기술한다. 보조용언 결합만 허용하는 규칙으로 만들지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-다",
+              "-데이",
+              "-(ㅂ)니-",
+              "-야되-"
+            ],
+            "attachment_targets": [
+              "본용언",
+              "보조 용언 구문"
+            ],
+            "meaning": [
+              "친밀감",
+              "강조"
+            ],
+            "source_examples": [
+              {
+                "text": "잘 했데이",
+                "judgment": "source_attestation_not_acceptability_test"
+              },
+              {
+                "text": "꼭 해야 된데이",
+                "judgment": "source_attestation_not_acceptability_test"
+              }
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B011-C014.usage",
+                "feature": "speech_level",
+                "value": "해라체"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B011-C014.usage",
+                "feature": "sentence_function",
+                "value": "서술법"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B011-C014.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B011-C014.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C014.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C014.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B011-C014.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B011-C015",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "감탄 -라/-래이의 품사·모음과 명령 대비"
+      ],
+      "target_refs": [
+        "JO2018-B011-C015.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B011-C015.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B011-C015.usage"
+          ],
+          "content": {
+            "source_locator": "PDF115,116 / 감탄 -라/-래이의 품사·모음과 명령 대비",
+            "source_analysis": "감탄 서술의 -라/-래이는 형용사와만 결합한다. -아라/어라는 어간 모음에 따라, -래이는 선행 모음에 상관없이 나타나며 일반적으로 감탄사와 공기한다. 동사 결합이면 명령법이라는 문장도 보존한다. -아/어라+이의 이는 강조로 분석한다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-라",
+              "-래이",
+              "-아라/어라",
+              "-아/어라+이"
+            ],
+            "classification_rows": [
+              {
+                "function": "감탄",
+                "features": {
+                  "predicate_pos": "형용사",
+                  "meaning": "감탄"
+                }
+              },
+              {
+                "function": "명령법",
+                "features": {
+                  "predicate_pos": "동사"
+                }
+              }
+            ],
+            "construction_rows": [
+              {
+                "usage": "예67ㄱ 감탄",
+                "ending": "-아라/어라",
+                "surface": "답답아라",
+                "layer": "source_surface",
+                "features": {
+                  "sentence_function": "서술법",
+                  "predicate_pos": "형용사",
+                  "meaning": "감탄"
+                },
+                "hold": null
+              },
+              {
+                "usage": "예67ㄷ 감탄",
+                "ending": "-래이",
+                "surface": "좋아래이",
+                "layer": "source_surface",
+                "features": {
+                  "sentence_function": "서술법",
+                  "predicate_pos": "형용사",
+                  "meaning": "감탄"
+                },
+                "hold": null
+              },
+              {
+                "usage": "예67ㄹ 감탄",
+                "ending": "-래이",
+                "surface": "얄궂어래이",
+                "layer": "source_surface",
+                "features": {
+                  "sentence_function": "서술법",
+                  "predicate_pos": "형용사",
+                  "meaning": "감탄"
+                },
+                "hold": null
+              }
+            ],
+            "interjection_cooccurrence": "일반적 공기; 필수조건 아님"
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B011-C015.usage",
+                "feature": "ending_family",
+                "value": "-라/-래이"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B011-C015.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B011-C015.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C015.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C015.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B011-C015.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B011-C016",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-꾸마의 동사 직접 결합과 매개모음"
+      ],
+      "target_refs": [
+        "JO2018-B011-C016.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B011-C016.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B011-C016.usage"
+          ],
+          "content": {
+            "source_locator": "PDF116 / -꾸마의 동사 직접 결합과 매개모음",
+            "source_analysis": "-꾸마는 주다·하다·보다·오다·받다 등 동사 어간에 직접 결합하며 예68ㄷ에서는 어간 말음에 따라 매개모음이 개입한다고 한다. -구마의 계사·용언·선어말어미 결합과 구별한다. 구체적인 모든 말음별 이형태표는 추정하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-꾸마",
+              "주다",
+              "하다",
+              "보다",
+              "오다",
+              "받다"
+            ],
+            "construction_rows": [
+              {
+                "usage": "예68ㄱ 약속",
+                "ending": "-꾸마",
+                "surface": "주꾸마",
+                "layer": "source_surface",
+                "features": {
+                  "predicate_pos": "동사",
+                  "source_lemma": "주다",
+                  "attachment": "어간 직접 결합"
+                },
+                "hold": null
+              },
+              {
+                "usage": "예68ㄴ 약속",
+                "ending": "-꾸마",
+                "surface": "오꾸마",
+                "layer": "source_surface",
+                "features": {
+                  "predicate_pos": "동사",
+                  "source_lemma": "오다",
+                  "attachment": "어간 직접 결합"
+                },
+                "hold": null
+              },
+              {
+                "usage": "예68ㄷ 매개모음",
+                "ending": "-꾸마",
+                "surface": "받으꾸마",
+                "layer": "source_surface",
+                "features": {
+                  "predicate_pos": "동사",
+                  "source_lemma": "받다",
+                  "attachment": "매개모음 개입"
+                },
+                "hold": null
+              }
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B011-C016.usage",
+                "feature": "speech_level",
+                "value": "해라체"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B011-C016.usage",
+                "feature": "predicate_pos",
+                "value": "동사"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B011-C016.usage",
+                "feature": "attachment",
+                "value": "어간 직접 결합"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B011-C016.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B011-C016.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C016.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C016.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B011-C016.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B011-C017",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-꾸마/-ㄹ꾸마 수의적 ㄹ과 기원 재인용"
+      ],
+      "target_refs": [
+        "JO2018-B011-C017.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B011-C017.a",
+          "kind": "historical_account",
+          "target_refs": [
+            "JO2018-B011-C017.usage"
+          ],
+          "content": {
+            "source_locator": "PDF116 / -꾸마/-ㄹ꾸마 수의적 ㄹ과 기원 재인용",
+            "source_analysis": "황대화1998은 미래·의지 -ㄹ+-구마에서 -ㄹ 탈락으로 -꾸마가 생겼다고 본다. 저자는 주다의 -꾸마/-ㄹ꾸마 예에서 ㄹ이 수의적이라고 설명한다. 본문의 (65ㄹ,ㅁ)은 실제 앞의 예68ㄹ·ㅁ과 대조가 필요하다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "held",
+            "forms": [
+              "-꾸마",
+              "-ㄹ꾸마",
+              "-구마",
+              "주다"
+            ],
+            "reported_source": "황대화(1998:210)"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B011-C017.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B011-C017.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C017.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C017.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B011-C017.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증",
+        "기원설 재인용 미확인; PDF116 (65ㄹ,ㅁ) 예번호와 실제 예68ㄹ·ㅁ 불일치. 모든 동사의 자유교체로 확대 금지"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B011-C018",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-꾸마의 약속 의미"
+      ],
+      "target_refs": [
+        "JO2018-B011-C018.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B011-C018.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B011-C018.usage"
+          ],
+          "content": {
+            "source_locator": "PDF108 / -꾸마의 약속 의미",
+            "source_analysis": "-꾸마를 일종의 약속 표현으로 기술한다. 같은 단락의 -꾸마/-ㄹ꾸마 수의적 ㄹ은 PDF116에서 후속 검토하며 재인용 기원설과 분리한다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-꾸마",
+              "-ㄹ꾸마"
+            ],
+            "meaning": "약속"
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B011-C018.usage",
+                "feature": "speech_level",
+                "value": "해라체"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B011-C018.usage",
+                "feature": "sentence_function",
+                "value": "서술법"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B011-C018.usage",
+                "feature": "meaning",
+                "value": "약속"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B011-C018.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B011-C018.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C018.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B011-C018.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B011-C018.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [
+        {
+          "type": "qualifies",
+          "target": "JO2018-B011-C016",
+          "basis": "extractor_comparison",
+          "evidence_refs": [
+            "JO2018-B011-C018.e"
+          ]
+        }
+      ],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    }
+  ],
+  "policies": []
+}

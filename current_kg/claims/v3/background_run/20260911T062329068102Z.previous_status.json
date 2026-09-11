@@ -1,0 +1,38 @@
+{
+  "started_at": "2026-09-11T01:17:41.170868+00:00",
+  "pid": 1271150,
+  "status": "finished_with_incomplete_sources",
+  "current_source": null,
+  "completed_sources": [
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "status": "extracted_with_holds"
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "status": "extracted_with_holds"
+    },
+    {
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "status": "extracted_with_holds"
+    },
+    {
+      "source_id": "NAMU20260901",
+      "status": "extracted_with_holds"
+    },
+    {
+      "source_id": "RYU2014",
+      "status": "extracted_with_holds"
+    }
+  ],
+  "failed_sources": [
+    {
+      "source_id": "JO2018",
+      "reason": "completion receipt missing"
+    }
+  ],
+  "notification": "progress log + best-effort desktop notification; no chat push guarantee",
+  "attempt": 3,
+  "events_path": "current_kg/claims/v3/background_run/JO2018.attempt3.events.jsonl",
+  "ended_at": "2026-09-11T04:25:22.604836+00:00"
+}

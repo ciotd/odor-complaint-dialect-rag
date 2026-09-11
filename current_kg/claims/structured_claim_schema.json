@@ -1,0 +1,368 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Structured literature claim v2",
+  "description": "출처 기반 주장 장부. 분류체계는 잠정판이며 운영 KG/Rule 승인을 의미하지 않는다. null과 빈 조건 목록은 해당 기록에서 조건을 확정하지 않았다는 뜻이며, 제한 없음이 아니다.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "record_version",
+    "claim_id",
+    "source_id",
+    "category",
+    "source_location",
+    "statement",
+    "subject",
+    "predicate",
+    "object",
+    "conditions",
+    "geography",
+    "temporal_context",
+    "examples",
+    "evidence",
+    "cautions",
+    "links",
+    "review",
+    "generation_status",
+    "attestation",
+    "grammatical_context"
+  ],
+  "properties": {
+    "record_version": {
+      "const": "2.0.0"
+    },
+    "claim_id": {
+      "type": "string",
+      "pattern": "^RYU2014-S[0-9]{4}$"
+    },
+    "source_id": {
+      "const": "RYU2014"
+    },
+    "category": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "primary",
+        "secondary",
+        "related",
+        "functions",
+        "classification_basis"
+      ],
+      "properties": {
+        "primary": {
+          "enum": [
+            "pronoun",
+            "particle",
+            "final_ending",
+            "connective_ending",
+            "tense_aspect",
+            "negation",
+            "causative",
+            "passive",
+            "auxiliary_predicate",
+            "adverb",
+            "research_context",
+            "source_issue"
+          ]
+        },
+        "secondary": {
+          "type": "string"
+        },
+        "related": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "pronoun",
+              "particle",
+              "final_ending",
+              "connective_ending",
+              "tense_aspect",
+              "negation",
+              "causative",
+              "passive",
+              "auxiliary_predicate",
+              "adverb",
+              "research_context",
+              "source_issue"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "functions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "classification_basis": {
+          "const": "extractor_mapping_from_source"
+        }
+      }
+    },
+    "source_location": {
+      "type": "object",
+      "required": [
+        "section",
+        "pdf_pages",
+        "printed_pages",
+        "locator"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "section": {
+          "type": "string"
+        },
+        "pdf_pages": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 38
+          }
+        },
+        "printed_pages": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "integer",
+            "minimum": 55,
+            "maximum": 92
+          }
+        },
+        "locator": {
+          "type": "string"
+        }
+      }
+    },
+    "statement": {
+      "type": "string",
+      "minLength": 1
+    },
+    "subject": {
+      "type": "string",
+      "minLength": 1
+    },
+    "predicate": {
+      "enum": [
+        "has_dialect_form",
+        "has_form",
+        "has_function",
+        "reported_absent",
+        "reported_change",
+        "has_property",
+        "source_disagreement",
+        "unresolved_reading"
+      ]
+    },
+    "object": {
+      "type": "string",
+      "minLength": 1
+    },
+    "conditions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "dimension",
+          "value",
+          "basis"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "dimension": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          },
+          "basis": {
+            "enum": [
+              "source_explicit",
+              "example_only",
+              "extraction_policy",
+              "extractor_summary"
+            ]
+          }
+        }
+      }
+    },
+    "geography": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "normalized_region",
+        "subregion",
+        "generalization"
+      ],
+      "properties": {
+        "normalized_region": {
+          "const": "경남"
+        },
+        "subregion": {
+          "const": "함양"
+        },
+        "generalization": {
+          "const": "함양 조사 범위를 경남 전체에 일반화하지 않음"
+        }
+      }
+    },
+    "temporal_context": {
+      "const": "2014년 조사·보고; 현대 자연스러움 미검증"
+    },
+    "examples": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "standard",
+          "dialect",
+          "note"
+        ],
+        "properties": {
+          "standard": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "dialect": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "representation",
+          "text"
+        ],
+        "properties": {
+          "representation": {
+            "const": "faithful_summary"
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "cautions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "review": {
+      "const": {
+        "extraction": "ai_draft",
+        "human": "unreviewed"
+      }
+    },
+    "generation_status": {
+      "enum": [
+        "candidate",
+        "hold",
+        "context_only"
+      ]
+    },
+    "attestation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "phase",
+        "age_groups",
+        "note"
+      ],
+      "properties": {
+        "phase": {
+          "enum": [
+            "initial",
+            "followup",
+            "unspecified"
+          ]
+        },
+        "age_groups": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "grammatical_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "person",
+        "number",
+        "sentence_type",
+        "speech_level",
+        "basis"
+      ],
+      "properties": {
+        "person": {
+          "enum": [
+            null,
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        "number": {
+          "enum": [
+            null,
+            "singular",
+            "plural"
+          ]
+        },
+        "sentence_type": {
+          "enum": [
+            null,
+            "imperative",
+            "propositive",
+            "interrogative",
+            "declarative",
+            "exclamative"
+          ]
+        },
+        "speech_level": {
+          "enum": [
+            null,
+            "아주낮춤",
+            "예사낮춤",
+            "예사높임",
+            "아주높임",
+            "두루낮춤",
+            "두루높임"
+          ]
+        },
+        "basis": {
+          "const": "extracted_from_record_context"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "batch_id": "JO2018-B005",
+  "source_id": "JO2018",
+  "status": "partial_source_extraction",
+  "body_pages": [
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74
+  ],
+  "units": [
+    {
+      "location": "PDF59 / 인쇄 47: 격식·비격식 대응표 해설",
+      "claim_ids": [
+        "JO2018-B005-C001"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF62 / 인쇄 50: 가- 청유형과 청자 관계",
+      "claim_ids": [
+        "JO2018-B005-C002"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF64 / 인쇄 52: 아들→아버지 하이소·하소 혼용 담화",
+      "claim_ids": [
+        "JO2018-B005-C003"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF65 / 인쇄 53: 표10 가다 높임·종결법 활용형",
+      "claim_ids": [
+        "JO2018-B005-C004"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF67 / 인쇄 55: 표준어와 경북 높임의 대응 및 형태 대립",
+      "claim_ids": [
+        "JO2018-B005-C005"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF69 / 인쇄 57: 하게체 높임 해석의 잠정 논증",
+      "claim_ids": [
+        "JO2018-B005-C006"
+      ],
+      "hold": "PDF69의 중간 논증과 PDF70 최종 결론을 구분해야 함"
+    },
+    {
+      "location": "PDF70 / 인쇄 58: 하게체·해라체 혼용과 최종 자질 분석",
+      "claim_ids": [
+        "JO2018-B005-C007"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF71 / 인쇄 59: 표12와 직후 문장의 높임 체계 불일치",
+      "claim_ids": [
+        "JO2018-B005-C008"
+      ],
+      "hold": "표12/직후 문장과 앞선 체계 설명 불일치; 등급 노드 자동 통합 보류"
+    },
+    {
+      "location": "PDF72 / 인쇄 60: 쓰-와 과거 -었- 및 높임별 실현",
+      "claim_ids": [
+        "JO2018-B005-C009"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF73 / 인쇄 61: -더의 높임 기능과 선행 요소",
+      "claim_ids": [
+        "JO2018-B005-C010"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF73 / 인쇄 61: -ㅂ니데이의 -이 필수 결합",
+      "claim_ids": [
+        "JO2018-B005-C011"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF73 / 인쇄 61: -구마의 -는 보조사 선택",
+      "claim_ids": [
+        "JO2018-B005-C012"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF74 / 인쇄 62: 도-/오-에 한정된 명령 어미",
+      "claim_ids": [
+        "JO2018-B005-C013"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF74 / 인쇄 62: 격식체 4등급과 혼용의 분석 층위",
+      "claim_ids": [
+        "JO2018-B005-C014"
+      ],
+      "hold": null
+    }
+  ],
+  "page_dispositions": [
+    {
+      "page": 59,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B005-C001"
+      ],
+      "reason": "표8 해설 추출, 상대높임 체계 쟁점 도입 및 각주50(각주36 유사 내용)"
+    },
+    {
+      "page": 60,
+      "status": "held",
+      "claim_ids": [],
+      "reason": "표9와 분류 해설; 고어·연구자별 분류 구조화 보류"
+    },
+    {
+      "page": 61,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "선행연구 종합과 예15 전반; 각주51 재인용 맥락"
+    },
+    {
+      "page": 62,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B005-C002"
+      ],
+      "reason": "예15의 가- 결합·청자 차이 추출; 예16 전반 재인용 보류"
+    },
+    {
+      "page": 63,
+      "status": "held",
+      "claim_ids": [],
+      "reason": "예16 후반·예17 혼용 전체 읽음; 토큰별 구조화 보류, PDF64 해설로 연결"
+    },
+    {
+      "page": 64,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B005-C003"
+      ],
+      "reason": "친밀한 부자 간 혼용 및 저자의 시기 해석 추출; 각주52–54 확인"
+    },
+    {
+      "page": 65,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B005-C004"
+      ],
+      "reason": "예18 및 표10 가다 16칸 저장(2빈칸); 다음쪽의 보충 논증 확인"
+    },
+    {
+      "page": 66,
+      "status": "held",
+      "claim_ids": [],
+      "reason": "표10 빈자리 논증·예19·각주55 도식 읽음; 재인용 구조화 보류"
+    },
+    {
+      "page": 67,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B005-C005"
+      ],
+      "reason": "서술/의문 높임 대응 추출; 표11 오기 가능 칸 포함 전체 구조화 보류; 각주56–57 확인"
+    },
+    {
+      "page": 68,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "하게체 높임 쟁점·예20 전반 및 각주58–62 읽음"
+    },
+    {
+      "page": 69,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B005-C006"
+      ],
+      "reason": "예20 후반·중간 논증 보류 Claim; 예21 전반·각주63–64"
+    },
+    {
+      "page": 70,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B005-C007"
+      ],
+      "reason": "예21 후반·최종 하게체 자질과 혼용 추출, 각주65 재인용 보류·66 논증"
+    },
+    {
+      "page": 71,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B005-C008"
+      ],
+      "reason": "표12 이미지 확인 및 본문 불일치 보류 Claim"
+    },
+    {
+      "page": 72,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B005-C009"
+      ],
+      "reason": "쓰다 과거 5형과 원문 형태 분석 저장"
+    },
+    {
+      "page": 73,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B005-C010",
+        "JO2018-B005-C011",
+        "JO2018-B005-C012"
+      ],
+      "reason": "-더 높임 결합·-ㅂ니데이 필수 -이·-구마 선택 -는 3건 저장; 각주67–68 확인"
+    },
+    {
+      "page": 74,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B005-C013",
+        "JO2018-B005-C014"
+      ],
+      "reason": "도-/오- 한정 3명령형 및 격식체 4등급 분석 저장; 각주69 개별 구조화 보류"
+    }
+  ],
+  "source_context": {
+    "structure_note": "content.inflection_rows는 표10의 가다 활용형과 높임/종결법 칸을 보존. 어미 미분절 표에서 어미를 자동 추론하지 않음.",
+    "corpus_period_basis": {
+      "page": 29,
+      "excerpt": "1978년부터 1984년 사이에 조사된 내용을 싣고 있다.",
+      "publication_year": 2018,
+      "individual_utterance_date": null,
+      "note": "자료 전체 조사기간과 개별 발화 시점 구별. 재인용 선행연구에는 이 시점을 자동 전파하지 않음."
+    }
+  },
+  "open_items": [
+    {
+      "location": "PDF69",
+      "issue": "PDF69의 중간 논증과 PDF70 최종 결론을 구분해야 함",
+      "claim_id": "JO2018-B005-C006"
+    },
+    {
+      "location": "PDF71",
+      "issue": "표12/직후 문장과 앞선 체계 설명 불일치; 등급 노드 자동 통합 보류",
+      "claim_id": "JO2018-B005-C008"
+    },
+    {
+      "location": "PDF60",
+      "issue": "표9 연구별 분류와 고어 행의 구조화 미완료; 연구사 맥락으로 읽음",
+      "claim_id": null
+    },
+    {
+      "location": "PDF62",
+      "issue": "예16ㄱ·ㄴ 이혁화 재인용 예문 원 연구 미확인; 세부 어미별 Claim 추출 보류",
+      "claim_id": null
+    },
+    {
+      "location": "PDF63",
+      "issue": "예16ㄷ·ㄹ 재인용과 예17 혼용 발화 전체의 토큰별 결합 구조화 미완료",
+      "claim_id": null
+    },
+    {
+      "location": "PDF64",
+      "issue": "각주53 연구자별 -시이소/-이소/-시소 수의 교체 및 지역 등급 분석 원 연구 미확인",
+      "claim_id": null
+    },
+    {
+      "location": "PDF66",
+      "issue": "각주55 역사적 통합 가설과 -는교 도식은 재인용; 개별 구조화 보류",
+      "claim_id": null
+    },
+    {
+      "location": "PDF67",
+      "issue": "표11 표준어 의문 -ㄴ니까와 본문의 -ㅂ니까 불일치; 해라체 -ㅅ다의 기호 원문 대조 필요. 16칸 전체 추출 보류",
+      "claim_id": null
+    },
+    {
+      "location": "PDF68",
+      "issue": "하게체 높임에 관한 여러 선행연구/각주58–62는 중간 논증 맥락; 개별 체계 구조화 보류",
+      "claim_id": null
+    },
+    {
+      "location": "PDF70",
+      "issue": "각주65 -네/-데의 -요 불가 및 역사 분석 재인용 원 연구 미확인",
+      "claim_id": null
+    },
+    {
+      "location": "PDF71",
+      "issue": "표12 자질 9행과 혼용 대응 구조화 보류; 본문 3/4등급 및 해체 반복 처리 미결",
+      "claim_id": null
+    },
+    {
+      "location": "PDF74",
+      "issue": "각주69 민원식의 종결 구성요소별 의미 목록은 재인용으로 원 연구 미확인; 개별 구조화 보류",
+      "claim_id": null
+    }
+  ],
+  "audit": {
+    "text_read": true,
+    "pdftotext_layout": true,
+    "pdf_pages_visually_checked": [
+      65,
+      66,
+      67,
+      71
+    ],
+    "independent_reviewer": false
+  }
+}

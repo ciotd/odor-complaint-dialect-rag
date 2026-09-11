@@ -1,0 +1,153 @@
+{
+  "source_id": "NAMU_GRAMMAR_20260908",
+  "status": "partial_source_extraction",
+  "body_pages": [
+    6,
+    7
+  ],
+  "units": [
+    {
+      "pages": [
+        6,
+        46
+      ],
+      "locator": "§3.2 첫 표·각주21",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B002-C001"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        6
+      ],
+      "locator": "§3.2 묵다 설명 말미",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B002-C002"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        6,
+        46
+      ],
+      "locator": "§3.2 둘째 표·각주22–23",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B002-C003"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        6
+      ],
+      "locator": "§3.2 -아가 설명",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B002-C004"
+      ],
+      "hold": "강세 원인·거의 대부분의 범위 불명확; 일반 강세 부여 보류"
+    },
+    {
+      "pages": [
+        6,
+        46
+      ],
+      "locator": "§3.2 돌다 표·본문·각주24",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B002-C005"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        6
+      ],
+      "locator": "§3.2 돌다 지역 설명",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B002-C006"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        7
+      ],
+      "locator": "§3.2 오다 표·첫 두 단락",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B002-C007"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        7
+      ],
+      "locator": "§3.2 오다 말미",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B002-C008"
+      ],
+      "hold": "편집자 관찰의 표본·시점 미상; 경북 북부 금지나 남부 공통 규칙으로 사용 보류"
+    },
+    {
+      "pages": [
+        7,
+        46
+      ],
+      "locator": "§3.2 보조 형용사 보다·각주25–26",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B002-C009"
+      ],
+      "hold": "표기·어원 분석 및 세대 분포 직접 미검증; 운영 선택 보류"
+    },
+    {
+      "pages": [
+        7
+      ],
+      "locator": "§3.2.1 -아/어 생략 예",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B002-C010"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        7
+      ],
+      "locator": "§3.2.1 내삐다 예",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B002-C011"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        7,
+        8,
+        46
+      ],
+      "locator": "§3.2.1 말미·각주27",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B002-C012"
+      ],
+      "hold": null
+    }
+  ],
+  "context": [
+    "§3.2.1의 끝은 8쪽에서 확인; 46쪽 각주21–27 확인",
+    "상호·밈은 예증 맥락. 경기·강원 연속체 해석은 경상 생성 규칙으로 추출하지 않음"
+  ],
+  "open_issues": [
+    "-아가 강세 원인",
+    "오다 세대 관찰",
+    "배 표기·재인용 분석"
+  ],
+  "schema_note": "기존 v3 유지; content 내부 operational_status와 표의 dash_semantics 추가. 보류는 자동 생성 불가.",
+  "visual_audit": {
+    "pdf_pages": [
+      6
+    ],
+    "method": "pdftoppm PNG and view_image",
+    "scope": "줄바꿈·병합셀·표기 원문 대조; 언어학적 정답 검증 아님"
+  }
+}

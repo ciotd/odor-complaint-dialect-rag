@@ -1,0 +1,1566 @@
+{
+  "format_version": "3.0-draft.1",
+  "status": "extraction_draft",
+  "entities": [
+    {
+      "id": "JO2018-B008-C001.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-ㄹ라니더의 미래 의도",
+        "evidence_refs": [
+          "JO2018-B008-C001.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B008-C002.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "그림2 하이소체 서술 결합 구조",
+        "evidence_refs": [
+          "JO2018-B008-C002.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B008-C003.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-디더 계열 결합과 -겠- 미관찰",
+        "evidence_refs": [
+          "JO2018-B008-C003.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B008-C004.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-디이더 장음 전사 설명",
+        "evidence_refs": [
+          "JO2018-B008-C004.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B008-C005.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "형용사 -이더와 매개모음",
+        "evidence_refs": [
+          "JO2018-B008-C005.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B008-C006.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "존재 있다와 -이더의 직접 결합",
+        "evidence_refs": [
+          "JO2018-B008-C006.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B008-C007.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "동사 -리더의 -리다 대응",
+        "evidence_refs": [
+          "JO2018-B008-C007.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B008-C008.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "계사 -시더/-ㄹ시더와 동사 미래 -ㄹ시더",
+        "evidence_refs": [
+          "JO2018-B008-C008.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B008-C009.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "선행 형태소 없는 동사 -시더의 청유",
+        "evidence_refs": [
+          "JO2018-B008-C009.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B008-C010.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "서술 -ㅁ시더의 인칭·선행명령 조건",
+        "evidence_refs": [
+          "JO2018-B008-C010.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B008-C011.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "서술 -시더/-시데이의 계사 분석",
+        "evidence_refs": [
+          "JO2018-B008-C011.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B008-C012.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "하소체 -구마/-구매/-구마는",
+        "evidence_refs": [
+          "JO2018-B008-C012.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B008-C013.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "하소체 서술 -소의 결합",
+        "evidence_refs": [
+          "JO2018-B008-C013.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B008-C014.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "표15 하소체 서술 목록",
+        "evidence_refs": [
+          "JO2018-B008-C014.e"
+        ]
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "JO2018-B008-C001.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        89
+      ],
+      "locator": "PDF89 / 인쇄 77: -ㄹ라니더의 미래 의도",
+      "excerpt": "(\n 38)\n   에서는 ‘\n       -니더/\n          ㅂ니더’\n             에 ‘\n               -ㄹ라-’\n                   가 결합한 경우로,이때 ‘\n                                -ㄹ라-’\n                                    는\n표준어의 ‘\n     -려고’\n        에 대응되는 형식이다.동사 어간과 직접 결합하며 화자가\n미래에 대한 의도를 드러낸다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B008-C002.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        89
+      ],
+      "locator": "PDF89 / 인쇄 77: 그림2 하이소체 서술 결합 구조",
+      "excerpt": "결국,하이소체 서술법 ‘\n             -니더/\n                ㅂ니더’\n                   ,‘-ㅂ니다/\n                         습니다’\n                            ,‘-니데이/\n                                  ㅂ니데\n이’\n 는 다음과 같은 결합 구조를 갖는다.\n\n\n\n                                             (\n                                             -이-)\n                                                -더\n                선어말어미\n     어간   +                  +   (\n                                 ㅂ)-니-   +    -다\n              (\n              -었-,-겠-,-시-)\n                                              -데이\n\n              [\n              그림 2]하이소체 서술법의 결합 구조",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B008-C003.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        90
+      ],
+      "locator": "PDF90 / 인쇄 78: -디더 계열 결합과 -겠- 미관찰",
+      "excerpt": "(\n 39ㄱ,ㄴ,ㄷ)\n        에서는 동사 ‘\n               카다’\n                 에 각각 ‘\n                      -디더’\n                         ,‘-디이더’\n                               ,‘-ㅂ디더’\n                                     ,‘-ㅂ\n디다’\n  가 쓰이는데89) ‘\n            -디더/\n               ㅂ디더’\n                  는 ‘\n                    -니더/\n                       ㅂ니더’\n                          와 마찬가지로 지역적으\n로 대립을 보여준다.(\n           39ㄹ,ㅁ)\n                에서는 동사 ‘\n                       앉다’\n                         ,‘놓다’\n                             에 ‘\n                               -습디다’\n                                   ,‘-십디\n다’\n 가 쓰이고 있는데,회상을 나타낼 때 쓰는 표준어의 ‘\n                             -습디다’\n                                 에 대응된\n 9\n다.0\n  ) 특이한 점은,‘\n           -디이더’\n               가 한 차례만 나타나는데,‘\n                             -니이더’\n                                 와 마찬가지\n로 대부분 ‘\n      -디더’\n         를 길게 발음한 것을 전사상 표기를 하지 않은 것으로 보\n  9\n인다.1\n   ) 또한 ‘\n        -디더/\n           ㅂ디더’\n              는 용언과 계사,‘\n                       -었-’\n                          등의 선어말어미와 자유롭\n게 결합하며92),주어에도 큰 제약이 따르지 않는다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B008-C003.fn92",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        90
+      ],
+      "locator": "PDF90 각주92",
+      "excerpt": "92),주어에도 큰 제약이 따르지 않는다.\n\n\n\n\n(\n3)–이더,-리더\n\n\n ‘\n -이더’\n    와 ‘\n      -리더’\n         는 형용사와 동사 어간을 구분지어 결합하는 특징을 보인\n다.\n\n\n     (\n     40)ㄱ.“\n          그 낙엽이 마구 으러져 물이 시커먼 거 거,그 낙엽도 끌어 냇부고\n         깨끗하게 푸만 좋으이더.푸시더.\n                         ”(7-9:\n                              1068/\n                                  안동)\n       ㄴ.“\n         아밧님 보시소.밥쌀 가주 빻으이 이키 많으이더.그러이 떡을 해 먹으\n         이 얼마나 느니껴.\n                  ”(7-18:\n                        402/\n                           예천)\n       ㄷ.“\n         하이고 할무이요!저- 등넘에다 올라서면 그저 꽃이 화초밭이 너리\n         펀펀한데 그 집있이더.그 이름을 불러가 되는교? 그 높은 어른\n         을…”\n           (7-2:\n               146/\n                  경주)\n       ㄹ.“\n         이것참 임금님이 이거 한 분 잡사 보소.약이 이거 요거 뿐이께네,위산\n         에 이거 잡사 보고,효과가 나면 또 맨그러가 올리리더.\n                                      ”(7\n                                        -1:\n                                          429\n                                            /경주)\n\n89)‘\n   -디더’중 ‘-디-’형성 과정에 대하여,최명옥( 1980:\n                                  72)\n                                    에서는 ‘더(\n                                          회상 선어말어미) +이(\n                                                      청자\n  높임 선어말어미)   ’의 구성으로 보면서 ‘더+이>데>디’  의 과정을 거친 것으로 분석하였다.\n  그러나 ‘-디이더’  가 많이 쓰이지는 않지만,잔재하는 것으로 보아 청자 높임의 ‘   -으이-’가\n  결합하여 변화한 것으로 추정할 수도 있을 것이다.이는 ‘      -니이더’에서도 마찬가지이다.\n90)최동주(2003:\n           100)\n              에서는 ‘-더-’\n                      를 포함하고 있기 때문에 화자의 의식적 행위가 아닌 표현\n  에만 쓰이는 것으로 보고 있다.\n91) 대계 의 음성 자료를 확인해 본 결과 ‘ -디더’ 를 길게 발음하는 제보자가 몇몇 확인된다.\n92) 대계 에서 ‘-겠-’과 결합한 예문은 보이지 않았다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B008-C004.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        90
+      ],
+      "locator": "PDF90 / 인쇄 78: -디이더 장음 전사 설명",
+      "excerpt": "특이한 점은,‘\n           -디이더’\n               가 한 차례만 나타나는데,‘\n                             -니이더’\n                                 와 마찬가지\n로 대부분 ‘\n      -디더’\n         를 길게 발음한 것을 전사상 표기를 하지 않은 것으로 보\n  9\n인다.1\n   ) 또한",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B008-C005.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        91
+      ],
+      "locator": "PDF91 / 인쇄 79: 형용사 -이더와 매개모음",
+      "excerpt": "(\n 40ㄱ,ㄴ)\n      의 ‘\n        -이더’\n           는 형용사와 직접 결합하는데,동사와 결합하는 ‘\n                                    -니\n더’\n 와 계사나 추측의 ‘\n           -ㄹ-’\n              과 결합하는 ‘\n                     -시더’\n                        와는 결합 관계에서 다름을\n알 수 있다.\n      9) 또한 ‘\n       3    -이더’\n               는 형용사와 결합할 때는 반드시 매개모음을 동\n반하는데,존재의 뜻을 나타내는 ‘\n                 있다’\n                   와 결합할 때에는 ‘\n                             -이더’\n                                가 직접 결\n합하는 특성을 보인다",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B008-C006.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        91
+      ],
+      "locator": "PDF91 / 인쇄 79: 존재 있다와 -이더의 직접 결합",
+      "excerpt": "존재의 뜻을 나타내는 ‘\n                 있다’\n                   와 결합할 때에는 ‘\n                             -이더’\n                                가 직접 결\n합하는 특성을 보인다",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B008-C007.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        91
+      ],
+      "locator": "PDF91 / 인쇄 79: 동사 -리더의 -리다 대응",
+      "excerpt": "(40ㄹ,ㅁ)\n                     의 ‘\n                       -리더’\n                          는 동사와 결합하는데 표준\n어의 ‘\n   -리다’\n      와 대응된다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B008-C008.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        92
+      ],
+      "locator": "PDF92 / 인쇄 80: 계사 -시더/-ㄹ시더와 동사 미래 -ㄹ시더",
+      "excerpt": "(\n 41ㄱ,ㄴ)\n      의 ‘\n        -시더’\n           와 (\n             41ㄷ,ㄹ)\n                  의 ‘\n                    -ㄹ시더’        94\n                        가 쓰인 용례이다. ) 공통적\n\n으로 계사와 결합하며,형태상 ‘\n                -ㄹ-’\n                   에서만 차이가 난다.그럼에도 불구하\n고 기능상 변화는 보이지 않는다.그러나 (\n                      41ㅁ)\n                         의 ‘\n                           -ㄹ시더’\n                               는 동사 어간과\n결합하면서 표준형의 ‘\n           -겠습니다’\n                에 대응하여 쓰인다.이러한 측면으로 볼\n                           9\n때,이 둘은 기원에서 차이가 나는 것으로 판단된다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B008-C009.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        92
+      ],
+      "locator": "PDF92 / 인쇄 80: 선행 형태소 없는 동사 -시더의 청유",
+      "excerpt": "또한 ‘\n                                 -시더’\n                                    에 선행\n형태소가 결합하지 않고 동사 어간과 직접 결합하면 청유법으로 쓰인다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B008-C010.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        92
+      ],
+      "locator": "PDF92 / 인쇄 80: 서술 -ㅁ시더의 인칭·선행명령 조건",
+      "excerpt": "(\n41ㅁ,ㅂ)\n     의 ‘\n       -ㅁ시더’\n           는 특이하게도 문장에서 1인칭 주어와 공기하여 서술\n법으로 쓰이고 있다.하게체 서술법에서는 약속의 의미를 나타내는 ‘\n                                   -ㅁ세’\n가 쓰이는데,이의 높임으로 ‘\n               -세’\n                 가 아닌 ‘\n                      -시더’            9\n                         가 쓰인다고 볼 수 있다.6\n                                       )\n\n이 종결어미는       대계 에 채록된 용례에서 앞 문장에 반드시 명령법이 나온\n                      97\n뒤,뒤의 문장에서 쓰인다는 점이 특징이다. )\n\n 한편,",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B008-C011.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        93
+      ],
+      "locator": "PDF93 / 인쇄 81: 서술 -시더/-시데이의 계사 분석",
+      "excerpt": "임]\n 으로 쓰이는데,‘\n         -시-’\n            의 결합 여부에 따라 상대 높임법에서 차이를 나타\n내므로,형태상으로는 주체 존대의 ‘\n                  -시-’\n                     로 분석될 수 있다.그러나 여기서\n쓰인 ‘\n   -시-’\n      는 주체 존대와는 다르다.(\n                    42ㄴ)\n                       의 ‘\n                         -시데이’\n                             는               대계 에서 단\n한 차례만 나타난 용례인데,이 형태는 ‘\n                     -시더’\n                        와 마찬가지로 용언과 결합하\n                 98\n여 쓰일 때는 청유법으로 쓰인다. ) 그러므로 청유법에 쓰이는 ‘\n                                   -시-’\n                                      와는\n다르다는 점은 1차적으로 확인이 된다.또한 (\n                        42ㄷ)\n                           처럼 ‘\n                              -시-’\n                                 가 탈락하면\n해라체 서술법으로 쓰이지만,(\n               42ㄱ)\n                  에서 ‘\n                     -시-’\n                        가 탈락하는 경우는 나타나\n지 않는다.그러므로 서술법에서 쓰이는 ‘\n                     -시더’\n                        ,‘-시데이’\n                              는 계사가 포함된\n‘\n-이시더’\n    ,‘-이시데이’           9\n           의 축약형으로 판단된다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B008-C012.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        94
+      ],
+      "locator": "PDF94 / 인쇄 82: 하소체 -구마/-구매/-구마는",
+      "excerpt": "(\n 43)\n   에서는 ‘\n       -구마’\n          ,‘-구매’\n               ,‘-구마는’\n                     이 쓰이는데,이 중 (\n                                43ㄴ)\n                                   의 ‘\n                                     -구매’\n는 어간 종성으로 인해 ‘\n             -꾸매’\n                로 표기된 것일 뿐,실제로는 ‘\n                                -구매’\n                                   이다.또\n한 ‘\n  -니데이’\n      와 같이,일종의 강조를 나타내는 ‘\n                        -이’\n                          가 결합하여 ‘\n                                 -구마+이’\n                                      의\n구조를 가진다.(\n        43ㄷ)\n           의 ‘\n             -구마는’\n                 은 보조사가 결합한 경우이다.그리고 ‘\n                                     -\n구마’\n  는 일종의 감탄을 표현하는 종결어미이다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B008-C013.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        94
+      ],
+      "locator": "PDF94 / 인쇄 82: 하소체 서술 -소의 결합",
+      "excerpt": "(\n 44)\n   에서는 ‘\n       -소’\n         가 ‘\n           -겠-’\n              ,‘-었-’등의 시제 선어말어미,‘\n                                있다’등과 결합\n하면서 서술법으로 쓰이는데,문말의 운소 차이나 어간과 직접 결합하게 되\n면 의문법,명령법으로 쓰이기도 한다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B008-C014.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        94
+      ],
+      "locator": "PDF94 / 인쇄 82: 표15 하소체 서술 목록",
+      "excerpt": "<표 15> 하소체 서술법 종결어미\n\n 높임등급     유형                    종결어미\n          방언형   -구마,-구매\n 하소체\n          표준형   -소\n\n\n 하소체 서술법 종결어미는 하이소체보다는 그 형태가 다양하지 않고,쓰\n인 형태 도한 방언형과 표준형의 대립을 보여주지 않는다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B008-C004.footnote91",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        90
+      ],
+      "locator": "PDF90 footnote91",
+      "excerpt": "91) 대계 의 음성 자료를 확인해 본 결과 ‘ -디더’ 를 길게 발음하는 제보자가 몇몇 확인된다.",
+      "kind": "source_statement"
+    }
+  ],
+  "claims": [
+    {
+      "id": "JO2018-B008-C001",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-ㄹ라니더의 미래 의도"
+      ],
+      "target_refs": [
+        "JO2018-B008-C001.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B008-C001.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B008-C001.usage"
+          ],
+          "content": {
+            "source_locator": "PDF89 / 인쇄 77: -ㄹ라니더의 미래 의도",
+            "source_analysis": "-니더/ㅂ니더에 결합한 -ㄹ라-는 표준어 -려고에 대응하고 동사 어간에 직접 결합하여 화자의 미래 의도를 드러낸다고 설명한다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-ㄹ라-",
+              "-려고",
+              "-니더"
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B008-C001.usage",
+                "feature": "predicate_pos",
+                "value": "동사"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B008-C001.usage",
+                "feature": "meaning",
+                "value": "화자의 미래 의도"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B008-C001.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B008-C001.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 region 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C001.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C001.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B008-C001.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 본문 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B008-C002",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "그림2 하이소체 서술 결합 구조"
+      ],
+      "target_refs": [
+        "JO2018-B008-C002.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B008-C002.a",
+          "kind": "scoped_inventory",
+          "target_refs": [
+            "JO2018-B008-C002.usage"
+          ],
+          "content": {
+            "source_locator": "PDF89 / 인쇄 77: 그림2 하이소체 서술 결합 구조",
+            "source_analysis": "어간 + 선어말어미(-었-/-겠-/-시-) + (ㅂ)-니- + (-이-)-더/-다/-데이로 도식화한다. 각 가지의 모든 조합을 실제 관찰 활용형으로 만들지 않는다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-었-",
+              "-겠-",
+              "-시-",
+              "-더",
+              "-다",
+              "-데이"
+            ],
+            "source_structure": {
+              "slots": [
+                "어간",
+                "선어말어미",
+                "(ㅂ)-니-",
+                "종결부"
+              ],
+              "prefinal_labels": [
+                "-었-",
+                "-겠-",
+                "-시-"
+              ],
+              "final_branches": [
+                "(-이-)-더",
+                "-다",
+                "-데이"
+              ]
+            }
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B008-C002.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B008-C002.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 region 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C002.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C002.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B008-C002.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 본문 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B008-C003",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-디더 계열 결합과 -겠- 미관찰"
+      ],
+      "target_refs": [
+        "JO2018-B008-C003.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B008-C003.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B008-C003.usage"
+          ],
+          "content": {
+            "source_locator": "PDF90 / 인쇄 78: -디더 계열 결합과 -겠- 미관찰",
+            "source_analysis": "-디더/ㅂ디더는 용언·계사·-었- 등의 선어말어미와 결합하며 주어에 큰 제약이 없다고 기술한다. 회상 -습디다와 대응한다. 각주92의 -겠- 결합 미관찰을 유지한다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-디더",
+              "-ㅂ디더",
+              "-습디다"
+            ],
+            "not_attested_in_source": "-겠- 결합",
+            "source_locator_caveat": "본문39ㄱ·ㄴ·ㄷ을 모두 카다로, 39ㄹ·ㅁ을 앉다/놓다로 지시하지만 실제 예39ㄴ은 있다이며 ㄹ은 카다. 개별 토큰 귀속은 자동 보정하지 않음."
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B008-C003.e",
+        "JO2018-B008-C003.fn92"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B008-C003.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 region 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C003.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C003.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B008-C003.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 본문 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B008-C004",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미",
+        "형태음운"
+      ],
+      "source_terms": [
+        "-디이더 장음 전사 설명"
+      ],
+      "target_refs": [
+        "JO2018-B008-C004.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B008-C004.a",
+          "kind": "pronunciation_variant",
+          "target_refs": [
+            "JO2018-B008-C004.usage"
+          ],
+          "content": {
+            "source_locator": "PDF90 / 인쇄 78: -디이더 장음 전사 설명",
+            "source_analysis": "-디이더가 희소하지만 실제는 -디더를 길게 발음한 것을 전사하지 않은 것으로 저자는 추정한다. 각주91은 저자가 몇몇 제보자 음성을 확인했다고 보고한다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "held",
+            "forms": [
+              "-디이더",
+              "-디더"
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B008-C004.e",
+        "JO2018-B008-C004.footnote91"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B008-C004.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 region 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C004.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C004.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B008-C004.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "원 음성 미확인; PDF84의 높임 -이- 분석과 차이 확인 필요"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B008-C005",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "형용사 -이더와 매개모음"
+      ],
+      "target_refs": [
+        "JO2018-B008-C005.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B008-C005.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B008-C005.usage"
+          ],
+          "content": {
+            "source_locator": "PDF91 / 인쇄 79: 형용사 -이더와 매개모음",
+            "source_analysis": "형용사에 직접 결합하는 -이더는 반드시 매개모음을 동반한다고 저자가 설명하며 동사 -니더 및 계사/추측 -ㄹ-의 -시더와 구별한다. 존재 있다에는 -이더가 직접 결합한다는 예외를 함께 보존한다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "held",
+            "forms": [
+              "-이더",
+              "-니더",
+              "-시더"
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B008-C005.usage",
+                "feature": "predicate_pos",
+                "value": "형용사"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B008-C005.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B008-C005.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 region 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C005.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C005.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B008-C005.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "PDF77의 어간 말음에 따른 매개모음 기술과 범위 미확정; 반드시의 일반 적용 보류"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B008-C006",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "존재 있다와 -이더의 직접 결합"
+      ],
+      "target_refs": [
+        "JO2018-B008-C006.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B008-C006.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B008-C006.usage"
+          ],
+          "content": {
+            "source_locator": "PDF91 / 인쇄 79: 존재 있다와 -이더의 직접 결합",
+            "source_analysis": "존재의 뜻을 나타내는 있다와는 -이더가 직접 결합한다고 명시한다. 형용사 매개모음 설명을 이 용법에 전파하지 않는다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-이더"
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B008-C006.usage",
+                "feature": "lemma",
+                "value": "있다"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B008-C006.usage",
+                "feature": "meaning",
+                "value": "존재"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B008-C006.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B008-C006.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 region 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C006.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C006.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B008-C006.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [
+        {
+          "type": "exception_to",
+          "target": "JO2018-B008-C005",
+          "basis": "source_statement",
+          "evidence_refs": [
+            "JO2018-B008-C006.e"
+          ]
+        }
+      ],
+      "gaps": [
+        "현대 자연스러움 및 본문 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B008-C007",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "동사 -리더의 -리다 대응"
+      ],
+      "target_refs": [
+        "JO2018-B008-C007.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B008-C007.a",
+          "kind": "conditional_correspondence",
+          "target_refs": [
+            "JO2018-B008-C007.usage"
+          ],
+          "content": {
+            "source_locator": "PDF91 / 인쇄 79: 동사 -리더의 -리다 대응",
+            "source_analysis": "-리더는 동사와 결합하며 표준어 -리다에 대응한다고 한다. 앞의 올리리더 사동접미사 분석과 하오리더 형태를 동사 전체에 자동 분절하지 않는다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-리더",
+              "-리다"
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B008-C007.usage",
+                "feature": "predicate_pos",
+                "value": "동사"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B008-C007.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B008-C007.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 region 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C007.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C007.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B008-C007.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 본문 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B008-C008",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "계사 -시더/-ㄹ시더와 동사 미래 -ㄹ시더"
+      ],
+      "target_refs": [
+        "JO2018-B008-C008.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B008-C008.a",
+          "kind": "scoped_inventory",
+          "target_refs": [
+            "JO2018-B008-C008.usage"
+          ],
+          "content": {
+            "source_locator": "PDF92 / 인쇄 80: 계사 -시더/-ㄹ시더와 동사 미래 -ㄹ시더",
+            "source_analysis": "예41ㄱ·ㄴ의 -시더와 ㄷ·ㄹ의 -ㄹ시더는 계사 결합에서 ㄹ 유무만 다르고 기능 변화가 없다. 반면 예41ㅁ의 동사 -ㄹ시더는 -겠습니다에 대응한다. 저자는 기원이 다르다고 판단하지만 역사설은 운영 추론하지 않는다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-시더",
+              "-ㄹ시더",
+              "-겠습니다"
+            ],
+            "sense_rows": [
+              {
+                "usage": "계사 결합",
+                "forms": [
+                  "-시더",
+                  "-ㄹ시더"
+                ],
+                "semantic_difference": "기능상 변화 없음"
+              },
+              {
+                "usage": "동사 어간 결합",
+                "forms": [
+                  "-ㄹ시더"
+                ],
+                "correspondence": "-겠습니다"
+              }
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B008-C008.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B008-C008.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 region 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C008.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C008.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B008-C008.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 본문 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B008-C009",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "선행 형태소 없는 동사 -시더의 청유"
+      ],
+      "target_refs": [
+        "JO2018-B008-C009.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B008-C009.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B008-C009.usage"
+          ],
+          "content": {
+            "source_locator": "PDF92 / 인쇄 80: 선행 형태소 없는 동사 -시더의 청유",
+            "source_analysis": "-시더 앞에 다른 형태소가 결합하지 않고 동사 어간에 직접 붙으면 청유법으로 쓰인다고 명시한다. 같은 표면 문자열을 서술 -시더로 고정하지 않는다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-시더"
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B008-C009.usage",
+                "feature": "predicate_pos",
+                "value": "동사"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B008-C009.usage",
+                "feature": "intervening_morpheme",
+                "value": "없음"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B008-C009.usage",
+                "feature": "attachment",
+                "value": "어간 직접"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B008-C009.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B008-C009.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 region 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C009.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C009.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B008-C009.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 본문 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B008-C010",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "서술 -ㅁ시더의 인칭·선행명령 조건"
+      ],
+      "target_refs": [
+        "JO2018-B008-C010.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B008-C010.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B008-C010.usage"
+          ],
+          "content": {
+            "source_locator": "PDF92 / 인쇄 80: 서술 -ㅁ시더의 인칭·선행명령 조건",
+            "source_analysis": "-ㅁ시더는 1인칭 주어와 공기하는 서술법이며 대계 용례에서는 앞 문장에 반드시 명령법이 나온 뒤 쓰인다고 설명한다. 하게체 약속 -ㅁ세의 높임으로 볼 수 있다는 저자의 비교도 보존한다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-ㅁ시더",
+              "-ㅁ세"
+            ],
+            "source_locator_caveat": "해설41ㅁ·ㅂ 지시는 실제 예41ㅂ·ㅅ과 대응하는 것으로 보이나 토큰 귀속 자동 보정하지 않음."
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B008-C010.usage",
+                "feature": "subject_person",
+                "value": "1인칭"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B008-C010.usage",
+                "feature": "preceding_sentence_function",
+                "value": "명령법"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B008-C010.usage",
+                "feature": "sentence_function",
+                "value": "서술법"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B008-C010.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B008-C010.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 region 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C010.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C010.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B008-C010.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 본문 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B008-C011",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "서술 -시더/-시데이의 계사 분석"
+      ],
+      "target_refs": [
+        "JO2018-B008-C011.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B008-C011.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B008-C011.usage"
+          ],
+          "content": {
+            "source_locator": "PDF93 / 인쇄 81: 서술 -시더/-시데이의 계사 분석",
+            "source_analysis": "앞쪽 예42의 시 유무로 높임 차이가 나지만 저자는 이 -시-를 주체 존대와 구별한다. 서술 -시더/-시데이를 계사가 포함된 -이시더/-이시데이의 축약으로 판단하며 용언 결합 청유와 구별한다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "held",
+            "forms": [
+              "-시더",
+              "-시데이",
+              "-이시더",
+              "-이시데이"
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B008-C011.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B008-C011.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 region 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C011.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C011.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B008-C011.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "PDF77 -습- 변이 및 PDF92의 계사 생략 분석과의 범위 정합성 미확정; 각주98 예는 금지명령으로도 해석 가능하므로 저자의 청유 분류를 자동 확정하지 않음"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B008-C012",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "하소체 -구마/-구매/-구마는"
+      ],
+      "target_refs": [
+        "JO2018-B008-C012.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B008-C012.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B008-C012.usage"
+          ],
+          "content": {
+            "source_locator": "PDF94 / 인쇄 82: 하소체 -구마/-구매/-구마는",
+            "source_analysis": "-구매는 어간 종성 때문에 -꾸매로 표기된 것으로 설명하고 강조 -이가 결합한 -구마+이 구조로 분석한다. -구마는의 -는은 보조사이고 -구마는 감탄을 표현한다. -구마 자체와 -구마는 문자열의 의미를 구분한다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-구마",
+              "-구매",
+              "-꾸매",
+              "-구마는"
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B008-C012.usage",
+                "feature": "speech_level",
+                "value": "하소체"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B008-C012.usage",
+                "feature": "sentence_function",
+                "value": "서술법"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B008-C012.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B008-C012.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 region 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C012.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C012.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B008-C012.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 본문 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B008-C013",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "하소체 서술 -소의 결합"
+      ],
+      "target_refs": [
+        "JO2018-B008-C013.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B008-C013.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B008-C013.usage"
+          ],
+          "content": {
+            "source_locator": "PDF94 / 인쇄 82: 하소체 서술 -소의 결합",
+            "source_analysis": "서술 -소는 -겠-/-었- 등의 시제 선어말어미와 있다에 결합한다. 문말 운소 차이나 어간 직접 결합으로 의문·명령이 되기도 한다고 기술하나 유형별 조건을 완전히 배분하지 않는다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-소",
+              "-겠-",
+              "-었-"
+            ],
+            "source_scope_limit": "구체적 운소 및 의문/명령별 분기 미제시; 임의 억양·어간 규칙 생성 금지"
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B008-C013.usage",
+                "feature": "speech_level",
+                "value": "하소체"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B008-C013.usage",
+                "feature": "sentence_function",
+                "value": "서술법"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B008-C013.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B008-C013.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 region 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C013.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C013.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B008-C013.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 본문 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B008-C014",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "표15 하소체 서술 목록"
+      ],
+      "target_refs": [
+        "JO2018-B008-C014.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B008-C014.a",
+          "kind": "scoped_inventory",
+          "target_refs": [
+            "JO2018-B008-C014.usage"
+          ],
+          "content": {
+            "source_locator": "PDF94 / 인쇄 82: 표15 하소체 서술 목록",
+            "source_analysis": "하소체 서술 목록의 방언형은 -구마/-구매, 표준형은 -소이며 이들끼리 방언형·표준형 대응 대립을 보이지 않는다고 설명한다. -구마를 -소의 무조건 대역으로 만들지 않는다.",
+            "extractor_interpretation": "명시 설명 범위만 기록. 형태소 분석과 지역 전용성을 추가하지 않음.",
+            "generation_policy": "재인용·모호성은 운영 보류; 그 외도 미승인 초안이며 현대 자연스러움을 보증하지 않음.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-구마",
+              "-구매",
+              "-소"
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B008-C014.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B008-C014.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 region 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C014.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "해당 근거에서 구체적 utterance_period 미확보; 발행연도를 발화연도로 대입하지 않음"
+        },
+        {
+          "id": "JO2018-B008-C014.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 문법 설명 및 대계 예증"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B008-C014.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 본문 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    }
+  ],
+  "policies": []
+}

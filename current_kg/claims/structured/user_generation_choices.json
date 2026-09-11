@@ -1,0 +1,42 @@
+{
+  "record_type": "user_generation_policy_not_literature_evidence",
+  "source": "현재 대화에서 사용자가 명시한 선택",
+  "status": "사용자 선택 기록; 운영 Rule 구현·승인은 별도",
+  "choices": [
+    {
+      "input": "우리들",
+      "output": "우리들",
+      "condition": "1인칭 복수",
+      "action": "preserve"
+    },
+    {
+      "input": "너",
+      "output": "니",
+      "condition": "2인칭 단수 대명사",
+      "action": "prefer"
+    },
+    {
+      "input": "네",
+      "output": "니",
+      "condition": "2인칭 단수의 주격·소유 용법; 긍정 응답 네는 제외",
+      "action": "prefer"
+    },
+    {
+      "input": "너희",
+      "output": "너그",
+      "condition": "2인칭 복수",
+      "action": "prefer"
+    },
+    {
+      "input": "저하고",
+      "output": "내하고",
+      "condition": "1인칭 겸양 저; 지시 저 제외",
+      "action": "prefer"
+    }
+  ],
+  "cautions": [
+    "문헌의 원문을 사용자 선택에 맞춰 수정하지 않음.",
+    "높임·상대 관계·의미 보존은 별도 검토.",
+    "느는 사용자 확인을 받은 형태가 아님."
+  ]
+}

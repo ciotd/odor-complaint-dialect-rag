@@ -1,0 +1,212 @@
+{
+  "source_id": "NAMU_HONORIFICS_20260908",
+  "status": "draft_extracted_with_open_items",
+  "body_pages": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "units": [
+    {
+      "pages": [
+        8,
+        32
+      ],
+      "locator": "§2.2.1·각주22–26",
+      "claim_ids": [
+        "NAMU_HONORIFICS_20260908-B002-C001"
+      ],
+      "hold": "재인용 원자료 미확인; 독립 증거 중복 계산 및 운영 생성 보류"
+    },
+    {
+      "pages": [
+        7,
+        8,
+        32
+      ],
+      "locator": "§2.2 표·§2.2.2 표·법칙 각주",
+      "claim_ids": [
+        "NAMU_HONORIFICS_20260908-B002-C002"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        7,
+        8,
+        10,
+        32
+      ],
+      "locator": "하소체 1·2형 평서/의문 및 [법칙]",
+      "claim_ids": [
+        "NAMU_HONORIFICS_20260908-B002-C003"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        7,
+        8,
+        10,
+        32
+      ],
+      "locator": "하소체 1·2형 평서/의문 및 [법칙]",
+      "claim_ids": [
+        "NAMU_HONORIFICS_20260908-B002-C004"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        8,
+        9,
+        32
+      ],
+      "locator": "§2.2.2 주체높임·각주29·31",
+      "claim_ids": [
+        "NAMU_HONORIFICS_20260908-B002-C005"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        9,
+        10,
+        32
+      ],
+      "locator": "§2.2.2 작성 예·하동 전사·각주30–32",
+      "claim_ids": [
+        "NAMU_HONORIFICS_20260908-B002-C006"
+      ],
+      "hold": "재인용 원자료 미확인; 독립 증거 중복 계산 및 운영 생성 보류"
+    },
+    {
+      "pages": [
+        7,
+        10,
+        11,
+        32
+      ],
+      "locator": "§2.2.3 표·주체높임",
+      "claim_ids": [
+        "NAMU_HONORIFICS_20260908-B002-C007"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        10,
+        11
+      ],
+      "locator": "§2.2.3 이혁화 논문 재인용",
+      "claim_ids": [
+        "NAMU_HONORIFICS_20260908-B002-C008"
+      ],
+      "hold": "재인용 원자료 미확인; 독립 증거 중복 계산 및 운영 생성 보류"
+    },
+    {
+      "pages": [
+        11,
+        32,
+        33
+      ],
+      "locator": "§2.2.4 대구 표·반례·각주35–36·요약",
+      "claim_ids": [
+        "NAMU_HONORIFICS_20260908-B002-C009"
+      ],
+      "hold": "편집자 판단·범위 또는 분석 미확정; 운영 생성 보류"
+    },
+    {
+      "pages": [
+        11,
+        12
+      ],
+      "locator": "§2.2.4 현대 대구 표",
+      "claim_ids": [
+        "NAMU_HONORIFICS_20260908-B002-C010"
+      ],
+      "hold": "편집자 판단·범위 또는 분석 미확정; 운영 생성 보류"
+    },
+    {
+      "pages": [
+        12
+      ],
+      "locator": "§2.2.4 청도 병합표",
+      "claim_ids": [
+        "NAMU_HONORIFICS_20260908-B002-C011"
+      ],
+      "hold": "편집자 판단·범위 또는 분석 미확정; 운영 생성 보류"
+    },
+    {
+      "pages": [
+        12,
+        13
+      ],
+      "locator": "§2.2.5 표·본문·부산 전사",
+      "claim_ids": [
+        "NAMU_HONORIFICS_20260908-B002-C012"
+      ],
+      "hold": "분류·절대 금지 판단은 편집자 설명; 전사 원영상 미확인"
+    },
+    {
+      "pages": [
+        13,
+        33
+      ],
+      "locator": "§2.2.6 표·각주39",
+      "claim_ids": [
+        "NAMU_HONORIFICS_20260908-B002-C013"
+      ],
+      "hold": null
+    }
+  ],
+  "source_context": [
+    "7쪽 요약 유형표를 8–13쪽 상세 절과 대조해 중복 없이 저장.",
+    "9–10쪽 하동 전사는 화자별 발화 유지; 영상 직접 미확인. 13쪽 부산 예의 거주 30년은 발화 날짜로 사용하지 않음.",
+    "12쪽 병합표 이미지 확인. 대구·청도 분류/높임 판단은 보류.",
+    "후속 정제: 원문 발췌 확대, O/X·표 대역 보존, 요/예 OR, 뜻·품사별 usage_ref 연결. 스키마 확장 없이 선택적 inventory usage_ref의 참조를 엄격 검증. 운영 보류는 추출자 정책으로 분리."
+  ],
+  "audit": {
+    "text_read": true,
+    "original_media_consulted": false,
+    "linguistic_truth_verified": false,
+    "pdf_pages_visually_checked": [
+      12
+    ]
+  },
+  "page_dispositions": [
+    {
+      "page": 8,
+      "status": "extracted",
+      "reason": "는교 품사·지역·격식 예외, 는개 재인용 및 서부형 목록·오시요 결합 추출. 각주와 다음 쪽 마시시요를 함께 확인; 외부 원자료는 보류."
+    },
+    {
+      "page": 9,
+      "status": "extracted",
+      "reason": "서부 명령 마시시요 및 비교 작성 예, 하동시장 전사 시작 저장. 실제 전사와 편집 예를 구별; 원영상 미확인 보류."
+    },
+    {
+      "page": 10,
+      "status": "extracted",
+      "reason": "하동 전사 계속·계시요 각주, 하소체2형 표·시 결합·작성 예와 의령 인용 도입 처리. 11쪽 실제 발화 인용과 연결."
+    },
+    {
+      "page": 11,
+      "status": "extracted",
+      "reason": "의령·김해 재인용 저장. 대구 하소체3형과 구마 소속 유보·요/소 부재의 달성 반례를 함께 추출. 현대 젊은층 표는 12쪽과 연결; 분류 운영 보류."
+    },
+    {
+      "page": 12,
+      "status": "extracted",
+      "reason": "대구·청도 병합표 이미지를 확인하여 공유 평서/의문과 구별 명령/청유 기록. 퇴화형의 명령·혼용 제한과 의문 칸 병기를 함께 보존; 불확실 분류 보류."
+    },
+    {
+      "page": 13,
+      "status": "extracted",
+      "reason": "부산 퇴화형 영상 전사 및 니껴형 어미 표 추출. 안동 중심·주변 지역 혼합·는교 미사용과 각주39의 하소/하이소 구별을 함께 보존."
+    }
+  ]
+}

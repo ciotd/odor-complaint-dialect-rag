@@ -1,0 +1,1690 @@
+{
+  "format_version": "3.0-draft.1",
+  "status": "extraction_draft",
+  "entities": [
+    {
+      "id": "JO2018-B013-C001.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-는기요의 하이소/하소 등급 불일치",
+        "evidence_refs": [
+          "JO2018-B013-C001.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B013-C002.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "표23 하소체 의문 목록",
+        "evidence_refs": [
+          "JO2018-B013-C002.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B013-C003.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "의문형의 모음 표기·조음위치동화와 기능",
+        "evidence_refs": [
+          "JO2018-B013-C003.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B013-C004.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-ㄴ교/-ㄴ기요/-꾜와 -소의 자료 분포",
+        "evidence_refs": [
+          "JO2018-B013-C004.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B013-C005.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-ㄴ교/-기요/-꾜의 ㄴ 결합 도입 유보",
+        "evidence_refs": [
+          "JO2018-B013-C005.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B013-C006.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-ㄴ교/-ㄴ기요의 판정·설명 의문",
+        "evidence_refs": [
+          "JO2018-B013-C006.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B013-C007.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-ㄴ교의 대립 기원설과 저자 선택",
+        "evidence_refs": [
+          "JO2018-B013-C007.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B013-C008.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-꾜의 -을까요 대응 및 실제 결합",
+        "evidence_refs": [
+          "JO2018-B013-C008.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B013-C009.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-꾜/-꼬의 반모음과 높임 차이",
+        "evidence_refs": [
+          "JO2018-B013-C009.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B013-C010.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "표25 하게체 의문 목록",
+        "evidence_refs": [
+          "JO2018-B013-C010.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B013-C011.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-ㄹ래/-ㄹ까/-제의 해체 분류 선택",
+        "evidence_refs": [
+          "JO2018-B013-C011.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B013-C012.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-지더 의문·서술 재인용과 대계 미관찰",
+        "evidence_refs": [
+          "JO2018-B013-C012.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B013-C013.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "하게체 의문의 판정/설명과 -는게 양용",
+        "evidence_refs": [
+          "JO2018-B013-C013.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B013-C014.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "하게체 의문어미의 자료 내 지역 분포",
+        "evidence_refs": [
+          "JO2018-B013-C014.e"
+        ]
+      }
+    },
+    {
+      "id": "JO2018-B013-C015.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "-ㄴ가/-ㄴ강과 -ㄴ고/-ㄴ공의 의문 유형",
+        "evidence_refs": [
+          "JO2018-B013-C015.e"
+        ]
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "JO2018-B013-C001.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        128
+      ],
+      "locator": "PDF128 / -는기요의 하이소/하소 등급 불일치",
+      "excerpt": "(\n 80)\n   에서는 ‘\n       -ㄴ교’\n          ,‘-꾜’\n              ,‘-니꾜’\n                   ,‘-ㄹ꾜’\n                        ,‘-는기요’\n                              가 쓰이고 있다.‘\n                                       -는기\n요’\n 의 경우,형태상 해요체로 보이지만 형성 과정 및 높임 등분의 사용에 있\n어서 하이소체에 포함된다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B013-C002.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        128
+      ],
+      "locator": "PDF128 / 표23 하소체 의문 목록",
+      "excerpt": "<표 23> 하소체 의문법 종결어미\n\n 높임등급     유형                   종결어미\n          방언형    -ㄴ교,-ㄹ교,-ㄴ기요,-꾜\n  하소체\n          표준형    -소",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B013-C003.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        129
+      ],
+      "locator": "PDF129 / 의문형의 모음 표기·조음위치동화와 기능",
+      "excerpt": "첫째,종결어미 표기의 차이이다.경북방언은 잘 알려진 바와 같이,/\n                                    Ǝ/,\n/\nE/는 각각 ‘\n       ㅡ’,‘\n          ㅓ’와 ‘\n              ㅔ’,‘\n                 ㅐ’로 표기된다.그러므로 결합방식에서 제시하\n고 있는 ‘\n     -는가,-넌가’\n            ,‘-는교,-넌교’\n                     ,‘-에/\n                         -애’등은 문법적 기능 면에서\n변별력이 없는 형태이다.또한 ‘\n                -는공’\n                   ,‘-능공’등의 경우,‘\n                               -는공’\n                                  이 조음위\n치동화를 일으켜 ‘\n         -능공’\n            이 된 것으로 볼 수 있어 표기 방식에서의 차이만\n나타날 뿐 문법적 기능에서 큰 차이는 없다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B013-C004.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        130
+      ],
+      "locator": "PDF130 / -ㄴ교/-ㄴ기요/-꾜와 -소의 자료 분포",
+      "excerpt": "‘\n -ㄴ교’\n    는 경주를 중심으로 영덕과 대구 지역에서 그 분포가 두드러지게\n나타나고 상주 지역을 비롯한 경북 서부방언에서는 거의 나타나지 않는다.\n‘\n-ㄴ기요’\n    도 이와 동일한 경향을 보인다.그러므로 ‘\n                          -ㄴ교’\n                             ,‘-꾜’\n                                 ,‘-ㄴ기요’\n                                       는\n경북 동남부 지역에서 두드러지게 사용되는 형태임을 알 수 있다.\n                                  13)(\n                                    7 82ㄹ,\nㅁ)\n 의 ‘ 1\n   -소’3\n      8)는 서술법과 마찬가지로 대부분 지역에서 고루 분포하지만,다\n른 표준형과 방언형에 비해 그 사용 빈도가 높지는 않다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B013-C005.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        130,
+        131
+      ],
+      "locator": "PDF130,131 / -ㄴ교/-기요/-꾜의 ㄴ 결합 도입 유보",
+      "excerpt": "경주 지역을 중심으로 나타나는 ‘\n                  -ㄴ교’\n                     ,‘-기요’\n                          ,‘-꾜’\n                              는 현재시제 ‘\n                                     -ㄴ-’\n\n\n137)이혁화( 2009:\n             304-30\n                  5)에서는 기존 연구에서 제시한 ‘-는교’\n                                        의 지역 분포를 정리하여 언\n   어 지도를 제시하고 있는데,이와 동일한 분포를 보여주고 있다.또한 ‘      -는교’\n                                                  의 기원을\n   ‘\n   -는가요’ 가 아닌,‘  -는 것( 형식명사)\n                           -이(\n                             계사)-요(’\n                                   하소‘체의 의문법어미)’\n                                               의 구성에서 온\n   것으로 추정하고 있다.\n138)이기갑( 2003\n            :274)에서는 ‘-소’\n                        가 예사높임(경남)\n                                 으로 서술,물음,명령에서 쓰이고 있음을\n   제시하고 있다.\n139)‘-소’\n       는 표준형과 차이를 보이지 않는다.그러므로 다음 장에서는 이에 대한 설명을 생\n   략하기로 한다.\n\n                        -1\n                         18-\n과 결합하는 공통점을 가진다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B013-C006.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        131
+      ],
+      "locator": "PDF131 / -ㄴ교/-ㄴ기요의 판정·설명 의문",
+      "excerpt": "(\n 83)\n   의 ‘\n     -ㄴ교’\n        와 ‘\n          -ㄴ기요’\n              는 판정 의문문과 설명 의문문에서 두루 쓰이고\n있는데,의문사와의 공기 여부로 구분이 가능하다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B013-C007.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        131
+      ],
+      "locator": "PDF131 / -ㄴ교의 대립 기원설과 저자 선택",
+      "excerpt": "한편,‘\n    -ㄴ교’\n       와 ‘\n         -기요’\n            에 대한 기원은 두 가지 견해로 나타난다.먼저 신\n기상(\n  1980:\n      213-214)\n             과 김태엽(\n                  1992:\n                      90-91)\n                           ,이기갑(\n                               2003:\n                                   228)\n                                      은 ‘\n                                        -는가요 > -\n  로 설명하였고140),이상규(\nㄴ교’              1991:\n                     69)\n                       ,이혁화(\n                           2009)\n                               는 ‘\n                                 -는 것이오 > -는\n게오 > -는기오 > -는교’\n               로 보았다.경북방언에서는 ‘\n                             것(의존명사)\n                                   +이(\n                                     계\n사)\n ’가 축약된 형태인 ‘\n            기’가 종결어미와 문법화된 형태가 나타나는 것으로\n보아 후자의 견해가 더 타당한 것으로 보인다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B013-C008.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        131,
+        132
+      ],
+      "locator": "PDF131,132 / -꾜의 -을까요 대응 및 실제 결합",
+      "excerpt": "(\n 84)\n   에서는 ‘\n       -을까요’\n           에 대응되는 ‘\n                  -꾜’\n                    형이 높임으로 쓰이고 있다.(\n                                   84ㄱ)\n\n\n140)김태엽(19\n         85)\n           은‘ -는 것이오 〉-는게오 〉-는기오 〉-는교’\n                                     로 보다가 이후 김태엽(\n                                                 1996)\n   에서는 ‘\n       -는가요 > -ㄴ교’로 보았다.\n141)앞서 살펴본 ‘-ㄹ끼다’가 그 사례가 될 수 있다.\n\n                        -1\n                         19-\n은 동사 어간과 직접 결합하며,(\n                 84ㄴ)\n                    은 추측의 ‘\n                          -ㄹ-’\n                             과 결합하면서 ‘\n                                     -ㄴ\n교’\n ,‘-ㄴ기요’\n       와는 다른 양상을 보인다.특히 (\n                        84ㄷ)\n                           은 높임의 형태소 ‘\n                                     -니-’\n와 결합하여 쓰이기도 하는데,이로 미루어 보아 ‘\n                          -니껴’\n                             와 관련이 있는 것\n으로 추측된다.\n       14) 또한 청자가 높임의 대상으로 나타나는 것으로 보아 하\n         2\n\n소체로 쓰이고 있음을 알 수 있다.‘\n                   -꾜’또한 의문사 여부에 따라 판정 의\n문문,설명 의문문으로 구분할 수 있다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B013-C009.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        132
+      ],
+      "locator": "PDF132 / -꾜/-꼬의 반모음과 높임 차이",
+      "excerpt": "한편,해라체 의문법 종결어미 중 ‘\n                   -꼬’\n                     가 쓰이는데,반모음의 차이로 높임\n의 정도에서 차이가 난다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B013-C010.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        133
+      ],
+      "locator": "PDF133 / 표25 하게체 의문 목록",
+      "excerpt": "<표 25> 하게체 의문법 종결어미\n\n 높임등급     유형                   종결어미\n\n  하게체     방언형    -ㄴ가(\n                    ㄴ강)\n                      /-ㄴ고(\n                          ㄴ공)\n                            ,-ㄴ게",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B013-C011.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        134
+      ],
+      "locator": "PDF134 / -ㄹ래/-ㄹ까/-제의 해체 분류 선택",
+      "excerpt": "-ㄹ래,-ㄹ까:평대(\n             민원식:\n                199\n                  4)\n            예사높임법(\n                 김태엽:\n                    1996)\n            해라체(\n               강신항:\n                  1978\n                     ,배대온:\n                         1979,최명옥:\n                                 1980\n                                    ,최동주:\n                                        2003)\n   -제:예사높임법(\n           김태엽:\n              199\n                6)\n      해라체(\n         최명옥:\n            1980,이기갑:\n                    2003\n                       )\n\n\n ‘\n -ㄹ래’\n    ,‘-ㄹ까’\n         ,‘-제’\n             에 대한 등급 차이는 크게 하게체와 해라체로 구분되\n어 진다.김태엽(\n        1996:\n            160-161)\n                   에서는 이들의 형태를 모두 예사높임법에 포\n함시켜 설명하고 있는 반면,최명옥(\n                  1980:\n                      73-79)\n                           에서는 해라체에 포함시키고\n있다.하게체와 해라체 두 등급에서 나타나는 이유 중 하나는,앞서 상대 높\n임법에서도 언급하였던 것처럼,하게체와 해라체의 혼용이 가능하기 때문이\n다.그리고 이러한 혼용 양상은 해결할 수 있는 방안 중 하나는 해체 등급\n에 포함시키는 것이다.왜냐하면 해체는 격식체인 하게체와 해라체를 아우\n르고 있기 때문이다.이와 더불어 이 형태들에 비격식체인 ‘\n                               -요’\n                                 ,‘-예’\n                                     ,‘-여’\n가 결합하는지에 대한 분석을 통해 정확한 높임의 등급을 설정할 수 있\n 1\n다.4\n  5) 물론,등급상에서 차이를 보이는 종결어미는 실제 구술 자료를 통해\n\n확인해야 할 부분이다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B013-C012.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        134
+      ],
+      "locator": "PDF134 / -지더 의문·서술 재인용과 대계 미관찰",
+      "excerpt": "셋째,<표 25> 이외의 형태를 제시한 연구가 있다.김병제(\n                                 1965:\n                                     162-163)\n에서는 “\n    경상북도(\n        안동,봉화,영주,례천)지방 등에 분포되어 있는 생산적\n인 현상의 하나이다.\n          ”라고 언급하면서 ‘  1\n                    -지더’47\n                         )를 제시하고 있다.그러나\n대계 에서는 이러한 형태로 쓰인 용례가 나타나지 않는다.\n                              14\n                               8)\n\n 다음으로, 대계 의 하게체 의문법 종결어미의 유형별 지역 분포와 사용\n양상을 제시하면 다음과 같다.\n\n\n\n145)일반적으로 격식체에서는 ‘   -요’\n                       ,‘-예’\n                           ,‘-여’\n                               가 결합할 수 없다.\n146)앞서 언급하자면,이 연구에서는 제시된 종결어미를 해체로 설정하고 있다.\n147)김병제(1\n        965:1\n            62-163)\n                  에서는 다음과 같은 예문을 제시하고 있다.\n   집에 갓다 왓지더?,지끔 장에 가지더?,이 거 내 묵을 밥이지더?\n148)김병제(1965\n           :163)에서는,“‘\n                     -지더’는 원래 서술법 ‘  -지다〉-지더’\n                                            가 의문법으로 전환한\n   것인 만큼 억양에 따라 서술법에도 통용된다.     ”고 언급하고 있다.그러나 대계 에서는 서\n   술법으로 쓰이는 ‘  -지더’또한 나타나지 않는다.\n\n                        -1\n                         22-",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B013-C013.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        135
+      ],
+      "locator": "PDF135 / 하게체 의문의 판정/설명과 -는게 양용",
+      "excerpt": "또한 하이소체와 달\n리,판정 의문문과 설명 의문문의 구분이 뚜렷하게 드러난다.‘\n                                -는게’\n                                   의 경우\n의문사의 여부에 따라 모두 쓰이는 특성을 보인다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B013-C014.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        136
+      ],
+      "locator": "PDF136 / 하게체 의문어미의 자료 내 지역 분포",
+      "excerpt": "(\n 86)\n   에서는 ‘\n       -ㄴ가,-ㄴ강,-ㄴ고,-ㄴ공’\n                      과 ‘\n                        -ㄴ게,-ㄴ게나’\n                                가 쓰이고 있\n다.그리고 각각의 종결어미 ‘\n               -ㄴ가’\n                  ,‘-ㄴ고’\n                       ,‘-ㄴ강’\n                            ,‘-ㄴ공’\n                                 이 대표적으로\n많이 쓰인다.‘\n       -ㄴ가’\n          ,‘-ㄴ고’\n               ,‘-ㄴ강’\n                    ,‘-ㄴ공’\n                         은 이미 잘 알려진 형태로,대\n부분의 지역에서 두루 쓰이며,다른 지역에 비해 상대적으로 성주 지역에서\n        1\n그 쓰임이 적다.49\n          )‘-ㄴ강’\n               ,‘-ㄴ공’\n                    은 상대적으로 봉화,예천,안동 지역에서\n크게 쓰이지 않는다.‘\n           -ㄴ게’\n              15\n               0)는 다른 형태와 비교해 많이 쓰이는 형태는\n                          1\n아니나,대구와 군위 지역 등지에서 다소 나타난다.5\n                           1)‘\n                             -는게나’\n                                 는                  대계 에\n서 단 한 차례만 그 예가 확인이 된다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "JO2018-B013-C015.e",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        136
+      ],
+      "locator": "PDF136 / -ㄴ가/-ㄴ강과 -ㄴ고/-ㄴ공의 의문 유형",
+      "excerpt": "잘 알려진 바와 같이,‘\n             -ㄴ가’\n                ,‘-ㄴ강’\n                     은 판정 의문문으로,‘\n                                -ㄴ고’\n                                   ,‘-ㄴ공’\n                                     1\n은 설명 의문문으로 쓰이며,의문사의 여부에 따라 그 기능을 달리한다.",
+      "kind": "source_statement"
+    }
+  ],
+  "claims": [
+    {
+      "id": "JO2018-B013-C001",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-는기요의 하이소/하소 등급 불일치"
+      ],
+      "target_refs": [
+        "JO2018-B013-C001.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B013-C001.a",
+          "kind": "scope_caveat",
+          "target_refs": [
+            "JO2018-B013-C001.usage"
+          ],
+          "content": {
+            "source_locator": "PDF128 / -는기요의 하이소/하소 등급 불일치",
+            "source_analysis": "하소체 절의 예80 해설은 -는기요를 형태상 해요체처럼 보이나 형성 과정·사용에서 하이소체에 포함한다고 한다. 같은 쪽 표23은 -ㄴ기요를 하소체에 둔다. 어느 한쪽으로 수정하거나 동일 높임으로 합치지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "held",
+            "forms": [
+              "-는기요",
+              "-ㄴ교",
+              "-꾜"
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B013-C001.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B013-C001.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C001.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C001.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B013-C001.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증",
+        "PDF128 본문 하이소체/표23 하소체 불일치; 높임 확정 보류"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B013-C002",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "표23 하소체 의문 목록"
+      ],
+      "target_refs": [
+        "JO2018-B013-C002.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B013-C002.a",
+          "kind": "scoped_inventory",
+          "target_refs": [
+            "JO2018-B013-C002.usage"
+          ],
+          "content": {
+            "source_locator": "PDF128 / 표23 하소체 의문 목록",
+            "source_analysis": "표23의 하소체 방언형 -ㄴ교/-ㄹ교/-ㄴ기요/-꾜와 표준형 -소를 원 목록으로 기록한다. -ㄴ기요 등급은 본문과 차이가 있어 목록 전체를 운영 보류한다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "held",
+            "forms": [
+              "-ㄴ교",
+              "-ㄹ교",
+              "-ㄴ기요",
+              "-꾜",
+              "-소"
+            ],
+            "source_inventory": {
+              "방언형": [
+                "-ㄴ교",
+                "-ㄹ교",
+                "-ㄴ기요",
+                "-꾜"
+              ],
+              "표준형": [
+                "-소"
+              ]
+            }
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B013-C002.usage",
+                "feature": "speech_level",
+                "value": "하소체"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B013-C002.usage",
+                "feature": "sentence_function",
+                "value": "의문법"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B013-C002.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B013-C002.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C002.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C002.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B013-C002.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증",
+        "같은 쪽 본문은 -는기요를 하이소체에 포함; 표23의 -ㄹ교와 예80·표24의 -ㄹ꾜 관계도 미확정"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B013-C003",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "의문형의 모음 표기·조음위치동화와 기능"
+      ],
+      "target_refs": [
+        "JO2018-B013-C003.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B013-C003.a",
+          "kind": "pronunciation_variant",
+          "target_refs": [
+            "JO2018-B013-C003.usage"
+          ],
+          "content": {
+            "source_locator": "PDF129 / 의문형의 모음 표기·조음위치동화와 기능",
+            "source_analysis": "-는가/-넌가, -는교/-넌교, -에/-애 등의 표기차는 문법기능 변별이 없다고 하며 -는공→-능공은 조음위치동화로 설명한다. 자료 표기를 보존하고 모든 어휘에 일반 철자 치환을 적용하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-는가",
+              "-넌가",
+              "-는교",
+              "-넌교",
+              "-에",
+              "-애",
+              "-는공",
+              "-능공"
+            ],
+            "paired_variants": [
+              [
+                "-는가",
+                "-넌가"
+              ],
+              [
+                "-는교",
+                "-넌교"
+              ],
+              [
+                "-에",
+                "-애"
+              ],
+              [
+                "-는공",
+                "-능공"
+              ]
+            ],
+            "scope_limit": "예시된 표기·문법기능 대응; 일반 출력 철자 정책 아님"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B013-C003.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B013-C003.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C003.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C003.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B013-C003.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B013-C004",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-ㄴ교/-ㄴ기요/-꾜와 -소의 자료 분포"
+      ],
+      "target_refs": [
+        "JO2018-B013-C004.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B013-C004.a",
+          "kind": "regional_prevalence",
+          "target_refs": [
+            "JO2018-B013-C004.usage"
+          ],
+          "content": {
+            "source_locator": "PDF130 / -ㄴ교/-ㄴ기요/-꾜와 -소의 자료 분포",
+            "source_analysis": "-ㄴ교/-ㄴ기요/-꾜는 경주 중심 영덕·대구 등 동남부에 두드러지고 서부에는 드물며 -소는 대부분 지역에 고루 나타난다고 설명한다. PDF124의 북부·서부 미관찰 단정과 표24의 실제 수치는 구별한다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-ㄴ교",
+              "-ㄴ기요",
+              "-꾜",
+              "-소"
+            ],
+            "scope_limit": "특정 지역 전용·북부 사용 불가능이라는 생성 조건을 만들지 않음",
+            "cross_bundle_qualifies": [
+              {
+                "target": "JO2018-B012-C011",
+                "basis": "extractor_comparison"
+              }
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B013-C004.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B013-C004.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C004.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C004.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B013-C004.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B013-C005",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-ㄴ교/-기요/-꾜의 ㄴ 결합 도입 유보"
+      ],
+      "target_refs": [
+        "JO2018-B013-C005.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B013-C005.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B013-C005.usage"
+          ],
+          "content": {
+            "source_locator": "PDF130,131 / -ㄴ교/-기요/-꾜의 ㄴ 결합 도입 유보",
+            "source_analysis": "저자는 -ㄴ교/-기요/-꾜가 현재시제 -ㄴ-과 결합하는 공통점을 가진다고 도입한다. 뒤 PDF132는 -꾜의 동사 직접·추측 -ㄹ-·-니- 결합을 구별하므로 모든 -꾜에 현재 ㄴ 필수조건을 걸지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "held",
+            "forms": [
+              "-ㄴ교",
+              "-기요",
+              "-꾜",
+              "-ㄴ-"
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B013-C005.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B013-C005.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C005.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C005.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B013-C005.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증",
+        "도입의 현재 -ㄴ- 공통 설명과 PDF132 -꾜의 결합 다양성의 적용 범위 미확정"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B013-C006",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-ㄴ교/-ㄴ기요의 판정·설명 의문"
+      ],
+      "target_refs": [
+        "JO2018-B013-C006.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B013-C006.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B013-C006.usage"
+          ],
+          "content": {
+            "source_locator": "PDF131 / -ㄴ교/-ㄴ기요의 판정·설명 의문",
+            "source_analysis": "-ㄴ교/-ㄴ기요는 판정·설명 의문 양쪽에 쓰이며 의문사 공기 여부로 구분한다고 한다. 본문의 높임 등급 불일치는 별도로 유지하고 이 기능 주장에 단일 등급을 확정하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-ㄴ교",
+              "-ㄴ기요"
+            ],
+            "question_types": [
+              "판정 의문문",
+              "설명 의문문"
+            ],
+            "distinguishing_feature": "의문사 공기 여부",
+            "scope_limit": "하이소/하소 등급은 B013-C001·C002 보류 유지"
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B013-C006.usage",
+                "feature": "sentence_function",
+                "value": "의문법"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B013-C006.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B013-C006.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C006.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C006.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B013-C006.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B013-C007",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-ㄴ교의 대립 기원설과 저자 선택"
+      ],
+      "target_refs": [
+        "JO2018-B013-C007.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B013-C007.a",
+          "kind": "historical_account",
+          "target_refs": [
+            "JO2018-B013-C007.usage"
+          ],
+          "content": {
+            "source_locator": "PDF131 / -ㄴ교의 대립 기원설과 저자 선택",
+            "source_analysis": "-는가요>-ㄴ교와 -는 것이오>-는게오>-는기오>-는교라는 두 기원설을 보고한다. 저자는 것+이 축약 기의 문법화 사례를 근거로 후자를 더 타당하다고 본다. 동일 연구의 기존 B001-C002를 새 독립 근거로 계산하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "held",
+            "forms": [
+              "-ㄴ교",
+              "-는가요",
+              "-는것이오",
+              "-는게오",
+              "-는기오",
+              "-는교"
+            ],
+            "reported_source": "신기상1980·김태엽1992·이기갑2003 대 이상규1991·이혁화2009",
+            "cross_bundle_qualifies": [
+              {
+                "target": "JO2018-B001-C002",
+                "basis": "extractor_comparison"
+              }
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B013-C007.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B013-C007.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C007.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C007.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B013-C007.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증",
+        "재인용 원 연구 미확인; 저자의 선택은 역사 단계 실증이 아님"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B013-C008",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-꾜의 -을까요 대응 및 실제 결합"
+      ],
+      "target_refs": [
+        "JO2018-B013-C008.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B013-C008.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B013-C008.usage"
+          ],
+          "content": {
+            "source_locator": "PDF131,132 / -꾜의 -을까요 대응 및 실제 결합",
+            "source_analysis": "-꾜는 -을까요에 대응하며 예84ㄱ 동사 어간 직접 결합, ㄴ 추측 -ㄹ-, ㄷ 높임 -니- 결합이라고 한다. 청자가 높임 대상이므로 하소체라 분석하고 의문사 여부로 판정·설명을 구별한다. -니껴와 관련 있다는 부분은 추측이며 실제 음성은 저자가 확인했다고만 보고한다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-꾜",
+              "-을까요",
+              "-ㄹ-",
+              "-니-"
+            ],
+            "attachment_targets": [
+              "동사 어간 직접",
+              "추측 -ㄹ-",
+              "높임 -니-"
+            ],
+            "question_types": [
+              "판정 의문문",
+              "설명 의문문"
+            ],
+            "scope_limit": "저자는 하소체로 분류하나 앞 절 하이소체 배치와 혼재. 등급 자동 선택·-니껴와 음운 변환은 보류"
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B013-C008.usage",
+                "feature": "sentence_function",
+                "value": "의문법"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B013-C008.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B013-C008.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C008.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C008.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B013-C008.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B013-C009",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-꾜/-꼬의 반모음과 높임 차이"
+      ],
+      "target_refs": [
+        "JO2018-B013-C009.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B013-C009.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B013-C009.usage"
+          ],
+          "content": {
+            "source_locator": "PDF132 / -꾜/-꼬의 반모음과 높임 차이",
+            "source_analysis": "하소체 -꾜와 해라체 의문 -꼬는 반모음 차이로 높임 정도가 다르다고 기술한다. 같은 형태의 모든 용법에 일괄 반모음 첨가로 높임을 생성하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-꼬"
+            ],
+            "source_comparison": "앞 문단 -꾜와 해라체 -꼬",
+            "scope_limit": "결합조건과 앞 절 등급 불일치가 있으므로 전 어미 높임 변환으로 확대 금지"
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B013-C009.usage",
+                "feature": "sentence_function",
+                "value": "의문법"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B013-C009.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B013-C009.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C009.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C009.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B013-C009.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B013-C010",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "표25 하게체 의문 목록"
+      ],
+      "target_refs": [
+        "JO2018-B013-C010.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B013-C010.a",
+          "kind": "scoped_inventory",
+          "target_refs": [
+            "JO2018-B013-C010.usage"
+          ],
+          "content": {
+            "source_locator": "PDF133 / 표25 하게체 의문 목록",
+            "source_analysis": "표25는 -ㄴ가(ㄴ강)/-ㄴ고(ㄴ공), -ㄴ게를 하게체 방언형으로 제시한다. 본문에는 -ㄴ가가 표준어에서도 쓰인다고 하므로 표의 방언형 라벨을 방언 전용성으로 해석하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-ㄴ가(ㄴ강)/-ㄴ고(ㄴ공)",
+              "-ㄴ게"
+            ],
+            "source_inventory": {
+              "방언형": [
+                "-ㄴ가(ㄴ강)/-ㄴ고(ㄴ공)",
+                "-ㄴ게"
+              ]
+            }
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B013-C010.usage",
+                "feature": "speech_level",
+                "value": "하게체"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B013-C010.usage",
+                "feature": "sentence_function",
+                "value": "의문법"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B013-C010.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B013-C010.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C010.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C010.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B013-C010.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B013-C011",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-ㄹ래/-ㄹ까/-제의 해체 분류 선택"
+      ],
+      "target_refs": [
+        "JO2018-B013-C011.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B013-C011.a",
+          "kind": "scope_caveat",
+          "target_refs": [
+            "JO2018-B013-C011.usage"
+          ],
+          "content": {
+            "source_locator": "PDF134 / -ㄹ래/-ㄹ까/-제의 해체 분류 선택",
+            "source_analysis": "선행연구의 하게체/해라체 분류 차이에 대해 저자는 두 격식 등급을 아우르는 해체 설정을 제안하고 각주146에서 이 연구의 선택임을 밝힌다. -요/-예/-여 결합 여부의 분석 및 실제 구술 확인 필요를 유보한다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "held",
+            "forms": [
+              "-ㄹ래",
+              "-ㄹ까",
+              "-제",
+              "-요",
+              "-예",
+              "-여"
+            ],
+            "reported_source": "민원식1994·김태엽1996·강신항1978·배대온1979·최명옥1980·최동주2003·이기갑2003"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B013-C011.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B013-C011.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C011.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C011.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B013-C011.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증",
+        "선행연구 분류 및 비격식 요소 결합의 실제 확인 미완료. 각주145 일반 격식체 결합불가 설명은 B004-C005 하이소체+요 관찰과 대조 필요"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B013-C012",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-지더 의문·서술 재인용과 대계 미관찰"
+      ],
+      "target_refs": [
+        "JO2018-B013-C012.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B013-C012.a",
+          "kind": "scope_caveat",
+          "target_refs": [
+            "JO2018-B013-C012.usage"
+          ],
+          "content": {
+            "source_locator": "PDF134 / -지더 의문·서술 재인용과 대계 미관찰",
+            "source_analysis": "김병제1965는 -지더를 경북 일부 지역의 생산적 의문형으로 제시하고 억양에 따라 서술에도 통한다고 설명한다. 저자는 대계에서 의문·서술 어느 쪽도 관찰되지 않았다고 한다. 재인용 예문의 당시 철자와 조사 시점을 대계로 바꾸지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "held",
+            "forms": [
+              "-지더"
+            ],
+            "reported_source": "김병제(1965:162–163), 각주147–148"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B013-C012.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B013-C012.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C012.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C012.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B013-C012.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증",
+        "김병제1965 원자료·억양 미확인 및 대계 미관찰"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B013-C013",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "하게체 의문의 판정/설명과 -는게 양용"
+      ],
+      "target_refs": [
+        "JO2018-B013-C013.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B013-C013.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B013-C013.usage"
+          ],
+          "content": {
+            "source_locator": "PDF135 / 하게체 의문의 판정/설명과 -는게 양용",
+            "source_analysis": "하게체에서는 판정·설명 의문 구분이 뚜렷하지만 -는게는 의문사 여부에 따라 양쪽에 쓰인다고 한다. 표26의 -는게 행을 판정/설명 가운데 임의 한쪽에만 배정하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-는게"
+            ],
+            "question_types": [
+              "판정 의문문",
+              "설명 의문문"
+            ],
+            "distinguishing_feature": "의문사 여부"
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B013-C013.usage",
+                "feature": "speech_level",
+                "value": "하게체"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B013-C013.usage",
+                "feature": "sentence_function",
+                "value": "의문법"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B013-C013.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B013-C013.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C013.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C013.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B013-C013.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B013-C014",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "하게체 의문어미의 자료 내 지역 분포"
+      ],
+      "target_refs": [
+        "JO2018-B013-C014.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B013-C014.a",
+          "kind": "regional_prevalence",
+          "target_refs": [
+            "JO2018-B013-C014.usage"
+          ],
+          "content": {
+            "source_locator": "PDF136 / 하게체 의문어미의 자료 내 지역 분포",
+            "source_analysis": "-ㄴ가/-ㄴ고/-ㄴ강/-ㄴ공은 대부분 지역에서 쓰이며 성주에는 상대적으로 적고 -ㄴ강/-ㄴ공은 봉화·예천·안동에서 크게 쓰이지 않는다고 한다. -ㄴ게는 대구·군위 등에, -는게나는 한 용례가 있다고 한다. 형태별 표26의 수치를 우세 조건으로 자동 변환하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "draft_not_approved",
+            "forms": [
+              "-ㄴ가",
+              "-ㄴ고",
+              "-ㄴ강",
+              "-ㄴ공",
+              "-ㄴ게",
+              "-는게나"
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B013-C014.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B013-C014.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C014.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C014.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B013-C014.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "JO2018-B013-C015",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "종결어미"
+      ],
+      "source_terms": [
+        "-ㄴ가/-ㄴ강과 -ㄴ고/-ㄴ공의 의문 유형"
+      ],
+      "target_refs": [
+        "JO2018-B013-C015.usage"
+      ],
+      "assertions": [
+        {
+          "id": "JO2018-B013-C015.a",
+          "kind": "general_combination",
+          "target_refs": [
+            "JO2018-B013-C015.usage"
+          ],
+          "content": {
+            "source_locator": "PDF136 / -ㄴ가/-ㄴ강과 -ㄴ고/-ㄴ공의 의문 유형",
+            "source_analysis": "-ㄴ가/-ㄴ강은 판정 의문, -ㄴ고/-ㄴ공은 설명 의문으로 의문사 여부에 따라 기능을 달리한다고 설명한다. 각주153은 최명옥의 선택 조건 재인용이며 예87의 뒤쪽 해설은 아직 읽지 않아 이 일반 조건의 예외를 확정하지 않는다.",
+            "extractor_interpretation": "해당 근거의 설명 범위만 구조화; 미제시 형태·지역 전용성·생성 확률은 추론하지 않음.",
+            "generation_policy": "미승인 초안. 재인용 및 모호한 분석은 운영 보류. 현대 자연스러움 미검증.",
+            "operational_status": "held",
+            "forms": [
+              "-ㄴ가",
+              "-ㄴ강",
+              "-ㄴ고",
+              "-ㄴ공"
+            ],
+            "ending_function_rows": [
+              {
+                "ending": "-ㄴ가",
+                "function": "판정 의문문",
+                "features": {
+                  "question_type": "판정 의문문"
+                },
+                "hold": "예87 후속 해설·의문사 범위 미처리; 운영 적용 보류"
+              },
+              {
+                "ending": "-ㄴ강",
+                "function": "판정 의문문",
+                "features": {
+                  "question_type": "판정 의문문"
+                },
+                "hold": "예87 후속 해설·의문사 범위 미처리; 운영 적용 보류"
+              },
+              {
+                "ending": "-ㄴ고",
+                "function": "설명 의문문",
+                "features": {
+                  "question_type": "설명 의문문"
+                },
+                "hold": "예87 후속 해설·의문사 범위 미처리; 운영 적용 보류"
+              },
+              {
+                "ending": "-ㄴ공",
+                "function": "설명 의문문",
+                "features": {
+                  "question_type": "설명 의문문"
+                },
+                "hold": "예87 후속 해설·의문사 범위 미처리; 운영 적용 보류"
+              }
+            ]
+          },
+          "condition": {
+            "op": "all",
+            "args": [
+              {
+                "op": "eq",
+                "target": "JO2018-B013-C015.usage",
+                "feature": "speech_level",
+                "value": "하게체"
+              },
+              {
+                "op": "eq",
+                "target": "JO2018-B013-C015.usage",
+                "feature": "sentence_function",
+                "value": "의문법"
+              }
+            ]
+          }
+        }
+      ],
+      "evidence_refs": [
+        "JO2018-B013-C015.e"
+      ],
+      "annotations": [
+        {
+          "id": "JO2018-B013-C015.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C015.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "이 근거만으로 개별 발화시점·세부 분포를 확정하지 않음; 자료 조사기간은 coverage의 PDF29 근거 참조"
+        },
+        {
+          "id": "JO2018-B013-C015.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "description": "저자의 대계 자료 분석; 재인용은 별도 표시"
+          },
+          "basis": "source_context",
+          "evidence_refs": [
+            "JO2018-B013-C015.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "현대 자연스러움 및 근거 밖 생산성 미검증",
+        "PDF136 예87ㄱ에는 어데가 있어도 있는가 사용; PDF137 이후 후속 해설 미독으로 의문사 조건·예외 처리 미완료"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    }
+  ],
+  "policies": []
+}

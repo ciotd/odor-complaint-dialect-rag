@@ -1,0 +1,1459 @@
+{
+  "checkpoint_id": "RYU2014-NEGATION-001",
+  "scope": "2.6. 부정의 9개 Claim 및 다른 절과의 근거 대조. 논문 전체 검증이 아님.",
+  "source_id": "RYU2014",
+  "input_sha256": {
+    "current_kg/claims/structured/ryu2014_claims.jsonl": "fc9bf7f2bf9296c548a4d06bd3214119f5a63b93586ece75ed8c92d87e659ef1",
+    "current_kg/claims/structured_claim_schema.json": "8d294d6ced27103b9d3d7a32a1441e1b81ca19a523735599efbac22c3dd3b7d6",
+    "current_kg/claims/grammar_categories.json": "ed83e00b80132a05e3b962c90b96d83711e7e4fd32cf01392dd5c4b2e6adfa29",
+    "sources/gyeongsang/academic/표준어 간섭 및 방언에 대한 의식으로 인한 경남 함양 방언 문법 형태의 변화 연구.pdf": "2ae9c22e1a7cc9f470909bdf9cfe5f7e002d868c208a55ce23fed479ae5d9973"
+  },
+  "policy": [
+    "기존 39규칙·구 문법 JSON·AI-Hub·모델의 방언 상식은 근거로 사용하지 않는다.",
+    "문법 지식만 KG 후보. 의식/교육 등 연구 맥락은 생성 규칙이 아니다.",
+    "사용비율 수치는 원문 확인용으로만 제공. 수치 Claim이나 생성 확률을 요구하지 않는다.",
+    "함양 조사 결과를 경남 전체 또는 현재 세대로 확대하지 않는다.",
+    "원문의 부재 기술과 생성 금지를 구분. 표준어와 같은 형태도 문법체계에 포함될 수 있다.",
+    "candidate는 생성 승인 아님. 사람 미검토 상태를 유지한다.",
+    "원문 텍스트는 PDF 자동 추출 결과. 깨진 글자는 추측하지 말고 PDF 이미지 확인을 요구한다.",
+    "Reviewer는 의견만 낸다. 수정·명령 실행·도구 호출을 하지 않는다."
+  ],
+  "source_pages": [
+    {
+      "pdf_page": 2,
+      "printed_page": 56,
+      "text": "                       배 달 말(55)\n\n\n형태가 활발하게 쓰이게 되었다. 2인칭 단수는 ‘니, 너, 네, 자네, 당신’이\n쓰이고, 복수 형태로 ‘너, 느, 너그, 너들, 너그들’이 쓰였다. 이 중 이인칭\n복수 형태 ‘느, 너그, 너들, 너그들’과 같은 형태는 거의 사용되지 않게 되었\n다. 재귀대명사는 ‘이녁, 지’도 사용되지 않게 되었다. 의문대명사는 ‘누, 뭐/\n머, 무신/먼’이 있었으나 ‘무신/먼’도 안 쓰이게 되었다. 지시대명사 ‘이거,\n그거, 요것/요거, 저거’, ‘여/여게, 거, 저/저게’가 쓰였다. 10대에서는 모두\n표준어와 같게 되었다.\n 둘째로 조사를 보면 격조사는 대부분 표준어의 격조사와 같으나 주격조사\n‘-께서’, 관형격조사 ‘-의’, 부사격조사 ‘-에게/께, -으로서, -와/하고’가 방언\n형에 없다가 60대 또는 10대부터 쓰이고 있다. 대신 ‘-매이로, -만치’는 10대\n에서는 안 쓰인다.\n 셋째로 종결어미와 경어법 형태는 명령형 종결어미에서는 아주높임체가\n없고, 청유형에서는 예사낮춤 형태가 없고, 의문형, 서술형, 감탄형에서는 예\n사높임과 아주높임 형태가 없었으나 60대 이후부터 ‘-십시오, -세요’와 같은\n형태가 모두 쓰이게 되었다.\n 넷째로 연결어미에서는 대등적 연결어미는 ‘-고, -ㅁ시, -도, -다, -고, -면’\n등이 쓰이고, 종속적 연결어미는 ‘-어서, -인데, -걸랑, -(으)ㄹ라고, -ㄹ수록,\n-듯이, -어/아서, -먼, -니, -러, -라고’ 형태가 쓰이고 있다. 보조적 연결어미\n‘-아/어, -고, -게’가 쓰인다. 그러고 인용 연결어미는 ‘-꼬, -고’가 쓰인다. 그\n러나 10대에서는 방언형 ‘-걸랑, -라고, -꼬’는 안 쓰이게 되었다.\n 다섯째로 시제는 표준어와 같으나 종결형 형태에서 미래 형태 ‘-겠-, -리-’\n는 쓰이지 않고, 대신 ‘-ㄹ 끼다’ 형태가 쓰였다. 이러한 시제 형태는 ‘-ㄹ\n것이다’로 바뀌어 사용되고 있다.\n 여섯째로 부정 표현은 짧은 부정인 ‘안, 못’ 부정과 ‘-지 말다’ 부정이 쓰이\n고 있다. 그러나 60대 이후에는 방언형에 없던 ‘-지 않-’, ‘-지 못-’ 부정도\n쓰이게 되었다.\n 일곱째로 사동접미사에는 ‘-이-, -이우-, -기-, -히-, -리-, -우-, -구-, -추-, -애-’\n\n\n                         - 56 -\n"
+    },
+    {
+      "pdf_page": 4,
+      "printed_page": 58,
+      "text": "                     배 달 말(55)\n\n\n활용하였다. 제보자는 다음과 같다.\n\n\n  1) 주 제보자\n     (1) 이름: 신종렬 성별(남)    (88)세 학력(국민학교)\n         출생지: 함양군 서하면     생활지: 서하면 오현 마을\n     (2) 이름: 송정순 성별(여)    (79)세 학력(무)\n         출생지: 함양군 백전면     생활지: 서하면신기 마을\n     (3) 이름: 강창의 성별(남)    (80)세 학력(무)\n         출생지: 함양군 서하면     생활지: 서하면 오현 마을\n  2) 보조 제보자\n     (1) 이름: 전영순 성별(여)     (87)세   학력(무)   거주지: 신기 마을\n    (2) 이름: 박두리 성별(여)      (84)세   학력(무)   거주지: 신기 마을\n    (3) 이름: 탁도순 성별(여)      (80)세   학력(무)   거주지: 신기 마을\n\n\n 위와 같은 대상자를 조사한 문법 형태는 현재에 잘 사용되지 않은 형태도\n있다. 그래서 이 문법 형태들의 사용 정도를 알아보기 위해 함양읍에 살고\n있는 60대 중반 이상의 사람과 또 이와 50년 이상 차이가 나는 10대 초반의\n어린이들에게 사용 정도를 조사하였다. 그래서 이 방언 형태 사용 정도의\n변화를 바탕으로 하여 방언 문법 형태가 표준어의 간섭으로 어떻게 변화되\n어 가고 있는지를 알아보았다2). 60대 중반의 확인자는 현재 봉강 3리 이장\n권경점 씨다. 그는 이장으로서 여러 사람들을 만나 대화하는 사람으로서 그\n지역 사람들의 함양 방언 사용 정도를 잘 알고 있었다. 10대 초반 확인자는\n초등학생들이다. 인적 사항은 다음과 같다3).\n\n\n  1) (60대 중반 이후) 방언 사용 확인 조사 대상자\n\n 2) 심사자 B, C가 언급한 바처럼 유럽 사회 방언학 연구에서처럼 ‘현장 시간(apparent\n    time)’ 사 방법으로 한 세대(20-30년) 차이로 2-3세대 정도 조사할 필요성이 있\n    겠다. 그리고 10대, 60대 모두 다수의 대상자를 대상으로 하는 것이 바람직할\n    것이라 본다.\n 3) 이들에게 표준어의 간섭에 의한 방언 사용 정도의 조사는 비교적 자연스럽게\n    이해하는 수준에서 조사하였다. 그리하여 일상생활에서 자연스럽게 쓰는 정도\n    를 알아보려고 하였다.\n\n\n                         - 58 -\n"
+    },
+    {
+      "pdf_page": 5,
+      "printed_page": 59,
+      "text": " 표준어 간섭 및 방언에 대한 의식으로 인한 경남 함양 방언 문법 형태의 변화 연구\n\n\n    (1) 제1 대상자   성별(여)   (65)세    이름: 권경점   학력(고졸)\n         출생지: 함양읍    생활지: 함양읍       현 생활지: 함양읍\n         함께 살고 있는 가족: 혼자\n  2) (10대 초반) 방언 사용 확인 조사 대상자:\n     (1) 제1 대상자   성별(남)  ( 12)세 이름: 강민성 학력(초등 5년)\n        출생지: 함양읍    생활지: 함양읍     현 생활지: 함양읍\n        함께 살고 있는 가족: 부모(함양 거주)\n    (2) 제2 대상자 성별(남) ( 12)세 이름: 권찬희 학력(초등 5년)\n        출생지: 함양읍    생활지: 함양읍     현 생활지: 함양읍\n        함께 살고 있는 가족: 부모(함양 거주)\n\n\n 이 함양 방언에 대한 논의에서는 함양 방언의 문법 형태를 표준어와 비교\n하여 표로 나타내겠으며, 또 표준어의 간섭 현상으로 변화된 양상은 표준어\n와 방언 사이에 칸을 두어 방언 사용 정도를 ‘%’ 비율로 표시할 것이다.4)\n만약 사용 세대가 바뀌거나 다른 사유에 의해서 방언형이 표준어나 다른 방\n언으로 바뀐 것이 있으면 방언 칸에 괄호를 써서 나타내겠다. 그리고 본고는\n문법 형태에 대한 것이므로 성조 표시나 음장 표시는 특별한 경우를 제외하\n고는 제시하지 않겠다.\n 방언 사용에 대한 함양 사람들의 의식을 알기 위해 함양읍에 살기 위한\n60대 중반 이후의 사람들과 10대 초반의 초등학생들의 표준어와 방언에 대\n한 의식을 조사하였다. 그리하여 그들이 표준어와 방언에 대한 어떤 생각을\n가지고 있으며, 그를 통하여 그들의 언어가 어떤 영향을 받았을 지에 대한\n생각을 논해 보기로 하겠다.\n 지금까지 함양 방언의 문법 형태에 대한 체계적인 연구는 이루어지지 않\n았다. 강대갑(1985)는 함양 방언의 용언 접속어미에 대한 연구를 하였고, 강\n대갑(1998)에서는 함양 방언이 전북 방언, 경북 방언, 경남 방언, 전남 방언의\n영향을 받고 있다는 논의를 하였다. 그러나 문법 형태 전반에 대한 총체적인\n연구가 필요하다. 김정대 외(2010)에서 경남 지역어의 어휘, 음운, 문법에\n\n 4) 방언 사용 정도를 10%라 했다면 90%는 표준어를 사용하는 것이고, 0%라 했다\n    면 표준어를 100% 사용하는 것이다. 표준어와 방언의 형태가 같은 것의 사용\n    정도는 빈칸으로 두었다.\n\n\n                         - 59 -\n"
+    },
+    {
+      "pdf_page": 7,
+      "printed_page": 61,
+      "text": " 표준어 간섭 및 방언에 대한 의식으로 인한 경남 함양 방언 문법 형태의 변화 연구\n\n\n준어 형태가 자리 잡았다.\n\n\n                            방언 사용\n                표준어                             방언\n 구 분                         비율(%)\n            예         형태    60대 10대      형태          예\n       나는 간다.          나    20    10      내   내는 간다.\n    일 내가 간다.           내                  내   내가 가지.\n    인                       10     0      내   내한테 오너라.\n    칭 나한테 오너라.         나\n                                          나   나한테 오이라.\n인   단 저는 갑니다.          저    (85) (100)   · (저) 내 갑니다.\n칭   수 제가 갑니다.          제    (90) (100)   · (제) 내 갑니다.\n대      저하고 갑니다.        저    (90) (100)   · (제) 내하고 갑니다.\n명\n    일 우리가 갑니다.        우리                 우리   우리는 가요.\n사\n    인\n      우리들이 갑니다.       우리들 (x6)) (100) .(우리들) 우리는 간다.\n    칭\n      저희가 갑니다.        저희     0     5     즈이   즈이가 갑니다.\n    복\n    수 저희들이 갑니다.       저희들    0     0     내들   내들이 갑니다.\n\n\n\n\n 2.1.2. 2인칭 대명사\n\n 함양 방언 2인칭 단수는 ‘니, 너, 네, 자네, 당신’이 쓰이고, 복수는 ‘느,\n너그, 너들, 너그들’ 형태가 쓰이고 있으나, 단수 형태와 동일한 ‘너’ 형태가\n복수의 의미로도 쓰이고 있다. 그런데 이러한 형태 중 표준어 형태와 다른\n‘니, 느, 너그’ 등은 60대, 10대 모두 약 50% 안팎으로 사용되지만, ‘너들,\n너그들’은 60대, 10대 모두 0-5% 정도만 사용되고 있다. 그런데 ‘니’라는 방\n언은 60대보다 10대가 더 많이 사용되고 있다. 그렇지만 대부분 방언 형태\n\n\n 5) 방언 조사 때는 안 쓰이는 것으로 조사되었으나 세대별 차이 조사 때 나타난\n    형태는 방언형 형태 칸과 비율 칸에 (  )를 써서 나타내기로 한다.\n 6) ‘x’는 표준어와 방언 형태 모두를 사용하지 않는 형태이다.\n\n\n                        - 61 -\n"
+    },
+    {
+      "pdf_page": 19,
+      "printed_page": 73,
+      "text": " 표준어 간섭 및 방언에 대한 의식으로 인한 경남 함양 방언 문법 형태의 변화 연구\n\n\n\n                                            -(으)\n      점심을 먹으려고                                      점심 먹을라고 집에\n                     -(으)려고    80    30       라\n      집에 간다.                                        간다.\n                                              고\n      보면 볼수록 예쁘네.    - 수록                   - 수록 보면 볼수록 예쁘네.\n      너도 알 듯이 내 딸은                                  너도 알 듯이 내 딸은\n                      -듯이      5     20     -듯이\n      예뻐.                                           예뻐.\n종속적 배가 아파서 일하러                                      배가 아파서 일하러\n                -아/어서                       -아/어서\n연결 못 갔다.                                            못 갔다.\n어미 네가 오면 나는 간다.   -면           70     0      -먼     니가 오먼 나는 간다.\n      비가 오니 물이                                      비가 오니 물이\n                      -니                     -니\n      넘친다.                                          넘친다.\n      물을 먹으러 짐승이\n                      -러       30    100     -러     물 무러 온다.\n      내려 온다.\n      돈을 벌고자 일을\n                      -고자     100     x     -라고     돈 벌라고 일을 한다.\n      한다.\n      책이 꽂혀 있다.      -아/어                   -아/어 책이 꽂혀 있다.\n보조적 미국에 가게 되었다. -게,-도록        100    50      -게     미국에 가게 되었다\n 연결   아무도 오지 않았다.     -지      (100) (100)    .(안)   (아무도 안 오네.)\n 어미   밭에서 일을 하고                                     밭에서 일을 하고\n                      -고                     -고\n      있다.                                           있다.\n    자기가 간다고\n인용적                   -고       60     0      -꼬     지가 간다꼬 말했다.\n    말했다.\n연결\n    “내가 간다.”라고\n어미                    -라고      30    100     -고     밥 무라 카네.\n    말했다.\n\n\n\n 2.5. 시제\n\n 시제 형태는 종결형 형태와 관형사형 형태로 구분하고, 이를 다시 미래,\n현재, 과거로 구분해 볼 수 있다. 함양 방언의 종결형 형태는 미래 형태 ‘-겠-,\n-리-’는 쓰이지 않고, 대신 ‘-ㄹ 끼다’ 형태가 쓰이거나 ‘내일’과 같은 명사와\n함께 현재형 ‘-ㄴ다’로 표현하고 있다. 현재 형태는 표준어와 같은 ‘-ㄴ/는-,\n-ø-, -고 있-’ 형태가 쓰이고 있다. 과거 형태는 ‘-었-, -더-, -었더-’ 형태가\n\n\n\n                           - 73 -\n"
+    },
+    {
+      "pdf_page": 21,
+      "printed_page": 75,
+      "text": " 표준어 간섭 및 방언에 대한 의식으로 인한 경남 함양 방언 문법 형태의 변화 연구\n\n\n\n   미 내가 만날 사람은                                         내가 만낼 사람은\n                        -                      -\n   래 이장님이다.                                            이장님이다.\n       지금 가는 사람은                                       지금 가는 사람이\n                        -는                     -는\n       누구냐?                                            누고?\n   현 제일 예쁜 사람은                                         제일 예쁜 사람이\n                        -                      -\n 관 재 누구냐?                                              누고?\n 형   지금 생일인 사람은                                        지금 생일인 사람이\n                        -                      -\n 사   누구냐?                                              누고?\n 형   어제 생일인 사람은                                        어제 생일인 사람은\n                        -                      -\n       누구냐?                                            누고?\n   과 어제 집에 간 학생은                                       어제 집에 간 학생은\n                        -                      -\n   거 누구냐?                                              누고?\n       어제 갔던 곳은\n                        -았던    (100)   (x)   .(-았더-)         .\n       어디냐?.\n\n\n\n 2.6. 부정\n\n 부정 표현은 ‘안(-지 않다), 못(-지 못하다), -지 말다’ 부정으로 구분해 볼\n수 있다. 그런데 함양 방언에서는 장형 부정인 ‘-지 않다, -지 못하다’ 부정은\n쓰이지 않고, 짧은 부정인 ‘안, 못’ 부정만 쓰이고 있다. 그리고 ‘-지 말다’\n부정은 표준어와 같은 ‘-지 말다’가 쓰이고 있다. 이러한 방언형 부정 형태는\n변화를 입어 60대, 10대에서 ‘-지 못-’ 형태가 쓰이게 되었고, ‘-지 않-’ 형태도\n10대에서 쓰이기 시작하였다. ‘몬’이라는 형태는 60대에 10% 정도 쓰이다가\n10대에는 표준어와 같은 ‘못’으로 변화되었다.\n\n\n                                방언 사용\n                  표준어                                   방언\n 구 분                             비율\n              예         형태     60대 10대        형태             예\n  안, 형은 아직 안 왔다.      안                        안       새 아는 아직 안 왔다.\n-지 않- 형은 아직 오지 않았다. -지 않-       (x)    (30) .(-지 않-)         .\n\n\n\n\n                             - 75 -\n"
+    },
+    {
+      "pdf_page": 22,
+      "printed_page": 76,
+      "text": "                         배 달 말(55)\n\n\n      형은 일이 있어서 못                                       형은 일이 있어 몬\n                         못       10      0         몬\n  못,  간다.                                               간다.\n-지 못- 형은 일이 있어서 가지\n                       -지 못-     (90)   (70) .(-지 못-)            .\n      못한다.\n -지\n      너는 아직 가지 마라. -지 말다                      -지 말다 니는 아직 가지 마라.\n 말다\n\n\n\n 2.7. 사동, 피동 접미사\n\n 사동이란 사동주가 피사동주로 하여금 어떤 행위를 하게 하는 것을 말한\n다. 그리고 사동이 이루어지려면 주동사에 사동접미사가 붙어 이루어진 사\n동사를 활용한 사동과 ‘-게 하다’와 같이 보조동사 ‘하다’를 활용한 사동이\n있다. 그리고 피동은 피동주가 능동주에 의해서 행위를 입는 것을 말하는데,\n이것도 능동사에 피동접미사가 결합하여 이루어진 피동사를 활용한 피동과\n보조동사 ‘지다’가 결합된 ‘-어 지다’ 형태에 의하여 피동을 이루는 경우가\n있다. 여기에서는 사동사와 피동사에 결합된 사동접미사와 피동접미사에 대\n하여 알아보겠다.\n\n\n\n 2.7.1. 사동 접미사\n\n 함양 방언에서 사동사를 파생시키는 사동접미사에는 ‘-이-, -이우-, -기-,\n-히-, -리-, -우-, -구-, -추-, -애-’가 있다. 표준어와 같다. 다만 ‘-우-, -구-, -추-’\n의 형태가 명령형 어미 ‘-아라’와 결합하여 축약된 ‘깨아라, 돋가라, 낮차라’\n로 표현된다. 이러한 형태는 60대와 10대에서 변함없이 쓰이고 있다.\n\n\n                               방언 사용\n             표준어                                        방언\n                                비율\n          예            형태      60대 10대       형태              예\n엄마가 아기에게 젖을 먹인다.        -이-                  -이-   엄마가 아한테 젖 먹인다.\n\n\n\n\n                              - 76 -\n"
+    },
+    {
+      "pdf_page": 25,
+      "printed_page": 79,
+      "text": " 표준어 간섭 및 방언에 대한 의식으로 인한 경남 함양 방언 문법 형태의 변화 연구\n\n\n                                                       책상에 얹어\n     책을 책상에 얹어 놓았다. (-어) 놓다                  (-어) 놓다\n                                                       놨다.\n보유\n                       (-어)                            .(책을 읽고\n     책을 읽어 가지고 와라.             (100) (100) .(-어 갖고)\n                      가지다                              온다.)\n                                                       .(누를 가라\n     누구를 가게 하느냐?     (-게) 하다                    .\n                                                       카나?)\n사동\n                       (-게)                    (-게)    일이 잘 되게\n     일이 잘 되게 만들었다.                     x\n                      만들다                     맨들다      만들었다.\n     종이가 잘 접혀 진다.    (-어) 지다                 (-어) 지다 점점 덥어 진다.\n피동\n     나도 가게 되었다.      (-게) 되다                 (-게) 되다 나도 가게 됐다.\n                      (-지)\n     나는 가지 않는다.                                 .      .(나는 안 간다.)\n                     아니하다\n부정 울지 말아라            (-지) 말다                 (-지) 마라 울지 마.\n                       (-지)\n     너는 오지 못한다.                (90)   (70)   .(-지 못-) .(너는 못 온다.)\n                      못하다\n                                                     낮에 사온\n   낮에 사온 강아지가 울어 (-어) 대다\n강세                             100     5     (-어) 싸다 강새이가 울어\n   댄다.\n                                                     쌌는다.\n                       (-어)                    (-어)\n짐작 기분이 좋아 보인다.                                         좋아 비네.\n                      보이다                     보이다\n                      (-어야)                   (-어야)    약을 꼭 무야\n당위 약을 꼭 먹어야 한다.\n                       한다                      한다      한다.\n                      (-기)는                   (-기)는    밥을 묵기는\n시인 밥을 먹기는 했다.\n                       하다                       하다     했다.\n\n\n\n 2.8.2. 보조 형용사\n\n 함양 방언에 쓰이는 보조형용사에는 희망 보조형용사 ‘(-고) 싶다’, 추측\n보조형용사 ‘(-ㄴ가) 보다’, 상태 보조형용사 ‘(-어) 있다’가 쓰인다. 그런데\n원래 방언형에 없던 부정 보조 형용사 ‘-지 않-, -지 못하-’ 형태가 60대와\n10대 모두에 쓰여 점점 표준화되어 가고 있음을 알 수 있다. 10대에서는 ‘-지\n못하다’와 같은 형태가 안 쓰인 점도 있으나 어휘 사용의 양이 적은 관계일\n\n\n\n\n                        - 79 -\n"
+    },
+    {
+      "pdf_page": 26,
+      "printed_page": 80,
+      "text": "                           배 달 말(55)\n\n\n수도 있다. 추측의 ‘(-는가, -나, -ㄹ까) 싶다’ 보조 형용사는 여전히 안 쓰이고\n있다.\n\n\n                                   방언 사용\n 구               표준어                                  방언\n                                    비율\n 분\n             예           형태        60대 10대     형태             예\n희망 집에 가고 싶다.           (-고) 싶다               (-고) 싶다 집에 가고 싶다.\n      날씨가 덥지 않다.       (-지) 않다 (100) (50)    .(-지 않다) .(날씨가 안 덥다.)\n부정 살림이 넉넉하지                                    .(-지   .(살림이 안\n                       (-지) 못하다 (100) (x)\n      못하다.                                    못하다)    넉넉하다.)\n                       (- 가/는가,\n      저 것이 학교인가 보다                           (- 가) 보다 저게 학굔갑다.\n                         -나) 보다\n추측\n                        -는가, -나,\n      이제 가는가 싶다                     x   x       .     .(이제 가는 갑다.)\n                       - 까) 싶다\n상태 여기에 앉아 있어라.         (-어) 있다               (-어) 있다 여 앉아 있어라.\n시인 크기는 하다.             (-기는) 하다                 .     .(크다)\n\n\n\n\n 2.9. 부사\n\n 함양 방언에서 쓰이는 부사 중 특징적인 것은 ‘마이, 쪼께만, 한거석, 제와/\n보도시, 절로, 까딱하면/꺼떡하면, 백지, 쪽바로’ 등이다. 이러한 형태들은\n후세대로 오면서 방언 사용 비율이 점차 약화되어 가고 있다. 그리고 ‘꺼떡\n하면, 쪽바로, 가마이’는 10대에서도 활발하게 사용되는데, 이 외에는 표준어\n형태를 쓰는 비율이 후세대로 오면서 늘어나거나 표준어만 쓰는 경우도 있\n게 되었다. 방언형에 없던 ‘그냥, 매우’ 부사는 60대 및 10대에서 100% 사용\n되는 것을 알 수 있다. 전체적으로 볼 때 표준어는 없어지지 않고 사용되고\n있는데, 방언 형태는 소수의 부사를 제외하고는 사용빈도가 약화되거나 안\n쓰이게 되었다.\n\n\n\n\n                              - 80 -\n"
+    }
+  ],
+  "target_claims": [
+    {
+      "record_version": "2.0.0",
+      "claim_id": "RYU2014-S0187",
+      "source_id": "RYU2014",
+      "category": {
+        "primary": "negation",
+        "secondary": "short",
+        "related": [],
+        "functions": [
+          "부정"
+        ],
+        "classification_basis": "extractor_mapping_from_source"
+      },
+      "source_location": {
+        "section": "2.6. 부정",
+        "pdf_pages": [
+          21,
+          22
+        ],
+        "printed_pages": [
+          75,
+          76
+        ],
+        "locator": "본문 또는 표의 해당 형태 행: 안 / 단형 부정"
+      },
+      "statement": "안 — 단형 부정",
+      "subject": "안",
+      "predicate": "has_function",
+      "object": "단형 부정",
+      "conditions": [
+        {
+          "dimension": "적용 범위·문법 조건",
+          "value": "단형 부정",
+          "basis": "extractor_summary"
+        }
+      ],
+      "geography": {
+        "normalized_region": "경남",
+        "subregion": "함양",
+        "generalization": "함양 조사 범위를 경남 전체에 일반화하지 않음"
+      },
+      "temporal_context": "2014년 조사·보고; 현대 자연스러움 미검증",
+      "examples": [
+        {
+          "standard": null,
+          "dialect": "새 아는 아직 안 왔다.",
+          "note": "원문 예문."
+        }
+      ],
+      "evidence": [
+        {
+          "representation": "faithful_summary",
+          "text": "안에 관해 단형 부정를 제시함. 해당 맥락: 단형 부정."
+        }
+      ],
+      "cautions": [],
+      "links": [],
+      "review": {
+        "extraction": "ai_draft",
+        "human": "unreviewed"
+      },
+      "generation_status": "candidate",
+      "attestation": {
+        "phase": "unspecified",
+        "age_groups": [],
+        "note": "사용 여부는 해당 조사 맥락에 한정. 세대·표 수치에서 현대 선택 확률을 만들지 않음."
+      },
+      "grammatical_context": {
+        "person": null,
+        "number": null,
+        "sentence_type": null,
+        "speech_level": null,
+        "basis": "extracted_from_record_context"
+      }
+    },
+    {
+      "record_version": "2.0.0",
+      "claim_id": "RYU2014-S0188",
+      "source_id": "RYU2014",
+      "category": {
+        "primary": "negation",
+        "secondary": "short",
+        "related": [],
+        "functions": [
+          "불능"
+        ],
+        "classification_basis": "extractor_mapping_from_source"
+      },
+      "source_location": {
+        "section": "2.6. 부정",
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          76
+        ],
+        "locator": "본문 또는 표의 해당 형태 행: 못 / 단형 부정"
+      },
+      "statement": "못 — 단형 부정",
+      "subject": "못",
+      "predicate": "has_function",
+      "object": "단형 부정",
+      "conditions": [
+        {
+          "dimension": "적용 범위·문법 조건",
+          "value": "단형 부정",
+          "basis": "extractor_summary"
+        }
+      ],
+      "geography": {
+        "normalized_region": "경남",
+        "subregion": "함양",
+        "generalization": "함양 조사 범위를 경남 전체에 일반화하지 않음"
+      },
+      "temporal_context": "2014년 조사·보고; 현대 자연스러움 미검증",
+      "examples": [],
+      "evidence": [
+        {
+          "representation": "faithful_summary",
+          "text": "못에 관해 단형 부정를 제시함. 해당 맥락: 단형 부정."
+        }
+      ],
+      "cautions": [],
+      "links": [],
+      "review": {
+        "extraction": "ai_draft",
+        "human": "unreviewed"
+      },
+      "generation_status": "candidate",
+      "attestation": {
+        "phase": "unspecified",
+        "age_groups": [],
+        "note": "사용 여부는 해당 조사 맥락에 한정. 세대·표 수치에서 현대 선택 확률을 만들지 않음."
+      },
+      "grammatical_context": {
+        "person": null,
+        "number": null,
+        "sentence_type": null,
+        "speech_level": null,
+        "basis": "extracted_from_record_context"
+      }
+    },
+    {
+      "record_version": "2.0.0",
+      "claim_id": "RYU2014-S0189",
+      "source_id": "RYU2014",
+      "category": {
+        "primary": "negation",
+        "secondary": "short",
+        "related": [],
+        "functions": [
+          "불능"
+        ],
+        "classification_basis": "extractor_mapping_from_source"
+      },
+      "source_location": {
+        "section": "2.6. 부정",
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          76
+        ],
+        "locator": "본문 또는 표의 해당 형태 행: 못 / 몬"
+      },
+      "statement": "못 — 몬",
+      "subject": "못",
+      "predicate": "has_dialect_form",
+      "object": "몬",
+      "conditions": [
+        {
+          "dimension": "적용 범위·문법 조건",
+          "value": "단형 부정",
+          "basis": "extractor_summary"
+        }
+      ],
+      "geography": {
+        "normalized_region": "경남",
+        "subregion": "함양",
+        "generalization": "함양 조사 범위를 경남 전체에 일반화하지 않음"
+      },
+      "temporal_context": "2014년 조사·보고; 현대 자연스러움 미검증",
+      "examples": [
+        {
+          "standard": null,
+          "dialect": "형은 일이 있어 몬 간다",
+          "note": "원문 방언 예시. 동일 의미 표준어 문장은 새로 만들지 않음."
+        }
+      ],
+      "evidence": [
+        {
+          "representation": "faithful_summary",
+          "text": "못에 관해 몬를 제시함. 해당 맥락: 단형 부정."
+        }
+      ],
+      "cautions": [],
+      "links": [],
+      "review": {
+        "extraction": "ai_draft",
+        "human": "unreviewed"
+      },
+      "generation_status": "candidate",
+      "attestation": {
+        "phase": "unspecified",
+        "age_groups": [],
+        "note": "사용 여부는 해당 조사 맥락에 한정. 세대·표 수치에서 현대 선택 확률을 만들지 않음."
+      },
+      "grammatical_context": {
+        "person": null,
+        "number": null,
+        "sentence_type": null,
+        "speech_level": null,
+        "basis": "extracted_from_record_context"
+      }
+    },
+    {
+      "record_version": "2.0.0",
+      "claim_id": "RYU2014-S0190",
+      "source_id": "RYU2014",
+      "category": {
+        "primary": "negation",
+        "secondary": "short",
+        "related": [],
+        "functions": [
+          "불능"
+        ],
+        "classification_basis": "extractor_mapping_from_source"
+      },
+      "source_location": {
+        "section": "2.6. 부정",
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          76
+        ],
+        "locator": "본문의 세대 변화 설명: 몬 / 10대 확인에서 못으로 바뀐다고 기술"
+      },
+      "statement": "몬 — 10대 확인에서 못으로 바뀐다고 기술",
+      "subject": "몬",
+      "predicate": "reported_change",
+      "object": "10대 확인에서 못으로 바뀐다고 기술",
+      "conditions": [
+        {
+          "dimension": "적용 범위·문법 조건",
+          "value": "세대별 비교",
+          "basis": "extractor_summary"
+        }
+      ],
+      "geography": {
+        "normalized_region": "경남",
+        "subregion": "함양",
+        "generalization": "함양 조사 범위를 경남 전체에 일반화하지 않음"
+      },
+      "temporal_context": "2014년 조사·보고; 현대 자연스러움 미검증",
+      "examples": [],
+      "evidence": [
+        {
+          "representation": "faithful_summary",
+          "text": "몬에 관해 10대 확인에서 못으로 바뀐다고 기술를 제시함. 해당 맥락: 세대별 비교. 대조 시 유의: 현재 모든 청소년 또는 경상 전체에 일반화하지 않음."
+        }
+      ],
+      "cautions": [
+        "현재 모든 청소년 또는 경상 전체에 일반화하지 않음."
+      ],
+      "links": [],
+      "review": {
+        "extraction": "ai_draft",
+        "human": "unreviewed"
+      },
+      "generation_status": "context_only",
+      "attestation": {
+        "phase": "unspecified",
+        "age_groups": [],
+        "note": "사용 여부는 해당 조사 맥락에 한정. 세대·표 수치에서 현대 선택 확률을 만들지 않음."
+      },
+      "grammatical_context": {
+        "person": null,
+        "number": null,
+        "sentence_type": null,
+        "speech_level": null,
+        "basis": "extracted_from_record_context"
+      }
+    },
+    {
+      "record_version": "2.0.0",
+      "claim_id": "RYU2014-S0191",
+      "source_id": "RYU2014",
+      "category": {
+        "primary": "negation",
+        "secondary": "long",
+        "related": [
+          "auxiliary_predicate"
+        ],
+        "functions": [
+          "부정"
+        ],
+        "classification_basis": "extractor_mapping_from_source"
+      },
+      "source_location": {
+        "section": "2.6. 부정",
+        "pdf_pages": [
+          21
+        ],
+        "printed_pages": [
+          75
+        ],
+        "locator": "본문 또는 표의 해당 형태 행: -지 않다 / 초기 조사에서 미확인"
+      },
+      "statement": "-지 않다 — 초기 조사에서 미확인",
+      "subject": "-지 않다",
+      "predicate": "reported_absent",
+      "object": "초기 조사에서 미확인",
+      "conditions": [
+        {
+          "dimension": "적용 범위·문법 조건",
+          "value": "장형 부정",
+          "basis": "extractor_summary"
+        }
+      ],
+      "geography": {
+        "normalized_region": "경남",
+        "subregion": "함양",
+        "generalization": "함양 조사 범위를 경남 전체에 일반화하지 않음"
+      },
+      "temporal_context": "2014년 조사·보고; 현대 자연스러움 미검증",
+      "examples": [],
+      "evidence": [
+        {
+          "representation": "faithful_summary",
+          "text": "-지 않다에 관해 초기 조사에서 미확인를 제시함. 해당 맥락: 장형 부정. 대조 시 유의: 초록·세대별 확인과 구분."
+        }
+      ],
+      "cautions": [
+        "초록·세대별 확인과 구분."
+      ],
+      "links": [],
+      "review": {
+        "extraction": "ai_draft",
+        "human": "unreviewed"
+      },
+      "generation_status": "context_only",
+      "attestation": {
+        "phase": "initial",
+        "age_groups": [],
+        "note": "사용 여부는 해당 조사 맥락에 한정. 세대·표 수치에서 현대 선택 확률을 만들지 않음."
+      },
+      "grammatical_context": {
+        "person": null,
+        "number": null,
+        "sentence_type": null,
+        "speech_level": null,
+        "basis": "extracted_from_record_context"
+      }
+    },
+    {
+      "record_version": "2.0.0",
+      "claim_id": "RYU2014-S0192",
+      "source_id": "RYU2014",
+      "category": {
+        "primary": "negation",
+        "secondary": "long",
+        "related": [
+          "auxiliary_predicate"
+        ],
+        "functions": [
+          "불능"
+        ],
+        "classification_basis": "extractor_mapping_from_source"
+      },
+      "source_location": {
+        "section": "2.6. 부정",
+        "pdf_pages": [
+          21
+        ],
+        "printed_pages": [
+          75
+        ],
+        "locator": "본문 또는 표의 해당 형태 행: -지 못하다 / 초기 조사에서 미확인"
+      },
+      "statement": "-지 못하다 — 초기 조사에서 미확인",
+      "subject": "-지 못하다",
+      "predicate": "reported_absent",
+      "object": "초기 조사에서 미확인",
+      "conditions": [
+        {
+          "dimension": "적용 범위·문법 조건",
+          "value": "장형 부정",
+          "basis": "extractor_summary"
+        }
+      ],
+      "geography": {
+        "normalized_region": "경남",
+        "subregion": "함양",
+        "generalization": "함양 조사 범위를 경남 전체에 일반화하지 않음"
+      },
+      "temporal_context": "2014년 조사·보고; 현대 자연스러움 미검증",
+      "examples": [],
+      "evidence": [
+        {
+          "representation": "faithful_summary",
+          "text": "-지 못하다에 관해 초기 조사에서 미확인를 제시함. 해당 맥락: 장형 부정. 대조 시 유의: 후속 사용 확인과 구분."
+        }
+      ],
+      "cautions": [
+        "후속 사용 확인과 구분."
+      ],
+      "links": [],
+      "review": {
+        "extraction": "ai_draft",
+        "human": "unreviewed"
+      },
+      "generation_status": "context_only",
+      "attestation": {
+        "phase": "initial",
+        "age_groups": [],
+        "note": "사용 여부는 해당 조사 맥락에 한정. 세대·표 수치에서 현대 선택 확률을 만들지 않음."
+      },
+      "grammatical_context": {
+        "person": null,
+        "number": null,
+        "sentence_type": null,
+        "speech_level": null,
+        "basis": "extracted_from_record_context"
+      }
+    },
+    {
+      "record_version": "2.0.0",
+      "claim_id": "RYU2014-S0193",
+      "source_id": "RYU2014",
+      "category": {
+        "primary": "negation",
+        "secondary": "long",
+        "related": [
+          "auxiliary_predicate"
+        ],
+        "functions": [
+          "불능"
+        ],
+        "classification_basis": "extractor_mapping_from_source"
+      },
+      "source_location": {
+        "section": "2.6. 부정",
+        "pdf_pages": [
+          21,
+          22
+        ],
+        "printed_pages": [
+          75,
+          76
+        ],
+        "locator": "본문 또는 표의 해당 형태 행: -지 못하다 / -지 못하다"
+      },
+      "statement": "-지 못하다 — 형태 확인(후속 조사)",
+      "subject": "-지 못하다",
+      "predicate": "has_form",
+      "object": "-지 못하다",
+      "conditions": [
+        {
+          "dimension": "적용 범위·문법 조건",
+          "value": "장형 부정",
+          "basis": "extractor_summary"
+        }
+      ],
+      "geography": {
+        "normalized_region": "경남",
+        "subregion": "함양",
+        "generalization": "함양 조사 범위를 경남 전체에 일반화하지 않음"
+      },
+      "temporal_context": "2014년 조사·보고; 현대 자연스러움 미검증",
+      "examples": [],
+      "evidence": [
+        {
+          "representation": "faithful_summary",
+          "text": "-지 못하다에 관해 후속 확인에서 사용 기록를 제시함. 해당 맥락: 장형 부정."
+        }
+      ],
+      "cautions": [],
+      "links": [],
+      "review": {
+        "extraction": "ai_draft",
+        "human": "unreviewed"
+      },
+      "generation_status": "candidate",
+      "attestation": {
+        "phase": "followup",
+        "age_groups": [],
+        "note": "후속 확인에서 사용 기록; 사용 여부는 해당 조사 맥락에 한정. 세대·표 수치에서 현대 선택 확률을 만들지 않음."
+      },
+      "grammatical_context": {
+        "person": null,
+        "number": null,
+        "sentence_type": null,
+        "speech_level": null,
+        "basis": "extracted_from_record_context"
+      }
+    },
+    {
+      "record_version": "2.0.0",
+      "claim_id": "RYU2014-S0194",
+      "source_id": "RYU2014",
+      "category": {
+        "primary": "negation",
+        "secondary": "long",
+        "related": [
+          "auxiliary_predicate"
+        ],
+        "functions": [
+          "부정"
+        ],
+        "classification_basis": "extractor_mapping_from_source"
+      },
+      "source_location": {
+        "section": "2.6. 부정",
+        "pdf_pages": [
+          21
+        ],
+        "printed_pages": [
+          75
+        ],
+        "locator": "본문 또는 표의 해당 형태 행: -지 않다 / 10대 확인에서 사용 기록"
+      },
+      "statement": "-지 않다 — 10대 확인에서 사용 기록",
+      "subject": "-지 않다",
+      "predicate": "has_form",
+      "object": "10대 확인에서 사용 기록",
+      "conditions": [
+        {
+          "dimension": "적용 범위·문법 조건",
+          "value": "장형 부정",
+          "basis": "extractor_summary"
+        }
+      ],
+      "geography": {
+        "normalized_region": "경남",
+        "subregion": "함양",
+        "generalization": "함양 조사 범위를 경남 전체에 일반화하지 않음"
+      },
+      "temporal_context": "2014년 조사·보고; 현대 자연스러움 미검증",
+      "examples": [],
+      "evidence": [
+        {
+          "representation": "faithful_summary",
+          "text": "-지 않다에 관해 10대 확인에서 사용 기록를 제시함. 해당 맥락: 장형 부정. 대조 시 유의: 초록과 보조형용사 절의 세대 설명과 대조 필요."
+        }
+      ],
+      "cautions": [
+        "초록과 보조형용사 절의 세대 설명과 대조 필요."
+      ],
+      "links": [],
+      "review": {
+        "extraction": "ai_draft",
+        "human": "unreviewed"
+      },
+      "generation_status": "hold",
+      "attestation": {
+        "phase": "unspecified",
+        "age_groups": [],
+        "note": "사용 여부는 해당 조사 맥락에 한정. 세대·표 수치에서 현대 선택 확률을 만들지 않음."
+      },
+      "grammatical_context": {
+        "person": null,
+        "number": null,
+        "sentence_type": null,
+        "speech_level": null,
+        "basis": "extracted_from_record_context"
+      }
+    },
+    {
+      "record_version": "2.0.0",
+      "claim_id": "RYU2014-S0195",
+      "source_id": "RYU2014",
+      "category": {
+        "primary": "negation",
+        "secondary": "prohibitive",
+        "related": [
+          "auxiliary_predicate"
+        ],
+        "functions": [
+          "금지"
+        ],
+        "classification_basis": "extractor_mapping_from_source"
+      },
+      "source_location": {
+        "section": "2.6. 부정",
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          76
+        ],
+        "locator": "본문 또는 표의 해당 형태 행: -지 말다 / 금지 표현"
+      },
+      "statement": "-지 말다 — 금지 표현",
+      "subject": "-지 말다",
+      "predicate": "has_function",
+      "object": "금지 표현",
+      "conditions": [
+        {
+          "dimension": "적용 범위·문법 조건",
+          "value": "금지",
+          "basis": "extractor_summary"
+        }
+      ],
+      "geography": {
+        "normalized_region": "경남",
+        "subregion": "함양",
+        "generalization": "함양 조사 범위를 경남 전체에 일반화하지 않음"
+      },
+      "temporal_context": "2014년 조사·보고; 현대 자연스러움 미검증",
+      "examples": [
+        {
+          "standard": null,
+          "dialect": "니는 아직 가지 마라",
+          "note": "원문 방언 예시. 동일 의미 표준어 문장은 새로 만들지 않음."
+        }
+      ],
+      "evidence": [
+        {
+          "representation": "faithful_summary",
+          "text": "-지 말다에 관해 금지 표현를 제시함. 해당 맥락: 금지."
+        }
+      ],
+      "cautions": [],
+      "links": [],
+      "review": {
+        "extraction": "ai_draft",
+        "human": "unreviewed"
+      },
+      "generation_status": "candidate",
+      "attestation": {
+        "phase": "unspecified",
+        "age_groups": [],
+        "note": "사용 여부는 해당 조사 맥락에 한정. 세대·표 수치에서 현대 선택 확률을 만들지 않음."
+      },
+      "grammatical_context": {
+        "person": null,
+        "number": null,
+        "sentence_type": null,
+        "speech_level": null,
+        "basis": "extracted_from_record_context"
+      }
+    }
+  ],
+  "supporting_claims_not_full_review_targets": [
+    {
+      "record_version": "2.0.0",
+      "claim_id": "RYU2014-S0162",
+      "source_id": "RYU2014",
+      "category": {
+        "primary": "connective_ending",
+        "secondary": "auxiliary",
+        "related": [
+          "negation"
+        ],
+        "functions": [
+          "부정"
+        ],
+        "classification_basis": "extractor_mapping_from_source"
+      },
+      "source_location": {
+        "section": "2.4. 연결어미",
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          73
+        ],
+        "locator": "본문 또는 표의 해당 형태 행: -지 / 초기 조사 장형 부정 연결에서 미확인"
+      },
+      "statement": "-지 — 초기 조사 장형 부정 연결에서 미확인",
+      "subject": "-지",
+      "predicate": "reported_absent",
+      "object": "초기 조사 장형 부정 연결에서 미확인",
+      "conditions": [
+        {
+          "dimension": "적용 범위·문법 조건",
+          "value": "부정 보조적 연결",
+          "basis": "extractor_summary"
+        }
+      ],
+      "geography": {
+        "normalized_region": "경남",
+        "subregion": "함양",
+        "generalization": "함양 조사 범위를 경남 전체에 일반화하지 않음"
+      },
+      "temporal_context": "2014년 조사·보고; 현대 자연스러움 미검증",
+      "examples": [
+        {
+          "standard": null,
+          "dialect": "아무도 안 오네.",
+          "note": "원문 방언 예시. 동일 의미 표준어 문장은 새로 만들지 않음."
+        }
+      ],
+      "evidence": [
+        {
+          "representation": "faithful_summary",
+          "text": "-지에 관해 초기 조사 장형 부정 연결에서 미확인를 제시함. 해당 맥락: 부정 보조적 연결. 대조 시 유의: 안이 지의 접미 대체형이라는 뜻이 아니라 부정 구문이 달라짐."
+        }
+      ],
+      "cautions": [
+        "안이 지의 접미 대체형이라는 뜻이 아니라 부정 구문이 달라짐."
+      ],
+      "links": [],
+      "review": {
+        "extraction": "ai_draft",
+        "human": "unreviewed"
+      },
+      "generation_status": "context_only",
+      "attestation": {
+        "phase": "initial",
+        "age_groups": [],
+        "note": "사용 여부는 해당 조사 맥락에 한정. 세대·표 수치에서 현대 선택 확률을 만들지 않음."
+      },
+      "grammatical_context": {
+        "person": null,
+        "number": null,
+        "sentence_type": null,
+        "speech_level": null,
+        "basis": "extracted_from_record_context"
+      }
+    },
+    {
+      "record_version": "2.0.0",
+      "claim_id": "RYU2014-S0228",
+      "source_id": "RYU2014",
+      "category": {
+        "primary": "auxiliary_predicate",
+        "secondary": "verb",
+        "related": [
+          "negation"
+        ],
+        "functions": [
+          "부정"
+        ],
+        "classification_basis": "extractor_mapping_from_source"
+      },
+      "source_location": {
+        "section": "2.8.1. 보조동사",
+        "pdf_pages": [
+          25
+        ],
+        "printed_pages": [
+          79
+        ],
+        "locator": "본문 또는 표의 해당 형태 행: -지 아니하다 / 초기 조사에서 미확인"
+      },
+      "statement": "-지 아니하다 — 초기 조사에서 미확인",
+      "subject": "-지 아니하다",
+      "predicate": "reported_absent",
+      "object": "초기 조사에서 미확인",
+      "conditions": [
+        {
+          "dimension": "적용 범위·문법 조건",
+          "value": "부정 보조동사",
+          "basis": "extractor_summary"
+        }
+      ],
+      "geography": {
+        "normalized_region": "경남",
+        "subregion": "함양",
+        "generalization": "함양 조사 범위를 경남 전체에 일반화하지 않음"
+      },
+      "temporal_context": "2014년 조사·보고; 현대 자연스러움 미검증",
+      "examples": [],
+      "evidence": [
+        {
+          "representation": "faithful_summary",
+          "text": "-지 아니하다에 관해 초기 조사에서 미확인를 제시함. 해당 맥락: 부정 보조동사. 대조 시 유의: 대체 예문 ‘나는 안 간다.’는 단형 부정."
+        }
+      ],
+      "cautions": [
+        "대체 예문 ‘나는 안 간다.’는 단형 부정."
+      ],
+      "links": [],
+      "review": {
+        "extraction": "ai_draft",
+        "human": "unreviewed"
+      },
+      "generation_status": "context_only",
+      "attestation": {
+        "phase": "initial",
+        "age_groups": [],
+        "note": "사용 여부는 해당 조사 맥락에 한정. 세대·표 수치에서 현대 선택 확률을 만들지 않음."
+      },
+      "grammatical_context": {
+        "person": null,
+        "number": null,
+        "sentence_type": null,
+        "speech_level": null,
+        "basis": "extracted_from_record_context"
+      }
+    },
+    {
+      "record_version": "2.0.0",
+      "claim_id": "RYU2014-S0229",
+      "source_id": "RYU2014",
+      "category": {
+        "primary": "auxiliary_predicate",
+        "secondary": "verb",
+        "related": [
+          "negation"
+        ],
+        "functions": [
+          "금지"
+        ],
+        "classification_basis": "extractor_mapping_from_source"
+      },
+      "source_location": {
+        "section": "2.8.1. 보조동사",
+        "pdf_pages": [
+          25
+        ],
+        "printed_pages": [
+          79
+        ],
+        "locator": "본문 또는 표의 해당 형태 행: -지 말다 / -지 마라"
+      },
+      "statement": "-지 말다 — -지 마라",
+      "subject": "-지 말다",
+      "predicate": "has_dialect_form",
+      "object": "-지 마라",
+      "conditions": [
+        {
+          "dimension": "적용 범위·문법 조건",
+          "value": "부정 보조동사·금지",
+          "basis": "extractor_summary"
+        }
+      ],
+      "geography": {
+        "normalized_region": "경남",
+        "subregion": "함양",
+        "generalization": "함양 조사 범위를 경남 전체에 일반화하지 않음"
+      },
+      "temporal_context": "2014년 조사·보고; 현대 자연스러움 미검증",
+      "examples": [
+        {
+          "standard": null,
+          "dialect": "울지 마.",
+          "note": "원문 방언 예시. 동일 의미 표준어 문장은 새로 만들지 않음."
+        }
+      ],
+      "evidence": [
+        {
+          "representation": "faithful_summary",
+          "text": "-지 말다에 관해 -지 마라를 제시함. 해당 맥락: 부정 보조동사·금지. 대조 시 유의: 마라는 활용형이므로 기본형·종결형 혼합 주의."
+        }
+      ],
+      "cautions": [
+        "마라는 활용형이므로 기본형·종결형 혼합 주의."
+      ],
+      "links": [],
+      "review": {
+        "extraction": "ai_draft",
+        "human": "unreviewed"
+      },
+      "generation_status": "candidate",
+      "attestation": {
+        "phase": "unspecified",
+        "age_groups": [],
+        "note": "사용 여부는 해당 조사 맥락에 한정. 세대·표 수치에서 현대 선택 확률을 만들지 않음."
+      },
+      "grammatical_context": {
+        "person": null,
+        "number": null,
+        "sentence_type": null,
+        "speech_level": null,
+        "basis": "extracted_from_record_context"
+      }
+    },
+    {
+      "record_version": "2.0.0",
+      "claim_id": "RYU2014-S0230",
+      "source_id": "RYU2014",
+      "category": {
+        "primary": "auxiliary_predicate",
+        "secondary": "verb",
+        "related": [
+          "negation"
+        ],
+        "functions": [
+          "불능"
+        ],
+        "classification_basis": "extractor_mapping_from_source"
+      },
+      "source_location": {
+        "section": "2.8.1. 보조동사",
+        "pdf_pages": [
+          25
+        ],
+        "printed_pages": [
+          79
+        ],
+        "locator": "본문 또는 표의 해당 형태 행: -지 못하다 / -지 못하다"
+      },
+      "statement": "-지 못하다 — 형태 확인(후속 조사)",
+      "subject": "-지 못하다",
+      "predicate": "has_form",
+      "object": "-지 못하다",
+      "conditions": [
+        {
+          "dimension": "적용 범위·문법 조건",
+          "value": "부정 보조동사",
+          "basis": "extractor_summary"
+        }
+      ],
+      "geography": {
+        "normalized_region": "경남",
+        "subregion": "함양",
+        "generalization": "함양 조사 범위를 경남 전체에 일반화하지 않음"
+      },
+      "temporal_context": "2014년 조사·보고; 현대 자연스러움 미검증",
+      "examples": [],
+      "evidence": [
+        {
+          "representation": "faithful_summary",
+          "text": "-지 못하다에 관해 후속 확인에서 추가 기록를 제시함. 해당 맥락: 부정 보조동사. 대조 시 유의: 표 예문 ‘너는 못 온다.’에는 장형 부정이 없음."
+        }
+      ],
+      "cautions": [
+        "표 예문 ‘너는 못 온다.’에는 장형 부정이 없음."
+      ],
+      "links": [],
+      "review": {
+        "extraction": "ai_draft",
+        "human": "unreviewed"
+      },
+      "generation_status": "candidate",
+      "attestation": {
+        "phase": "followup",
+        "age_groups": [],
+        "note": "후속 확인에서 추가 기록; 사용 여부는 해당 조사 맥락에 한정. 세대·표 수치에서 현대 선택 확률을 만들지 않음."
+      },
+      "grammatical_context": {
+        "person": null,
+        "number": null,
+        "sentence_type": null,
+        "speech_level": null,
+        "basis": "extracted_from_record_context"
+      }
+    },
+    {
+      "record_version": "2.0.0",
+      "claim_id": "RYU2014-S0237",
+      "source_id": "RYU2014",
+      "category": {
+        "primary": "auxiliary_predicate",
+        "secondary": "adjective",
+        "related": [
+          "negation"
+        ],
+        "functions": [
+          "부정"
+        ],
+        "classification_basis": "extractor_mapping_from_source"
+      },
+      "source_location": {
+        "section": "2.8.2. 보조 형용사",
+        "pdf_pages": [
+          25,
+          26
+        ],
+        "printed_pages": [
+          79,
+          80
+        ],
+        "locator": "본문 또는 표의 해당 형태 행: -지 않다 / -지 않다"
+      },
+      "statement": "-지 않다 — 형태 확인(후속 조사)",
+      "subject": "-지 않다",
+      "predicate": "has_form",
+      "object": "-지 않다",
+      "conditions": [
+        {
+          "dimension": "적용 범위·문법 조건",
+          "value": "부정 보조형용사",
+          "basis": "extractor_summary"
+        }
+      ],
+      "geography": {
+        "normalized_region": "경남",
+        "subregion": "함양",
+        "generalization": "함양 조사 범위를 경남 전체에 일반화하지 않음"
+      },
+      "temporal_context": "2014년 조사·보고; 현대 자연스러움 미검증",
+      "examples": [],
+      "evidence": [
+        {
+          "representation": "faithful_summary",
+          "text": "-지 않다에 관해 후속 확인에서 추가 기록를 제시함. 해당 맥락: 부정 보조형용사. 대조 시 유의: 표의 ‘날씨가 안 덥다.’는 단형 부정 예문. 부정 절의 동사 맥락과 구별."
+        }
+      ],
+      "cautions": [
+        "표의 ‘날씨가 안 덥다.’는 단형 부정 예문. 부정 절의 동사 맥락과 구별."
+      ],
+      "links": [],
+      "review": {
+        "extraction": "ai_draft",
+        "human": "unreviewed"
+      },
+      "generation_status": "candidate",
+      "attestation": {
+        "phase": "followup",
+        "age_groups": [],
+        "note": "후속 확인에서 추가 기록; 사용 여부는 해당 조사 맥락에 한정. 세대·표 수치에서 현대 선택 확률을 만들지 않음."
+      },
+      "grammatical_context": {
+        "person": null,
+        "number": null,
+        "sentence_type": null,
+        "speech_level": null,
+        "basis": "extracted_from_record_context"
+      }
+    },
+    {
+      "record_version": "2.0.0",
+      "claim_id": "RYU2014-S0238",
+      "source_id": "RYU2014",
+      "category": {
+        "primary": "auxiliary_predicate",
+        "secondary": "adjective",
+        "related": [
+          "negation"
+        ],
+        "functions": [
+          "부정"
+        ],
+        "classification_basis": "extractor_mapping_from_source"
+      },
+      "source_location": {
+        "section": "2.8.2. 보조 형용사",
+        "pdf_pages": [
+          25,
+          26
+        ],
+        "printed_pages": [
+          79,
+          80
+        ],
+        "locator": "본문 또는 표의 해당 형태 행: -지 못하다 / -지 못하다"
+      },
+      "statement": "-지 못하다 — 형태 확인(후속 조사)",
+      "subject": "-지 못하다",
+      "predicate": "has_form",
+      "object": "-지 못하다",
+      "conditions": [
+        {
+          "dimension": "적용 범위·문법 조건",
+          "value": "부정 보조형용사",
+          "basis": "extractor_summary"
+        }
+      ],
+      "geography": {
+        "normalized_region": "경남",
+        "subregion": "함양",
+        "generalization": "함양 조사 범위를 경남 전체에 일반화하지 않음"
+      },
+      "temporal_context": "2014년 조사·보고; 현대 자연스러움 미검증",
+      "examples": [],
+      "evidence": [
+        {
+          "representation": "faithful_summary",
+          "text": "-지 못하다에 관해 후속 확인에서 추가 기록를 제시함. 해당 맥락: 부정 보조형용사. 대조 시 유의: 본문의 양 세대 사용 설명에 이어 10대 비사용 단서가 있으므로 범위 대조."
+        }
+      ],
+      "cautions": [
+        "본문의 양 세대 사용 설명에 이어 10대 비사용 단서가 있으므로 범위 대조."
+      ],
+      "links": [],
+      "review": {
+        "extraction": "ai_draft",
+        "human": "unreviewed"
+      },
+      "generation_status": "hold",
+      "attestation": {
+        "phase": "followup",
+        "age_groups": [],
+        "note": "후속 확인에서 추가 기록; 사용 여부는 해당 조사 맥락에 한정. 세대·표 수치에서 현대 선택 확률을 만들지 않음."
+      },
+      "grammatical_context": {
+        "person": null,
+        "number": null,
+        "sentence_type": null,
+        "speech_level": null,
+        "basis": "extracted_from_record_context"
+      }
+    },
+    {
+      "record_version": "2.0.0",
+      "claim_id": "RYU2014-S0313",
+      "source_id": "RYU2014",
+      "category": {
+        "primary": "source_issue",
+        "secondary": "conflict",
+        "related": [],
+        "functions": [],
+        "classification_basis": "extractor_mapping_from_source"
+      },
+      "source_location": {
+        "section": "초록·본문·결론·표 대조",
+        "pdf_pages": [
+          2,
+          22,
+          25,
+          26
+        ],
+        "printed_pages": [
+          56,
+          76,
+          79,
+          80
+        ],
+        "locator": "-지 않다의 세대 설명 / 용언 종류·절별 조사 맥락"
+      },
+      "statement": "-지 않다의 세대 설명 — 초록·부정 절·보조형용사 절에서 사용 세대 기술에 차이가 있음",
+      "subject": "-지 않다의 세대 설명",
+      "predicate": "source_disagreement",
+      "object": "초록·부정 절·보조형용사 절에서 사용 세대 기술에 차이가 있음",
+      "conditions": [
+        {
+          "dimension": "적용 범위·문법 조건",
+          "value": "용언 종류·절별 조사 맥락",
+          "basis": "extractor_summary"
+        }
+      ],
+      "geography": {
+        "normalized_region": "경남",
+        "subregion": "함양",
+        "generalization": "함양 조사 범위를 경남 전체에 일반화하지 않음"
+      },
+      "temporal_context": "2014년 조사·보고; 현대 자연스러움 미검증",
+      "examples": [],
+      "evidence": [
+        {
+          "representation": "faithful_summary",
+          "text": "-지 않다의 세대 설명에 관해 초록·부정 절·보조형용사 절에서 사용 세대 기술에 차이가 있음를 제시함. 해당 맥락: 용언 종류·절별 조사 맥락. 대조 시 유의: 동사/형용사 문맥 차이를 먼저 확인해야 함."
+        }
+      ],
+      "cautions": [
+        "동사/형용사 문맥 차이를 먼저 확인해야 함."
+      ],
+      "links": [],
+      "review": {
+        "extraction": "ai_draft",
+        "human": "unreviewed"
+      },
+      "generation_status": "hold",
+      "attestation": {
+        "phase": "unspecified",
+        "age_groups": [],
+        "note": "사용 여부는 해당 조사 맥락에 한정. 세대·표 수치에서 현대 선택 확률을 만들지 않음."
+      },
+      "grammatical_context": {
+        "person": null,
+        "number": null,
+        "sentence_type": null,
+        "speech_level": null,
+        "basis": "extracted_from_record_context"
+      }
+    }
+  ],
+  "category_catalog": {
+    "version": "0.1.0",
+    "status": "provisional",
+    "policy": [
+      "primary는 한 개, related는 복수 허용",
+      "문헌 절 제목은 source_location.section에 별도 보존",
+      "secondary는 primary 아래의 세부 분류 ID",
+      "functions는 조건·기능 검색용 보조 표지이며 형태 범주와 분리",
+      "연구 맥락과 원문 문제는 문법 규칙이 아니다"
+    ],
+    "categories": [
+      {
+        "id": "pronoun",
+        "label": "대명사",
+        "subcategories": [
+          {
+            "id": "personal",
+            "label": "인칭 대명사"
+          },
+          {
+            "id": "reflexive",
+            "label": "재귀 대명사"
+          },
+          {
+            "id": "interrogative",
+            "label": "의문 대명사"
+          },
+          {
+            "id": "demonstrative",
+            "label": "지시 대명사"
+          }
+        ]
+      },
+      {
+        "id": "particle",
+        "label": "조사",
+        "subcategories": [
+          {
+            "id": "case",
+            "label": "격조사"
+          },
+          {
+            "id": "auxiliary",
+            "label": "보조사"
+          },
+          {
+            "id": "conjunctive",
+            "label": "접속조사"
+          }
+        ]
+      },
+      {
+        "id": "final_ending",
+        "label": "종결어미",
+        "subcategories": [
+          {
+            "id": "imperative",
+            "label": "명령형"
+          },
+          {
+            "id": "propositive",
+            "label": "청유형"
+          },
+          {
+            "id": "interrogative",
+            "label": "의문형"
+          },
+          {
+            "id": "declarative",
+            "label": "서술형"
+          },
+          {
+            "id": "exclamative",
+            "label": "감탄형"
+          }
+        ]
+      },
+      {
+        "id": "connective_ending",
+        "label": "연결어미",
+        "subcategories": [
+          {
+            "id": "coordinate",
+            "label": "대등 연결"
+          },
+          {
+            "id": "subordinate",
+            "label": "종속 연결"
+          },
+          {
+            "id": "auxiliary",
+            "label": "보조적 연결"
+          },
+          {
+            "id": "quotative",
+            "label": "인용"
+          }
+        ]
+      },
+      {
+        "id": "tense_aspect",
+        "label": "시제·상",
+        "subcategories": [
+          {
+            "id": "future",
+            "label": "미래"
+          },
+          {
+            "id": "present",
+            "label": "현재"
+          },
+          {
+            "id": "past",
+            "label": "과거"
+          },
+          {
+            "id": "adnominal",
+            "label": "관형사형"
+          }
+        ]
+      },
+      {
+        "id": "negation",
+        "label": "부정",
+        "subcategories": [
+          {
+            "id": "short",
+            "label": "단형 부정"
+          },
+          {
+            "id": "long",
+            "label": "장형 부정"
+          },
+          {
+            "id": "prohibitive",
+            "label": "금지"
+          }
+        ]
+      },
+      {
+        "id": "causative",
+        "label": "사동",
+        "subcategories": [
+          {
+            "id": "suffix",
+            "label": "접미사 사동"
+          }
+        ]
+      },
+      {
+        "id": "passive",
+        "label": "피동",
+        "subcategories": [
+          {
+            "id": "suffix",
+            "label": "접미사 피동"
+          }
+        ]
+      },
+      {
+        "id": "auxiliary_predicate",
+        "label": "보조용언",
+        "subcategories": [
+          {
+            "id": "verb",
+            "label": "보조동사"
+          },
+          {
+            "id": "adjective",
+            "label": "보조형용사"
+          }
+        ]
+      },
+      {
+        "id": "adverb",
+        "label": "부사",
+        "subcategories": [
+          {
+            "id": "lexical",
+            "label": "부사 표현"
+          }
+        ]
+      },
+      {
+        "id": "research_context",
+        "label": "연구 맥락",
+        "subcategories": [
+          {
+            "id": "method",
+            "label": "조사 방법"
+          },
+          {
+            "id": "notation",
+            "label": "표기·해석"
+          },
+          {
+            "id": "attitude",
+            "label": "방언 의식"
+          },
+          {
+            "id": "limitation",
+            "label": "한계"
+          }
+        ]
+      },
+      {
+        "id": "source_issue",
+        "label": "원문 검토 사항",
+        "subcategories": [
+          {
+            "id": "conflict",
+            "label": "서술 불일치"
+          },
+          {
+            "id": "reading",
+            "label": "판독 보류"
+          }
+        ]
+      }
+    ]
+  },
+  "requested_output": {
+    "checkpoint_id": "RYU2014-NEGATION-001",
+    "source_facts": "독립적으로 원문에서 확인한 핵심 사실 목록(쪽수 포함)",
+    "claim_verdicts": "대상 9건 각각 {claim_id, verdict: pass|revise|hold, reason, pdf_pages}",
+    "issues": "각각 {issue_id, claim_ids, severity: high|medium|low, problem, pdf_pages, proposed_fix}",
+    "missing_claims": "대상 절에서 빠진 문법 사실과 쪽수. 없으면 빈 배열.",
+    "limitations": "이번 검토로 확인할 수 없는 사항 목록"
+  }
+}

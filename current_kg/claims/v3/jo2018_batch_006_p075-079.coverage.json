@@ -1,0 +1,209 @@
+{
+  "batch_id": "JO2018-B006",
+  "source_id": "JO2018",
+  "status": "partial_source_extraction",
+  "body_pages": [
+    75,
+    76,
+    77,
+    78,
+    79
+  ],
+  "units": [
+    {
+      "location": "PDF76 / 인쇄 64: -니더 계열의 수의적 ㅂ",
+      "claim_ids": [
+        "JO2018-B006-C001"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF76 / 인쇄 64: -니이더의 장음 표기",
+      "claim_ids": [
+        "JO2018-B006-C002"
+      ],
+      "hold": "저자의 음성 확인 보고만 확보; 원 음성·길이 미검증"
+    },
+    {
+      "location": "PDF76 / 인쇄 64: -ㅁ더/-심더의 -니- 탈락",
+      "claim_ids": [
+        "JO2018-B006-C003"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF77 / 인쇄 65: -디더 계열 수의 결합",
+      "claim_ids": [
+        "JO2018-B006-C004"
+      ],
+      "hold": "수의적 요소 범위 및 -디이더 장음/높임 분석은 PDF90과 대조 필요"
+    },
+    {
+      "location": "PDF77 / 인쇄 65: 서술 -시더와 -습- 변이",
+      "claim_ids": [
+        "JO2018-B006-C005"
+      ],
+      "hold": "PDF91–93 계사/의존명사 분석과 동일 범위인지 미확정; 형태소 분석 운영 보류"
+    },
+    {
+      "location": "PDF77 / 인쇄 65: -으이더/-이더의 매개모음",
+      "claim_ids": [
+        "JO2018-B006-C006"
+      ],
+      "hold": "명시 말음별 조건 미제시; PDF91의 형용사 반드시 매개모음 설명과 범위 대조 필요"
+    },
+    {
+      "location": "PDF77 / 인쇄 65: -오리더 대응과 -리더 결합",
+      "claim_ids": [
+        "JO2018-B006-C007"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF78 / 인쇄 66: -니데이 계열 표기와 탈락 분석",
+      "claim_ids": [
+        "JO2018-B006-C008"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF78 / 인쇄 66: 표준형 이형태와 -십니다/-심다",
+      "claim_ids": [
+        "JO2018-B006-C009"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF79 / 인쇄 67: -십디다 변이 및 예스러운 서술형",
+      "claim_ids": [
+        "JO2018-B006-C010"
+      ],
+      "hold": null
+    },
+    {
+      "location": "PDF79 / 인쇄 67: 표13 하이소체 서술 목록",
+      "claim_ids": [
+        "JO2018-B006-C011"
+      ],
+      "hold": null
+    }
+  ],
+  "page_dispositions": [
+    {
+      "page": 75,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "서술법 도입·예26 전반·각주70; 예26ㄱ 출처 이상 가능성 보류"
+    },
+    {
+      "page": 76,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B006-C001",
+        "JO2018-B006-C002",
+        "JO2018-B006-C003"
+      ],
+      "reason": "-니더 수의 ㅂ·장음 표기·비음동화/탈락 3건; 예27 전반과 각주71–72 읽음"
+    },
+    {
+      "page": 77,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B006-C004",
+        "JO2018-B006-C005",
+        "JO2018-B006-C006",
+        "JO2018-B006-C007"
+      ],
+      "reason": "-디더·-시더·-이더·-리더 4건, 예27 후반·예28 읽음"
+    },
+    {
+      "page": 78,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B006-C008",
+        "JO2018-B006-C009"
+      ],
+      "reason": "-니데이 계열 및 표준형 음운변이 2건; 예29·예30 전반"
+    },
+    {
+      "page": 79,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B006-C010",
+        "JO2018-B006-C011"
+      ],
+      "reason": "예30 후반·유형목록 2건; 각주73–74 분류 정책"
+    }
+  ],
+  "source_context": {
+    "classification_policy": {
+      "page": 79,
+      "footnotes": [
+        73,
+        74
+      ],
+      "note": "형태소별 단독형·통합형 구분, 표준국어대사전 등재를 공시적 표준형 기준으로 사용. 최초 유입시기를 증명하지 않음."
+    },
+    "corpus_period_basis": {
+      "page": 29,
+      "excerpt": "1978년부터 1984년 사이에 조사된 내용을 싣고 있다.",
+      "publication_year": 2018,
+      "individual_utterance_date": null,
+      "note": "자료 전체 조사기간과 개별 발화 시점 구별. 재인용 선행연구에는 이 시점을 자동 전파하지 않음."
+    }
+  },
+  "open_items": [
+    {
+      "location": "PDF76",
+      "issue": "저자의 음성 확인 보고만 확보; 원 음성·길이 미검증",
+      "claim_id": "JO2018-B006-C002"
+    },
+    {
+      "location": "PDF77",
+      "issue": "수의적 요소 범위 및 -디이더 장음/높임 분석은 PDF90과 대조 필요",
+      "claim_id": "JO2018-B006-C004"
+    },
+    {
+      "location": "PDF77",
+      "issue": "PDF91–93 계사/의존명사 분석과 동일 범위인지 미확정; 형태소 분석 운영 보류",
+      "claim_id": "JO2018-B006-C005"
+    },
+    {
+      "location": "PDF77",
+      "issue": "명시 말음별 조건 미제시; PDF91의 형용사 반드시 매개모음 설명과 범위 대조 필요",
+      "claim_id": "JO2018-B006-C006"
+    },
+    {
+      "location": "PDF75",
+      "issue": "예26ㄱ 출처 (7-1:443/군위)의 권·지역 대응 이상 가능성: 원문 그대로 보존, 다른 지역으로 교정하지 않음",
+      "claim_id": null
+    },
+    {
+      "location": "PDF78",
+      "issue": "예29 해설의 (28ㄷ/ㄹ) 지시 오기 가능성",
+      "claim_id": null
+    },
+    {
+      "location": "PDF79",
+      "issue": "표13 목록의 별도 어미 노드 및 변이형 연결은 본문 결합 Claim과 후속 대조 필요",
+      "claim_id": null
+    }
+  ],
+  "audit": {
+    "text_read": true,
+    "pdftotext_layout": true,
+    "pdf_pages_visually_checked": [
+      79
+    ],
+    "independent_reviewer": false,
+    "table13_note": "줄바꿈에 방언형/표준형 행 라벨이 끼어든 -리더/-오리다를 PDF79 이미지로 대조. 어미를 생성한 것이 아니라 표의 인쇄 줄을 연결함."
+  },
+  "resolved_items": [
+    {
+      "location": "PDF77",
+      "issue": "-ㄹ시더/-ㅁ시더의 부가적 기능은 PDF91–92 분석으로 이어 처리",
+      "claim_id": null,
+      "resolution": "JO2018-B008-C008·C009·C010으로 계사/동사 및 인칭·담화 조건 추출. 관련 역사·지시번호 문제는 B008 장부에 별도 보류."
+    }
+  ]
+}

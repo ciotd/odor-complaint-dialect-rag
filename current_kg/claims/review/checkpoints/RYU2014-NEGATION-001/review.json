@@ -1,0 +1,328 @@
+{
+  "checkpoint_id": "RYU2014-NEGATION-001",
+  "packet_sha256": "332bee5b5fccc7e2353ad1fbfb333b18fe803c6348db5e1cdd4d02b8048d4128",
+  "isolation_test": [
+    {
+      "path": "/home/ciot28/odor-complaint-dialect-rag/current_kg/claims/structured/ryu2014_claims.jsonl",
+      "write_open": "blocked_EROFS"
+    },
+    {
+      "path": "/home/ciot28/odor-complaint-dialect-rag/current_kg/claims/checkpoint_review.py",
+      "write_open": "blocked_EROFS"
+    }
+  ],
+  "inputs_unchanged": true,
+  "elapsed_seconds": 207.3,
+  "exit_code": 0,
+  "execution_policy": {
+    "tools": [],
+    "host_filesystem": "read_only",
+    "writable_runtime": "private_tmpfs",
+    "safe_mode": true,
+    "max_budget_usd_cli": 2,
+    "timeout_seconds": 240,
+    "model_selection": "CLI default; actual model in envelope.modelUsage"
+  },
+  "stderr": "",
+  "envelope": {
+    "duration_api_ms": 206103,
+    "stop_reason": "end_turn",
+    "session_id": "a00856c7-c33e-4b22-a700-23b7fc7a0672",
+    "total_cost_usd": 0.31337099999999996,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 23829,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 19590,
+      "output_tokens_details": {
+        "thinking_tokens": 15936
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 23829,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "not_available",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 19590,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 23829,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 23829
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "modelUsage": {
+      "claude-haiku-4-5-20251001": {
+        "inputTokens": 22026,
+        "outputTokens": 25,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "webSearchRequests": 0,
+        "costUSD": 0.022151,
+        "contextWindow": 200000,
+        "maxOutputTokens": 32000,
+        "thinkingTokens": 0,
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      },
+      "claude-sonnet-5": {
+        "inputTokens": 2,
+        "outputTokens": 19590,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 23829,
+        "webSearchRequests": 0,
+        "costUSD": 0.29122,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 64000,
+        "thinkingTokens": 15936,
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "fast_mode_disabled_reason": "sdk_opt_in_required",
+    "subagent_stats": {
+      "spawned": 0,
+      "requested": {
+        "background": 0,
+        "foreground": 0,
+        "unset": 0
+      },
+      "started_in_background": 0,
+      "max_depth": 0,
+      "spawned_by_subagents": 0,
+      "completed": 0,
+      "failed": 0,
+      "killed": {
+        "parent": 0,
+        "user": 0,
+        "system": 0
+      },
+      "refused": {
+        "depth_limit": 0,
+        "concurrency_limit": 0,
+        "budget": 0
+      },
+      "by_type": {}
+    },
+    "is_error": false,
+    "num_turns": 1,
+    "subtype": "success",
+    "api_error_status": null,
+    "result": "```json\n{\n  \"checkpoint_id\": \"RYU2014-NEGATION-001\",\n  \"source_facts\": [\n    {\"fact\": \"함양 방언 부정 표현은 '안(-지 않다)', '못(-지 못하다)', '-지 말다' 세 유형으로 구분된다.\", \"pdf_page\": 21, \"printed_page\": 75},\n    {\"fact\": \"최초 방언조사(주 제보자 기준)에서는 장형 부정 '-지 않다, -지 못하다'가 쓰이지 않고 짧은 부정 '안, 못'만 쓰이는 것으로 기술되었다.\", \"pdf_page\": 21, \"printed_page\": 75},\n    {\"fact\": \"'-지 말다' 부정은 표준어와 동일한 형태로 쓰인다고 기술되어 있다.\", \"pdf_page\": 21, \"printed_page\": 75},\n    {\"fact\": \"세대별 확인조사에서 60대·10대 모두 '-지 못-' 형태가 쓰이게 되었다고 서술되며, 표에서는 60대(90%)/10대(70%)로 제시된다.\", \"pdf_page\": 21, \"printed_page\": 75, \"table_pdf_page\": 22, \"table_printed_page\": 76},\n    {\"fact\": \"'-지 않-' 형태는 10대에서만 쓰이기 시작하였다고 서술되며, 표에서는 60대(x, 미사용)/10대(30%)로 제시된다.\", \"pdf_page\": 21, \"printed_page\": 75},\n    {\"fact\": \"'몬'이라는 형태는 60대에서 약 10% 쓰이다가 10대에서는 표준어 '못'으로 전환되었다(10대 방언 사용률 0%)는 서술이 2.6절 도입부(표 앞)에 있다.\", \"pdf_page\": 21, \"printed_page\": 75},\n    {\"fact\": \"부정 표(못/몬 행)는 표준어 '못' 사용률 60대10%·10대0%, 방언형 '몬'과 예문 '형은 일이 있어 몬 간다.'를 제시하며 pdf 22쪽(인쇄 76쪽)에 있다.\", \"pdf_page\": 22, \"printed_page\": 76},\n    {\"fact\": \"'-지 말다' 표 행은 방언 예문 '니는 아직 가지 마라.'를 제시하며 pdf 22쪽(인쇄 76쪽)에 있다.\", \"pdf_page\": 22, \"printed_page\": 76},\n    {\"fact\": \"'안' 표 행은 방언 예문 '새 아는 아직 안 왔다.'를 제시하며 pdf 21쪽(인쇄 75쪽)에 있다.\", \"pdf_page\": 21, \"printed_page\": 75},\n    {\"fact\": \"초록(요약, pdf 2쪽/인쇄 56쪽)은 '60대 이후에는 ... -지 않-, -지 못- 부정도 쓰이게 되었다'고 기술하여, 2.6절 본문(60대는 -지 않- 미사용, (x))과 세대 범위 기술이 다르다.\", \"pdf_page\": 2, \"printed_page\": 56}\n  ],\n  \"claim_verdicts\": [\n    {\"claim_id\": \"RYU2014-S0187\", \"verdict\": \"pass\", \"reason\": \"‘안’이 단형 부정에 속한다는 진술과 예문 ‘새 아는 아직 안 왔다.’가 pdf21(인쇄75)에서 직접 확인됨.\", \"pdf_pages\": [21]},\n    {\"claim_id\": \"RYU2014-S0188\", \"verdict\": \"pass\", \"reason\": \"‘못’이 단형 부정에 속한다는 진술이 본문 및 표(pdf21-22)에서 확인됨.\", \"pdf_pages\": [21, 22]},\n    {\"claim_id\": \"RYU2014-S0189\", \"verdict\": \"pass\", \"reason\": \"표준어 ‘못’에 대응하는 방언형 ‘몬’과 예문 ‘형은 일이 있어 몬 간다.’가 pdf22(인쇄76) 표에서 확인됨.\", \"pdf_pages\": [22]},\n    {\"claim_id\": \"RYU2014-S0190\", \"verdict\": \"revise\", \"reason\": \"‘몬이 10대 확인에서 못으로 바뀐다’는 서술 문장은 실제로 pdf21(인쇄75) 표 도입부 본문에 있으며, 청구항의 source_location은 pdf22만 기재하여 실제 근거 위치가 누락됨. 수치적 뒷받침(못/몬 표 행)은 pdf22에 있으므로 두 쪽 모두 인용이 필요.\", \"pdf_pages\": [21, 22]},\n    {\"claim_id\": \"RYU2014-S0191\", \"verdict\": \"pass\", \"reason\": \"‘장형 부정 -지 않다, -지 못하다는 쓰이지 않고’라는 초기조사 기술이 pdf21(인쇄75)에서 직접 확인됨.\", \"pdf_pages\": [21]},\n    {\"claim_id\": \"RYU2014-S0192\", \"verdict\": \"pass\", \"reason\": \"동일 문장에서 ‘-지 못하다’도 초기조사 미확인으로 기술됨이 pdf21(인쇄75)에서 확인됨.\", \"pdf_pages\": [21]},\n    {\"claim_id\": \"RYU2014-S0193\", \"verdict\": \"pass\", \"reason\": \"‘60대, 10대에서 -지 못- 형태가 쓰이게 되었다’는 본문(pdf21)과 표 수치 60대90%/10대70%(pdf22)가 일치함.\", \"pdf_pages\": [21, 22]},\n    {\"claim_id\": \"RYU2014-S0194\", \"verdict\": \"pass\", \"reason\": \"‘-지 않- 형태도 10대에서 쓰이기 시작하였다’는 본문 및 표(60대(x)/10대(30%))가 pdf21(인쇄75)에서 확인됨. 다만 초록(p.56)·보조형용사 절(p.79-80)과 세대 범위 기술이 달라 hold 상태 유지가 타당함.\", \"pdf_pages\": [21]},\n    {\"claim_id\": \"RYU2014-S0195\", \"verdict\": \"pass\", \"reason\": \"‘-지 말다는 표준어와 같다’는 본문(pdf21)과 방언 예문 ‘니는 아직 가지 마라.’(pdf22 표)가 일치함.\", \"pdf_pages\": [21, 22]}\n  ],\n  \"issues\": [\n    {\n      \"issue_id\": \"ISS-1\",\n      \"claim_ids\": [\"RYU2014-S0190\"],\n      \"severity\": \"medium\",\n      \"problem\": \"청구항의 locator는 '본문의 세대 변화 설명(몬→못)'을 가리키지만, 해당 서술 문장('몬이라는 형태는 60대에 10% 정도 쓰이다가 10대에는 표준어와 같은 못으로 변화되었다.')은 pdf21(인쇄75쪽) 표 바로 앞 문단에 위치함. 그러나 source_location.pdf_pages에는 22만 기재되어 있어 실제 서술 위치(21쪽)가 누락됨.\",\n      \"pdf_pages\": [21, 22],\n      \"proposed_fix\": \"source_location.pdf_pages를 [21, 22], printed_pages를 [75, 76]으로 수정하여 서술 문장(21/75)과 수치 표(22/76)를 모두 반영.\"\n    },\n    {\n      \"issue_id\": \"ISS-2\",\n      \"claim_ids\": [\"RYU2014-S0187\"],\n      \"severity\": \"low\",\n      \"problem\": \"‘안’ 단형 부정 관련 본문·표 행은 전부 pdf21(인쇄75)에만 존재하나, source_location.pdf_pages에 22가 함께 기재되어 근거 위치가 다소 과대 인용됨.\",\n      \"pdf_pages\": [21],\n      \"proposed_fix\": \"pdf_pages를 [21], printed_pages를 [75]로 좁히거나, 22를 포함하는 이유(같은 표의 연속)를 locator에 명시.\"\n    },\n    {\n      \"issue_id\": \"ISS-3\",\n      \"claim_ids\": [\"RYU2014-S0194\", \"RYU2014-S0313\"],\n      \"severity\": \"low\",\n      \"problem\": \"초록(p.56)은 '60대 이후'부터 '-지 않-, -지 못-' 모두 쓰인다고 기술하나, 2.6절 본문·표(p.75)는 '-지 않-'이 60대에는 (x, 미사용)이고 10대에서만 쓰이기 시작했다고 기술하여 세대 범위가 서로 다름. 이는 이미 S0313으로 별도 flag되어 있어 9개 대상 청구항 자체의 결함은 아니나, S0194의 hold 상태 근거로 재확인됨.\",\n      \"pdf_pages\": [2, 21],\n      \"proposed_fix\": \"별도 조치 불요(이미 S0313에서 처리됨). S0194의 hold 유지가 타당함을 재확인.\"\n    }\n  ],\n  \"missing_claims\": [],\n  \"limitations\": [\n    \"이번 검토는 2.6 부정 절에 지정된 9개 대상 Claim에 한정되며, 논문 전체(예: 초록, 2.4/2.8절)와의 정합성은 교차확인용으로만 참고하였고 별도 판정 대상이 아님.\",\n    \"초록(p.56)과 2.6/2.8절 간 '-지 않-' 세대 기술 불일치의 원인(저자 표현상 차이 vs 실제 자료 오류)은 본 검토로 판정할 수 없음.\",\n    \"원문 텍스트는 PDF 자동 추출 결과에 기반하였으며, 표의 정확한 셀 정렬(특히 괄호 표기 (x), (30) 등)은 원본 이미지 대조 없이 100% 보장할 수 없음.\",\n    \"세대별 사용률 수치는 60대 확인자 1인, 10대 확인자 2인이라는 매우 작은 표본에서 산출된 것으로, 통계적 대표성이나 함양 전체·경남 전체로의 일반화 가능성은 이번 검토 범위 밖임.\",\n    \"policy에 따라 함양 조사 결과를 경남 전체나 현재 세대 전반으로 확대 해석하지 않았으며, 이에 대한 별도 검증도 수행하지 않음.\"\n  ]\n}\n```",
+    "ttft_ms": 171617,
+    "type": "result",
+    "duration_ms": 204305,
+    "uuid": "58c95535-2403-45e4-8b3d-4f3eca45b5a2",
+    "ttft_stream_ms": 1109,
+    "time_to_request_ms": 55,
+    "first_content_frame_ms": 1662,
+    "queued_turn_count": 0
+  },
+  "status": "review_received_not_adjudicated",
+  "raw_capture_status": "failed_no_claim_changes",
+  "postprocessing": {
+    "operation": "Removed only outer ```json code fence; kept envelope.result verbatim.",
+    "validation": "checkpoint ID and all 9 target IDs with valid verdicts verified",
+    "original_parse_error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  "review": {
+    "checkpoint_id": "RYU2014-NEGATION-001",
+    "source_facts": [
+      {
+        "fact": "함양 방언 부정 표현은 '안(-지 않다)', '못(-지 못하다)', '-지 말다' 세 유형으로 구분된다.",
+        "pdf_page": 21,
+        "printed_page": 75
+      },
+      {
+        "fact": "최초 방언조사(주 제보자 기준)에서는 장형 부정 '-지 않다, -지 못하다'가 쓰이지 않고 짧은 부정 '안, 못'만 쓰이는 것으로 기술되었다.",
+        "pdf_page": 21,
+        "printed_page": 75
+      },
+      {
+        "fact": "'-지 말다' 부정은 표준어와 동일한 형태로 쓰인다고 기술되어 있다.",
+        "pdf_page": 21,
+        "printed_page": 75
+      },
+      {
+        "fact": "세대별 확인조사에서 60대·10대 모두 '-지 못-' 형태가 쓰이게 되었다고 서술되며, 표에서는 60대(90%)/10대(70%)로 제시된다.",
+        "pdf_page": 21,
+        "printed_page": 75,
+        "table_pdf_page": 22,
+        "table_printed_page": 76
+      },
+      {
+        "fact": "'-지 않-' 형태는 10대에서만 쓰이기 시작하였다고 서술되며, 표에서는 60대(x, 미사용)/10대(30%)로 제시된다.",
+        "pdf_page": 21,
+        "printed_page": 75
+      },
+      {
+        "fact": "'몬'이라는 형태는 60대에서 약 10% 쓰이다가 10대에서는 표준어 '못'으로 전환되었다(10대 방언 사용률 0%)는 서술이 2.6절 도입부(표 앞)에 있다.",
+        "pdf_page": 21,
+        "printed_page": 75
+      },
+      {
+        "fact": "부정 표(못/몬 행)는 표준어 '못' 사용률 60대10%·10대0%, 방언형 '몬'과 예문 '형은 일이 있어 몬 간다.'를 제시하며 pdf 22쪽(인쇄 76쪽)에 있다.",
+        "pdf_page": 22,
+        "printed_page": 76
+      },
+      {
+        "fact": "'-지 말다' 표 행은 방언 예문 '니는 아직 가지 마라.'를 제시하며 pdf 22쪽(인쇄 76쪽)에 있다.",
+        "pdf_page": 22,
+        "printed_page": 76
+      },
+      {
+        "fact": "'안' 표 행은 방언 예문 '새 아는 아직 안 왔다.'를 제시하며 pdf 21쪽(인쇄 75쪽)에 있다.",
+        "pdf_page": 21,
+        "printed_page": 75
+      },
+      {
+        "fact": "초록(요약, pdf 2쪽/인쇄 56쪽)은 '60대 이후에는 ... -지 않-, -지 못- 부정도 쓰이게 되었다'고 기술하여, 2.6절 본문(60대는 -지 않- 미사용, (x))과 세대 범위 기술이 다르다.",
+        "pdf_page": 2,
+        "printed_page": 56
+      }
+    ],
+    "claim_verdicts": [
+      {
+        "claim_id": "RYU2014-S0187",
+        "verdict": "pass",
+        "reason": "‘안’이 단형 부정에 속한다는 진술과 예문 ‘새 아는 아직 안 왔다.’가 pdf21(인쇄75)에서 직접 확인됨.",
+        "pdf_pages": [
+          21
+        ]
+      },
+      {
+        "claim_id": "RYU2014-S0188",
+        "verdict": "pass",
+        "reason": "‘못’이 단형 부정에 속한다는 진술이 본문 및 표(pdf21-22)에서 확인됨.",
+        "pdf_pages": [
+          21,
+          22
+        ]
+      },
+      {
+        "claim_id": "RYU2014-S0189",
+        "verdict": "pass",
+        "reason": "표준어 ‘못’에 대응하는 방언형 ‘몬’과 예문 ‘형은 일이 있어 몬 간다.’가 pdf22(인쇄76) 표에서 확인됨.",
+        "pdf_pages": [
+          22
+        ]
+      },
+      {
+        "claim_id": "RYU2014-S0190",
+        "verdict": "revise",
+        "reason": "‘몬이 10대 확인에서 못으로 바뀐다’는 서술 문장은 실제로 pdf21(인쇄75) 표 도입부 본문에 있으며, 청구항의 source_location은 pdf22만 기재하여 실제 근거 위치가 누락됨. 수치적 뒷받침(못/몬 표 행)은 pdf22에 있으므로 두 쪽 모두 인용이 필요.",
+        "pdf_pages": [
+          21,
+          22
+        ]
+      },
+      {
+        "claim_id": "RYU2014-S0191",
+        "verdict": "pass",
+        "reason": "‘장형 부정 -지 않다, -지 못하다는 쓰이지 않고’라는 초기조사 기술이 pdf21(인쇄75)에서 직접 확인됨.",
+        "pdf_pages": [
+          21
+        ]
+      },
+      {
+        "claim_id": "RYU2014-S0192",
+        "verdict": "pass",
+        "reason": "동일 문장에서 ‘-지 못하다’도 초기조사 미확인으로 기술됨이 pdf21(인쇄75)에서 확인됨.",
+        "pdf_pages": [
+          21
+        ]
+      },
+      {
+        "claim_id": "RYU2014-S0193",
+        "verdict": "pass",
+        "reason": "‘60대, 10대에서 -지 못- 형태가 쓰이게 되었다’는 본문(pdf21)과 표 수치 60대90%/10대70%(pdf22)가 일치함.",
+        "pdf_pages": [
+          21,
+          22
+        ]
+      },
+      {
+        "claim_id": "RYU2014-S0194",
+        "verdict": "pass",
+        "reason": "‘-지 않- 형태도 10대에서 쓰이기 시작하였다’는 본문 및 표(60대(x)/10대(30%))가 pdf21(인쇄75)에서 확인됨. 다만 초록(p.56)·보조형용사 절(p.79-80)과 세대 범위 기술이 달라 hold 상태 유지가 타당함.",
+        "pdf_pages": [
+          21
+        ]
+      },
+      {
+        "claim_id": "RYU2014-S0195",
+        "verdict": "pass",
+        "reason": "‘-지 말다는 표준어와 같다’는 본문(pdf21)과 방언 예문 ‘니는 아직 가지 마라.’(pdf22 표)가 일치함.",
+        "pdf_pages": [
+          21,
+          22
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "issue_id": "ISS-1",
+        "claim_ids": [
+          "RYU2014-S0190"
+        ],
+        "severity": "medium",
+        "problem": "청구항의 locator는 '본문의 세대 변화 설명(몬→못)'을 가리키지만, 해당 서술 문장('몬이라는 형태는 60대에 10% 정도 쓰이다가 10대에는 표준어와 같은 못으로 변화되었다.')은 pdf21(인쇄75쪽) 표 바로 앞 문단에 위치함. 그러나 source_location.pdf_pages에는 22만 기재되어 있어 실제 서술 위치(21쪽)가 누락됨.",
+        "pdf_pages": [
+          21,
+          22
+        ],
+        "proposed_fix": "source_location.pdf_pages를 [21, 22], printed_pages를 [75, 76]으로 수정하여 서술 문장(21/75)과 수치 표(22/76)를 모두 반영."
+      },
+      {
+        "issue_id": "ISS-2",
+        "claim_ids": [
+          "RYU2014-S0187"
+        ],
+        "severity": "low",
+        "problem": "‘안’ 단형 부정 관련 본문·표 행은 전부 pdf21(인쇄75)에만 존재하나, source_location.pdf_pages에 22가 함께 기재되어 근거 위치가 다소 과대 인용됨.",
+        "pdf_pages": [
+          21
+        ],
+        "proposed_fix": "pdf_pages를 [21], printed_pages를 [75]로 좁히거나, 22를 포함하는 이유(같은 표의 연속)를 locator에 명시."
+      },
+      {
+        "issue_id": "ISS-3",
+        "claim_ids": [
+          "RYU2014-S0194",
+          "RYU2014-S0313"
+        ],
+        "severity": "low",
+        "problem": "초록(p.56)은 '60대 이후'부터 '-지 않-, -지 못-' 모두 쓰인다고 기술하나, 2.6절 본문·표(p.75)는 '-지 않-'이 60대에는 (x, 미사용)이고 10대에서만 쓰이기 시작했다고 기술하여 세대 범위가 서로 다름. 이는 이미 S0313으로 별도 flag되어 있어 9개 대상 청구항 자체의 결함은 아니나, S0194의 hold 상태 근거로 재확인됨.",
+        "pdf_pages": [
+          2,
+          21
+        ],
+        "proposed_fix": "별도 조치 불요(이미 S0313에서 처리됨). S0194의 hold 유지가 타당함을 재확인."
+      }
+    ],
+    "missing_claims": [],
+    "limitations": [
+      "이번 검토는 2.6 부정 절에 지정된 9개 대상 Claim에 한정되며, 논문 전체(예: 초록, 2.4/2.8절)와의 정합성은 교차확인용으로만 참고하였고 별도 판정 대상이 아님.",
+      "초록(p.56)과 2.6/2.8절 간 '-지 않-' 세대 기술 불일치의 원인(저자 표현상 차이 vs 실제 자료 오류)은 본 검토로 판정할 수 없음.",
+      "원문 텍스트는 PDF 자동 추출 결과에 기반하였으며, 표의 정확한 셀 정렬(특히 괄호 표기 (x), (30) 등)은 원본 이미지 대조 없이 100% 보장할 수 없음.",
+      "세대별 사용률 수치는 60대 확인자 1인, 10대 확인자 2인이라는 매우 작은 표본에서 산출된 것으로, 통계적 대표성이나 함양 전체·경남 전체로의 일반화 가능성은 이번 검토 범위 밖임.",
+      "policy에 따라 함양 조사 결과를 경남 전체나 현재 세대 전반으로 확대 해석하지 않았으며, 이에 대한 별도 검증도 수행하지 않음."
+    ]
+  }
+}

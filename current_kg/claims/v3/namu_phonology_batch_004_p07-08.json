@@ -1,0 +1,2110 @@
+{
+  "format_version": "3.0-draft.1",
+  "status": "extraction_draft",
+  "entities": [
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C001.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§1.2.4 히→시 목록·세대 예외표시",
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C001.e"
+        ],
+        "pos": null
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C001.item0",
+      "type": "Usage",
+      "properties": {
+        "source_expression": "힘에 겹다",
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C001.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C001.item1",
+      "type": "Usage",
+      "properties": {
+        "source_expression": "형아",
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C001.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C001.item2",
+      "type": "Usage",
+      "properties": {
+        "source_expression": "형",
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C001.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C001.item3",
+      "type": "Usage",
+      "properties": {
+        "source_expression": "혀",
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C001.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C001.item4",
+      "type": "Usage",
+      "properties": {
+        "source_expression": "혓바닥",
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C001.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C001.item5",
+      "type": "Usage",
+      "properties": {
+        "source_expression": "불 켜다",
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C001.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C002.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§1.2.5 ㅅ·ㅆ 무변별의 지역·변화 재인용",
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C002.e"
+        ],
+        "pos": null
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C003.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§1.2.5 ㅅ·ㅆ 어휘별 대응 목록",
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C003.e"
+        ],
+        "pos": null
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C003.item0",
+      "type": "Usage",
+      "properties": {
+        "source_expression": "싸우다",
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C003.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C003.item1",
+      "type": "Usage",
+      "properties": {
+        "source_expression": "섞다",
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C003.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C003.item2",
+      "type": "Usage",
+      "properties": {
+        "source_expression": "썩다",
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C003.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C003.item3",
+      "type": "Usage",
+      "properties": {
+        "source_expression": "시다",
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C003.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C004.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§1.2.6 ㅂ·ㅅ 활용과 역사 흔적",
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C004.e"
+        ],
+        "pos": null
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C005.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§1.2.6 역사 흔적의 개별 단어 목록",
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C005.e"
+        ],
+        "pos": null
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C005.item0",
+      "type": "Usage",
+      "properties": {
+        "source_expression": "더위",
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C005.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C005.item1",
+      "type": "Usage",
+      "properties": {
+        "source_expression": "추위",
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C005.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C005.item2",
+      "type": "Usage",
+      "properties": {
+        "source_expression": "구르다",
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C005.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C005.item3",
+      "type": "Usage",
+      "properties": {
+        "source_expression": "눈시울",
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C005.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C005.item4",
+      "type": "Usage",
+      "properties": {
+        "source_expression": "가을",
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C005.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C005.item5",
+      "type": "Usage",
+      "properties": {
+        "source_expression": "겨울",
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C005.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C006.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§1.3 뭐 하려고·인가 보다 축약",
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C006.e"
+        ],
+        "pos": null
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C006.item0",
+      "type": "Usage",
+      "properties": {
+        "source_expression": "뭐 하려고",
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C006.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C006.item1",
+      "type": "Usage",
+      "properties": {
+        "source_expression": "인가 보다",
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C006.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C007.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§1.3 그렇게 하다 경북 우세 축약",
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C007.e"
+        ],
+        "pos": null
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C007.item0",
+      "type": "Usage",
+      "properties": {
+        "source_expression": "그렇게 하다",
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C007.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C008.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§1.3 그러다·그러하다·긇다",
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C008.e"
+        ],
+        "pos": null
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C008.item0",
+      "type": "Usage",
+      "properties": {
+        "source_expression": "그러다",
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C008.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C009.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§1.3 그러다의 카다·그라다 지역표시",
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C009.e"
+        ],
+        "pos": null
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C009.item0",
+      "type": "Usage",
+      "properties": {
+        "source_expression": "그러다",
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C009.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C009.item1",
+      "type": "Usage",
+      "properties": {
+        "source_expression": "그러다",
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C009.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C010.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§1.3 -라고 하다 인용 축약 라카다",
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C010.e"
+        ],
+        "pos": null
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C010.item0",
+      "type": "Usage",
+      "properties": {
+        "source_expression": "-라고 하다",
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C010.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C011.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§1.3 -라고 하다 인용 축약 라쿠다",
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C011.e"
+        ],
+        "pos": null
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C011.item0",
+      "type": "Usage",
+      "properties": {
+        "source_expression": "-라고 하다",
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C011.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C012.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§1.3 경북 북동부 인용 축약 옛한글",
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C012.e"
+        ],
+        "pos": null
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C013.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§1.3 어이하니·어찌하니 축약과 지역",
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C013.e"
+        ],
+        "pos": null
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C013.item0",
+      "type": "Usage",
+      "properties": {
+        "source_expression": "어이하니",
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C013.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C013.item1",
+      "type": "Usage",
+      "properties": {
+        "source_expression": "어찌하니",
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C013.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C014.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§1.3 여러 구성의 복합 축약 예문",
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C014.e"
+        ],
+        "pos": null
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C014.item0",
+      "type": "Usage",
+      "properties": {
+        "source_expression": "그 애가 '뭐 하러 그렇게 하라고 하냐' 그런다",
+        "pos": null,
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C014.e"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C015.usage",
+      "type": "Usage",
+      "properties": {
+        "label": "§2 운소·중세 한국어 성조형 대응",
+        "evidence_refs": [
+          "NAMU_PHONOLOGY_20260908-B004-C015.e"
+        ],
+        "pos": null
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C001.e",
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "pdf_pages": [
+        6,
+        7
+      ],
+      "locator": "§1.2.4 히→시 목록·세대 예외표시",
+      "excerpt": "아래 특징들은 한국 중서부 방언을 제외하면 대부분 방언에서 나타난 현상으로, 70대 이상 지긋이 나이 드신 분들이 아니고선\n 대부분 사용하지 않는 특징으로 빠른 시간 내에 소멸될 상황에 놓여 있다. 40대 이하도 꽤 사용하는 발음은 ☆ 표시를 했다.\n     ㄱ, ㅎ의 구개음화\n[…]\n[히 → 시]\n  힘에 겹다: 심에 젭다\n  형아: 시아[8]☆\n  형: 세이[9]☆\n  혀: 세\n  혓바닥: 셋바닥☆\n  불 켜다[10]: 불 서다/셔다/세다",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C002.e",
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "pdf_pages": [
+        7
+      ],
+      "locator": "§1.2.5 ㅅ·ㅆ 무변별의 지역·변화 재인용",
+      "excerpt": "경북대학교 국어국문학과 이상규 교수의 논문에 따르면, 경상북도는 대구와 낙동강을 기점으로 동쪽, 경상남도는 남서쪽을 제\n 외한 나머지 동쪽 지역이 ㅅ과 ㅆ을 변별하지 않았다고 한다. 이전에는 이 두 음소를 구분을 할 필요가 없었으나, 표준어 단어\n 가 많이 유입되면서 구분할 필요가 생겼다. 현재 어린 화자를 기준으로 ㅅ과 ㅆ을 구분하기 시작했으며, 일부 새그럽다, 쌔그\n 럽다 같은 단어들의 경우 여린말과 센말(졸졸, 쫄쫄 같은 관계)로 구분돼 나뉘어 쓰이고 있다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C003.e",
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "pdf_pages": [
+        7
+      ],
+      "locator": "§1.2.5 ㅅ·ㅆ 어휘별 대응 목록",
+      "excerpt": "싸우다: 사우다/싸우다\n  섞다: 섞다/썪다\n  썩다: 석다/썩다\n  시다: 새그럽다/쌔그럽다",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C004.e",
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "pdf_pages": [
+        7
+      ],
+      "locator": "§1.2.6 ㅂ·ㅅ 활용과 역사 흔적",
+      "excerpt": "순경음 비읍과 반치음의 흔적이 있다. ㅂ을 활용한 용언 활용 규칙은(덥다 → 덥어) 오직 동남 방언에서만 특징적으로 나타난\n 다. ㅅ 활용 규칙이나 개개 단어들의 흔적(가을→가실)은 다른 지역에도 꽤 있는 현상인 듯하다.\n 동남 방언에서 용언 활용 규칙은 그나마 잘 이어 오고 있지만 개개 단어들은 표준어로 교체되어 빠르게 소멸하는 추세이다. 용\n 언 활용에 대한 내용은 동남 방언/문법 ㅂ, ㅅ 규칙 활용 문단을 참고하기 바란다.",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C005.e",
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "pdf_pages": [
+        7
+      ],
+      "locator": "§1.2.6 역사 흔적의 개별 단어 목록",
+      "excerpt": "순경음 비읍과 반치음의 흔적이 있다. ㅂ을 활용한 용언 활용 규칙은(덥다 → 덥어) 오직 동남 방언에서만 특징적으로 나타난\n 다. ㅅ 활용 규칙이나 개개 단어들의 흔적(가을→가실)은 다른 지역에도 꽤 있는 현상인 듯하다.\n 동남 방언에서 용언 활용 규칙은 그나마 잘 이어 오고 있지만 개개 단어들은 표준어로 교체되어 빠르게 소멸하는 추세이다. 용\n 언 활용에 대한 내용은 동남 방언/문법 ㅂ, ㅅ 규칙 활용 문단을 참고하기 바란다.\n  더위: 덥이\n  추위: 춥이\n  구르다: 꾸부르다/구불다\n  눈시울: 눈시불\n  가을: 가실/가슭\n  겨울: 저슬",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C006.e",
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "pdf_pages": [
+        7
+      ],
+      "locator": "§1.3 뭐 하려고·인가 보다 축약",
+      "excerpt": "뭐 하려고: 머 할라고 - 말라고\n        인가 보다: 인갑다",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C007.e",
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "pdf_pages": [
+        7
+      ],
+      "locator": "§1.3 그렇게 하다 경북 우세 축약",
+      "excerpt": "그렇게 하다: 글카다 - 그카다 <경북 우세>",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C008.e",
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "pdf_pages": [
+        7
+      ],
+      "locator": "§1.3 그러다·그러하다·긇다",
+      "excerpt": "그러다: 그러하다 - 긇다 [11] <경상도 전역>",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C009.e",
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "pdf_pages": [
+        8
+      ],
+      "locator": "§1.3 그러다의 카다·그라다 지역표시",
+      "excerpt": "그러다: 카다 <경북 우세>\n        그러다: 그라다 <경상도 전역>",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C010.e",
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "pdf_pages": [
+        8
+      ],
+      "locator": "§1.3 -라고 하다 인용 축약 라카다",
+      "excerpt": "-라고 하다: -라카다 <경상도 전역>",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C011.e",
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "pdf_pages": [
+        8
+      ],
+      "locator": "§1.3 -라고 하다 인용 축약 라쿠다",
+      "excerpt": "-라고 하다: -라쿠다 <경남 서부/중부 대부분>",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C012.e",
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "pdf_pages": [
+        8
+      ],
+      "locator": "§1.3 경북 북동부 인용 축약 옛한글",
+      "excerpt": "-라고 하다: -라거ᇹ다 <경북 북동부>",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C013.e",
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "pdf_pages": [
+        8
+      ],
+      "locator": "§1.3 어이하니·어찌하니 축약과 지역",
+      "excerpt": "어이하니: 우얘 하노 - 우야노 <경북 우세>\n        어찌하니: 우찌 하노 - 우짜노 <경상 전역>",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C014.e",
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "pdf_pages": [
+        8
+      ],
+      "locator": "§1.3 여러 구성의 복합 축약 예문",
+      "excerpt": "그 애가 '뭐 하러 그렇게 하라고 하냐' 그런다: 그 아가 '머 할라 그케 하라고 하노' 그란다 - 가가 '말라그카라카노' 칸다",
+      "kind": "source_statement"
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C015.e",
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "pdf_pages": [
+        8
+      ],
+      "locator": "§2 운소·중세 한국어 성조형 대응",
+      "excerpt": "동남 방언의 악센트는 중세 한국어와 대부분 규칙적으로 대응한다. 이를 다른 말로 '성조형이 일치한다'고 표현할 수도 있다.\n 한국어의 방언/초분절 음소 참고.",
+      "kind": "source_statement"
+    }
+  ],
+  "claims": [
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C001",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "형태음운"
+      ],
+      "source_terms": [
+        "§1.2.4 히→시 목록·세대 예외표시"
+      ],
+      "target_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C001.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C001.a",
+          "kind": "pronunciation_variant",
+          "target_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C001.usage"
+          ],
+          "content": {
+            "source_analysis": "ㅎ 구개음화 예시: ☆는 형아·형·혓바닥에만 붙음. 불 켜다의 세 실현형은 원문대로 보존.",
+            "operational_status": "held",
+            "extractor_interpretation": "원문 명시 범위만 구조화; 미제시 형태소 분석·역변환·전역 치환 없음",
+            "generation_policy": "운영 미승인 초안; 표기 선택·현대 자연스러움 미검증",
+            "starred_source_expressions": [
+              "형아",
+              "형",
+              "혓바닥"
+            ],
+            "source_generation_scope": "70대 이상 중심; ☆는 40대 이하도 꽤 사용",
+            "entries": [
+              {
+                "usage_ref": "NAMU_PHONOLOGY_20260908-B004-C001.item0",
+                "source_expression": "힘에 겹다",
+                "forms": [
+                  "심에 젭다"
+                ],
+                "note": "원문 목록 대응; 조합·중간 과정 추론 없음"
+              },
+              {
+                "usage_ref": "NAMU_PHONOLOGY_20260908-B004-C001.item1",
+                "source_expression": "형아",
+                "forms": [
+                  "시아"
+                ],
+                "note": "☆ [8]"
+              },
+              {
+                "usage_ref": "NAMU_PHONOLOGY_20260908-B004-C001.item2",
+                "source_expression": "형",
+                "forms": [
+                  "세이"
+                ],
+                "note": "☆ [9]"
+              },
+              {
+                "usage_ref": "NAMU_PHONOLOGY_20260908-B004-C001.item3",
+                "source_expression": "혀",
+                "forms": [
+                  "세"
+                ],
+                "note": "원문 목록 대응; 조합·중간 과정 추론 없음"
+              },
+              {
+                "usage_ref": "NAMU_PHONOLOGY_20260908-B004-C001.item4",
+                "source_expression": "혓바닥",
+                "forms": [
+                  "셋바닥"
+                ],
+                "note": "☆"
+              },
+              {
+                "usage_ref": "NAMU_PHONOLOGY_20260908-B004-C001.item5",
+                "source_expression": "불 켜다",
+                "forms": [
+                  "불 서다",
+                  "셔다",
+                  "세다"
+                ],
+                "note": "원문: 불 서다/셔다/세다; 뒤 형태에 불을 임의 복사하지 않음 [10]"
+              }
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C001.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C001.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "동남 방언 문서 맥락만 확인; 세부 분포·전역 공통성 미확보"
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C001.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "실제 조사·발화 시점 미제시; 2026 수정·수집 시각과 구별"
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C001.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_context": "위키 음운 설명·제시 예",
+            "speaker_listener": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C001.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "PDF7 각주8–10 없음; 불 켜다의 ㅎ 구개음화 분류와 중간 과정은 본문만으로 미확정",
+        "실제 화자·현대 자연스러움·생성 우선순위 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C002",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "형태음운"
+      ],
+      "source_terms": [
+        "§1.2.5 ㅅ·ㅆ 무변별의 지역·변화 재인용"
+      ],
+      "target_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C002.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C002.a",
+          "kind": "regional_variant",
+          "target_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C002.usage"
+          ],
+          "content": {
+            "source_analysis": "이상규 논문에 따른 과거 무변별 지역과 어린 화자의 구별 시작. 새그럽다/쌔그럽다는 여린말·센말로 나뉨.",
+            "operational_status": "held",
+            "extractor_interpretation": "원문 명시 범위만 구조화; 미제시 형태소 분석·역변환·전역 치환 없음",
+            "generation_policy": "운영 미승인 초안; 표기 선택·현대 자연스러움 미검증",
+            "attribution": "경북대학교 국어국문학과 이상규 교수의 논문",
+            "original_consulted": false,
+            "source_change": "표준어 단어 유입 뒤 구별 필요; 현재 어린 화자는 구별 시작",
+            "semantic_contrast": {
+              "여린말": "새그럽다",
+              "센말": "쌔그럽다"
+            }
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C002.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C002.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "원문: 경상북도는 대구와 낙동강을 기점으로 동쪽, 경상남도는 남서쪽을 제외한 나머지 동쪽 지역",
+            "exclusive_to_region": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C002.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C002.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "실제 조사·발화 시점 미제시; 2026 수정·수집 시각과 구별"
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C002.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_context": "위키 음운 설명·제시 예",
+            "speaker_listener": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C002.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "PDF7 이상규 논문·관찰시점 미확인; 지역 문장의 경계 모호. 전체 경북/경남·전세대 무변별 규칙 보류",
+        "실제 화자·현대 자연스러움·생성 우선순위 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C003",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "형태음운"
+      ],
+      "source_terms": [
+        "§1.2.5 ㅅ·ㅆ 어휘별 대응 목록"
+      ],
+      "target_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C003.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C003.a",
+          "kind": "pronunciation_variant",
+          "target_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C003.usage"
+          ],
+          "content": {
+            "source_analysis": "싸우다·섞다·썩다·시다의 열거 대응; 표기의 복수형을 자유 교체 가능한 모든 용법으로 일반화하지 않음.",
+            "operational_status": "draft_not_approved",
+            "extractor_interpretation": "원문 명시 범위만 구조화; 미제시 형태소 분석·역변환·전역 치환 없음",
+            "generation_policy": "운영 미승인 초안; 표기 선택·현대 자연스러움 미검증",
+            "semantic_caveat": "새그럽다/쌔그럽다는 여린말/센말; 의미 차이 없는 변이로 취급하지 않음",
+            "entries": [
+              {
+                "usage_ref": "NAMU_PHONOLOGY_20260908-B004-C003.item0",
+                "source_expression": "싸우다",
+                "forms": [
+                  "사우다",
+                  "싸우다"
+                ],
+                "note": "원문 목록 대응; 조합·중간 과정 추론 없음"
+              },
+              {
+                "usage_ref": "NAMU_PHONOLOGY_20260908-B004-C003.item1",
+                "source_expression": "섞다",
+                "forms": [
+                  "섞다",
+                  "썪다"
+                ],
+                "note": "원문 목록 대응; 조합·중간 과정 추론 없음"
+              },
+              {
+                "usage_ref": "NAMU_PHONOLOGY_20260908-B004-C003.item2",
+                "source_expression": "썩다",
+                "forms": [
+                  "석다",
+                  "썩다"
+                ],
+                "note": "원문 목록 대응; 조합·중간 과정 추론 없음"
+              },
+              {
+                "usage_ref": "NAMU_PHONOLOGY_20260908-B004-C003.item3",
+                "source_expression": "시다",
+                "forms": [
+                  "새그럽다",
+                  "쌔그럽다"
+                ],
+                "note": "여린말/센말 차이는 별도 지역·변화 Claim 참조"
+              }
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C003.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C003.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "동남 방언 문서 맥락만 확인; 세부 분포·전역 공통성 미확보"
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C003.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "실제 조사·발화 시점 미제시; 2026 수정·수집 시각과 구별"
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C003.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_context": "위키 음운 설명·제시 예",
+            "speaker_listener": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C003.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [
+        {
+          "type": "qualifies",
+          "target": "NAMU_PHONOLOGY_20260908-B004-C002",
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C003.e"
+          ]
+        }
+      ],
+      "gaps": [
+        "실제 화자·현대 자연스러움·생성 우선순위 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C004",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "형태음운"
+      ],
+      "source_terms": [
+        "§1.2.6 ㅂ·ㅅ 활용과 역사 흔적"
+      ],
+      "target_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C004.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C004.a",
+          "kind": "historical_account",
+          "target_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C004.usage"
+          ],
+          "content": {
+            "source_analysis": "순경음 비읍·반치음 흔적, 덥다→덥어 활용의 동남 방언 특이성, ㅅ 활용·가실은 다른 지역에도 있다는 유보. 용언 활용 유지와 개별 단어 소멸 추세 설명.",
+            "operational_status": "held",
+            "extractor_interpretation": "원문 명시 범위만 구조화; 미제시 형태소 분석·역변환·전역 치환 없음",
+            "generation_policy": "운영 미승인 초안; 표기 선택·현대 자연스러움 미검증",
+            "source_dependencies": [
+              {
+                "source_id": "NAMU_GRAMMAR_20260908",
+                "relation": "cross_reference",
+                "locator": "ㅂ·ㅅ 규칙 활용 문단"
+              }
+            ],
+            "source_example": "덥다 → 덥어",
+            "source_modality": "ㅅ 활용·개개 단어 흔적은 다른 지역에도 꽤 있는 현상인 듯하다",
+            "source_change": "용언 활용은 유지되지만 개개 단어는 표준어 교체로 소멸 추세"
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C004.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C004.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "동남 방언 문서 맥락만 확인; 세부 분포·전역 공통성 미확보"
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C004.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "실제 조사·발화 시점 미제시; 2026 수정·수집 시각과 구별"
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C004.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_context": "위키 음운 설명·제시 예",
+            "speaker_listener": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C004.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "PDF7 문법 문서 교차참조·독립 근거 미확정; 오직 동남 방언이라는 독점성 및 듯하다의 범위 보류",
+        "실제 화자·현대 자연스러움·생성 우선순위 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C005",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "형태음운"
+      ],
+      "source_terms": [
+        "§1.2.6 역사 흔적의 개별 단어 목록"
+      ],
+      "target_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C005.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C005.a",
+          "kind": "pronunciation_variant",
+          "target_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C005.usage"
+          ],
+          "content": {
+            "source_analysis": "역사 흔적의 예로 제시한 여섯 대응을 기록; 현재 우선 어휘 또는 생산적 접미 규칙으로 승격하지 않음.",
+            "operational_status": "draft_not_approved",
+            "extractor_interpretation": "원문 명시 범위만 구조화; 미제시 형태소 분석·역변환·전역 치환 없음",
+            "generation_policy": "운영 미승인 초안; 표기 선택·현대 자연스러움 미검증",
+            "source_usage_caveat": "개개 단어는 표준어 교체로 빠르게 소멸한다는 절의 설명; 실제 관찰 시점 미확보",
+            "entries": [
+              {
+                "usage_ref": "NAMU_PHONOLOGY_20260908-B004-C005.item0",
+                "source_expression": "더위",
+                "forms": [
+                  "덥이"
+                ],
+                "note": "원문 목록 대응; 조합·중간 과정 추론 없음"
+              },
+              {
+                "usage_ref": "NAMU_PHONOLOGY_20260908-B004-C005.item1",
+                "source_expression": "추위",
+                "forms": [
+                  "춥이"
+                ],
+                "note": "원문 목록 대응; 조합·중간 과정 추론 없음"
+              },
+              {
+                "usage_ref": "NAMU_PHONOLOGY_20260908-B004-C005.item2",
+                "source_expression": "구르다",
+                "forms": [
+                  "꾸부르다",
+                  "구불다"
+                ],
+                "note": "원문 목록 대응; 조합·중간 과정 추론 없음"
+              },
+              {
+                "usage_ref": "NAMU_PHONOLOGY_20260908-B004-C005.item3",
+                "source_expression": "눈시울",
+                "forms": [
+                  "눈시불"
+                ],
+                "note": "원문 목록 대응; 조합·중간 과정 추론 없음"
+              },
+              {
+                "usage_ref": "NAMU_PHONOLOGY_20260908-B004-C005.item4",
+                "source_expression": "가을",
+                "forms": [
+                  "가실",
+                  "가슭"
+                ],
+                "note": "원문 목록 대응; 조합·중간 과정 추론 없음"
+              },
+              {
+                "usage_ref": "NAMU_PHONOLOGY_20260908-B004-C005.item5",
+                "source_expression": "겨울",
+                "forms": [
+                  "저슬"
+                ],
+                "note": "원문 목록 대응; 조합·중간 과정 추론 없음"
+              }
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C005.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C005.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "동남 방언 문서 맥락만 확인; 세부 분포·전역 공통성 미확보"
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C005.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "실제 조사·발화 시점 미제시; 2026 수정·수집 시각과 구별"
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C005.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_context": "위키 음운 설명·제시 예",
+            "speaker_listener": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C005.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "실제 화자·현대 자연스러움·생성 우선순위 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C006",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "형태음운"
+      ],
+      "source_terms": [
+        "§1.3 뭐 하려고·인가 보다 축약"
+      ],
+      "target_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C006.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C006.a",
+          "kind": "expression_alternatives",
+          "target_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C006.usage"
+          ],
+          "content": {
+            "source_analysis": "뭐 하려고: 머 할라고 - 말라고, 인가 보다: 인갑다의 구성 전체 대응.",
+            "operational_status": "draft_not_approved",
+            "extractor_interpretation": "원문 명시 범위만 구조화; 미제시 형태소 분석·역변환·전역 치환 없음",
+            "generation_policy": "운영 미승인 초안; 표기 선택·현대 자연스러움 미검증",
+            "source_chains": [
+              [
+                "머 할라고",
+                "말라고"
+              ]
+            ],
+            "reverse_mapping_unique": null,
+            "entries": [
+              {
+                "usage_ref": "NAMU_PHONOLOGY_20260908-B004-C006.item0",
+                "source_expression": "뭐 하려고",
+                "forms": [
+                  "머 할라고",
+                  "말라고"
+                ],
+                "note": "원문 순서 머 할라고 - 말라고"
+              },
+              {
+                "usage_ref": "NAMU_PHONOLOGY_20260908-B004-C006.item1",
+                "source_expression": "인가 보다",
+                "forms": [
+                  "인갑다"
+                ],
+                "note": "원문 목록 대응; 조합·중간 과정 추론 없음"
+              }
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C006.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C006.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "동남 방언 문서 맥락만 확인; 세부 분포·전역 공통성 미확보"
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C006.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "실제 조사·발화 시점 미제시; 2026 수정·수집 시각과 구별"
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C006.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_context": "위키 음운 설명·제시 예",
+            "speaker_listener": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C006.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "실제 화자·현대 자연스러움·생성 우선순위 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C007",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "형태음운"
+      ],
+      "source_terms": [
+        "§1.3 그렇게 하다 경북 우세 축약"
+      ],
+      "target_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C007.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C007.a",
+          "kind": "expression_alternatives",
+          "target_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C007.usage"
+          ],
+          "content": {
+            "source_analysis": "그렇게 하다→글카다 - 그카다, 경북 우세라는 설명.",
+            "operational_status": "draft_not_approved",
+            "extractor_interpretation": "원문 명시 범위만 구조화; 미제시 형태소 분석·역변환·전역 치환 없음",
+            "generation_policy": "운영 미승인 초안; 표기 선택·현대 자연스러움 미검증",
+            "source_chains": [
+              [
+                "글카다",
+                "그카다"
+              ]
+            ],
+            "prevalence_not_exclusive": true,
+            "entries": [
+              {
+                "usage_ref": "NAMU_PHONOLOGY_20260908-B004-C007.item0",
+                "source_expression": "그렇게 하다",
+                "forms": [
+                  "글카다",
+                  "그카다"
+                ],
+                "note": "원문 목록 대응; 조합·중간 과정 추론 없음"
+              }
+            ]
+          },
+          "condition": {
+            "op": "eq",
+            "target": "NAMU_PHONOLOGY_20260908-B004-C007.usage",
+            "feature": "source_construction",
+            "value": "그렇게 하다"
+          }
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C007.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C007.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "경북 우세",
+            "exclusive_to_region": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C007.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C007.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "실제 조사·발화 시점 미제시; 2026 수정·수집 시각과 구별"
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C007.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_context": "위키 음운 설명·제시 예",
+            "speaker_listener": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C007.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "실제 화자·현대 자연스러움·생성 우선순위 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C008",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "형태음운"
+      ],
+      "source_terms": [
+        "§1.3 그러다·그러하다·긇다"
+      ],
+      "target_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C008.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C008.a",
+          "kind": "expression_alternatives",
+          "target_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C008.usage"
+          ],
+          "content": {
+            "source_analysis": "그러다: 그러하다 - 긇다 <경상도 전역>이라는 목록.",
+            "operational_status": "held",
+            "extractor_interpretation": "원문 명시 범위만 구조화; 미제시 형태소 분석·역변환·전역 치환 없음",
+            "generation_policy": "운영 미승인 초안; 표기 선택·현대 자연스러움 미검증",
+            "source_chains": [
+              [
+                "그러하다",
+                "긇다"
+              ]
+            ],
+            "regional_scope_basis": "원문 전역 표시는 이 항목에 한정",
+            "entries": [
+              {
+                "usage_ref": "NAMU_PHONOLOGY_20260908-B004-C008.item0",
+                "source_expression": "그러다",
+                "forms": [
+                  "그러하다",
+                  "긇다"
+                ],
+                "note": "원문 목록 대응; 조합·중간 과정 추론 없음"
+              }
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C008.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C008.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "경상도 전역(원문 명시)",
+            "exclusive_to_region": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C008.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C008.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "실제 조사·발화 시점 미제시; 2026 수정·수집 시각과 구별"
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C008.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_context": "위키 음운 설명·제시 예",
+            "speaker_listener": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C008.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "PDF7 각주11 본문 없음; 그러다/그러하다의 의미별 범위와 긇다의 활용 분석 미확정",
+        "실제 화자·현대 자연스러움·생성 우선순위 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C009",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "형태음운"
+      ],
+      "source_terms": [
+        "§1.3 그러다의 카다·그라다 지역표시"
+      ],
+      "target_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C009.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C009.a",
+          "kind": "regional_variant",
+          "target_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C009.usage"
+          ],
+          "content": {
+            "source_analysis": "카다는 경북 우세, 그라다는 경상도 전역으로 표시. 같은 표제라는 이유로 인용·행위 모든 의미를 합치지 않음.",
+            "operational_status": "held",
+            "extractor_interpretation": "원문 명시 범위만 구조화; 미제시 형태소 분석·역변환·전역 치환 없음",
+            "generation_policy": "운영 미승인 초안; 표기 선택·현대 자연스러움 미검증",
+            "regional_entries": [
+              {
+                "form": "카다",
+                "source_scope": "경북 우세"
+              },
+              {
+                "form": "그라다",
+                "source_scope": "경상도 전역"
+              }
+            ],
+            "sense_partition": null,
+            "entries": [
+              {
+                "usage_ref": "NAMU_PHONOLOGY_20260908-B004-C009.item0",
+                "source_expression": "그러다",
+                "forms": [
+                  "카다"
+                ],
+                "note": "경북 우세"
+              },
+              {
+                "usage_ref": "NAMU_PHONOLOGY_20260908-B004-C009.item1",
+                "source_expression": "그러다",
+                "forms": [
+                  "그라다"
+                ],
+                "note": "경상도 전역"
+              }
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C009.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C009.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "동남 방언 문서 맥락만 확인; 세부 분포·전역 공통성 미확보"
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C009.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "실제 조사·발화 시점 미제시; 2026 수정·수집 시각과 구별"
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C009.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_context": "위키 음운 설명·제시 예",
+            "speaker_listener": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C009.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "PDF8 그러다의 의미·용법별 범위와 카다/그라다 대체 조건 미제시; 지역표시만으로 무조건 치환 보류",
+        "실제 화자·현대 자연스러움·생성 우선순위 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C010",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "형태음운"
+      ],
+      "source_terms": [
+        "§1.3 -라고 하다 인용 축약 라카다"
+      ],
+      "target_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C010.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C010.a",
+          "kind": "conditional_correspondence",
+          "target_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C010.usage"
+          ],
+          "content": {
+            "source_analysis": "인용 구성 -라고 하다→-라카다, 경상도 전역이라고 명시.",
+            "operational_status": "draft_not_approved",
+            "extractor_interpretation": "원문 명시 범위만 구조화; 미제시 형태소 분석·역변환·전역 치환 없음",
+            "generation_policy": "운영 미승인 초안; 표기 선택·현대 자연스러움 미검증",
+            "source_scope_caveat": "여기 명시된 인용 구성의 대응; 다른 인용어미·시제별 패러다임은 미제시",
+            "entries": [
+              {
+                "usage_ref": "NAMU_PHONOLOGY_20260908-B004-C010.item0",
+                "source_expression": "-라고 하다",
+                "forms": [
+                  "-라카다"
+                ],
+                "note": "원문 목록 대응; 조합·중간 과정 추론 없음"
+              }
+            ]
+          },
+          "condition": {
+            "op": "eq",
+            "target": "NAMU_PHONOLOGY_20260908-B004-C010.usage",
+            "feature": "source_construction",
+            "value": "-라고 하다"
+          }
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C010.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C010.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "경상도 전역(원문 명시)",
+            "exclusive_to_region": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C010.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C010.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "실제 조사·발화 시점 미제시; 2026 수정·수집 시각과 구별"
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C010.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_context": "위키 음운 설명·제시 예",
+            "speaker_listener": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C010.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "실제 화자·현대 자연스러움·생성 우선순위 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C011",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "형태음운"
+      ],
+      "source_terms": [
+        "§1.3 -라고 하다 인용 축약 라쿠다"
+      ],
+      "target_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C011.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C011.a",
+          "kind": "conditional_correspondence",
+          "target_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C011.usage"
+          ],
+          "content": {
+            "source_analysis": "인용 구성 -라고 하다→-라쿠다, 경남 서부/중부 대부분이라는 설명.",
+            "operational_status": "draft_not_approved",
+            "extractor_interpretation": "원문 명시 범위만 구조화; 미제시 형태소 분석·역변환·전역 치환 없음",
+            "generation_policy": "운영 미승인 초안; 표기 선택·현대 자연스러움 미검증",
+            "exclusive_to_region": null,
+            "entries": [
+              {
+                "usage_ref": "NAMU_PHONOLOGY_20260908-B004-C011.item0",
+                "source_expression": "-라고 하다",
+                "forms": [
+                  "-라쿠다"
+                ],
+                "note": "원문 목록 대응; 조합·중간 과정 추론 없음"
+              }
+            ]
+          },
+          "condition": {
+            "op": "eq",
+            "target": "NAMU_PHONOLOGY_20260908-B004-C011.usage",
+            "feature": "source_construction",
+            "value": "-라고 하다"
+          }
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C011.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C011.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "경남 서부/중부 대부분",
+            "exclusive_to_region": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C011.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C011.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "실제 조사·발화 시점 미제시; 2026 수정·수집 시각과 구별"
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C011.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_context": "위키 음운 설명·제시 예",
+            "speaker_listener": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C011.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "실제 화자·현대 자연스러움·생성 우선순위 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C012",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "형태음운"
+      ],
+      "source_terms": [
+        "§1.3 경북 북동부 인용 축약 옛한글"
+      ],
+      "target_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C012.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C012.a",
+          "kind": "conditional_correspondence",
+          "target_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C012.usage"
+          ],
+          "content": {
+            "source_analysis": "경북 북동부의 인용 축약 항목. pdftotext의 결합 자모와 렌더링 글리프가 확정 대조되지 않아 원추출 문자열만 보존.",
+            "operational_status": "held",
+            "extractor_interpretation": "원문 명시 범위만 구조화; 미제시 형태소 분석·역변환·전역 치환 없음",
+            "generation_policy": "운영 미승인 초안; 표기 선택·현대 자연스러움 미검증",
+            "raw_pdftotext": "-라거ᇹ다",
+            "source_expression": "-라고 하다",
+            "visual_checked": true
+          },
+          "condition": {
+            "op": "eq",
+            "target": "NAMU_PHONOLOGY_20260908-B004-C012.usage",
+            "feature": "source_construction",
+            "value": "-라고 하다"
+          }
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C012.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C012.region",
+          "dimension": "region",
+          "value": {
+            "source_scope": "경북 북동부",
+            "exclusive_to_region": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C012.e"
+          ],
+          "missing_reason": null
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C012.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "실제 조사·발화 시점 미제시; 2026 수정·수집 시각과 구별"
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C012.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_context": "위키 음운 설명·제시 예",
+            "speaker_listener": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C012.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "PDF8 -라거ᇹ다 텍스트와 PDF 옛한글 글리프의 정확한 대응 미확정; 현대 철자로 정규화하지 않고 운영 보류",
+        "실제 화자·현대 자연스러움·생성 우선순위 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C013",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "형태음운"
+      ],
+      "source_terms": [
+        "§1.3 어이하니·어찌하니 축약과 지역"
+      ],
+      "target_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C013.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C013.a",
+          "kind": "expression_alternatives",
+          "target_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C013.usage"
+          ],
+          "content": {
+            "source_analysis": "어이하니: 우얘 하노 - 우야노(경북 우세); 어찌하니: 우찌 하노 - 우짜노(경상 전역).",
+            "operational_status": "draft_not_approved",
+            "extractor_interpretation": "원문 명시 범위만 구조화; 미제시 형태소 분석·역변환·전역 치환 없음",
+            "generation_policy": "운영 미승인 초안; 표기 선택·현대 자연스러움 미검증",
+            "source_chains": [
+              [
+                "우얘 하노",
+                "우야노"
+              ],
+              [
+                "우찌 하노",
+                "우짜노"
+              ]
+            ],
+            "regional_entries": [
+              {
+                "source_expression": "어이하니",
+                "source_scope": "경북 우세"
+              },
+              {
+                "source_expression": "어찌하니",
+                "source_scope": "경상 전역"
+              }
+            ],
+            "entries": [
+              {
+                "usage_ref": "NAMU_PHONOLOGY_20260908-B004-C013.item0",
+                "source_expression": "어이하니",
+                "forms": [
+                  "우얘 하노",
+                  "우야노"
+                ],
+                "note": "경북 우세"
+              },
+              {
+                "usage_ref": "NAMU_PHONOLOGY_20260908-B004-C013.item1",
+                "source_expression": "어찌하니",
+                "forms": [
+                  "우찌 하노",
+                  "우짜노"
+                ],
+                "note": "경상 전역"
+              }
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C013.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C013.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "동남 방언 문서 맥락만 확인; 세부 분포·전역 공통성 미확보"
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C013.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "실제 조사·발화 시점 미제시; 2026 수정·수집 시각과 구별"
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C013.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_context": "위키 음운 설명·제시 예",
+            "speaker_listener": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C013.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "실제 화자·현대 자연스러움·생성 우선순위 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C014",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "형태음운"
+      ],
+      "source_terms": [
+        "§1.3 여러 구성의 복합 축약 예문"
+      ],
+      "target_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C014.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C014.a",
+          "kind": "paired_source_examples",
+          "target_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C014.usage"
+          ],
+          "content": {
+            "source_analysis": "그 애가 '뭐 하러 그렇게 하라고 하냐' 그런다의 두 방언 대응을 제시. 전체 문장과 인용 경계를 보존.",
+            "operational_status": "held",
+            "extractor_interpretation": "원문 명시 범위만 구조화; 미제시 형태소 분석·역변환·전역 치환 없음",
+            "generation_policy": "운영 미승인 초안; 표기 선택·현대 자연스러움 미검증",
+            "source_quote_boundary_preserved": true,
+            "reverse_mapping_unique": null,
+            "entries": [
+              {
+                "usage_ref": "NAMU_PHONOLOGY_20260908-B004-C014.item0",
+                "source_expression": "그 애가 '뭐 하러 그렇게 하라고 하냐' 그런다",
+                "forms": [
+                  "그 아가 '머 할라 그케 하라고 하노' 그란다",
+                  "가가 '말라그카라카노' 칸다"
+                ],
+                "note": "원문 목록 대응; 조합·중간 과정 추론 없음"
+              }
+            ]
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C014.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C014.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "동남 방언 문서 맥락만 확인; 세부 분포·전역 공통성 미확보"
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C014.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "실제 조사·발화 시점 미제시; 2026 수정·수집 시각과 구별"
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C014.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_context": "위키 음운 설명·제시 예",
+            "speaker_listener": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C014.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "PDF8 구성 내부의 형태소 경계·단계별 축약·지역 조합 미분석; 개별 치환의 연쇄 정답으로 사용 보류",
+        "실제 화자·현대 자연스러움·생성 우선순위 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908-B004-C015",
+      "record_type": "grammatical_assertion",
+      "categories": [
+        "형태음운"
+      ],
+      "source_terms": [
+        "§2 운소·중세 한국어 성조형 대응"
+      ],
+      "target_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C015.usage"
+      ],
+      "assertions": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C015.a",
+          "kind": "prosodic_contrast",
+          "target_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C015.usage"
+          ],
+          "content": {
+            "source_analysis": "악센트가 중세 한국어와 대부분 규칙적으로 대응하며 성조형 일치로도 표현된다고 서술; 다른 문서 참조.",
+            "operational_status": "held",
+            "extractor_interpretation": "원문 명시 범위만 구조화; 미제시 형태소 분석·역변환·전역 치환 없음",
+            "generation_policy": "운영 미승인 초안; 표기 선택·현대 자연스러움 미검증",
+            "source_cross_reference": "한국어의 방언/초분절 음소",
+            "source_modality": "대부분 규칙적으로 대응",
+            "tone_values": null
+          },
+          "condition": null
+        }
+      ],
+      "evidence_refs": [
+        "NAMU_PHONOLOGY_20260908-B004-C015.e"
+      ],
+      "annotations": [
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C015.region",
+          "dimension": "region",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "동남 방언 문서 맥락만 확인; 세부 분포·전역 공통성 미확보"
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C015.utterance_period",
+          "dimension": "utterance_period",
+          "value": null,
+          "basis": "not_established",
+          "evidence_refs": [],
+          "missing_reason": "실제 조사·발화 시점 미제시; 2026 수정·수집 시각과 구별"
+        },
+        {
+          "id": "NAMU_PHONOLOGY_20260908-B004-C015.usage_context",
+          "dimension": "usage_context",
+          "value": {
+            "source_context": "위키 음운 설명·제시 예",
+            "speaker_listener": null
+          },
+          "basis": "source_statement",
+          "evidence_refs": [
+            "NAMU_PHONOLOGY_20260908-B004-C015.e"
+          ],
+          "missing_reason": null
+        }
+      ],
+      "relations": [],
+      "gaps": [
+        "PDF8 초분절 문서 내용·대응표·개별 성조 값 미확보; 완전한 성조·음성 생성 규칙으로 변환 불가",
+        "실제 화자·현대 자연스러움·생성 우선순위 미검증"
+      ],
+      "review": {
+        "format": "user_accepted",
+        "linguistic_truth": "not_human_verified",
+        "extraction": "draft"
+      }
+    }
+  ],
+  "policies": []
+}

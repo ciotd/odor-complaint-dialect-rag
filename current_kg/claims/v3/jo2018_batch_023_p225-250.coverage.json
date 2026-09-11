@@ -1,0 +1,319 @@
+{
+  "batch_id": "JO2018-B023",
+  "source_id": "JO2018",
+  "status": "partial_source_extraction",
+  "body_pages": [
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250
+  ],
+  "units": [
+    {
+      "location": "PDF225 / 결론 -ㄹ낀데의 명시 구성 도식 보충",
+      "claim_ids": [
+        "JO2018-B023-C001"
+      ],
+      "hold": "저자의 문법화 분석이며 원 역사 자료 미확인; 명시 도식 보존만 수행"
+    }
+  ],
+  "page_dispositions": [
+    {
+      "page": 225,
+      "status": "extracted",
+      "claim_ids": [
+        "JO2018-B023-C001"
+      ],
+      "reason": "결론 목적·방법·체계 요약 읽음; 기존 중복을 제외하고 ㄹ낀데의 명시 구성 도식만 보류 Claim으로 보충."
+    },
+    {
+      "page": 226,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "결론 둘째–여섯째 전체 읽음; 분포·혼용·수의 결합·어휘 제한·겠세는 앞 배치 반복이므로 맥락, 통계 생성 미전환."
+    },
+    {
+      "page": 227,
+      "status": "held",
+      "claim_ids": [],
+      "reason": "결론 현대 비교 유보 및 표57 전반 이미지 확인. 요약표 전체 셀 구조화 보류, 본문 유보 유지."
+    },
+    {
+      "page": 228,
+      "status": "held",
+      "claim_ids": [],
+      "reason": "표57 후반 이미지·전쪽 서술행 계속 확인. 비율 제외, 지역 병합셀과 문장유형 상충의 전수 구조화 보류."
+    },
+    {
+      "page": 229,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "구술자료 대계 7-1~18의 서지와 단행본 첫부분 읽음. 책 발행연도와 조사/발화연도 구별."
+    },
+    {
+      "page": 230,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "단행본 고영근–남기심 목록 읽음; 서지만으로 문법 Claim 생성 안 함."
+    },
+    {
+      "page": 231,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "단행본 남기심–이태영 목록 읽음; 서지 맥락."
+    },
+    {
+      "page": 232,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "전쪽 이태영 계속·전광현–소창진평 단행본 목록 읽음; 서지 맥락."
+    },
+    {
+      "page": 233,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "단행본 끝·논문 강신항–고영근 목록 읽음; 인용 제목을 주장으로 처리하지 않음."
+    },
+    {
+      "page": 234,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "고영근 계속·곽충구–김병선 논문 목록 읽음; 서지 맥락."
+    },
+    {
+      "page": 235,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "김병선 전쪽 항목 계속·김정대까지 논문 목록 읽음; 서지 맥락."
+    },
+    {
+      "page": 236,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "김정대 계속·김정인–김태엽2004 논문 목록 읽음; 서지 맥락."
+    },
+    {
+      "page": 237,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "김태엽2004 계속–남경란2004 목록 읽음; 서지 맥락."
+    },
+    {
+      "page": 238,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "남명옥–배대온 목록 읽음; 끝 항목은 다음쪽 연결."
+    },
+    {
+      "page": 239,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "배대온 계속–소강춘 논문 목록 읽음; 서지 맥락."
+    },
+    {
+      "page": 240,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "소강춘 계속–심우장2001ㄴ 목록 읽음; 서지 맥락."
+    },
+    {
+      "page": 241,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "안귀남–유두영 목록 읽음; 유두영 제목 다음쪽 연결."
+    },
+    {
+      "page": 242,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "유두영 계속–이문규1998 목록 읽음; 서지 맥락."
+    },
+    {
+      "page": 243,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "이문규 계속–이상민 목록 읽음; 서지 맥락."
+    },
+    {
+      "page": 244,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "이숭녕–이태욱1986 목록 읽음; 끝 다음쪽 연결."
+    },
+    {
+      "page": 245,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "이태욱 학위 계속·이혁화–임지룡 목록 읽음; 서지 맥락."
+    },
+    {
+      "page": 246,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "장덕순–정인상 목록 읽음; 서지 맥락."
+    },
+    {
+      "page": 247,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "정철주·최임식–최동주2000 목록 읽음; 끝 다음쪽 연결."
+    },
+    {
+      "page": 248,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "최동주2000 계속–최학근1965 목록 읽음; 끝 다음쪽 연결."
+    },
+    {
+      "page": 249,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "최학근 계속·허재영–황적륜 참고문헌 마지막까지 읽음; 서지 맥락."
+    },
+    {
+      "page": 250,
+      "status": "context_only",
+      "claim_ids": [],
+      "reason": "부록1 조사 지역·제보자 표 및 부록2 연령표 전부 읽고 이미지 확인. 표본 맥락·연령 합계 오류 보존; 세대별 문법 주장 미생성."
+    }
+  ],
+  "source_context": {
+    "corpus_period_basis": {
+      "page": 29,
+      "excerpt": "1978년부터 1984년 사이에 조사된 내용을 싣고 있다.",
+      "publication_year": 2018,
+      "individual_utterance_date": null,
+      "note": "자료 전체 조사기간. 재인용 연구 시점이나 개별 발화연도로 자동 전파하지 않음."
+    },
+    "conclusion_comparison": {
+      "225": "데이 설명의문 단일 예의 기존 B014-C015 유보를 요약만으로 해제하지 않음",
+      "226": "니더/니꺼 지역 대립·혼용, 이소/시소 수의 결합, 도/오 어휘 제한, 겠세 역사 과정은 이전 Claim과 중복 추출하지 않음",
+      "227": "것가 분석은 B014-C002에 중복하지 않음. 저자가 현대 비교를 향후 과제로 남김; 2018 발행과 대계 조사기간 구별",
+      "228": "표57 계속: 첫 거든예/께예는 전쪽 서술법 행의 계속임을 이미지 확인. 본문 명령·청유 유보를 요약표가 해소하지 않음"
+    },
+    "appendix2_sample_context": {
+      "pdf_page": 250,
+      "kind": "sample_description_not_generation",
+      "age_columns": [
+        "20대",
+        "30대",
+        "40대",
+        "50대",
+        "60대",
+        "70대",
+        "80대",
+        "90대"
+      ],
+      "male": [
+        null,
+        3,
+        22,
+        49,
+        153,
+        127,
+        28,
+        null
+      ],
+      "female": [
+        1,
+        1,
+        4,
+        42,
+        107,
+        102,
+        15,
+        1
+      ],
+      "printed_age_totals": [
+        1,
+        4,
+        26,
+        91,
+        259,
+        229,
+        43,
+        1
+      ],
+      "printed_sex_totals": [
+        381,
+        273
+      ],
+      "printed_total": 654,
+      "missing_mark": "원문 －; 0으로 대입하지 않음",
+      "note": "불일치 보존; 개별 예의 세대나 현대 사용분포 아님"
+    }
+  },
+  "open_items": [
+    {
+      "location": "PDF225",
+      "issue": "저자의 문법화 분석이며 원 역사 자료 미확인; 명시 도식 보존만 수행",
+      "claim_id": "JO2018-B023-C001"
+    },
+    {
+      "location": "PDF227–228 표57",
+      "issue": "최종 요약표는 기존 절들의 반복이나 동서 병합셀을 지역 배타 조건으로 해석할 수 없고, 래/지러 중복·제예/지예·시요/ㅂ시요 및 부재 서술 불일치가 남음. 원표 전체 읽고 이미지 확인했으나 전체 셀의 생성 관계 구조화는 보류. 비율은 맥락에만 둠.",
+      "claim_id": null
+    },
+    {
+      "location": "PDF250 부록2",
+      "issue": "60대 남153+여107=260이나 합계259로 기재; 남자 세대 합382이나 총381. 원 수치를 정정하거나 발화 세대 조건으로 적용하지 않음.",
+      "claim_id": null
+    }
+  ],
+  "audit": {
+    "text_read": true,
+    "pdftotext_layout": true,
+    "pdf_pages_visually_checked": [
+      227,
+      228,
+      250
+    ],
+    "independent_reviewer": false
+  },
+  "validation": {
+    "passed": true,
+    "commands": [
+      "python3 current_kg/claims/v3/check_batch.py",
+      "python3 current_kg/design_probe/probe.py",
+      "python3 current_kg/design_probe/coverage_check.py",
+      "python3 current_kg/claims/v3/check_all_v3.py --check-receipt",
+      "python3 current_kg/claims/v3/check_honorifics.py",
+      "python3 current_kg/claims/v3/check_phonology.py",
+      "python3 current_kg/claims/v3/check_overview.py",
+      "python3 current_kg/claims/v3/check_ryu2014.py",
+      "git diff --check",
+      "python3 current_kg/claims/v3/check_jo2018.py",
+      "python3 current_kg/claims/v3/check_jo2018.py --export",
+      "python3 current_kg/claims/v3/check_jo2018.py --check-saved",
+      "python3 current_kg/claims/v3/check_jo2018.py --check-saved --check-receipt"
+    ],
+    "scope": "구조·참조·실제 원문 근거·조건·회귀·저장 그래프 재구성. 문헌 정답·현대 자연스러움·운영 생성 승인이 아님.",
+    "all_source_pages_reviewed": true,
+    "extraction_holds_remain": true,
+    "jo_check_count": 65,
+    "saved_graph_reconstructed": true,
+    "receipt_checked": true
+  }
+}

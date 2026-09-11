@@ -1,0 +1,32 @@
+{
+  "kind": "connection_and_generation_smoke_not_evaluation",
+  "started_at": "2026-09-11T06:26:54.225253+00:00",
+  "settings_source": "archive/v2_failed/src/run_ablation.py",
+  "settings_source_sha256": "33fe74c024c98d4ff3aa5a1a7777125ae31be33f98be7de0b0eea622eeff35b2",
+  "script_sha256": "e539f8e248b25373aed6481a6c3f9dca66d6eb87db296d9b1bc277c7fa37cfbd",
+  "endpoint": "http://210.91.154.131:20443/deployment/h62c653382d33577c908af03fdb2c62b2/v1/chat/completions",
+  "request": {
+    "model": "Qwen3.8-27B",
+    "messages": [
+      {
+        "role": "system",
+        "content": "너는 표준 한국어를 경상북도(경북) 방언으로 바꾸는 변환기다. 의미는 그대로 두고 방언 문장 한 줄만 출력한다."
+      },
+      {
+        "role": "user",
+        "content": "다음 표준어 문장을 방언으로 바꿔라.\n오늘은 시간이 없어서 내일 다시 갈게."
+      }
+    ],
+    "max_tokens": 120,
+    "temperature": 0.3,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "input": "오늘은 시간이 없어서 내일 다시 갈게.",
+  "kg_used": false,
+  "status": "failed",
+  "error_type": "URLError",
+  "elapsed_seconds": 0.488,
+  "ended_at": "2026-09-11T06:26:54.714332+00:00"
+}

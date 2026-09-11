@@ -1,0 +1,152 @@
+{
+  "source_id": "NAMU_PHONOLOGY_20260908",
+  "status": "extracted_with_holds",
+  "bundles": [
+    "current_kg/claims/v3/namu_phonology_batch_001_p01-02.json",
+    "current_kg/claims/v3/namu_phonology_batch_002_p03-04.json",
+    "current_kg/claims/v3/namu_phonology_batch_003_p05-06.json",
+    "current_kg/claims/v3/namu_phonology_batch_004_p07-08.json"
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "status": "extracted",
+      "reason": "제목·수정시각·분류·목차는 맥락. 모음체계 개관 및 대구 세대별 구별 재인용을 추출; 각주1 미수록·논문 미확인으로 운영 보류. 2쪽 계속 설명과 결합하여 전역 합류 과잉 적용 차단.",
+      "claim_ids": [
+        "NAMU_PHONOLOGY_20260908-B001-C001",
+        "NAMU_PHONOLOGY_20260908-B001-C002"
+      ]
+    },
+    {
+      "page": 2,
+      "status": "extracted",
+      "reason": "ㅓ/ㅡ 합류의 지역·시기 예외, 초성 있는 ㅕ 단모음화와 영남 반례, 일부 ㅟ, 전설모음화 및 -는데 예외·굳어진 용언 처리. 표기 권고·방언연속체 설명은 맥락; 각주2·재인용·역사/불명확한 대응 보류.",
+      "claim_ids": [
+        "NAMU_PHONOLOGY_20260908-B001-C001",
+        "NAMU_PHONOLOGY_20260908-B001-C003",
+        "NAMU_PHONOLOGY_20260908-B001-C004",
+        "NAMU_PHONOLOGY_20260908-B001-C005",
+        "NAMU_PHONOLOGY_20260908-B001-C006",
+        "NAMU_PHONOLOGY_20260908-B001-C007",
+        "NAMU_PHONOLOGY_20260908-B001-C008",
+        "NAMU_PHONOLOGY_20260908-B001-C009"
+      ]
+    },
+    {
+      "page": 3,
+      "status": "extracted",
+      "reason": "자음동화 표 6행, 인사 표기, 선택적 ㄴ 탈락 본문 및 표 앞 7행 처리. 동화 일반환경·최명옥 원자료·각주3–5 보류. ㄴ 표는 4쪽 뒤 5행·기호 표와 통합하여 중복 없이 저장.",
+      "claim_ids": [
+        "NAMU_PHONOLOGY_20260908-B002-C001",
+        "NAMU_PHONOLOGY_20260908-B002-C002",
+        "NAMU_PHONOLOGY_20260908-B002-C003"
+      ]
+    },
+    {
+      "page": 4,
+      "status": "extracted",
+      "reason": "ㄴ 표 뒤 5행 및 기호1/2 전체 12행 확인·통합. 받침 ㅇ/ㄴ 탈락과 5쪽 계속표 총6행 저장. 기호 선택은 출처 표기 맥락. 북부 조사 -에 동화의 입을 크게 벌리는 단어 조건·지역 경계 보류.",
+      "claim_ids": [
+        "NAMU_PHONOLOGY_20260908-B002-C002",
+        "NAMU_PHONOLOGY_20260908-B002-C004",
+        "NAMU_PHONOLOGY_20260908-B002-C005"
+      ]
+    },
+    {
+      "page": 5,
+      "status": "extracted",
+      "reason": "상단은 B002 받침 탈락 표 계속으로 처리. ㅎ 표3행·ㄱ 표 앞14행 및 필요에 따른 비탈락 보존. ㄱ 표 마지막 먹어는 6쪽과 연결. 한 셀의 복수 입력·출력 일대일 정렬은 보류하고 원문 셀을 보존.",
+      "claim_ids": [
+        "NAMU_PHONOLOGY_20260908-B002-C004",
+        "NAMU_PHONOLOGY_20260908-B002-C005",
+        "NAMU_PHONOLOGY_20260908-B003-C001",
+        "NAMU_PHONOLOGY_20260908-B003-C002"
+      ]
+    },
+    {
+      "page": 6,
+      "status": "extracted",
+      "reason": "ㄱ 표 마지막 먹어, ㄷ 표1행·ㄹ 표6행·-하다 표3행, 구개음화 세대 단서와 기→지 예6개 처리. 빈칸14개(전체 표 합계)는 미제시로 유지. ㄹ 환경·유기음소화 명칭 분석·각주6–7·세대 자료 보류; 히→시 예는 7쪽과 연결.",
+      "claim_ids": [
+        "NAMU_PHONOLOGY_20260908-B003-C002",
+        "NAMU_PHONOLOGY_20260908-B003-C003",
+        "NAMU_PHONOLOGY_20260908-B003-C004",
+        "NAMU_PHONOLOGY_20260908-B003-C005",
+        "NAMU_PHONOLOGY_20260908-B003-C006",
+        "NAMU_PHONOLOGY_20260908-B003-C007",
+        "NAMU_PHONOLOGY_20260908-B004-C001"
+      ]
+    },
+    {
+      "page": 7,
+      "status": "extracted",
+      "reason": "히→시 예6개와 ☆세대 예외, ㅅ/ㅆ 지역·세대 변화와 의미 차이, ㅂ/ㅅ 역사·용언/개별단어 구별, 준말 앞4항 처리. 문법 문서 교차참조를 의존성으로 보존. 재인용·각주8–11·긇다 범위·역사 독점성 보류.",
+      "claim_ids": [
+        "NAMU_PHONOLOGY_20260908-B003-C006",
+        "NAMU_PHONOLOGY_20260908-B004-C001",
+        "NAMU_PHONOLOGY_20260908-B004-C002",
+        "NAMU_PHONOLOGY_20260908-B004-C003",
+        "NAMU_PHONOLOGY_20260908-B004-C004",
+        "NAMU_PHONOLOGY_20260908-B004-C005",
+        "NAMU_PHONOLOGY_20260908-B004-C006",
+        "NAMU_PHONOLOGY_20260908-B004-C007",
+        "NAMU_PHONOLOGY_20260908-B004-C008"
+      ]
+    },
+    {
+      "page": 8,
+      "status": "extracted",
+      "reason": "준말 계속8항의 구성 전체 대응·지역 범위 저장. 경북 북동부 옛한글과 복합 인용문 분석, 그러다 의미 구분, 성조 대응 자료는 보류. 운소 본문을 읽어 보류 Claim으로 보존; 라이선스·편집 안내는 맥락. 외부 링크 본문은 미확보.",
+      "claim_ids": [
+        "NAMU_PHONOLOGY_20260908-B004-C009",
+        "NAMU_PHONOLOGY_20260908-B004-C010",
+        "NAMU_PHONOLOGY_20260908-B004-C011",
+        "NAMU_PHONOLOGY_20260908-B004-C012",
+        "NAMU_PHONOLOGY_20260908-B004-C013",
+        "NAMU_PHONOLOGY_20260908-B004-C014",
+        "NAMU_PHONOLOGY_20260908-B004-C015"
+      ]
+    }
+  ],
+  "claim_count": 36,
+  "validation": {
+    "passed": true,
+    "commands": [
+      "python3 current_kg/claims/v3/check_batch.py",
+      "python3 current_kg/design_probe/probe.py",
+      "python3 current_kg/design_probe/coverage_check.py",
+      "python3 current_kg/claims/v3/check_all_v3.py --check-receipt",
+      "python3 current_kg/claims/v3/check_phonology.py --export",
+      "python3 current_kg/claims/v3/check_honorifics.py --check-receipt",
+      "python3 current_kg/claims/v3/check_phonology.py --check-receipt"
+    ]
+  },
+  "open_issues": [
+    "PDF [1, 2]: §1.1.1 모음 체계·ㅓ/ㅡ 합류: PDF1–2 각주1·2 본문 없음; 전역 무구별 설명에 지역·세대 반례가 있어 전역 생성 규칙 보류",
+    "PDF [1]: §1.1.1 대구 세대별 ㅓ/ㅡ 구별 재인용: PDF1 논문 서지·조사시점·원자료 미확인",
+    "PDF [2]: §1.1.1 경북 서·북부 구별 재인용: PDF2 이상규 원자료·아주 예전의 연대 미확인; 옛 지명 현대 행정구역으로 치환하지 않음",
+    "PDF [2]: §1.1.1 진주 이서 모음 변화: PDF2 역사·인과 설명의 원자료 및 이후 관찰 종료시점 미제시",
+    "PDF [2]: §1.1.2 ㅚ·ㅟ의 이중모음/단모음: PDF2 각각의 이중모음 실현·지역·환경·두 입력과 출력의 명시 개별 대응 부족; 자동 매핑 보류",
+    "PDF [2]: §1.1.3 전설모음화·-는데 예외: PDF2 일부 모음의 적용 범위·인과 분석 불충분; 문장 전체 대응을 단일 모음 치환으로 분해하지 않음",
+    "PDF1–2 각주1·2: 각주 표지만 있고 본문 없음; 링크 확인·추정 안 함",
+    "PDF [3]: §1.2.1 자음동화 목록과 발음표: PDF3 최명옥 원자료 미확인; 변화별 인접환경 미제시, 각주3·4 없음. 표는 원문 발음 대응으로만 보존",
+    "PDF [3]: §1.2.1 인사 표현의 형태소 표기와 동화 발음: PDF3 각주5 본문 없음; 인사 발음의 세부 조건은 미확보",
+    "PDF [4, 5]: §1.2.2 북부의 조사 -에 모음 동화: PDF4–5 입을 크게 벌리는 단어의 음운 부류 불명확; 북부 범위와 개별 표 행의 지역 귀속 미확보",
+    "PDF3 각주3–5: 표지 외 본문 없음; 학계 표기 선호 일반론의 원자료도 미확인",
+    "PDF [6]: §1.2.3 ㄹ 탈락 표: PDF6 ㄹ 탈락의 공통 결합환경·괄호 선택 조건 미제시; 살고 비모음 분석도 불명확. 표의 개별 대응은 보존",
+    "PDF [6]: §1.2.3 -하다의 ㅎ 비실현과 지역: PDF6 유기음소화라는 명칭과 제시 발음 관계 분석 미확정; 각주6 없음. 일반 자음 결합 규칙으로 확대 보류",
+    "PDF [6, 7]: §1.2.4 ㄱ·ㅎ 구개음화의 세대 제한: PDF6–7 세대 비교 조사시점·자료 미확보; 소멸 예측 및 일괄 연령 금지 규칙 보류",
+    "PDF [6]: §1.2.4 기→지 목록·겨누다 예외표시: PDF6 각주7·세대 조사 미확인; 원문 표제 기→지를 모든 ㄱ에 확대하지 않음",
+    "PDF5 ㄱ 탈락 표 이게/요게·저게/조게·그게/고게 등: 한 셀 대응군의 개별 일대일 정렬·생략된 준말 보류; 전체 행은 저장",
+    "PDF6 각주6·7: 각주 본문 미수록",
+    "PDF [6, 7]: §1.2.4 히→시 목록·세대 예외표시: PDF7 각주8–10 없음; 불 켜다의 ㅎ 구개음화 분류와 중간 과정은 본문만으로 미확정",
+    "PDF [7]: §1.2.5 ㅅ·ㅆ 무변별의 지역·변화 재인용: PDF7 이상규 논문·관찰시점 미확인; 지역 문장의 경계 모호. 전체 경북/경남·전세대 무변별 규칙 보류",
+    "PDF [7]: §1.2.6 ㅂ·ㅅ 활용과 역사 흔적: PDF7 문법 문서 교차참조·독립 근거 미확정; 오직 동남 방언이라는 독점성 및 듯하다의 범위 보류",
+    "PDF [7]: §1.3 그러다·그러하다·긇다: PDF7 각주11 본문 없음; 그러다/그러하다의 의미별 범위와 긇다의 활용 분석 미확정",
+    "PDF [8]: §1.3 그러다의 카다·그라다 지역표시: PDF8 그러다의 의미·용법별 범위와 카다/그라다 대체 조건 미제시; 지역표시만으로 무조건 치환 보류",
+    "PDF [8]: §1.3 경북 북동부 인용 축약 옛한글: PDF8 -라거ᇹ다 텍스트와 PDF 옛한글 글리프의 정확한 대응 미확정; 현대 철자로 정규화하지 않고 운영 보류",
+    "PDF [8]: §1.3 여러 구성의 복합 축약 예문: PDF8 구성 내부의 형태소 경계·단계별 축약·지역 조합 미분석; 개별 치환의 연쇄 정답으로 사용 보류",
+    "PDF [8]: §2 운소·중세 한국어 성조형 대응: PDF8 초분절 문서 내용·대응표·개별 성조 값 미확보; 완전한 성조·음성 생성 규칙으로 변환 불가",
+    "PDF7 각주8–11 및 PDF8 외부 참조: 본문 미수록; 추측 근거화·외부 수집 없음"
+  ]
+}

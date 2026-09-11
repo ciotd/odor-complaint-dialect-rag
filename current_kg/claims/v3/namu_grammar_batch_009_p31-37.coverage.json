@@ -1,0 +1,113 @@
+{
+  "source_id": "NAMU_GRAMMAR_20260908",
+  "status": "partial_source_extraction",
+  "body_pages": [
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37
+  ],
+  "units": [
+    {
+      "pages": [
+        32,
+        33,
+        34
+      ],
+      "locator": "§6.3 선택된 파생·품사 구성",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B009-C001"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        33,
+        49
+      ],
+      "locator": "§6.3 봉다리·식겁하다·각주104",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B009-C002"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        34
+      ],
+      "locator": "§6.3 욕보다·잠오다",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B009-C003"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        35,
+        49
+      ],
+      "locator": "§6.3 파이다·각주115",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B009-C004"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        35,
+        49
+      ],
+      "locator": "§6.3 찌짐·각주114",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B009-C005"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        36,
+        49,
+        50
+      ],
+      "locator": "§6.3 활용 형태가 다른 용언 표·각주118–119",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B009-C006"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        36,
+        37
+      ],
+      "locator": "§6.3 디비다·디비지다·비이다 두 행",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B009-C007"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        37,
+        38
+      ],
+      "locator": "§6.3 세아리다·자리다·찹다",
+      "claim_ids": [
+        "NAMU_GRAMMAR_20260908-B009-C008"
+      ],
+      "hold": "자리다·찹다 품사 라벨과 풀이/예문 관계 모호; 운영 품사 결합 보류"
+    }
+  ],
+  "context": [
+    "31–38쪽 단순 명사·부사 뜻/어원·지역 목록은 어휘 맥락. 문법적 결합·의미 제약·명시 활용형을 선택 추출",
+    "어원 (?)·외부 지역 지도·wordrow 등은 미확보로 독립 검증하지 않음"
+  ],
+  "open_issues": [
+    "자리다·찹다 원문 품사",
+    "표제어 변이와 예문 활용형의 일대일 연결 미확정"
+  ],
+  "schema_note": "기존 v3 유지; content 내부 operational_status와 표의 dash_semantics 추가. 보류는 자동 생성 불가."
+}

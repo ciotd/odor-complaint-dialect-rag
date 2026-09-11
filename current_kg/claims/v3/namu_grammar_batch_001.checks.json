@@ -1,0 +1,158 @@
+{
+  "status": "passed",
+  "claims": 15,
+  "checks": [
+    {
+      "test": "원본 hash",
+      "expected": "7bbc219e272b325a44310fe70aeed20912b38b9023d00fcbbb879edc22ec7003",
+      "actual": "7bbc219e272b325a44310fe70aeed20912b38b9023d00fcbbb879edc22ec7003"
+    },
+    {
+      "test": "처리 장부와 Claim ID 일치",
+      "expected": [
+        "NAMU_GRAMMAR_20260908-C0001",
+        "NAMU_GRAMMAR_20260908-C0002",
+        "NAMU_GRAMMAR_20260908-C0003",
+        "NAMU_GRAMMAR_20260908-C0004",
+        "NAMU_GRAMMAR_20260908-C0005",
+        "NAMU_GRAMMAR_20260908-C0006",
+        "NAMU_GRAMMAR_20260908-C0007",
+        "NAMU_GRAMMAR_20260908-C0008",
+        "NAMU_GRAMMAR_20260908-C0009",
+        "NAMU_GRAMMAR_20260908-C0010",
+        "NAMU_GRAMMAR_20260908-C0011",
+        "NAMU_GRAMMAR_20260908-C0012",
+        "NAMU_GRAMMAR_20260908-C0013",
+        "NAMU_GRAMMAR_20260908-C0014",
+        "NAMU_GRAMMAR_20260908-C0015"
+      ],
+      "actual": [
+        "NAMU_GRAMMAR_20260908-C0001",
+        "NAMU_GRAMMAR_20260908-C0002",
+        "NAMU_GRAMMAR_20260908-C0003",
+        "NAMU_GRAMMAR_20260908-C0004",
+        "NAMU_GRAMMAR_20260908-C0005",
+        "NAMU_GRAMMAR_20260908-C0006",
+        "NAMU_GRAMMAR_20260908-C0007",
+        "NAMU_GRAMMAR_20260908-C0008",
+        "NAMU_GRAMMAR_20260908-C0009",
+        "NAMU_GRAMMAR_20260908-C0010",
+        "NAMU_GRAMMAR_20260908-C0011",
+        "NAMU_GRAMMAR_20260908-C0012",
+        "NAMU_GRAMMAR_20260908-C0013",
+        "NAMU_GRAMMAR_20260908-C0014",
+        "NAMU_GRAMMAR_20260908-C0015"
+      ]
+    },
+    {
+      "test": "정식 추출 초안과 시험 데이터 구별",
+      "expected": "extraction_draft",
+      "actual": "extraction_draft"
+    },
+    {
+      "test": "표제어 수",
+      "expected": 21,
+      "actual": 21
+    },
+    {
+      "test": "표 칸 수",
+      "expected": 168,
+      "actual": 168
+    },
+    {
+      "test": "두다 과거 원문 표기",
+      "expected": [
+        "돘다",
+        "둤다"
+      ],
+      "actual": [
+        "돘다",
+        "둤다"
+      ]
+    },
+    {
+      "test": "시다의 미제시 ㅔ형 미추가",
+      "expected": [
+        "시"
+      ],
+      "actual": [
+        "시"
+      ]
+    },
+    {
+      "test": "일반 설명에 지역·모호한 단서 연결",
+      "expected": [
+        "NAMU_GRAMMAR_20260908-C0002",
+        "NAMU_GRAMMAR_20260908-C0003"
+      ],
+      "actual": [
+        "NAMU_GRAMMAR_20260908-C0002",
+        "NAMU_GRAMMAR_20260908-C0003"
+      ]
+    },
+    {
+      "test": "모호한 길이 단서를 기계 조건으로 만들지 않음",
+      "expected": null,
+      "actual": null
+    },
+    {
+      "test": "모호한 길이 단서 운영화 금지",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "test": "다음절 ㅜ형 조건의 AND 연결",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "test": "마지막 형태소 길이 미확보는 허용 아님",
+      "expected": null,
+      "actual": null
+    },
+    {
+      "test": "지역 미지정 생성 우선순위 보류",
+      "expected": "undetermined",
+      "actual": "undetermined"
+    },
+    {
+      "test": "6–7쪽을 추출 완료로 표시하지 않음",
+      "expected": [
+        6,
+        7
+      ],
+      "actual": [
+        6,
+        7
+      ]
+    },
+    {
+      "test": "근거가 모두 승인된 문헌",
+      "expected": [
+        "NAMU_GRAMMAR_20260908"
+      ],
+      "actual": [
+        "NAMU_GRAMMAR_20260908"
+      ]
+    },
+    {
+      "test": "검토 주체가 독립 검증인 척하지 않음",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "test": "시험 상태를 정식 추출 파일에 잘못 넣으면 차단",
+      "expected": true,
+      "actual": true
+    }
+  ],
+  "graph_nodes": 155,
+  "graph_edges": 242,
+  "scope": "PDF3–5 고유 규칙 활용 및 관련 각주 초안; 미결 항목 있음",
+  "not_proven": [
+    "언어학적 정답",
+    "현대 자연스러움",
+    "문헌 무누락",
+    "생성 효과"
+  ]
+}

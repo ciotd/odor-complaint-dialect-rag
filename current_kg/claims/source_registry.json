@@ -1,6 +1,6 @@
 {
-  "registry_version": "1.0.0",
-  "updated_at": "2026-09-07",
+  "registry_version": "1.2.0",
+  "updated_at": "2026-09-09",
   "policy": {
     "claim_source_rule": "eligible_for_claims가 true인 자료만 신규 Claim의 근거로 사용할 수 있다.",
     "independent_evaluation_rule": "evaluation_candidate 자료는 Claim 추출과 KG 구축에 사용하지 않는다.",
@@ -119,6 +119,143 @@
         "speakers": "체계적인 제보자 표본 없음",
         "genre_or_method": "공동 편집 웹 문서의 로컬 PDF 스냅샷"
       },
+      "review_status": "source_structure_reviewed"
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "title": "동남 방언/문법",
+      "author_or_editor": "나무위키 공동 편집 문서",
+      "publication_year": 2026,
+      "source_type": "web_document_snapshot",
+      "bibliographic_note": "사용자 제공 PDF. source_id의 날짜는 로컬 수집일이며 원문 리비전 번호가 아니다.",
+      "source_url": "https://namu.wiki/w/동남%20방언/문법",
+      "snapshot_metadata": {
+        "received_on": "2026-09-08",
+        "pdf_created_at": "2026-09-08T17:27:54+09:00",
+        "displayed_last_modified": "2026-09-07 22:35:44",
+        "revision_id": null,
+        "revision_note": "1쪽의 최근 수정 시각을 그대로 기록. 현재 문서의 리비전 번호는 미확보. 45쪽 r1346은 상위 문서에서 가져온 내용의 출처 판 번호다.",
+        "license_notice": "PDF 51쪽에 CC BY-NC-SA 2.0 KR 및 별도 표시 자료 예외가 명시됨"
+      },
+      "file": {
+        "path": "sources/gyeongsang/web/동남 방언_문법.pdf",
+        "storage": "project_local_untracked",
+        "git_tracked": false,
+        "pages": 51,
+        "sha256": "7bbc219e272b325a44310fe70aeed20912b38b9023d00fcbbb879edc22ec7003"
+      },
+      "role": "primary_claim_source",
+      "eligible_for_claims": true,
+      "allowed_uses": [
+        "원문·표·각주에 근거한 구조화 Claim 후보 추출",
+        "형태 활용·의미별 용법·결합 조건·지역 변이의 설계 점검"
+      ],
+      "forbidden_uses": [
+        "등록을 근거로 모든 서술을 검증된 운영 Rule로 자동 승격",
+        "편집자의 예상 예문을 실제 관찰·세대별 사용 조사로 해석",
+        "상위 동남 방언 문서와 중복되는 내용을 독립 증거로 중복 계산",
+        "미확보 링크·접힌 각주·동영상의 내용을 추정하여 Claim 근거로 사용"
+      ],
+      "geographic_scope": {
+        "normalized_regions": ["경북", "경남", "세부 지역 미상"],
+        "raw_scope_note": "경상도 전반을 표방하나 지역·세대별 서술이 혼재. 동부/서부/북부 등 원문 범위를 남기고 Claim별로 판정하며 전역 공통으로 자동 승격하지 않음"
+      },
+      "language_data_context": {
+        "period": "스냅샷 수정 시각과 실제 언어 자료 시기는 다름. 대구 세대 설명은 2020년 기준이라고 명시",
+        "speakers": "통일된 조사 표본 없음. 인용·편집자 설명·예상 예문이 혼재",
+        "genre_or_method": "공동 편집 웹 문서의 로컬 PDF 스냅샷"
+      },
+      "source_dependencies": [
+        {
+          "related_source_id": "NAMU20260901",
+          "relation": "shared_document_lineage",
+          "evidence": "PDF 45쪽: 동남 방언 문서 r1346의 3.3번 문단에서 전체 또는 일부를 가져왔다고 명시. 기존 2026-09-01 스냅샷과 내용 동일성을 뜻하지는 않음"
+        }
+      ],
+      "review_status": "source_structure_reviewed"
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "title": "동남 방언/상대 높임법",
+      "author_or_editor": "나무위키 공동 편집 문서",
+      "publication_year": 2026,
+      "source_type": "web_document_snapshot",
+      "bibliographic_note": "사용자 제공 PDF. source_id 날짜는 수집일. 2026-09-09 등록·범위 검토.",
+      "source_url": "https://namu.wiki/w/동남%20방언/상대%20높임법",
+      "snapshot_metadata": {
+        "received_on": "2026-09-08",
+        "pdf_created_at": "2026-09-08T18:21:04+09:00",
+        "displayed_last_modified": "2026-09-08 07:10:44",
+        "revision_id": null,
+        "revision_note": "현재 판 번호 미확보. 35쪽 r1655는 문법 문서에서 가져온 내용의 출처 판이다.",
+        "license_notice": "PDF 35쪽 CC BY-NC-SA 2.0 KR 및 별도 표시 자료 예외"
+      },
+      "file": {
+        "path": "sources/gyeongsang/web/동남 방언_상대높임법.pdf",
+        "storage": "project_local_untracked",
+        "git_tracked": false,
+        "pages": 35,
+        "sha256": "e0eb50ca37599a7c21e09c49c4c2052a6013c6073edd14391c0d2d70a15de9c4"
+      },
+      "role": "primary_claim_source",
+      "eligible_for_claims": true,
+      "allowed_uses": ["출처별 높임 체계·결합·혼용·지역 차이의 Claim 후보", "원문 예문·편집 예문·재인용을 구별한 설계 점검"],
+      "forbidden_uses": ["문헌의 분류·오용 판단을 검토 없이 확정 규칙으로 채택", "JO2018 또는 다른 위키와 같은 예문을 독립 증거로 중복 계산", "미확보 외부 음성·논문을 직접 확인한 근거로 기록"],
+      "geographic_scope": {
+        "normalized_regions": ["경북", "경남", "세부 지역 미상"],
+        "raw_scope_note": "지역별 높임 체계와 예외를 Claim별 기록. 경북/경남 상위 분류만으로 어미를 자유 결합하지 않음"
+      },
+      "language_data_context": {
+        "period": "옛 논문·구술 예와 최근 사례·편집 판단이 혼재. 개별 주장별 확인",
+        "speakers": "통일된 조사 표본 없음",
+        "genre_or_method": "공동 편집 문서, 학술자료 재인용, 영상 전사와 작성 예문"
+      },
+      "source_dependencies": [
+        {"related_source_id": "JO2018", "relation": "cites_and_reuses_examples", "evidence": "PDF 4·17–18·32쪽에 논문과 예문 출처 명시"},
+        {"related_source_id": "NAMU_GRAMMAR_20260908", "relation": "shared_document_lineage", "evidence": "PDF 35쪽: 동남 방언/문법 r1655의 4번 문단에서 가져온 이력. 현재 스냅샷 동일성은 아님"},
+        {"related_source_id": "NAMU20260901", "relation": "shared_examples", "evidence": "높임 PDF 17·29쪽과 개요 PDF 17–25쪽의 포항·문경 발화 재사용. 전사 동일성 전수 감사 전"}
+      ],
+      "review_status": "source_structure_reviewed"
+    },
+    {
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "title": "동남 방언/음운",
+      "author_or_editor": "나무위키 공동 편집 문서",
+      "publication_year": 2026,
+      "source_type": "web_document_snapshot",
+      "bibliographic_note": "사용자 제공 PDF. source_id 날짜는 수집일. 2026-09-09 등록·범위 검토.",
+      "source_url": "https://namu.wiki/w/동남%20방언/음운",
+      "snapshot_metadata": {
+        "received_on": "2026-09-08",
+        "pdf_created_at": "2026-09-08T18:22:30+09:00",
+        "displayed_last_modified": "2026-09-08 07:10:24",
+        "revision_id": null,
+        "revision_note": "현재 판 번호 미확보. 보이지 않는 각주 본문은 추정하지 않음",
+        "license_notice": "PDF 8쪽 CC BY-NC-SA 2.0 KR 및 별도 표시 자료 예외"
+      },
+      "file": {
+        "path": "sources/gyeongsang/web/동남 방언_음운.pdf",
+        "storage": "project_local_untracked",
+        "git_tracked": false,
+        "pages": 8,
+        "sha256": "ecdde8d655782e6ebb4c86361019139f6dc6ad87c556bf1b4bcf82402b2b3366"
+      },
+      "role": "primary_claim_source",
+      "eligible_for_claims": true,
+      "allowed_uses": ["형태음운·변이형·표기와 발음 구별의 Claim 후보", "인용 축약과 지역별 실현형의 근거 검토"],
+      "forbidden_uses": ["발음 변화를 모든 어휘·지역에 일괄 철자 치환", "음운 설명을 완전한 성조·음성 생성 규칙으로 간주", "미확보 각주·링크 본문을 추정하여 근거화"],
+      "geographic_scope": {
+        "normalized_regions": ["경북", "경남", "세부 지역 미상"],
+        "raw_scope_note": "지역·세대·어휘별 예외를 보존. 전역을 표방한 설명과 세부 예외를 함께 추출"
+      },
+      "language_data_context": {
+        "period": "개별 인용·서술별 확인 필요. 업데이트 시각은 발화 시기가 아님",
+        "speakers": "통일된 조사 표본 없음",
+        "genre_or_method": "공동 편집 웹 문서, 발음·형태소 중시 표기의 비교"
+      },
+      "source_dependencies": [
+        {"related_source_id": "NAMU_GRAMMAR_20260908", "relation": "cross_reference", "evidence": "PDF 7쪽이 문법 문서의 ㅂ·ㅅ 활용 절을 참조. 독립성은 주장별 확인"}
+      ],
       "review_status": "source_structure_reviewed"
     },
     {

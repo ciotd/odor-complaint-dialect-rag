@@ -1,0 +1,236 @@
+{
+  "source_id": "RYU2014",
+  "batch_id": "RYU2014-B002",
+  "body_pages": [
+    11,
+    12,
+    13
+  ],
+  "units": [
+    {
+      "location": "§2.2.1 주격·목적격·보격·서술격 표",
+      "claim_ids": [
+        "RYU2014-B002-C001"
+      ],
+      "hold": null
+    },
+    {
+      "location": "§2.2.1 관형격 표",
+      "claim_ids": [
+        "RYU2014-B002-C002"
+      ],
+      "hold": null
+    },
+    {
+      "location": "§2.2.1 호격 표",
+      "claim_ids": [
+        "RYU2014-B002-C003"
+      ],
+      "hold": null
+    },
+    {
+      "location": "§2.2.1 여격 및 보고·더러 표",
+      "claim_ids": [
+        "RYU2014-B002-C004"
+      ],
+      "hold": null
+    },
+    {
+      "location": "§2.2.1 처소·출처·기구 표",
+      "claim_ids": [
+        "RYU2014-B002-C005"
+      ],
+      "hold": null
+    },
+    {
+      "location": "§2.2.1 자격 -으로서 본문/표",
+      "claim_ids": [
+        "RYU2014-B002-C006"
+      ],
+      "hold": "본문 -갖고의 자격 대응 예문이 없고 표에는 대응형이 미제시. 보조사의 -갖고 용례와 합쳐 자동 치환하지 않음."
+    },
+    {
+      "location": "§2.2.1 공동격 표",
+      "claim_ids": [
+        "RYU2014-B002-C007"
+      ],
+      "hold": null
+    },
+    {
+      "location": "§2.2.1 인용격 표",
+      "claim_ids": [
+        "RYU2014-B002-C008"
+      ],
+      "hold": null
+    },
+    {
+      "location": "§2.2.1 비교 표",
+      "claim_ids": [
+        "RYU2014-B002-C009"
+      ],
+      "hold": null
+    },
+    {
+      "location": "§2.2.1 세대 사용 변화 및 괄호 행",
+      "claim_ids": [
+        "RYU2014-B002-C010"
+      ],
+      "hold": "사용 확인 표본의 출현 보고이며 생산적 생성 문법이나 전 지역 부재/출현 연혁으로 사용하지 않음."
+    },
+    {
+      "location": "§2.2.2 주제 보조사 및 각주10",
+      "claim_ids": [
+        "RYU2014-B002-C011"
+      ],
+      "hold": "각주10 재인용 반례와 제보자 응답의 충돌. 원자료 미확인, 주제 보조사 금지 규칙 생성 보류."
+    },
+    {
+      "location": "§2.2.2 유일 보조사 마",
+      "claim_ids": [
+        "RYU2014-B002-C012"
+      ],
+      "hold": null
+    },
+    {
+      "location": "§2.2.2 공통 보조사 표",
+      "claim_ids": [
+        "RYU2014-B002-C013"
+      ],
+      "hold": null
+    },
+    {
+      "location": "§2.2.2 이나마·가지고 표",
+      "claim_ids": [
+        "RYU2014-B002-C014"
+      ],
+      "hold": null
+    },
+    {
+      "location": "§2.2.2 보조사 사용 변화",
+      "claim_ids": [
+        "RYU2014-B002-C015"
+      ],
+      "hold": "소수 제보자 사용 확인 및 구성 범위 한정. 높임체 전체의 -요 부재로 일반화 보류."
+    }
+  ],
+  "page_dispositions": [
+    {
+      "page": 11,
+      "status": "extracted",
+      "claim_ids": [
+        "RYU2014-B002-C001",
+        "RYU2014-B002-C002",
+        "RYU2014-B002-C003",
+        "RYU2014-B002-C004",
+        "RYU2014-B002-C005",
+        "RYU2014-B002-C007",
+        "RYU2014-B002-C009",
+        "RYU2014-B002-C010"
+      ],
+      "reason": "격조사 표 상반부·주격 높임 출현·관형격·호격·여격 및 본문 추출."
+    },
+    {
+      "page": 12,
+      "status": "extracted",
+      "claim_ids": [
+        "RYU2014-B002-C004",
+        "RYU2014-B002-C005",
+        "RYU2014-B002-C006",
+        "RYU2014-B002-C007",
+        "RYU2014-B002-C008",
+        "RYU2014-B002-C009",
+        "RYU2014-B002-C010",
+        "RYU2014-B002-C011",
+        "RYU2014-B002-C012",
+        "RYU2014-B002-C015"
+      ],
+      "reason": "격조사 표 하반부·보조사 도입·각주10 추출; 자격 -갖고 대응과 -은/는 비사용 주장은 보류."
+    },
+    {
+      "page": 13,
+      "status": "extracted",
+      "claim_ids": [
+        "RYU2014-B002-C011",
+        "RYU2014-B002-C012",
+        "RYU2014-B002-C013",
+        "RYU2014-B002-C014",
+        "RYU2014-B002-C015"
+      ],
+      "reason": "보조사 표 추출; 사용 출현은 운영 보류. §2.3 분류 도입 및 각주11의 전북 영향 재인용은 다음 배치에서 맥락 보존."
+    }
+  ],
+  "source_context": {},
+  "open_items": [
+    {
+      "location": "§2.2.1 자격 -으로서 본문/표",
+      "issue": "본문 -갖고의 자격 대응 예문이 없고 표에는 대응형이 미제시. 보조사의 -갖고 용례와 합쳐 자동 치환하지 않음.",
+      "claim_id": "RYU2014-B002-C006",
+      "action": "운영 생성 보류; 외부 원자료나 미제시 형태 자동 보충 안 함"
+    },
+    {
+      "location": "§2.2.1 세대 사용 변화 및 괄호 행",
+      "issue": "사용 확인 표본의 출현 보고이며 생산적 생성 문법이나 전 지역 부재/출현 연혁으로 사용하지 않음.",
+      "claim_id": "RYU2014-B002-C010",
+      "action": "운영 생성 보류; 외부 원자료나 미제시 형태 자동 보충 안 함"
+    },
+    {
+      "location": "§2.2.2 주제 보조사 및 각주10",
+      "issue": "각주10 재인용 반례와 제보자 응답의 충돌. 원자료 미확인, 주제 보조사 금지 규칙 생성 보류.",
+      "claim_id": "RYU2014-B002-C011",
+      "action": "운영 생성 보류; 외부 원자료나 미제시 형태 자동 보충 안 함"
+    },
+    {
+      "location": "§2.2.2 보조사 사용 변화",
+      "issue": "소수 제보자 사용 확인 및 구성 범위 한정. 높임체 전체의 -요 부재로 일반화 보류.",
+      "claim_id": "RYU2014-B002-C015",
+      "action": "운영 생성 보류; 외부 원자료나 미제시 형태 자동 보충 안 함"
+    }
+  ],
+  "audit": {
+    "text_read": true,
+    "pdftotext_layout": true,
+    "pdf_pages_visually_checked": [
+      10,
+      11,
+      12,
+      13
+    ],
+    "visual_transcriptions": [
+      {
+        "page": 11,
+        "claim_id": "RYU2014-B002-C001",
+        "text": "물이 얼음이 돼 뿌맀다.",
+        "locator": "해당 Claim source_locator의 표 오른쪽 방언 예/형태 칸",
+        "reason": "열 사이 끼어드는 텍스트 또는 누락 자모를 pdftoppm 화면에서 직접 대조"
+      },
+      {
+        "page": 12,
+        "claim_id": "RYU2014-B002-C004",
+        "text": "가거들랑 영숙이한테 말해라",
+        "locator": "해당 Claim source_locator의 표 오른쪽 방언 예/형태 칸",
+        "reason": "열 사이 끼어드는 텍스트 또는 누락 자모를 pdftoppm 화면에서 직접 대조"
+      },
+      {
+        "page": 12,
+        "claim_id": "RYU2014-B002-C008",
+        "text": "이것을 뭐라 부르냐?",
+        "locator": "해당 Claim source_locator의 표 오른쪽 방언 예/형태 칸",
+        "reason": "열 사이 끼어드는 텍스트 또는 누락 자모를 pdftoppm 화면에서 직접 대조"
+      },
+      {
+        "page": 13,
+        "claim_id": "RYU2014-B002-C014",
+        "text": "딸이라도 내편이어서 다행이다.",
+        "locator": "해당 Claim source_locator의 표 오른쪽 방언 예/형태 칸",
+        "reason": "열 사이 끼어드는 텍스트 또는 누락 자모를 pdftoppm 화면에서 직접 대조"
+      },
+      {
+        "page": 13,
+        "claim_id": "RYU2014-B002-C014",
+        "text": "밥을 해갖고 먹자.",
+        "locator": "해당 Claim source_locator의 표 오른쪽 방언 예/형태 칸",
+        "reason": "열 사이 끼어드는 텍스트 또는 누락 자모를 pdftoppm 화면에서 직접 대조"
+      }
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "source_id": "NAMU20260901",
+  "status": "draft_extracted_with_open_items",
+  "body_pages": [
+    15,
+    16,
+    17
+  ],
+  "units": [
+    {
+      "pages": [
+        15,
+        51
+      ],
+      "locator": "§4.3 압축력과 연결형 예",
+      "claim_ids": [
+        "NAMU20260901-B004-C001"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        15,
+        16,
+        51
+      ],
+      "locator": "§4.3 인터넷 압축 예의 번역 판정",
+      "claim_ids": [
+        "NAMU20260901-B004-C002"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        16
+      ],
+      "locator": "§4.3 칼끼없다의 문맥 제한",
+      "claim_ids": [
+        "NAMU20260901-B004-C003"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        16,
+        17
+      ],
+      "locator": "§5 무슨 말 의문문 지역·말씨 목록",
+      "claim_ids": [
+        "NAMU20260901-B004-C004"
+      ],
+      "hold": "PDF16–17 지역/말씨별 예문 목록. 옛한글·생략 괄호 분석 및 형태소별 생산적 결합은 보류."
+    },
+    {
+      "pages": [
+        51
+      ],
+      "locator": "§5 각주58 평서 머라꼬(예)의 겸양",
+      "claim_ids": [
+        "NAMU20260901-B004-C005"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        17
+      ],
+      "locator": "§5 하대 발화와 상황·엉터리 표기",
+      "claim_ids": [
+        "NAMU20260901-B004-C006"
+      ],
+      "hold": "PDF17 편집 예문의 현대 자연스러움·거친 표현 강도 미검증. 엉터리 표기의 교정형은 원문에 없으므로 만들지 않음."
+    },
+    {
+      "pages": [
+        52
+      ],
+      "locator": "§5 각주59 쌓다의 정도·후행 음운",
+      "claim_ids": [
+        "NAMU20260901-B004-C007"
+      ],
+      "hold": null
+    },
+    {
+      "pages": [
+        17,
+        19
+      ],
+      "locator": "§5.1 문경 -어여의 대등 관계",
+      "claim_ids": [
+        "NAMU20260901-B004-C008"
+      ],
+      "hold": "PDF17·19 원영상 미확인. 다른 높임 문헌과 공유 전사이므로 독립 증거 가중 금지."
+    }
+  ],
+  "source_context": [
+    "PDF17·25 악센트 및 붙은 어절 기호는 전사 층. 그래/이래/저래의 대역 원칙은 출처 편집 원칙; 생성 정서법으로 채택하지 않음."
+  ],
+  "open_items": [
+    {
+      "location": "PDF [16, 17]: §5 무슨 말 의문문 지역·말씨 목록",
+      "issue": "PDF16–17 지역/말씨별 예문 목록. 옛한글·생략 괄호 분석 및 형태소별 생산적 결합은 보류.",
+      "claim_ids": [
+        "NAMU20260901-B004-C004"
+      ]
+    },
+    {
+      "location": "PDF [17]: §5 하대 발화와 상황·엉터리 표기",
+      "issue": "PDF17 편집 예문의 현대 자연스러움·거친 표현 강도 미검증. 엉터리 표기의 교정형은 원문에 없으므로 만들지 않음.",
+      "claim_ids": [
+        "NAMU20260901-B004-C006"
+      ]
+    },
+    {
+      "location": "PDF [17, 19]: §5.1 문경 -어여의 대등 관계",
+      "issue": "PDF17·19 원영상 미확인. 다른 높임 문헌과 공유 전사이므로 독립 증거 가중 금지.",
+      "claim_ids": [
+        "NAMU20260901-B004-C008"
+      ]
+    }
+  ],
+  "audit": {
+    "text_read": true,
+    "pdftotext_layout": true,
+    "pdf_pages_visually_checked": [],
+    "linguistic_truth_verified": false
+  },
+  "page_dispositions": [
+    {
+      "page": 15,
+      "status": "extracted",
+      "reason": "압축력 비교문 및 인터넷 예의 O/X 번역 판단 추출. 경북 북부 음운 예외 유지."
+    },
+    {
+      "page": 16,
+      "status": "extracted",
+      "reason": "번역 판단 계속·칼끼없다 문맥 제한·말씨/지역별 의문 목록. 목록의 형태소 분석은 운영 보류."
+    },
+    {
+      "page": 17,
+      "status": "extracted",
+      "reason": "의문 목록 끝·하대 상황별 목록·문경 -어여 대등 관계. 전사 시작과 기호 방침은 다음 배치 맥락으로 연결."
+    }
+  ]
+}
