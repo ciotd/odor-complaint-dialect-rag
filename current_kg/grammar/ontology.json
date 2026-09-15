@@ -1,0 +1,495 @@
+{
+  "status": "analytic_scaffold_not_source_assertions",
+  "concepts": [
+    {
+      "id": "GRAMMAR",
+      "label": "공통 문법",
+      "parent": null
+    },
+    {
+      "id": "UNITS",
+      "label": "단위와 품사",
+      "parent": "GRAMMAR"
+    },
+    {
+      "id": "MORPHEME",
+      "label": "형태소",
+      "parent": "UNITS"
+    },
+    {
+      "id": "WORD",
+      "label": "단어",
+      "parent": "UNITS"
+    },
+    {
+      "id": "NOUN",
+      "label": "명사",
+      "parent": "UNITS"
+    },
+    {
+      "id": "PRONOUN",
+      "label": "대명사",
+      "parent": "UNITS"
+    },
+    {
+      "id": "NUMERAL",
+      "label": "수사",
+      "parent": "UNITS"
+    },
+    {
+      "id": "VERB",
+      "label": "동사",
+      "parent": "UNITS"
+    },
+    {
+      "id": "ADJECTIVE",
+      "label": "형용사",
+      "parent": "UNITS"
+    },
+    {
+      "id": "COPULA",
+      "label": "계사",
+      "parent": "UNITS"
+    },
+    {
+      "id": "DETERMINER",
+      "label": "관형사",
+      "parent": "UNITS"
+    },
+    {
+      "id": "ADVERB",
+      "label": "부사",
+      "parent": "UNITS"
+    },
+    {
+      "id": "INTERJECTION",
+      "label": "감탄사",
+      "parent": "UNITS"
+    },
+    {
+      "id": "PARTICLE",
+      "label": "조사",
+      "parent": "UNITS"
+    },
+    {
+      "id": "ENDING",
+      "label": "어미",
+      "parent": "UNITS"
+    },
+    {
+      "id": "MORPHOLOGY",
+      "label": "형태 구성과 결합",
+      "parent": "GRAMMAR"
+    },
+    {
+      "id": "INFLECTION",
+      "label": "활용",
+      "parent": "MORPHOLOGY"
+    },
+    {
+      "id": "DERIVATION",
+      "label": "파생",
+      "parent": "MORPHOLOGY"
+    },
+    {
+      "id": "STEM",
+      "label": "어간",
+      "parent": "MORPHOLOGY"
+    },
+    {
+      "id": "PREFINAL_ENDING",
+      "label": "선어말어미",
+      "parent": "MORPHOLOGY"
+    },
+    {
+      "id": "FINAL_ENDING",
+      "label": "종결어미",
+      "parent": "MORPHOLOGY"
+    },
+    {
+      "id": "CONNECTIVE_ENDING",
+      "label": "연결어미",
+      "parent": "MORPHOLOGY"
+    },
+    {
+      "id": "TRANSFORMATIVE_ENDING",
+      "label": "전성어미",
+      "parent": "MORPHOLOGY"
+    },
+    {
+      "id": "CASE_PARTICLE",
+      "label": "격조사",
+      "parent": "MORPHOLOGY"
+    },
+    {
+      "id": "AUXILIARY_PARTICLE",
+      "label": "보조사",
+      "parent": "MORPHOLOGY"
+    },
+    {
+      "id": "CONJUNCTIVE_PARTICLE",
+      "label": "접속조사",
+      "parent": "MORPHOLOGY"
+    },
+    {
+      "id": "ALLOMORPH",
+      "label": "이형태",
+      "parent": "MORPHOLOGY"
+    },
+    {
+      "id": "AUXILIARY_PREDICATE",
+      "label": "보조용언",
+      "parent": "MORPHOLOGY"
+    },
+    {
+      "id": "SYNTAX",
+      "label": "문장 구조와 성분",
+      "parent": "GRAMMAR"
+    },
+    {
+      "id": "CLAUSE",
+      "label": "절",
+      "parent": "SYNTAX"
+    },
+    {
+      "id": "PREDICATE",
+      "label": "서술어",
+      "parent": "SYNTAX"
+    },
+    {
+      "id": "SUBJECT",
+      "label": "주어",
+      "parent": "SYNTAX"
+    },
+    {
+      "id": "OBJECT",
+      "label": "목적어",
+      "parent": "SYNTAX"
+    },
+    {
+      "id": "COMPLEMENT",
+      "label": "보어",
+      "parent": "SYNTAX"
+    },
+    {
+      "id": "ARGUMENT",
+      "label": "논항",
+      "parent": "SYNTAX"
+    },
+    {
+      "id": "MODIFIER",
+      "label": "수식",
+      "parent": "SYNTAX"
+    },
+    {
+      "id": "COORDINATION",
+      "label": "대등접속",
+      "parent": "SYNTAX"
+    },
+    {
+      "id": "SUBORDINATION",
+      "label": "종속접속",
+      "parent": "SYNTAX"
+    },
+    {
+      "id": "EMBEDDING",
+      "label": "내포",
+      "parent": "SYNTAX"
+    },
+    {
+      "id": "QUOTATION",
+      "label": "인용",
+      "parent": "SYNTAX"
+    },
+    {
+      "id": "NOMINALIZATION",
+      "label": "명사절화",
+      "parent": "SYNTAX"
+    },
+    {
+      "id": "RELATIVIZATION",
+      "label": "관형절화",
+      "parent": "SYNTAX"
+    },
+    {
+      "id": "ELLIPSIS",
+      "label": "생략",
+      "parent": "SYNTAX"
+    },
+    {
+      "id": "WORD_ORDER",
+      "label": "어순",
+      "parent": "SYNTAX"
+    },
+    {
+      "id": "FUNCTION",
+      "label": "문법 기능과 적용 범위",
+      "parent": "GRAMMAR"
+    },
+    {
+      "id": "TENSE",
+      "label": "시제",
+      "parent": "FUNCTION"
+    },
+    {
+      "id": "PAST",
+      "label": "과거",
+      "parent": "FUNCTION"
+    },
+    {
+      "id": "PRESENT",
+      "label": "현재",
+      "parent": "FUNCTION"
+    },
+    {
+      "id": "FUTURE",
+      "label": "미래",
+      "parent": "FUNCTION"
+    },
+    {
+      "id": "ASPECT",
+      "label": "상",
+      "parent": "FUNCTION"
+    },
+    {
+      "id": "PROGRESSIVE",
+      "label": "진행",
+      "parent": "FUNCTION"
+    },
+    {
+      "id": "RESULTATIVE",
+      "label": "결과상",
+      "parent": "FUNCTION"
+    },
+    {
+      "id": "MODALITY",
+      "label": "양태",
+      "parent": "FUNCTION"
+    },
+    {
+      "id": "GUESS",
+      "label": "추측",
+      "parent": "FUNCTION"
+    },
+    {
+      "id": "INTENTION",
+      "label": "의도",
+      "parent": "FUNCTION"
+    },
+    {
+      "id": "OBLIGATION",
+      "label": "의무",
+      "parent": "FUNCTION"
+    },
+    {
+      "id": "POSSIBILITY",
+      "label": "가능",
+      "parent": "FUNCTION"
+    },
+    {
+      "id": "NEGATION",
+      "label": "부정",
+      "parent": "FUNCTION"
+    },
+    {
+      "id": "ABILITY_NEGATION",
+      "label": "능력부정",
+      "parent": "FUNCTION"
+    },
+    {
+      "id": "PROHIBITION",
+      "label": "금지",
+      "parent": "FUNCTION"
+    },
+    {
+      "id": "CAUSATIVE",
+      "label": "사동",
+      "parent": "FUNCTION"
+    },
+    {
+      "id": "PASSIVE",
+      "label": "피동",
+      "parent": "FUNCTION"
+    },
+    {
+      "id": "CAUSE",
+      "label": "이유",
+      "parent": "FUNCTION"
+    },
+    {
+      "id": "PURPOSE",
+      "label": "목적",
+      "parent": "FUNCTION"
+    },
+    {
+      "id": "CONDITION",
+      "label": "조건",
+      "parent": "FUNCTION"
+    },
+    {
+      "id": "CONCESSION",
+      "label": "양보",
+      "parent": "FUNCTION"
+    },
+    {
+      "id": "MANNER",
+      "label": "방식",
+      "parent": "FUNCTION"
+    },
+    {
+      "id": "FOCUS",
+      "label": "초점",
+      "parent": "FUNCTION"
+    },
+    {
+      "id": "EMPHASIS",
+      "label": "강조",
+      "parent": "FUNCTION"
+    },
+    {
+      "id": "TOPIC",
+      "label": "화제",
+      "parent": "FUNCTION"
+    },
+    {
+      "id": "COMPARISON",
+      "label": "비교",
+      "parent": "FUNCTION"
+    },
+    {
+      "id": "SCOPE",
+      "label": "적용범위",
+      "parent": "FUNCTION"
+    },
+    {
+      "id": "DISCOURSE",
+      "label": "문장 유형과 높임 및 담화",
+      "parent": "GRAMMAR"
+    },
+    {
+      "id": "DECLARATIVE",
+      "label": "평서",
+      "parent": "DISCOURSE"
+    },
+    {
+      "id": "INTERROGATIVE",
+      "label": "의문",
+      "parent": "DISCOURSE"
+    },
+    {
+      "id": "POLAR_QUESTION",
+      "label": "판정의문",
+      "parent": "DISCOURSE"
+    },
+    {
+      "id": "CONTENT_QUESTION",
+      "label": "설명의문",
+      "parent": "DISCOURSE"
+    },
+    {
+      "id": "IMPERATIVE",
+      "label": "명령",
+      "parent": "DISCOURSE"
+    },
+    {
+      "id": "HORTATIVE",
+      "label": "청유",
+      "parent": "DISCOURSE"
+    },
+    {
+      "id": "EXCLAMATIVE",
+      "label": "감탄",
+      "parent": "DISCOURSE"
+    },
+    {
+      "id": "HONORIFICS",
+      "label": "높임",
+      "parent": "DISCOURSE"
+    },
+    {
+      "id": "SUBJECT_HONORIFIC",
+      "label": "주체높임",
+      "parent": "DISCOURSE"
+    },
+    {
+      "id": "OBJECT_HONORIFIC",
+      "label": "객체높임",
+      "parent": "DISCOURSE"
+    },
+    {
+      "id": "ADDRESSEE_HONORIFIC",
+      "label": "상대높임",
+      "parent": "DISCOURSE"
+    },
+    {
+      "id": "SPEECH_LEVEL",
+      "label": "상대높임등급",
+      "parent": "DISCOURSE"
+    },
+    {
+      "id": "ADDRESS",
+      "label": "호칭",
+      "parent": "DISCOURSE"
+    },
+    {
+      "id": "PERSON",
+      "label": "인칭",
+      "parent": "DISCOURSE"
+    },
+    {
+      "id": "DISCOURSE_MARKER",
+      "label": "담화표지",
+      "parent": "DISCOURSE"
+    },
+    {
+      "id": "USAGE",
+      "label": "사용맥락",
+      "parent": "DISCOURSE"
+    },
+    {
+      "id": "PHONOLOGY",
+      "label": "음운과 표기",
+      "parent": "GRAMMAR"
+    },
+    {
+      "id": "VOWEL",
+      "label": "모음",
+      "parent": "PHONOLOGY"
+    },
+    {
+      "id": "CONSONANT",
+      "label": "자음",
+      "parent": "PHONOLOGY"
+    },
+    {
+      "id": "PITCH",
+      "label": "성조",
+      "parent": "PHONOLOGY"
+    },
+    {
+      "id": "CONTRACTION",
+      "label": "축약",
+      "parent": "PHONOLOGY"
+    },
+    {
+      "id": "DELETION",
+      "label": "탈락",
+      "parent": "PHONOLOGY"
+    },
+    {
+      "id": "ASSIMILATION",
+      "label": "동화",
+      "parent": "PHONOLOGY"
+    },
+    {
+      "id": "INSERTION",
+      "label": "첨가",
+      "parent": "PHONOLOGY"
+    },
+    {
+      "id": "ORTHOGRAPHY",
+      "label": "표기",
+      "parent": "PHONOLOGY"
+    }
+  ]
+}

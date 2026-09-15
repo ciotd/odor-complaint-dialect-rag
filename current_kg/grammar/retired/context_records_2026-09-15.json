@@ -1,0 +1,822 @@
+{
+  "retired_on": "2026-09-15",
+  "status": "audit_only_not_loaded_by_grammar_builder",
+  "reason": "생성용 지식과 출처·배경 설명의 경계 재정립",
+  "source_id": "NAMU_GRAMMAR_20260908",
+  "decisions": [
+    {
+      "id": "GYS-I001",
+      "action": "reclassified_source_metadata",
+      "replacement_record_ids": [],
+      "source_note_ids": [
+        "NOTE-I001"
+      ],
+      "reason": "독립 문법 규칙이 아니라 해당 문서의 편집 방침이므로 출처 메타데이터로 이동."
+    },
+    {
+      "id": "GYS-I002",
+      "action": "discarded",
+      "replacement_record_ids": [],
+      "source_note_ids": [],
+      "reason": "지역·세대 차이 및 문법 개괄은 구축 원칙에 이미 반영되어 있고 구체적 생성 선택을 지시하지 않으므로 독립 기록 폐기."
+    },
+    {
+      "id": "GYS-I006",
+      "action": "reclassified_background",
+      "replacement_record_ids": [],
+      "source_note_ids": [
+        "NOTE-I006"
+      ],
+      "reason": "실제 형태·지역 변이는 I003/I004에 유지하고 통시적 설명만 배경 주석으로 이동."
+    },
+    {
+      "id": "GYS-I009",
+      "action": "discarded",
+      "replacement_record_ids": [],
+      "source_note_ids": [],
+      "reason": "변화 방향의 원자료·시점 근거가 부족한 추정으로 독립 지식 및 현행 보조 주석에서는 폐기. 실제 ㅗ/ㅜ 변이는 I008에 유지."
+    },
+    {
+      "id": "GYS-I011",
+      "action": "split_and_regenerated",
+      "replacement_record_ids": [
+        "GYS-I057"
+      ],
+      "source_note_ids": [
+        "NOTE-I011"
+      ],
+      "reason": "일부 경남의 싸오다라는 관찰과 역사적 원인 해석을 분리. 전자만 지역 변이 후보로 새로 작성."
+    },
+    {
+      "id": "GYS-I053",
+      "action": "reclassified_source_metadata_and_background",
+      "replacement_record_ids": [],
+      "source_note_ids": [
+        "NOTE-I053"
+      ],
+      "reason": "실제 추정 구성은 I052에 유지. 문서의 표기 선호와 어원 가설을 분리해 보조 메모로만 저장."
+    }
+  ],
+  "original_records": [
+    {
+      "id": "GYS-I001",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "usage",
+        "label": "문서의 형태소 중심 표기 방침과 모음 표기 구별",
+        "concepts": [
+          "ORTHOGRAPHY"
+        ],
+        "forms": [],
+        "relations": [
+          {
+            "subject": "concept:ORTHOGRAPHY",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "형태소 경계가 드러나도록 표기하며 ㅓ/ㅡ 및 ㅐ/ㅔ를 임의로 섞어 적지 않는 문서 편집 방침"
+            },
+            "conditions": {
+              "all": [],
+              "any": []
+            },
+            "application": {
+              "target": "knowledge.context",
+              "input_features": [],
+              "mapping_note": "문헌의 개괄·표기·역사 설명이다. 입력 조건이 없음을 무조건 적용 가능한 생성 규칙으로 해석하지 않는다."
+            },
+            "assertion_mode": "editorial_convention",
+            "evidence_keys": [
+              "E3"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E3",
+            "page": 3,
+            "locator": "1 개요의 표기·지역·개인·세대 주의 및 3 용언 활용/3.1.1"
+          },
+          {
+            "key": "E45",
+            "page": 45,
+            "locator": "각주 1~14: 표기 예·-아가/-으니/-으모·용언 뜻"
+          }
+        ],
+        "details": {
+          "usage": [
+            {
+              "field": "표기방침의범위",
+              "values": [
+                "방언 전체의 공인 맞춤법이 아니라 해당 문서의 편집 방침",
+                "각주 1·2는 과도한 발음 표기와 표준어 환원의 대비 예"
+              ],
+              "evidence_keys": [
+                "E3",
+                "E45"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "이 편집 방침을 모든 원문이나 생성 출력의 의무 표기로 자동 채택하지 않는다."
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "문서 편집자의 표기 방침에 관한 기록이다. 특정 방언 문장으로 변환하는 규칙이 아니므로 대응 예문을 억지로 구성하지 않는다. 원문의 표기 비교 설명은 기존 details에 보존한다."
+      },
+      "example_review": {
+        "reviewed_on": "2026-09-15",
+        "reviewer": "Codex",
+        "method": "direct_record_and_source_recheck",
+        "decision": "not_sentence_applicable",
+        "note": "문서 편집자의 표기 방침에 관한 기록이다. 특정 방언 문장으로 변환하는 규칙이 아니므로 대응 예문을 억지로 구성하지 않는다. 원문의 표기 비교 설명은 기존 details에 보존한다.",
+        "source_pages": [
+          3,
+          45
+        ],
+        "illustrated_relation_indexes": [],
+        "remaining_relation_indexes": [
+          1
+        ],
+        "independent_review": false,
+        "naturalness_test_performed": false
+      }
+    },
+    {
+      "id": "GYS-I002",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "usage",
+        "label": "자료의 지역·개인·세대 차이와 표준어와 공유하는 활용 틀",
+        "concepts": [
+          "GRAMMAR",
+          "INFLECTION",
+          "USAGE"
+        ],
+        "forms": [],
+        "relations": [
+          {
+            "subject": "concept:GRAMMAR",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "동남 방언 내부에서도 지역·개인·세대에 따른 차이가 있다는 문서의 범위 주의"
+            },
+            "conditions": {
+              "all": [],
+              "any": []
+            },
+            "application": {
+              "target": "knowledge.context",
+              "input_features": [],
+              "mapping_note": "문헌의 개괄·표기·역사 설명이다. 입력 조건이 없음을 무조건 적용 가능한 생성 규칙으로 해석하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E3"
+            ]
+          },
+          {
+            "subject": "concept:INFLECTION",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "활용의 큰 틀은 표준어와 비슷하지만 독자적 규칙·불규칙 활용을 따로 제시함"
+            },
+            "conditions": {
+              "all": [],
+              "any": []
+            },
+            "application": {
+              "target": "knowledge.context",
+              "input_features": [],
+              "mapping_note": "문헌의 개괄·표기·역사 설명이다. 입력 조건이 없음을 무조건 적용 가능한 생성 규칙으로 해석하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E3"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E3",
+            "page": 3,
+            "locator": "1 개요의 표기·지역·개인·세대 주의 및 3 용언 활용/3.1.1"
+          }
+        ],
+        "details": {
+          "usage": []
+        },
+        "gaps": [
+          "구체적인 지역 분포가 없는 개별 항목을 경상 전역 공통으로 승격하지 않는다."
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "지역·개인·세대 차이와 문법 틀의 개괄이다. 하나의 표준어→방언 문장으로 이 메타 설명을 입증할 수 없어 문장 예문은 해당 없음으로 둔다."
+      },
+      "example_review": {
+        "reviewed_on": "2026-09-15",
+        "reviewer": "Codex",
+        "method": "direct_record_and_source_recheck",
+        "decision": "not_sentence_applicable",
+        "note": "지역·개인·세대 차이와 문법 틀의 개괄이다. 하나의 표준어→방언 문장으로 이 메타 설명을 입증할 수 없어 문장 예문은 해당 없음으로 둔다.",
+        "source_pages": [
+          3
+        ],
+        "illustrated_relation_indexes": [],
+        "remaining_relation_indexes": [
+          1,
+          2
+        ],
+        "independent_review": false,
+        "naturalness_test_performed": false
+      }
+    },
+    {
+      "id": "GYS-I006",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "phonology",
+        "label": "ㅣ형 활용의 단모음화·모음 변화에 대한 원문 설명",
+        "concepts": [
+          "VOWEL",
+          "INFLECTION"
+        ],
+        "forms": [],
+        "relations": [
+          {
+            "subject": "concept:VOWEL",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "ㅕ의 ㅔ 단모음화와 뒤이은 ㅔ→ㅣ 변화를 활용 차이의 원인으로 설명"
+            },
+            "conditions": {
+              "all": [],
+              "any": []
+            },
+            "application": {
+              "target": "knowledge.context",
+              "input_features": [],
+              "mapping_note": "문헌의 개괄·표기·역사 설명이다. 입력 조건이 없음을 무조건 적용 가능한 생성 규칙으로 해석하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E4"
+            ]
+          },
+          {
+            "subject": "concept:VOWEL",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "경북 동부에서 ㅔ→ㅣ 변화가 상대적으로 덜 일어났다는 해석"
+            },
+            "conditions": {
+              "all": [],
+              "any": []
+            },
+            "application": {
+              "target": "knowledge.context",
+              "input_features": [],
+              "mapping_note": "문헌의 개괄·표기·역사 설명이다. 입력 조건이 없음을 무조건 적용 가능한 생성 규칙으로 해석하지 않는다."
+            },
+            "assertion_mode": "source_hypothesis",
+            "evidence_keys": [
+              "E4"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E4",
+            "page": 4,
+            "locator": "3.1.1 표·길이 제한·역사 설명 및 3.1.2 본문·표"
+          }
+        ],
+        "details": {
+          "phonology": [
+            {
+              "field": "원문이제시한변화",
+              "values": [
+                "애껴라→애께라→애끼라"
+              ],
+              "evidence_keys": [
+                "E4"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "통시적 설명을 현대 입력의 필수 변환 순서로 실행하지 않는다."
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "애껴라→애께라→애끼라라는 원문의 통시적 설명을 보존했다. 현대 문장 하나를 역사적 변화의 증거로 제시할 수 없어 문장 예문은 구성하지 않는다."
+      },
+      "links": [
+        {
+          "relation": "qualifies",
+          "record_id": "GYS-I003"
+        },
+        {
+          "relation": "qualifies",
+          "record_id": "GYS-I004"
+        }
+      ],
+      "example_review": {
+        "reviewed_on": "2026-09-15",
+        "reviewer": "Codex",
+        "method": "direct_record_and_source_recheck",
+        "decision": "not_sentence_applicable",
+        "note": "애껴라→애께라→애끼라라는 원문의 통시적 설명을 보존했다. 현대 문장 하나를 역사적 변화의 증거로 제시할 수 없어 문장 예문은 구성하지 않는다.",
+        "source_pages": [
+          4
+        ],
+        "illustrated_relation_indexes": [],
+        "remaining_relation_indexes": [
+          1,
+          2
+        ],
+        "independent_review": false,
+        "naturalness_test_performed": false
+      }
+    },
+    {
+      "id": "GYS-I009",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "usage",
+        "label": "남쪽 ㅜ형 변이의 변화 방향에 대한 원문 추정",
+        "concepts": [
+          "INFLECTION"
+        ],
+        "forms": [],
+        "relations": [
+          {
+            "subject": "concept:INFLECTION",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "본래 ㅗ형에서 ㅜ형으로 줄어든 것으로 보인다는 설명"
+            },
+            "conditions": {
+              "all": [],
+              "any": []
+            },
+            "application": {
+              "target": "knowledge.context",
+              "input_features": [],
+              "mapping_note": "문헌의 개괄·표기·역사 설명이다. 입력 조건이 없음을 무조건 적용 가능한 생성 규칙으로 해석하지 않는다."
+            },
+            "assertion_mode": "source_hypothesis",
+            "evidence_keys": [
+              "E4"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도 남쪽 지역"
+            ],
+            "basis": "stated",
+            "evidence_keys": [
+              "E4"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E4",
+            "page": 4,
+            "locator": "3.1.1 표·길이 제한·역사 설명 및 3.1.2 본문·표"
+          }
+        ],
+        "details": {
+          "usage": []
+        },
+        "gaps": [
+          "조사 시점·통시적 원자료가 확보되지 않아 변화 방향을 확정하지 않는다."
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "ㅗ에서 ㅜ로 변했다는 방향 자체가 원문의 추정이다. 현대 대응 문장으로 변화 방향을 확정하지 않기 위해 null로 둔다."
+      },
+      "links": [
+        {
+          "relation": "qualifies",
+          "record_id": "GYS-I008"
+        }
+      ],
+      "example_review": {
+        "reviewed_on": "2026-09-15",
+        "reviewer": "Codex",
+        "method": "direct_record_and_source_recheck",
+        "decision": "not_sentence_applicable",
+        "note": "ㅗ에서 ㅜ로 변했다는 방향 자체가 원문의 추정이다. 현대 대응 문장으로 변화 방향을 확정하지 않기 위해 null로 둔다.",
+        "source_pages": [
+          4
+        ],
+        "illustrated_relation_indexes": [],
+        "remaining_relation_indexes": [
+          1
+        ],
+        "independent_review": false,
+        "naturalness_test_performed": false
+      }
+    },
+    {
+      "id": "GYS-I011",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "usage",
+        "label": "2음절 이상 ㅜ형 활용의 역사적 설명과 싸오다 변이",
+        "concepts": [
+          "INFLECTION"
+        ],
+        "forms": [],
+        "relations": [
+          {
+            "subject": "concept:INFLECTION",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "-우-의 과거 -오- 형태 및 활용형 단모음화를 현상 배경으로 설명"
+            },
+            "conditions": {
+              "all": [],
+              "any": []
+            },
+            "application": {
+              "target": "knowledge.context",
+              "input_features": [],
+              "mapping_note": "문헌의 개괄·표기·역사 설명이다. 입력 조건이 없음을 무조건 적용 가능한 생성 규칙으로 해석하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E5"
+            ]
+          },
+          {
+            "subject": "concept:INFLECTION",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "일부 경남의 싸오다를 오→우 변화 미발생의 흔적으로 해석"
+            },
+            "conditions": {
+              "all": [],
+              "any": []
+            },
+            "application": {
+              "target": "knowledge.context",
+              "input_features": [],
+              "mapping_note": "문헌의 개괄·표기·역사 설명이다. 입력 조건이 없음을 무조건 적용 가능한 생성 규칙으로 해석하지 않는다."
+            },
+            "assertion_mode": "source_hypothesis",
+            "evidence_keys": [
+              "E5"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E5",
+            "page": 5,
+            "locator": "3.1.3 본문·표·역사 설명 및 3.1.4 본문·표"
+          }
+        ],
+        "details": {
+          "usage": [
+            {
+              "field": "역사예시",
+              "values": [
+                "셰오다·셰와·세아·세우다",
+                "싸호다·싸화·싸아·싸우다"
+              ],
+              "evidence_keys": [
+                "E5"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "원문의 역사 설명과 추정을 구분하며 현대 형태의 강제 변환 규칙으로 쓰지 않는다."
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "역사적 형태 및 일부 경남 싸오다에 대한 변화 원인 해석이다. 역사적 설명과 현대 용례를 혼동하지 않기 위해 대응 문장 예문은 구성하지 않는다."
+      },
+      "links": [
+        {
+          "relation": "qualifies",
+          "record_id": "GYS-I010"
+        }
+      ],
+      "example_review": {
+        "reviewed_on": "2026-09-15",
+        "reviewer": "Codex",
+        "method": "direct_record_and_source_recheck",
+        "decision": "not_sentence_applicable",
+        "note": "역사적 형태 및 일부 경남 싸오다에 대한 변화 원인 해석이다. 역사적 설명과 현대 용례를 혼동하지 않기 위해 대응 문장 예문은 구성하지 않는다.",
+        "source_pages": [
+          5
+        ],
+        "illustrated_relation_indexes": [],
+        "remaining_relation_indexes": [
+          1,
+          2
+        ],
+        "independent_review": false,
+        "naturalness_test_performed": false
+      }
+    },
+    {
+      "id": "GYS-I053",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "usage",
+        "label": "-(느)ㄴ가 배/베/뵈의 표기·어원 설명",
+        "concepts": [
+          "ORTHOGRAPHY",
+          "VOWEL"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "배",
+            "role": "unspecified",
+            "sense": null,
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "베",
+            "role": "unspecified",
+            "sense": null,
+            "pos": null
+          },
+          {
+            "key": "F3",
+            "text": "뵈",
+            "role": "unspecified",
+            "sense": null,
+            "pos": null
+          },
+          {
+            "key": "F4",
+            "text": "보이",
+            "role": "unspecified",
+            "sense": null,
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "concept:ORTHOGRAPHY",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "배를 합리적 표기로 선택하는 문서 방침과 베 우세 주장"
+            },
+            "conditions": {
+              "all": [],
+              "any": []
+            },
+            "application": {
+              "target": "knowledge.context",
+              "input_features": [],
+              "mapping_note": "원문의 설명·추정 또는 표기 방침이며 생성 규칙으로 직접 실행하지 않는다."
+            },
+            "assertion_mode": "editorial_convention",
+            "evidence_keys": [
+              "E46"
+            ]
+          },
+          {
+            "subject": "concept:VOWEL",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "보이→뵈→단모음형이라는 원문의 해석 가능성"
+            },
+            "conditions": {
+              "all": [],
+              "any": []
+            },
+            "application": {
+              "target": "knowledge.context",
+              "input_features": [],
+              "mapping_note": "원문의 설명·추정 또는 표기 방침이며 생성 규칙으로 직접 실행하지 않는다."
+            },
+            "assertion_mode": "source_hypothesis",
+            "evidence_keys": [
+              "E7"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E7",
+            "page": 7,
+            "locator": "3.2 오다·-(느)ㄴ가 보다 및 3.2.1 불규칙 파생용언"
+          },
+          {
+            "key": "E46",
+            "page": 46,
+            "locator": "각주 15~27: 강세·지역·용언 뜻·-배 표기·축약"
+          }
+        ],
+        "details": {
+          "usage": [
+            {
+              "field": "재인용",
+              "values": [
+                "각주 26의 운수 좋은 날 문구는 해당 원전을 직접 대조한 것이 아님"
+              ],
+              "evidence_keys": [
+                "E46"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "문서 편집자의 표기 선호를 공인 표기 규칙으로 승격하지 않는다."
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "배/베/뵈의 표기 선택과 어원 가설을 다루는 기록이다. 셋을 동등한 실제 발화의 예로 구성하면 원문의 추정과 편집 방침을 확정하게 되므로 null로 둔다."
+      },
+      "links": [
+        {
+          "relation": "qualifies",
+          "record_id": "GYS-I052"
+        }
+      ],
+      "example_review": {
+        "reviewed_on": "2026-09-15",
+        "reviewer": "Codex",
+        "method": "direct_record_and_source_recheck",
+        "decision": "not_sentence_applicable",
+        "note": "배/베/뵈의 표기 선택과 어원 가설을 다루는 기록이다. 셋을 동등한 실제 발화의 예로 구성하면 원문의 추정과 편집 방침을 확정하게 되므로 null로 둔다.",
+        "source_pages": [
+          7,
+          46
+        ],
+        "illustrated_relation_indexes": [],
+        "remaining_relation_indexes": [
+          1,
+          2
+        ],
+        "independent_review": false,
+        "naturalness_test_performed": false
+      }
+    }
+  ]
+}

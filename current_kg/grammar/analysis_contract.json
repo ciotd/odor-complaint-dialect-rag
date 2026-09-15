@@ -1,0 +1,37 @@
+{
+  "version": "0.1",
+  "status": "author_defined_bridge_not_implemented_parser",
+  "principle": "표준어 분석과 방언 KG는 기능·결합환경의 공통 식별자를 공유한다. 분석기의 원시 품사 태그와 문자열을 그대로 방언 형태에 치환하지 않는다.",
+  "binding": {
+    "instance_requirement": "실제 분석 결과는 clause_id와 predicate_complex_id를 가져야 한다. 아래의 target은 재사용 가능한 자리 정의이며 특정 입력 절이 아니다.",
+    "unknown_policy": "분석 누락·복수 해석을 false나 무조건 허용으로 처리하지 않는다. 후보와 미확보 조건을 남긴다.",
+    "conditions_semantics": "all은 모두, 비어 있지 않은 any는 하나 이상 만족해야 한다. 현재는 저장·연결 규격이며 실행용 조건 판정기는 미구현이다.",
+    "scope_policy": "목표 지역·세대·사용 장면은 입력 문장에서 추측하지 않는다. 문헌의 지역 범위와 별도로 대조한다.",
+    "generation_policy": "조건 적합 후보여도 문헌의 적용 범위·예외·공백과 다른 표현의 조합을 추가 검토해야 한다. 자동 생성 승인은 없다."
+  },
+  "targets": {
+    "predicate.lexical_choice": {"label": "특정 서술어의 지역 어휘형 후보 선택; 활용형 선택과는 별개", "binds_to": ["clause_id", "predicate_component_id"]},
+    "knowledge.context": {"label": "조회 규칙으로 확정하지 않는 문헌의 개괄·표기 원칙·역사 설명", "binds_to": []},
+    "clause.connective": {"label": "특정 절의 연결 구성", "binds_to": ["clause_id", "linked_clause_id", "ending_component_id"]},
+    "clause.final_ending": {"label": "해당 절의 종결 구성", "binds_to": ["clause_id", "predicate_complex_id"]},
+    "clause.question_interpretation": {"label": "해당 절의 질문 해석", "binds_to": ["clause_id"]},
+    "predicate.inflection": {"label": "특정 서술부 성분과 뒤따르는 어미의 결합", "binds_to": ["clause_id", "predicate_component_id", "ending_component_id"]}
+  },
+  "features": {
+    "stem_length": {"label": "원문이 지정한 어간 또는 어간 말단 형태소의 음절 수", "analysis_requirement": "전체 어간 길이와 마지막 형태소 길이를 혼동하지 않는다. 원문의 단위가 불명확하면 판정을 보류한다."},
+    "host_pos": {"label": "해당 서술어 성분의 품사", "values": ["verb", "adjective", "predicate"], "analysis_requirement": "predicate는 원문의 용언 범주를 보존한 상위값이다. 특정 분석기의 원시 태그를 직접 대입하지 않는다."},
+    "sentence_type": {"label": "해당 절의 문장유형", "values": ["interrogative", "declarative", "imperative", "hortative", "exclamative"], "analysis_requirement": "주절과 내포절의 유형을 분리하고 실제 발화 의도와 동일시하지 않는다."},
+    "register": {"label": "외부 맥락에서 확인한 사용 장면", "values": ["formal", "market_familiar"], "analysis_requirement": "market_familiar는 이번 원문이 예로 든 장터의 정다운 대화 장면이다. 모든 비격식 장면과 동치로 확대하지 않는다."},
+    "question_type": {"label": "표면 의문사 유무가 아닌 질문 해석", "values": ["polar", "content", "rhetorical_polar", "rhetorical_content", "ambiguous"], "analysis_requirement": "표준어의 무엇/어디가 부정칭인지 의문칭인지 문맥과 함께 판정한다. 불명확하면 복수 후보를 유지한다."},
+    "speech_level": {"label": "목표 절의 방언 상대높임 체계", "values": ["HAERACHE", "HAGECHE", "HAECHE", "HASOCHE", "HAISOCHE"], "analysis_requirement": "표준어 해체를 무조건 방언 해라체로 변환하지 않는다. 사용자 목표 및 원문의 청자 관계를 별도 확인한다."},
+    "host_class": {"label": "선어말어미를 결합하기 전 서술부 바탕 유형", "values": ["predicate_other_than_anida", "nominal_copula", "negative_copula"], "analysis_requirement": "아니다는 일반 형용사와 따로 분류한다. 계사 분석은 이다를 조사로 태깅하든 용언으로 태깅하든 같은 결합 유형으로 정규화한다."},
+    "prefinal_profile": {"label": "종결어미 앞 선어말어미의 실제 결합 구성", "values": ["none", "subject_honorific_only", "switching_prefinal_present"], "analysis_requirement": "시제/높임이라는 기능 태그만으로 확정하지 않는다. 현재 근거의 switching은 -었-/-겠-/-더-이며 -시-만 있는 경우와 공존을 구분한다. 그 밖의 선어말어미는 미확보다."},
+    "nominal_coda": {"label": "계사 앞 체언의 끝 받침", "values": ["present", "absent"], "analysis_requirement": "문장 전체 마지막 글자가 아니라 계사 앞 체언 성분을 검사한다."},
+    "host_form": {"label": "해당 서술부 또는 분석 대상의 원형·형태", "analysis_requirement": "문장 전체가 아니라 지정 성분에 결속한다."},
+    "following_form": {"label": "바로 뒤에 결합하는 어미 계열", "analysis_requirement": "의미가 같다는 이유로 -아/어 계열과 자음 어미를 같은 값으로 취급하지 않는다."},
+    "stem_vowel": {"label": "분석한 어간 끝 모음", "analysis_requirement": "출력 철자가 아니라 활용 전 어간을 검사한다."},
+    "stem_coda": {"label": "분석한 어간 끝 받침", "values": ["present", "absent"], "analysis_requirement": "형태소 경계 확인이 선행되어야 한다."},
+    "meaning": {"label": "자료 용어에 대응시킨 문법 의미", "analysis_requirement": "원문의 강조·목적 등의 의미를 동일 ID에 대응시킬 수 있는지 먼저 확인한다."},
+    "region": {"label": "외부에서 지정한 목표 지역", "analysis_requirement": "문헌의 지역 범위를 자동 확대하지 않는다."}
+  }
+}

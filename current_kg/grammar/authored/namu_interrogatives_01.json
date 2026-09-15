@@ -1,0 +1,3808 @@
+{
+  "schema_version": "0.2",
+  "author": {
+    "agent": "Codex",
+    "method": "direct_source_reading",
+    "authored_on": "2026-09-15"
+  },
+  "source_id": "NAMU_GRAMMAR_20260908",
+  "read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    44,
+    45,
+    46,
+    47
+  ],
+  "scope_note": "전체 구축의 첫 직접 작성 구간. 3.3.1~3.3.2의 의문 체계를 먼저 구조화한다. 읽은 것과 작성 완료한 것은 구별한다.",
+  "coverage": [
+    {
+      "page": 1,
+      "status": "context_only",
+      "reason": "표지·제목·수정 시각 확인; 개별 문법 지식 없음",
+      "remaining": []
+    },
+    {
+      "page": 2,
+      "status": "context_only",
+      "reason": "목차와 시작 절 제목 확인; 실질 설명은 다음 쪽에 있음",
+      "remaining": []
+    },
+    {
+      "page": 8,
+      "status": "partial",
+      "reason": "기본 의문 유형·서술부 계열의 대응을 작성; 표의 -으시- 설명은 11쪽과 충돌",
+      "remaining": [
+        "3.3 도입부의 역사적 서술은 미작성; 상단 3.2.1 활용형은 GYS-I056에 작성",
+        "8쪽 표의 -으시- 분류와 11쪽 예외 설명 대조 후 정리",
+        "접힌 예1~예8의 미노출 내용은 확보하지 않음"
+      ]
+    },
+    {
+      "page": 9,
+      "status": "draft_complete",
+      "reason": "해라체 제한·-나/-노 기능과 뭐/어디의 해석 중의성을 작성; 긴 대화 원문은 복제하지 않음",
+      "remaining": []
+    },
+    {
+      "page": 10,
+      "status": "partial",
+      "reason": "체언 받침별 -(이)가/고와 아니다의 예외를 작성; 여(여기)의 음운·의미 구별은 아직 미작성",
+      "remaining": [
+        "여(여기)와 여(女)의 장음·의미 구별 기록"
+      ]
+    },
+    {
+      "page": 11,
+      "status": "needs_review",
+      "reason": "선어말어미 전환·-시- 예외·수사 의문을 작성하되 8쪽 표와 충돌 보존",
+      "remaining": [
+        "주체 높임 -시- 단독의 ㄱ/ㄴ 계열 충돌 독립 대조"
+      ]
+    },
+    {
+      "page": 12,
+      "status": "partial",
+      "reason": "-제/-지와 -(으)까/꼬 대조, 의문사 생략 가능성을 작성",
+      "remaining": [
+        "-(으)까/꼬의 ㄹ 탈락 환경과 청유·자문·내포 용법 세분화"
+      ]
+    },
+    {
+      "page": 13,
+      "status": "partial",
+      "reason": "-고/-꼬의 의미 차이 및 -(느)ㄴ가/고의 복수 용법·세대 서술 작성",
+      "remaining": [
+        "-(느)ㄴ가/고를 자문·연결·하게체별 개별 용법으로 분리",
+        "머꼬의 중의성과 응답 요구를 분석 속성으로 세분화"
+      ]
+    },
+    {
+      "page": 14,
+      "status": "partial",
+      "reason": "안동·청송, 경북·경남 서부, 경남 서부의 지역 변이 작성",
+      "remaining": [
+        "울진 통합형의 범위·정도·내부 서술 일관성 대조 및 기록",
+        "지역별 억양 기술은 후속 기록 필요"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "GYS-Q001",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "ending",
+        "label": "아니다 이외 용언의 판정 의문 종결 -나",
+        "concepts": [
+          "FINAL_ENDING",
+          "INTERROGATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-나",
+            "sense": "예/아니오 여부 질문",
+            "pos": "종결어미",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "POLAR_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "polar"
+                  ],
+                  "evidence_keys": [
+                    "E1",
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "speech_level",
+                  "operator": "is",
+                  "values": [
+                    "HAERACHE"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "host_class",
+                  "operator": "one_of",
+                  "values": [
+                    "predicate_other_than_anida"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "speech_level",
+                "host_class"
+              ],
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1",
+              "E2",
+              "E4"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 8,
+            "locator": "3.3.1 기본 의문형 설명 및 ㄱ/ㄴ·ㅏ/ㅗ 대조표"
+          },
+          {
+            "key": "E2",
+            "page": 9,
+            "locator": "3.3.1 첫 문단의 해라체 제한 및 -나/-노 대조 설명"
+          },
+          {
+            "key": "E4",
+            "page": 11,
+            "locator": "3.3.1 ~(이)가·~(이)고 불규칙 설명과 선어말어미 예외 표"
+          }
+        ],
+        "details": {
+          "ending": [
+            {
+              "field": "기능",
+              "values": [
+                "판정 의문",
+                "용언 서술부"
+              ],
+              "evidence_keys": [
+                "E1",
+                "E2"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "문서 3.3.2의 지역별 차이를 함께 확인해야 하며 경상 전역의 유일한 표현으로 취급하지 않는다.",
+          "세부 지역·세대별 대표성·선호와 다른 종결 구성의 조합은 아직 검증하지 않았다."
+        ],
+        "illustrative_examples": [
+          {
+            "relation_index": 1,
+            "standard_sentence": "내일 가?",
+            "dialect_sentence": "내일 가나?",
+            "meaning": "상대가 내일 가는지 여부를 묻는다.",
+            "grammar_function": "판정 의문 / 해라체",
+            "context": "이미 목적지를 공유한 상대에게 이동 여부를 묻는다. 목적지를 새로 묻는 질문이 아님.",
+            "supporting_record_ids": [],
+            "focus_form_key": "F1",
+            "basis_evidence_keys": [
+              "E1",
+              "E2",
+              "E4"
+            ],
+            "origin": "author_constructed",
+            "naturalness": "not_verified"
+          }
+        ],
+        "illustrative_examples_note": "해라체·용언·판정 의문 조건을 대조했다. 가는지 여부를 묻는 용법만 예시하며 지역별 배타성을 주장하지 않는다. 모두 작성자가 구성한 설명용 예문이다. 원문 발화·독립 근거·평가 정답이 아니며 자연스러움은 미검증이다."
+      },
+      "example_review": {
+        "reviewed_on": "2026-09-15",
+        "reviewer": "Codex",
+        "method": "direct_record_and_source_recheck",
+        "decision": "examples_added_or_rechecked",
+        "note": "해라체·용언·판정 의문 조건을 대조했다. 가는지 여부를 묻는 용법만 예시하며 지역별 배타성을 주장하지 않는다.",
+        "source_pages": [
+          8,
+          9,
+          11
+        ],
+        "illustrated_relation_indexes": [
+          1
+        ],
+        "remaining_relation_indexes": [],
+        "independent_review": false,
+        "naturalness_test_performed": false
+      }
+    },
+    {
+      "id": "GYS-Q002",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "ending",
+        "label": "아니다 이외 용언의 설명 의문 종결 -노",
+        "concepts": [
+          "FINAL_ENDING",
+          "INTERROGATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-노",
+            "sense": "구체적 정보를 요구하는 질문",
+            "pos": "종결어미",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "CONTENT_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "content"
+                  ],
+                  "evidence_keys": [
+                    "E1",
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "speech_level",
+                  "operator": "is",
+                  "values": [
+                    "HAERACHE"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "host_class",
+                  "operator": "one_of",
+                  "values": [
+                    "predicate_other_than_anida"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "speech_level",
+                "host_class"
+              ],
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1",
+              "E2",
+              "E4"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 8,
+            "locator": "3.3.1 기본 의문형 설명 및 ㄱ/ㄴ·ㅏ/ㅗ 대조표"
+          },
+          {
+            "key": "E2",
+            "page": 9,
+            "locator": "3.3.1 첫 문단의 해라체 제한 및 -나/-노 대조 설명"
+          },
+          {
+            "key": "E4",
+            "page": 11,
+            "locator": "3.3.1 ~(이)가·~(이)고 불규칙 설명과 선어말어미 예외 표"
+          }
+        ],
+        "details": {
+          "ending": [
+            {
+              "field": "판정기준",
+              "values": [
+                "표면 의문사 유무가 아니라 구체적 답변을 요구하는 해석"
+              ],
+              "evidence_keys": [
+                "E2"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "문서 3.3.2의 지역별 차이를 함께 확인해야 하며 경상 전역의 유일한 표현으로 취급하지 않는다.",
+          "세부 지역·세대별 대표성·선호와 다른 종결 구성의 조합은 아직 검증하지 않았다."
+        ],
+        "illustrative_examples": [
+          {
+            "relation_index": 1,
+            "standard_sentence": "어디로 가?",
+            "dialect_sentence": "어디로 가노?",
+            "meaning": "상대가 가는 목적지를 묻는다.",
+            "grammar_function": "설명 의문 / 해라체",
+            "context": "상대가 이동한다는 사실은 알고 있고 목적지에 대한 답을 요청한다.",
+            "supporting_record_ids": [],
+            "focus_form_key": "F1",
+            "basis_evidence_keys": [
+              "E1",
+              "E2",
+              "E4"
+            ],
+            "origin": "author_constructed",
+            "naturalness": "not_verified"
+          }
+        ],
+        "illustrative_examples_note": "설명 의문의 구체적 응답 요구를 확인했다. 장소를 물으며 판정 질문과 구별한다. 모두 작성자가 구성한 설명용 예문이다. 원문 발화·독립 근거·평가 정답이 아니며 자연스러움은 미검증이다."
+      },
+      "example_review": {
+        "reviewed_on": "2026-09-15",
+        "reviewer": "Codex",
+        "method": "direct_record_and_source_recheck",
+        "decision": "examples_added_or_rechecked",
+        "note": "설명 의문의 구체적 응답 요구를 확인했다. 장소를 물으며 판정 질문과 구별한다.",
+        "source_pages": [
+          8,
+          9,
+          11
+        ],
+        "illustrated_relation_indexes": [
+          1
+        ],
+        "remaining_relation_indexes": [],
+        "independent_review": false,
+        "naturalness_test_performed": false
+      }
+    },
+    {
+      "id": "GYS-Q003",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "ending",
+        "label": "체언·계사 판정 의문과 받침에 따른 -이가/-가",
+        "concepts": [
+          "FINAL_ENDING",
+          "INTERROGATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-이가",
+            "sense": null,
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "-가",
+            "sense": null,
+            "pos": "종결어미",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "POLAR_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "polar"
+                  ],
+                  "evidence_keys": [
+                    "E1",
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "speech_level",
+                  "operator": "is",
+                  "values": [
+                    "HAERACHE"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "host_class",
+                  "operator": "one_of",
+                  "values": [
+                    "nominal_copula"
+                  ],
+                  "evidence_keys": [
+                    "E3"
+                  ]
+                },
+                {
+                  "field": "prefinal_profile",
+                  "operator": "one_of",
+                  "values": [
+                    "none"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "nominal_coda",
+                  "operator": "is",
+                  "values": [
+                    "present"
+                  ],
+                  "evidence_keys": [
+                    "E3"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "speech_level",
+                "host_class",
+                "prefinal_profile",
+                "nominal_coda"
+              ],
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E2",
+              "E3",
+              "E4"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "POLAR_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "polar"
+                  ],
+                  "evidence_keys": [
+                    "E1",
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "speech_level",
+                  "operator": "is",
+                  "values": [
+                    "HAERACHE"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "host_class",
+                  "operator": "one_of",
+                  "values": [
+                    "nominal_copula"
+                  ],
+                  "evidence_keys": [
+                    "E3"
+                  ]
+                },
+                {
+                  "field": "prefinal_profile",
+                  "operator": "one_of",
+                  "values": [
+                    "none"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "nominal_coda",
+                  "operator": "is",
+                  "values": [
+                    "absent"
+                  ],
+                  "evidence_keys": [
+                    "E3"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "speech_level",
+                "host_class",
+                "prefinal_profile",
+                "nominal_coda"
+              ],
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E2",
+              "E3",
+              "E4"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 8,
+            "locator": "3.3.1 기본 의문형 설명 및 ㄱ/ㄴ·ㅏ/ㅗ 대조표"
+          },
+          {
+            "key": "E2",
+            "page": 9,
+            "locator": "3.3.1 첫 문단의 해라체 제한 및 -나/-노 대조 설명"
+          },
+          {
+            "key": "E3",
+            "page": 10,
+            "locator": "3.3.1 ~(이)가·~(이)고의 체언 받침 조건 및 아니다"
+          },
+          {
+            "key": "E4",
+            "page": 11,
+            "locator": "3.3.1 ~(이)가·~(이)고 불규칙 설명과 선어말어미 예외 표"
+          }
+        ],
+        "details": {
+          "ending": [
+            {
+              "field": "형태분석",
+              "values": [
+                "체언 뒤 이다 구성의 활용으로 분석할 수 있다는 원문 설명"
+              ],
+              "evidence_keys": [
+                "E3"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "문서 3.3.2의 지역별 차이를 함께 확인해야 하며 경상 전역의 유일한 표현으로 취급하지 않는다.",
+          "세부 지역·세대별 대표성·선호와 다른 종결 구성의 조합은 아직 검증하지 않았다.",
+          "받침 조건은 계사 앞 체언의 끝에 적용한다. 선어말어미 결합형은 GYS-Q006/Q007에서 별도로 다룬다."
+        ],
+        "illustrative_examples": [
+          {
+            "relation_index": 1,
+            "standard_sentence": "저 사람이 학생이야?",
+            "dialect_sentence": "저 사람이 학생이가?",
+            "meaning": "저 사람이 학생인지 묻는다.",
+            "grammar_function": "계사 판정 의문 / 체언 받침 있음",
+            "context": "학생은 받침이 있는 체언이며 선어말어미를 넣지 않은 해라체 질문이다.",
+            "supporting_record_ids": [],
+            "focus_form_key": "F1",
+            "basis_evidence_keys": [
+              "E2",
+              "E3",
+              "E4"
+            ],
+            "origin": "author_constructed",
+            "naturalness": "not_verified"
+          },
+          {
+            "relation_index": 2,
+            "standard_sentence": "그 사람이 철수야?",
+            "dialect_sentence": "그 사람이 철수가?",
+            "meaning": "그 사람의 이름이 철수인지 묻는다.",
+            "grammar_function": "계사 판정 의문 / 체언 받침 없음",
+            "context": "철수는 모음으로 끝나는 이름이며 선어말어미를 넣지 않은 해라체 질문이다.",
+            "supporting_record_ids": [],
+            "focus_form_key": "F2",
+            "basis_evidence_keys": [
+              "E2",
+              "E3",
+              "E4"
+            ],
+            "origin": "author_constructed",
+            "naturalness": "not_verified"
+          }
+        ],
+        "illustrative_examples_note": "체언 받침 유무에 따른 두 관계를 각각 예시한다. 주격조사 가와 의문 종결 가를 구별한다. 모두 작성자가 구성한 설명용 예문이다. 원문 발화·독립 근거·평가 정답이 아니며 자연스러움은 미검증이다."
+      },
+      "example_review": {
+        "reviewed_on": "2026-09-15",
+        "reviewer": "Codex",
+        "method": "direct_record_and_source_recheck",
+        "decision": "examples_added_or_rechecked",
+        "note": "체언 받침 유무에 따른 두 관계를 각각 예시한다. 주격조사 가와 의문 종결 가를 구별한다.",
+        "source_pages": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "illustrated_relation_indexes": [
+          1,
+          2
+        ],
+        "remaining_relation_indexes": [],
+        "independent_review": false,
+        "naturalness_test_performed": false
+      }
+    },
+    {
+      "id": "GYS-Q004",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "ending",
+        "label": "체언·계사 설명 의문과 받침에 따른 -이고/-고",
+        "concepts": [
+          "FINAL_ENDING",
+          "INTERROGATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-이고",
+            "sense": null,
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "-고",
+            "sense": null,
+            "pos": "종결어미",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "CONTENT_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "content"
+                  ],
+                  "evidence_keys": [
+                    "E1",
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "speech_level",
+                  "operator": "is",
+                  "values": [
+                    "HAERACHE"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "host_class",
+                  "operator": "one_of",
+                  "values": [
+                    "nominal_copula"
+                  ],
+                  "evidence_keys": [
+                    "E3"
+                  ]
+                },
+                {
+                  "field": "prefinal_profile",
+                  "operator": "one_of",
+                  "values": [
+                    "none"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "nominal_coda",
+                  "operator": "is",
+                  "values": [
+                    "present"
+                  ],
+                  "evidence_keys": [
+                    "E3"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "speech_level",
+                "host_class",
+                "prefinal_profile",
+                "nominal_coda"
+              ],
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E2",
+              "E3",
+              "E4"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "CONTENT_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "content"
+                  ],
+                  "evidence_keys": [
+                    "E1",
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "speech_level",
+                  "operator": "is",
+                  "values": [
+                    "HAERACHE"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "host_class",
+                  "operator": "one_of",
+                  "values": [
+                    "nominal_copula"
+                  ],
+                  "evidence_keys": [
+                    "E3"
+                  ]
+                },
+                {
+                  "field": "prefinal_profile",
+                  "operator": "one_of",
+                  "values": [
+                    "none"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "nominal_coda",
+                  "operator": "is",
+                  "values": [
+                    "absent"
+                  ],
+                  "evidence_keys": [
+                    "E3"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "speech_level",
+                "host_class",
+                "prefinal_profile",
+                "nominal_coda"
+              ],
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E2",
+              "E3",
+              "E4"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 8,
+            "locator": "3.3.1 기본 의문형 설명 및 ㄱ/ㄴ·ㅏ/ㅗ 대조표"
+          },
+          {
+            "key": "E2",
+            "page": 9,
+            "locator": "3.3.1 첫 문단의 해라체 제한 및 -나/-노 대조 설명"
+          },
+          {
+            "key": "E3",
+            "page": 10,
+            "locator": "3.3.1 ~(이)가·~(이)고의 체언 받침 조건 및 아니다"
+          },
+          {
+            "key": "E4",
+            "page": 11,
+            "locator": "3.3.1 ~(이)가·~(이)고 불규칙 설명과 선어말어미 예외 표"
+          }
+        ],
+        "details": {
+          "ending": [
+            {
+              "field": "형태분석",
+              "values": [
+                "체언 뒤 이다 구성의 활용으로 분석할 수 있다는 원문 설명"
+              ],
+              "evidence_keys": [
+                "E3"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "문서 3.3.2의 지역별 차이를 함께 확인해야 하며 경상 전역의 유일한 표현으로 취급하지 않는다.",
+          "세부 지역·세대별 대표성·선호와 다른 종결 구성의 조합은 아직 검증하지 않았다.",
+          "받침 조건은 계사 앞 체언의 끝에 적용한다. 선어말어미 결합형은 GYS-Q006/Q007에서 별도로 다룬다."
+        ],
+        "illustrative_examples": [
+          {
+            "relation_index": 1,
+            "standard_sentence": "이게 무슨 일이야?",
+            "dialect_sentence": "이게 무슨 일이고?",
+            "meaning": "일어난 일이 무엇인지 설명을 요청한다.",
+            "grammar_function": "계사 설명 의문 / 체언 받침 있음",
+            "context": "일은 받침 있는 체언이다. 예/아니오가 아니라 사건에 관한 설명을 요청한다.",
+            "supporting_record_ids": [],
+            "focus_form_key": "F1",
+            "basis_evidence_keys": [
+              "E2",
+              "E3",
+              "E4"
+            ],
+            "origin": "author_constructed",
+            "naturalness": "not_verified"
+          },
+          {
+            "relation_index": 2,
+            "standard_sentence": "이 상자는 뭐야?",
+            "dialect_sentence": "이 상자는 뭐고?",
+            "meaning": "상자의 정체나 용도를 묻는다.",
+            "grammar_function": "계사 설명 의문 / 체언 받침 없음",
+            "context": "뭐는 모음으로 끝나는 대명사다. 계사 앞에 과거·높임 선어말어미를 넣지 않는다.",
+            "supporting_record_ids": [],
+            "focus_form_key": "F2",
+            "basis_evidence_keys": [
+              "E2",
+              "E3",
+              "E4"
+            ],
+            "origin": "author_constructed",
+            "naturalness": "not_verified"
+          }
+        ],
+        "illustrative_examples_note": "받침 있는 일과 받침 없는 뭐의 설명 의문을 각각 예시한다. 모두 작성자가 구성한 설명용 예문이다. 원문 발화·독립 근거·평가 정답이 아니며 자연스러움은 미검증이다."
+      },
+      "example_review": {
+        "reviewed_on": "2026-09-15",
+        "reviewer": "Codex",
+        "method": "direct_record_and_source_recheck",
+        "decision": "examples_added_or_rechecked",
+        "note": "받침 있는 일과 받침 없는 뭐의 설명 의문을 각각 예시한다.",
+        "source_pages": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "illustrated_relation_indexes": [
+          1,
+          2
+        ],
+        "remaining_relation_indexes": [],
+        "independent_review": false,
+        "naturalness_test_performed": false
+      }
+    },
+    {
+      "id": "GYS-Q005",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "ending",
+        "label": "아니다의 의문형은 일반 형용사와 다른 ㄱ 계열",
+        "concepts": [
+          "FINAL_ENDING",
+          "INTERROGATIVE",
+          "COPULA",
+          "NEGATION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-가",
+            "sense": "아니다 계열 판정 의문",
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "-고",
+            "sense": "아니다 계열 설명 의문",
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F3",
+            "text": "아이다",
+            "sense": "아니다",
+            "pos": "형용사",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "POLAR_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "polar"
+                  ],
+                  "evidence_keys": [
+                    "E1",
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "speech_level",
+                  "operator": "is",
+                  "values": [
+                    "HAERACHE"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "host_class",
+                  "operator": "one_of",
+                  "values": [
+                    "negative_copula"
+                  ],
+                  "evidence_keys": [
+                    "E3"
+                  ]
+                },
+                {
+                  "field": "prefinal_profile",
+                  "operator": "one_of",
+                  "values": [
+                    "none"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "speech_level",
+                "host_class",
+                "prefinal_profile"
+              ],
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E3",
+              "E4"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "CONTENT_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "content"
+                  ],
+                  "evidence_keys": [
+                    "E1",
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "speech_level",
+                  "operator": "is",
+                  "values": [
+                    "HAERACHE"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "host_class",
+                  "operator": "one_of",
+                  "values": [
+                    "negative_copula"
+                  ],
+                  "evidence_keys": [
+                    "E3"
+                  ]
+                },
+                {
+                  "field": "prefinal_profile",
+                  "operator": "one_of",
+                  "values": [
+                    "none"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "speech_level",
+                "host_class",
+                "prefinal_profile"
+              ],
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E3",
+              "E4"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 8,
+            "locator": "3.3.1 기본 의문형 설명 및 ㄱ/ㄴ·ㅏ/ㅗ 대조표"
+          },
+          {
+            "key": "E2",
+            "page": 9,
+            "locator": "3.3.1 첫 문단의 해라체 제한 및 -나/-노 대조 설명"
+          },
+          {
+            "key": "E3",
+            "page": 10,
+            "locator": "3.3.1 ~(이)가·~(이)고의 체언 받침 조건 및 아니다"
+          },
+          {
+            "key": "E4",
+            "page": 11,
+            "locator": "3.3.1 ~(이)가·~(이)고 불규칙 설명과 선어말어미 예외 표"
+          }
+        ],
+        "details": {
+          "ending": [
+            {
+              "field": "형태주의",
+              "values": [
+                "입력 아니다를 일반 형용사 규칙에 일괄 편입하지 않음",
+                "아이가/아이고의 아이다 표기는 원문 예시에 근거"
+              ],
+              "evidence_keys": [
+                "E3",
+                "E4"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "문서 3.3.2의 지역별 차이를 함께 확인해야 하며 경상 전역의 유일한 표현으로 취급하지 않는다.",
+          "세부 지역·세대별 대표성·선호와 다른 종결 구성의 조합은 아직 검증하지 않았다."
+        ],
+        "illustrative_examples": [
+          {
+            "relation_index": 1,
+            "standard_sentence": "이건 네 책 아니야?",
+            "dialect_sentence": "이건 네 책 아이가?",
+            "meaning": "이것이 상대의 책이 아닌지 확인한다.",
+            "grammar_function": "부정 계사 판정 의문",
+            "context": "원문의 아이가 유형만 설명한다. 네 등의 다른 부분은 방언 어휘로 치환하지 않는다.",
+            "supporting_record_ids": [],
+            "focus_form_key": "F1",
+            "basis_evidence_keys": [
+              "E3",
+              "E4"
+            ],
+            "origin": "author_constructed",
+            "naturalness": "not_verified"
+          }
+        ],
+        "illustrative_examples_note": "아니다 계열의 판정형만 구성했다. 설명 의문이나 선어말어미 결합형까지 예문으로 검증한 것은 아니다. 모두 작성자가 구성한 설명용 예문이다. 원문 발화·독립 근거·평가 정답이 아니며 자연스러움은 미검증이다."
+      },
+      "example_review": {
+        "reviewed_on": "2026-09-15",
+        "reviewer": "Codex",
+        "method": "direct_record_and_source_recheck",
+        "decision": "examples_added_or_rechecked",
+        "note": "아니다 계열의 판정형만 구성했다. 설명 의문이나 선어말어미 결합형까지 예문으로 검증한 것은 아니다.",
+        "source_pages": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "illustrated_relation_indexes": [
+          1
+        ],
+        "remaining_relation_indexes": [
+          2
+        ],
+        "independent_review": false,
+        "naturalness_test_performed": false
+      }
+    },
+    {
+      "id": "GYS-Q006",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "ending",
+        "label": "ㄱ 계열 의문 구성에 -었-/-겠-/-더-가 결합하면 ㄴ 계열 선택",
+        "concepts": [
+          "FINAL_ENDING",
+          "PREFINAL_ENDING",
+          "INTERROGATIVE",
+          "SUBJECT_HONORIFIC",
+          "TENSE",
+          "MODALITY"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-나",
+            "sense": null,
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "-노",
+            "sense": null,
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F3",
+            "text": "-었-",
+            "sense": "과거",
+            "pos": "선어말어미",
+            "role": "component"
+          },
+          {
+            "key": "F4",
+            "text": "-겠-",
+            "sense": null,
+            "pos": "선어말어미",
+            "role": "component"
+          },
+          {
+            "key": "F5",
+            "text": "-더-",
+            "sense": null,
+            "pos": "선어말어미",
+            "role": "component"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "POLAR_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "polar"
+                  ],
+                  "evidence_keys": [
+                    "E1",
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "speech_level",
+                  "operator": "is",
+                  "values": [
+                    "HAERACHE"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "host_class",
+                  "operator": "one_of",
+                  "values": [
+                    "nominal_copula",
+                    "negative_copula"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "prefinal_profile",
+                  "operator": "one_of",
+                  "values": [
+                    "switching_prefinal_present"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "speech_level",
+                "host_class",
+                "prefinal_profile"
+              ],
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E4"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "CONTENT_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "content"
+                  ],
+                  "evidence_keys": [
+                    "E1",
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "speech_level",
+                  "operator": "is",
+                  "values": [
+                    "HAERACHE"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "host_class",
+                  "operator": "one_of",
+                  "values": [
+                    "nominal_copula",
+                    "negative_copula"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "prefinal_profile",
+                  "operator": "one_of",
+                  "values": [
+                    "switching_prefinal_present"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "speech_level",
+                "host_class",
+                "prefinal_profile"
+              ],
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E4"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 8,
+            "locator": "3.3.1 기본 의문형 설명 및 ㄱ/ㄴ·ㅏ/ㅗ 대조표"
+          },
+          {
+            "key": "E2",
+            "page": 9,
+            "locator": "3.3.1 첫 문단의 해라체 제한 및 -나/-노 대조 설명"
+          },
+          {
+            "key": "E4",
+            "page": 11,
+            "locator": "3.3.1 ~(이)가·~(이)고 불규칙 설명과 선어말어미 예외 표"
+          }
+        ],
+        "details": {
+          "ending": [
+            {
+              "field": "명시된전환요소",
+              "values": [
+                "-었-",
+                "-겠-",
+                "-더-"
+              ],
+              "evidence_keys": [
+                "E4"
+              ]
+            },
+            {
+              "field": "예외우선관계",
+              "values": [
+                "-시-와 전환 요소가 함께 있으면 ㄴ 계열 전환 설명을 우선"
+              ],
+              "evidence_keys": [
+                "E4"
+              ]
+            },
+            {
+              "field": "형태구성",
+              "values": [
+                "바탕 서술부 → 선어말어미 구성 → 종결어미 계열 선택"
+              ],
+              "evidence_keys": [
+                "E4"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "문서 3.3.2의 지역별 차이를 함께 확인해야 하며 경상 전역의 유일한 표현으로 취급하지 않는다.",
+          "세부 지역·세대별 대표성·선호와 다른 종결 구성의 조합은 아직 검증하지 않았다.",
+          "원문의 '등'을 모든 선어말어미로 일반화하지 않는다. 명시된 세 형태 밖의 조합은 미확보다."
+        ],
+        "illustrative_examples": [
+          {
+            "relation_index": 1,
+            "standard_sentence": "그 사람은 학생이었어?",
+            "dialect_sentence": "그 사람은 학생이었나?",
+            "meaning": "그 사람이 과거에 학생이었는지 묻는다.",
+            "grammar_function": "과거 선어말어미와 계사 판정 의문의 결합",
+            "context": "체언 학생 뒤에 계사와 -었-이 결합한 해라체 판정 의문이다.",
+            "supporting_record_ids": [],
+            "focus_form_key": "F1",
+            "basis_evidence_keys": [
+              "E4"
+            ],
+            "origin": "author_constructed",
+            "naturalness": "not_verified"
+          }
+        ],
+        "illustrative_examples_note": "명시된 -었- 결합의 계사 판정 의문을 예시한다. -겠-/-더- 및 혼합형 전체를 승인하지 않는다. 모두 작성자가 구성한 설명용 예문이다. 원문 발화·독립 근거·평가 정답이 아니며 자연스러움은 미검증이다."
+      },
+      "example_review": {
+        "reviewed_on": "2026-09-15",
+        "reviewer": "Codex",
+        "method": "direct_record_and_source_recheck",
+        "decision": "examples_added_or_rechecked",
+        "note": "명시된 -었- 결합의 계사 판정 의문을 예시한다. -겠-/-더- 및 혼합형 전체를 승인하지 않는다.",
+        "source_pages": [
+          8,
+          9,
+          11
+        ],
+        "illustrated_relation_indexes": [
+          1
+        ],
+        "remaining_relation_indexes": [
+          2
+        ],
+        "independent_review": false,
+        "naturalness_test_performed": false
+      }
+    },
+    {
+      "id": "GYS-Q007",
+      "review": {
+        "source_fidelity": "needs_review",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "ending",
+        "label": "-시-만 결합한 ㄱ 계열 유지 설명과 문서 내부 충돌",
+        "concepts": [
+          "FINAL_ENDING",
+          "INTERROGATIVE",
+          "SUBJECT_HONORIFIC",
+          "PREFINAL_ENDING"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-가",
+            "sense": null,
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "-고",
+            "sense": null,
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F3",
+            "text": "-시-",
+            "sense": null,
+            "pos": "선어말어미",
+            "role": "component"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "POLAR_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "polar"
+                  ],
+                  "evidence_keys": [
+                    "E1",
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "speech_level",
+                  "operator": "is",
+                  "values": [
+                    "HAERACHE"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "host_class",
+                  "operator": "one_of",
+                  "values": [
+                    "nominal_copula",
+                    "negative_copula"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "prefinal_profile",
+                  "operator": "one_of",
+                  "values": [
+                    "subject_honorific_only"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "speech_level",
+                "host_class",
+                "prefinal_profile"
+              ],
+              "mapping_note": "11쪽 예외 서술을 구조화하되 8쪽 표와의 충돌 때문에 확정 적용하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E4"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "CONTENT_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "content"
+                  ],
+                  "evidence_keys": [
+                    "E1",
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "speech_level",
+                  "operator": "is",
+                  "values": [
+                    "HAERACHE"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "host_class",
+                  "operator": "one_of",
+                  "values": [
+                    "nominal_copula",
+                    "negative_copula"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "prefinal_profile",
+                  "operator": "one_of",
+                  "values": [
+                    "subject_honorific_only"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "speech_level",
+                "host_class",
+                "prefinal_profile"
+              ],
+              "mapping_note": "주체 높임과 청자 높임을 다른 분석값으로 유지한다. 내부 충돌 해결 전 생성 보류."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E4"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 8,
+            "locator": "3.3.1 기본 의문형 설명 및 ㄱ/ㄴ·ㅏ/ㅗ 대조표"
+          },
+          {
+            "key": "E2",
+            "page": 9,
+            "locator": "3.3.1 첫 문단의 해라체 제한 및 -나/-노 대조 설명"
+          },
+          {
+            "key": "E4",
+            "page": 11,
+            "locator": "3.3.1 ~(이)가·~(이)고 불규칙 설명과 선어말어미 예외 표"
+          }
+        ],
+        "details": {
+          "ending": [
+            {
+              "field": "상충서술",
+              "values": [
+                "8쪽 표는 -으시- 뒤를 ㄴ 계열로 분류",
+                "11쪽 본문·표는 -시-만 있는 경우 ㄱ 계열 유지로 설명"
+              ],
+              "evidence_keys": [
+                "E1",
+                "E4"
+              ]
+            },
+            {
+              "field": "표대조방법",
+              "values": [
+                "PDF 8·11쪽을 텍스트와 페이지 이미지로 각각 대조"
+              ],
+              "evidence_keys": [
+                "E1",
+                "E4"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "8쪽 표와 11쪽 예외 설명 중 어느 범위가 타당한지 다른 원문과 대조가 필요하다.",
+          "주체 높임 -시-가 청자 높임을 자동 결정하지 않는다."
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "8쪽 표는 -으시-를 ㄴ 계열에 포함하지만 11쪽은 -시- 단독일 때 ㄱ 계열을 유지한다고 한다. 충돌을 해소하지 못했으므로 예문으로 어느 쪽도 확정하지 않는다."
+      },
+      "example_review": {
+        "reviewed_on": "2026-09-15",
+        "reviewer": "Codex",
+        "method": "direct_record_and_source_recheck",
+        "decision": "held_uncertain",
+        "note": "8쪽 표는 -으시-를 ㄴ 계열에 포함하지만 11쪽은 -시- 단독일 때 ㄱ 계열을 유지한다고 한다. 충돌을 해소하지 못했으므로 예문으로 어느 쪽도 확정하지 않는다.",
+        "source_pages": [
+          8,
+          9,
+          11
+        ],
+        "illustrated_relation_indexes": [],
+        "remaining_relation_indexes": [
+          1,
+          2
+        ],
+        "independent_review": false,
+        "naturalness_test_performed": false
+      }
+    },
+    {
+      "id": "GYS-Q008",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "usage",
+        "label": "표준어 뭐·어디의 표기만으로 판정/설명 질문을 확정하지 않음",
+        "concepts": [
+          "PRONOUN",
+          "INTERROGATIVE",
+          "POLAR_QUESTION",
+          "CONTENT_QUESTION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "뭐",
+            "sense": null,
+            "pos": "대명사",
+            "role": "standard"
+          },
+          {
+            "key": "F2",
+            "text": "어디",
+            "sense": null,
+            "pos": "대명사",
+            "role": "standard"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "먹은 일이 있는지/먹은 대상이 무엇인지의 복수 해석"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "ambiguous"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.question_interpretation",
+              "input_features": [
+                "question_type"
+              ],
+              "mapping_note": "의문사가 보인다는 이유만으로 content를 확정하지 않는다. 절별 문맥·강세 단서 또는 사용자 설명이 필요하다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E2"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "어딘가로 가는지/가는 장소가 어디인지의 복수 해석"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "ambiguous"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.question_interpretation",
+              "input_features": [
+                "question_type"
+              ],
+              "mapping_note": "불확실한 질문은 polar/content 두 후보를 유지하며 종결어미를 단정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E2"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E2",
+            "page": 9,
+            "locator": "3.3.1 첫 문단의 해라체 제한 및 -나/-노 대조 설명"
+          }
+        ],
+        "details": {
+          "usage": [
+            {
+              "field": "분석보존",
+              "values": [
+                "표면 단어와 질문 대상의 의미를 구별",
+                "강세와 맥락에 따른 해석"
+              ],
+              "evidence_keys": [
+                "E2"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "텍스트만 주어졌을 때 복수 해석을 판정하는 자동 분석기는 아직 구현하지 않았다."
+        ],
+        "illustrative_examples": [
+          {
+            "relation_index": 2,
+            "standard_sentence": "지금 어디 가?",
+            "dialect_sentence": "지금 어디 가나?",
+            "meaning": "같은 입력을 어딘가로 이동하는지 여부를 묻는 것으로 해석한 경우.",
+            "grammar_function": "중의적 입력의 판정 의문 해석",
+            "context": "가능 해석 1: 현재 장소를 떠나는지 여부를 묻는 상황을 작성자가 설정했다. 입력 글자만으로 이 해석이 확정되는 것은 아니다.",
+            "supporting_record_ids": [
+              "GYS-Q001"
+            ],
+            "focus_form_key": "F2",
+            "basis_evidence_keys": [
+              "E2"
+            ],
+            "origin": "author_constructed",
+            "naturalness": "not_verified"
+          },
+          {
+            "relation_index": 2,
+            "standard_sentence": "지금 어디 가?",
+            "dialect_sentence": "지금 어디 가노?",
+            "meaning": "같은 입력을 목적지가 어디인지 묻는 것으로 해석한 경우.",
+            "grammar_function": "중의적 입력의 설명 의문 해석",
+            "context": "가능 해석 2: 이동 자체는 알고 있으며 장소를 묻는 상황을 작성자가 설정했다. 두 예문의 뜻은 같지 않다.",
+            "supporting_record_ids": [
+              "GYS-Q002"
+            ],
+            "focus_form_key": "F2",
+            "basis_evidence_keys": [
+              "E2"
+            ],
+            "origin": "author_constructed",
+            "naturalness": "not_verified"
+          }
+        ],
+        "illustrative_examples_note": "불명확성을 임의 해소하는 대신 동일 입력의 두 가능한 해석을 별도 예문으로 제시한다. 예문은 분석기의 자동 판정 결과가 아니다. 모두 작성자가 구성한 설명용 예문이다. 원문 발화·독립 근거·평가 정답이 아니며 자연스러움은 미검증이다."
+      },
+      "example_review": {
+        "reviewed_on": "2026-09-15",
+        "reviewer": "Codex",
+        "method": "direct_record_and_source_recheck",
+        "decision": "examples_added_or_rechecked",
+        "note": "불명확성을 임의 해소하는 대신 동일 입력의 두 가능한 해석을 별도 예문으로 제시한다. 예문은 분석기의 자동 판정 결과가 아니다.",
+        "source_pages": [
+          9
+        ],
+        "illustrated_relation_indexes": [
+          2
+        ],
+        "remaining_relation_indexes": [
+          1
+        ],
+        "independent_review": false,
+        "naturalness_test_performed": false
+      }
+    },
+    {
+      "id": "GYS-Q009",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "usage",
+        "label": "수사 의문도 내부의 판정/설명 형식을 구분",
+        "concepts": [
+          "INTERROGATIVE",
+          "IMPERATIVE",
+          "EXCLAMATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-나",
+            "sense": null,
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "-노",
+            "sense": null,
+            "pos": "종결어미",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "INTERROGATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "rhetorical_polar"
+                  ],
+                  "evidence_keys": [
+                    "E1",
+                    "E4",
+                    "E5"
+                  ]
+                },
+                {
+                  "field": "speech_level",
+                  "operator": "is",
+                  "values": [
+                    "HAERACHE"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.question_interpretation",
+              "input_features": [
+                "question_type",
+                "speech_level"
+              ],
+              "mapping_note": "응답 요구 여부와 질문 형식을 분리한다. 이 관계만으로 결합 어미를 확정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1",
+              "E4",
+              "E5"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "INTERROGATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "rhetorical_content"
+                  ],
+                  "evidence_keys": [
+                    "E1",
+                    "E4",
+                    "E5"
+                  ]
+                },
+                {
+                  "field": "speech_level",
+                  "operator": "is",
+                  "values": [
+                    "HAERACHE"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.question_interpretation",
+              "input_features": [
+                "question_type",
+                "speech_level"
+              ],
+              "mapping_note": "감탄 의문에서는 의문사가 생략될 수 있어 표면 의문사 부재를 polar로 자동 변환하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1",
+              "E4",
+              "E5"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 8,
+            "locator": "3.3.1 기본 의문형 설명 및 ㄱ/ㄴ·ㅏ/ㅗ 대조표"
+          },
+          {
+            "key": "E2",
+            "page": 9,
+            "locator": "3.3.1 첫 문단의 해라체 제한 및 -나/-노 대조 설명"
+          },
+          {
+            "key": "E4",
+            "page": 11,
+            "locator": "3.3.1 ~(이)가·~(이)고 불규칙 설명과 선어말어미 예외 표"
+          },
+          {
+            "key": "E5",
+            "page": 12,
+            "locator": "3.3.1 수사·감탄 의문 예시 및 3.3.1.1 -지/제"
+          }
+        ],
+        "details": {
+          "usage": [
+            {
+              "field": "발화의도와형식",
+              "values": [
+                "반어·명령·감탄 의문 예시를 판정/설명 내부 형식과 함께 제시"
+              ],
+              "evidence_keys": [
+                "E4",
+                "E5"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "이 기록은 해석 구별에 관한 것이며 어미 결합 가능성 전체를 독립 보증하지 않는다."
+        ],
+        "illustrative_examples": [
+          {
+            "relation_index": 1,
+            "standard_sentence": "내가 그걸 모르겠어?",
+            "dialect_sentence": "내가 그걸 모르겠나?",
+            "meaning": "자신도 그것을 안다는 뜻을 반어적으로 강조한다.",
+            "grammar_function": "판정 형식의 수사 의문",
+            "context": "실제로 지식 여부의 답을 구하는 것이 아니라 알고 있음을 강조하는 반말 상황이다.",
+            "supporting_record_ids": [],
+            "focus_form_key": "F1",
+            "basis_evidence_keys": [
+              "E1",
+              "E4",
+              "E5"
+            ],
+            "origin": "author_constructed",
+            "naturalness": "not_verified"
+          },
+          {
+            "relation_index": 2,
+            "standard_sentence": "그걸 누가 모르겠어?",
+            "dialect_sentence": "그걸 누가 모르겠노?",
+            "meaning": "누구나 그것을 안다는 뜻을 강조한다.",
+            "grammar_function": "설명 형식의 수사 의문",
+            "context": "모르는 사람의 이름을 요구하는 질문이 아니라 누구나 안다는 반어적 강조다.",
+            "supporting_record_ids": [],
+            "focus_form_key": "F2",
+            "basis_evidence_keys": [
+              "E1",
+              "E4",
+              "E5"
+            ],
+            "origin": "author_constructed",
+            "naturalness": "not_verified"
+          }
+        ],
+        "illustrative_examples_note": "명시된 수사 의문의 내부 판정/설명 구별을 두 예문에 적용했다. 반어 해석은 작성한 맥락에 한정한다. 모두 작성자가 구성한 설명용 예문이다. 원문 발화·독립 근거·평가 정답이 아니며 자연스러움은 미검증이다."
+      },
+      "example_review": {
+        "reviewed_on": "2026-09-15",
+        "reviewer": "Codex",
+        "method": "direct_record_and_source_recheck",
+        "decision": "examples_added_or_rechecked",
+        "note": "명시된 수사 의문의 내부 판정/설명 구별을 두 예문에 적용했다. 반어 해석은 작성한 맥락에 한정한다.",
+        "source_pages": [
+          8,
+          9,
+          11,
+          12
+        ],
+        "illustrated_relation_indexes": [
+          1,
+          2
+        ],
+        "remaining_relation_indexes": [],
+        "independent_review": false,
+        "naturalness_test_performed": false
+      }
+    },
+    {
+      "id": "GYS-Q010",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "ending",
+        "label": "경북 북부를 제외한 지역의 -제/-지 의문 대조",
+        "concepts": [
+          "FINAL_ENDING",
+          "INTERROGATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-제",
+            "sense": "판정 의문",
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "-지",
+            "sense": "설명 의문",
+            "pos": "종결어미",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "POLAR_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "polar"
+                  ],
+                  "evidence_keys": [
+                    "E5"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type"
+              ],
+              "mapping_note": "질문 해석과 별도로 기록의 지역 범위를 대조한다. 높임 범위는 이 단락만으로 확정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E5"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "CONTENT_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "content"
+                  ],
+                  "evidence_keys": [
+                    "E5"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type"
+              ],
+              "mapping_note": "표준어 -지 문자열 전체를 일괄 치환하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E5"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북 북부를 제외한 동남 방언권"
+            ],
+            "basis": "stated",
+            "evidence_keys": [
+              "E5"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E5",
+            "page": 12,
+            "locator": "3.3.1 수사·감탄 의문 예시 및 3.3.1.1 -지/제"
+          }
+        ],
+        "details": {
+          "ending": [
+            {
+              "field": "분포",
+              "values": [
+                "경북 북부를 제외한 동남 방언권이라는 서술"
+              ],
+              "evidence_keys": [
+                "E5"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "-지의 비의문 용법과 높임·시제 조합은 이 기록의 범위 밖이다.",
+          "세부 지역·세대별 선호는 미확보다."
+        ],
+        "illustrative_examples": [
+          {
+            "relation_index": 1,
+            "standard_sentence": "너도 거기 가지?",
+            "dialect_sentence": "너도 거기 가제?",
+            "meaning": "상대도 그곳에 가는지 확인한다.",
+            "grammar_function": "판정 의문",
+            "context": "원문이 경북 북부를 제외한 지역에 대해 설명한 용법이다. 예/아니오 확인을 기대한다.",
+            "supporting_record_ids": [],
+            "focus_form_key": "F1",
+            "basis_evidence_keys": [
+              "E5"
+            ],
+            "origin": "author_constructed",
+            "naturalness": "not_verified"
+          },
+          {
+            "relation_index": 2,
+            "standard_sentence": "너는 어제 어디 갔지?",
+            "dialect_sentence": "너는 어제 어디 갔지?",
+            "meaning": "상대가 어제 간 장소를 묻는다.",
+            "grammar_function": "설명 의문",
+            "context": "원문 범위에서 장소에 대한 답을 요청하는 맥락이다. 표준어와 표기가 같으며 경북 북부까지 일반화하지 않는다.",
+            "supporting_record_ids": [],
+            "focus_form_key": "F2",
+            "basis_evidence_keys": [
+              "E5"
+            ],
+            "origin": "author_constructed",
+            "naturalness": "not_verified"
+          }
+        ],
+        "illustrative_examples_note": "-제/-지의 두 질문 기능을 예시한다. -지는 표준어와 표기가 같을 수 있으며 같은 표기가 곧 전환 실패는 아니다. 모두 작성자가 구성한 설명용 예문이다. 원문 발화·독립 근거·평가 정답이 아니며 자연스러움은 미검증이다."
+      },
+      "example_review": {
+        "reviewed_on": "2026-09-15",
+        "reviewer": "Codex",
+        "method": "direct_record_and_source_recheck",
+        "decision": "examples_added_or_rechecked",
+        "note": "-제/-지의 두 질문 기능을 예시한다. -지는 표준어와 표기가 같을 수 있으며 같은 표기가 곧 전환 실패는 아니다.",
+        "source_pages": [
+          12
+        ],
+        "illustrated_relation_indexes": [
+          1,
+          2
+        ],
+        "remaining_relation_indexes": [],
+        "independent_review": false,
+        "naturalness_test_performed": false
+      }
+    },
+    {
+      "id": "GYS-Q011",
+      "review": {
+        "source_fidelity": "needs_review",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "ending",
+        "label": "-(으)ㄹ까 계열의 판정/설명 대조와 ㄹ 탈락",
+        "concepts": [
+          "FINAL_ENDING",
+          "INTERROGATIVE",
+          "MODALITY",
+          "DELETION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-(으)까",
+            "sense": null,
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "-(으)꼬",
+            "sense": null,
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F3",
+            "text": "-(으)ㄹ까",
+            "sense": null,
+            "pos": "종결어미",
+            "role": "standard"
+          },
+          {
+            "key": "F4",
+            "text": "-(으)ㄹ꼬",
+            "sense": null,
+            "pos": "종결어미",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "variant_of",
+            "object": {
+              "kind": "form",
+              "ref": "F3"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "polar"
+                  ],
+                  "evidence_keys": [
+                    "E5"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type"
+              ],
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E5"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "variant_of",
+            "object": {
+              "kind": "form",
+              "ref": "F4"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "content"
+                  ],
+                  "evidence_keys": [
+                    "E5"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type"
+              ],
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E5"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E5",
+            "page": 12,
+            "locator": "3.3.1 수사·감탄 의문 예시 및 3.3.1.1 -지/제"
+          },
+          {
+            "key": "E6",
+            "page": 13,
+            "locator": "3.3.1.2 -고/-꼬 의미 차이와 -(느)ㄴ가/고의 용법·세대"
+          }
+        ],
+        "details": {
+          "ending": [
+            {
+              "field": "형태관계",
+              "values": [
+                "ㄹ 탈락 설명과 -(으)ㄹ까/-(으)ㄹ꼬 표기 병기"
+              ],
+              "evidence_keys": [
+                "E5"
+              ]
+            },
+            {
+              "field": "보존할의미",
+              "values": [
+                "직접 질문 -고와 추측·자문 성격의 -꼬를 같은 용법으로 취급하지 않음"
+              ],
+              "evidence_keys": [
+                "E6"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "ㄹ 탈락의 세부 환경과 비탈락형의 분포는 미확보다.",
+          "청유·자문·내포된 숙고의 차이는 예문만으로 하나의 기능으로 통합하지 않는다."
+        ],
+        "illustrative_examples": [
+          {
+            "relation_index": 1,
+            "standard_sentence": "아이는 지금 잘까?",
+            "dialect_sentence": "아이는 지금 자까?",
+            "meaning": "아이가 지금 자고 있을지를 생각하거나 묻는다.",
+            "grammar_function": "판정형 -(으)ㄹ까의 제시된 ㄹ 탈락형",
+            "context": "원문 12쪽 자까 예와 같은 자다 결합만 설명한다. 같이 가자고 제안하는 청유나 다른 어간의 탈락 조건으로 확대하지 않는다.",
+            "supporting_record_ids": [],
+            "focus_form_key": "F1",
+            "basis_evidence_keys": [
+              "E5"
+            ],
+            "origin": "author_constructed",
+            "naturalness": "not_verified"
+          }
+        ],
+        "illustrative_examples_note": "원문이 직접 든 자까 유형에 한정하여 판정형 예문을 구성했다. ㄹ 탈락의 일반 환경 및 청유·내포 용법은 미해결로 유지한다. 모두 작성자가 구성한 설명용 예문이다. 원문 발화·독립 근거·평가 정답이 아니며 자연스러움은 미검증이다."
+      },
+      "example_review": {
+        "reviewed_on": "2026-09-15",
+        "reviewer": "Codex",
+        "method": "direct_record_and_source_recheck",
+        "decision": "examples_added_or_rechecked",
+        "note": "원문이 직접 든 자까 유형에 한정하여 판정형 예문을 구성했다. ㄹ 탈락의 일반 환경 및 청유·내포 용법은 미해결로 유지한다.",
+        "source_pages": [
+          12,
+          13
+        ],
+        "illustrated_relation_indexes": [
+          1
+        ],
+        "remaining_relation_indexes": [
+          2
+        ],
+        "independent_review": false,
+        "naturalness_test_performed": false
+      }
+    },
+    {
+      "id": "GYS-Q012",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "usage",
+        "label": "-고와 -꼬는 의미·억양이 달라 단순 표기 변이로 합치지 않음",
+        "concepts": [
+          "INTERROGATIVE",
+          "MODALITY",
+          "PITCH"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-고",
+            "sense": "상대에게 답을 요구하는 질문",
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "-꼬",
+            "sense": "자문 성격의 질문",
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F3",
+            "text": "머꼬",
+            "sense": null,
+            "pos": "의문 구성",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "contrasts_with",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "content"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.question_interpretation",
+              "input_features": [
+                "question_type"
+              ],
+              "mapping_note": "질문의 내용뿐 아니라 응답 요구·자문 해석을 확인한다. 동일 문자열 머꼬도 복수 해석을 보존한다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E6"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E5",
+            "page": 12,
+            "locator": "3.3.1 수사·감탄 의문 예시 및 3.3.1.1 -지/제"
+          },
+          {
+            "key": "E6",
+            "page": 13,
+            "locator": "3.3.1.2 -고/-꼬 의미 차이와 -(느)ㄴ가/고의 용법·세대"
+          }
+        ],
+        "details": {
+          "usage": [
+            {
+              "field": "표면중의성",
+              "values": [
+                "머꼬는 뭐야/뭘까 해석이 같은 표기에 나타날 수 있다는 설명"
+              ],
+              "evidence_keys": [
+                "E6"
+              ]
+            },
+            {
+              "field": "세대기술",
+              "values": [
+                "일부 10대는 -꼬를 모르거나 어색하게 받아들인다는 설명"
+              ],
+              "evidence_keys": [
+                "E6"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 10대의 이해 여부로 일반화하지 않는다.",
+          "원문의 단정적인 분포 주장은 독립 확인하지 않았다."
+        ],
+        "illustrative_examples": [
+          {
+            "relation_index": 1,
+            "standard_sentence": "저게 왜 내 모자야?",
+            "dialect_sentence": "저게 왜 내 모자고?",
+            "meaning": "저것이 내 모자인 이유를 상대에게 묻는다.",
+            "grammar_function": "상대에게 답을 요구하는 설명 의문",
+            "context": "원문 13쪽의 과자고/과자꼬 대조와 같은 모음 말음 체언의 예다.",
+            "supporting_record_ids": [],
+            "focus_form_key": "F1",
+            "basis_evidence_keys": [
+              "E6"
+            ],
+            "origin": "author_constructed",
+            "naturalness": "not_verified"
+          },
+          {
+            "relation_index": 1,
+            "standard_sentence": "저게 왜 내 모자일까?",
+            "dialect_sentence": "저게 왜 내 모자꼬?",
+            "meaning": "저것이 내 모자인 이유를 혼자 생각한다.",
+            "grammar_function": "자문",
+            "context": "상대의 답을 요구하지 않는 혼잣말이다. 원문이 구별하는 억양은 글자만으로 재현하지 않았다.",
+            "supporting_record_ids": [],
+            "focus_form_key": "F2",
+            "basis_evidence_keys": [
+              "E6"
+            ],
+            "origin": "author_constructed",
+            "naturalness": "not_verified"
+          }
+        ],
+        "illustrative_examples_note": "원문의 모음 말음 체언 대조를 다른 명사로 구성했다. -꼬의 자문 해석과 -고의 답 요구를 구별하며 모든 세대의 이해도를 단정하지 않는다. 모두 작성자가 구성한 설명용 예문이다. 원문 발화·독립 근거·평가 정답이 아니며 자연스러움은 미검증이다."
+      },
+      "example_review": {
+        "reviewed_on": "2026-09-15",
+        "reviewer": "Codex",
+        "method": "direct_record_and_source_recheck",
+        "decision": "examples_added_or_rechecked",
+        "note": "원문의 모음 말음 체언 대조를 다른 명사로 구성했다. -꼬의 자문 해석과 -고의 답 요구를 구별하며 모든 세대의 이해도를 단정하지 않는다.",
+        "source_pages": [
+          12,
+          13
+        ],
+        "illustrated_relation_indexes": [
+          1
+        ],
+        "remaining_relation_indexes": [],
+        "independent_review": false,
+        "naturalness_test_performed": false
+      }
+    },
+    {
+      "id": "GYS-Q013",
+      "review": {
+        "source_fidelity": "needs_review",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "-(느)ㄴ가/고의 자문·연결·하게체 용법을 구별",
+        "concepts": [
+          "FINAL_ENDING",
+          "CONNECTIVE_ENDING",
+          "INTERROGATIVE",
+          "SPEECH_LEVEL"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-(느)ㄴ가",
+            "sense": null,
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "-(느)ㄴ고",
+            "sense": null,
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F3",
+            "text": "-(느)ㄴ강",
+            "sense": null,
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F4",
+            "text": "-(느)ㄴ공",
+            "sense": null,
+            "pos": "종결어미",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "해체 자문 또는 문장 중간 연결 또는 하게체 의문"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "polar"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.question_interpretation",
+              "input_features": [
+                "question_type"
+              ],
+              "mapping_note": "절 위치·목표 높임·발화 의도에 따라 갈라지는 용법이다. 이번 기록은 세부 용법 분기의 원문 목록이며 종결 선택 규칙이 아니다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E6"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "해체 자문 또는 문장 중간 연결 또는 하게체 의문"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "content"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.question_interpretation",
+              "input_features": [
+                "question_type"
+              ],
+              "mapping_note": "문장 중간의 형태를 주절 종결어미로 자동 조회하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E6"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "variant_of",
+            "object": {
+              "kind": "form",
+              "ref": "F1"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "polar"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.question_interpretation",
+              "input_features": [
+                "question_type"
+              ],
+              "mapping_note": "비음 첨가의 가끔 나타남을 필수 규칙으로 만들지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E6"
+            ]
+          },
+          {
+            "subject": "F4",
+            "predicate": "variant_of",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "content"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.question_interpretation",
+              "input_features": [
+                "question_type"
+              ],
+              "mapping_note": "비음 표기와 기본 어미 용법을 분리한다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E6"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E6",
+            "page": 13,
+            "locator": "3.3.1.2 -고/-꼬 의미 차이와 -(느)ㄴ가/고의 용법·세대"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "세대서술",
+              "values": [
+                "50대 이상이 이 구별을 따르는 것으로 보인다는 편집자 추정"
+              ],
+              "evidence_keys": [
+                "E6"
+              ]
+            },
+            {
+              "field": "참조범위",
+              "values": [
+                "하게체 세부 내용은 별도 상대높임법 문서 참조 대상으로 안내됨"
+              ],
+              "evidence_keys": [
+                "E6"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "연결절과 자문·하게체 종결 용법을 분리한 후 구조 슬롯과 조건을 추가해야 한다.",
+          "50대 이상 서술을 조사로 검증된 연령 규칙으로 승격하지 않는다."
+        ],
+        "illustrative_examples": [
+          {
+            "relation_index": 3,
+            "standard_sentence": "아이는 지금 자는가?",
+            "dialect_sentence": "아이는 지금 자는강?",
+            "meaning": "아이가 자는지 혼자 되묻는다.",
+            "grammar_function": "해체 자문에서의 콧소리 변이",
+            "context": "상대에게 하게체로 질문하는 장면이나 내포절이 아니라 혼잣말이다. ㄴ강의 모든 환경을 증명하지 않는다.",
+            "supporting_record_ids": [],
+            "focus_form_key": "F3",
+            "basis_evidence_keys": [
+              "E6"
+            ],
+            "origin": "author_constructed",
+            "naturalness": "not_verified"
+          }
+        ],
+        "illustrative_examples_note": "원문에 명시된 자는강의 혼잣말 용법만 예시한다. 하게체 종결·연결절·세대별 분포를 통합한 기존 관계는 여전히 세분화 대상이다. 모두 작성자가 구성한 설명용 예문이다. 원문 발화·독립 근거·평가 정답이 아니며 자연스러움은 미검증이다."
+      },
+      "example_review": {
+        "reviewed_on": "2026-09-15",
+        "reviewer": "Codex",
+        "method": "direct_record_and_source_recheck",
+        "decision": "examples_added_or_rechecked",
+        "note": "원문에 명시된 자는강의 혼잣말 용법만 예시한다. 하게체 종결·연결절·세대별 분포를 통합한 기존 관계는 여전히 세분화 대상이다.",
+        "source_pages": [
+          13
+        ],
+        "illustrated_relation_indexes": [
+          3
+        ],
+        "remaining_relation_indexes": [
+          1,
+          2,
+          4
+        ],
+        "independent_review": false,
+        "naturalness_test_performed": false
+      }
+    },
+    {
+      "id": "GYS-Q014",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "ending",
+        "label": "안동·청송 예시에서 체언 의문 -(이)라/-(이)로",
+        "concepts": [
+          "FINAL_ENDING",
+          "INTERROGATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-(이)라",
+            "sense": "판정 의문",
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "-(이)로",
+            "sense": "설명 의문",
+            "pos": "종결어미",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "POLAR_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "polar"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                },
+                {
+                  "field": "host_class",
+                  "operator": "one_of",
+                  "values": [
+                    "nominal_copula"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "host_class"
+              ],
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "CONTENT_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "content"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                },
+                {
+                  "field": "host_class",
+                  "operator": "one_of",
+                  "values": [
+                    "nominal_copula"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "host_class"
+              ],
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북 안동",
+              "경북 청송"
+            ],
+            "basis": "stated",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E7",
+            "page": 14,
+            "locator": "3.3.2 경북 북부·울진·서부·경남 서부 지역별 차이"
+          }
+        ],
+        "details": {
+          "ending": [
+            {
+              "field": "우선순위주의",
+              "values": [
+                "안동·청송 사례를 부산 기본 표현으로 사용하지 않는다"
+              ],
+              "evidence_keys": [
+                "E7"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "계사 외 다른 결합 환경·시제·높임 조합은 이 지역 서술만으로 확정하지 않는다."
+        ],
+        "illustrative_examples": [
+          {
+            "relation_index": 1,
+            "standard_sentence": "이 물건이 네 거야?",
+            "dialect_sentence": "이 물건이 네 거라?",
+            "meaning": "물건이 상대의 것인지 확인한다.",
+            "grammar_function": "체언 판정 의문",
+            "context": "원문에서 예로 든 안동·청송 지역형을 설명한다. 여기의 라는 평서·인용이 아니라 물음표와 맥락상 의문형이다.",
+            "supporting_record_ids": [],
+            "focus_form_key": "F1",
+            "basis_evidence_keys": [
+              "E7"
+            ],
+            "origin": "author_constructed",
+            "naturalness": "not_verified"
+          },
+          {
+            "relation_index": 2,
+            "standard_sentence": "저건 뭐야?",
+            "dialect_sentence": "저건 뭐로?",
+            "meaning": "저것의 정체를 묻는다.",
+            "grammar_function": "체언 설명 의문",
+            "context": "안동·청송의 원문 제시형이다. 경남 등 다른 지역의 기본형으로 지정하지 않는다.",
+            "supporting_record_ids": [],
+            "focus_form_key": "F2",
+            "basis_evidence_keys": [
+              "E7"
+            ],
+            "origin": "author_constructed",
+            "naturalness": "not_verified"
+          }
+        ],
+        "illustrative_examples_note": "안동·청송의 체언 판정/설명 의문을 각각 구성했다. 억양 정보와 경남형을 혼합하지 않는다. 모두 작성자가 구성한 설명용 예문이다. 원문 발화·독립 근거·평가 정답이 아니며 자연스러움은 미검증이다."
+      },
+      "example_review": {
+        "reviewed_on": "2026-09-15",
+        "reviewer": "Codex",
+        "method": "direct_record_and_source_recheck",
+        "decision": "examples_added_or_rechecked",
+        "note": "안동·청송의 체언 판정/설명 의문을 각각 구성했다. 억양 정보와 경남형을 혼합하지 않는다.",
+        "source_pages": [
+          14
+        ],
+        "illustrated_relation_indexes": [
+          1,
+          2
+        ],
+        "remaining_relation_indexes": [],
+        "independent_review": false,
+        "naturalness_test_performed": false
+      }
+    },
+    {
+      "id": "GYS-Q015",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "usage",
+        "label": "경북·경남 서부에서 -나가 다른 의문형 자리에 나타나는 경향",
+        "concepts": [
+          "FINAL_ENDING",
+          "INTERROGATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-나",
+            "sense": null,
+            "pos": "종결어미",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "has_usage_change",
+            "object": {
+              "kind": "value",
+              "ref": "-나/-노/-(이)가/-(이)고 자리에 -나 사용 경향; 다른 형식도 사용"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "one_of",
+                  "values": [
+                    "polar",
+                    "content"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.question_interpretation",
+              "input_features": [
+                "question_type"
+              ],
+              "mapping_note": "지역 변이를 기본 의문형 규칙의 별도 조건으로 대조한다. 모든 용법이 -나로 통합되었다고 확정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북 서부",
+              "경남 서부"
+            ],
+            "basis": "stated",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E7",
+            "page": 14,
+            "locator": "3.3.2 경북 북부·울진·서부·경남 서부 지역별 차이"
+          }
+        ],
+        "details": {
+          "usage": []
+        },
+        "gaps": [
+          "정확한 지역·세대별 빈도와 형식별 사용 환경은 미확보다."
+        ],
+        "illustrative_examples": [
+          {
+            "relation_index": 1,
+            "standard_sentence": "지금 어디 가?",
+            "dialect_sentence": "지금 어디 가나?",
+            "meaning": "상대의 목적지를 묻는다.",
+            "grammar_function": "서부 지역의 설명 의문에서 -나 사용 경향",
+            "context": "경북·경남 서부에 관한 원문 서술의 가능한 사례다. 여기서는 목적지를 묻는 맥락이며 다른 지역의 판정형 가나와 구별한다. 모든 서부 화자의 필수형은 아니다.",
+            "supporting_record_ids": [],
+            "focus_form_key": "F1",
+            "basis_evidence_keys": [
+              "E7"
+            ],
+            "origin": "author_constructed",
+            "naturalness": "not_verified"
+          }
+        ],
+        "illustrative_examples_note": "서부의 -노 자리에 -나가 나타나는 경향 중 용언 질문만 구성했다. 체언의 결합형이나 빈도는 미확보로 남긴다. 모두 작성자가 구성한 설명용 예문이다. 원문 발화·독립 근거·평가 정답이 아니며 자연스러움은 미검증이다."
+      },
+      "example_review": {
+        "reviewed_on": "2026-09-15",
+        "reviewer": "Codex",
+        "method": "direct_record_and_source_recheck",
+        "decision": "examples_added_or_rechecked",
+        "note": "서부의 -노 자리에 -나가 나타나는 경향 중 용언 질문만 구성했다. 체언의 결합형이나 빈도는 미확보로 남긴다.",
+        "source_pages": [
+          14
+        ],
+        "illustrated_relation_indexes": [
+          1
+        ],
+        "remaining_relation_indexes": [],
+        "independent_review": false,
+        "naturalness_test_performed": false
+      }
+    },
+    {
+      "id": "GYS-Q016",
+      "review": {
+        "source_fidelity": "needs_review",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "ending",
+        "label": "진주·산청·하동의 의문 -네 사용 설명",
+        "concepts": [
+          "FINAL_ENDING",
+          "INTERROGATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-네",
+            "sense": "의문 종결",
+            "pos": "종결어미",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "INTERROGATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "one_of",
+                  "values": [
+                    "content"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.question_interpretation",
+              "input_features": [
+                "question_type"
+              ],
+              "mapping_note": "직접 제시된 예문이 설명 의문이므로 이번 연결도 content에 한정한다. 판정 의문까지 확대하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경남 진주",
+              "경남 산청",
+              "경남 하동"
+            ],
+            "basis": "stated",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E7",
+            "page": 14,
+            "locator": "3.3.2 경북 북부·울진·서부·경남 서부 지역별 차이"
+          }
+        ],
+        "details": {
+          "ending": [
+            {
+              "field": "직접예시범위",
+              "values": [
+                "뭐/어떻게를 묻는 설명 의문 예시"
+              ],
+              "evidence_keys": [
+                "E7"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "판정 의문까지의 세부 분포는 추가 확인이 필요하다.",
+          "정확한 억양·감정별 차이는 텍스트 생성 규칙으로 확정하지 않는다.",
+          "경남 서부의 표현을 다른 지역의 우선 표현으로 승격하지 않는다."
+        ],
+        "illustrative_examples": [
+          {
+            "relation_index": 1,
+            "standard_sentence": "지금 뭐 해?",
+            "dialect_sentence": "지금 뭐 하네?",
+            "meaning": "상대가 지금 하는 일을 묻는다.",
+            "grammar_function": "경남 서부의 설명 의문 -네",
+            "context": "진주를 예로 설정했다. 어떤 일을 하고 있네라는 평서 관찰이 아니라 질문이며 실제 억양은 미검증이다.",
+            "supporting_record_ids": [],
+            "focus_form_key": "F1",
+            "basis_evidence_keys": [
+              "E7"
+            ],
+            "origin": "author_constructed",
+            "naturalness": "not_verified"
+          }
+        ],
+        "illustrative_examples_note": "원문에 제시된 뭐 하네 유형의 설명 의문에 한정한다. 판정형 분포 및 억양·감정별 차이는 여전히 미해결이다. 모두 작성자가 구성한 설명용 예문이다. 원문 발화·독립 근거·평가 정답이 아니며 자연스러움은 미검증이다."
+      },
+      "example_review": {
+        "reviewed_on": "2026-09-15",
+        "reviewer": "Codex",
+        "method": "direct_record_and_source_recheck",
+        "decision": "examples_added_or_rechecked",
+        "note": "원문에 제시된 뭐 하네 유형의 설명 의문에 한정한다. 판정형 분포 및 억양·감정별 차이는 여전히 미해결이다.",
+        "source_pages": [
+          14
+        ],
+        "illustrated_relation_indexes": [
+          1
+        ],
+        "remaining_relation_indexes": [],
+        "independent_review": false,
+        "naturalness_test_performed": false
+      }
+    }
+  ]
+}

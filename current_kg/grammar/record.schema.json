@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "공통 문법 지식 기록 v0.2 — 직접 작성 및 입력 분석 연결",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["kind", "label", "concepts", "forms", "relations", "scope", "evidence", "details", "gaps", "illustrative_examples", "illustrative_examples_note"],
+  "properties": {
+    "illustrative_examples": {"description": "작성자가 구성한 설명용 예문. 원문 인용·독립 근거·평가 정답이 아님. 불명확하거나 아직 검토하지 않았으면 null.", "type": ["array", "null"], "minItems": 1, "items": {"$ref": "#/$defs/illustrativeExample"}},
+    "illustrative_examples_note": {"description": "null이면 미작성/불확실 등 구체적 이유, 예문이 있으면 적용 범위와 한계", "type": "string", "minLength": 1},
+    "kind": {"enum": ["lexical", "particle", "ending", "construction", "derivation", "inflection", "phonology", "usage", "example_relation"]},
+    "label": {"type": "string", "minLength": 1, "maxLength": 160},
+    "concepts": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+    "forms": {"type": "array", "items": {"$ref": "#/$defs/form"}},
+    "relations": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/relation"}},
+    "scope": {"$ref": "#/$defs/scope"},
+    "evidence": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/evidence"}},
+    "details": {"type": "object", "additionalProperties": false, "properties": {
+      "lexical": {"$ref": "#/$defs/details"}, "particle": {"$ref": "#/$defs/details"},
+      "ending": {"$ref": "#/$defs/details"}, "construction": {"$ref": "#/$defs/details"},
+      "derivation": {"$ref": "#/$defs/details"}, "inflection": {"$ref": "#/$defs/details"},
+      "phonology": {"$ref": "#/$defs/details"}, "usage": {"$ref": "#/$defs/details"},
+      "example_relation": {"$ref": "#/$defs/details"}
+    }},
+    "gaps": {"type": "array", "uniqueItems": true, "items": {"type": "string", "maxLength": 240}}
+  },
+  "$defs": {
+    "illustrativeExample": {"type": "object", "additionalProperties": false,
+      "required": ["standard_sentence", "dialect_sentence", "meaning", "grammar_function", "focus_form_key", "relation_index", "basis_evidence_keys", "origin", "naturalness"],
+      "properties": {
+        "standard_sentence": {"type": "string", "minLength": 1},
+        "dialect_sentence": {"type": "string", "minLength": 1},
+        "meaning": {"type": "string", "minLength": 1},
+        "grammar_function": {"type": "string", "minLength": 1},
+        "focus_form_key": {"description": "설명 대상 표현의 키. 개념을 주체로 하는 일반 규칙에서 개별 표현 노드가 없을 때만 null.", "type": ["string", "null"], "pattern": "^F[0-9]+$"},
+        "context": {"description": "이 예문의 질문 해석·지역·발화 장면 등. 작성자가 정한 설명 맥락이며 새로운 원문 사실이 아님.", "type": "string", "minLength": 1},
+        "supporting_record_ids": {"description": "예문에 함께 사용한 다른 문법 기록. 원문의 독립 증거 수를 늘리지 않음.", "type": "array", "uniqueItems": true, "items": {"type": "string"}},
+        "relation_index": {"description": "설명 대상 relations 항목의 1부터 시작하는 번호", "type": "integer", "minimum": 1},
+        "basis_evidence_keys": {"description": "예문 자체의 출처가 아니라, 예문 구성에 참고한 문법 설명의 근거", "type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+        "origin": {"const": "author_constructed"},
+        "naturalness": {"const": "not_verified"}
+      }
+    },
+    "form": {"type": "object", "additionalProperties": false, "required": ["key", "text", "role", "sense", "pos"], "properties": {
+      "key": {"type": "string", "pattern": "^F[0-9]+$"},
+      "text": {"type": "string", "minLength": 1, "maxLength": 160},
+      "role": {"enum": ["dialect", "standard", "component", "unspecified"]},
+      "sense": {"type": ["string", "null"], "maxLength": 120},
+      "pos": {"type": ["string", "null"], "maxLength": 80}
+    }},
+    "evidence": {"type": "object", "additionalProperties": false, "required": ["key", "page", "locator"], "properties": {
+      "key": {"type": "string", "pattern": "^E[0-9]+$"},
+      "page": {"type": "integer", "minimum": 1},
+      "locator": {"type": "string", "minLength": 1, "maxLength": 200}
+    }},
+    "scopeValue": {"type": "object", "additionalProperties": false, "required": ["values", "basis", "evidence_keys"], "properties": {
+      "values": {"type": "array", "uniqueItems": true, "items": {"type": "string", "maxLength": 120}},
+      "basis": {"enum": ["stated", "source_context", "unknown", "not_applicable"]},
+      "evidence_keys": {"type": "array", "uniqueItems": true, "items": {"type": "string"}}
+    }},
+    "scope": {"type": "object", "additionalProperties": false, "required": ["region", "period", "generation", "register"], "properties": {
+      "region": {"$ref": "#/$defs/scopeValue"}, "period": {"$ref": "#/$defs/scopeValue"},
+      "generation": {"$ref": "#/$defs/scopeValue"}, "register": {"$ref": "#/$defs/scopeValue"}
+    }},
+    "condition": {"type": "object", "additionalProperties": false, "required": ["field", "operator", "values", "evidence_keys"], "properties": {
+      "field": {"enum": ["meaning", "host_pos", "host_form", "stem_vowel", "stem_coda", "stem_length", "following_form", "preceding_form", "sentence_type", "question_type", "speech_level", "participant", "scope_target", "region", "period", "generation", "register", "other", "host_class", "prefinal_profile", "nominal_coda"]},
+      "operator": {"enum": ["is", "is_not", "one_of", "not_one_of", "starts_with", "ends_with", "at_least", "at_most"]},
+      "values": {"type": "array", "minItems": 1, "items": {"type": "string", "maxLength": 120}},
+      "evidence_keys": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}}
+    }},
+    "relation": {"type": "object", "additionalProperties": false, "required": ["subject", "predicate", "object", "conditions", "application", "assertion_mode", "evidence_keys"], "properties": {
+      "application": {"type": "object", "additionalProperties": false, "required": ["target", "input_features", "mapping_note"], "properties": {
+        "target": {"type": "string"},
+        "input_features": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+        "mapping_note": {"type": "string", "minLength": 1}
+      }},
+      "subject": {"type": "string", "pattern": "^(F[0-9]+|concept:[A-Z_]+)$"},
+      "predicate": {"enum": ["realizes", "variant_of", "contrasts_with", "attaches_to", "combines_with", "excludes_combination", "has_surface_form", "contracts_to", "has_usage_change", "has_interpretation", "has_example", "not_translation_pair"]},
+      "object": {"type": "object", "additionalProperties": false, "required": ["kind", "ref"], "properties": {
+        "kind": {"enum": ["form", "concept", "value"]}, "ref": {"type": "string", "minLength": 1, "maxLength": 200}
+      }},
+      "conditions": {"type": "object", "additionalProperties": false, "required": ["all", "any"], "properties": {
+        "all": {"type": "array", "items": {"$ref": "#/$defs/condition"}},
+        "any": {"type": "array", "items": {"$ref": "#/$defs/condition"}}
+      }},
+      "assertion_mode": {"enum": ["source_statement", "source_hypothesis", "example_only", "editorial_convention", "extractor_interpretation"]},
+      "evidence_keys": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}}
+    }},
+    "details": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["field", "values", "evidence_keys"], "properties": {
+      "field": {"type": "string", "minLength": 1, "maxLength": 80},
+      "values": {"type": "array", "minItems": 1, "items": {"type": "string", "maxLength": 200}},
+      "evidence_keys": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}}
+    }}}
+  }
+}

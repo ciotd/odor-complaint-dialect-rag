@@ -1,0 +1,94 @@
+{
+  "updated_on": "2026-09-15",
+  "policy": {
+    "admit": "실제 표현의 의미·기능·결합 조건·지역/시대/사용 범위를 원문 근거와 함께 기술하는 기록만 문법 지식 후보로 작성한다.",
+    "exclude": "개괄·편집 방침·역사적 원인 가설만으로 된 기록은 생성용 문법 지식으로 만들지 않는다.",
+    "history_scope": "옛 시대의 실제 형태와 사용 조건은 연구 대상이다. 이를 역사적 원인 설명과 혼동해 제외하지 않는다.",
+    "uncertain": "구체적인 문법 표현은 있지만 대응·조건이 미확정이면 보류 후보로 명시하고 사용 승인하지 않는다.",
+    "mixed": "실제 용법과 배경 설명이 섞여 있으면 명제를 나누어 각각 적절한 곳에 기록한다.",
+    "export": "이 파일은 출처·배경을 읽는 보조 메모다. grammar.graph.json, records.jsonl, analysis_links.json의 지식으로 내보내지 않으며 지식 건수에서 제외한다."
+  },
+  "notes": [
+    {
+      "id": "NOTE-I001",
+      "kind": "source_metadata",
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pages": [
+        3,
+        45
+      ],
+      "related_record_ids": [],
+      "content": {
+        "editorial_policy": "문서는 형태소 경계를 드러내는 표기를 지향하고 ㅓ/ㅡ·ㅐ/ㅔ를 임의로 혼용하지 않는 편집 방침을 밝힌다.",
+        "limit": "경상도 전체의 공인 표기나 출력 강제 규칙이 아니다. 지역별 실제 모음 구별은 별도 음운 지식으로 검토한다."
+      },
+      "in_grammar_graph": false,
+      "generation_evidence": false
+    },
+    {
+      "id": "NOTE-I006",
+      "kind": "historical_background",
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pages": [
+        4
+      ],
+      "related_record_ids": [
+        "GYS-I003",
+        "GYS-I004"
+      ],
+      "content": {
+        "source_explanation": "원문은 애껴라→애께라→애끼라의 변화로 활용 차이를 설명하고 경북 동부에서 ㅔ→ㅣ 변화가 덜 일어났다고 해석한다.",
+        "limit": "원문의 통시적 설명이며 변화 방향·원인은 독립 검증하지 않았다. 생성에 이 순서를 실행하지 않는다."
+      },
+      "in_grammar_graph": false,
+      "generation_evidence": false
+    },
+    {
+      "id": "NOTE-I011",
+      "kind": "historical_background",
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pages": [
+        5
+      ],
+      "related_record_ids": [
+        "GYS-I010",
+        "GYS-I057"
+      ],
+      "content": {
+        "source_explanation": "원문은 과거 -오-와 -우- 및 활용형 단모음화를 관련짓고, 일부 경남의 싸오다를 오→우 변화가 일어나지 않은 흔적으로 해석한다.",
+        "limit": "싸오다의 제시 사실과 그 역사적 원인 해석을 구별한다. 여기의 원인 설명은 생성 조건이 아니다."
+      },
+      "in_grammar_graph": false,
+      "generation_evidence": false
+    },
+    {
+      "id": "NOTE-I053",
+      "kind": "source_metadata_and_historical_background",
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pages": [
+        7,
+        46
+      ],
+      "related_record_ids": [
+        "GYS-I052"
+      ],
+      "content": {
+        "orthography": {
+          "reported_spellings": [
+            "배",
+            "베",
+            "뵈"
+          ],
+          "source_editorial_preference": "원문은 배를 선호하는 이유를 설명하고 베 표기가 우세하다고 주장한다.",
+          "limit": "공인 표기·실측 빈도·자유 교체 가능성을 확정하지 않는다. I052의 추정 구성 맥락에서만 읽고 배우다의 배아와 합치지 않는다."
+        },
+        "etymology": {
+          "source_hypothesis": "보이→뵈→단모음형으로 볼 수 있다는 원문의 해석.",
+          "limit": "재인용 원전이나 변화 경로를 독립 확인한 것이 아니므로 생성 규칙으로 쓰지 않는다."
+        }
+      },
+      "in_grammar_graph": false,
+      "generation_evidence": false
+    }
+  ]
+}

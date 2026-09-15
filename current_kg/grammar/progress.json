@@ -1,0 +1,3286 @@
+{
+  "contract_sha256": "640c212189bc99b860102d1bc1bef4247a475713adf9982dbe8acb7478b949a4",
+  "mode": "direct_authoring_offline",
+  "background_worker": false,
+  "total_pages": 452,
+  "page_status_counts": {
+    "pending": 433,
+    "context_only": 2,
+    "draft_complete": 3,
+    "needs_review": 4,
+    "partial": 10
+  },
+  "records": 67,
+  "nodes": 2121,
+  "edges": 5478,
+  "semantic_edges": 343,
+  "author_checked_records": 55,
+  "independently_reviewed_records": 0,
+  "generation_approved_records": 0,
+  "sources": {
+    "NAMU_PHONOLOGY_20260908": {
+      "total_pages": 8,
+      "records": 0,
+      "page_status": {
+        "pending": 8
+      }
+    },
+    "NAMU_GRAMMAR_20260908": {
+      "total_pages": 51,
+      "records": 65,
+      "page_status": {
+        "context_only": 2,
+        "draft_complete": 3,
+        "needs_review": 4,
+        "partial": 7,
+        "pending": 35
+      }
+    },
+    "RYU2014": {
+      "total_pages": 38,
+      "records": 0,
+      "page_status": {
+        "pending": 38
+      }
+    },
+    "NAMU_HONORIFICS_20260908": {
+      "total_pages": 35,
+      "records": 2,
+      "page_status": {
+        "partial": 3,
+        "pending": 32
+      }
+    },
+    "NAMU20260901": {
+      "total_pages": 55,
+      "records": 0,
+      "page_status": {
+        "pending": 55
+      }
+    },
+    "JO2018": {
+      "total_pages": 265,
+      "records": 0,
+      "page_status": {
+        "pending": 265
+      }
+    }
+  },
+  "pages": [
+    {
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "page": 1,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "page": 2,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "page": 3,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "page": 4,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "page": 5,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "page": 6,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "page": 7,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "page": 8,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "page": 1,
+      "status": "context_only",
+      "reason": "표지·제목·수정 시각 확인; 개별 문법 지식 없음",
+      "remaining": [],
+      "source_id": "NAMU_GRAMMAR_20260908"
+    },
+    {
+      "page": 2,
+      "status": "context_only",
+      "reason": "목차와 시작 절 제목 확인; 실질 설명은 다음 쪽에 있음",
+      "remaining": [],
+      "source_id": "NAMU_GRAMMAR_20260908"
+    },
+    {
+      "page": 3,
+      "status": "draft_complete",
+      "reason": "ㅣ형 활용 지식은 유지. 개요의 표기 방침은 source_notes.json으로 이동하고 일반 개괄의 독립 기록은 폐기; 페이지 검토 이력은 보존",
+      "remaining": [],
+      "source_id": "NAMU_GRAMMAR_20260908"
+    },
+    {
+      "page": 4,
+      "status": "needs_review",
+      "reason": "ㅣ형·1음절 ㅜ형의 본문과 9개 표제어의 전체 활용 열을 기록",
+      "remaining": [
+        "2음절 이하 제한의 적용 범위 및 마지막 형태소 길이의 해석"
+      ],
+      "source_id": "NAMU_GRAMMAR_20260908"
+    },
+    {
+      "page": 5,
+      "status": "needs_review",
+      "reason": "활용표와 실제 용법은 유지. 역사 설명은 보조 주석으로 분리하고 싸오다의 지역형만 GYS-I057로 재작성",
+      "remaining": [
+        "어간 전체와 마지막 형태소 길이의 단위 구별",
+        "지역 미확보 및 통시적 설명의 독립 근거 대조"
+      ],
+      "source_id": "NAMU_GRAMMAR_20260908"
+    },
+    {
+      "page": 6,
+      "status": "draft_complete",
+      "reason": "묵다·가줗다·가주다·가지다·돌다/달다의 전체 표와 본문, 장음·인용·강세·지역 변이 설명 기록; 타방언 비교는 경상 생성 후보에서 제외",
+      "remaining": [],
+      "source_id": "NAMU_GRAMMAR_20260908"
+    },
+    {
+      "page": 7,
+      "status": "needs_review",
+      "reason": "오다 표·변이, 보다 보조 구성, 단축 결합형·표기 설명을 기록",
+      "remaining": [
+        "뚜디/뚜울(기)/뚜까 맞다의 바탕과 출력 대응",
+        "보조 보다의 세대별 용법·형태 제약 세분화"
+      ],
+      "source_id": "NAMU_GRAMMAR_20260908"
+    },
+    {
+      "page": 8,
+      "status": "partial",
+      "reason": "기본 의문 유형·서술부 계열의 대응을 작성; 표의 -으시- 설명은 11쪽과 충돌",
+      "remaining": [
+        "3.3 도입부의 역사적 서술은 미작성; 상단 3.2.1 활용형은 GYS-I056에 작성",
+        "8쪽 표의 -으시- 분류와 11쪽 예외 설명 대조 후 정리",
+        "접힌 예1~예8의 미노출 내용은 확보하지 않음"
+      ],
+      "source_id": "NAMU_GRAMMAR_20260908"
+    },
+    {
+      "page": 9,
+      "status": "draft_complete",
+      "reason": "해라체 제한·-나/-노 기능과 뭐/어디의 해석 중의성을 작성; 긴 대화 원문은 복제하지 않음",
+      "remaining": [],
+      "source_id": "NAMU_GRAMMAR_20260908"
+    },
+    {
+      "page": 10,
+      "status": "partial",
+      "reason": "체언 받침별 -(이)가/고와 아니다의 예외를 작성; 여(여기)의 음운·의미 구별은 아직 미작성",
+      "remaining": [
+        "여(여기)와 여(女)의 장음·의미 구별 기록"
+      ],
+      "source_id": "NAMU_GRAMMAR_20260908"
+    },
+    {
+      "page": 11,
+      "status": "needs_review",
+      "reason": "선어말어미 전환·-시- 예외·수사 의문을 작성하되 8쪽 표와 충돌 보존",
+      "remaining": [
+        "주체 높임 -시- 단독의 ㄱ/ㄴ 계열 충돌 독립 대조"
+      ],
+      "source_id": "NAMU_GRAMMAR_20260908"
+    },
+    {
+      "page": 12,
+      "status": "partial",
+      "reason": "-제/-지와 -(으)까/꼬 대조, 의문사 생략 가능성을 작성",
+      "remaining": [
+        "-(으)까/꼬의 ㄹ 탈락 환경과 청유·자문·내포 용법 세분화"
+      ],
+      "source_id": "NAMU_GRAMMAR_20260908"
+    },
+    {
+      "page": 13,
+      "status": "partial",
+      "reason": "-고/-꼬의 의미 차이 및 -(느)ㄴ가/고의 복수 용법·세대 서술 작성",
+      "remaining": [
+        "-(느)ㄴ가/고를 자문·연결·하게체별 개별 용법으로 분리",
+        "머꼬의 중의성과 응답 요구를 분석 속성으로 세분화"
+      ],
+      "source_id": "NAMU_GRAMMAR_20260908"
+    },
+    {
+      "page": 14,
+      "status": "partial",
+      "reason": "안동·청송, 경북·경남 서부, 경남 서부의 지역 변이 작성",
+      "remaining": [
+        "울진 통합형의 범위·정도·내부 서술 일관성 대조 및 기록",
+        "지역별 억양 기술은 후속 기록 필요"
+      ],
+      "source_id": "NAMU_GRAMMAR_20260908"
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 15,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 16,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 17,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 18,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 19,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 20,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 21,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 22,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 23,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 24,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 25,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 26,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 27,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 28,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 29,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 30,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 31,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 32,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 33,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 34,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 35,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 36,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 37,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 38,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 39,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 40,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 41,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 42,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 43,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 44,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "page": 45,
+      "status": "partial",
+      "reason": "각주 1~14를 앞부분 기록의 근거로 연결",
+      "remaining": [
+        "본문 7 예문과 8 기타 및 각주 밖의 내용은 미작성"
+      ],
+      "source_id": "NAMU_GRAMMAR_20260908"
+    },
+    {
+      "page": 46,
+      "status": "partial",
+      "reason": "각주 15~27의 활용·의미·지역·표기 정보를 작성",
+      "remaining": [
+        "각주 28~37의 다른 절 관련 내용은 별도 처리"
+      ],
+      "source_id": "NAMU_GRAMMAR_20260908"
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 47,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 48,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 49,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 50,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "page": 51,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 1,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 2,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 3,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 4,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 5,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 6,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 7,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 8,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 9,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 10,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 11,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 12,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 13,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 14,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 15,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 16,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 17,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 18,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 19,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 20,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 21,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 22,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 23,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 24,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 25,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 26,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 27,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 28,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 29,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 30,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 31,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 32,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 33,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 34,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 35,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 36,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 37,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "RYU2014",
+      "page": 38,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 1,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 2,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 3,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 4,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 5,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 6,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 7,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "page": 8,
+      "status": "partial",
+      "reason": "부산 하이소체 는교형의 사용·제한을 작성",
+      "remaining": [
+        "는교형의 전체 지역 분포·어원·서술어별 형태·-(느)ㄴ개 변이 미작성",
+        "하소체 1형 표와 명령형 활용 미작성"
+      ],
+      "source_id": "NAMU_HONORIFICS_20260908"
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 9,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 10,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 11,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 12,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 13,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 14,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 15,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 16,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 17,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 18,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 19,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 20,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 21,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 22,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 23,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 24,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 25,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 26,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 27,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 28,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 29,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 30,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "page": 31,
+      "status": "partial",
+      "reason": "각주 8의 부산 사용 설명을 근거로 연결",
+      "remaining": [
+        "본문의 높임체 혼용 비판 및 다른 각주 기록"
+      ],
+      "source_id": "NAMU_HONORIFICS_20260908"
+    },
+    {
+      "page": 32,
+      "status": "partial",
+      "reason": "[는교?] 및 각주 23의 범위·재인용 정보를 연결",
+      "remaining": [
+        "기타 각주와 하소체·명령형·지역별 내용 기록"
+      ],
+      "source_id": "NAMU_HONORIFICS_20260908"
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 33,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 34,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "page": 35,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 1,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 2,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 3,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 4,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 5,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 6,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 7,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 8,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 9,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 10,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 11,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 12,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 13,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 14,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 15,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 16,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 17,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 18,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 19,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 20,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 21,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 22,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 23,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 24,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 25,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 26,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 27,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 28,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 29,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 30,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 31,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 32,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 33,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 34,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 35,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 36,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 37,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 38,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 39,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 40,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 41,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 42,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 43,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 44,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 45,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 46,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 47,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 48,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 49,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 50,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 51,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 52,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 53,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 54,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "NAMU20260901",
+      "page": 55,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 1,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 2,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 3,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 4,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 5,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 6,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 7,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 8,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 9,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 10,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 11,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 12,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 13,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 14,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 15,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 16,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 17,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 18,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 19,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 20,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 21,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 22,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 23,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 24,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 25,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 26,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 27,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 28,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 29,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 30,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 31,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 32,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 33,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 34,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 35,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 36,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 37,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 38,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 39,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 40,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 41,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 42,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 43,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 44,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 45,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 46,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 47,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 48,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 49,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 50,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 51,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 52,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 53,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 54,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 55,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 56,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 57,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 58,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 59,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 60,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 61,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 62,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 63,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 64,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 65,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 66,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 67,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 68,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 69,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 70,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 71,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 72,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 73,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 74,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 75,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 76,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 77,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 78,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 79,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 80,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 81,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 82,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 83,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 84,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 85,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 86,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 87,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 88,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 89,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 90,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 91,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 92,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 93,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 94,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 95,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 96,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 97,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 98,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 99,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 100,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 101,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 102,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 103,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 104,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 105,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 106,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 107,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 108,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 109,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 110,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 111,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 112,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 113,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 114,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 115,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 116,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 117,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 118,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 119,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 120,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 121,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 122,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 123,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 124,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 125,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 126,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 127,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 128,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 129,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 130,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 131,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 132,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 133,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 134,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 135,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 136,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 137,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 138,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 139,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 140,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 141,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 142,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 143,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 144,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 145,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 146,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 147,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 148,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 149,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 150,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 151,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 152,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 153,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 154,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 155,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 156,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 157,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 158,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 159,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 160,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 161,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 162,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 163,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 164,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 165,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 166,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 167,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 168,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 169,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 170,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 171,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 172,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 173,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 174,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 175,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 176,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 177,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 178,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 179,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 180,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 181,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 182,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 183,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 184,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 185,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 186,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 187,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 188,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 189,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 190,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 191,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 192,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 193,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 194,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 195,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 196,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 197,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 198,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 199,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 200,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 201,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 202,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 203,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 204,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 205,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 206,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 207,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 208,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 209,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 210,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 211,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 212,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 213,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 214,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 215,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 216,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 217,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 218,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 219,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 220,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 221,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 222,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 223,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 224,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 225,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 226,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 227,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 228,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 229,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 230,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 231,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 232,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 233,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 234,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 235,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 236,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 237,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 238,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 239,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 240,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 241,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 242,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 243,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 244,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 245,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 246,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 247,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 248,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 249,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 250,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 251,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 252,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 253,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 254,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 255,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 256,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 257,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 258,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 259,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 260,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 261,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 262,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 263,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 264,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    },
+    {
+      "source_id": "JO2018",
+      "page": 265,
+      "status": "pending",
+      "reason": "",
+      "remaining": []
+    }
+  ],
+  "illustrative_examples": {
+    "reviewed_records": 67,
+    "records_with_examples": 61,
+    "example_count": 72,
+    "null_records": 6,
+    "held_uncertain": 6,
+    "not_sentence_applicable": 0,
+    "illustrated_relations": 69,
+    "naturalness_test_performed": false
+  },
+  "excluded_from_grammar": {
+    "retired_record_count": 6,
+    "source_note_count": 4,
+    "independent_records_discarded": 2,
+    "notes_in_graph": false
+  }
+}

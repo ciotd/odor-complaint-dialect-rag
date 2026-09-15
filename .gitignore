@@ -55,3 +55,6 @@ archive/v2_failed/scratch/
 current_kg/claims/v3/background_run/*.events.jsonl
 current_kg/claims/v3/background_run/*.stderr
 current_kg/claims/v3/background_run/*.lock
+
+# AI-Hub 파생 예비 진단 문장쌍 (로컬 보관, 구성 스크립트만 추적)
+current_kg/experiments/baseline_testset_*.jsonl
