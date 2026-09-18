@@ -1,0 +1,4617 @@
+{
+  "schema_version": "0.2",
+  "author": {
+    "agent": "Codex",
+    "method": "direct_source_reading",
+    "authored_on": "2026-09-17"
+  },
+  "source_id": "JO2018",
+  "read_pages": [
+    94,
+    98,
+    104,
+    105,
+    106,
+    114,
+    115,
+    144,
+    145,
+    146,
+    147,
+    198,
+    199,
+    200,
+    201,
+    210,
+    211,
+    212,
+    213,
+    223,
+    224
+  ],
+  "scope_note": "전체 작성 계속. 이 묶음의 작성 완료를 해당 쪽 모든 진술의 처리 완료로 간주하지 않는다.",
+  "coverage": [
+    {
+      "page": 94,
+      "status": "partial",
+      "reason": "본 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    },
+    {
+      "page": 98,
+      "status": "partial",
+      "reason": "본 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    },
+    {
+      "page": 104,
+      "status": "partial",
+      "reason": "본 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    },
+    {
+      "page": 114,
+      "status": "partial",
+      "reason": "본 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    },
+    {
+      "page": 115,
+      "status": "partial",
+      "reason": "본 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    },
+    {
+      "page": 144,
+      "status": "partial",
+      "reason": "본 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    },
+    {
+      "page": 145,
+      "status": "partial",
+      "reason": "본 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    },
+    {
+      "page": 146,
+      "status": "partial",
+      "reason": "본 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    },
+    {
+      "page": 147,
+      "status": "partial",
+      "reason": "본 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    },
+    {
+      "page": 198,
+      "status": "partial",
+      "reason": "본 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    },
+    {
+      "page": 199,
+      "status": "partial",
+      "reason": "본 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    },
+    {
+      "page": 200,
+      "status": "partial",
+      "reason": "본 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    },
+    {
+      "page": 201,
+      "status": "partial",
+      "reason": "본 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    },
+    {
+      "page": 210,
+      "status": "partial",
+      "reason": "본 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    },
+    {
+      "page": 211,
+      "status": "partial",
+      "reason": "본 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    },
+    {
+      "page": 212,
+      "status": "partial",
+      "reason": "본 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    },
+    {
+      "page": 223,
+      "status": "partial",
+      "reason": "본 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    },
+    {
+      "page": 224,
+      "status": "partial",
+      "reason": "본 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "GYS-J038",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "계사 -라/-래와 회상 -더라의 구성 구별",
+        "concepts": [
+          "DECLARATIVE",
+          "PAST"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-라",
+            "role": "dialect",
+            "sense": "계사 서술과 회상 서술",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "-래",
+            "role": "dialect",
+            "sense": "계사 서술",
+            "pos": null
+          },
+          {
+            "key": "F3",
+            "text": "-더라",
+            "role": "dialect",
+            "sense": "더가 포함된 회상 서술",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DECLARATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "계사 서술과 회상 서술"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DECLARATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "계사 서술"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "PAST"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "더가 포함된 회상 서술"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북: 논문의 구술 자료 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "1978–1984년 조사 구술 자료; 2018년 출판"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 198,
+            "locator": "종결어미의 통사·의미 특성 및 해당 예문"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "-라가 붙었다고 명령으로 해석하지 않는다. 계사와 회상 선어말 구성은 구별한다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-J039",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "계사·회상 종결에 요·예·여 결합",
+        "concepts": [
+          "ADDRESSEE_HONORIFIC"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "이라요",
+            "role": "dialect",
+            "sense": "비격식 서술의 청자높임 부가",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "이라예",
+            "role": "dialect",
+            "sense": "계사 서술에 예 결합",
+            "pos": null
+          },
+          {
+            "key": "F3",
+            "text": "이라여",
+            "role": "dialect",
+            "sense": "계사 서술에 여 결합",
+            "pos": null
+          },
+          {
+            "key": "F4",
+            "text": "더라요",
+            "role": "dialect",
+            "sense": "회상 서술에 요 결합",
+            "pos": null
+          },
+          {
+            "key": "F5",
+            "text": "드래여",
+            "role": "dialect",
+            "sense": "회상 서술에 여 결합",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "ADDRESSEE_HONORIFIC"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "비격식 서술의 청자높임 부가"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "ADDRESSEE_HONORIFIC"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "계사 서술에 예 결합"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "ADDRESSEE_HONORIFIC"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "계사 서술에 여 결합"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F4",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "ADDRESSEE_HONORIFIC"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "회상 서술에 요 결합"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F5",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "ADDRESSEE_HONORIFIC"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "회상 서술에 여 결합"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북: 논문의 구술 자료 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "1978–1984년 조사 구술 자료; 2018년 출판"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 199,
+            "locator": "종결어미의 통사·의미 특성 및 해당 예문"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "관찰된 결합형을 기록한다. 요·예·여의 임의 교환이나 모든 어미와의 결합은 허용하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-J040",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "지·제·지러의 서술 용법",
+        "concepts": [
+          "DECLARATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-지",
+            "role": "dialect",
+            "sense": "알고 있는 사실의 서술 또는 대답",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "-제",
+            "role": "dialect",
+            "sense": "알고 있는 사실의 서술·대답",
+            "pos": null
+          },
+          {
+            "key": "F3",
+            "text": "-지러",
+            "role": "dialect",
+            "sense": "알고 있는 사실의 서술·대답",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DECLARATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "알고 있는 사실의 서술 또는 대답"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DECLARATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "알고 있는 사실의 서술·대답"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DECLARATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "알고 있는 사실의 서술·대답"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북: 논문의 구술 자료 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "1978–1984년 조사 구술 자료; 2018년 출판"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 200,
+            "locator": "종결어미의 통사·의미 특성 및 해당 예문"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "확인 의문·명령 용법과 다른 구성이다. 억양·문맥 정보 없이 형태만으로 확정하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-J041",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "약속의 -끼와 미래 구성 끼의 구별",
+        "concepts": [
+          "INTENTION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-끼",
+            "role": "dialect",
+            "sense": "화자 약속",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "INTENTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "화자 약속"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북: 논문의 구술 자료 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "1978–1984년 조사 구술 자료; 2018년 출판"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 201,
+            "locator": "종결어미의 통사·의미 특성 및 해당 예문"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "하끼·주끼·내끼가 제시된다. 모음말 동사 어간과의 결합 관찰이며 의존명사 구성 끼와 동일시하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-J042",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "지·제·지러·지로의 확인 의문",
+        "concepts": [
+          "INTERROGATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-지",
+            "role": "dialect",
+            "sense": "확인 의문",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "-제",
+            "role": "dialect",
+            "sense": "확인 의문",
+            "pos": null
+          },
+          {
+            "key": "F3",
+            "text": "-지러",
+            "role": "dialect",
+            "sense": "확인 의문",
+            "pos": null
+          },
+          {
+            "key": "F4",
+            "text": "-지로",
+            "role": "dialect",
+            "sense": "확인 의문",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "INTERROGATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "확인 의문"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "INTERROGATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "확인 의문"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "INTERROGATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "확인 의문"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F4",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "INTERROGATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "확인 의문"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북: 논문의 구술 자료 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "1978–1984년 조사 구술 자료; 2018년 출판"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 210,
+            "locator": "종결어미의 통사·의미 특성 및 해당 예문"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "계사·용언·선어말어미 결합이 기술된다. 평서 용법과의 구분에 문맥·억양이 필요하다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-J043",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "께 의향 질문과 까·꼬 계열 의문",
+        "concepts": [
+          "INTERROGATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-께",
+            "role": "dialect",
+            "sense": "상대의 의향을 물음",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "-까",
+            "role": "dialect",
+            "sense": "상대 의향 질문",
+            "pos": null
+          },
+          {
+            "key": "F3",
+            "text": "-ㄹ까",
+            "role": "dialect",
+            "sense": "상대 의향 질문",
+            "pos": null
+          },
+          {
+            "key": "F4",
+            "text": "-꼬",
+            "role": "dialect",
+            "sense": "상대 의향 질문",
+            "pos": null
+          },
+          {
+            "key": "F5",
+            "text": "-ㄹ꼬",
+            "role": "dialect",
+            "sense": "상대 의향 질문",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "INTERROGATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "상대의 의향을 물음"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "INTERROGATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "상대 의향 질문"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "INTERROGATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "상대 의향 질문"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F4",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "INTERROGATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "상대 의향 질문"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F5",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "INTERROGATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "상대 의향 질문"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북: 논문의 구술 자료 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "1978–1984년 조사 구술 자료; 2018년 출판"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 211,
+            "locator": "종결어미의 통사·의미 특성 및 해당 예문"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "이 절에서 기술한 의향 질문 용법이다. 다른 문서의 설명/판정 의문 대조를 이 목록 전체에 자동 이식하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-J044",
+      "review": {
+        "source_fidelity": "needs_review",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "-데이의 드문 의문 관찰",
+        "concepts": [
+          "INTERROGATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-데이",
+            "role": "dialect",
+            "sense": "의문 문맥에서 나타난 데이",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "INTERROGATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "의문 문맥에서 나타난 데이"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북: 논문의 구술 자료 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "1978–1984년 조사 구술 자료; 2018년 출판"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 212,
+            "locator": "종결어미의 통사·의미 특성 및 해당 예문"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "단일 사례이며 저자도 판단의 한계를 인정한다. 데이의 모든 의문 사용을 허용하거나 금지하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-J045",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "요·예와 의문 어미의 관찰 결합",
+        "concepts": [
+          "ADDRESSEE_HONORIFIC"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-ㄴ가요",
+            "role": "dialect",
+            "sense": "의문 구성에 청자높임 부가",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "-ㄴ강요",
+            "role": "dialect",
+            "sense": "의문 구성에 요 결합",
+            "pos": null
+          },
+          {
+            "key": "F3",
+            "text": "-ㄴ고요",
+            "role": "dialect",
+            "sense": "의문 구성에 요 결합",
+            "pos": null
+          },
+          {
+            "key": "F4",
+            "text": "-ㄴ공요",
+            "role": "dialect",
+            "sense": "의문 구성에 요 결합",
+            "pos": null
+          },
+          {
+            "key": "F5",
+            "text": "-지예",
+            "role": "dialect",
+            "sense": "의문 구성에 예 결합",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "ADDRESSEE_HONORIFIC"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "의문 구성에 청자높임 부가"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "ADDRESSEE_HONORIFIC"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "의문 구성에 요 결합"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "ADDRESSEE_HONORIFIC"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "의문 구성에 요 결합"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F4",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "ADDRESSEE_HONORIFIC"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "의문 구성에 요 결합"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F5",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "ADDRESSEE_HONORIFIC"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "의문 구성에 예 결합"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북: 논문의 구술 자료 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "1978–1984년 조사 구술 자료; 2018년 출판"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 213,
+            "locator": "종결어미의 통사·의미 특성 및 해당 예문"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "강요·공요는 희소 사례이다. 예 결합형의 미출현을 결합 불가능으로 바꾸지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-J046",
+      "review": {
+        "source_fidelity": "needs_review",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "비격식 청유의 요·시요·지요 구성",
+        "concepts": [
+          "HORTATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-요",
+            "role": "dialect",
+            "sense": "비격식 청유",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "-시요",
+            "role": "dialect",
+            "sense": "문맥에 따른 청유 해석 후보",
+            "pos": null
+          },
+          {
+            "key": "F3",
+            "text": "-지요",
+            "role": "dialect",
+            "sense": "문맥에 따른 청유 해석 후보",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "HORTATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "비격식 청유"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "HORTATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "문맥에 따른 청유 해석 후보"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "HORTATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "문맥에 따른 청유 해석 후보"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북: 논문의 구술 자료 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "1978–1984년 조사 구술 자료; 2018년 출판"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 223,
+            "locator": "종결어미의 통사·의미 특성 및 해당 예문"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "앞 문맥과 행위 참여자가 청유 판정에 필요하다. 갑시요 사례는 저자가 오류 가능성을 제기하므로 일반 생산 규칙에서 보류한다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-J047",
+      "review": {
+        "source_fidelity": "needs_review",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "청유 표의 서지예가 서술로 해석되는 문제",
+        "concepts": [
+          "DECLARATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "서지예",
+            "role": "dialect",
+            "sense": "명령에 응답하는 화자 의지 서술 후보",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DECLARATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "명령에 응답하는 화자 의지 서술 후보"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북: 논문의 구술 자료 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "1978–1984년 조사 구술 자료; 2018년 출판"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 224,
+            "locator": "종결어미의 통사·의미 특성 및 해당 예문"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "청유 표 분류와 실제 대화 해석이 다르다. 저자는 서겠습니다 상당의 서술일 가능성을 논의한다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-J048",
+      "review": {
+        "source_fidelity": "needs_review",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "구매·구마는의 감탄 구성",
+        "concepts": [
+          "EXCLAMATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-구마",
+            "role": "dialect",
+            "sense": "감탄을 수반한 서술",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "-구매",
+            "role": "dialect",
+            "sense": "구마+이의 감탄 서술",
+            "pos": null
+          },
+          {
+            "key": "F3",
+            "text": "-구마는",
+            "role": "dialect",
+            "sense": "구마와 보조사 는의 감탄 서술",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "EXCLAMATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "감탄을 수반한 서술"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "EXCLAMATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "구마+이의 감탄 서술"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "EXCLAMATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "구마와 보조사 는의 감탄 서술"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북: 논문의 구술 자료 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "1978–1984년 조사 구술 자료; 2018년 출판"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 94,
+            "locator": "종결어미의 통사·의미 특성 및 해당 예문"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "구매는 구마+이 분석, 구마는은 보조사 결합으로 설명된다. 등급은 연구마다 달라 단일 높임값을 확정하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-J049",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "-소의 서술 용법과 결합",
+        "concepts": [
+          "DECLARATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-소",
+            "role": "dialect",
+            "sense": "하소체 서술",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "-었-",
+            "role": "component",
+            "sense": "하소체 서술",
+            "pos": null
+          },
+          {
+            "key": "F3",
+            "text": "-겠-",
+            "role": "component",
+            "sense": "하소체 서술",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DECLARATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "하소체 서술"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "combines_with",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "선어말어미를 포함한 서술 용법"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "combines_with",
+            "object": {
+              "kind": "form",
+              "ref": "F3"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "선어말어미를 포함한 서술 용법"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북: 논문의 구술 자료 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "1978–1984년 조사 구술 자료; 2018년 출판"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 98,
+            "locator": "종결어미의 통사·의미 특성 및 해당 예문"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "과거·겠 선어말어미 또는 형용사 결합의 서술 용법. 동사 어간 직접 결합 명령과 상승 억양 의문은 별도 용법이다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-J050",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "계사와 -ㅅ세 결합 및 -겠세 분석",
+        "concepts": [
+          "DECLARATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-ㅅ세",
+            "role": "dialect",
+            "sense": "계사 서술",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "-겠세",
+            "role": "dialect",
+            "sense": "것+계사+ㄹ세로 분석되는 구성",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DECLARATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "계사 서술"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DECLARATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "것+계사+ㄹ세로 분석되는 구성"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_hypothesis",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북: 논문의 구술 자료 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "1978–1984년 조사 구술 자료; 2018년 출판"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 104,
+            "locator": "종결어미의 통사·의미 특성 및 해당 예문"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "-겠세를 미래 선어말 -겠-과 바로 동일시하지 않는다. 것+이-+-ㄹ세의 축약이라는 저자의 분석을 보존한다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-J051",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "-ㅁ세의 약속 용법",
+        "concepts": [
+          "INTENTION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-ㅁ세",
+            "role": "dialect",
+            "sense": "화자 약속",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "INTENTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "화자 약속"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북: 논문의 구술 자료 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "1978–1984년 조사 구술 자료; 2018년 출판"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 105,
+            "locator": "종결어미의 통사·의미 특성 및 해당 예문"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "-ㅁ시더와 등급상 대응으로 설명되며, 계사·동사 결합이 기술된다. 청유 -세와 분리한다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-J052",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "-네 계열의 결합과 표준어 공유",
+        "concepts": [
+          "DECLARATIVE",
+          "INTENTION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-네",
+            "role": "dialect",
+            "sense": "하게체 서술",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "-다네",
+            "role": "dialect",
+            "sense": "다네의 서술",
+            "pos": null
+          },
+          {
+            "key": "F3",
+            "text": "-ㄹ라네",
+            "role": "dialect",
+            "sense": "동사와 ㄹ라네 결합의 의향 서술",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DECLARATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "하게체 서술"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DECLARATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "다네의 서술"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "INTENTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "동사와 ㄹ라네 결합의 의향 서술"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북: 논문의 구술 자료 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "1978–1984년 조사 구술 자료; 2018년 출판"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 106,
+            "locator": "종결어미의 통사·의미 특성 및 해당 예문"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "계사·용언·겠 결합, ㄹ라네의 동사 결합이 기술된다. 표준어와 공유된다는 이유로 방언 생성에서 강제로 바꾸지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-J053",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "-ㄹ다의 추측·가능성",
+        "concepts": [
+          "GUESS"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-ㄹ다",
+            "role": "dialect",
+            "sense": "추측 또는 가능성 서술",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "GUESS"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "추측 또는 가능성 서술"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북: 논문의 구술 자료 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "1978–1984년 조사 구술 자료; 2018년 출판"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 114,
+            "locator": "종결어미의 통사·의미 특성 및 해당 예문"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "용언 어간 결합을 보이며 계사 결합 주장은 재인용과 실제 자료에서 구분된다. 모든 겠을 ㄹ다로 바꾸지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-J054",
+      "review": {
+        "source_fidelity": "needs_review",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "-ㅅ다의 희소 계사 서술",
+        "concepts": [
+          "DECLARATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-ㅅ다",
+            "role": "dialect",
+            "sense": "계사 서술 및 강조·감탄 해석 후보",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DECLARATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "계사 서술 및 강조·감탄 해석 후보"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북: 논문의 구술 자료 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "1978–1984년 조사 구술 자료; 2018년 출판"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 114,
+            "locator": "종결어미의 통사·의미 특성 및 해당 예문"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "단일 용례여서 저자도 기능 판정을 유보한다. 강조 필수 기능으로 확정하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-J055",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "-ㄹ끼다의 관형형·의존명사·계사 구성",
+        "concepts": [
+          "GUESS"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-ㄹ끼다",
+            "role": "dialect",
+            "sense": "미래 추측의 명사화된 서술 구성",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "-ㄹ",
+            "role": "component",
+            "sense": "미래 추측의 명사화된 서술 구성",
+            "pos": null
+          },
+          {
+            "key": "F3",
+            "text": "것",
+            "role": "component",
+            "sense": "미래 추측의 명사화된 서술 구성",
+            "pos": null
+          },
+          {
+            "key": "F4",
+            "text": "이-",
+            "role": "component",
+            "sense": "미래 추측의 명사화된 서술 구성",
+            "pos": null
+          },
+          {
+            "key": "F5",
+            "text": "-다",
+            "role": "component",
+            "sense": "미래 추측의 명사화된 서술 구성",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "GUESS"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "미래 추측의 명사화된 서술 구성"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "combines_with",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "ㄹ+것+이-+다로 분석되는 미래 추측 구성"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "combines_with",
+            "object": {
+              "kind": "form",
+              "ref": "F3"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "ㄹ+것+이-+다로 분석되는 미래 추측 구성"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "combines_with",
+            "object": {
+              "kind": "form",
+              "ref": "F4"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "ㄹ+것+이-+다로 분석되는 미래 추측 구성"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "combines_with",
+            "object": {
+              "kind": "form",
+              "ref": "F5"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "ㄹ+것+이-+다로 분석되는 미래 추측 구성"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북: 논문의 구술 자료 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "1978–1984년 조사 구술 자료; 2018년 출판"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 114,
+            "locator": "종결어미의 통사·의미 특성 및 해당 예문"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "표면형 전체를 단순 어미로만 저장하지 않는다. ㄹ+것+이-+다의 분석 및 기 실현을 함께 보존한다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증",
+          "combines_with만으로 구성 성분의 선형 순서를 자동 조립하지 않는다; 순서는 구성 설명에서만 명시"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-J056",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "-데이의 친밀한 서술·강조",
+        "concepts": [
+          "DECLARATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-데이",
+            "role": "dialect",
+            "sense": "친밀감을 수반한 서술·강조",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DECLARATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "친밀감을 수반한 서술·강조"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북: 논문의 구술 자료 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "1978–1984년 조사 구술 자료; 2018년 출판"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 115,
+            "locator": "종결어미의 통사·의미 특성 및 해당 예문"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "본용언 및 -야 되- 구성의 예가 있다. 보조용언에서 자주 나타난다는 설명은 필수 결합 조건이 아니다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-J057",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "계사 가·고 의문 구성",
+        "concepts": [
+          "INTERROGATIVE",
+          "POLAR_QUESTION",
+          "CONTENT_QUESTION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-가",
+            "role": "dialect",
+            "sense": "계사 뒤 판정·설명 의문",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "-고",
+            "role": "dialect",
+            "sense": "계사 뒤 판정·설명 의문",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "POLAR_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "계사 서술의 판정 의문"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "CONTENT_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "계사 서술의 설명 의문"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북: 논문의 구술 자료 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "1978–1984년 조사 구술 자료; 2018년 출판"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 144,
+            "locator": "종결어미의 통사·의미 특성 및 해당 예문"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "아이가의 수사의문 관찰을 포함한다. 고 수사의문이 자료에 없다는 사실은 모든 지역의 금지가 아니다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-J058",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "나·노 의문과 시상 선어말 결합",
+        "concepts": [
+          "INTERROGATIVE",
+          "POLAR_QUESTION",
+          "CONTENT_QUESTION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-나",
+            "role": "dialect",
+            "sense": "용언·선어말어미 뒤 판정·설명 의문",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "-노",
+            "role": "dialect",
+            "sense": "용언·선어말어미 뒤 판정·설명 의문",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "POLAR_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "용언 또는 시상 선어말어미 뒤 판정 의문"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "CONTENT_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "용언 또는 시상 선어말어미 뒤 설명 의문"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북: 논문의 구술 자료 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "1978–1984년 조사 구술 자료; 2018년 출판"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 145,
+            "locator": "종결어미의 통사·의미 특성 및 해당 예문"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "각주162는 엇·더·겠 결합과 질문 유형을 연결한다. 본문에는 계사 뒤 노 예외가 있으므로 단순 품사 필터를 절대화하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-J059",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "계사 뒤 노의 예외 사례",
+        "concepts": [
+          "INTERROGATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "말이노",
+            "role": "dialect",
+            "sense": "계사 서술의 설명 의문 관찰",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "INTERROGATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "계사 서술의 설명 의문 관찰"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북: 논문의 구술 자료 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "1978–1984년 조사 구술 자료; 2018년 출판"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 146,
+            "locator": "종결어미의 통사·의미 특성 및 해당 예문"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "멀언 말이노 예가 제시된다. 계사는 반드시 가·고만 허용한다는 보편 규칙의 반례 후보이며 현대 일반성을 입증하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-J060",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "다·도 의문과 회상 대응",
+        "concepts": [
+          "INTERROGATIVE",
+          "CONTENT_QUESTION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-다",
+            "role": "dialect",
+            "sense": "회상 관련 판정·설명 의문",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "-도",
+            "role": "dialect",
+            "sense": "회상 관련 설명 의문",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "INTERROGATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "회상 관련 판정·설명 의문"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "CONTENT_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "회상 관련 설명 의문"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북: 논문의 구술 자료 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "1978–1984년 조사 구술 자료; 2018년 출판"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 146,
+            "locator": "종결어미의 통사·의미 특성 및 해당 예문"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "카다와 형용사 결합 사례를 구별한다. 평서 다와 같지 않으며 표준형 디·더냐 대응 설명을 보존한다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-J061",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "라·로 의문의 분포와 라의 설명 의문",
+        "concepts": [
+          "INTERROGATIVE",
+          "POLAR_QUESTION",
+          "CONTENT_QUESTION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-라",
+            "role": "dialect",
+            "sense": "계사 의문",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "-로",
+            "role": "dialect",
+            "sense": "계사 의문",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "POLAR_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "계사 서술의 판정 의문"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "CONTENT_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "계사 서술의 설명 의문"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "CONTENT_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "무슨·어쩐과 공기하는 원문의 계사 설명 의문 사례"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북: 논문의 구술 자료 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "1978–1984년 조사 구술 자료; 2018년 출판"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 147,
+            "locator": "종결어미의 통사·의미 특성 및 해당 예문"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "본문은 무슨·어쩐과 라가 공기하는 예를 제시한다. 의문사가 있으면 반드시 로라는 규칙으로 만들지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-J062",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "ㄹ라·ㄹ로와 수사의문",
+        "concepts": [
+          "INTERROGATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-ㄹ라",
+            "role": "dialect",
+            "sense": "용언 서술의 수사의문",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "-ㄹ로",
+            "role": "dialect",
+            "sense": "용언과 ㄹ로 결합의 수사의문",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "INTERROGATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "용언 서술의 수사의문"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "INTERROGATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "용언과 ㄹ로 결합의 수사의문"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북: 논문의 구술 자료 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "1978–1984년 조사 구술 자료; 2018년 출판"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 147,
+            "locator": "종결어미의 통사·의미 특성 및 해당 예문"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "용언 어간과 매개모음 결합이 기술된다. 요청·의향 등 다른 문맥의 모든 ㄹ라를 이 기능으로 확정하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    }
+  ]
+}

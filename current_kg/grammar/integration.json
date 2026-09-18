@@ -1,0 +1,1778 @@
+{
+  "version": "0.1",
+  "status": "author_proposed_links_not_operational",
+  "note": "원문 기반 직접 작성 통합 판단. same_usage_candidate는 owl:sameAs가 아니며 관계의 추이성·조건 상속·독립 검증을 주장하지 않는다.",
+  "links": [
+    {
+      "id": "INT001",
+      "from": "GYS-R011:F1",
+      "relation": "has_inflection_description",
+      "to": "GYS-I020:F1",
+      "reason": "함양의 완결 보조 삐다를 문법 PDF의 삐다 활용표에 연결한다.",
+      "limits": "기능과 활용의 연결 제안. 다른 어휘 의미·지역의 무조건 동일성은 주장하지 않음.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-R011",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-I020",
+          "key": "E4"
+        }
+      ]
+    },
+    {
+      "id": "INT002",
+      "from": "GYS-O002:F1",
+      "relation": "has_inflection_description",
+      "to": "GYS-I020:F1",
+      "reason": "진주 전사의 삐가가 활용표에 실제로 존재하여 용법과 활용을 연결한다.",
+      "limits": "음성·현대 자연스러움은 미검증. 이 관찰형 밖의 모든 조합 허용 아님.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-O002",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-I020",
+          "key": "E4"
+        }
+      ]
+    },
+    {
+      "id": "INT003",
+      "from": "GYS-O002:F1",
+      "relation": "same_usage_candidate",
+      "to": "GYS-R011:F1",
+      "reason": "두 자료의 삐다가 본동사 버리다가 아닌 완결 보조용언으로 설명된다.",
+      "limits": "진주 사례와 함양 기술의 사용 범위 차이를 보존.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-O002",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-R011",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT004",
+      "from": "GYS-G007:F1",
+      "relation": "shares_quotative_construction",
+      "to": "GYS-P001:F1",
+      "reason": "문법의 인용 구성과 음운의 축약 대상이 -라고 하다로 일치한다.",
+      "limits": "같은 위키 계보의 중복 근거; 두 번의 독립 확인 아님.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-G007",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-P001",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT005",
+      "from": "GYS-P001:F1",
+      "relation": "shares_quotative_construction",
+      "to": "GYS-P002:F1",
+      "reason": "같은 인용 바탕에 라카다/라쿠다 실현 후보가 제시된다.",
+      "limits": "지역 범위를 보존하며 실현형을 무조건 교환하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-P001",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-P002",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT006",
+      "from": "GYS-R008:F1",
+      "relation": "shares_quotative_construction",
+      "to": "GYS-P001:F1",
+      "reason": "함양의 무라 카네 사례를 인용 축약 구조와 연결한다.",
+      "limits": "개별 표면형의 모든 분해를 확정하는 연결이 아니다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-R008",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-P001",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT007",
+      "from": "GYS-R017:F1",
+      "relation": "shares_function_with",
+      "to": "GYS-P003:F1",
+      "reason": "함양의 학굔갑다 예와 음운 문서의 인갑다 설명은 계사 추측 구성을 연결할 근거가 된다.",
+      "limits": "시도 보다와 분리; 계사 외 모든 -ㄴ가 보다의 축약까지 허용하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-R017",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-P003",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT008",
+      "from": "GYS-R017:F1",
+      "relation": "shares_function_with",
+      "to": "GYS-I052:F1",
+      "reason": "추측 보조 보다와 배 활용 설명을 기능에서 형태로 연결한다.",
+      "limits": "갑다와 배를 같은 표면형이나 완전히 같은 결합으로 합치지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-R017",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-I052",
+          "key": "E7"
+        }
+      ]
+    },
+    {
+      "id": "INT009",
+      "from": "GYS-G001:F1",
+      "relation": "shares_function_with",
+      "to": "GYS-Y001:F1",
+      "reason": "위키 구로와 논문 거로의 목적 용법을 공유 기능으로 연결한다.",
+      "limits": "목적 용법에 한정. 나머지 기능까지 양쪽 조건을 공유하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-G001",
+          "key": "E2"
+        },
+        {
+          "record_id": "GYS-Y001",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT010",
+      "from": "GYS-G001:F1",
+      "relation": "scope_tension_with",
+      "to": "GYS-Y009:F1",
+      "reason": "위키 각주의 목적/강조 한정·빠르게 반례와 논문의 형용사 부사형 용례 사이 범위를 대조해야 한다.",
+      "limits": "동일 문장에 대한 직접 모순으로 확정하지 않음. 용법 세분화·어휘 차이 검토 필요.",
+      "status": "held_scope_tension",
+      "evidence": [
+        {
+          "record_id": "GYS-G001",
+          "key": "E2"
+        },
+        {
+          "record_id": "GYS-Y009",
+          "key": "E2"
+        }
+      ]
+    },
+    {
+      "id": "INT011",
+      "from": "GYS-R024:F1",
+      "relation": "has_applicability_constraint",
+      "to": "GYS-Y008:A1",
+      "reason": "함양의 -게 되다 사용형에 양지현의 보조 되- 앞 거로 제약을 관련 근거로 연결한다.",
+      "limits": "함양 예 자체가 그 금지를 증명하지 않음. 제약 근거는 양지현이며 범위를 분리한다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-R024",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-Y008",
+          "key": "E2"
+        }
+      ]
+    },
+    {
+      "id": "INT012",
+      "from": "GYS-Y006:F1",
+      "relation": "has_construction_component",
+      "to": "GYS-J004:F1",
+      "reason": "양지현의 보구로 하꾸마 예에서 후행 약속 -꾸마를 조현준 약속 용법과 연결한다.",
+      "limits": "경남 구성과 경북 종결 기술을 자유 결합하는 규칙이 아니라 관찰형 분석 후보.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Y006",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-J004",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT013",
+      "from": "GYS-O001:F1",
+      "relation": "same_usage_candidate",
+      "to": "GYS-G002:F1",
+      "reason": "진주 전사의 목적격 로와 위키 문법표의 목적격 로를 연결한다.",
+      "limits": "도구·방향 로와 분리; 생략·대치·현대 분포는 미확보.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-O001",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-G002",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT014",
+      "from": "GYS-J001:F1",
+      "relation": "same_usage_candidate",
+      "to": "GYS-H003:F1",
+      "reason": "판정 기능과 하게체 종결 위치가 일치하여 동일 용법 후보로 연결한다.",
+      "limits": "ㄴ가와 (느)ㄴ가의 세부 결합 범위는 별도. 위키의 재인용 가능성을 독립 근거로 세지 않음.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-J001",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H003",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT015",
+      "from": "GYS-J002:F1",
+      "relation": "same_usage_candidate",
+      "to": "GYS-H004:F1",
+      "reason": "설명 질문 기능과 하게체 종결 위치가 일치한다.",
+      "limits": "지역·시대와 세부 어간 결합을 동일시하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-J002",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H004",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT016",
+      "from": "GYS-J008:F1",
+      "relation": "same_usage_candidate",
+      "to": "GYS-H005:F3",
+      "reason": "논문의 고요 결합 예와 위키의 요 결합 결과를 연결한다.",
+      "limits": "기본형 등급 분류의 차이는 유지하고 해요체 결합 전체에 한정한다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-J008",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H005",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT017",
+      "from": "GYS-R025:F1",
+      "relation": "shares_function_with",
+      "to": "GYS-Q002:F1",
+      "reason": "함양의 뭐 먹고 있노 예를 위키의 설명 의문 -노와 연결한다.",
+      "limits": "함양 표본으로 위키의 모든 품사·선어말 조건을 검증하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-R025",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-Q002",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT018",
+      "from": "GYS-R005:F1",
+      "relation": "shares_function_with",
+      "to": "GYS-G003:F2",
+      "reason": "함양의 -먼과 위키 조건 연결형을 기능으로 연결한다.",
+      "limits": "지역별 변이 선택 확정은 아님.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-R005",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-G003",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT019",
+      "from": "GYS-G005:F1",
+      "relation": "same_usage_candidate",
+      "to": "GYS-I015:F1",
+      "reason": "어미표의 아가와 활용표 각주의 원인·이유 용법을 연결한다.",
+      "limits": "같은 위키 원문 안 연결; 다른 아가 용법으로 일반화 금지.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-G005",
+          "key": "E2"
+        },
+        {
+          "record_id": "GYS-I015",
+          "key": "E45"
+        }
+      ]
+    },
+    {
+      "id": "INT020",
+      "from": "GYS-P004:F1",
+      "relation": "shares_function_with",
+      "to": "GYS-I017:F1",
+      "reason": "음운의 걸으니/걸으이 사례와 활용표의 -으니/-으이 설명을 연결한다.",
+      "limits": "음운 변이를 필수 표기로 만들지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-P004",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-I017",
+          "key": "E45"
+        }
+      ]
+    },
+    {
+      "id": "INT021",
+      "from": "GYS-J006:F1",
+      "relation": "contrasts_in_function",
+      "to": "GYS-J007:F1",
+      "reason": "같은 구려가 선어말 결합 시 서술·감탄, 동사 어간 직접 결합 시 권유로 기술된다.",
+      "limits": "이 논문의 기술 범위. 단순 같은 철자 병합 방지.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-J006",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-J007",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT022",
+      "from": "GYS-Y010:F1",
+      "relation": "contrasts_in_function",
+      "to": "GYS-Y011:F1",
+      "reason": "종결 거로의 상대 의도 질문과 화자 의도 진술을 구별한다.",
+      "limits": "물음표만으로 의도를 확정하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Y010",
+          "key": "E2"
+        },
+        {
+          "record_id": "GYS-Y011",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT023",
+      "from": "GYS-H004:F1",
+      "relation": "contrasts_in_function",
+      "to": "GYS-H013:F1",
+      "reason": "하게체의 청자 대상 설명 질문과 해체 자문을 분리한다.",
+      "limits": "두 용법 사이 공유 형태는 있지만 높임 조건 상속 금지.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H004",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H013",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT024",
+      "from": "GYS-Y004:F1",
+      "relation": "contrasts_in_function",
+      "to": "GYS-Y005:F1",
+      "reason": "거로 하-의 사동과 명령 용법을 별도 의미 구성으로 보존한다.",
+      "limits": "명령 어미가 보인다는 이유만으로 사동 사건 여부를 결정하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Y004",
+          "key": "E2"
+        },
+        {
+          "record_id": "GYS-Y005",
+          "key": "E2"
+        }
+      ]
+    },
+    {
+      "id": "INT025",
+      "from": "GYS-R010:F1",
+      "relation": "contrasts_in_function",
+      "to": "GYS-R019:F1",
+      "reason": "진행 -고 있다와 결과 상태 -어 있다를 구별한다.",
+      "limits": "동사군·시제·부정의 결합은 각각 추가 근거 필요.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-R010",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-R019",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT026",
+      "from": "GYS-G012:F3",
+      "relation": "has_inflection_description",
+      "to": "GYS-I020:F1",
+      "reason": "완결 보조 삐다의 용법에서 별도 활용표로 연결",
+      "limits": "본동사 버리다·베리다까지 같은 용법으로 합치지 않음",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-G012",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-I020",
+          "key": "E4"
+        }
+      ]
+    },
+    {
+      "id": "INT027",
+      "from": "GYS-G023:F4",
+      "relation": "shares_function_with",
+      "to": "GYS-R003:F1",
+      "reason": "문법 표의 매이로 계열과 함양의 비교 용법 연결",
+      "limits": "표의 다른 변이까지 지역·결합 조건을 상속하지 않음",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-G023",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-R003",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT028",
+      "from": "GYS-G021:F1",
+      "relation": "shares_function_with",
+      "to": "GYS-R001:F1",
+      "reason": "한테의 수여·발화 대상 기능 연결",
+      "limits": "한테와 모든 다른 수혜 조사의 무조건 치환 아님",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-G021",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-R001",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT029",
+      "from": "GYS-G031:F2",
+      "relation": "contrasts_in_function",
+      "to": "GYS-G032:F1",
+      "reason": "캉 계열의 동반·접속과 도구 기능을 분리",
+      "limits": "같은 철자나 어원만으로 기능을 합치지 않음",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-G031",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-G032",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT030",
+      "from": "GYS-R051:F3",
+      "relation": "contrasts_in_function",
+      "to": "GYS-R052:F3",
+      "reason": "히 계열의 사동과 피동 파생 구별",
+      "limits": "서술어 어휘와 참여자 구조 없이 파생 기능을 확정하지 않음",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-R051",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-R052",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT031",
+      "from": "GYS-R057:F2",
+      "relation": "scope_tension_with",
+      "to": "GYS-R017:F1",
+      "reason": "시행 보다 항목의 안 오는가 배는 추측 설명과 연결됨",
+      "limits": "원문 표 분류를 바로 교정해 시도 생성 지식으로 승인하지 않음",
+      "status": "held_scope_tension",
+      "evidence": [
+        {
+          "record_id": "GYS-R057",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-R017",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT032",
+      "from": "GYS-H015:F1",
+      "relation": "shares_function_with",
+      "to": "GYS-J026:F1",
+      "reason": "명령 이소 구성과 주체높임 부가 설명 연결",
+      "limits": "조사 시기와 결합형의 차이를 유지",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H015",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-J026",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT033",
+      "from": "GYS-H022:F1",
+      "relation": "shares_function_with",
+      "to": "GYS-J012:F1",
+      "reason": "니더 계열 서술의 문헌 간 연결",
+      "limits": "위키가 같은 논문을 인용할 수 있어 독립 증거 수로 더하지 않음",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-J012",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT034",
+      "from": "GYS-H019:F1",
+      "relation": "same_usage_candidate",
+      "to": "GYS-J024:F1",
+      "reason": "는교 계열의 의문 구성 후보 연결",
+      "limits": "상대높임 등급은 미확정; 동일 용법 후보이지 완전 등치 아님",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H019",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-J024",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT035",
+      "from": "GYS-J031:F1",
+      "relation": "has_inflection_description",
+      "to": "GYS-I049:F1",
+      "reason": "도가 요청형을 돌다 활용 지식과 연결",
+      "limits": "주다의 모든 의미·요청을 동일하게 대체하지 않음",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-J031",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-I049",
+          "key": "E6"
+        }
+      ]
+    },
+    {
+      "id": "INT036",
+      "from": "GYS-J032:F1",
+      "relation": "has_inflection_description",
+      "to": "GYS-I050:F1",
+      "reason": "온나의 명령 구성을 오다 활용표에 연결",
+      "limits": "관찰되지 않은 어휘·어미 조합까지 허용하지 않음",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-J032",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-I050",
+          "key": "E7"
+        }
+      ]
+    },
+    {
+      "id": "INT037",
+      "from": "GYS-J033:F1",
+      "relation": "shares_function_with",
+      "to": "GYS-H014:F4",
+      "reason": "이시더의 청유 용법을 높임 문서의 청유형과 연결",
+      "limits": "동형의 계사 서술 이시더와 구별",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-J033",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H014",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT038",
+      "from": "GYS-J017:F1",
+      "relation": "contrasts_in_function",
+      "to": "GYS-J034:F1",
+      "reason": "계사 서술 시더와 청유 시더 구별",
+      "limits": "표면형 공유가 단일 기능을 뜻하지 않음",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-J017",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-J034",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT039",
+      "from": "GYS-R043:F1",
+      "relation": "shares_function_with",
+      "to": "GYS-G004:F1",
+      "reason": "함양 동시 연결과 문법 문서의 동시 연결 기능 연결",
+      "limits": "미·ㅁ서 등 형태의 임의 치환과 분포 동일성은 주장하지 않음",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-R043",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-G004",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT040",
+      "from": "GYS-R044:F1",
+      "relation": "shares_function_with",
+      "to": "GYS-G038:F1",
+      "reason": "도 계열 양보 연결과 아도 구성의 기능 연결",
+      "limits": "단독 보조사 도와 구별",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-R044",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-G038",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT041",
+      "from": "GYS-R047:F1",
+      "relation": "shares_function_with",
+      "to": "GYS-G034:F1",
+      "reason": "원인 연결을 서로 다른 형태 계열에 걸쳐 연결",
+      "limits": "공통 원인 기능이지 결합 환경 전체의 동일성 아님",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-R047",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-G034",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT042",
+      "from": "GYS-R029:F1",
+      "relation": "contrasts_in_function",
+      "to": "GYS-G049:F4",
+      "reason": "인칭대명사 니와 수관형사 니를 분리",
+      "limits": "말소리·철자 같은 것만으로 병합하지 않음",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-R029",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-G049",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT043",
+      "from": "GYS-J055:F1",
+      "relation": "shares_function_with",
+      "to": "GYS-R009:F1",
+      "reason": "경북 ㄹ끼다 구성과 함양 미래 구성 연결",
+      "limits": "추측·의도·시제의 세부 해석과 지역·시대 차이는 유지",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-J055",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-R009",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT044",
+      "from": "GYS-J056:F1",
+      "relation": "scope_tension_with",
+      "to": "GYS-G016:F1",
+      "reason": "데이의 강조·친밀함 설명과 조심스러운 전달 설명을 병기",
+      "limits": "맥락별 차이인지 충돌인지 미확정이며 양립 불가능이라 단정하지 않음",
+      "status": "held_scope_tension",
+      "evidence": [
+        {
+          "record_id": "GYS-J056",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-G016",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT045",
+      "from": "GYS-J044:F1",
+      "relation": "contrasts_in_function",
+      "to": "GYS-J056:F1",
+      "reason": "데이 의문 관찰과 서술 용법 구별",
+      "limits": "희소 의문 예를 생산 규칙으로 승인하지 않음",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-J044",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-J056",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT047",
+      "from": "GYS-P010:F1",
+      "relation": "shares_function_with",
+      "to": "GYS-O003:F1",
+      "reason": "처소격 에 결합·말음 축약과 개요의 방에 사례 연결",
+      "limits": "음성 표기와 출력 철자를 구별",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-P010",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-O003",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT048",
+      "from": "GYS-O004:F3",
+      "relation": "shares_quotative_construction",
+      "to": "GYS-P001:F1",
+      "reason": "개요의 인용 라카다를 음운 축약 구성과 연결",
+      "limits": "카다의 비인용 용법과 분리; 위키 계보 중복",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-O004",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-P001",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT049",
+      "from": "GYS-O010:F1",
+      "relation": "scope_tension_with",
+      "to": "GYS-Q007:F1",
+      "reason": "개요 각주 시 뒤 ㄱ계열을 문법 표·본문 충돌과 연결",
+      "limits": "문서 간 다수결로 충돌을 해소하지 않음",
+      "status": "held_scope_tension",
+      "evidence": [
+        {
+          "record_id": "GYS-O010",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-Q007",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT050",
+      "from": "GYS-G069:F1",
+      "relation": "contrasts_in_function",
+      "to": "GYS-G007:F1",
+      "reason": "꾸짖다 관용 머라카다와 중립 인용 구성 구별",
+      "limits": "발화에 비난 의미를 무조건 추가하지 않음",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-G069",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-G007",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT051",
+      "from": "GYS-G071:F2",
+      "relation": "contrasts_in_function",
+      "to": "GYS-R011:F1",
+      "reason": "많음 관용 쌔 삐리다와 일반 완결 보조 구성 구별",
+      "limits": "내부 형태 유사성만으로 전체 의미를 계산하지 않음",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-G071",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-R011",
+          "key": "E1"
+        }
+      ]
+    }
+  ],
+  "processing_inventory": {
+    "unit": "page_range_inventory_not_sentence_level_annotations",
+    "policy": "전체 범위의 포함·배경·보류·제외 판단. include는 작성 대상 선정이지 개별 진술 전수 작성 완료가 아니다. 실제 작성 완료 쪽은 progress.json으로 별도 확인한다.",
+    "sources": [
+      {
+        "source_id": "NAMU_GRAMMAR_20260908",
+        "sections": [
+          {
+            "pages": [
+              1,
+              3
+            ],
+            "include": [
+              "3쪽의 실제 활용 설명"
+            ],
+            "background": [
+              "표제·목차·표기 방침"
+            ],
+            "hold": [],
+            "exclude": [
+              "사이트 안내"
+            ],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              4,
+              7
+            ],
+            "include": [
+              "어휘 의미별 활용·보조 보다·축약"
+            ],
+            "background": [
+              "역사적 해석"
+            ],
+            "hold": [
+              "미해독·의미 불명확 활용형"
+            ],
+            "exclude": [],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              8,
+              14
+            ],
+            "include": [
+              "질문 기능·계사·선어말·종결 용법"
+            ],
+            "background": [],
+            "hold": [
+              "시 결합 설명 충돌·다기능 노드의 분리"
+            ],
+            "exclude": [],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              15,
+              25
+            ],
+            "include": [
+              "ㅂ/ㅅ 활용·버리다 의미·사동 파생·계사·높임"
+            ],
+            "background": [
+              "세대 변화 기술"
+            ],
+            "hold": [
+              "예상 사용 예를 사실로 승격하지 않음"
+            ],
+            "exclude": [],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              26,
+              30
+            ],
+            "include": [
+              "조사·연결·시제·부정·인용·의존명사"
+            ],
+            "background": [
+              "어휘 자료의 범위 유보"
+            ],
+            "hold": [
+              "누락 각주·형태별 지역 조건"
+            ],
+            "exclude": [],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              31,
+              44
+            ],
+            "include": [
+              "문법과 연결되는 어휘 의미·담화표지·관용구·수량 구성"
+            ],
+            "background": [
+              "어휘층 후보·외래어 기원"
+            ],
+            "hold": [
+              "외부 문헌·영상 미확인"
+            ],
+            "exclude": [
+              "외국어 어원만의 독립 생성 규칙"
+            ],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              45,
+              51
+            ],
+            "include": [
+              "호칭 조건·본문 용법을 제한하는 각주"
+            ],
+            "background": [
+              "출처 계보"
+            ],
+            "hold": [
+              "본문과 각주 충돌"
+            ],
+            "exclude": [
+              "사이트·라이선스 문구의 문법 지식화"
+            ],
+            "writing_status": "partial_or_pending"
+          }
+        ]
+      },
+      {
+        "source_id": "NAMU_PHONOLOGY_20260908",
+        "sections": [
+          {
+            "pages": [
+              1,
+              2
+            ],
+            "include": [
+              "환경이 명시된 형태·발음 변이 후보"
+            ],
+            "background": [
+              "음운 체계·시대 설명·표기 의견"
+            ],
+            "hold": [
+              "재인용 원전·전체 분포 미확인"
+            ],
+            "exclude": [],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              3,
+              6
+            ],
+            "include": [
+              "활용·명사구와 연결되는 탈락·축약"
+            ],
+            "background": [
+              "발음/기호/형태소 표기의 구별"
+            ],
+            "hold": [
+              "누락 각주·음성 확인"
+            ],
+            "exclude": [],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              7,
+              8
+            ],
+            "include": [
+              "계사 추측·인용 구성의 축약·어휘별 활용 연계"
+            ],
+            "background": [
+              "역사적 흔적·운소 링크"
+            ],
+            "hold": [
+              "성조 체계 본문 미확보"
+            ],
+            "exclude": [
+              "사이트 안내"
+            ],
+            "writing_status": "partial_or_pending"
+          }
+        ]
+      },
+      {
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "sections": [
+          {
+            "pages": [
+              1,
+              3
+            ],
+            "include": [
+              "높임 기능·분류 체계의 관계"
+            ],
+            "background": [
+              "기술 체계 차이·분포"
+            ],
+            "hold": [
+              "등급 통일 미확정"
+            ],
+            "exclude": [],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              4,
+              18
+            ],
+            "include": [
+              "높임별 종결·주체높임·활용·상대높임 혼용"
+            ],
+            "background": [
+              "사용 변화·지역 맥락"
+            ],
+            "hold": [
+              "재인용·현대 자연스러움 미확인"
+            ],
+            "exclude": [],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              19,
+              25
+            ],
+            "include": [
+              "하게체·해라체의 질문·명령·청유와 결합"
+            ],
+            "background": [],
+            "hold": [
+              "동형·자문·내포·대화 용법의 정밀 분리"
+            ],
+            "exclude": [],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              26,
+              30
+            ],
+            "include": [
+              "요/예/여 구성·말투 전환"
+            ],
+            "background": [
+              "소멸·차용 설명"
+            ],
+            "hold": [
+              "엉터리 어체라는 원문 평가를 전역 금지로 승격하지 않음"
+            ],
+            "exclude": [],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              31,
+              35
+            ],
+            "include": [
+              "본문 조건·예외 각주"
+            ],
+            "background": [
+              "문서 분리 계보"
+            ],
+            "hold": [
+              "원전 미확인"
+            ],
+            "exclude": [
+              "비문법 각주·사이트 안내"
+            ],
+            "writing_status": "partial_or_pending"
+          }
+        ]
+      },
+      {
+        "source_id": "NAMU20260901",
+        "sections": [
+          {
+            "pages": [
+              1,
+              16
+            ],
+            "include": [
+              "다기능·인용·높임·과잉 변환 반례"
+            ],
+            "background": [
+              "지역·시대·문서 연결"
+            ],
+            "hold": [
+              "화자 평가·음성 의존 판단"
+            ],
+            "exclude": [
+              "지역민 성격 일반화"
+            ],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              17,
+              28
+            ],
+            "include": [
+              "대회 발화의 문법 구성과 명시적 해설"
+            ],
+            "background": [
+              "화자·지역·전사 맥락"
+            ],
+            "hold": [
+              "음성·전사 불확실 기호·대역의 평가 정답화"
+            ],
+            "exclude": [],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              29,
+              47
+            ],
+            "include": [],
+            "background": [
+              "일부 경계 구간은 호칭·다음 절 여부 재확인"
+            ],
+            "hold": [],
+            "exclude": [
+              "실존/창작 인물·배우 목록의 문법 지식화"
+            ],
+            "writing_status": "classified_not_generation_knowledge"
+          },
+          {
+            "pages": [
+              48,
+              55
+            ],
+            "include": [
+              "문법 의미·조건을 보완하는 각주"
+            ],
+            "background": [
+              "출처·역사"
+            ],
+            "hold": [
+              "억양에 의존한 기능"
+            ],
+            "exclude": [
+              "인물 이력·여담·사이트 안내"
+            ],
+            "writing_status": "partial_or_pending"
+          }
+        ]
+      },
+      {
+        "source_id": "RYU2014",
+        "sections": [
+          {
+            "pages": [
+              1,
+              6
+            ],
+            "include": [],
+            "background": [
+              "연구 목적·표본·방법·조사 시점"
+            ],
+            "hold": [],
+            "exclude": [
+              "사용률을 생성 우선순위 수치로 변환"
+            ],
+            "writing_status": "classified_not_generation_knowledge"
+          },
+          {
+            "pages": [
+              7,
+              13
+            ],
+            "include": [
+              "대명사·조사·명사구 용법"
+            ],
+            "background": [
+              "세대별 관찰"
+            ],
+            "hold": [
+              "글자 손실·은/는 부재 충돌"
+            ],
+            "exclude": [],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              14,
+              20
+            ],
+            "include": [
+              "종결·높임·연결·인용·시제 구성"
+            ],
+            "background": [
+              "사용 변화"
+            ],
+            "hold": [
+              "예문을 일대일 번역쌍으로 취급하는 해석"
+            ],
+            "exclude": [],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              21,
+              26
+            ],
+            "include": [
+              "관형형·부정·사동·피동·보조용언"
+            ],
+            "background": [],
+            "hold": [
+              "특수글자·시행/추측 오분류·피동/상태변화"
+            ],
+            "exclude": [],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              27,
+              27
+            ],
+            "include": [
+              "의미 차이가 있는 부사"
+            ],
+            "background": [
+              "사용 변화"
+            ],
+            "hold": [],
+            "exclude": [
+              "전 어휘 의무 치환"
+            ],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              28,
+              31
+            ],
+            "include": [],
+            "background": [
+              "언어 의식·교육 맥락"
+            ],
+            "hold": [],
+            "exclude": [
+              "문법과 무관한 의식 조사 결과의 생성 규칙화"
+            ],
+            "writing_status": "classified_not_generation_knowledge"
+          },
+          {
+            "pages": [
+              32,
+              38
+            ],
+            "include": [],
+            "background": [
+              "결론·참고문헌·요약과 앞 진술의 대조"
+            ],
+            "hold": [],
+            "exclude": [
+              "중복 요약을 새 독립 증거로 가산"
+            ],
+            "writing_status": "classified_not_generation_knowledge"
+          }
+        ]
+      },
+      {
+        "source_id": "JO2018",
+        "sections": [
+          {
+            "pages": [
+              1,
+              55
+            ],
+            "include": [
+              "분류와 실제 문법 사실을 담은 부분은 후속 기록 대상"
+            ],
+            "background": [
+              "서지·선행연구·범위·구비문학 조사 맥락"
+            ],
+            "hold": [
+              "55쪽 요 결합 부재와 뒤 용례 대조"
+            ],
+            "exclude": [],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              56,
+              103
+            ],
+            "include": [
+              "격식체 서술 종결·높임·결합"
+            ],
+            "background": [
+              "지역 분포·빈도"
+            ],
+            "hold": [
+              "유추형을 관찰형으로 등록 금지"
+            ],
+            "exclude": [],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              104,
+              116
+            ],
+            "include": [
+              "하게체/해라체 서술·약속·감탄·계사 구성"
+            ],
+            "background": [
+              "역사적 분석"
+            ],
+            "hold": [
+              "같은 겠/끼를 선어말과 동일시하지 않음"
+            ],
+            "exclude": [],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              117,
+              147
+            ],
+            "include": [
+              "격식체 질문·계사·선어말·높임"
+            ],
+            "background": [
+              "분포"
+            ],
+            "hold": [
+              "분류 차이와 용법 동일성 미확정"
+            ],
+            "exclude": [],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              148,
+              190
+            ],
+            "include": [
+              "명령·청유·주체높임·참여자·결합"
+            ],
+            "background": [
+              "빈도·지역"
+            ],
+            "hold": [
+              "182쪽 시더이 분석 유보"
+            ],
+            "exclude": [],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              191,
+              224
+            ],
+            "include": [
+              "비격식체 종결·요/예/여 결합·다기능"
+            ],
+            "background": [
+              "분포"
+            ],
+            "hold": [
+              "219쪽 예 부재 충돌·224쪽 서지예의 기능"
+            ],
+            "exclude": [],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              225,
+              265
+            ],
+            "include": [
+              "결론·부록 중 앞 기술에 없는 문법 진술 여부 확인 대상"
+            ],
+            "background": [
+              "종합 결론·참고문헌·재인용 목록·부록"
+            ],
+            "hold": [
+              "표의 개별 셀·특수문자"
+            ],
+            "exclude": [
+              "재인용 목록 전체를 직접 관찰 규칙으로 등록"
+            ],
+            "writing_status": "partial_or_pending"
+          }
+        ]
+      },
+      {
+        "source_id": "YANG2021",
+        "sections": [
+          {
+            "pages": [
+              1,
+              3
+            ],
+            "include": [
+              "거로 변이·용법·용례"
+            ],
+            "background": [
+              "목적·자료 성격·선행연구"
+            ],
+            "hold": [],
+            "exclude": [
+              "초록을 별개 증거로 가산"
+            ],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              4,
+              7
+            ],
+            "include": [
+              "관찰된 보조사 결합·끔 제약"
+            ],
+            "background": [
+              "역사적 형성·조사 로 분석"
+            ],
+            "hold": [
+              "형성 추정을 현재 생산 규칙으로 일반화"
+            ],
+            "exclude": [],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              8,
+              15
+            ],
+            "include": [
+              "목적·정도·도급·하/되 결합·형용사 부사형"
+            ],
+            "background": [],
+            "hold": [
+              "용법별 생산성·하 형용사 경향의 과잉 강제"
+            ],
+            "exclude": [],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              16,
+              19
+            ],
+            "include": [
+              "종결 의도·추측답변 요구 제약·감탄"
+            ],
+            "background": [
+              "결론"
+            ],
+            "hold": [
+              "요약부 보조사 목록 차이"
+            ],
+            "exclude": [],
+            "writing_status": "partial_or_pending"
+          },
+          {
+            "pages": [
+              20,
+              22
+            ],
+            "include": [],
+            "background": [
+              "참고문헌·영문초록"
+            ],
+            "hold": [],
+            "exclude": [
+              "마지막 빈 쪽"
+            ],
+            "writing_status": "classified_not_generation_knowledge"
+          }
+        ]
+      },
+      {
+        "source_id": "SONG2025_SEJONG",
+        "sections": [
+          {
+            "pages": [
+              1,
+              6
+            ],
+            "include": [],
+            "background": [
+              "입력 연결 설계: 어휘 의미→문형→논항·선택제약→예문",
+              "논문 본문 독해 완료. 세종 사전 전체를 확보한 것은 아님"
+            ],
+            "hold": [],
+            "exclude": [
+              "방언형·결합 규칙의 직접 근거로 편입"
+            ],
+            "writing_status": "classified_not_generation_knowledge"
+          },
+          {
+            "pages": [
+              7,
+              8
+            ],
+            "include": [],
+            "background": [
+              "참고문헌"
+            ],
+            "hold": [],
+            "exclude": [
+              "논문의 참고문헌을 직접 독해한 자료로 가산"
+            ],
+            "writing_status": "classified_not_generation_knowledge"
+          }
+        ]
+      }
+    ]
+  },
+  "issues": [
+    {
+      "id": "ISS001",
+      "problem": "문법8/11 -시- 충돌",
+      "action": "해당 기존 GYS-Q007의 needs_review 유지; 완전 해결 아님",
+      "status": "held"
+    },
+    {
+      "id": "ISS002",
+      "problem": "위키 -구로 목적/강조 한정과 추가 논문 범위 차이",
+      "action": "GYS-G001·Y001~Y015 분리, INT010 범위 긴장 관계",
+      "status": "represented_not_resolved"
+    },
+    {
+      "id": "ISS003",
+      "problem": "류성기 은/는 부재와 자체 예·각주 대립",
+      "action": "GYS-R060에 본문·각주10 충돌을 보류 기록으로 작성; 전역 금지 없음",
+      "status": "represented_not_resolved"
+    },
+    {
+      "id": "ISS004",
+      "problem": "조현준219 예형 부재/표 지예",
+      "action": "GYS-J010 needs_review, 생성 승인 없음",
+      "status": "represented_not_resolved"
+    },
+    {
+      "id": "ISS005",
+      "problem": "조현준55 요 결합 부재와 뒤 예",
+      "action": "J008은 관찰 예만 기록; 기본형 분류 충돌은 gaps",
+      "status": "held"
+    },
+    {
+      "id": "ISS006",
+      "problem": "류성기 표가 번역 정답쌍이 아님",
+      "action": "원문 용례는 의미 보존 평가 정답으로 쓰지 않음",
+      "status": "policy_applied_to_new_records"
+    },
+    {
+      "id": "ISS007",
+      "problem": "류성기 시행 보다/추측 및 피동/상태변화",
+      "action": "GYS-R056 피동/상태변화, R057 시도/추측을 needs_review로 분리",
+      "status": "represented_not_resolved"
+    },
+    {
+      "id": "ISS008",
+      "problem": "조현준 유추형·유보 분석",
+      "action": "J019 유추형, J035 시더이 분석, J047 서지예의 표/해석 차이를 기록; 생산 규칙 승인 없음",
+      "status": "represented_not_resolved"
+    },
+    {
+      "id": "ISS009",
+      "problem": "시대·표본 제한",
+      "action": "출처 registry와 R/J scope에 조사 맥락 기록",
+      "status": "recorded_not_independently_validated"
+    },
+    {
+      "id": "ISS010",
+      "problem": "위키4·구비문학 재인용의 종속",
+      "action": "Source lineage와 각 통합 관계 한계에 표시; 독립 수로 계산하지 않음",
+      "status": "recorded_lineage_incomplete"
+    },
+    {
+      "id": "ISS011",
+      "problem": "개괄·역사를 생성 규칙화",
+      "action": "위 처리 장부의 background/exclude에 분리",
+      "status": "inventory_classified"
+    },
+    {
+      "id": "ISS012",
+      "problem": "동형·다기능 무리한 병합",
+      "action": "Y004~Y013, J006/J007, H013 등 별도 용법과 대비 관계",
+      "status": "applied_to_new_records"
+    },
+    {
+      "id": "ISS013",
+      "problem": "H001 장터를 필수 장소로 제한",
+      "action": "친근 비격식 맥락으로 정정, 장터는 설명 예로 유지",
+      "status": "corrected_author_only"
+    },
+    {
+      "id": "ISS014",
+      "problem": "음성·추출문자·표셀 불확실",
+      "action": "확인한 텍스트 범위의 기록만 작성; 원전 음성 검증 주장 안 함",
+      "status": "partial"
+    },
+    {
+      "id": "ISS015",
+      "problem": "새 기록의 조건 일부가 설명문·meaning에만 남음",
+      "action": "자동 분석·결합 판정으로 사용할 조건의 구조화와 표현별 관계 누락을 별도 검사 보고",
+      "status": "partial"
+    }
+  ],
+  "review_rejected_links": [
+    {
+      "id": "INT046",
+      "reason": "서로 다른 의문 계열의 일반화 경고만으로 직접 충돌 관계를 만들 수 없어 채택하지 않음"
+    },
+    {
+      "id": "INT052",
+      "reason": "우리라는 표현 노드 자체가 은·는 부재 주장의 직접 반대 명제가 아니므로 연결하지 않음; R060 각주 충돌은 유지"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "schema_version": "0.2",
+  "author": {
+    "agent": "Codex",
+    "method": "direct_source_reading",
+    "authored_on": "2026-09-17"
+  },
+  "source_id": "RYU2014",
+  "read_pages": [
+    12
+  ],
+  "scope_note": "전체 작성 계속. 이 묶음의 작성 완료를 해당 쪽 모든 진술의 처리 완료로 간주하지 않는다.",
+  "coverage": [],
+  "records": [
+    {
+      "id": "GYS-R060",
+      "review": {
+        "source_fidelity": "needs_review",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "particle",
+        "label": "함양 은·는 미사용 진술과 반대 자료의 병기",
+        "concepts": [
+          "TOPIC"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "은",
+            "role": "dialect",
+            "sense": "주제 보조사의 문헌 내 상충 기술",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "는",
+            "role": "dialect",
+            "sense": "주제 보조사의 문헌 내 상충 기술",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "TOPIC"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "주제 보조사의 문헌 내 상충 기술"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "phrase.particle",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "TOPIC"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "주제 보조사; 부재와 사용 사례의 충돌로 보류"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "phrase.particle",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경남 함양: 논문 조사 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 12,
+            "locator": "2.2.2 보조사 본문 및 각주10"
+          }
+        ],
+        "details": {
+          "particle": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "제보자의 미사용 진술과 함양 방언 자료집의 보리는·팣은·나는 예가 함께 제시된다. 저자가 개인차/지역차 재확인을 요청하므로 전역 금지 규칙을 작성하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "동일 지역·시대·화자 조건의 독립 확인이 필요"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    }
+  ]
+}

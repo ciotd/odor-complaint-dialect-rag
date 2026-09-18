@@ -1269,6 +1269,144 @@
               "E3",
               "E4"
             ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "attaches_to",
+            "object": {
+              "kind": "form",
+              "ref": "F3"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "polar"
+                  ],
+                  "evidence_keys": [
+                    "E1",
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "speech_level",
+                  "operator": "is",
+                  "values": [
+                    "HAERACHE"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "host_class",
+                  "operator": "one_of",
+                  "values": [
+                    "negative_copula"
+                  ],
+                  "evidence_keys": [
+                    "E3"
+                  ]
+                },
+                {
+                  "field": "prefinal_profile",
+                  "operator": "one_of",
+                  "values": [
+                    "none"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "speech_level",
+                "host_class",
+                "prefinal_profile"
+              ],
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E3",
+              "E4"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "attaches_to",
+            "object": {
+              "kind": "form",
+              "ref": "F3"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "content"
+                  ],
+                  "evidence_keys": [
+                    "E1",
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "speech_level",
+                  "operator": "is",
+                  "values": [
+                    "HAERACHE"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "host_class",
+                  "operator": "one_of",
+                  "values": [
+                    "negative_copula"
+                  ],
+                  "evidence_keys": [
+                    "E3"
+                  ]
+                },
+                {
+                  "field": "prefinal_profile",
+                  "operator": "one_of",
+                  "values": [
+                    "none"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "speech_level",
+                "host_class",
+                "prefinal_profile"
+              ],
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E3",
+              "E4"
+            ]
           }
         ],
         "scope": {
@@ -1370,7 +1508,9 @@
           1
         ],
         "remaining_relation_indexes": [
-          2
+          2,
+          3,
+          4
         ],
         "independent_review": false,
         "naturalness_test_performed": false
@@ -1569,6 +1709,420 @@
             "evidence_keys": [
               "E4"
             ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "combines_with",
+            "object": {
+              "kind": "form",
+              "ref": "F3"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "polar"
+                  ],
+                  "evidence_keys": [
+                    "E1",
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "speech_level",
+                  "operator": "is",
+                  "values": [
+                    "HAERACHE"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "host_class",
+                  "operator": "one_of",
+                  "values": [
+                    "nominal_copula",
+                    "negative_copula"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "prefinal_profile",
+                  "operator": "one_of",
+                  "values": [
+                    "switching_prefinal_present"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "speech_level",
+                "host_class",
+                "prefinal_profile"
+              ],
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E4"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "combines_with",
+            "object": {
+              "kind": "form",
+              "ref": "F4"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "polar"
+                  ],
+                  "evidence_keys": [
+                    "E1",
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "speech_level",
+                  "operator": "is",
+                  "values": [
+                    "HAERACHE"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "host_class",
+                  "operator": "one_of",
+                  "values": [
+                    "nominal_copula",
+                    "negative_copula"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "prefinal_profile",
+                  "operator": "one_of",
+                  "values": [
+                    "switching_prefinal_present"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "speech_level",
+                "host_class",
+                "prefinal_profile"
+              ],
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E4"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "combines_with",
+            "object": {
+              "kind": "form",
+              "ref": "F5"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "polar"
+                  ],
+                  "evidence_keys": [
+                    "E1",
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "speech_level",
+                  "operator": "is",
+                  "values": [
+                    "HAERACHE"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "host_class",
+                  "operator": "one_of",
+                  "values": [
+                    "nominal_copula",
+                    "negative_copula"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "prefinal_profile",
+                  "operator": "one_of",
+                  "values": [
+                    "switching_prefinal_present"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "speech_level",
+                "host_class",
+                "prefinal_profile"
+              ],
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E4"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "combines_with",
+            "object": {
+              "kind": "form",
+              "ref": "F3"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "content"
+                  ],
+                  "evidence_keys": [
+                    "E1",
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "speech_level",
+                  "operator": "is",
+                  "values": [
+                    "HAERACHE"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "host_class",
+                  "operator": "one_of",
+                  "values": [
+                    "nominal_copula",
+                    "negative_copula"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "prefinal_profile",
+                  "operator": "one_of",
+                  "values": [
+                    "switching_prefinal_present"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "speech_level",
+                "host_class",
+                "prefinal_profile"
+              ],
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E4"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "combines_with",
+            "object": {
+              "kind": "form",
+              "ref": "F4"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "content"
+                  ],
+                  "evidence_keys": [
+                    "E1",
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "speech_level",
+                  "operator": "is",
+                  "values": [
+                    "HAERACHE"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "host_class",
+                  "operator": "one_of",
+                  "values": [
+                    "nominal_copula",
+                    "negative_copula"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "prefinal_profile",
+                  "operator": "one_of",
+                  "values": [
+                    "switching_prefinal_present"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "speech_level",
+                "host_class",
+                "prefinal_profile"
+              ],
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E4"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "combines_with",
+            "object": {
+              "kind": "form",
+              "ref": "F5"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "content"
+                  ],
+                  "evidence_keys": [
+                    "E1",
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "speech_level",
+                  "operator": "is",
+                  "values": [
+                    "HAERACHE"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "host_class",
+                  "operator": "one_of",
+                  "values": [
+                    "nominal_copula",
+                    "negative_copula"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "prefinal_profile",
+                  "operator": "one_of",
+                  "values": [
+                    "switching_prefinal_present"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "speech_level",
+                "host_class",
+                "prefinal_profile"
+              ],
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E4"
+            ]
           }
         ],
         "scope": {
@@ -1682,7 +2236,13 @@
           1
         ],
         "remaining_relation_indexes": [
-          2
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
         ],
         "independent_review": false,
         "naturalness_test_performed": false
@@ -1865,6 +2425,144 @@
             "evidence_keys": [
               "E4"
             ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "combines_with",
+            "object": {
+              "kind": "form",
+              "ref": "F3"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "polar"
+                  ],
+                  "evidence_keys": [
+                    "E1",
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "speech_level",
+                  "operator": "is",
+                  "values": [
+                    "HAERACHE"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "host_class",
+                  "operator": "one_of",
+                  "values": [
+                    "nominal_copula",
+                    "negative_copula"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "prefinal_profile",
+                  "operator": "one_of",
+                  "values": [
+                    "subject_honorific_only"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "speech_level",
+                "host_class",
+                "prefinal_profile"
+              ],
+              "mapping_note": "11쪽 예외 서술을 구조화하되 8쪽 표와의 충돌 때문에 확정 적용하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E4"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "combines_with",
+            "object": {
+              "kind": "form",
+              "ref": "F3"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "content"
+                  ],
+                  "evidence_keys": [
+                    "E1",
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "speech_level",
+                  "operator": "is",
+                  "values": [
+                    "HAERACHE"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "host_class",
+                  "operator": "one_of",
+                  "values": [
+                    "nominal_copula",
+                    "negative_copula"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "prefinal_profile",
+                  "operator": "one_of",
+                  "values": [
+                    "subject_honorific_only"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "speech_level",
+                "host_class",
+                "prefinal_profile"
+              ],
+              "mapping_note": "주체 높임과 청자 높임을 다른 분석값으로 유지한다. 내부 충돌 해결 전 생성 보류."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E4"
+            ]
           }
         ],
         "scope": {
@@ -1952,7 +2650,9 @@
         "illustrated_relation_indexes": [],
         "remaining_relation_indexes": [
           1,
-          2
+          2,
+          3,
+          4
         ],
         "independent_review": false,
         "naturalness_test_performed": false
@@ -2903,6 +3603,40 @@
             "evidence_keys": [
               "E6"
             ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "뭐야와 뭘까의 표면형 중의성; 원문은 억양 차이를 설명"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "content"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.question_interpretation",
+              "input_features": [
+                "question_type"
+              ],
+              "mapping_note": "질문의 내용뿐 아니라 응답 요구·자문 해석을 확인한다. 동일 문자열 머꼬도 복수 해석을 보존한다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E6"
+            ]
           }
         ],
         "scope": {
@@ -3012,7 +3746,9 @@
         "illustrated_relation_indexes": [
           1
         ],
-        "remaining_relation_indexes": [],
+        "remaining_relation_indexes": [
+          2
+        ],
         "independent_review": false,
         "naturalness_test_performed": false
       }

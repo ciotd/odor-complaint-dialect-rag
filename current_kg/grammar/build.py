@@ -13,7 +13,7 @@ from jsonschema import Draft202012Validator
 BASE = Path(__file__).resolve().parent
 ROOT = BASE.parents[1]
 ORDER = ["NAMU_PHONOLOGY_20260908", "NAMU_GRAMMAR_20260908", "RYU2014",
-         "NAMU_HONORIFICS_20260908", "NAMU20260901", "JO2018"]
+         "NAMU_HONORIFICS_20260908", "NAMU20260901", "JO2018", "YANG2021"]
 GROUPS = {
  "UNITS": ("단위와 품사", "MORPHEME:형태소 WORD:단어 NOUN:명사 PRONOUN:대명사 NUMERAL:수사 VERB:동사 ADJECTIVE:형용사 COPULA:계사 DETERMINER:관형사 ADVERB:부사 INTERJECTION:감탄사 PARTICLE:조사 ENDING:어미"),
  "MORPHOLOGY": ("형태 구성과 결합", "INFLECTION:활용 DERIVATION:파생 STEM:어간 PREFINAL_ENDING:선어말어미 FINAL_ENDING:종결어미 CONNECTIVE_ENDING:연결어미 TRANSFORMATIVE_ENDING:전성어미 CASE_PARTICLE:격조사 AUXILIARY_PARTICLE:보조사 CONJUNCTIVE_PARTICLE:접속조사 ALLOMORPH:이형태 AUXILIARY_PREDICATE:보조용언"),
@@ -60,7 +60,7 @@ def sources():
     selected = {s["source_id"]: s for s in registry["sources"]
                 if s.get("eligible_for_claims") and s.get("file", {}).get("path", "").endswith(".pdf")}
     if set(selected) != set(ORDER):
-        raise ValueError("Eligible PDF set differs from approved six sources")
+        raise ValueError("Eligible PDF set differs from explicitly approved grammar sources")
     return [selected[key] for key in ORDER]
 
 def source_pages(source):
@@ -91,8 +91,10 @@ def prepare():
     manifest = {"version": "0.2", "sources": manifest_sources,
                 "total_pages": sum(len(s["pages"]) for s in manifest_sources)}
     path = BASE / "manifest.json"
-    if path.exists() and read(path)["sources"] != manifest_sources:
-        raise ValueError("Source content changed; review before replacing manifest")
+    if path.exists():
+        current = {s["source_id"]: s for s in manifest_sources}
+        if any(current.get(s["source_id"]) != s for s in read(path)["sources"]):
+            raise ValueError("Existing source changed or removed; review before replacing manifest")
     save(path, manifest)
     save(BASE / "ontology.json", {"status": "analytic_scaffold_not_source_assertions", "concepts": ontology()})
     return manifest
@@ -374,6 +376,7 @@ def artifacts(manifest):
         if not set(note["related_record_ids"]) <= active_ids:
             raise ValueError("Source note references missing grammar record")
     result_graph = graph(records, sources())
+    integration_count = integrate(result_graph, records)
     pages, counts, by_source = [], {}, {}
     for source in manifest["sources"]:
         sid = source["source_id"]
@@ -398,6 +401,7 @@ def artifacts(manifest):
     progress = {"contract_sha256": contract_hash(), "mode": "direct_authoring_offline", "background_worker": False,
         "total_pages": manifest["total_pages"], "page_status_counts": counts, "records": len(records),
         "nodes": len(result_graph["nodes"]), "edges": len(result_graph["edges"]),
+        "integration_edges": integration_count,
         "semantic_edges": sum("assertion_id" in e["properties"] for e in result_graph["edges"]),
         "author_checked_records": sum(r["review"]["source_fidelity"] == "author_checked" for r in records),
         "independently_reviewed_records": 0, "generation_approved_records": 0, "sources": by_source, "pages": pages}
@@ -415,8 +419,68 @@ def artifacts(manifest):
         "source_note_count": len(ancillary["notes"]),
         "independent_records_discarded": sum(d["action"] == "discarded" for d in retired["decisions"]),
         "notes_in_graph": False}
-    return {"records": records, "example_review.md": render_example_review(records), "grammar.graph.json": result_graph, "progress.json": progress,
+    return {"records": records, "example_review.md": render_example_review(records), "triples.tsv": render_triples(result_graph), "grammar.graph.json": result_graph, "progress.json": progress,
             "gaps.json": gaps, "analysis_links.json": linkage}
+
+def integrate(result_graph, records):
+    """Attach manually justified cross-source usage links; never infer equality."""
+    path = BASE / "integration.json"
+    if not path.exists():
+        return 0
+    specification = read(path)
+    nodes = {n["id"]: n for n in result_graph["nodes"]}
+    index = {r["id"]: r for r in records}
+    allowed = {"has_inflection_description", "shares_quotative_construction",
+               "shares_function_with", "same_usage_candidate", "has_construction_component",
+               "has_applicability_constraint", "contrasts_in_function", "scope_tension_with"}
+    ids = set()
+    for link in specification["links"]:
+        if link["id"] in ids:
+            raise ValueError("Duplicate integration decision ID")
+        ids.add(link["id"])
+        if link["relation"] not in allowed or link["status"] not in {"author_proposed", "held_scope_tension"}:
+            raise ValueError("Unknown integration relation/status")
+        if not link["reason"].strip() or not link["limits"].strip():
+            raise ValueError("Integration decision lacks reason/limits")
+        for endpoint in (link["from"], link["to"]):
+            if endpoint not in nodes or nodes[endpoint]["type"] not in {"ExpressionUse", "Assertion"}:
+                raise ValueError("Integration endpoint is missing or not a usage/assertion")
+        evidence_ids, supported_records = [], set()
+        for ref in link["evidence"]:
+            wrapper = index[ref["record_id"]]
+            evidence = next((e for e in wrapper["knowledge"]["evidence"] if e["key"] == ref["key"]), None)
+            if evidence is None:
+                raise ValueError("Unknown integration evidence")
+            eid = "evidence:" + digest(encoded([wrapper["source_id"], evidence["page"], evidence["locator"]]))[:24]
+            if eid not in nodes:
+                raise ValueError("Missing integrated evidence node")
+            evidence_ids.append(eid)
+            supported_records.add(wrapper["id"])
+        if not {link["from"].split(":")[0], link["to"].split(":")[0]} <= supported_records:
+            raise ValueError("Both linked records need evidence")
+        edge = {"source": link["from"], "type": link["relation"], "target": link["to"],
+                "properties": {"integration_id": link["id"], "status": link["status"],
+                    "reason": link["reason"], "limits": link["limits"],
+                    "evidence_ids": sorted(set(evidence_ids)), "operational": False,
+                    "assertion_mode": "extractor_interpretation", "equivalence_asserted": False}}
+        edge["id"] = "edge:" + digest(encoded(edge))[:24]
+        result_graph["edges"].append(edge)
+    result_graph["edges"].sort(key=lambda e: e["id"])
+    return len(specification["links"])
+
+def render_triples(result_graph):
+    """Readable semantic triples only; qualified JSON remains authoritative."""
+    labels = {n["id"]: n["properties"].get("text", n["properties"].get("label", n["id"])) for n in result_graph["nodes"]}
+    rows = ["subject_id\tsubject_label\trelation\tobject_id\tobject_label\tassertion_or_integration_id\tevidence_ids\tstatus"]
+    for edge in result_graph["edges"]:
+        props = edge["properties"]
+        if not ("assertion_id" in props or "integration_id" in props):
+            continue
+        values = [edge["source"], labels[edge["source"]], edge["type"], edge["target"], labels[edge["target"]],
+                  props.get("assertion_id", props.get("integration_id")), ",".join(props["evidence_ids"]),
+                  props.get("status", "draft_not_operational")]
+        rows.append("\t".join(str(v).replace("\t", " ").replace("\n", " ") for v in values))
+    return "\n".join(rows) + "\n"
 
 def export(manifest):
     data = artifacts(manifest)
@@ -424,7 +488,7 @@ def export(manifest):
     temp.write_text("".join(encoded(r) + "\n" for r in data.pop("records")))
     temp.replace(BASE / "records.jsonl")
     for name, value in data.items():
-        if name.endswith(".md"):
+        if name.endswith((".md", ".tsv")):
             (BASE / name).write_text(value)
         else:
             save(BASE / name, value)
@@ -437,7 +501,7 @@ def check(manifest):
     if actual_records != data.pop("records"):
         raise ValueError("records.jsonl differs from authored inputs")
     for name, expected in data.items():
-        actual = (BASE / name).read_text() if name.endswith(".md") else read(BASE / name)
+        actual = (BASE / name).read_text() if name.endswith((".md", ".tsv")) else read(BASE / name)
         if actual != expected:
             raise ValueError(name + " does not reproduce from authored inputs")
     return {"structure_and_reproduction": "passed", "records": len(actual_records),

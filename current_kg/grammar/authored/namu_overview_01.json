@@ -1,0 +1,429 @@
+{
+  "schema_version": "0.2",
+  "author": {
+    "agent": "Codex",
+    "method": "direct_source_reading",
+    "authored_on": "2026-09-17"
+  },
+  "source_id": "NAMU20260901",
+  "read_pages": [
+    21,
+    26
+  ],
+  "scope_note": "전체 범위 통합 작성의 진행 배치. 포함한 관계만 작성했으며 페이지 전수 작성·독립 검토·생성 승인과 다르다.",
+  "coverage": [
+    {
+      "page": 21,
+      "status": "partial",
+      "reason": "전사에서 조사·보조용언·형태음운 연결 기록 작성",
+      "remaining": [
+        "동일 쪽의 나머지 항목·각주 전수 작성 및 기존 기록 대조"
+      ]
+    },
+    {
+      "page": 26,
+      "status": "partial",
+      "reason": "전사에서 조사·보조용언·형태음운 연결 기록 작성",
+      "remaining": [
+        "동일 쪽의 나머지 항목·각주 전수 작성 및 기존 기록 대조"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "GYS-O001",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "particle",
+        "label": "진주 발화의 목적격 로",
+        "concepts": [
+          "OBJECT",
+          "CASE_PARTICLE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-로",
+            "sense": "질로 잊아 삐가의 목적격",
+            "pos": "격조사",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "OBJECT"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "object_case"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "phrase.particle",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "인용된 진주 발화의 목적격 기능. 도구·방향 로와 문맥으로 구별한다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경남 진주 발화 사례"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 26,
+            "locator": "진주 화자 설명: 목적격 로 및 질로 잊아 삐가"
+          }
+        ],
+        "details": {
+          "particle": [
+            {
+              "field": "원문예",
+              "values": [
+                "질로 잊아 삐가(길을 잃어 버려서). 발화 전사와 대역을 원문에서 확인했으며 음성을 직접 확인하지 않았다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "조사 생략과 대체 분포·현대 선호 미확보"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-O002",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "진주 발화의 완결 삐다와 연결 활용",
+        "concepts": [
+          "ASPECT",
+          "AUXILIARY_PREDICATE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "삐다",
+            "sense": "완결 보조용언",
+            "pos": "보조용언",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "삐가",
+            "sense": "원문 보조용언의 연결 활용",
+            "pos": "활용형",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "완결 보조용언"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "completive_auxiliary"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.construction",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "문장 속 보조용언 기능으로 확인한 사례이며 본동사 버리다와 구별한다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "-아가"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.inflection",
+              "input_features": [
+                "following_form"
+              ],
+              "mapping_note": "관찰된 연결형과 활용표를 연결할 근거로 쓴다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경남 진주 발화 사례"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 26,
+            "locator": "질로 잊아 삐가와 표준어 대역 길을 잃어 버려서"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "복합기능",
+              "values": [
+                "목적격 로·완결 보조용언·연결 어미가 한 발화에 함께 나타난다. 같은 문장에 있다는 사실만으로 모든 교체형 조합을 허용하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "연결의 원인/선후 해석을 이 한 예만으로 확정하지 않음"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-O003",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "phonology",
+        "label": "포항 사례의 처소격 에와 말음 축약",
+        "concepts": [
+          "CASE_PARTICLE",
+          "CONTRACTION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "방+에",
+            "sense": "명사구와 처소격",
+            "pos": "구성",
+            "role": "component"
+          },
+          {
+            "key": "F2",
+            "text": "바아",
+            "sense": "원문이 제시한 처소격 결합 실현",
+            "pos": "구성",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "contracts_to",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "방"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "-에"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "host_form",
+                "following_form"
+              ],
+              "mapping_note": "포항 예의 형태 결합. 경상 전역 모음 교체로 일반화하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북 포항 기계면 사례"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 21,
+            "locator": "포항 기계면 사례 설명: -ㅇ(이)/-ㄴ(이)+에; 방+에=바아"
+          }
+        ],
+        "details": {
+          "phonology": [
+            {
+              "field": "소리와글자",
+              "values": [
+                "성조·음성을 직접 검증하지 않았다. 해당 명사·조사 구성의 기록이다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "다른 명사로의 생산성·지역 분포 독립 확인"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    }
+  ]
+}

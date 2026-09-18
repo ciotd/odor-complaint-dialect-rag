@@ -1,0 +1,1130 @@
+{
+  "schema_version": "0.2",
+  "author": {
+    "agent": "Codex",
+    "method": "direct_source_reading",
+    "authored_on": "2026-09-17"
+  },
+  "source_id": "NAMU_GRAMMAR_20260908",
+  "read_pages": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    45,
+    48
+  ],
+  "scope_note": "전체 범위 통합 작성의 진행 배치. 포함한 관계만 작성했으며 페이지 전수 작성·독립 검토·생성 승인과 다르다.",
+  "coverage": [
+    {
+      "page": 27,
+      "status": "partial",
+      "reason": "조사·연결·인용·부정의 용법별 첫 통합 기록 작성",
+      "remaining": [
+        "동일 쪽의 나머지 항목·각주 전수 작성 및 기존 기록 대조"
+      ]
+    },
+    {
+      "page": 28,
+      "status": "partial",
+      "reason": "조사·연결·인용·부정의 용법별 첫 통합 기록 작성",
+      "remaining": [
+        "동일 쪽의 나머지 항목·각주 전수 작성 및 기존 기록 대조"
+      ]
+    },
+    {
+      "page": 30,
+      "status": "partial",
+      "reason": "조사·연결·인용·부정의 용법별 첫 통합 기록 작성",
+      "remaining": [
+        "동일 쪽의 나머지 항목·각주 전수 작성 및 기존 기록 대조"
+      ]
+    },
+    {
+      "page": 48,
+      "status": "partial",
+      "reason": "조사·연결·인용·부정의 용법별 첫 통합 기록 작성",
+      "remaining": [
+        "동일 쪽의 나머지 항목·각주 전수 작성 및 기존 기록 대조"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "GYS-G001",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "ending",
+        "label": "-구로 계열의 목적 연결과 각주 제한",
+        "concepts": [
+          "PURPOSE",
+          "CONNECTIVE_ENDING"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-구로",
+            "sense": "목적 연결",
+            "pos": "연결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "-그로",
+            "sense": "목적 연결 변이",
+            "pos": "연결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F3",
+            "text": "-고로",
+            "sense": "목적 연결 변이",
+            "pos": "연결어미",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "PURPOSE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "purpose"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.connective",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "본문의 넓은 대응표를 각주 범위와 함께 해석한다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1",
+              "E2"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "variant_of",
+            "object": {
+              "kind": "form",
+              "ref": "F1"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "purpose"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.connective",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "조건 미확보의 변이형"
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "variant_of",
+            "object": {
+              "kind": "form",
+              "ref": "F1"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "purpose"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.connective",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "조건 미확보의 변이형"
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도(세부 지역 미확보)"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 28,
+            "locator": "조사·어미 표: -게/-도록 행"
+          },
+          {
+            "key": "E2",
+            "page": 48,
+            "locator": "각주 76: 목적/강조와 빠르게 반례"
+          }
+        ],
+        "details": {
+          "ending": [
+            {
+              "field": "제약범위",
+              "values": [
+                "각주의 빠르게 해라 반례를 기록한다. 형용사 부사형 전체의 금지로 확대하면 양지현 자료와 충돌할 수 있다."
+              ],
+              "evidence_keys": [
+                "E2"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "위키의 강조 범주와 논문의 정도·도급·부사형을 비교해야 함"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-G002",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "particle",
+        "label": "목적격 로의 용법",
+        "concepts": [
+          "OBJECT",
+          "CASE_PARTICLE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-로",
+            "sense": "목적격 실현",
+            "pos": "격조사",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "OBJECT"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "object_case"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "phrase.particle",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "명사구 목적어 해석에서 조회. 도구·방향 로와 같은 용법으로 병합하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도(세부 지역 미확보)"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 27,
+            "locator": "조사 표의 -을/를 행 및 각주 64 표지"
+          }
+        ],
+        "details": {
+          "particle": [
+            {
+              "field": "근거강도",
+              "values": [
+                "본문 대응표가 제시한 용법 후보. 모든 목적격을 로로 바꾸는 규칙은 아니다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "각주 64의 음운 환경·구체 용례 대조 미완료"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-G003",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "ending",
+        "label": "조건 연결 -모/-먼 계열",
+        "concepts": [
+          "CONDITION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-모",
+            "sense": "조건 연결",
+            "pos": "연결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "-먼",
+            "sense": "조건 연결",
+            "pos": "연결어미",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "CONDITION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "condition"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.connective",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "해당 두 절의 조건 관계를 연결한다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "CONDITION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "condition"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.connective",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "공유 기능이지만 지역·결합 조건의 동일성은 확정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도(세부 지역 미확보)"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 27,
+            "locator": "어미 표의 -면: 머/먼/모/몬/마/만"
+          }
+        ],
+        "details": {
+          "ending": [
+            {
+              "field": "변이처리",
+              "values": [
+                "표의 전 변이형 중 모/먼을 구조화. 나머지 변이의 정밀한 결합 조건은 남겨 둔다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "-머/-몬/-마/-만 및 각주 전수 처리"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-G004",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "ending",
+        "label": "동시 연결 -면서로",
+        "concepts": [
+          "COORDINATION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-먼서로",
+            "sense": "동시 행동 연결",
+            "pos": "연결어미",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "동시 행동 연결"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "simultaneous_actions"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.connective",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "동시 관계에서 조회하며 -로를 모든 어미에 덧붙이지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도(세부 지역 미확보)"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 27,
+            "locator": "-며/면서 행: 쉬먼서로 해라"
+          }
+        ],
+        "details": {
+          "ending": [
+            {
+              "field": "원문예",
+              "values": [
+                "쉬먼서로 해라. 로의 역사적 설명과 현재의 생산성을 구별한다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "변이형별 환경·동시 외 용법 미확보"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-G005",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "ending",
+        "label": "원인·이유의 -아가",
+        "concepts": [
+          "CAUSE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-아가",
+            "sense": "원인·이유 연결",
+            "pos": "연결어미",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "CAUSE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "cause"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.connective",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "원인 해석이 확인된 경우. -아가 전 용법을 이유로 한정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1",
+              "E2"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도(세부 지역 미확보)"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 27,
+            "locator": "-아서 대응 행"
+          },
+          {
+            "key": "E2",
+            "page": 45,
+            "locator": "각주 3: -아가/-아서의 원인·이유 뜻풀이"
+          }
+        ],
+        "details": {
+          "ending": [
+            {
+              "field": "통합대상",
+              "values": [
+                "기존 활용표 GYS-I015의 원인 용법과 의미 범위를 대조한다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "선후·수단 등 다른 용법의 근거 범위 추가 확인"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-G006",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "ending",
+        "label": "-(으)ㄹ라꼬 목적·의도 연결",
+        "concepts": [
+          "PURPOSE",
+          "INTENTION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-(으)ㄹ라꼬",
+            "sense": "목적·의도 연결",
+            "pos": "연결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "-(으)ㄹ라고",
+            "sense": "목적·의도 연결",
+            "pos": "연결어미",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "PURPOSE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "purpose_intention"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.connective",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "목표 행동 해석을 확인한다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "variant_of",
+            "object": {
+              "kind": "form",
+              "ref": "F1"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "purpose_intention"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.connective",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "원문의 대응형을 연결. 인용 -라고와 구별한다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도(세부 지역 미확보)"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 28,
+            "locator": "-(으)려/려고 행: 밥 차릴라고 준비 중이다"
+          }
+        ],
+        "details": {
+          "ending": [
+            {
+              "field": "기능구별",
+              "values": [
+                "같은 라고 문자열이 들어가도 인용 구성의 -라고 하다와 병합하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "주체·시제 제약 미확보"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-G007",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "인용 -라고 하다의 -라카다 대응",
+        "concepts": [
+          "QUOTATION",
+          "CONTRACTION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-라고 하다",
+            "sense": "인용 보고 구성",
+            "pos": "구성",
+            "role": "standard"
+          },
+          {
+            "key": "F2",
+            "text": "-라카다",
+            "sense": "인용 축약 구성",
+            "pos": "구성",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "contracts_to",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "quotative_rago_hada"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.connective",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "인용 구성에서 음운 문서의 축약과 연결한다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도(세부 지역 미확보)"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 30,
+            "locator": "기타 표현 표: -라고 하다 행"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "독립성",
+              "values": [
+                "음운 문서와 같은 위키 계보. 별개의 독립 검증으로 세지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "각주 87과 세부 변이 작성"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-G008",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "방언 생성에서 단형 안 부정 후보",
+        "concepts": [
+          "NEGATION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "안 하다",
+            "sense": "단형 부정 구성",
+            "pos": "구성",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "NEGATION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "short_negation"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.construction",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "해당 부정의 범위를 보존해야 하며 장형 전체의 무조건 치환은 아니다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도(세부 지역 미확보)"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 30,
+            "locator": "기타 표현: 하지 않다/안 하다 및 세대 차이"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "미사용과금지",
+              "values": [
+                "표의 세대 차이를 현대 모든 화자의 장형 부정 금지로 바꾸지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "-지 않아?의 확인 질문과 명제 부정의 구별 추가 작성"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    }
+  ]
+}

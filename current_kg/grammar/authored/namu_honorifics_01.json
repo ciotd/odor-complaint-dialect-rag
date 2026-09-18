@@ -52,7 +52,7 @@
       },
       "knowledge": {
         "kind": "ending",
-        "label": "부산 일부 지역의 장터 친근 대화에서 하이소체에 는교형 혼용",
+        "label": "부산 일부 지역의 친근 비격식 대화에서 하이소체에 는교형 혼용",
         "concepts": [
           "INTERROGATIVE",
           "FINAL_ENDING",
@@ -105,7 +105,7 @@
                   "field": "register",
                   "operator": "one_of",
                   "values": [
-                    "market_familiar"
+                    "informal_friendly"
                   ],
                   "evidence_keys": [
                     "E1",
@@ -134,7 +134,7 @@
                 "register",
                 "region"
               ],
-              "mapping_note": "목표 절의 상대높임·사용 장면을 외부 맥락에서 받고 지역 범위를 대조한다. 부산 전체 또는 모든 비격식 상황으로 적용 범위를 넓히지 않는다."
+              "mapping_note": "목표 절의 상대높임·사용 장면을 외부 맥락에서 받고 지역 범위를 대조한다. 부산 전체 또는 모든 비격식 상황으로 적용 범위를 넓히지 않는다. 장터는 장소 필수조건이 아니라 친근 맥락의 예이다."
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -207,6 +207,15 @@
               "evidence_keys": [
                 "E1",
                 "E2"
+              ]
+            },
+            {
+              "field": "2026-09-17 조건 강도 정정",
+              "values": [
+                "market_familiar를 informal_friendly로 정정. 장소 예시를 필수조건으로 만들지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
               ]
             }
           ]

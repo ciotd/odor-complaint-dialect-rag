@@ -1,0 +1,1843 @@
+{
+  "schema_version": "0.2",
+  "author": {
+    "agent": "Codex",
+    "method": "direct_source_reading",
+    "authored_on": "2026-09-17"
+  },
+  "source_id": "JO2018",
+  "read_pages": [
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220
+  ],
+  "scope_note": "전체 범위 통합 작성의 진행 배치. 포함한 관계만 작성했으며 페이지 전수 작성·독립 검토·생성 승인과 다르다.",
+  "coverage": [
+    {
+      "page": 105,
+      "status": "partial",
+      "reason": "종결·계사·높임 관련 핵심 용법과 관계 작성",
+      "remaining": [
+        "동일 쪽의 나머지 항목·각주 전수 작성 및 기존 기록 대조"
+      ]
+    },
+    {
+      "page": 106,
+      "status": "partial",
+      "reason": "종결·계사·높임 관련 핵심 용법과 관계 작성",
+      "remaining": [
+        "동일 쪽의 나머지 항목·각주 전수 작성 및 기존 기록 대조"
+      ]
+    },
+    {
+      "page": 108,
+      "status": "partial",
+      "reason": "종결·계사·높임 관련 핵심 용법과 관계 작성",
+      "remaining": [
+        "동일 쪽의 나머지 항목·각주 전수 작성 및 기존 기록 대조"
+      ]
+    },
+    {
+      "page": 136,
+      "status": "partial",
+      "reason": "종결·계사·높임 관련 핵심 용법과 관계 작성",
+      "remaining": [
+        "동일 쪽의 나머지 항목·각주 전수 작성 및 기존 기록 대조"
+      ]
+    },
+    {
+      "page": 137,
+      "status": "partial",
+      "reason": "본 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    },
+    {
+      "page": 138,
+      "status": "partial",
+      "reason": "종결·계사·높임 관련 핵심 용법과 관계 작성",
+      "remaining": [
+        "동일 쪽의 나머지 항목·각주 전수 작성 및 기존 기록 대조"
+      ]
+    },
+    {
+      "page": 213,
+      "status": "partial",
+      "reason": "종결·계사·높임 관련 핵심 용법과 관계 작성",
+      "remaining": [
+        "동일 쪽의 나머지 항목·각주 전수 작성 및 기존 기록 대조"
+      ]
+    },
+    {
+      "page": 215,
+      "status": "partial",
+      "reason": "종결·계사·높임 관련 핵심 용법과 관계 작성",
+      "remaining": [
+        "동일 쪽의 나머지 항목·각주 전수 작성 및 기존 기록 대조"
+      ]
+    },
+    {
+      "page": 217,
+      "status": "partial",
+      "reason": "종결·계사·높임 관련 핵심 용법과 관계 작성",
+      "remaining": [
+        "동일 쪽의 나머지 항목·각주 전수 작성 및 기존 기록 대조"
+      ]
+    },
+    {
+      "page": 219,
+      "status": "partial",
+      "reason": "종결·계사·높임 관련 핵심 용법과 관계 작성",
+      "remaining": [
+        "동일 쪽의 나머지 항목·각주 전수 작성 및 기존 기록 대조"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "GYS-J001",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "ending",
+        "label": "경북 하게체 판정 의문 -ㄴ가/-ㄴ강",
+        "concepts": [
+          "POLAR_QUESTION",
+          "INTERROGATIVE",
+          "SPEECH_LEVEL"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-ㄴ가",
+            "sense": "하게체 판정 의문",
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "-ㄴ강",
+            "sense": "하게체 판정 의문 변이",
+            "pos": "종결어미",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "POLAR_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "polar"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "speech_level",
+                  "operator": "is",
+                  "values": [
+                    "HAGECHE"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "speech_level"
+              ],
+              "mapping_note": "목표 하게체의 판정 질문. 원문에서 의문사 여부라고 한 것을 표면 검색 하나로 구현하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "variant_of",
+            "object": {
+              "kind": "form",
+              "ref": "F1"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "polar"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type"
+              ],
+              "mapping_note": "문헌의 변이를 보존. 비음 첨가의 추측 의미 분석은 별도 검토."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북 구비문학대계 분석 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "원문 자료 맥락 1978–1984년 조사; 출판년과 구별"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 136,
+            "locator": "2) 하게체 의문법: 판정·설명 구별 및 예 (87)"
+          }
+        ],
+        "details": {
+          "ending": [
+            {
+              "field": "원전성격",
+              "values": [
+                "이 논문은 구비문학대계 자료를 분석한다. 위키에서 같은 논문을 재인용했다면 독립 증거가 아니다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "체언·선어말별 분기 및 선행연구의 비음 의미 분석 추가 작성"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-J002",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "ending",
+        "label": "경북 하게체 설명 의문 -ㄴ고/-ㄴ공",
+        "concepts": [
+          "CONTENT_QUESTION",
+          "INTERROGATIVE",
+          "SPEECH_LEVEL"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-ㄴ고",
+            "sense": "하게체 설명 의문",
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "-ㄴ공",
+            "sense": "하게체 설명 의문 변이",
+            "pos": "종결어미",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "CONTENT_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "content"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "speech_level",
+                  "operator": "is",
+                  "values": [
+                    "HAGECHE"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "speech_level"
+              ],
+              "mapping_note": "설명 질문 기능에서 기본 용법을 찾는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "variant_of",
+            "object": {
+              "kind": "form",
+              "ref": "F1"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "content"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type"
+              ],
+              "mapping_note": "기본 종결 용법의 변이이며 인용 -고와 분리한다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북 구비문학대계 분석 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "원문 자료 맥락 1978–1984년 조사; 출판년과 구별"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 136,
+            "locator": "2) 하게체 의문법"
+          },
+          {
+            "key": "E2",
+            "page": 137,
+            "locator": "예 (87ㄷ·ㄹ) 및 구성 해석"
+          }
+        ],
+        "details": {
+          "ending": [
+            {
+              "field": "범위",
+              "values": [
+                "의문법 하게체 절의 기술을 자문·연결 -고 전체로 확대하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "위키 하게체 설명과 실제 결합 환경 대조"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-J003",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "의존명사 것·계사·-ㄴ가의 것가 분석",
+        "concepts": [
+          "COPULA",
+          "RELATIVIZATION",
+          "INTERROGATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "것+이-+-ㄴ가",
+            "sense": "저자가 제안하는 기저 구성",
+            "pos": "구성",
+            "role": "component"
+          },
+          {
+            "key": "F2",
+            "text": "것가",
+            "sense": "원문 관찰형",
+            "pos": "구성",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "contracts_to",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "bound_noun_copula_question"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.construction",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "원문이 제안하는 분석으로 보존하며 자유 생성용 축약 규칙으로 승인하지 않는다."
+            },
+            "assertion_mode": "source_hypothesis",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북 구비문학대계 분석 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "원문 자료 맥락 1978–1984년 조사; 출판년과 구별"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 138,
+            "locator": "예 (89) 및 것+이-+-ㄴ가 → 것가 분석"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "기능경계",
+              "values": [
+                "관형형 뒤의 의존명사 것으로 분석. 선어말 -겠-과 자동 병합하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "현대 생산성·대체 분석에 대한 독립 검토"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-J004",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "ending",
+        "label": "-(ㄹ)꾸마의 약속 기능",
+        "concepts": [
+          "INTENTION",
+          "FINAL_ENDING"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-꾸마",
+            "sense": "화자 약속",
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "-ㄹ꾸마",
+            "sense": "약속의 결합 변이",
+            "pos": "종결어미",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "화자의 약속"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "promise"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "단순 미래와 약속을 구별한다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "variant_of",
+            "object": {
+              "kind": "form",
+              "ref": "F1"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "promise"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "원문이 수의적 변이를 기술하나 전체 어간별 조건은 뒤 절 검토가 필요하다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북 구비문학대계 분석 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "원문 자료 맥락 1978–1984년 조사; 출판년과 구별"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 108,
+            "locator": "예 (60): 걸어가꾸마/찌를꾸마와 약속 설명"
+          }
+        ],
+        "details": {
+          "ending": [
+            {
+              "field": "통합대상",
+              "values": [
+                "양지현의 보구로 하꾸마에서 보조 구성과 종결 약속 기능을 연결할 수 있다. 이 사실만으로 모든 -거로 구성과 결합시키지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "논문 뒤쪽 통사 조건을 추가 작성해야 함"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-J005",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "ending",
+        "label": "형용사 -아/어라의 감탄 용법",
+        "concepts": [
+          "EXCLAMATIVE",
+          "ADJECTIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-아/어라",
+            "sense": "형용사 뒤 감탄",
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "-래이",
+            "sense": "강조가 포함된 감탄형",
+            "pos": "종결어미",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "EXCLAMATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_pos",
+                  "operator": "is",
+                  "values": [
+                    "adjective"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "exclamation"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "host_pos",
+                "meaning"
+              ],
+              "mapping_note": "동사 명령형과 표면형이 비슷해도 용법을 구별한다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "EXCLAMATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_pos",
+                  "operator": "is",
+                  "values": [
+                    "adjective"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "exclamation"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "host_pos",
+                "meaning"
+              ],
+              "mapping_note": "강조 해석은 해당 구성에 한정한다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북 구비문학대계 분석 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "원문 자료 맥락 1978–1984년 조사; 출판년과 구별"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 108,
+            "locator": "예 (59): 답답아라·춥어라·좋아래이"
+          }
+        ],
+        "details": {
+          "ending": [
+            {
+              "field": "다기능",
+              "values": [
+                "동일한 라 계열의 명령 용법을 이 기록에 합치지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "어간별 구체 표면형·억양 미확보"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-J006",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "ending",
+        "label": "-구려의 선어말 결합 서술·감탄",
+        "concepts": [
+          "DECLARATIVE",
+          "EXCLAMATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-구려",
+            "sense": "-었-/-겠- 뒤 서술·감탄",
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "-었-",
+            "sense": "과거 선어말",
+            "pos": "선어말어미",
+            "role": "component"
+          },
+          {
+            "key": "F3",
+            "text": "-겠-",
+            "sense": "원문 결합 선어말",
+            "pos": "선어말어미",
+            "role": "component"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DECLARATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "preceding_form",
+                  "operator": "one_of",
+                  "values": [
+                    "-었-",
+                    "-겠-"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "preceding_form"
+              ],
+              "mapping_note": "선어말의 실제 후보 구성과 원문의 기능을 대조한다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "EXCLAMATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "preceding_form",
+                  "operator": "one_of",
+                  "values": [
+                    "-었-",
+                    "-겠-"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "preceding_form"
+              ],
+              "mapping_note": "서술에서 감탄 의미를 수반한다는 설명을 보존한다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "combines_with",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "preceding_form",
+                  "operator": "one_of",
+                  "values": [
+                    "-었-"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "preceding_form"
+              ],
+              "mapping_note": "선어말의 실제 후보 구성과 원문의 기능을 대조한다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "combines_with",
+            "object": {
+              "kind": "form",
+              "ref": "F3"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "preceding_form",
+                  "operator": "one_of",
+                  "values": [
+                    "-겠-"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "preceding_form"
+              ],
+              "mapping_note": "선어말의 실제 후보 구성과 원문의 기능을 대조한다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북 구비문학대계 분석 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "원문 자료 맥락 1978–1984년 조사; 출판년과 구별"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 106,
+            "locator": "예 (56ㄱ·ㄴ) 및 -었-/-겠- 결합 설명"
+          }
+        ],
+        "details": {
+          "ending": [
+            {
+              "field": "등급",
+              "values": [
+                "저자는 하게체 절에서 기술하지만 표준어 하오체 분류를 언급한다. 등급을 자동 통일하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "다른 선어말·과거/추측의 의미 범위 미확보"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-J007",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "ending",
+        "label": "-구려의 동사 어간 직접 결합 권유",
+        "concepts": [
+          "IMPERATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-구려",
+            "sense": "정중하게 권하는 명령 용법",
+            "pos": "종결어미",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "IMPERATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_pos",
+                  "operator": "is",
+                  "values": [
+                    "verb"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "preceding_form",
+                  "operator": "is",
+                  "values": [
+                    "verb_stem_direct"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "host_pos",
+                "preceding_form"
+              ],
+              "mapping_note": "직접 결합 여부는 입력에 이미 존재하는 방언형이 아니라 후보 구성에서 확인한다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북 구비문학대계 분석 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "원문 자료 맥락 1978–1984년 조사; 출판년과 구별"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 106,
+            "locator": "예 (56ㄷ) 및 동사 어간 직접 결합 설명"
+          }
+        ],
+        "details": {
+          "ending": [
+            {
+              "field": "의미",
+              "values": [
+                "직접적인 명령보다 정중한 권유로 설명한다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "발화 관계·현대 자연스러움 독립 검증 미수행"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-J008",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "요 결합 의문 -(ㄴ)고요/-공요의 관찰",
+        "concepts": [
+          "CONTENT_QUESTION",
+          "ADDRESSEE_HONORIFIC"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-고요",
+            "sense": "요 결합 의문형",
+            "pos": "종결 구성",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "-공요",
+            "sense": "비음 포함 요 결합 의문형",
+            "pos": "종결 구성",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "CONTENT_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "content_question_with_yo"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "요 결합 전체의 기능을 조회한다. 하게체 기본형의 등급을 기계적으로 상속하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "variant_of",
+            "object": {
+              "kind": "form",
+              "ref": "F1"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "content_question_with_yo"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "원문 관찰형. 조사 빈도는 생성 확률로 바꾸지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북 구비문학대계 분석 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "원문 자료 맥락 1978–1984년 조사; 출판년과 구별"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 213,
+            "locator": "예 (179ㄹ) 및 표 51"
+          },
+          {
+            "key": "E2",
+            "page": 215,
+            "locator": "예 (182ㄹ): 씨던공요"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "분류주의",
+              "values": [
+                "원문은 해요체로 분류하고 기본형의 범주 설명은 위키와 차이가 있다. 예의 존재와 분류의 일치를 구별한다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "55쪽 부재 설명 및 216쪽 해라체만 결합 주장과 대조 필요"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-J009",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "ending",
+        "label": "문맥으로 판정하는 명령 -제",
+        "concepts": [
+          "IMPERATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-제",
+            "sense": "해체의 명령·권유 용법",
+            "pos": "종결어미",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "IMPERATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "directive_je"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "형태 -제만으로 명령을 확정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북 구비문학대계 분석 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "원문 자료 맥락 1978–1984년 조사; 출판년과 구별"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 217,
+            "locator": "3.2.3.1 명령법: 예 (185)와 문맥 판정"
+          }
+        ],
+        "details": {
+          "ending": [
+            {
+              "field": "원문한계",
+              "values": [
+                "서술·의문·명령의 다기능 및 -시- 결합 대치 문제를 언급한다.",
+                "예 번호가 본문에 어긋나므로 개별 대치 금지 일반화는 보류한다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "주체높임 결합의 정확한 대조 예 재확인"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-J010",
+      "review": {
+        "source_fidelity": "needs_review",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "ending",
+        "label": "명령 -지예의 표 기재와 부재 설명 충돌",
+        "concepts": [
+          "IMPERATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-지예",
+            "sense": "명령형 표에 나타나는 후보",
+            "pos": "종결어미",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "IMPERATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "directive_jiye"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "충돌이 해소되지 않은 후보로만 보존하며 허용·금지 판정에 사용하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북 구비문학대계 분석 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "원문 자료 맥락 1978–1984년 조사; 출판년과 구별"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 219,
+            "locator": "표 53·54의 -지예와 본문의 예형 부재 설명"
+          }
+        ],
+        "details": {
+          "ending": [
+            {
+              "field": "충돌",
+              "values": [
+                "표에는 -지예 및 1회가 기재되지만 본문은 예형 쓰임이 없다고 한다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "해당 발화 원전 확인과 본문/표 불일치 해결"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-J011",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "기네의 의존명사·계사 구성",
+        "concepts": [
+          "COPULA",
+          "CONTRACTION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "것+이-",
+            "sense": "의존명사와 계사",
+            "pos": "구성",
+            "role": "component"
+          },
+          {
+            "key": "F2",
+            "text": "기",
+            "sense": "의존명사·계사 축약",
+            "pos": "구성",
+            "role": "dialect"
+          },
+          {
+            "key": "F3",
+            "text": "기네",
+            "sense": "축약 구성에 -네가 결합한 예",
+            "pos": "구성",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "contracts_to",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "bound_noun_copula"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.construction",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "계사 구성과 관련된 축약으로 연결한다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F3"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "-네"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.inflection",
+              "input_features": [
+                "following_form"
+              ],
+              "mapping_note": "관찰된 기+-네 구성. 모든 후행형 결합을 허용하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경북 구비문학대계 분석 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [
+              "원문 자료 맥락 1978–1984년 조사; 출판년과 구별"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 105,
+            "locator": "예 (55ㄱ): 카는 기네와 것+이 분석"
+          },
+          {
+            "key": "E2",
+            "page": 106,
+            "locator": "축약형과 -네의 결합 설명"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "계사",
+              "values": [
+                "조사·의존명사·종결을 별도 섬으로 두지 않고 구성으로 연결한다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "것/거/기와 후행 어미의 전체 결합표 미작성"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    }
+  ]
+}

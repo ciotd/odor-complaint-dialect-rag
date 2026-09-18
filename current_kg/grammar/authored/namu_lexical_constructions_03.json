@@ -1,0 +1,3264 @@
+{
+  "schema_version": "0.2",
+  "author": {
+    "agent": "Codex",
+    "method": "direct_source_reading",
+    "authored_on": "2026-09-17"
+  },
+  "source_id": "NAMU_GRAMMAR_20260908",
+  "read_pages": [
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    41
+  ],
+  "scope_note": "전체 작성 계속. 이 묶음의 작성 완료를 해당 쪽 모든 진술의 처리 완료로 간주하지 않는다.",
+  "coverage": [
+    {
+      "page": 33,
+      "status": "partial",
+      "reason": "해당 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    },
+    {
+      "page": 34,
+      "status": "partial",
+      "reason": "해당 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    },
+    {
+      "page": 35,
+      "status": "partial",
+      "reason": "해당 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    },
+    {
+      "page": 36,
+      "status": "partial",
+      "reason": "해당 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    },
+    {
+      "page": 37,
+      "status": "partial",
+      "reason": "해당 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    },
+    {
+      "page": 38,
+      "status": "partial",
+      "reason": "해당 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    },
+    {
+      "page": 39,
+      "status": "partial",
+      "reason": "해당 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    },
+    {
+      "page": 41,
+      "status": "partial",
+      "reason": "해당 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "GYS-G052",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "lexical",
+        "label": "봉다리의 의미 범위 제한",
+        "concepts": [
+          "NOUN"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "봉다리",
+            "role": "dialect",
+            "sense": "물건을 담아 옮기는 봉투",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "NOUN"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "물건을 담아 옮기는 봉투"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 항목별 의미·지역 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 33,
+            "locator": "어휘·감탄사·관용구 표의 해당 항목"
+          }
+        ],
+        "details": {
+          "lexical": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "납작한 편지·서류 봉투에는 쓰지 않는다고 명시되어 있다. 모든 봉투의 일괄 치환 후보로 쓰지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-G053",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "lexical",
+        "label": "욕보다의 수고하다 의미",
+        "concepts": [
+          "VERB"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "욕보다",
+            "role": "dialect",
+            "sense": "수고하다",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "VERB"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "수고하다"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 항목별 의미·지역 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 34,
+            "locator": "어휘·감탄사·관용구 표의 해당 항목"
+          }
+        ],
+        "details": {
+          "lexical": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "자동사로 제시된다. 표준어의 모욕·고생 등 모든 욕보다 의미와 일대일 대응시키지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-G054",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "lexical",
+        "label": "우리하다의 감각 형용사 의미",
+        "concepts": [
+          "ADJECTIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "우리하다",
+            "role": "dialect",
+            "sense": "얼얼하거나 쓰라리다",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "ADJECTIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "얼얼하거나 쓰라리다"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 항목별 의미·지역 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 34,
+            "locator": "어휘·감탄사·관용구 표의 해당 항목"
+          }
+        ],
+        "details": {
+          "lexical": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "대명사 우리와 분리한다. 구체적 신체 감각의 강도·지역 차이는 추가 근거 없이 세분하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-G055",
+      "review": {
+        "source_fidelity": "needs_review",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "lexical",
+        "label": "잠오다의 서술 의미",
+        "concepts": [
+          "PREDICATE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "잠오다",
+            "role": "dialect",
+            "sense": "자고 싶은 느낌 또는 잠에 빠짐",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "PREDICATE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "자고 싶은 느낌 또는 잠에 빠짐"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 항목별 의미·지역 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 34,
+            "locator": "어휘·감탄사·관용구 표의 해당 항목"
+          }
+        ],
+        "details": {
+          "lexical": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "원문은 동/형으로 표시한다. 잠이 오다 구성과 관계는 보존하지만 품사를 단일 확정하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-G056",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "lexical",
+        "label": "파이다의 평가 강도",
+        "concepts": [
+          "ADJECTIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "파이다",
+            "role": "dialect",
+            "sense": "별로이다",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "ADJECTIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "별로이다"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 항목별 의미·지역 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 35,
+            "locator": "어휘·감탄사·관용구 표의 해당 항목"
+          }
+        ],
+        "details": {
+          "lexical": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "원문은 안 좋다보다 부정적이고 나쁘다보다 덜 부정적이라 설명한다. 피동 동사 파이다와 분리한다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-G057",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "lexical",
+        "label": "할일없이의 쓸데없이 용법",
+        "concepts": [
+          "ADVERB"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "할일없이",
+            "role": "dialect",
+            "sense": "쓸데없이",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "ADVERB"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "쓸데없이"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 항목별 의미·지역 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 35,
+            "locator": "어휘·감탄사·관용구 표의 해당 항목"
+          }
+        ],
+        "details": {
+          "lexical": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "표준어의 할 일이 없다는 문자적 상태와 다르다. 의미를 판별한 후에 후보를 조회한다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-G058",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "lexical",
+        "label": "디비다와 디비지다의 타동·자동 구별",
+        "concepts": [
+          "PREDICATE",
+          "VERB"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "디비다",
+            "role": "dialect",
+            "sense": "뒤집다; 행위자와 대상을 갖는 타동 용법",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "디비지다",
+            "role": "dialect",
+            "sense": "뒤집히다 또는 넘어지다; 자동 용법",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "VERB"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "뒤집다; 행위자와 대상을 갖는 타동 용법"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "VERB"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "뒤집히다 또는 넘어지다; 자동 용법"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "contrasts_with",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "문맥·참여자·기능이 다른 용법을 분리"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 항목별 의미·지역 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 36,
+            "locator": "어휘·감탄사·관용구 표의 해당 항목"
+          }
+        ],
+        "details": {
+          "lexical": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "주체·대상의 역할이 다른 구성이다. 디비지다의 크게 웃다는 별도 의미도 보존한다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-G059",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "lexical",
+        "label": "따시다와 뜨수다의 상태·변화 구별",
+        "concepts": [
+          "PREDICATE",
+          "ADJECTIVE",
+          "VERB"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "따시다",
+            "role": "dialect",
+            "sense": "따뜻한 상태",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "뜨시다",
+            "role": "dialect",
+            "sense": "따뜻한 상태",
+            "pos": null
+          },
+          {
+            "key": "F3",
+            "text": "뜨수다",
+            "role": "dialect",
+            "sense": "대상을 따뜻하게 하거나 데우다",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "ADJECTIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "따뜻한 상태"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "ADJECTIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "따뜻한 상태"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "VERB"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "대상을 따뜻하게 하거나 데우다"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "contrasts_with",
+            "object": {
+              "kind": "form",
+              "ref": "F3"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "문맥·참여자·기능이 다른 용법을 분리"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 항목별 의미·지역 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 36,
+            "locator": "어휘·감탄사·관용구 표의 해당 항목"
+          }
+        ],
+        "details": {
+          "lexical": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "앞의 형용사와 뜨수다 동사를 구별한다. 뜻풀이만으로 모든 사동 파생의 생산성을 가정하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-G060",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "lexical",
+        "label": "태우다의 액체에 가루를 타다 의미",
+        "concepts": [
+          "VERB"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "태우다",
+            "role": "dialect",
+            "sense": "가루 따위를 액체에 녹여 넣다",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "VERB"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "가루 따위를 액체에 녹여 넣다"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 항목별 의미·지역 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 36,
+            "locator": "어휘·감탄사·관용구 표의 해당 항목"
+          }
+        ],
+        "details": {
+          "lexical": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "소각·탑승 사동 태우다와 합치지 않는다. 커피를 태우다의 의미·논항을 유지한다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-G061",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "lexical",
+        "label": "비이다의 보이다와 베이다 구별",
+        "concepts": [
+          "PREDICATE",
+          "PASSIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "비이다",
+            "role": "dialect",
+            "sense": "눈에 보이다",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "비이다",
+            "role": "dialect",
+            "sense": "날카로운 것에 베이다",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "PREDICATE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "눈에 보이다"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "PASSIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "날카로운 것에 베이다"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "contrasts_with",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "문맥·참여자·기능이 다른 용법을 분리"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 항목별 의미·지역 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 37,
+            "locator": "어휘·감탄사·관용구 표의 해당 항목"
+          }
+        ],
+        "details": {
+          "lexical": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "표의 두 행을 같은 용법으로 병합하지 않는다. 문장 의미와 서술어 참여자를 조회 기준으로 삼는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-G062",
+      "review": {
+        "source_fidelity": "needs_review",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "lexical",
+        "label": "자리다·찹다의 품사 표기 문제",
+        "concepts": [
+          "PREDICATE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "자리다",
+            "role": "dialect",
+            "sense": "닿다와 차갑다에 해당하는 서술",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "찹다",
+            "role": "dialect",
+            "sense": "닿다와 차갑다에 해당하는 서술",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "PREDICATE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "닿다와 차갑다에 해당하는 서술"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "차갑다 뜻풀이와 동사 표기의 불일치"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "차갑다 뜻풀이와 동사 표기의 불일치"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 항목별 의미·지역 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 38,
+            "locator": "어휘·감탄사·관용구 표의 해당 항목"
+          }
+        ],
+        "details": {
+          "lexical": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "표는 자리다를 명사, 찹다를 동사로 적으나 뜻풀이·예문과 불일치한다. 임의 교정한 품사 규칙으로 사용하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-G063",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "usage",
+        "label": "오야 긍정과 상대 관계",
+        "concepts": [
+          "DISCOURSE_MARKER"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "오야",
+            "role": "dialect",
+            "sense": "윗사람이 아랫사람에게 긍정",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DISCOURSE_MARKER"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "윗사람이 아랫사람에게 긍정"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 항목별 의미·지역 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 38,
+            "locator": "어휘·감탄사·관용구 표의 해당 항목"
+          }
+        ],
+        "details": {
+          "usage": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "예·네의 무조건 대응형이 아니다. 청자 관계를 모르면 선택을 보류한다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-G064",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "usage",
+        "label": "으으응 부정과 운소 의존",
+        "concepts": [
+          "NEGATION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "으으응",
+            "role": "dialect",
+            "sense": "해라체·해체의 부정 응답",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "어어어",
+            "role": "dialect",
+            "sense": "해라체·해체의 부정 응답",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "NEGATION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "해라체·해체의 부정 응답"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "음높이 1-3-2가 중요한 부정 응답"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "음높이 1-3-2가 중요한 부정 응답"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 항목별 의미·지역 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 38,
+            "locator": "어휘·감탄사·관용구 표의 해당 항목"
+          }
+        ],
+        "details": {
+          "usage": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "원문은 1-3-2 음높이를 중요하게 기술한다. 텍스트 철자만으로 의미가 안정적으로 전달된다고 보장하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-G065",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "usage",
+        "label": "아나 물건 건넴과 주의 환기 마",
+        "concepts": [
+          "DISCOURSE_MARKER"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "아나",
+            "role": "dialect",
+            "sense": "물건을 건네는 반말 발화",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "마",
+            "role": "dialect",
+            "sense": "주의를 환기하는 비격식 발화",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DISCOURSE_MARKER"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "물건을 건네는 반말 발화"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DISCOURSE_MARKER"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "주의를 환기하는 비격식 발화"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "contrasts_with",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "문맥·참여자·기능이 다른 용법을 분리"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 항목별 의미·지역 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 38,
+            "locator": "어휘·감탄사·관용구 표의 해당 항목"
+          }
+        ],
+        "details": {
+          "usage": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "서로 다른 기능을 분리한다. 마의 주의 환기 용법을 명령문에 무조건 추가하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-G066",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "usage",
+        "label": "마의 강조·지속·호칭 기능 분리",
+        "concepts": [
+          "DISCOURSE_MARKER",
+          "EMPHASIS",
+          "USAGE",
+          "ADDRESS"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "마",
+            "role": "dialect",
+            "sense": "말 중에서 비격식적으로 강조",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "마",
+            "role": "dialect",
+            "sense": "줄곧 어떤 일이 일어나거나 일어남",
+            "pos": null
+          },
+          {
+            "key": "F3",
+            "text": "마",
+            "role": "dialect",
+            "sense": "친구 또는 손아랫사람을 비격식적으로 부름",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "EMPHASIS"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "말 중에서 비격식적으로 강조"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "USAGE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "줄곧 어떤 일이 일어나거나 일어남"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "ADDRESS"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "친구 또는 손아랫사람을 비격식적으로 부름"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "contrasts_with",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "문맥·참여자·기능이 다른 용법을 분리"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 항목별 의미·지역 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 39,
+            "locator": "어휘·감탄사·관용구 표의 해당 항목"
+          }
+        ],
+        "details": {
+          "usage": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "고마 계열과 임마 계열을 구별하여 표면형 같음만으로 합치지 않는다. 모르는 발화 의도를 새로 부여하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-G067",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "usage",
+        "label": "하모 긍정과 압 저지",
+        "concepts": [
+          "DISCOURSE_MARKER"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "하모",
+            "role": "dialect",
+            "sense": "말할 나위 없이 긍정",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "함",
+            "role": "dialect",
+            "sense": "말할 나위 없이 긍정",
+            "pos": null
+          },
+          {
+            "key": "F3",
+            "text": "카모",
+            "role": "dialect",
+            "sense": "말할 나위 없이 긍정",
+            "pos": null
+          },
+          {
+            "key": "F4",
+            "text": "캄",
+            "role": "dialect",
+            "sense": "말할 나위 없이 긍정",
+            "pos": null
+          },
+          {
+            "key": "F5",
+            "text": "압",
+            "role": "dialect",
+            "sense": "상대의 지나친 행동을 저지",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DISCOURSE_MARKER"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "말할 나위 없이 긍정"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DISCOURSE_MARKER"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "말할 나위 없이 긍정"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DISCOURSE_MARKER"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "말할 나위 없이 긍정"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F4",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DISCOURSE_MARKER"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "말할 나위 없이 긍정"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F5",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DISCOURSE_MARKER"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "상대의 지나친 행동을 저지"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "contrasts_with",
+            "object": {
+              "kind": "form",
+              "ref": "F5"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "문맥·참여자·기능이 다른 용법을 분리"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 항목별 의미·지역 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 39,
+            "locator": "어휘·감탄사·관용구 표의 해당 항목"
+          }
+        ],
+        "details": {
+          "usage": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "하모 계열의 긍정과 부산 압의 제지 기능을 서로 분리한다. 조건 연결어미 면의 모든 경우를 이 담화 기능으로 바꾸지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-G068",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "usage",
+        "label": "언제·어디의 강한 부정 반응",
+        "concepts": [
+          "DISCOURSE_MARKER"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "언제",
+            "role": "dialect",
+            "sense": "강한 부정 응답",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "언지",
+            "role": "dialect",
+            "sense": "강한 부정 응답",
+            "pos": null
+          },
+          {
+            "key": "F3",
+            "text": "어데",
+            "role": "dialect",
+            "sense": "강한 부정 응답",
+            "pos": null
+          },
+          {
+            "key": "F4",
+            "text": "어디",
+            "role": "dialect",
+            "sense": "강한 부정 응답",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DISCOURSE_MARKER"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "강한 부정 응답"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "강한 부정 반응"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "강한 부정 반응"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "강한 부정 반응"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "강한 부정 반응"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F4",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "강한 부정 반응"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "강한 부정 반응"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 항목별 의미·지역 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 39,
+            "locator": "어휘·감탄사·관용구 표의 해당 항목"
+          }
+        ],
+        "details": {
+          "usage": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "문서의 장음 표기 및 지역 범위를 보존해야 한다. 의문대명사 용법과 분리하고 철자만으로 부정이라고 판단하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-G069",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "usage",
+        "label": "머라카다의 꾸짖다 관용 용법",
+        "concepts": [
+          "VERB"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "머라카다",
+            "role": "dialect",
+            "sense": "꾸짖다",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "머라쿠다",
+            "role": "dialect",
+            "sense": "꾸짖다",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "VERB"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "꾸짖다"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "꾸짖다의 관용적 의미"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "꾸짖다의 관용적 의미"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 항목별 의미·지역 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 41,
+            "locator": "어휘·감탄사·관용구 표의 해당 항목"
+          }
+        ],
+        "details": {
+          "usage": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "인용 내용을 단순 전달하는 라카다 구성과 다른 관용적 의미이다. 중립적 인용을 꾸짖음으로 강화하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-G070",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "usage",
+        "label": "말이가 방구가의 비유적 반응",
+        "concepts": [
+          "USAGE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "말이가 방구가",
+            "role": "dialect",
+            "sense": "말 같지 않은 말을 비판하는 반응",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "USAGE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "말 같지 않은 말을 비판하는 반응"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 항목별 의미·지역 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 41,
+            "locator": "어휘·감탄사·관용구 표의 해당 항목"
+          }
+        ],
+        "details": {
+          "usage": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "문자적인 선택 의문으로만 해석하지 않는다. 중립적 질문 입력에 공격적 반응을 추가하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-G071",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "usage",
+        "label": "쌔다·쌔 삐리다의 많음 관용 구성",
+        "concepts": [
+          "ADJECTIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "쌔다",
+            "role": "dialect",
+            "sense": "쌓일 정도로 많고 흔하다",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "쌔 삐리다",
+            "role": "dialect",
+            "sense": "쌓일 정도로 많고 흔하다",
+            "pos": null
+          },
+          {
+            "key": "F3",
+            "text": "쌔리삐다",
+            "role": "dialect",
+            "sense": "쌓일 정도로 많고 흔하다",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "ADJECTIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "쌓일 정도로 많고 흔하다"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "쌓여 버릴 정도로 많고 흔함"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "쌓여 버릴 정도로 많고 흔함"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.lexical_choice",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 항목별 의미·지역 범위"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 41,
+            "locator": "어휘·감탄사·관용구 표의 해당 항목"
+          }
+        ],
+        "details": {
+          "usage": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "때리다의 쌔리다 및 일반 완결 보조 삐다와 구별한다. 관용적 전체 의미와 내부 형태의 유사성을 별도로 기록한다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    }
+  ]
+}

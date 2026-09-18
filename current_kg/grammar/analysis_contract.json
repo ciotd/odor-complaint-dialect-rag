@@ -10,6 +10,9 @@
     "generation_policy": "조건 적합 후보여도 문헌의 적용 범위·예외·공백과 다른 표현의 조합을 추가 검토해야 한다. 자동 생성 승인은 없다."
   },
   "targets": {
+    "phrase.particle": {"label": "해당 명사구의 조사 용법·결합", "binds_to": ["clause_id", "phrase_id", "particle_component_id"]},
+    "predicate.construction": {"label": "절 내부 보조용언·파생·시제·부정 구성", "binds_to": ["clause_id", "predicate_complex_id"]},
+    "expression.orthography": {"label": "선택된 표현 구성의 축약·표기", "binds_to": ["clause_id", "expression_id"]},
     "predicate.lexical_choice": {"label": "특정 서술어의 지역 어휘형 후보 선택; 활용형 선택과는 별개", "binds_to": ["clause_id", "predicate_component_id"]},
     "knowledge.context": {"label": "조회 규칙으로 확정하지 않는 문헌의 개괄·표기 원칙·역사 설명", "binds_to": []},
     "clause.connective": {"label": "특정 절의 연결 구성", "binds_to": ["clause_id", "linked_clause_id", "ending_component_id"]},
@@ -18,10 +21,11 @@
     "predicate.inflection": {"label": "특정 서술부 성분과 뒤따르는 어미의 결합", "binds_to": ["clause_id", "predicate_component_id", "ending_component_id"]}
   },
   "features": {
+    "preceding_form": {"label": "후보 구성에서 바로 앞에 오는 요소", "analysis_requirement": "입력 관찰값과 구별되는 후보 내부 값이다. verb_stem_direct는 선어말 없이 동사 어간에 직접 결합하는 경우를 뜻한다."},
     "stem_length": {"label": "원문이 지정한 어간 또는 어간 말단 형태소의 음절 수", "analysis_requirement": "전체 어간 길이와 마지막 형태소 길이를 혼동하지 않는다. 원문의 단위가 불명확하면 판정을 보류한다."},
     "host_pos": {"label": "해당 서술어 성분의 품사", "values": ["verb", "adjective", "predicate"], "analysis_requirement": "predicate는 원문의 용언 범주를 보존한 상위값이다. 특정 분석기의 원시 태그를 직접 대입하지 않는다."},
     "sentence_type": {"label": "해당 절의 문장유형", "values": ["interrogative", "declarative", "imperative", "hortative", "exclamative"], "analysis_requirement": "주절과 내포절의 유형을 분리하고 실제 발화 의도와 동일시하지 않는다."},
-    "register": {"label": "외부 맥락에서 확인한 사용 장면", "values": ["formal", "market_familiar"], "analysis_requirement": "market_familiar는 이번 원문이 예로 든 장터의 정다운 대화 장면이다. 모든 비격식 장면과 동치로 확대하지 않는다."},
+    "register": {"label": "외부 맥락에서 확인한 사용 장면", "values": ["formal", "market_familiar", "informal_friendly"], "analysis_requirement": "informal_friendly는 친근한 비격식 맥락이며 장터는 그 예이다. market_familiar는 과거 값으로 남기되 신규 필수 장소 조건에 쓰지 않는다. 모든 비격식 상황과 동치로 확대하지 않는다."},
     "question_type": {"label": "표면 의문사 유무가 아닌 질문 해석", "values": ["polar", "content", "rhetorical_polar", "rhetorical_content", "ambiguous"], "analysis_requirement": "표준어의 무엇/어디가 부정칭인지 의문칭인지 문맥과 함께 판정한다. 불명확하면 복수 후보를 유지한다."},
     "speech_level": {"label": "목표 절의 방언 상대높임 체계", "values": ["HAERACHE", "HAGECHE", "HAECHE", "HASOCHE", "HAISOCHE"], "analysis_requirement": "표준어 해체를 무조건 방언 해라체로 변환하지 않는다. 사용자 목표 및 원문의 청자 관계를 별도 확인한다."},
     "host_class": {"label": "선어말어미를 결합하기 전 서술부 바탕 유형", "values": ["predicate_other_than_anida", "nominal_copula", "negative_copula"], "analysis_requirement": "아니다는 일반 형용사와 따로 분류한다. 계사 분석은 이다를 조사로 태깅하든 용언으로 태깅하든 같은 결합 유형으로 정규화한다."},

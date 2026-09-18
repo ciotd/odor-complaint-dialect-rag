@@ -74,7 +74,7 @@
         "mapping_note": {"type": "string", "minLength": 1}
       }},
       "subject": {"type": "string", "pattern": "^(F[0-9]+|concept:[A-Z_]+)$"},
-      "predicate": {"enum": ["realizes", "variant_of", "contrasts_with", "attaches_to", "combines_with", "excludes_combination", "has_surface_form", "contracts_to", "has_usage_change", "has_interpretation", "has_example", "not_translation_pair"]},
+      "predicate": {"enum": ["realizes", "variant_of", "contrasts_with", "attaches_to", "combines_with", "excludes_combination", "excludes_function", "has_surface_form", "contracts_to", "has_usage_change", "has_interpretation", "has_example", "not_translation_pair"]},
       "object": {"type": "object", "additionalProperties": false, "required": ["kind", "ref"], "properties": {
         "kind": {"enum": ["form", "concept", "value"]}, "ref": {"type": "string", "minLength": 1, "maxLength": 200}
       }},

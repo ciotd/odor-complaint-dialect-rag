@@ -1,0 +1,819 @@
+{
+  "schema_version": "0.2",
+  "author": {
+    "agent": "Codex",
+    "method": "direct_source_reading",
+    "authored_on": "2026-09-17"
+  },
+  "source_id": "NAMU_PHONOLOGY_20260908",
+  "read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "scope_note": "전체 범위 통합 작성의 진행 배치. 포함한 관계만 작성했으며 페이지 전수 작성·독립 검토·생성 승인과 다르다.",
+  "coverage": [
+    {"page":4,"status":"partial","reason":"해당 쪽을 근거로 하는 개별 문법 기록을 직접 작성함","remaining":["이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"]},
+    {
+      "page": 2,
+      "status": "partial",
+      "reason": "문법 구성과 연결되는 축약·표기 후보 작성",
+      "remaining": [
+        "동일 쪽의 나머지 항목·각주 전수 작성 및 기존 기록 대조"
+      ]
+    },
+    {
+      "page": 3,
+      "status": "partial",
+      "reason": "문법 구성과 연결되는 축약·표기 후보 작성",
+      "remaining": [
+        "동일 쪽의 나머지 항목·각주 전수 작성 및 기존 기록 대조"
+      ]
+    },
+    {
+      "page": 6,
+      "status": "partial",
+      "reason": "문법 구성과 연결되는 축약·표기 후보 작성",
+      "remaining": [
+        "동일 쪽의 나머지 항목·각주 전수 작성 및 기존 기록 대조"
+      ]
+    },
+    {
+      "page": 7,
+      "status": "partial",
+      "reason": "문법 구성과 연결되는 축약·표기 후보 작성",
+      "remaining": [
+        "동일 쪽의 나머지 항목·각주 전수 작성 및 기존 기록 대조"
+      ]
+    },
+    {
+      "page": 8,
+      "status": "partial",
+      "reason": "문법 구성과 연결되는 축약·표기 후보 작성",
+      "remaining": [
+        "동일 쪽의 나머지 항목·각주 전수 작성 및 기존 기록 대조"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "GYS-P001",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "phonology",
+        "label": "인용 -라고 하다의 -라카다 축약",
+        "concepts": [
+          "QUOTATION",
+          "CONTRACTION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-라고 하다",
+            "sense": "인용과 보고 서술부",
+            "pos": "인용 구성",
+            "role": "standard"
+          },
+          {
+            "key": "F2",
+            "text": "-라카다",
+            "sense": "인용 축약",
+            "pos": "인용 구성",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "contracts_to",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "quotative_rago_hada"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "인용 구성으로 식별된 형태열에서 조회한다. 독립 어휘 카다 전체에 적용하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도(세부 범위는 관계별 원문 참조)"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 8,
+            "locator": "1.3 준말: -라고 하다 → -라카다"
+          }
+        ],
+        "details": {
+          "phonology": [
+            {
+              "field": "출력범위",
+              "values": [
+                "문서의 경상도 전역 표기는 현대 모든 화자의 선호 보증이 아니다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "발화 유형·억양별 추가 조건 미확보"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-P002",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "phonology",
+        "label": "인용 -라고 하다의 -라쿠다 지역형",
+        "concepts": [
+          "QUOTATION",
+          "CONTRACTION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-라고 하다",
+            "sense": "인용과 보고 서술부",
+            "pos": "인용 구성",
+            "role": "standard"
+          },
+          {
+            "key": "F2",
+            "text": "-라쿠다",
+            "sense": "경남 서부·중부에 제시된 인용 축약",
+            "pos": "인용 구성",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "contracts_to",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "quotative_rago_hada"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "지역형 후보로 보존하며 기본 출력 우선순위를 자동 지정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경남 서부·중부(원문 기술)"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 8,
+            "locator": "1.3 준말: -라쿠다 <경남 서부/중부 대부분>"
+          }
+        ],
+        "details": {
+          "phonology": [
+            {
+              "field": "원문범위",
+              "values": [
+                "경남 서부/중부 대부분이라는 출처 설명을 보존한다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "실제 현대 분포와 라카다/라쿠다 선택 기준 미확보"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-P003",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "phonology",
+        "label": "인가 보다의 인갑다 축약",
+        "concepts": [
+          "GUESS",
+          "CONTRACTION",
+          "COPULA"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "인가 보다",
+            "sense": "계사·추측 구성",
+            "pos": "구성",
+            "role": "standard"
+          },
+          {
+            "key": "F2",
+            "text": "인갑다",
+            "sense": "추측 구성 축약",
+            "pos": "구성",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "contracts_to",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "copula_supposition"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "시도 -어 보다와 구별하고 계사 추측 구성에 연결한다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도(세부 범위는 관계별 원문 참조)"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 7,
+            "locator": "1.3 준말: 인가 보다 → 인갑다"
+          }
+        ],
+        "details": {
+          "phonology": [
+            {
+              "field": "기능경계",
+              "values": [
+                "추측 구성 전체의 축약이며 보다의 모든 용법에 적용하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "후행 시제·어미와의 상세 활용 미확보"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-P004",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "phonology",
+        "label": "-으니의 ㄴ 탈락 표기 사례",
+        "concepts": [
+          "DELETION",
+          "ORTHOGRAPHY"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "걸으니",
+            "sense": "원문 형태소 중시 표기",
+            "pos": "활용형",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "걸으이",
+            "sense": "원문 발음 중시 표기",
+            "pos": "표기 변이",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "eu_ni_pronunciation_variant"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "발음 표기 후보이며 입력의 ㄴ을 일괄 삭제하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도(세부 범위는 관계별 원문 참조)"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 3,
+            "locator": "ㄴ 탈락 표: 걸으니/걸으이"
+          },
+          {
+            "key": "E2",
+            "page": 4,
+            "locator": "기호 표기 설명"
+          }
+        ],
+        "details": {
+          "phonology": [
+            {
+              "field": "표기선택",
+              "values": [
+                "원문은 모든 화자가 탈락시키는 것이 아니며 형태소·발음·기호 표기를 구별한다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "텍스트 생성의 표기 방침은 별도 확정 필요"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-P005",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "phonology",
+        "label": "묵어의 ㄱ 탈락·축약 표기",
+        "concepts": [
+          "CONTRACTION",
+          "DELETION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "묵어",
+            "sense": "먹다 방언형의 활용",
+            "pos": "활용형",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "무우",
+            "sense": "탈락 후 표기",
+            "pos": "활용형",
+            "role": "dialect"
+          },
+          {
+            "key": "F3",
+            "text": "무",
+            "sense": "준말",
+            "pos": "활용형",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "contracts_to",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "묵어"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "host_form"
+              ],
+              "mapping_note": "해당 어휘 활용 사례이며 ㄱ 전체 삭제 규칙이 아니다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "contracts_to",
+            "object": {
+              "kind": "form",
+              "ref": "F3"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "무우"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "host_form"
+              ],
+              "mapping_note": "원문 준말 열을 별도 단계로 연결한다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도(세부 범위는 관계별 원문 참조)"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 6,
+            "locator": "ㄱ 탈락 표의 먹어/묵어/무우/무 행"
+          }
+        ],
+        "details": {
+          "phonology": [
+            {
+              "field": "장음한계",
+              "values": [
+                "음성 길이의 차이를 텍스트 철자만으로 완전 재현하지 못한다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "활용표의 후행 어미별 허용 범위와 대조 필요"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-P006",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "phonology",
+        "label": "동남 방언 음운의 문자 치환 비강제",
+        "concepts": [
+          "ORTHOGRAPHY",
+          "VOWEL"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "ㅓ/ㅡ 혼용",
+            "sense": "원문이 권하지 않는 기계적 혼용",
+            "pos": "표기 정책",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "발음 합류를 문자 무작위 교체로 구현하지 않음"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "orthography_policy"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "원문의 표기 의견임을 표시하며 실제 모든 화자의 문법 사실로 쓰지 않는다."
+            },
+            "assertion_mode": "editorial_convention",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도(세부 범위는 관계별 원문 참조)"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 2,
+            "locator": "ㅓ/ㅡ 발음·표기 구별 및 지역 예외"
+          }
+        ],
+        "details": {
+          "phonology": [
+            {
+              "field": "예외",
+              "values": [
+                "같은 쪽에 경북 서·북부의 발음 구별 설명이 있어 전역 합류 규칙으로 만들 수 없다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "원전 음성 자료·세대별 검증 미수행"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    }
+  ]
+}

@@ -1,0 +1,2313 @@
+{
+  "schema_version": "0.2",
+  "author": {
+    "agent": "Codex",
+    "method": "direct_source_reading",
+    "authored_on": "2026-09-17"
+  },
+  "source_id": "NAMU_PHONOLOGY_20260908",
+  "read_pages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "scope_note": "전체 작성 계속. 이 묶음의 작성 완료를 해당 쪽 모든 진술의 처리 완료로 간주하지 않는다.",
+  "coverage": [
+    {
+      "page": 5,
+      "status": "partial",
+      "reason": "해당 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "GYS-P007",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "phonology",
+        "label": "초성 있는 ㅕ의 단모음화 범위",
+        "concepts": [
+          "ASSIMILATION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "며칠",
+            "role": "dialect",
+            "sense": "초성 자음이 있는 ㅕ의 단모음화",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "메칠",
+            "role": "dialect",
+            "sense": "초성 자음이 있는 ㅕ의 단모음화",
+            "pos": null
+          },
+          {
+            "key": "F3",
+            "text": "영남",
+            "role": "dialect",
+            "sense": "초성 자음이 있는 ㅕ의 단모음화",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "ASSIMILATION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "초성 자음이 있는 ㅕ의 단모음화"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "원문 표에 제시된 특정 구성의 발음·표기 사례"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "초성 자음 없는 영남은 엥남으로 바꾸지 않는 반례"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "해당 원문 사례의 해석 범위"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 본문에 명시된 세부 범위 우선"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 2,
+            "locator": "음운 현상 본문 및 대응표"
+          }
+        ],
+        "details": {
+          "phonology": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "며칠→메칠 등 사례이며 영남→엥남은 반례로 제시된다. 전역 문자 치환 규칙이 아니다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-P008",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "phonology",
+        "label": "전설모음화와 굳어진 용언형",
+        "concepts": [
+          "VOWEL"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "애끼다",
+            "role": "dialect",
+            "sense": "전설모음화 관찰",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "맥히다",
+            "role": "dialect",
+            "sense": "전설모음화 관찰",
+            "pos": null
+          },
+          {
+            "key": "F3",
+            "text": "-는데",
+            "role": "dialect",
+            "sense": "전설모음화 관찰",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "VOWEL"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "전설모음화 관찰"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "막히다의 전설모음화된 어휘형"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "해당 원문 사례의 해석 범위"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "전설모음화의 전역 치환 대상이 아닌 유지 예"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "해당 원문 사례의 해석 범위"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 본문에 명시된 세부 범위 우선"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 2,
+            "locator": "음운 현상 본문 및 대응표"
+          }
+        ],
+        "details": {
+          "phonology": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "아끼다→애끼다, 막히다→맥히다를 제시한다. -는데의 유지와 지역·세대 차이를 함께 보존한다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-P009",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "phonology",
+        "label": "자음동화 발음과 형태소 표기 구별",
+        "concepts": [
+          "ORTHOGRAPHY"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "안녕하십니꺼",
+            "role": "dialect",
+            "sense": "같은 형태의 발음 중심 표기 변이",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "안녕하심미꺼",
+            "role": "dialect",
+            "sense": "같은 형태의 발음 중심 표기 변이",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "ORTHOGRAPHY"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "같은 형태의 발음 중심 표기 변이"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "원문 표에 제시된 특정 구성의 발음·표기 사례"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 본문에 명시된 세부 범위 우선"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 3,
+            "locator": "음운 현상 본문 및 대응표"
+          }
+        ],
+        "details": {
+          "phonology": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "발음 변이를 별개 높임 기능이나 어미로 해석하지 않는다. 문서는 형태소를 밝힌 표기를 권한다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-P010",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "phonology",
+        "label": "비음 탈락·처소격 결합의 표기",
+        "concepts": [
+          "DELETION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "방에",
+            "role": "dialect",
+            "sense": "빠른 발음과 일부 북부 처소격 결합",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "바~아",
+            "role": "dialect",
+            "sense": "빠른 발음과 일부 북부 처소격 결합",
+            "pos": null
+          },
+          {
+            "key": "F3",
+            "text": "몬하다",
+            "role": "dialect",
+            "sense": "빠른 발음과 일부 북부 처소격 결합",
+            "pos": null
+          },
+          {
+            "key": "F4",
+            "text": "모~하다",
+            "role": "dialect",
+            "sense": "빠른 발음과 일부 북부 처소격 결합",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DELETION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "빠른 발음과 일부 북부 처소격 결합"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "원문 표에 제시된 특정 구성의 발음·표기 사례"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F4"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "원문 표에 제시된 특정 구성의 발음·표기 사례"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 본문에 명시된 세부 범위 우선"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 4,
+            "locator": "음운 현상 본문 및 대응표"
+          }
+        ],
+        "details": {
+          "phonology": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "북부 조사 에 결합 동화와 비음 탈락을 구별한다. 모든 화자에게 탈락을 강제하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-P011",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "phonology",
+        "label": "지시사·의문대명사의 ㄱ 탈락 사례",
+        "concepts": [
+          "CONTRACTION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "이거",
+            "role": "dialect",
+            "sense": "지시사·의문대명사 축약",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "여",
+            "role": "dialect",
+            "sense": "지시사·의문대명사 축약",
+            "pos": null
+          },
+          {
+            "key": "F3",
+            "text": "그거",
+            "role": "dialect",
+            "sense": "지시사·의문대명사 축약",
+            "pos": null
+          },
+          {
+            "key": "F4",
+            "text": "거",
+            "role": "dialect",
+            "sense": "지시사·의문대명사 축약",
+            "pos": null
+          },
+          {
+            "key": "F5",
+            "text": "누구",
+            "role": "dialect",
+            "sense": "지시사·의문대명사 축약",
+            "pos": null
+          },
+          {
+            "key": "F6",
+            "text": "누",
+            "role": "dialect",
+            "sense": "지시사·의문대명사 축약",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "CONTRACTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "지시사·의문대명사 축약"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "원문 표에 제시된 특정 구성의 발음·표기 사례"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F4"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "원문 표에 제시된 특정 구성의 발음·표기 사례"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F5",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F6"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "원문 표에 제시된 특정 구성의 발음·표기 사례"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 본문에 명시된 세부 범위 우선"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 5,
+            "locator": "음운 현상 본문 및 대응표"
+          }
+        ],
+        "details": {
+          "phonology": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "각 대응은 표의 사례이다. 여·거의 지시 대상과 문장 성분은 별도로 분석해야 하며 표면만으로 복원하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-P012",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "phonology",
+        "label": "어디서 축약과 ㄹ 수의적 탈락",
+        "concepts": [
+          "CONTRACTION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "어디서",
+            "role": "dialect",
+            "sense": "정해진 구성의 자음 탈락",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "어서",
+            "role": "dialect",
+            "sense": "정해진 구성의 자음 탈락",
+            "pos": null
+          },
+          {
+            "key": "F3",
+            "text": "-(으)ㄹ까",
+            "role": "dialect",
+            "sense": "정해진 구성의 자음 탈락",
+            "pos": null
+          },
+          {
+            "key": "F4",
+            "text": "-(으)(ㄹ)꼬",
+            "role": "dialect",
+            "sense": "정해진 구성의 자음 탈락",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "CONTRACTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "정해진 구성의 자음 탈락"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "원문 표에 제시된 특정 구성의 발음·표기 사례"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "ㄹ 탈락이 가능한 의문 구성의 표기"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "해당 원문 사례의 해석 범위"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F4",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "해당 의문 계열의 수의적 ㄹ 표기; 전체 결합은 미확정"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "해당 원문 사례의 해석 범위"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 본문에 명시된 세부 범위 우선"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 6,
+            "locator": "음운 현상 본문 및 대응표"
+          }
+        ],
+        "details": {
+          "phonology": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "어디서→어서와 의문 구성의 ㄹ 탈락은 서로 다른 환경이다. 표면 어서를 원인 어서로 자동 해석하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-P013",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "phonology",
+        "label": "하다의 발음 변이와 철자 유지",
+        "concepts": [
+          "ORTHOGRAPHY"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "갑갑하다",
+            "role": "dialect",
+            "sense": "하다 결합의 발음 변화",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "깝깝하다",
+            "role": "dialect",
+            "sense": "하다 결합의 발음 변화",
+            "pos": null
+          },
+          {
+            "key": "F3",
+            "text": "남 탓하다",
+            "role": "dialect",
+            "sense": "하다 결합의 발음 변화",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "ORTHOGRAPHY"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "하다 결합의 발음 변화"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "깝깝하다의 발음과 형태소 철자를 구별"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "해당 원문 사례의 해석 범위"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "탓하다의 ㅎ 관련 발음 변이를 철자 생략으로 강제하지 않음"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "해당 원문 사례의 해석 범위"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 본문에 명시된 세부 범위 우선"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 6,
+            "locator": "음운 현상 본문 및 대응표"
+          }
+        ],
+        "details": {
+          "phonology": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "경남 대부분·경북 일부 및 다른 남부 방언에서의 현상으로 기술된다. ㅎ 발음 변화를 출력 철자 삭제로 강제하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-P014",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "phonology",
+        "label": "구개음화 어휘의 세대 범위 유보",
+        "concepts": [
+          "ASSIMILATION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "김",
+            "role": "standard",
+            "sense": "구개음화된 개별 어휘",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "짐",
+            "role": "dialect",
+            "sense": "구개음화된 개별 어휘",
+            "pos": null
+          },
+          {
+            "key": "F3",
+            "text": "기름",
+            "role": "standard",
+            "sense": "구개음화된 개별 어휘",
+            "pos": null
+          },
+          {
+            "key": "F4",
+            "text": "지름",
+            "role": "dialect",
+            "sense": "구개음화된 개별 어휘",
+            "pos": null
+          },
+          {
+            "key": "F5",
+            "text": "깊다",
+            "role": "standard",
+            "sense": "구개음화된 개별 어휘",
+            "pos": null
+          },
+          {
+            "key": "F6",
+            "text": "짚다",
+            "role": "dialect",
+            "sense": "구개음화된 개별 어휘",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "ASSIMILATION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "구개음화된 개별 어휘"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "구개음화 어휘의 제시 사례"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F4"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "구개음화 어휘의 제시 사례"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F5",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F6"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "구개음화 어휘의 제시 사례"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 본문에 명시된 세부 범위 우선"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 6,
+            "locator": "음운 현상 본문 및 대응표"
+          }
+        ],
+        "details": {
+          "phonology": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "문서의 연령별 분포는 재검증되지 않았다. 짐을 모든 맥락에서 김으로 복원하거나 현대 전역에 강제하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-P015",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "phonology",
+        "label": "ㅅ·ㅆ 변별과 의미 강도 구별",
+        "concepts": [
+          "CONSONANT"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "새그럽다",
+            "role": "dialect",
+            "sense": "소리의 구별과 여린말·센말 해석",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "쌔그럽다",
+            "role": "dialect",
+            "sense": "소리의 구별과 여린말·센말 해석",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "CONSONANT"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "소리의 구별과 여린말·센말 해석"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "쌔그럽다는 새그럽다와 센말·여린말 구분 가능"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "해당 원문 사례의 해석 범위"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 본문에 명시된 세부 범위 우선"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 7,
+            "locator": "음운 현상 본문 및 대응표"
+          }
+        ],
+        "details": {
+          "phonology": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "지역·세대 차이와 센말/여린말 구분 가능성을 기록한다. 두 형태가 항상 같은 의미라고 병합하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-P016",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "phonology",
+        "label": "인용 축약과 지시적 그러다 계열 구별",
+        "concepts": [
+          "VERB",
+          "QUOTATION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "그라다",
+            "role": "dialect",
+            "sense": "인용 구성과 지시 동사의 구별",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "카다",
+            "role": "dialect",
+            "sense": "인용 구성과 지시 동사의 구별",
+            "pos": null
+          },
+          {
+            "key": "F3",
+            "text": "-라카다",
+            "role": "dialect",
+            "sense": "인용 구성과 지시 동사의 구별",
+            "pos": null
+          },
+          {
+            "key": "F4",
+            "text": "-라쿠다",
+            "role": "dialect",
+            "sense": "인용 구성과 지시 동사의 구별",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "VERB"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "지시적 그러다"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "VERB"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "지시적 그러다: 경북 우세라는 기술"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "QUOTATION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "라고 하다 인용 구성"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F4",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "QUOTATION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "라고 하다 인용 구성: 경남 서부·중부"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "contrasts_with",
+            "object": {
+              "kind": "form",
+              "ref": "F3"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "지시 동사와 인용 구성을 분리"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 본문에 명시된 세부 범위 우선"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 8,
+            "locator": "음운 현상 본문 및 대응표"
+          }
+        ],
+        "details": {
+          "phonology": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "카다·그라다의 지역 기술과 라카다·라쿠다 인용 구성을 분리한다. 복잡한 예문을 모든 구성에 적용할 생산 규칙으로 확대하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-P017",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "phonology",
+        "label": "우야노·우짜노의 구성 축약",
+        "concepts": [
+          "CONTRACTION"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "우얘 하노",
+            "role": "dialect",
+            "sense": "어떻게 하느냐 구성의 축약",
+            "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "우야노",
+            "role": "dialect",
+            "sense": "어떻게 하느냐 구성의 축약",
+            "pos": null
+          },
+          {
+            "key": "F3",
+            "text": "우찌 하노",
+            "role": "dialect",
+            "sense": "어떻게 하느냐 구성의 축약",
+            "pos": null
+          },
+          {
+            "key": "F4",
+            "text": "우짜노",
+            "role": "dialect",
+            "sense": "어떻게 하느냐 구성의 축약",
+            "pos": null
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "CONTRACTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "어떻게 하느냐 구성의 축약"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "원문 표에 제시된 특정 구성의 발음·표기 사례"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F4"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "원문 표에 제시된 특정 구성의 발음·표기 사례"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "expression.orthography",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 본문에 명시된 세부 범위 우선"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 8,
+            "locator": "음운 현상 본문 및 대응표"
+          }
+        ],
+        "details": {
+          "phonology": [
+            {
+              "field": "용법과한계",
+              "values": [
+                "원문은 앞 계열 경북 우세, 뒤 계열 경상 전역으로 기술한다. 형태의 길이만 줄이거나 없는 의미를 추가하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    }
+  ]
+}

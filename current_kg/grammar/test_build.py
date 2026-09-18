@@ -265,8 +265,10 @@ class Tests(unittest.TestCase):
     def test_actual_manifest_complete_no_duplicates(self):
         manifest = build.read(build.BASE / "manifest.json")
         pages = [(s["source_id"], p["page"]) for s in manifest["sources"] for p in s["pages"]]
-        self.assertEqual(452, len(pages))
-        self.assertEqual(452, len(set(pages)))
+        self.assertEqual(474, len(pages))
+        self.assertEqual(474, len(set(pages)))
+        self.assertEqual(452, sum(sid != "YANG2021" for sid, _ in pages))
+        self.assertNotIn("SONG2025_SEJONG", {sid for sid, _ in pages})
         self.assertNotIn("batches", manifest)
 
     def test_no_network_or_model_runner(self):

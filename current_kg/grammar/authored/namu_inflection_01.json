@@ -1889,7 +1889,7 @@
           {
             "key": "F2",
             "text": "-으면",
-            "role": "unspecified",
+            "role": "standard",
             "sense": null,
             "pos": null
           }
@@ -1897,6 +1897,40 @@
         "relations": [
           {
             "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "CONDITION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "조건·가정"
+                  ],
+                  "evidence_keys": [
+                    "E45"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.connective",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "같은 서술어 성분의 활용 전 형태와 바로 뒤 어미를 확인한다. 해당 기록의 지역·근거·공백도 함께 대조한다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E45"
+            ]
+          },
+          {
+            "subject": "F2",
             "predicate": "realizes",
             "object": {
               "kind": "concept",
@@ -2014,7 +2048,9 @@
         "illustrated_relation_indexes": [
           1
         ],
-        "remaining_relation_indexes": [],
+        "remaining_relation_indexes": [
+          2
+        ],
         "independent_review": false,
         "naturalness_test_performed": false
       }
@@ -20455,6 +20491,144 @@
             "evidence_keys": [
               "E6"
             ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F3"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "one_of",
+                  "values": [
+                    "돌다",
+                    "달다"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                },
+                {
+                  "field": "following_form",
+                  "operator": "one_of",
+                  "values": [
+                    "-아라"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.inflection",
+              "input_features": [
+                "host_form",
+                "following_form"
+              ],
+              "mapping_note": "지정된 성분의 원형·결합 어미를 대조하며 원문의 한정된 범위 밖으로 확장하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E6"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F4"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "one_of",
+                  "values": [
+                    "돌다",
+                    "달다"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                },
+                {
+                  "field": "following_form",
+                  "operator": "one_of",
+                  "values": [
+                    "-아라"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.inflection",
+              "input_features": [
+                "host_form",
+                "following_form"
+              ],
+              "mapping_note": "지정된 성분의 원형·결합 어미를 대조하며 원문의 한정된 범위 밖으로 확장하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E6"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "표준어 달다와 요청 의미를 비교하는 표제어"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "one_of",
+                  "values": [
+                    "돌다",
+                    "달다"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                },
+                {
+                  "field": "following_form",
+                  "operator": "one_of",
+                  "values": [
+                    "-아라"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.inflection",
+              "input_features": [
+                "host_form",
+                "following_form"
+              ],
+              "mapping_note": "지정된 성분의 원형·결합 어미를 대조하며 원문의 한정된 범위 밖으로 확장하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E6"
+            ]
           }
         ],
         "scope": {
@@ -20553,7 +20727,10 @@
         ],
         "remaining_relation_indexes": [
           1,
-          3
+          3,
+          4,
+          5,
+          6
         ],
         "independent_review": false,
         "naturalness_test_performed": false
@@ -21167,6 +21344,74 @@
             "evidence_keys": [
               "E7"
             ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "one_of",
+                  "values": [
+                    "-(느)ㄴ가 보다"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.inflection",
+              "input_features": [
+                "host_form"
+              ],
+              "mapping_note": "지정된 성분의 원형·결합 어미를 대조하며 원문의 한정된 범위 밖으로 확장하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "추측 보조 보다의 대안 종결 구성; 세대별 선호는 원문 관찰"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "one_of",
+                  "values": [
+                    "-(느)ㄴ가 보다"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.inflection",
+              "input_features": [
+                "host_form"
+              ],
+              "mapping_note": "지정된 성분의 원형·결합 어미를 대조하며 원문의 한정된 범위 밖으로 확장하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
           }
         ],
         "scope": {
@@ -21264,7 +21509,10 @@
         "illustrated_relation_indexes": [
           1
         ],
-        "remaining_relation_indexes": [],
+        "remaining_relation_indexes": [
+          2,
+          3
+        ],
         "independent_review": false,
         "naturalness_test_performed": false
       }
@@ -21606,6 +21854,69 @@
             "evidence_keys": [
               "E7"
             ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "맞다와 앞말의 결합 축약으로 제시된 형태; 바탕별 일대일 대응은 보류"
+            },
+            "conditions": {
+              "all": [],
+              "any": []
+            },
+            "application": {
+              "target": "knowledge.context",
+              "input_features": [],
+              "mapping_note": "원문의 설명·추정 또는 표기 방침이며 생성 규칙으로 직접 실행하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "맞다와 앞말의 결합 축약으로 제시된 형태; 바탕별 일대일 대응은 보류"
+            },
+            "conditions": {
+              "all": [],
+              "any": []
+            },
+            "application": {
+              "target": "knowledge.context",
+              "input_features": [],
+              "mapping_note": "원문의 설명·추정 또는 표기 방침이며 생성 규칙으로 직접 실행하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "맞다와 앞말의 결합 축약으로 제시된 형태; 바탕별 일대일 대응은 보류"
+            },
+            "conditions": {
+              "all": [],
+              "any": []
+            },
+            "application": {
+              "target": "knowledge.context",
+              "input_features": [],
+              "mapping_note": "원문의 설명·추정 또는 표기 방침이며 생성 규칙으로 직접 실행하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
           }
         ],
         "scope": {
@@ -21670,7 +21981,10 @@
         ],
         "illustrated_relation_indexes": [],
         "remaining_relation_indexes": [
-          1
+          1,
+          2,
+          3,
+          4
         ],
         "independent_review": false,
         "naturalness_test_performed": false
@@ -21866,6 +22180,176 @@
             "evidence_keys": [
               "E7"
             ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "one_of",
+                  "values": [
+                    "깨끗하다"
+                  ],
+                  "evidence_keys": [
+                    "E8"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.inflection",
+              "input_features": [
+                "host_form"
+              ],
+              "mapping_note": "지정된 성분의 원형·결합 어미를 대조하며 원문의 한정된 범위 밖으로 확장하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E8"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F4"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "one_of",
+                  "values": [
+                    "시원하다"
+                  ],
+                  "evidence_keys": [
+                    "E8"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.inflection",
+              "input_features": [
+                "host_form"
+              ],
+              "mapping_note": "지정된 성분의 원형·결합 어미를 대조하며 원문의 한정된 범위 밖으로 확장하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E8"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F5"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "one_of",
+                  "values": [
+                    "시원하다"
+                  ],
+                  "evidence_keys": [
+                    "E8"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.inflection",
+              "input_features": [
+                "host_form"
+              ],
+              "mapping_note": "지정된 성분의 원형·결합 어미를 대조하며 원문의 한정된 범위 밖으로 확장하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E8"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F6"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "one_of",
+                  "values": [
+                    "시원하다"
+                  ],
+                  "evidence_keys": [
+                    "E46"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.inflection",
+              "input_features": [
+                "host_form"
+              ],
+              "mapping_note": "지정된 성분의 원형·결합 어미를 대조하며 원문의 한정된 범위 밖으로 확장하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E46"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F7"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "one_of",
+                  "values": [
+                    "시원하다"
+                  ],
+                  "evidence_keys": [
+                    "E46"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.inflection",
+              "input_features": [
+                "host_form"
+              ],
+              "mapping_note": "지정된 성분의 원형·결합 어미를 대조하며 원문의 한정된 범위 밖으로 확장하지 않는다."
+            },
+            "assertion_mode": "example_only",
+            "evidence_keys": [
+              "E46"
+            ]
           }
         ],
         "scope": {
@@ -21975,7 +22459,12 @@
         ],
         "remaining_relation_indexes": [
           3,
-          4
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
         ],
         "independent_review": false,
         "naturalness_test_performed": false

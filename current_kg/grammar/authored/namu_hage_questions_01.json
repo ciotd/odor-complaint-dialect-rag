@@ -1,0 +1,139 @@
+{
+  "schema_version": "0.2",
+  "author": {"agent": "Codex", "method": "direct_source_reading", "authored_on": "2026-09-17"},
+  "source_id": "NAMU_HONORIFICS_20260908",
+  "read_pages": [19, 34],
+  "scope_note": "문법 PDF 13쪽 GYS-Q013이 참조하는 상대높임법 PDF 19쪽을 직접 읽어 하게체 의문의 판정/설명 용법을 작성한다. 자문·문장 중간 연결 용법과 병합하지 않는다. 두 위키 문서는 독립 증거 두 개가 아니다.",
+  "coverage": [
+    {"page": 19, "status": "partial", "reason": "2.3 하게체 의문의 기능 대조 및 비음 변이를 작성", "remaining": ["하게체 평서·명령·청유 구성 작성", "상단 하이소/하소 논의의 별도 작성 여부 판단", "각주 재인용 자료 대조", "실제 어간·선어말어미별 결합과 표면형 분화는 미작성"]},
+    {"page": 34, "status": "partial", "reason": "각주 67의 -요 결합에 따른 높임 변화 중 -(느)ㄴ고요를 작성", "remaining": ["각주 67의 나머지 7개 결합형 작성", "각주 70의 해체 자문 용법을 GYS-Q013에서 분리", "각주 58~87의 나머지 내용 분류·작성"]}
+  ],
+  "records": [
+    {
+      "id": "GYS-H003",
+      "review": {"source_fidelity": "author_checked", "independent_review": "not_performed", "generation": "not_approved"},
+      "links": [{"relation": "qualifies", "record_id": "GYS-Q013"}, {"relation": "contrasts_with", "record_id": "GYS-H004"}],
+      "knowledge": {
+        "kind": "ending",
+        "label": "하게체 판정 의문 -(느)ㄴ가와 비음 변이 -(느)ㄴ강",
+        "concepts": ["INTERROGATIVE", "POLAR_QUESTION", "FINAL_ENDING", "SPEECH_LEVEL"],
+        "forms": [
+          {"key": "F1", "text": "-(느)ㄴ가", "role": "dialect", "sense": "하게체 판정 의문", "pos": "종결어미"},
+          {"key": "F2", "text": "-(느)ㄴ강", "role": "dialect", "sense": "하게체 판정 의문의 비음 변이", "pos": "종결어미"}
+        ],
+        "relations": [
+          {
+            "subject": "F1", "predicate": "realizes", "object": {"kind": "concept", "ref": "POLAR_QUESTION"},
+            "conditions": {"all": [
+              {"field": "question_type", "operator": "is", "values": ["polar"], "evidence_keys": ["E1"]},
+              {"field": "speech_level", "operator": "is", "values": ["HAGECHE"], "evidence_keys": ["E1"]},
+              {"field": "sentence_type", "operator": "is", "values": ["interrogative"], "evidence_keys": ["E1"]}
+            ], "any": []},
+            "application": {"target": "clause.final_ending", "input_features": ["question_type", "speech_level", "sentence_type"], "mapping_note": "절의 판정 질문 해석과 종결 위치를 확인한다. speech_level은 목표 방언의 하게체이며 입력에 -는가가 보인다는 이유만으로 추정하지 않는다. 목표 높임이 미확보이면 판정을 보류한다."},
+            "assertion_mode": "source_statement", "evidence_keys": ["E1"]
+          },
+          {
+            "subject": "F2", "predicate": "variant_of", "object": {"kind": "form", "ref": "F1"},
+            "conditions": {"all": [
+              {"field": "speech_level", "operator": "is", "values": ["HAGECHE"], "evidence_keys": ["E1"]},
+              {"field": "question_type", "operator": "is", "values": ["polar"], "evidence_keys": ["E1"]}
+            ], "any": []},
+            "application": {"target": "clause.final_ending", "input_features": ["speech_level", "question_type"], "mapping_note": "원문이 제시한 비음 첨가형을 같은 하게체 판정 의문의 후보로 연결한다. 의무적 첨가나 현대 화자의 선호로 해석하지 않는다."},
+            "assertion_mode": "source_statement", "evidence_keys": ["E1"]
+          }
+        ],
+        "scope": {
+          "region": {"values": ["경상도"], "basis": "source_context", "evidence_keys": ["E1"]},
+          "period": {"values": [], "basis": "unknown", "evidence_keys": []},
+          "generation": {"values": [], "basis": "unknown", "evidence_keys": []},
+          "register": {"values": [], "basis": "unknown", "evidence_keys": []}
+        },
+        "evidence": [{"key": "E1", "page": 19, "locator": "2.3 하게체: 의문법 표, 판정 ㅏ/설명 ㅗ 대조, 비음 설명 및 대화 예"}, {"key": "E2", "page": 34, "locator": "각주 67: 요/예 결합 시 해요체 높임; 기본형의 높임을 결합형으로 확대하지 않음"}],
+        "details": {"ending": [
+          {"field": "관찰과조건의구별", "values": ["원문은 고령층 사용과 소멸 경향을 서술하지만 연령을 필수 문법 조건으로 만들지 않는다.", "경상도라는 자료 범위는 모든 지역·세대에서 동일하게 자연스럽다는 뜻이 아니다."], "evidence_keys": ["E1"]},
+          {"field": "공유표현", "values": ["기본 -(느)ㄴ가형은 표준어와 형태가 겹칠 수 있다. 방언 생성에 사용된다는 이유만으로 반드시 다른 철자로 바꾸지 않는다."], "evidence_keys": ["E1"]},
+          {"field": "기본형범위", "values": ["이 기록의 하게체 조건은 기본형 용법에 해당하며 요/예가 결합한 전체 구성에는 그대로 적용하지 않는다."], "evidence_keys": ["E2"]}
+        ]},
+        "gaps": ["자문·연결 용법은 GYS-Q013에 남아 있으며 이 하게체 종결 조건을 적용하지 않는다.", "어간 품사·계사·시제별 구체적인 결합 및 표면형은 이 기록으로 완성되지 않았다.", "각주 67의 가/강 계열 요/예 결합형은 후속 작성 대상이며 현대 선호는 미확보다.", "현대 일반 경상도 출력의 기본 말투로 하게체를 선택한다는 정책은 없다."],
+        "illustrative_examples": [{"standard_sentence": "자네는 요새 잘 지내는가?", "dialect_sentence": "자네는 요새 잘 지내는가?", "meaning": "상대가 잘 지내는지 여부를 하게체로 묻는다.", "grammar_function": "하게체 판정 의문", "focus_form_key": "F1", "relation_index": 1, "basis_evidence_keys": ["E1"], "origin": "author_constructed", "naturalness": "not_verified", "context": "설명용으로 하게체 대화를 지정했다. 표준어와 공유되는 형태를 그대로 유지한 예이며 기본 생성 말투나 유일한 번역 정답이 아니다."}],
+        "illustrative_examples_note": "작성 예문이며 원문 인용·독립 근거·평가 정답이 아니다. 비음 변이와 모든 결합 환경의 자연스러움을 검증한 것은 아니다."
+      }
+    },
+    {
+      "id": "GYS-H004",
+      "review": {"source_fidelity": "author_checked", "independent_review": "not_performed", "generation": "not_approved"},
+      "links": [{"relation": "qualifies", "record_id": "GYS-Q013"}, {"relation": "contrasts_with", "record_id": "GYS-H003"}],
+      "knowledge": {
+        "kind": "ending",
+        "label": "하게체 설명 의문 -(느)ㄴ고와 비음 변이 -(느)ㄴ공",
+        "concepts": ["INTERROGATIVE", "CONTENT_QUESTION", "FINAL_ENDING", "SPEECH_LEVEL"],
+        "forms": [
+          {"key": "F1", "text": "-(느)ㄴ고", "role": "dialect", "sense": "하게체 설명 의문", "pos": "종결어미"},
+          {"key": "F2", "text": "-(느)ㄴ공", "role": "dialect", "sense": "하게체 설명 의문의 비음 변이", "pos": "종결어미"}
+        ],
+        "relations": [
+          {
+            "subject": "F1", "predicate": "realizes", "object": {"kind": "concept", "ref": "CONTENT_QUESTION"},
+            "conditions": {"all": [
+              {"field": "question_type", "operator": "is", "values": ["content"], "evidence_keys": ["E1"]},
+              {"field": "speech_level", "operator": "is", "values": ["HAGECHE"], "evidence_keys": ["E1"]},
+              {"field": "sentence_type", "operator": "is", "values": ["interrogative"], "evidence_keys": ["E1"]}
+            ], "any": []},
+            "application": {"target": "clause.final_ending", "input_features": ["question_type", "speech_level", "sentence_type"], "mapping_note": "의문사 표기만으로 설명 의문을 확정하지 않는다. 해당 절의 질문 해석과 목표 하게체를 확인하고, 자문 및 문장 중간 연결 용법과 구별한다."},
+            "assertion_mode": "source_statement", "evidence_keys": ["E1"]
+          },
+          {
+            "subject": "F2", "predicate": "variant_of", "object": {"kind": "form", "ref": "F1"},
+            "conditions": {"all": [
+              {"field": "speech_level", "operator": "is", "values": ["HAGECHE"], "evidence_keys": ["E1"]},
+              {"field": "question_type", "operator": "is", "values": ["content"], "evidence_keys": ["E1"]}
+            ], "any": []},
+            "application": {"target": "clause.final_ending", "input_features": ["speech_level", "question_type"], "mapping_note": "비음 첨가형은 선택 가능한 변이 기록이다. 반드시 -공으로 바꾸거나 세대별 선호를 추정하지 않는다."},
+            "assertion_mode": "source_statement", "evidence_keys": ["E1"]
+          }
+        ],
+        "scope": {
+          "region": {"values": ["경상도"], "basis": "source_context", "evidence_keys": ["E1"]},
+          "period": {"values": [], "basis": "unknown", "evidence_keys": []},
+          "generation": {"values": [], "basis": "unknown", "evidence_keys": []},
+          "register": {"values": [], "basis": "unknown", "evidence_keys": []}
+        },
+        "evidence": [{"key": "E1", "page": 19, "locator": "2.3 하게체: 의문법 표, 판정 ㅏ/설명 ㅗ 대조, 비음 설명 및 대화 예"}, {"key": "E2", "page": 34, "locator": "각주 67: 요/예 결합 시 해요체 높임; GYS-H005의 결합형으로 연결"}],
+        "details": {"ending": [{"field": "관찰과조건의구별", "values": ["고령층 사용·소멸 경향 및 비음형의 경북/경남 분포는 원문 서술이며 특정 나이·지역을 필수조건으로 추가하지 않는다."], "evidence_keys": ["E1"]}, {"field": "기본형범위", "values": ["이 기록의 하게체 조건은 기본형에 해당한다. 요 결합 후의 높임은 GYS-H005에 별도로 기록한다."], "evidence_keys": ["E2"]}]},
+        "gaps": ["자문·연결 용법은 GYS-Q013에 남아 있으며 이 하게체 종결 조건을 적용하지 않는다.", "어간 품사·계사·시제별 구체적인 결합 및 표면형은 이 기록으로 완성되지 않았다.", "각주 67의 나머지 결합형과 현대 사용 선호는 후속 작성·대조 대상이다.", "현대 일반 경상도 출력의 기본 말투로 하게체를 선택한다는 정책은 없다."],
+        "illustrative_examples": [{"standard_sentence": "자네는 요새 무엇을 읽는가?", "dialect_sentence": "자네는 요새 머 읽는고?", "meaning": "상대가 읽는 대상을 하게체로 묻는다.", "grammar_function": "하게체 설명 의문", "focus_form_key": "F1", "relation_index": 1, "basis_evidence_keys": ["E1"], "origin": "author_constructed", "naturalness": "not_verified", "context": "설명용으로 하게체 대화를 지정했다. 원문 종결 대조를 예시하며 머와 목적격 조사 생략의 일반 규칙을 새로 주장하지 않는다."}],
+        "illustrative_examples_note": "작성 예문이며 원문 인용·독립 근거·평가 정답이 아니다. 비음 변이와 모든 결합 환경의 자연스러움을 검증한 것은 아니다."
+      }
+    },
+    {
+      "id": "GYS-H005",
+      "review": {"source_fidelity": "author_checked", "independent_review": "not_performed", "generation": "not_approved"},
+      "links": [{"relation": "qualifies", "record_id": "GYS-H004"}],
+      "knowledge": {
+        "kind": "construction", "label": "-(느)ㄴ고에 요가 결합하면 해요체 수준의 높임으로 달라지는 구성",
+        "concepts": ["INTERROGATIVE", "FINAL_ENDING", "SPEECH_LEVEL", "ADDRESSEE_HONORIFIC"],
+        "forms": [
+          {"key": "F1", "text": "-(느)ㄴ고", "role": "component", "sense": "요 결합 전 의문 기본형", "pos": "종결어미"},
+          {"key": "F2", "text": "요", "role": "component", "sense": "원문이 첨사라고 부른 결합 요소", "pos": "첨사(원문 용어)"},
+          {"key": "F3", "text": "-(느)ㄴ고요", "role": "dialect", "sense": "요 결합 후 해요체 높임의 의문 구성", "pos": "종결 구성"}
+        ],
+        "relations": [
+          {"subject": "F1", "predicate": "combines_with", "object": {"kind": "form", "ref": "F2"}, "conditions": {"all": [{"field": "following_form", "operator": "is", "values": ["요"], "evidence_keys": ["E1"]}], "any": []}, "application": {"target": "clause.final_ending", "input_features": ["following_form"], "mapping_note": "following_form은 이 구성 후보 내부의 뒤따르는 요소다. 표준어 입력의 -어요를 요 첨가 지시로 자동 변환하지 않는다."}, "assertion_mode": "source_statement", "evidence_keys": ["E1"]},
+          {"subject": "F1", "predicate": "has_surface_form", "object": {"kind": "form", "ref": "F3"}, "conditions": {"all": [{"field": "following_form", "operator": "is", "values": ["요"], "evidence_keys": ["E1"]}], "any": []}, "application": {"target": "clause.final_ending", "input_features": ["following_form"], "mapping_note": "요 결합이라는 명시 조건 아래에서만 기본형과 전체 표면 구성을 연결한다."}, "assertion_mode": "source_statement", "evidence_keys": ["E1"]},
+          {"subject": "F3", "predicate": "has_interpretation", "object": {"kind": "value", "ref": "해요체 수준의 상대높임"}, "conditions": {"all": [{"field": "following_form", "operator": "is", "values": ["요"], "evidence_keys": ["E1"]}], "any": []}, "application": {"target": "clause.final_ending", "input_features": ["following_form"], "mapping_note": "결합 결과의 높임에 관한 지식이다. 기본형의 HAGECHE 조건을 결합 결과에 상속하거나 입력 해요체의 자동 변환 규칙으로 사용하지 않는다."}, "assertion_mode": "source_statement", "evidence_keys": ["E1"]}
+        ],
+        "scope": {
+          "region": {"values": ["경상도"], "basis": "source_context", "evidence_keys": ["E1"]},
+          "period": {"values": [], "basis": "unknown", "evidence_keys": []},
+          "generation": {"values": [], "basis": "unknown", "evidence_keys": []},
+          "register": {"values": [], "basis": "unknown", "evidence_keys": []}
+        },
+        "evidence": [{"key": "E1", "page": 34, "locator": "각주 67: -(느)ㄴ고요 등 요/예 결합형의 높임 정도를 해요체로 설명"}],
+        "details": {"construction": [{"field": "현대사용", "values": ["원문은 현대에 잘 안 쓰이는 듯하다고 추정한다. 이를 검증된 빈도·금지·생성 기본값으로 바꾸지 않는다."], "evidence_keys": ["E1"]}]},
+        "gaps": ["각주가 열거한 8개 결합형 중 -(느)ㄴ고요만 작성했다.", "전체 문장에서의 어간별 결합과 현대 자연스러움은 검증하지 않았다.", "이 구성 후보의 following_form은 입력 관찰값과 다르며 현재 분석 연결 규격은 그 출처 구분을 아직 형식화하지 못한다."],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문에 결합형은 명시돼 있으나 현대 사용을 유보하고 있어 자연스러운 전체 문장 예를 임의 확정하지 않았다. null을 예문이 불가능하다는 뜻으로 사용하지 않는다."
+      }
+    }
+  ]
+}

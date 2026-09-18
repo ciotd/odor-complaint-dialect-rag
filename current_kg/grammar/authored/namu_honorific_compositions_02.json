@@ -1,0 +1,1485 @@
+{
+  "schema_version": "0.2",
+  "author": {
+    "agent": "Codex",
+    "method": "direct_source_reading",
+    "authored_on": "2026-09-17"
+  },
+  "source_id": "NAMU_HONORIFICS_20260908",
+  "read_pages": [
+    34
+  ],
+  "scope_note": "전체 범위 통합 작성의 진행 배치. 포함한 관계만 작성했으며 페이지 전수 작성·독립 검토·생성 승인과 다르다.",
+  "coverage": [],
+  "records": [
+    {
+      "id": "GYS-H006",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "-(느)ㄴ가+요의 의문·높임 구성",
+        "concepts": [
+          "POLAR_QUESTION",
+          "ADDRESSEE_HONORIFIC"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-(느)ㄴ가",
+            "sense": "해당 기본 의문 용법",
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "요",
+            "sense": "후행 높임 요소",
+            "pos": "첨가 요소",
+            "role": "component"
+          },
+          {
+            "key": "F3",
+            "text": "-(느)ㄴ가요",
+            "sense": "결합 결과의 의문형",
+            "pos": "종결 구성",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "combines_with",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "요"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "following_form"
+              ],
+              "mapping_note": "후행 요소는 후보 구성 내부 값이며 표준어 해요체로부터 자동 지정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F3"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "요"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "following_form"
+              ],
+              "mapping_note": "명시된 순서와 결합 결과."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "해요체 수준의 상대높임"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "요"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "following_form"
+              ],
+              "mapping_note": "기본형의 하게체 등급을 결과형에 상속하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도(세부 범위 미확보)"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 34,
+            "locator": "각주 67: 의문법 요/예 결합형 목록과 해요체 높임"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "근거강도",
+              "values": [
+                "원문 각주에 열거된 구성. 현대 사용 빈도가 낮다는 표현은 추정이며 생성 우선순위로 자동 변환하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "형태별 독립 용례와 실제 어간·선어말별 결합 확인 필요"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-H007",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "-(느)ㄴ공+요의 의문·높임 구성",
+        "concepts": [
+          "CONTENT_QUESTION",
+          "ADDRESSEE_HONORIFIC"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-(느)ㄴ공",
+            "sense": "해당 기본 의문 용법",
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "요",
+            "sense": "후행 높임 요소",
+            "pos": "첨가 요소",
+            "role": "component"
+          },
+          {
+            "key": "F3",
+            "text": "-(느)ㄴ공요",
+            "sense": "결합 결과의 의문형",
+            "pos": "종결 구성",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "combines_with",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "요"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "following_form"
+              ],
+              "mapping_note": "후행 요소는 후보 구성 내부 값이며 표준어 해요체로부터 자동 지정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F3"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "요"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "following_form"
+              ],
+              "mapping_note": "명시된 순서와 결합 결과."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "해요체 수준의 상대높임"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "요"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "following_form"
+              ],
+              "mapping_note": "기본형의 하게체 등급을 결과형에 상속하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도(세부 범위 미확보)"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 34,
+            "locator": "각주 67: 의문법 요/예 결합형 목록과 해요체 높임"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "근거강도",
+              "values": [
+                "원문 각주에 열거된 구성. 현대 사용 빈도가 낮다는 표현은 추정이며 생성 우선순위로 자동 변환하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "형태별 독립 용례와 실제 어간·선어말별 결합 확인 필요"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-H008",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "-(느)ㄴ강+요의 의문·높임 구성",
+        "concepts": [
+          "POLAR_QUESTION",
+          "ADDRESSEE_HONORIFIC"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-(느)ㄴ강",
+            "sense": "해당 기본 의문 용법",
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "요",
+            "sense": "후행 높임 요소",
+            "pos": "첨가 요소",
+            "role": "component"
+          },
+          {
+            "key": "F3",
+            "text": "-(느)ㄴ강요",
+            "sense": "결합 결과의 의문형",
+            "pos": "종결 구성",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "combines_with",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "요"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "following_form"
+              ],
+              "mapping_note": "후행 요소는 후보 구성 내부 값이며 표준어 해요체로부터 자동 지정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F3"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "요"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "following_form"
+              ],
+              "mapping_note": "명시된 순서와 결합 결과."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "해요체 수준의 상대높임"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "요"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "following_form"
+              ],
+              "mapping_note": "기본형의 하게체 등급을 결과형에 상속하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도(세부 범위 미확보)"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 34,
+            "locator": "각주 67: 의문법 요/예 결합형 목록과 해요체 높임"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "근거강도",
+              "values": [
+                "원문 각주에 열거된 구성. 현대 사용 빈도가 낮다는 표현은 추정이며 생성 우선순위로 자동 변환하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "형태별 독립 용례와 실제 어간·선어말별 결합 확인 필요"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-H009",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "-(느)ㄴ고+예의 의문·높임 구성",
+        "concepts": [
+          "CONTENT_QUESTION",
+          "ADDRESSEE_HONORIFIC"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-(느)ㄴ고",
+            "sense": "해당 기본 의문 용법",
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "예",
+            "sense": "후행 높임 요소",
+            "pos": "첨가 요소",
+            "role": "component"
+          },
+          {
+            "key": "F3",
+            "text": "-(느)ㄴ고예",
+            "sense": "결합 결과의 의문형",
+            "pos": "종결 구성",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "combines_with",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "예"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "following_form"
+              ],
+              "mapping_note": "후행 요소는 후보 구성 내부 값이며 표준어 해요체로부터 자동 지정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F3"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "예"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "following_form"
+              ],
+              "mapping_note": "명시된 순서와 결합 결과."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "해요체 수준의 상대높임"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "예"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "following_form"
+              ],
+              "mapping_note": "기본형의 하게체 등급을 결과형에 상속하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도(세부 범위 미확보)"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 34,
+            "locator": "각주 67: 의문법 요/예 결합형 목록과 해요체 높임"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "근거강도",
+              "values": [
+                "원문 각주에 열거된 구성. 현대 사용 빈도가 낮다는 표현은 추정이며 생성 우선순위로 자동 변환하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "형태별 독립 용례와 실제 어간·선어말별 결합 확인 필요"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-H010",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "-(느)ㄴ가+예의 의문·높임 구성",
+        "concepts": [
+          "POLAR_QUESTION",
+          "ADDRESSEE_HONORIFIC"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-(느)ㄴ가",
+            "sense": "해당 기본 의문 용법",
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "예",
+            "sense": "후행 높임 요소",
+            "pos": "첨가 요소",
+            "role": "component"
+          },
+          {
+            "key": "F3",
+            "text": "-(느)ㄴ가예",
+            "sense": "결합 결과의 의문형",
+            "pos": "종결 구성",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "combines_with",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "예"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "following_form"
+              ],
+              "mapping_note": "후행 요소는 후보 구성 내부 값이며 표준어 해요체로부터 자동 지정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F3"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "예"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "following_form"
+              ],
+              "mapping_note": "명시된 순서와 결합 결과."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "해요체 수준의 상대높임"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "예"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "following_form"
+              ],
+              "mapping_note": "기본형의 하게체 등급을 결과형에 상속하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도(세부 범위 미확보)"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 34,
+            "locator": "각주 67: 의문법 요/예 결합형 목록과 해요체 높임"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "근거강도",
+              "values": [
+                "원문 각주에 열거된 구성. 현대 사용 빈도가 낮다는 표현은 추정이며 생성 우선순위로 자동 변환하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "형태별 독립 용례와 실제 어간·선어말별 결합 확인 필요"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-H011",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "-(느)ㄴ공+예의 의문·높임 구성",
+        "concepts": [
+          "CONTENT_QUESTION",
+          "ADDRESSEE_HONORIFIC"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-(느)ㄴ공",
+            "sense": "해당 기본 의문 용법",
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "예",
+            "sense": "후행 높임 요소",
+            "pos": "첨가 요소",
+            "role": "component"
+          },
+          {
+            "key": "F3",
+            "text": "-(느)ㄴ공예",
+            "sense": "결합 결과의 의문형",
+            "pos": "종결 구성",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "combines_with",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "예"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "following_form"
+              ],
+              "mapping_note": "후행 요소는 후보 구성 내부 값이며 표준어 해요체로부터 자동 지정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F3"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "예"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "following_form"
+              ],
+              "mapping_note": "명시된 순서와 결합 결과."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "해요체 수준의 상대높임"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "예"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "following_form"
+              ],
+              "mapping_note": "기본형의 하게체 등급을 결과형에 상속하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도(세부 범위 미확보)"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 34,
+            "locator": "각주 67: 의문법 요/예 결합형 목록과 해요체 높임"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "근거강도",
+              "values": [
+                "원문 각주에 열거된 구성. 현대 사용 빈도가 낮다는 표현은 추정이며 생성 우선순위로 자동 변환하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "형태별 독립 용례와 실제 어간·선어말별 결합 확인 필요"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-H012",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "construction",
+        "label": "-(느)ㄴ강+예의 의문·높임 구성",
+        "concepts": [
+          "POLAR_QUESTION",
+          "ADDRESSEE_HONORIFIC"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-(느)ㄴ강",
+            "sense": "해당 기본 의문 용법",
+            "pos": "종결어미",
+            "role": "dialect"
+          },
+          {
+            "key": "F2",
+            "text": "예",
+            "sense": "후행 높임 요소",
+            "pos": "첨가 요소",
+            "role": "component"
+          },
+          {
+            "key": "F3",
+            "text": "-(느)ㄴ강예",
+            "sense": "결합 결과의 의문형",
+            "pos": "종결 구성",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "combines_with",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "예"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "following_form"
+              ],
+              "mapping_note": "후행 요소는 후보 구성 내부 값이며 표준어 해요체로부터 자동 지정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F3"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "예"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "following_form"
+              ],
+              "mapping_note": "명시된 순서와 결합 결과."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "해요체 수준의 상대높임"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "예"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "following_form"
+              ],
+              "mapping_note": "기본형의 하게체 등급을 결과형에 상속하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도(세부 범위 미확보)"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 34,
+            "locator": "각주 67: 의문법 요/예 결합형 목록과 해요체 높임"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "근거강도",
+              "values": [
+                "원문 각주에 열거된 구성. 현대 사용 빈도가 낮다는 표현은 추정이며 생성 우선순위로 자동 변환하지 않는다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "형태별 독립 용례와 실제 어간·선어말별 결합 확인 필요"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    },
+    {
+      "id": "GYS-H013",
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "knowledge": {
+        "kind": "ending",
+        "label": "-(느)ㄴ고의 자문 용법 분리",
+        "concepts": [
+          "INTERROGATIVE"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-(느)ㄴ고",
+            "sense": "자기 자신에게 되묻는 해체 용법",
+            "pos": "종결어미",
+            "role": "dialect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F1",
+            "predicate": "has_interpretation",
+            "object": {
+              "kind": "value",
+              "ref": "자문·혼잣말 질문"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "self_directed_question"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning"
+              ],
+              "mapping_note": "청자에게 묻는 하게체 설명 질문과 구별한다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도(세부 범위 미확보)"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 34,
+            "locator": "각주 70: 혼잣말의 -(느)ㄴ고"
+          }
+        ],
+        "details": {
+          "ending": [
+            {
+              "field": "원문예",
+              "values": [
+                "아가 왜 그러는고...: 원문은 이 대목을 해체의 혼잣말로 설명한다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "자문과 내포 의문의 통사 구별 및 억양 확인"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "이번 작성에서 용법별 새 문장 예문의 자연스러움을 판단하지 못하여 null. 원문 예는 details에서 별도 표시한다."
+      }
+    }
+  ]
+}

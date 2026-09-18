@@ -2332,7 +2332,129 @@
           "characters": 1776
         }
       ]
+    },
+    {
+      "source_id": "YANG2021",
+      "file": {
+        "path": "sources/methodology/KCI_FI002783541 (1).pdf",
+        "storage": "project_local_untracked",
+        "git_tracked": false,
+        "pages": 22,
+        "sha256": "30b90da21b6f86e1c7404d194d35f6bbb9f77f7ed9e11dcb642f5f8b7ee19f3b"
+      },
+      "pages": [
+        {
+          "page": 1,
+          "text_sha256": "e00672ac1eb898d71304e577a0c67e680f3457649a6a2453e9ab3a4867519073",
+          "characters": 858
+        },
+        {
+          "page": 2,
+          "text_sha256": "7f68f0d31bd62ba043cf92ce7409ab726262154dea7d62206ce61621f5e13d8a",
+          "characters": 1066
+        },
+        {
+          "page": 3,
+          "text_sha256": "cae779b51b784893a08d15454b96779282c190729b9f3abe4227456c5dfbe238",
+          "characters": 1281
+        },
+        {
+          "page": 4,
+          "text_sha256": "2a15f1e0da6aef496da2bea47c116850a1a4c3530b550e9ae58962a8b2ffcba8",
+          "characters": 1237
+        },
+        {
+          "page": 5,
+          "text_sha256": "5f42f942c1dbe3455df73e58d9d7aa7b1ba8dfee81d745db124d6a6a76d52db4",
+          "characters": 1340
+        },
+        {
+          "page": 6,
+          "text_sha256": "b73d1b2816b6f54f7f9c6ac78502fcc34fc742fa0ae8397405f4ae8f29d2a0fa",
+          "characters": 1083
+        },
+        {
+          "page": 7,
+          "text_sha256": "756154a032d74a47f070e5b31b8ad630898b0b97abdd2ae4681924a05c0fbf27",
+          "characters": 924
+        },
+        {
+          "page": 8,
+          "text_sha256": "df94d48e12c7f0cf5c4459b584e60888f93aa6f3e329778a1d7a8962c8ec0a5d",
+          "characters": 1104
+        },
+        {
+          "page": 9,
+          "text_sha256": "645a4b2f99fa01c380194cc27f8683e5f7d786fb5d6bc4db2da869a39e26fb16",
+          "characters": 1031
+        },
+        {
+          "page": 10,
+          "text_sha256": "f91414a96988ea7c80dc968e2096163116478aebb2a3f1620911797a632c450a",
+          "characters": 927
+        },
+        {
+          "page": 11,
+          "text_sha256": "118770d08eb78ace8487df1086cef380d725390cac58719071d3cda5ed4258ca",
+          "characters": 1092
+        },
+        {
+          "page": 12,
+          "text_sha256": "b55261dcea117d183d86d3300d4fe435ead231a4580a4f177ccf28ce8a4ebe64",
+          "characters": 1035
+        },
+        {
+          "page": 13,
+          "text_sha256": "a2462877f7c1ce7c57ce7c212ecde4bd596d772f52afb0a5ec8edfeda4129799",
+          "characters": 994
+        },
+        {
+          "page": 14,
+          "text_sha256": "aeadcf18e081361633e78d003f48dad99440ada13eb42ef1dfe882913bdaaa34",
+          "characters": 1084
+        },
+        {
+          "page": 15,
+          "text_sha256": "a39e2ca4f8ce4e65dee06e7640c36243ebf0f46a1a8c79861cfc377ebebe9595",
+          "characters": 1076
+        },
+        {
+          "page": 16,
+          "text_sha256": "d6852c796a3e11b78dc9e5f203126e382d0724b0be943bca2518c50423844d56",
+          "characters": 1029
+        },
+        {
+          "page": 17,
+          "text_sha256": "190700505988f0887880f8ca04084c9bbe6edc3ead81245b0b70f51c5382cda4",
+          "characters": 1097
+        },
+        {
+          "page": 18,
+          "text_sha256": "5f5ff9e9ad786bbbe291bbac57e4c14821161f70286f917cddfa3a305c207b75",
+          "characters": 1036
+        },
+        {
+          "page": 19,
+          "text_sha256": "4a5c49a41dd5ce8ba57b9ad51ecdbac85124241d6820bed6d67821b334dd0bd2",
+          "characters": 623
+        },
+        {
+          "page": 20,
+          "text_sha256": "d559a173dd886543df98b83e6ba0b9bfa7b8c6b4aa1a1a5539985ec802bab81e",
+          "characters": 941
+        },
+        {
+          "page": 21,
+          "text_sha256": "9a52d08bce316751fdb5f33cf7f18b4e64d3b90050167ef9018aac5d2454c82d",
+          "characters": 1374
+        },
+        {
+          "page": 22,
+          "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "characters": 0
+        }
+      ]
     }
   ],
-  "total_pages": 452
+  "total_pages": 474
 }

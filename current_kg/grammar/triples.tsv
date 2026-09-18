@@ -1,0 +1,1084 @@
+subject_id	subject_label	relation	object_id	object_label	assertion_or_integration_id	evidence_ids	status
+GYS-R020:F1	안	realizes	concept:NEGATION	부정	GYS-R020:A1	evidence:52c01667abd02daf8b899b43	draft_not_operational
+GYS-H029:F1	-아/어여	has_interpretation	GYS-H029:A1:value	해체 기반 해여체: 높임 등급 문헌 대조 필요	GYS-H029:A1	evidence:f274b95a4c884b6c31a225e9,evidence:e84c4d14b054ead8169e29a9,evidence:ce449c2af37cef4d850e88e4	draft_not_operational
+GYS-G041:F2	-니라꼬	variant_of	GYS-G041:F1	-니라	GYS-G041:A2	evidence:7bbcb4baca4c8268a8141bbb	draft_not_operational
+GYS-I020:F1	삐다	has_surface_form	GYS-I020:F12	삐라고	GYS-I020:A11	evidence:5c420de1f85589310fc6e572	draft_not_operational
+GYS-I044:F1	가지다	has_surface_form	GYS-I044:F8	가짔다	GYS-I044:A7	evidence:5128bdd87c35745e4b6f69e3	draft_not_operational
+GYS-G006:F2	-(으)ㄹ라고	variant_of	GYS-G006:F1	-(으)ㄹ라꼬	GYS-G006:A2	evidence:1f964b9a81510ba4eb11c6cb	draft_not_operational
+GYS-R037:F5	-(이)나	has_interpretation	GYS-R037:A5:value	선택	GYS-R037:A5	evidence:f5a0b2727bc8aad0c8e75d22	draft_not_operational
+GYS-J012:F3	-ㅁ니더	contracts_to	GYS-J012:F5	-ㅁ더	GYS-J012:A5	evidence:88a1bb5fe8f27de9704044e1	draft_not_operational
+GYS-P005:F2	무우	contracts_to	GYS-P005:F3	무	GYS-P005:A2	evidence:f0c81801a04fa131e026f7f3	draft_not_operational
+GYS-R055:F1	-기는 하다	has_interpretation	GYS-R055:A1:value	서술 내용을 시인하는 보조 구성	GYS-R055:A1	evidence:1ba06b60bb7302cdfd2e2a66	draft_not_operational
+GYS-J060:F2	-도	realizes	concept:CONTENT_QUESTION	설명의문	GYS-J060:A2	evidence:592ad02d329d0fd1eb3cba3b	draft_not_operational
+GYS-I030:F1	사우다	has_surface_form	GYS-I030:F9	사우고	GYS-I030:A8	evidence:88e9da67c941cb44524641e6	draft_not_operational
+GYS-J018:F2	-ㅁ시더	has_interpretation	GYS-J018:A2:value	1인칭 화자 약속	GYS-J018:A2	evidence:683fd4ec211cd4d81047e8f0	draft_not_operational
+GYS-G023:F3	-맨키로	variant_of	GYS-G023:F1	-맨치로	GYS-G023:A3	evidence:ef102738f76922a5875569a1	draft_not_operational
+GYS-I021:F1	직이다	has_surface_form	GYS-I021:F12	직이라고	GYS-I021:A11	evidence:691d0040ab8a050708717799	draft_not_operational
+GYS-R030:F2	가	has_interpretation	GYS-R030:A2:value	걔: 중칭 사람 지시	GYS-R030:A2	evidence:91408bd7d5120051449365b1,evidence:97b826361fb85c0ccb623038	draft_not_operational
+GYS-P007:F1	며칠	has_surface_form	GYS-P007:F2	메칠	GYS-P007:A2	evidence:445ac84bc5aaf3ca619e30c6	draft_not_operational
+GYS-I029:F1	내루다	has_surface_form	GYS-I029:F7	내루모	GYS-I029:A6	evidence:c88ec7aa75e8b1fd074ae540	draft_not_operational
+GYS-R033:F1	이게	has_interpretation	GYS-R033:A1:value	이것	GYS-R033:A1	evidence:c7ccfd2b14b810cb15851d73	draft_not_operational
+GYS-I038:F1	맺다	has_surface_form	GYS-I038:F7	맺으모	GYS-I038:A6	evidence:5582faaa17fe3347623a705e	draft_not_operational
+GYS-R059:F1	까딱하면	has_interpretation	GYS-R059:A1:value	하마터면	GYS-R059:A1	evidence:ba4e7337d7f64e62868f1a4d	draft_not_operational
+GYS-J045:F4	-ㄴ공요	realizes	concept:ADDRESSEE_HONORIFIC	상대높임	GYS-J045:A4	evidence:970e5d0f6d3697766d4375db	draft_not_operational
+GYS-H027:F1	하이소체 명령 + 하소체 명령	has_interpretation	GYS-H027:A1:value	높임을 유지하며 친밀감 표시하는 교체 설명	GYS-H027:A1	evidence:edefd1434e17ebc7bace0580,evidence:66939316f69bbd538a3eb54f	draft_not_operational
+GYS-R051:F2	-기-	realizes	concept:CAUSATIVE	사동	GYS-R051:A2	evidence:d2d1ed39f84df42419fb170f,evidence:1bd662f0885a385b01f8bebd	draft_not_operational
+GYS-G058:F1	디비다	contrasts_with	GYS-G058:F2	디비지다	GYS-G058:A3	evidence:28d7c8824bb56d35428c0eb2	draft_not_operational
+GYS-I034:F1	섞우다	has_surface_form	GYS-I034:F2	섞아	GYS-I034:A1	evidence:aa3e8e763460d0eae6bbf908	draft_not_operational
+GYS-J001:F2	-ㄴ강	variant_of	GYS-J001:F1	-ㄴ가	GYS-J001:A2	evidence:0cd1fe5668b69f5ef349e4da	draft_not_operational
+GYS-I027:F1	꾸다	has_surface_form	GYS-I027:F13	꾸고	GYS-I027:A12	evidence:cf5957fab1ed1497fa0a198e	draft_not_operational
+GYS-J020:F1	-(ㅂ)니껴	realizes	concept:INTERROGATIVE	의문	GYS-J020:A1	evidence:7dddac1353253a46bf77fdad	draft_not_operational
+GYS-Q006:F2	-노	realizes	concept:CONTENT_QUESTION	설명의문	GYS-Q006:A2	evidence:4f3bed217085a58ba56bc7ca	draft_not_operational
+GYS-J061:F2	-로	realizes	concept:CONTENT_QUESTION	설명의문	GYS-J061:A2	evidence:093641270de39d6d50ef4f3d	draft_not_operational
+GYS-G021:F1	-한테	realizes	concept:PARTICLE	조사	GYS-G021:A1	evidence:e3bf6ca592268a3590dd1b15	draft_not_operational
+GYS-I034:F1	섞우다	has_surface_form	GYS-I034:F8	섞우라고	GYS-I034:A7	evidence:aa3e8e763460d0eae6bbf908	draft_not_operational
+GYS-I014:F1	말라	has_interpretation	GYS-I014:A1:value	첫 음절 강세	GYS-I014:A1	evidence:8f31a756be349806278c8f2e	draft_not_operational
+GYS-R045:F1	-다	realizes	concept:CONNECTIVE_ENDING	연결어미	GYS-R045:A1	evidence:8bd6e9090fdb35df6350242c	draft_not_operational
+GYS-G008:F1	안 하다	realizes	concept:NEGATION	부정	GYS-G008:A1	evidence:741fc35ff6c849fd54ef46ac	draft_not_operational
+GYS-H022:F2	-이더	attaches_to	GYS-H022:A2:value	모음 말음 형용사: 예외 별도	GYS-H022:A2	evidence:350f66e71ad056ad4975d125	draft_not_operational
+GYS-P016:F2	카다	contrasts_with	GYS-P016:F3	-라카다	GYS-P016:A5	evidence:a887b4bcaf989e202c7d346b	draft_not_operational
+concept:INFLECTION	활용	has_surface_form	GYS-I010:A1:value	어간 말 ㅜ가 탈락하고 '-아'가 결합하는 활용	GYS-I010:A1	evidence:e87ca603b520fd3bbe71ff9c	draft_not_operational
+GYS-R047:F1	-아/어서	realizes	concept:CAUSE	이유	GYS-R047:A1	evidence:81b5f80e15b4e76a5397e578	draft_not_operational
+GYS-R053:F2	-고 말다	has_interpretation	GYS-R053:A2:value	원문 종결 보조용언 분류: 세부 양태 범위 미확보	GYS-R053:A2	evidence:d71ad41f4bdd643bfb58d3c6	draft_not_operational
+GYS-R041:F4	-아/어요	has_interpretation	GYS-R041:A4:value	두루높임 서술	GYS-R041:A4	evidence:247057d1b18b0a2986a6bf24	draft_not_operational
+GYS-J011:F2	기	has_surface_form	GYS-J011:F3	기네	GYS-J011:A2	evidence:837e299b42ebf68113b3c6aa	draft_not_operational
+GYS-J011:F1	것+이-	contracts_to	GYS-J011:F2	기	GYS-J011:A1	evidence:837e299b42ebf68113b3c6aa	draft_not_operational
+GYS-I045:F1	돌다/달다	has_surface_form	GYS-I045:F2	도	GYS-I045:A1	evidence:58c07c33ffbf9c87d620d6e0	draft_not_operational
+GYS-I027:F1	꾸다	has_surface_form	GYS-I027:F3	꾸	GYS-I027:A2	evidence:cf5957fab1ed1497fa0a198e	draft_not_operational
+GYS-H002:F1	-(느)ㄴ교	excludes_combination	GYS-H002:A1:value	하이소체 격식적 의문 발화	GYS-H002:A1	evidence:86d262f613bf194a047217de,evidence:abcd4e443ac6822dce4f0036	draft_not_operational
+GYS-R058:F1	마이	has_interpretation	GYS-R058:A1:value	많이 또는 실컷의 제시 용법	GYS-R058:A1	evidence:f55eaeef60cae2314b4891c2	draft_not_operational
+GYS-I030:F1	사우다	has_surface_form	GYS-I030:F5	사았다	GYS-I030:A4	evidence:88e9da67c941cb44524641e6	draft_not_operational
+GYS-I037:F1	뺏다	has_surface_form	GYS-I037:F2	뺏아	GYS-I037:A1	evidence:7fdc1673146c18a7fa6876d6	draft_not_operational
+GYS-G018:F1	-이라	has_interpretation	GYS-G018:A1:value	계사의 비격식 현재 종결 또는 연결 구성	GYS-G018:A1	evidence:397c079db70739a589f98e82,evidence:e18662b66e284544c37a9a0e,evidence:fa1dfeddbf3cc334824f5d7e	draft_not_operational
+GYS-I026:F1	주다	has_surface_form	GYS-I026:F11	주모	GYS-I026:A10	evidence:9e1b73e8e1cc07df694b6918	draft_not_operational
+GYS-R057:F2	안 오는가 배	scope_tension_with	GYS-R017:F1	-ㄴ가 보다	INT031	evidence:9360b77da3ae7e60a3d77fdd,evidence:af58900bdd51b8ec3c8282c2	held_scope_tension
+GYS-G012:F3	삐다	has_interpretation	GYS-G012:A3:value	-아/어 버리다의 보조용언 용법	GYS-G012:A3	evidence:472f14b9b21d7e3e2e9ace96,evidence:68d40731616797e1c25b9fac	draft_not_operational
+GYS-G028:F3	-카모	variant_of	GYS-G028:F1	-카마	GYS-G028:A3	evidence:7cd5f8d62ecbd150a6934d21	draft_not_operational
+GYS-I023:F1	뎁히다	has_surface_form	GYS-I023:F11	뎁히모	GYS-I023:A10	evidence:b08434ab98afd9d8ac29598a	draft_not_operational
+GYS-G044:F1	-야	realizes	concept:DISCOURSE_MARKER	담화표지	GYS-G044:A1	evidence:80d3c7379b8a1e75000cf3a0	draft_not_operational
+GYS-R051:F9	돋가라	has_interpretation	GYS-R051:A9:value	돋구다의 -아라 결합 예	GYS-R051:A9	evidence:d2d1ed39f84df42419fb170f,evidence:1bd662f0885a385b01f8bebd	draft_not_operational
+GYS-I038:F1	맺다	has_surface_form	GYS-I038:F9	맺고	GYS-I038:A8	evidence:5582faaa17fe3347623a705e	draft_not_operational
+GYS-P004:F1	걸으니	has_surface_form	GYS-P004:F2	걸으이	GYS-P004:A1	evidence:3a7473e9275c7468e44b5265	draft_not_operational
+GYS-O010:F2	-가	has_interpretation	GYS-O010:A2:value	시 뒤 ㄱ계열 판정 의문 기술	GYS-O010:A2	evidence:2efe4d639e030b3dab448926	draft_not_operational
+GYS-G066:F1	마	contrasts_with	GYS-G066:F2	마	GYS-G066:A4	evidence:4eed8c1531259e8c719a097e	draft_not_operational
+GYS-I029:F1	내루다	has_surface_form	GYS-I029:F5	내랐다	GYS-I029:A4	evidence:c88ec7aa75e8b1fd074ae540	draft_not_operational
+GYS-G009:F1	눕어	has_interpretation	GYS-G009:A1:value	눕다의 -어 활용	GYS-G009:A1	evidence:b565a23587cfa14507a0c1e3	draft_not_operational
+GYS-Q006:F1	-나	combines_with	GYS-Q006:F5	-더-	GYS-Q006:A5	evidence:4f3bed217085a58ba56bc7ca	draft_not_operational
+GYS-O008:F4	머라시는교	has_interpretation	GYS-O008:A4:value	동부 하소체 질문 후보	GYS-O008:A4	evidence:f41b26159593079fe6943d53	draft_not_operational
+GYS-J001:F1	-ㄴ가	realizes	concept:POLAR_QUESTION	판정의문	GYS-J001:A1	evidence:0cd1fe5668b69f5ef349e4da	draft_not_operational
+GYS-J055:F1	-ㄹ끼다	combines_with	GYS-J055:F4	이-	GYS-J055:A4	evidence:bb01949aeb7e444418961413	draft_not_operational
+GYS-J013:F1	-(ㅂ)니더	combines_with	GYS-J013:F4	-시-	GYS-J013:A3	evidence:0c86a66d6926b2a668d63b39	draft_not_operational
+GYS-Q013:F2	-(느)ㄴ고	has_interpretation	GYS-Q013:A2:value	해체 자문 또는 문장 중간 연결 또는 하게체 의문	GYS-Q013:A2	evidence:12aa1460e103c72669fae4dd	draft_not_operational
+GYS-I043:F1	가주다	has_surface_form	GYS-I043:F7	가아가	GYS-I043:A6	evidence:dd6b72422d8bfa6d928ce05f	draft_not_operational
+GYS-I042:F1	가줗다	has_surface_form	GYS-I042:F10	가주니	GYS-I042:A9	evidence:c93e3bd89ae14f8d40333d45	draft_not_operational
+GYS-Q005:F2	-고	realizes	concept:CONTENT_QUESTION	설명의문	GYS-Q005:A2	evidence:6d589ab8448666fd77eaeeb6,evidence:4f3bed217085a58ba56bc7ca	draft_not_operational
+GYS-J040:F3	-지러	realizes	concept:DECLARATIVE	평서	GYS-J040:A3	evidence:8815e6f2a797df4c56ca8be0	draft_not_operational
+GYS-R041:F2	-네	has_interpretation	GYS-R041:A2:value	예사낮춤 서술	GYS-R041:A2	evidence:247057d1b18b0a2986a6bf24	draft_not_operational
+GYS-I049:F1	돌다	has_surface_form	GYS-I049:A1:value	명령형 도가/두가	GYS-I049:A1	evidence:cb8c7679a846de6e90593497	draft_not_operational
+GYS-I044:F1	가지다	has_surface_form	GYS-I044:F15	가이고	GYS-I044:A14	evidence:5128bdd87c35745e4b6f69e3	draft_not_operational
+GYS-I041:F1	묵다	has_surface_form	GYS-I041:F6	묵어가	GYS-I041:A5	evidence:a6dd9020f75b6c861444c007	draft_not_operational
+GYS-I043:F1	가주다	has_surface_form	GYS-I043:F9	가았다	GYS-I043:A8	evidence:dd6b72422d8bfa6d928ce05f	draft_not_operational
+GYS-I043:F1	가주다	has_surface_form	GYS-I043:F4	가자라	GYS-I043:A3	evidence:dd6b72422d8bfa6d928ce05f	draft_not_operational
+GYS-O002:F1	삐다	same_usage_candidate	GYS-R011:F1	-어 삐다	INT003	evidence:7ec296a9bb32d7ff49df134d,evidence:e5396bfb7425ddf26263e333	author_proposed
+GYS-H018:F2	-소	attaches_to	GYS-H018:A2:value	ㄹ 이외 자음 말음	GYS-H018:A2	evidence:1a1573980ffde7d1a3f69eb2	draft_not_operational
+GYS-R051:F5	-우-	realizes	concept:CAUSATIVE	사동	GYS-R051:A5	evidence:d2d1ed39f84df42419fb170f,evidence:1bd662f0885a385b01f8bebd	draft_not_operational
+GYS-R060:F1	은	realizes	concept:TOPIC	화제	GYS-R060:A1	evidence:6abce0b91ec1653236f61a47	draft_not_operational
+GYS-H020:F3	마시시요	has_interpretation	GYS-H020:A3:value	서부1형 마시소+시	GYS-H020:A3	evidence:ebd0ee6ea0453880dc0c9944,evidence:008765022f8962fcb46bfd60,evidence:d4022013651a36e10b589e87	draft_not_operational
+GYS-G017:F2	-재이	realizes	concept:HORTATIVE	청유	GYS-G017:A2	evidence:23fa886db14232990bfcfe58	draft_not_operational
+GYS-R033:F2	그거	has_interpretation	GYS-R033:A2:value	그것	GYS-R033:A2	evidence:c7ccfd2b14b810cb15851d73	draft_not_operational
+GYS-J034:F1	-시더	realizes	concept:HORTATIVE	청유	GYS-J034:A1	evidence:38eedaa976ec11e8550db122	draft_not_operational
+GYS-I057:F2	싸오다	variant_of	GYS-I057:F1	싸우다	GYS-I057:A1	evidence:a34af7a1153b73f5363c9d8b	draft_not_operational
+GYS-J028:F1	-소	realizes	concept:IMPERATIVE	명령	GYS-J028:A1	evidence:bd606df90fb91358fbaf71be	draft_not_operational
+GYS-J040:F1	-지	realizes	concept:DECLARATIVE	평서	GYS-J040:A1	evidence:8815e6f2a797df4c56ca8be0	draft_not_operational
+GYS-G022:F3	-매치	variant_of	GYS-G022:F1	-만치	GYS-G022:A3	evidence:8a383604959be42d72466318	draft_not_operational
+GYS-Y010:F1	-거로	realizes	concept:INTENTION	의도	GYS-Y010:A1	evidence:d1597d5b62cd0e2e070f2089	draft_not_operational
+GYS-I056:F1	깨끗하다	has_surface_form	GYS-I056:F2	깨끗타	GYS-I056:A5	evidence:e26231813cb810c727c31f94	draft_not_operational
+GYS-R034:F1	-이/가	realizes	concept:COMPLEMENT	보어	GYS-R034:A2	evidence:da2a3ee55e4e4fe6a50e7c2c	draft_not_operational
+GYS-P008:F2	맥히다	has_interpretation	GYS-P008:A2:value	막히다의 전설모음화된 어휘형	GYS-P008:A2	evidence:445ac84bc5aaf3ca619e30c6	draft_not_operational
+GYS-R051:F10	낮차라	has_interpretation	GYS-R051:A10:value	낮추다의 -아라 결합 예	GYS-R051:A10	evidence:d2d1ed39f84df42419fb170f,evidence:1bd662f0885a385b01f8bebd	draft_not_operational
+GYS-G040:F1	-스리	realizes	concept:EXCLAMATIVE	감탄	GYS-G040:A1	evidence:2add67d46e873e4287b489a9	draft_not_operational
+GYS-I032:F1	말루다	has_surface_form	GYS-I032:F3	말라라	GYS-I032:A2	evidence:4d55d855a41e724a55b98f8a	draft_not_operational
+GYS-P002:F1	-라고 하다	contracts_to	GYS-P002:F2	-라쿠다	GYS-P002:A1	evidence:85f608be1c87e83075b8fb1d	draft_not_operational
+GYS-G001:F1	-구로	realizes	concept:PURPOSE	목적	GYS-G001:A1	evidence:c9749a6ea97f44d277608d03,evidence:6a468799da6583f3d0483608	draft_not_operational
+GYS-J022:F1	-이껴	attaches_to	GYS-J022:A1:value	형용사·계사	GYS-J022:A1	evidence:8ef36ee3db112c05a46d946c	draft_not_operational
+GYS-I025:F1	시다	has_surface_form	GYS-I025:F3	시라	GYS-I025:A2	evidence:3d4b6f8b72ec7bac3a353b3f	draft_not_operational
+GYS-H023:F3	좋니더	has_interpretation	GYS-H023:A3:value	좋다의 병존형	GYS-H023:A3	evidence:b4ad43993d2021a9b311336f	draft_not_operational
+GYS-I021:F1	직이다	has_surface_form	GYS-I021:F3	직에	GYS-I021:A2	evidence:691d0040ab8a050708717799	draft_not_operational
+GYS-G031:F5	-랑	variant_of	GYS-G031:F1	-캉	GYS-G031:A5	evidence:ba19d808ed8e78c8ba068f24	draft_not_operational
+GYS-I025:F1	시다	has_surface_form	GYS-I025:F9	시고	GYS-I025:A8	evidence:3d4b6f8b72ec7bac3a353b3f	draft_not_operational
+GYS-I030:F1	사우다	has_surface_form	GYS-I030:F4	사아가	GYS-I030:A3	evidence:88e9da67c941cb44524641e6	draft_not_operational
+GYS-R005:F1	-먼	shares_function_with	GYS-G003:F2	-먼	INT018	evidence:701bca1cac92743fcb2a238b,evidence:908dc92bf8f6a2da95768b2b	author_proposed
+GYS-I033:F1	뎁후다	has_surface_form	GYS-I033:F5	뎁핬다	GYS-I033:A4	evidence:ba75f28277d8d2438c2676e9	draft_not_operational
+GYS-O004:F3	-라카다	shares_quotative_construction	GYS-P001:F1	-라고 하다	INT048	evidence:1981fa0c1fb3efd0dd85cc0e,evidence:e4ec7554df220cf94f470f02	author_proposed
+GYS-J046:F2	-시요	realizes	concept:HORTATIVE	청유	GYS-J046:A2	evidence:3a6a6e55e0780bb0f8b824a8	draft_not_operational
+GYS-I055:F3	뚜까 맞다	has_interpretation	GYS-I055:A4:value	맞다와 앞말의 결합 축약으로 제시된 형태; 바탕별 일대일 대응은 보류	GYS-I055:A4	evidence:e93d4ca7c687ac9ebef69486	draft_not_operational
+GYS-P011:F3	그거	has_surface_form	GYS-P011:F4	거	GYS-P011:A3	evidence:3c65ab2e6f3f17db91c9149d	draft_not_operational
+GYS-R052:F2	-기-	realizes	concept:PASSIVE	피동	GYS-R052:A2	evidence:a155f00b4eccf67017e84bcf	draft_not_operational
+GYS-G032:F5	-으로카	variant_of	GYS-G032:F1	-카	GYS-G032:A5	evidence:4d0bb8446a23c805d2e39a27	draft_not_operational
+GYS-R032:F1	누	has_interpretation	GYS-R032:A1:value	누구	GYS-R032:A1	evidence:3d0bc48f32a7222aa23c3f3b	draft_not_operational
+GYS-J055:F1	-ㄹ끼다	realizes	concept:GUESS	추측	GYS-J055:A1	evidence:bb01949aeb7e444418961413	draft_not_operational
+GYS-J020:F2	-(ㅂ)니꺼	realizes	concept:INTERROGATIVE	의문	GYS-J020:A2	evidence:7dddac1353253a46bf77fdad	draft_not_operational
+GYS-I020:F1	삐다	has_surface_form	GYS-I020:F4	삐라	GYS-I020:A3	evidence:5c420de1f85589310fc6e572	draft_not_operational
+GYS-H010:F1	-(느)ㄴ가	combines_with	GYS-H010:F2	예	GYS-H010:A1	evidence:f7fd723cc2f61f040d8c5c50	draft_not_operational
+GYS-R027:F1	나	has_interpretation	GYS-R027:A1:value	1인칭 단수 나	GYS-R027:A1	evidence:4b794a1ea3f3cfdebfd42802	draft_not_operational
+GYS-G048:F1	-어 제끼다	combines_with	GYS-G048:A2:value	-어 싸다: 묵어 제끼 쌓는다 제시 사례	GYS-G048:A2	evidence:20d2477a31d21026a590d844,evidence:d8e8865aad451826683af39d	draft_not_operational
+GYS-I025:F1	시다	has_surface_form	GYS-I025:F5	싰다	GYS-I025:A4	evidence:3d4b6f8b72ec7bac3a353b3f	draft_not_operational
+GYS-G066:F3	마	realizes	concept:ADDRESS	호칭	GYS-G066:A3	evidence:4eed8c1531259e8c719a097e	draft_not_operational
+GYS-H027:F2	하소체 + 하이소체 평서·의문	has_interpretation	GYS-H027:A2:value	존중을 더 표시하는 교체 설명	GYS-H027:A2	evidence:edefd1434e17ebc7bace0580,evidence:66939316f69bbd538a3eb54f	draft_not_operational
+GYS-I043:F1	가주다	has_surface_form	GYS-I043:F6	가자가	GYS-I043:A5	evidence:dd6b72422d8bfa6d928ce05f	draft_not_operational
+GYS-G019:F1	-이랐다	realizes	concept:PAST	과거	GYS-G019:A1	evidence:a0607ea2c5123832d99e38cb	draft_not_operational
+GYS-I043:F1	가주다	has_surface_form	GYS-I043:F2	가자	GYS-I043:A1	evidence:dd6b72422d8bfa6d928ce05f	draft_not_operational
+GYS-I037:F1	뺏다	has_surface_form	GYS-I037:F8	뺏으라고	GYS-I037:A7	evidence:7fdc1673146c18a7fa6876d6	draft_not_operational
+GYS-P014:F1	김	has_surface_form	GYS-P014:F2	짐	GYS-P014:A2	evidence:5e989d285378e2be2c902efe	draft_not_operational
+GYS-R008:F1	무라 카네	realizes	concept:QUOTATION	인용	GYS-R008:A1	evidence:4c78fd44dcc3f7ce4c60cb48	draft_not_operational
+GYS-P003:F1	인가 보다	contracts_to	GYS-P003:F2	인갑다	GYS-P003:A1	evidence:38d0c4037069e69daa0e028d	draft_not_operational
+GYS-G064:F2	어어어	has_interpretation	GYS-G064:A2:value	음높이 1-3-2가 중요한 부정 응답	GYS-G064:A2	evidence:e4e5d78709b5a28eed79b588	draft_not_operational
+GYS-G022:F2	-맨치	variant_of	GYS-G022:F1	-만치	GYS-G022:A2	evidence:8a383604959be42d72466318	draft_not_operational
+GYS-R033:F4	저거	has_interpretation	GYS-R033:A4:value	저것	GYS-R033:A4	evidence:c7ccfd2b14b810cb15851d73	draft_not_operational
+GYS-J030:F2	-래이	realizes	concept:IMPERATIVE	명령	GYS-J030:A2	evidence:2949ae9219fa959c705e8591	draft_not_operational
+GYS-G064:F1	으으응	realizes	concept:NEGATION	부정	GYS-G064:A1	evidence:e4e5d78709b5a28eed79b588	draft_not_operational
+GYS-I022:F1	디지다	has_surface_form	GYS-I022:F11	디지모	GYS-I022:A10	evidence:fbb2b8f1412ba2bb54719798	draft_not_operational
+GYS-J049:F1	-소	combines_with	GYS-J049:F3	-겠-	GYS-J049:A3	evidence:8d9089f373cd3029003b41f0	draft_not_operational
+GYS-I040:F1	젭다	has_surface_form	GYS-I040:F6	젭으니	GYS-I040:A5	evidence:fae551865cf4f5ae89dbca49	draft_not_operational
+GYS-J031:F1	도가	has_inflection_description	GYS-I049:F1	돌다	INT035	evidence:cb8c7679a846de6e90593497,evidence:d99e17c7aa7a963d0c4cefd7	author_proposed
+GYS-H014:F4	-(으)이시더	realizes	concept:HORTATIVE	청유	GYS-H014:A4	evidence:d23b90cbba1a12fb0aeb0db0	draft_not_operational
+GYS-I040:F1	젭다	has_surface_form	GYS-I040:F9	젭고	GYS-I040:A8	evidence:fae551865cf4f5ae89dbca49	draft_not_operational
+GYS-R034:F1	-이/가	realizes	concept:SUBJECT	주어	GYS-R034:A1	evidence:da2a3ee55e4e4fe6a50e7c2c	draft_not_operational
+GYS-O008:F2	머라캐여	has_interpretation	GYS-O008:A2:value	경북 서부 해여체 질문 후보	GYS-O008:A2	evidence:f41b26159593079fe6943d53	draft_not_operational
+GYS-I005:F3	치어도	has_surface_form	GYS-I005:F4	처도	GYS-I005:A3	evidence:45dd246c644c1a7da3d8416f	draft_not_operational
+GYS-G069:F1	머라카다	realizes	concept:VERB	동사	GYS-G069:A1	evidence:eaf08067b745ba931c8f1928	draft_not_operational
+GYS-G071:F3	쌔리삐다	has_interpretation	GYS-G071:A2:value	쌓여 버릴 정도로 많고 흔함	GYS-G071:A2	evidence:eaf08067b745ba931c8f1928	draft_not_operational
+GYS-J045:F2	-ㄴ강요	realizes	concept:ADDRESSEE_HONORIFIC	상대높임	GYS-J045:A2	evidence:970e5d0f6d3697766d4375db	draft_not_operational
+GYS-R033:F3	요거	has_interpretation	GYS-R033:A3:value	요것	GYS-R033:A3	evidence:c7ccfd2b14b810cb15851d73	draft_not_operational
+GYS-J036:F1	-자	realizes	concept:HORTATIVE	청유	GYS-J036:A1	evidence:ba22b9a7179b468d14003f28	draft_not_operational
+GYS-J008:F1	-고요	same_usage_candidate	GYS-H005:F3	-(느)ㄴ고요	INT016	evidence:a3d52edb3cfed1717eb38b71,evidence:cccaf98dd7de67351f81c324	author_proposed
+GYS-H008:F3	-(느)ㄴ강요	has_interpretation	GYS-H008:A3:value	해요체 수준의 상대높임	GYS-H008:A3	evidence:f7fd723cc2f61f040d8c5c50	draft_not_operational
+GYS-R013:F1	-어 놓다	realizes	concept:RESULTATIVE	결과상	GYS-R013:A1	evidence:0a87dc71ea519793bd2641ea	draft_not_operational
+GYS-R039:F5	-으이소	has_interpretation	GYS-R039:A5:value	각주12의 아주높임 명령	GYS-R039:A5	evidence:7de5feab40a57b1ce6a66bc6	draft_not_operational
+GYS-I028:F1	두다	has_surface_form	GYS-I028:F13	두고	GYS-I028:A12	evidence:4d97eb8da7b5d1a0d7cf0549	draft_not_operational
+GYS-G021:F2	-한데	variant_of	GYS-G021:F1	-한테	GYS-G021:A2	evidence:e3bf6ca592268a3590dd1b15	draft_not_operational
+GYS-I038:F1	맺다	has_surface_form	GYS-I038:F5	맺았다	GYS-I038:A4	evidence:5582faaa17fe3347623a705e	draft_not_operational
+GYS-R032:F9	어째	has_interpretation	GYS-R032:A9:value	어떻게	GYS-R032:A9	evidence:3d0bc48f32a7222aa23c3f3b	draft_not_operational
+GYS-Y004:F1	-거로 하-	contrasts_in_function	GYS-Y005:F1	-거로 하-	INT024	evidence:813a5b04924b192dd768a071,evidence:f7e35ae8cf28fc865e25222a	author_proposed
+GYS-H013:F1	-(느)ㄴ고	has_interpretation	GYS-H013:A1:value	자문·혼잣말 질문	GYS-H013:A1	evidence:b6ad66f7bd73a9724e750908	draft_not_operational
+GYS-I030:F1	사우다	has_surface_form	GYS-I030:F7	사우모	GYS-I030:A6	evidence:88e9da67c941cb44524641e6	draft_not_operational
+GYS-G031:F1	-캉	realizes	concept:CONJUNCTIVE_PARTICLE	접속조사	GYS-G031:A1	evidence:ba19d808ed8e78c8ba068f24	draft_not_operational
+GYS-G006:F1	-(으)ㄹ라꼬	realizes	concept:PURPOSE	목적	GYS-G006:A1	evidence:1f964b9a81510ba4eb11c6cb	draft_not_operational
+GYS-I046:F1	오다	has_surface_form	GYS-I046:F5	와라	GYS-I046:A4	evidence:f5f23f8411f6c4e528f2518d	draft_not_operational
+GYS-G068:F4	어디	has_interpretation	GYS-G068:A4:value	강한 부정 반응	GYS-G068:A4	evidence:4eed8c1531259e8c719a097e	draft_not_operational
+GYS-J055:F1	-ㄹ끼다	shares_function_with	GYS-R009:F1	-ㄹ 끼다	INT043	evidence:bb01949aeb7e444418961413,evidence:d2aeeefe1d5db21a01f657dd	author_proposed
+GYS-P012:F1	어디서	has_surface_form	GYS-P012:F2	어서	GYS-P012:A2	evidence:5e989d285378e2be2c902efe	draft_not_operational
+GYS-I031:F1	뿌수다	has_surface_form	GYS-I031:F6	뿌수니	GYS-I031:A5	evidence:073ac75f926196eced3665b6	draft_not_operational
+GYS-I014:F2	말라	has_interpretation	GYS-I014:A2:value	둘째 음절 강세	GYS-I014:A2	evidence:8f31a756be349806278c8f2e	draft_not_operational
+GYS-G010:F1	젓다	has_surface_form	GYS-G010:F2	젓어	GYS-G010:A1	evidence:f8fe456824311f678248597a,evidence:c58af6061f64eace2dc5d18e	draft_not_operational
+GYS-R037:F1	-마	has_interpretation	GYS-R037:A1:value	유일·한정	GYS-R037:A1	evidence:f5a0b2727bc8aad0c8e75d22	draft_not_operational
+GYS-J062:F2	-ㄹ로	realizes	concept:INTERROGATIVE	의문	GYS-J062:A2	evidence:093641270de39d6d50ef4f3d	draft_not_operational
+GYS-G011:F2	이어	has_interpretation	GYS-G011:A2:value	잇다의 제시 활용형	GYS-G011:A2	evidence:ef770ba2118cf3247f01585b	draft_not_operational
+GYS-I034:F1	섞우다	has_surface_form	GYS-I034:F3	섞아라	GYS-I034:A2	evidence:aa3e8e763460d0eae6bbf908	draft_not_operational
+GYS-I032:F1	말루다	has_surface_form	GYS-I032:F5	말랐다	GYS-I032:A4	evidence:4d55d855a41e724a55b98f8a	draft_not_operational
+GYS-R029:F1	니	has_interpretation	GYS-R029:A1:value	너·네의 2인칭 단수 용법	GYS-R029:A1	evidence:c9ed50754026de6e516fcd39	draft_not_operational
+GYS-G029:F2	-빾이	variant_of	GYS-G029:F1	-밖이	GYS-G029:A2	evidence:dd94ee91b7cc109a14380ad8	draft_not_operational
+GYS-J038:F2	-래	realizes	concept:DECLARATIVE	평서	GYS-J038:A2	evidence:78aacae4ec7bc7057a47df56	draft_not_operational
+GYS-R009:F1	-ㄹ 끼다	realizes	concept:FUTURE	미래	GYS-R009:A1	evidence:d2aeeefe1d5db21a01f657dd	draft_not_operational
+GYS-R003:F1	-매이로	realizes	concept:COMPARISON	비교	GYS-R003:A1	evidence:458e906cd36f7f5fdd86c186	draft_not_operational
+GYS-O005:F2	-는디	has_interpretation	GYS-O005:A2:value	하동 등 접경 지역의 는디 예외	GYS-O005:A2	evidence:4570020f9583b700b5462d77	draft_not_operational
+GYS-R039:F3	-시오	has_interpretation	GYS-R039:A3:value	주체높임이 결합한 예사높임 명령	GYS-R039:A3	evidence:7de5feab40a57b1ce6a66bc6	draft_not_operational
+GYS-G003:F1	-모	realizes	concept:CONDITION	조건	GYS-G003:A1	evidence:701bca1cac92743fcb2a238b	draft_not_operational
+GYS-I041:F1	묵다	has_surface_form	GYS-I041:F8	묵었다	GYS-I041:A7	evidence:a6dd9020f75b6c861444c007	draft_not_operational
+GYS-G017:F1	-래이	realizes	concept:IMPERATIVE	명령	GYS-G017:A1	evidence:23fa886db14232990bfcfe58	draft_not_operational
+GYS-G009:F3	덥어	has_interpretation	GYS-G009:A3:value	덥다의 -어 활용	GYS-G009:A3	evidence:b565a23587cfa14507a0c1e3	draft_not_operational
+GYS-I047:F4	저어	has_interpretation	GYS-I047:A4:value	저기에서 ㄱ이 탈락한 형태이며 장음	GYS-I047:A4	evidence:cb8c7679a846de6e90593497	draft_not_operational
+GYS-I016:F1	-으모	realizes	concept:CONDITION	조건	GYS-I016:A1	evidence:35077563cc92000f224c6429	draft_not_operational
+GYS-I024:F1	비이다	has_surface_form	GYS-I024:F6	비이가	GYS-I024:A5	evidence:8a8c95201ae32492b743800a	draft_not_operational
+GYS-I021:F1	직이다	has_surface_form	GYS-I021:F4	직이라	GYS-I021:A3	evidence:691d0040ab8a050708717799	draft_not_operational
+GYS-R058:F7	절로	has_interpretation	GYS-R058:A7:value	저절로	GYS-R058:A7	evidence:f55eaeef60cae2314b4891c2	draft_not_operational
+GYS-H023:F6	나으이더	has_interpretation	GYS-H023:A6:value	더 낫다의 모음형	GYS-H023:A6	evidence:b4ad43993d2021a9b311336f	draft_not_operational
+GYS-I030:F1	사우다	has_surface_form	GYS-I030:F8	사우라고	GYS-I030:A7	evidence:88e9da67c941cb44524641e6	draft_not_operational
+GYS-I041:F1	묵다	has_surface_form	GYS-I041:F7	무우가	GYS-I041:A6	evidence:a6dd9020f75b6c861444c007	draft_not_operational
+GYS-I034:F1	섞우다	has_surface_form	GYS-I034:F7	섞우모	GYS-I034:A6	evidence:aa3e8e763460d0eae6bbf908	draft_not_operational
+GYS-I024:F1	비이다	has_surface_form	GYS-I024:F4	비이라	GYS-I024:A3	evidence:8a8c95201ae32492b743800a	draft_not_operational
+GYS-Q002:F1	-노	realizes	concept:CONTENT_QUESTION	설명의문	GYS-Q002:A1	evidence:2832b7d4a373710ee28c4925,evidence:3fa13245dd479bcfe039d008,evidence:4f3bed217085a58ba56bc7ca	draft_not_operational
+GYS-R037:F7	-밖에	has_interpretation	GYS-R037:A7:value	배타 한정	GYS-R037:A7	evidence:f5a0b2727bc8aad0c8e75d22	draft_not_operational
+GYS-Q011:F2	-(으)꼬	variant_of	GYS-Q011:F4	-(으)ㄹ꼬	GYS-Q011:A2	evidence:369cb9749477b0c15fcab648	draft_not_operational
+GYS-J032:F1	온나	realizes	concept:IMPERATIVE	명령	GYS-J032:A1	evidence:a45b1ca1dccc87c5a98df194	draft_not_operational
+GYS-J028:F2	-소이	realizes	concept:IMPERATIVE	명령	GYS-J028:A2	evidence:bd606df90fb91358fbaf71be	draft_not_operational
+GYS-G067:F3	카모	realizes	concept:DISCOURSE_MARKER	담화표지	GYS-G067:A3	evidence:4eed8c1531259e8c719a097e	draft_not_operational
+GYS-J026:F3	-시이소	realizes	concept:IMPERATIVE	명령	GYS-J026:A3	evidence:e2f7fcfbbc498f01331f12b9,evidence:38fb7002c47a3d97ee4f677e,evidence:de57c7b491d76d9c903ccab6	draft_not_operational
+GYS-I056:F3	시원하다	has_surface_form	GYS-I056:F4	시얺다	GYS-I056:A6	evidence:e26231813cb810c727c31f94	draft_not_operational
+GYS-I026:F1	주다	has_surface_form	GYS-I026:F9	줐다	GYS-I026:A8	evidence:9e1b73e8e1cc07df694b6918	draft_not_operational
+GYS-P010:F1	방에	has_surface_form	GYS-P010:F2	바~아	GYS-P010:A2	evidence:d084c995d049c288049ada4b	draft_not_operational
+GYS-Q007:F1	-가	realizes	concept:POLAR_QUESTION	판정의문	GYS-Q007:A1	evidence:4f3bed217085a58ba56bc7ca	draft_not_operational
+GYS-R054:F1	-어 보이다	has_example	GYS-R054:F2	좋아 비네	GYS-R054:A2	evidence:d96ebec7a8e794f8616981db	draft_not_operational
+GYS-I033:F1	뎁후다	has_surface_form	GYS-I033:F3	뎁하라	GYS-I033:A2	evidence:ba75f28277d8d2438c2676e9	draft_not_operational
+GYS-Y009:F2	-이	realizes	concept:MANNER	방식	GYS-Y009:A2	evidence:8302ae1423be98f7ae1ba3fe	draft_not_operational
+GYS-H017:F3	아이요	has_interpretation	GYS-H017:A3:value	하소체 아니다	GYS-H017:A3	evidence:ffdaf366369c27a707d2e426	draft_not_operational
+GYS-J045:F3	-ㄴ고요	realizes	concept:ADDRESSEE_HONORIFIC	상대높임	GYS-J045:A3	evidence:970e5d0f6d3697766d4375db	draft_not_operational
+GYS-J043:F1	-께	realizes	concept:INTERROGATIVE	의문	GYS-J043:A1	evidence:762f9b58c1d61b4207e9961d	draft_not_operational
+GYS-G034:F2	-(으)이끼네	variant_of	GYS-G034:F1	-(으)니까	GYS-G034:A2	evidence:c4dd9772c2805eef15dbdaae	draft_not_operational
+GYS-J044:F1	-데이	realizes	concept:INTERROGATIVE	의문	GYS-J044:A1	evidence:9d1a0fb06c60b3e5109ec4c6	draft_not_operational
+GYS-I025:F1	시다	has_surface_form	GYS-I025:F6	시니	GYS-I025:A5	evidence:3d4b6f8b72ec7bac3a353b3f	draft_not_operational
+GYS-I027:F1	꾸다	has_surface_form	GYS-I027:F11	꾸모	GYS-I027:A10	evidence:cf5957fab1ed1497fa0a198e	draft_not_operational
+GYS-J060:F1	-다	realizes	concept:INTERROGATIVE	의문	GYS-J060:A1	evidence:592ad02d329d0fd1eb3cba3b	draft_not_operational
+GYS-O007:F1	머라 칼끼없다	has_interpretation	GYS-O007:A1:value	전체 구성·문맥의 평가 해석	GYS-O007:A1	evidence:f41b26159593079fe6943d53	draft_not_operational
+GYS-I045:F1	돌다/달다	has_surface_form	GYS-I045:F5	달라고	GYS-I045:A4	evidence:58c07c33ffbf9c87d620d6e0	draft_not_operational
+GYS-I029:F1	내루다	has_surface_form	GYS-I029:F4	내라가	GYS-I029:A3	evidence:c88ec7aa75e8b1fd074ae540	draft_not_operational
+GYS-I028:F1	두다	has_surface_form	GYS-I028:F9	둤다	GYS-I028:A8	evidence:4d97eb8da7b5d1a0d7cf0549	draft_not_operational
+GYS-J034:F2	-ㅂ시더	realizes	concept:HORTATIVE	청유	GYS-J034:A2	evidence:38eedaa976ec11e8550db122	draft_not_operational
+GYS-R039:F4	-소	has_interpretation	GYS-R039:A4:value	각주12의 예사높임 명령	GYS-R039:A4	evidence:7de5feab40a57b1ce6a66bc6	draft_not_operational
+GYS-Y014:F1	-거로	combines_with	GYS-Y014:F4	만	GYS-Y014:A3	evidence:e087168da34bc2b416850835	draft_not_operational
+GYS-G020:F2	아이래요	combines_with	GYS-G020:A2:value	아이래 + 요	GYS-G020:A2	evidence:22a84d917b3d784f723276cc	draft_not_operational
+GYS-G068:F3	어데	has_interpretation	GYS-G068:A3:value	강한 부정 반응	GYS-G068:A3	evidence:4eed8c1531259e8c719a097e	draft_not_operational
+GYS-G038:F2	-지마는	variant_of	GYS-G038:F1	-아도	GYS-G038:A2	evidence:684e64e7fdceed601b9e3e68	draft_not_operational
+GYS-R029:F5	너그들	has_interpretation	GYS-R029:A5:value	너희들의 복수 제시형	GYS-R029:A5	evidence:c9ed50754026de6e516fcd39	draft_not_operational
+GYS-G011:F3	지어	has_interpretation	GYS-G011:A3:value	짓다의 제시 활용형	GYS-G011:A3	evidence:ef770ba2118cf3247f01585b	draft_not_operational
+GYS-I005:F1	이어도	has_surface_form	GYS-I005:F2	여도	GYS-I005:A2	evidence:45dd246c644c1a7da3d8416f	draft_not_operational
+GYS-R011:F1	-어 삐다	realizes	concept:ASPECT	상	GYS-R011:A1	evidence:7ec296a9bb32d7ff49df134d	draft_not_operational
+GYS-I034:F1	섞우다	has_surface_form	GYS-I034:F6	섞우니	GYS-I034:A5	evidence:aa3e8e763460d0eae6bbf908	draft_not_operational
+GYS-J014:F1	-ㄹ라니더	realizes	concept:INTENTION	의도	GYS-J014:A1	evidence:066b8c1416ca83b30f70fdc8	draft_not_operational
+GYS-R040:F2	-소	has_interpretation	GYS-R040:A2:value	예사높임 청유: 역사적 조사형	GYS-R040:A2	evidence:9659ac5a6ffa30241b6fff78	draft_not_operational
+GYS-H030:F3	-ㅂ니더예	has_interpretation	GYS-H030:A3:value	평서 + 예	GYS-H030:A3	evidence:07415c10348399edc88e4219	draft_not_operational
+GYS-I043:F1	가주다	has_surface_form	GYS-I043:F5	가아라	GYS-I043:A4	evidence:dd6b72422d8bfa6d928ce05f	draft_not_operational
+GYS-G026:F5	-의	variant_of	GYS-G026:F1	-예	GYS-G026:A5	evidence:cf5bf79c5223dfe059421d6d	draft_not_operational
+GYS-R052:F4	-리-	realizes	concept:PASSIVE	피동	GYS-R052:A4	evidence:a155f00b4eccf67017e84bcf	draft_not_operational
+GYS-G037:F1	-더니만	realizes	concept:CONNECTIVE_ENDING	연결어미	GYS-G037:A1	evidence:9f3d8c25e02d0dfc614e55d7	draft_not_operational
+GYS-H006:F1	-(느)ㄴ가	combines_with	GYS-H006:F2	요	GYS-H006:A1	evidence:f7fd723cc2f61f040d8c5c50	draft_not_operational
+GYS-P008:F3	-는데	has_interpretation	GYS-P008:A3:value	전설모음화의 전역 치환 대상이 아닌 유지 예	GYS-P008:A3	evidence:445ac84bc5aaf3ca619e30c6	draft_not_operational
+GYS-J049:F1	-소	realizes	concept:DECLARATIVE	평서	GYS-J049:A1	evidence:8d9089f373cd3029003b41f0	draft_not_operational
+GYS-G061:F2	비이다	realizes	concept:PASSIVE	피동	GYS-G061:A2	evidence:acb59b1d160345be31058252	draft_not_operational
+GYS-R042:F1	-다	has_interpretation	GYS-R042:A1:value	아주낮춤 감탄	GYS-R042:A1	evidence:f1171573043253abc3f3d71c	draft_not_operational
+GYS-G010:F3	낫다	has_surface_form	GYS-G010:F4	낫아	GYS-G010:A2	evidence:f8fe456824311f678248597a,evidence:c58af6061f64eace2dc5d18e	draft_not_operational
+GYS-I044:F1	가지다	has_surface_form	GYS-I044:F9	가있다	GYS-I044:A8	evidence:5128bdd87c35745e4b6f69e3	draft_not_operational
+GYS-R052:F1	-이-	realizes	concept:PASSIVE	피동	GYS-R052:A1	evidence:a155f00b4eccf67017e84bcf	draft_not_operational
+GYS-J015:F2	-ㅂ디더	variant_of	GYS-J015:F1	-디더	GYS-J015:A2	evidence:3d3eef92f060c5a2cbb0a7e4	draft_not_operational
+GYS-J052:F2	-다네	realizes	concept:DECLARATIVE	평서	GYS-J052:A2	evidence:32758565eea1d6e7cb3e2a3d	draft_not_operational
+GYS-J035:F2	-시데이	realizes	concept:HORTATIVE	청유	GYS-J035:A2	evidence:df2eab5f46a165c53e417fe0	draft_not_operational
+GYS-I047:F3	여어	has_interpretation	GYS-I047:A3:value	여기에서 ㄱ이 탈락한 형태이며 장음	GYS-I047:A3	evidence:cb8c7679a846de6e90593497	draft_not_operational
+GYS-I028:F1	두다	has_surface_form	GYS-I028:F10	두니	GYS-I028:A9	evidence:4d97eb8da7b5d1a0d7cf0549	draft_not_operational
+GYS-Q016:F1	-네	realizes	concept:INTERROGATIVE	의문	GYS-Q016:A1	evidence:5c055cae6a96296c2e6e61c2	draft_not_operational
+GYS-I023:F1	뎁히다	has_surface_form	GYS-I023:F8	뎁힜다	GYS-I023:A7	evidence:b08434ab98afd9d8ac29598a	draft_not_operational
+GYS-G054:F1	우리하다	realizes	concept:ADJECTIVE	형용사	GYS-G054:A1	evidence:8967e0b61d47a7150ca73fc9	draft_not_operational
+GYS-H019:F2	-(으)ㄴ교	attaches_to	GYS-H019:A2:value	형용사	GYS-H019:A2	evidence:0d495758cd5f8aaae7630020	draft_not_operational
+GYS-I035:F1	배우다	has_surface_form	GYS-I035:F4	배아가	GYS-I035:A3	evidence:36c95a3cc95a6b269fe96ac0	draft_not_operational
+GYS-O006:F2	머 하노	has_interpretation	GYS-O006:A2:value	지금·일 등의 의미를 필수로 추가하지 않음	GYS-O006:A2	evidence:c1d8c4c00ed6969919fc695e	draft_not_operational
+GYS-I022:F1	디지다	has_surface_form	GYS-I022:F3	디제	GYS-I022:A2	evidence:fbb2b8f1412ba2bb54719798	draft_not_operational
+GYS-J003:F1	것+이-+-ㄴ가	contracts_to	GYS-J003:F2	것가	GYS-J003:A1	evidence:20b02afe1cc4d46d8b62bd07	draft_not_operational
+GYS-R035:F2	내	has_interpretation	GYS-R035:A2:value	1인칭 관형 형태	GYS-R035:A2	evidence:b448afa169fb36e0b71fc8cb	draft_not_operational
+GYS-I026:F1	주다	has_surface_form	GYS-I026:F8	좄다	GYS-I026:A7	evidence:9e1b73e8e1cc07df694b6918	draft_not_operational
+GYS-P017:F1	우얘 하노	has_surface_form	GYS-P017:F2	우야노	GYS-P017:A2	evidence:a887b4bcaf989e202c7d346b	draft_not_operational
+GYS-J023:F3	-ㄹ리껴	has_interpretation	GYS-J023:A3:value	-겠습니까 대응 의문	GYS-J023:A3	evidence:e07dc8d0a5d80d503b64d319	draft_not_operational
+GYS-H023:F1	맑으이더	has_interpretation	GYS-H023:A1:value	맑다의 제시 예외	GYS-H023:A1	evidence:b4ad43993d2021a9b311336f	draft_not_operational
+GYS-I054:F2	들어오다	has_surface_form	GYS-I054:A2:value	들오다	GYS-I054:A2	evidence:e93d4ca7c687ac9ebef69486	draft_not_operational
+GYS-J033:F3	-입시다	realizes	concept:HORTATIVE	청유	GYS-J033:A3	evidence:52aa2cb6446b9fe233b3e4f4	draft_not_operational
+GYS-Y007:F1	-거로 하-	realizes	concept:HORTATIVE	청유	GYS-Y007:A1	evidence:6f9540479e4f7b89499f6632	draft_not_operational
+GYS-J048:F1	-구마	realizes	concept:EXCLAMATIVE	감탄	GYS-J048:A1	evidence:1cb3981ce977da5c832625b2	draft_not_operational
+GYS-G030:F4	-꺼징	variant_of	GYS-G030:F1	-까지	GYS-G030:A4	evidence:63254f19d38c864740bba998	draft_not_operational
+GYS-Q013:F3	-(느)ㄴ강	variant_of	GYS-Q013:F1	-(느)ㄴ가	GYS-Q013:A3	evidence:12aa1460e103c72669fae4dd	draft_not_operational
+GYS-P010:F3	몬하다	has_surface_form	GYS-P010:F4	모~하다	GYS-P010:A3	evidence:d084c995d049c288049ada4b	draft_not_operational
+GYS-J058:F1	-나	realizes	concept:POLAR_QUESTION	판정의문	GYS-J058:A1	evidence:0ecb5ca9b938b59bb23e6503	draft_not_operational
+GYS-Q005:F2	-고	attaches_to	GYS-Q005:F3	아이다	GYS-Q005:A4	evidence:6d589ab8448666fd77eaeeb6,evidence:4f3bed217085a58ba56bc7ca	draft_not_operational
+GYS-J006:F1	-구려	contrasts_in_function	GYS-J007:F1	-구려	INT021	evidence:2606c8a5b6e7ae066cb220d9,evidence:f0d6f8c71072aa741acf0d57	author_proposed
+GYS-Q008:F1	뭐	has_interpretation	GYS-Q008:A1:value	먹은 일이 있는지/먹은 대상이 무엇인지의 복수 해석	GYS-Q008:A1	evidence:3fa13245dd479bcfe039d008	draft_not_operational
+GYS-I021:F1	직이다	has_surface_form	GYS-I021:F13	직이고	GYS-I021:A12	evidence:691d0040ab8a050708717799	draft_not_operational
+GYS-H023:F4	좋으이더	has_interpretation	GYS-H023:A4:value	좋다의 병존형	GYS-H023:A4	evidence:b4ad43993d2021a9b311336f	draft_not_operational
+GYS-P006:F1	ㅓ/ㅡ 혼용	has_interpretation	GYS-P006:A1:value	발음 합류를 문자 무작위 교체로 구현하지 않음	GYS-P006:A1	evidence:48e8027c9059256b4e9535f3	draft_not_operational
+GYS-Q007:F2	-고	combines_with	GYS-Q007:F3	-시-	GYS-Q007:A4	evidence:4f3bed217085a58ba56bc7ca	draft_not_operational
+GYS-I051:F1	오라	has_interpretation	GYS-I051:A1:value	일부 나이 든 남부 화자에게 나타나는 와라의 변이	GYS-I051:A1	evidence:e93d4ca7c687ac9ebef69486	draft_not_operational
+GYS-R027:F2	내	has_interpretation	GYS-R027:A2:value	1인칭 단수 내: 내가·내는·내한테의 환경별 사례	GYS-R027:A2	evidence:4b794a1ea3f3cfdebfd42802	draft_not_operational
+GYS-R028:F1	우리	has_interpretation	GYS-R028:A1:value	1인칭 복수 우리	GYS-R028:A1	evidence:1912d617464593ba8776d754	draft_not_operational
+GYS-I048:F2	-아가	has_interpretation	GYS-I048:A2:value	-아 가지고에서 -아서 의미의 연결어미로 합쳐졌다는 설명	GYS-I048:A2	evidence:cb8c7679a846de6e90593497	draft_not_operational
+GYS-R051:F1	-이-	realizes	concept:CAUSATIVE	사동	GYS-R051:A1	evidence:d2d1ed39f84df42419fb170f,evidence:1bd662f0885a385b01f8bebd	draft_not_operational
+GYS-Y001:F4	-고로	variant_of	GYS-Y001:F1	-거로	GYS-Y001:A4	evidence:7985aa3346d1dcb35a9caca9	draft_not_operational
+GYS-P012:F4	-(으)(ㄹ)꼬	has_interpretation	GYS-P012:A4:value	해당 의문 계열의 수의적 ㄹ 표기; 전체 결합은 미확정	GYS-P012:A4	evidence:5e989d285378e2be2c902efe	draft_not_operational
+GYS-I052:F3	-(느)ㄴ가 보네	has_interpretation	GYS-I052:A3:value	추측 보조 보다의 대안 종결 구성; 세대별 선호는 원문 관찰	GYS-I052:A3	evidence:e93d4ca7c687ac9ebef69486	draft_not_operational
+GYS-P016:F4	-라쿠다	realizes	concept:QUOTATION	인용	GYS-P016:A4	evidence:a887b4bcaf989e202c7d346b	draft_not_operational
+GYS-R012:F1	-어 주다	realizes	concept:AUXILIARY_PREDICATE	보조용언	GYS-R012:A1	evidence:83e49820849d9086910b6599	draft_not_operational
+GYS-G047:F1	-다 아니가	realizes	concept:INTERROGATIVE	의문	GYS-G047:A1	evidence:11c03f7556fdd378863e2743	draft_not_operational
+GYS-J002:F1	-ㄴ고	same_usage_candidate	GYS-H004:F1	-(느)ㄴ고	INT015	evidence:840118c744aa49727929e111,evidence:e7c3e01b3d95e3a1418d971c	author_proposed
+GYS-R044:F1	-도	shares_function_with	GYS-G038:F1	-아도	INT040	evidence:59ce3bffbf838f0a03fa4102,evidence:684e64e7fdceed601b9e3e68	author_proposed
+GYS-G042:F1	-(느)ㄴ지	realizes	concept:EMBEDDING	내포	GYS-G042:A1	evidence:26b1af763c68fd68d110a952	draft_not_operational
+GYS-I021:F1	직이다	has_surface_form	GYS-I021:F11	직이모	GYS-I021:A10	evidence:691d0040ab8a050708717799	draft_not_operational
+GYS-R031:F2	지	has_interpretation	GYS-R031:A2:value	자기 대응 재귀형	GYS-R031:A2	evidence:c4d9667bfb89abc82a155d2d	draft_not_operational
+GYS-I050:F3	내려오다	has_surface_form	GYS-I050:A3:value	내려온나	GYS-I050:A3	evidence:e93d4ca7c687ac9ebef69486	draft_not_operational
+GYS-H007:F1	-(느)ㄴ공	has_surface_form	GYS-H007:F3	-(느)ㄴ공요	GYS-H007:A2	evidence:f7fd723cc2f61f040d8c5c50	draft_not_operational
+GYS-G059:F1	따시다	realizes	concept:ADJECTIVE	형용사	GYS-G059:A1	evidence:28d7c8824bb56d35428c0eb2	draft_not_operational
+GYS-R032:F6	어데	has_interpretation	GYS-R032:A6:value	어디	GYS-R032:A6	evidence:3d0bc48f32a7222aa23c3f3b	draft_not_operational
+GYS-H008:F1	-(느)ㄴ강	combines_with	GYS-H008:F2	요	GYS-H008:A1	evidence:f7fd723cc2f61f040d8c5c50	draft_not_operational
+GYS-I041:F1	묵다	has_surface_form	GYS-I041:F3	무우	GYS-I041:A2	evidence:a6dd9020f75b6c861444c007	draft_not_operational
+GYS-J020:F1	-(ㅂ)니껴	combines_with	GYS-J020:F3	-시-	GYS-J020:A3	evidence:7dddac1353253a46bf77fdad	draft_not_operational
+GYS-H019:F1	-(느)ㄴ교	attaches_to	GYS-H019:A1:value	동사	GYS-H019:A1	evidence:0d495758cd5f8aaae7630020	draft_not_operational
+GYS-J021:F1	-디껴	combines_with	GYS-J021:F3	-시-	GYS-J021:A3	evidence:8357dbe1779686843e0f18df,evidence:74317e037146bd1718744ae6	draft_not_operational
+GYS-P015:F1	새그럽다	realizes	concept:CONSONANT	자음	GYS-P015:A1	evidence:47bdb619c7c1500644d0de92	draft_not_operational
+GYS-G014:F1	말뤃다	has_surface_form	GYS-G014:F3	말랐다	GYS-G014:A2	evidence:2f490357d81e1c11d6b10a83,evidence:effc57edb48d5d654b330a45	draft_not_operational
+GYS-Y008:F3	-게 되-	has_interpretation	GYS-Y008:A2:value	보조 되- 앞에서 -게 유지	GYS-Y008:A2	evidence:65d9cfcc3b79fca5150c00cb	draft_not_operational
+GYS-G001:F3	-고로	variant_of	GYS-G001:F1	-구로	GYS-G001:A3	evidence:c9749a6ea97f44d277608d03	draft_not_operational
+GYS-J035:F1	-시더이	realizes	concept:HORTATIVE	청유	GYS-J035:A1	evidence:df2eab5f46a165c53e417fe0	draft_not_operational
+GYS-I029:F1	내루다	has_surface_form	GYS-I029:F6	내루니	GYS-I029:A5	evidence:c88ec7aa75e8b1fd074ae540	draft_not_operational
+GYS-H014:F1	-(스)ㅂ니더	realizes	concept:DECLARATIVE	평서	GYS-H014:A1	evidence:d23b90cbba1a12fb0aeb0db0	draft_not_operational
+GYS-R059:F5	제일로	has_interpretation	GYS-R059:A5:value	가장	GYS-R059:A5	evidence:ba4e7337d7f64e62868f1a4d	draft_not_operational
+GYS-G061:F1	비이다	realizes	concept:PREDICATE	서술어	GYS-G061:A1	evidence:acb59b1d160345be31058252	draft_not_operational
+GYS-G037:F2	-디만	variant_of	GYS-G037:F1	-더니만	GYS-G037:A2	evidence:9f3d8c25e02d0dfc614e55d7	draft_not_operational
+GYS-I027:F1	꾸다	has_surface_form	GYS-I027:F5	꾸라	GYS-I027:A4	evidence:cf5957fab1ed1497fa0a198e	draft_not_operational
+GYS-G023:F4	-매이로	variant_of	GYS-G023:F1	-맨치로	GYS-G023:A4	evidence:ef102738f76922a5875569a1	draft_not_operational
+GYS-G049:F4	니	has_interpretation	GYS-G049:A4:value	수관형사 네	GYS-G049:A4	evidence:ff4e5eb74f0131172e9176b0	draft_not_operational
+GYS-H004:F1	-(느)ㄴ고	realizes	concept:CONTENT_QUESTION	설명의문	GYS-H004:A1	evidence:e7c3e01b3d95e3a1418d971c	draft_not_operational
+GYS-I025:F1	시다	has_surface_form	GYS-I025:F2	시	GYS-I025:A1	evidence:3d4b6f8b72ec7bac3a353b3f	draft_not_operational
+GYS-I028:F1	두다	has_surface_form	GYS-I028:F3	두	GYS-I028:A2	evidence:4d97eb8da7b5d1a0d7cf0549	draft_not_operational
+GYS-G031:F2	-카	contrasts_in_function	GYS-G032:F1	-카	INT029	evidence:4d0bb8446a23c805d2e39a27,evidence:ba19d808ed8e78c8ba068f24	author_proposed
+GYS-J033:F2	-입시더	realizes	concept:HORTATIVE	청유	GYS-J033:A2	evidence:52aa2cb6446b9fe233b3e4f4	draft_not_operational
+GYS-I031:F1	뿌수다	has_surface_form	GYS-I031:F7	뿌수모	GYS-I031:A6	evidence:073ac75f926196eced3665b6	draft_not_operational
+GYS-G030:F3	-꺼지	variant_of	GYS-G030:F1	-까지	GYS-G030:A3	evidence:63254f19d38c864740bba998	draft_not_operational
+GYS-I037:F1	뺏다	has_surface_form	GYS-I037:F5	뺏았다	GYS-I037:A4	evidence:7fdc1673146c18a7fa6876d6	draft_not_operational
+GYS-R047:F2	-니	realizes	concept:CAUSE	이유	GYS-R047:A2	evidence:81b5f80e15b4e76a5397e578	draft_not_operational
+GYS-G026:F1	-예	realizes	concept:PARTICLE	조사	GYS-G026:A1	evidence:cf5bf79c5223dfe059421d6d	draft_not_operational
+GYS-H024:F4	-디더	has_interpretation	GYS-H024:A4:value	회상 평서	GYS-H024:A4	evidence:4310604f13b1735a041cb923	draft_not_operational
+GYS-R057:F1	-어 보다	has_example	GYS-R057:F2	안 오는가 배	GYS-R057:A2	evidence:af58900bdd51b8ec3c8282c2	draft_not_operational
+GYS-R050:F2	-더-	has_interpretation	GYS-R050:A2:value	회상 표지	GYS-R050:A2	evidence:ba42ba903470388169f9feb5	draft_not_operational
+GYS-H008:F1	-(느)ㄴ강	has_surface_form	GYS-H008:F3	-(느)ㄴ강요	GYS-H008:A2	evidence:f7fd723cc2f61f040d8c5c50	draft_not_operational
+GYS-I040:F1	젭다	has_surface_form	GYS-I040:F8	젭으라고	GYS-I040:A7	evidence:fae551865cf4f5ae89dbca49	draft_not_operational
+GYS-I032:F1	말루다	has_surface_form	GYS-I032:F8	말루라고	GYS-I032:A7	evidence:4d55d855a41e724a55b98f8a	draft_not_operational
+GYS-H010:F3	-(느)ㄴ가예	has_interpretation	GYS-H010:A3:value	해요체 수준의 상대높임	GYS-H010:A3	evidence:f7fd723cc2f61f040d8c5c50	draft_not_operational
+GYS-I020:F1	삐다	has_surface_form	GYS-I020:F6	삐가	GYS-I020:A5	evidence:5c420de1f85589310fc6e572	draft_not_operational
+GYS-I032:F1	말루다	has_surface_form	GYS-I032:F6	말루니	GYS-I032:A5	evidence:4d55d855a41e724a55b98f8a	draft_not_operational
+GYS-Q015:F1	-나	has_usage_change	GYS-Q015:A1:value	-나/-노/-(이)가/-(이)고 자리에 -나 사용 경향; 다른 형식도 사용	GYS-Q015:A1	evidence:5c055cae6a96296c2e6e61c2	draft_not_operational
+GYS-J055:F1	-ㄹ끼다	combines_with	GYS-J055:F5	-다	GYS-J055:A5	evidence:bb01949aeb7e444418961413	draft_not_operational
+GYS-O002:F1	삐다	has_interpretation	GYS-O002:A1:value	완결 보조용언	GYS-O002:A1	evidence:e5396bfb7425ddf26263e333	draft_not_operational
+GYS-R042:F2	-아/어	has_interpretation	GYS-R042:A2:value	두루낮춤 감탄	GYS-R042:A2	evidence:f1171573043253abc3f3d71c	draft_not_operational
+GYS-I033:F1	뎁후다	has_surface_form	GYS-I033:F2	뎁하	GYS-I033:A1	evidence:ba75f28277d8d2438c2676e9	draft_not_operational
+GYS-G042:F2	-(느)ㄴ동	variant_of	GYS-G042:F1	-(느)ㄴ지	GYS-G042:A2	evidence:26b1af763c68fd68d110a952	draft_not_operational
+concept:INFLECTION	활용	has_interpretation	GYS-I005:A1:value	어간이 2음절 이하일 때 해당 현상이 덜 일어난다는 설명	GYS-I005:A1	evidence:45dd246c644c1a7da3d8416f	draft_not_operational
+GYS-Q006:F1	-나	combines_with	GYS-Q006:F3	-었-	GYS-Q006:A3	evidence:4f3bed217085a58ba56bc7ca	draft_not_operational
+GYS-I040:F1	젭다	has_surface_form	GYS-I040:F2	젭어	GYS-I040:A1	evidence:fae551865cf4f5ae89dbca49	draft_not_operational
+GYS-I044:F1	가지다	has_surface_form	GYS-I044:F4	가지라	GYS-I044:A3	evidence:5128bdd87c35745e4b6f69e3	draft_not_operational
+GYS-J036:F3	-제이	realizes	concept:HORTATIVE	청유	GYS-J036:A3	evidence:ba22b9a7179b468d14003f28	draft_not_operational
+GYS-J042:F3	-지러	realizes	concept:INTERROGATIVE	의문	GYS-J042:A3	evidence:5fc42c5d5eeaa8fb254cd33a	draft_not_operational
+GYS-J018:F1	-ㄹ시더	has_interpretation	GYS-J018:A1:value	동사의 미래 의향	GYS-J018:A1	evidence:683fd4ec211cd4d81047e8f0	draft_not_operational
+GYS-R032:F7	와	has_interpretation	GYS-R032:A7:value	왜	GYS-R032:A7	evidence:3d0bc48f32a7222aa23c3f3b	draft_not_operational
+GYS-I028:F1	두다	has_surface_form	GYS-I028:F8	돘다	GYS-I028:A7	evidence:4d97eb8da7b5d1a0d7cf0549	draft_not_operational
+GYS-G026:F2	-에	variant_of	GYS-G026:F1	-예	GYS-G026:A2	evidence:cf5bf79c5223dfe059421d6d	draft_not_operational
+GYS-G013:F2	디다	has_interpretation	GYS-G013:A2:value	힘들고 고되다: 경북의 구별 설명	GYS-G013:A2	evidence:13bae4b16da220959d883622	draft_not_operational
+GYS-H011:F3	-(느)ㄴ공예	has_interpretation	GYS-H011:A3:value	해요체 수준의 상대높임	GYS-H011:A3	evidence:f7fd723cc2f61f040d8c5c50	draft_not_operational
+GYS-R043:F1	-ㅁ서	realizes	concept:COORDINATION	대등접속	GYS-R043:A1	evidence:0d8d2fccf04d7112fac4755a	draft_not_operational
+GYS-I020:F1	삐다	has_surface_form	GYS-I020:F7	뻬가	GYS-I020:A6	evidence:5c420de1f85589310fc6e572	draft_not_operational
+GYS-G003:F2	-먼	realizes	concept:CONDITION	조건	GYS-G003:A2	evidence:701bca1cac92743fcb2a238b	draft_not_operational
+GYS-H019:F1	-(느)ㄴ교	same_usage_candidate	GYS-J024:F1	-ㄴ교	INT034	evidence:0d495758cd5f8aaae7630020,evidence:15146d0e48ec03cd860d6ed4	author_proposed
+GYS-G059:F3	뜨수다	realizes	concept:VERB	동사	GYS-G059:A3	evidence:28d7c8824bb56d35428c0eb2	draft_not_operational
+GYS-G067:F5	압	realizes	concept:DISCOURSE_MARKER	담화표지	GYS-G067:A5	evidence:4eed8c1531259e8c719a097e	draft_not_operational
+GYS-R014:F1	-게 맨들다	realizes	concept:CAUSATIVE	사동	GYS-R014:A1	evidence:94e0aa0ab4bf224ddc0c894f	draft_not_operational
+GYS-I040:F1	젭다	has_surface_form	GYS-I040:F5	젭었다	GYS-I040:A4	evidence:fae551865cf4f5ae89dbca49	draft_not_operational
+GYS-I023:F1	뎁히다	has_surface_form	GYS-I023:F6	뎁히가	GYS-I023:A5	evidence:b08434ab98afd9d8ac29598a	draft_not_operational
+GYS-G062:F1	자리다	realizes	concept:PREDICATE	서술어	GYS-G062:A1	evidence:e4e5d78709b5a28eed79b588	draft_not_operational
+GYS-I034:F1	섞우다	has_surface_form	GYS-I034:F5	섞았다	GYS-I034:A4	evidence:aa3e8e763460d0eae6bbf908	draft_not_operational
+GYS-R033:F9	저게	has_interpretation	GYS-R033:A9:value	저기	GYS-R033:A9	evidence:c7ccfd2b14b810cb15851d73	draft_not_operational
+GYS-P017:F1	우얘 하노	realizes	concept:CONTRACTION	축약	GYS-P017:A1	evidence:a887b4bcaf989e202c7d346b	draft_not_operational
+GYS-I020:F1	삐다	has_surface_form	GYS-I020:F11	삐모	GYS-I020:A10	evidence:5c420de1f85589310fc6e572	draft_not_operational
+GYS-G065:F1	아나	realizes	concept:DISCOURSE_MARKER	담화표지	GYS-G065:A1	evidence:e4e5d78709b5a28eed79b588	draft_not_operational
+GYS-J017:F1	-시더	realizes	concept:COPULA	계사	GYS-J017:A1	evidence:1e2d1c5d1d348c431ffed83d	draft_not_operational
+GYS-I047:F2	무우	has_interpretation	GYS-I047:A2:value	장음으로 발음해야 한다는 설명	GYS-I047:A2	evidence:cb8c7679a846de6e90593497	draft_not_operational
+GYS-I026:F1	주다	has_surface_form	GYS-I026:F12	주라고	GYS-I026:A11	evidence:9e1b73e8e1cc07df694b6918	draft_not_operational
+GYS-I035:F1	배우다	has_surface_form	GYS-I035:F7	배우모	GYS-I035:A6	evidence:36c95a3cc95a6b269fe96ac0	draft_not_operational
+GYS-I032:F1	말루다	has_surface_form	GYS-I032:F7	말루모	GYS-I032:A6	evidence:4d55d855a41e724a55b98f8a	draft_not_operational
+GYS-I029:F1	내루다	has_surface_form	GYS-I029:F2	내라	GYS-I029:A1	evidence:c88ec7aa75e8b1fd074ae540	draft_not_operational
+GYS-G046:F2	짝	variant_of	GYS-G046:F1	짜	GYS-G046:A2	evidence:5a41f6f8e98770dd2e49b280	draft_not_operational
+GYS-I052:F1	-(느)ㄴ가 보다	has_surface_form	GYS-I052:A1:value	-(느)ㄴ가 배	GYS-I052:A1	evidence:e93d4ca7c687ac9ebef69486	draft_not_operational
+GYS-J006:F1	-구려	realizes	concept:EXCLAMATIVE	감탄	GYS-J006:A2	evidence:2606c8a5b6e7ae066cb220d9	draft_not_operational
+GYS-G026:F4	-으	variant_of	GYS-G026:F1	-예	GYS-G026:A4	evidence:cf5bf79c5223dfe059421d6d	draft_not_operational
+GYS-R032:F8	얼매나	has_interpretation	GYS-R032:A8:value	얼마나	GYS-R032:A8	evidence:3d0bc48f32a7222aa23c3f3b	draft_not_operational
+GYS-G021:F6	-잔테	variant_of	GYS-G021:F1	-한테	GYS-G021:A6	evidence:e3bf6ca592268a3590dd1b15	draft_not_operational
+GYS-I026:F1	주다	has_surface_form	GYS-I026:F10	주니	GYS-I026:A9	evidence:9e1b73e8e1cc07df694b6918	draft_not_operational
+GYS-H023:F5	낫니더	has_interpretation	GYS-H023:A5:value	더 낫다의 자음형	GYS-H023:A5	evidence:b4ad43993d2021a9b311336f	draft_not_operational
+GYS-I031:F1	뿌수다	has_surface_form	GYS-I031:F9	뿌수고	GYS-I031:A8	evidence:073ac75f926196eced3665b6	draft_not_operational
+GYS-I033:F1	뎁후다	has_surface_form	GYS-I033:F9	뎁후고	GYS-I033:A8	evidence:ba75f28277d8d2438c2676e9	draft_not_operational
+GYS-Q010:F1	-제	realizes	concept:POLAR_QUESTION	판정의문	GYS-Q010:A1	evidence:369cb9749477b0c15fcab648	draft_not_operational
+GYS-Q009:F1	-나	realizes	concept:INTERROGATIVE	의문	GYS-Q009:A1	evidence:2832b7d4a373710ee28c4925,evidence:4f3bed217085a58ba56bc7ca,evidence:369cb9749477b0c15fcab648	draft_not_operational
+GYS-R039:F2	-게	has_interpretation	GYS-R039:A2:value	예사낮춤 명령	GYS-R039:A2	evidence:7de5feab40a57b1ce6a66bc6	draft_not_operational
+GYS-G046:F3	바리	has_interpretation	GYS-G046:A3:value	동물 계수 마리 대응	GYS-G046:A3	evidence:5a41f6f8e98770dd2e49b280	draft_not_operational
+GYS-I021:F1	직이다	has_surface_form	GYS-I021:F5	직에라	GYS-I021:A4	evidence:691d0040ab8a050708717799	draft_not_operational
+GYS-H021:F2	-(느)ㄴ구마	realizes	concept:DECLARATIVE	평서	GYS-H021:A2	evidence:e8b4d62673e6d7928bf6c0d4,evidence:7c77969faeead09aea919701,evidence:1f055812a3862938d2092aca	draft_not_operational
+GYS-I031:F1	뿌수다	has_surface_form	GYS-I031:F8	뿌수라고	GYS-I031:A7	evidence:073ac75f926196eced3665b6	draft_not_operational
+GYS-R032:F2	뭐	has_interpretation	GYS-R032:A2:value	무엇	GYS-R032:A2	evidence:3d0bc48f32a7222aa23c3f3b	draft_not_operational
+GYS-I028:F1	두다	has_surface_form	GYS-I028:F7	두가	GYS-I028:A6	evidence:4d97eb8da7b5d1a0d7cf0549	draft_not_operational
+GYS-J023:F2	-ㄹ시껴	has_interpretation	GYS-J023:A2:value	추측·미래 의문	GYS-J023:A2	evidence:e07dc8d0a5d80d503b64d319	draft_not_operational
+GYS-I022:F1	디지다	has_surface_form	GYS-I022:F12	디지라고	GYS-I022:A11	evidence:fbb2b8f1412ba2bb54719798	draft_not_operational
+GYS-J012:F1	-니더	realizes	concept:DECLARATIVE	평서	GYS-J012:A1	evidence:88a1bb5fe8f27de9704044e1	draft_not_operational
+GYS-G053:F1	욕보다	realizes	concept:VERB	동사	GYS-G053:A1	evidence:8967e0b61d47a7150ca73fc9	draft_not_operational
+GYS-Y014:F1	-거로	combines_with	GYS-Y014:F2	는	GYS-Y014:A1	evidence:e087168da34bc2b416850835	draft_not_operational
+GYS-R001:F1	-한테	realizes	concept:CASE_PARTICLE	격조사	GYS-R001:A1	evidence:4b5f4efb6e0b7116d9e65711	draft_not_operational
+GYS-O006:F1	먼교	has_interpretation	GYS-O006:A1:value	무엇 때문이라는 이유 의미를 필수로 추가하지 않음	GYS-O006:A1	evidence:c1d8c4c00ed6969919fc695e	draft_not_operational
+GYS-G068:F1	언제	realizes	concept:DISCOURSE_MARKER	담화표지	GYS-G068:A1	evidence:4eed8c1531259e8c719a097e	draft_not_operational
+GYS-J052:F3	-ㄹ라네	realizes	concept:INTENTION	의도	GYS-J052:A3	evidence:32758565eea1d6e7cb3e2a3d	draft_not_operational
+GYS-J015:F1	-디더	combines_with	GYS-J015:F3	-었-	GYS-J015:A3	evidence:3d3eef92f060c5a2cbb0a7e4	draft_not_operational
+GYS-I041:F1	묵다	has_surface_form	GYS-I041:F5	무우라	GYS-I041:A4	evidence:a6dd9020f75b6c861444c007	draft_not_operational
+GYS-I023:F1	뎁히다	has_surface_form	GYS-I023:F4	뎁히라	GYS-I023:A3	evidence:b08434ab98afd9d8ac29598a	draft_not_operational
+GYS-I041:F1	묵다	has_surface_form	GYS-I041:F14	묵으라고	GYS-I041:A13	evidence:a6dd9020f75b6c861444c007	draft_not_operational
+GYS-R037:F6	-이라도	has_interpretation	GYS-R037:A6:value	최소한의 선택: -이나마 대응란	GYS-R037:A6	evidence:f5a0b2727bc8aad0c8e75d22	draft_not_operational
+GYS-H030:F2	-ㅂ니까요	has_interpretation	GYS-H030:A2:value	의문 + 요	GYS-H030:A2	evidence:07415c10348399edc88e4219	draft_not_operational
+GYS-I021:F1	직이다	has_surface_form	GYS-I021:F7	직에가	GYS-I021:A6	evidence:691d0040ab8a050708717799	draft_not_operational
+GYS-Y001:F2	-구로	variant_of	GYS-Y001:F1	-거로	GYS-Y001:A2	evidence:7985aa3346d1dcb35a9caca9	draft_not_operational
+GYS-I054:F4	내버리다	has_surface_form	GYS-I054:A4:value	내삐리다/내삐다	GYS-I054:A4	evidence:e93d4ca7c687ac9ebef69486	draft_not_operational
+GYS-G023:F5	-치롬	variant_of	GYS-G023:F1	-맨치로	GYS-G023:A5	evidence:ef102738f76922a5875569a1	draft_not_operational
+GYS-G027:F2	-(이)ㄴ따나	variant_of	GYS-G027:F1	-(이)나따나	GYS-G027:A2	evidence:6bcaed59ae80bd14ae4f65ce	draft_not_operational
+GYS-R037:F3	-도	has_interpretation	GYS-R037:A3:value	첨가	GYS-R037:A3	evidence:f5a0b2727bc8aad0c8e75d22	draft_not_operational
+GYS-J042:F4	-지로	realizes	concept:INTERROGATIVE	의문	GYS-J042:A4	evidence:5fc42c5d5eeaa8fb254cd33a	draft_not_operational
+GYS-I028:F1	두다	has_surface_form	GYS-I028:F12	두라고	GYS-I028:A11	evidence:4d97eb8da7b5d1a0d7cf0549	draft_not_operational
+GYS-H031:F2	-(으)십시오	has_interpretation	GYS-H031:A2:value	격식 명령	GYS-H031:A2	evidence:0c3d91a621a021139f6a6559	draft_not_operational
+GYS-J020:F1	-(ㅂ)니껴	combines_with	GYS-J020:F5	-겠-	GYS-J020:A5	evidence:7dddac1353253a46bf77fdad	draft_not_operational
+GYS-H015:F1	오이소	combines_with	GYS-H015:A1:value	-시- → 오시이소	GYS-H015:A1	evidence:e45be5502a050925ce2eedec	draft_not_operational
+GYS-P014:F3	기름	has_surface_form	GYS-P014:F4	지름	GYS-P014:A3	evidence:5e989d285378e2be2c902efe	draft_not_operational
+GYS-R059:F2	가마이	has_interpretation	GYS-R059:A2:value	가만히	GYS-R059:A2	evidence:ba4e7337d7f64e62868f1a4d	draft_not_operational
+GYS-I026:F1	주다	has_surface_form	GYS-I026:F13	주고	GYS-I026:A12	evidence:9e1b73e8e1cc07df694b6918	draft_not_operational
+GYS-G036:F3	-디이	variant_of	GYS-G036:F1	-더니	GYS-G036:A3	evidence:f656e14296e44e0810d92ee6	draft_not_operational
+GYS-J027:F1	낋이이소	has_interpretation	GYS-J027:A1:value	사동 이 + 높임 명령 이소의 제시형	GYS-J027:A1	evidence:58db88f7db69d00a21b9f099	draft_not_operational
+GYS-J008:F2	-공요	variant_of	GYS-J008:F1	-고요	GYS-J008:A2	evidence:a3d52edb3cfed1717eb38b71	draft_not_operational
+GYS-G067:F1	하모	contrasts_with	GYS-G067:F5	압	GYS-G067:A6	evidence:4eed8c1531259e8c719a097e	draft_not_operational
+GYS-J016:F2	-리더	attaches_to	GYS-J016:A2:value	동사	GYS-J016:A2	evidence:05987a7117947e6b5163a3a6	draft_not_operational
+GYS-Q013:F1	-(느)ㄴ가	has_interpretation	GYS-Q013:A1:value	해체 자문 또는 문장 중간 연결 또는 하게체 의문	GYS-Q013:A1	evidence:12aa1460e103c72669fae4dd	draft_not_operational
+GYS-J056:F1	-데이	scope_tension_with	GYS-G016:F1	-대이	INT044	evidence:33f25a12f9d880b55f442c73,evidence:9f3045a7c36b7e4bdeaaae28	held_scope_tension
+GYS-G028:F4	-캐미	variant_of	GYS-G028:F1	-카마	GYS-G028:A4	evidence:7cd5f8d62ecbd150a6934d21	draft_not_operational
+GYS-R058:F4	제와	has_interpretation	GYS-R058:A4:value	겨우	GYS-R058:A4	evidence:f55eaeef60cae2314b4891c2	draft_not_operational
+GYS-I056:F3	시원하다	has_surface_form	GYS-I056:A3:value	섢다/섢네	GYS-I056:A3	evidence:8f31a756be349806278c8f2e	draft_not_operational
+GYS-R029:F2	너그	has_interpretation	GYS-R029:A2:value	너희의 2인칭 복수 용법	GYS-R029:A2	evidence:c9ed50754026de6e516fcd39	draft_not_operational
+GYS-G059:F1	따시다	contrasts_with	GYS-G059:F3	뜨수다	GYS-G059:A4	evidence:28d7c8824bb56d35428c0eb2	draft_not_operational
+GYS-G005:F1	-아가	realizes	concept:CAUSE	이유	GYS-G005:A1	evidence:316734b43a919c98cc5eab0c,evidence:c9f3241d235ec0a516e93aae	draft_not_operational
+GYS-O006:F3	우야노	has_interpretation	GYS-O006:A3:value	어떡해에 해당하는 문맥; 장문의 심경을 필수로 추가하지 않음	GYS-O006:A3	evidence:c1d8c4c00ed6969919fc695e	draft_not_operational
+concept:INFLECTION	활용	has_surface_form	GYS-I012:A1:value	표준어와 달리 '-아'가 결합하는 ㅐ형 활용	GYS-I012:A1	evidence:e87ca603b520fd3bbe71ff9c	draft_not_operational
+GYS-I041:F1	묵다	has_surface_form	GYS-I041:F16	묵고	GYS-I041:A15	evidence:a6dd9020f75b6c861444c007	draft_not_operational
+GYS-G022:F4	-만큼	variant_of	GYS-G022:F1	-만치	GYS-G022:A4	evidence:8a383604959be42d72466318	draft_not_operational
+GYS-J053:F1	-ㄹ다	realizes	concept:GUESS	추측	GYS-J053:A1	evidence:bb01949aeb7e444418961413	draft_not_operational
+GYS-H016:F1	오시이소이	has_interpretation	GYS-H016:A1:value	오시이소 + 이	GYS-H016:A1	evidence:ba389439c65b3091a15e0922	draft_not_operational
+GYS-I026:F1	주다	has_surface_form	GYS-I026:F3	주	GYS-I026:A2	evidence:9e1b73e8e1cc07df694b6918	draft_not_operational
+GYS-I036:F1	뱉다	has_surface_form	GYS-I036:F5	뱉았다	GYS-I036:A4	evidence:f2f8581bd96124427f763a03	draft_not_operational
+GYS-R049:F2	-듯이	realizes	concept:SUBORDINATION	종속접속	GYS-R049:A2	evidence:b16ed4cb5014ba55847320ef	draft_not_operational
+GYS-I035:F1	배우다	has_surface_form	GYS-I035:F3	배아라	GYS-I035:A2	evidence:36c95a3cc95a6b269fe96ac0	draft_not_operational
+GYS-I037:F1	뺏다	has_surface_form	GYS-I037:F9	뺏고	GYS-I037:A8	evidence:7fdc1673146c18a7fa6876d6	draft_not_operational
+GYS-I022:F1	디지다	has_surface_form	GYS-I022:F8	디짔다	GYS-I022:A7	evidence:fbb2b8f1412ba2bb54719798	draft_not_operational
+GYS-I029:F1	내루다	has_surface_form	GYS-I029:F8	내루라고	GYS-I029:A7	evidence:c88ec7aa75e8b1fd074ae540	draft_not_operational
+GYS-I022:F1	디지다	has_surface_form	GYS-I022:F10	디지니	GYS-I022:A9	evidence:fbb2b8f1412ba2bb54719798	draft_not_operational
+GYS-I056:F1	깨끗하다	has_surface_form	GYS-I056:A1:value	깨끗타	GYS-I056:A1	evidence:e26231813cb810c727c31f94	draft_not_operational
+GYS-I023:F1	뎁히다	has_surface_form	GYS-I023:F13	뎁히고	GYS-I023:A12	evidence:b08434ab98afd9d8ac29598a	draft_not_operational
+GYS-G028:F5	-커마	variant_of	GYS-G028:F1	-카마	GYS-G028:A5	evidence:7cd5f8d62ecbd150a6934d21	draft_not_operational
+GYS-H014:F3	-(으)이소	realizes	concept:IMPERATIVE	명령	GYS-H014:A3	evidence:d23b90cbba1a12fb0aeb0db0	draft_not_operational
+GYS-I029:F1	내루다	has_surface_form	GYS-I029:F3	내라라	GYS-I029:A2	evidence:c88ec7aa75e8b1fd074ae540	draft_not_operational
+GYS-H030:F4	-ㅂ니꺼예	has_interpretation	GYS-H030:A4:value	의문 + 예	GYS-H030:A4	evidence:07415c10348399edc88e4219	draft_not_operational
+GYS-I037:F1	뺏다	has_surface_form	GYS-I037:F4	뺏아가	GYS-I037:A3	evidence:7fdc1673146c18a7fa6876d6	draft_not_operational
+GYS-I042:F1	가줗다	has_surface_form	GYS-I042:F4	가자라	GYS-I042:A3	evidence:c93e3bd89ae14f8d40333d45	draft_not_operational
+GYS-G021:F4	-자테	variant_of	GYS-G021:F1	-한테	GYS-G021:A4	evidence:e3bf6ca592268a3590dd1b15	draft_not_operational
+GYS-I022:F1	디지다	has_surface_form	GYS-I022:F2	디지	GYS-I022:A1	evidence:fbb2b8f1412ba2bb54719798	draft_not_operational
+GYS-G007:F1	-라고 하다	shares_quotative_construction	GYS-P001:F1	-라고 하다	INT004	evidence:2986618cf10b488722450db0,evidence:e4ec7554df220cf94f470f02	author_proposed
+GYS-J058:F2	-노	realizes	concept:CONTENT_QUESTION	설명의문	GYS-J058:A2	evidence:0ecb5ca9b938b59bb23e6503	draft_not_operational
+GYS-J026:F2	-시소	realizes	concept:IMPERATIVE	명령	GYS-J026:A2	evidence:e2f7fcfbbc498f01331f12b9,evidence:38fb7002c47a3d97ee4f677e,evidence:de57c7b491d76d9c903ccab6	draft_not_operational
+GYS-G016:F3	-디이	variant_of	GYS-G016:F1	-대이	GYS-G016:A3	evidence:9f3045a7c36b7e4bdeaaae28,evidence:585e2db4783c649c0a5c9101,evidence:19c91732b7c5f876e65a929f	draft_not_operational
+GYS-O002:F1	삐다	has_surface_form	GYS-O002:F2	삐가	GYS-O002:A2	evidence:e5396bfb7425ddf26263e333	draft_not_operational
+GYS-G024:F2	-만	variant_of	GYS-G024:F1	-마	GYS-G024:A2	evidence:e3531b698ea6c04b12e62abc	draft_not_operational
+GYS-I038:F1	맺다	has_surface_form	GYS-I038:F2	맺아	GYS-I038:A1	evidence:5582faaa17fe3347623a705e	draft_not_operational
+GYS-J035:F1	-시더이	has_interpretation	GYS-J035:A3:value	더+이 또는 데이 계열 여부 유보	GYS-J035:A3	evidence:df2eab5f46a165c53e417fe0	draft_not_operational
+GYS-Q003:F1	-이가	realizes	concept:POLAR_QUESTION	판정의문	GYS-Q003:A1	evidence:3fa13245dd479bcfe039d008,evidence:6d589ab8448666fd77eaeeb6,evidence:4f3bed217085a58ba56bc7ca	draft_not_operational
+GYS-I044:F1	가지다	has_surface_form	GYS-I044:F10	가지니	GYS-I044:A9	evidence:5128bdd87c35745e4b6f69e3	draft_not_operational
+GYS-I020:F1	삐다	has_surface_form	GYS-I020:F8	삤다	GYS-I020:A7	evidence:5c420de1f85589310fc6e572	draft_not_operational
+GYS-I041:F1	묵다	has_surface_form	GYS-I041:F9	무웄다	GYS-I041:A8	evidence:a6dd9020f75b6c861444c007	draft_not_operational
+GYS-R048:F1	-러	realizes	concept:PURPOSE	목적	GYS-R048:A1	evidence:04a27300f8b4cdccd47e66ac	draft_not_operational
+GYS-G028:F1	-카마	realizes	concept:COMPARISON	비교	GYS-G028:A1	evidence:7cd5f8d62ecbd150a6934d21	draft_not_operational
+GYS-I025:F1	시다	has_surface_form	GYS-I025:F7	시모	GYS-I025:A6	evidence:3d4b6f8b72ec7bac3a353b3f	draft_not_operational
+concept:INFLECTION	활용	has_surface_form	GYS-I013:A1:value	ㅔ형 어간에는 -어 결합	GYS-I013:A1	evidence:e87ca603b520fd3bbe71ff9c	draft_not_operational
+GYS-J047:F1	서지예	realizes	concept:DECLARATIVE	평서	GYS-J047:A1	evidence:6b16e043688891f48c409035	draft_not_operational
+GYS-I036:F1	뱉다	has_surface_form	GYS-I036:F6	뱉으니	GYS-I036:A5	evidence:f2f8581bd96124427f763a03	draft_not_operational
+GYS-I016:F2	-으면	realizes	concept:CONDITION	조건	GYS-I016:A2	evidence:35077563cc92000f224c6429	draft_not_operational
+GYS-I028:F1	두다	has_surface_form	GYS-I028:F6	도가	GYS-I028:A5	evidence:4d97eb8da7b5d1a0d7cf0549	draft_not_operational
+GYS-Q009:F2	-노	realizes	concept:INTERROGATIVE	의문	GYS-Q009:A2	evidence:2832b7d4a373710ee28c4925,evidence:4f3bed217085a58ba56bc7ca,evidence:369cb9749477b0c15fcab648	draft_not_operational
+GYS-H003:F2	-(느)ㄴ강	variant_of	GYS-H003:F1	-(느)ㄴ가	GYS-H003:A2	evidence:e7c3e01b3d95e3a1418d971c	draft_not_operational
+GYS-I048:F1	가아	has_interpretation	GYS-I048:A1:value	어간 변화와 장음화를 드러내는 원문 표기	GYS-I048:A1	evidence:cb8c7679a846de6e90593497	draft_not_operational
+GYS-G011:F1	부어	has_interpretation	GYS-G011:A1:value	물을 붓다의 제시 활용형	GYS-G011:A1	evidence:ef770ba2118cf3247f01585b	draft_not_operational
+GYS-G067:F2	함	realizes	concept:DISCOURSE_MARKER	담화표지	GYS-G067:A2	evidence:4eed8c1531259e8c719a097e	draft_not_operational
+GYS-J056:F1	-데이	realizes	concept:DECLARATIVE	평서	GYS-J056:A1	evidence:33f25a12f9d880b55f442c73	draft_not_operational
+GYS-I039:F1	겎다	has_surface_form	GYS-I039:F3	겎어라	GYS-I039:A2	evidence:801db49badc871b711b4c7c5	draft_not_operational
+GYS-I056:F3	시원하다	has_surface_form	GYS-I056:A2:value	시얺다/시얺네	GYS-I056:A2	evidence:e26231813cb810c727c31f94	draft_not_operational
+GYS-H022:F1	-니더	shares_function_with	GYS-J012:F1	-니더	INT033	evidence:350f66e71ad056ad4975d125,evidence:88a1bb5fe8f27de9704044e1	author_proposed
+GYS-J042:F1	-지	realizes	concept:INTERROGATIVE	의문	GYS-J042:A1	evidence:5fc42c5d5eeaa8fb254cd33a	draft_not_operational
+GYS-I026:F1	주다	has_surface_form	GYS-I026:F6	조가	GYS-I026:A5	evidence:9e1b73e8e1cc07df694b6918	draft_not_operational
+GYS-G013:F1	대다	has_interpretation	GYS-G013:A1:value	어떤 상태에 이르다	GYS-G013:A1	evidence:13bae4b16da220959d883622	draft_not_operational
+GYS-I048:F2	-아가	has_interpretation	GYS-I048:A3:value	특히 1음절 어간에서 -아가의 가에 강세가 놓이는 경향	GYS-I048:A3	evidence:cb8c7679a846de6e90593497	draft_not_operational
+GYS-J004:F1	-꾸마	has_interpretation	GYS-J004:A1:value	화자의 약속	GYS-J004:A1	evidence:4b8d8eed497aa2d4d4b403f9	draft_not_operational
+GYS-Q006:F1	-나	realizes	concept:POLAR_QUESTION	판정의문	GYS-Q006:A1	evidence:4f3bed217085a58ba56bc7ca	draft_not_operational
+GYS-P013:F1	갑갑하다	realizes	concept:ORTHOGRAPHY	표기	GYS-P013:A1	evidence:5e989d285378e2be2c902efe	draft_not_operational
+GYS-I036:F1	뱉다	has_surface_form	GYS-I036:F8	뱉으라고	GYS-I036:A7	evidence:f2f8581bd96124427f763a03	draft_not_operational
+GYS-J033:F1	-이시더	shares_function_with	GYS-H014:F4	-(으)이시더	INT037	evidence:52aa2cb6446b9fe233b3e4f4,evidence:d23b90cbba1a12fb0aeb0db0	author_proposed
+GYS-I021:F1	직이다	has_surface_form	GYS-I021:F9	직엤다	GYS-I021:A8	evidence:691d0040ab8a050708717799	draft_not_operational
+GYS-G069:F2	머라쿠다	has_interpretation	GYS-G069:A2:value	꾸짖다의 관용적 의미	GYS-G069:A2	evidence:eaf08067b745ba931c8f1928	draft_not_operational
+GYS-J033:F1	-이시더	realizes	concept:HORTATIVE	청유	GYS-J033:A1	evidence:52aa2cb6446b9fe233b3e4f4	draft_not_operational
+GYS-G012:F1	버리다	has_interpretation	GYS-G012:A1:value	쓸모없어진 것을 처분하다	GYS-G012:A1	evidence:472f14b9b21d7e3e2e9ace96,evidence:68d40731616797e1c25b9fac	draft_not_operational
+GYS-H030:F1	-ㅂ니다요	has_interpretation	GYS-H030:A1:value	평서 + 요	GYS-H030:A1	evidence:07415c10348399edc88e4219	draft_not_operational
+GYS-G071:F2	쌔 삐리다	contrasts_in_function	GYS-R011:F1	-어 삐다	INT051	evidence:7ec296a9bb32d7ff49df134d,evidence:eaf08067b745ba931c8f1928	author_proposed
+GYS-J008:F1	-고요	realizes	concept:CONTENT_QUESTION	설명의문	GYS-J008:A1	evidence:a3d52edb3cfed1717eb38b71	draft_not_operational
+GYS-I050:F2	나오다	has_surface_form	GYS-I050:A2:value	나온나	GYS-I050:A2	evidence:e93d4ca7c687ac9ebef69486	draft_not_operational
+concept:INFLECTION	활용	has_interpretation	GYS-I008:A1:value	기본적으로 ㅗ형이며 가끔 -아/어 없이 ㅜ형으로 활용	GYS-I008:A1	evidence:45dd246c644c1a7da3d8416f	draft_not_operational
+GYS-J006:F1	-구려	realizes	concept:DECLARATIVE	평서	GYS-J006:A1	evidence:2606c8a5b6e7ae066cb220d9	draft_not_operational
+GYS-I046:F1	오다	has_surface_form	GYS-I046:F11	오고	GYS-I046:A10	evidence:f5f23f8411f6c4e528f2518d	draft_not_operational
+GYS-H005:F3	-(느)ㄴ고요	has_interpretation	GYS-H005:A3:value	해요체 수준의 상대높임	GYS-H005:A3	evidence:cccaf98dd7de67351f81c324	draft_not_operational
+GYS-G019:F2	아이랐다	realizes	concept:PAST	과거	GYS-G019:A2	evidence:a0607ea2c5123832d99e38cb	draft_not_operational
+GYS-H012:F3	-(느)ㄴ강예	has_interpretation	GYS-H012:A3:value	해요체 수준의 상대높임	GYS-H012:A3	evidence:f7fd723cc2f61f040d8c5c50	draft_not_operational
+GYS-J002:F1	-ㄴ고	realizes	concept:CONTENT_QUESTION	설명의문	GYS-J002:A1	evidence:840118c744aa49727929e111	draft_not_operational
+GYS-I042:F1	가줗다	has_surface_form	GYS-I042:F12	가주라고	GYS-I042:A11	evidence:c93e3bd89ae14f8d40333d45	draft_not_operational
+GYS-J037:F3	-지 뭐	has_interpretation	GYS-J037:A2:value	종결 지 뒤 감탄사 뭐가 이어진 구성	GYS-J037:A2	evidence:1f3113ddaceb73112a4e20d0	draft_not_operational
+GYS-I036:F1	뱉다	has_surface_form	GYS-I036:F4	뱉아가	GYS-I036:A3	evidence:f2f8581bd96124427f763a03	draft_not_operational
+GYS-G050:F3	한 키	has_interpretation	GYS-G050:A3:value	사람 한 명	GYS-G050:A3	evidence:0ff072d945c3418c9893477e,evidence:5ff83935dc6f77e2c7c1104b,evidence:0756e9d8a7cacd957a489618	draft_not_operational
+GYS-H025:F1	-(이)ㄷ시더	attaches_to	GYS-H025:A1:value	이다/아니다	GYS-H025:A1	evidence:c48b2c96061bec3df1ce36f8,evidence:d15f4b6ee24a4cf03b729b54	draft_not_operational
+GYS-R051:F6	-구-	realizes	concept:CAUSATIVE	사동	GYS-R051:A6	evidence:d2d1ed39f84df42419fb170f,evidence:1bd662f0885a385b01f8bebd	draft_not_operational
+GYS-R041:F3	-아/어	has_interpretation	GYS-R041:A3:value	두루낮춤 서술	GYS-R041:A3	evidence:247057d1b18b0a2986a6bf24	draft_not_operational
+GYS-Q010:F2	-지	realizes	concept:CONTENT_QUESTION	설명의문	GYS-Q010:A2	evidence:369cb9749477b0c15fcab648	draft_not_operational
+GYS-G068:F2	언지	has_interpretation	GYS-G068:A2:value	강한 부정 반응	GYS-G068:A2	evidence:4eed8c1531259e8c719a097e	draft_not_operational
+GYS-R033:F7	거	has_interpretation	GYS-R033:A7:value	거기	GYS-R033:A7	evidence:c7ccfd2b14b810cb15851d73	draft_not_operational
+GYS-J019:F3	-심데이	realizes	concept:DECLARATIVE	평서	GYS-J019:A3	evidence:8c7d5be19f97755fb6a05ffb,evidence:d09b8ed88e06f2512083d043,evidence:3059d8414374206f43c932f1	draft_not_operational
+GYS-R036:F2	-서	has_interpretation	GYS-R036:A2:value	출발점·처소	GYS-R036:A2	evidence:3098571a75ea7be8a0720b5d,evidence:3d67e94aa0b0012fae089b98	draft_not_operational
+GYS-Q006:F1	-나	combines_with	GYS-Q006:F4	-겠-	GYS-Q006:A4	evidence:4f3bed217085a58ba56bc7ca	draft_not_operational
+GYS-J001:F1	-ㄴ가	same_usage_candidate	GYS-H003:F1	-(느)ㄴ가	INT014	evidence:0cd1fe5668b69f5ef349e4da,evidence:e7c3e01b3d95e3a1418d971c	author_proposed
+GYS-I037:F1	뺏다	has_surface_form	GYS-I037:F7	뺏으모	GYS-I037:A6	evidence:7fdc1673146c18a7fa6876d6	draft_not_operational
+GYS-H024:F5	-디껴	has_interpretation	GYS-H024:A5:value	회상 의문	GYS-H024:A5	evidence:4310604f13b1735a041cb923	draft_not_operational
+GYS-H016:F2	오시이새이	variant_of	GYS-H016:F1	오시이소이	GYS-H016:A2	evidence:ba389439c65b3091a15e0922	draft_not_operational
+GYS-H017:F2	해요	has_interpretation	GYS-H017:A2:value	해요체 하다	GYS-H017:A2	evidence:ffdaf366369c27a707d2e426	draft_not_operational
+GYS-R030:F1	야	has_interpretation	GYS-R030:A1:value	얘: 근칭 사람 지시	GYS-R030:A1	evidence:91408bd7d5120051449365b1,evidence:97b826361fb85c0ccb623038	draft_not_operational
+GYS-J020:F1	-(ㅂ)니껴	combines_with	GYS-J020:F4	-었-	GYS-J020:A4	evidence:7dddac1353253a46bf77fdad	draft_not_operational
+GYS-Q006:F2	-노	combines_with	GYS-Q006:F5	-더-	GYS-Q006:A8	evidence:4f3bed217085a58ba56bc7ca	draft_not_operational
+GYS-R034:F2	-이다	realizes	concept:COPULA	계사	GYS-R034:A3	evidence:da2a3ee55e4e4fe6a50e7c2c	draft_not_operational
+GYS-I024:F1	비이다	has_surface_form	GYS-I024:F12	비이라고	GYS-I024:A11	evidence:8a8c95201ae32492b743800a	draft_not_operational
+GYS-J005:F2	-래이	realizes	concept:EXCLAMATIVE	감탄	GYS-J005:A2	evidence:eab6a28bb6b2f828a0025ac0	draft_not_operational
+GYS-G061:F1	비이다	contrasts_with	GYS-G061:F2	비이다	GYS-G061:A3	evidence:acb59b1d160345be31058252	draft_not_operational
+GYS-R004:F1	-만치	realizes	concept:COMPARISON	비교	GYS-R004:A1	evidence:6f0ad4ab2b1531b2536bace4	draft_not_operational
+GYS-G040:F2	-시리	variant_of	GYS-G040:F1	-스리	GYS-G040:A2	evidence:2add67d46e873e4287b489a9	draft_not_operational
+GYS-P012:F3	-(으)ㄹ까	has_interpretation	GYS-P012:A3:value	ㄹ 탈락이 가능한 의문 구성의 표기	GYS-P012:A3	evidence:5e989d285378e2be2c902efe	draft_not_operational
+GYS-G065:F2	마	realizes	concept:DISCOURSE_MARKER	담화표지	GYS-G065:A2	evidence:e4e5d78709b5a28eed79b588	draft_not_operational
+GYS-G022:F1	-만치	realizes	concept:COMPARISON	비교	GYS-G022:A1	evidence:8a383604959be42d72466318	draft_not_operational
+GYS-G016:F1	-대이	realizes	concept:DECLARATIVE	평서	GYS-G016:A1	evidence:9f3045a7c36b7e4bdeaaae28,evidence:585e2db4783c649c0a5c9101,evidence:19c91732b7c5f876e65a929f	draft_not_operational
+GYS-R052:F3	-히-	realizes	concept:PASSIVE	피동	GYS-R052:A3	evidence:a155f00b4eccf67017e84bcf	draft_not_operational
+GYS-J040:F2	-제	realizes	concept:DECLARATIVE	평서	GYS-J040:A2	evidence:8815e6f2a797df4c56ca8be0	draft_not_operational
+GYS-H009:F1	-(느)ㄴ고	has_surface_form	GYS-H009:F3	-(느)ㄴ고예	GYS-H009:A2	evidence:f7fd723cc2f61f040d8c5c50	draft_not_operational
+GYS-G030:F1	-까지	realizes	concept:AUXILIARY_PARTICLE	보조사	GYS-G030:A1	evidence:63254f19d38c864740bba998	draft_not_operational
+GYS-H031:F1	-(스)ㅂ니다	has_interpretation	GYS-H031:A1:value	격식 평서	GYS-H031:A1	evidence:0c3d91a621a021139f6a6559	draft_not_operational
+GYS-I034:F1	섞우다	has_surface_form	GYS-I034:F4	섞아가	GYS-I034:A3	evidence:aa3e8e763460d0eae6bbf908	draft_not_operational
+GYS-R039:F7	-아/어요	has_interpretation	GYS-R039:A7:value	두루높임 명령	GYS-R039:A7	evidence:7de5feab40a57b1ce6a66bc6	draft_not_operational
+GYS-G067:F4	캄	realizes	concept:DISCOURSE_MARKER	담화표지	GYS-G067:A4	evidence:4eed8c1531259e8c719a097e	draft_not_operational
+GYS-G001:F1	-구로	scope_tension_with	GYS-Y009:F1	-거로	INT010	evidence:6a468799da6583f3d0483608,evidence:b549697f5f6083619899b768	held_scope_tension
+GYS-G035:F1	-(으)(ㄹ)께	realizes	concept:INTENTION	의도	GYS-G035:A1	evidence:519346cb3461f9e148eefee7	draft_not_operational
+GYS-J045:F5	-지예	realizes	concept:ADDRESSEE_HONORIFIC	상대높임	GYS-J045:A5	evidence:970e5d0f6d3697766d4375db	draft_not_operational
+GYS-O007:F2	칼끼없다	has_interpretation	GYS-O007:A2:value	앞 구성을 뺀 표면형만으로 흠잡을 데 없다는 의미를 확정하지 않음	GYS-O007:A2	evidence:f41b26159593079fe6943d53	draft_not_operational
+GYS-P008:F1	애끼다	realizes	concept:VOWEL	모음	GYS-P008:A1	evidence:445ac84bc5aaf3ca619e30c6	draft_not_operational
+GYS-G031:F4	-가	variant_of	GYS-G031:F1	-캉	GYS-G031:A4	evidence:ba19d808ed8e78c8ba068f24	draft_not_operational
+GYS-J007:F1	-구려	realizes	concept:IMPERATIVE	명령	GYS-J007:A1	evidence:f0d6f8c71072aa741acf0d57	draft_not_operational
+GYS-I028:F1	두다	has_surface_form	GYS-I028:F2	도	GYS-I028:A1	evidence:4d97eb8da7b5d1a0d7cf0549	draft_not_operational
+GYS-R051:F3	-히-	realizes	concept:CAUSATIVE	사동	GYS-R051:A3	evidence:d2d1ed39f84df42419fb170f,evidence:1bd662f0885a385b01f8bebd	draft_not_operational
+GYS-H028:F2	-아/어예	realizes	concept:ADDRESSEE_HONORIFIC	상대높임	GYS-H028:A2	evidence:4cf6b9d60a19e11d6d4ed618	draft_not_operational
+GYS-P004:F1	걸으니	shares_function_with	GYS-I017:F1	-으니	INT020	evidence:35077563cc92000f224c6429,evidence:3a7473e9275c7468e44b5265	author_proposed
+GYS-R046:F1	-걸랑	realizes	concept:CONDITION	조건	GYS-R046:A1	evidence:3ef3090e1d489a986f02b1ae	draft_not_operational
+GYS-R033:F8	저	has_interpretation	GYS-R033:A8:value	저기	GYS-R033:A8	evidence:c7ccfd2b14b810cb15851d73	draft_not_operational
+GYS-H017:F1	하요	has_interpretation	GYS-H017:A1:value	하소체 하다	GYS-H017:A1	evidence:ffdaf366369c27a707d2e426	draft_not_operational
+GYS-P014:F5	깊다	has_surface_form	GYS-P014:F6	짚다	GYS-P014:A4	evidence:5e989d285378e2be2c902efe	draft_not_operational
+GYS-J019:F1	-니데이	realizes	concept:DECLARATIVE	평서	GYS-J019:A1	evidence:8c7d5be19f97755fb6a05ffb,evidence:d09b8ed88e06f2512083d043,evidence:3059d8414374206f43c932f1	draft_not_operational
+GYS-I022:F1	디지다	has_surface_form	GYS-I022:F13	디지고	GYS-I022:A12	evidence:fbb2b8f1412ba2bb54719798	draft_not_operational
+GYS-O008:F3	뭐라카네	has_interpretation	GYS-O008:A3:value	진주 질문 후보	GYS-O008:A3	evidence:f41b26159593079fe6943d53	draft_not_operational
+GYS-R019:F1	-어 있다	realizes	concept:RESULTATIVE	결과상	GYS-R019:A1	evidence:2eb13ba8a819bb235ecc6c98	draft_not_operational
+GYS-I036:F1	뱉다	has_surface_form	GYS-I036:F2	뱉아	GYS-I036:A1	evidence:f2f8581bd96124427f763a03	draft_not_operational
+GYS-R021:F1	몬	realizes	concept:ABILITY_NEGATION	능력부정	GYS-R021:A1	evidence:ddadefe24ba8af88016134ef	draft_not_operational
+GYS-I017:F1	-으니	has_surface_form	GYS-I017:F2	-으이	GYS-I017:A1	evidence:35077563cc92000f224c6429	draft_not_operational
+GYS-G001:F2	-그로	variant_of	GYS-G001:F1	-구로	GYS-G001:A2	evidence:c9749a6ea97f44d277608d03	draft_not_operational
+GYS-H015:F1	오이소	shares_function_with	GYS-J026:F1	-이소	INT032	evidence:e2f7fcfbbc498f01331f12b9,evidence:e45be5502a050925ce2eedec	author_proposed
+concept:ORTHOGRAPHY	표기	has_interpretation	GYS-I056:A4:value	일부 복합 받침의 전산화 제약 때문에 -타 표기를 사용한다는 문서의 설명	GYS-I056:A4	evidence:e93d4ca7c687ac9ebef69486	draft_not_operational
+GYS-J050:F1	-ㅅ세	realizes	concept:DECLARATIVE	평서	GYS-J050:A1	evidence:f24e561c7d86b4cd31583457	draft_not_operational
+GYS-J012:F4	-심니더	has_interpretation	GYS-J012:A4:value	습 계열의 비음동화형	GYS-J012:A4	evidence:88a1bb5fe8f27de9704044e1	draft_not_operational
+GYS-R002:F2	∅	has_interpretation	GYS-R002:A2:value	목적격 생략 사례	GYS-R002:A2	evidence:4e0d50042f68d27b4bd1b448	draft_not_operational
+GYS-J002:F2	-ㄴ공	variant_of	GYS-J002:F1	-ㄴ고	GYS-J002:A2	evidence:840118c744aa49727929e111	draft_not_operational
+GYS-R024:F1	-게 되다	has_applicability_constraint	GYS-Y008:A1	GYS-Y008:A1	INT011	evidence:65d9cfcc3b79fca5150c00cb,evidence:f93273b2f572efa8a8cd2d61	author_proposed
+GYS-G049:F1	서이	has_interpretation	GYS-G049:A1:value	수사 셋	GYS-G049:A1	evidence:ff4e5eb74f0131172e9176b0	draft_not_operational
+GYS-I044:F1	가지다	has_surface_form	GYS-I044:F6	가지가	GYS-I044:A5	evidence:5128bdd87c35745e4b6f69e3	draft_not_operational
+GYS-I021:F1	직이다	has_surface_form	GYS-I021:F2	직이	GYS-I021:A1	evidence:691d0040ab8a050708717799	draft_not_operational
+GYS-Q006:F2	-노	combines_with	GYS-Q006:F3	-었-	GYS-Q006:A6	evidence:4f3bed217085a58ba56bc7ca	draft_not_operational
+GYS-G024:F1	-마	realizes	concept:FOCUS	초점	GYS-G024:A1	evidence:e3531b698ea6c04b12e62abc	draft_not_operational
+concept:INFLECTION	활용	has_surface_form	GYS-I007:A1:value	ㅜ가 ㅗ로 나타나는 -아/어 계열 활용	GYS-I007:A1	evidence:45dd246c644c1a7da3d8416f	draft_not_operational
+GYS-G066:F2	마	realizes	concept:USAGE	사용맥락	GYS-G066:A2	evidence:4eed8c1531259e8c719a097e	draft_not_operational
+GYS-R025:F1	-노	shares_function_with	GYS-Q002:F1	-노	INT017	evidence:2832b7d4a373710ee28c4925,evidence:2caae863e882289a39c2d510	author_proposed
+GYS-I035:F1	배우다	has_surface_form	GYS-I035:F8	배우라고	GYS-I035:A7	evidence:36c95a3cc95a6b269fe96ac0	draft_not_operational
+GYS-I051:F2	옸다	has_interpretation	GYS-I051:A2:value	대구 화자에게도 가끔 보인다는 왔다의 변이	GYS-I051:A2	evidence:e93d4ca7c687ac9ebef69486	draft_not_operational
+GYS-Q003:F2	-가	realizes	concept:POLAR_QUESTION	판정의문	GYS-Q003:A2	evidence:3fa13245dd479bcfe039d008,evidence:6d589ab8448666fd77eaeeb6,evidence:4f3bed217085a58ba56bc7ca	draft_not_operational
+GYS-Q001:F1	-나	realizes	concept:POLAR_QUESTION	판정의문	GYS-Q001:A1	evidence:2832b7d4a373710ee28c4925,evidence:3fa13245dd479bcfe039d008,evidence:4f3bed217085a58ba56bc7ca	draft_not_operational
+GYS-R050:F4	내일 ... -ㄴ다	has_interpretation	GYS-R050:A4:value	시간부사와 현재형으로 미래 사건 표현	GYS-R050:A4	evidence:ba42ba903470388169f9feb5	draft_not_operational
+GYS-J029:F1	-세	realizes	concept:IMPERATIVE	명령	GYS-J029:A1	evidence:57c96a2c0a8f113d76014609	draft_not_operational
+GYS-R057:F1	-어 보다	has_interpretation	GYS-R057:A1:value	원문의 시행 분류; 예는 추측으로 읽힘	GYS-R057:A1	evidence:af58900bdd51b8ec3c8282c2	draft_not_operational
+GYS-J024:F1	-ㄴ교	has_interpretation	GYS-J024:A3:value	-는 것+이+요의 문법화 분석	GYS-J024:A3	evidence:15146d0e48ec03cd860d6ed4,evidence:71866eec66e0e2f88e148f5e	draft_not_operational
+GYS-G020:F1	아이래	has_interpretation	GYS-G020:A1:value	아니다의 비격식 현재형	GYS-G020:A1	evidence:22a84d917b3d784f723276cc	draft_not_operational
+GYS-I049:F1	돌다	has_surface_form	GYS-I049:F3	도가	GYS-I049:A4	evidence:cb8c7679a846de6e90593497	draft_not_operational
+GYS-G037:F4	-디마	variant_of	GYS-G037:F1	-더니만	GYS-G037:A4	evidence:9f3d8c25e02d0dfc614e55d7	draft_not_operational
+GYS-I020:F1	삐다	has_surface_form	GYS-I020:F13	삐고	GYS-I020:A12	evidence:5c420de1f85589310fc6e572	draft_not_operational
+GYS-J059:F1	말이노	realizes	concept:INTERROGATIVE	의문	GYS-J059:A1	evidence:592ad02d329d0fd1eb3cba3b	draft_not_operational
+GYS-O004:F3	-라카다	has_interpretation	GYS-O004:A3:value	라고 하다의 인용 구성	GYS-O004:A3	evidence:1981fa0c1fb3efd0dd85cc0e	draft_not_operational
+GYS-G018:F3	-이라요	combines_with	GYS-G018:A3:value	이라 + 요	GYS-G018:A3	evidence:397c079db70739a589f98e82,evidence:e18662b66e284544c37a9a0e,evidence:fa1dfeddbf3cc334824f5d7e	draft_not_operational
+GYS-R051:F4	-리-	realizes	concept:CAUSATIVE	사동	GYS-R051:A4	evidence:d2d1ed39f84df42419fb170f,evidence:1bd662f0885a385b01f8bebd	draft_not_operational
+GYS-P013:F3	남 탓하다	has_interpretation	GYS-P013:A3:value	탓하다의 ㅎ 관련 발음 변이를 철자 생략으로 강제하지 않음	GYS-P013:A3	evidence:5e989d285378e2be2c902efe	draft_not_operational
+GYS-I049:F2	달다	has_interpretation	GYS-I049:A6:value	표준어 달다와 요청 의미를 비교하는 표제어	GYS-I049:A6	evidence:cb8c7679a846de6e90593497	draft_not_operational
+GYS-J031:F1	도가	has_interpretation	GYS-J031:A1:value	도- + 가의 요청	GYS-J031:A1	evidence:d99e17c7aa7a963d0c4cefd7	draft_not_operational
+GYS-G038:F3	-지만	variant_of	GYS-G038:F1	-아도	GYS-G038:A3	evidence:684e64e7fdceed601b9e3e68	draft_not_operational
+concept:INFLECTION	활용	has_surface_form	GYS-I003:A1:value	어간 끝 ㅣ를 유지하며 -아/어가 별도 모음으로 나타나지 않음	GYS-I003:A1	evidence:df4e4d5401b1fab77aeca51f,evidence:45dd246c644c1a7da3d8416f	draft_not_operational
+GYS-R002:F1	-을/를	realizes	concept:OBJECT	목적어	GYS-R002:A1	evidence:4e0d50042f68d27b4bd1b448	draft_not_operational
+GYS-J031:F3	다고	has_interpretation	GYS-J031:A3:value	다- + 고의 요청	GYS-J031:A3	evidence:d99e17c7aa7a963d0c4cefd7	draft_not_operational
+GYS-J014:F2	-ㄹ라-	combines_with	GYS-J014:F3	-니더	GYS-J014:A2	evidence:066b8c1416ca83b30f70fdc8	draft_not_operational
+GYS-G009:F2	춥어	has_interpretation	GYS-G009:A2:value	춥다의 -어 활용	GYS-G009:A2	evidence:b565a23587cfa14507a0c1e3	draft_not_operational
+GYS-I025:F1	시다	has_surface_form	GYS-I025:F4	시가	GYS-I025:A3	evidence:3d4b6f8b72ec7bac3a353b3f	draft_not_operational
+GYS-R032:F4	무신	has_interpretation	GYS-R032:A4:value	무슨	GYS-R032:A4	evidence:3d0bc48f32a7222aa23c3f3b	draft_not_operational
+GYS-G052:F1	봉다리	realizes	concept:NOUN	명사	GYS-G052:A1	evidence:f42f93c89717e5cb85cff5f0	draft_not_operational
+GYS-I040:F1	젭다	has_surface_form	GYS-I040:F4	젭어가	GYS-I040:A3	evidence:fae551865cf4f5ae89dbca49	draft_not_operational
+GYS-I026:F1	주다	has_surface_form	GYS-I026:F5	주라	GYS-I026:A4	evidence:9e1b73e8e1cc07df694b6918	draft_not_operational
+GYS-I023:F1	뎁히다	has_surface_form	GYS-I023:F3	뎁헤	GYS-I023:A2	evidence:b08434ab98afd9d8ac29598a	draft_not_operational
+GYS-R056:F1	-어 지다	has_interpretation	GYS-R056:A1:value	원문의 피동 보조동사 분류; 예문 기능 재검토	GYS-R056:A1	evidence:a1cbbfa1b3de061cfa635bb6	draft_not_operational
+GYS-I021:F1	직이다	has_surface_form	GYS-I021:F6	직이가	GYS-I021:A5	evidence:691d0040ab8a050708717799	draft_not_operational
+GYS-J017:F1	-시더	contrasts_in_function	GYS-J034:F1	-시더	INT038	evidence:1e2d1c5d1d348c431ffed83d,evidence:38eedaa976ec11e8550db122	author_proposed
+GYS-J022:F1	-이껴	realizes	concept:INTERROGATIVE	의문	GYS-J022:A2	evidence:8ef36ee3db112c05a46d946c	draft_not_operational
+GYS-G038:F1	-아도	realizes	concept:CONCESSION	양보	GYS-G038:A1	evidence:684e64e7fdceed601b9e3e68	draft_not_operational
+GYS-H005:F1	-(느)ㄴ고	combines_with	GYS-H005:F2	요	GYS-H005:A1	evidence:cccaf98dd7de67351f81c324	draft_not_operational
+GYS-R049:F1	-ㄹ수록	realizes	concept:SUBORDINATION	종속접속	GYS-R049:A1	evidence:b16ed4cb5014ba55847320ef	draft_not_operational
+GYS-J048:F2	-구매	realizes	concept:EXCLAMATIVE	감탄	GYS-J048:A2	evidence:1cb3981ce977da5c832625b2	draft_not_operational
+GYS-I044:F1	가지다	has_surface_form	GYS-I044:F14	가지고	GYS-I044:A13	evidence:5128bdd87c35745e4b6f69e3	draft_not_operational
+GYS-R034:F3	-아/야	realizes	concept:ADDRESS	호칭	GYS-R034:A4	evidence:da2a3ee55e4e4fe6a50e7c2c	draft_not_operational
+concept:INFLECTION	활용	has_surface_form	GYS-I004:A1:value	같은 조건에서 어간 말모음 ㅔ 활용	GYS-I004:A1	evidence:df4e4d5401b1fab77aeca51f,evidence:45dd246c644c1a7da3d8416f	draft_not_operational
+GYS-I028:F1	두다	has_surface_form	GYS-I028:F4	도라	GYS-I028:A3	evidence:4d97eb8da7b5d1a0d7cf0549	draft_not_operational
+GYS-I055:F1	뚜디 맞다	has_interpretation	GYS-I055:A2:value	맞다와 앞말의 결합 축약으로 제시된 형태; 바탕별 일대일 대응은 보류	GYS-I055:A2	evidence:e93d4ca7c687ac9ebef69486	draft_not_operational
+GYS-I039:F1	겎다	has_surface_form	GYS-I039:F8	겎으라고	GYS-I039:A7	evidence:801db49badc871b711b4c7c5	draft_not_operational
+GYS-I026:F1	주다	has_surface_form	GYS-I026:F7	주가	GYS-I026:A6	evidence:9e1b73e8e1cc07df694b6918	draft_not_operational
+GYS-R029:F4	너들	has_interpretation	GYS-R029:A4:value	너희들의 복수 제시형	GYS-R029:A4	evidence:c9ed50754026de6e516fcd39	draft_not_operational
+GYS-I039:F1	겎다	has_surface_form	GYS-I039:F6	겎으니	GYS-I039:A5	evidence:801db49badc871b711b4c7c5	draft_not_operational
+GYS-I027:F1	꾸다	has_surface_form	GYS-I027:F12	꾸라고	GYS-I027:A11	evidence:cf5957fab1ed1497fa0a198e	draft_not_operational
+GYS-J039:F3	이라여	realizes	concept:ADDRESSEE_HONORIFIC	상대높임	GYS-J039:A3	evidence:cb09599585613bd8c71202c6	draft_not_operational
+GYS-J044:F1	-데이	contrasts_in_function	GYS-J056:F1	-데이	INT045	evidence:33f25a12f9d880b55f442c73,evidence:9d1a0fb06c60b3e5109ec4c6	author_proposed
+GYS-I042:F1	가줗다	has_surface_form	GYS-I042:F2	가자	GYS-I042:A1	evidence:c93e3bd89ae14f8d40333d45	draft_not_operational
+GYS-R040:F1	-자	has_interpretation	GYS-R040:A1:value	아주낮춤 청유	GYS-R040:A1	evidence:9659ac5a6ffa30241b6fff78	draft_not_operational
+GYS-P010:F1	방에	realizes	concept:DELETION	탈락	GYS-P010:A1	evidence:d084c995d049c288049ada4b	draft_not_operational
+GYS-I052:F1	-(느)ㄴ가 보다	has_surface_form	GYS-I052:F2	-(느)ㄴ가 배	GYS-I052:A2	evidence:e93d4ca7c687ac9ebef69486	draft_not_operational
+GYS-I024:F1	비이다	has_surface_form	GYS-I024:F5	베에라	GYS-I024:A4	evidence:8a8c95201ae32492b743800a	draft_not_operational
+GYS-I046:F1	오다	has_surface_form	GYS-I046:F3	온나	GYS-I046:A2	evidence:f5f23f8411f6c4e528f2518d	draft_not_operational
+GYS-H009:F1	-(느)ㄴ고	combines_with	GYS-H009:F2	예	GYS-H009:A1	evidence:f7fd723cc2f61f040d8c5c50	draft_not_operational
+GYS-Y006:F1	-거로 하-	has_construction_component	GYS-J004:F1	-꾸마	INT012	evidence:4b8d8eed497aa2d4d4b403f9,evidence:a347d26d9ee64261828eaa95	author_proposed
+GYS-P001:F1	-라고 하다	shares_quotative_construction	GYS-P002:F1	-라고 하다	INT005	evidence:85f608be1c87e83075b8fb1d,evidence:e4ec7554df220cf94f470f02	author_proposed
+GYS-R051:F8	-애-	realizes	concept:CAUSATIVE	사동	GYS-R051:A8	evidence:d2d1ed39f84df42419fb170f,evidence:1bd662f0885a385b01f8bebd	draft_not_operational
+GYS-J012:F3	-ㅁ니더	variant_of	GYS-J012:F2	-ㅂ니더	GYS-J012:A3	evidence:88a1bb5fe8f27de9704044e1	draft_not_operational
+GYS-I041:F1	묵다	has_surface_form	GYS-I041:F2	묵어	GYS-I041:A1	evidence:a6dd9020f75b6c861444c007	draft_not_operational
+GYS-J054:F1	-ㅅ다	realizes	concept:DECLARATIVE	평서	GYS-J054:A1	evidence:bb01949aeb7e444418961413	draft_not_operational
+GYS-J049:F1	-소	combines_with	GYS-J049:F2	-었-	GYS-J049:A2	evidence:8d9089f373cd3029003b41f0	draft_not_operational
+GYS-R040:F3	-ㅂ시다	has_interpretation	GYS-R040:A3:value	아주높임 청유	GYS-R040:A3	evidence:9659ac5a6ffa30241b6fff78	draft_not_operational
+GYS-I042:F1	가줗다	has_surface_form	GYS-I042:F7	가아가	GYS-I042:A6	evidence:c93e3bd89ae14f8d40333d45	draft_not_operational
+GYS-Y012:F1	-거로	excludes_function	GYS-Y012:A1:value	guess_the_answer	GYS-Y012:A1	evidence:929ea8c04387bf02ad9496ae	draft_not_operational
+GYS-J043:F5	-ㄹ꼬	realizes	concept:INTERROGATIVE	의문	GYS-J043:A5	evidence:762f9b58c1d61b4207e9961d	draft_not_operational
+GYS-H007:F3	-(느)ㄴ공요	has_interpretation	GYS-H007:A3:value	해요체 수준의 상대높임	GYS-H007:A3	evidence:f7fd723cc2f61f040d8c5c50	draft_not_operational
+GYS-J036:F2	-제	realizes	concept:HORTATIVE	청유	GYS-J036:A2	evidence:ba22b9a7179b468d14003f28	draft_not_operational
+GYS-Y002:F1	-거로	has_interpretation	GYS-Y002:A1:value	어떤 사태가 성립할 정도로	GYS-Y002:A1	evidence:144b002d884a8fa24d5e1914	draft_not_operational
+GYS-J026:F4	-이시소	realizes	concept:IMPERATIVE	명령	GYS-J026:A4	evidence:e2f7fcfbbc498f01331f12b9,evidence:38fb7002c47a3d97ee4f677e,evidence:de57c7b491d76d9c903ccab6	draft_not_operational
+GYS-G062:F2	찹다	has_interpretation	GYS-G062:A2:value	차갑다 뜻풀이와 동사 표기의 불일치	GYS-G062:A2	evidence:e4e5d78709b5a28eed79b588	draft_not_operational
+GYS-G021:F5	-저테	variant_of	GYS-G021:F1	-한테	GYS-G021:A5	evidence:e3bf6ca592268a3590dd1b15	draft_not_operational
+GYS-I035:F1	배우다	has_surface_form	GYS-I035:F9	배우고	GYS-I035:A8	evidence:36c95a3cc95a6b269fe96ac0	draft_not_operational
+GYS-G028:F2	-카머	variant_of	GYS-G028:F1	-카마	GYS-G028:A2	evidence:7cd5f8d62ecbd150a6934d21	draft_not_operational
+GYS-I031:F1	뿌수다	has_surface_form	GYS-I031:F2	뿌사	GYS-I031:A1	evidence:073ac75f926196eced3665b6	draft_not_operational
+GYS-R017:F1	-ㄴ가 보다	realizes	concept:GUESS	추측	GYS-R017:A1	evidence:9360b77da3ae7e60a3d77fdd	draft_not_operational
+GYS-I042:F1	가줗다	has_surface_form	GYS-I042:F9	가았다	GYS-I042:A8	evidence:c93e3bd89ae14f8d40333d45	draft_not_operational
+GYS-I039:F1	겎다	has_surface_form	GYS-I039:F5	겎었다	GYS-I039:A4	evidence:801db49badc871b711b4c7c5	draft_not_operational
+GYS-Y001:F1	-거로	realizes	concept:PURPOSE	목적	GYS-Y001:A1	evidence:7985aa3346d1dcb35a9caca9	draft_not_operational
+GYS-H026:F2	-끼요	has_interpretation	GYS-H026:A2:value	-ㄹ까요? 대응 구성	GYS-H026:A2	evidence:0f91a046460e35f9e4f4c6f2	draft_not_operational
+GYS-I049:F5	도고	has_interpretation	GYS-I049:A2:value	대구·경주의 명령형 변이	GYS-I049:A2	evidence:cb8c7679a846de6e90593497	draft_not_operational
+GYS-H028:F1	-아/어요	realizes	concept:ADDRESSEE_HONORIFIC	상대높임	GYS-H028:A1	evidence:4cf6b9d60a19e11d6d4ed618	draft_not_operational
+GYS-Y006:F1	-거로 하-	has_interpretation	GYS-Y006:A1:value	화자의 약속	GYS-Y006:A1	evidence:937235122a99357a0fd924ac	draft_not_operational
+GYS-I044:F1	가지다	has_surface_form	GYS-I044:F11	가지모	GYS-I044:A10	evidence:5128bdd87c35745e4b6f69e3	draft_not_operational
+GYS-G046:F1	짜	has_interpretation	GYS-G046:A1:value	쪽	GYS-G046:A1	evidence:5a41f6f8e98770dd2e49b280	draft_not_operational
+GYS-G041:F3	-니라고	variant_of	GYS-G041:F1	-니라	GYS-G041:A3	evidence:7bbcb4baca4c8268a8141bbb	draft_not_operational
+GYS-G022:F5	-맨큼	variant_of	GYS-G022:F1	-만치	GYS-G022:A5	evidence:8a383604959be42d72466318	draft_not_operational
+GYS-G070:F1	말이가 방구가	realizes	concept:USAGE	사용맥락	GYS-G070:A1	evidence:eaf08067b745ba931c8f1928	draft_not_operational
+GYS-O003:F1	방+에	contracts_to	GYS-O003:F2	바아	GYS-O003:A1	evidence:2d8a5c0857e43a213be4e3aa	draft_not_operational
+GYS-P007:F1	며칠	realizes	concept:ASSIMILATION	동화	GYS-P007:A1	evidence:445ac84bc5aaf3ca619e30c6	draft_not_operational
+GYS-G025:F1	-(이)사	realizes	concept:EMPHASIS	강조	GYS-G025:A1	evidence:8c5c2b490c71322d9166094d	draft_not_operational
+GYS-J051:F1	-ㅁ세	realizes	concept:INTENTION	의도	GYS-J051:A1	evidence:ae5b51b840546845953bb8f5	draft_not_operational
+GYS-P011:F1	이거	realizes	concept:CONTRACTION	축약	GYS-P011:A1	evidence:3c65ab2e6f3f17db91c9149d	draft_not_operational
+GYS-H002:F3	-(스)ㅂ니까	realizes	concept:INTERROGATIVE	의문	GYS-H002:A3	evidence:86d262f613bf194a047217de,evidence:abcd4e443ac6822dce4f0036	draft_not_operational
+GYS-I041:F1	묵다	has_surface_form	GYS-I041:F13	무우모	GYS-I041:A12	evidence:a6dd9020f75b6c861444c007	draft_not_operational
+GYS-H018:F1	-요	attaches_to	GYS-H018:A1:value	ㄹ 말음 또는 모음 말음	GYS-H018:A1	evidence:1a1573980ffde7d1a3f69eb2	draft_not_operational
+GYS-I026:F1	주다	has_surface_form	GYS-I026:F2	조	GYS-I026:A1	evidence:9e1b73e8e1cc07df694b6918	draft_not_operational
+GYS-R015:F1	-어 싸다	realizes	concept:EMPHASIS	강조	GYS-R015:A1	evidence:b4e09a554e70940a1c187b47	draft_not_operational
+GYS-Y009:F1	-거로	realizes	concept:MANNER	방식	GYS-Y009:A1	evidence:8302ae1423be98f7ae1ba3fe	draft_not_operational
+GYS-Q004:F1	-이고	realizes	concept:CONTENT_QUESTION	설명의문	GYS-Q004:A1	evidence:3fa13245dd479bcfe039d008,evidence:6d589ab8448666fd77eaeeb6,evidence:4f3bed217085a58ba56bc7ca	draft_not_operational
+GYS-H010:F1	-(느)ㄴ가	has_surface_form	GYS-H010:F3	-(느)ㄴ가예	GYS-H010:A2	evidence:f7fd723cc2f61f040d8c5c50	draft_not_operational
+GYS-H012:F1	-(느)ㄴ강	combines_with	GYS-H012:F2	예	GYS-H012:A1	evidence:f7fd723cc2f61f040d8c5c50	draft_not_operational
+GYS-R058:F5	보도시	has_interpretation	GYS-R058:A5:value	겨우	GYS-R058:A5	evidence:f55eaeef60cae2314b4891c2	draft_not_operational
+GYS-G033:F2	-든지	variant_of	GYS-G033:F1	-든	GYS-G033:A2	evidence:34f0cf2ea91e1eb3f79381c8	draft_not_operational
+GYS-I044:F1	가지다	has_surface_form	GYS-I044:F12	가지라고	GYS-I044:A11	evidence:5128bdd87c35745e4b6f69e3	draft_not_operational
+GYS-J013:F1	-(ㅂ)니더	combines_with	GYS-J013:F2	-었-	GYS-J013:A1	evidence:0c86a66d6926b2a668d63b39	draft_not_operational
+GYS-J006:F1	-구려	combines_with	GYS-J006:F3	-겠-	GYS-J006:A4	evidence:2606c8a5b6e7ae066cb220d9	draft_not_operational
+GYS-O001:F1	-로	same_usage_candidate	GYS-G002:F1	-로	INT013	evidence:2d64463b1beef1a73ce767e9,evidence:467574edaab834ee199042dd	author_proposed
+GYS-H006:F3	-(느)ㄴ가요	has_interpretation	GYS-H006:A3:value	해요체 수준의 상대높임	GYS-H006:A3	evidence:f7fd723cc2f61f040d8c5c50	draft_not_operational
+GYS-I023:F1	뎁히다	has_surface_form	GYS-I023:F5	뎁헤라	GYS-I023:A4	evidence:b08434ab98afd9d8ac29598a	draft_not_operational
+GYS-J039:F5	드래여	realizes	concept:ADDRESSEE_HONORIFIC	상대높임	GYS-J039:A5	evidence:cb09599585613bd8c71202c6	draft_not_operational
+GYS-H019:F3	-(느)ㄴ개	variant_of	GYS-H019:F1	-(느)ㄴ교	GYS-H019:A3	evidence:0d495758cd5f8aaae7630020	draft_not_operational
+GYS-R022:F1	-지 말다	realizes	concept:PROHIBITION	금지	GYS-R022:A1	evidence:b524fdb56b2d0bb10a5d5a63	draft_not_operational
+GYS-R037:F4	-마다	has_interpretation	GYS-R037:A4:value	분배	GYS-R037:A4	evidence:f5a0b2727bc8aad0c8e75d22	draft_not_operational
+GYS-P015:F2	쌔그럽다	has_interpretation	GYS-P015:A2:value	쌔그럽다는 새그럽다와 센말·여린말 구분 가능	GYS-P015:A2	evidence:47bdb619c7c1500644d0de92	draft_not_operational
+GYS-I049:F1	돌다	has_surface_form	GYS-I049:F4	두가	GYS-I049:A5	evidence:cb8c7679a846de6e90593497	draft_not_operational
+GYS-P011:F5	누구	has_surface_form	GYS-P011:F6	누	GYS-P011:A4	evidence:3c65ab2e6f3f17db91c9149d	draft_not_operational
+GYS-J046:F1	-요	realizes	concept:HORTATIVE	청유	GYS-J046:A1	evidence:3a6a6e55e0780bb0f8b824a8	draft_not_operational
+GYS-I045:F1	돌다/달다	has_surface_form	GYS-I045:F3	도가	GYS-I045:A2	evidence:58c07c33ffbf9c87d620d6e0	draft_not_operational
+GYS-R059:F4	쪽바로	has_interpretation	GYS-R059:A4:value	곧장	GYS-R059:A4	evidence:ba4e7337d7f64e62868f1a4d	draft_not_operational
+GYS-J041:F1	-끼	realizes	concept:INTENTION	의도	GYS-J041:A1	evidence:450b117bf9597cffc4d7a35f	draft_not_operational
+GYS-H015:F3	마시시이소	has_interpretation	GYS-H015:A3:value	마시다 + 주체높임 + 명령	GYS-H015:A3	evidence:e45be5502a050925ce2eedec	draft_not_operational
+GYS-J043:F3	-ㄹ까	realizes	concept:INTERROGATIVE	의문	GYS-J043:A3	evidence:762f9b58c1d61b4207e9961d	draft_not_operational
+GYS-I028:F1	두다	has_surface_form	GYS-I028:F11	두모	GYS-I028:A10	evidence:4d97eb8da7b5d1a0d7cf0549	draft_not_operational
+GYS-I040:F1	젭다	has_surface_form	GYS-I040:F7	젭으모	GYS-I040:A6	evidence:fae551865cf4f5ae89dbca49	draft_not_operational
+GYS-G033:F4	-든둥	variant_of	GYS-G033:F1	-든	GYS-G033:A4	evidence:34f0cf2ea91e1eb3f79381c8	draft_not_operational
+GYS-J021:F2	-디꺼	realizes	concept:INTERROGATIVE	의문	GYS-J021:A2	evidence:8357dbe1779686843e0f18df,evidence:74317e037146bd1718744ae6	draft_not_operational
+GYS-Q012:F1	-고	contrasts_with	GYS-Q012:F2	-꼬	GYS-Q012:A1	evidence:12aa1460e103c72669fae4dd	draft_not_operational
+GYS-Y010:F1	-거로	contrasts_in_function	GYS-Y011:F1	-거로	INT022	evidence:d1597d5b62cd0e2e070f2089,evidence:fd6fec272269e9e338df0ac5	author_proposed
+GYS-R024:F1	-게 되다	realizes	concept:AUXILIARY_PREDICATE	보조용언	GYS-R024:A1	evidence:f93273b2f572efa8a8cd2d61	draft_not_operational
+GYS-P009:F1	안녕하십니꺼	has_surface_form	GYS-P009:F2	안녕하심미꺼	GYS-P009:A2	evidence:8ede060deaef17e55f2b1ecf	draft_not_operational
+GYS-H021:F3	-누마	realizes	concept:DECLARATIVE	평서	GYS-H021:A3	evidence:e8b4d62673e6d7928bf6c0d4,evidence:7c77969faeead09aea919701,evidence:1f055812a3862938d2092aca	draft_not_operational
+GYS-I033:F1	뎁후다	has_surface_form	GYS-I033:F6	뎁후니	GYS-I033:A5	evidence:ba75f28277d8d2438c2676e9	draft_not_operational
+GYS-R056:F1	-어 지다	has_example	GYS-R056:F2	덥어 진다	GYS-R056:A2	evidence:a1cbbfa1b3de061cfa635bb6	draft_not_operational
+GYS-P017:F3	우찌 하노	has_surface_form	GYS-P017:F4	우짜노	GYS-P017:A3	evidence:a887b4bcaf989e202c7d346b	draft_not_operational
+GYS-J037:F1	-지	combines_with	GYS-J037:F2	뭐	GYS-J037:A1	evidence:1f3113ddaceb73112a4e20d0	draft_not_operational
+GYS-O010:F1	-시-	has_interpretation	GYS-O010:A1:value	주체높임 시 결합의 범위 문제	GYS-O010:A1	evidence:2efe4d639e030b3dab448926	draft_not_operational
+GYS-R032:F5	먼	has_interpretation	GYS-R032:A5:value	무슨	GYS-R032:A5	evidence:3d0bc48f32a7222aa23c3f3b	draft_not_operational
+GYS-J024:F2	-ㄴ기요	realizes	concept:INTERROGATIVE	의문	GYS-J024:A2	evidence:15146d0e48ec03cd860d6ed4,evidence:71866eec66e0e2f88e148f5e	draft_not_operational
+GYS-I032:F1	말루다	has_surface_form	GYS-I032:F9	말루고	GYS-I032:A8	evidence:4d55d855a41e724a55b98f8a	draft_not_operational
+GYS-H004:F2	-(느)ㄴ공	variant_of	GYS-H004:F1	-(느)ㄴ고	GYS-H004:A2	evidence:e7c3e01b3d95e3a1418d971c	draft_not_operational
+GYS-Y013:F1	-거로	realizes	concept:EXCLAMATIVE	감탄	GYS-Y013:A1	evidence:bfeb6f2d3e2fac94e3494a49	draft_not_operational
+GYS-G043:F1	-(으)ㄹ다	realizes	concept:MODALITY	양태	GYS-G043:A1	evidence:b01bc2318718936517463d24	draft_not_operational
+GYS-Y015:F1	-거로	excludes_combination	GYS-Y015:F2	끔	GYS-Y015:A1	evidence:4ea605d23f9846abc1c136ed	draft_not_operational
+GYS-J025:F1	-꾜	realizes	concept:INTERROGATIVE	의문	GYS-J025:A1	evidence:44a6644dbe1a9db728953aad,evidence:79ae0657e3d112b905d32562	draft_not_operational
+GYS-G032:F1	-카	realizes	concept:PARTICLE	조사	GYS-G032:A1	evidence:4d0bb8446a23c805d2e39a27	draft_not_operational
+GYS-Y004:F1	-거로 하-	realizes	concept:CAUSATIVE	사동	GYS-Y004:A1	evidence:5b61caf5592ccc0316c1f984	draft_not_operational
+GYS-R033:F5	여	has_interpretation	GYS-R033:A5:value	여기	GYS-R033:A5	evidence:c7ccfd2b14b810cb15851d73	draft_not_operational
+GYS-R011:F1	-어 삐다	has_inflection_description	GYS-I020:F1	삐다	INT001	evidence:5c420de1f85589310fc6e572,evidence:7ec296a9bb32d7ff49df134d	author_proposed
+GYS-R058:F3	한거석	has_interpretation	GYS-R058:A3:value	가득	GYS-R058:A3	evidence:f55eaeef60cae2314b4891c2	draft_not_operational
+GYS-J039:F2	이라예	realizes	concept:ADDRESSEE_HONORIFIC	상대높임	GYS-J039:A2	evidence:cb09599585613bd8c71202c6	draft_not_operational
+GYS-Y002:F2	-구로	variant_of	GYS-Y002:F1	-거로	GYS-Y002:A2	evidence:144b002d884a8fa24d5e1914	draft_not_operational
+GYS-Q005:F1	-가	attaches_to	GYS-Q005:F3	아이다	GYS-Q005:A3	evidence:6d589ab8448666fd77eaeeb6,evidence:4f3bed217085a58ba56bc7ca	draft_not_operational
+GYS-I044:F1	가지다	has_surface_form	GYS-I044:F3	가이	GYS-I044:A2	evidence:5128bdd87c35745e4b6f69e3	draft_not_operational
+GYS-I027:F1	꾸다	has_surface_form	GYS-I027:F4	꼬라	GYS-I027:A3	evidence:cf5957fab1ed1497fa0a198e	draft_not_operational
+GYS-R030:F3	자	has_interpretation	GYS-R030:A3:value	쟤: 원칭 사람 지시	GYS-R030:A3	evidence:91408bd7d5120051449365b1,evidence:97b826361fb85c0ccb623038	draft_not_operational
+GYS-I042:F1	가줗다	has_surface_form	GYS-I042:F5	가아라	GYS-I042:A4	evidence:c93e3bd89ae14f8d40333d45	draft_not_operational
+GYS-O001:F1	-로	realizes	concept:OBJECT	목적어	GYS-O001:A1	evidence:467574edaab834ee199042dd	draft_not_operational
+GYS-I021:F1	직이다	has_surface_form	GYS-I021:F10	직이니	GYS-I021:A9	evidence:691d0040ab8a050708717799	draft_not_operational
+GYS-J030:F1	-래	attaches_to	GYS-J030:A1:value	보다: 채록 자료의 관찰 범위	GYS-J030:A1	evidence:2949ae9219fa959c705e8591	draft_not_operational
+GYS-R026:F1	-네	realizes	concept:EXCLAMATIVE	감탄	GYS-R026:A1	evidence:170f8bd6667765d0f0d180a8	draft_not_operational
+GYS-H017:F4	아이라요	has_interpretation	GYS-H017:A4:value	해요체 아니다	GYS-H017:A4	evidence:ffdaf366369c27a707d2e426	draft_not_operational
+GYS-R043:F1	-ㅁ서	shares_function_with	GYS-G004:F1	-먼서로	INT039	evidence:0d8d2fccf04d7112fac4755a,evidence:3b0a3c7c59b1a831fe3ac661	author_proposed
+GYS-I035:F1	배우다	has_surface_form	GYS-I035:F2	배아	GYS-I035:A1	evidence:36c95a3cc95a6b269fe96ac0	draft_not_operational
+GYS-I027:F1	꾸다	has_surface_form	GYS-I027:F2	꼬	GYS-I027:A1	evidence:cf5957fab1ed1497fa0a198e	draft_not_operational
+GYS-G032:F3	-가	variant_of	GYS-G032:F1	-카	GYS-G032:A3	evidence:4d0bb8446a23c805d2e39a27	draft_not_operational
+GYS-J048:F3	-구마는	realizes	concept:EXCLAMATIVE	감탄	GYS-J048:A3	evidence:1cb3981ce977da5c832625b2	draft_not_operational
+GYS-I056:F3	시원하다	has_surface_form	GYS-I056:F7	섢네	GYS-I056:A9	evidence:8f31a756be349806278c8f2e	draft_not_operational
+GYS-G023:F4	-매이로	shares_function_with	GYS-R003:F1	-매이로	INT027	evidence:458e906cd36f7f5fdd86c186,evidence:ef102738f76922a5875569a1	author_proposed
+GYS-I038:F1	맺다	has_surface_form	GYS-I038:F6	맺으니	GYS-I038:A5	evidence:5582faaa17fe3347623a705e	draft_not_operational
+GYS-R017:F1	-ㄴ가 보다	shares_function_with	GYS-P003:F1	인가 보다	INT007	evidence:38d0c4037069e69daa0e028d,evidence:9360b77da3ae7e60a3d77fdd	author_proposed
+GYS-J032:F2	들온나	has_example	GYS-J032:A2:value	들어오다 계열의 명령	GYS-J032:A2	evidence:a45b1ca1dccc87c5a98df194	draft_not_operational
+GYS-I042:F1	가줗다	has_surface_form	GYS-I042:F8	가잤다	GYS-I042:A7	evidence:c93e3bd89ae14f8d40333d45	draft_not_operational
+GYS-G051:F1	수야	has_example	GYS-G051:A1:value	경수 → 수야	GYS-G051:A1	evidence:b4bb7fe68f39b3dafd308026,evidence:3044073d7f4a65cd09267fa2	draft_not_operational
+GYS-R036:F1	-(으)로	has_interpretation	GYS-R036:A1:value	도구·수단	GYS-R036:A1	evidence:3098571a75ea7be8a0720b5d,evidence:3d67e94aa0b0012fae089b98	draft_not_operational
+GYS-G016:F2	-다이	variant_of	GYS-G016:F1	-대이	GYS-G016:A2	evidence:9f3045a7c36b7e4bdeaaae28,evidence:585e2db4783c649c0a5c9101,evidence:19c91732b7c5f876e65a929f	draft_not_operational
+GYS-G012:F4	뿌다	variant_of	GYS-G012:F3	삐다	GYS-G012:A4	evidence:472f14b9b21d7e3e2e9ace96,evidence:68d40731616797e1c25b9fac	draft_not_operational
+GYS-I038:F1	맺다	has_surface_form	GYS-I038:F3	맺아라	GYS-I038:A2	evidence:5582faaa17fe3347623a705e	draft_not_operational
+GYS-I041:F1	묵다	has_surface_form	GYS-I041:F10	묵으니	GYS-I041:A9	evidence:a6dd9020f75b6c861444c007	draft_not_operational
+GYS-O005:F1	-는데	has_interpretation	GYS-O005:A1:value	대부분 지역에서 는데 유지라는 기술	GYS-O005:A1	evidence:4570020f9583b700b5462d77	draft_not_operational
+GYS-I015:F1	-아가	realizes	concept:CAUSE	이유	GYS-I015:A1	evidence:35077563cc92000f224c6429	draft_not_operational
+GYS-R007:F1	-꼬	realizes	concept:QUOTATION	인용	GYS-R007:A1	evidence:ad89c86de9e4484c9841ecd5	draft_not_operational
+GYS-I044:F1	가지다	has_surface_form	GYS-I044:F7	가이가	GYS-I044:A6	evidence:5128bdd87c35745e4b6f69e3	draft_not_operational
+GYS-I041:F1	묵다	has_surface_form	GYS-I041:F15	무우라고	GYS-I041:A14	evidence:a6dd9020f75b6c861444c007	draft_not_operational
+GYS-I032:F1	말루다	has_surface_form	GYS-I032:F2	말라	GYS-I032:A1	evidence:4d55d855a41e724a55b98f8a	draft_not_operational
+GYS-Q014:F2	-(이)로	realizes	concept:CONTENT_QUESTION	설명의문	GYS-Q014:A2	evidence:5c055cae6a96296c2e6e61c2	draft_not_operational
+GYS-I022:F1	디지다	has_surface_form	GYS-I022:F4	디지라	GYS-I022:A3	evidence:fbb2b8f1412ba2bb54719798	draft_not_operational
+GYS-I027:F1	꾸다	has_surface_form	GYS-I027:F10	꾸니	GYS-I027:A9	evidence:cf5957fab1ed1497fa0a198e	draft_not_operational
+GYS-O004:F2	그라다	has_interpretation	GYS-O004:A2:value	지시적 그러다 대응	GYS-O004:A2	evidence:1981fa0c1fb3efd0dd85cc0e	draft_not_operational
+GYS-R050:F3	-었더-	has_interpretation	GYS-R050:A3:value	과거·회상 결합	GYS-R050:A3	evidence:ba42ba903470388169f9feb5	draft_not_operational
+GYS-J031:F2	도고	has_interpretation	GYS-J031:A2:value	도- + 고의 요청	GYS-J031:A2	evidence:d99e17c7aa7a963d0c4cefd7	draft_not_operational
+GYS-I029:F1	내루다	has_surface_form	GYS-I029:F9	내루고	GYS-I029:A8	evidence:c88ec7aa75e8b1fd074ae540	draft_not_operational
+GYS-G032:F2	-까	variant_of	GYS-G032:F1	-카	GYS-G032:A2	evidence:4d0bb8446a23c805d2e39a27	draft_not_operational
+GYS-J042:F2	-제	realizes	concept:INTERROGATIVE	의문	GYS-J042:A2	evidence:5fc42c5d5eeaa8fb254cd33a	draft_not_operational
+GYS-R047:F1	-아/어서	shares_function_with	GYS-G034:F1	-(으)니까	INT041	evidence:81b5f80e15b4e76a5397e578,evidence:c4dd9772c2805eef15dbdaae	author_proposed
+GYS-H007:F1	-(느)ㄴ공	combines_with	GYS-H007:F2	요	GYS-H007:A1	evidence:f7fd723cc2f61f040d8c5c50	draft_not_operational
+GYS-I042:F1	가줗다	has_surface_form	GYS-I042:F11	가주모	GYS-I042:A10	evidence:c93e3bd89ae14f8d40333d45	draft_not_operational
+GYS-I030:F1	사우다	has_surface_form	GYS-I030:F6	사우니	GYS-I030:A5	evidence:88e9da67c941cb44524641e6	draft_not_operational
+GYS-G033:F3	-든동	variant_of	GYS-G033:F1	-든	GYS-G033:A3	evidence:34f0cf2ea91e1eb3f79381c8	draft_not_operational
+GYS-G015:F2	줄아	has_interpretation	GYS-G015:A2:value	방언형 줄웋다의 -아/어 활용	GYS-G015:A2	evidence:111e902db6f6feb33f891175	draft_not_operational
+GYS-J021:F2	-디꺼	combines_with	GYS-J021:F4	-었-	GYS-J021:A4	evidence:8357dbe1779686843e0f18df,evidence:74317e037146bd1718744ae6	draft_not_operational
+GYS-I039:F1	겎다	has_surface_form	GYS-I039:F2	겎어	GYS-I039:A1	evidence:801db49badc871b711b4c7c5	draft_not_operational
+GYS-G058:F2	디비지다	realizes	concept:VERB	동사	GYS-G058:A2	evidence:28d7c8824bb56d35428c0eb2	draft_not_operational
+GYS-I023:F1	뎁히다	has_surface_form	GYS-I023:F9	뎁헸다	GYS-I023:A8	evidence:b08434ab98afd9d8ac29598a	draft_not_operational
+GYS-O010:F1	-시-	scope_tension_with	GYS-Q007:F1	-가	INT049	evidence:2832b7d4a373710ee28c4925,evidence:2efe4d639e030b3dab448926	held_scope_tension
+GYS-Q013:F4	-(느)ㄴ공	variant_of	GYS-Q013:F2	-(느)ㄴ고	GYS-Q013:A4	evidence:12aa1460e103c72669fae4dd	draft_not_operational
+GYS-I020:F1	삐다	has_surface_form	GYS-I020:F5	뻬라	GYS-I020:A4	evidence:5c420de1f85589310fc6e572	draft_not_operational
+GYS-R023:F1	깨우다	has_surface_form	GYS-R023:F2	깨아라	GYS-R023:A2	evidence:1a896eb51d1ad900f14937cf	draft_not_operational
+GYS-I025:F1	시다	has_surface_form	GYS-I025:F8	시라고	GYS-I025:A7	evidence:3d4b6f8b72ec7bac3a353b3f	draft_not_operational
+GYS-J026:F1	-이소	realizes	concept:IMPERATIVE	명령	GYS-J026:A1	evidence:e2f7fcfbbc498f01331f12b9,evidence:38fb7002c47a3d97ee4f677e,evidence:de57c7b491d76d9c903ccab6	draft_not_operational
+GYS-I038:F1	맺다	has_surface_form	GYS-I038:F4	맺아가	GYS-I038:A3	evidence:5582faaa17fe3347623a705e	draft_not_operational
+GYS-Q004:F2	-고	realizes	concept:CONTENT_QUESTION	설명의문	GYS-Q004:A2	evidence:3fa13245dd479bcfe039d008,evidence:6d589ab8448666fd77eaeeb6,evidence:4f3bed217085a58ba56bc7ca	draft_not_operational
+GYS-I033:F1	뎁후다	has_surface_form	GYS-I033:F7	뎁후모	GYS-I033:A6	evidence:ba75f28277d8d2438c2676e9	draft_not_operational
+GYS-G033:F1	-든	realizes	concept:CONNECTIVE_ENDING	연결어미	GYS-G033:A1	evidence:34f0cf2ea91e1eb3f79381c8	draft_not_operational
+GYS-I039:F1	겎다	has_surface_form	GYS-I039:F9	겎고	GYS-I039:A8	evidence:801db49badc871b711b4c7c5	draft_not_operational
+GYS-I020:F1	삐다	has_surface_form	GYS-I020:F2	삐	GYS-I020:A1	evidence:5c420de1f85589310fc6e572	draft_not_operational
+GYS-G034:F3	-(으)이까네	variant_of	GYS-G034:F1	-(으)니까	GYS-G034:A3	evidence:c4dd9772c2805eef15dbdaae	draft_not_operational
+GYS-H003:F1	-(느)ㄴ가	realizes	concept:POLAR_QUESTION	판정의문	GYS-H003:A1	evidence:e7c3e01b3d95e3a1418d971c	draft_not_operational
+GYS-Y014:F1	-거로	combines_with	GYS-Y014:F3	도	GYS-Y014:A2	evidence:e087168da34bc2b416850835	draft_not_operational
+GYS-R051:F3	-히-	contrasts_in_function	GYS-R052:F3	-히-	INT030	evidence:a155f00b4eccf67017e84bcf,evidence:d2d1ed39f84df42419fb170f	author_proposed
+GYS-Y003:F1	-거로	has_interpretation	GYS-Y003:A1:value	동작이 지속되어 경계에 이를 때까지	GYS-Y003:A1	evidence:edd9f648d5c6e26bc3b9197c	draft_not_operational
+GYS-I046:F1	오다	has_surface_form	GYS-I046:F10	오라고	GYS-I046:A9	evidence:f5f23f8411f6c4e528f2518d	draft_not_operational
+GYS-I039:F1	겎다	has_surface_form	GYS-I039:F4	겎어가	GYS-I039:A3	evidence:801db49badc871b711b4c7c5	draft_not_operational
+GYS-H024:F3	-ㄹ 게니더	has_interpretation	GYS-H024:A3:value	-ㄹ 것입니다 대응	GYS-H024:A3	evidence:4310604f13b1735a041cb923	draft_not_operational
+GYS-H015:F2	오시이소	realizes	concept:SUBJECT_HONORIFIC	주체높임	GYS-H015:A2	evidence:e45be5502a050925ce2eedec	draft_not_operational
+GYS-R023:F1	깨우다	realizes	concept:CAUSATIVE	사동	GYS-R023:A1	evidence:1a896eb51d1ad900f14937cf	draft_not_operational
+GYS-J038:F1	-라	realizes	concept:DECLARATIVE	평서	GYS-J038:A1	evidence:78aacae4ec7bc7057a47df56	draft_not_operational
+GYS-H009:F3	-(느)ㄴ고예	has_interpretation	GYS-H009:A3:value	해요체 수준의 상대높임	GYS-H009:A3	evidence:f7fd723cc2f61f040d8c5c50	draft_not_operational
+GYS-O009:F1	머라꼬예	realizes	concept:USAGE	사용맥락	GYS-O009:A1	evidence:f2db10318ee75826bea50d1c	draft_not_operational
+GYS-I024:F1	비이다	has_surface_form	GYS-I024:F10	비이니	GYS-I024:A9	evidence:8a8c95201ae32492b743800a	draft_not_operational
+GYS-J046:F3	-지요	realizes	concept:HORTATIVE	청유	GYS-J046:A3	evidence:3a6a6e55e0780bb0f8b824a8	draft_not_operational
+GYS-I031:F1	뿌수다	has_surface_form	GYS-I031:F3	뿌사라	GYS-I031:A2	evidence:073ac75f926196eced3665b6	draft_not_operational
+GYS-G034:F1	-(으)니까	realizes	concept:CAUSE	이유	GYS-G034:A1	evidence:c4dd9772c2805eef15dbdaae	draft_not_operational
+GYS-G036:F2	-더이	variant_of	GYS-G036:F1	-더니	GYS-G036:A2	evidence:f656e14296e44e0810d92ee6	draft_not_operational
+GYS-R053:F1	-고 나다	has_interpretation	GYS-R053:A1:value	선행 행위 완료 후 후속 사태	GYS-R053:A1	evidence:d71ad41f4bdd643bfb58d3c6	draft_not_operational
+GYS-G063:F1	오야	realizes	concept:DISCOURSE_MARKER	담화표지	GYS-G063:A1	evidence:e4e5d78709b5a28eed79b588	draft_not_operational
+GYS-I030:F1	사우다	has_surface_form	GYS-I030:F2	사아	GYS-I030:A1	evidence:88e9da67c941cb44524641e6	draft_not_operational
+GYS-G050:F2	시나	has_interpretation	GYS-G050:A2:value	차례로 세는 셋	GYS-G050:A2	evidence:0ff072d945c3418c9893477e,evidence:5ff83935dc6f77e2c7c1104b,evidence:0756e9d8a7cacd957a489618	draft_not_operational
+GYS-I044:F1	가지다	has_surface_form	GYS-I044:F2	가지	GYS-I044:A1	evidence:5128bdd87c35745e4b6f69e3	draft_not_operational
+GYS-I032:F1	말루다	has_surface_form	GYS-I032:F4	말라가	GYS-I032:A3	evidence:4d55d855a41e724a55b98f8a	draft_not_operational
+GYS-J043:F4	-꼬	realizes	concept:INTERROGATIVE	의문	GYS-J043:A4	evidence:762f9b58c1d61b4207e9961d	draft_not_operational
+GYS-J015:F1	-디더	realizes	concept:PAST	과거	GYS-J015:A1	evidence:3d3eef92f060c5a2cbb0a7e4	draft_not_operational
+GYS-R032:F3	머	has_interpretation	GYS-R032:A3:value	뭐	GYS-R032:A3	evidence:3d0bc48f32a7222aa23c3f3b	draft_not_operational
+GYS-G039:F1	-지만	realizes	concept:COORDINATION	대등접속	GYS-G039:A1	evidence:5899fad5c095ebac88a2872f	draft_not_operational
+GYS-I047:F1	묵다	has_interpretation	GYS-I047:A1:value	-아/어 및 매개모음 으 계열에서 ㄱ 탈락과 우 결합을 설명	GYS-I047:A1	evidence:cb8c7679a846de6e90593497	draft_not_operational
+GYS-G032:F4	-캉	variant_of	GYS-G032:F1	-카	GYS-G032:A4	evidence:4d0bb8446a23c805d2e39a27	draft_not_operational
+GYS-G031:F2	-카	variant_of	GYS-G031:F1	-캉	GYS-G031:A2	evidence:ba19d808ed8e78c8ba068f24	draft_not_operational
+GYS-J005:F1	-아/어라	realizes	concept:EXCLAMATIVE	감탄	GYS-J005:A1	evidence:eab6a28bb6b2f828a0025ac0	draft_not_operational
+GYS-Q008:F2	어디	has_interpretation	GYS-Q008:A2:value	어딘가로 가는지/가는 장소가 어디인지의 복수 해석	GYS-Q008:A2	evidence:3fa13245dd479bcfe039d008	draft_not_operational
+GYS-I049:F6	다고	has_interpretation	GYS-I049:A3:value	안동의 명령형 변이	GYS-I049:A3	evidence:cb8c7679a846de6e90593497	draft_not_operational
+GYS-G031:F3	-까	variant_of	GYS-G031:F1	-캉	GYS-G031:A3	evidence:ba19d808ed8e78c8ba068f24	draft_not_operational
+GYS-G012:F3	삐다	has_inflection_description	GYS-I020:F1	삐다	INT026	evidence:472f14b9b21d7e3e2e9ace96,evidence:5c420de1f85589310fc6e572	author_proposed
+GYS-G051:F3	민이야	has_example	GYS-G051:A3:value	승민 → 민이야	GYS-G051:A3	evidence:b4bb7fe68f39b3dafd308026,evidence:3044073d7f4a65cd09267fa2	draft_not_operational
+GYS-H005:F1	-(느)ㄴ고	has_surface_form	GYS-H005:F3	-(느)ㄴ고요	GYS-H005:A2	evidence:cccaf98dd7de67351f81c324	draft_not_operational
+GYS-Y001:F3	-그로	variant_of	GYS-Y001:F1	-거로	GYS-Y001:A3	evidence:7985aa3346d1dcb35a9caca9	draft_not_operational
+GYS-Q014:F1	-(이)라	realizes	concept:POLAR_QUESTION	판정의문	GYS-Q014:A1	evidence:5c055cae6a96296c2e6e61c2	draft_not_operational
+GYS-I027:F1	꾸다	has_surface_form	GYS-I027:F6	꼬가	GYS-I027:A5	evidence:cf5957fab1ed1497fa0a198e	draft_not_operational
+GYS-G049:F2	너이	has_interpretation	GYS-G049:A2:value	수사 넷	GYS-G049:A2	evidence:ff4e5eb74f0131172e9176b0	draft_not_operational
+GYS-I039:F1	겎다	has_surface_form	GYS-I039:F7	겎으모	GYS-I039:A6	evidence:801db49badc871b711b4c7c5	draft_not_operational
+GYS-Q011:F1	-(으)까	variant_of	GYS-Q011:F3	-(으)ㄹ까	GYS-Q011:A1	evidence:369cb9749477b0c15fcab648	draft_not_operational
+GYS-G023:F2	-맨크로	variant_of	GYS-G023:F1	-맨치로	GYS-G023:A2	evidence:ef102738f76922a5875569a1	draft_not_operational
+GYS-R025:F1	-노	realizes	concept:CONTENT_QUESTION	설명의문	GYS-R025:A1	evidence:2caae863e882289a39c2d510	draft_not_operational
+GYS-G004:F1	-먼서로	has_interpretation	GYS-G004:A1:value	동시 행동 연결	GYS-G004:A1	evidence:3b0a3c7c59b1a831fe3ac661	draft_not_operational
+GYS-G036:F1	-더니	realizes	concept:CONNECTIVE_ENDING	연결어미	GYS-G036:A1	evidence:f656e14296e44e0810d92ee6	draft_not_operational
+GYS-J025:F2	-ㄹ꾜	realizes	concept:INTERROGATIVE	의문	GYS-J025:A2	evidence:44a6644dbe1a9db728953aad,evidence:79ae0657e3d112b905d32562	draft_not_operational
+GYS-I043:F1	가주다	has_surface_form	GYS-I043:F10	가주니	GYS-I043:A9	evidence:dd6b72422d8bfa6d928ce05f	draft_not_operational
+GYS-R040:F4	-아/어	has_interpretation	GYS-R040:A4:value	두루낮춤 청유	GYS-R040:A4	evidence:9659ac5a6ffa30241b6fff78	draft_not_operational
+GYS-G057:F1	할일없이	realizes	concept:ADVERB	부사	GYS-G057:A1	evidence:2ac806abf3e9598c6fe02ae5	draft_not_operational
+GYS-Q012:F3	머꼬	has_interpretation	GYS-Q012:A2:value	뭐야와 뭘까의 표면형 중의성; 원문은 억양 차이를 설명	GYS-Q012:A2	evidence:12aa1460e103c72669fae4dd	draft_not_operational
+GYS-G056:F1	파이다	realizes	concept:ADJECTIVE	형용사	GYS-G056:A1	evidence:2ac806abf3e9598c6fe02ae5	draft_not_operational
+GYS-G041:F1	-니라	realizes	concept:CAUSE	이유	GYS-G041:A1	evidence:7bbcb4baca4c8268a8141bbb	draft_not_operational
+GYS-R058:F2	쪼께만	has_interpretation	GYS-R058:A2:value	조금만	GYS-R058:A2	evidence:f55eaeef60cae2314b4891c2	draft_not_operational
+GYS-Y008:F1	-거로	excludes_combination	GYS-Y008:F2	되-	GYS-Y008:A1	evidence:0e65c7166a8ad67c71dbd798,evidence:65d9cfcc3b79fca5150c00cb	draft_not_operational
+GYS-I023:F1	뎁히다	has_surface_form	GYS-I023:F7	뎁헤가	GYS-I023:A6	evidence:b08434ab98afd9d8ac29598a	draft_not_operational
+GYS-G022:F6	-마이	variant_of	GYS-G022:F1	-만치	GYS-G022:A6	evidence:8a383604959be42d72466318	draft_not_operational
+GYS-I055:F2	뚜울(기) 맞다	has_interpretation	GYS-I055:A3:value	맞다와 앞말의 결합 축약으로 제시된 형태; 바탕별 일대일 대응은 보류	GYS-I055:A3	evidence:e93d4ca7c687ac9ebef69486	draft_not_operational
+GYS-I024:F1	비이다	has_surface_form	GYS-I024:F3	베에	GYS-I024:A2	evidence:8a8c95201ae32492b743800a	draft_not_operational
+GYS-J032:F1	온나	has_inflection_description	GYS-I050:F1	오다	INT036	evidence:a45b1ca1dccc87c5a98df194,evidence:e93d4ca7c687ac9ebef69486	author_proposed
+GYS-H004:F1	-(느)ㄴ고	contrasts_in_function	GYS-H013:F1	-(느)ㄴ고	INT023	evidence:b6ad66f7bd73a9724e750908,evidence:e7c3e01b3d95e3a1418d971c	author_proposed
+GYS-G029:F1	-밖이	realizes	concept:FOCUS	초점	GYS-G029:A1	evidence:dd94ee91b7cc109a14380ad8	draft_not_operational
+GYS-J026:F5	-이소이	realizes	concept:IMPERATIVE	명령	GYS-J026:A5	evidence:e2f7fcfbbc498f01331f12b9,evidence:38fb7002c47a3d97ee4f677e,evidence:de57c7b491d76d9c903ccab6	draft_not_operational
+GYS-J017:F2	-ㄹ시더	realizes	concept:COPULA	계사	GYS-J017:A2	evidence:1e2d1c5d1d348c431ffed83d	draft_not_operational
+GYS-J016:F1	-이더	attaches_to	GYS-J016:A1:value	형용사; 존재 있다의 직접 결합 예외	GYS-J016:A1	evidence:05987a7117947e6b5163a3a6	draft_not_operational
+GYS-G045:F1	-다카이	realizes	concept:EMPHASIS	강조	GYS-G045:A1	evidence:ce77e639469d27625b8a8d73	draft_not_operational
+GYS-I046:F1	오다	has_surface_form	GYS-I046:F2	와	GYS-I046:A1	evidence:f5f23f8411f6c4e528f2518d	draft_not_operational
+GYS-I020:F1	삐다	has_surface_form	GYS-I020:F3	뻬	GYS-I020:A2	evidence:5c420de1f85589310fc6e572	draft_not_operational
+GYS-R036:F3	-이랑	has_interpretation	GYS-R036:A3:value	공동·접속	GYS-R036:A3	evidence:3098571a75ea7be8a0720b5d,evidence:3d67e94aa0b0012fae089b98	draft_not_operational
+GYS-R028:F3	내들	has_interpretation	GYS-R028:A3:value	저희들 대응란의 내들	GYS-R028:A3	evidence:1912d617464593ba8776d754	draft_not_operational
+GYS-Y005:F1	-거로 하-	realizes	concept:IMPERATIVE	명령	GYS-Y005:A1	evidence:a22fa3b40bec2520586e6989,evidence:f7e35ae8cf28fc865e25222a	draft_not_operational
+GYS-I054:F3	일어나다	has_surface_form	GYS-I054:A3:value	일나다/인나다	GYS-I054:A3	evidence:e93d4ca7c687ac9ebef69486	draft_not_operational
+GYS-J057:F2	-고	realizes	concept:CONTENT_QUESTION	설명의문	GYS-J057:A2	evidence:e0184ac4c39b00d10467a77f	draft_not_operational
+GYS-Q007:F2	-고	realizes	concept:CONTENT_QUESTION	설명의문	GYS-Q007:A2	evidence:4f3bed217085a58ba56bc7ca	draft_not_operational
+GYS-H001:F1	-(느)ㄴ교	realizes	concept:INTERROGATIVE	의문	GYS-H001:A1	evidence:86d262f613bf194a047217de,evidence:abcd4e443ac6822dce4f0036	draft_not_operational
+GYS-R010:F1	-고 있다	realizes	concept:PROGRESSIVE	진행	GYS-R010:A1	evidence:11aeae7e10cd9a4cbac768c4	draft_not_operational
+GYS-R042:F3	-아/어요	has_interpretation	GYS-R042:A3:value	두루높임 감탄	GYS-R042:A3	evidence:f1171573043253abc3f3d71c	draft_not_operational
+GYS-G058:F1	디비다	realizes	concept:VERB	동사	GYS-G058:A1	evidence:28d7c8824bb56d35428c0eb2	draft_not_operational
+GYS-I043:F1	가주다	has_surface_form	GYS-I043:F11	가주모	GYS-I043:A10	evidence:dd6b72422d8bfa6d928ce05f	draft_not_operational
+GYS-I037:F1	뺏다	has_surface_form	GYS-I037:F6	뺏으니	GYS-I037:A5	evidence:7fdc1673146c18a7fa6876d6	draft_not_operational
+GYS-I022:F1	디지다	has_surface_form	GYS-I022:F7	디제가	GYS-I022:A6	evidence:fbb2b8f1412ba2bb54719798	draft_not_operational
+GYS-I041:F1	묵다	has_surface_form	GYS-I041:F11	무우니	GYS-I041:A10	evidence:a6dd9020f75b6c861444c007	draft_not_operational
+GYS-J045:F1	-ㄴ가요	realizes	concept:ADDRESSEE_HONORIFIC	상대높임	GYS-J045:A1	evidence:970e5d0f6d3697766d4375db	draft_not_operational
+GYS-J027:F2	낋이소	has_interpretation	GYS-J027:A2:value	사동 이 + 명령 소의 제시형	GYS-J027:A2	evidence:58db88f7db69d00a21b9f099	draft_not_operational
+GYS-R060:F2	는	realizes	concept:TOPIC	화제	GYS-R060:A2	evidence:6abce0b91ec1653236f61a47	draft_not_operational
+GYS-I035:F1	배우다	has_surface_form	GYS-I035:F6	배우니	GYS-I035:A5	evidence:36c95a3cc95a6b269fe96ac0	draft_not_operational
+GYS-G055:F1	잠오다	realizes	concept:PREDICATE	서술어	GYS-G055:A1	evidence:8967e0b61d47a7150ca73fc9	draft_not_operational
+GYS-P009:F1	안녕하십니꺼	realizes	concept:ORTHOGRAPHY	표기	GYS-P009:A1	evidence:8ede060deaef17e55f2b1ecf	draft_not_operational
+GYS-G007:F1	-라고 하다	contracts_to	GYS-G007:F2	-라카다	GYS-G007:A1	evidence:2986618cf10b488722450db0	draft_not_operational
+GYS-I045:F1	돌다/달다	has_surface_form	GYS-I045:F4	돌라고	GYS-I045:A3	evidence:58c07c33ffbf9c87d620d6e0	draft_not_operational
+GYS-G034:F4	-(으)니께네	variant_of	GYS-G034:F1	-(으)니까	GYS-G034:A4	evidence:c4dd9772c2805eef15dbdaae	draft_not_operational
+GYS-R050:F1	-었-	has_interpretation	GYS-R050:A1:value	과거 표지	GYS-R050:A1	evidence:ba42ba903470388169f9feb5	draft_not_operational
+GYS-I036:F1	뱉다	has_surface_form	GYS-I036:F7	뱉으모	GYS-I036:A6	evidence:f2f8581bd96124427f763a03	draft_not_operational
+GYS-R054:F1	-어 보이다	realizes	concept:GUESS	추측	GYS-R054:A1	evidence:d96ebec7a8e794f8616981db	draft_not_operational
+GYS-G020:F3	아이랬다	realizes	concept:PAST	과거	GYS-G020:A3	evidence:22a84d917b3d784f723276cc	draft_not_operational
+GYS-R017:F1	-ㄴ가 보다	shares_function_with	GYS-I052:F1	-(느)ㄴ가 보다	INT008	evidence:9360b77da3ae7e60a3d77fdd,evidence:e93d4ca7c687ac9ebef69486	author_proposed
+GYS-G066:F1	마	realizes	concept:EMPHASIS	강조	GYS-G066:A1	evidence:4eed8c1531259e8c719a097e	draft_not_operational
+GYS-I050:F4	올라오다	has_surface_form	GYS-I050:A4:value	올라온나	GYS-I050:A4	evidence:e93d4ca7c687ac9ebef69486	draft_not_operational
+GYS-I041:F1	묵다	has_surface_form	GYS-I041:F4	묵어라	GYS-I041:A3	evidence:a6dd9020f75b6c861444c007	draft_not_operational
+GYS-G050:F1	두나	has_interpretation	GYS-G050:A1:value	차례로 세는 둘	GYS-G050:A1	evidence:0ff072d945c3418c9893477e,evidence:5ff83935dc6f77e2c7c1104b,evidence:0756e9d8a7cacd957a489618	draft_not_operational
+GYS-H023:F2	궁급으이더	has_interpretation	GYS-H023:A2:value	궁금하다의 제시 예외	GYS-H023:A2	evidence:b4ad43993d2021a9b311336f	draft_not_operational
+GYS-R038:F1	-갖고	has_example	GYS-R038:A1:value	밥을 해갖고 먹자	GYS-R038:A1	evidence:d0c71aa5d677175419739696	draft_not_operational
+GYS-I031:F1	뿌수다	has_surface_form	GYS-I031:F5	뿌샀다	GYS-I031:A4	evidence:073ac75f926196eced3665b6	draft_not_operational
+GYS-H006:F1	-(느)ㄴ가	has_surface_form	GYS-H006:F3	-(느)ㄴ가요	GYS-H006:A2	evidence:f7fd723cc2f61f040d8c5c50	draft_not_operational
+GYS-P016:F1	그라다	realizes	concept:VERB	동사	GYS-P016:A1	evidence:a887b4bcaf989e202c7d346b	draft_not_operational
+GYS-J013:F1	-(ㅂ)니더	combines_with	GYS-J013:F3	-겠-	GYS-J013:A2	evidence:0c86a66d6926b2a668d63b39	draft_not_operational
+GYS-P012:F1	어디서	realizes	concept:CONTRACTION	축약	GYS-P012:A1	evidence:5e989d285378e2be2c902efe	draft_not_operational
+GYS-J039:F4	더라요	realizes	concept:ADDRESSEE_HONORIFIC	상대높임	GYS-J039:A4	evidence:cb09599585613bd8c71202c6	draft_not_operational
+GYS-I024:F1	비이다	has_surface_form	GYS-I024:F13	비이고	GYS-I024:A12	evidence:8a8c95201ae32492b743800a	draft_not_operational
+GYS-R005:F1	-먼	realizes	concept:CONDITION	조건	GYS-R005:A1	evidence:908dc92bf8f6a2da95768b2b	draft_not_operational
+GYS-H024:F1	-(으)ㄹ시더	has_interpretation	GYS-H024:A1:value	-겠습니다 대응	GYS-H024:A1	evidence:4310604f13b1735a041cb923	draft_not_operational
+GYS-J038:F3	-더라	realizes	concept:PAST	과거	GYS-J038:A3	evidence:78aacae4ec7bc7057a47df56	draft_not_operational
+GYS-G029:F3	-빼이	variant_of	GYS-G029:F1	-밖이	GYS-G029:A3	evidence:dd94ee91b7cc109a14380ad8	draft_not_operational
+GYS-R035:F1	-의	has_interpretation	GYS-R035:A1:value	관형격: 후속 조사에서 사용 관찰	GYS-R035:A1	evidence:b448afa169fb36e0b71fc8cb	draft_not_operational
+GYS-O004:F1	카다	has_interpretation	GYS-O004:A1:value	지시 동사와 인용 동사 구별이 필요한 카다	GYS-O004:A1	evidence:1981fa0c1fb3efd0dd85cc0e	draft_not_operational
+GYS-O004:F4	-라쿠다	has_interpretation	GYS-O004:A4:value	라고 하다의 인용 구성: 경남 서부·중부	GYS-O004:A4	evidence:1981fa0c1fb3efd0dd85cc0e	draft_not_operational
+GYS-G026:F3	-이	variant_of	GYS-G026:F1	-예	GYS-G026:A3	evidence:cf5bf79c5223dfe059421d6d	draft_not_operational
+GYS-R059:F3	백지	has_interpretation	GYS-R059:A3:value	공연히	GYS-R059:A3	evidence:ba4e7337d7f64e62868f1a4d	draft_not_operational
+GYS-J043:F2	-까	realizes	concept:INTERROGATIVE	의문	GYS-J043:A2	evidence:762f9b58c1d61b4207e9961d	draft_not_operational
+GYS-G065:F1	아나	contrasts_with	GYS-G065:F2	마	GYS-G065:A3	evidence:e4e5d78709b5a28eed79b588	draft_not_operational
+GYS-I036:F1	뱉다	has_surface_form	GYS-I036:F9	뱉고	GYS-I036:A8	evidence:f2f8581bd96124427f763a03	draft_not_operational
+GYS-J012:F4	-심니더	contracts_to	GYS-J012:F6	-심더	GYS-J012:A6	evidence:88a1bb5fe8f27de9704044e1	draft_not_operational
+GYS-R029:F1	니	contrasts_in_function	GYS-G049:F4	니	INT042	evidence:c9ed50754026de6e516fcd39,evidence:ff4e5eb74f0131172e9176b0	author_proposed
+GYS-I042:F1	가줗다	has_surface_form	GYS-I042:F13	가줗고	GYS-I042:A12	evidence:c93e3bd89ae14f8d40333d45	draft_not_operational
+GYS-P016:F2	카다	realizes	concept:VERB	동사	GYS-P016:A2	evidence:a887b4bcaf989e202c7d346b	draft_not_operational
+GYS-I028:F1	두다	has_surface_form	GYS-I028:F5	두라	GYS-I028:A4	evidence:4d97eb8da7b5d1a0d7cf0549	draft_not_operational
+GYS-J004:F2	-ㄹ꾸마	variant_of	GYS-J004:F1	-꾸마	GYS-J004:A2	evidence:4b8d8eed497aa2d4d4b403f9	draft_not_operational
+GYS-G051:F2	민아	has_example	GYS-G051:A2:value	승민 → 민아	GYS-G051:A2	evidence:b4bb7fe68f39b3dafd308026,evidence:3044073d7f4a65cd09267fa2	draft_not_operational
+GYS-I043:F1	가주다	has_surface_form	GYS-I043:F3	가아	GYS-I043:A2	evidence:dd6b72422d8bfa6d928ce05f	draft_not_operational
+GYS-G018:F4	-이라예	combines_with	GYS-G018:A4:value	이라 + 예	GYS-G018:A4	evidence:397c079db70739a589f98e82,evidence:e18662b66e284544c37a9a0e,evidence:fa1dfeddbf3cc334824f5d7e	draft_not_operational
+GYS-G067:F1	하모	realizes	concept:DISCOURSE_MARKER	담화표지	GYS-G067:A1	evidence:4eed8c1531259e8c719a097e	draft_not_operational
+GYS-I046:F1	오다	has_surface_form	GYS-I046:F8	오니	GYS-I046:A7	evidence:f5f23f8411f6c4e528f2518d	draft_not_operational
+GYS-I020:F1	삐다	has_surface_form	GYS-I020:F10	삐니	GYS-I020:A9	evidence:5c420de1f85589310fc6e572	draft_not_operational
+GYS-R018:F1	-고 싶다	realizes	concept:MODALITY	양태	GYS-R018:A1	evidence:175f91675ea0e2885f85744a	draft_not_operational
+GYS-H011:F1	-(느)ㄴ공	combines_with	GYS-H011:F2	예	GYS-H011:A1	evidence:f7fd723cc2f61f040d8c5c50	draft_not_operational
+GYS-J050:F2	-겠세	realizes	concept:DECLARATIVE	평서	GYS-J050:A2	evidence:f24e561c7d86b4cd31583457	draft_not_operational
+GYS-J055:F1	-ㄹ끼다	combines_with	GYS-J055:F2	-ㄹ	GYS-J055:A2	evidence:bb01949aeb7e444418961413	draft_not_operational
+GYS-I050:F1	오다	has_surface_form	GYS-I050:A1:value	온나·오니라·오이라·온니라·온나이·온내이·온니이·온너래이	GYS-I050:A1	evidence:e93d4ca7c687ac9ebef69486	draft_not_operational
+GYS-I037:F1	뺏다	has_surface_form	GYS-I037:F3	뺏아라	GYS-I037:A2	evidence:7fdc1673146c18a7fa6876d6	draft_not_operational
+GYS-I020:F1	삐다	has_surface_form	GYS-I020:F9	뼀다	GYS-I020:A8	evidence:5c420de1f85589310fc6e572	draft_not_operational
+GYS-G048:F1	-어 제끼다	has_interpretation	GYS-G048:A1:value	마구 -어 버리다	GYS-G048:A1	evidence:20d2477a31d21026a590d844,evidence:d8e8865aad451826683af39d	draft_not_operational
+GYS-G071:F1	쌔다	realizes	concept:ADJECTIVE	형용사	GYS-G071:A1	evidence:eaf08067b745ba931c8f1928	draft_not_operational
+GYS-O002:F1	삐다	has_inflection_description	GYS-I020:F1	삐다	INT002	evidence:5c420de1f85589310fc6e572,evidence:e5396bfb7425ddf26263e333	author_proposed
+GYS-I044:F1	가지다	has_surface_form	GYS-I044:F5	가이라	GYS-I044:A4	evidence:5128bdd87c35745e4b6f69e3	draft_not_operational
+GYS-H020:F2	오시소	has_interpretation	GYS-H020:A2:value	는교2형 오소+시	GYS-H020:A2	evidence:ebd0ee6ea0453880dc0c9944,evidence:008765022f8962fcb46bfd60,evidence:d4022013651a36e10b589e87	draft_not_operational
+GYS-I030:F1	사우다	has_surface_form	GYS-I030:F3	사아라	GYS-I030:A2	evidence:88e9da67c941cb44524641e6	draft_not_operational
+GYS-J019:F2	-ㅂ니데이	realizes	concept:DECLARATIVE	평서	GYS-J019:A2	evidence:8c7d5be19f97755fb6a05ffb,evidence:d09b8ed88e06f2512083d043,evidence:3059d8414374206f43c932f1	draft_not_operational
+GYS-H014:F2	-(스)ㅂ니꺼	realizes	concept:INTERROGATIVE	의문	GYS-H014:A2	evidence:d23b90cbba1a12fb0aeb0db0	draft_not_operational
+GYS-G049:F3	시	has_interpretation	GYS-G049:A3:value	수관형사 세	GYS-G049:A3	evidence:ff4e5eb74f0131172e9176b0	draft_not_operational
+GYS-I033:F1	뎁후다	has_surface_form	GYS-I033:F8	뎁후라고	GYS-I033:A7	evidence:ba75f28277d8d2438c2676e9	draft_not_operational
+GYS-I024:F1	비이다	has_surface_form	GYS-I024:F11	비이모	GYS-I024:A10	evidence:8a8c95201ae32492b743800a	draft_not_operational
+GYS-G023:F1	-맨치로	realizes	concept:COMPARISON	비교	GYS-G023:A1	evidence:ef102738f76922a5875569a1	draft_not_operational
+GYS-G059:F2	뜨시다	realizes	concept:ADJECTIVE	형용사	GYS-G059:A2	evidence:28d7c8824bb56d35428c0eb2	draft_not_operational
+GYS-P005:F1	묵어	contracts_to	GYS-P005:F2	무우	GYS-P005:A1	evidence:f0c81801a04fa131e026f7f3	draft_not_operational
+GYS-H031:F3	-(스)ㅂ니까	has_interpretation	GYS-H031:A3:value	격식 의문	GYS-H031:A3	evidence:0c3d91a621a021139f6a6559	draft_not_operational
+GYS-P014:F1	김	realizes	concept:ASSIMILATION	동화	GYS-P014:A1	evidence:5e989d285378e2be2c902efe	draft_not_operational
+GYS-I021:F1	직이다	has_surface_form	GYS-I021:F8	직있다	GYS-I021:A7	evidence:691d0040ab8a050708717799	draft_not_operational
+GYS-Y006:F1	-거로 하-	has_example	GYS-Y006:F2	보구로 하꾸마	GYS-Y006:A2	evidence:a347d26d9ee64261828eaa95	draft_not_operational
+GYS-I033:F1	뎁후다	has_surface_form	GYS-I033:F4	뎁하가	GYS-I033:A3	evidence:ba75f28277d8d2438c2676e9	draft_not_operational
+GYS-R008:F1	무라 카네	shares_quotative_construction	GYS-P001:F1	-라고 하다	INT006	evidence:4c78fd44dcc3f7ce4c60cb48,evidence:e4ec7554df220cf94f470f02	author_proposed
+GYS-R031:F1	이녁이	has_interpretation	GYS-R031:A1:value	자기 대응 재귀형	GYS-R031:A1	evidence:c4d9667bfb89abc82a155d2d	draft_not_operational
+GYS-I041:F1	묵다	has_surface_form	GYS-I041:F12	묵으모	GYS-I041:A11	evidence:a6dd9020f75b6c861444c007	draft_not_operational
+GYS-I043:F1	가주다	has_surface_form	GYS-I043:F12	가주라고	GYS-I043:A11	evidence:dd6b72422d8bfa6d928ce05f	draft_not_operational
+GYS-I022:F1	디지다	has_surface_form	GYS-I022:F6	디지가	GYS-I022:A5	evidence:fbb2b8f1412ba2bb54719798	draft_not_operational
+concept:INFLECTION	활용	has_interpretation	GYS-I055:A1:value	뚜드리/뚜들기/뚜드리가와 맞다 결합의 단축형들을 나열함	GYS-I055:A1	evidence:e93d4ca7c687ac9ebef69486	draft_not_operational
+GYS-H024:F2	-(으)ㄹ리더	has_interpretation	GYS-H024:A2:value	-겠습니다 대응	GYS-H024:A2	evidence:4310604f13b1735a041cb923	draft_not_operational
+GYS-I015:F2	-아서	realizes	concept:CAUSE	이유	GYS-I015:A2	evidence:35077563cc92000f224c6429	draft_not_operational
+GYS-R033:F6	여게	has_interpretation	GYS-R033:A6:value	여기	GYS-R033:A6	evidence:c7ccfd2b14b810cb15851d73	draft_not_operational
+GYS-J057:F1	-가	realizes	concept:POLAR_QUESTION	판정의문	GYS-J057:A1	evidence:e0184ac4c39b00d10467a77f	draft_not_operational
+GYS-G018:F2	아이라	has_interpretation	GYS-G018:A2:value	아니다의 비격식 현재 종결 또는 연결 구성	GYS-G018:A2	evidence:397c079db70739a589f98e82,evidence:e18662b66e284544c37a9a0e,evidence:fa1dfeddbf3cc334824f5d7e	draft_not_operational
+GYS-R016:F1	-어야 한다	realizes	concept:OBLIGATION	의무	GYS-R016:A1	evidence:e19732a349313ea8fa3378d6	draft_not_operational
+GYS-I046:F1	오다	has_surface_form	GYS-I046:F6	와가	GYS-I046:A5	evidence:f5f23f8411f6c4e528f2518d	draft_not_operational
+GYS-Q005:F1	-가	realizes	concept:POLAR_QUESTION	판정의문	GYS-Q005:A1	evidence:6d589ab8448666fd77eaeeb6,evidence:4f3bed217085a58ba56bc7ca	draft_not_operational
+GYS-I031:F1	뿌수다	has_surface_form	GYS-I031:F4	뿌사가	GYS-I031:A3	evidence:073ac75f926196eced3665b6	draft_not_operational
+GYS-I022:F1	디지다	has_surface_form	GYS-I022:F5	디제라	GYS-I022:A4	evidence:fbb2b8f1412ba2bb54719798	draft_not_operational
+GYS-I046:F1	오다	has_surface_form	GYS-I046:F7	왔다	GYS-I046:A6	evidence:f5f23f8411f6c4e528f2518d	draft_not_operational
+GYS-G030:F2	-까짐	variant_of	GYS-G030:F1	-까지	GYS-G030:A2	evidence:63254f19d38c864740bba998	draft_not_operational
+GYS-I042:F1	가줗다	has_surface_form	GYS-I042:F6	가자가	GYS-I042:A5	evidence:c93e3bd89ae14f8d40333d45	draft_not_operational
+GYS-G021:F1	-한테	shares_function_with	GYS-R001:F1	-한테	INT028	evidence:4b5f4efb6e0b7116d9e65711,evidence:e3bf6ca592268a3590dd1b15	author_proposed
+GYS-J029:F2	-세이	realizes	concept:IMPERATIVE	명령	GYS-J029:A2	evidence:57c96a2c0a8f113d76014609	draft_not_operational
+GYS-R028:F2	즈이	has_interpretation	GYS-R028:A2:value	저희 대응란의 즈이	GYS-R028:A2	evidence:1912d617464593ba8776d754	draft_not_operational
+GYS-G037:F3	-디마는	variant_of	GYS-G037:F1	-더니만	GYS-G037:A3	evidence:9f3d8c25e02d0dfc614e55d7	draft_not_operational
+GYS-P001:F1	-라고 하다	contracts_to	GYS-P001:F2	-라카다	GYS-P001:A1	evidence:e4ec7554df220cf94f470f02	draft_not_operational
+GYS-J009:F1	-제	realizes	concept:IMPERATIVE	명령	GYS-J009:A1	evidence:d8623f0c09dae66768810f64	draft_not_operational
+GYS-O008:F1	머라쿠노	has_interpretation	GYS-O008:A1:value	서부·중부 경남 질문 후보	GYS-O008:A1	evidence:f41b26159593079fe6943d53	draft_not_operational
+GYS-G014:F1	말뤃다	has_surface_form	GYS-G014:F2	말루니	GYS-G014:A1	evidence:2f490357d81e1c11d6b10a83,evidence:effc57edb48d5d654b330a45	draft_not_operational
+GYS-J023:F1	-시껴	has_interpretation	GYS-J023:A1:value	형성 분석이 제시된 의문형	GYS-J023:A1	evidence:e07dc8d0a5d80d503b64d319	draft_not_operational
+GYS-Q007:F1	-가	combines_with	GYS-Q007:F3	-시-	GYS-Q007:A3	evidence:4f3bed217085a58ba56bc7ca	draft_not_operational
+GYS-G039:F2	-지마는	variant_of	GYS-G039:F1	-지만	GYS-G039:A2	evidence:5899fad5c095ebac88a2872f	draft_not_operational
+GYS-Q006:F2	-노	combines_with	GYS-Q006:F4	-겠-	GYS-Q006:A7	evidence:4f3bed217085a58ba56bc7ca	draft_not_operational
+GYS-J024:F1	-ㄴ교	realizes	concept:INTERROGATIVE	의문	GYS-J024:A1	evidence:15146d0e48ec03cd860d6ed4,evidence:71866eec66e0e2f88e148f5e	draft_not_operational
+GYS-G060:F1	태우다	realizes	concept:VERB	동사	GYS-G060:A1	evidence:28d7c8824bb56d35428c0eb2	draft_not_operational
+GYS-G012:F2	베리다	has_interpretation	GYS-G012:A2:value	더럽히거나 오염시키다	GYS-G012:A2	evidence:472f14b9b21d7e3e2e9ace96,evidence:68d40731616797e1c25b9fac	draft_not_operational
+GYS-I026:F1	주다	has_surface_form	GYS-I026:F4	조라	GYS-I026:A3	evidence:9e1b73e8e1cc07df694b6918	draft_not_operational
+GYS-R058:F6	꺼떡하면	has_interpretation	GYS-R058:A6:value	걸핏하면	GYS-R058:A6	evidence:f55eaeef60cae2314b4891c2	draft_not_operational
+GYS-I034:F1	섞우다	has_surface_form	GYS-I034:F9	섞우고	GYS-I034:A8	evidence:aa3e8e763460d0eae6bbf908	draft_not_operational
+GYS-P016:F3	-라카다	realizes	concept:QUOTATION	인용	GYS-P016:A3	evidence:a887b4bcaf989e202c7d346b	draft_not_operational
+GYS-I024:F1	비이다	has_surface_form	GYS-I024:F8	비있다	GYS-I024:A7	evidence:8a8c95201ae32492b743800a	draft_not_operational
+GYS-P011:F1	이거	has_surface_form	GYS-P011:F2	여	GYS-P011:A2	evidence:3c65ab2e6f3f17db91c9149d	draft_not_operational
+GYS-H011:F1	-(느)ㄴ공	has_surface_form	GYS-H011:F3	-(느)ㄴ공예	GYS-H011:A2	evidence:f7fd723cc2f61f040d8c5c50	draft_not_operational
+GYS-I024:F1	비이다	has_surface_form	GYS-I024:F2	비이	GYS-I024:A1	evidence:8a8c95201ae32492b743800a	draft_not_operational
+GYS-I046:F1	오다	has_surface_form	GYS-I046:F9	오모	GYS-I046:A8	evidence:f5f23f8411f6c4e528f2518d	draft_not_operational
+GYS-G047:F2	-다이가	variant_of	GYS-G047:F1	-다 아니가	GYS-G047:A2	evidence:11c03f7556fdd378863e2743	draft_not_operational
+GYS-J028:F2	-소이	has_interpretation	GYS-J028:A3:value	명령 소 + 당부 이	GYS-J028:A3	evidence:bd606df90fb91358fbaf71be	draft_not_operational
+GYS-J062:F1	-ㄹ라	realizes	concept:INTERROGATIVE	의문	GYS-J062:A1	evidence:093641270de39d6d50ef4f3d	draft_not_operational
+GYS-G002:F1	-로	realizes	concept:OBJECT	목적어	GYS-G002:A1	evidence:2d64463b1beef1a73ce767e9	draft_not_operational
+GYS-H020:F1	오시요	has_interpretation	GYS-H020:A1:value	서부1형 오소+시	GYS-H020:A1	evidence:ebd0ee6ea0453880dc0c9944,evidence:008765022f8962fcb46bfd60,evidence:d4022013651a36e10b589e87	draft_not_operational
+GYS-I027:F1	꾸다	has_surface_form	GYS-I027:F7	꾸가	GYS-I027:A6	evidence:cf5957fab1ed1497fa0a198e	draft_not_operational
+GYS-I044:F1	가지다	has_surface_form	GYS-I044:F13	가이라고	GYS-I044:A12	evidence:5128bdd87c35745e4b6f69e3	draft_not_operational
+GYS-R037:F2	-만	has_interpretation	GYS-R037:A2:value	유일·한정: 후속 사용	GYS-R037:A2	evidence:f5a0b2727bc8aad0c8e75d22	draft_not_operational
+GYS-J039:F1	이라요	realizes	concept:ADDRESSEE_HONORIFIC	상대높임	GYS-J039:A1	evidence:cb09599585613bd8c71202c6	draft_not_operational
+GYS-R035:F3	네	has_interpretation	GYS-R035:A3:value	관형 형태	GYS-R035:A3	evidence:b448afa169fb36e0b71fc8cb	draft_not_operational
+GYS-H026:F1	-(으)끼요	has_interpretation	GYS-H026:A1:value	-ㄹ 것이오? 대응 구성	GYS-H026:A1	evidence:0f91a046460e35f9e4f4c6f2	draft_not_operational
+GYS-J052:F1	-네	realizes	concept:DECLARATIVE	평서	GYS-J052:A1	evidence:32758565eea1d6e7cb3e2a3d	draft_not_operational
+GYS-H002:F2	-(스)ㅂ니꺼	realizes	concept:INTERROGATIVE	의문	GYS-H002:A2	evidence:86d262f613bf194a047217de,evidence:abcd4e443ac6822dce4f0036	draft_not_operational
+GYS-J006:F1	-구려	combines_with	GYS-J006:F2	-었-	GYS-J006:A3	evidence:2606c8a5b6e7ae066cb220d9	draft_not_operational
+GYS-I027:F1	꾸다	has_surface_form	GYS-I027:F9	꿌다	GYS-I027:A8	evidence:cf5957fab1ed1497fa0a198e	draft_not_operational
+GYS-I042:F1	가줗다	has_surface_form	GYS-I042:F3	가아	GYS-I042:A2	evidence:c93e3bd89ae14f8d40333d45	draft_not_operational
+GYS-I023:F1	뎁히다	has_surface_form	GYS-I023:F12	뎁히라고	GYS-I023:A11	evidence:b08434ab98afd9d8ac29598a	draft_not_operational
+GYS-I023:F1	뎁히다	has_surface_form	GYS-I023:F10	뎁히니	GYS-I023:A9	evidence:b08434ab98afd9d8ac29598a	draft_not_operational
+GYS-I054:F1	들어가다	has_surface_form	GYS-I054:A1:value	들가다/드가다	GYS-I054:A1	evidence:e93d4ca7c687ac9ebef69486	draft_not_operational
+GYS-P013:F2	깝깝하다	has_interpretation	GYS-P013:A2:value	깝깝하다의 발음과 형태소 철자를 구별	GYS-P013:A2	evidence:5e989d285378e2be2c902efe	draft_not_operational
+GYS-G050:F4	일곱이	has_interpretation	GYS-G050:A4:value	사람 일곱 명	GYS-G050:A4	evidence:0ff072d945c3418c9893477e,evidence:5ff83935dc6f77e2c7c1104b,evidence:0756e9d8a7cacd957a489618	draft_not_operational
+GYS-G005:F1	-아가	same_usage_candidate	GYS-I015:F1	-아가	INT019	evidence:35077563cc92000f224c6429,evidence:c9f3241d235ec0a516e93aae	author_proposed
+GYS-J021:F1	-디껴	realizes	concept:INTERROGATIVE	의문	GYS-J021:A1	evidence:8357dbe1779686843e0f18df,evidence:74317e037146bd1718744ae6	draft_not_operational
+GYS-R010:F1	-고 있다	contrasts_in_function	GYS-R019:F1	-어 있다	INT025	evidence:11aeae7e10cd9a4cbac768c4,evidence:2eb13ba8a819bb235ecc6c98	author_proposed
+GYS-I023:F1	뎁히다	has_surface_form	GYS-I023:F2	뎁히	GYS-I023:A1	evidence:b08434ab98afd9d8ac29598a	draft_not_operational
+GYS-J061:F1	-라	realizes	concept:CONTENT_QUESTION	설명의문	GYS-J061:A3	evidence:093641270de39d6d50ef4f3d	draft_not_operational
+GYS-G027:F1	-(이)나따나	realizes	concept:AUXILIARY_PARTICLE	보조사	GYS-G027:A1	evidence:6bcaed59ae80bd14ae4f65ce	draft_not_operational
+GYS-G021:F3	-인데	variant_of	GYS-G021:F1	-한테	GYS-G021:A3	evidence:e3bf6ca592268a3590dd1b15	draft_not_operational
+GYS-P007:F3	영남	has_interpretation	GYS-P007:A3:value	초성 자음 없는 영남은 엥남으로 바꾸지 않는 반례	GYS-P007:A3	evidence:445ac84bc5aaf3ca619e30c6	draft_not_operational
+GYS-Y004:F2	-거로	combines_with	GYS-Y004:F3	하-	GYS-Y004:A2	evidence:5b61caf5592ccc0316c1f984	draft_not_operational
+GYS-J010:F1	-지예	realizes	concept:IMPERATIVE	명령	GYS-J010:A1	evidence:af95be04736a52c0eb4e716c	draft_not_operational
+GYS-R029:F3	느	has_interpretation	GYS-R029:A3:value	너희의 복수 제시형	GYS-R029:A3	evidence:c9ed50754026de6e516fcd39	draft_not_operational
+GYS-I035:F1	배우다	has_surface_form	GYS-I035:F5	배았다	GYS-I035:A4	evidence:36c95a3cc95a6b269fe96ac0	draft_not_operational
+GYS-G001:F1	-구로	shares_function_with	GYS-Y001:F1	-거로	INT009	evidence:6a468799da6583f3d0483608,evidence:7985aa3346d1dcb35a9caca9	author_proposed
+GYS-I043:F1	가주다	has_surface_form	GYS-I043:F13	가주고	GYS-I043:A12	evidence:dd6b72422d8bfa6d928ce05f	draft_not_operational
+GYS-J012:F2	-ㅂ니더	realizes	concept:DECLARATIVE	평서	GYS-J012:A2	evidence:88a1bb5fe8f27de9704044e1	draft_not_operational
+GYS-R039:F6	-아/어	has_interpretation	GYS-R039:A6:value	두루낮춤 명령	GYS-R039:A6	evidence:7de5feab40a57b1ce6a66bc6	draft_not_operational
+GYS-G015:F1	줄인다	has_interpretation	GYS-G015:A1:value	표준어형 줄이다의 활용	GYS-G015:A1	evidence:111e902db6f6feb33f891175	draft_not_operational
+GYS-I027:F1	꾸다	has_surface_form	GYS-I027:F8	꽀다	GYS-I027:A7	evidence:cf5957fab1ed1497fa0a198e	draft_not_operational
+GYS-I056:F3	시원하다	has_surface_form	GYS-I056:F5	시얺네	GYS-I056:A7	evidence:e26231813cb810c727c31f94	draft_not_operational
+GYS-I024:F1	비이다	has_surface_form	GYS-I024:F9	베엤다	GYS-I024:A8	evidence:8a8c95201ae32492b743800a	draft_not_operational
+GYS-R039:F1	-아/어라	has_interpretation	GYS-R039:A1:value	아주낮춤 명령	GYS-R039:A1	evidence:7de5feab40a57b1ce6a66bc6	draft_not_operational
+GYS-I022:F1	디지다	has_surface_form	GYS-I022:F9	디젰다	GYS-I022:A8	evidence:fbb2b8f1412ba2bb54719798	draft_not_operational
+GYS-R051:F7	-추-	realizes	concept:CAUSATIVE	사동	GYS-R051:A7	evidence:d2d1ed39f84df42419fb170f,evidence:1bd662f0885a385b01f8bebd	draft_not_operational
+GYS-H012:F1	-(느)ㄴ강	has_surface_form	GYS-H012:F3	-(느)ㄴ강예	GYS-H012:A2	evidence:f7fd723cc2f61f040d8c5c50	draft_not_operational
+GYS-I046:F1	오다	has_surface_form	GYS-I046:F4	오이라	GYS-I046:A3	evidence:f5f23f8411f6c4e528f2518d	draft_not_operational
+GYS-H020:F4	마시시소	has_interpretation	GYS-H020:A4:value	는교2형 마시소+시	GYS-H020:A4	evidence:ebd0ee6ea0453880dc0c9944,evidence:008765022f8962fcb46bfd60,evidence:d4022013651a36e10b589e87	draft_not_operational
+GYS-H021:F1	-구마	realizes	concept:DECLARATIVE	평서	GYS-H021:A1	evidence:e8b4d62673e6d7928bf6c0d4,evidence:7c77969faeead09aea919701,evidence:1f055812a3862938d2092aca	draft_not_operational
+GYS-J055:F1	-ㄹ끼다	combines_with	GYS-J055:F3	것	GYS-J055:A3	evidence:bb01949aeb7e444418961413	draft_not_operational
+GYS-P010:F1	방에	shares_function_with	GYS-O003:F1	방+에	INT047	evidence:2d8a5c0857e43a213be4e3aa,evidence:d084c995d049c288049ada4b	author_proposed
+GYS-R040:F5	-아/어요	has_interpretation	GYS-R040:A5:value	두루높임 청유	GYS-R040:A5	evidence:9659ac5a6ffa30241b6fff78	draft_not_operational
+GYS-Y011:F1	-거로	realizes	concept:INTENTION	의도	GYS-Y011:A1	evidence:fd6fec272269e9e338df0ac5	draft_not_operational
+GYS-I043:F1	가주다	has_surface_form	GYS-I043:F8	가잤다	GYS-I043:A7	evidence:dd6b72422d8bfa6d928ce05f	draft_not_operational
+GYS-I036:F1	뱉다	has_surface_form	GYS-I036:F3	뱉아라	GYS-I036:A2	evidence:f2f8581bd96124427f763a03	draft_not_operational
+GYS-R006:F1	-(으)ㄹ라고	realizes	concept:PURPOSE	목적	GYS-R006:A1	evidence:326a325cdfdbbdff3e2fbae9	draft_not_operational
+GYS-I024:F1	비이다	has_surface_form	GYS-I024:F7	베에가	GYS-I024:A6	evidence:8a8c95201ae32492b743800a	draft_not_operational
+GYS-I038:F1	맺다	has_surface_form	GYS-I038:F8	맺으라고	GYS-I038:A7	evidence:5582faaa17fe3347623a705e	draft_not_operational
+GYS-G069:F1	머라카다	contrasts_in_function	GYS-G007:F1	-라고 하다	INT050	evidence:2986618cf10b488722450db0,evidence:eaf08067b745ba931c8f1928	author_proposed
+GYS-J061:F1	-라	realizes	concept:POLAR_QUESTION	판정의문	GYS-J061:A1	evidence:093641270de39d6d50ef4f3d	draft_not_operational
+GYS-Y007:F1	-거로 하-	has_example	GYS-Y007:F2	가거로 하자	GYS-Y007:A2	evidence:0f80de728f15f3e03c28ddfd	draft_not_operational
+GYS-I056:F3	시원하다	has_surface_form	GYS-I056:F6	섢다	GYS-I056:A8	evidence:8f31a756be349806278c8f2e	draft_not_operational
+GYS-O010:F3	-고	has_interpretation	GYS-O010:A3:value	시 뒤 ㄱ계열 설명 의문 기술	GYS-O010:A3	evidence:2efe4d639e030b3dab448926	draft_not_operational
+GYS-R041:F1	-다/ㄴ다	has_interpretation	GYS-R041:A1:value	아주낮춤 서술	GYS-R041:A1	evidence:247057d1b18b0a2986a6bf24	draft_not_operational
+GYS-R044:F1	-도	realizes	concept:CONCESSION	양보	GYS-R044:A1	evidence:59ce3bffbf838f0a03fa4102	draft_not_operational
+GYS-H022:F1	-니더	attaches_to	GYS-H022:A1:value	동사 또는 자음 말음 형용사: 예외 별도	GYS-H022:A1	evidence:350f66e71ad056ad4975d125	draft_not_operational
+GYS-I040:F1	젭다	has_surface_form	GYS-I040:F3	젭어라	GYS-I040:A2	evidence:fae551865cf4f5ae89dbca49	draft_not_operational

@@ -1,0 +1,1836 @@
+{
+  "start": "GYS-R011:F1",
+  "relations": [
+    "has_inflection_description",
+    "has_surface_form"
+  ],
+  "paths": [
+    {
+      "end": {
+        "id": "GYS-I020:F12",
+        "type": "ExpressionUse",
+        "properties": {
+          "text": "삐라고",
+          "role": "dialect",
+          "sense": null,
+          "pos": "활용형"
+        }
+      },
+      "edges": [
+        {
+          "source": "GYS-R011:F1",
+          "type": "has_inflection_description",
+          "target": "GYS-I020:F1",
+          "properties": {
+            "integration_id": "INT001",
+            "status": "author_proposed",
+            "reason": "함양의 완결 보조 삐다를 문법 PDF의 삐다 활용표에 연결한다.",
+            "limits": "기능과 활용의 연결 제안. 다른 어휘 의미·지역의 무조건 동일성은 주장하지 않음.",
+            "evidence_ids": [
+              "evidence:5c420de1f85589310fc6e572",
+              "evidence:7ec296a9bb32d7ff49df134d"
+            ],
+            "operational": false,
+            "assertion_mode": "extractor_interpretation",
+            "equivalence_asserted": false
+          },
+          "id": "edge:adbe1a8280324b9375ce3563"
+        },
+        {
+          "source": "GYS-I020:F1",
+          "type": "has_surface_form",
+          "target": "GYS-I020:F12",
+          "properties": {
+            "assertion_id": "GYS-I020:A11",
+            "record_id": "GYS-I020",
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "삐다"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "-라고"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "scope": {
+              "region": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "period": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "generation": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "register": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              }
+            },
+            "evidence_ids": [
+              "evidence:5c420de1f85589310fc6e572"
+            ],
+            "assertion_mode": "example_only",
+            "operational": false
+          },
+          "id": "edge:006efad4ee39b2ea31fd5e0c"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "evidence:5c420de1f85589310fc6e572",
+          "type": "SourceLocation",
+          "properties": {
+            "source_id": "NAMU_GRAMMAR_20260908",
+            "page": 4,
+            "locator": "3.1.1 표·길이 제한·역사 설명 및 3.1.2 본문·표 / 삐다 행"
+          }
+        },
+        {
+          "id": "evidence:7ec296a9bb32d7ff49df134d",
+          "type": "SourceLocation",
+          "properties": {
+            "source_id": "RYU2014",
+            "page": 24,
+            "locator": "종결 보조동사 및 이자 뿠다 예"
+          }
+        }
+      ],
+      "conditions": [
+        {
+          "edge_id": "edge:adbe1a8280324b9375ce3563",
+          "conditions": null,
+          "limits": "기능과 활용의 연결 제안. 다른 어휘 의미·지역의 무조건 동일성은 주장하지 않음."
+        },
+        {
+          "edge_id": "edge:006efad4ee39b2ea31fd5e0c",
+          "conditions": {
+            "all": [
+              {
+                "field": "host_form",
+                "operator": "is",
+                "values": [
+                  "삐다"
+                ],
+                "evidence_keys": [
+                  "E4"
+                ]
+              },
+              {
+                "field": "following_form",
+                "operator": "is",
+                "values": [
+                  "-라고"
+                ],
+                "evidence_keys": [
+                  "E4"
+                ]
+              }
+            ],
+            "any": []
+          },
+          "limits": null
+        }
+      ],
+      "operational": false
+    },
+    {
+      "end": {
+        "id": "GYS-I020:F4",
+        "type": "ExpressionUse",
+        "properties": {
+          "text": "삐라",
+          "role": "dialect",
+          "sense": null,
+          "pos": "활용형"
+        }
+      },
+      "edges": [
+        {
+          "source": "GYS-R011:F1",
+          "type": "has_inflection_description",
+          "target": "GYS-I020:F1",
+          "properties": {
+            "integration_id": "INT001",
+            "status": "author_proposed",
+            "reason": "함양의 완결 보조 삐다를 문법 PDF의 삐다 활용표에 연결한다.",
+            "limits": "기능과 활용의 연결 제안. 다른 어휘 의미·지역의 무조건 동일성은 주장하지 않음.",
+            "evidence_ids": [
+              "evidence:5c420de1f85589310fc6e572",
+              "evidence:7ec296a9bb32d7ff49df134d"
+            ],
+            "operational": false,
+            "assertion_mode": "extractor_interpretation",
+            "equivalence_asserted": false
+          },
+          "id": "edge:adbe1a8280324b9375ce3563"
+        },
+        {
+          "source": "GYS-I020:F1",
+          "type": "has_surface_form",
+          "target": "GYS-I020:F4",
+          "properties": {
+            "assertion_id": "GYS-I020:A3",
+            "record_id": "GYS-I020",
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "삐다"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "-아라"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "scope": {
+              "region": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "period": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "generation": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "register": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              }
+            },
+            "evidence_ids": [
+              "evidence:5c420de1f85589310fc6e572"
+            ],
+            "assertion_mode": "example_only",
+            "operational": false
+          },
+          "id": "edge:2081632817ea73464c5c8abf"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "evidence:5c420de1f85589310fc6e572",
+          "type": "SourceLocation",
+          "properties": {
+            "source_id": "NAMU_GRAMMAR_20260908",
+            "page": 4,
+            "locator": "3.1.1 표·길이 제한·역사 설명 및 3.1.2 본문·표 / 삐다 행"
+          }
+        },
+        {
+          "id": "evidence:7ec296a9bb32d7ff49df134d",
+          "type": "SourceLocation",
+          "properties": {
+            "source_id": "RYU2014",
+            "page": 24,
+            "locator": "종결 보조동사 및 이자 뿠다 예"
+          }
+        }
+      ],
+      "conditions": [
+        {
+          "edge_id": "edge:adbe1a8280324b9375ce3563",
+          "conditions": null,
+          "limits": "기능과 활용의 연결 제안. 다른 어휘 의미·지역의 무조건 동일성은 주장하지 않음."
+        },
+        {
+          "edge_id": "edge:2081632817ea73464c5c8abf",
+          "conditions": {
+            "all": [
+              {
+                "field": "host_form",
+                "operator": "is",
+                "values": [
+                  "삐다"
+                ],
+                "evidence_keys": [
+                  "E4"
+                ]
+              },
+              {
+                "field": "following_form",
+                "operator": "is",
+                "values": [
+                  "-아라"
+                ],
+                "evidence_keys": [
+                  "E4"
+                ]
+              }
+            ],
+            "any": []
+          },
+          "limits": null
+        }
+      ],
+      "operational": false
+    },
+    {
+      "end": {
+        "id": "GYS-I020:F6",
+        "type": "ExpressionUse",
+        "properties": {
+          "text": "삐가",
+          "role": "dialect",
+          "sense": null,
+          "pos": "활용형"
+        }
+      },
+      "edges": [
+        {
+          "source": "GYS-R011:F1",
+          "type": "has_inflection_description",
+          "target": "GYS-I020:F1",
+          "properties": {
+            "integration_id": "INT001",
+            "status": "author_proposed",
+            "reason": "함양의 완결 보조 삐다를 문법 PDF의 삐다 활용표에 연결한다.",
+            "limits": "기능과 활용의 연결 제안. 다른 어휘 의미·지역의 무조건 동일성은 주장하지 않음.",
+            "evidence_ids": [
+              "evidence:5c420de1f85589310fc6e572",
+              "evidence:7ec296a9bb32d7ff49df134d"
+            ],
+            "operational": false,
+            "assertion_mode": "extractor_interpretation",
+            "equivalence_asserted": false
+          },
+          "id": "edge:adbe1a8280324b9375ce3563"
+        },
+        {
+          "source": "GYS-I020:F1",
+          "type": "has_surface_form",
+          "target": "GYS-I020:F6",
+          "properties": {
+            "assertion_id": "GYS-I020:A5",
+            "record_id": "GYS-I020",
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "삐다"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "-아가"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "scope": {
+              "region": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "period": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "generation": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "register": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              }
+            },
+            "evidence_ids": [
+              "evidence:5c420de1f85589310fc6e572"
+            ],
+            "assertion_mode": "example_only",
+            "operational": false
+          },
+          "id": "edge:56a78050dc47d1301dd71c89"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "evidence:5c420de1f85589310fc6e572",
+          "type": "SourceLocation",
+          "properties": {
+            "source_id": "NAMU_GRAMMAR_20260908",
+            "page": 4,
+            "locator": "3.1.1 표·길이 제한·역사 설명 및 3.1.2 본문·표 / 삐다 행"
+          }
+        },
+        {
+          "id": "evidence:7ec296a9bb32d7ff49df134d",
+          "type": "SourceLocation",
+          "properties": {
+            "source_id": "RYU2014",
+            "page": 24,
+            "locator": "종결 보조동사 및 이자 뿠다 예"
+          }
+        }
+      ],
+      "conditions": [
+        {
+          "edge_id": "edge:adbe1a8280324b9375ce3563",
+          "conditions": null,
+          "limits": "기능과 활용의 연결 제안. 다른 어휘 의미·지역의 무조건 동일성은 주장하지 않음."
+        },
+        {
+          "edge_id": "edge:56a78050dc47d1301dd71c89",
+          "conditions": {
+            "all": [
+              {
+                "field": "host_form",
+                "operator": "is",
+                "values": [
+                  "삐다"
+                ],
+                "evidence_keys": [
+                  "E4"
+                ]
+              },
+              {
+                "field": "following_form",
+                "operator": "is",
+                "values": [
+                  "-아가"
+                ],
+                "evidence_keys": [
+                  "E4"
+                ]
+              }
+            ],
+            "any": []
+          },
+          "limits": null
+        }
+      ],
+      "operational": false
+    },
+    {
+      "end": {
+        "id": "GYS-I020:F7",
+        "type": "ExpressionUse",
+        "properties": {
+          "text": "뻬가",
+          "role": "dialect",
+          "sense": null,
+          "pos": "활용형"
+        }
+      },
+      "edges": [
+        {
+          "source": "GYS-R011:F1",
+          "type": "has_inflection_description",
+          "target": "GYS-I020:F1",
+          "properties": {
+            "integration_id": "INT001",
+            "status": "author_proposed",
+            "reason": "함양의 완결 보조 삐다를 문법 PDF의 삐다 활용표에 연결한다.",
+            "limits": "기능과 활용의 연결 제안. 다른 어휘 의미·지역의 무조건 동일성은 주장하지 않음.",
+            "evidence_ids": [
+              "evidence:5c420de1f85589310fc6e572",
+              "evidence:7ec296a9bb32d7ff49df134d"
+            ],
+            "operational": false,
+            "assertion_mode": "extractor_interpretation",
+            "equivalence_asserted": false
+          },
+          "id": "edge:adbe1a8280324b9375ce3563"
+        },
+        {
+          "source": "GYS-I020:F1",
+          "type": "has_surface_form",
+          "target": "GYS-I020:F7",
+          "properties": {
+            "assertion_id": "GYS-I020:A6",
+            "record_id": "GYS-I020",
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "삐다"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "-아가"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "scope": {
+              "region": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "period": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "generation": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "register": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              }
+            },
+            "evidence_ids": [
+              "evidence:5c420de1f85589310fc6e572"
+            ],
+            "assertion_mode": "example_only",
+            "operational": false
+          },
+          "id": "edge:5a451accd87b6e0b69e2fae5"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "evidence:5c420de1f85589310fc6e572",
+          "type": "SourceLocation",
+          "properties": {
+            "source_id": "NAMU_GRAMMAR_20260908",
+            "page": 4,
+            "locator": "3.1.1 표·길이 제한·역사 설명 및 3.1.2 본문·표 / 삐다 행"
+          }
+        },
+        {
+          "id": "evidence:7ec296a9bb32d7ff49df134d",
+          "type": "SourceLocation",
+          "properties": {
+            "source_id": "RYU2014",
+            "page": 24,
+            "locator": "종결 보조동사 및 이자 뿠다 예"
+          }
+        }
+      ],
+      "conditions": [
+        {
+          "edge_id": "edge:adbe1a8280324b9375ce3563",
+          "conditions": null,
+          "limits": "기능과 활용의 연결 제안. 다른 어휘 의미·지역의 무조건 동일성은 주장하지 않음."
+        },
+        {
+          "edge_id": "edge:5a451accd87b6e0b69e2fae5",
+          "conditions": {
+            "all": [
+              {
+                "field": "host_form",
+                "operator": "is",
+                "values": [
+                  "삐다"
+                ],
+                "evidence_keys": [
+                  "E4"
+                ]
+              },
+              {
+                "field": "following_form",
+                "operator": "is",
+                "values": [
+                  "-아가"
+                ],
+                "evidence_keys": [
+                  "E4"
+                ]
+              }
+            ],
+            "any": []
+          },
+          "limits": null
+        }
+      ],
+      "operational": false
+    },
+    {
+      "end": {
+        "id": "GYS-I020:F11",
+        "type": "ExpressionUse",
+        "properties": {
+          "text": "삐모",
+          "role": "dialect",
+          "sense": null,
+          "pos": "활용형"
+        }
+      },
+      "edges": [
+        {
+          "source": "GYS-R011:F1",
+          "type": "has_inflection_description",
+          "target": "GYS-I020:F1",
+          "properties": {
+            "integration_id": "INT001",
+            "status": "author_proposed",
+            "reason": "함양의 완결 보조 삐다를 문법 PDF의 삐다 활용표에 연결한다.",
+            "limits": "기능과 활용의 연결 제안. 다른 어휘 의미·지역의 무조건 동일성은 주장하지 않음.",
+            "evidence_ids": [
+              "evidence:5c420de1f85589310fc6e572",
+              "evidence:7ec296a9bb32d7ff49df134d"
+            ],
+            "operational": false,
+            "assertion_mode": "extractor_interpretation",
+            "equivalence_asserted": false
+          },
+          "id": "edge:adbe1a8280324b9375ce3563"
+        },
+        {
+          "source": "GYS-I020:F1",
+          "type": "has_surface_form",
+          "target": "GYS-I020:F11",
+          "properties": {
+            "assertion_id": "GYS-I020:A10",
+            "record_id": "GYS-I020",
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "삐다"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "-으모"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "scope": {
+              "region": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "period": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "generation": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "register": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              }
+            },
+            "evidence_ids": [
+              "evidence:5c420de1f85589310fc6e572"
+            ],
+            "assertion_mode": "example_only",
+            "operational": false
+          },
+          "id": "edge:5d285e4cdea13ccdd45796d7"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "evidence:5c420de1f85589310fc6e572",
+          "type": "SourceLocation",
+          "properties": {
+            "source_id": "NAMU_GRAMMAR_20260908",
+            "page": 4,
+            "locator": "3.1.1 표·길이 제한·역사 설명 및 3.1.2 본문·표 / 삐다 행"
+          }
+        },
+        {
+          "id": "evidence:7ec296a9bb32d7ff49df134d",
+          "type": "SourceLocation",
+          "properties": {
+            "source_id": "RYU2014",
+            "page": 24,
+            "locator": "종결 보조동사 및 이자 뿠다 예"
+          }
+        }
+      ],
+      "conditions": [
+        {
+          "edge_id": "edge:adbe1a8280324b9375ce3563",
+          "conditions": null,
+          "limits": "기능과 활용의 연결 제안. 다른 어휘 의미·지역의 무조건 동일성은 주장하지 않음."
+        },
+        {
+          "edge_id": "edge:5d285e4cdea13ccdd45796d7",
+          "conditions": {
+            "all": [
+              {
+                "field": "host_form",
+                "operator": "is",
+                "values": [
+                  "삐다"
+                ],
+                "evidence_keys": [
+                  "E4"
+                ]
+              },
+              {
+                "field": "following_form",
+                "operator": "is",
+                "values": [
+                  "-으모"
+                ],
+                "evidence_keys": [
+                  "E4"
+                ]
+              }
+            ],
+            "any": []
+          },
+          "limits": null
+        }
+      ],
+      "operational": false
+    },
+    {
+      "end": {
+        "id": "GYS-I020:F8",
+        "type": "ExpressionUse",
+        "properties": {
+          "text": "삤다",
+          "role": "dialect",
+          "sense": null,
+          "pos": "활용형"
+        }
+      },
+      "edges": [
+        {
+          "source": "GYS-R011:F1",
+          "type": "has_inflection_description",
+          "target": "GYS-I020:F1",
+          "properties": {
+            "integration_id": "INT001",
+            "status": "author_proposed",
+            "reason": "함양의 완결 보조 삐다를 문법 PDF의 삐다 활용표에 연결한다.",
+            "limits": "기능과 활용의 연결 제안. 다른 어휘 의미·지역의 무조건 동일성은 주장하지 않음.",
+            "evidence_ids": [
+              "evidence:5c420de1f85589310fc6e572",
+              "evidence:7ec296a9bb32d7ff49df134d"
+            ],
+            "operational": false,
+            "assertion_mode": "extractor_interpretation",
+            "equivalence_asserted": false
+          },
+          "id": "edge:adbe1a8280324b9375ce3563"
+        },
+        {
+          "source": "GYS-I020:F1",
+          "type": "has_surface_form",
+          "target": "GYS-I020:F8",
+          "properties": {
+            "assertion_id": "GYS-I020:A7",
+            "record_id": "GYS-I020",
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "삐다"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "-았다"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "scope": {
+              "region": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "period": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "generation": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "register": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              }
+            },
+            "evidence_ids": [
+              "evidence:5c420de1f85589310fc6e572"
+            ],
+            "assertion_mode": "example_only",
+            "operational": false
+          },
+          "id": "edge:74cd614f7036c505933435c8"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "evidence:5c420de1f85589310fc6e572",
+          "type": "SourceLocation",
+          "properties": {
+            "source_id": "NAMU_GRAMMAR_20260908",
+            "page": 4,
+            "locator": "3.1.1 표·길이 제한·역사 설명 및 3.1.2 본문·표 / 삐다 행"
+          }
+        },
+        {
+          "id": "evidence:7ec296a9bb32d7ff49df134d",
+          "type": "SourceLocation",
+          "properties": {
+            "source_id": "RYU2014",
+            "page": 24,
+            "locator": "종결 보조동사 및 이자 뿠다 예"
+          }
+        }
+      ],
+      "conditions": [
+        {
+          "edge_id": "edge:adbe1a8280324b9375ce3563",
+          "conditions": null,
+          "limits": "기능과 활용의 연결 제안. 다른 어휘 의미·지역의 무조건 동일성은 주장하지 않음."
+        },
+        {
+          "edge_id": "edge:74cd614f7036c505933435c8",
+          "conditions": {
+            "all": [
+              {
+                "field": "host_form",
+                "operator": "is",
+                "values": [
+                  "삐다"
+                ],
+                "evidence_keys": [
+                  "E4"
+                ]
+              },
+              {
+                "field": "following_form",
+                "operator": "is",
+                "values": [
+                  "-았다"
+                ],
+                "evidence_keys": [
+                  "E4"
+                ]
+              }
+            ],
+            "any": []
+          },
+          "limits": null
+        }
+      ],
+      "operational": false
+    },
+    {
+      "end": {
+        "id": "GYS-I020:F13",
+        "type": "ExpressionUse",
+        "properties": {
+          "text": "삐고",
+          "role": "dialect",
+          "sense": null,
+          "pos": "활용형"
+        }
+      },
+      "edges": [
+        {
+          "source": "GYS-R011:F1",
+          "type": "has_inflection_description",
+          "target": "GYS-I020:F1",
+          "properties": {
+            "integration_id": "INT001",
+            "status": "author_proposed",
+            "reason": "함양의 완결 보조 삐다를 문법 PDF의 삐다 활용표에 연결한다.",
+            "limits": "기능과 활용의 연결 제안. 다른 어휘 의미·지역의 무조건 동일성은 주장하지 않음.",
+            "evidence_ids": [
+              "evidence:5c420de1f85589310fc6e572",
+              "evidence:7ec296a9bb32d7ff49df134d"
+            ],
+            "operational": false,
+            "assertion_mode": "extractor_interpretation",
+            "equivalence_asserted": false
+          },
+          "id": "edge:adbe1a8280324b9375ce3563"
+        },
+        {
+          "source": "GYS-I020:F1",
+          "type": "has_surface_form",
+          "target": "GYS-I020:F13",
+          "properties": {
+            "assertion_id": "GYS-I020:A12",
+            "record_id": "GYS-I020",
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "삐다"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "-고"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "scope": {
+              "region": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "period": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "generation": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "register": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              }
+            },
+            "evidence_ids": [
+              "evidence:5c420de1f85589310fc6e572"
+            ],
+            "assertion_mode": "example_only",
+            "operational": false
+          },
+          "id": "edge:8e7cfd56831785e76a37f895"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "evidence:5c420de1f85589310fc6e572",
+          "type": "SourceLocation",
+          "properties": {
+            "source_id": "NAMU_GRAMMAR_20260908",
+            "page": 4,
+            "locator": "3.1.1 표·길이 제한·역사 설명 및 3.1.2 본문·표 / 삐다 행"
+          }
+        },
+        {
+          "id": "evidence:7ec296a9bb32d7ff49df134d",
+          "type": "SourceLocation",
+          "properties": {
+            "source_id": "RYU2014",
+            "page": 24,
+            "locator": "종결 보조동사 및 이자 뿠다 예"
+          }
+        }
+      ],
+      "conditions": [
+        {
+          "edge_id": "edge:adbe1a8280324b9375ce3563",
+          "conditions": null,
+          "limits": "기능과 활용의 연결 제안. 다른 어휘 의미·지역의 무조건 동일성은 주장하지 않음."
+        },
+        {
+          "edge_id": "edge:8e7cfd56831785e76a37f895",
+          "conditions": {
+            "all": [
+              {
+                "field": "host_form",
+                "operator": "is",
+                "values": [
+                  "삐다"
+                ],
+                "evidence_keys": [
+                  "E4"
+                ]
+              },
+              {
+                "field": "following_form",
+                "operator": "is",
+                "values": [
+                  "-고"
+                ],
+                "evidence_keys": [
+                  "E4"
+                ]
+              }
+            ],
+            "any": []
+          },
+          "limits": null
+        }
+      ],
+      "operational": false
+    },
+    {
+      "end": {
+        "id": "GYS-I020:F5",
+        "type": "ExpressionUse",
+        "properties": {
+          "text": "뻬라",
+          "role": "dialect",
+          "sense": null,
+          "pos": "활용형"
+        }
+      },
+      "edges": [
+        {
+          "source": "GYS-R011:F1",
+          "type": "has_inflection_description",
+          "target": "GYS-I020:F1",
+          "properties": {
+            "integration_id": "INT001",
+            "status": "author_proposed",
+            "reason": "함양의 완결 보조 삐다를 문법 PDF의 삐다 활용표에 연결한다.",
+            "limits": "기능과 활용의 연결 제안. 다른 어휘 의미·지역의 무조건 동일성은 주장하지 않음.",
+            "evidence_ids": [
+              "evidence:5c420de1f85589310fc6e572",
+              "evidence:7ec296a9bb32d7ff49df134d"
+            ],
+            "operational": false,
+            "assertion_mode": "extractor_interpretation",
+            "equivalence_asserted": false
+          },
+          "id": "edge:adbe1a8280324b9375ce3563"
+        },
+        {
+          "source": "GYS-I020:F1",
+          "type": "has_surface_form",
+          "target": "GYS-I020:F5",
+          "properties": {
+            "assertion_id": "GYS-I020:A4",
+            "record_id": "GYS-I020",
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "삐다"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "-아라"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "scope": {
+              "region": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "period": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "generation": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "register": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              }
+            },
+            "evidence_ids": [
+              "evidence:5c420de1f85589310fc6e572"
+            ],
+            "assertion_mode": "example_only",
+            "operational": false
+          },
+          "id": "edge:bb1ec744636719142791728f"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "evidence:5c420de1f85589310fc6e572",
+          "type": "SourceLocation",
+          "properties": {
+            "source_id": "NAMU_GRAMMAR_20260908",
+            "page": 4,
+            "locator": "3.1.1 표·길이 제한·역사 설명 및 3.1.2 본문·표 / 삐다 행"
+          }
+        },
+        {
+          "id": "evidence:7ec296a9bb32d7ff49df134d",
+          "type": "SourceLocation",
+          "properties": {
+            "source_id": "RYU2014",
+            "page": 24,
+            "locator": "종결 보조동사 및 이자 뿠다 예"
+          }
+        }
+      ],
+      "conditions": [
+        {
+          "edge_id": "edge:adbe1a8280324b9375ce3563",
+          "conditions": null,
+          "limits": "기능과 활용의 연결 제안. 다른 어휘 의미·지역의 무조건 동일성은 주장하지 않음."
+        },
+        {
+          "edge_id": "edge:bb1ec744636719142791728f",
+          "conditions": {
+            "all": [
+              {
+                "field": "host_form",
+                "operator": "is",
+                "values": [
+                  "삐다"
+                ],
+                "evidence_keys": [
+                  "E4"
+                ]
+              },
+              {
+                "field": "following_form",
+                "operator": "is",
+                "values": [
+                  "-아라"
+                ],
+                "evidence_keys": [
+                  "E4"
+                ]
+              }
+            ],
+            "any": []
+          },
+          "limits": null
+        }
+      ],
+      "operational": false
+    },
+    {
+      "end": {
+        "id": "GYS-I020:F2",
+        "type": "ExpressionUse",
+        "properties": {
+          "text": "삐",
+          "role": "dialect",
+          "sense": null,
+          "pos": "활용형"
+        }
+      },
+      "edges": [
+        {
+          "source": "GYS-R011:F1",
+          "type": "has_inflection_description",
+          "target": "GYS-I020:F1",
+          "properties": {
+            "integration_id": "INT001",
+            "status": "author_proposed",
+            "reason": "함양의 완결 보조 삐다를 문법 PDF의 삐다 활용표에 연결한다.",
+            "limits": "기능과 활용의 연결 제안. 다른 어휘 의미·지역의 무조건 동일성은 주장하지 않음.",
+            "evidence_ids": [
+              "evidence:5c420de1f85589310fc6e572",
+              "evidence:7ec296a9bb32d7ff49df134d"
+            ],
+            "operational": false,
+            "assertion_mode": "extractor_interpretation",
+            "equivalence_asserted": false
+          },
+          "id": "edge:adbe1a8280324b9375ce3563"
+        },
+        {
+          "source": "GYS-I020:F1",
+          "type": "has_surface_form",
+          "target": "GYS-I020:F2",
+          "properties": {
+            "assertion_id": "GYS-I020:A1",
+            "record_id": "GYS-I020",
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "삐다"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "-아"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "scope": {
+              "region": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "period": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "generation": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "register": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              }
+            },
+            "evidence_ids": [
+              "evidence:5c420de1f85589310fc6e572"
+            ],
+            "assertion_mode": "example_only",
+            "operational": false
+          },
+          "id": "edge:bd0587d79378fcc8aa39b041"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "evidence:5c420de1f85589310fc6e572",
+          "type": "SourceLocation",
+          "properties": {
+            "source_id": "NAMU_GRAMMAR_20260908",
+            "page": 4,
+            "locator": "3.1.1 표·길이 제한·역사 설명 및 3.1.2 본문·표 / 삐다 행"
+          }
+        },
+        {
+          "id": "evidence:7ec296a9bb32d7ff49df134d",
+          "type": "SourceLocation",
+          "properties": {
+            "source_id": "RYU2014",
+            "page": 24,
+            "locator": "종결 보조동사 및 이자 뿠다 예"
+          }
+        }
+      ],
+      "conditions": [
+        {
+          "edge_id": "edge:adbe1a8280324b9375ce3563",
+          "conditions": null,
+          "limits": "기능과 활용의 연결 제안. 다른 어휘 의미·지역의 무조건 동일성은 주장하지 않음."
+        },
+        {
+          "edge_id": "edge:bd0587d79378fcc8aa39b041",
+          "conditions": {
+            "all": [
+              {
+                "field": "host_form",
+                "operator": "is",
+                "values": [
+                  "삐다"
+                ],
+                "evidence_keys": [
+                  "E4"
+                ]
+              },
+              {
+                "field": "following_form",
+                "operator": "is",
+                "values": [
+                  "-아"
+                ],
+                "evidence_keys": [
+                  "E4"
+                ]
+              }
+            ],
+            "any": []
+          },
+          "limits": null
+        }
+      ],
+      "operational": false
+    },
+    {
+      "end": {
+        "id": "GYS-I020:F3",
+        "type": "ExpressionUse",
+        "properties": {
+          "text": "뻬",
+          "role": "dialect",
+          "sense": null,
+          "pos": "활용형"
+        }
+      },
+      "edges": [
+        {
+          "source": "GYS-R011:F1",
+          "type": "has_inflection_description",
+          "target": "GYS-I020:F1",
+          "properties": {
+            "integration_id": "INT001",
+            "status": "author_proposed",
+            "reason": "함양의 완결 보조 삐다를 문법 PDF의 삐다 활용표에 연결한다.",
+            "limits": "기능과 활용의 연결 제안. 다른 어휘 의미·지역의 무조건 동일성은 주장하지 않음.",
+            "evidence_ids": [
+              "evidence:5c420de1f85589310fc6e572",
+              "evidence:7ec296a9bb32d7ff49df134d"
+            ],
+            "operational": false,
+            "assertion_mode": "extractor_interpretation",
+            "equivalence_asserted": false
+          },
+          "id": "edge:adbe1a8280324b9375ce3563"
+        },
+        {
+          "source": "GYS-I020:F1",
+          "type": "has_surface_form",
+          "target": "GYS-I020:F3",
+          "properties": {
+            "assertion_id": "GYS-I020:A2",
+            "record_id": "GYS-I020",
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "삐다"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "-아"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "scope": {
+              "region": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "period": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "generation": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "register": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              }
+            },
+            "evidence_ids": [
+              "evidence:5c420de1f85589310fc6e572"
+            ],
+            "assertion_mode": "example_only",
+            "operational": false
+          },
+          "id": "edge:d0b1e5ffebf4eadbd63dce8e"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "evidence:5c420de1f85589310fc6e572",
+          "type": "SourceLocation",
+          "properties": {
+            "source_id": "NAMU_GRAMMAR_20260908",
+            "page": 4,
+            "locator": "3.1.1 표·길이 제한·역사 설명 및 3.1.2 본문·표 / 삐다 행"
+          }
+        },
+        {
+          "id": "evidence:7ec296a9bb32d7ff49df134d",
+          "type": "SourceLocation",
+          "properties": {
+            "source_id": "RYU2014",
+            "page": 24,
+            "locator": "종결 보조동사 및 이자 뿠다 예"
+          }
+        }
+      ],
+      "conditions": [
+        {
+          "edge_id": "edge:adbe1a8280324b9375ce3563",
+          "conditions": null,
+          "limits": "기능과 활용의 연결 제안. 다른 어휘 의미·지역의 무조건 동일성은 주장하지 않음."
+        },
+        {
+          "edge_id": "edge:d0b1e5ffebf4eadbd63dce8e",
+          "conditions": {
+            "all": [
+              {
+                "field": "host_form",
+                "operator": "is",
+                "values": [
+                  "삐다"
+                ],
+                "evidence_keys": [
+                  "E4"
+                ]
+              },
+              {
+                "field": "following_form",
+                "operator": "is",
+                "values": [
+                  "-아"
+                ],
+                "evidence_keys": [
+                  "E4"
+                ]
+              }
+            ],
+            "any": []
+          },
+          "limits": null
+        }
+      ],
+      "operational": false
+    },
+    {
+      "end": {
+        "id": "GYS-I020:F10",
+        "type": "ExpressionUse",
+        "properties": {
+          "text": "삐니",
+          "role": "dialect",
+          "sense": null,
+          "pos": "활용형"
+        }
+      },
+      "edges": [
+        {
+          "source": "GYS-R011:F1",
+          "type": "has_inflection_description",
+          "target": "GYS-I020:F1",
+          "properties": {
+            "integration_id": "INT001",
+            "status": "author_proposed",
+            "reason": "함양의 완결 보조 삐다를 문법 PDF의 삐다 활용표에 연결한다.",
+            "limits": "기능과 활용의 연결 제안. 다른 어휘 의미·지역의 무조건 동일성은 주장하지 않음.",
+            "evidence_ids": [
+              "evidence:5c420de1f85589310fc6e572",
+              "evidence:7ec296a9bb32d7ff49df134d"
+            ],
+            "operational": false,
+            "assertion_mode": "extractor_interpretation",
+            "equivalence_asserted": false
+          },
+          "id": "edge:adbe1a8280324b9375ce3563"
+        },
+        {
+          "source": "GYS-I020:F1",
+          "type": "has_surface_form",
+          "target": "GYS-I020:F10",
+          "properties": {
+            "assertion_id": "GYS-I020:A9",
+            "record_id": "GYS-I020",
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "삐다"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "-으니"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "scope": {
+              "region": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "period": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "generation": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "register": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              }
+            },
+            "evidence_ids": [
+              "evidence:5c420de1f85589310fc6e572"
+            ],
+            "assertion_mode": "example_only",
+            "operational": false
+          },
+          "id": "edge:dffa6cdaedbbb3301eea2994"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "evidence:5c420de1f85589310fc6e572",
+          "type": "SourceLocation",
+          "properties": {
+            "source_id": "NAMU_GRAMMAR_20260908",
+            "page": 4,
+            "locator": "3.1.1 표·길이 제한·역사 설명 및 3.1.2 본문·표 / 삐다 행"
+          }
+        },
+        {
+          "id": "evidence:7ec296a9bb32d7ff49df134d",
+          "type": "SourceLocation",
+          "properties": {
+            "source_id": "RYU2014",
+            "page": 24,
+            "locator": "종결 보조동사 및 이자 뿠다 예"
+          }
+        }
+      ],
+      "conditions": [
+        {
+          "edge_id": "edge:adbe1a8280324b9375ce3563",
+          "conditions": null,
+          "limits": "기능과 활용의 연결 제안. 다른 어휘 의미·지역의 무조건 동일성은 주장하지 않음."
+        },
+        {
+          "edge_id": "edge:dffa6cdaedbbb3301eea2994",
+          "conditions": {
+            "all": [
+              {
+                "field": "host_form",
+                "operator": "is",
+                "values": [
+                  "삐다"
+                ],
+                "evidence_keys": [
+                  "E4"
+                ]
+              },
+              {
+                "field": "following_form",
+                "operator": "is",
+                "values": [
+                  "-으니"
+                ],
+                "evidence_keys": [
+                  "E4"
+                ]
+              }
+            ],
+            "any": []
+          },
+          "limits": null
+        }
+      ],
+      "operational": false
+    },
+    {
+      "end": {
+        "id": "GYS-I020:F9",
+        "type": "ExpressionUse",
+        "properties": {
+          "text": "뼀다",
+          "role": "dialect",
+          "sense": null,
+          "pos": "활용형"
+        }
+      },
+      "edges": [
+        {
+          "source": "GYS-R011:F1",
+          "type": "has_inflection_description",
+          "target": "GYS-I020:F1",
+          "properties": {
+            "integration_id": "INT001",
+            "status": "author_proposed",
+            "reason": "함양의 완결 보조 삐다를 문법 PDF의 삐다 활용표에 연결한다.",
+            "limits": "기능과 활용의 연결 제안. 다른 어휘 의미·지역의 무조건 동일성은 주장하지 않음.",
+            "evidence_ids": [
+              "evidence:5c420de1f85589310fc6e572",
+              "evidence:7ec296a9bb32d7ff49df134d"
+            ],
+            "operational": false,
+            "assertion_mode": "extractor_interpretation",
+            "equivalence_asserted": false
+          },
+          "id": "edge:adbe1a8280324b9375ce3563"
+        },
+        {
+          "source": "GYS-I020:F1",
+          "type": "has_surface_form",
+          "target": "GYS-I020:F9",
+          "properties": {
+            "assertion_id": "GYS-I020:A8",
+            "record_id": "GYS-I020",
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "삐다"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                },
+                {
+                  "field": "following_form",
+                  "operator": "is",
+                  "values": [
+                    "-았다"
+                  ],
+                  "evidence_keys": [
+                    "E4"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "scope": {
+              "region": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "period": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "generation": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              },
+              "register": {
+                "values": [],
+                "basis": "unknown",
+                "evidence_keys": []
+              }
+            },
+            "evidence_ids": [
+              "evidence:5c420de1f85589310fc6e572"
+            ],
+            "assertion_mode": "example_only",
+            "operational": false
+          },
+          "id": "edge:e176c33990c50f1c5c0afbec"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "evidence:5c420de1f85589310fc6e572",
+          "type": "SourceLocation",
+          "properties": {
+            "source_id": "NAMU_GRAMMAR_20260908",
+            "page": 4,
+            "locator": "3.1.1 표·길이 제한·역사 설명 및 3.1.2 본문·표 / 삐다 행"
+          }
+        },
+        {
+          "id": "evidence:7ec296a9bb32d7ff49df134d",
+          "type": "SourceLocation",
+          "properties": {
+            "source_id": "RYU2014",
+            "page": 24,
+            "locator": "종결 보조동사 및 이자 뿠다 예"
+          }
+        }
+      ],
+      "conditions": [
+        {
+          "edge_id": "edge:adbe1a8280324b9375ce3563",
+          "conditions": null,
+          "limits": "기능과 활용의 연결 제안. 다른 어휘 의미·지역의 무조건 동일성은 주장하지 않음."
+        },
+        {
+          "edge_id": "edge:e176c33990c50f1c5c0afbec",
+          "conditions": {
+            "all": [
+              {
+                "field": "host_form",
+                "operator": "is",
+                "values": [
+                  "삐다"
+                ],
+                "evidence_keys": [
+                  "E4"
+                ]
+              },
+              {
+                "field": "following_form",
+                "operator": "is",
+                "values": [
+                  "-았다"
+                ],
+                "evidence_keys": [
+                  "E4"
+                ]
+              }
+            ],
+            "any": []
+          },
+          "limits": null
+        }
+      ],
+      "operational": false
+    }
+  ],
+  "held_edges": [],
+  "status": "graph_paths_only_not_condition_or_generation_approval",
+  "graph_sha256": "a31be2fbbe4cd35e5810e820d32b6950ff9ce97a76789396b1eba8b9b366f9c5"
+}
