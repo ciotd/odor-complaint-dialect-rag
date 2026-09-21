@@ -20,7 +20,7 @@ class IntegrationChecks(unittest.TestCase):
         self.assertFalse(any(r["source_id"] == "SONG2025_SEJONG" for r in self.records))
 
     def test_whole_page_inventory_without_gaps_or_duplicates(self):
-        registry = build.read(build.ROOT / "current_kg/claims/source_registry.json")
+        registry = build.read(build.ROOT / "current_kg/grammar/source_registry.json")
         sizes = {s["source_id"]: s["file"]["pages"] for s in registry["sources"]}
         inventory = build.read(build.BASE / "integration.json")["processing_inventory"]
         for source in inventory["sources"]:

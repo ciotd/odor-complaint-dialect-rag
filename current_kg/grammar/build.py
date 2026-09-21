@@ -56,7 +56,7 @@ SCHEMA = read(BASE / "record.schema.json")
 VALIDATOR = Draft202012Validator(SCHEMA)
 
 def sources():
-    registry = read(ROOT / "current_kg/claims/source_registry.json")
+    registry = read(ROOT / "current_kg/grammar/source_registry.json")
     selected = {s["source_id"]: s for s in registry["sources"]
                 if s.get("eligible_for_claims") and s.get("file", {}).get("path", "").endswith(".pdf")}
     if set(selected) != set(ORDER):

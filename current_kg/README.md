@@ -1,243 +1,227 @@
-# 현재 KG 연구
+# 현재 문법 KG 작업 안내
 
-## 최신 상태 — 2026-09-17
+최종 갱신: 2026-09-18. 새 안내 문서를 늘리지 않고 이 README와 기존 문서를 갱신한다.
 
-연구 목표는 **문법 지식을 활용한 의미 보존과 자연스러운 경상도 방언 텍스트 생성**이다. 현대 부산·전통 방언을 고정 목표로 하지 않는다. KG 우월성, 로컬 모델의 열등성, 모든 오류의 저자원 원인은 전제가 아닌 검증 대상이다.
+## 먼저 볼 파일
 
-설계 토론만 반복하지 않고 **방언 원문 근거 확인→실제 지식 작성→그래프 연결 조회→공백 보고**를 한 묶음으로 진행한다. 입력 분석기는 그 과정에서 확인한 요구사항에 따라 나중에 선정한다. [연구 의사결정 요약](../연구미팅.md)과 [선행연구 11편](../sources/methodology/선행연구.md)을 참고한다.
+**전체 검수를 마친 완성본은 아직 없다. 현행 지식은 `grammar/`에 있다.**
 
-최신 목적과 전체 계획은 [연구미팅](../연구미팅.md)에 기록했다. 핵심은 문법 정보를 더 잘 검색하는 것 자체가 아니라 **경상도 문법 체계를 그래프로 연결하고 그 체계를 활용한 자연스러운 생성**이다. 지역·시대는 보조 범위 정보이며 세부 지역 판정에 집중하지 않는다. 공통 국어 문법 범주로 연결하되 표준어형과 방언형의 일대일 대응은 가정하지 않는다.
-
-**최신 작업: 이번 요청에서 184건을 추가해 총 331건을 그래프로 내보냈다.** 문헌 간 통합·대조 관계는 25개에서 50개로 늘렸다. [전체 작성·연결 점검](grammar/작성검토.md)에 모든 통합 관계의 이유·한계와 남은 공백을 기록했다. 기존 6종에 양지현(2021) 22쪽을 직접 방언 근거로 추가했다. Song 외(2025) 8쪽은 문형·입력 연결 참고자료이며 방언 근거에서 분리했다. [docs/전체원문검토.md](docs/전체원문검토.md)는 이전 6종·452쪽 분석이고, 현재 처리 구간과 포함·배경·보류·제외 판단은 [grammar/integration.json](grammar/integration.json)에 있다. 구간별 처리방침을 정한 것과 모든 문법 진술의 전수 작성은 다르며 전체 작성은 아직 미완료다.
-
-## 새 작성본과 실제 범위
-
-| 항목 | 현재 기록 |
+| 목적 | 파일 |
 |---|---|
-| 활성 문법 지식 | 331건: 문법 136, 높임 31, 음운 17, 개요 10, 류성기 60, 조현준 62, 양지현 15 |
-| 자료 범위 | 직접 방언 근거 7종·474쪽 + 설계 참고 1종·8쪽. 자료별 작성 범위는 서로 다름 |
-| 그래프 | 5,527노드·13,803엣지. 문법 진술 관계 1,033 + 통합·대조 관계 50 = triple 보기 1,083행 |
-| 검토 상태 | 작성자 원문 대조 표시 300건; 독립 검토·생성 승인 0건 |
-| 설명용 예문 | 65개 기록에 76개; 원문 인용·독립 근거·정답이 아님. 새 기록 대부분은 예문 null과 이유를 보존 |
-| 작성 장부 | pending 296 / partial 161 / needs_review 4 / draft_complete 3 / context_only 10쪽. 독해 여부·문법 정보량의 비율이 아님 |
-| 실행 기능 | 수동 조건의 제한적 관계 조회·일치/충돌/미확보 구별 구현. 자동 분석·전체 조합 판정·생성 비교 미완료 |
-| 문헌 검토 | 방법론 11편 검토 완료, 재현 실험이나 분야 전체 조사 아님 |
+| 지금까지 작성한 지식 전체 | [records.jsonl](grammar/records.jsonl): 331건의 통합 기록. 한 줄에 한 기록 |
+| 문헌 간 연결까지 포함한 그래프 전체 | [grammar.graph.json](grammar/grammar.graph.json) |
+| 미완료·충돌·연결 판단 | [작성검토.md](grammar/작성검토.md) |
+| 원문 대조·작성·통합 방법 | [구축방법.md](docs/구축방법.md) |
 
-기준 파일은 [progress.json](grammar/progress.json)이다. 노드·엣지 수에는 출처·관리·예문 구조도 포함되므로 품질·완성도와 동일시하지 않는다. 백그라운드 지식 작성은 실행 중이 아니다.
+JSON은 기계 처리용이다. 특정 기록을 자세히 읽을 때는 records.jsonl의 `authored_file`이 가리키는 [authored/](grammar/authored/) 원본을 본다. [triples.tsv](grammar/triples.tsv)는 관계를 표로 훑는 용도이며 조건 전체를 담지는 않는다.
 
-## 파일을 읽는 순서
+## 원본과 산출물
 
-1. [작성본](grammar/authored/namu_interrogatives_01.json): 의문문 지식의 내용·조건·근거·예문.
-2. [통합 장부](grammar/records.jsonl): 한 줄에 한 문법 기록.
-3. [기록 규격](grammar/record.schema.json), [공통 개념](grammar/ontology.json): 무엇을 어떻게 표현하는지.
-4. [분석 연결 규격](grammar/analysis_contract.json), [지식별 연결](grammar/analysis_links.json): 입력의 어떤 분석값과 연결할지. 실행 가능한 분석기·조건 판정기는 아니다.
-5. [그래프](grammar/grammar.graph.json): `nodes`의 ID와 `edges`의 출발점·관계·도착점. 출처/조건 추적과 문법 내용의 연결을 구분한다.
-6. [공백](grammar/gaps.json), [예문 점검](grammar/example_review.md), [배경 메모](grammar/source_notes.json): 미확인·보조 정보와 지식의 경계.
-7. [triple 전체 보기](grammar/triples.tsv): 주체·관계·대상 및 원래 ID·근거. 조건은 graph.json의 해당 assertion에서 확인한다. RDF 파일이 아니라 동일 그래프의 TSV 보기다.
-8. [통합 판단·전체 처리 구간](grammar/integration.json): 50개 연결의 근거·이유·한계, 8파일의 전체 구간 분류와 문제 처리 상태.
-
-## 전체 작성 착수 결과 — 2026-09-17 후속
-
-수정 원본은 계속 `grammar/authored/*.json`이고 출력 그래프도 `grammar/grammar.graph.json` 한 개다. 문헌 간 통합은 그래프 구축과 별개인 선행 문서 작업만을 뜻하지 않는다. 이번에는 `ExpressionUse` 및 `Assertion` 노드 사이에 실제 통합 엣지를 추가했다. `same_usage_candidate`는 완전 동일성·조건 상속·표현 교환을 뜻하지 않는다. 근거가 약한 연결을 채택하지 않는다. 이번 검토에서 제외한 2개 제안과 이유는 [작성검토.md](grammar/작성검토.md)에 기록했다.
-
-양지현은 목적·정도·도급, 거로 하-의 사동/명령/약속/제안, 보조 되- 제약, 부사형·종결형 등을 용법별로 작성했다. `GYS-Y012`의 알아맞히기 의문 제약은 부정 의미를 설명문에만 숨기지 않고 `excludes_function`으로 저장했다. `GYS-H001`의 장터 필수조건도 친근한 비격식 맥락으로 정정했다.
-
-실제 조회: `GYS-R011:F1`(함양 완결 보조 삐다) → `has_inflection_description` → `GYS-I020:F1`(위키 활용표) → `has_surface_form` → 12개 기록된 활용형. 이는 기능 기록에서 다른 문헌의 활용을 실제 엣지로 가져온 결과이며 모든 12형을 입력 없이 생성 승인했다는 뜻은 아니다. 경로마다 양쪽 원문 위치·조건·통합 한계를 반환한다.
-
-```bash
-/usr/bin/python3 current_kg/grammar/integration_review.py --save
-/usr/bin/python3 current_kg/grammar/build.py check
-/usr/bin/python3 -m unittest discover -s current_kg/grammar -p 'test_*.py'
+```text
+sources/의 원문 PDF + grammar/source_registry.json
+  ↓ 직접 읽고 작성
+ grammar/authored/*.json    개별 지식 수정 원본 (20개 작성 묶음)
+ grammar/integration.json   문헌 간 연결·문제·구간 장부 수정 원본
+  ↓ grammar/build.py
+ grammar/records.jsonl      통합 기록
+ grammar/grammar.graph.json 문헌 간 연결까지 포함한 그래프
+  ↓ 조회·집계
+ grammar/*.results.json    특정 실행의 조회·점검 결과
+ grammar/작성검토.md        작성 공백과 연결 검토 보고
 ```
 
-저장 경로 로그: [integration_review.results.json](grammar/integration_review.results.json). 저장 331건 재현과 총 57개 구현 검사를 통과했다. 통합 관련 검사는 전체 구간 장부, 자료 역할 분리, 교차 문헌 경로, 관계 제거, 보류 관계 차단, 부정 관계·장터 조건 정정 등을 확인한다. 작성자 원문 판단의 정확성이나 자연스러운 생성의 검증이 아니다. 자동 입력 분석·조건 전체 판정·Qwen 생성은 수행하지 않았다.
+20개 작성 파일은 별개의 최종 KG가 아니다. 내용은 authored에서, 통합 관계는 integration.json에서 수정한 뒤 출력한다. records.jsonl만으로 통합 관계 전체를 대신할 수 없다.
 
-이번에는 조현준의 종결 계열·결합, 류성기의 조사·연결·파생, 위키의 음운·담화·어휘 의미를 추가했다. 다만 원문 개별 설명의 전수 대조·작성, 조건의 구조화, 예문 보완은 남아 있다. 현재 331건을 전체 완성본으로 고정하지 않는다. 작성 범위·나열만 된 표현·설명문 조건 등을 [점검 결과](grammar/authoring_audit.results.json)에서 확인할 수 있다. 예전 `work_plan.json`은 6종·452쪽 시점의 계획이며 현재 상태는 `progress.json`과 `integration.json`을 본다.
+## 현재 상태
 
-[build.py](grammar/build.py)는 직접 작성본의 검사·그래프 변환·저장본 재현을 담당하며 Qwen 지식 추출기는 아니다.
+직접 방언 근거 7종·474쪽을 대상으로 331건을 작성했다. 그래프는 5,527노드·13,803엣지이며 문법 진술 1,033개와 통합 관계 50개를 포함한다. 작성자 원문 대조 표시 300건, 재검토 31건이다. 독립 검토·생성 승인·새 KG 생성 비교는 미실시다. 전체 원문의 개별 설명·표·각주 전수 대조와 작성은 미완료다.
 
-```bash
-/usr/bin/python3 current_kg/grammar/build.py check
-/usr/bin/python3 -m unittest discover -s current_kg/grammar -p 'test_build.py'
-```
+숫자는 [progress.json](grammar/progress.json), 문제 목록은 [작성검토.md](grammar/작성검토.md)를 따른다. 노드 수·테스트 통과·쪽별 상태는 언어학적 정확성이나 원문 포괄률이 아니다.
 
-이 검사는 구현상의 구조·참조·분리·재현을 확인한다. 원문 해석, 방언 문법의 정확성, 자연스러운 생성 성능을 인증하지 않는다. 원본 PDF는 별도로 로컬에 있어야 하며 저장소에 재배포하지 않는다.
+## 남아 있는 폴더
 
-2026-09-15 문서 동기화 때 위 명령으로 저장 67건 재현과 테스트 30개 통과를 확인했다.
-현재 셸의 기본 `python3`(Conda)에는 `jsonschema`가 없어 첫 실행이 import 단계에서 실패했다.
-기존 `/usr/bin/python3` 환경을 사용해 확인했으며 패키지 설치·환경 변경은 하지 않았다.
+| 폴더 | 역할 |
+|---|---|
+| `grammar/` | 현행 작성 원본·규격·그래프·검사 코드·결과 |
+| `docs/` | 현행 구축방법·전체원문검토와 과거 설계·자료 검토 이력. 과거 문서는 현행 실행 지시가 아님 |
+| `experiments/` | 모델 연결 점검 이력과 AI-Hub 평가 후보 구성. 현행 KG 효과 검증 결과는 아님 |
 
-## 2026-09-17 이전 배치 — 하게체 3건 작성·연결 이력
+현재 KG의 이전 claims·design_probe 구현과 산출물을 정리했다. 설계·원문 검토 문서와 docs/history는 논문 근거 추적을 위해 보존한다. 현행 자료 통제표는 [grammar/source_registry.json](grammar/source_registry.json)으로 이동했다. 프로젝트 루트의 archive에는 v1/v2 코드·문서·실험 이력을 보존한다. 논문의 동기·시행착오·오류 분석에 활용하며 현행 KG와 구분한다.
 
-수정 원본: [authored/namu_hage_questions_01.json](grammar/authored/namu_hage_questions_01.json). 기존 구조에 3건을 추가했으며 새 KG 버전을 따로 만들지 않았다.
+## 원문 검수 방법과 다음 작업
 
-| 기록 | 작성 내용 | 직접 확인한 근거 |
+7종 전체를 절·표·각주 단위로 대조한다. 원문에서 기록으로 확인해 누락을 찾고, 기록에서 원문으로 되짚어 오해·과장·근거 없는 조건을 찾는다. 항목별로 원문 위치, 대응 기록·관계, 유지/보완/신규/배경/보류/제외 판정과 이유를 남긴다. 목록만 만들지 않고 누락 작성과 조건 보완을 함께 진행한다.
+
+첫 범위는 조현준 PDF 56–103쪽이다. 전체 작업의 시작 구간이며 나머지 자료도 모두 대조해야 한다. 문헌 간 연결은 양쪽 원문을 함께 확인하고 기능 공유·동일 용법 후보·활용 참조·충돌을 구별한다. 원문에 없는 조건은 공백으로 남긴다. 이번 폴더 정리는 전수 검수 수행이 아니다.
+
+## 검사 코드와 저장 결과
+
+| 코드·기준 | 확인 내용 | 결과 위치 |
 |---|---|---|
-| GYS-H003 | 하게체 판정 의문 -(느)ㄴ가, 비음 변이 -(느)ㄴ강 | 상대높임법 PDF 19쪽 |
-| GYS-H004 | 하게체 설명 의문 -(느)ㄴ고, 비음 변이 -(느)ㄴ공 | 상대높임법 PDF 19쪽 |
-| GYS-H005 | -(느)ㄴ고+요→-(느)ㄴ고요 구성, 결합 후 해요체 수준의 높임 | 상대높임법 PDF 34쪽 각주 67 |
+| [record.schema.json](grammar/record.schema.json), [analysis_contract.json](grammar/analysis_contract.json), [build.py](grammar/build.py) | 형식·참조·상태·입력 연결 규격, 그래프 구성 및 재현 | check는 터미널 출력 |
+| [test_build.py](grammar/test_build.py) | 30개: 형식·참조·예문·그래프·기존 교정 유지 | unittest 터미널 출력 |
+| [test_query_review.py](grammar/test_query_review.py) | 9개: 수동 조건 조회와 연결 제거 | unittest 터미널 출력 |
+| [test_integration.py](grammar/test_integration.py) | 18개: 문헌 간 경로·보류·기존 교정 유지 | unittest 터미널 출력 |
+| [query_review.py](grammar/query_review.py) | 지정한 의문·높임 조건으로 제한적 조회 | [query_review.results.json](grammar/query_review.results.json) |
+| [integration_review.py](grammar/integration_review.py) | 지정한 시작 용법·관계 순서의 경로 조회 | [integration_review.results.json](grammar/integration_review.results.json) |
+| [authoring_audit.py](grammar/authoring_audit.py) | 작성 공백·조건·통합 관계 집계 | [authoring_audit.results.json](grammar/authoring_audit.results.json), [작성검토.md](grammar/작성검토.md) |
 
-H003/H004는 문법 PDF 13쪽의 혼합 기록 GYS-Q013을 구체화하는 `qualifies` 관계로 연결했다. H005는 H004에 연결하되 기본형의 하게체 조건을 결합 결과에 상속하지 않는다. 표면형 노드는 기존 기록과 공유하고 용법 노드는 구별한다. 위키 두 문서는 같은 근거 계보이며 독립 검증 두 건이 아니다. 이 작업은 하게체를 일반 경상도 생성의 기본 말투로 선택한 것이 아니다.
+57개는 테스트 함수 수이며 문법 정답 57개를 검증한 뜻이 아니다. 같은 작성자의 데이터와 예상값을 비교하므로 동일한 해석 오류를 공유할 수 있다. authoring_audit 전용 테스트는 현재 없다. 세 results.json에는 그래프 해시가 있지만 57개 테스트 전체의 성적표는 아니다. --save는 동일 파일을 덮어쓰며 누적 실행 이력을 만들지 않는다.
+
+build check는 records.jsonl, grammar.graph.json, triples.tsv, progress.json, gaps.json, analysis_links.json, example_review.md의 7개 산출물을 원본에서 다시 구성해 비교한다. ontology.json은 prepare가 출력하며 이 비교 목록에 포함되지 않는다. status는 저장된 progress 요약일 뿐 새 검증이 아니다. check가 PDF 전체를 새로 읽고 언어학적 판단을 하지는 않는다.
 
 ```bash
-/usr/bin/python3 current_kg/grammar/query_review.py --question-type content --speech-level HAGECHE --save
-/usr/bin/python3 current_kg/grammar/query_review.py --question-type polar --speech-level HAGECHE
-/usr/bin/python3 current_kg/grammar/query_review.py --question-type content
+/usr/bin/python3 current_kg/grammar/build.py check
 /usr/bin/python3 -m unittest discover -s current_kg/grammar -p 'test_*.py'
+git diff --check
 ```
 
-[query_review.py](grammar/query_review.py)는 기존 JSON 그래프의 실제 엣지를 읽는다. `CONTENT_QUESTION`에 들어오는 `realizes` 관계로 H004를 찾고, `variant_of`로 ㄴ공, `qualifies`로 H005 및 Q013을 가져온다. H005 안의 `combines_with`, `has_surface_form`, `has_interpretation`과 근거 쪽도 반환한다. Neo4j/Fuseki 설치나 자동 문장 분석이 아니다.
+작성 원본을 변경한 뒤에만 필요한 파생 산출물을 갱신한다. 이전 결과를 논문 증거로 사용할 경우 먼저 버전과 실행 조건을 보존한다.
 
-저장된 전체 조회 결과: [query_review.results.json](grammar/query_review.results.json). 수동 조건, 그래프 SHA-256, 실제 관계 ID, 조건별 판단, 연결 기록·근거·공백이 들어 있다. 이는 DB 엔진의 물리적 실행 경로 로그가 아니다.
+```bash
+/usr/bin/python3 current_kg/grammar/build.py export
+/usr/bin/python3 current_kg/grammar/authoring_audit.py --save
+/usr/bin/python3 current_kg/grammar/integration_review.py --save
+/usr/bin/python3 current_kg/grammar/query_review.py --question-type content --speech-level HAGECHE --save
+```
 
-확인 결과:
+## 평가·자료 정책
 
-- 설명 의문+하게체에서 H004와 ㄴ공 변이, H005 결합·높임 변화, Q013의 문헌 간 연결을 가져왔다.
-- 판정 의문에서는 H003을 찾고 H004는 찾지 않는다. 목표 높임이 없으면 H004의 조건 판정은 unknown, 해체를 지정하면 해당 기본형 용법에 mismatch다.
-- 메모리 복사본에서 기능 관계를 제거하면 H004 조회가 사라지고, H005의 연결을 제거하면 추가 구성이 사라진다. 원본 그래프는 변경하지 않는다.
-- H005 내부에서 combines_with 관계를 제거하면 연관 기록은 남지만 결합→표면형→높임 해석의 연결 결과는 사라진다. 단순 기록 연결과 구성 내부의 문법 관계를 구별해 점검했다.
-- 조건 엣지가 손실되면 무조건 허용하지 않고 invalid_graph로 표시한다.
-- 저장 70건 재현, 기존 30개+새 조회 검사 9개가 통과했다. 동일 작성자의 구현 점검이며 독립 언어학적 검증·생성 실험은 아니다.
+문법 지식은 Codex/Astra가 원문을 직접 검토해 작성한다. Qwen3.8-27B는 생성 실험 대상으로 두며 실험 전 실제 체크포인트·설정을 확인한다. 입력 분석기·DB 제품·평가 방법은 미확정이다. 목표는 일반적인 표준어→경상도 방언 변환이며 부산·악취 민원으로 한정하지 않는다.
 
-**한계와 발견한 문제:** `match`는 기록된 조건의 일치일 뿐 생성 적합성 인증이 아니다. 같은 조회에서 기존 GYS-Q010(-지)도 높임 조건 없이 match가 되므로 반환 후보 전체를 바로 생성에 넘겨서는 안 된다. 미기재 조건·범위·예외·근거 상태를 별도로 검토해야 한다. H005의 `following_form`은 생성 후보의 결합 요소인데 현재 `analysis_contract`는 입력에서 얻을 정보와 후보 내부 정보를 명시적으로 구별하지 못한다. 지금은 작성본의 설명·공백에 표시했으며 실행 연결 규격을 완료했다고 주장하지 않는다. 당시 요/예 결합형 8개 중 1개만 작성했으나 후속 H006~H012와 H013에서 나머지 결합·자문 용법을 보완했다. 모든 문장 중간 용법과 조합 판정이 완료된 것은 아니다.
+[experiments/build_baseline_testset.py](experiments/build_baseline_testset.py)와 로컬 문장쌍은 AI-Hub 예비 평가 후보이다. 선별·문장 경계·화자·누수 점검이 필요하며 문법 근거나 확정 정답셋이 아니다. PDF·파생 문장쌍·어휘 원본·인증정보는 Git 재배포 대상에서 제외한다.
 
-## 최신 검토에서 확인한 위험과 미정 사항
+## 정리 이력
 
-- 공통 개념·표면형 연결은 있으나, 같은 용법의 통합·지역 변이·예외 관계까지 충분히 정리됐다고 볼 수 없다.
-- 전체 독해에서 `GYS-H001`의 장터 예시를 필수 장소 조건으로 해석하면 과도하다고 판단했다. 후속 작성에서 H001의 필수 장소 조건을 친근한 비격식 맥락으로 정정했고 회귀 검사에 포함했다.
-- 생성 품질과 지식 선택/조합 품질을 나눠 보자는 것은 제안이다. 구체적인 판단 기준·평가 표본·실험 수는 합의 전이다.
-- 완벽한 지식 완성을 전제하지 않고, 검증된 범위와 공백·사용 기준을 명시해야 한다.
-- KG 구축 비교는 동일 원문·구축 방식·독립 평가 기준이 마련될 때만 검토한다. 시행착오를 비교 실험으로 포장하지 않는다.
-
-## 생성 비교 및 AI-Hub 예비 진단
-
-주 비교 후보는 동일 모델의 프롬프트만 / 텍스트 검색 / 문법 KG 조회다. 같은 지식을 다른 형식으로 전달하는 실험은 검색 비교가 아닌 표현 비교다. 입력 분석·예문·근거 풀·정보량·총 비용을 기록하고, KG에만 더 좋은 분석을 제공한 효과를 KG 고유 효과로 오해하지 않는다.
-
-AI-Hub 약 100문장 prompt-only 진단이 제안됐으며 아래 로컬 산출물이 있다. 이번 업데이트에서는 생성 결과를 새로 측정하지 않았다.
-
-- [구성 스크립트](experiments/build_baseline_testset.py)
-- `experiments/baseline_testset_100.jsonl`
-- `experiments/baseline_testset_100_curated.jsonl`
-
-문장쌍은 Git 제외다. 현재 스크립트는 0.8초 무음 경계와 길이·편집거리·방언 어절 수 선별을 사용한다. 이는 코퍼스의 확정 문장 경계나 대표 무작위 표본이 아니다. 화자 경계의 명시적 분리, 구간 추적, curated 수정 이력은 추가 점검해야 한다. 표본 파일의 존재를 검수·실험 완료로 보고하지 않는다. 스크립트는 이번에 수정하거나 실행하지 않았다.
-
-원 방언 참조는 생성 모델에 숨기고, 여러 가능한 정답 중 하나로 평가한다. 개발에 활용한 표본은 최종 미사용 평가셋과 구별한다. 성공·실패를 모두 평가하고 특정 모델/프롬프트/표본의 관찰만 주장한다.
-
-## 현재 정책과 과거 이력
-
-문법 근거는 기존 6종과 추가 양지현 논문이며 자료에 없는 조건은 임의 보충하지 않는다. Song 외(2025)는 설계 참고자료다. 어휘 JSON은 별도 후보, AI-Hub는 독립 평가 후보다. 과거 39규칙·문법 JSON·318건·688건 그래프를 새 문법 근거로 재사용하지 않는다.
-
-독립 연구 검토자는 비판 의견을 제공하고 직접 지식·코드를 변경하거나 최종 결정을 대신하지 않는 역할로 요청됐다. 구체적인 workflow·평가 합의 절차는 미구현이다. 이 업데이트에는 모델 연결 테스트 내용을 기록하지 않는다.
-
-## 2026-09-11 이전 추출·연결·실험 제안 이력
-
-아래는 당시 보고를 보존한 것으로 현행 정책·완료 상태가 아니다. 특히 부산 고정, 기존 그래프 사용, 실행 예정 지시는 후속 연구미팅으로 대체됐다. 삭제된 `experiments/busan_experiment_plan.json`은 Git 이력에서 확인하며 재생성하지 않는다.
+2026-09-18 사용자 요청에 따라 폐기된 방식을 작업 트리에서 제거하고 기존 문서를 갱신하는 정책으로 변경했다. 앞서 별도 생성한 검사전체목록.md는 이 README로 통합했다. 기존 코드·문서의 과거 버전은 Git 이력에서 확인할 수 있다. 삭제 범위를 v1/v2 연구 이력까지 확대한 것은 에이전트의 오해였다. 사용자 정정 후 archive의 추적 파일 전체와 과거 설계·자료 검토 문서를 복원했다. 현재 KG 초반의 중복·폐기 산출물 정리와 논문용 연구 이력 보존을 구별한다. 현행 grammar/retired는 빌드·검사에 필요한 제외 기록이므로 유지한다.
 
 <details>
-<summary>이전 보고 펼치기 — 현행 직접 작성본과 합산 금지</summary>
+<summary>grammar 파일 전체 목록 펼치기</summary>
 
-## 연구 목표와 최신 요약 — 2026-09-11
 
-**최신 확인:** JO2018 재개 작업은 15:50 KST 종료했다. PDF183–265에서 66건 추가, JO 누계 284건이다. `python3 current_kg/claims/v3/check_jo2018.py --check-saved --check-receipt`를 재실행해 전체 59배치·688건의 저장 그래프(14,102노드·23,724엣지)와 입력의 일치를 확인했다. JO의 265쪽은 추출 192쪽·맥락 58쪽·보류 15쪽으로 분류됐으며 추출된 쪽에도 부분 미추출이 있다. 아래 시간별 기록은 과거 이력이다.
+아래 표시 경로는 프로젝트 루트 기준이다. authored 20개와 retired 파일까지 포함했다. 자동 생성 캐시(__pycache__)는 연구 원본·결과가 아니므로 제외한다.
 
-**모델 연결 해소:** `test.py`의 새 배포 경로로 모델 목록과 응답 모델 `Qwen3.8-27B`를 확인했다. 15:48 KST KG 없는 한 문장 생성에 성공했다. 입력 `오늘은 시간이 없어서 내일 다시 갈게.` → 출력 `오늘은 시간이가 없어서 내일 또 가겄다.`. [실행 기록](experiments/model_smoke_updated_endpoint_result.json). 이는 연결 점검이며 자연스러움·KG 효과 검증은 아니다.
+| 파일 | 역할 |
+|---|---|
+| [current_kg/grammar/analysis_contract.json](grammar/analysis_contract.json) | 입력 항목·값·적용 대상 규격. |
+| [current_kg/grammar/analysis_links.json](grammar/analysis_links.json) | 관계의 입력 연결·조건·근거 출력. build.py check 재현 비교 대상. |
+| [current_kg/grammar/authored/jo2018_01.json](grammar/authored/jo2018_01.json) | 직접 작성 문법 원본. 검증·그래프 생성 및 일부 테스트의 입력. |
+| [current_kg/grammar/authored/jo2018_expansion_02.json](grammar/authored/jo2018_expansion_02.json) | 직접 작성 문법 원본. 검증·그래프 생성 및 일부 테스트의 입력. |
+| [current_kg/grammar/authored/jo2018_expansion_03.json](grammar/authored/jo2018_expansion_03.json) | 직접 작성 문법 원본. 검증·그래프 생성 및 일부 테스트의 입력. |
+| [current_kg/grammar/authored/namu_cross_categories_01.json](grammar/authored/namu_cross_categories_01.json) | 직접 작성 문법 원본. 검증·그래프 생성 및 일부 테스트의 입력. |
+| [current_kg/grammar/authored/namu_grammar_expansion_02.json](grammar/authored/namu_grammar_expansion_02.json) | 직접 작성 문법 원본. 검증·그래프 생성 및 일부 테스트의 입력. |
+| [current_kg/grammar/authored/namu_hage_questions_01.json](grammar/authored/namu_hage_questions_01.json) | 직접 작성 문법 원본. 검증·그래프 생성 및 일부 테스트의 입력. |
+| [current_kg/grammar/authored/namu_honorific_compositions_02.json](grammar/authored/namu_honorific_compositions_02.json) | 직접 작성 문법 원본. 검증·그래프 생성 및 일부 테스트의 입력. |
+| [current_kg/grammar/authored/namu_honorific_expansion_03.json](grammar/authored/namu_honorific_expansion_03.json) | 직접 작성 문법 원본. 검증·그래프 생성 및 일부 테스트의 입력. |
+| [current_kg/grammar/authored/namu_honorifics_01.json](grammar/authored/namu_honorifics_01.json) | 직접 작성 문법 원본. 검증·그래프 생성 및 일부 테스트의 입력. |
+| [current_kg/grammar/authored/namu_inflection_01.json](grammar/authored/namu_inflection_01.json) | 직접 작성 문법 원본. 검증·그래프 생성 및 일부 테스트의 입력. |
+| [current_kg/grammar/authored/namu_interrogatives_01.json](grammar/authored/namu_interrogatives_01.json) | 직접 작성 문법 원본. 검증·그래프 생성 및 일부 테스트의 입력. |
+| [current_kg/grammar/authored/namu_lexical_constructions_03.json](grammar/authored/namu_lexical_constructions_03.json) | 직접 작성 문법 원본. 검증·그래프 생성 및 일부 테스트의 입력. |
+| [current_kg/grammar/authored/namu_overview_01.json](grammar/authored/namu_overview_01.json) | 직접 작성 문법 원본. 검증·그래프 생성 및 일부 테스트의 입력. |
+| [current_kg/grammar/authored/namu_overview_expansion_02.json](grammar/authored/namu_overview_expansion_02.json) | 직접 작성 문법 원본. 검증·그래프 생성 및 일부 테스트의 입력. |
+| [current_kg/grammar/authored/namu_phonology_01.json](grammar/authored/namu_phonology_01.json) | 직접 작성 문법 원본. 검증·그래프 생성 및 일부 테스트의 입력. |
+| [current_kg/grammar/authored/namu_phonology_expansion_02.json](grammar/authored/namu_phonology_expansion_02.json) | 직접 작성 문법 원본. 검증·그래프 생성 및 일부 테스트의 입력. |
+| [current_kg/grammar/authored/ryu2014_01.json](grammar/authored/ryu2014_01.json) | 직접 작성 문법 원본. 검증·그래프 생성 및 일부 테스트의 입력. |
+| [current_kg/grammar/authored/ryu2014_conflict_03.json](grammar/authored/ryu2014_conflict_03.json) | 직접 작성 문법 원본. 검증·그래프 생성 및 일부 테스트의 입력. |
+| [current_kg/grammar/authored/ryu2014_expansion_02.json](grammar/authored/ryu2014_expansion_02.json) | 직접 작성 문법 원본. 검증·그래프 생성 및 일부 테스트의 입력. |
+| [current_kg/grammar/authored/yang2021_01.json](grammar/authored/yang2021_01.json) | 직접 작성 문법 원본. 검증·그래프 생성 및 일부 테스트의 입력. |
+| [current_kg/grammar/authoring_audit.py](grammar/authoring_audit.py) | 작성 공백·통합 관계 집계 및 보고서 출력 구현. 자체 전용 test_authoring_audit.py는 없음. |
+| [current_kg/grammar/authoring_audit.results.json](grammar/authoring_audit.results.json) | 작성 공백·재검토·구간별 기록·통합 문제 집계. audit --save 출력. |
+| [current_kg/grammar/build.py](grammar/build.py) | 검증·그래프 생성·재현 비교 구현. GROUPS에 공통 개념 정의도 포함. |
+| [current_kg/grammar/example_review.md](grammar/example_review.md) | 예문 및 검토 상태 보고. build.py check 재현 비교 대상; 자연스러움 평가 결과 아님. |
+| [current_kg/grammar/gaps.json](grammar/gaps.json) | 명시된 미해결 사항 집계. build.py check 재현 비교 대상; 미발견 누락까지 검출하지 않음. |
+| [current_kg/grammar/grammar.graph.json](grammar/grammar.graph.json) | 현행 그래프. build.py check 재현 비교 대상. |
+| [current_kg/grammar/integration.json](grammar/integration.json) | 수동 연결 판단·근거·한계·문제·구간 장부의 원본. |
+| [current_kg/grammar/integration_review.py](grammar/integration_review.py) | 지정된 관계 순서의 경로 조회와 보류 처리 구현. |
+| [current_kg/grammar/integration_review.results.json](grammar/integration_review.results.json) | 저장된 GYS-R011:F1 → has_inflection_description → has_surface_form 조회 결과. 전체 경로 시험 이력 아님. |
+| [current_kg/grammar/manifest.json](grammar/manifest.json) | 자료·쪽·해시 기준. check 실행 자체가 PDF 전체를 다시 추출·대조한다는 뜻은 아님. |
+| [current_kg/grammar/ontology.json](grammar/ontology.json) | 공통 개념 출력. build.py prepare가 생성하며 check 재현 비교 7개 목록에는 포함되지 않음. |
+| [current_kg/grammar/progress.json](grammar/progress.json) | 작성 상태·개수 집계. build.py check 재현 비교 대상; 포괄률·정확도 아님. |
+| [current_kg/grammar/query_review.py](grammar/query_review.py) | 수동 조건 조회와 제한된 조건 판정 구현. |
+| [current_kg/grammar/query_review.results.json](grammar/query_review.results.json) | 저장된 설명 의문(content)·하게체(HAGECHE) 조회 결과. 전체 조회 시험 이력 아님. |
+| [current_kg/grammar/record.schema.json](grammar/record.schema.json) | 기록 형식 규격. validate_record의 추가 코드 검사와 함께 사용. |
+| [current_kg/grammar/records.jsonl](grammar/records.jsonl) | 작성본을 합친 기록. build.py check 재현 비교 대상. |
+| [current_kg/grammar/retired/context_records_2026-09-15.json](grammar/retired/context_records_2026-09-15.json) | 제외한 기록·판정 이력. 활성 그래프 재진입 방지 검사의 입력. |
+| [current_kg/grammar/source_notes.json](grammar/source_notes.json) | 활성 생성 지식에서 분리한 출처·배경 설명. |
+| [current_kg/grammar/test_build.py](grammar/test_build.py) | 30개 테스트. 기록 규격·그래프·예문·상태·기존 교정 유지. |
+| [current_kg/grammar/test_integration.py](grammar/test_integration.py) | 18개 테스트. 통합 경로·보류·일부 기록값 유지. |
+| [current_kg/grammar/test_query_review.py](grammar/test_query_review.py) | 9개 테스트. 수동 조건 조회와 연결 제거 시 동작. |
+| [current_kg/grammar/triples.tsv](grammar/triples.tsv) | 문법·통합 관계 표. build.py check 재현 비교 대상. |
+| [current_kg/grammar/work_plan.json](grammar/work_plan.json) | 과거 6종·452쪽 작업 계획. 일부 테스트 입력이며 최신 진행표가 아님. |
+| [current_kg/grammar/작성검토.md](grammar/작성검토.md) | audit --save로 생성한 읽기용 보고. 독립 수동 검토 결과가 아님. |
 
-**생성 방향과 실험 설계 초안:** 사용자 지시에 따라 당장은 경남권, 특히 부산을 목표로 한다. 문헌 KG 전체를 삭제·재분류하지 않고 실험 근거 집합을 제한한다. 부산 근거 우선, 부산을 포함한다고 확인한 넓은 범위의 근거는 보조로 검토한다. 함양·안동 관찰이나 세부 지역 미상을 부산으로 자동 확대하지 않는다. 시대·맥락·형태 결합 조건과 운영 보류를 먼저 검사하며, 부산이라는 키워드만으로 채택하지 않는다. 이 선택 정책은 연구자 정책이지 문헌 Claim이 아니다. 아직 실행 검색기에 구현된 것은 아니다.
 
-24문장 후보·3조건·각 3회(총 216출력)의 진단 실험 초안은 `experiments/busan_experiment_plan.json`(현재 삭제된 과거 계획)에 기록했다. 문장은 연구자가 만든 평가 입력 후보로 문헌 근거나 정답이 아니다. 사용자 검토와 부산 적합 근거 선별, 검색 구현, 그래프/근거 버전 고정 후 실행한다. 이전 smoke의 경북 지시문은 본 실험에서 부산 지시문으로 교체한다. 1차는 동일 근거를 텍스트/구조화 형태로 제공하는 비교로 검색 우월성을 주장하지 않는다. 독립 텍스트 검색 대 KG 검색 비교는 2차로 분리한다. 기존 1문장 외에 추가 생성 호출은 아직 없다.
+| [current_kg/grammar/source_registry.json](grammar/source_registry.json) | 현행 자료 목록·정책. 폐기된 claims 폴더에서 이동. |
 
-**15:27 KST 모델 연결 점검:** 사용자 지시에 따라 `archive/v2_failed/src/run_ablation.py`의 Qwen3.8-27B URL·생성 설정과 기존 `.env` 인증을 사용해 실제 최소 호출을 시도했다. POST는 HTTP405, 같은 주소의 인증 없는 GET은 JONATHAN 웹 HTML을 반환했다. 아직 생성 출력은 없으며 현재 배포 API 경로 확인이 필요하다. 결과는 `current_kg/experiments/model_smoke_result.json`에 요청·시각·오류와 함께 저장했다(인증키 제외). 서버 가동·인증키 오류 여부를 이 결과만으로 단정하지 않는다.
+</details>
 
-**15:23 KST 재개:** 사용자 요청으로 JO2018 PDF183–265를 이어서 추출하는 백그라운드 작업을 시작했다. PID 1771980, run_id `20260911T062329068102Z`. 완료된 5문헌은 receipt 확인 후 건너뛰었다. 기존 배치와 이전 실행 상태·로그는 보존하며, 현재 실행 상태는 `claims/v3/background_run/status.json`을 따른다. 아래 13:25 종료는 이전 실행 이력이다.
+<details>
+<summary>테스트 함수 57개 전체 목록 펼치기</summary>
 
-생성 점검은 남은 추출 완료를 기다리지 않고 병행할 수 있다. 단, 그래프 버전을 고정하고 보류 항목을 제외한 근거를 사용한다. 과거 실행 코드에는 서로 다른 서버 주소 및 Qwen3.8/Qwen3.6 모델명이 있어 현재 사용할 Qwen3.8-27B 서버 주소·served model ID를 확인한 뒤 호출해야 한다. 현재 인증 환경·엔드포인트를 확정하지 않았으며 이번 재개에서 생성 API를 호출하지 않았다.
+### test_build.py — 30개
 
-최종 생성 모델은 사용자가 지정한 **로컬 Qwen3.8-27B**다. 경상 방언 문법 KG로 이 모델의 표준어→경상도 방언 생성 품질을 개선하고, 같은 과제에서 상용 LLM과의 성능 격차를 줄이는 것이 목표다. 로컬 추론을 통한 비용 부담 완화도 목적이며 KG 구축·유지와 하드웨어·추론 비용을 구별한다. 모델 명칭은 사용자 지정 사항이고 정확한 체크포인트·양자화·실행 환경은 실험 연결 시 확인한다. 일반 지능 전반에서 상용 모델과 동등함을 주장하는 연구가 아니다.
+- `test_example_is_separate_from_source_evidence` — [test_build.py:36](grammar/test_build.py#L36)
+- `test_example_unknown_relation_rejected` — [test_build.py:50](grammar/test_build.py#L50)
+- `test_example_mismatched_focus_rejected` — [test_build.py:56](grammar/test_build.py#L56)
+- `test_example_cannot_claim_naturalness_or_source_origin` — [test_build.py:62](grammar/test_build.py#L62)
+- `test_null_example_requires_reason` — [test_build.py:69](grammar/test_build.py#L69)
+- `test_general_rule_example_does_not_require_invented_form` — [test_build.py:76](grammar/test_build.py#L76)
+- `test_null_focus_not_allowed_for_expression_relation` — [test_build.py:83](grammar/test_build.py#L83)
+- `test_review_inventory_and_example_coverage` — [test_build.py:89](grammar/test_build.py#L89)
+- `test_example_report_is_derived_from_records` — [test_build.py:117](grammar/test_build.py#L117)
+- `test_retired_source_only_records_cannot_be_readmitted` — [test_build.py:128](grammar/test_build.py#L128)
+- `test_concrete_uncertain_form_can_remain_held` — [test_build.py:135](grammar/test_build.py#L135)
+- `test_six_context_records_reclassified_outside_graph` — [test_build.py:144](grammar/test_build.py#L144)
+- `test_valid` — [test_build.py:163](grammar/test_build.py#L163)
+- `test_context_can_use_concept_without_expression` — [test_build.py:166](grammar/test_build.py#L166)
+- `test_unknown_concept_subject_rejected` — [test_build.py:179](grammar/test_build.py#L179)
+- `test_front_section_source_spellings_regression` — [test_build.py:185](grammar/test_build.py#L185)
+- `test_work_plan_covers_all_sources_without_claiming_completion` — [test_build.py:200](grammar/test_build.py#L200)
+- `test_unknown_reference` — [test_build.py:215](grammar/test_build.py#L215)
+- `test_unknown_region_not_universal` — [test_build.py:221](grammar/test_build.py#L221)
+- `test_source_context_needs_evidence` — [test_build.py:227](grammar/test_build.py#L227)
+- `test_context_only_evidence_rejected` — [test_build.py:233](grammar/test_build.py#L233)
+- `test_bridge_must_name_condition_features` — [test_build.py:237](grammar/test_build.py#L237)
+- `test_bridge_values_must_use_common_vocabulary` — [test_build.py:243](grammar/test_build.py#L243)
+- `test_shared_concept_not_shared_sense` — [test_build.py:249](grammar/test_build.py#L249)
+- `test_actual_manifest_complete_no_duplicates` — [test_build.py:265](grammar/test_build.py#L265)
+- `test_no_network_or_model_runner` — [test_build.py:274](grammar/test_build.py#L274)
+- `test_direct_authorship_and_conflict_not_promoted` — [test_build.py:286](grammar/test_build.py#L286)
+- `test_unresolved_page_cannot_be_complete` — [test_build.py:295](grammar/test_build.py#L295)
+- `test_two_documents_share_function_without_scope_merging` — [test_build.py:307](grammar/test_build.py#L307)
+- `test_check_is_read_only` — [test_build.py:318](grammar/test_build.py#L318)
 
-통합 그래프 `claims/v3/current_kg.graph.json`은 현재 **59개 배치·688 Claim·14,102 노드·23,724 엣지**를 포함한다. 이전 52개 bundle은 보존했다. 여섯 Source 모두 보류 포함 초안이며, JO2018도 PDF265까지 읽기·분류했다. **일부 표 셀 미추출과 분석 보류가 남아 있어 전체 문법 구조화 완료는 아니다.**
+### test_integration.py — 18개
 
-백그라운드 실행은 2026-09-11 13:25 KST에 `finished_with_incomplete_sources`로 종료됐다. JO2018의 세 차례 실행 후에도 전체 완료 receipt가 없어 미완료로 기록했으며 현재 실행 중이 아니다. 자세한 처리 이력은 아래에 보존한다. 전체 그래프 상태도 `draft_not_operational`이며 문헌 정답·현대 자연스러움·생성 성능 승인을 뜻하지 않는다.
+- `test_all_grammar_sources_have_authored_records` — [test_integration.py:16](grammar/test_integration.py#L16)
+- `test_methodology_not_dialect_evidence` — [test_integration.py:19](grammar/test_integration.py#L19)
+- `test_whole_page_inventory_without_gaps_or_duplicates` — [test_integration.py:22](grammar/test_integration.py#L22)
+- `test_cross_source_inflection_paths_exist` — [test_integration.py:31](grammar/test_integration.py#L31)
+- `test_removing_integration_edge_breaks_paths` — [test_integration.py:38](grammar/test_integration.py#L38)
+- `test_removing_surface_edges_breaks_second_step` — [test_integration.py:44](grammar/test_integration.py#L44)
+- `test_scope_tension_not_allowed_path` — [test_integration.py:49](grammar/test_integration.py#L49)
+- `test_negative_function_is_explicit_not_positive_interpretation` — [test_integration.py:54](grammar/test_integration.py#L54)
+- `test_market_example_not_required_place` — [test_integration.py:58](grammar/test_integration.py#L58)
+- `test_integration_not_automatic_equivalence` — [test_integration.py:63](grammar/test_integration.py#L63)
+- `test_unresolved_record_not_accepted_as_path` — [test_integration.py:70](grammar/test_integration.py#L70)
+- `test_request_to_inflection_cross_document_path` — [test_integration.py:75](grammar/test_integration.py#L75)
+- `test_removed_request_link_breaks_path` — [test_integration.py:80](grammar/test_integration.py#L80)
+- `test_homograph_usage_nodes_are_separate` — [test_integration.py:85](grammar/test_integration.py#L85)
+- `test_unseen_topics_not_turned_into_prohibition` — [test_integration.py:93](grammar/test_integration.py#L93)
+- `test_nominal_future_has_explicit_components` — [test_integration.py:98](grammar/test_integration.py#L98)
+- `test_ra_content_question_exception_is_example_not_global_rule` — [test_integration.py:103](grammar/test_integration.py#L103)
+- `test_triple_export_has_only_semantic_or_integration_rows` — [test_integration.py:109](grammar/test_integration.py#L109)
 
-> 2026-09-11 재개 결과: JO2018 PDF183–265를 실제로 읽고 7개 배치·66건을 추가해 누계 **24개 배치·284건**을 저장했다. 기존 PDF1–182 배치는 보존했다. 전체 265쪽의 읽기·분류 결과는 [receipt](claims/v3/background_run/JO2018.receipt.json)에 `extracted_with_holds`로 기록했다. 116건은 운영 보류이며 PDF227–228 표57과 PDF251–265 부록의 일부 연구자별 셀은 원문을 읽었으나 구조화하지 못했다. 참고문헌 PDF229–249와 표본 맥락 PDF250도 확인했다. 미추출·재인용·분석 미결은 쪽별 coverage와 [progress.log](claims/v3/background_run/progress.log)에 남겼다. 기존 15건·17개 검사와 47개 설계 회귀를 유지했다.
-> [JO 검사기](claims/v3/check_jo2018.py)의 `--export`로 저장 bundle 전체의 [nodes/edges 그래프](claims/v3/current_kg.graph.json)를 재구성하고 `--check-saved --check-receipt`로 대조한다. JO 명시 결합 92행과 실현형 관계를 보존하며, 표10의 7칸을 높임·문장유형이 맞는 명시 어미에 연결했다. 새 `가세`·`가자` 연결과 주어·시제 제약, 억양별 기능, 보류 형태의 후보 차단을 검사했다. 통계는 coverage 맥락으로만 저장한다. 문헌 정답·현대 자연스러움·운영 생성 KG 완성 검증은 아니다.
+### test_query_review.py — 9개
 
-> 2026-09-11: RYU2014 류성기(2014) 함양 문법 변화 논문 PDF 38쪽 전체를 읽고 6개 배치·73건을 저장했다. 상태는 `extracted_with_holds`다. 22건은 운영 보류이며, 행 단위·요약 불일치를 포함한 미결 33항목과 PDF33·37의 부분 추출 보류는 [receipt](claims/v3/background_run/RYU2014.receipt.json)에 구분했다. 문법형 조사의 7월 시점과 의식 조사의 8월 시점을 분리하고 사용비율은 생성 문법에 넣지 않았다.
-> [RYU 검사기](claims/v3/check_ryu2014.py)의 `--export`는 전체 35개 bundle·404건으로 [nodes/edges 그래프](claims/v3/current_kg.graph.json)를 재구성한다. RYU 표 93행의 용법·어미 도식·원 예문, 명시 조사결합 9개, 사동접미사와 `-아라` 결합 실현형 3개를 연결했다. 전체 예문을 분절된 활용형으로 가장하지 않고 보류 후보를 차단한다. 기존 15건·회귀 검사를 유지했다. 문헌 정답·현대 자연스러움·운영 생성 KG 완성 검증은 아니다.
-
-> 2026-09-11: NAMU20260901(동남 방언 개요) PDF 55쪽 전체를 읽고 8개 배치·96건을 저장했다. 상태는 `extracted_with_holds`이며 재인용·음성/형태 분석 미결 등 53건은 운영 보류다. 인물·작품 목록은 주로 맥락으로 분류했고, 부분 미해독·미수록 계보도 [receipt](claims/v3/background_run/NAMU20260901.receipt.json)와 [progress.log](claims/v3/background_run/progress.log)에 남겼다.
-> [개요 검사기](claims/v3/check_overview.py)의 `--export`는 저장된 전체 29개 bundle·331건으로 [nodes/edges 그래프](claims/v3/current_kg.graph.json)를 재구성한다. 높임 목록 50칸은 어미 도식으로 보존하고, 포항 `체언 + 에`의 명시 곡용 5개와 의문 유형×품사 4조합을 조건·근거에 연결했다. 보류 자료를 후보 연결에서 차단하며 원문 미제시 활용형은 만들지 않았다. 기존 15건과 회귀 검사를 유지했다. 문헌 정답·현대 자연스러움·운영 생성 KG 완성 검증은 아니다.
-
-> 2026-09-11: NAMU_PHONOLOGY_20260908(동남 방언/음운) PDF 8쪽 전체를 읽고 4개 배치·36건을 저장했다. `extracted_with_holds`이며 재인용·미수록 각주·분석 미확정 등 21건은 운영 보류다. 쪽별 처리와 미결 위치는 [음운 receipt](claims/v3/background_run/NAMU_PHONOLOGY_20260908.receipt.json), 구간 이력은 [progress.log](claims/v3/background_run/progress.log)에 있다.
-> [음운 검사기](claims/v3/check_phonology.py)의 `--export`로 전체 21개 bundle·235건의 [그래프](claims/v3/current_kg.graph.json)를 재구성하며 `--check-receipt`로 저장본과 대조한다. 음운 표 52행·159칸의 표기층을 구별하고 빈칸 14개·복수 대응 셀을 보존했다. 명확한 단일 형태 연결 62개를 검사했으며 운영 KG 완성·문헌 정답·현대 자연스러움 검증은 아니다.
-
-> 2026-09-11: NAMU_HONORIFICS_20260908(동남 방언/상대 높임법) PDF 35쪽 전체를 읽고 5개 배치·83건을 저장했다. 상태는 `extracted_with_holds`이며 54건은 재인용·분류 및 결합 분석 미결 등으로 운영 보류다. 쪽별 처리·보류 사유와 검사 명령은 [높임법 receipt](claims/v3/background_run/NAMU_HONORIFICS_20260908.receipt.json)에 있다.
-> [높임법 및 전체 bundle 검사기](claims/v3/check_honorifics.py)의 `--export`로 [전체 bundle의 그래프](claims/v3/current_kg.graph.json)를 재구성하고 `--check-receipt`로 저장 결과를 확인한다. 후속 음운 bundle도 포함한다. 안동 예외표 7행·12개 실현형과 뜻·품사별 용법 연결을 검사했다. 기존 15건을 보존했으며, 문헌 정답·현대 자연스러움 검증이나 생성 실험은 하지 않았다.
-
-> 2026-09-11: NAMU_GRAMMAR_20260908의 PDF 51쪽 전체를 읽고 초안 추출·분류를 마쳤다.
-> 기존 15건을 보존하고 신규 101건을 추가해 12개 배치·116건을 저장했다. 상태는 `extracted_with_holds`다.
-> 쪽별 완료·맥락·보류와 검사 명령은 [receipt](claims/v3/background_run/NAMU_GRAMMAR_20260908.receipt.json), 구간별 이력은 [progress.log](claims/v3/background_run/progress.log)를 확인한다.
-> 44쪽 편집·재인용 예문은 `held`, 나머지 추출 구간에도 부분 보류가 있다. 다른 문헌의 완료나 운영 생성 승인을 뜻하지 않는다.
-
-## 현재 검토할 파일
-
-[첫 정식 추출 구간 검토](claims/v3/BATCH_001_REVIEW.md)는 초기 15건 검토 이력이다. 최신 문헌 전체 처리 결과는 위 receipt를 따른다.
-
-[최소 그래프 설계 점검 결과](design_probe/README.md)는 선행 시험 이력이다.
-
-[새 Claim 포맷과 작성 예시](docs/CLAIM_FORMAT_V3_DRAFT.md)는 형식 방향에 대한 사용자 확인을 받았다. 개별 문법 주장의 정답 승인을 뜻하지 않는다.
-
-## 상태와 다음 단계 — 2026-09-11
-
-1. 완료: 여섯 PDF의 전반적 문법 범위 검토, 새 포맷 예시와 사용자 방향 확인.
-2. 완료: 첫 시험 Claim 7건의 최소 그래프에 대해 사용자 방향 확인. 문헌 공통 시험용 스키마와 조사·시제·부정 4건을 추가해 총 11건·47개 검사 통과.
-3. 완료(보류 포함): 동남 방언/문법 51쪽 읽기·분류 및 116건 초안 저장. 기존 15건·초기 coverage는 당시 기록 그대로 보존했다. 신규 Claim 중 20건은 운영 보류이며 기존 미결·표 셀 보류도 receipt에 남겼다.
-4. 검사: 전체 배치 구조·참조·근거·조건, 기존 배치 17개 검사와 시험 회귀 47개 검사 통과. [검증·그래프 재구성기](claims/v3/check_all_v3.py)의 `--export`로 [nodes/edges JSON](claims/v3/namu_grammar.graph.json)을 재구성하고 `--check-receipt`로 저장본·receipt 일치를 확인한다.
-
-여섯 문헌 모두 보류 포함 초안과 쪽별 receipt를 저장했다. 미추출 표 셀·재인용·분석 보류 해소까지 완료한 것은 아니다. 전체 운영 KG·생성 실험은 이번 추출 작업에서 수행하지 않았다. 기존 류성기 318건은 신규 KG 입력에서 제외하고 이전 파일럿·검토 기록과 함께 보존한다. 기존 스키마를 새 자료에 자동 적용하지 않는다.
-
-현재 문헌의 저장·보류 결과는 receipt가 기준이다. 실행 감시기의 `background_run/status.json`은 작업 프로세스 상태이며 언어학적 검증 상태가 아니다.
-
-## 생성 중심 작업과 비교 실험 합의 — 2026-09-11
-
-전체 Claim 추출과 함께 이미 추출한 자료를 생성용 문법 관계로 옮긴다. Claim→근거 연결만으로 생성용 KG가 완성됐다고 하지 않는다. 이번에는 내부 표 590칸을 용법→열에 해당하는 구성→실현형 관계로 옮겼다. 원문 미제시 6칸은 실현형을 만들지 않았고, `삐가/삐가` 오기 가능 셀 1칸은 보류했다. 명시 목록·실현형도 원 Claim의 조건·주석·보류와 연결한다. 표 머리글은 어미 외에 문법 역할·수도 포함하며, 모호한 분석이나 미제시 결합을 자동 추론하지 않는다. 운영 생성 KG의 완성·현대 자연스러움 검증은 아니다.
-
-생성 비교의 세 조건에 대해 사용자와 방향을 합의했다. **아직 실행하지 않았다.**
-
-1. 외부 근거 없이 동일 모델로 생성.
-2. 근거를 일반 텍스트 형태로 제공해 생성.
-3. KG에서 조건에 맞는 근거를 조회해 생성.
-
-위 1–3번의 생성 모델은 모두 **동일한 로컬 Qwen3.8-27B**로 통제한다. 별도의 상용 LLM을 같은 과제의 비교 기준으로 선정하되 그 출력을 정답으로 취급하지 않는다. 상용 모델 종류·정확한 실행 설정은 아직 정하지 않았다. 로컬 모델이 활용하기 쉬운 용법·결합 조건·예외·실현형을 조회해 제공하는 것이 생성용 KG 설계의 판단 기준이다.
-
-2번은 질문·입력에 따라 자료를 검색하는 단계가 있어야 일반적인 텍스트 RAG 조건이다. 미리 정한 근거를 단순 제공하면 ‘텍스트 근거 제공’ 조건이라고 부른다.
-
-통제 원칙: 모델/버전·입력·공통 지시문·지역/높임 목표·디코딩 설정·출력 길이 한도·반복 횟수·평가 절차를 맞춘다. seed가 지원되면 기록하되 재현성 보증으로 과장하지 않는다. 독립 호출을 사용하고 조건 실행 순서를 균형화한다. 온도·seed·모델 등 구체 값은 실행 전 정한다.
-
-중요한 구분: 2·3번에 같은 근거 ID와 의미 내용을 제공하는 비교는 ‘근거 표현·활용 방식’의 차이를 본다. 일반 검색과 KG 검색이 각자 다른 근거를 고르는 비교는 ‘검색+생성 전체’의 차이를 보며 동일 근거 비교가 아니다. 동일 원문 풀·정보/토큰 예산·검색된 근거를 기록하고 두 질문을 혼동하지 않는다. 세부 구현과 어느 비교를 우선할지는 실행 전 보고한다.
-
-평가는 의미 보존·방언 자연스러움·문법 적절성·지역/높임 일관성을 구분하는 방향이다. 사람 평가를 포함하고 가능하면 조건을 가려 판단한다. 구체적 평가지표·대조 모델·문장 수는 아직 확정하지 않았다. 그래프/정규식 마커를 많이 썼다는 사실을 자연스러움의 증거로 삼지 않는다.
-
-현재 검사 JSON은 결과 스냅샷이며 완전한 실험 실행 로그가 아니다. 생성 실험 전 실행 ID·시각·데이터/코드 버전·입력·검색 근거·모델 설정·출력·실패를 기록하도록 보완한다. 별도의 보고용 파일은 만들지 않고 현재 문서와 대화에서 상태를 전달한다.
-
-## 유지할 기준
-
-- 목표: 문법체계의 KG화와 자연스러운 경상도 방언 생성. Claim 개수는 성과 기준이 아니다.
-- 조건·예외·근거를 보존하고 자료에 없는 내용을 추정해 채우지 않는다.
-- 지역적 범위·시대·사용 맥락은 근거와 함께, 생성 우선순위는 별도 정책으로 기록한다.
-- 범지역적 사용 근거가 있는 표현을 우선한다. 특정 지역에서 확인됐다고 그 지역 전용으로 단정하지 않는다.
-- 큰 설계 판단은 사용자에게 설명하고 확인받는다. Claude 자동·정기 검토는 중단 상태다.
-
-## 입력과 제외
-
-문법 Claim 입력은 학술 논문 2종과 위키 PDF 4종이다. 정확한 파일·해시·허용 상태는 [자료 통제표](claims/source_registry.json)를 따른다.
-
-어휘 JSON은 별도 후보, AI-Hub는 독립 평가 후보다. 기존 문법 JSON·39규칙·과거 실험 산출물과 318건을 신규 Claim의 근거로 재사용하지 않는다.
-
-## 참고 문서 — 필요할 때만
-
-- [여섯 자료의 범위·KG 구성 가능성](docs/KG_FEASIBILITY_2026-09-09.md): 자료를 얼마나 다룰 수 있는지.
-- [니더/이더 원문 근거 카드](docs/DESIGN_CHECK_01_NIDEO_IDEO.md): 첫 설계 사례의 상세 근거.
-- [이전 문서 이력](docs/history/README.md): 지난 결정을 찾아볼 때.
-- [Claim 파일 안내](claims/README.md): 이전 추출본·스키마의 상태.
+- `test_hage_content_follows_variant_and_qualification` — [test_query_review.py:27](grammar/test_query_review.py#L27)
+- `test_polar_question_does_not_return_content_use` — [test_query_review.py:43](grammar/test_query_review.py#L43)
+- `test_missing_level_is_unknown_not_permission` — [test_query_review.py:49](grammar/test_query_review.py#L49)
+- `test_different_level_conflicts_only_with_base_use` — [test_query_review.py:52](grammar/test_query_review.py#L52)
+- `test_removing_function_edge_changes_retrieval` — [test_query_review.py:55](grammar/test_query_review.py#L55)
+- `test_removing_qualification_loses_composition` — [test_query_review.py:61](grammar/test_query_review.py#L61)
+- `test_missing_condition_edge_is_not_unrestricted` — [test_query_review.py:68](grammar/test_query_review.py#L68)
+- `test_removing_combination_breaks_semantic_path_not_record_link` — [test_query_review.py:74](grammar/test_query_review.py#L74)
+- `test_unsupported_operator_is_unknown` — [test_query_review.py:82](grammar/test_query_review.py#L82)
 
 </details>
