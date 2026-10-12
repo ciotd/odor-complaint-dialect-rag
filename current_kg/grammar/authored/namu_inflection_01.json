@@ -1730,7 +1730,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "같은 서술어 성분의 활용 전 형태와 바로 뒤 어미를 확인한다. 해당 기록의 지역·근거·공백도 함께 대조한다."
+              "mapping_note": "같은 서술어 성분의 활용 전 형태와 바로 뒤 어미를 확인한다. 해당 기록의 지역·근거·공백도 함께 대조한다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1764,7 +1767,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "같은 서술어 성분의 활용 전 형태와 바로 뒤 어미를 확인한다. 해당 기록의 지역·근거·공백도 함께 대조한다."
+              "mapping_note": "같은 서술어 성분의 활용 전 형태와 바로 뒤 어미를 확인한다. 해당 기록의 지역·근거·공백도 함께 대조한다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1922,7 +1928,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "같은 서술어 성분의 활용 전 형태와 바로 뒤 어미를 확인한다. 해당 기록의 지역·근거·공백도 함께 대조한다."
+              "mapping_note": "같은 서술어 성분의 활용 전 형태와 바로 뒤 어미를 확인한다. 해당 기록의 지역·근거·공백도 함께 대조한다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1956,7 +1965,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "같은 서술어 성분의 활용 전 형태와 바로 뒤 어미를 확인한다. 해당 기록의 지역·근거·공백도 함께 대조한다."
+              "mapping_note": "같은 서술어 성분의 활용 전 형태와 바로 뒤 어미를 확인한다. 해당 기록의 지역·근거·공백도 함께 대조한다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -2114,7 +2126,10 @@
               "input_features": [
                 "following_form"
               ],
-              "mapping_note": "같은 서술어 성분의 활용 전 형태와 바로 뒤 어미를 확인한다. 해당 기록의 지역·근거·공백도 함께 대조한다."
+              "mapping_note": "같은 서술어 성분의 활용 전 형태와 바로 뒤 어미를 확인한다. 해당 기록의 지역·근거·공백도 함께 대조한다.",
+              "feature_sources": {
+                "following_form": "candidate"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -20139,7 +20154,8 @@
             "application": {
               "target": "knowledge.context",
               "input_features": [],
-              "mapping_note": "원문의 설명·추정 또는 표기 방침이며 생성 규칙으로 직접 실행하지 않는다."
+              "mapping_note": "원문의 설명·추정 또는 표기 방침이며 생성 규칙으로 직접 실행하지 않는다.",
+              "feature_sources": {}
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -20629,6 +20645,235 @@
             "evidence_keys": [
               "E6"
             ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "IMPERATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "one_of",
+                  "values": [
+                    "돌다",
+                    "달다"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                },
+                {
+                  "field": "following_form",
+                  "operator": "one_of",
+                  "values": [
+                    "-아라"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "host_form",
+                "following_form",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E6"
+            ]
+          },
+          {
+            "subject": "F4",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "IMPERATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "one_of",
+                  "values": [
+                    "돌다",
+                    "달다"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                },
+                {
+                  "field": "following_form",
+                  "operator": "one_of",
+                  "values": [
+                    "-아라"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "host_form",
+                "following_form",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E6"
+            ]
+          },
+          {
+            "subject": "F5",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "IMPERATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "one_of",
+                  "values": [
+                    "돌다",
+                    "달다"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                },
+                {
+                  "field": "region",
+                  "operator": "one_of",
+                  "values": [
+                    "대구",
+                    "경주"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "host_form",
+                "region",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E6"
+            ]
+          },
+          {
+            "subject": "F6",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "IMPERATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "one_of",
+                  "values": [
+                    "돌다",
+                    "달다"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                },
+                {
+                  "field": "region",
+                  "operator": "one_of",
+                  "values": [
+                    "안동"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "host_form",
+                "region",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E6"
+            ]
           }
         ],
         "scope": {
@@ -20730,7 +20975,11 @@
           3,
           4,
           5,
-          6
+          6,
+          7,
+          8,
+          9,
+          10
         ],
         "independent_review": false,
         "naturalness_test_performed": false
@@ -20779,6 +21028,83 @@
             "role": "unspecified",
             "sense": null,
             "pos": null
+          },
+          {
+            "key": "F5",
+            "text": "온나",
+            "role": "dialect",
+            "sense": "오다 명령 활용 관찰형",
+            "pos": "활용형"
+          },
+          {
+            "key": "F6",
+            "text": "오니라",
+            "role": "dialect",
+            "sense": "오다 명령 활용 관찰형",
+            "pos": "활용형"
+          },
+          {
+            "key": "F7",
+            "text": "오이라",
+            "role": "dialect",
+            "sense": "오다 명령 활용 관찰형",
+            "pos": "활용형"
+          },
+          {
+            "key": "F8",
+            "text": "온니라",
+            "role": "dialect",
+            "sense": "오다 명령 활용 관찰형",
+            "pos": "활용형"
+          },
+          {
+            "key": "F9",
+            "text": "온나이",
+            "role": "dialect",
+            "sense": "오다 명령 활용 관찰형",
+            "pos": "활용형"
+          },
+          {
+            "key": "F10",
+            "text": "온내이",
+            "role": "dialect",
+            "sense": "오다 명령 활용 관찰형",
+            "pos": "활용형"
+          },
+          {
+            "key": "F11",
+            "text": "온니이",
+            "role": "dialect",
+            "sense": "오다 명령 활용 관찰형",
+            "pos": "활용형"
+          },
+          {
+            "key": "F12",
+            "text": "온너래이",
+            "role": "dialect",
+            "sense": "오다 명령 활용 관찰형",
+            "pos": "활용형"
+          },
+          {
+            "key": "F13",
+            "text": "나온나",
+            "role": "dialect",
+            "sense": "나오다 명령 활용 관찰형",
+            "pos": "활용형"
+          },
+          {
+            "key": "F14",
+            "text": "내려온나",
+            "role": "dialect",
+            "sense": "내려오다 명령 활용 관찰형",
+            "pos": "활용형"
+          },
+          {
+            "key": "F15",
+            "text": "올라온나",
+            "role": "dialect",
+            "sense": "올라오다 명령 활용 관찰형",
+            "pos": "활용형"
           }
         ],
         "relations": [
@@ -20961,6 +21287,996 @@
             "evidence_keys": [
               "E7"
             ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F5"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "오다"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.inflection",
+              "input_features": [
+                "host_form",
+                "sentence_type"
+              ],
+              "mapping_note": "PDF 7쪽에 열거된 어휘별 명령형을 개별 표현 노드로 연결. 모든 변이형의 지역·맥락 자유 교환을 뜻하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          {
+            "subject": "F5",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "IMPERATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "오다"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "host_form",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F6"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "오다"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.inflection",
+              "input_features": [
+                "host_form",
+                "sentence_type"
+              ],
+              "mapping_note": "PDF 7쪽에 열거된 어휘별 명령형을 개별 표현 노드로 연결. 모든 변이형의 지역·맥락 자유 교환을 뜻하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          {
+            "subject": "F6",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "IMPERATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "오다"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "host_form",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F7"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "오다"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.inflection",
+              "input_features": [
+                "host_form",
+                "sentence_type"
+              ],
+              "mapping_note": "PDF 7쪽에 열거된 어휘별 명령형을 개별 표현 노드로 연결. 모든 변이형의 지역·맥락 자유 교환을 뜻하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          {
+            "subject": "F7",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "IMPERATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "오다"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "host_form",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F8"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "오다"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.inflection",
+              "input_features": [
+                "host_form",
+                "sentence_type"
+              ],
+              "mapping_note": "PDF 7쪽에 열거된 어휘별 명령형을 개별 표현 노드로 연결. 모든 변이형의 지역·맥락 자유 교환을 뜻하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          {
+            "subject": "F8",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "IMPERATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "오다"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "host_form",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F9"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "오다"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.inflection",
+              "input_features": [
+                "host_form",
+                "sentence_type"
+              ],
+              "mapping_note": "PDF 7쪽에 열거된 어휘별 명령형을 개별 표현 노드로 연결. 모든 변이형의 지역·맥락 자유 교환을 뜻하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          {
+            "subject": "F9",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "IMPERATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "오다"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "host_form",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F10"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "오다"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.inflection",
+              "input_features": [
+                "host_form",
+                "sentence_type"
+              ],
+              "mapping_note": "PDF 7쪽에 열거된 어휘별 명령형을 개별 표현 노드로 연결. 모든 변이형의 지역·맥락 자유 교환을 뜻하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          {
+            "subject": "F10",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "IMPERATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "오다"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "host_form",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F11"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "오다"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.inflection",
+              "input_features": [
+                "host_form",
+                "sentence_type"
+              ],
+              "mapping_note": "PDF 7쪽에 열거된 어휘별 명령형을 개별 표현 노드로 연결. 모든 변이형의 지역·맥락 자유 교환을 뜻하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          {
+            "subject": "F11",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "IMPERATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "오다"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "host_form",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F12"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "오다"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.inflection",
+              "input_features": [
+                "host_form",
+                "sentence_type"
+              ],
+              "mapping_note": "PDF 7쪽에 열거된 어휘별 명령형을 개별 표현 노드로 연결. 모든 변이형의 지역·맥락 자유 교환을 뜻하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          {
+            "subject": "F12",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "IMPERATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "오다"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "host_form",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F13"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "나오다"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.inflection",
+              "input_features": [
+                "host_form",
+                "sentence_type"
+              ],
+              "mapping_note": "PDF 7쪽에 열거된 어휘별 명령형을 개별 표현 노드로 연결. 모든 변이형의 지역·맥락 자유 교환을 뜻하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          {
+            "subject": "F13",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "IMPERATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "나오다"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "host_form",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F14"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "내려오다"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.inflection",
+              "input_features": [
+                "host_form",
+                "sentence_type"
+              ],
+              "mapping_note": "PDF 7쪽에 열거된 어휘별 명령형을 개별 표현 노드로 연결. 모든 변이형의 지역·맥락 자유 교환을 뜻하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          {
+            "subject": "F14",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "IMPERATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "내려오다"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "host_form",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          {
+            "subject": "F4",
+            "predicate": "has_surface_form",
+            "object": {
+              "kind": "form",
+              "ref": "F15"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "올라오다"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "predicate.inflection",
+              "input_features": [
+                "host_form",
+                "sentence_type"
+              ],
+              "mapping_note": "PDF 7쪽에 열거된 어휘별 명령형을 개별 표현 노드로 연결. 모든 변이형의 지역·맥락 자유 교환을 뜻하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
+          },
+          {
+            "subject": "F15",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "IMPERATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "host_form",
+                  "operator": "is",
+                  "values": [
+                    "올라오다"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E7"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "host_form",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다."
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E7"
+            ]
           }
         ],
         "scope": {
@@ -21058,7 +22374,29 @@
         "remaining_relation_indexes": [
           1,
           3,
-          4
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
         ],
         "independent_review": false,
         "naturalness_test_performed": false
@@ -21848,7 +23186,8 @@
             "application": {
               "target": "knowledge.context",
               "input_features": [],
-              "mapping_note": "원문의 설명·추정 또는 표기 방침이며 생성 규칙으로 직접 실행하지 않는다."
+              "mapping_note": "원문의 설명·추정 또는 표기 방침이며 생성 규칙으로 직접 실행하지 않는다.",
+              "feature_sources": {}
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -21869,7 +23208,8 @@
             "application": {
               "target": "knowledge.context",
               "input_features": [],
-              "mapping_note": "원문의 설명·추정 또는 표기 방침이며 생성 규칙으로 직접 실행하지 않는다."
+              "mapping_note": "원문의 설명·추정 또는 표기 방침이며 생성 규칙으로 직접 실행하지 않는다.",
+              "feature_sources": {}
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -21890,7 +23230,8 @@
             "application": {
               "target": "knowledge.context",
               "input_features": [],
-              "mapping_note": "원문의 설명·추정 또는 표기 방침이며 생성 규칙으로 직접 실행하지 않는다."
+              "mapping_note": "원문의 설명·추정 또는 표기 방침이며 생성 규칙으로 직접 실행하지 않는다.",
+              "feature_sources": {}
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -21911,7 +23252,8 @@
             "application": {
               "target": "knowledge.context",
               "input_features": [],
-              "mapping_note": "원문의 설명·추정 또는 표기 방침이며 생성 규칙으로 직접 실행하지 않는다."
+              "mapping_note": "원문의 설명·추정 또는 표기 방침이며 생성 규칙으로 직접 실행하지 않는다.",
+              "feature_sources": {}
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -22174,7 +23516,8 @@
             "application": {
               "target": "knowledge.context",
               "input_features": [],
-              "mapping_note": "원문의 설명·추정 또는 표기 방침이며 생성 규칙으로 직접 실행하지 않는다."
+              "mapping_note": "원문의 설명·추정 또는 표기 방침이며 생성 규칙으로 직접 실행하지 않는다.",
+              "feature_sources": {}
             },
             "assertion_mode": "editorial_convention",
             "evidence_keys": [

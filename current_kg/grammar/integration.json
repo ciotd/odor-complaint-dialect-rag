@@ -196,10 +196,10 @@
     {
       "id": "INT011",
       "from": "GYS-R024:F1",
-      "relation": "has_applicability_constraint",
+      "relation": "contrasts_in_function",
       "to": "GYS-Y008:A1",
       "reason": "함양의 -게 되다 사용형에 양지현의 보조 되- 앞 거로 제약을 관련 근거로 연결한다.",
-      "limits": "함양 예 자체가 그 금지를 증명하지 않음. 제약 근거는 양지현이며 범위를 분리한다.",
+      "limits": "-게 되-는 유지되는 대안이다. 거로 금지를 이 대안의 배제 조건으로 상속하지 않는다. 본/보조용언의 구별은 Y008 근거를 따른다.",
       "status": "author_proposed",
       "evidence": [
         {
@@ -949,6 +949,1903 @@
         },
         {
           "record_id": "GYS-R011",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT052",
+      "from": "GYS-H022:F1",
+      "relation": "has_applicability_constraint",
+      "to": "GYS-H023:A1",
+      "reason": "북부 니더/이더의 기본 분포를 어휘별 예외·병존형과 대조한다.",
+      "limits": "has_interpretation은 관찰된 예외/허용형 정보다. A7의 배제는 니더에만 해당한다. 예외의 품사·어휘 조건을 독립 평가하고 어간 말음 조건을 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT053",
+      "from": "GYS-H022:F2",
+      "relation": "has_applicability_constraint",
+      "to": "GYS-H023:A1",
+      "reason": "북부 니더/이더의 기본 분포를 어휘별 예외·병존형과 대조한다.",
+      "limits": "has_interpretation은 관찰된 예외/허용형 정보다. A7의 배제는 니더에만 해당한다. 예외의 품사·어휘 조건을 독립 평가하고 어간 말음 조건을 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT054",
+      "from": "GYS-H022:F1",
+      "relation": "has_applicability_constraint",
+      "to": "GYS-H023:A2",
+      "reason": "북부 니더/이더의 기본 분포를 어휘별 예외·병존형과 대조한다.",
+      "limits": "has_interpretation은 관찰된 예외/허용형 정보다. A7의 배제는 니더에만 해당한다. 예외의 품사·어휘 조건을 독립 평가하고 어간 말음 조건을 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT055",
+      "from": "GYS-H022:F2",
+      "relation": "has_applicability_constraint",
+      "to": "GYS-H023:A2",
+      "reason": "북부 니더/이더의 기본 분포를 어휘별 예외·병존형과 대조한다.",
+      "limits": "has_interpretation은 관찰된 예외/허용형 정보다. A7의 배제는 니더에만 해당한다. 예외의 품사·어휘 조건을 독립 평가하고 어간 말음 조건을 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT056",
+      "from": "GYS-H022:F1",
+      "relation": "has_applicability_constraint",
+      "to": "GYS-H023:A3",
+      "reason": "북부 니더/이더의 기본 분포를 어휘별 예외·병존형과 대조한다.",
+      "limits": "has_interpretation은 관찰된 예외/허용형 정보다. A7의 배제는 니더에만 해당한다. 예외의 품사·어휘 조건을 독립 평가하고 어간 말음 조건을 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT057",
+      "from": "GYS-H022:F2",
+      "relation": "has_applicability_constraint",
+      "to": "GYS-H023:A3",
+      "reason": "북부 니더/이더의 기본 분포를 어휘별 예외·병존형과 대조한다.",
+      "limits": "has_interpretation은 관찰된 예외/허용형 정보다. A7의 배제는 니더에만 해당한다. 예외의 품사·어휘 조건을 독립 평가하고 어간 말음 조건을 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT058",
+      "from": "GYS-H022:F1",
+      "relation": "has_applicability_constraint",
+      "to": "GYS-H023:A4",
+      "reason": "북부 니더/이더의 기본 분포를 어휘별 예외·병존형과 대조한다.",
+      "limits": "has_interpretation은 관찰된 예외/허용형 정보다. A7의 배제는 니더에만 해당한다. 예외의 품사·어휘 조건을 독립 평가하고 어간 말음 조건을 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT059",
+      "from": "GYS-H022:F2",
+      "relation": "has_applicability_constraint",
+      "to": "GYS-H023:A4",
+      "reason": "북부 니더/이더의 기본 분포를 어휘별 예외·병존형과 대조한다.",
+      "limits": "has_interpretation은 관찰된 예외/허용형 정보다. A7의 배제는 니더에만 해당한다. 예외의 품사·어휘 조건을 독립 평가하고 어간 말음 조건을 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT060",
+      "from": "GYS-H022:F1",
+      "relation": "has_applicability_constraint",
+      "to": "GYS-H023:A5",
+      "reason": "북부 니더/이더의 기본 분포를 어휘별 예외·병존형과 대조한다.",
+      "limits": "has_interpretation은 관찰된 예외/허용형 정보다. A7의 배제는 니더에만 해당한다. 예외의 품사·어휘 조건을 독립 평가하고 어간 말음 조건을 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT061",
+      "from": "GYS-H022:F2",
+      "relation": "has_applicability_constraint",
+      "to": "GYS-H023:A5",
+      "reason": "북부 니더/이더의 기본 분포를 어휘별 예외·병존형과 대조한다.",
+      "limits": "has_interpretation은 관찰된 예외/허용형 정보다. A7의 배제는 니더에만 해당한다. 예외의 품사·어휘 조건을 독립 평가하고 어간 말음 조건을 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT062",
+      "from": "GYS-H022:F1",
+      "relation": "has_applicability_constraint",
+      "to": "GYS-H023:A6",
+      "reason": "북부 니더/이더의 기본 분포를 어휘별 예외·병존형과 대조한다.",
+      "limits": "has_interpretation은 관찰된 예외/허용형 정보다. A7의 배제는 니더에만 해당한다. 예외의 품사·어휘 조건을 독립 평가하고 어간 말음 조건을 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT063",
+      "from": "GYS-H022:F2",
+      "relation": "has_applicability_constraint",
+      "to": "GYS-H023:A6",
+      "reason": "북부 니더/이더의 기본 분포를 어휘별 예외·병존형과 대조한다.",
+      "limits": "has_interpretation은 관찰된 예외/허용형 정보다. A7의 배제는 니더에만 해당한다. 예외의 품사·어휘 조건을 독립 평가하고 어간 말음 조건을 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT064",
+      "from": "GYS-H022:F1",
+      "relation": "has_applicability_constraint",
+      "to": "GYS-H023:A7",
+      "reason": "북부 니더/이더의 기본 분포를 어휘별 예외·병존형과 대조한다.",
+      "limits": "has_interpretation은 관찰된 예외/허용형 정보다. A7의 배제는 니더에만 해당한다. 예외의 품사·어휘 조건을 독립 평가하고 어간 말음 조건을 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT065",
+      "from": "GYS-H005:F3",
+      "relation": "has_construction_component",
+      "to": "GYS-H004:F1",
+      "reason": "요/예 결합형에서 의문 기저형의 질문 유형과 비음 변이를 참조한다.",
+      "limits": "구성 성분 참조이며 기저형의 HAGECHE 조건을 결합형으로 상속하지 않는다. 결합 후 높임은 각주67을 따른다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H005",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H004",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT066",
+      "from": "GYS-H006:F3",
+      "relation": "has_construction_component",
+      "to": "GYS-H003:F1",
+      "reason": "요/예 결합형에서 의문 기저형의 질문 유형과 비음 변이를 참조한다.",
+      "limits": "구성 성분 참조이며 기저형의 HAGECHE 조건을 결합형으로 상속하지 않는다. 결합 후 높임은 각주67을 따른다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H006",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H003",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT067",
+      "from": "GYS-H007:F3",
+      "relation": "has_construction_component",
+      "to": "GYS-H004:F2",
+      "reason": "요/예 결합형에서 의문 기저형의 질문 유형과 비음 변이를 참조한다.",
+      "limits": "구성 성분 참조이며 기저형의 HAGECHE 조건을 결합형으로 상속하지 않는다. 결합 후 높임은 각주67을 따른다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H007",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H004",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT068",
+      "from": "GYS-H008:F3",
+      "relation": "has_construction_component",
+      "to": "GYS-H003:F2",
+      "reason": "요/예 결합형에서 의문 기저형의 질문 유형과 비음 변이를 참조한다.",
+      "limits": "구성 성분 참조이며 기저형의 HAGECHE 조건을 결합형으로 상속하지 않는다. 결합 후 높임은 각주67을 따른다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H008",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H003",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT069",
+      "from": "GYS-H009:F3",
+      "relation": "has_construction_component",
+      "to": "GYS-H004:F1",
+      "reason": "요/예 결합형에서 의문 기저형의 질문 유형과 비음 변이를 참조한다.",
+      "limits": "구성 성분 참조이며 기저형의 HAGECHE 조건을 결합형으로 상속하지 않는다. 결합 후 높임은 각주67을 따른다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H009",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H004",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT070",
+      "from": "GYS-H010:F3",
+      "relation": "has_construction_component",
+      "to": "GYS-H003:F1",
+      "reason": "요/예 결합형에서 의문 기저형의 질문 유형과 비음 변이를 참조한다.",
+      "limits": "구성 성분 참조이며 기저형의 HAGECHE 조건을 결합형으로 상속하지 않는다. 결합 후 높임은 각주67을 따른다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H010",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H003",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT071",
+      "from": "GYS-H011:F3",
+      "relation": "has_construction_component",
+      "to": "GYS-H004:F2",
+      "reason": "요/예 결합형에서 의문 기저형의 질문 유형과 비음 변이를 참조한다.",
+      "limits": "구성 성분 참조이며 기저형의 HAGECHE 조건을 결합형으로 상속하지 않는다. 결합 후 높임은 각주67을 따른다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H011",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H004",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT072",
+      "from": "GYS-H012:F3",
+      "relation": "has_construction_component",
+      "to": "GYS-H003:F2",
+      "reason": "요/예 결합형에서 의문 기저형의 질문 유형과 비음 변이를 참조한다.",
+      "limits": "구성 성분 참조이며 기저형의 HAGECHE 조건을 결합형으로 상속하지 않는다. 결합 후 높임은 각주67을 따른다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H012",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H003",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT073",
+      "from": "GYS-Q003:A1",
+      "relation": "has_applicability_constraint",
+      "to": "GYS-Q006:A1",
+      "reason": "체언·아니다의 ㄱ 계열 기본형에서 었/겠/더 결합 시 ㄴ 계열 선택을 대조한다.",
+      "limits": "기본형 none과 변경형 switching_prefinal_present를 동시에 적용하지 않는다. 기본형 탈락 시에도 변경 조건을 검토한다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Q003",
+          "key": "E4"
+        },
+        {
+          "record_id": "GYS-Q006",
+          "key": "E4"
+        }
+      ]
+    },
+    {
+      "id": "INT074",
+      "from": "GYS-Q003:A1",
+      "relation": "has_applicability_constraint",
+      "to": "GYS-Q007:A1",
+      "reason": "시 단독 결합의 원문 내부 충돌을 기본 용법에서 확인한다.",
+      "limits": "원문 8쪽과 11쪽의 충돌이 해결되지 않았다. 보류 연결을 허용 규칙으로 사용하지 않는다.",
+      "status": "held_scope_tension",
+      "evidence": [
+        {
+          "record_id": "GYS-Q003",
+          "key": "E4"
+        },
+        {
+          "record_id": "GYS-Q007",
+          "key": "E4"
+        }
+      ]
+    },
+    {
+      "id": "INT075",
+      "from": "GYS-Q003:A2",
+      "relation": "has_applicability_constraint",
+      "to": "GYS-Q006:A1",
+      "reason": "체언·아니다의 ㄱ 계열 기본형에서 었/겠/더 결합 시 ㄴ 계열 선택을 대조한다.",
+      "limits": "기본형 none과 변경형 switching_prefinal_present를 동시에 적용하지 않는다. 기본형 탈락 시에도 변경 조건을 검토한다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Q003",
+          "key": "E4"
+        },
+        {
+          "record_id": "GYS-Q006",
+          "key": "E4"
+        }
+      ]
+    },
+    {
+      "id": "INT076",
+      "from": "GYS-Q003:A2",
+      "relation": "has_applicability_constraint",
+      "to": "GYS-Q007:A1",
+      "reason": "시 단독 결합의 원문 내부 충돌을 기본 용법에서 확인한다.",
+      "limits": "원문 8쪽과 11쪽의 충돌이 해결되지 않았다. 보류 연결을 허용 규칙으로 사용하지 않는다.",
+      "status": "held_scope_tension",
+      "evidence": [
+        {
+          "record_id": "GYS-Q003",
+          "key": "E4"
+        },
+        {
+          "record_id": "GYS-Q007",
+          "key": "E4"
+        }
+      ]
+    },
+    {
+      "id": "INT077",
+      "from": "GYS-Q004:A1",
+      "relation": "has_applicability_constraint",
+      "to": "GYS-Q006:A2",
+      "reason": "체언·아니다의 ㄱ 계열 기본형에서 었/겠/더 결합 시 ㄴ 계열 선택을 대조한다.",
+      "limits": "기본형 none과 변경형 switching_prefinal_present를 동시에 적용하지 않는다. 기본형 탈락 시에도 변경 조건을 검토한다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Q004",
+          "key": "E4"
+        },
+        {
+          "record_id": "GYS-Q006",
+          "key": "E4"
+        }
+      ]
+    },
+    {
+      "id": "INT078",
+      "from": "GYS-Q004:A1",
+      "relation": "has_applicability_constraint",
+      "to": "GYS-Q007:A2",
+      "reason": "시 단독 결합의 원문 내부 충돌을 기본 용법에서 확인한다.",
+      "limits": "원문 8쪽과 11쪽의 충돌이 해결되지 않았다. 보류 연결을 허용 규칙으로 사용하지 않는다.",
+      "status": "held_scope_tension",
+      "evidence": [
+        {
+          "record_id": "GYS-Q004",
+          "key": "E4"
+        },
+        {
+          "record_id": "GYS-Q007",
+          "key": "E4"
+        }
+      ]
+    },
+    {
+      "id": "INT079",
+      "from": "GYS-Q004:A2",
+      "relation": "has_applicability_constraint",
+      "to": "GYS-Q006:A2",
+      "reason": "체언·아니다의 ㄱ 계열 기본형에서 었/겠/더 결합 시 ㄴ 계열 선택을 대조한다.",
+      "limits": "기본형 none과 변경형 switching_prefinal_present를 동시에 적용하지 않는다. 기본형 탈락 시에도 변경 조건을 검토한다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Q004",
+          "key": "E4"
+        },
+        {
+          "record_id": "GYS-Q006",
+          "key": "E4"
+        }
+      ]
+    },
+    {
+      "id": "INT080",
+      "from": "GYS-Q004:A2",
+      "relation": "has_applicability_constraint",
+      "to": "GYS-Q007:A2",
+      "reason": "시 단독 결합의 원문 내부 충돌을 기본 용법에서 확인한다.",
+      "limits": "원문 8쪽과 11쪽의 충돌이 해결되지 않았다. 보류 연결을 허용 규칙으로 사용하지 않는다.",
+      "status": "held_scope_tension",
+      "evidence": [
+        {
+          "record_id": "GYS-Q004",
+          "key": "E4"
+        },
+        {
+          "record_id": "GYS-Q007",
+          "key": "E4"
+        }
+      ]
+    },
+    {
+      "id": "INT081",
+      "from": "GYS-Q005:A1",
+      "relation": "has_applicability_constraint",
+      "to": "GYS-Q006:A1",
+      "reason": "체언·아니다의 ㄱ 계열 기본형에서 었/겠/더 결합 시 ㄴ 계열 선택을 대조한다.",
+      "limits": "기본형 none과 변경형 switching_prefinal_present를 동시에 적용하지 않는다. 기본형 탈락 시에도 변경 조건을 검토한다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Q005",
+          "key": "E4"
+        },
+        {
+          "record_id": "GYS-Q006",
+          "key": "E4"
+        }
+      ]
+    },
+    {
+      "id": "INT082",
+      "from": "GYS-Q005:A1",
+      "relation": "has_applicability_constraint",
+      "to": "GYS-Q007:A1",
+      "reason": "시 단독 결합의 원문 내부 충돌을 기본 용법에서 확인한다.",
+      "limits": "원문 8쪽과 11쪽의 충돌이 해결되지 않았다. 보류 연결을 허용 규칙으로 사용하지 않는다.",
+      "status": "held_scope_tension",
+      "evidence": [
+        {
+          "record_id": "GYS-Q005",
+          "key": "E4"
+        },
+        {
+          "record_id": "GYS-Q007",
+          "key": "E4"
+        }
+      ]
+    },
+    {
+      "id": "INT083",
+      "from": "GYS-Q005:A2",
+      "relation": "has_applicability_constraint",
+      "to": "GYS-Q006:A2",
+      "reason": "체언·아니다의 ㄱ 계열 기본형에서 었/겠/더 결합 시 ㄴ 계열 선택을 대조한다.",
+      "limits": "기본형 none과 변경형 switching_prefinal_present를 동시에 적용하지 않는다. 기본형 탈락 시에도 변경 조건을 검토한다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Q005",
+          "key": "E4"
+        },
+        {
+          "record_id": "GYS-Q006",
+          "key": "E4"
+        }
+      ]
+    },
+    {
+      "id": "INT084",
+      "from": "GYS-Q005:A2",
+      "relation": "has_applicability_constraint",
+      "to": "GYS-Q007:A2",
+      "reason": "시 단독 결합의 원문 내부 충돌을 기본 용법에서 확인한다.",
+      "limits": "원문 8쪽과 11쪽의 충돌이 해결되지 않았다. 보류 연결을 허용 규칙으로 사용하지 않는다.",
+      "status": "held_scope_tension",
+      "evidence": [
+        {
+          "record_id": "GYS-Q005",
+          "key": "E4"
+        },
+        {
+          "record_id": "GYS-Q007",
+          "key": "E4"
+        }
+      ]
+    },
+    {
+      "id": "INT085",
+      "from": "GYS-Y010:F1",
+      "to": "GYS-Y012:A1",
+      "relation": "has_applicability_constraint",
+      "reason": "종결 거로에서 알아맞히기 질문의 명시적 금지까지 조회한다.",
+      "limits": "의도 진술/질문을 금지하지 않는다. 조건은 독립 평가한다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Y010",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-Y010",
+          "key": "E2"
+        },
+        {
+          "record_id": "GYS-Y012",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT086",
+      "from": "GYS-Y011:F1",
+      "to": "GYS-Y012:A1",
+      "relation": "has_applicability_constraint",
+      "reason": "종결 거로에서 알아맞히기 질문의 명시적 금지까지 조회한다.",
+      "limits": "의도 진술/질문을 금지하지 않는다. 조건은 독립 평가한다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Y011",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-Y012",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT088",
+      "from": "GYS-J017:F2",
+      "to": "GYS-J034:F1",
+      "relation": "contrasts_in_function",
+      "reason": "시더의 계사 평서와 동사 청유를 결합 환경으로 대조한다.",
+      "limits": "같은 철자라도 서로 치환하지 않는다. 청유의 존재사 허용은 별도 견해다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-J017",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-J034",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT089",
+      "from": "GYS-J018:F1",
+      "to": "GYS-J017:F2",
+      "relation": "contrasts_in_function",
+      "reason": "동사 의향 ㄹ시더와 계사 평서 ㄹ시더를 구별한다.",
+      "limits": "동형만으로 미래 의향을 계사 용법에 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-J018",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-J017",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT090",
+      "from": "GYS-J033:F1",
+      "to": "GYS-J017:F1",
+      "relation": "contrasts_in_function",
+      "reason": "동사 직접 결합 청유와 계사 평서를 함께 대조한다.",
+      "limits": "이시더/시더의 음운적 등치를 주장하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-J033",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-J017",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT092",
+      "from": "GYS-J031:F2",
+      "to": "GYS-I049:F1",
+      "relation": "has_inflection_description",
+      "reason": "요청 도-/다- 구성에서 돌다/달다 활용 설명을 참조한다.",
+      "limits": "서로 다른 자료의 지역 분포를 합쳐 일반화하지 않는다. 입력 주다와의 자동 어휘 대응은 별도다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-J031",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-I049",
+          "key": "E6"
+        }
+      ]
+    },
+    {
+      "id": "INT093",
+      "from": "GYS-J031:F3",
+      "to": "GYS-I049:F1",
+      "relation": "has_inflection_description",
+      "reason": "요청 도-/다- 구성에서 돌다/달다 활용 설명을 참조한다.",
+      "limits": "서로 다른 자료의 지역 분포를 합쳐 일반화하지 않는다. 입력 주다와의 자동 어휘 대응은 별도다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-J031",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-I049",
+          "key": "E6"
+        }
+      ]
+    },
+    {
+      "id": "INT095",
+      "from": "GYS-J020:F1",
+      "to": "GYS-J022:F1",
+      "relation": "contrasts_in_function",
+      "reason": "니껴/니꺼와 이껴의 서술어 결합 분포를 대조한다.",
+      "limits": "이껴 동사 미관찰은 해당 자료 범위이며 경상도 전체의 금지로 승격하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-J020",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-J022",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT096",
+      "from": "GYS-J020:F2",
+      "to": "GYS-J022:F1",
+      "relation": "contrasts_in_function",
+      "reason": "니껴/니꺼와 이껴의 서술어 결합 분포를 대조한다.",
+      "limits": "이껴 동사 미관찰은 해당 자료 범위이며 경상도 전체의 금지로 승격하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-J020",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-J022",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT097",
+      "from": "GYS-H022:F2",
+      "to": "GYS-J016:F1",
+      "relation": "scope_tension_with",
+      "reason": "이더의 말음 조건과 형용사 매개모음·존재사 직접 결합 설명을 대조한다.",
+      "limits": "문헌별 분포 차이를 해소하지 못했다. 위키 기본형 규칙을 논문 용법에 상속하지 않는다.",
+      "status": "held_scope_tension",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-J016",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT098",
+      "from": "GYS-J034:F1",
+      "to": "GYS-J034:A3",
+      "relation": "has_applicability_constraint",
+      "reason": "본문의 동작 동사 청유 설명에서 각주191의 존재사 허용 견해를 함께 조회한다.",
+      "limits": "재인용 견해를 별개로 보존하며 본문과 통합된 일반 선택 규칙으로 승인하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-J034",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT099",
+      "from": "GYS-J034:F2",
+      "to": "GYS-J034:A3",
+      "relation": "has_applicability_constraint",
+      "reason": "본문의 동작 동사 청유 설명에서 각주191의 존재사 허용 견해를 함께 조회한다.",
+      "limits": "재인용 견해를 별개로 보존하며 본문과 통합된 일반 선택 규칙으로 승인하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-J034",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT100",
+      "from": "GYS-H019:F1",
+      "to": "GYS-H002:A1",
+      "relation": "has_applicability_constraint",
+      "reason": "는교 기능에서 부산 하이소체 격식 장면의 자제 제약까지 조회한다.",
+      "limits": "는교 전체의 비문법성이 아니라 특정 지역·목표 어체·장면의 제한이다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H019",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H002",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H002",
+          "key": "E2"
+        }
+      ]
+    },
+    {
+      "id": "INT101",
+      "from": "GYS-H019:F2",
+      "to": "GYS-H002:A1",
+      "relation": "has_applicability_constraint",
+      "reason": "는교 기능에서 부산 하이소체 격식 장면의 자제 제약까지 조회한다.",
+      "limits": "는교 전체의 비문법성이 아니라 특정 지역·목표 어체·장면의 제한이다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H019",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H002",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H002",
+          "key": "E2"
+        }
+      ]
+    },
+    {
+      "id": "INT102",
+      "from": "GYS-H013:F1",
+      "to": "GYS-H004:F1",
+      "relation": "contrasts_in_function",
+      "reason": "같은 느는고의 자문 해체와 상대 질문 하게체를 구별한다.",
+      "limits": "자문 용법에 하게체 높임 조건을 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H013",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H004",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H004",
+          "key": "E2"
+        }
+      ]
+    },
+    {
+      "id": "INT103",
+      "from": "GYS-Q012:F1",
+      "to": "GYS-Q012:A2",
+      "relation": "has_applicability_constraint",
+      "reason": "고/꼬 질문에서 머꼬의 표면 중의성 설명을 함께 확인한다.",
+      "limits": "정확한 머꼬 해석은 억양·맥락이 필요하며 다른 모든 형태의 중의성을 주장하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Q012",
+          "key": "E5"
+        },
+        {
+          "record_id": "GYS-Q012",
+          "key": "E6"
+        },
+        {
+          "record_id": "GYS-Q012",
+          "key": "E6"
+        }
+      ]
+    },
+    {
+      "id": "INT104",
+      "from": "GYS-Q012:F2",
+      "to": "GYS-Q012:A2",
+      "relation": "has_applicability_constraint",
+      "reason": "고/꼬 질문에서 머꼬의 표면 중의성 설명을 함께 확인한다.",
+      "limits": "정확한 머꼬 해석은 억양·맥락이 필요하며 다른 모든 형태의 중의성을 주장하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Q012",
+          "key": "E5"
+        },
+        {
+          "record_id": "GYS-Q012",
+          "key": "E6"
+        },
+        {
+          "record_id": "GYS-Q012",
+          "key": "E6"
+        }
+      ]
+    },
+    {
+      "id": "INT105",
+      "from": "GYS-H022:F1",
+      "to": "GYS-H023:A8",
+      "relation": "has_inflection_description",
+      "reason": "PDF 14쪽 기본 분포에서 어휘별 실제 병존형을 확인한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT106",
+      "from": "GYS-H022:F2",
+      "to": "GYS-H023:A8",
+      "relation": "has_inflection_description",
+      "reason": "PDF 14쪽 기본 분포에서 어휘별 실제 병존형을 확인한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT107",
+      "from": "GYS-H022:F1",
+      "to": "GYS-H023:A9",
+      "relation": "has_inflection_description",
+      "reason": "PDF 14쪽 기본 분포에서 어휘별 실제 병존형을 확인한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT108",
+      "from": "GYS-H022:F2",
+      "to": "GYS-H023:A9",
+      "relation": "has_inflection_description",
+      "reason": "PDF 14쪽 기본 분포에서 어휘별 실제 병존형을 확인한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT109",
+      "from": "GYS-H022:F1",
+      "to": "GYS-H023:A10",
+      "relation": "has_inflection_description",
+      "reason": "PDF 14쪽 기본 분포에서 어휘별 실제 병존형을 확인한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT110",
+      "from": "GYS-H022:F2",
+      "to": "GYS-H023:A10",
+      "relation": "has_inflection_description",
+      "reason": "PDF 14쪽 기본 분포에서 어휘별 실제 병존형을 확인한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT111",
+      "from": "GYS-H022:F1",
+      "to": "GYS-H023:A11",
+      "relation": "has_inflection_description",
+      "reason": "PDF 14쪽 기본 분포에서 어휘별 실제 병존형을 확인한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT112",
+      "from": "GYS-H022:F2",
+      "to": "GYS-H023:A11",
+      "relation": "has_inflection_description",
+      "reason": "PDF 14쪽 기본 분포에서 어휘별 실제 병존형을 확인한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT113",
+      "from": "GYS-H022:F1",
+      "to": "GYS-H023:A12",
+      "relation": "has_inflection_description",
+      "reason": "PDF 14쪽 기본 분포에서 어휘별 실제 병존형을 확인한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT114",
+      "from": "GYS-H022:F2",
+      "to": "GYS-H023:A12",
+      "relation": "has_inflection_description",
+      "reason": "PDF 14쪽 기본 분포에서 어휘별 실제 병존형을 확인한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT115",
+      "from": "GYS-H022:F1",
+      "to": "GYS-H023:A13",
+      "relation": "has_inflection_description",
+      "reason": "PDF 14쪽 기본 분포에서 어휘별 실제 병존형을 확인한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT116",
+      "from": "GYS-H022:F2",
+      "to": "GYS-H023:A13",
+      "relation": "has_inflection_description",
+      "reason": "PDF 14쪽 기본 분포에서 어휘별 실제 병존형을 확인한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT117",
+      "from": "GYS-H022:F1",
+      "to": "GYS-H023:A14",
+      "relation": "has_inflection_description",
+      "reason": "PDF 14쪽 기본 분포에서 어휘별 실제 병존형을 확인한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT118",
+      "from": "GYS-H022:F2",
+      "to": "GYS-H023:A14",
+      "relation": "has_inflection_description",
+      "reason": "PDF 14쪽 기본 분포에서 어휘별 실제 병존형을 확인한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT119",
+      "from": "GYS-H022:F1",
+      "to": "GYS-H023:A15",
+      "relation": "has_inflection_description",
+      "reason": "PDF 14쪽 기본 분포에서 어휘별 실제 병존형을 확인한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT120",
+      "from": "GYS-H022:F2",
+      "to": "GYS-H023:A15",
+      "relation": "has_inflection_description",
+      "reason": "PDF 14쪽 기본 분포에서 어휘별 실제 병존형을 확인한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT121",
+      "from": "GYS-H022:F1",
+      "to": "GYS-H023:A16",
+      "relation": "has_inflection_description",
+      "reason": "PDF 14쪽 기본 분포에서 어휘별 실제 병존형을 확인한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT122",
+      "from": "GYS-H022:F2",
+      "to": "GYS-H023:A16",
+      "relation": "has_inflection_description",
+      "reason": "PDF 14쪽 기본 분포에서 어휘별 실제 병존형을 확인한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT123",
+      "from": "GYS-H022:F1",
+      "to": "GYS-H023:A17",
+      "relation": "has_inflection_description",
+      "reason": "PDF 14쪽 기본 분포에서 어휘별 실제 병존형을 확인한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT124",
+      "from": "GYS-H022:F2",
+      "to": "GYS-H023:A17",
+      "relation": "has_inflection_description",
+      "reason": "PDF 14쪽 기본 분포에서 어휘별 실제 병존형을 확인한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT125",
+      "from": "GYS-H022:F1",
+      "to": "GYS-H023:A18",
+      "relation": "has_inflection_description",
+      "reason": "PDF 14쪽 기본 분포에서 어휘별 실제 병존형을 확인한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT126",
+      "from": "GYS-H022:F2",
+      "to": "GYS-H023:A18",
+      "relation": "has_inflection_description",
+      "reason": "PDF 14쪽 기본 분포에서 어휘별 실제 병존형을 확인한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-H022",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-H023",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT127",
+      "from": "GYS-Y001:F1",
+      "to": "GYS-Y008:A1",
+      "relation": "has_applicability_constraint",
+      "reason": "같은 논문의 연결형 거로에 명시된 후행 결합 금지를 대조한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Y001",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-Y008",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT128",
+      "from": "GYS-Y001:F1",
+      "to": "GYS-Y015:A1",
+      "relation": "has_applicability_constraint",
+      "reason": "같은 논문의 연결형 거로에 명시된 후행 결합 금지를 대조한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Y001",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-Y015",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT129",
+      "from": "GYS-Y002:F1",
+      "to": "GYS-Y008:A1",
+      "relation": "has_applicability_constraint",
+      "reason": "같은 논문의 연결형 거로에 명시된 후행 결합 금지를 대조한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Y002",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-Y008",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT130",
+      "from": "GYS-Y002:F1",
+      "to": "GYS-Y015:A1",
+      "relation": "has_applicability_constraint",
+      "reason": "같은 논문의 연결형 거로에 명시된 후행 결합 금지를 대조한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Y002",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-Y015",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT131",
+      "from": "GYS-Y003:F1",
+      "to": "GYS-Y008:A1",
+      "relation": "has_applicability_constraint",
+      "reason": "같은 논문의 연결형 거로에 명시된 후행 결합 금지를 대조한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Y003",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-Y008",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT132",
+      "from": "GYS-Y003:F1",
+      "to": "GYS-Y015:A1",
+      "relation": "has_applicability_constraint",
+      "reason": "같은 논문의 연결형 거로에 명시된 후행 결합 금지를 대조한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Y003",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-Y015",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT133",
+      "from": "GYS-Y009:F1",
+      "to": "GYS-Y008:A1",
+      "relation": "has_applicability_constraint",
+      "reason": "같은 논문의 연결형 거로에 명시된 후행 결합 금지를 대조한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Y009",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-Y008",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT134",
+      "from": "GYS-Y009:F1",
+      "to": "GYS-Y015:A1",
+      "relation": "has_applicability_constraint",
+      "reason": "같은 논문의 연결형 거로에 명시된 후행 결합 금지를 대조한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Y009",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-Y015",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT135",
+      "from": "GYS-Y014:F1",
+      "to": "GYS-Y008:A1",
+      "relation": "has_applicability_constraint",
+      "reason": "같은 논문의 연결형 거로에 명시된 후행 결합 금지를 대조한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Y014",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-Y008",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT136",
+      "from": "GYS-Y014:F1",
+      "to": "GYS-Y015:A1",
+      "relation": "has_applicability_constraint",
+      "reason": "같은 논문의 연결형 거로에 명시된 후행 결합 금지를 대조한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Y014",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-Y015",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT137",
+      "from": "GYS-Y001:F2",
+      "to": "GYS-Y008:A1",
+      "relation": "has_applicability_constraint",
+      "reason": "같은 논문의 연결형 거로에 명시된 후행 결합 금지를 대조한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Y001",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-Y008",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT138",
+      "from": "GYS-Y001:F2",
+      "to": "GYS-Y015:A1",
+      "relation": "has_applicability_constraint",
+      "reason": "같은 논문의 연결형 거로에 명시된 후행 결합 금지를 대조한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Y001",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-Y015",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT139",
+      "from": "GYS-Y001:F3",
+      "to": "GYS-Y008:A1",
+      "relation": "has_applicability_constraint",
+      "reason": "같은 논문의 연결형 거로에 명시된 후행 결합 금지를 대조한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Y001",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-Y008",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT140",
+      "from": "GYS-Y001:F3",
+      "to": "GYS-Y015:A1",
+      "relation": "has_applicability_constraint",
+      "reason": "같은 논문의 연결형 거로에 명시된 후행 결합 금지를 대조한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Y001",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-Y015",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT141",
+      "from": "GYS-Y001:F4",
+      "to": "GYS-Y008:A1",
+      "relation": "has_applicability_constraint",
+      "reason": "같은 논문의 연결형 거로에 명시된 후행 결합 금지를 대조한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Y001",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-Y008",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT142",
+      "from": "GYS-Y001:F4",
+      "to": "GYS-Y015:A1",
+      "relation": "has_applicability_constraint",
+      "reason": "같은 논문의 연결형 거로에 명시된 후행 결합 금지를 대조한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Y001",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-Y015",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT143",
+      "from": "GYS-Y002:F2",
+      "to": "GYS-Y008:A1",
+      "relation": "has_applicability_constraint",
+      "reason": "같은 논문의 연결형 거로에 명시된 후행 결합 금지를 대조한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Y002",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-Y008",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT144",
+      "from": "GYS-Y002:F2",
+      "to": "GYS-Y015:A1",
+      "relation": "has_applicability_constraint",
+      "reason": "같은 논문의 연결형 거로에 명시된 후행 결합 금지를 대조한다.",
+      "limits": "해당 용법과 실제 결합에 한정한다. 다른 어휘·기능의 조건을 자동 상속하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-Y002",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-Y015",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT145",
+      "from": "GYS-R007:F1",
+      "relation": "same_usage_candidate",
+      "to": "GYS-G072:F2",
+      "reason": "함양 표와 문법 표의 인용 -꼬를 연결한다.",
+      "limits": "함양 평서 인용 기록의 범위/세대와 위키의 넓은 기술을 합치지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-R007",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-G072",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT146",
+      "from": "GYS-R007:F1",
+      "relation": "has_construction_component",
+      "to": "GYS-O004:A5",
+      "reason": "인용 표지와 보고 하-가 결합하는 경우 축약 근거까지 이동한다.",
+      "limits": "말했다 등의 보고 동사까지 카-로 바꾸지 않는다. 대상 관계의 인용 하다/형태 조건을 별도로 확인한다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-R007",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-O004",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT147",
+      "from": "GYS-G072:F2",
+      "relation": "has_construction_component",
+      "to": "GYS-O004:A5",
+      "reason": "인용 표지에서 보고 하- 결합의 원문 설명으로 이동한다.",
+      "limits": "-꼬 자체를 카-로 치환하지 않는다. 실제 보고 하- 결합이 있을 때만 대조한다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-G072",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-O004",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT148",
+      "from": "GYS-O004:A5",
+      "relation": "has_inflection_description",
+      "to": "GYS-R008:A2",
+      "reason": "일반 인용 -고+하 축약 설명에서 문헌에 명시된 -고 하네→카네로 이동한다.",
+      "limits": "하네형의 근거일 뿐 과거/높임/전언 형태 전체의 활용표가 아니다. 위키와 함양 조사의 범위 차이를 보존한다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-O004",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-R008",
+          "key": "E2"
+        }
+      ]
+    },
+    {
+      "id": "INT149",
+      "from": "GYS-G007:F1",
+      "relation": "shares_quotative_construction",
+      "to": "GYS-O004:A5",
+      "reason": "-라고 하다의 축약과 그 안의 인용 -고+하 결합을 연결한다.",
+      "limits": "위키 자료의 중복 설명이며 독립 검증 수를 늘리지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-G007",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-O004",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT150",
+      "from": "GYS-G006:F1",
+      "relation": "contrasts_in_function",
+      "to": "GYS-G007:F1",
+      "reason": "목적 -(으)ㄹ라고와 인용 -라고 하다를 구별한다.",
+      "limits": "표면 라고 일치를 같은 구성으로 보지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-G006",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-G007",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT151",
+      "from": "GYS-G041:F2",
+      "relation": "contrasts_in_function",
+      "to": "GYS-G072:F2",
+      "reason": "이유 -니라꼬와 인용 -꼬를 구별한다.",
+      "limits": "꼬 음절만 보고 인용으로 판정하지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-G041",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-G072",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT152",
+      "from": "GYS-G036:F3",
+      "relation": "contrasts_in_function",
+      "to": "GYS-G074:F2",
+      "reason": "-더니와 -다더니의 별개 표 행을 대조한다.",
+      "limits": "인용 표지를 삭제한 채 회상 연결만 남기지 않는다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-G036",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-G074",
+          "key": "E1"
+        }
+      ]
+    },
+    {
+      "id": "INT153",
+      "from": "GYS-G038:F3",
+      "relation": "contrasts_in_function",
+      "to": "GYS-G039:F2",
+      "reason": "같은 지만 표면의 대조/양보와 가산 용법을 구별한다.",
+      "limits": "가산 -거니와와 대조 -지만의 원문 행/기능을 별도로 판정한다.",
+      "status": "author_proposed",
+      "evidence": [
+        {
+          "record_id": "GYS-G038",
+          "key": "E1"
+        },
+        {
+          "record_id": "GYS-G039",
           "key": "E1"
         }
       ]
@@ -1774,5 +3671,2133 @@
       "id": "INT052",
       "reason": "우리라는 표현 노드 자체가 은·는 부재 주장의 직접 반대 명제가 아니므로 연결하지 않음; R060 각주 충돌은 유지"
     }
-  ]
+  ],
+  "function_route_review": {
+    "date": "2026-09-23",
+    "scope": "DECLARATIVE/INTERROGATIVE/IMPERATIVE/HORTATIVE; not based on development inputs",
+    "before_graph_sha256": "0bfbb0ac005d8f89cc8046e0b2c1f0c57dea93c79246d13115307473db3dcb20",
+    "before_function_routes": {
+      "평서": {
+        "classified_or_realized_record_ids": [
+          "GYS-G016",
+          "GYS-H014",
+          "GYS-H021",
+          "GYS-H022",
+          "GYS-J006",
+          "GYS-J012",
+          "GYS-J013",
+          "GYS-J016",
+          "GYS-J019",
+          "GYS-J038",
+          "GYS-J040",
+          "GYS-J047",
+          "GYS-J049",
+          "GYS-J050",
+          "GYS-J052",
+          "GYS-J054",
+          "GYS-J056",
+          "GYS-R041",
+          "GYS-Y011"
+        ],
+        "direct_realizes_record_ids": [
+          "GYS-G016",
+          "GYS-H014",
+          "GYS-H021",
+          "GYS-J006",
+          "GYS-J012",
+          "GYS-J019",
+          "GYS-J038",
+          "GYS-J040",
+          "GYS-J047",
+          "GYS-J049",
+          "GYS-J050",
+          "GYS-J052",
+          "GYS-J054",
+          "GYS-J056"
+        ],
+        "direct_final_ending_record_ids": [
+          "GYS-H014",
+          "GYS-J006",
+          "GYS-J038",
+          "GYS-J040",
+          "GYS-J047",
+          "GYS-J049",
+          "GYS-J050",
+          "GYS-J052",
+          "GYS-J054",
+          "GYS-J056"
+        ],
+        "classified_without_direct_function_route": [
+          "GYS-H022",
+          "GYS-J013",
+          "GYS-J016",
+          "GYS-R041",
+          "GYS-Y011"
+        ]
+      },
+      "질문": {
+        "classified_or_realized_record_ids": [
+          "GYS-G047",
+          "GYS-H001",
+          "GYS-H002",
+          "GYS-H003",
+          "GYS-H004",
+          "GYS-H005",
+          "GYS-H006",
+          "GYS-H007",
+          "GYS-H008",
+          "GYS-H009",
+          "GYS-H010",
+          "GYS-H011",
+          "GYS-H012",
+          "GYS-H013",
+          "GYS-H014",
+          "GYS-H019",
+          "GYS-H026",
+          "GYS-J001",
+          "GYS-J002",
+          "GYS-J003",
+          "GYS-J008",
+          "GYS-J020",
+          "GYS-J021",
+          "GYS-J022",
+          "GYS-J023",
+          "GYS-J024",
+          "GYS-J025",
+          "GYS-J042",
+          "GYS-J043",
+          "GYS-J044",
+          "GYS-J057",
+          "GYS-J058",
+          "GYS-J059",
+          "GYS-J060",
+          "GYS-J061",
+          "GYS-J062",
+          "GYS-O008",
+          "GYS-Q001",
+          "GYS-Q002",
+          "GYS-Q003",
+          "GYS-Q004",
+          "GYS-Q005",
+          "GYS-Q006",
+          "GYS-Q007",
+          "GYS-Q008",
+          "GYS-Q009",
+          "GYS-Q010",
+          "GYS-Q011",
+          "GYS-Q012",
+          "GYS-Q013",
+          "GYS-Q014",
+          "GYS-Q015",
+          "GYS-Q016",
+          "GYS-R025",
+          "GYS-Y010",
+          "GYS-Y012"
+        ],
+        "direct_realizes_record_ids": [
+          "GYS-G047",
+          "GYS-H001",
+          "GYS-H002",
+          "GYS-H003",
+          "GYS-H004",
+          "GYS-H014",
+          "GYS-H019",
+          "GYS-J001",
+          "GYS-J002",
+          "GYS-J008",
+          "GYS-J020",
+          "GYS-J021",
+          "GYS-J022",
+          "GYS-J024",
+          "GYS-J025",
+          "GYS-J042",
+          "GYS-J043",
+          "GYS-J044",
+          "GYS-J057",
+          "GYS-J058",
+          "GYS-J059",
+          "GYS-J060",
+          "GYS-J061",
+          "GYS-J062",
+          "GYS-Q001",
+          "GYS-Q002",
+          "GYS-Q003",
+          "GYS-Q004",
+          "GYS-Q005",
+          "GYS-Q006",
+          "GYS-Q007",
+          "GYS-Q009",
+          "GYS-Q010",
+          "GYS-Q014",
+          "GYS-Q016",
+          "GYS-R025"
+        ],
+        "direct_final_ending_record_ids": [
+          "GYS-H001",
+          "GYS-H002",
+          "GYS-H003",
+          "GYS-H004",
+          "GYS-H014",
+          "GYS-H019",
+          "GYS-J001",
+          "GYS-J002",
+          "GYS-J008",
+          "GYS-J042",
+          "GYS-J043",
+          "GYS-J044",
+          "GYS-J057",
+          "GYS-J058",
+          "GYS-J059",
+          "GYS-J060",
+          "GYS-J061",
+          "GYS-J062",
+          "GYS-Q001",
+          "GYS-Q002",
+          "GYS-Q003",
+          "GYS-Q004",
+          "GYS-Q005",
+          "GYS-Q006",
+          "GYS-Q007",
+          "GYS-Q010",
+          "GYS-Q014",
+          "GYS-R025"
+        ],
+        "classified_without_direct_function_route": [
+          "GYS-H005",
+          "GYS-H006",
+          "GYS-H007",
+          "GYS-H008",
+          "GYS-H009",
+          "GYS-H010",
+          "GYS-H011",
+          "GYS-H012",
+          "GYS-H013",
+          "GYS-H026",
+          "GYS-J003",
+          "GYS-J023",
+          "GYS-O008",
+          "GYS-Q008",
+          "GYS-Q011",
+          "GYS-Q012",
+          "GYS-Q013",
+          "GYS-Q015",
+          "GYS-Y010",
+          "GYS-Y012"
+        ]
+      },
+      "명령": {
+        "classified_or_realized_record_ids": [
+          "GYS-G017",
+          "GYS-H014",
+          "GYS-H016",
+          "GYS-I049",
+          "GYS-I050",
+          "GYS-J007",
+          "GYS-J009",
+          "GYS-J010",
+          "GYS-J026",
+          "GYS-J028",
+          "GYS-J029",
+          "GYS-J030",
+          "GYS-J031",
+          "GYS-J032",
+          "GYS-Q009",
+          "GYS-R023",
+          "GYS-R039",
+          "GYS-Y005"
+        ],
+        "direct_realizes_record_ids": [
+          "GYS-G017",
+          "GYS-H014",
+          "GYS-J007",
+          "GYS-J009",
+          "GYS-J010",
+          "GYS-J026",
+          "GYS-J028",
+          "GYS-J029",
+          "GYS-J030",
+          "GYS-J032",
+          "GYS-Y005"
+        ],
+        "direct_final_ending_record_ids": [
+          "GYS-H014",
+          "GYS-J007",
+          "GYS-J009",
+          "GYS-J010"
+        ],
+        "classified_without_direct_function_route": [
+          "GYS-H016",
+          "GYS-I049",
+          "GYS-I050",
+          "GYS-J031",
+          "GYS-Q009",
+          "GYS-R023",
+          "GYS-R039"
+        ]
+      },
+      "청유": {
+        "classified_or_realized_record_ids": [
+          "GYS-G017",
+          "GYS-H014",
+          "GYS-J033",
+          "GYS-J034",
+          "GYS-J035",
+          "GYS-J036",
+          "GYS-J046",
+          "GYS-R040",
+          "GYS-Y007"
+        ],
+        "direct_realizes_record_ids": [
+          "GYS-G017",
+          "GYS-H014",
+          "GYS-J033",
+          "GYS-J034",
+          "GYS-J035",
+          "GYS-J036",
+          "GYS-J046",
+          "GYS-Y007"
+        ],
+        "direct_final_ending_record_ids": [
+          "GYS-H014",
+          "GYS-J046"
+        ],
+        "classified_without_direct_function_route": [
+          "GYS-R040"
+        ]
+      }
+    },
+    "status": "function_access_repaired_conditions_and_generation_not_completed",
+    "decisions": [
+      {
+        "record_id": "GYS-H005",
+        "functions": [
+          "질문"
+        ],
+        "decision": "function_paths_added",
+        "reason": "원문 기능 또는 관찰형을 근거로 용법 기능 연결 보완. 원문 가설과 예문 한정은 관계의 assertion_mode로 보존.",
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "source_pages_rechecked": [
+          34
+        ],
+        "assertions": [
+          "GYS-H005:A4"
+        ],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-H006",
+        "functions": [
+          "질문"
+        ],
+        "decision": "function_paths_added",
+        "reason": "원문 기능 또는 관찰형을 근거로 용법 기능 연결 보완. 원문 가설과 예문 한정은 관계의 assertion_mode로 보존.",
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "source_pages_rechecked": [
+          34
+        ],
+        "assertions": [
+          "GYS-H006:A4"
+        ],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-H007",
+        "functions": [
+          "질문"
+        ],
+        "decision": "function_paths_added",
+        "reason": "원문 기능 또는 관찰형을 근거로 용법 기능 연결 보완. 원문 가설과 예문 한정은 관계의 assertion_mode로 보존.",
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "source_pages_rechecked": [
+          34
+        ],
+        "assertions": [
+          "GYS-H007:A4"
+        ],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-H008",
+        "functions": [
+          "질문"
+        ],
+        "decision": "function_paths_added",
+        "reason": "원문 기능 또는 관찰형을 근거로 용법 기능 연결 보완. 원문 가설과 예문 한정은 관계의 assertion_mode로 보존.",
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "source_pages_rechecked": [
+          34
+        ],
+        "assertions": [
+          "GYS-H008:A4"
+        ],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-H009",
+        "functions": [
+          "질문"
+        ],
+        "decision": "function_paths_added",
+        "reason": "원문 기능 또는 관찰형을 근거로 용법 기능 연결 보완. 원문 가설과 예문 한정은 관계의 assertion_mode로 보존.",
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "source_pages_rechecked": [
+          34
+        ],
+        "assertions": [
+          "GYS-H009:A4"
+        ],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-H010",
+        "functions": [
+          "질문"
+        ],
+        "decision": "function_paths_added",
+        "reason": "원문 기능 또는 관찰형을 근거로 용법 기능 연결 보완. 원문 가설과 예문 한정은 관계의 assertion_mode로 보존.",
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "source_pages_rechecked": [
+          34
+        ],
+        "assertions": [
+          "GYS-H010:A4"
+        ],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-H011",
+        "functions": [
+          "질문"
+        ],
+        "decision": "function_paths_added",
+        "reason": "원문 기능 또는 관찰형을 근거로 용법 기능 연결 보완. 원문 가설과 예문 한정은 관계의 assertion_mode로 보존.",
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "source_pages_rechecked": [
+          34
+        ],
+        "assertions": [
+          "GYS-H011:A4"
+        ],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-H012",
+        "functions": [
+          "질문"
+        ],
+        "decision": "function_paths_added",
+        "reason": "원문 기능 또는 관찰형을 근거로 용법 기능 연결 보완. 원문 가설과 예문 한정은 관계의 assertion_mode로 보존.",
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "source_pages_rechecked": [
+          34
+        ],
+        "assertions": [
+          "GYS-H012:A4"
+        ],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-H013",
+        "functions": [
+          "질문"
+        ],
+        "decision": "function_paths_added",
+        "reason": "원문 기능 또는 관찰형을 근거로 용법 기능 연결 보완. 원문 가설과 예문 한정은 관계의 assertion_mode로 보존.",
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "source_pages_rechecked": [
+          34
+        ],
+        "assertions": [
+          "GYS-H013:A2"
+        ],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-H016",
+        "functions": [
+          "명령"
+        ],
+        "decision": "function_paths_added",
+        "reason": "원문 기능 또는 관찰형을 근거로 용법 기능 연결 보완. 원문 가설과 예문 한정은 관계의 assertion_mode로 보존.",
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "source_pages_rechecked": [
+          5
+        ],
+        "assertions": [
+          "GYS-H016:A3",
+          "GYS-H016:A4"
+        ],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-H022",
+        "functions": [
+          "평서"
+        ],
+        "decision": "function_paths_added",
+        "reason": "원문 기능 또는 관찰형을 근거로 용법 기능 연결 보완. 원문 가설과 예문 한정은 관계의 assertion_mode로 보존.",
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "source_pages_rechecked": [
+          14
+        ],
+        "assertions": [
+          "GYS-H022:A3",
+          "GYS-H022:A4"
+        ],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-H026",
+        "functions": [
+          "질문"
+        ],
+        "decision": "function_paths_added",
+        "reason": "원문 기능 또는 관찰형을 근거로 용법 기능 연결 보완. 원문 가설과 예문 한정은 관계의 assertion_mode로 보존.",
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "source_pages_rechecked": [
+          16
+        ],
+        "assertions": [
+          "GYS-H026:A3",
+          "GYS-H026:A4"
+        ],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-I049",
+        "functions": [
+          "명령"
+        ],
+        "decision": "function_paths_added",
+        "reason": "원문 기능 또는 관찰형을 근거로 용법 기능 연결 보완. 원문 가설과 예문 한정은 관계의 assertion_mode로 보존.",
+        "source_id": "NAMU_GRAMMAR_20260908",
+        "source_pages_rechecked": [
+          6
+        ],
+        "assertions": [
+          "GYS-I049:A7",
+          "GYS-I049:A8",
+          "GYS-I049:A9",
+          "GYS-I049:A10"
+        ],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-I050",
+        "functions": [
+          "명령"
+        ],
+        "decision": "function_paths_added",
+        "reason": "원문 기능 또는 관찰형을 근거로 용법 기능 연결 보완. 원문 가설과 예문 한정은 관계의 assertion_mode로 보존.",
+        "source_id": "NAMU_GRAMMAR_20260908",
+        "source_pages_rechecked": [
+          7
+        ],
+        "assertions": [
+          "GYS-I050:A5",
+          "GYS-I050:A6",
+          "GYS-I050:A7",
+          "GYS-I050:A8",
+          "GYS-I050:A9",
+          "GYS-I050:A10",
+          "GYS-I050:A11",
+          "GYS-I050:A12",
+          "GYS-I050:A13",
+          "GYS-I050:A14",
+          "GYS-I050:A15",
+          "GYS-I050:A16",
+          "GYS-I050:A17",
+          "GYS-I050:A18",
+          "GYS-I050:A19",
+          "GYS-I050:A20",
+          "GYS-I050:A21",
+          "GYS-I050:A22",
+          "GYS-I050:A23",
+          "GYS-I050:A24",
+          "GYS-I050:A25",
+          "GYS-I050:A26"
+        ],
+        "forms": [
+          "GYS-I050:F5",
+          "GYS-I050:F6",
+          "GYS-I050:F7",
+          "GYS-I050:F8",
+          "GYS-I050:F9",
+          "GYS-I050:F10",
+          "GYS-I050:F11",
+          "GYS-I050:F12",
+          "GYS-I050:F13",
+          "GYS-I050:F14",
+          "GYS-I050:F15"
+        ]
+      },
+      {
+        "record_id": "GYS-J003",
+        "functions": [
+          "질문"
+        ],
+        "decision": "function_paths_added",
+        "reason": "원문 기능 또는 관찰형을 근거로 용법 기능 연결 보완. 원문 가설과 예문 한정은 관계의 assertion_mode로 보존.",
+        "source_id": "JO2018",
+        "source_pages_rechecked": [
+          138
+        ],
+        "assertions": [
+          "GYS-J003:A2"
+        ],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-J013",
+        "functions": [
+          "평서"
+        ],
+        "decision": "function_paths_added",
+        "reason": "원문 기능 또는 관찰형을 근거로 용법 기능 연결 보완. 원문 가설과 예문 한정은 관계의 assertion_mode로 보존.",
+        "source_id": "JO2018",
+        "source_pages_rechecked": [
+          89
+        ],
+        "assertions": [
+          "GYS-J013:A4"
+        ],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-J016",
+        "functions": [
+          "평서"
+        ],
+        "decision": "function_paths_added",
+        "reason": "원문 기능 또는 관찰형을 근거로 용법 기능 연결 보완. 원문 가설과 예문 한정은 관계의 assertion_mode로 보존.",
+        "source_id": "JO2018",
+        "source_pages_rechecked": [
+          91
+        ],
+        "assertions": [
+          "GYS-J016:A3",
+          "GYS-J016:A4"
+        ],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-J023",
+        "functions": [
+          "질문"
+        ],
+        "decision": "function_paths_added",
+        "reason": "원문 기능 또는 관찰형을 근거로 용법 기능 연결 보완. 원문 가설과 예문 한정은 관계의 assertion_mode로 보존.",
+        "source_id": "JO2018",
+        "source_pages_rechecked": [
+          127
+        ],
+        "assertions": [
+          "GYS-J023:A4",
+          "GYS-J023:A5",
+          "GYS-J023:A6"
+        ],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-J031",
+        "functions": [
+          "명령"
+        ],
+        "decision": "request_intent_requires_separate_model",
+        "reason": "요청의 해석과 도-/다- 어휘 제한이 핵심. 부탁을 문장 형식 명령과 일괄 동일시하지 않고 요청 기능 설계에서 처리.",
+        "source_id": "JO2018",
+        "source_pages_rechecked": [
+          169
+        ],
+        "assertions": [],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-O008",
+        "functions": [
+          "질문"
+        ],
+        "decision": "literal_example_context",
+        "reason": "특정 전체 발화의 지역/높임 비교 예. 독립 어미의 일반화된 기능 관계로 추가하지 않음.",
+        "source_id": "NAMU20260901",
+        "source_pages_rechecked": [
+          16
+        ],
+        "assertions": [],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-Q008",
+        "functions": [
+          "질문"
+        ],
+        "decision": "analysis_guidance",
+        "reason": "뭐/어디의 질문 해석 안내이며 생성할 종결어미가 아님.",
+        "source_id": "NAMU_GRAMMAR_20260908",
+        "source_pages_rechecked": [
+          9
+        ],
+        "assertions": [],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-Q009",
+        "functions": [
+          "명령"
+        ],
+        "decision": "speech_act_not_sentence_form",
+        "reason": "명령 의도의 수사의문 사례. 기존 의문 형식을 명령 어미로 바꾸는 관계를 만들지 않음.",
+        "source_id": "NAMU_GRAMMAR_20260908",
+        "source_pages_rechecked": [
+          8,
+          9,
+          11,
+          12
+        ],
+        "assertions": [],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-Q011",
+        "functions": [
+          "질문"
+        ],
+        "decision": "held_source_interpretation",
+        "reason": "원문의 자문/청유/내포 숙고 및 ㄹ 탈락 범위를 분리하기 전 확정 기능 추가 보류.",
+        "source_id": "NAMU_GRAMMAR_20260908",
+        "source_pages_rechecked": [
+          12,
+          13
+        ],
+        "assertions": [],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-Q012",
+        "functions": [
+          "질문"
+        ],
+        "decision": "contrast_guidance",
+        "reason": "-고/-꼬의 억양·의미 대비 안내. 이를 자유 변이 또는 무조건 생성 허용으로 만들지 않음.",
+        "source_id": "NAMU_GRAMMAR_20260908",
+        "source_pages_rechecked": [
+          12,
+          13
+        ],
+        "assertions": [],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-Q013",
+        "functions": [
+          "질문"
+        ],
+        "decision": "held_source_interpretation",
+        "reason": "해체 자문·연결·하게체 용법 분리가 필요하여 needs_review 유지.",
+        "source_id": "NAMU_GRAMMAR_20260908",
+        "source_pages_rechecked": [
+          13
+        ],
+        "assertions": [],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-Q015",
+        "functions": [
+          "질문"
+        ],
+        "decision": "usage_tendency",
+        "reason": "지역별 대체 경향이지 모든 문장에서의 무조건 교환 규칙이 아님.",
+        "source_id": "NAMU_GRAMMAR_20260908",
+        "source_pages_rechecked": [
+          14
+        ],
+        "assertions": [],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-R023",
+        "functions": [
+          "명령"
+        ],
+        "decision": "function_paths_added",
+        "reason": "원문 기능 또는 관찰형을 근거로 용법 기능 연결 보완. 원문 가설과 예문 한정은 관계의 assertion_mode로 보존.",
+        "source_id": "RYU2014",
+        "source_pages_rechecked": [
+          23
+        ],
+        "assertions": [
+          "GYS-R023:A3"
+        ],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-R039",
+        "functions": [
+          "명령"
+        ],
+        "decision": "function_paths_added",
+        "reason": "원문 기능 또는 관찰형을 근거로 용법 기능 연결 보완. 원문 가설과 예문 한정은 관계의 assertion_mode로 보존.",
+        "source_id": "RYU2014",
+        "source_pages_rechecked": [
+          14
+        ],
+        "assertions": [
+          "GYS-R039:A8",
+          "GYS-R039:A9",
+          "GYS-R039:A10",
+          "GYS-R039:A11",
+          "GYS-R039:A12",
+          "GYS-R039:A13",
+          "GYS-R039:A14"
+        ],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-R040",
+        "functions": [
+          "청유"
+        ],
+        "decision": "function_paths_added",
+        "reason": "원문 기능 또는 관찰형을 근거로 용법 기능 연결 보완. 원문 가설과 예문 한정은 관계의 assertion_mode로 보존.",
+        "source_id": "RYU2014",
+        "source_pages_rechecked": [
+          15
+        ],
+        "assertions": [
+          "GYS-R040:A6",
+          "GYS-R040:A7",
+          "GYS-R040:A8",
+          "GYS-R040:A9",
+          "GYS-R040:A10"
+        ],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-R041",
+        "functions": [
+          "평서"
+        ],
+        "decision": "function_paths_added",
+        "reason": "원문 기능 또는 관찰형을 근거로 용법 기능 연결 보완. 원문 가설과 예문 한정은 관계의 assertion_mode로 보존.",
+        "source_id": "RYU2014",
+        "source_pages_rechecked": [
+          16
+        ],
+        "assertions": [
+          "GYS-R041:A5",
+          "GYS-R041:A6",
+          "GYS-R041:A7",
+          "GYS-R041:A8"
+        ],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-Y010",
+        "functions": [
+          "질문"
+        ],
+        "decision": "function_paths_added",
+        "reason": "원문 기능 또는 관찰형을 근거로 용법 기능 연결 보완. 원문 가설과 예문 한정은 관계의 assertion_mode로 보존.",
+        "source_id": "YANG2021",
+        "source_pages_rechecked": [
+          16,
+          17
+        ],
+        "assertions": [
+          "GYS-Y010:A2"
+        ],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-Y011",
+        "functions": [
+          "평서"
+        ],
+        "decision": "function_paths_added",
+        "reason": "원문 기능 또는 관찰형을 근거로 용법 기능 연결 보완. 원문 가설과 예문 한정은 관계의 assertion_mode로 보존.",
+        "source_id": "YANG2021",
+        "source_pages_rechecked": [
+          17
+        ],
+        "assertions": [
+          "GYS-Y011:A2"
+        ],
+        "forms": []
+      },
+      {
+        "record_id": "GYS-Y012",
+        "functions": [
+          "질문"
+        ],
+        "decision": "negative_constraint",
+        "reason": "알아맞히기 질문에서 -거로를 배제하는 지식. realizes 질문을 추가하면 금지를 허용으로 오인할 수 있음.",
+        "source_id": "YANG2021",
+        "source_pages_rechecked": [
+          17
+        ],
+        "assertions": [],
+        "forms": []
+      }
+    ],
+    "query_check": {
+      "graph_sha256": "36531cbe15fa9eee25ab98f84ea09553c1e2ea7def86dad9160cb8ebe334aca6",
+      "engine": "query_review.review; Python JSON graph traversal, not Neo4j",
+      "results": {
+        "평서": {
+          "function_id": "concept:DECLARATIVE",
+          "known_features": {
+            "sentence_type": "declarative"
+          },
+          "candidate_assertions": [
+            "GYS-H014:A1",
+            "GYS-H022:A4",
+            "GYS-H022:A3",
+            "GYS-J006:A1",
+            "GYS-J013:A4",
+            "GYS-J016:A3",
+            "GYS-J016:A4",
+            "GYS-J038:A2",
+            "GYS-J038:A1",
+            "GYS-J040:A3",
+            "GYS-J040:A1",
+            "GYS-J040:A2",
+            "GYS-J047:A1",
+            "GYS-J049:A1",
+            "GYS-J050:A1",
+            "GYS-J050:A2",
+            "GYS-J052:A2",
+            "GYS-J052:A1",
+            "GYS-J054:A1",
+            "GYS-J056:A1",
+            "GYS-R041:A8",
+            "GYS-R041:A5",
+            "GYS-R041:A6",
+            "GYS-R041:A7",
+            "GYS-Y011:A2"
+          ],
+          "candidate_records": [
+            "GYS-H014",
+            "GYS-H022",
+            "GYS-J006",
+            "GYS-J013",
+            "GYS-J016",
+            "GYS-J038",
+            "GYS-J040",
+            "GYS-J047",
+            "GYS-J049",
+            "GYS-J050",
+            "GYS-J052",
+            "GYS-J054",
+            "GYS-J056",
+            "GYS-R041",
+            "GYS-Y011"
+          ],
+          "note": "종결 위치의 직접 경로 점검. 조건 일치·생성 승인 결과가 아님."
+        },
+        "질문": {
+          "function_id": "concept:INTERROGATIVE",
+          "known_features": {
+            "sentence_type": "interrogative"
+          },
+          "candidate_assertions": [
+            "GYS-H001:A1",
+            "GYS-H002:A3",
+            "GYS-H002:A2",
+            "GYS-H005:A4",
+            "GYS-H006:A4",
+            "GYS-H007:A4",
+            "GYS-H008:A4",
+            "GYS-H009:A4",
+            "GYS-H010:A4",
+            "GYS-H011:A4",
+            "GYS-H012:A4",
+            "GYS-H013:A2",
+            "GYS-H014:A2",
+            "GYS-H019:A5",
+            "GYS-H019:A4",
+            "GYS-H026:A3",
+            "GYS-H026:A4",
+            "GYS-J003:A2",
+            "GYS-J023:A6",
+            "GYS-J023:A4",
+            "GYS-J023:A5",
+            "GYS-J042:A3",
+            "GYS-J042:A4",
+            "GYS-J042:A1",
+            "GYS-J042:A2",
+            "GYS-J043:A1",
+            "GYS-J043:A5",
+            "GYS-J043:A3",
+            "GYS-J043:A4",
+            "GYS-J043:A2",
+            "GYS-J044:A1",
+            "GYS-J059:A1",
+            "GYS-J060:A1",
+            "GYS-J062:A2",
+            "GYS-J062:A1",
+            "GYS-Y010:A2"
+          ],
+          "candidate_records": [
+            "GYS-H001",
+            "GYS-H002",
+            "GYS-H005",
+            "GYS-H006",
+            "GYS-H007",
+            "GYS-H008",
+            "GYS-H009",
+            "GYS-H010",
+            "GYS-H011",
+            "GYS-H012",
+            "GYS-H013",
+            "GYS-H014",
+            "GYS-H019",
+            "GYS-H026",
+            "GYS-J003",
+            "GYS-J023",
+            "GYS-J042",
+            "GYS-J043",
+            "GYS-J044",
+            "GYS-J059",
+            "GYS-J060",
+            "GYS-J062",
+            "GYS-Y010"
+          ],
+          "note": "질문은 일반 INTERROGATIVE 직접 경로만 실행했다. 판정/설명 하위 기능까지 합한 전체 통계와 다르다. 조건 일치·생성 승인 결과가 아님."
+        },
+        "명령": {
+          "function_id": "concept:IMPERATIVE",
+          "known_features": {
+            "sentence_type": "imperative"
+          },
+          "candidate_assertions": [
+            "GYS-H014:A3",
+            "GYS-H016:A3",
+            "GYS-H016:A4",
+            "GYS-I049:A7",
+            "GYS-I049:A10",
+            "GYS-I049:A8",
+            "GYS-I049:A9",
+            "GYS-I050:A6",
+            "GYS-I050:A20",
+            "GYS-I050:A10",
+            "GYS-I050:A16",
+            "GYS-I050:A12",
+            "GYS-I050:A8",
+            "GYS-I050:A14",
+            "GYS-I050:A18",
+            "GYS-I050:A22",
+            "GYS-I050:A24",
+            "GYS-I050:A26",
+            "GYS-J007:A1",
+            "GYS-J009:A1",
+            "GYS-J010:A1",
+            "GYS-R023:A3",
+            "GYS-R039:A13",
+            "GYS-R039:A11",
+            "GYS-R039:A12",
+            "GYS-R039:A14",
+            "GYS-R039:A9",
+            "GYS-R039:A8",
+            "GYS-R039:A10"
+          ],
+          "candidate_records": [
+            "GYS-H014",
+            "GYS-H016",
+            "GYS-I049",
+            "GYS-I050",
+            "GYS-J007",
+            "GYS-J009",
+            "GYS-J010",
+            "GYS-R023",
+            "GYS-R039"
+          ],
+          "note": "종결 위치의 직접 경로 점검. 조건 일치·생성 승인 결과가 아님."
+        },
+        "청유": {
+          "function_id": "concept:HORTATIVE",
+          "known_features": {
+            "sentence_type": "hortative"
+          },
+          "candidate_assertions": [
+            "GYS-H014:A4",
+            "GYS-J046:A2",
+            "GYS-J046:A1",
+            "GYS-J046:A3",
+            "GYS-R040:A10",
+            "GYS-R040:A7",
+            "GYS-R040:A6",
+            "GYS-R040:A8",
+            "GYS-R040:A9"
+          ],
+          "candidate_records": [
+            "GYS-H014",
+            "GYS-J046",
+            "GYS-R040"
+          ],
+          "note": "종결 위치의 직접 경로 점검. 조건 일치·생성 승인 결과가 아님."
+        }
+      }
+    }
+  },
+  "condition_exception_review": {
+    "date": "2026-09-28",
+    "scope": "H022/H023; H005-H012; Q001-Q007",
+    "modified_record_ids": [
+      "GYS-H005",
+      "GYS-H006",
+      "GYS-H007",
+      "GYS-H008",
+      "GYS-H009",
+      "GYS-H010",
+      "GYS-H011",
+      "GYS-H012",
+      "GYS-H022",
+      "GYS-H023",
+      "GYS-Q001",
+      "GYS-Q002",
+      "GYS-Q003",
+      "GYS-Q004",
+      "GYS-Q005",
+      "GYS-Q006",
+      "GYS-Q007"
+    ],
+    "new_integration_ids": [
+      "INT052",
+      "INT053",
+      "INT054",
+      "INT055",
+      "INT056",
+      "INT057",
+      "INT058",
+      "INT059",
+      "INT060",
+      "INT061",
+      "INT062",
+      "INT063",
+      "INT064",
+      "INT065",
+      "INT066",
+      "INT067",
+      "INT068",
+      "INT069",
+      "INT070",
+      "INT071",
+      "INT072",
+      "INT073",
+      "INT074",
+      "INT075",
+      "INT076",
+      "INT077",
+      "INT078",
+      "INT079",
+      "INT080",
+      "INT081",
+      "INT082",
+      "INT083",
+      "INT084"
+    ],
+    "new_assertion_ids": [
+      "GYS-H023:A7"
+    ],
+    "status": "first_three_groups_structured_not_all_endings_complete",
+    "limitations": [
+      "니더/이더 기본형의 시대·높임/지역 적합성 판단은 미완료. 어휘 예외 목록은 원문 전체를 전수 작성한 목록이 아님.",
+      "요/예 결합 후 질문 유형은 19쪽 기저형 분류와 34쪽 결합형 설명의 작성자 연결 해석이다.",
+      "자동 입력 분석·일반 후보 선택·표면형 생성은 이번 단계의 구현 범위가 아님.",
+      "Q007 source_fidelity=needs_review를 유지한다."
+    ],
+    "diagnostic_cases": [
+      {
+        "label": "동사 부르다 기본형",
+        "start": "GYS-H022:F1",
+        "input_features": {
+          "host_form": "부르다",
+          "host_pos": "verb",
+          "sentence_type": "declarative"
+        },
+        "candidate_features": {
+          "attachment_coda": "absent"
+        },
+        "target_features": {
+          "addressee_treatment": "very_high"
+        }
+      },
+      {
+        "label": "형용사 부르다 니더 제외",
+        "start": "GYS-H022:F1",
+        "input_features": {
+          "host_form": "부르다",
+          "host_pos": "adjective",
+          "sentence_type": "declarative"
+        },
+        "candidate_features": {
+          "attachment_coda": "absent"
+        },
+        "target_features": {
+          "addressee_treatment": "very_high"
+        }
+      },
+      {
+        "label": "형용사 부르다 이더",
+        "start": "GYS-H022:F2",
+        "input_features": {
+          "host_form": "부르다",
+          "host_pos": "adjective",
+          "sentence_type": "declarative"
+        },
+        "candidate_features": {
+          "attachment_coda": "absent"
+        },
+        "target_features": {
+          "addressee_treatment": "very_high"
+        }
+      },
+      {
+        "label": "맑다 기본 분포보다 예외 우선 확인",
+        "start": "GYS-H022:F1",
+        "input_features": {
+          "host_form": "맑다",
+          "host_pos": "adjective",
+          "sentence_type": "declarative"
+        },
+        "candidate_features": {
+          "attachment_coda": "present"
+        },
+        "target_features": {
+          "addressee_treatment": "very_high"
+        }
+      },
+      {
+        "label": "좋다 이더 예외 관찰",
+        "start": "GYS-H022:F2",
+        "input_features": {
+          "host_form": "좋다",
+          "host_pos": "adjective",
+          "sentence_type": "declarative"
+        },
+        "candidate_features": {
+          "attachment_coda": "present"
+        },
+        "target_features": {
+          "addressee_treatment": "very_high"
+        }
+      },
+      {
+        "label": "요 결합형 입력값을 후보값으로 오인하지 않음",
+        "start": "GYS-H005:F3",
+        "input_features": {
+          "sentence_type": "interrogative",
+          "question_type": "content",
+          "following_form": "요"
+        },
+        "candidate_features": {},
+        "target_features": {
+          "speech_level": "HAEYO_LEVEL"
+        }
+      },
+      {
+        "label": "요 결합형과 기저 하게체 구분",
+        "start": "GYS-H005:F3",
+        "input_features": {
+          "sentence_type": "interrogative",
+          "question_type": "content"
+        },
+        "candidate_features": {
+          "following_form": "요"
+        },
+        "target_features": {
+          "speech_level": "HAEYO_LEVEL"
+        }
+      },
+      {
+        "label": "계사 과거의 기본형과 변경형",
+        "start": "GYS-Q003:A1",
+        "input_features": {
+          "question_type": "polar",
+          "host_class": "nominal_copula",
+          "nominal_coda": "present"
+        },
+        "candidate_features": {
+          "prefinal_profile": "switching_prefinal_present"
+        },
+        "target_features": {
+          "speech_level": "HAERACHE"
+        }
+      },
+      {
+        "label": "계사 시 단독 원문 충돌 유지",
+        "start": "GYS-Q003:A1",
+        "input_features": {
+          "question_type": "polar",
+          "host_class": "nominal_copula",
+          "nominal_coda": "present"
+        },
+        "candidate_features": {
+          "prefinal_profile": "subject_honorific_only"
+        },
+        "target_features": {
+          "speech_level": "HAERACHE"
+        }
+      }
+    ]
+  },
+  "ending_expansion_review": {
+    "date": "2026-09-28",
+    "scope": "all_274_existing_ending_related_records",
+    "status": "inventory_and_provider_migration_with_source_rechecked_batches_not_full_completion",
+    "manual_source_rechecked_records": [
+      "GYS-H013",
+      "GYS-H016",
+      "GYS-H018",
+      "GYS-H025",
+      "GYS-J013",
+      "GYS-J016",
+      "GYS-J017",
+      "GYS-J018",
+      "GYS-J020",
+      "GYS-J021",
+      "GYS-J022",
+      "GYS-J026",
+      "GYS-J028",
+      "GYS-J029",
+      "GYS-J030",
+      "GYS-J031",
+      "GYS-J032",
+      "GYS-J033",
+      "GYS-J034",
+      "GYS-Q012",
+      "GYS-R005",
+      "GYS-R006",
+      "GYS-R025",
+      "GYS-R026",
+      "GYS-R039",
+      "GYS-R040",
+      "GYS-R041",
+      "GYS-R042",
+      "GYS-R043",
+      "GYS-R044",
+      "GYS-R045",
+      "GYS-R046",
+      "GYS-R047",
+      "GYS-R048",
+      "GYS-R049",
+      "GYS-Y010",
+      "GYS-Y011",
+      "GYS-Y012"
+    ],
+    "provider_migrated_assertions": [
+      "GYS-G001:A1",
+      "GYS-G001:A2",
+      "GYS-G001:A3",
+      "GYS-G003:A1",
+      "GYS-G003:A2",
+      "GYS-G004:A1",
+      "GYS-G005:A1",
+      "GYS-G006:A1",
+      "GYS-G006:A2",
+      "GYS-G007:A1",
+      "GYS-G008:A1",
+      "GYS-G009:A1",
+      "GYS-G009:A2",
+      "GYS-G009:A3",
+      "GYS-G011:A1",
+      "GYS-G011:A2",
+      "GYS-G011:A3",
+      "GYS-G012:A1",
+      "GYS-G012:A2",
+      "GYS-G012:A3",
+      "GYS-G012:A4",
+      "GYS-G015:A1",
+      "GYS-G015:A2",
+      "GYS-G016:A1",
+      "GYS-G016:A2",
+      "GYS-G016:A3",
+      "GYS-G017:A1",
+      "GYS-G017:A2",
+      "GYS-G018:A1",
+      "GYS-G018:A2",
+      "GYS-G018:A3",
+      "GYS-G018:A4",
+      "GYS-G019:A1",
+      "GYS-G019:A2",
+      "GYS-G020:A1",
+      "GYS-G020:A2",
+      "GYS-G020:A3",
+      "GYS-G033:A1",
+      "GYS-G033:A2",
+      "GYS-G033:A3",
+      "GYS-G033:A4",
+      "GYS-G034:A1",
+      "GYS-G034:A2",
+      "GYS-G034:A3",
+      "GYS-G034:A4",
+      "GYS-G035:A1",
+      "GYS-G036:A1",
+      "GYS-G036:A2",
+      "GYS-G036:A3",
+      "GYS-G037:A1",
+      "GYS-G037:A2",
+      "GYS-G037:A3",
+      "GYS-G037:A4",
+      "GYS-G038:A1",
+      "GYS-G038:A2",
+      "GYS-G038:A3",
+      "GYS-G039:A1",
+      "GYS-G039:A2",
+      "GYS-G040:A1",
+      "GYS-G040:A2",
+      "GYS-G041:A1",
+      "GYS-G041:A2",
+      "GYS-G041:A3",
+      "GYS-G042:A1",
+      "GYS-G042:A2",
+      "GYS-G043:A1",
+      "GYS-G044:A1",
+      "GYS-G045:A1",
+      "GYS-G047:A1",
+      "GYS-G047:A2",
+      "GYS-G048:A1",
+      "GYS-G048:A2",
+      "GYS-G061:A1",
+      "GYS-G061:A2",
+      "GYS-G061:A3",
+      "GYS-G064:A1",
+      "GYS-G064:A2",
+      "GYS-H001:A1",
+      "GYS-H002:A1",
+      "GYS-H002:A2",
+      "GYS-H002:A3",
+      "GYS-H003:A1",
+      "GYS-H003:A2",
+      "GYS-H004:A1",
+      "GYS-H004:A2",
+      "GYS-H013:A1",
+      "GYS-H013:A2",
+      "GYS-H014:A1",
+      "GYS-H014:A2",
+      "GYS-H014:A3",
+      "GYS-H014:A4",
+      "GYS-H015:A1",
+      "GYS-H015:A2",
+      "GYS-H015:A3",
+      "GYS-H016:A1",
+      "GYS-H016:A2",
+      "GYS-H016:A3",
+      "GYS-H016:A4",
+      "GYS-H016:A5",
+      "GYS-H016:A6",
+      "GYS-H017:A1",
+      "GYS-H017:A2",
+      "GYS-H017:A3",
+      "GYS-H017:A4",
+      "GYS-H018:A1",
+      "GYS-H018:A2",
+      "GYS-H019:A1",
+      "GYS-H019:A2",
+      "GYS-H019:A3",
+      "GYS-H019:A4",
+      "GYS-H019:A5",
+      "GYS-H020:A1",
+      "GYS-H020:A2",
+      "GYS-H020:A3",
+      "GYS-H020:A4",
+      "GYS-H021:A1",
+      "GYS-H021:A2",
+      "GYS-H021:A3",
+      "GYS-H024:A1",
+      "GYS-H024:A2",
+      "GYS-H024:A3",
+      "GYS-H024:A4",
+      "GYS-H024:A5",
+      "GYS-H025:A1",
+      "GYS-H026:A1",
+      "GYS-H026:A2",
+      "GYS-H026:A3",
+      "GYS-H026:A4",
+      "GYS-H027:A1",
+      "GYS-H027:A2",
+      "GYS-H028:A1",
+      "GYS-H028:A2",
+      "GYS-H029:A1",
+      "GYS-H030:A1",
+      "GYS-H030:A2",
+      "GYS-H030:A3",
+      "GYS-H030:A4",
+      "GYS-H031:A1",
+      "GYS-H031:A2",
+      "GYS-H031:A3",
+      "GYS-I015:A1",
+      "GYS-I015:A2",
+      "GYS-I016:A1",
+      "GYS-I016:A2",
+      "GYS-I017:A1",
+      "GYS-I048:A2",
+      "GYS-I055:A1",
+      "GYS-I055:A2",
+      "GYS-I055:A3",
+      "GYS-I055:A4",
+      "GYS-I056:A4",
+      "GYS-J001:A1",
+      "GYS-J001:A2",
+      "GYS-J002:A1",
+      "GYS-J002:A2",
+      "GYS-J003:A1",
+      "GYS-J003:A2",
+      "GYS-J004:A1",
+      "GYS-J004:A2",
+      "GYS-J005:A1",
+      "GYS-J005:A2",
+      "GYS-J006:A1",
+      "GYS-J006:A2",
+      "GYS-J006:A3",
+      "GYS-J006:A4",
+      "GYS-J007:A1",
+      "GYS-J008:A1",
+      "GYS-J008:A2",
+      "GYS-J009:A1",
+      "GYS-J010:A1",
+      "GYS-J011:A1",
+      "GYS-J011:A2",
+      "GYS-J012:A1",
+      "GYS-J012:A2",
+      "GYS-J012:A3",
+      "GYS-J012:A4",
+      "GYS-J012:A5",
+      "GYS-J012:A6",
+      "GYS-J013:A1",
+      "GYS-J013:A2",
+      "GYS-J013:A3",
+      "GYS-J013:A4",
+      "GYS-J014:A1",
+      "GYS-J014:A2",
+      "GYS-J015:A1",
+      "GYS-J015:A2",
+      "GYS-J015:A3",
+      "GYS-J016:A1",
+      "GYS-J016:A2",
+      "GYS-J016:A3",
+      "GYS-J016:A4",
+      "GYS-J017:A1",
+      "GYS-J017:A2",
+      "GYS-J018:A1",
+      "GYS-J018:A2",
+      "GYS-J019:A1",
+      "GYS-J019:A2",
+      "GYS-J019:A3",
+      "GYS-J020:A1",
+      "GYS-J020:A2",
+      "GYS-J020:A3",
+      "GYS-J020:A4",
+      "GYS-J020:A5",
+      "GYS-J021:A1",
+      "GYS-J021:A2",
+      "GYS-J021:A3",
+      "GYS-J021:A4",
+      "GYS-J022:A1",
+      "GYS-J022:A2",
+      "GYS-J023:A1",
+      "GYS-J023:A2",
+      "GYS-J023:A3",
+      "GYS-J023:A4",
+      "GYS-J023:A5",
+      "GYS-J023:A6",
+      "GYS-J024:A1",
+      "GYS-J024:A2",
+      "GYS-J024:A3",
+      "GYS-J025:A1",
+      "GYS-J025:A2",
+      "GYS-J026:A1",
+      "GYS-J026:A2",
+      "GYS-J026:A3",
+      "GYS-J026:A4",
+      "GYS-J026:A5",
+      "GYS-J027:A1",
+      "GYS-J027:A2",
+      "GYS-J028:A1",
+      "GYS-J028:A2",
+      "GYS-J028:A3",
+      "GYS-J029:A1",
+      "GYS-J029:A2",
+      "GYS-J030:A1",
+      "GYS-J030:A2",
+      "GYS-J031:A1",
+      "GYS-J031:A2",
+      "GYS-J031:A3",
+      "GYS-J031:A4",
+      "GYS-J031:A5",
+      "GYS-J031:A6",
+      "GYS-J032:A1",
+      "GYS-J032:A2",
+      "GYS-J033:A1",
+      "GYS-J033:A2",
+      "GYS-J033:A3",
+      "GYS-J034:A1",
+      "GYS-J034:A2",
+      "GYS-J035:A1",
+      "GYS-J035:A2",
+      "GYS-J035:A3",
+      "GYS-J036:A1",
+      "GYS-J036:A2",
+      "GYS-J036:A3",
+      "GYS-J037:A1",
+      "GYS-J037:A2",
+      "GYS-J038:A1",
+      "GYS-J038:A2",
+      "GYS-J038:A3",
+      "GYS-J039:A1",
+      "GYS-J039:A2",
+      "GYS-J039:A3",
+      "GYS-J039:A4",
+      "GYS-J039:A5",
+      "GYS-J040:A1",
+      "GYS-J040:A2",
+      "GYS-J040:A3",
+      "GYS-J041:A1",
+      "GYS-J042:A1",
+      "GYS-J042:A2",
+      "GYS-J042:A3",
+      "GYS-J042:A4",
+      "GYS-J043:A1",
+      "GYS-J043:A2",
+      "GYS-J043:A3",
+      "GYS-J043:A4",
+      "GYS-J043:A5",
+      "GYS-J044:A1",
+      "GYS-J045:A1",
+      "GYS-J045:A2",
+      "GYS-J045:A3",
+      "GYS-J045:A4",
+      "GYS-J045:A5",
+      "GYS-J046:A1",
+      "GYS-J046:A2",
+      "GYS-J046:A3",
+      "GYS-J047:A1",
+      "GYS-J048:A1",
+      "GYS-J048:A2",
+      "GYS-J048:A3",
+      "GYS-J049:A1",
+      "GYS-J049:A2",
+      "GYS-J049:A3",
+      "GYS-J050:A1",
+      "GYS-J050:A2",
+      "GYS-J051:A1",
+      "GYS-J052:A1",
+      "GYS-J052:A2",
+      "GYS-J052:A3",
+      "GYS-J053:A1",
+      "GYS-J054:A1",
+      "GYS-J055:A1",
+      "GYS-J055:A2",
+      "GYS-J055:A3",
+      "GYS-J055:A4",
+      "GYS-J055:A5",
+      "GYS-J056:A1",
+      "GYS-J057:A1",
+      "GYS-J057:A2",
+      "GYS-J058:A1",
+      "GYS-J058:A2",
+      "GYS-J059:A1",
+      "GYS-J060:A1",
+      "GYS-J060:A2",
+      "GYS-J061:A1",
+      "GYS-J061:A2",
+      "GYS-J061:A3",
+      "GYS-J062:A1",
+      "GYS-J062:A2",
+      "GYS-O002:A1",
+      "GYS-O002:A2",
+      "GYS-O004:A1",
+      "GYS-O004:A2",
+      "GYS-O004:A3",
+      "GYS-O004:A4",
+      "GYS-O005:A1",
+      "GYS-O005:A2",
+      "GYS-O006:A1",
+      "GYS-O006:A2",
+      "GYS-O006:A3",
+      "GYS-O008:A1",
+      "GYS-O008:A2",
+      "GYS-O008:A3",
+      "GYS-O008:A4",
+      "GYS-O009:A1",
+      "GYS-O010:A1",
+      "GYS-O010:A2",
+      "GYS-O010:A3",
+      "GYS-P001:A1",
+      "GYS-P002:A1",
+      "GYS-P003:A1",
+      "GYS-P004:A1",
+      "GYS-P006:A1",
+      "GYS-P007:A1",
+      "GYS-P007:A2",
+      "GYS-P007:A3",
+      "GYS-P008:A1",
+      "GYS-P008:A2",
+      "GYS-P008:A3",
+      "GYS-P009:A1",
+      "GYS-P009:A2",
+      "GYS-P010:A1",
+      "GYS-P010:A2",
+      "GYS-P010:A3",
+      "GYS-P011:A1",
+      "GYS-P011:A2",
+      "GYS-P011:A3",
+      "GYS-P011:A4",
+      "GYS-P012:A1",
+      "GYS-P012:A2",
+      "GYS-P012:A3",
+      "GYS-P012:A4",
+      "GYS-P013:A1",
+      "GYS-P013:A2",
+      "GYS-P013:A3",
+      "GYS-P014:A1",
+      "GYS-P014:A2",
+      "GYS-P014:A3",
+      "GYS-P014:A4",
+      "GYS-P015:A1",
+      "GYS-P015:A2",
+      "GYS-P016:A1",
+      "GYS-P016:A2",
+      "GYS-P016:A3",
+      "GYS-P016:A4",
+      "GYS-P016:A5",
+      "GYS-P017:A1",
+      "GYS-P017:A2",
+      "GYS-P017:A3",
+      "GYS-Q008:A1",
+      "GYS-Q008:A2",
+      "GYS-Q009:A1",
+      "GYS-Q009:A2",
+      "GYS-Q010:A1",
+      "GYS-Q010:A2",
+      "GYS-Q011:A1",
+      "GYS-Q011:A2",
+      "GYS-Q012:A1",
+      "GYS-Q012:A2",
+      "GYS-Q013:A1",
+      "GYS-Q013:A2",
+      "GYS-Q013:A3",
+      "GYS-Q013:A4",
+      "GYS-Q014:A1",
+      "GYS-Q014:A2",
+      "GYS-Q015:A1",
+      "GYS-Q016:A1",
+      "GYS-R005:A1",
+      "GYS-R006:A1",
+      "GYS-R007:A1",
+      "GYS-R008:A1",
+      "GYS-R009:A1",
+      "GYS-R010:A1",
+      "GYS-R011:A1",
+      "GYS-R012:A1",
+      "GYS-R013:A1",
+      "GYS-R014:A1",
+      "GYS-R015:A1",
+      "GYS-R016:A1",
+      "GYS-R017:A1",
+      "GYS-R018:A1",
+      "GYS-R019:A1",
+      "GYS-R020:A1",
+      "GYS-R021:A1",
+      "GYS-R022:A1",
+      "GYS-R023:A1",
+      "GYS-R024:A1",
+      "GYS-R025:A1",
+      "GYS-R026:A1",
+      "GYS-R038:A1",
+      "GYS-R039:A1",
+      "GYS-R039:A2",
+      "GYS-R039:A3",
+      "GYS-R039:A4",
+      "GYS-R039:A5",
+      "GYS-R039:A6",
+      "GYS-R039:A7",
+      "GYS-R039:A8",
+      "GYS-R039:A9",
+      "GYS-R039:A10",
+      "GYS-R039:A11",
+      "GYS-R039:A12",
+      "GYS-R039:A13",
+      "GYS-R039:A14",
+      "GYS-R040:A1",
+      "GYS-R040:A2",
+      "GYS-R040:A3",
+      "GYS-R040:A4",
+      "GYS-R040:A5",
+      "GYS-R040:A6",
+      "GYS-R040:A7",
+      "GYS-R040:A8",
+      "GYS-R040:A9",
+      "GYS-R040:A10",
+      "GYS-R041:A1",
+      "GYS-R041:A2",
+      "GYS-R041:A3",
+      "GYS-R041:A4",
+      "GYS-R041:A5",
+      "GYS-R041:A6",
+      "GYS-R041:A7",
+      "GYS-R041:A8",
+      "GYS-R042:A1",
+      "GYS-R042:A2",
+      "GYS-R042:A3",
+      "GYS-R043:A1",
+      "GYS-R044:A1",
+      "GYS-R045:A1",
+      "GYS-R046:A1",
+      "GYS-R047:A1",
+      "GYS-R047:A2",
+      "GYS-R048:A1",
+      "GYS-R049:A1",
+      "GYS-R049:A2",
+      "GYS-R050:A1",
+      "GYS-R050:A2",
+      "GYS-R050:A3",
+      "GYS-R050:A4",
+      "GYS-R051:A1",
+      "GYS-R051:A2",
+      "GYS-R051:A3",
+      "GYS-R051:A4",
+      "GYS-R051:A5",
+      "GYS-R051:A6",
+      "GYS-R051:A7",
+      "GYS-R051:A8",
+      "GYS-R051:A9",
+      "GYS-R051:A10",
+      "GYS-R052:A1",
+      "GYS-R052:A2",
+      "GYS-R052:A3",
+      "GYS-R052:A4",
+      "GYS-R053:A1",
+      "GYS-R053:A2",
+      "GYS-R054:A1",
+      "GYS-R054:A2",
+      "GYS-R055:A1",
+      "GYS-R056:A1",
+      "GYS-R056:A2",
+      "GYS-R057:A1",
+      "GYS-R057:A2",
+      "GYS-Y001:A1",
+      "GYS-Y001:A2",
+      "GYS-Y001:A3",
+      "GYS-Y001:A4",
+      "GYS-Y002:A1",
+      "GYS-Y002:A2",
+      "GYS-Y003:A1",
+      "GYS-Y004:A1",
+      "GYS-Y004:A2",
+      "GYS-Y005:A1",
+      "GYS-Y006:A1",
+      "GYS-Y006:A2",
+      "GYS-Y007:A1",
+      "GYS-Y007:A2",
+      "GYS-Y008:A1",
+      "GYS-Y008:A2",
+      "GYS-Y009:A1",
+      "GYS-Y009:A2",
+      "GYS-Y010:A1",
+      "GYS-Y010:A2",
+      "GYS-Y011:A1",
+      "GYS-Y011:A2",
+      "GYS-Y012:A1",
+      "GYS-Y013:A1",
+      "GYS-Y014:A1",
+      "GYS-Y014:A2",
+      "GYS-Y014:A3",
+      "GYS-Y015:A1"
+    ],
+    "new_integration_ids": [
+      "INT085",
+      "INT086",
+      "INT088",
+      "INT089",
+      "INT090",
+      "INT092",
+      "INT093",
+      "INT095",
+      "INT096",
+      "INT097",
+      "INT098",
+      "INT099",
+      "INT100",
+      "INT101",
+      "INT102",
+      "INT103",
+      "INT104"
+    ],
+    "source_recheck_pages": {
+      "JO2018": [
+        89,
+        91,
+        92,
+        125,
+        126,
+        127,
+        152,
+        153,
+        155,
+        158,
+        162,
+        168,
+        169,
+        174,
+        180
+      ],
+      "NAMU_HONORIFICS_20260908": [
+        4,
+        5,
+        8,
+        32,
+        33,
+        34
+      ],
+      "YANG2021": [
+        17
+      ],
+      "RYU2014": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "NAMU_GRAMMAR_20260908": [
+        13
+      ]
+    },
+    "limits": [
+      "원문 전체의 누락을 모두 추출한 작업이 아니다.",
+      "값 공급원 정리는 새로운 원문 검토나 의미 조건의 완전한 구조화를 뜻하지 않는다.",
+      "어휘·어간 필드의 값 공급원은 일괄 추정하지 않고 미이관 항목으로 남긴다.",
+      "이미 존재하는 어미 기록 전부의 미완료 항목은 작성검토의 개별 작업 목록에서 추적한다.",
+      "상대대우 정도와 지역별 어체 이름은 자동 매핑하지 않는다. 지역의 상하위 지명 정규화와 절 관계 자동 분석은 미구현이다."
+    ],
+    "diagnostic_cases": [
+      {
+        "label": "세 명령은 청자 단독 행동",
+        "start": "GYS-J029:F1",
+        "input_features": {
+          "sentence_type": "imperative",
+          "host_pos": "verb",
+          "action_participants": "addressee_only"
+        },
+        "candidate_features": {
+          "preceding_form": "verb_stem_direct"
+        },
+        "target_features": {}
+      },
+      {
+        "label": "세 명령에 공동 행동 입력은 불일치",
+        "start": "GYS-J029:F1",
+        "input_features": {
+          "sentence_type": "imperative",
+          "host_pos": "verb",
+          "action_participants": "speaker_and_addressee"
+        },
+        "candidate_features": {
+          "preceding_form": "verb_stem_direct"
+        },
+        "target_features": {}
+      },
+      {
+        "label": "온나를 먹다에 적용하지 않음",
+        "start": "GYS-J032:F1",
+        "input_features": {
+          "sentence_type": "imperative",
+          "host_form": "먹다"
+        },
+        "candidate_features": {},
+        "target_features": {}
+      },
+      {
+        "label": "거로의 알아맞히기 금지는 기본 조건 불일치여도 조회",
+        "start": "GYS-Y010:F1",
+        "input_features": {
+          "sentence_type": "interrogative",
+          "speech_act": "guess_answer"
+        },
+        "candidate_features": {},
+        "target_features": {}
+      },
+      {
+        "label": "거로 상대 의도 질문에는 알아맞히기 금지 미적용",
+        "start": "GYS-Y010:F1",
+        "input_features": {
+          "sentence_type": "interrogative",
+          "speech_act": "ask_intention",
+          "intention_holder": "addressee"
+        },
+        "candidate_features": {},
+        "target_features": {}
+      },
+      {
+        "label": "친근한 요청이어도 후보 활용 정보가 없으면 미확정",
+        "start": "GYS-J031:F1",
+        "input_features": {
+          "speech_act": "request",
+          "beneficiary": "speaker"
+        },
+        "candidate_features": {},
+        "target_features": {}
+      },
+      {
+        "label": "도가 요청에서 도 어간과 활용 참조",
+        "start": "GYS-J031:F1",
+        "input_features": {
+          "speech_act": "request",
+          "beneficiary": "speaker"
+        },
+        "candidate_features": {
+          "preceding_form": "도-"
+        },
+        "target_features": {}
+      },
+      {
+        "label": "동사 청유 조건 밖 존재사 각주도 보존",
+        "start": "GYS-J034:F1",
+        "input_features": {
+          "sentence_type": "hortative",
+          "host_pos": "adjective",
+          "host_form": "있다",
+          "action_participants": "speaker_and_addressee"
+        },
+        "candidate_features": {
+          "prefinal_profile": "none"
+        },
+        "target_features": {}
+      },
+      {
+        "label": "목표 높임을 입력에만 넣으면 허용하지 않음",
+        "start": "GYS-H014:F1",
+        "input_features": {
+          "sentence_type": "declarative",
+          "speech_level": "HAISOCHE"
+        },
+        "candidate_features": {},
+        "target_features": {}
+      },
+      {
+        "label": "서부 하소체 ㄹ 말음은 요 후보",
+        "start": "GYS-H018:A1",
+        "input_features": {
+          "sentence_type": "declarative"
+        },
+        "candidate_features": {
+          "attachment_coda_class": "rieul_final"
+        },
+        "target_features": {
+          "speech_level": "HASOCHE",
+          "region": "경북 서부"
+        }
+      },
+      {
+        "label": "서부 하소체 ㄹ 말음에 소 후보는 불일치",
+        "start": "GYS-H018:A2",
+        "input_features": {
+          "sentence_type": "declarative"
+        },
+        "candidate_features": {
+          "attachment_coda_class": "rieul_final"
+        },
+        "target_features": {
+          "speech_level": "HASOCHE",
+          "region": "경북 서부"
+        }
+      },
+      {
+        "label": "함양 청유 높임이 없으면 미확정",
+        "start": "GYS-R040:A6",
+        "input_features": {
+          "sentence_type": "hortative",
+          "action_participants": "speaker_and_addressee"
+        },
+        "candidate_features": {},
+        "target_features": {}
+      },
+      {
+        "label": "부산 격식 높임 질문의 는교 자제 제약 조회",
+        "start": "GYS-H019:F1",
+        "input_features": {
+          "sentence_type": "interrogative",
+          "host_pos": "verb"
+        },
+        "candidate_features": {},
+        "target_features": {
+          "region": "부산",
+          "speech_level": "HAISOCHE",
+          "register": "formal"
+        }
+      },
+      {
+        "label": "조건 먼을 원인 절에 적용하지 않음",
+        "start": "GYS-R005:F1",
+        "input_features": {
+          "clause_relation": "cause"
+        },
+        "candidate_features": {},
+        "target_features": {}
+      },
+      {
+        "label": "꼬 자문 후보에 상대 응답 요구는 불일치",
+        "start": "GYS-Q012:A4",
+        "input_features": {
+          "sentence_type": "interrogative",
+          "question_type": "content",
+          "response_orientation": "addressee"
+        },
+        "candidate_features": {},
+        "target_features": {}
+      }
+    ],
+    "development_retrieval_slot_fix": {
+      "date": "2026-09-28",
+      "records": [
+        "GYS-R043",
+        "GYS-R044",
+        "GYS-R045",
+        "GYS-R046",
+        "GYS-R047",
+        "GYS-R048",
+        "GYS-R049"
+      ],
+      "assertions": 9,
+      "from": "predicate.construction",
+      "to": "clause.connective",
+      "reason": "30문장 생성 전 조회에서 발견. RYU2014 18~19쪽 연결어미 기록의 적용 위치 교정. 기능/조건/형태는 변경하지 않음."
+    }
+  },
+  "structure_repair_review": {
+    "date": "2026-09-29",
+    "source_pages": {
+      "NAMU_HONORIFICS_20260908": [
+        13,
+        14,
+        26
+      ],
+      "YANG2021": [
+        6,
+        12,
+        13
+      ],
+      "NAMU20260901": [
+        12
+      ],
+      "NAMU_PHONOLOGY_20260908": [
+        8
+      ]
+    },
+    "changed_records": [
+      "GYS-H028",
+      "GYS-H022",
+      "GYS-H023",
+      "GYS-Y008",
+      "GYS-Y015",
+      "GYS-O004",
+      "GYS-P001",
+      "GYS-P002"
+    ],
+    "policy": "표현·조건의 공통 결함 보완. 문장 ID 또는 30문장 정답을 규칙에 넣지 않음.",
+    "remaining": "기타 의미 라벨·설명 조건의 전체 이관 및 자동 분석/최종 생성 보존은 미완료."
+  }
 }

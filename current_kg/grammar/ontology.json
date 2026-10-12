@@ -392,6 +392,11 @@
       "parent": "DISCOURSE"
     },
     {
+      "id": "REQUEST",
+      "label": "요청",
+      "parent": "DISCOURSE"
+    },
+    {
       "id": "HORTATIVE",
       "label": "청유",
       "parent": "DISCOURSE"

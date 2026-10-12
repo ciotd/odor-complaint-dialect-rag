@@ -1,5 +1,5 @@
 {
-  "contract_sha256": "5f7cffaabf5884f63ca0bb264081a5f8e0e1d040d527f8c91bde145d2e21bbdb",
+  "contract_sha256": "52b6513d91d5c77df3ef1f66e759a970306f149d00dde3e31cbcf50c0ab9f2d5",
   "mode": "direct_authoring_offline",
   "background_worker": false,
   "total_pages": 474,
@@ -10,12 +10,12 @@
     "draft_complete": 3,
     "needs_review": 4
   },
-  "records": 331,
-  "nodes": 5527,
-  "edges": 13803,
-  "integration_edges": 50,
-  "semantic_edges": 1033,
-  "author_checked_records": 300,
+  "records": 334,
+  "nodes": 6214,
+  "edges": 15978,
+  "integration_edges": 149,
+  "semantic_edges": 1156,
+  "author_checked_records": 303,
   "independently_reviewed_records": 0,
   "generation_approved_records": 0,
   "sources": {
@@ -29,7 +29,7 @@
     },
     "NAMU_GRAMMAR_20260908": {
       "total_pages": 51,
-      "records": 136,
+      "records": 139,
       "page_status": {
         "context_only": 2,
         "draft_complete": 3,
@@ -3745,7 +3745,7 @@
     "reviewed_records": 67,
     "records_with_examples": 65,
     "example_count": 76,
-    "null_records": 266,
+    "null_records": 269,
     "held_uncertain": 6,
     "not_sentence_applicable": 0,
     "illustrated_relations": 73,

@@ -1,0 +1,130 @@
+{
+  "status": "completed",
+  "created_utc": "2026-10-08T08:34:14.434261+00:00",
+  "conditions": [
+    "prompt_only",
+    "source_hybrid",
+    "record_hybrid",
+    "graph_hybrid"
+  ],
+  "query_mode": "raw_sentence",
+  "dependencies": {
+    "experiments/integrated_retrieval.py": "6c4d85a868aad8d8f6ab5959a9113e445712870776264843fa88663157128b44",
+    "experiments/source_bindings.py": "56cd1b0f1b8c970d9ba1f0df5bf13c0204c4c071e297bd33fa32477b525a9c8a",
+    "experiments/analysis_input.py": "b79ec60b2a98626dd9c2371c022371fe4a2190b9cfb915db3752938e9f6eb173",
+    "experiments/embedding_retrieval.py": "7fd8f7bbc8f85ff079921bd6be442778b277137feb06ffbf453ed8d4e53c1e4d",
+    "experiments/source_retrieval.py": "ff0bfb11b8929796ae899ef8c819d4bcaeab3427a016ce6713526fc66d37ba4b",
+    "experiments/source_analysis_guard.py": "3a5e4c572815c721757348f38f6c8e92d6c917156b62b50e63c52ad1430b4455",
+    "grammar/query_review.py": "8856a5c557b9b0816d6e5ce2b68c21111623f5ec8b852772cd96b3a60fc63b84",
+    "grammar/analysis_contract.json": "aff8e4fc527a5743ad2e77a4656d49812f804d347462d325c68b7e45933b6873",
+    "grammar/source_evidence/summary.json": "43de7b91d6a5997ab78202dfef08df75e60c9fcce30fb1c68fbddc2b9ad7fcc4"
+  },
+  "analysis": "cached automatic guarded analysis; same across all conditions",
+  "analysis_calls_this_run": 13,
+  "translation_calls_planned": 32,
+  "repetitions": 1,
+  "seed": 20260923,
+  "method": "integrated_source_bound_assertion_retrieval_v1",
+  "max_per_binding": 6,
+  "top_k_search": 6,
+  "graph_hops": 2,
+  "graph_directions": [
+    "outgoing"
+  ],
+  "graph_relations_priority": [
+    "has_applicability_constraint",
+    "has_inflection_description",
+    "has_construction_component",
+    "shares_quotative_construction",
+    "contracts_to",
+    "combines_with",
+    "excludes_combination",
+    "variant_of",
+    "same_usage_candidate",
+    "contrasts_in_function"
+  ],
+  "budget_reference_unicode_characters": 24000,
+  "rrf_k": 60,
+  "rrf_pool": 50,
+  "condition_filter": "Function/form/hybrid discovery; independently bound application slots, conditions, politeness and exclusions. Mismatch/unknown audit only.",
+  "exclusion": "held_scope_tension edges excluded; common concept/source hubs not traversed",
+  "limitations": [
+    "All sentences are development data.",
+    "No independent naturalness evaluation.",
+    "Reference amount differs; graph contrast tests expansion as a system component, not content-matched topology alone.",
+    "prompt_only retains same cached analysis/instructions; this is not raw-sentence-only baseline.",
+    "Cached analysis is development input, not gold; morphological binding is a hypothesis.",
+    "Source condition is raw excerpt RAG; KG conditions deliver only matched assertions.",
+    "No generation quality conclusion from execution success.",
+    "New assistant-authored long conversational inputs; no target dialect answers, manual analysis replacement or success-based selection."
+  ],
+  "config": {
+    "dataset": "long_dialogue_8.jsonl",
+    "condition": "prompt_only",
+    "requested_model": "Qwen3.8-27B",
+    "system_prompt": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요.",
+    "generation": {
+      "max_tokens": 512,
+      "temperature": 0.3,
+      "top_p": 0.8,
+      "top_k": 20,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      }
+    },
+    "repetitions": 1,
+    "timeout_seconds": 30,
+    "kg_used": false,
+    "few_shot_used": false,
+    "evaluation": "not_performed",
+    "note": "개발 진단용. 최초 출력 보존, 실패 시 중단. 과거 연결 점검의 샘플링 설정을 출발점으로 사용하며 최적 설정 주장이 아님. inspection_focus는 모델에 전달하지 않음. 실제 체크포인트·양자화는 모델 ID만으로 확정하지 않음."
+  },
+  "network_timeout_seconds": 60,
+  "input_sha256": "1ac0027f154117cdc07425e6ea3de14f937581099631956d9c99d2dce2ce62ba",
+  "analysis_sha256": "c758404b459c866d98e8902a91658dac3e3356a288f7bc0c5d1651dbe15715eb",
+  "graph_sha256": "75c913dd7c39c0224764efcfba6a4ad014ad8c7c36e8ece9ed8eb2407d340fe7",
+  "records_sha256": "2cfddd07bb6deace1d93353cf75874d18c1badda2e1466b9d69a439c05813937",
+  "runner_sha256": "fe4c9eb8af5418c5483416077ec9bde4a12c04e62a9b2982fb13227dc702265d",
+  "embedding_runner_sha256": "7fd8f7bbc8f85ff079921bd6be442778b277137feb06ffbf453ed8d4e53c1e4d",
+  "embedding_model": {
+    "model_id": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "purpose": "development retrieval comparison; not dialect-tuned or proven optimal",
+    "execution": "local CPU; no source text sent to Hugging Face"
+  },
+  "embedding_index_sha256": "e3f14a85fba3c2ba8883e6662dc4173fa17b4ec1008f60f6f817efbf8faeefe2",
+  "chunks": 1688,
+  "query_truncations": 0,
+  "graph_expansion_active": 1,
+  "prepared_artifact_sha256": {
+    "jobs.json": "edc06b00badeec90b02e2a919b646a820325c04f2e970a1963b9e13d28fbf5b0",
+    "retrieval.json": "f9abd995ae9bc4fe45515f2b7c0dfa5b96dfe2052faee9f12194c122f69ecfd1",
+    "analysis.json": "58ad8e4aafdc98691bf42acd3c18f52aabd06671e8bcffd0eb9d57ad685a75d3"
+  },
+  "pre_generation_review": {
+    "status": "reviewed_with_documented_gaps",
+    "packet_integrity_passed": true,
+    "known_gaps": [
+      "LONG001: Qwen classified 왜 아직 안 와? as polar; no semantic correction.",
+      "LONG002: Qwen classified an experience report as state_intention; no semantic correction.",
+      "C/D selected cards identical for 8/8 inputs; full requests identical for 7/8.",
+      "Longer conversational inputs change both length and content; not a length-only causal comparison."
+    ],
+    "review_report_sha256": "27de9f60c093c07ee188ebb521877a8cd16a932c75c79ea82ad9ccda8a0580e9"
+  },
+  "upstream_analysis": {
+    "folder": "/home/ciot28/odor-complaint-dialect-rag/current_kg/experiments/archive/runs/long_dialogue_20261008_analysis_v2",
+    "manifest_sha256": "302732fc76cd457fda2774e9d48057155b6a9a1464f23795dd05e43b908042c5",
+    "analysis_sha256": "c758404b459c866d98e8902a91658dac3e3356a288f7bc0c5d1651dbe15715eb",
+    "earlier_network_failed_run": "long_dialogue_20261008_analysis"
+  },
+  "endpoint_sha256": "03bdfce6caff3fa12a0b14fe05a301a12c3f0915e60d3e60e89bc53308775201",
+  "models": [
+    "Qwen3.8-27B"
+  ],
+  "workers": 2,
+  "completed": 32,
+  "actual_generation_attempts": 32,
+  "completed_utc": "2026-10-08T08:36:29.720011+00:00",
+  "quality_evaluation": "pending independent human review"
+}

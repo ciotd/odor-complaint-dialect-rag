@@ -1,0 +1,96 @@
+{
+  "status": "completed",
+  "created_utc": "2026-10-08T02:59:52.996157+00:00",
+  "conditions": [
+    "prompt_only",
+    "source_hybrid",
+    "record_hybrid",
+    "graph_hybrid"
+  ],
+  "query_mode": "raw_sentence",
+  "analysis": "cached automatic guarded analysis; same across all conditions",
+  "analysis_calls_this_run": 0,
+  "translation_calls_planned": 120,
+  "repetitions": 1,
+  "seed": 20260923,
+  "seed_records": 3,
+  "neighbor_records": 3,
+  "top_k_reported": 6,
+  "graph_hops": 1,
+  "graph_directions": [
+    "outgoing",
+    "incoming"
+  ],
+  "graph_relations_priority": [
+    "has_applicability_constraint",
+    "has_inflection_description",
+    "has_construction_component",
+    "shares_quotative_construction",
+    "contracts_to",
+    "combines_with",
+    "excludes_combination",
+    "variant_of",
+    "same_usage_candidate",
+    "contrasts_in_function"
+  ],
+  "budget_reference_unicode_characters": 24000,
+  "rrf_k": 60,
+  "rrf_pool": 50,
+  "condition_filter": "No hard approval in this exploratory reference route; complete per-record conditions given to generator.",
+  "exclusion": "held_scope_tension edges excluded; common concept/source hubs not traversed",
+  "limitations": [
+    "All sentences are development data.",
+    "No independent naturalness evaluation.",
+    "Reference amount differs; graph contrast tests expansion as a system component, not content-matched topology alone.",
+    "prompt_only retains same cached analysis/instructions; this is not raw-sentence-only baseline.",
+    "Original default production retrieval is unchanged.",
+    "No generation quality conclusion from execution success."
+  ],
+  "config": {
+    "dataset": "development_30.jsonl",
+    "condition": "prompt_only",
+    "requested_model": "Qwen3.8-27B",
+    "system_prompt": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요.",
+    "generation": {
+      "max_tokens": 512,
+      "temperature": 0.3,
+      "top_p": 0.8,
+      "top_k": 20,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      }
+    },
+    "repetitions": 1,
+    "timeout_seconds": 30,
+    "kg_used": false,
+    "few_shot_used": false,
+    "evaluation": "not_performed",
+    "note": "개발 진단용. 최초 출력 보존, 실패 시 중단. 과거 연결 점검의 샘플링 설정을 출발점으로 사용하며 최적 설정 주장이 아님. inspection_focus는 모델에 전달하지 않음. 실제 체크포인트·양자화는 모델 ID만으로 확정하지 않음."
+  },
+  "network_timeout_seconds": 60,
+  "input_sha256": "0592aedf2aaead4ef72c4080bdca25614375ec4c4b17b8e5cb9a412df57e0d5b",
+  "analysis_sha256": "cdd162dd8754133ae397b66a0bad6ff4714ba4fdff80dd0d221d0752d01e151c",
+  "graph_sha256": "6725eb02e5f1cf284f402661f4b82b2b53b267b7430da63f02595e8ec35ee0bc",
+  "records_sha256": "b8959c21577c8d153c2ba57dd1cde928edfb4fcfb0b735b0e2e226a32c7c11bf",
+  "runner_sha256": "15652de588990e06a7216aa5488c95faed0f0f41e3bb30185d8ce4dc1b771289",
+  "embedding_runner_sha256": "7fd8f7bbc8f85ff079921bd6be442778b277137feb06ffbf453ed8d4e53c1e4d",
+  "embedding_model": {
+    "model_id": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "purpose": "development retrieval comparison; not dialect-tuned or proven optimal",
+    "execution": "local CPU; no source text sent to Hugging Face"
+  },
+  "embedding_index_sha256": "21ed23c3ce6bf8f24c7870f7e64f523684c3e636b064b961cc2802698627b2d8",
+  "chunks": 1685,
+  "query_truncations": 0,
+  "graph_expansion_active": 11,
+  "endpoint_sha256": "03bdfce6caff3fa12a0b14fe05a301a12c3f0915e60d3e60e89bc53308775201",
+  "models": [
+    "Qwen3.8-27B"
+  ],
+  "workers": 2,
+  "completed": 120,
+  "actual_generation_attempts": 120,
+  "completed_utc": "2026-10-08T03:01:30.238625+00:00",
+  "quality_evaluation": "pending independent human review"
+}

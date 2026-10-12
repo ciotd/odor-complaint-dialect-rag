@@ -184,7 +184,11 @@
                 "question_type",
                 "speech_level"
               ],
-              "mapping_note": "목표 하게체의 판정 질문. 원문에서 의문사 여부라고 한 것을 표면 검색 하나로 구현하지 않는다."
+              "mapping_note": "목표 하게체의 판정 질문. 원문에서 의문사 여부라고 한 것을 표면 검색 하나로 구현하지 않는다.",
+              "feature_sources": {
+                "question_type": "input",
+                "speech_level": "target"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -218,7 +222,10 @@
               "input_features": [
                 "question_type"
               ],
-              "mapping_note": "문헌의 변이를 보존. 비음 첨가의 추측 의미 분석은 별도 검토."
+              "mapping_note": "문헌의 변이를 보존. 비음 첨가의 추측 의미 분석은 별도 검토.",
+              "feature_sources": {
+                "question_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -353,7 +360,11 @@
                 "question_type",
                 "speech_level"
               ],
-              "mapping_note": "설명 질문 기능에서 기본 용법을 찾는다."
+              "mapping_note": "설명 질문 기능에서 기본 용법을 찾는다.",
+              "feature_sources": {
+                "question_type": "input",
+                "speech_level": "target"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -387,7 +398,10 @@
               "input_features": [
                 "question_type"
               ],
-              "mapping_note": "기본 종결 용법의 변이이며 인용 -고와 분리한다."
+              "mapping_note": "기본 종결 용법의 변이이며 인용 -고와 분리한다.",
+              "feature_sources": {
+                "question_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -516,7 +530,59 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "원문이 제안하는 분석으로 보존하며 자유 생성용 축약 규칙으로 승인하지 않는다."
+              "mapping_note": "원문이 제안하는 분석으로 보존하며 자유 생성용 축약 규칙으로 승인하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
+            },
+            "assertion_mode": "source_hypothesis",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "INTERROGATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "meaning",
+                  "operator": "is",
+                  "values": [
+                    "bound_noun_copula_question"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "interrogative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "meaning",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다.",
+              "feature_sources": {
+                "meaning": "input",
+                "sentence_type": "input"
+              }
             },
             "assertion_mode": "source_hypothesis",
             "evidence_keys": [
@@ -639,7 +705,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "단순 미래와 약속을 구별한다."
+              "mapping_note": "단순 미래와 약속을 구별한다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -673,7 +742,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "원문이 수의적 변이를 기술하나 전체 어간별 조건은 뒤 절 검토가 필요하다."
+              "mapping_note": "원문이 수의적 변이를 기술하나 전체 어간별 조건은 뒤 절 검토가 필요하다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -807,7 +879,11 @@
                 "host_pos",
                 "meaning"
               ],
-              "mapping_note": "동사 명령형과 표면형이 비슷해도 용법을 구별한다."
+              "mapping_note": "동사 명령형과 표면형이 비슷해도 용법을 구별한다.",
+              "feature_sources": {
+                "host_pos": "input",
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -852,7 +928,11 @@
                 "host_pos",
                 "meaning"
               ],
-              "mapping_note": "강조 해석은 해당 구성에 한정한다."
+              "mapping_note": "강조 해석은 해당 구성에 한정한다.",
+              "feature_sources": {
+                "host_pos": "input",
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -983,7 +1063,10 @@
               "input_features": [
                 "preceding_form"
               ],
-              "mapping_note": "선어말의 실제 후보 구성과 원문의 기능을 대조한다."
+              "mapping_note": "선어말의 실제 후보 구성과 원문의 기능을 대조한다.",
+              "feature_sources": {
+                "preceding_form": "candidate"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1018,7 +1101,10 @@
               "input_features": [
                 "preceding_form"
               ],
-              "mapping_note": "서술에서 감탄 의미를 수반한다는 설명을 보존한다."
+              "mapping_note": "서술에서 감탄 의미를 수반한다는 설명을 보존한다.",
+              "feature_sources": {
+                "preceding_form": "candidate"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1052,7 +1138,10 @@
               "input_features": [
                 "preceding_form"
               ],
-              "mapping_note": "선어말의 실제 후보 구성과 원문의 기능을 대조한다."
+              "mapping_note": "선어말의 실제 후보 구성과 원문의 기능을 대조한다.",
+              "feature_sources": {
+                "preceding_form": "candidate"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1086,7 +1175,10 @@
               "input_features": [
                 "preceding_form"
               ],
-              "mapping_note": "선어말의 실제 후보 구성과 원문의 기능을 대조한다."
+              "mapping_note": "선어말의 실제 후보 구성과 원문의 기능을 대조한다.",
+              "feature_sources": {
+                "preceding_form": "candidate"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1212,7 +1304,11 @@
                 "host_pos",
                 "preceding_form"
               ],
-              "mapping_note": "직접 결합 여부는 입력에 이미 존재하는 방언형이 아니라 후보 구성에서 확인한다."
+              "mapping_note": "직접 결합 여부는 입력에 이미 존재하는 방언형이 아니라 후보 구성에서 확인한다.",
+              "feature_sources": {
+                "host_pos": "input",
+                "preceding_form": "candidate"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1335,7 +1431,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "요 결합 전체의 기능을 조회한다. 하게체 기본형의 등급을 기계적으로 상속하지 않는다."
+              "mapping_note": "요 결합 전체의 기능을 조회한다. 하게체 기본형의 등급을 기계적으로 상속하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1369,7 +1468,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "원문 관찰형. 조사 빈도는 생성 확률로 바꾸지 않는다."
+              "mapping_note": "원문 관찰형. 조사 빈도는 생성 확률로 바꾸지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1489,7 +1591,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "형태 -제만으로 명령을 확정하지 않는다."
+              "mapping_note": "형태 -제만으로 명령을 확정하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1605,7 +1710,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "충돌이 해소되지 않은 후보로만 보존하며 허용·금지 판정에 사용하지 않는다."
+              "mapping_note": "충돌이 해소되지 않은 후보로만 보존하며 허용·금지 판정에 사용하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1735,7 +1843,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "계사 구성과 관련된 축약으로 연결한다."
+              "mapping_note": "계사 구성과 관련된 축약으로 연결한다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1769,7 +1880,10 @@
               "input_features": [
                 "following_form"
               ],
-              "mapping_note": "관찰된 기+-네 구성. 모든 후행형 결합을 허용하지 않는다."
+              "mapping_note": "관찰된 기+-네 구성. 모든 후행형 결합을 허용하지 않는다.",
+              "feature_sources": {
+                "following_form": "candidate"
+              }
             },
             "assertion_mode": "example_only",
             "evidence_keys": [

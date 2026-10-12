@@ -1,0 +1,77 @@
+{
+  "version": "1.0",
+  "sources": [
+    {
+      "source_id": "YANG2021",
+      "path": "sources/methodology/dialect_generation/georo2021.pdf",
+      "sha256": "30b90da21b6f86e1c7404d194d35f6bbb9f77f7ed9e11dcb642f5f8b7ee19f3b",
+      "pages": 22,
+      "units": 23
+    },
+    {
+      "source_id": "JO2018",
+      "path": "sources/gyeongsang/academic/경북방언_종결어미_연구.pdf",
+      "sha256": "3b48d6356b9efe95fe06dbd9f4db61031795cb3fb48aa87da0f192fcc1ee6c3d",
+      "pages": 265,
+      "units": 710
+    },
+    {
+      "source_id": "RYU2014",
+      "path": "sources/gyeongsang/academic/표준어 간섭 및 방언에 대한 의식으로 인한 경남 함양 방언 문법 형태의 변화 연구.pdf",
+      "sha256": "2ae9c22e1a7cc9f470909bdf9cfe5f7e002d868c208a55ce23fed479ae5d9973",
+      "pages": 38,
+      "units": 57
+    },
+    {
+      "source_id": "NAMU20260901",
+      "path": "sources/gyeongsang/web/동남 방언.pdf",
+      "sha256": "97a5ccceeb15d9b80370f1a505c5eebd6e69e9da9a57ade1bed8e19303b9f80c",
+      "pages": 55,
+      "units": 102
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "path": "sources/gyeongsang/web/동남 방언_문법.pdf",
+      "sha256": "7bbc219e272b325a44310fe70aeed20912b38b9023d00fcbbb879edc22ec7003",
+      "pages": 51,
+      "units": 109
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "path": "sources/gyeongsang/web/동남 방언_상대높임법.pdf",
+      "sha256": "e0eb50ca37599a7c21e09c49c4c2052a6013c6073edd14391c0d2d70a15de9c4",
+      "pages": 35,
+      "units": 52
+    },
+    {
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "path": "sources/gyeongsang/web/동남 방언_음운.pdf",
+      "sha256": "ecdde8d655782e6ebb4c86361019139f6dc6ad87c556bf1b4bcf82402b2b3366",
+      "pages": 8,
+      "units": 11
+    }
+  ],
+  "pages": 474,
+  "units": 1064,
+  "records": 334,
+  "alignment_counts": {
+    "no_existing_page_citation": 702,
+    "surface_overlap_on_cited_page": 242,
+    "same_cited_page_only": 120
+  },
+  "assertion_routes": {
+    "entry_present_conditions_not_evaluated": 178,
+    "outside_legacy_entry": 978
+  },
+  "records_sha256": "2cfddd07bb6deace1d93353cf75874d18c1badda2e1466b9d69a439c05813937",
+  "script_sha256": "a1b43529f0653401fc10ba0e300d6b3abdce8e517bd3f9a9e43d9389de1c5029",
+  "units_sha256": "f393a2d14ae4b486efe9816d8336f0b7f8775862e25c65ce5bf63fc03ba99368",
+  "pages_sha256": "49e6a54ccf0bffbae8e302e0e66e89f0c50a00f4a21c825aa26061d7e9dd7a8f",
+  "links_sha256": "59371b6df01b23b6ee99b058eb60ea8404bb22868fbc22cfbfc299b58ff931c4",
+  "limitations": [
+    "Full PDF text extraction is not a full semantic review.",
+    "Units are search windows, not certified table rows or individual examples.",
+    "An uncited unit may be background/reference material, not missing grammar.",
+    "A cited page or surface overlap does not prove support or completeness."
+  ]
+}

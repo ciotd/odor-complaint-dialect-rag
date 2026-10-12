@@ -1,0 +1,14 @@
+{
+  "full_source_build": "full_source_draft",
+  "reviewed_pages": 474,
+  "pending_pages": 0,
+  "original_pdf_reextraction": "474 pages reproduced exactly by extract_sources.py",
+  "legacy_preservation": "all hashed legacy files unchanged",
+  "test_command": "python -m unittest discover -s kg_v2 -p test_*.py -v",
+  "test_exit_code": 0,
+  "test_output": "test_actual_question_constraints_filter_forms (test_query.QueryTests.test_actual_question_constraints_filter_forms) ... ok\ntest_different_senses_are_not_collapsed (test_query.QueryTests.test_different_senses_are_not_collapsed) ... ok\ntest_explicit_lexical_selection_constrains_inflection (test_query.QueryTests.test_explicit_lexical_selection_constrains_inflection) ... ok\ntest_missing_condition_is_unknown (test_query.QueryTests.test_missing_condition_is_unknown) ... ok\ntest_negative_examples_and_reference_tables_cannot_apply (test_query.QueryTests.test_negative_examples_and_reference_tables_cannot_apply) ... ok\ntest_new_table_preserves_spelling_and_pronunciation_boundary (test_query.QueryTests.test_new_table_preserves_spelling_and_pronunciation_boundary) ... ok\ntest_original_table_typo_does_not_create_a_rule (test_query.QueryTests.test_original_table_typo_does_not_create_a_rule) ... ok\ntest_standard_lemma_reaches_dialect_inflection (test_query.QueryTests.test_standard_lemma_reaches_dialect_inflection) ... ok\ntest_unattested_ending_is_not_synthesized (test_query.QueryTests.test_unattested_ending_is_not_synthesized) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.807s\n\nOK\n",
+  "facts_sha256": "b96f57ab1e147d9f9afbfed26399cd946085493249d164240eff2c296e76c175",
+  "graph_sha256": "cb88c00d4f989e45dc193936812fbce70551ee59328e8bed6785f7366ba445c7",
+  "legacy_tests_report": "legacy_test_results.json",
+  "translation_evaluation": "not run"
+}

@@ -1,0 +1,3814 @@
+{
+  "source_id": "JO2018",
+  "facts": [
+    {
+      "id": "JO2018:v2:imperative:0001",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -이소",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-이소",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 148,
+          "quote": "할게있으니,꼭나시기는대로만하이소이.(7-8:442/상주)(100)에서는‘-이소’,‘-시소’가발견되는데,공통적으로‘-소’가쓰이며,형님,아버지등의[+높임]이확인된다.‘-이소’와‘-시소’의경우,동일한동사(하다)에‘-이-’와‘-시-’가결합하는것으로보아,수의적교체가가능하다는사실을알수있다.또한‘-이소’에강조를나타내는‘-이’가결합하는경우도나타난다(100ㅁ).둘째,표준어에서쓰이는‘-시오/ㅂ시오’과관련된종결어미이다.(101)ㄱ.“아뱀요,이거한그륵잡수면열로칩니더.이거한그륵잡수시오.”(7-1:312/경주)-136-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0002",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -시소",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-시소",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 148,
+          "quote": "꼭나시기는대로만하이소이.(7-8:442/상주)(100)에서는‘-이소’,‘-시소’가발견되는데,공통적으로‘-소’가쓰이며,형님,아버지등의[+높임]이확인된다.‘-이소’와‘-시소’의경우,동일한동사(하다)에‘-이-’와‘-시-’가결합하는것으로보아,수의적교체가가능하다는사실을알수있다.또한‘-이소’에강조를나타내는‘-이’가결합하는경우도나타난다(100ㅁ).둘째,표준어에서쓰이는‘-시오/ㅂ시오’과관련된종결어미이다.(101)ㄱ.“아뱀요,이거한그륵잡수면열로칩니더.이거한그륵잡수시오.”(7-1:312/경주)-136-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0003",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -이소이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-이소이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 148,
+          "quote": "른분하시소.(7-1:245/경주)ㅁ.내가이얘기할게있으니,꼭나시기는대로만하이소이.(7-8:442/상주)(100)에서는‘-이소’,‘-시소’가발견되는데,공통적으로‘-소’가쓰이며,형님,아버지등의[+높임]이확인된다.‘-이소’와‘-시소’의경우,동일한동사(하다)에‘-이-’와‘-시-’가결합하는것으로보아,수의적교체가가능하다는사실을알수있다.또한‘-이소’에강조를나타내는‘-이’가결합하는경우도나타난다(100ㅁ).둘째,표준어에서쓰이는‘-시오/ㅂ시오’과관련된종결어미이다.(101)ㄱ.“아뱀요,이거한그륵잡수면열로칩니더.이거한그륵잡수시오.”(7-1:312/경주)-136-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0004",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -시오",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-시오",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 149,
+          "quote": "다.그런께빨리젖,안빨리면안됩니다.”(7-8:752/상주)(101)에서는‘-시오’,‘-ㅂ시오’와그축약형인‘-쇼’가발견된다.결합관계및기능에서표준어와크게다르지않다.이상으로하이소체명령법종결어미의유형은다음과같이정리할수있다.<표29>하이소체명령법종결어미높임등급유형종결어미방언형-이소,-시소하이소체표준형-시오(쇼)/ㅂ시오경북방언하이소체명령법종결어미중,방언형은‘-소’에‘-이-’,‘-시-’등의형태소가결합하여쓰이는경우만있고,다른형태는발견되지않는다.한편,기존연구에서제시된하이소체명령법종결어미목록체계양상을1바탕으로몇가지특성을제시하면다음과같다.66)첫째,문장종결법의유형설정에따라세부적으로구분한경우가있다.강신항(1979)는허락법을설정하고그형태를제시하였는데,‘-무나’를제외한나머지는명령법과대체로동일하다.박원우(1973)는청유법을,이상규(1991)는청유법과명령법을,민원식(1994)은청유법,약속법을명령법에포함시키고"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0005",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㅂ시오",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㅂ시오",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 149,
+          "quote": "리젖,안빨리면안됩니다.”(7-8:752/상주)(101)에서는‘-시오’,‘-ㅂ시오’와그축약형인‘-쇼’가발견된다.결합관계및기능에서표준어와크게다르지않다.이상으로하이소체명령법종결어미의유형은다음과같이정리할수있다.<표29>하이소체명령법종결어미높임등급유형종결어미방언형-이소,-시소하이소체표준형-시오(쇼)/ㅂ시오경북방언하이소체명령법종결어미중,방언형은‘-소’에‘-이-’,‘-시-’등의형태소가결합하여쓰이는경우만있고,다른형태는발견되지않는다.한편,기존연구에서제시된하이소체명령법종결어미목록체계양상을1바탕으로몇가지특성을제시하면다음과같다.66)첫째,문장종결법의유형설정에따라세부적으로구분한경우가있다.강신항(1979)는허락법을설정하고그형태를제시하였는데,‘-무나’를제외한나머지는명령법과대체로동일하다.박원우(1973)는청유법을,이상규(1991)는청유법과명령법을,민원식(1994)은청유법,약속법을명령법에포함시키고있다.즉,문"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0006",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -쇼",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-쇼",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 149,
+          "quote": "”(7-8:752/상주)(101)에서는‘-시오’,‘-ㅂ시오’와그축약형인‘-쇼’가발견된다.결합관계및기능에서표준어와크게다르지않다.이상으로하이소체명령법종결어미의유형은다음과같이정리할수있다.<표29>하이소체명령법종결어미높임등급유형종결어미방언형-이소,-시소하이소체표준형-시오(쇼)/ㅂ시오경북방언하이소체명령법종결어미중,방언형은‘-소’에‘-이-’,‘-시-’등의형태소가결합하여쓰이는경우만있고,다른형태는발견되지않는다.한편,기존연구에서제시된하이소체명령법종결어미목록체계양상을1바탕으로몇가지특성을제시하면다음과같다.66)첫째,문장종결법의유형설정에따라세부적으로구분한경우가있다.강신항(1979)는허락법을설정하고그형태를제시하였는데,‘-무나’를제외한나머지는명령법과대체로동일하다.박원우(1973)는청유법을,이상규(1991)는청유법과명령법을,민원식(1994)은청유법,약속법을명령법에포함시키고있다.즉,문장의의미기능에따라좀더세"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0007",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -시이소",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-시이소",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 152,
+          "quote": "데,(104ㄷ)의‘-이이소’는조금특이한경우인데,실제로는‘-이이소’가아닌‘-시이소’이다.즉,‘있이이소’는‘있-+(-으-)-시-+-이소’의구조를갖는다.(104ㄹ)의‘-이소이’에서문장끝에결합한‘-이’는일종의당부를나타낸다.(104ㅁ)에서는같은환경임에도불구하고‘있시이소’가나타나는데,앞의‘있-’1으로인한표기의오류로보인다.68)(105)ㄱ.“조양지에앉았이라고.양지짝에앉았시소.내하는대로만하고있이시소.”(7-1:312/경주)ㄴ.a:“아!형씨,왜거그래가누웠소?”b:“아이고,배가고파촌보(寸步)를못가이래요.”a:“아하!그렇게배가고파요?내가이뭐점심하고쇠죽하고아주이가주왔는데거밥을자이시소.”(7-10:355/봉화)ㄷ.“지가알아디리지요.진지자시시소.”(7-3:606/경주)168)실제음성자료를확인한결과,‘-시이소’로발화하고있다.-140-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0008",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -이소이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-이소이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 152,
+          "quote": "‘있이이소’는‘있-+(-으-)-시-+-이소’의구조를갖는다.(104ㄹ)의‘-이소이’에서문장끝에결합한‘-이’는일종의당부를나타낸다.(104ㅁ)에서는같은환경임에도불구하고‘있시이소’가나타나는데,앞의‘있-’1으로인한표기의오류로보인다.68)(105)ㄱ.“조양지에앉았이라고.양지짝에앉았시소.내하는대로만하고있이시소.”(7-1:312/경주)ㄴ.a:“아!형씨,왜거그래가누웠소?”b:“아이고,배가고파촌보(寸步)를못가이래요.”a:“아하!그렇게배가고파요?내가이뭐점심하고쇠죽하고아주이가주왔는데거밥을자이시소.”(7-10:355/봉화)ㄷ.“지가알아디리지요.진지자시시소.”(7-3:606/경주)168)실제음성자료를확인한결과,‘-시이소’로발화하고있다.-140-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0009",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -이시소",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-이시소",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 152,
+          "quote": ".68)(105)ㄱ.“조양지에앉았이라고.양지짝에앉았시소.내하는대로만하고있이시소.”(7-1:312/경주)ㄴ.a:“아!형씨,왜거그래가누웠소?”b:“아이고,배가고파촌보(寸步)를못가이래요.”a:“아하!그렇게배가고파요?내가이뭐점심하고쇠죽하고아주이가주왔는데거밥을자이시소.”(7-10:355/봉화)ㄷ.“지가알아디리지요.진지자시시소.”(7-3:606/경주)168)실제음성자료를확인한결과,‘-시이소’로발화하고있다.-140-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0010",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -시시소",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-시시소",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 152,
+          "quote": "왔는데거밥을자이시소.”(7-10:355/봉화)ㄷ.“지가알아디리지요.진지자시시소.”(7-3:606/경주)168)실제음성자료를확인한결과,‘-시이소’로발화하고있다.-140-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0011",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -소",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-소",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 156,
+          "quote": "수치러보낼모양이께네마요랑대로하소이.(7-3:350/경주)(109)에서는‘-소’,‘-소이’가발견되는데,공통적으로‘-소’가쓰이며,형님,아버지등의[+높임]이확인된다.‘-소’는어간말음에따라매개모음이나타나기도한다(109ㄴ).(109ㄷ)은일종의당부를나타내는‘-이’가결합한경우가발견된다.이상으로하소체명령법종결어미의유형은다음과같이정리할수있다.<표31>하소체명령법종결어미높임등급유형종결어미하소체방언형-소다른문장종결법과달리하소체명령법에서는‘-소’만유일하게나타난다.한편,기존연구에서제시된하소체명령법종결어미목록체계양상을바탕으로몇가지특성을제시하면다음과같다.174)첫째,동일형태를제시하고있더라도상대높임법의등급에서차이를보이는종결어미가있다.이들을제시하면다음과같다.174)[부록5]참고.-144-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0012",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -소이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-소이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 156,
+          "quote": "모양이께네마요랑대로하소이.(7-3:350/경주)(109)에서는‘-소’,‘-소이’가발견되는데,공통적으로‘-소’가쓰이며,형님,아버지등의[+높임]이확인된다.‘-소’는어간말음에따라매개모음이나타나기도한다(109ㄴ).(109ㄷ)은일종의당부를나타내는‘-이’가결합한경우가발견된다.이상으로하소체명령법종결어미의유형은다음과같이정리할수있다.<표31>하소체명령법종결어미높임등급유형종결어미하소체방언형-소다른문장종결법과달리하소체명령법에서는‘-소’만유일하게나타난다.한편,기존연구에서제시된하소체명령법종결어미목록체계양상을바탕으로몇가지특성을제시하면다음과같다.174)첫째,동일형태를제시하고있더라도상대높임법의등급에서차이를보이는종결어미가있다.이들을제시하면다음과같다.174)[부록5]참고.-144-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0013",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -게",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-게",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하게"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 158,
+          "quote": "우리아버지도쌀쫌찌아가지고팔구려.”(7-12:647/군위)(111)에서는‘-게’,‘-세’,‘-세이’,‘-구려’가각각쓰이고있다.청자의의미-146-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0014",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -세",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-세",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하게"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 158,
+          "quote": "[-높임],[-하대]에해당하는하게체명령법종결어미는표준형과크게다르지않고,‘-세이’를제외하고는특징적인방언형이보이지않는다.(111)ㄱ.“동상저어좀가보게.”(7-8:157/성주)ㄴ.“우리저대감한테가서이사간다카세.”ㄷ.“그래그구리이아부님어데가는고보고오세이.”(7-16:43/구미)ㄹ.“우리아버지도쌀쫌찌아가지고팔구려.”(7-12:647/군위)(111)에서는‘-게’,‘-세’,‘-세이’,‘-구려’가각각쓰이고있다.청자의의미-146-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0015",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -세이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-세이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하게"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 158,
+          "quote": "[-높임],[-하대]에해당하는하게체명령법종결어미는표준형과크게다르지않고,‘-세이’를제외하고는특징적인방언형이보이지않는다.(111)ㄱ.“동상저어좀가보게.”(7-8:157/성주)ㄴ.“우리저대감한테가서이사간다카세.”ㄷ.“그래그구리이아부님어데가는고보고오세이.”(7-16:43/구미)ㄹ.“우리아버지도쌀쫌찌아가지고팔구려.”(7-12:647/군위)(111)에서는‘-게’,‘-세’,‘-세이’,‘-구려’가각각쓰이고있다.청자의의미-146-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0016",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -구려",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-구려",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하게"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 158,
+          "quote": ".”(7-12:647/군위)(111)에서는‘-게’,‘-세’,‘-세이’,‘-구려’가각각쓰이고있다.청자의의미-146-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0017",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -래",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-래",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 163,
+          "quote": "군위)ㅌ.“저머시찬물한그륵가온나.”(7-3:608/경주)(115)에서는‘-래’,‘-래이’를비롯하여‘-가래이’,‘-거래이’,‘-나래이’,‘-느래이’가쓰이고있다.표준형과달리형태소‘-이’가결합하여쓰이는특성을보인다.(115ㅇ,ㅈ,ㅊ,ㅋ,ㅌ)의‘-가’와‘-고’,‘-ㄴ나’는결합하는서술어가상당히제한적인점이특징이다.한편,표준형인‘-라’와관련된종결어미는다음과같다.(116)ㄱ.“거황서방일로(이리)나와인사해라.”(7-17:85/예천)ㄴ.“아이구,오냐오냐.마니내눈섭니가가거라.”(7-2:187/경주)ㄷ.“니는내하고살인물이안되이니는가그라.”(7-9:870/안동)ㄹ.“니오늘이아업고,니오늘장구경하고오나라.알라도업고그래바람도씨고장구경도하고오나라.”(7-2:667/경주)ㅁ.“내발작취를놓지마고따라오너라.”(7-13:127/대구)ㅂ.“오늘시장아(시장에)가가주고,좁쌀서말만팔아오느라.”(7-1:66/경주)ㅅ.“야야,"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0018",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -래이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-래이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 163,
+          "quote": "“저머시찬물한그륵가온나.”(7-3:608/경주)(115)에서는‘-래’,‘-래이’를비롯하여‘-가래이’,‘-거래이’,‘-나래이’,‘-느래이’가쓰이고있다.표준형과달리형태소‘-이’가결합하여쓰이는특성을보인다.(115ㅇ,ㅈ,ㅊ,ㅋ,ㅌ)의‘-가’와‘-고’,‘-ㄴ나’는결합하는서술어가상당히제한적인점이특징이다.한편,표준형인‘-라’와관련된종결어미는다음과같다.(116)ㄱ.“거황서방일로(이리)나와인사해라.”(7-17:85/예천)ㄴ.“아이구,오냐오냐.마니내눈섭니가가거라.”(7-2:187/경주)ㄷ.“니는내하고살인물이안되이니는가그라.”(7-9:870/안동)ㄹ.“니오늘이아업고,니오늘장구경하고오나라.알라도업고그래바람도씨고장구경도하고오나라.”(7-2:667/경주)ㅁ.“내발작취를놓지마고따라오너라.”(7-13:127/대구)ㅂ.“오늘시장아(시장에)가가주고,좁쌀서말만팔아오느라.”(7-1:66/경주)ㅅ.“야야,야야,내가"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0019",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -가래이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-가래이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 163,
+          "quote": "온나.”(7-3:608/경주)(115)에서는‘-래’,‘-래이’를비롯하여‘-가래이’,‘-거래이’,‘-나래이’,‘-느래이’가쓰이고있다.표준형과달리형태소‘-이’가결합하여쓰이는특성을보인다.(115ㅇ,ㅈ,ㅊ,ㅋ,ㅌ)의‘-가’와‘-고’,‘-ㄴ나’는결합하는서술어가상당히제한적인점이특징이다.한편,표준형인‘-라’와관련된종결어미는다음과같다.(116)ㄱ.“거황서방일로(이리)나와인사해라.”(7-17:85/예천)ㄴ.“아이구,오냐오냐.마니내눈섭니가가거라.”(7-2:187/경주)ㄷ.“니는내하고살인물이안되이니는가그라.”(7-9:870/안동)ㄹ.“니오늘이아업고,니오늘장구경하고오나라.알라도업고그래바람도씨고장구경도하고오나라.”(7-2:667/경주)ㅁ.“내발작취를놓지마고따라오너라.”(7-13:127/대구)ㅂ.“오늘시장아(시장에)가가주고,좁쌀서말만팔아오느라.”(7-1:66/경주)ㅅ.“야야,야야,내가할얘기가있으께여기잠"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0020",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -거래이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거래이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 163,
+          "quote": "3:608/경주)(115)에서는‘-래’,‘-래이’를비롯하여‘-가래이’,‘-거래이’,‘-나래이’,‘-느래이’가쓰이고있다.표준형과달리형태소‘-이’가결합하여쓰이는특성을보인다.(115ㅇ,ㅈ,ㅊ,ㅋ,ㅌ)의‘-가’와‘-고’,‘-ㄴ나’는결합하는서술어가상당히제한적인점이특징이다.한편,표준형인‘-라’와관련된종결어미는다음과같다.(116)ㄱ.“거황서방일로(이리)나와인사해라.”(7-17:85/예천)ㄴ.“아이구,오냐오냐.마니내눈섭니가가거라.”(7-2:187/경주)ㄷ.“니는내하고살인물이안되이니는가그라.”(7-9:870/안동)ㄹ.“니오늘이아업고,니오늘장구경하고오나라.알라도업고그래바람도씨고장구경도하고오나라.”(7-2:667/경주)ㅁ.“내발작취를놓지마고따라오너라.”(7-13:127/대구)ㅂ.“오늘시장아(시장에)가가주고,좁쌀서말만팔아오느라.”(7-1:66/경주)ㅅ.“야야,야야,내가할얘기가있으께여기잠깐오니라.”("
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0021",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -나래이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-나래이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 163,
+          "quote": "주)(115)에서는‘-래’,‘-래이’를비롯하여‘-가래이’,‘-거래이’,‘-나래이’,‘-느래이’가쓰이고있다.표준형과달리형태소‘-이’가결합하여쓰이는특성을보인다.(115ㅇ,ㅈ,ㅊ,ㅋ,ㅌ)의‘-가’와‘-고’,‘-ㄴ나’는결합하는서술어가상당히제한적인점이특징이다.한편,표준형인‘-라’와관련된종결어미는다음과같다.(116)ㄱ.“거황서방일로(이리)나와인사해라.”(7-17:85/예천)ㄴ.“아이구,오냐오냐.마니내눈섭니가가거라.”(7-2:187/경주)ㄷ.“니는내하고살인물이안되이니는가그라.”(7-9:870/안동)ㄹ.“니오늘이아업고,니오늘장구경하고오나라.알라도업고그래바람도씨고장구경도하고오나라.”(7-2:667/경주)ㅁ.“내발작취를놓지마고따라오너라.”(7-13:127/대구)ㅂ.“오늘시장아(시장에)가가주고,좁쌀서말만팔아오느라.”(7-1:66/경주)ㅅ.“야야,야야,내가할얘기가있으께여기잠깐오니라.”(7-18:12"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0022",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -느래이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-느래이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 163,
+          "quote": "에서는‘-래’,‘-래이’를비롯하여‘-가래이’,‘-거래이’,‘-나래이’,‘-느래이’가쓰이고있다.표준형과달리형태소‘-이’가결합하여쓰이는특성을보인다.(115ㅇ,ㅈ,ㅊ,ㅋ,ㅌ)의‘-가’와‘-고’,‘-ㄴ나’는결합하는서술어가상당히제한적인점이특징이다.한편,표준형인‘-라’와관련된종결어미는다음과같다.(116)ㄱ.“거황서방일로(이리)나와인사해라.”(7-17:85/예천)ㄴ.“아이구,오냐오냐.마니내눈섭니가가거라.”(7-2:187/경주)ㄷ.“니는내하고살인물이안되이니는가그라.”(7-9:870/안동)ㄹ.“니오늘이아업고,니오늘장구경하고오나라.알라도업고그래바람도씨고장구경도하고오나라.”(7-2:667/경주)ㅁ.“내발작취를놓지마고따라오너라.”(7-13:127/대구)ㅂ.“오늘시장아(시장에)가가주고,좁쌀서말만팔아오느라.”(7-1:66/경주)ㅅ.“야야,야야,내가할얘기가있으께여기잠깐오니라.”(7-18:123/예천)-1"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0023",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -가",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-가",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 163,
+          "quote": "온나.”(7-3:608/경주)(115)에서는‘-래’,‘-래이’를비롯하여‘-가래이’,‘-거래이’,‘-나래이’,‘-느래이’가쓰이고있다.표준형과달리형태소‘-이’가결합하여쓰이는특성을보인다.(115ㅇ,ㅈ,ㅊ,ㅋ,ㅌ)의‘-가’와‘-고’,‘-ㄴ나’는결합하는서술어가상당히제한적인점이특징이다.한편,표준형인‘-라’와관련된종결어미는다음과같다.(116)ㄱ.“거황서방일로(이리)나와인사해라.”(7-17:85/예천)ㄴ.“아이구,오냐오냐.마니내눈섭니가가거라.”(7-2:187/경주)ㄷ.“니는내하고살인물이안되이니는가그라.”(7-9:870/안동)ㄹ.“니오늘이아업고,니오늘장구경하고오나라.알라도업고그래바람도씨고장구경도하고오나라.”(7-2:667/경주)ㅁ.“내발작취를놓지마고따라오너라.”(7-13:127/대구)ㅂ.“오늘시장아(시장에)가가주고,좁쌀서말만팔아오느라.”(7-1:66/경주)ㅅ.“야야,야야,내가할얘기가있으께여기잠"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0024",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -고",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-고",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 163,
+          "quote": "‘-이’가결합하여쓰이는특성을보인다.(115ㅇ,ㅈ,ㅊ,ㅋ,ㅌ)의‘-가’와‘-고’,‘-ㄴ나’는결합하는서술어가상당히제한적인점이특징이다.한편,표준형인‘-라’와관련된종결어미는다음과같다.(116)ㄱ.“거황서방일로(이리)나와인사해라.”(7-17:85/예천)ㄴ.“아이구,오냐오냐.마니내눈섭니가가거라.”(7-2:187/경주)ㄷ.“니는내하고살인물이안되이니는가그라.”(7-9:870/안동)ㄹ.“니오늘이아업고,니오늘장구경하고오나라.알라도업고그래바람도씨고장구경도하고오나라.”(7-2:667/경주)ㅁ.“내발작취를놓지마고따라오너라.”(7-13:127/대구)ㅂ.“오늘시장아(시장에)가가주고,좁쌀서말만팔아오느라.”(7-1:66/경주)ㅅ.“야야,야야,내가할얘기가있으께여기잠깐오니라.”(7-18:123/예천)-151-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0025",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㄴ나",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄴ나",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 163,
+          "quote": "결합하여쓰이는특성을보인다.(115ㅇ,ㅈ,ㅊ,ㅋ,ㅌ)의‘-가’와‘-고’,‘-ㄴ나’는결합하는서술어가상당히제한적인점이특징이다.한편,표준형인‘-라’와관련된종결어미는다음과같다.(116)ㄱ.“거황서방일로(이리)나와인사해라.”(7-17:85/예천)ㄴ.“아이구,오냐오냐.마니내눈섭니가가거라.”(7-2:187/경주)ㄷ.“니는내하고살인물이안되이니는가그라.”(7-9:870/안동)ㄹ.“니오늘이아업고,니오늘장구경하고오나라.알라도업고그래바람도씨고장구경도하고오나라.”(7-2:667/경주)ㅁ.“내발작취를놓지마고따라오너라.”(7-13:127/대구)ㅂ.“오늘시장아(시장에)가가주고,좁쌀서말만팔아오느라.”(7-1:66/경주)ㅅ.“야야,야야,내가할얘기가있으께여기잠깐오니라.”(7-18:123/예천)-151-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0026",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -라",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-라",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 164,
+          "quote": "(116)에서는‘-라’를비롯하여,‘-거라’,‘-그라’,‘-나라’,‘-너라’,‘-느라’,‘-니라’가나타나는데,모음에서차이를보일뿐,기능은동일하게쓰인다.이상으로해라체의문법종결어미의유형은다음과같이정리할수있다.<표35>해라체명령법종결어미높임등급유형종결어미-래,-래이,-가래이/-거래이,-나래이/-느래이,-가/고,방언형해라체-ㄴ나표준형-라,-거라,-나라/-너라/-니라하소체,하게체보다는형태소결합에의한종결어미가상당히많이나타난다.또한앞서살펴본것처럼,표준형과방언형이대부분일치된대응을보여주며,‘-가’,‘-고’,‘-ㄴ나’는한정된서술어와결합하는특성을보인다.한편,기존연구에서제시된해라체명령법종결어미목록체계양상을1살펴보면큰이견이보이지않는다.78)다음으로,대계의해라체명령법종결어미의유형별지역분포와사용양상을제시하면다음과같다.<표36>해라체명령법종결어미의지역분포"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0027",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -거라",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거라",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 164,
+          "quote": "(116)에서는‘-라’를비롯하여,‘-거라’,‘-그라’,‘-나라’,‘-너라’,‘-느라’,‘-니라’가나타나는데,모음에서차이를보일뿐,기능은동일하게쓰인다.이상으로해라체의문법종결어미의유형은다음과같이정리할수있다.<표35>해라체명령법종결어미높임등급유형종결어미-래,-래이,-가래이/-거래이,-나래이/-느래이,-가/고,방언형해라체-ㄴ나표준형-라,-거라,-나라/-너라/-니라하소체,하게체보다는형태소결합에의한종결어미가상당히많이나타난다.또한앞서살펴본것처럼,표준형과방언형이대부분일치된대응을보여주며,‘-가’,‘-고’,‘-ㄴ나’는한정된서술어와결합하는특성을보인다.한편,기존연구에서제시된해라체명령법종결어미목록체계양상을1살펴보면큰이견이보이지않는다.78)다음으로,대계의해라체명령법종결어미의유형별지역분포와사용양상을제시하면다음과같다.<표36>해라체명령법종결어미의지역분포와사용양상경북경북중"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0028",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -그라",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-그라",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 164,
+          "quote": "(116)에서는‘-라’를비롯하여,‘-거라’,‘-그라’,‘-나라’,‘-너라’,‘-느라’,‘-니라’가나타나는데,모음에서차이를보일뿐,기능은동일하게쓰인다.이상으로해라체의문법종결어미의유형은다음과같이정리할수있다.<표35>해라체명령법종결어미높임등급유형종결어미-래,-래이,-가래이/-거래이,-나래이/-느래이,-가/고,방언형해라체-ㄴ나표준형-라,-거라,-나라/-너라/-니라하소체,하게체보다는형태소결합에의한종결어미가상당히많이나타난다.또한앞서살펴본것처럼,표준형과방언형이대부분일치된대응을보여주며,‘-가’,‘-고’,‘-ㄴ나’는한정된서술어와결합하는특성을보인다.한편,기존연구에서제시된해라체명령법종결어미목록체계양상을1살펴보면큰이견이보이지않는다.78)다음으로,대계의해라체명령법종결어미의유형별지역분포와사용양상을제시하면다음과같다.<표36>해라체명령법종결어미의지역분포와사용양상경북경북중동부방언방언"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0029",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -나라",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-나라",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 164,
+          "quote": "(116)에서는‘-라’를비롯하여,‘-거라’,‘-그라’,‘-나라’,‘-너라’,‘-느라’,‘-니라’가나타나는데,모음에서차이를보일뿐,기능은동일하게쓰인다.이상으로해라체의문법종결어미의유형은다음과같이정리할수있다.<표35>해라체명령법종결어미높임등급유형종결어미-래,-래이,-가래이/-거래이,-나래이/-느래이,-가/고,방언형해라체-ㄴ나표준형-라,-거라,-나라/-너라/-니라하소체,하게체보다는형태소결합에의한종결어미가상당히많이나타난다.또한앞서살펴본것처럼,표준형과방언형이대부분일치된대응을보여주며,‘-가’,‘-고’,‘-ㄴ나’는한정된서술어와결합하는특성을보인다.한편,기존연구에서제시된해라체명령법종결어미목록체계양상을1살펴보면큰이견이보이지않는다.78)다음으로,대계의해라체명령법종결어미의유형별지역분포와사용양상을제시하면다음과같다.<표36>해라체명령법종결어미의지역분포와사용양상경북경북중동부방언방언구획서부경북"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0030",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -너라",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-너라",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 164,
+          "quote": "(116)에서는‘-라’를비롯하여,‘-거라’,‘-그라’,‘-나라’,‘-너라’,‘-느라’,‘-니라’가나타나는데,모음에서차이를보일뿐,기능은동일하게쓰인다.이상으로해라체의문법종결어미의유형은다음과같이정리할수있다.<표35>해라체명령법종결어미높임등급유형종결어미-래,-래이,-가래이/-거래이,-나래이/-느래이,-가/고,방언형해라체-ㄴ나표준형-라,-거라,-나라/-너라/-니라하소체,하게체보다는형태소결합에의한종결어미가상당히많이나타난다.또한앞서살펴본것처럼,표준형과방언형이대부분일치된대응을보여주며,‘-가’,‘-고’,‘-ㄴ나’는한정된서술어와결합하는특성을보인다.한편,기존연구에서제시된해라체명령법종결어미목록체계양상을1살펴보면큰이견이보이지않는다.78)다음으로,대계의해라체명령법종결어미의유형별지역분포와사용양상을제시하면다음과같다.<표36>해라체명령법종결어미의지역분포와사용양상경북경북중동부방언방언구획서부경북중동경북중동"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0031",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -느라",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-느라",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 164,
+          "quote": "6)에서는‘-라’를비롯하여,‘-거라’,‘-그라’,‘-나라’,‘-너라’,‘-느라’,‘-니라’가나타나는데,모음에서차이를보일뿐,기능은동일하게쓰인다.이상으로해라체의문법종결어미의유형은다음과같이정리할수있다.<표35>해라체명령법종결어미높임등급유형종결어미-래,-래이,-가래이/-거래이,-나래이/-느래이,-가/고,방언형해라체-ㄴ나표준형-라,-거라,-나라/-너라/-니라하소체,하게체보다는형태소결합에의한종결어미가상당히많이나타난다.또한앞서살펴본것처럼,표준형과방언형이대부분일치된대응을보여주며,‘-가’,‘-고’,‘-ㄴ나’는한정된서술어와결합하는특성을보인다.한편,기존연구에서제시된해라체명령법종결어미목록체계양상을1살펴보면큰이견이보이지않는다.78)다음으로,대계의해라체명령법종결어미의유형별지역분포와사용양상을제시하면다음과같다.<표36>해라체명령법종결어미의지역분포와사용양상경북경북중동부방언방언구획서부경북중동경북중동높방언서부방"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0032",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -니라",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-니라",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 164,
+          "quote": "-라’를비롯하여,‘-거라’,‘-그라’,‘-나라’,‘-너라’,‘-느라’,‘-니라’가나타나는데,모음에서차이를보일뿐,기능은동일하게쓰인다.이상으로해라체의문법종결어미의유형은다음과같이정리할수있다.<표35>해라체명령법종결어미높임등급유형종결어미-래,-래이,-가래이/-거래이,-나래이/-느래이,-가/고,방언형해라체-ㄴ나표준형-라,-거라,-나라/-너라/-니라하소체,하게체보다는형태소결합에의한종결어미가상당히많이나타난다.또한앞서살펴본것처럼,표준형과방언형이대부분일치된대응을보여주며,‘-가’,‘-고’,‘-ㄴ나’는한정된서술어와결합하는특성을보인다.한편,기존연구에서제시된해라체명령법종결어미목록체계양상을1살펴보면큰이견이보이지않는다.78)다음으로,대계의해라체명령법종결어미의유형별지역분포와사용양상을제시하면다음과같다.<표36>해라체명령법종결어미의지역분포와사용양상경북경북중동부방언방언구획서부경북중동경북중동높방언서부방언동부방언임"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌에 나타난 형태. 어휘 제한·높임 혼용·강조/당부 제약을 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:imperative:0033",
+      "type": "context",
+      "source_pattern": {
+        "text": "이소·시소의 교체",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "같은 하다 어간, 높임 청자에게 이소/시소 교체. 이소이의 이는 강조·당부",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 148,
+          "quote": "-시소’의경우,동일한동사(하다)에‘-이-’와‘-시-’가결합하는것으로보아,수의적교체가가능하다는사실을알수있다.또한‘-이소’에강조를나타내는‘-이’가결합하는경우도나타난다(100ㅁ).둘째,표준어에서쓰이는‘-시오/ㅂ시오’과관련된종결어미이다.(101)ㄱ.“아뱀요,이거한그륵잡수면열로칩니더.이거한그륵잡수시오.”(7-1:312/경주)-136-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:imperative:0034",
+      "type": "context",
+      "source_pattern": {
+        "text": "명령법 범주",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "연구자별 허락·청유·약속의 포함 범위 차이. 문법 범주 명칭만으로 실제 행동 주체를 정하지 않음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 149,
+          "quote": "첫째,문장종결법의유형설정에따라세부적으로구분한경우가있다.강신항(1979)는허락법을설정하고그형태를제시하였는데,‘-무나’를제외한나머지는명령법과대체로동일하다.박원우(1973)는청유법을,이상규(1991)는청유법과명령법을,민원식(1994)은청유법,약속법을명령법에포함시키고있다.즉,문장의의미기능에따라좀더세분화하여구분하거나,통사적결합방식을기준으로단순화한경우에따라상이한차이가나타난다.둘째,동일형태를제시하고있더라도상대높임법의등급에서차이를보이는종결어미가있다.이들을제시하면다음과같다.166)[부록5]참고.-137-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:imperative:0035",
+      "type": "context",
+      "source_pattern": {
+        "text": "이소 등급·미관찰형",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "형태 대립을 근거로 하이소 설정. 으람/라왜 명령형은 본 자료 미관찰. 표30 합계와 행 숫자의 불일치 우려",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 150,
+          "quote": "-이소:하이소체(이혁화:2007ㄱ)하소체(이상규:1991,최동주:2003,김영황:2003)기존연구에서등급체계상혼란을보이는명령법종결어미이다.‘-이소’의경우하이소체(이혁화:2007),하소체(이상규:1991,최동주:2003)로구분되는데,앞서상대높임법에서언급한것처럼,형태적으로는‘-이소:-소’의대립이보이고,명령법과청유법에서는그러한형태대립을유지하고있다.그러므로‘-이소’는하이소체에해당한다.한편,이외의형태‘-시더’(이상규:1991),‘-ㅂ시다’(민원식:1994),‘-(으)람’(박창원:1991,배정숙:1989),‘-라왜’(김정인:1985)를명령법으로설정한경우가있다.이상규(1991)에서는명령법과청유법을하나의범주로설명하였고,민원식(1994)에서는명령법에약속과청유를포함시키고있다.그래서‘-시더’와‘-ㅂ시다’가포함된것이다.‘-(으)람"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:imperative:0036",
+      "type": "context",
+      "source_pattern": {
+        "text": "높임 명령형 분포",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "이소 광역, 북부 안동·예천·봉화 상대적 적음. 시소는 더 적고 이소이 상주1례; 표준형은 반대 경향",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 151,
+          "quote": "댁이오십니까?언가이(어지간히)덥지요?여들어와서모욕하이소.”(7-8:84/상주)ㄴ.“손님,이리오시소.”(7-14:821/달성)ㄷ.아이구누님,신벗어놓고죽으시소.신벗어놓고죽어서아버님한테다이신을보이야되지.(7-6:546/영덕)ㄹ.내가이얘기할게있으니,꼭나시기는대로만하이소이.(7-8:442/상주)‘-이소’는이방언의보편적인명령법종결어미로,대부분의지역에고루분포하지만,안동,예천,봉화지역으로갈수록사용빈도가적다.‘-시소’는‘-이소’보다는상대적으로적게쓰이며,또한‘-이소이’는상주지역에서한차례발견된다.(103)ㄱ.“아이그당신식전에이래가는거보인께뭐곤란하다싶은게술이나한잔마시고가시오.\"(7-15:561/구미)ㄴ.“아이,진사님예돈받으십시오.”(7-17:82/예천)ㄷ.“여보여보,이리오쇼.”(7-13:535/대구)표준형인‘-시오/ㅂ시오’는대체적으로‘-이소’,‘-시소’가적게쓰이는지역에많이나타나는경향을보인다.또한축약"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:imperative:0037",
+      "type": "context",
+      "source_pattern": {
+        "text": "있이이소 전사와 구조",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "저자는 원음으로 시이소 확인. 이시소·시이소·시시소 관찰; 이번 구축은 원음 재검증 아님",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 152,
+          "quote": "화)ㄷ.“지가알아디리지요.진지자시시소.”(7-3:606/경주)168)실제음성자료를확인한결과,‘-시이소’로발화하고있다.-140-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:imperative:0038",
+      "type": "context",
+      "source_pattern": {
+        "text": "이·시 결합과 반복",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "이시소/시이소 위치 교체, 시시소·시시오는 1례 또는 드문형. 높임 한 단계 추가라는 해석과 동일 청자 사용의 긴장 보존",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 153,
+          "quote": "합된‘-이시소’가함께나타난다.즉높임의자질을한단계더올린것으로판단할수있으나,동일한청자에게쓰이고있으므로그등급이약화되고있다는점도알수있다.또한(105ㄷ)처럼‘-시시소’가나타나기도한다.‘자시-’에‘-소’가결합하는것이자연스러우나,높임의‘-시-’가한차례더결합한것으로보인다.그러나한차례발견된용례라확정하기는어렵다.(106)ㄱ.“우리자식이어데가고없어들어오지안하이끄네이게죽었는지살았는지선생이좀아르켜(알려)주시오.”(7-10:80/봉화)ㄴ.“그럼,날석달멀미(말미)만주소.한달멀미만주십시오.”(7-10:98/봉화)ㄷ.“거지도이름이있으인꺼네이름은거석해주시시오.”(7-14:587/달성)ㄹ.“여보여보,이리오쇼.”(7-13:535/대구)(106)은‘-시오/ㅂ시오’의쓰임을보인것이다.이경우앞선어말어미는반드시높임의‘-시-’1를포함하여나타난다.69)(106ㄷ)은‘-시-’가한번더결합한독특한형태이고,(106ㄹ)은축약형인‘-쇼"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:imperative:0039",
+      "type": "context",
+      "source_pattern": {
+        "text": "같은 청자의 높임 혼용",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "이/시 탈락·위치 교체와 소/시오 혼용. 낋이이소·낋이소의 첫 이는 사동이므로 높임 분석과 구별",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 154,
+          "quote": "미는다음과같이정리할수있다.171)‘낋이이소’와‘낋이소’에서앞의‘-이-’는사동접미사이다.-142-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:imperative:0040",
+      "type": "context",
+      "source_pattern": {
+        "text": "쇼 기원 불확실성",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "시오 축약설 또는 쇼셔에서 셔 탈락설. 어간 말음 무관한 관찰을 한 기원의 확정으로 삼지 않음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 155,
+          "quote": "‘-쇼’는어간말음과상관없이쓰이는데,이는‘-시오’의축약형으로볼수도있고,‘-쇼셔’에서‘-셔’가탈락한형태일수도있다.173)172)신창순(1984:270),이상규(1991:64)에서는수의적교체로인해‘-이소’,‘-시소’,‘-소’는등급의구분없이쓰인다고언급한바있다.김태엽(1996:172)에서는‘-이소’를격식체,‘-소’를비격식체로구분하여설명할수있는가능성도배제하지않았다.173)이와관련하여,백두현(1990:66)에서는‘-셔’가탈락해서쓰인예문을다음과같이제시하고있다.어셔오쇼(勸柱11a),이​ㅣ를어셔타쇼(勸柱11a),더욱정신가다듬쇼(勸柱10a)-143-"
+        }
+      ],
+      "claim_status": "author_hypothesis",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:imperative:0041",
+      "type": "context",
+      "source_pattern": {
+        "text": "소·소이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "매개모음 결합, 뒤 이는 당부. 소 형식과 실제 아버지·어머니 청자의 높임 사용을 함께 보존",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 156,
+          "quote": "-소’는어간말음에따라매개모음이나타나기도한다(109ㄴ).(109ㄷ)은일종의당부를나타내는‘-이’가결합한경우가발견된다.이상으로하소체명령법종결어미의유형은다음과같이정리할수있다.<표31>하소체명령법종결어미높임등급유형종결어미하소체방언형-소다른문장종결법과달리하소체명령법에서는‘-소’만유일하게나타난다.한편,기존연구에서제시된하소체명령법종결어미목록체계양상을바탕으로몇가지특성을제시하면다음과같다.174)첫째,동일형태를제시하고있더라도상대높임법의등급에서차이를보이는종결어미가있다.이들을제시하면다음과같다.174)[부록5]참고.-144-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:imperative:0042",
+      "type": "context",
+      "source_pattern": {
+        "text": "소 등급과 분포",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "하이소/하소/하게 선행 견해 차이. 저자는 이소 대립으로 하소 설정; 광역 관찰, 소이 소수",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 157,
+          "quote": "40소방언형-소이1․․․․4․1․․․6체합계2,598‘-소’는경북방언에서보편적으로쓰이는형태이며,일부지역에서‘-이’가결합한‘-소이’가발견된다.2)하소체명령법종결어미의통사･의미적특성(1)-소(110)ㄱ.“아,아주무이들오소,들오소!”(7-10:704/봉화)-145-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:imperative:0043",
+      "type": "context",
+      "source_pattern": {
+        "text": "으소·어소 및 혼용",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "으/어의 지역 모음 표기와 변별력, 으이소/으소 동일 발화 혼용. 같은 소라도 평서/질문과 구별",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 158,
+          "quote": "이방언권의모음‘/Ǝ/’로변별력이없다.(110ㄷ)은‘-으이소’와‘-으소’가혼용되어쓰이고있다.즉높임의형태소‘-이-’의유무에따라상대높임법에서차이가나타나야하나,그등급의차이가약화되어간다는의미로도볼수있다.또한‘-이소이’와마찬가지로‘-소’뒤에‘-이’가결합한형태가나타난다(110ㅁ).3.1.3.3.하게체1)종결어미의종류및지역분포와사용양상대계에서는[-높임],[-하대]에해당하는하게체명령법종결어미는표준형과크게다르지않고,‘-세이’를제외하고는특징적인방언형이보이지않는다.(111)ㄱ.“동상저어좀가보게.”(7-8:157/성주)ㄴ.“우리저대감한테가서이사간다카세.”ㄷ.“그래그구리이아부님어데가는고보고오세이.”(7-16:43/구미)ㄹ.“우리아버지도쌀쫌찌아가지고팔구려.”(7-12:647/군위)(111)에서는‘-게’,‘-세’,‘-세이’,‘-구려’가각각쓰이고있다.청자의의미-146-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:imperative:0044",
+      "type": "context",
+      "source_pattern": {
+        "text": "하게 명령의 기능",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "세는 청유·서술에도 사용. 화자 포함 여부와 결합 구조로 구별. 게나의 나는 부드러운 명령 보조사라는 선행 주장",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 159,
+          "quote": "’뒤에‘나’가첨가되어부드러운명령을나타낸다고하였는데,이때의나는종결어미가아닌보조사이다.장희승(2000:53)에서는‘-여’를제시하였는데,이는비격식체의해여체이다.다음으로,대계의하게체명령법종결어미의유형별지역분포와사용양상을제시하면다음과같다.175)[부록5]참고.-147-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:imperative:0045",
+      "type": "context",
+      "source_pattern": {
+        "text": "하게 명령 분포",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "게 전역, 세/세이 달성·성주 미관찰, 구려 군위1례. 빈도를 실제 현대 사용률로 치환하지 않음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 160,
+          "quote": "로사용되며,전지역에고루분포한다.‘-세’와‘-세이’의경우달성,성주지역에서는한차례도나타나지않으며,영덕,안동지역등에서사용17양상이나타나지만그빈도수가높지는않다.6)(112)ㄱ.“동상,그럼날따러오게.”(7-7:454/영덕)ㄴ.“주모주모,날술한잔주세.”(7-10:706/봉화)ㄷ.“여보시오여보시오,고등너메위딴집에우리딸혼차자오.걸랑(그곳엘랑)가지마세이.”(7-16:43/구미)ㄹ.“우리아버지도쌀(살)쫌찌아가지고팔구려.”(7-12:647/군위)‘-구려’가하게체명령법으로쓰이는예는단한차례만발견된다.176)한국방언자료집(1989:316-317)에서는‘-게:앉-게’의방언형으로‘앉어라’,‘앉자라’,‘앉게’,‘-세:가세’의방언형으로‘가자’,‘가세’,‘가게’에대한지역을제시하였다.즉,명령법과청유법에쓰인‘-게’는모든지역에서발견이되지만,‘-세’는청유법에사용된지역만있고,명령법에사용된지역은제시되지않았다.-148-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:imperative:0046",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -게",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-게",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "verb",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하게"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 161,
+          "quote": "2)하게체명령법종결어미의통사･의미적특성(1)-게‘-게’는동사어간과결합하여쓰이는데,표준형과크게다르지않다.(113)ㄱ.“글쎄,자네가아매무슨궁리가있는모양이께네이농장은여기내가감시해줄챔이가서,집을사가주해보게.”(7-11:295/군위)ㄴ.“이사람아김서방,동서거즉흥시로마아무끼나생각나는대로한번불러보게.”(7-14:714/달성)ㄷ.“후년에좀잘제사를모시게.내땅을아무데꺼닷마지길줄터인께도지를나돌라카거덩주고안돌라카거덩자네피이구로(살림이나아지도록)내가자넬줄터인께부치고그래좀잘하고,지사를좀잘모시게.”(7-16:358/구미)ㄹ.a:“야가금년에호상을갑니다.내가있어야그걸제역을씨기는데,내가없이야를여기다놔두면은되겄읍니까?그런께저를딸리보내겄읍니까?”b:“아,죽는다면딸리보내야지.그럼,딸리보내시게.”(7-9:957/상주)ㅁ.a:“아이,지가머방에들어갈수있읍니까?”b:“아,이사람아,들오게.이술한"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "성인 손아랫사람을 대우하는 상황. 보내시게·자시게 등 시 결합도 관찰."
+    },
+    {
+      "id": "JO2018:v2:imperative:0047",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -세",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-세",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "verb",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "actor",
+          "op": "eq",
+          "value": "addressee",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하게"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 162,
+          "quote": "(2)-세‘-세’또한동사어간과결합하며,표준형과크게다르지않다.다만,‘-이’가결합하여일종의강조,혹은당부를나타내기도한다.(114)ㄱ.“자네아다시피내아들하나가지(뿐이)아인가?자네있일직에멀쩡하디마는온오금이저레서(저려서)서지를못하네.앉을뱅일세.암만침을놔도안되네,자네좀놔보그러가보세.”ㄴ.“머어자네가나한데부탁할기있는가?이얘기해보세.”(7-8:341/상주)ㄷ.아이고이장님아!이장님아.조심하세이.(7-1:104/경주)ㄹ.“당신네들,내집에간장가질러,가주올따나꺼징여돼지여묵버지기에대들그던쫓어주세이.”(7-7:434/영덕)ㅁ.“배를타게.이배를타세.”(7-6:154/영덕)‘-세’가명령법으로쓰이기위해서는동사어간과직접결합해야하고,서술어가청자와만공기해야한다.(114ㄷ,ㄹ)의‘-세이’에서‘-이’는좀더부드러운인상을준다.(114ㅁ)은‘-게’와‘-세’가"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "동사 어간 직접 결합, 행동 주체가 청자. 세이의 이는 부드러운 당부·강조."
+    },
+    {
+      "id": "JO2018:v2:imperative:0048",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -세이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-세이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "verb",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "actor",
+          "op": "eq",
+          "value": "addressee",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하게"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 162,
+          "quote": "는동사어간과직접결합해야하고,서술어가청자와만공기해야한다.(114ㄷ,ㄹ)의‘-세이’에서‘-이’는좀더부드러운인상을준다.(114ㅁ)은‘-게’와‘-세’가함께나타나는데,‘-세’는하게체의청유법에서도나타난다.일반적으로청자에게초점이있으면명령법으로,화자와청자를포함하면청유법으로쓰이는것이일반적인데,‘-세’의경우는이러한관계에서다소공유하고있는형태로보인다.177)3.1.3.4.해라체1)종결어미의종류및지역분포와사용양상해라체명령법종결어미는다른등급과비교해종결어미가많이발견된다.특이한점은,몇몇형태를제외하고는표준형과방언형이‘-이’의결합177)표준국어대사전에서는‘-세’가청유법으로만쓰이는것으로기술하고있다.-150-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "동사 어간 직접 결합, 행동 주체가 청자. 세이의 이는 부드러운 당부·강조."
+    },
+    {
+      "id": "JO2018:v2:imperative:0049",
+      "type": "context",
+      "source_pattern": {
+        "text": "해라 명령의 어휘 제한",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "가/고/ㄴ나는 어떤 동사에나 붙이지 않음. 도가/다고/온나 등 구체 결합 보존",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 163,
+          "quote": "15ㅇ,ㅈ,ㅊ,ㅋ,ㅌ)의‘-가’와‘-고’,‘-ㄴ나’는결합하는서술어가상당히제한적인점이특징이다.한편,표준형인‘-라’와관련된종결어미는다음과같다.(116)ㄱ.“거황서방일로(이리)나와인사해라.”(7-17:85/예천)ㄴ.“아이구,오냐오냐.마니내눈섭니가가거라.”(7-2:187/경주)ㄷ.“니는내하고살인물이안되이니는가그라.”(7-9:870/안동)ㄹ.“니오늘이아업고,니오늘장구경하고오나라.알라도업고그래바람도씨고장구경도하고오나라.”(7-2:667/경주)ㅁ.“내발작취를놓지마고따라오너라.”(7-13:127/대구)ㅂ.“오늘시장아(시장에)가가주고,좁쌀서말만팔아오느라.”(7-1:66/경주)ㅅ.“야야,야야,내가할얘기가있으께여기잠깐오니라.”(7-18:123/예천)-151-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:imperative:0050",
+      "type": "context",
+      "source_pattern": {
+        "text": "형태 목록과 분포표",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "라·래 계열과 어휘 제한형, 높임 해라. 표 소개의 의문법은 절 제목·예문에 비추어 오기로 기록",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 164,
+          "quote": "다.이상으로해라체의문법종결어미의유형은다음과같이정리할수있다.<표35>해라체명령법종결어미높임등급유형종결어미-래,-래이,-가래이/-거래이,-나래이/-느래이,-가/고,방언형해라체-ㄴ나표준형-라,-거라,-나라/-너라/-니라하소체,하게체보다는형태소결합에의한종결어미가상당히많이나타난다.또한앞서살펴본것처럼,표준형과방언형이대부분일치된대응을보여주며,‘-가’,‘-고’,‘-ㄴ나’는한정된서술어와결합하는특성을보인다.한편,기존연구에서제시된해라체명령법종결어미목록체계양상을1살펴보면큰이견이보이지않는다.78)다음으로,대계의해라체명령법종결어미의유형별지역분포와사용양상을제시하면다음과같다.<표36>해라체명령법종결어미의지역분포와사용양상경북경북중동부방언방언구획서부경북중동경북중동높방언서부방언동부방언임합계지역법상구대달성군경영안예봉(합계)주미구성주위주덕동천화유형종결어미-가311․․․32․․․10합계10-고6121414117757"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:imperative:0051",
+      "type": "context",
+      "source_pattern": {
+        "text": "모음·지역과 전사",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "그라/느라 동부 중심이나 본문 배타 표현과 표의 서부 소수 사례 불일치. 전사 자의성도 고려",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 165,
+          "quote": ".내그늠보구섶다.”(7-8:790/상주)(117)에서특징적으로발견되는것은모음에따른지역적차이이다.‘-그라’(116ㄷ),‘-느라’(117ㅂ)등‘ㅡ’모음의계열은안동예천등의경북중동동부방언에서만쓰이고서부방언권에서는나타나지않는다.반면,‘-거라’,‘--153-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:imperative:0052",
+      "type": "context",
+      "source_pattern": {
+        "text": "명령 가·고·온나 분포",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "가 일부 지역 미관찰, 고 광역; 온나 광역. ㄴ나를 의문 나와 합치지 않음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 166,
+          "quote": "중동서부방언과예천,봉화등의경북중동동부방언에서발견되지않는다.반면,‘-고’는전지역에서두루쓰이는경향을보인다.(120)ㄱ.그여봐라,웃바아가아바님한테가서좀알리가온나.(7-14:72/달성)ㄴ.“고성가서너거부모찾아보고온나.\"(7-15:150/구미)ㄷ.“초립가주온나가령전복(戰服)가주온나.”(7-17:154/예천)ㄹ.“이돈열냥가이가서오늘다쓰고온나.”(7-8:440/상주)(120)의‘-나’는빈도수는적지만고루분포하는경향을보인다.179)잘알려진바와같이,이지역에서는/ㅡ/,/ㅓ/는큰변별력을갖지못한다.그리고이자료의문제점으로지적되는자의적표기에의한문제도남아있기때문에쉽게단정하기는어려운부분이있다.-154-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:imperative:0053",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -라",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-라",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "verb",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 167,
+          "quote": "2)해라체명령법종결어미의통사･의미적특성(1)-라,-래해라체명령법으로쓰이는‘-라’,‘-래’는서술법의‘-아라/어라’,‘-래이’와는다른결합방식으로그구분이가능하다.(121)ㄱ.“늘저녁에는내가열테이불옇지마라.”(7-6:629/영덕)ㄴ.“동세들마카여-오너라.우리온(오늘)저역엘라내가할얘기있이이,우리집이마카(모두)오나라.”(7-3:404/경주)ㄷ.“에이이사람썩치와라.내일아침에당장떠나거라.”(7-9:73/안동)ㄹ.“하고남는거너술받아묵고오니라.\"(7-15:221/구미)ㅁ.“내가배가아푸이께네미역국하고밥한상해오너라.”(7-12:204/군위)ㅂ.“야야아가,그비루하고먹하고붓을이리가주오느라.”(7-16:31/구미)ㅅ.“덜고오니라.덜고오니라.내그늠보구섶다.”(7-8:790/상주)(121ㄱ)의‘-라’는동사와결합하고있는데,형용사와결합하는서술법과는차이가있다.(121ㄴ,ㄷ,ㄹ,ㅁ,ㅂ,"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "동사 결합은 명령, 형용사 라의 감탄과 구별."
+    },
+    {
+      "id": "JO2018:v2:imperative:0054",
+      "type": "context",
+      "source_pattern": {
+        "text": "나라/너라의 교체",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "동일 화자 모음 변이. 거라 대응 가라는 본 자료 미관찰, 선행문헌에는 관찰된다고 재인용",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 167,
+          "quote": "’에대응되는‘-나라’는쓰이지만,‘-거라’에대응되는‘-가라’18는이자료에서발견되지않는다.0)(122)ㄱ.“코꿀밑에방석밑에가보래.”(7-10:631/봉화)ㄴ.“야야,친구보래.요등너메오다보이까네그와임자묘송있제,그늠미야좋지마는그받이월경수다비치갖고자식이나만순사한대180)이와관련하여,김병제(1965:180)에서는표준어의‘-너라’,‘-거라’에대응하는‘-나라’,‘-가라’가쓰이고있으며,폐음절로끝난동사의경우에도모음조화가엄격히적용되고있음을지적한바있다.그러나일부지역에서는‘오니라’또는‘오느라’,‘가가라’,‘가그라’도쓰이면서규칙적이지않음을기술하고있다.-155-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:imperative:0055",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -래",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-래",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "lemma",
+          "op": "eq",
+          "value": "보다",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 168,
+          "quote": "이.”(7-13:540/대구)(122)의‘-래’는다른해라체명령법과다르게,동사‘보다’와만결합하여쓰이는특성을보인다.한편,‘-라’와동일하게대응되는형태로‘-래이’가쓰인다.(123)ㄱ.“내부르는대로글자를정자로쓰래이.곱필라마정자로써야여기있지정자안쓰마여기못있다.”(7-14:132/달성)ㄴ.“서울장안에다시는가지마래이.”(7-5:288/성주)ㄷ.“내손에오는머리도하적(下直)이고,마지막이고.잘가거래이.”(7-11:398/군위)ㄹ.진시황앞에갖다이편지를갖다들받으라꼬.그래갖다주고그빨리오나래이.(7-12:297/경주)ㅁ.“해이고야야.고마들오느래이.”(7-1:379/경주)‘-래이’는서술법으로쓰이는경우에는일종의감탄의기능을나타내지만,1명령법에서쓰일경우에는당부를나타내는것으로보인다.81)(2)-가/고‘-가/고’의경우는다른해라체명령법에비해특별한제약을갖는다.(124)ㄱ.“야,동새,뚜께비"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "이 코퍼스에서 보다와만 결합. 모든 용언에 래를 붙이는 규칙으로 확대 금지."
+    },
+    {
+      "id": "JO2018:v2:imperative:0056",
+      "type": "inflection",
+      "source_pattern": {
+        "text": "보다",
+        "domain": "dialect",
+        "lemma": "보다",
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "보래",
+        "domain": "dialect",
+        "lemma": "보다",
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "lemma",
+          "op": "eq",
+          "value": "보다",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "ending",
+          "op": "eq",
+          "value": "-래",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 167,
+          "quote": "‘-가라’18는이자료에서발견되지않는다.0)(122)ㄱ.“코꿀밑에방석밑에가보래.”(7-10:631/봉화)ㄴ.“야야,친구보래.요등너메오다보이까네그와임자묘송있제,그늠미야좋지마는그받이월경수다비치갖고자식이나만순사한대180)이와관련하여,김병제(1965:180)에서는표준어의‘-너라’,‘-거라’에대응하는‘-나라’,‘-가라’가쓰이고있으며,폐음절로끝난동사의경우에도모음조화가엄격히적용되고있음을지적한바있다.그러나일부지역에서는‘오니라’또는‘오느라’,‘가가라’,‘가그라’도쓰이면서규칙적이지않음을기술하고있다.-155-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:imperative:0057",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -래이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-래이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "verb",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 168,
+          "quote": "‘보다’와만결합하여쓰이는특성을보인다.한편,‘-라’와동일하게대응되는형태로‘-래이’가쓰인다.(123)ㄱ.“내부르는대로글자를정자로쓰래이.곱필라마정자로써야여기있지정자안쓰마여기못있다.”(7-14:132/달성)ㄴ.“서울장안에다시는가지마래이.”(7-5:288/성주)ㄷ.“내손에오는머리도하적(下直)이고,마지막이고.잘가거래이.”(7-11:398/군위)ㄹ.진시황앞에갖다이편지를갖다들받으라꼬.그래갖다주고그빨리오나래이.(7-12:297/경주)ㅁ.“해이고야야.고마들오느래이.”(7-1:379/경주)‘-래이’는서술법으로쓰이는경우에는일종의감탄의기능을나타내지만,1명령법에서쓰일경우에는당부를나타내는것으로보인다.81)(2)-가/고‘-가/고’의경우는다른해라체명령법에비해특별한제약을갖는다.(124)ㄱ.“야,동새,뚜께비동새,그고기를마우리둘이갈라도가,니그거머안가가도짐승이머뚜께비가그거짐승잡을수가있나,그건다그쪽에서다알아서한다.마"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "명령은 당부. 형용사 감탄 및 회상 서술 래이 용법 별개."
+    },
+    {
+      "id": "JO2018:v2:imperative:0058",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -가",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-가",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "stem",
+          "op": "in",
+          "value": [
+            "도",
+            "다"
+          ],
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "request",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 169,
+          "quote": "/안동)ㄹ.“야야,야야!문열어다고.”(7-10:331/봉화)(124)의‘-가/고’는동사‘도-’,‘다-’이외에결합하는경우가나타나지않는다.또한결합하는어간의모음은지역적으로정확하게구분되어사용되는경향을보인다.‘도-’는경북서부방언과중동서부방언에서만나타나고,중동동부방언에서는‘다-’만나타나는경향을보인다.(3)-ㄴ나(125)ㄱ.“챙챙감아라.단다이감아가주고낼져고이곳에온나.”(7-8:666/상주)ㄴ.“여,오줌을누라그래가누구던가주온나.”(7-9:355/안동)ㄷ.“아이고,니곧들온나.곧들온나.”(7-11:284/군위)ㄹ.“그래니가갔다가그래오데든지벌이묵고사다가저어날찾아온나.”(7-13:204/대구)(125)의‘-ㄴ나’또한‘-가’,‘-고’와마찬가지로동사‘오다’와만결합하는통사적제약을갖는다.잘알려진바와같이경북방언에서는‘ㅓ’,‘ㅡ’가[Ǝ]로나타난다.그러므로‘[oƎnra]>[onra]>[onna]’로변화된것으로보"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "도-/다- 어간에만 결합. 지역 분포 설명은 앞의 경주/영덕 도가 실례와도 긴장 있어 배타적 지역 규칙으로 쓰지 않음."
+    },
+    {
+      "id": "JO2018:v2:imperative:0059",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -고",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-고",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "stem",
+          "op": "in",
+          "value": [
+            "도",
+            "다"
+          ],
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "request",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 169,
+          "quote": "어날찾아온나.”(7-13:204/대구)(125)의‘-ㄴ나’또한‘-가’,‘-고’와마찬가지로동사‘오다’와만결합하는통사적제약을갖는다.잘알려진바와같이경북방언에서는‘ㅓ’,‘ㅡ’가[Ǝ]로나타난다.그러므로‘[oƎnra]>[onra]>[onna]’로변화된것으로보인다.-157-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "도-/다- 어간에만 결합. 지역 분포 설명은 앞의 경주/영덕 도가 실례와도 긴장 있어 배타적 지역 규칙으로 쓰지 않음."
+    },
+    {
+      "id": "JO2018:v2:imperative:0060",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㄴ나",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄴ나",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "stem",
+          "op": "eq",
+          "value": "오",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 169,
+          "quote": "서부방언에서만나타나고,중동동부방언에서는‘다-’만나타나는경향을보인다.(3)-ㄴ나(125)ㄱ.“챙챙감아라.단다이감아가주고낼져고이곳에온나.”(7-8:666/상주)ㄴ.“여,오줌을누라그래가누구던가주온나.”(7-9:355/안동)ㄷ.“아이고,니곧들온나.곧들온나.”(7-11:284/군위)ㄹ.“그래니가갔다가그래오데든지벌이묵고사다가저어날찾아온나.”(7-13:204/대구)(125)의‘-ㄴ나’또한‘-가’,‘-고’와마찬가지로동사‘오다’와만결합하는통사적제약을갖는다.잘알려진바와같이경북방언에서는‘ㅓ’,‘ㅡ’가[Ǝ]로나타난다.그러므로‘[oƎnra]>[onra]>[onna]’로변화된것으로보인다.-157-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "오다 및 들오다 등 오-를 포함한 결합. ㄴ나의 음운 변화 과정은 저자 추정."
+    },
+    {
+      "id": "JO2018:v2:imperative:0061",
+      "type": "inflection",
+      "source_pattern": {
+        "text": "도다",
+        "domain": "dialect",
+        "lemma": "도다",
+        "sense": "청자에게 달라고 요구",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "도가",
+        "domain": "dialect",
+        "lemma": "도다",
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "lemma",
+          "op": "eq",
+          "value": "도다",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "ending",
+          "op": "eq",
+          "value": "-가",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 166,
+          "quote": "로‘-라’형보다는그빈도수가현저히적다.(119)ㄱ.“뻘뻘나는째(새)저거잡아도가.”(7-2:398/경주)ㄴ.“너그짐승을날도가.”(7-8:773/상주)ㄷ.“야야,오늘내가머리좀깎으로돈을쪼끔도고.”(7-14:34/달성)ㄹ.“아이구!여물좀다고.”(7-19:335/안동)(119)의‘-가’,‘-고’중,‘-가’는달성,성주등의경북중동서부방언과예천,봉화등의경북중동동부방언에서발견되지않는다.반면,‘-고’는전지역에서두루쓰이는경향을보인다.(120)ㄱ.그여봐라,웃바아가아바님한테가서좀알리가온나.(7-14:72/달성)ㄴ.“고성가서너거부모찾아보고온나.\"(7-15:150/구미)ㄷ.“초립가주온나가령전복(戰服)가주온나.”(7-17:154/예천)ㄹ.“이돈열냥가이가서오늘다쓰고온나.”(7-8:440/상주)(120)의‘-나’는빈도수는적지만고루분포하는경향을보인다.179)잘알려진바와같이,이지역에서는/ㅡ/,/ㅓ/는큰변별력을갖지못"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "도-/다-의 기본형 표기는 분석용 정규화. 사전의 동형 다다와 같은 의미로 통합하지 않음."
+    },
+    {
+      "id": "JO2018:v2:imperative:0062",
+      "type": "inflection",
+      "source_pattern": {
+        "text": "도다",
+        "domain": "dialect",
+        "lemma": "도다",
+        "sense": "청자에게 달라고 요구",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "도고",
+        "domain": "dialect",
+        "lemma": "도다",
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "lemma",
+          "op": "eq",
+          "value": "도다",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "ending",
+          "op": "eq",
+          "value": "-고",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 166,
+          "quote": "짐승을날도가.”(7-8:773/상주)ㄷ.“야야,오늘내가머리좀깎으로돈을쪼끔도고.”(7-14:34/달성)ㄹ.“아이구!여물좀다고.”(7-19:335/안동)(119)의‘-가’,‘-고’중,‘-가’는달성,성주등의경북중동서부방언과예천,봉화등의경북중동동부방언에서발견되지않는다.반면,‘-고’는전지역에서두루쓰이는경향을보인다.(120)ㄱ.그여봐라,웃바아가아바님한테가서좀알리가온나.(7-14:72/달성)ㄴ.“고성가서너거부모찾아보고온나.\"(7-15:150/구미)ㄷ.“초립가주온나가령전복(戰服)가주온나.”(7-17:154/예천)ㄹ.“이돈열냥가이가서오늘다쓰고온나.”(7-8:440/상주)(120)의‘-나’는빈도수는적지만고루분포하는경향을보인다.179)잘알려진바와같이,이지역에서는/ㅡ/,/ㅓ/는큰변별력을갖지못한다.그리고이자료의문제점으로지적되는자의적표기에의한문제도남아있기때문에쉽게단정하기는어려운부분이있다.-154-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "도-/다-의 기본형 표기는 분석용 정규화. 사전의 동형 다다와 같은 의미로 통합하지 않음."
+    },
+    {
+      "id": "JO2018:v2:imperative:0063",
+      "type": "inflection",
+      "source_pattern": {
+        "text": "다다",
+        "domain": "dialect",
+        "lemma": "다다",
+        "sense": "청자에게 달라고 요구",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "다고",
+        "domain": "dialect",
+        "lemma": "다다",
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "lemma",
+          "op": "eq",
+          "value": "다다",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "ending",
+          "op": "eq",
+          "value": "-고",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 169,
+          "quote": "놓아)도가.내니은공하꾸마.”(7-1:262/경주)ㄷ.“오야,그야술날한되만다고.휘휘젓어가으이?밑에꺼”(7-9:82/안동)ㄹ.“야야,야야!문열어다고.”(7-10:331/봉화)(124)의‘-가/고’는동사‘도-’,‘다-’이외에결합하는경우가나타나지않는다.또한결합하는어간의모음은지역적으로정확하게구분되어사용되는경향을보인다.‘도-’는경북서부방언과중동서부방언에서만나타나고,중동동부방언에서는‘다-’만나타나는경향을보인다.(3)-ㄴ나(125)ㄱ.“챙챙감아라.단다이감아가주고낼져고이곳에온나.”(7-8:666/상주)ㄴ.“여,오줌을누라그래가누구던가주온나.”(7-9:355/안동)ㄷ.“아이고,니곧들온나.곧들온나.”(7-11:284/군위)ㄹ.“그래니가갔다가그래오데든지벌이묵고사다가저어날찾아온나.”(7-13:204/대구)(125)의‘-ㄴ나’또한‘-가’,‘-고’와마찬가지로동사‘오다’와만결합하는통사적제약을갖는다.잘알려진바"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "도-/다-의 기본형 표기는 분석용 정규화. 사전의 동형 다다와 같은 의미로 통합하지 않음."
+    },
+    {
+      "id": "JO2018:v2:imperative:0064",
+      "type": "inflection",
+      "source_pattern": {
+        "text": "오다",
+        "domain": "dialect",
+        "lemma": "오다",
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "온나",
+        "domain": "dialect",
+        "lemma": "오다",
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "lemma",
+          "op": "eq",
+          "value": "오다",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "ending",
+          "op": "eq",
+          "value": "-ㄴ나",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 169,
+          "quote": "향을보인다.(3)-ㄴ나(125)ㄱ.“챙챙감아라.단다이감아가주고낼져고이곳에온나.”(7-8:666/상주)ㄴ.“여,오줌을누라그래가누구던가주온나.”(7-9:355/안동)ㄷ.“아이고,니곧들온나.곧들온나.”(7-11:284/군위)ㄹ.“그래니가갔다가그래오데든지벌이묵고사다가저어날찾아온나.”(7-13:204/대구)(125)의‘-ㄴ나’또한‘-가’,‘-고’와마찬가지로동사‘오다’와만결합하는통사적제약을갖는다.잘알려진바와같이경북방언에서는‘ㅓ’,‘ㅡ’가[Ǝ]로나타난다.그러므로‘[oƎnra]>[onra]>[onna]’로변화된것으로보인다.-157-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "도-/다-의 기본형 표기는 분석용 정규화. 사전의 동형 다다와 같은 의미로 통합하지 않음."
+    },
+    {
+      "id": "JO2018:v2:imperative:0065",
+      "type": "inflection",
+      "source_pattern": {
+        "text": "들오다",
+        "domain": "dialect",
+        "lemma": "들오다",
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "들온나",
+        "domain": "dialect",
+        "lemma": "들오다",
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "lemma",
+          "op": "eq",
+          "value": "들오다",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "ending",
+          "op": "eq",
+          "value": "-ㄴ나",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 169,
+          "quote": "여,오줌을누라그래가누구던가주온나.”(7-9:355/안동)ㄷ.“아이고,니곧들온나.곧들온나.”(7-11:284/군위)ㄹ.“그래니가갔다가그래오데든지벌이묵고사다가저어날찾아온나.”(7-13:204/대구)(125)의‘-ㄴ나’또한‘-가’,‘-고’와마찬가지로동사‘오다’와만결합하는통사적제약을갖는다.잘알려진바와같이경북방언에서는‘ㅓ’,‘ㅡ’가[Ǝ]로나타난다.그러므로‘[oƎnra]>[onra]>[onna]’로변화된것으로보인다.-157-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "도-/다-의 기본형 표기는 분석용 정규화. 사전의 동형 다다와 같은 의미로 통합하지 않음."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "DEV002",
+    "finding": "All four outputs say 집에 가다 길에. Error also occurs without retrieved knowledge; KG alone cannot explain it.",
+    "scope": "post-hoc structural observation"
+  },
+  {
+    "id": "DEV006",
+    "finding": "Original 계세요 becomes 계시다 in prompt_only/record_hybrid/graph_hybrid; addressee politeness lost. source_hybrid keeps original.",
+    "scope": "post-hoc politeness observation"
+  },
+  {
+    "id": "DEV011",
+    "finding": "All four outputs change 출발했나요 to 출발했나; original addressee politeness not preserved.",
+    "scope": "post-hoc politeness observation"
+  },
+  {
+    "id": "DEV012",
+    "finding": "source_hybrid gives 열쇠를 어데 뒀노?; record_hybrid/graph_hybrid retain 어디에 뒀어. One example does not prove source superiority.",
+    "scope": "post-hoc output contrast"
+  },
+  {
+    "id": "DEV017",
+    "finding": "All four give 문 좀 닫아 주이소. The dialect expression appears without KG too.",
+    "scope": "post-hoc output contrast"
+  },
+  {
+    "id": "DEV027",
+    "finding": "Top three KG records concern adjectival 거로, northern 니더/이더 exceptions, and 싸우다/싸오다. R007/O004 quotative knowledge is absent. Graph output changes 했어 to 했대; no beneficial effect established.",
+    "scope": "post-hoc retrieval and reporting-meaning concern"
+  }
+]

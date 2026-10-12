@@ -1,0 +1,110 @@
+{
+  "run": "current_kg/experiments/archive/runs/long_dialogue_20261008_generation",
+  "status": "completed",
+  "successful_outputs": 32,
+  "actual_generation_attempts": 32,
+  "new_analysis_calls": 13,
+  "conditions": [
+    "prompt_only",
+    "source_hybrid",
+    "record_hybrid",
+    "graph_hybrid"
+  ],
+  "same_request_record_graph": [
+    {
+      "id": "LONG001",
+      "same_output": true
+    },
+    {
+      "id": "LONG002",
+      "same_output": true
+    },
+    {
+      "id": "LONG003",
+      "same_output": true
+    },
+    {
+      "id": "LONG004",
+      "same_output": true
+    },
+    {
+      "id": "LONG006",
+      "same_output": true
+    },
+    {
+      "id": "LONG007",
+      "same_output": true
+    },
+    {
+      "id": "LONG008",
+      "same_output": false
+    }
+  ],
+  "different_request_record_graph": [
+    {
+      "id": "LONG005",
+      "same_output": true
+    }
+  ],
+  "identical_request_different_output_ids": [
+    "LONG008"
+  ],
+  "different_request_different_output_ids": [],
+  "query_truncations": 0,
+  "dropped_cards": 125,
+  "costs": {
+    "prompt_only": {
+      "successful": 8,
+      "usage": {
+        "prompt_tokens": 6403,
+        "total_tokens": 6727,
+        "completion_tokens": 324
+      },
+      "summed_request_seconds": 11.749,
+      "mean_attempt_seconds": 1.469,
+      "reference_chars_min": 34,
+      "reference_chars_max": 34
+    },
+    "source_hybrid": {
+      "successful": 8,
+      "usage": {
+        "prompt_tokens": 20857,
+        "total_tokens": 21190,
+        "completion_tokens": 333
+      },
+      "summed_request_seconds": 12.84,
+      "mean_attempt_seconds": 1.605,
+      "reference_chars_min": 3221,
+      "reference_chars_max": 4818
+    },
+    "record_hybrid": {
+      "successful": 8,
+      "usage": {
+        "prompt_tokens": 57643,
+        "total_tokens": 57975,
+        "completion_tokens": 332
+      },
+      "summed_request_seconds": 19.145,
+      "mean_attempt_seconds": 2.393,
+      "reference_chars_min": 9145,
+      "reference_chars_max": 23733
+    },
+    "graph_hybrid": {
+      "successful": 8,
+      "usage": {
+        "prompt_tokens": 57877,
+        "total_tokens": 58210,
+        "completion_tokens": 333
+      },
+      "summed_request_seconds": 18.162,
+      "mean_attempt_seconds": 2.27,
+      "reference_chars_min": 9145,
+      "reference_chars_max": 23793
+    }
+  },
+  "quality_scores": "not assigned; independent review pending",
+  "protocol_sha256": "ede061c7c3416bd71a661bfdb8e891121f5fce8736304157c8eb13914f5bdb96",
+  "outputs_sha256": "81259007bdb48c6d02916a551e01ac1077335855a6605fef692066cc9d5392d5",
+  "retrieval_sha256": "f9abd995ae9bc4fe45515f2b7c0dfa5b96dfe2052faee9f12194c122f69ecfd1",
+  "interpretation": "Diagnostic outputs do not establish a quality gain. No-expansion identical-request differences show seed is not an absolute reproducibility guarantee."
+}

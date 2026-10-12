@@ -1335,7 +1335,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1369,7 +1372,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1403,7 +1409,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1784,7 +1793,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1818,7 +1830,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [

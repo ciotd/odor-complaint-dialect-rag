@@ -1,0 +1,2749 @@
+{
+  "source_ids": [
+    "JO2018"
+  ],
+  "gap_dispositions": [
+    {
+      "source_id": "JO2018",
+      "pdf_page": 21,
+      "status": "resolved",
+      "reason": "표1 전체 14 연구자 행의 지역·분류명·높임등급·문장종결법·개수를 원본 대조하여 구조화. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0406",
+        "JO2018:v2:gap_review:0407",
+        "JO2018:v2:gap_review:0408",
+        "JO2018:v2:gap_review:0409",
+        "JO2018:v2:gap_review:0410",
+        "JO2018:v2:gap_review:0411",
+        "JO2018:v2:gap_review:0412",
+        "JO2018:v2:gap_review:0413",
+        "JO2018:v2:gap_review:0414",
+        "JO2018:v2:gap_review:0415",
+        "JO2018:v2:gap_review:0416",
+        "JO2018:v2:gap_review:0417",
+        "JO2018:v2:gap_review:0418",
+        "JO2018:v2:gap_review:0419"
+      ],
+      "original_gaps": [
+        "연구사 비교표의 모든 학자별 셀을 독립 분류 주장으로 분해하지 않음. 원문 표 보존."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 21,
+          "table_number": null,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 23,
+      "status": "resolved",
+      "reason": "표2의 11 연구자 행 전체를 대조·구조화. 김성주(1996)의 옛한글은 원 추출 부호를 보존하고 p61의1704년 자료 범위와 연결. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0420",
+        "JO2018:v2:gap_review:0421",
+        "JO2018:v2:gap_review:0422",
+        "JO2018:v2:gap_review:0423",
+        "JO2018:v2:gap_review:0424",
+        "JO2018:v2:gap_review:0425",
+        "JO2018:v2:gap_review:0426",
+        "JO2018:v2:gap_review:0427",
+        "JO2018:v2:gap_review:0428",
+        "JO2018:v2:gap_review:0429",
+        "JO2018:v2:gap_review:0430"
+      ],
+      "original_gaps": [
+        "연구사 비교표의 모든 학자별 셀을 독립 분류 주장으로 분해하지 않음. 원문 표 보존."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 23,
+          "table_number": null,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 31,
+      "status": "source_limitation",
+      "reason": "예1의 구술 표현 및 예2ㄱ 나흘 한글 변이4종을 추출. 전사와 실제 발음의 불일치 보존. 원본 이미지를 별도 교차 검토하여 23개 지역의 원문 음성기호열과 복수형을 모두 지역별로 구조화. 기호를 현대 IPA/한글 음가로 임의 치환하지 않음. 지역별 기호열은 모두 구조화했으나 Ǝ 등 특수기호의 현대 IPA 환산 및 # 범례 해석은 재인용 원전 범례 없이 미확정. 실제 원음성의 장단·성조를 이 표로 검증할 수 없음.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0479",
+        "JO2018:v2:gap_review:0480",
+        "JO2018:v2:gap_review:0481",
+        "JO2018:v2:gap_review:0482",
+        "JO2018:v2:gap_review:0491",
+        "JO2018:v2:gap_review:0492",
+        "JO2018:v2:gap_review:0599"
+      ],
+      "original_gaps": [
+        "긴 예문의 모든 어휘·음성·활용을 완전 분해하지 않음; 이 구간은 연구 범위·분류 논증을 우선 기록."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 31,
+          "table_number": null,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 32,
+      "status": "source_limitation",
+      "reason": "예2ㄴ 고드름 한글 변이8종과 전사 한계·음성 검증 조건을 보존. 원본 이미지를 별도 교차 검토하여 23개 지역의 원문 음성기호열과 복수형을 모두 지역별로 구조화. 기호를 현대 IPA/한글 음가로 임의 치환하지 않음. 지역별 기호열은 모두 구조화했으나 Ǝ 등 특수기호의 현대 IPA 환산 및 # 범례 해석은 재인용 원전 범례 없이 미확정. 실제 원음성의 장단·성조를 이 표로 검증할 수 없음.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0483",
+        "JO2018:v2:gap_review:0484",
+        "JO2018:v2:gap_review:0485",
+        "JO2018:v2:gap_review:0486",
+        "JO2018:v2:gap_review:0487",
+        "JO2018:v2:gap_review:0488",
+        "JO2018:v2:gap_review:0489",
+        "JO2018:v2:gap_review:0490",
+        "JO2018:v2:gap_review:0493",
+        "JO2018:v2:gap_review:0600"
+      ],
+      "original_gaps": [
+        "긴 예문의 모든 어휘·음성·활용을 완전 분해하지 않음; 이 구간은 연구 범위·분류 논증을 우선 기록."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 32,
+          "table_number": null,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 33,
+      "status": "resolved",
+      "reason": "예3ㄱ~ㄹ 원문/표준어 대역4쌍을 실제 인쇄대로 추출; 티롱의 장소/물건 문맥 예4도 보존. IPA는 독립 생성 규칙으로 변환하지 않음. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0494",
+        "JO2018:v2:gap_review:0495",
+        "JO2018:v2:gap_review:0496",
+        "JO2018:v2:gap_review:0497",
+        "JO2018:v2:gap_review:0498",
+        "JO2018:v2:gap_review:0499"
+      ],
+      "original_gaps": [
+        "긴 예문의 모든 어휘·음성·활용을 완전 분해하지 않음; 이 구간은 연구 범위·분류 논증을 우선 기록."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 33,
+          "table_number": null,
+          "image_checked": false
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 36,
+      "status": "resolved",
+      "reason": "예6의 인용 등장인물 발화와 서사 연결을 발화 단위 참고 사실로 구조화. -는가/-요/-ㅂ니더/-까요/-노/-ㅂ디더가 쓰이는 상대와 기능을 구분. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0500",
+        "JO2018:v2:gap_review:0501",
+        "JO2018:v2:gap_review:0502",
+        "JO2018:v2:gap_review:0503",
+        "JO2018:v2:gap_review:0504",
+        "JO2018:v2:gap_review:0505",
+        "JO2018:v2:gap_review:0506",
+        "JO2018:v2:gap_review:0507",
+        "JO2018:v2:gap_review:0508",
+        "JO2018:v2:gap_review:0509",
+        "JO2018:v2:gap_review:0510"
+      ],
+      "original_gaps": [
+        "긴 예문의 모든 어휘·음성·활용을 완전 분해하지 않음; 이 구간은 연구 범위·분류 논증을 우선 기록."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 36,
+          "table_number": null,
+          "image_checked": false
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 37,
+      "status": "resolved",
+      "reason": "예6의 누우시소/보까와 예7 인자·그래의 담화 연속 전체 구술을 보존. 원문에 없는 낱말 번역은 부가하지 않음. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0511",
+        "JO2018:v2:gap_review:0512",
+        "JO2018:v2:gap_review:0513",
+        "JO2018:v2:gap_review:0514",
+        "JO2018:v2:gap_review:0515",
+        "JO2018:v2:gap_review:0516",
+        "JO2018:v2:gap_review:0585"
+      ],
+      "original_gaps": [
+        "긴 예문의 모든 어휘·음성·활용을 완전 분해하지 않음; 이 구간은 연구 범위·분류 논증을 우선 기록."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 37,
+          "table_number": null,
+          "image_checked": false
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 44,
+      "status": "resolved",
+      "reason": "표3 모든 연구논저별 3~8종류 분류와 하위 괄호 범주를 개별 참고 사실로 보존. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0431",
+        "JO2018:v2:gap_review:0432",
+        "JO2018:v2:gap_review:0433",
+        "JO2018:v2:gap_review:0434",
+        "JO2018:v2:gap_review:0435",
+        "JO2018:v2:gap_review:0436",
+        "JO2018:v2:gap_review:0437",
+        "JO2018:v2:gap_review:0438",
+        "JO2018:v2:gap_review:0439",
+        "JO2018:v2:gap_review:0440",
+        "JO2018:v2:gap_review:0441",
+        "JO2018:v2:gap_review:0442",
+        "JO2018:v2:gap_review:0443",
+        "JO2018:v2:gap_review:0444"
+      ],
+      "original_gaps": [
+        "연구사 비교표의 모든 학자별 셀을 독립 분류 주장으로 분해하지 않음. 원문 표 보존."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 44,
+          "table_number": null,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 47,
+      "status": "source_limitation",
+      "reason": "표5의19 형태별 높임등급과 감탄·서술·의문·명령·청유 중첩 모든 표시를 직접 확인. p48 본문은 비격식 모든 형태에서 의문 중첩이라 하나 표5 -군의 의문 칸은 빈칸. 표와 본문을 합쳐 일률 일반화하지 않음.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0460",
+        "JO2018:v2:gap_review:0461",
+        "JO2018:v2:gap_review:0462",
+        "JO2018:v2:gap_review:0463",
+        "JO2018:v2:gap_review:0464",
+        "JO2018:v2:gap_review:0465",
+        "JO2018:v2:gap_review:0466",
+        "JO2018:v2:gap_review:0467",
+        "JO2018:v2:gap_review:0468",
+        "JO2018:v2:gap_review:0469",
+        "JO2018:v2:gap_review:0470",
+        "JO2018:v2:gap_review:0471",
+        "JO2018:v2:gap_review:0472",
+        "JO2018:v2:gap_review:0473",
+        "JO2018:v2:gap_review:0474",
+        "JO2018:v2:gap_review:0475",
+        "JO2018:v2:gap_review:0476",
+        "JO2018:v2:gap_review:0477",
+        "JO2018:v2:gap_review:0478"
+      ],
+      "original_gaps": [
+        "연구사 비교표의 모든 학자별 셀을 독립 분류 주장으로 분해하지 않음. 원문 표 보존."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 47,
+          "table_number": null,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 48,
+      "status": "resolved",
+      "reason": "예8ㄱ~ㅂ 전체 핵심 발화를 각각 참고 사실로 보존. 서술·지시·공동 제안과 -것일세 분석의 추정성을 구분. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0517",
+        "JO2018:v2:gap_review:0518",
+        "JO2018:v2:gap_review:0519",
+        "JO2018:v2:gap_review:0520",
+        "JO2018:v2:gap_review:0521",
+        "JO2018:v2:gap_review:0522"
+      ],
+      "original_gaps": [
+        "긴 예문의 모든 어휘·음성·활용을 완전 분해하지 않음; 이 구간은 연구 범위·분류 논증을 우선 기록."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 48,
+          "table_number": null,
+          "image_checked": false
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 49,
+      "status": "resolved",
+      "reason": "예9ㄱ~ㅂ의 네요·데예·여 서술/의문 대조6건을 지역과 함께 보존. 동일 형태의 감탄 여부는 맥락 없이 확정하지 않음. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0523",
+        "JO2018:v2:gap_review:0524",
+        "JO2018:v2:gap_review:0525",
+        "JO2018:v2:gap_review:0526",
+        "JO2018:v2:gap_review:0527",
+        "JO2018:v2:gap_review:0528"
+      ],
+      "original_gaps": [
+        "긴 예문의 모든 어휘·음성·활용을 완전 분해하지 않음; 이 구간은 연구 범위·분류 논증을 우선 기록."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 49,
+          "table_number": null,
+          "image_checked": false
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 53,
+      "status": "resolved",
+      "reason": "예10ㄹ~ㅂ 및 예11ㄱ~ㅂ의 친족·선생님·다수 청중 관계와 격식/비격식 혼용을 구체 발화로 보존. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0529",
+        "JO2018:v2:gap_review:0530",
+        "JO2018:v2:gap_review:0531",
+        "JO2018:v2:gap_review:0532",
+        "JO2018:v2:gap_review:0533",
+        "JO2018:v2:gap_review:0534",
+        "JO2018:v2:gap_review:0535",
+        "JO2018:v2:gap_review:0536",
+        "JO2018:v2:gap_review:0537"
+      ],
+      "original_gaps": [
+        "긴 예문의 모든 어휘·음성·활용을 완전 분해하지 않음; 이 구간은 연구 범위·분류 논증을 우선 기록."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 53,
+          "table_number": null,
+          "image_checked": false
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 57,
+      "status": "resolved",
+      "reason": "예14ㄱ~ㅅ과 각주47의 -여 품사·높임 분석 이견을 연구자 소유 주장으로 구조화. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0538",
+        "JO2018:v2:gap_review:0539",
+        "JO2018:v2:gap_review:0540",
+        "JO2018:v2:gap_review:0541",
+        "JO2018:v2:gap_review:0542",
+        "JO2018:v2:gap_review:0543",
+        "JO2018:v2:gap_review:0544",
+        "JO2018:v2:gap_review:0586",
+        "JO2018:v2:gap_review:0587"
+      ],
+      "original_gaps": [
+        "긴 예문의 모든 어휘·음성·활용을 완전 분해하지 않음; 이 구간은 연구 범위·분류 논증을 우선 기록."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 57,
+          "table_number": null,
+          "image_checked": false
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 60,
+      "status": "source_limitation",
+      "reason": "표9 전체15 연구자 행을 이미지 대조·구조화. 표9 이기갑(2003)은 예사높임, 표1은 예사낮춤으로 인쇄되어 있다. 재인용 원전 미확인 상태에서 하나를 정정하지 않음.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0445",
+        "JO2018:v2:gap_review:0446",
+        "JO2018:v2:gap_review:0447",
+        "JO2018:v2:gap_review:0448",
+        "JO2018:v2:gap_review:0449",
+        "JO2018:v2:gap_review:0450",
+        "JO2018:v2:gap_review:0451",
+        "JO2018:v2:gap_review:0452",
+        "JO2018:v2:gap_review:0453",
+        "JO2018:v2:gap_review:0454",
+        "JO2018:v2:gap_review:0455",
+        "JO2018:v2:gap_review:0456",
+        "JO2018:v2:gap_review:0457",
+        "JO2018:v2:gap_review:0458",
+        "JO2018:v2:gap_review:0459"
+      ],
+      "original_gaps": [
+        "연구사 비교표의 모든 학자별 셀을 독립 분류 주장으로 분해하지 않음. 원문 표 보존."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 60,
+          "table_number": null,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 61,
+      "status": "resolved",
+      "reason": "예15ㄱㄴ의 가입시더와 높임 상대, 김성주의1704년 자료를 보존. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0545",
+        "JO2018:v2:gap_review:0546",
+        "JO2018:v2:gap_review:0588"
+      ],
+      "original_gaps": [
+        "긴 예문의 모든 어휘·음성·활용을 완전 분해하지 않음; 이 구간은 연구 범위·분류 논증을 우선 기록."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 61,
+          "table_number": null,
+          "image_checked": false
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 62,
+      "status": "resolved",
+      "reason": "예15ㄷ~ㅂ과 예16ㄱㄴ의 구술/이혁화 재인용 대조를 분리해 보존. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0547",
+        "JO2018:v2:gap_review:0548",
+        "JO2018:v2:gap_review:0549",
+        "JO2018:v2:gap_review:0550",
+        "JO2018:v2:gap_review:0551",
+        "JO2018:v2:gap_review:0552",
+        "JO2018:v2:gap_review:0553",
+        "JO2018:v2:gap_review:0554"
+      ],
+      "original_gaps": [
+        "긴 예문의 모든 어휘·음성·활용을 완전 분해하지 않음; 이 구간은 연구 범위·분류 논증을 우선 기록."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 62,
+          "table_number": null,
+          "image_checked": false
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 63,
+      "status": "resolved",
+      "reason": "예16ㄷㄹ의 이혁화 재인용 명령/청유 및 예17ㄱ~ㄹ의 동일 아버지 대상 형태 혼용을 구체화. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0555",
+        "JO2018:v2:gap_review:0556",
+        "JO2018:v2:gap_review:0557",
+        "JO2018:v2:gap_review:0558",
+        "JO2018:v2:gap_review:0559",
+        "JO2018:v2:gap_review:0560",
+        "JO2018:v2:gap_review:0561",
+        "JO2018:v2:gap_review:0562"
+      ],
+      "original_gaps": [
+        "긴 예문의 모든 어휘·음성·활용을 완전 분해하지 않음; 이 구간은 연구 범위·분류 논증을 우선 기록."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 63,
+          "table_number": null,
+          "image_checked": false
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 65,
+      "status": "resolved",
+      "reason": "예18ㄱ~ㅂ의 청자 관계와 표10 전체 가다 패러다임을 보존; 빈칸은 중간 분석 단계임을 명시. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0563",
+        "JO2018:v2:gap_review:0564",
+        "JO2018:v2:gap_review:0565",
+        "JO2018:v2:gap_review:0566",
+        "JO2018:v2:gap_review:0567",
+        "JO2018:v2:gap_review:0568",
+        "JO2018:v2:gap_review:0589",
+        "JO2018:v2:gap_review:0590",
+        "JO2018:v2:gap_review:0591",
+        "JO2018:v2:gap_review:0592"
+      ],
+      "original_gaps": [
+        "긴 예문의 모든 어휘·음성·활용을 완전 분해하지 않음; 이 구간은 연구 범위·분류 논증을 우선 기록."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 65,
+          "table_number": null,
+          "image_checked": false
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 66,
+      "status": "resolved",
+      "reason": "예19ㄱ~ㅂ의 실제 높임형과 각주55의 는교 등급 변화 가설을 분리 보존. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0569",
+        "JO2018:v2:gap_review:0570",
+        "JO2018:v2:gap_review:0571",
+        "JO2018:v2:gap_review:0572",
+        "JO2018:v2:gap_review:0573",
+        "JO2018:v2:gap_review:0574",
+        "JO2018:v2:gap_review:0593"
+      ],
+      "original_gaps": [
+        "긴 예문의 모든 어휘·음성·활용을 완전 분해하지 않음; 이 구간은 연구 범위·분류 논증을 우선 기록."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 66,
+          "table_number": null,
+          "image_checked": false
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 68,
+      "status": "resolved",
+      "reason": "예20ㄱㄴ 및 하게체 높임 판정의5연구자별 근거를 구분·구조화. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0575",
+        "JO2018:v2:gap_review:0576",
+        "JO2018:v2:gap_review:0594",
+        "JO2018:v2:gap_review:0595",
+        "JO2018:v2:gap_review:0596",
+        "JO2018:v2:gap_review:0597",
+        "JO2018:v2:gap_review:0598"
+      ],
+      "original_gaps": [
+        "긴 예문의 모든 어휘·음성·활용을 완전 분해하지 않음; 이 구간은 연구 범위·분류 논증을 우선 기록."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 68,
+          "table_number": null,
+          "image_checked": false
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 69,
+      "status": "resolved",
+      "reason": "예20ㄷ~ㅂ 및 예21ㄱ~ㄹ의 호칭·종결형 혼용을 실제 발화 단위로 보존. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0577",
+        "JO2018:v2:gap_review:0578",
+        "JO2018:v2:gap_review:0579",
+        "JO2018:v2:gap_review:0580",
+        "JO2018:v2:gap_review:0581",
+        "JO2018:v2:gap_review:0582",
+        "JO2018:v2:gap_review:0583",
+        "JO2018:v2:gap_review:0584"
+      ],
+      "original_gaps": [
+        "긴 예문의 모든 어휘·음성·활용을 완전 분해하지 않음; 이 구간은 연구 범위·분류 논증을 우선 기록."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 69,
+          "table_number": null,
+          "image_checked": false
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 81,
+      "status": "source_limitation",
+      "reason": "표 14 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화. 원본 표14 자체의 합계 불일치: 니더 두 행 합1880/소계1888, 니다행5946+236/소계6183, 디다행161+8/소계176, (옵)나이다행7/소계176. 원자료 집계 없이는 정정 불가.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0001",
+        "JO2018:v2:gap_review:0002",
+        "JO2018:v2:gap_review:0003",
+        "JO2018:v2:gap_review:0004",
+        "JO2018:v2:gap_review:0005",
+        "JO2018:v2:gap_review:0006",
+        "JO2018:v2:gap_review:0007",
+        "JO2018:v2:gap_review:0008",
+        "JO2018:v2:gap_review:0009",
+        "JO2018:v2:gap_review:0010",
+        "JO2018:v2:gap_review:0011",
+        "JO2018:v2:gap_review:0012",
+        "JO2018:v2:gap_review:0013",
+        "JO2018:v2:gap_review:0014",
+        "JO2018:v2:gap_review:0015",
+        "JO2018:v2:gap_review:0016",
+        "JO2018:v2:gap_review:0017",
+        "JO2018:v2:gap_review:0018"
+      ],
+      "original_gaps": [
+        "지역별 빈도표의 모든 숫자를 구조화하지 않음. 표본 분량 불균등 및 추출 숫자·합계의 불확실성을 보존."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 81,
+          "table_number": 14,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 96,
+      "status": "source_limitation",
+      "reason": "표 16 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화. 표16 유형 칸은 구마·구매까지 표준형으로 합쳐 표시하지만 본문은 구마를 방언형이라 함. 본문의 성주 중심 일반화와 표의 군위97·성주9 차이를 보존.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0019",
+        "JO2018:v2:gap_review:0020",
+        "JO2018:v2:gap_review:0021",
+        "JO2018:v2:gap_review:0022"
+      ],
+      "original_gaps": [
+        "지역별 빈도표의 모든 숫자를 구조화하지 않음. 표본 분량 불균등 및 추출 숫자·합계의 불확실성을 보존."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 96,
+          "table_number": 16,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 102,
+      "status": "source_limitation",
+      "reason": "표 18 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화. 표18 -ㅅ세 경주 셀은 빈칸. 군위1·영덕1도 있는데 본문은 안동·예천·봉화에서만 발견된다고 서술. 배타 지역 규칙으로 쓸 수 없음.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0023",
+        "JO2018:v2:gap_review:0024",
+        "JO2018:v2:gap_review:0025",
+        "JO2018:v2:gap_review:0026",
+        "JO2018:v2:gap_review:0027",
+        "JO2018:v2:gap_review:0028",
+        "JO2018:v2:gap_review:0029",
+        "JO2018:v2:gap_review:0030"
+      ],
+      "original_gaps": [
+        "지역별 빈도표의 모든 숫자를 구조화하지 않음. 표본 분량 불균등 및 추출 숫자·합계의 불확실성을 보존."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 102,
+          "table_number": 18,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 111,
+      "status": "source_limitation",
+      "reason": "표 20 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화. 표20 -꾸마 인쇄 행합163/소계164 불일치. 지역 셀 합은163이므로 소계를 자동 정정하지 않고 두 값을 보존.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0031",
+        "JO2018:v2:gap_review:0032",
+        "JO2018:v2:gap_review:0033",
+        "JO2018:v2:gap_review:0034",
+        "JO2018:v2:gap_review:0035",
+        "JO2018:v2:gap_review:0036",
+        "JO2018:v2:gap_review:0037",
+        "JO2018:v2:gap_review:0038",
+        "JO2018:v2:gap_review:0039",
+        "JO2018:v2:gap_review:0040"
+      ],
+      "original_gaps": [
+        "지역별 빈도표의 모든 숫자를 구조화하지 않음. 표본 분량 불균등 및 추출 숫자·합계의 불확실성을 보존."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 111,
+          "table_number": 20,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 121,
+      "status": "source_limitation",
+      "reason": "표 22 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화. 표22 -ㅂ니껴 구미2도 있으므로 본문의 남서부 비관찰을 껴 계열 전체 금지로 일반화 불가.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0041",
+        "JO2018:v2:gap_review:0042",
+        "JO2018:v2:gap_review:0043",
+        "JO2018:v2:gap_review:0044",
+        "JO2018:v2:gap_review:0045",
+        "JO2018:v2:gap_review:0046",
+        "JO2018:v2:gap_review:0047",
+        "JO2018:v2:gap_review:0048",
+        "JO2018:v2:gap_review:0049",
+        "JO2018:v2:gap_review:0050",
+        "JO2018:v2:gap_review:0051",
+        "JO2018:v2:gap_review:0052",
+        "JO2018:v2:gap_review:0053",
+        "JO2018:v2:gap_review:0054"
+      ],
+      "original_gaps": [
+        "지역별 빈도표의 전체 수치를 구조화하지 않음. 원문 표·본문 불일치 및 추출 숫자 분리 문제를 보존."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 121,
+          "table_number": 22,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 129,
+      "status": "source_limitation",
+      "reason": "표 24 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화. 표24 -소 지역 셀 합355와 인쇄 행합·소계357 불일치. PDF 원본에서도 동일하여 원자료 없이는 정정 불가.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0055",
+        "JO2018:v2:gap_review:0056",
+        "JO2018:v2:gap_review:0057",
+        "JO2018:v2:gap_review:0058",
+        "JO2018:v2:gap_review:0059",
+        "JO2018:v2:gap_review:0060",
+        "JO2018:v2:gap_review:0061",
+        "JO2018:v2:gap_review:0062"
+      ],
+      "original_gaps": [
+        "지역별 빈도표의 전체 수치를 구조화하지 않음. 원문 표·본문 불일치 및 추출 숫자 분리 문제를 보존."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 129,
+          "table_number": 24,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 135,
+      "status": "source_limitation",
+      "reason": "표 26 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화. 표26 인쇄 행합은 지역 합에서 봉화 값을 빠뜨린 양상(-ㄴ가525/지역합645, -는게26/소계34 등). 원본 수치를 임의 정정하지 않음.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0063",
+        "JO2018:v2:gap_review:0064",
+        "JO2018:v2:gap_review:0065",
+        "JO2018:v2:gap_review:0066",
+        "JO2018:v2:gap_review:0067",
+        "JO2018:v2:gap_review:0068"
+      ],
+      "original_gaps": [
+        "지역별 빈도표의 전체 수치를 구조화하지 않음. 원문 표·본문 불일치 및 추출 숫자 분리 문제를 보존."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 135,
+          "table_number": 26,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 141,
+      "status": "source_limitation",
+      "reason": "표 28 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화. 표28 인쇄 행합과 소계·지역 합계 불일치는 PDF 원본에도 존재. 누락 추정으로 행합을 고치지 않음.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0069",
+        "JO2018:v2:gap_review:0070",
+        "JO2018:v2:gap_review:0071",
+        "JO2018:v2:gap_review:0072",
+        "JO2018:v2:gap_review:0073",
+        "JO2018:v2:gap_review:0074",
+        "JO2018:v2:gap_review:0075",
+        "JO2018:v2:gap_review:0076",
+        "JO2018:v2:gap_review:0077",
+        "JO2018:v2:gap_review:0078",
+        "JO2018:v2:gap_review:0079",
+        "JO2018:v2:gap_review:0080",
+        "JO2018:v2:gap_review:0081",
+        "JO2018:v2:gap_review:0082"
+      ],
+      "original_gaps": [
+        "지역별 빈도표의 전체 수치를 구조화하지 않음. 원문 표·본문 불일치 및 추출 숫자 분리 문제를 보존."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 141,
+          "table_number": 28,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 142,
+      "status": "source_limitation",
+      "reason": "표 28 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화. 표28 계속: -로/-ㄹ로 소계200은 행합210+33 및 지역합233+38과 모두 불일치. -냐 행2207/소계2315. 원자료 없이는 확정 총수 정정 불가.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0077",
+        "JO2018:v2:gap_review:0078",
+        "JO2018:v2:gap_review:0079",
+        "JO2018:v2:gap_review:0080",
+        "JO2018:v2:gap_review:0081",
+        "JO2018:v2:gap_review:0082",
+        "JO2018:v2:gap_review:0083"
+      ],
+      "original_gaps": [
+        "지역별 빈도표의 전체 수치를 구조화하지 않음. 원문 표·본문 불일치 및 추출 숫자 분리 문제를 보존."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 142,
+          "table_number": 28,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 150,
+      "status": "source_limitation",
+      "reason": "표 30 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화. 표30 방언형 행합1028+124와 소계2598 불일치. 원본도 같은 수치이므로 추출오류로 취급하지 않음.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0084",
+        "JO2018:v2:gap_review:0085",
+        "JO2018:v2:gap_review:0086",
+        "JO2018:v2:gap_review:0087",
+        "JO2018:v2:gap_review:0088"
+      ],
+      "original_gaps": [
+        "분포표의 전체 수치 미구조화. 원문의 합계·표기와 본문 일반화가 충돌하는 곳은 확정 제약으로 쓰지 않음."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 150,
+          "table_number": 30,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 157,
+      "status": "source_limitation",
+      "reason": "표 32 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화. 표32 두 행1440+6과 소계2598 불일치.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0089",
+        "JO2018:v2:gap_review:0090",
+        "JO2018:v2:gap_review:0091"
+      ],
+      "original_gaps": [
+        "분포표의 전체 수치 미구조화. 원문의 합계·표기와 본문 일반화가 충돌하는 곳은 확정 제약으로 쓰지 않음."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 157,
+          "table_number": 32,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 160,
+      "status": "resolved",
+      "reason": "표 34 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0092",
+        "JO2018:v2:gap_review:0093",
+        "JO2018:v2:gap_review:0094",
+        "JO2018:v2:gap_review:0095",
+        "JO2018:v2:gap_review:0096"
+      ],
+      "original_gaps": [
+        "분포표의 전체 수치 미구조화. 원문의 합계·표기와 본문 일반화가 충돌하는 곳은 확정 제약으로 쓰지 않음."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 160,
+          "table_number": 34,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 164,
+      "status": "resolved",
+      "reason": "표 36 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0097",
+        "JO2018:v2:gap_review:0098",
+        "JO2018:v2:gap_review:0099",
+        "JO2018:v2:gap_review:0100",
+        "JO2018:v2:gap_review:0101",
+        "JO2018:v2:gap_review:0102",
+        "JO2018:v2:gap_review:0103",
+        "JO2018:v2:gap_review:0104",
+        "JO2018:v2:gap_review:0105",
+        "JO2018:v2:gap_review:0106",
+        "JO2018:v2:gap_review:0107",
+        "JO2018:v2:gap_review:0108",
+        "JO2018:v2:gap_review:0109",
+        "JO2018:v2:gap_review:0110",
+        "JO2018:v2:gap_review:0111",
+        "JO2018:v2:gap_review:0112",
+        "JO2018:v2:gap_review:0113",
+        "JO2018:v2:gap_review:0114"
+      ],
+      "original_gaps": [
+        "분포표의 전체 수치 미구조화. 원문의 합계·표기와 본문 일반화가 충돌하는 곳은 확정 제약으로 쓰지 않음."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 164,
+          "table_number": 36,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 165,
+      "status": "source_limitation",
+      "reason": "표 36 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화. 본문은 -느라가 서부 미출현이라 하나 표36 구미1·달성1이 있고 예117ㅂ도 구미. 해당 배제 일반화 확정 불가.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0104",
+        "JO2018:v2:gap_review:0105",
+        "JO2018:v2:gap_review:0106",
+        "JO2018:v2:gap_review:0107",
+        "JO2018:v2:gap_review:0108",
+        "JO2018:v2:gap_review:0109",
+        "JO2018:v2:gap_review:0110",
+        "JO2018:v2:gap_review:0111",
+        "JO2018:v2:gap_review:0112",
+        "JO2018:v2:gap_review:0113",
+        "JO2018:v2:gap_review:0114",
+        "JO2018:v2:gap_review:0115"
+      ],
+      "original_gaps": [
+        "분포표의 전체 수치 미구조화. 원문의 합계·표기와 본문 일반화가 충돌하는 곳은 확정 제약으로 쓰지 않음."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 165,
+          "table_number": 36,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 172,
+      "status": "resolved",
+      "reason": "표 38 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0116",
+        "JO2018:v2:gap_review:0117",
+        "JO2018:v2:gap_review:0118",
+        "JO2018:v2:gap_review:0119"
+      ],
+      "original_gaps": [
+        "지역별 빈도표의 모든 숫자는 미구조화. 분포의 본문 요약과 표의 상이한 표현을 보존."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 172,
+          "table_number": 38,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 177,
+      "status": "source_limitation",
+      "reason": "표 40 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화. 표40 -ㅂ시다 지역합663/행합663이나 소계712. 원자료가 없어 소계 오류 여부 확정 불가.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0120",
+        "JO2018:v2:gap_review:0121",
+        "JO2018:v2:gap_review:0122",
+        "JO2018:v2:gap_review:0123",
+        "JO2018:v2:gap_review:0124"
+      ],
+      "original_gaps": [
+        "지역별 빈도표의 모든 숫자는 미구조화. 분포의 본문 요약과 표의 상이한 표현을 보존."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 177,
+          "table_number": 40,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 185,
+      "status": "resolved",
+      "reason": "표 42 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0125",
+        "JO2018:v2:gap_review:0126"
+      ],
+      "original_gaps": [
+        "지역별 빈도표의 모든 숫자는 미구조화. 분포의 본문 요약과 표의 상이한 표현을 보존."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 185,
+          "table_number": 42,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 189,
+      "status": "source_limitation",
+      "reason": "표 44 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화. 표44는 -제만 별도 행으로 집계하며 본문·예149ㄹㅁ의 -제이/-재이 별도 빈도는 제공하지 않음. -제 합계에 포함 여부 미상.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0127",
+        "JO2018:v2:gap_review:0128",
+        "JO2018:v2:gap_review:0129"
+      ],
+      "original_gaps": [
+        "지역별 빈도표의 모든 숫자는 미구조화. 분포의 본문 요약과 표의 상이한 표현을 보존."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 189,
+          "table_number": 44,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 195,
+      "status": "source_limitation",
+      "reason": "표 46 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화. 표46 -래이 지역합2943/행합2938/소계2943, -ㄴ데 지역합8320/행합7893(봉화427 차이) 불일치. -제이 구미1 이외 셀·행합은 빈칸. -래/-래이 표기와 이어지는 분포 서술도 불일치하여 임의 수정하지 않음.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0130",
+        "JO2018:v2:gap_review:0131",
+        "JO2018:v2:gap_review:0132",
+        "JO2018:v2:gap_review:0133",
+        "JO2018:v2:gap_review:0134",
+        "JO2018:v2:gap_review:0135",
+        "JO2018:v2:gap_review:0136",
+        "JO2018:v2:gap_review:0137",
+        "JO2018:v2:gap_review:0138",
+        "JO2018:v2:gap_review:0139",
+        "JO2018:v2:gap_review:0140",
+        "JO2018:v2:gap_review:0141"
+      ],
+      "original_gaps": [
+        "분포표의 모든 수치 미구조화. 표와 본문의 어형·지역·합계 불일치가 있으며 원문을 참조."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 195,
+          "table_number": 46,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 203,
+      "status": "resolved",
+      "reason": "표 48 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0142",
+        "JO2018:v2:gap_review:0143",
+        "JO2018:v2:gap_review:0144",
+        "JO2018:v2:gap_review:0145",
+        "JO2018:v2:gap_review:0146",
+        "JO2018:v2:gap_review:0147",
+        "JO2018:v2:gap_review:0148",
+        "JO2018:v2:gap_review:0149",
+        "JO2018:v2:gap_review:0150",
+        "JO2018:v2:gap_review:0151",
+        "JO2018:v2:gap_review:0152",
+        "JO2018:v2:gap_review:0153",
+        "JO2018:v2:gap_review:0154",
+        "JO2018:v2:gap_review:0155",
+        "JO2018:v2:gap_review:0156",
+        "JO2018:v2:gap_review:0157",
+        "JO2018:v2:gap_review:0158",
+        "JO2018:v2:gap_review:0159",
+        "JO2018:v2:gap_review:0160",
+        "JO2018:v2:gap_review:0161",
+        "JO2018:v2:gap_review:0162",
+        "JO2018:v2:gap_review:0163",
+        "JO2018:v2:gap_review:0164",
+        "JO2018:v2:gap_review:0165",
+        "JO2018:v2:gap_review:0166"
+      ],
+      "original_gaps": [
+        "분포표의 모든 수치 미구조화. 표와 본문의 어형·지역·합계 불일치가 있으며 원문을 참조."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 203,
+          "table_number": 48,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 204,
+      "status": "source_limitation",
+      "reason": "표 48 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화. 표48 해요체 인쇄 소계11776은 행합 합산과 일치하지 않음. 인쇄값 보존; 현재 발화빈도나 비율로 사용 불가.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0149",
+        "JO2018:v2:gap_review:0150",
+        "JO2018:v2:gap_review:0151",
+        "JO2018:v2:gap_review:0152",
+        "JO2018:v2:gap_review:0153",
+        "JO2018:v2:gap_review:0154",
+        "JO2018:v2:gap_review:0155",
+        "JO2018:v2:gap_review:0156",
+        "JO2018:v2:gap_review:0157",
+        "JO2018:v2:gap_review:0158",
+        "JO2018:v2:gap_review:0159",
+        "JO2018:v2:gap_review:0160",
+        "JO2018:v2:gap_review:0161",
+        "JO2018:v2:gap_review:0162",
+        "JO2018:v2:gap_review:0163",
+        "JO2018:v2:gap_review:0164",
+        "JO2018:v2:gap_review:0165",
+        "JO2018:v2:gap_review:0166",
+        "JO2018:v2:gap_review:0167"
+      ],
+      "original_gaps": [
+        "분포표의 모든 수치 미구조화. 표와 본문의 어형·지역·합계 불일치가 있으며 원문을 참조."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 204,
+          "table_number": 48,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 208,
+      "status": "resolved",
+      "reason": "표 50 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0168",
+        "JO2018:v2:gap_review:0169",
+        "JO2018:v2:gap_review:0170",
+        "JO2018:v2:gap_review:0171",
+        "JO2018:v2:gap_review:0172",
+        "JO2018:v2:gap_review:0173",
+        "JO2018:v2:gap_review:0174",
+        "JO2018:v2:gap_review:0175",
+        "JO2018:v2:gap_review:0176"
+      ],
+      "original_gaps": [
+        "분포표의 모든 수치 미구조화. 표와 본문의 어형·지역·합계 불일치가 있으며 원문을 참조."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 208,
+          "table_number": 50,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 209,
+      "status": "source_limitation",
+      "reason": "표 50 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화. 본문의 -께 상주·예천 및 -지러 경주 실현은 배타적 분포가 아님. 표50 -께는 여러 지역에서 관찰, -지러 군위·영덕·안동도 관찰.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0171",
+        "JO2018:v2:gap_review:0172",
+        "JO2018:v2:gap_review:0173",
+        "JO2018:v2:gap_review:0174",
+        "JO2018:v2:gap_review:0175",
+        "JO2018:v2:gap_review:0176",
+        "JO2018:v2:gap_review:0177"
+      ],
+      "original_gaps": [
+        "분포표의 모든 수치 미구조화. 표와 본문의 어형·지역·합계 불일치가 있으며 원문을 참조."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 209,
+          "table_number": 50,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 214,
+      "status": "source_limitation",
+      "reason": "표 52 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화. 표52 -가예의 지역 셀1+1+2=4이나 인쇄 행합1. 해예체 소계29(p215)는 인쇄 행합18+1+2+3+5와 일치하며 지역 셀 합32와 다름. 원문 행합·소계는 고치지 않음.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0178",
+        "JO2018:v2:gap_review:0179",
+        "JO2018:v2:gap_review:0180",
+        "JO2018:v2:gap_review:0181",
+        "JO2018:v2:gap_review:0182",
+        "JO2018:v2:gap_review:0183",
+        "JO2018:v2:gap_review:0184",
+        "JO2018:v2:gap_review:0185",
+        "JO2018:v2:gap_review:0186",
+        "JO2018:v2:gap_review:0187",
+        "JO2018:v2:gap_review:0188",
+        "JO2018:v2:gap_review:0189",
+        "JO2018:v2:gap_review:0190",
+        "JO2018:v2:gap_review:0191",
+        "JO2018:v2:gap_review:0192",
+        "JO2018:v2:gap_review:0193",
+        "JO2018:v2:gap_review:0194",
+        "JO2018:v2:gap_review:0195",
+        "JO2018:v2:gap_review:0196",
+        "JO2018:v2:gap_review:0197",
+        "JO2018:v2:gap_review:0198",
+        "JO2018:v2:gap_review:0199",
+        "JO2018:v2:gap_review:0200",
+        "JO2018:v2:gap_review:0201"
+      ],
+      "original_gaps": [
+        "분포표의 모든 수치 미구조화. 표와 본문의 어형·지역·합계 불일치가 있으며 원문을 참조."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 214,
+          "table_number": 52,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 215,
+      "status": "resolved",
+      "reason": "표 52 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0198",
+        "JO2018:v2:gap_review:0199",
+        "JO2018:v2:gap_review:0200",
+        "JO2018:v2:gap_review:0201",
+        "JO2018:v2:gap_review:0202"
+      ],
+      "original_gaps": [
+        "분포표의 모든 수치 미구조화. 표와 본문의 어형·지역·합계 불일치가 있으며 원문을 참조."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 215,
+          "table_number": 52,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 219,
+      "status": "source_limitation",
+      "reason": "표 54 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화. 표54 -ㅂ시요 구미는 빈칸. 본문은 예형 미출현이라고 하나 표53·54는 -지예 달성1을 제시. -예 계열 전체 배제 불가.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0203",
+        "JO2018:v2:gap_review:0204",
+        "JO2018:v2:gap_review:0205",
+        "JO2018:v2:gap_review:0206",
+        "JO2018:v2:gap_review:0207",
+        "JO2018:v2:gap_review:0208",
+        "JO2018:v2:gap_review:0209",
+        "JO2018:v2:gap_review:0210"
+      ],
+      "original_gaps": [
+        "분포표의 모든 수치 미구조화. 표와 본문의 어형·지역·합계 불일치가 있으며 원문을 참조."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 219,
+          "table_number": 54,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 223,
+      "status": "resolved",
+      "reason": "표 56 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0211",
+        "JO2018:v2:gap_review:0212",
+        "JO2018:v2:gap_review:0213",
+        "JO2018:v2:gap_review:0214",
+        "JO2018:v2:gap_review:0215"
+      ],
+      "original_gaps": [
+        "분포표의 모든 수치 미구조화. 표와 본문의 어형·지역·합계 불일치가 있으며 원문을 참조."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 223,
+          "table_number": 56,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 227,
+      "status": "source_limitation",
+      "reason": "표57 유형·등급별 인쇄 비율 전부 구조화. 어미 목록과 서부/동부 칸은 본문 표와 기존 어미 사실을 대조. 표57의 인쇄 비율은 원 집계 오류를 해소하지 못함. 하이소체 명령81.3% 등은 표30의2598 소계에 의존한 것으로 보여 검증된 사용률 아님.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0216",
+        "JO2018:v2:gap_review:0217",
+        "JO2018:v2:gap_review:0218",
+        "JO2018:v2:gap_review:0219",
+        "JO2018:v2:gap_review:0220",
+        "JO2018:v2:gap_review:0221",
+        "JO2018:v2:gap_review:0222",
+        "JO2018:v2:gap_review:0223",
+        "JO2018:v2:gap_review:0224",
+        "JO2018:v2:gap_review:0225",
+        "JO2018:v2:gap_review:0226",
+        "JO2018:v2:gap_review:0227",
+        "JO2018:v2:gap_review:0228",
+        "JO2018:v2:gap_review:0229",
+        "JO2018:v2:gap_review:0230",
+        "JO2018:v2:gap_review:0231",
+        "JO2018:v2:gap_review:0232",
+        "JO2018:v2:gap_review:0233",
+        "JO2018:v2:gap_review:0234",
+        "JO2018:v2:gap_review:0235",
+        "JO2018:v2:gap_review:0236",
+        "JO2018:v2:gap_review:0237"
+      ],
+      "original_gaps": [
+        "분포표의 모든 수치 미구조화. 표와 본문의 어형·지역·합계 불일치가 있으며 원문을 참조."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 227,
+          "table_number": null,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 228,
+      "status": "source_limitation",
+      "reason": "표57 유형·등급별 인쇄 비율 전부 구조화. 어미 목록과 서부/동부 칸은 본문 표와 기존 어미 사실을 대조. 표57의 인쇄 비율은 원 집계 오류를 해소하지 못함. 하이소체 명령81.3% 등은 표30의2598 소계에 의존한 것으로 보여 검증된 사용률 아님.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0222",
+        "JO2018:v2:gap_review:0223",
+        "JO2018:v2:gap_review:0224",
+        "JO2018:v2:gap_review:0225",
+        "JO2018:v2:gap_review:0226",
+        "JO2018:v2:gap_review:0227",
+        "JO2018:v2:gap_review:0228",
+        "JO2018:v2:gap_review:0229",
+        "JO2018:v2:gap_review:0230",
+        "JO2018:v2:gap_review:0231",
+        "JO2018:v2:gap_review:0232",
+        "JO2018:v2:gap_review:0233",
+        "JO2018:v2:gap_review:0234",
+        "JO2018:v2:gap_review:0235",
+        "JO2018:v2:gap_review:0236",
+        "JO2018:v2:gap_review:0237"
+      ],
+      "original_gaps": [
+        "분포표의 모든 수치 미구조화. 표와 본문의 어형·지역·합계 불일치가 있으며 원문을 참조."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 228,
+          "table_number": null,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 250,
+      "status": "source_limitation",
+      "reason": "부록1 권책별 모든 지역·제보자 셀과 부록2 성별·연령별 모든 셀을 이미지와 대조하여 구조화. 부록2 남자 셀 합382/합계381 및 60대 성별합260/인쇄259 불일치. 원자료 없이는 올바른 수치 정정 불가. 부록1 총편수3167과 본문 자료 개요 집계 범위 차이도 미상.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0385",
+        "JO2018:v2:gap_review:0386",
+        "JO2018:v2:gap_review:0387",
+        "JO2018:v2:gap_review:0388",
+        "JO2018:v2:gap_review:0389",
+        "JO2018:v2:gap_review:0390",
+        "JO2018:v2:gap_review:0391",
+        "JO2018:v2:gap_review:0392",
+        "JO2018:v2:gap_review:0393",
+        "JO2018:v2:gap_review:0394",
+        "JO2018:v2:gap_review:0395",
+        "JO2018:v2:gap_review:0396",
+        "JO2018:v2:gap_review:0397",
+        "JO2018:v2:gap_review:0398",
+        "JO2018:v2:gap_review:0399",
+        "JO2018:v2:gap_review:0400",
+        "JO2018:v2:gap_review:0401",
+        "JO2018:v2:gap_review:0402",
+        "JO2018:v2:gap_review:0403",
+        "JO2018:v2:gap_review:0404",
+        "JO2018:v2:gap_review:0405"
+      ],
+      "original_gaps": [
+        "전체 지역별 원시 통계 셀은 구조화하지 않음.",
+        "부록과 본문 자료 수 및 연령표 소계의 불일치는 미해결."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 250,
+          "table_number": null,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 251,
+      "status": "resolved",
+      "reason": "부록의 해당 페이지 모든 연구자별 높임등급·형태 셀을 원본 이미지와 대조하여 묶음 참고 사실로 구조화. 페이지 경계의 연구자 소유와 병합 셀 확인. 개별 어미를 새로운 생성 규칙으로 일반화하지 않음. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0238",
+        "JO2018:v2:gap_review:0239",
+        "JO2018:v2:gap_review:0240",
+        "JO2018:v2:gap_review:0241",
+        "JO2018:v2:gap_review:0242",
+        "JO2018:v2:gap_review:0243",
+        "JO2018:v2:gap_review:0244",
+        "JO2018:v2:gap_review:0245",
+        "JO2018:v2:gap_review:0246",
+        "JO2018:v2:gap_review:0247",
+        "JO2018:v2:gap_review:0248"
+      ],
+      "original_gaps": [
+        "표의 모든 연구자 행·어미 셀을 개별 형태 노드로 분해하지 않음. 원문 페이지와 연구자별 참고 진술을 함께 확인해야 함.",
+        "PDF 추출의 옛한글·특수기호 및 페이지를 넘는 표의 정렬은 원본 대조가 필요함."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 251,
+          "table_number": null,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 252,
+      "status": "source_limitation",
+      "reason": "부록의 해당 페이지 모든 연구자별 높임등급·형태 셀을 원본 이미지와 대조하여 묶음 참고 사실로 구조화. 페이지 경계의 연구자 소유와 병합 셀 확인. 개별 어미를 새로운 생성 규칙으로 일반화하지 않음. 배대온 행의 옛한글 특수글자 를 PDF 추출 코드대로 보존. 원전 음가/현대 문자 치환은 확정하지 않음.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0248",
+        "JO2018:v2:gap_review:0249",
+        "JO2018:v2:gap_review:0250",
+        "JO2018:v2:gap_review:0251",
+        "JO2018:v2:gap_review:0252",
+        "JO2018:v2:gap_review:0253",
+        "JO2018:v2:gap_review:0254",
+        "JO2018:v2:gap_review:0255"
+      ],
+      "original_gaps": [
+        "표의 모든 연구자 행·어미 셀을 개별 형태 노드로 분해하지 않음. 원문 페이지와 연구자별 참고 진술을 함께 확인해야 함.",
+        "PDF 추출의 옛한글·특수기호 및 페이지를 넘는 표의 정렬은 원본 대조가 필요함."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 252,
+          "table_number": null,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 253,
+      "status": "source_limitation",
+      "reason": "부록의 해당 페이지 모든 연구자별 높임등급·형태 셀을 원본 이미지와 대조하여 묶음 참고 사실로 구조화. 페이지 경계의 연구자 소유와 병합 셀 확인. 개별 어미를 새로운 생성 규칙으로 일반화하지 않음. 박창원 행의 -이끄요 특수글자를 추출 코드로 보존. 음가/현대 문자 치환은 미확정.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0256",
+        "JO2018:v2:gap_review:0257",
+        "JO2018:v2:gap_review:0258",
+        "JO2018:v2:gap_review:0259",
+        "JO2018:v2:gap_review:0260",
+        "JO2018:v2:gap_review:0261",
+        "JO2018:v2:gap_review:0262",
+        "JO2018:v2:gap_review:0263",
+        "JO2018:v2:gap_review:0264"
+      ],
+      "original_gaps": [
+        "표의 모든 연구자 행·어미 셀을 개별 형태 노드로 분해하지 않음. 원문 페이지와 연구자별 참고 진술을 함께 확인해야 함.",
+        "PDF 추출의 옛한글·특수기호 및 페이지를 넘는 표의 정렬은 원본 대조가 필요함."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 253,
+          "table_number": null,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 254,
+      "status": "resolved",
+      "reason": "부록의 해당 페이지 모든 연구자별 높임등급·형태 셀을 원본 이미지와 대조하여 묶음 참고 사실로 구조화. 페이지 경계의 연구자 소유와 병합 셀 확인. 개별 어미를 새로운 생성 규칙으로 일반화하지 않음. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0264",
+        "JO2018:v2:gap_review:0265",
+        "JO2018:v2:gap_review:0266",
+        "JO2018:v2:gap_review:0267",
+        "JO2018:v2:gap_review:0268",
+        "JO2018:v2:gap_review:0269",
+        "JO2018:v2:gap_review:0270",
+        "JO2018:v2:gap_review:0271",
+        "JO2018:v2:gap_review:0272",
+        "JO2018:v2:gap_review:0273"
+      ],
+      "original_gaps": [
+        "표의 모든 연구자 행·어미 셀을 개별 형태 노드로 분해하지 않음. 원문 페이지와 연구자별 참고 진술을 함께 확인해야 함.",
+        "PDF 추출의 옛한글·특수기호 및 페이지를 넘는 표의 정렬은 원본 대조가 필요함."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 254,
+          "table_number": null,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 255,
+      "status": "resolved",
+      "reason": "부록의 해당 페이지 모든 연구자별 높임등급·형태 셀을 원본 이미지와 대조하여 묶음 참고 사실로 구조화. 페이지 경계의 연구자 소유와 병합 셀 확인. 개별 어미를 새로운 생성 규칙으로 일반화하지 않음. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0274",
+        "JO2018:v2:gap_review:0275",
+        "JO2018:v2:gap_review:0276",
+        "JO2018:v2:gap_review:0277",
+        "JO2018:v2:gap_review:0278",
+        "JO2018:v2:gap_review:0279",
+        "JO2018:v2:gap_review:0280",
+        "JO2018:v2:gap_review:0281",
+        "JO2018:v2:gap_review:0282",
+        "JO2018:v2:gap_review:0283"
+      ],
+      "original_gaps": [
+        "표의 모든 연구자 행·어미 셀을 개별 형태 노드로 분해하지 않음. 원문 페이지와 연구자별 참고 진술을 함께 확인해야 함.",
+        "PDF 추출의 옛한글·특수기호 및 페이지를 넘는 표의 정렬은 원본 대조가 필요함."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 255,
+          "table_number": null,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 256,
+      "status": "resolved",
+      "reason": "부록의 해당 페이지 모든 연구자별 높임등급·형태 셀을 원본 이미지와 대조하여 묶음 참고 사실로 구조화. 페이지 경계의 연구자 소유와 병합 셀 확인. 개별 어미를 새로운 생성 규칙으로 일반화하지 않음. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0283",
+        "JO2018:v2:gap_review:0284",
+        "JO2018:v2:gap_review:0285",
+        "JO2018:v2:gap_review:0286",
+        "JO2018:v2:gap_review:0287",
+        "JO2018:v2:gap_review:0288",
+        "JO2018:v2:gap_review:0289",
+        "JO2018:v2:gap_review:0290"
+      ],
+      "original_gaps": [
+        "표의 모든 연구자 행·어미 셀을 개별 형태 노드로 분해하지 않음. 원문 페이지와 연구자별 참고 진술을 함께 확인해야 함.",
+        "PDF 추출의 옛한글·특수기호 및 페이지를 넘는 표의 정렬은 원본 대조가 필요함."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 256,
+          "table_number": null,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 257,
+      "status": "source_limitation",
+      "reason": "부록의 해당 페이지 모든 연구자별 높임등급·형태 셀을 원본 이미지와 대조하여 묶음 참고 사실로 구조화. 페이지 경계의 연구자 소유와 병합 셀 확인. 개별 어미를 새로운 생성 규칙으로 일반화하지 않음. 배대온 행 -껴의 특수글자를 추출 코드로 보존. 원전의 정확한 음가/현대 문자 치환 미확정.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0291",
+        "JO2018:v2:gap_review:0292",
+        "JO2018:v2:gap_review:0293",
+        "JO2018:v2:gap_review:0294",
+        "JO2018:v2:gap_review:0295",
+        "JO2018:v2:gap_review:0296",
+        "JO2018:v2:gap_review:0297",
+        "JO2018:v2:gap_review:0298",
+        "JO2018:v2:gap_review:0299"
+      ],
+      "original_gaps": [
+        "표의 모든 연구자 행·어미 셀을 개별 형태 노드로 분해하지 않음. 원문 페이지와 연구자별 참고 진술을 함께 확인해야 함.",
+        "PDF 추출의 옛한글·특수기호 및 페이지를 넘는 표의 정렬은 원본 대조가 필요함."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 257,
+          "table_number": null,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 258,
+      "status": "source_limitation",
+      "reason": "부록의 해당 페이지 모든 연구자별 높임등급·형태 셀을 원본 이미지와 대조하여 묶음 참고 사실로 구조화. 페이지 경계의 연구자 소유와 병합 셀 확인. 개별 어미를 새로운 생성 규칙으로 일반화하지 않음. 박창원 행 -라의 특수글자를 추출 코드로 보존. 원전 음가/현대 문자 치환 미확정.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0299",
+        "JO2018:v2:gap_review:0300",
+        "JO2018:v2:gap_review:0301",
+        "JO2018:v2:gap_review:0302",
+        "JO2018:v2:gap_review:0303",
+        "JO2018:v2:gap_review:0304",
+        "JO2018:v2:gap_review:0305",
+        "JO2018:v2:gap_review:0306",
+        "JO2018:v2:gap_review:0307"
+      ],
+      "original_gaps": [
+        "표의 모든 연구자 행·어미 셀을 개별 형태 노드로 분해하지 않음. 원문 페이지와 연구자별 참고 진술을 함께 확인해야 함.",
+        "PDF 추출의 옛한글·특수기호 및 페이지를 넘는 표의 정렬은 원본 대조가 필요함."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 258,
+          "table_number": null,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 259,
+      "status": "resolved",
+      "reason": "부록의 해당 페이지 모든 연구자별 높임등급·형태 셀을 원본 이미지와 대조하여 묶음 참고 사실로 구조화. 페이지 경계의 연구자 소유와 병합 셀 확인. 개별 어미를 새로운 생성 규칙으로 일반화하지 않음. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0308",
+        "JO2018:v2:gap_review:0309",
+        "JO2018:v2:gap_review:0310",
+        "JO2018:v2:gap_review:0311",
+        "JO2018:v2:gap_review:0312",
+        "JO2018:v2:gap_review:0313",
+        "JO2018:v2:gap_review:0314",
+        "JO2018:v2:gap_review:0315",
+        "JO2018:v2:gap_review:0316",
+        "JO2018:v2:gap_review:0317"
+      ],
+      "original_gaps": [
+        "표의 모든 연구자 행·어미 셀을 개별 형태 노드로 분해하지 않음. 원문 페이지와 연구자별 참고 진술을 함께 확인해야 함.",
+        "PDF 추출의 옛한글·특수기호 및 페이지를 넘는 표의 정렬은 원본 대조가 필요함."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 259,
+          "table_number": null,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 260,
+      "status": "resolved",
+      "reason": "부록의 해당 페이지 모든 연구자별 높임등급·형태 셀을 원본 이미지와 대조하여 묶음 참고 사실로 구조화. 페이지 경계의 연구자 소유와 병합 셀 확인. 개별 어미를 새로운 생성 규칙으로 일반화하지 않음. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0317",
+        "JO2018:v2:gap_review:0318",
+        "JO2018:v2:gap_review:0319",
+        "JO2018:v2:gap_review:0320",
+        "JO2018:v2:gap_review:0321",
+        "JO2018:v2:gap_review:0322",
+        "JO2018:v2:gap_review:0323",
+        "JO2018:v2:gap_review:0324",
+        "JO2018:v2:gap_review:0325",
+        "JO2018:v2:gap_review:0326",
+        "JO2018:v2:gap_review:0327",
+        "JO2018:v2:gap_review:0328",
+        "JO2018:v2:gap_review:0329",
+        "JO2018:v2:gap_review:0330"
+      ],
+      "original_gaps": [
+        "표의 모든 연구자 행·어미 셀을 개별 형태 노드로 분해하지 않음. 원문 페이지와 연구자별 참고 진술을 함께 확인해야 함.",
+        "PDF 추출의 옛한글·특수기호 및 페이지를 넘는 표의 정렬은 원본 대조가 필요함."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 260,
+          "table_number": null,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 261,
+      "status": "source_limitation",
+      "reason": "부록의 해당 페이지 모든 연구자별 높임등급·형태 셀을 원본 이미지와 대조하여 묶음 참고 사실로 구조화. 페이지 경계의 연구자 소유와 병합 셀 확인. 개별 어미를 새로운 생성 규칙으로 일반화하지 않음. 배대온 행 -데의 특수글자를 추출 코드로 보존. 원전 음가/현대 문자 치환 미확정.",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0330",
+        "JO2018:v2:gap_review:0331",
+        "JO2018:v2:gap_review:0332",
+        "JO2018:v2:gap_review:0333",
+        "JO2018:v2:gap_review:0334",
+        "JO2018:v2:gap_review:0335",
+        "JO2018:v2:gap_review:0336",
+        "JO2018:v2:gap_review:0337",
+        "JO2018:v2:gap_review:0338",
+        "JO2018:v2:gap_review:0339",
+        "JO2018:v2:gap_review:0340",
+        "JO2018:v2:gap_review:0341"
+      ],
+      "original_gaps": [
+        "표의 모든 연구자 행·어미 셀을 개별 형태 노드로 분해하지 않음. 원문 페이지와 연구자별 참고 진술을 함께 확인해야 함.",
+        "PDF 추출의 옛한글·특수기호 및 페이지를 넘는 표의 정렬은 원본 대조가 필요함."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 261,
+          "table_number": null,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 262,
+      "status": "resolved",
+      "reason": "부록의 해당 페이지 모든 연구자별 높임등급·형태 셀을 원본 이미지와 대조하여 묶음 참고 사실로 구조화. 페이지 경계의 연구자 소유와 병합 셀 확인. 개별 어미를 새로운 생성 규칙으로 일반화하지 않음. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0340",
+        "JO2018:v2:gap_review:0341",
+        "JO2018:v2:gap_review:0342",
+        "JO2018:v2:gap_review:0343",
+        "JO2018:v2:gap_review:0344",
+        "JO2018:v2:gap_review:0345",
+        "JO2018:v2:gap_review:0346",
+        "JO2018:v2:gap_review:0347",
+        "JO2018:v2:gap_review:0348",
+        "JO2018:v2:gap_review:0349",
+        "JO2018:v2:gap_review:0350",
+        "JO2018:v2:gap_review:0351"
+      ],
+      "original_gaps": [
+        "표의 모든 연구자 행·어미 셀을 개별 형태 노드로 분해하지 않음. 원문 페이지와 연구자별 참고 진술을 함께 확인해야 함.",
+        "PDF 추출의 옛한글·특수기호 및 페이지를 넘는 표의 정렬은 원본 대조가 필요함."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 262,
+          "table_number": null,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 263,
+      "status": "resolved",
+      "reason": "부록의 해당 페이지 모든 연구자별 높임등급·형태 셀을 원본 이미지와 대조하여 묶음 참고 사실로 구조화. 페이지 경계의 연구자 소유와 병합 셀 확인. 개별 어미를 새로운 생성 규칙으로 일반화하지 않음. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0352",
+        "JO2018:v2:gap_review:0353",
+        "JO2018:v2:gap_review:0354",
+        "JO2018:v2:gap_review:0355",
+        "JO2018:v2:gap_review:0356",
+        "JO2018:v2:gap_review:0357",
+        "JO2018:v2:gap_review:0358",
+        "JO2018:v2:gap_review:0359",
+        "JO2018:v2:gap_review:0360",
+        "JO2018:v2:gap_review:0361",
+        "JO2018:v2:gap_review:0362",
+        "JO2018:v2:gap_review:0363",
+        "JO2018:v2:gap_review:0364"
+      ],
+      "original_gaps": [
+        "표의 모든 연구자 행·어미 셀을 개별 형태 노드로 분해하지 않음. 원문 페이지와 연구자별 참고 진술을 함께 확인해야 함.",
+        "PDF 추출의 옛한글·특수기호 및 페이지를 넘는 표의 정렬은 원본 대조가 필요함."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 263,
+          "table_number": null,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 264,
+      "status": "resolved",
+      "reason": "부록의 해당 페이지 모든 연구자별 높임등급·형태 셀을 원본 이미지와 대조하여 묶음 참고 사실로 구조화. 페이지 경계의 연구자 소유와 병합 셀 확인. 개별 어미를 새로운 생성 규칙으로 일반화하지 않음. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0364",
+        "JO2018:v2:gap_review:0365",
+        "JO2018:v2:gap_review:0366",
+        "JO2018:v2:gap_review:0367",
+        "JO2018:v2:gap_review:0368",
+        "JO2018:v2:gap_review:0369",
+        "JO2018:v2:gap_review:0370",
+        "JO2018:v2:gap_review:0371",
+        "JO2018:v2:gap_review:0372",
+        "JO2018:v2:gap_review:0373",
+        "JO2018:v2:gap_review:0374",
+        "JO2018:v2:gap_review:0375",
+        "JO2018:v2:gap_review:0376",
+        "JO2018:v2:gap_review:0377"
+      ],
+      "original_gaps": [
+        "표의 모든 연구자 행·어미 셀을 개별 형태 노드로 분해하지 않음. 원문 페이지와 연구자별 참고 진술을 함께 확인해야 함.",
+        "PDF 추출의 옛한글·특수기호 및 페이지를 넘는 표의 정렬은 원본 대조가 필요함."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 264,
+          "table_number": null,
+          "image_checked": true
+        }
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 265,
+      "status": "resolved",
+      "reason": "부록의 해당 페이지 모든 연구자별 높임등급·형태 셀을 원본 이미지와 대조하여 묶음 참고 사실로 구조화. 페이지 경계의 연구자 소유와 병합 셀 확인. 개별 어미를 새로운 생성 규칙으로 일반화하지 않음. ",
+      "fact_ids": [
+        "JO2018:v2:gap_review:0377",
+        "JO2018:v2:gap_review:0378",
+        "JO2018:v2:gap_review:0379",
+        "JO2018:v2:gap_review:0380",
+        "JO2018:v2:gap_review:0381",
+        "JO2018:v2:gap_review:0382",
+        "JO2018:v2:gap_review:0383",
+        "JO2018:v2:gap_review:0384"
+      ],
+      "original_gaps": [
+        "표의 모든 연구자 행·어미 셀을 개별 형태 노드로 분해하지 않음. 원문 페이지와 연구자별 참고 진술을 함께 확인해야 함.",
+        "PDF 추출의 옛한글·특수기호 및 페이지를 넘는 표의 정렬은 원본 대조가 필요함."
+      ],
+      "evidence_locations": [
+        {
+          "source_id": "JO2018",
+          "pdf_page": 265,
+          "table_number": null,
+          "image_checked": true
+        }
+      ]
+    }
+  ],
+  "remaining_work": [],
+  "source_limitations": [
+    {
+      "pdf_page": 31,
+      "issues": [
+        "지역별 기호열은 모두 구조화했으나 Ǝ 등 특수기호의 현대 IPA 환산 및 # 범례 해석은 재인용 원전 범례 없이 미확정. 실제 원음성의 장단·성조를 이 표로 검증할 수 없음."
+      ]
+    },
+    {
+      "pdf_page": 32,
+      "issues": [
+        "지역별 기호열은 모두 구조화했으나 Ǝ 등 특수기호의 현대 IPA 환산 및 # 범례 해석은 재인용 원전 범례 없이 미확정. 실제 원음성의 장단·성조를 이 표로 검증할 수 없음."
+      ]
+    },
+    {
+      "pdf_page": 47,
+      "issues": [
+        "p48 본문은 비격식 모든 형태에서 의문 중첩이라 하나 표5 -군의 의문 칸은 빈칸. 표와 본문을 합쳐 일률 일반화하지 않음."
+      ]
+    },
+    {
+      "pdf_page": 60,
+      "issues": [
+        "표9 이기갑(2003)은 예사높임, 표1은 예사낮춤으로 인쇄되어 있다. 재인용 원전 미확인 상태에서 하나를 정정하지 않음."
+      ]
+    },
+    {
+      "pdf_page": 81,
+      "issues": [
+        "원본 표14 자체의 합계 불일치: 니더 두 행 합1880/소계1888, 니다행5946+236/소계6183, 디다행161+8/소계176, (옵)나이다행7/소계176. 원자료 집계 없이는 정정 불가."
+      ]
+    },
+    {
+      "pdf_page": 96,
+      "issues": [
+        "표16 유형 칸은 구마·구매까지 표준형으로 합쳐 표시하지만 본문은 구마를 방언형이라 함. 본문의 성주 중심 일반화와 표의 군위97·성주9 차이를 보존."
+      ]
+    },
+    {
+      "pdf_page": 102,
+      "issues": [
+        "표18 -ㅅ세 경주 셀은 빈칸. 군위1·영덕1도 있는데 본문은 안동·예천·봉화에서만 발견된다고 서술. 배타 지역 규칙으로 쓸 수 없음."
+      ]
+    },
+    {
+      "pdf_page": 111,
+      "issues": [
+        "표20 -꾸마 인쇄 행합163/소계164 불일치. 지역 셀 합은163이므로 소계를 자동 정정하지 않고 두 값을 보존."
+      ]
+    },
+    {
+      "pdf_page": 121,
+      "issues": [
+        "표22 -ㅂ니껴 구미2도 있으므로 본문의 남서부 비관찰을 껴 계열 전체 금지로 일반화 불가."
+      ]
+    },
+    {
+      "pdf_page": 129,
+      "issues": [
+        "표24 -소 지역 셀 합355와 인쇄 행합·소계357 불일치. PDF 원본에서도 동일하여 원자료 없이는 정정 불가."
+      ]
+    },
+    {
+      "pdf_page": 135,
+      "issues": [
+        "표26 인쇄 행합은 지역 합에서 봉화 값을 빠뜨린 양상(-ㄴ가525/지역합645, -는게26/소계34 등). 원본 수치를 임의 정정하지 않음."
+      ]
+    },
+    {
+      "pdf_page": 141,
+      "issues": [
+        "표28 인쇄 행합과 소계·지역 합계 불일치는 PDF 원본에도 존재. 누락 추정으로 행합을 고치지 않음."
+      ]
+    },
+    {
+      "pdf_page": 142,
+      "issues": [
+        "표28 계속: -로/-ㄹ로 소계200은 행합210+33 및 지역합233+38과 모두 불일치. -냐 행2207/소계2315. 원자료 없이는 확정 총수 정정 불가."
+      ]
+    },
+    {
+      "pdf_page": 150,
+      "issues": [
+        "표30 방언형 행합1028+124와 소계2598 불일치. 원본도 같은 수치이므로 추출오류로 취급하지 않음."
+      ]
+    },
+    {
+      "pdf_page": 157,
+      "issues": [
+        "표32 두 행1440+6과 소계2598 불일치."
+      ]
+    },
+    {
+      "pdf_page": 165,
+      "issues": [
+        "본문은 -느라가 서부 미출현이라 하나 표36 구미1·달성1이 있고 예117ㅂ도 구미. 해당 배제 일반화 확정 불가."
+      ]
+    },
+    {
+      "pdf_page": 177,
+      "issues": [
+        "표40 -ㅂ시다 지역합663/행합663이나 소계712. 원자료가 없어 소계 오류 여부 확정 불가."
+      ]
+    },
+    {
+      "pdf_page": 189,
+      "issues": [
+        "표44는 -제만 별도 행으로 집계하며 본문·예149ㄹㅁ의 -제이/-재이 별도 빈도는 제공하지 않음. -제 합계에 포함 여부 미상."
+      ]
+    },
+    {
+      "pdf_page": 195,
+      "issues": [
+        "표46 -래이 지역합2943/행합2938/소계2943, -ㄴ데 지역합8320/행합7893(봉화427 차이) 불일치. -제이 구미1 이외 셀·행합은 빈칸. -래/-래이 표기와 이어지는 분포 서술도 불일치하여 임의 수정하지 않음."
+      ]
+    },
+    {
+      "pdf_page": 204,
+      "issues": [
+        "표48 해요체 인쇄 소계11776은 행합 합산과 일치하지 않음. 인쇄값 보존; 현재 발화빈도나 비율로 사용 불가."
+      ]
+    },
+    {
+      "pdf_page": 209,
+      "issues": [
+        "본문의 -께 상주·예천 및 -지러 경주 실현은 배타적 분포가 아님. 표50 -께는 여러 지역에서 관찰, -지러 군위·영덕·안동도 관찰."
+      ]
+    },
+    {
+      "pdf_page": 214,
+      "issues": [
+        "표52 -가예의 지역 셀1+1+2=4이나 인쇄 행합1. 해예체 소계29(p215)는 인쇄 행합18+1+2+3+5와 일치하며 지역 셀 합32와 다름. 원문 행합·소계는 고치지 않음."
+      ]
+    },
+    {
+      "pdf_page": 219,
+      "issues": [
+        "표54 -ㅂ시요 구미는 빈칸. 본문은 예형 미출현이라고 하나 표53·54는 -지예 달성1을 제시. -예 계열 전체 배제 불가."
+      ]
+    },
+    {
+      "pdf_page": 227,
+      "issues": [
+        "표57의 인쇄 비율은 원 집계 오류를 해소하지 못함. 하이소체 명령81.3% 등은 표30의2598 소계에 의존한 것으로 보여 검증된 사용률 아님."
+      ]
+    },
+    {
+      "pdf_page": 228,
+      "issues": [
+        "표57의 인쇄 비율은 원 집계 오류를 해소하지 못함. 하이소체 명령81.3% 등은 표30의2598 소계에 의존한 것으로 보여 검증된 사용률 아님."
+      ]
+    },
+    {
+      "pdf_page": 250,
+      "issues": [
+        "부록2 남자 셀 합382/합계381 및 60대 성별합260/인쇄259 불일치. 원자료 없이는 올바른 수치 정정 불가. 부록1 총편수3167과 본문 자료 개요 집계 범위 차이도 미상."
+      ]
+    },
+    {
+      "pdf_page": 252,
+      "issues": [
+        "배대온 행의 옛한글 특수글자 를 PDF 추출 코드대로 보존. 원전 음가/현대 문자 치환은 확정하지 않음."
+      ]
+    },
+    {
+      "pdf_page": 253,
+      "issues": [
+        "박창원 행의 -이끄요 특수글자를 추출 코드로 보존. 음가/현대 문자 치환은 미확정."
+      ]
+    },
+    {
+      "pdf_page": 257,
+      "issues": [
+        "배대온 행 -껴의 특수글자를 추출 코드로 보존. 원전의 정확한 음가/현대 문자 치환 미확정."
+      ]
+    },
+    {
+      "pdf_page": 258,
+      "issues": [
+        "박창원 행 -라의 특수글자를 추출 코드로 보존. 원전 음가/현대 문자 치환 미확정."
+      ]
+    },
+    {
+      "pdf_page": 261,
+      "issues": [
+        "배대온 행 -데의 특수글자를 추출 코드로 보존. 원전 음가/현대 문자 치환 미확정."
+      ]
+    }
+  ],
+  "corrections": [],
+  "added_fact_ids": [
+    "JO2018:v2:gap_review:0001",
+    "JO2018:v2:gap_review:0002",
+    "JO2018:v2:gap_review:0003",
+    "JO2018:v2:gap_review:0004",
+    "JO2018:v2:gap_review:0005",
+    "JO2018:v2:gap_review:0006",
+    "JO2018:v2:gap_review:0007",
+    "JO2018:v2:gap_review:0008",
+    "JO2018:v2:gap_review:0009",
+    "JO2018:v2:gap_review:0010",
+    "JO2018:v2:gap_review:0011",
+    "JO2018:v2:gap_review:0012",
+    "JO2018:v2:gap_review:0013",
+    "JO2018:v2:gap_review:0014",
+    "JO2018:v2:gap_review:0015",
+    "JO2018:v2:gap_review:0016",
+    "JO2018:v2:gap_review:0017",
+    "JO2018:v2:gap_review:0018",
+    "JO2018:v2:gap_review:0019",
+    "JO2018:v2:gap_review:0020",
+    "JO2018:v2:gap_review:0021",
+    "JO2018:v2:gap_review:0022",
+    "JO2018:v2:gap_review:0023",
+    "JO2018:v2:gap_review:0024",
+    "JO2018:v2:gap_review:0025",
+    "JO2018:v2:gap_review:0026",
+    "JO2018:v2:gap_review:0027",
+    "JO2018:v2:gap_review:0028",
+    "JO2018:v2:gap_review:0029",
+    "JO2018:v2:gap_review:0030",
+    "JO2018:v2:gap_review:0031",
+    "JO2018:v2:gap_review:0032",
+    "JO2018:v2:gap_review:0033",
+    "JO2018:v2:gap_review:0034",
+    "JO2018:v2:gap_review:0035",
+    "JO2018:v2:gap_review:0036",
+    "JO2018:v2:gap_review:0037",
+    "JO2018:v2:gap_review:0038",
+    "JO2018:v2:gap_review:0039",
+    "JO2018:v2:gap_review:0040",
+    "JO2018:v2:gap_review:0041",
+    "JO2018:v2:gap_review:0042",
+    "JO2018:v2:gap_review:0043",
+    "JO2018:v2:gap_review:0044",
+    "JO2018:v2:gap_review:0045",
+    "JO2018:v2:gap_review:0046",
+    "JO2018:v2:gap_review:0047",
+    "JO2018:v2:gap_review:0048",
+    "JO2018:v2:gap_review:0049",
+    "JO2018:v2:gap_review:0050",
+    "JO2018:v2:gap_review:0051",
+    "JO2018:v2:gap_review:0052",
+    "JO2018:v2:gap_review:0053",
+    "JO2018:v2:gap_review:0054",
+    "JO2018:v2:gap_review:0055",
+    "JO2018:v2:gap_review:0056",
+    "JO2018:v2:gap_review:0057",
+    "JO2018:v2:gap_review:0058",
+    "JO2018:v2:gap_review:0059",
+    "JO2018:v2:gap_review:0060",
+    "JO2018:v2:gap_review:0061",
+    "JO2018:v2:gap_review:0062",
+    "JO2018:v2:gap_review:0063",
+    "JO2018:v2:gap_review:0064",
+    "JO2018:v2:gap_review:0065",
+    "JO2018:v2:gap_review:0066",
+    "JO2018:v2:gap_review:0067",
+    "JO2018:v2:gap_review:0068",
+    "JO2018:v2:gap_review:0069",
+    "JO2018:v2:gap_review:0070",
+    "JO2018:v2:gap_review:0071",
+    "JO2018:v2:gap_review:0072",
+    "JO2018:v2:gap_review:0073",
+    "JO2018:v2:gap_review:0074",
+    "JO2018:v2:gap_review:0075",
+    "JO2018:v2:gap_review:0076",
+    "JO2018:v2:gap_review:0077",
+    "JO2018:v2:gap_review:0078",
+    "JO2018:v2:gap_review:0079",
+    "JO2018:v2:gap_review:0080",
+    "JO2018:v2:gap_review:0081",
+    "JO2018:v2:gap_review:0082",
+    "JO2018:v2:gap_review:0083",
+    "JO2018:v2:gap_review:0084",
+    "JO2018:v2:gap_review:0085",
+    "JO2018:v2:gap_review:0086",
+    "JO2018:v2:gap_review:0087",
+    "JO2018:v2:gap_review:0088",
+    "JO2018:v2:gap_review:0089",
+    "JO2018:v2:gap_review:0090",
+    "JO2018:v2:gap_review:0091",
+    "JO2018:v2:gap_review:0092",
+    "JO2018:v2:gap_review:0093",
+    "JO2018:v2:gap_review:0094",
+    "JO2018:v2:gap_review:0095",
+    "JO2018:v2:gap_review:0096",
+    "JO2018:v2:gap_review:0097",
+    "JO2018:v2:gap_review:0098",
+    "JO2018:v2:gap_review:0099",
+    "JO2018:v2:gap_review:0100",
+    "JO2018:v2:gap_review:0101",
+    "JO2018:v2:gap_review:0102",
+    "JO2018:v2:gap_review:0103",
+    "JO2018:v2:gap_review:0104",
+    "JO2018:v2:gap_review:0105",
+    "JO2018:v2:gap_review:0106",
+    "JO2018:v2:gap_review:0107",
+    "JO2018:v2:gap_review:0108",
+    "JO2018:v2:gap_review:0109",
+    "JO2018:v2:gap_review:0110",
+    "JO2018:v2:gap_review:0111",
+    "JO2018:v2:gap_review:0112",
+    "JO2018:v2:gap_review:0113",
+    "JO2018:v2:gap_review:0114",
+    "JO2018:v2:gap_review:0115",
+    "JO2018:v2:gap_review:0116",
+    "JO2018:v2:gap_review:0117",
+    "JO2018:v2:gap_review:0118",
+    "JO2018:v2:gap_review:0119",
+    "JO2018:v2:gap_review:0120",
+    "JO2018:v2:gap_review:0121",
+    "JO2018:v2:gap_review:0122",
+    "JO2018:v2:gap_review:0123",
+    "JO2018:v2:gap_review:0124",
+    "JO2018:v2:gap_review:0125",
+    "JO2018:v2:gap_review:0126",
+    "JO2018:v2:gap_review:0127",
+    "JO2018:v2:gap_review:0128",
+    "JO2018:v2:gap_review:0129",
+    "JO2018:v2:gap_review:0130",
+    "JO2018:v2:gap_review:0131",
+    "JO2018:v2:gap_review:0132",
+    "JO2018:v2:gap_review:0133",
+    "JO2018:v2:gap_review:0134",
+    "JO2018:v2:gap_review:0135",
+    "JO2018:v2:gap_review:0136",
+    "JO2018:v2:gap_review:0137",
+    "JO2018:v2:gap_review:0138",
+    "JO2018:v2:gap_review:0139",
+    "JO2018:v2:gap_review:0140",
+    "JO2018:v2:gap_review:0141",
+    "JO2018:v2:gap_review:0142",
+    "JO2018:v2:gap_review:0143",
+    "JO2018:v2:gap_review:0144",
+    "JO2018:v2:gap_review:0145",
+    "JO2018:v2:gap_review:0146",
+    "JO2018:v2:gap_review:0147",
+    "JO2018:v2:gap_review:0148",
+    "JO2018:v2:gap_review:0149",
+    "JO2018:v2:gap_review:0150",
+    "JO2018:v2:gap_review:0151",
+    "JO2018:v2:gap_review:0152",
+    "JO2018:v2:gap_review:0153",
+    "JO2018:v2:gap_review:0154",
+    "JO2018:v2:gap_review:0155",
+    "JO2018:v2:gap_review:0156",
+    "JO2018:v2:gap_review:0157",
+    "JO2018:v2:gap_review:0158",
+    "JO2018:v2:gap_review:0159",
+    "JO2018:v2:gap_review:0160",
+    "JO2018:v2:gap_review:0161",
+    "JO2018:v2:gap_review:0162",
+    "JO2018:v2:gap_review:0163",
+    "JO2018:v2:gap_review:0164",
+    "JO2018:v2:gap_review:0165",
+    "JO2018:v2:gap_review:0166",
+    "JO2018:v2:gap_review:0167",
+    "JO2018:v2:gap_review:0168",
+    "JO2018:v2:gap_review:0169",
+    "JO2018:v2:gap_review:0170",
+    "JO2018:v2:gap_review:0171",
+    "JO2018:v2:gap_review:0172",
+    "JO2018:v2:gap_review:0173",
+    "JO2018:v2:gap_review:0174",
+    "JO2018:v2:gap_review:0175",
+    "JO2018:v2:gap_review:0176",
+    "JO2018:v2:gap_review:0177",
+    "JO2018:v2:gap_review:0178",
+    "JO2018:v2:gap_review:0179",
+    "JO2018:v2:gap_review:0180",
+    "JO2018:v2:gap_review:0181",
+    "JO2018:v2:gap_review:0182",
+    "JO2018:v2:gap_review:0183",
+    "JO2018:v2:gap_review:0184",
+    "JO2018:v2:gap_review:0185",
+    "JO2018:v2:gap_review:0186",
+    "JO2018:v2:gap_review:0187",
+    "JO2018:v2:gap_review:0188",
+    "JO2018:v2:gap_review:0189",
+    "JO2018:v2:gap_review:0190",
+    "JO2018:v2:gap_review:0191",
+    "JO2018:v2:gap_review:0192",
+    "JO2018:v2:gap_review:0193",
+    "JO2018:v2:gap_review:0194",
+    "JO2018:v2:gap_review:0195",
+    "JO2018:v2:gap_review:0196",
+    "JO2018:v2:gap_review:0197",
+    "JO2018:v2:gap_review:0198",
+    "JO2018:v2:gap_review:0199",
+    "JO2018:v2:gap_review:0200",
+    "JO2018:v2:gap_review:0201",
+    "JO2018:v2:gap_review:0202",
+    "JO2018:v2:gap_review:0203",
+    "JO2018:v2:gap_review:0204",
+    "JO2018:v2:gap_review:0205",
+    "JO2018:v2:gap_review:0206",
+    "JO2018:v2:gap_review:0207",
+    "JO2018:v2:gap_review:0208",
+    "JO2018:v2:gap_review:0209",
+    "JO2018:v2:gap_review:0210",
+    "JO2018:v2:gap_review:0211",
+    "JO2018:v2:gap_review:0212",
+    "JO2018:v2:gap_review:0213",
+    "JO2018:v2:gap_review:0214",
+    "JO2018:v2:gap_review:0215",
+    "JO2018:v2:gap_review:0216",
+    "JO2018:v2:gap_review:0217",
+    "JO2018:v2:gap_review:0218",
+    "JO2018:v2:gap_review:0219",
+    "JO2018:v2:gap_review:0220",
+    "JO2018:v2:gap_review:0221",
+    "JO2018:v2:gap_review:0222",
+    "JO2018:v2:gap_review:0223",
+    "JO2018:v2:gap_review:0224",
+    "JO2018:v2:gap_review:0225",
+    "JO2018:v2:gap_review:0226",
+    "JO2018:v2:gap_review:0227",
+    "JO2018:v2:gap_review:0228",
+    "JO2018:v2:gap_review:0229",
+    "JO2018:v2:gap_review:0230",
+    "JO2018:v2:gap_review:0231",
+    "JO2018:v2:gap_review:0232",
+    "JO2018:v2:gap_review:0233",
+    "JO2018:v2:gap_review:0234",
+    "JO2018:v2:gap_review:0235",
+    "JO2018:v2:gap_review:0236",
+    "JO2018:v2:gap_review:0237",
+    "JO2018:v2:gap_review:0238",
+    "JO2018:v2:gap_review:0239",
+    "JO2018:v2:gap_review:0240",
+    "JO2018:v2:gap_review:0241",
+    "JO2018:v2:gap_review:0242",
+    "JO2018:v2:gap_review:0243",
+    "JO2018:v2:gap_review:0244",
+    "JO2018:v2:gap_review:0245",
+    "JO2018:v2:gap_review:0246",
+    "JO2018:v2:gap_review:0247",
+    "JO2018:v2:gap_review:0248",
+    "JO2018:v2:gap_review:0249",
+    "JO2018:v2:gap_review:0250",
+    "JO2018:v2:gap_review:0251",
+    "JO2018:v2:gap_review:0252",
+    "JO2018:v2:gap_review:0253",
+    "JO2018:v2:gap_review:0254",
+    "JO2018:v2:gap_review:0255",
+    "JO2018:v2:gap_review:0256",
+    "JO2018:v2:gap_review:0257",
+    "JO2018:v2:gap_review:0258",
+    "JO2018:v2:gap_review:0259",
+    "JO2018:v2:gap_review:0260",
+    "JO2018:v2:gap_review:0261",
+    "JO2018:v2:gap_review:0262",
+    "JO2018:v2:gap_review:0263",
+    "JO2018:v2:gap_review:0264",
+    "JO2018:v2:gap_review:0265",
+    "JO2018:v2:gap_review:0266",
+    "JO2018:v2:gap_review:0267",
+    "JO2018:v2:gap_review:0268",
+    "JO2018:v2:gap_review:0269",
+    "JO2018:v2:gap_review:0270",
+    "JO2018:v2:gap_review:0271",
+    "JO2018:v2:gap_review:0272",
+    "JO2018:v2:gap_review:0273",
+    "JO2018:v2:gap_review:0274",
+    "JO2018:v2:gap_review:0275",
+    "JO2018:v2:gap_review:0276",
+    "JO2018:v2:gap_review:0277",
+    "JO2018:v2:gap_review:0278",
+    "JO2018:v2:gap_review:0279",
+    "JO2018:v2:gap_review:0280",
+    "JO2018:v2:gap_review:0281",
+    "JO2018:v2:gap_review:0282",
+    "JO2018:v2:gap_review:0283",
+    "JO2018:v2:gap_review:0284",
+    "JO2018:v2:gap_review:0285",
+    "JO2018:v2:gap_review:0286",
+    "JO2018:v2:gap_review:0287",
+    "JO2018:v2:gap_review:0288",
+    "JO2018:v2:gap_review:0289",
+    "JO2018:v2:gap_review:0290",
+    "JO2018:v2:gap_review:0291",
+    "JO2018:v2:gap_review:0292",
+    "JO2018:v2:gap_review:0293",
+    "JO2018:v2:gap_review:0294",
+    "JO2018:v2:gap_review:0295",
+    "JO2018:v2:gap_review:0296",
+    "JO2018:v2:gap_review:0297",
+    "JO2018:v2:gap_review:0298",
+    "JO2018:v2:gap_review:0299",
+    "JO2018:v2:gap_review:0300",
+    "JO2018:v2:gap_review:0301",
+    "JO2018:v2:gap_review:0302",
+    "JO2018:v2:gap_review:0303",
+    "JO2018:v2:gap_review:0304",
+    "JO2018:v2:gap_review:0305",
+    "JO2018:v2:gap_review:0306",
+    "JO2018:v2:gap_review:0307",
+    "JO2018:v2:gap_review:0308",
+    "JO2018:v2:gap_review:0309",
+    "JO2018:v2:gap_review:0310",
+    "JO2018:v2:gap_review:0311",
+    "JO2018:v2:gap_review:0312",
+    "JO2018:v2:gap_review:0313",
+    "JO2018:v2:gap_review:0314",
+    "JO2018:v2:gap_review:0315",
+    "JO2018:v2:gap_review:0316",
+    "JO2018:v2:gap_review:0317",
+    "JO2018:v2:gap_review:0318",
+    "JO2018:v2:gap_review:0319",
+    "JO2018:v2:gap_review:0320",
+    "JO2018:v2:gap_review:0321",
+    "JO2018:v2:gap_review:0322",
+    "JO2018:v2:gap_review:0323",
+    "JO2018:v2:gap_review:0324",
+    "JO2018:v2:gap_review:0325",
+    "JO2018:v2:gap_review:0326",
+    "JO2018:v2:gap_review:0327",
+    "JO2018:v2:gap_review:0328",
+    "JO2018:v2:gap_review:0329",
+    "JO2018:v2:gap_review:0330",
+    "JO2018:v2:gap_review:0331",
+    "JO2018:v2:gap_review:0332",
+    "JO2018:v2:gap_review:0333",
+    "JO2018:v2:gap_review:0334",
+    "JO2018:v2:gap_review:0335",
+    "JO2018:v2:gap_review:0336",
+    "JO2018:v2:gap_review:0337",
+    "JO2018:v2:gap_review:0338",
+    "JO2018:v2:gap_review:0339",
+    "JO2018:v2:gap_review:0340",
+    "JO2018:v2:gap_review:0341",
+    "JO2018:v2:gap_review:0342",
+    "JO2018:v2:gap_review:0343",
+    "JO2018:v2:gap_review:0344",
+    "JO2018:v2:gap_review:0345",
+    "JO2018:v2:gap_review:0346",
+    "JO2018:v2:gap_review:0347",
+    "JO2018:v2:gap_review:0348",
+    "JO2018:v2:gap_review:0349",
+    "JO2018:v2:gap_review:0350",
+    "JO2018:v2:gap_review:0351",
+    "JO2018:v2:gap_review:0352",
+    "JO2018:v2:gap_review:0353",
+    "JO2018:v2:gap_review:0354",
+    "JO2018:v2:gap_review:0355",
+    "JO2018:v2:gap_review:0356",
+    "JO2018:v2:gap_review:0357",
+    "JO2018:v2:gap_review:0358",
+    "JO2018:v2:gap_review:0359",
+    "JO2018:v2:gap_review:0360",
+    "JO2018:v2:gap_review:0361",
+    "JO2018:v2:gap_review:0362",
+    "JO2018:v2:gap_review:0363",
+    "JO2018:v2:gap_review:0364",
+    "JO2018:v2:gap_review:0365",
+    "JO2018:v2:gap_review:0366",
+    "JO2018:v2:gap_review:0367",
+    "JO2018:v2:gap_review:0368",
+    "JO2018:v2:gap_review:0369",
+    "JO2018:v2:gap_review:0370",
+    "JO2018:v2:gap_review:0371",
+    "JO2018:v2:gap_review:0372",
+    "JO2018:v2:gap_review:0373",
+    "JO2018:v2:gap_review:0374",
+    "JO2018:v2:gap_review:0375",
+    "JO2018:v2:gap_review:0376",
+    "JO2018:v2:gap_review:0377",
+    "JO2018:v2:gap_review:0378",
+    "JO2018:v2:gap_review:0379",
+    "JO2018:v2:gap_review:0380",
+    "JO2018:v2:gap_review:0381",
+    "JO2018:v2:gap_review:0382",
+    "JO2018:v2:gap_review:0383",
+    "JO2018:v2:gap_review:0384",
+    "JO2018:v2:gap_review:0385",
+    "JO2018:v2:gap_review:0386",
+    "JO2018:v2:gap_review:0387",
+    "JO2018:v2:gap_review:0388",
+    "JO2018:v2:gap_review:0389",
+    "JO2018:v2:gap_review:0390",
+    "JO2018:v2:gap_review:0391",
+    "JO2018:v2:gap_review:0392",
+    "JO2018:v2:gap_review:0393",
+    "JO2018:v2:gap_review:0394",
+    "JO2018:v2:gap_review:0395",
+    "JO2018:v2:gap_review:0396",
+    "JO2018:v2:gap_review:0397",
+    "JO2018:v2:gap_review:0398",
+    "JO2018:v2:gap_review:0399",
+    "JO2018:v2:gap_review:0400",
+    "JO2018:v2:gap_review:0401",
+    "JO2018:v2:gap_review:0402",
+    "JO2018:v2:gap_review:0403",
+    "JO2018:v2:gap_review:0404",
+    "JO2018:v2:gap_review:0405",
+    "JO2018:v2:gap_review:0406",
+    "JO2018:v2:gap_review:0407",
+    "JO2018:v2:gap_review:0408",
+    "JO2018:v2:gap_review:0409",
+    "JO2018:v2:gap_review:0410",
+    "JO2018:v2:gap_review:0411",
+    "JO2018:v2:gap_review:0412",
+    "JO2018:v2:gap_review:0413",
+    "JO2018:v2:gap_review:0414",
+    "JO2018:v2:gap_review:0415",
+    "JO2018:v2:gap_review:0416",
+    "JO2018:v2:gap_review:0417",
+    "JO2018:v2:gap_review:0418",
+    "JO2018:v2:gap_review:0419",
+    "JO2018:v2:gap_review:0420",
+    "JO2018:v2:gap_review:0421",
+    "JO2018:v2:gap_review:0422",
+    "JO2018:v2:gap_review:0423",
+    "JO2018:v2:gap_review:0424",
+    "JO2018:v2:gap_review:0425",
+    "JO2018:v2:gap_review:0426",
+    "JO2018:v2:gap_review:0427",
+    "JO2018:v2:gap_review:0428",
+    "JO2018:v2:gap_review:0429",
+    "JO2018:v2:gap_review:0430",
+    "JO2018:v2:gap_review:0431",
+    "JO2018:v2:gap_review:0432",
+    "JO2018:v2:gap_review:0433",
+    "JO2018:v2:gap_review:0434",
+    "JO2018:v2:gap_review:0435",
+    "JO2018:v2:gap_review:0436",
+    "JO2018:v2:gap_review:0437",
+    "JO2018:v2:gap_review:0438",
+    "JO2018:v2:gap_review:0439",
+    "JO2018:v2:gap_review:0440",
+    "JO2018:v2:gap_review:0441",
+    "JO2018:v2:gap_review:0442",
+    "JO2018:v2:gap_review:0443",
+    "JO2018:v2:gap_review:0444",
+    "JO2018:v2:gap_review:0445",
+    "JO2018:v2:gap_review:0446",
+    "JO2018:v2:gap_review:0447",
+    "JO2018:v2:gap_review:0448",
+    "JO2018:v2:gap_review:0449",
+    "JO2018:v2:gap_review:0450",
+    "JO2018:v2:gap_review:0451",
+    "JO2018:v2:gap_review:0452",
+    "JO2018:v2:gap_review:0453",
+    "JO2018:v2:gap_review:0454",
+    "JO2018:v2:gap_review:0455",
+    "JO2018:v2:gap_review:0456",
+    "JO2018:v2:gap_review:0457",
+    "JO2018:v2:gap_review:0458",
+    "JO2018:v2:gap_review:0459",
+    "JO2018:v2:gap_review:0460",
+    "JO2018:v2:gap_review:0461",
+    "JO2018:v2:gap_review:0462",
+    "JO2018:v2:gap_review:0463",
+    "JO2018:v2:gap_review:0464",
+    "JO2018:v2:gap_review:0465",
+    "JO2018:v2:gap_review:0466",
+    "JO2018:v2:gap_review:0467",
+    "JO2018:v2:gap_review:0468",
+    "JO2018:v2:gap_review:0469",
+    "JO2018:v2:gap_review:0470",
+    "JO2018:v2:gap_review:0471",
+    "JO2018:v2:gap_review:0472",
+    "JO2018:v2:gap_review:0473",
+    "JO2018:v2:gap_review:0474",
+    "JO2018:v2:gap_review:0475",
+    "JO2018:v2:gap_review:0476",
+    "JO2018:v2:gap_review:0477",
+    "JO2018:v2:gap_review:0478",
+    "JO2018:v2:gap_review:0479",
+    "JO2018:v2:gap_review:0480",
+    "JO2018:v2:gap_review:0481",
+    "JO2018:v2:gap_review:0482",
+    "JO2018:v2:gap_review:0483",
+    "JO2018:v2:gap_review:0484",
+    "JO2018:v2:gap_review:0485",
+    "JO2018:v2:gap_review:0486",
+    "JO2018:v2:gap_review:0487",
+    "JO2018:v2:gap_review:0488",
+    "JO2018:v2:gap_review:0489",
+    "JO2018:v2:gap_review:0490",
+    "JO2018:v2:gap_review:0491",
+    "JO2018:v2:gap_review:0492",
+    "JO2018:v2:gap_review:0493",
+    "JO2018:v2:gap_review:0494",
+    "JO2018:v2:gap_review:0495",
+    "JO2018:v2:gap_review:0496",
+    "JO2018:v2:gap_review:0497",
+    "JO2018:v2:gap_review:0498",
+    "JO2018:v2:gap_review:0499",
+    "JO2018:v2:gap_review:0500",
+    "JO2018:v2:gap_review:0501",
+    "JO2018:v2:gap_review:0502",
+    "JO2018:v2:gap_review:0503",
+    "JO2018:v2:gap_review:0504",
+    "JO2018:v2:gap_review:0505",
+    "JO2018:v2:gap_review:0506",
+    "JO2018:v2:gap_review:0507",
+    "JO2018:v2:gap_review:0508",
+    "JO2018:v2:gap_review:0509",
+    "JO2018:v2:gap_review:0510",
+    "JO2018:v2:gap_review:0511",
+    "JO2018:v2:gap_review:0512",
+    "JO2018:v2:gap_review:0513",
+    "JO2018:v2:gap_review:0514",
+    "JO2018:v2:gap_review:0515",
+    "JO2018:v2:gap_review:0516",
+    "JO2018:v2:gap_review:0517",
+    "JO2018:v2:gap_review:0518",
+    "JO2018:v2:gap_review:0519",
+    "JO2018:v2:gap_review:0520",
+    "JO2018:v2:gap_review:0521",
+    "JO2018:v2:gap_review:0522",
+    "JO2018:v2:gap_review:0523",
+    "JO2018:v2:gap_review:0524",
+    "JO2018:v2:gap_review:0525",
+    "JO2018:v2:gap_review:0526",
+    "JO2018:v2:gap_review:0527",
+    "JO2018:v2:gap_review:0528",
+    "JO2018:v2:gap_review:0529",
+    "JO2018:v2:gap_review:0530",
+    "JO2018:v2:gap_review:0531",
+    "JO2018:v2:gap_review:0532",
+    "JO2018:v2:gap_review:0533",
+    "JO2018:v2:gap_review:0534",
+    "JO2018:v2:gap_review:0535",
+    "JO2018:v2:gap_review:0536",
+    "JO2018:v2:gap_review:0537",
+    "JO2018:v2:gap_review:0538",
+    "JO2018:v2:gap_review:0539",
+    "JO2018:v2:gap_review:0540",
+    "JO2018:v2:gap_review:0541",
+    "JO2018:v2:gap_review:0542",
+    "JO2018:v2:gap_review:0543",
+    "JO2018:v2:gap_review:0544",
+    "JO2018:v2:gap_review:0545",
+    "JO2018:v2:gap_review:0546",
+    "JO2018:v2:gap_review:0547",
+    "JO2018:v2:gap_review:0548",
+    "JO2018:v2:gap_review:0549",
+    "JO2018:v2:gap_review:0550",
+    "JO2018:v2:gap_review:0551",
+    "JO2018:v2:gap_review:0552",
+    "JO2018:v2:gap_review:0553",
+    "JO2018:v2:gap_review:0554",
+    "JO2018:v2:gap_review:0555",
+    "JO2018:v2:gap_review:0556",
+    "JO2018:v2:gap_review:0557",
+    "JO2018:v2:gap_review:0558",
+    "JO2018:v2:gap_review:0559",
+    "JO2018:v2:gap_review:0560",
+    "JO2018:v2:gap_review:0561",
+    "JO2018:v2:gap_review:0562",
+    "JO2018:v2:gap_review:0563",
+    "JO2018:v2:gap_review:0564",
+    "JO2018:v2:gap_review:0565",
+    "JO2018:v2:gap_review:0566",
+    "JO2018:v2:gap_review:0567",
+    "JO2018:v2:gap_review:0568",
+    "JO2018:v2:gap_review:0569",
+    "JO2018:v2:gap_review:0570",
+    "JO2018:v2:gap_review:0571",
+    "JO2018:v2:gap_review:0572",
+    "JO2018:v2:gap_review:0573",
+    "JO2018:v2:gap_review:0574",
+    "JO2018:v2:gap_review:0575",
+    "JO2018:v2:gap_review:0576",
+    "JO2018:v2:gap_review:0577",
+    "JO2018:v2:gap_review:0578",
+    "JO2018:v2:gap_review:0579",
+    "JO2018:v2:gap_review:0580",
+    "JO2018:v2:gap_review:0581",
+    "JO2018:v2:gap_review:0582",
+    "JO2018:v2:gap_review:0583",
+    "JO2018:v2:gap_review:0584",
+    "JO2018:v2:gap_review:0585",
+    "JO2018:v2:gap_review:0586",
+    "JO2018:v2:gap_review:0587",
+    "JO2018:v2:gap_review:0588",
+    "JO2018:v2:gap_review:0589",
+    "JO2018:v2:gap_review:0590",
+    "JO2018:v2:gap_review:0591",
+    "JO2018:v2:gap_review:0592",
+    "JO2018:v2:gap_review:0593",
+    "JO2018:v2:gap_review:0594",
+    "JO2018:v2:gap_review:0595",
+    "JO2018:v2:gap_review:0596",
+    "JO2018:v2:gap_review:0597",
+    "JO2018:v2:gap_review:0598",
+    "JO2018:v2:gap_review:0599",
+    "JO2018:v2:gap_review:0600"
+  ],
+  "summary": {
+    "original_gap_pages": 66,
+    "added_facts": 600,
+    "disposition_counts": {
+      "resolved": 35,
+      "source_limitation": 31
+    }
+  },
+  "review_boundary": "Readable tables, researcher-owned paradigms, distinct constructions and attested examples have been reviewed. Opaque utterances remain reference-only rather than invented lexical decompositions. Modern symbol interpretation, source arithmetic contradictions and original audio are explicitly limited. No claims of exhaustive token morphology or external cited-source review."
+}

@@ -174,7 +174,12 @@
                 "speech_level",
                 "host_class"
               ],
-              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다. 2026-09-28: 조건 공급원은 feature_sources로 구분한다.",
+              "feature_sources": {
+                "question_type": "input",
+                "speech_level": "target",
+                "host_class": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -356,7 +361,12 @@
                 "speech_level",
                 "host_class"
               ],
-              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다. 2026-09-28: 조건 공급원은 feature_sources로 구분한다.",
+              "feature_sources": {
+                "question_type": "input",
+                "speech_level": "target",
+                "host_class": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -565,7 +575,14 @@
                 "prefinal_profile",
                 "nominal_coda"
               ],
-              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다. 2026-09-28: 조건 공급원은 feature_sources로 구분한다.",
+              "feature_sources": {
+                "question_type": "input",
+                "speech_level": "target",
+                "host_class": "input",
+                "prefinal_profile": "candidate",
+                "nominal_coda": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -646,7 +663,14 @@
                 "prefinal_profile",
                 "nominal_coda"
               ],
-              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다. 2026-09-28: 조건 공급원은 feature_sources로 구분한다.",
+              "feature_sources": {
+                "question_type": "input",
+                "speech_level": "target",
+                "host_class": "input",
+                "prefinal_profile": "candidate",
+                "nominal_coda": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -880,7 +904,14 @@
                 "prefinal_profile",
                 "nominal_coda"
               ],
-              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다. 2026-09-28: 조건 공급원은 feature_sources로 구분한다.",
+              "feature_sources": {
+                "question_type": "input",
+                "speech_level": "target",
+                "host_class": "input",
+                "prefinal_profile": "candidate",
+                "nominal_coda": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -961,7 +992,14 @@
                 "prefinal_profile",
                 "nominal_coda"
               ],
-              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다. 2026-09-28: 조건 공급원은 feature_sources로 구분한다.",
+              "feature_sources": {
+                "question_type": "input",
+                "speech_level": "target",
+                "host_class": "input",
+                "prefinal_profile": "candidate",
+                "nominal_coda": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1193,7 +1231,13 @@
                 "host_class",
                 "prefinal_profile"
               ],
-              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다. 2026-09-28: 조건 공급원은 feature_sources로 구분한다.",
+              "feature_sources": {
+                "question_type": "input",
+                "speech_level": "target",
+                "host_class": "input",
+                "prefinal_profile": "candidate"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1262,7 +1306,13 @@
                 "host_class",
                 "prefinal_profile"
               ],
-              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다. 2026-09-28: 조건 공급원은 feature_sources로 구분한다.",
+              "feature_sources": {
+                "question_type": "input",
+                "speech_level": "target",
+                "host_class": "input",
+                "prefinal_profile": "candidate"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1331,7 +1381,13 @@
                 "host_class",
                 "prefinal_profile"
               ],
-              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다. 2026-09-28: 조건 공급원은 feature_sources로 구분한다.",
+              "feature_sources": {
+                "question_type": "input",
+                "speech_level": "target",
+                "host_class": "input",
+                "prefinal_profile": "candidate"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1400,7 +1456,13 @@
                 "host_class",
                 "prefinal_profile"
               ],
-              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다. 2026-09-28: 조건 공급원은 feature_sources로 구분한다.",
+              "feature_sources": {
+                "question_type": "input",
+                "speech_level": "target",
+                "host_class": "input",
+                "prefinal_profile": "candidate"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1634,7 +1696,13 @@
                 "host_class",
                 "prefinal_profile"
               ],
-              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다. 2026-09-28: 조건 공급원은 feature_sources로 구분한다.",
+              "feature_sources": {
+                "question_type": "input",
+                "speech_level": "target",
+                "host_class": "input",
+                "prefinal_profile": "candidate"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1703,7 +1771,13 @@
                 "host_class",
                 "prefinal_profile"
               ],
-              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다. 2026-09-28: 조건 공급원은 feature_sources로 구분한다.",
+              "feature_sources": {
+                "question_type": "input",
+                "speech_level": "target",
+                "host_class": "input",
+                "prefinal_profile": "candidate"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1772,7 +1846,13 @@
                 "host_class",
                 "prefinal_profile"
               ],
-              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다. 2026-09-28: 조건 공급원은 feature_sources로 구분한다.",
+              "feature_sources": {
+                "question_type": "input",
+                "speech_level": "target",
+                "host_class": "input",
+                "prefinal_profile": "candidate"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1841,7 +1921,13 @@
                 "host_class",
                 "prefinal_profile"
               ],
-              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다. 2026-09-28: 조건 공급원은 feature_sources로 구분한다.",
+              "feature_sources": {
+                "question_type": "input",
+                "speech_level": "target",
+                "host_class": "input",
+                "prefinal_profile": "candidate"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1910,7 +1996,13 @@
                 "host_class",
                 "prefinal_profile"
               ],
-              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다. 2026-09-28: 조건 공급원은 feature_sources로 구분한다.",
+              "feature_sources": {
+                "question_type": "input",
+                "speech_level": "target",
+                "host_class": "input",
+                "prefinal_profile": "candidate"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1979,7 +2071,13 @@
                 "host_class",
                 "prefinal_profile"
               ],
-              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다. 2026-09-28: 조건 공급원은 feature_sources로 구분한다.",
+              "feature_sources": {
+                "question_type": "input",
+                "speech_level": "target",
+                "host_class": "input",
+                "prefinal_profile": "candidate"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -2048,7 +2146,13 @@
                 "host_class",
                 "prefinal_profile"
               ],
-              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다. 2026-09-28: 조건 공급원은 feature_sources로 구분한다.",
+              "feature_sources": {
+                "question_type": "input",
+                "speech_level": "target",
+                "host_class": "input",
+                "prefinal_profile": "candidate"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -2117,7 +2221,13 @@
                 "host_class",
                 "prefinal_profile"
               ],
-              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다. 2026-09-28: 조건 공급원은 feature_sources로 구분한다.",
+              "feature_sources": {
+                "question_type": "input",
+                "speech_level": "target",
+                "host_class": "input",
+                "prefinal_profile": "candidate"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -2350,7 +2460,13 @@
                 "host_class",
                 "prefinal_profile"
               ],
-              "mapping_note": "11쪽 예외 서술을 구조화하되 8쪽 표와의 충돌 때문에 확정 적용하지 않는다."
+              "mapping_note": "11쪽 예외 서술을 구조화하되 8쪽 표와의 충돌 때문에 확정 적용하지 않는다. 2026-09-28: 조건 공급원은 feature_sources로 구분한다.",
+              "feature_sources": {
+                "question_type": "input",
+                "speech_level": "target",
+                "host_class": "input",
+                "prefinal_profile": "candidate"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -2419,7 +2535,13 @@
                 "host_class",
                 "prefinal_profile"
               ],
-              "mapping_note": "주체 높임과 청자 높임을 다른 분석값으로 유지한다. 내부 충돌 해결 전 생성 보류."
+              "mapping_note": "주체 높임과 청자 높임을 다른 분석값으로 유지한다. 내부 충돌 해결 전 생성 보류. 2026-09-28: 조건 공급원은 feature_sources로 구분한다.",
+              "feature_sources": {
+                "question_type": "input",
+                "speech_level": "target",
+                "host_class": "input",
+                "prefinal_profile": "candidate"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -2488,7 +2610,13 @@
                 "host_class",
                 "prefinal_profile"
               ],
-              "mapping_note": "11쪽 예외 서술을 구조화하되 8쪽 표와의 충돌 때문에 확정 적용하지 않는다."
+              "mapping_note": "11쪽 예외 서술을 구조화하되 8쪽 표와의 충돌 때문에 확정 적용하지 않는다. 2026-09-28: 조건 공급원은 feature_sources로 구분한다.",
+              "feature_sources": {
+                "question_type": "input",
+                "speech_level": "target",
+                "host_class": "input",
+                "prefinal_profile": "candidate"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -2557,7 +2685,13 @@
                 "host_class",
                 "prefinal_profile"
               ],
-              "mapping_note": "주체 높임과 청자 높임을 다른 분석값으로 유지한다. 내부 충돌 해결 전 생성 보류."
+              "mapping_note": "주체 높임과 청자 높임을 다른 분석값으로 유지한다. 내부 충돌 해결 전 생성 보류. 2026-09-28: 조건 공급원은 feature_sources로 구분한다.",
+              "feature_sources": {
+                "question_type": "input",
+                "speech_level": "target",
+                "host_class": "input",
+                "prefinal_profile": "candidate"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -2718,7 +2852,10 @@
               "input_features": [
                 "question_type"
               ],
-              "mapping_note": "의문사가 보인다는 이유만으로 content를 확정하지 않는다. 절별 문맥·강세 단서 또는 사용자 설명이 필요하다."
+              "mapping_note": "의문사가 보인다는 이유만으로 content를 확정하지 않는다. 절별 문맥·강세 단서 또는 사용자 설명이 필요하다.",
+              "feature_sources": {
+                "question_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -2752,7 +2889,10 @@
               "input_features": [
                 "question_type"
               ],
-              "mapping_note": "불확실한 질문은 polar/content 두 후보를 유지하며 종결어미를 단정하지 않는다."
+              "mapping_note": "불확실한 질문은 polar/content 두 후보를 유지하며 종결어미를 단정하지 않는다.",
+              "feature_sources": {
+                "question_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -2935,7 +3075,11 @@
                 "question_type",
                 "speech_level"
               ],
-              "mapping_note": "응답 요구 여부와 질문 형식을 분리한다. 이 관계만으로 결합 어미를 확정하지 않는다."
+              "mapping_note": "응답 요구 여부와 질문 형식을 분리한다. 이 관계만으로 결합 어미를 확정하지 않는다.",
+              "feature_sources": {
+                "question_type": "input",
+                "speech_level": "target"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -2984,7 +3128,11 @@
                 "question_type",
                 "speech_level"
               ],
-              "mapping_note": "감탄 의문에서는 의문사가 생략될 수 있어 표면 의문사 부재를 polar로 자동 변환하지 않는다."
+              "mapping_note": "감탄 의문에서는 의문사가 생략될 수 있어 표면 의문사 부재를 polar로 자동 변환하지 않는다.",
+              "feature_sources": {
+                "question_type": "input",
+                "speech_level": "target"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -3172,7 +3320,10 @@
               "input_features": [
                 "question_type"
               ],
-              "mapping_note": "질문 해석과 별도로 기록의 지역 범위를 대조한다. 높임 범위는 이 단락만으로 확정하지 않는다."
+              "mapping_note": "질문 해석과 별도로 기록의 지역 범위를 대조한다. 높임 범위는 이 단락만으로 확정하지 않는다.",
+              "feature_sources": {
+                "question_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -3206,7 +3357,10 @@
               "input_features": [
                 "question_type"
               ],
-              "mapping_note": "표준어 -지 문자열 전체를 일괄 치환하지 않는다."
+              "mapping_note": "표준어 -지 문자열 전체를 일괄 치환하지 않는다.",
+              "feature_sources": {
+                "question_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -3390,7 +3544,10 @@
               "input_features": [
                 "question_type"
               ],
-              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다.",
+              "feature_sources": {
+                "question_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -3424,7 +3581,10 @@
               "input_features": [
                 "question_type"
               ],
-              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다.",
+              "feature_sources": {
+                "question_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -3597,7 +3757,10 @@
               "input_features": [
                 "question_type"
               ],
-              "mapping_note": "질문의 내용뿐 아니라 응답 요구·자문 해석을 확인한다. 동일 문자열 머꼬도 복수 해석을 보존한다."
+              "mapping_note": "질문의 내용뿐 아니라 응답 요구·자문 해석을 확인한다. 동일 문자열 머꼬도 복수 해석을 보존한다.",
+              "feature_sources": {
+                "question_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -3631,9 +3794,134 @@
               "input_features": [
                 "question_type"
               ],
-              "mapping_note": "질문의 내용뿐 아니라 응답 요구·자문 해석을 확인한다. 동일 문자열 머꼬도 복수 해석을 보존한다."
+              "mapping_note": "질문의 내용뿐 아니라 응답 요구·자문 해석을 확인한다. 동일 문자열 머꼬도 복수 해석을 보존한다.",
+              "feature_sources": {
+                "question_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E6"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "CONTENT_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "content"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "interrogative"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                },
+                {
+                  "field": "response_orientation",
+                  "operator": "is",
+                  "values": [
+                    "addressee"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "response_orientation",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 기능의 접근 경로이며 동일 형태의 다른 용법과 조건을 합치지 않는다.",
+              "feature_sources": {
+                "question_type": "input",
+                "response_orientation": "input",
+                "sentence_type": "input"
+              }
+            },
+            "assertion_mode": "extractor_interpretation",
+            "evidence_keys": [
+              "E6"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "CONTENT_QUESTION"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "question_type",
+                  "operator": "is",
+                  "values": [
+                    "content"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "interrogative"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                },
+                {
+                  "field": "response_orientation",
+                  "operator": "is",
+                  "values": [
+                    "self"
+                  ],
+                  "evidence_keys": [
+                    "E6"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "question_type",
+                "response_orientation",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 기능의 접근 경로이며 동일 형태의 다른 용법과 조건을 합치지 않는다.",
+              "feature_sources": {
+                "question_type": "input",
+                "response_orientation": "input",
+                "sentence_type": "input"
+              }
+            },
+            "assertion_mode": "extractor_interpretation",
             "evidence_keys": [
               "E6"
             ]
@@ -3747,7 +4035,9 @@
           1
         ],
         "remaining_relation_indexes": [
-          2
+          2,
+          3,
+          4
         ],
         "independent_review": false,
         "naturalness_test_performed": false
@@ -3827,7 +4117,10 @@
               "input_features": [
                 "question_type"
               ],
-              "mapping_note": "절 위치·목표 높임·발화 의도에 따라 갈라지는 용법이다. 이번 기록은 세부 용법 분기의 원문 목록이며 종결 선택 규칙이 아니다."
+              "mapping_note": "절 위치·목표 높임·발화 의도에 따라 갈라지는 용법이다. 이번 기록은 세부 용법 분기의 원문 목록이며 종결 선택 규칙이 아니다.",
+              "feature_sources": {
+                "question_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -3861,7 +4154,10 @@
               "input_features": [
                 "question_type"
               ],
-              "mapping_note": "문장 중간의 형태를 주절 종결어미로 자동 조회하지 않는다."
+              "mapping_note": "문장 중간의 형태를 주절 종결어미로 자동 조회하지 않는다.",
+              "feature_sources": {
+                "question_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -3895,7 +4191,10 @@
               "input_features": [
                 "question_type"
               ],
-              "mapping_note": "비음 첨가의 가끔 나타남을 필수 규칙으로 만들지 않는다."
+              "mapping_note": "비음 첨가의 가끔 나타남을 필수 규칙으로 만들지 않는다.",
+              "feature_sources": {
+                "question_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -3929,7 +4228,10 @@
               "input_features": [
                 "question_type"
               ],
-              "mapping_note": "비음 표기와 기본 어미 용법을 분리한다."
+              "mapping_note": "비음 표기와 기본 어미 용법을 분리한다.",
+              "feature_sources": {
+                "question_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -4101,7 +4403,11 @@
                 "question_type",
                 "host_class"
               ],
-              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다.",
+              "feature_sources": {
+                "host_class": "input",
+                "question_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -4146,7 +4452,11 @@
                 "question_type",
                 "host_class"
               ],
-              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다."
+              "mapping_note": "동일 절의 질문 해석과 결합 환경을 공통 분석값으로 정규화한다. 방언 사용 승인과는 별개다.",
+              "feature_sources": {
+                "host_class": "input",
+                "question_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -4308,7 +4618,10 @@
               "input_features": [
                 "question_type"
               ],
-              "mapping_note": "지역 변이를 기본 의문형 규칙의 별도 조건으로 대조한다. 모든 용법이 -나로 통합되었다고 확정하지 않는다."
+              "mapping_note": "지역 변이를 기본 의문형 규칙의 별도 조건으로 대조한다. 모든 용법이 -나로 통합되었다고 확정하지 않는다.",
+              "feature_sources": {
+                "question_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -4443,7 +4756,10 @@
               "input_features": [
                 "question_type"
               ],
-              "mapping_note": "직접 제시된 예문이 설명 의문이므로 이번 연결도 content에 한정한다. 판정 의문까지 확대하지 않는다."
+              "mapping_note": "직접 제시된 예문이 설명 의문이므로 이번 연결도 content에 한정한다. 판정 의문까지 확대하지 않는다.",
+              "feature_sources": {
+                "question_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [

@@ -1,0 +1,30 @@
+{"id": "DEV001", "standard": "오늘은 날씨가 참 좋네요.", "inspection_focus": "일상 진술·감탄", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV002", "standard": "집에 가는 길에 빵을 샀어.", "inspection_focus": "과거 사건·행동 순서", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV003", "standard": "이 음식은 생각보다 맵네요.", "inspection_focus": "비교·정도", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV004", "standard": "아까 문 앞에 있던 사람이 제 친구예요.", "inspection_focus": "사람 지칭·관형절", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV005", "standard": "나는 커피보다 차가 더 좋아.", "inspection_focus": "선호·비교", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV006", "standard": "할머니께서 지금 방에서 쉬고 계세요.", "inspection_focus": "주체높임·진행", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV007", "standard": "나는 아직 점심을 안 먹었어.", "inspection_focus": "부정·아직", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV008", "standard": "비가 너무 많이 와서 밖에 못 나가겠어요.", "inspection_focus": "원인·불가능", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV009", "standard": "그 사람이 싫은 건 아니야.", "inspection_focus": "부분적인 부정", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV010", "standard": "오늘 안에 다 끝낼 수 있을 것 같아요.", "inspection_focus": "가능성·추측", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV011", "standard": "버스가 벌써 출발했나요?", "inspection_focus": "판정 질문·완료", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV012", "standard": "열쇠를 어디에 뒀어?", "inspection_focus": "장소 질문·과거", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV013", "standard": "내일 몇 시에 만나면 될까요?", "inspection_focus": "시간 질문·일정 조율", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV014", "standard": "아까 왜 아무 말도 안 했어?", "inspection_focus": "이유 질문·부정", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV015", "standard": "이 우산은 누구 거예요?", "inspection_focus": "소유 질문·계사", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV016", "standard": "너는 지금 집에 가는 거야, 아니면 회사로 돌아가는 거야?", "inspection_focus": "선택 질문·대안 유지", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV017", "standard": "문 좀 닫아 주세요.", "inspection_focus": "정중한 부탁", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV018", "standard": "이 상자 옮기는 것 좀 도와줄래?", "inspection_focus": "반말 부탁·행동 대상", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV019", "standard": "바닥이 미끄러우니까 천천히 걸으세요.", "inspection_focus": "경고·이유·권고", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV020", "standard": "그 얘기는 다른 사람한테 하지 마.", "inspection_focus": "금지·전달 대상", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV021", "standard": "잠깐만 기다려 주세요. 제가 확인해 볼게요.", "inspection_focus": "부탁·화자의 의지", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV022", "standard": "시간 괜찮으면 같이 점심 먹자.", "inspection_focus": "조건·제안", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV023", "standard": "어제부터 목이 아팠는데 오늘은 좀 괜찮아요.", "inspection_focus": "시간 변화·대조", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV024", "standard": "내가 도착할 때까지 여기서 기다려.", "inspection_focus": "시간의 끝점·지시", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV025", "standard": "시간이 없으면 내일 해도 돼.", "inspection_focus": "조건·허용", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV026", "standard": "늦을까 봐 조금 일찍 나왔어요.", "inspection_focus": "우려·행동 이유", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV027", "standard": "동생이 오늘은 늦게 온다고 했어.", "inspection_focus": "간접 인용·시간", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV028", "standard": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.", "inspection_focus": "인용된 지시의 부정", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV029", "standard": "그 가게에 가 봤는데 음식이 괜찮더라.", "inspection_focus": "경험·회상·평가", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}
+{"id": "DEV030", "standard": "피곤하면 먼저 자. 뒷정리는 내가 할게.", "inspection_focus": "조건·배려·역할 분담", "origin": "assistant_authored_in_conversation", "split": "development", "dialect_reference": null}

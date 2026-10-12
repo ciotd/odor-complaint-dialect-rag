@@ -1,0 +1,194 @@
+{
+  "version": "0.1",
+  "analysis_origin": "manual_researcher_annotation_not_model_output",
+  "status": "development_diagnostic",
+  "analysis_contract": {
+    "required_bindings": [
+      "clause_id",
+      "predicate_complex_id",
+      "span",
+      "text"
+    ],
+    "separate_fields": [
+      "sentence_type",
+      "speech_act",
+      "observed_addressee_politeness",
+      "subject_honorific_marker",
+      "target_style_hypotheses"
+    ],
+    "unknown": "null or missing feature; never invented participant relationship",
+    "style_policy": "Preserve intent and relative politeness. Target speech levels are explicit hypotheses until correspondence is reviewed.",
+    "analysis_scope": "Three main clauses; embedded conditional clause in DEV013 is recorded but not yet queried.",
+    "future_model_adapter": "Qwen/Jev must emit the same clause-bound fields; origin and raw response must be retained. No model adapter implemented."
+  },
+  "items": [
+    {
+      "id": "DEV011",
+      "input": "버스가 벌써 출발했나요?",
+      "clauses": [
+        {
+          "clause_id": "DEV011:main",
+          "predicate_complex_id": "DEV011:predicate:main",
+          "span": [
+            0,
+            13
+          ],
+          "text": "버스가 벌써 출발했나요?",
+          "predicate": {
+            "lemma": "출발하다",
+            "surface": "출발했나요",
+            "span": [
+              7,
+              12
+            ]
+          },
+          "features": {
+            "sentence_type": "interrogative",
+            "question_type": "polar",
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "prefinal_profile": "switching_prefinal_present"
+          },
+          "speech_act": {
+            "primary": "information_request",
+            "secondary": [],
+            "origin": "researcher_annotation"
+          },
+          "observed_addressee_politeness": "polite",
+          "subject_honorific_marker": false,
+          "speaker_relationship": null,
+          "target_region": null,
+          "notes": "-었- 과거/완료. -나요의 부드러운 질문 효과를 단순 격식 높임과 동일시하지 않는다.",
+          "embedded_clauses": [],
+          "target_style_hypotheses": [
+            {
+              "speech_level": "HASOCHE",
+              "origin": "researcher_proposed_scenario",
+              "rationale": "말투 대응 검토용 분기. 원문과 동등한 공손함·격식이라고 확정하지 않음."
+            },
+            {
+              "speech_level": "HAISOCHE",
+              "origin": "researcher_proposed_scenario",
+              "rationale": "말투 대응 검토용 분기. 원문과 동등한 공손함·격식이라고 확정하지 않음."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEV012",
+      "input": "열쇠를 어디에 뒀어?",
+      "clauses": [
+        {
+          "clause_id": "DEV012:main",
+          "predicate_complex_id": "DEV012:predicate:main",
+          "span": [
+            0,
+            11
+          ],
+          "text": "열쇠를 어디에 뒀어?",
+          "predicate": {
+            "lemma": "두다",
+            "surface": "뒀어",
+            "span": [
+              8,
+              10
+            ]
+          },
+          "features": {
+            "sentence_type": "interrogative",
+            "question_type": "content",
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "prefinal_profile": "switching_prefinal_present"
+          },
+          "speech_act": {
+            "primary": "information_request",
+            "secondary": [],
+            "origin": "researcher_annotation"
+          },
+          "observed_addressee_politeness": "non_polite",
+          "subject_honorific_marker": false,
+          "speaker_relationship": null,
+          "target_region": null,
+          "notes": "두-+-었-의 축약 분석. 해체에서 방언 해라체로의 자동 동일시는 하지 않는다.",
+          "embedded_clauses": [],
+          "target_style_hypotheses": [
+            {
+              "speech_level": "HAERACHE",
+              "origin": "researcher_proposed_scenario",
+              "rationale": "말투 대응 검토용 분기. 원문과 동등한 공손함·격식이라고 확정하지 않음."
+            },
+            {
+              "speech_level": "HAECHE",
+              "origin": "researcher_proposed_scenario",
+              "rationale": "말투 대응 검토용 분기. 원문과 동등한 공손함·격식이라고 확정하지 않음."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DEV013",
+      "input": "내일 몇 시에 만나면 될까요?",
+      "clauses": [
+        {
+          "clause_id": "DEV013:main",
+          "predicate_complex_id": "DEV013:predicate:main",
+          "span": [
+            0,
+            16
+          ],
+          "text": "내일 몇 시에 만나면 될까요?",
+          "predicate": {
+            "lemma": "되다",
+            "surface": "될까요",
+            "span": [
+              12,
+              15
+            ]
+          },
+          "features": {
+            "sentence_type": "interrogative",
+            "question_type": "content",
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "prefinal_profile": "none"
+          },
+          "speech_act": {
+            "primary": "information_request",
+            "secondary": [
+              "schedule_coordination"
+            ],
+            "origin": "researcher_annotation"
+          },
+          "observed_addressee_politeness": "polite",
+          "subject_honorific_marker": false,
+          "speaker_relationship": null,
+          "target_region": null,
+          "notes": "만나면 조건절과 되다 주절. 일정 조율/상대 의견을 묻는 -(으)ㄹ까요의 양태를 보존해야 한다. -ㄹ까를 미래 선어말어미로 단정하지 않는다.",
+          "embedded_clauses": [
+            {
+              "text": "내일 몇 시에 만나면",
+              "predicate_lemma": "만나다",
+              "function": "conditional",
+              "retrieval_status": "outside_this_final_ending_probe"
+            }
+          ],
+          "target_style_hypotheses": [
+            {
+              "speech_level": "HASOCHE",
+              "origin": "researcher_proposed_scenario",
+              "rationale": "말투 대응 검토용 분기. 원문과 동등한 공손함·격식이라고 확정하지 않음."
+            },
+            {
+              "speech_level": "HAISOCHE",
+              "origin": "researcher_proposed_scenario",
+              "rationale": "말투 대응 검토용 분기. 원문과 동등한 공손함·격식이라고 확정하지 않음."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

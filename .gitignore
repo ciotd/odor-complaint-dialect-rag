@@ -1,5 +1,6 @@
 # secrets
 .env
+current_kg/.runtime/
 # outputs
 results/
 *.log
@@ -58,3 +59,15 @@ current_kg/claims/v3/background_run/*.lock
 
 # AI-Hub 파생 예비 진단 문장쌍 (로컬 보관, 구성 스크립트만 추적)
 current_kg/experiments/baseline_testset_*.jsonl
+
+# Reorganized local raw runs and corpus-derived inputs
+current_kg/experiments/archive/runs/
+current_kg/experiments/inputs/baseline_testset_*.jsonl
+
+# Full local source extracts and model review payloads; reproduce from local PDFs.
+current_kg/grammar/source_evidence/pages.jsonl
+current_kg/grammar/source_evidence/units.jsonl
+current_kg/grammar/source_evidence/review*.jsonl
+current_kg/grammar/source_evidence/review.lock
+current_kg/experiments/reports/source_expansion/retrieval_*.json
+current_kg/experiments/reports/source_expansion/binding_recheck.json

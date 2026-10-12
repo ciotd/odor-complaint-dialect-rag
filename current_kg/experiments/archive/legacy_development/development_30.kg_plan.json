@@ -1,0 +1,724 @@
+{
+  "status": "development_manual_selection_not_gold",
+  "selection_author": "Codex",
+  "seed": 20260923,
+  "policy": {
+    "system_prompt": "identical to prior baseline; exact text frozen in development_30.config.json",
+    "model": "Qwen3.8-27B",
+    "source_of_selection": "standard input and existing KG; prior baseline outputs have already been seen",
+    "operational_approval": "No persistent KG record approval changes. Experimental reference only.",
+    "allowed_records": "source_fidelity author_checked only; no needs_review; no example_only assertions",
+    "condition_policy": "all/any existing conditions evaluated with explicitly recorded manual features; unknown/mismatch held",
+    "expansion": "matching variant_of edges one hop; safe integration edges one hop only with matching target assertions; no condition inheritance",
+    "pairing": "same seed in each request; one output per condition per input; alternate condition order",
+    "limits": "manual selection + evidence + wrapper instruction is one intervention; not isolated graph-structure effect; one seed; not held-out evaluation"
+  },
+  "items": [
+    {
+      "id": "DEV001",
+      "input": "오늘은 날씨가 참 좋네요.",
+      "input_anchor": "좋네요",
+      "manual_analysis": "비격식 높임의 감탄적 평서.",
+      "coverage_limit": "감탄과 높임의 복합 결합은 전체 검증되지 않음.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-H028:A1",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-H028:A2",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-R026:A1",
+          "manual_known_features": {
+            "meaning": "exclamation"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV002",
+      "input": "집에 가는 길에 빵을 샀어.",
+      "input_anchor": "샀어",
+      "manual_analysis": "과거 구매 사건과 비격식 비높임 서술.",
+      "coverage_limit": "가는 길에라는 동시·이동 맥락의 별도 관계 미선택.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-R050:A1",
+          "manual_known_features": {
+            "meaning": "과거·회상·미래 해석"
+          }
+        },
+        {
+          "assertion_id": "GYS-R041:A3",
+          "manual_known_features": {
+            "meaning": "평서 서술"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV003",
+      "input": "이 음식은 생각보다 맵네요.",
+      "input_anchor": "맵네요 / 생각보다",
+      "manual_analysis": "비격식 높임과 예상 기준의 정도 비교.",
+      "coverage_limit": "명사 비교 조사 지식을 예상 비교 전체에 강제 치환하지 않음.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-H028:A1",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-H028:A2",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-G028:A1",
+          "manual_known_features": {
+            "meaning": "우열 비교"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV004",
+      "input": "아까 문 앞에 있던 사람이 제 친구예요.",
+      "input_anchor": "제 친구예요",
+      "manual_analysis": "비격식 높임과 계사 서술.",
+      "coverage_limit": "관형절·아까의 시간 해석은 별도 KG 후보 없음.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-H028:A1",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-H028:A2",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-R034:A3",
+          "manual_known_features": {
+            "meaning": "문장 성분과 조사"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV005",
+      "input": "나는 커피보다 차가 더 좋아.",
+      "input_anchor": "커피보다 차가 더 좋아",
+      "manual_analysis": "선호 대상을 비교하는 우열 비교.",
+      "coverage_limit": "정도 강화나 화제 강조를 추가하지 않음.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-G028:A1",
+          "manual_known_features": {
+            "meaning": "우열 비교"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV006",
+      "input": "할머니께서 지금 방에서 쉬고 계세요.",
+      "input_anchor": "쉬고 계세요",
+      "manual_analysis": "비격식 상대높임의 진술.",
+      "coverage_limit": "주체높임과 계시다 진행 구성은 이번 선택 지식에서 미충족.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-H028:A1",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-H028:A2",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV007",
+      "input": "나는 아직 점심을 안 먹었어.",
+      "input_anchor": "안 먹었어",
+      "manual_analysis": "단형 안 부정과 비격식 비높임 서술.",
+      "coverage_limit": "아직의 시간 범위는 입력을 유지하며 별도 KG 근거 없음.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-G008:A1",
+          "manual_known_features": {
+            "meaning": "short_negation"
+          }
+        },
+        {
+          "assertion_id": "GYS-R041:A3",
+          "manual_known_features": {
+            "meaning": "평서 서술"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV008",
+      "input": "비가 너무 많이 와서 밖에 못 나가겠어요.",
+      "input_anchor": "와서 / 못 나가겠어요",
+      "manual_analysis": "원인 연결과 사정에 따른 불가능, 비격식 높임.",
+      "coverage_limit": "겠의 양태는 새 의미로 확정하지 않음.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-H028:A1",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-H028:A2",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-R021:A1",
+          "manual_known_features": {
+            "meaning": "inability_or_circumstantial_negation"
+          }
+        },
+        {
+          "assertion_id": "GYS-R047:A1",
+          "manual_known_features": {
+            "meaning": "원인·이유"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV009",
+      "input": "그 사람이 싫은 건 아니야.",
+      "input_anchor": "싫은 건 아니야",
+      "manual_analysis": "아니다의 비격식 현재 실현을 참고.",
+      "coverage_limit": "싫다는 명제 전체를 긍정으로 바꾸지 않는 부정 범위는 별도 지식 미확보.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-G018:A2",
+          "manual_known_features": {
+            "meaning": "계사·아니다 비격식 실현"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV010",
+      "input": "오늘 안에 다 끝낼 수 있을 것 같아요.",
+      "input_anchor": "끝낼 수 있을 것 같아요",
+      "manual_analysis": "비격식 높임의 가능성 추측 진술.",
+      "coverage_limit": "수 있다·것 같다의 전체 구성 지식은 이번 패킷에 없음.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-H028:A1",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-H028:A2",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV011",
+      "input": "버스가 벌써 출발했나요?",
+      "input_anchor": "출발했나요",
+      "manual_analysis": "출발 여부를 묻는 판정 질문, 비격식 높임.",
+      "coverage_limit": "표준어 높임을 HAERACHE로 매핑하지 않으므로 Q001은 보류.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-H028:A1",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-H028:A2",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-Q001:A1",
+          "manual_known_features": {
+            "question_type": "polar",
+            "host_class": "predicate_other_than_anida",
+            "sentence_type": "interrogative"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV012",
+      "input": "열쇠를 어디에 뒀어?",
+      "input_anchor": "어디에 뒀어",
+      "manual_analysis": "장소 정보를 요청하는 설명 질문, 과거 사건.",
+      "coverage_limit": "목표 방언 높임 등급을 강제하지 않으므로 Q002의 해당 조건은 미확인.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-Q002:A1",
+          "manual_known_features": {
+            "question_type": "content",
+            "host_class": "predicate_other_than_anida",
+            "sentence_type": "interrogative"
+          }
+        },
+        {
+          "assertion_id": "GYS-R050:A1",
+          "manual_known_features": {
+            "meaning": "과거·회상·미래 해석"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV013",
+      "input": "내일 몇 시에 만나면 될까요?",
+      "input_anchor": "몇 시에 만나면 될까요",
+      "manual_analysis": "시간 질문과 일정 조율, 비격식 높임.",
+      "coverage_limit": "Q011은 원문 해석 needs_review로 제외.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-H028:A1",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-H028:A2",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-Q011:A1",
+          "manual_known_features": {}
+        }
+      ]
+    },
+    {
+      "id": "DEV014",
+      "input": "아까 왜 아무 말도 안 했어?",
+      "input_anchor": "왜 / 안 했어",
+      "manual_analysis": "이유를 묻는 설명 질문 안의 과거 부정.",
+      "coverage_limit": "Q002 목표 방언 높임 등급은 미확인.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-Q002:A1",
+          "manual_known_features": {
+            "question_type": "content",
+            "host_class": "predicate_other_than_anida",
+            "sentence_type": "interrogative"
+          }
+        },
+        {
+          "assertion_id": "GYS-G008:A1",
+          "manual_known_features": {
+            "meaning": "short_negation"
+          }
+        },
+        {
+          "assertion_id": "GYS-R050:A1",
+          "manual_known_features": {
+            "meaning": "과거·회상·미래 해석"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV015",
+      "input": "이 우산은 누구 거예요?",
+      "input_anchor": "누구 거예요",
+      "manual_analysis": "소유자를 묻는 계사 설명 질문, 비격식 높임.",
+      "coverage_limit": "누구 거 구성의 체언 분석·방언 높임 매핑을 확정하지 않아 Q004 보류.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-H028:A1",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-H028:A2",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-Q004:A1",
+          "manual_known_features": {
+            "question_type": "content",
+            "host_class": "nominal_copula",
+            "prefinal_profile": "none",
+            "sentence_type": "interrogative"
+          }
+        },
+        {
+          "assertion_id": "GYS-Q004:A2",
+          "manual_known_features": {
+            "question_type": "content",
+            "host_class": "nominal_copula",
+            "prefinal_profile": "none",
+            "sentence_type": "interrogative"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV016",
+      "input": "너는 지금 집에 가는 거야, 아니면 회사로 돌아가는 거야?",
+      "input_anchor": "너는",
+      "manual_analysis": "2인칭 단수 청자를 가리킴.",
+      "coverage_limit": "선택 의문을 설명 의문으로 강제 분류하지 않음. 선택 질문 종결 지식은 미선택.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-R029:A1",
+          "manual_known_features": {
+            "meaning": "2인칭 단복수"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV017",
+      "input": "문 좀 닫아 주세요.",
+      "input_anchor": "닫아 주세요",
+      "manual_analysis": "수혜 보조 주다를 포함한 비격식 높임 부탁.",
+      "coverage_limit": "반드시 아주높임 하이소체로 바꿀 근거는 없음.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-H028:A1",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-H028:A2",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-R012:A1",
+          "manual_known_features": {
+            "meaning": "benefactive"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV018",
+      "input": "이 상자 옮기는 것 좀 도와줄래?",
+      "input_anchor": "도와줄래",
+      "manual_analysis": "주다 수혜 구성을 포함한 비격식 부탁.",
+      "coverage_limit": "질문 형식과 부탁 의도의 구별은 모델에 추가 정답 지시하지 않음.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-R012:A1",
+          "manual_known_features": {
+            "meaning": "benefactive"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV019",
+      "input": "바닥이 미끄러우니까 천천히 걸으세요.",
+      "input_anchor": "미끄러우니까 / 걸으세요",
+      "manual_analysis": "이유를 제시한 비격식 높임 권고.",
+      "coverage_limit": "상대높임과 주체높임의 모든 결합을 승인하지 않음.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-H028:A1",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-H028:A2",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-R047:A2",
+          "manual_known_features": {
+            "meaning": "원인·이유"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV020",
+      "input": "그 얘기는 다른 사람한테 하지 마.",
+      "input_anchor": "하지 마",
+      "manual_analysis": "청자의 발화를 금지하는 구성.",
+      "coverage_limit": "금지 강도의 변화나 전달 대상의 생략은 허용으로 해석하지 않음.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-R022:A1",
+          "manual_known_features": {
+            "meaning": "prohibition"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV021",
+      "input": "잠깐만 기다려 주세요. 제가 확인해 볼게요.",
+      "input_anchor": "기다려 주세요 / 확인해 볼게요",
+      "manual_analysis": "첫 문장은 비격식 높임 부탁, 둘째는 화자의 의지·약속.",
+      "coverage_limit": "시도 보다 전체 결합 지식은 미선택. 두 절에 의지 조건을 동시에 적용하지 않음.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-H028:A1",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-H028:A2",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-G035:A1",
+          "manual_known_features": {
+            "meaning": "화자의 의지·약속"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV022",
+      "input": "시간 괜찮으면 같이 점심 먹자.",
+      "input_anchor": "괜찮으면 / 같이 먹자",
+      "manual_analysis": "조건절과 화자·청자 공동행동 제안.",
+      "coverage_limit": "시간·시제와 청유 높임의 조합은 입력을 유지.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-G003:A1",
+          "manual_known_features": {
+            "meaning": "condition"
+          }
+        },
+        {
+          "assertion_id": "GYS-G003:A2",
+          "manual_known_features": {
+            "meaning": "condition"
+          }
+        },
+        {
+          "assertion_id": "GYS-R040:A1",
+          "manual_known_features": {
+            "meaning": "화자·청자 공동행동 제안"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV023",
+      "input": "어제부터 목이 아팠는데 오늘은 좀 괜찮아요.",
+      "input_anchor": "아팠는데 / 괜찮아요",
+      "manual_analysis": "과거 상태와 현재 상태를 대조하는 비격식 높임 진술.",
+      "coverage_limit": "대조 -는데를 다른 회상 연결로 바꾸는 관계는 선택하지 않음.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-H028:A1",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-H028:A2",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-R050:A1",
+          "manual_known_features": {
+            "meaning": "과거·회상·미래 해석"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV024",
+      "input": "내가 도착할 때까지 여기서 기다려.",
+      "input_anchor": "도착할 때까지",
+      "manual_analysis": "기다림의 시간 끝점을 표시하는 한계 조사.",
+      "coverage_limit": "도착과 기다림의 관계·명령 종결은 별도 KG 근거 미선택.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-G030:A1",
+          "manual_known_features": {
+            "meaning": "시공간·대상 한계"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV025",
+      "input": "시간이 없으면 내일 해도 돼.",
+      "input_anchor": "없으면",
+      "manual_analysis": "조건절 안에서 일이 허용되는 상황을 제한.",
+      "coverage_limit": "해도 돼의 허용 양태는 이번 패킷에 직접 근거 없음.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-G003:A1",
+          "manual_known_features": {
+            "meaning": "condition"
+          }
+        },
+        {
+          "assertion_id": "GYS-G003:A2",
+          "manual_known_features": {
+            "meaning": "condition"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV026",
+      "input": "늦을까 봐 조금 일찍 나왔어요.",
+      "input_anchor": "일찍 나왔어요",
+      "manual_analysis": "비격식 높임의 과거 행동 진술.",
+      "coverage_limit": "늦을까 봐의 우려 원인 구성은 직접 근거 미선택.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-H028:A1",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-H028:A2",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-R050:A1",
+          "manual_known_features": {
+            "meaning": "과거·회상·미래 해석"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV027",
+      "input": "동생이 오늘은 늦게 온다고 했어.",
+      "input_anchor": "온다고 했어",
+      "manual_analysis": "평서 내용을 인용한 과거 보고.",
+      "coverage_limit": "현재 화자가 직접 들었는지에 관한 추가 전언 층위를 만들지 않음.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-R007:A1",
+          "manual_known_features": {
+            "meaning": "reported_statement"
+          }
+        },
+        {
+          "assertion_id": "GYS-R050:A1",
+          "manual_known_features": {
+            "meaning": "과거·회상·미래 해석"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV028",
+      "input": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+      "input_anchor": "뜻이 아니었어요",
+      "manual_analysis": "비격식 높임과 과거 해석.",
+      "coverage_limit": "명령 인용의 뜻을 부정하는 전체 구조는 패킷에 직접 근거 없음.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-H028:A1",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-H028:A2",
+          "manual_known_features": {
+            "meaning": "비격식 상대높임"
+          }
+        },
+        {
+          "assertion_id": "GYS-R050:A1",
+          "manual_known_features": {
+            "meaning": "과거·회상·미래 해석"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV029",
+      "input": "그 가게에 가 봤는데 음식이 괜찮더라.",
+      "input_anchor": "괜찮더라",
+      "manual_analysis": "더가 포함된 경험 회상 서술.",
+      "coverage_limit": "가 보다 경험과 대조 연결은 직접 근거 미선택.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-J038:A3",
+          "manual_known_features": {
+            "meaning": "더가 포함된 회상 서술"
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEV030",
+      "input": "피곤하면 먼저 자. 뒷정리는 내가 할게.",
+      "input_anchor": "피곤하면 / 내가 할게",
+      "manual_analysis": "첫 문장의 조건과 둘째 문장의 화자 의지·약속.",
+      "coverage_limit": "먼저 자의 배려 의도와 두 사람의 행동 분담은 별도 자동 판정하지 않음.",
+      "seeds": [
+        {
+          "assertion_id": "GYS-G003:A1",
+          "manual_known_features": {
+            "meaning": "condition"
+          }
+        },
+        {
+          "assertion_id": "GYS-G003:A2",
+          "manual_known_features": {
+            "meaning": "condition"
+          }
+        },
+        {
+          "assertion_id": "GYS-G035:A1",
+          "manual_known_features": {
+            "meaning": "화자의 의지·약속"
+          }
+        }
+      ]
+    }
+  ]
+}

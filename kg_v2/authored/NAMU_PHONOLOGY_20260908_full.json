@@ -1,0 +1,4971 @@
+{
+  "source_id": "NAMU_PHONOLOGY_20260908",
+  "facts": [
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0001",
+      "type": "usage",
+      "source_pattern": {
+        "text": "동남 방언 모음체계",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "6홑모음 또는 ㅐ/ㅔ를 구분하는 7홑모음 기술",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "quote": "동남 방언은 6홑모음 체계(ㅏ, ㅐ=ㅔ, ㅗ, ㅜ, ㅓ=ㅡ, ㅣ)"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": "일부 지역·세대 예외를 함께 보존."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0002",
+      "type": "usage",
+      "source_pattern": {
+        "text": "대구 젊은 화자의 ㅓ/ㅡ",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "10~20대의 구분이 명확하다는 논문 재인용",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "대구"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "인용 논문 원문 미확인; 조사 시점·표본을 추정하지 않음."
+      },
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "quote": "대구 10-20대 화자들은 ㅓ와 ㅡ발음을 서울 사람만큼 명확히 구분하고 있다고 한다."
+        }
+      ],
+      "claim_status": "secondary_report",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0003",
+      "type": "usage",
+      "source_pattern": {
+        "text": "ㅓ/ㅡ의 발음과 표기",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "발음의 합류를 임의의 철자 혼용으로 옮기지 말라는 편집 지침",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 2,
+          "quote": "진지하게 동남 방언을 표기해야 한다면 그러지 않는 게 좋다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0004",
+      "type": "usage",
+      "source_pattern": {
+        "text": "경북 서·북부 ㅓ/ㅡ",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "울진·봉화·영풍·상주·의성·금릉의 구분 기술",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경북 서·북부"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 2,
+          "quote": "경북 서·북부 지역(울진, 봉화, 영풍, 상주, 의성, 금릉)의 경우 아주 예전부터 ㅓ와 ㅡ의 발음을 구분해 왔다고 한다."
+        }
+      ],
+      "claim_status": "secondary_report",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0005",
+      "type": "usage",
+      "source_pattern": {
+        "text": "진주 이서 모음 변화",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "1950년대 ㅐ/ㅔ 구분 및 ㅓ/ㅡ 비구분; 이후 변화",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "진주 이서"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 2,
+          "quote": "1950년대 이후로 점차 표준어의 영향 때문에 ㅐ와 ㅔ는 합쳐지고 ㅓ와 ㅡ는 점점 벌어지고 있다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0006",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "자음 뒤 ㅕ",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "ㅔ",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "onset_present",
+          "op": "eq",
+          "value": true,
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "vowel",
+          "op": "eq",
+          "value": "ㅕ",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "exclude",
+          "description": "초성 없는 영남→엥남은 이 설명에 해당하지 않는다."
+        },
+        {
+          "kind": "scope",
+          "description": "발음 현상으로 제시되며 모든 철자 변환의 허용을 뜻하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 2,
+          "quote": "음절 초 자음, 즉 초성이 있을 경우에 국한되기에"
+        },
+        {
+          "pdf_page": 2,
+          "quote": "이중모음 /ㅕ/의 경우 단모음 [ㅔ]로 발음되는데"
+        },
+        {
+          "pdf_page": 2,
+          "quote": "초성 없는 /ㅕ/가 들어간 '영남'을 '엥남'이라고 하지는 않는다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0007",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "며칠",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "메칠",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 2,
+          "quote": "며칠: 메칠"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0008",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "멸치",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "메르치",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 2,
+          "quote": "멸치: 메르치"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0009",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "격리",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "겍리",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 2,
+          "quote": "격리: 겍리"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0010",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "쉽다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "숩다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 2,
+          "quote": "쉽다: 숩다"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0011",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "아끼다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "애끼다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 2,
+          "quote": "아끼다: 애끼다"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0012",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "막히다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "맥히다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 2,
+          "quote": "막히다: 맥히다"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0013",
+      "type": "usage",
+      "source_pattern": {
+        "text": "ㅚ/ㅟ 실현",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "이중모음 또는 ㅐ/ㅣ 단모음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 2,
+          "quote": "동남 방언에서 ㅚ와 ㅟ는 이중모음으로 발음되거나 ㅐ[e], ㅣ[i] 단모음으로 변하여 나타난다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0014",
+      "type": "usage",
+      "source_pattern": {
+        "text": "전설모음화 범위",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "경북 동부에서 덜하고 고령층에서 뚜렷하다는 설명; -는데 예외",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "exclude",
+          "description": "-는데를 무조건 다른 모음으로 바꾸지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 2,
+          "quote": "그래도 '-는데'는 거의 모든 지역에서 '-는데'만 나타난다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0015",
+      "type": "construction",
+      "source_pattern": {
+        "text": "그게요, 그게 제 말이 아니고요",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "그기예, 그기 지 말이 아이고예",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 2,
+          "quote": "그게요, 그게 제 말이 아니고요: 그기예, 그기 지 말이 아이고예"
+        }
+      ],
+      "claim_status": "attested_example",
+      "usability": "reference_only",
+      "notes": "여러 변화가 합쳐진 원문 예시. 전설모음화 하나의 일반 치환 규칙으로 해석하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0016",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "엔간히",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "엔간히",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 3,
+          "quote": "엔간히     엔간히          엔간히[3]"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "표의 동남 방언 발음 칼럼. 표준어 발음 칼럼과 구별."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0017",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "적당히",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "적다이/즈억다이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 3,
+          "quote": "적당히     적당히        적다이/즈억다이[4]"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "표의 동남 방언 발음 칼럼. 표준어 발음 칼럼과 구별."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0018",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "안녕하십니까",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "안녕하심미까/안녀아심니꺼",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 3,
+          "quote": "안녕하십니까 안녕하심니까 안녕하심미까/안녀아심니꺼"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "표의 동남 방언 발음 칼럼. 표준어 발음 칼럼과 구별."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0019",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "종료하다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "종요하다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 3,
+          "quote": "종료하다    종뇨하다         종요하다"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "표의 동남 방언 발음 칼럼. 표준어 발음 칼럼과 구별."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0020",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "갑각류",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "각깡유",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 3,
+          "quote": "갑각류     갑깡뉴           각깡유"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "표의 동남 방언 발음 칼럼. 표준어 발음 칼럼과 구별."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0021",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "있고",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "익꼬",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 3,
+          "quote": "있고      읻꼬            익꼬"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "표의 동남 방언 발음 칼럼. 표준어 발음 칼럼과 구별."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0022",
+      "type": "usage",
+      "source_pattern": {
+        "text": "자음동화",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "연구개음소화와 양순음소화가 나타난다는 문헌 재인용",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 3,
+          "quote": "연구개음소화(ㄷ→ㄱ, ㄴ→ㅇ, ㅂ→ㄱ, ㅁ→ㅇ), 양순음소화(ㄷ→ㅂ, ㄴ→ㅁ)"
+        }
+      ],
+      "claim_status": "secondary_report",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0023",
+      "type": "usage",
+      "source_pattern": {
+        "text": "형태소를 밝힌 표기",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "안녕하십니꺼 등의 표기와 실제 동화 발음 구분",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 3,
+          "quote": "발음대로 적는 것보다 형태소를 밝혀 적는 게 효율적이다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0024",
+      "type": "usage",
+      "source_pattern": {
+        "text": "ㄴ 탈락/비모음화",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "ㅣ·이·히·ㅡ·으 환경 및 화자 선택성",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "발음 변화를 표준 철자 치환으로 자동 전환하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 3,
+          "quote": "모든 화자가 ㄴ을 탈락하는 것은 아니며 필요에 따라 ㄴ을 발음한다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0025",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "걸으니",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "걸으이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 3,
+          "quote": "걸으니          걸으니            걸으이"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "ㄴ 탈락 표의 발음 중시 표기. 고유명사 예는 독립 어휘 대응 사전으로 일반화하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0026",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "뛰니",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "뛰이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 3,
+          "quote": "뛰니           뛰니             뛰이"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "ㄴ 탈락 표의 발음 중시 표기. 고유명사 예는 독립 어휘 대응 사전으로 일반화하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0027",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "싸우니",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "사우이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 3,
+          "quote": "싸우니          사우니            사우이"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "ㄴ 탈락 표의 발음 중시 표기. 고유명사 예는 독립 어휘 대응 사전으로 일반화하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0028",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "그러니",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "그러이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 3,
+          "quote": "그러니          그러니            그러이"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "ㄴ 탈락 표의 발음 중시 표기. 고유명사 예는 독립 어휘 대응 사전으로 일반화하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0029",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "아니다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "아이다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 3,
+          "quote": "아니다          아니다            아이다"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "ㄴ 탈락 표의 발음 중시 표기. 고유명사 예는 독립 어휘 대응 사전으로 일반화하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0030",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "예빈이",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "예비이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 3,
+          "quote": "예빈이          예빈이            예비이"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "ㄴ 탈락 표의 발음 중시 표기. 고유명사 예는 독립 어휘 대응 사전으로 일반화하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0031",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "종민이",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "종미이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 3,
+          "quote": "종민이          종민이            종미이"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "ㄴ 탈락 표의 발음 중시 표기. 고유명사 예는 독립 어휘 대응 사전으로 일반화하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0032",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "많이",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "마이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 4,
+          "quote": "많이                  많이        마이"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "ㄴ 탈락 표의 발음 중시 표기. 고유명사 예는 독립 어휘 대응 사전으로 일반화하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0033",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "많으니",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "마으이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 4,
+          "quote": "많으니                 많으니       마으이"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "ㄴ 탈락 표의 발음 중시 표기. 고유명사 예는 독립 어휘 대응 사전으로 일반화하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0034",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "오늘",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "오을",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 4,
+          "quote": "오늘                  오늘        오을"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "ㄴ 탈락 표의 발음 중시 표기. 고유명사 예는 독립 어휘 대응 사전으로 일반화하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0035",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "괜히",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "개히",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 4,
+          "quote": "괜히                  갠히        개히"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "ㄴ 탈락 표의 발음 중시 표기. 고유명사 예는 독립 어휘 대응 사전으로 일반화하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0036",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "엔간히",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "엔가히",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 4,
+          "quote": "엔간히                 엔간히       엔가히"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "ㄴ 탈락 표의 발음 중시 표기. 고유명사 예는 독립 어휘 대응 사전으로 일반화하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0037",
+      "type": "usage",
+      "source_pattern": {
+        "text": "비모음 표기",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "문서의 물결표 1번 표기 채택",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 4,
+          "quote": "이 문서는 간편함을 위해 1번 방법을 택한다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": "형태소 중시·기호1·기호2 열을 별도 규칙으로 중복 계산하지 않음."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0038",
+      "type": "usage",
+      "source_pattern": {
+        "text": "받침 ㅇ/ㄴ 탈락",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "빠른 발화의 선택적 탈락 및 북부의 -에 결합 모음동화",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 4,
+          "quote": "가끔 '받침 ㅇ/ㄴ'과 '초성 ㅇ/ㅎ'이 만났을 때 빨리 발음하면서 '받침 ㅇ/ㄴ'을 탈락시키기도 하며"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0039",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "형아",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "햐",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 4,
+          "quote": "형아        힝아(대구)        히~아      햐"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "표의 실제 지역 표기와 발음·축약 칼럼을 보존."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0040",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "고등학교",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "고드~학교",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 4,
+          "quote": "고등학교         고등학교        고드~학교"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "표의 실제 지역 표기와 발음·축약 칼럼을 보존."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0041",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "고양이",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "고애~이/개~이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 4,
+          "quote": "고양이        고앵이/갱이 고애~이/개~이"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "표의 실제 지역 표기와 발음·축약 칼럼을 보존."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0042",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "못하다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "모~하다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "못하다                    몬하다     모~하다"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0043",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "세상에 그렇게",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "세사~아 그렇게",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "세상에 그렇게                        세사~아 그렇게"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0044",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "방에",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "바~아",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "방에                            바~아"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0045",
+      "type": "usage",
+      "source_pattern": {
+        "text": "ㅎ 탈락",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "모음 뒤 빠른 발화에서 생략하며 뜻을 흐리는 발음식 표기를 경계",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "동남 방언 외 대부분 지역에서도 흔한 현상이며 발음 그대로 쓰면 뜻을 알기 어려우므로 삼가는 게 좋다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0046",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "뭐 한다고",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "만다고",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "뭐 한다고 머 한다고 머 안다고 만다고"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌의 구체적 축약형; 문맥과 음운 실현을 확인해야 함."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0047",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "뭐 하려",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "말라",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "뭐 하려     머 할라      머 알라 말라"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "문헌의 구체적 축약형; 문맥과 음운 실현을 확인해야 함."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0048",
+      "type": "usage",
+      "source_pattern": {
+        "text": "ㄱ 탈락",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "빈번한 표현의 선택적 탈락",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "이들도 화자가 필요에 따라 탈락하지 않는 경우가 있으니 상황에 따라 표기를 바꿔야 한다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0049",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "이것, 요것",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "엿, 욧",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "이것, 요것    이것, 요것/요곳        이엇/여엇, 요옷       엿, 욧"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "병렬 표의 한 행. 슬래시·쉼표 후보를 무조건 교차 조합하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0050",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "저것, 조것",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "젓, 좃",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "저것, 조것    저것, 조것/조곳          저엇, 조옷        젓, 좃"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "병렬 표의 한 행. 슬래시·쉼표 후보를 무조건 교차 조합하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0051",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "그것, 고것",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "것, 곳",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "그것, 고것    그것, 고것/고곳        그엇/거엇, 고옷       것, 곳"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "병렬 표의 한 행. 슬래시·쉼표 후보를 무조건 교차 조합하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0052",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "이거, 요거",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "여, 요",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "이거, 요거    이거, 요거/요고        이어/여어, 요오       여, 요"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "병렬 표의 한 행. 슬래시·쉼표 후보를 무조건 교차 조합하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0053",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "저거, 조거",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "저, 조",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "저거, 조거    저거, 조거/조고          저어, 조오        저, 조"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "병렬 표의 한 행. 슬래시·쉼표 후보를 무조건 교차 조합하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0054",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "그거, 고거",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "거, 고",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "그거, 고거    그거, 고거/고고        그어/거어, 고오       거, 고"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "병렬 표의 한 행. 슬래시·쉼표 후보를 무조건 교차 조합하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0055",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "이게, 요게",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "예/이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "이게, 요게 이게/이기, 요게/요기       이에/이이, 요에/요이 예/이"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "병렬 표의 한 행. 슬래시·쉼표 후보를 무조건 교차 조합하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0056",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "저게, 조게",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "제/지",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "저게, 조게 저게/저기/지기, 조게/조기 저에/저이/지이, 조에/조이 제/지"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "병렬 표의 한 행. 슬래시·쉼표 후보를 무조건 교차 조합하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0057",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "그게, 고게",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "게/기",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "그게, 고게 그게/그기, 고게/고기       그에/그이, 고에/고이 게/기"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "병렬 표의 한 행. 슬래시·쉼표 후보를 무조건 교차 조합하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0058",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "여기, 요기",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "여, 요",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "여기, 요기      여기, 요기        여이/여어, 요이/요오 여, 요"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "병렬 표의 한 행. 슬래시·쉼표 후보를 무조건 교차 조합하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0059",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "저기, 조기",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "저, 조",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "저기, 조기      저기, 조기        저이/저어, 조이/조오 저, 조"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "병렬 표의 한 행. 슬래시·쉼표 후보를 무조건 교차 조합하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0060",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "거기, 고기",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "거, 고",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "거기, 고기      거기, 고기        거이/거어, 고이/고오 거, 고"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "병렬 표의 한 행. 슬래시·쉼표 후보를 무조건 교차 조합하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0061",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "누구",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "누",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "누구          누구              누우            누"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "병렬 표의 한 행. 슬래시·쉼표 후보를 무조건 교차 조합하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0062",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "지금",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "짐",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "지금          지금              지음            짐"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "병렬 표의 한 행. 슬래시·쉼표 후보를 무조건 교차 조합하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0063",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "먹어",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "묵어/무우/무",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 6,
+          "quote": "먹어                        묵어   무우              무"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "형태소 중시 표기 묵어, 발음 무우, 준말 무를 구별. 서로 다른 문법 활용으로 중복 해석하지 않음."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0064",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "어디서",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "어디서/어데서 → 어이서/어에서/어어서 → 어서",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 6,
+          "quote": "어디서 어디서/어데서 어이서/어에서/어어서 어서"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0065",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "-(으)ㄹ까",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-(으)(ㄹ)까/-(으)(ㄹ)꼬",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 6,
+          "quote": "-(으)ㄹ까             -(으)(ㄹ)까/-(으)(ㄹ)꼬"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0066",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "이렇게, 요렇게",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "이케, 요케",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 6,
+          "quote": "이렇게, 요렇게 일케, 욜케          이케, 요케"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0067",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "저렇게, 조렇게",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "저케, 조케",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 6,
+          "quote": "저렇게, 조렇게 절케, 졸케          저케, 조케"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0068",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "그렇게, 고렇게",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "그케, 고케",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 6,
+          "quote": "그렇게, 고렇게 글케, 골케          그케, 고케"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0069",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "왜 이렇게",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "왜케",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 6,
+          "quote": "왜 이렇게    왜 일케            왜 이케        왜케"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0070",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "살고",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "사~고",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 6,
+          "quote": "살고                      사~고        사~고"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0071",
+      "type": "usage",
+      "source_pattern": {
+        "text": "하다의 ㅎ과 유기음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "경남 대부분·경북 일부의 실현; 표기에서 굳이 생략하지 않는다는 설명",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 6,
+          "quote": "다른 남부 방언에도 흔한 현상이므로 굳이 생략해서 적지 않는다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0072",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "갑갑하다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "깝깝하다[깝까바다]",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 6,
+          "quote": "갑갑하다[갑까파다] 깝깝하다[깝까바다]"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0073",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "길쭉하다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "낄쭉하다[낄쭈가다]",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 6,
+          "quote": "길쭉하다[길쭈카다] 낄쭉하다[낄쭈가다][6]"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0074",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "남 탓하다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "남 탓하다[남타다다]",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 6,
+          "quote": "남 탓하다[남타타다] 남 탓하다[남타다다]"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0075",
+      "type": "usage",
+      "source_pattern": {
+        "text": "ㄱ·ㅎ 구개음화의 세대 범위",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "주로 70대 이상, 별표 항목은 40대 이하도 쓴다는 편집 설명",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "세대 수치의 독립 조사 근거는 PDF에서 확보하지 못함."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 6,
+          "quote": "40대 이하도 꽤 사용하는 발음은 ☆ 표시를 했다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0076",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "김",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "짐",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        },
+        {
+          "kind": "scope",
+          "description": "주로 70대 이상이라는 원문 세대 경향을 유지한다. 연령의 절대적 허용·금지 규칙은 아니다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": " 별표 없음: 문서는 주로 70대 이상이 사용하고 그 이하는 대부분 사용하지 않는 경향으로 기술."
+      },
+      "evidence": [
+        {
+          "pdf_page": 6,
+          "quote": "김: 짐"
+        },
+        {
+          "pdf_page": 6,
+          "quote": "40대 이하도 꽤 사용하는 발음은 ☆ 표시를 했다."
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "구개음화 예시; 겨누다는 ☆ 표시, 나머지 항목은 고령층 설명 범위를 유지."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0077",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "기름",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "지름",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        },
+        {
+          "kind": "scope",
+          "description": "주로 70대 이상이라는 원문 세대 경향을 유지한다. 연령의 절대적 허용·금지 규칙은 아니다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": " 별표 없음: 문서는 주로 70대 이상이 사용하고 그 이하는 대부분 사용하지 않는 경향으로 기술."
+      },
+      "evidence": [
+        {
+          "pdf_page": 6,
+          "quote": "기름: 지름"
+        },
+        {
+          "pdf_page": 6,
+          "quote": "40대 이하도 꽤 사용하는 발음은 ☆ 표시를 했다."
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "구개음화 예시; 겨누다는 ☆ 표시, 나머지 항목은 고령층 설명 범위를 유지."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0078",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "기다랗다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "질따랗다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        },
+        {
+          "kind": "scope",
+          "description": "주로 70대 이상이라는 원문 세대 경향을 유지한다. 연령의 절대적 허용·금지 규칙은 아니다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": " 별표 없음: 문서는 주로 70대 이상이 사용하고 그 이하는 대부분 사용하지 않는 경향으로 기술."
+      },
+      "evidence": [
+        {
+          "pdf_page": 6,
+          "quote": "기다랗다: 질따랗다"
+        },
+        {
+          "pdf_page": 6,
+          "quote": "40대 이하도 꽤 사용하는 발음은 ☆ 표시를 했다."
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "구개음화 예시; 겨누다는 ☆ 표시, 나머지 항목은 고령층 설명 범위를 유지."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0079",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "깊다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "짚다/짚으다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        },
+        {
+          "kind": "scope",
+          "description": "주로 70대 이상이라는 원문 세대 경향을 유지한다. 연령의 절대적 허용·금지 규칙은 아니다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": " 별표 없음: 문서는 주로 70대 이상이 사용하고 그 이하는 대부분 사용하지 않는 경향으로 기술."
+      },
+      "evidence": [
+        {
+          "pdf_page": 6,
+          "quote": "깊다: 짚다/짚으다"
+        },
+        {
+          "pdf_page": 6,
+          "quote": "40대 이하도 꽤 사용하는 발음은 ☆ 표시를 했다."
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "구개음화 예시; 겨누다는 ☆ 표시, 나머지 항목은 고령층 설명 범위를 유지."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0080",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "기대다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "지대다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        },
+        {
+          "kind": "scope",
+          "description": "주로 70대 이상이라는 원문 세대 경향을 유지한다. 연령의 절대적 허용·금지 규칙은 아니다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": " 별표 없음: 문서는 주로 70대 이상이 사용하고 그 이하는 대부분 사용하지 않는 경향으로 기술."
+      },
+      "evidence": [
+        {
+          "pdf_page": 6,
+          "quote": "기대다: 지대다"
+        },
+        {
+          "pdf_page": 6,
+          "quote": "40대 이하도 꽤 사용하는 발음은 ☆ 표시를 했다."
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "구개음화 예시; 겨누다는 ☆ 표시, 나머지 항목은 고령층 설명 범위를 유지."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0081",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "겨누다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "전주다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        },
+        {
+          "kind": "scope",
+          "description": "40대 이하 사용도 제시된 별표 항목."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": " 별표 항목: 40대 이하도 꽤 사용하는 예로 기술."
+      },
+      "evidence": [
+        {
+          "pdf_page": 6,
+          "quote": "겨누다: 전주다(견주다: 겨누다의 경상도 방언[7])☆"
+        },
+        {
+          "pdf_page": 6,
+          "quote": "40대 이하도 꽤 사용하는 발음은 ☆ 표시를 했다."
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "구개음화 예시; 겨누다는 ☆ 표시, 나머지 항목은 고령층 설명 범위를 유지. 괄호 견주다는 겨누다의 방언이라는 풀이이며 이 행의 구개음화 목표형에 병렬 결합하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0082",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "힘에 겹다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "심에 젭다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        },
+        {
+          "kind": "scope",
+          "description": "주로 70대 이상이라는 원문 세대 경향을 유지한다. 연령의 절대적 허용·금지 규칙은 아니다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": " 별표 없음: 문서는 주로 70대 이상이 사용하고 그 이하는 대부분 사용하지 않는 경향으로 기술."
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "힘에 겹다: 심에 젭다"
+        },
+        {
+          "pdf_page": 6,
+          "quote": "40대 이하도 꽤 사용하는 발음은 ☆ 표시를 했다."
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "원문 별표와 각주를 포함한 구개음화 제시형; 미확보 각주 내용은 추정하지 않음."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0083",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "형아",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "시아",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        },
+        {
+          "kind": "scope",
+          "description": "40대 이하 사용도 제시된 별표 항목."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": " 별표 항목: 40대 이하도 꽤 사용하는 예로 기술."
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "형아: 시아[8]☆"
+        },
+        {
+          "pdf_page": 6,
+          "quote": "40대 이하도 꽤 사용하는 발음은 ☆ 표시를 했다."
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "원문 별표와 각주를 포함한 구개음화 제시형; 미확보 각주 내용은 추정하지 않음."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0084",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "형",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "세이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        },
+        {
+          "kind": "scope",
+          "description": "40대 이하 사용도 제시된 별표 항목."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": " 별표 항목: 40대 이하도 꽤 사용하는 예로 기술."
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "형: 세이[9]☆"
+        },
+        {
+          "pdf_page": 6,
+          "quote": "40대 이하도 꽤 사용하는 발음은 ☆ 표시를 했다."
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "원문 별표와 각주를 포함한 구개음화 제시형; 미확보 각주 내용은 추정하지 않음."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0085",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "혀",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "세",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        },
+        {
+          "kind": "scope",
+          "description": "주로 70대 이상이라는 원문 세대 경향을 유지한다. 연령의 절대적 허용·금지 규칙은 아니다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": " 별표 없음: 문서는 주로 70대 이상이 사용하고 그 이하는 대부분 사용하지 않는 경향으로 기술."
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "혀: 세"
+        },
+        {
+          "pdf_page": 6,
+          "quote": "40대 이하도 꽤 사용하는 발음은 ☆ 표시를 했다."
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "원문 별표와 각주를 포함한 구개음화 제시형; 미확보 각주 내용은 추정하지 않음."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0086",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "혓바닥",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "셋바닥",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        },
+        {
+          "kind": "scope",
+          "description": "40대 이하 사용도 제시된 별표 항목."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": " 별표 항목: 40대 이하도 꽤 사용하는 예로 기술."
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "혓바닥: 셋바닥☆"
+        },
+        {
+          "pdf_page": 6,
+          "quote": "40대 이하도 꽤 사용하는 발음은 ☆ 표시를 했다."
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "원문 별표와 각주를 포함한 구개음화 제시형; 미확보 각주 내용은 추정하지 않음."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0087",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "불 켜다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "불 서다/셔다/세다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        },
+        {
+          "kind": "scope",
+          "description": "주로 70대 이상이라는 원문 세대 경향을 유지한다. 연령의 절대적 허용·금지 규칙은 아니다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": " 별표 없음: 문서는 주로 70대 이상이 사용하고 그 이하는 대부분 사용하지 않는 경향으로 기술."
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "불 켜다[10]: 불 서다/셔다/세다"
+        },
+        {
+          "pdf_page": 6,
+          "quote": "40대 이하도 꽤 사용하는 발음은 ☆ 표시를 했다."
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "동사별 용법 대응으로만 참고. 켜다 전체 의미에 일반화하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0088",
+      "type": "usage",
+      "source_pattern": {
+        "text": "ㅅ/ㅆ 구분의 지역·세대 차이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "경북 동쪽·경남 동쪽의 과거 비변별과 어린 화자의 구분",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "현재 어린 화자를 기준으로 ㅅ과 ㅆ을 구분하기 시작했으며"
+        }
+      ],
+      "claim_status": "secondary_report",
+      "usability": "reference_only",
+      "notes": "새그럽다/쌔그럽다는 여린말/센말 분화도 함께 언급됨."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0089",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "싸우다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "사우다/싸우다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "싸우다: 사우다/싸우다"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "지역·세대 및 여린말/센말 차이를 삭제하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0090",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "섞다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "섞다/썪다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "섞다: 섞다/썪다"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "지역·세대 및 여린말/센말 차이를 삭제하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0091",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "썩다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "석다/썩다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "썩다: 석다/썩다"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "지역·세대 및 여린말/센말 차이를 삭제하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0092",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "시다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "새그럽다/쌔그럽다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "시다: 새그럽다/쌔그럽다"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "지역·세대 및 여린말/센말 차이를 삭제하지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0093",
+      "type": "usage",
+      "source_pattern": {
+        "text": "순경음 비읍·반치음 흔적",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "활용과 개별 어휘의 잔존을 구분; 활용은 문법 문서 참조",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "용언 활용 규칙은 그나마 잘 이어 오고 있지만 개개 단어들은 표준어로 교체되어 빠르게 소멸하는 추세이다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0094",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "더위",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "덥이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "더위: 덥이"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0095",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "추위",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "춥이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "추위: 춥이"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0096",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "구르다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "꾸부르다/구불다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "구르다: 꾸부르다/구불다"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0097",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "눈시울",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "눈시불",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "눈시울: 눈시불"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0098",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "가을",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "가실/가슭",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "가을: 가실/가슭"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0099",
+      "type": "phonology",
+      "source_pattern": {
+        "text": "겨울",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "저슬",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "원문의 제시형이며 발음/표기를 구별한다. 다른 어휘에 일괄 적용하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "겨울: 저슬"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0100",
+      "type": "construction",
+      "source_pattern": {
+        "text": "뭐 하려고",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "머 할라고/말라고",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "지시적 그러다와 인용 -라고 하다를 구별하고 시제·높임·종결을 별도로 보존한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "세부 지역 미상"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "뭐 하려고: 머 할라고 - 말라고"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "출처의 축약 대응. 변이형을 임의로 조합하지 않음."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0101",
+      "type": "construction",
+      "source_pattern": {
+        "text": "인가 보다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "인갑다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "지시적 그러다와 인용 -라고 하다를 구별하고 시제·높임·종결을 별도로 보존한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "세부 지역 미상"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "인가 보다: 인갑다"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "출처의 축약 대응. 변이형을 임의로 조합하지 않음."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0102",
+      "type": "construction",
+      "source_pattern": {
+        "text": "그렇게 하다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "글카다/그카다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "지시적 그러다와 인용 -라고 하다를 구별하고 시제·높임·종결을 별도로 보존한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북 우세"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "그렇게 하다: 글카다 - 그카다 <경북 우세>"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "출처의 축약 대응. 변이형을 임의로 조합하지 않음."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0103",
+      "type": "construction",
+      "source_pattern": {
+        "text": "그러다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "그러하다/긇다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "지시적 그러다와 인용 -라고 하다를 구별하고 시제·높임·종결을 별도로 보존한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경상도 전역(문서 설명)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "그러다: 그러하다 - 긇다 [11] <경상도 전역>"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "출처의 축약 대응. 변이형을 임의로 조합하지 않음."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0104",
+      "type": "construction",
+      "source_pattern": {
+        "text": "그러다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "카다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "지시적 그러다와 인용 -라고 하다를 구별하고 시제·높임·종결을 별도로 보존한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북 우세"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "quote": "그러다: 카다 <경북 우세>"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "출처의 축약 대응. 변이형을 임의로 조합하지 않음."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0105",
+      "type": "construction",
+      "source_pattern": {
+        "text": "그러다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "그라다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "지시적 그러다와 인용 -라고 하다를 구별하고 시제·높임·종결을 별도로 보존한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경상도 전역(문서 설명)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "quote": "그러다: 그라다 <경상도 전역>"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "출처의 축약 대응. 변이형을 임의로 조합하지 않음."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0106",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-라고 하다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-라카다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "지시적 그러다와 인용 -라고 하다를 구별하고 시제·높임·종결을 별도로 보존한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경상도 전역(문서 설명)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "quote": "-라고 하다: -라카다 <경상도 전역>"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "출처의 축약 대응. 변이형을 임의로 조합하지 않음."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0107",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-라고 하다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-라쿠다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "지시적 그러다와 인용 -라고 하다를 구별하고 시제·높임·종결을 별도로 보존한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 서부/중부 대부분"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "quote": "-라고 하다: -라쿠다 <경남 서부/중부 대부분>"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "출처의 축약 대응. 변이형을 임의로 조합하지 않음."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0108",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-라고 하다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-라거ᇹ다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "지시적 그러다와 인용 -라고 하다를 구별하고 시제·높임·종결을 별도로 보존한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북 북동부"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "quote": "-라고 하다: -라거ᇹ다 <경북 북동부>"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "출처의 축약 대응. 변이형을 임의로 조합하지 않음."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0109",
+      "type": "construction",
+      "source_pattern": {
+        "text": "어이하니",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "우얘 하노/우야노",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "지시적 그러다와 인용 -라고 하다를 구별하고 시제·높임·종결을 별도로 보존한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북 우세"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "quote": "어이하니: 우얘 하노 - 우야노 <경북 우세>"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "출처의 축약 대응. 변이형을 임의로 조합하지 않음."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0110",
+      "type": "construction",
+      "source_pattern": {
+        "text": "어찌하니",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "우찌 하노/우짜노",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "지시적 그러다와 인용 -라고 하다를 구별하고 시제·높임·종결을 별도로 보존한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경상 전역(문서 설명)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "quote": "어찌하니: 우찌 하노 - 우짜노 <경상 전역>"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "출처의 축약 대응. 변이형을 임의로 조합하지 않음."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0111",
+      "type": "construction",
+      "source_pattern": {
+        "text": "그 애가 '뭐 하러 그렇게 하라고 하냐' 그런다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "가가 '말라그카라카노' 칸다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "quote": "그 애가 '뭐 하러 그렇게 하라고 하냐' 그런다: 그 아가 '머 할라 그케 하라고 하노' 그란다 - 가가 '말라그카라카노' 칸다"
+        }
+      ],
+      "claim_status": "attested_example",
+      "usability": "reference_only",
+      "notes": "여러 축약이 함께 나타난 문서 예문; 단일 치환 규칙이나 평가 정답으로 쓰지 않는다."
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0112",
+      "type": "usage",
+      "source_pattern": {
+        "text": "운소",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "중세 한국어와 성조형 대응이라는 개괄; 외부 문서 참조",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "uncertainty",
+          "description": "PDF에는 악센트 생성에 필요한 구체적 대응표가 없음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "문서가 설명하는 동남 방언; 세부 범위는 진술별"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "quote": "동남 방언의 악센트는 중세 한국어와 대부분 규칙적으로 대응한다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    }
+  ]
+}

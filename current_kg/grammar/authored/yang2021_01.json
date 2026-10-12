@@ -266,7 +266,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "연결된 두 절의 목적 해석에서 조회한다. -게 문자열만으로 선택하지 않는다."
+              "mapping_note": "연결된 두 절의 목적 해석에서 조회한다. -게 문자열만으로 선택하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -300,7 +303,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "목적 용법에 한정한 변이 후보. 지역·선호·음운 조건은 미확보다."
+              "mapping_note": "목적 용법에 한정한 변이 후보. 지역·선호·음운 조건은 미확보다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -334,7 +340,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "동일"
+              "mapping_note": "동일",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -368,7 +377,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "동일"
+              "mapping_note": "동일",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -501,7 +513,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "목적과 정도를 별도 해석으로 보존한다."
+              "mapping_note": "목적과 정도를 별도 해석으로 보존한다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -535,7 +550,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "원문 예에 한정한 계열 연결"
+              "mapping_note": "원문 예에 한정한 계열 연결",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -652,7 +670,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "원문 용어 도급을 별도 의미로 조회. 정도와 자동 병합하지 않는다."
+              "mapping_note": "원문 용어 도급을 별도 의미로 조회. 정도와 자동 병합하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -789,7 +810,11 @@
                 "meaning",
                 "host_pos"
               ],
-              "mapping_note": "사동 사건 해석과 내포 동사의 품사를 조회 연결 기준으로 사용한다."
+              "mapping_note": "사동 사건 해석과 내포 동사의 품사를 조회 연결 기준으로 사용한다.",
+              "feature_sources": {
+                "host_pos": "input",
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -823,7 +848,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "이 결합은 사동 용법이다. 같은 형태의 명령·약속·제안은 별도 기록."
+              "mapping_note": "이 결합은 사동 용법이다. 같은 형태의 명령·약속·제안은 별도 기록.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -940,7 +968,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "형태 -거로 하-만으로 사동으로 분석하지 않는다."
+              "mapping_note": "형태 -거로 하-만으로 사동으로 분석하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1065,7 +1096,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "화자의 행동 약속 해석이 필요하며 미래 시제 일반과 구별한다."
+              "mapping_note": "화자의 행동 약속 해석이 필요하며 미래 시제 일반과 구별한다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1099,7 +1133,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "원문 실현 예와 추상 구성을 연결한다. 표면형을 일반형으로 치환하는 명령이 아니다."
+              "mapping_note": "원문 실현 예와 추상 구성을 연결한다. 표면형을 일반형으로 치환하는 명령이 아니다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "example_only",
             "evidence_keys": [
@@ -1223,7 +1260,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "참여자와 제안 해석을 확인한다."
+              "mapping_note": "참여자와 제안 해석을 확인한다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1257,7 +1297,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "관찰된 구성 전체의 예로 연결한다."
+              "mapping_note": "관찰된 구성 전체의 예로 연결한다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "example_only",
             "evidence_keys": [
@@ -1371,10 +1414,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "following_form",
                   "operator": "is",
                   "values": [
-                    "auxiliary_doeda"
+                    "되-"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "following_predicate_role",
+                  "operator": "is",
+                  "values": [
+                    "auxiliary"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -1386,9 +1439,14 @@
             "application": {
               "target": "predicate.inflection",
               "input_features": [
-                "meaning"
+                "following_form",
+                "following_predicate_role"
               ],
-              "mapping_note": "후행 되-가 보조용언인 경우에만 제약을 대조. 본용언 되- 전체로 확대하지 않는다."
+              "mapping_note": "후행 되-가 보조용언인 경우에만 제약을 대조. 본용언 되- 전체로 확대하지 않는다. 2026-09-29: 원문 대조로 조건과 실제 값 공급원을 보완.",
+              "feature_sources": {
+                "following_form": "candidate",
+                "following_predicate_role": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1406,10 +1464,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "following_form",
                   "operator": "is",
                   "values": [
-                    "auxiliary_doeda"
+                    "되-"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "following_predicate_role",
+                  "operator": "is",
+                  "values": [
+                    "auxiliary"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -1421,9 +1489,14 @@
             "application": {
               "target": "predicate.inflection",
               "input_features": [
-                "meaning"
+                "following_form",
+                "following_predicate_role"
               ],
-              "mapping_note": "방언 생성이라고 모든 -게를 바꾸지 않는다."
+              "mapping_note": "방언 생성이라고 모든 -게를 바꾸지 않는다. 2026-09-29: 원문 대조로 조건과 실제 값 공급원을 보완.",
+              "feature_sources": {
+                "following_form": "candidate",
+                "following_predicate_role": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1574,7 +1647,11 @@
                 "meaning",
                 "host_pos"
               ],
-              "mapping_note": "형용사의 부사적 구성에서 조회한다."
+              "mapping_note": "형용사의 부사적 구성에서 조회한다.",
+              "feature_sources": {
+                "host_pos": "input",
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1619,7 +1696,11 @@
                 "meaning",
                 "host_pos"
               ],
-              "mapping_note": "형용사 전체에 생산적으로 -이를 붙이라는 규칙이 아니다."
+              "mapping_note": "형용사 전체에 생산적으로 -이를 붙이라는 규칙이 아니다.",
+              "feature_sources": {
+                "host_pos": "input",
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1720,13 +1801,23 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "speech_act",
                   "operator": "is",
                   "values": [
-                    "ask_addressee_intention"
+                    "ask_intention"
                   ],
                   "evidence_keys": [
-                    "E1"
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "intention_holder",
+                  "operator": "is",
+                  "values": [
+                    "addressee"
+                  ],
+                  "evidence_keys": [
+                    "E2"
                   ]
                 },
                 {
@@ -1736,7 +1827,7 @@
                     "interrogative"
                   ],
                   "evidence_keys": [
-                    "E1"
+                    "E2"
                   ]
                 }
               ],
@@ -1745,13 +1836,81 @@
             "application": {
               "target": "clause.final_ending",
               "input_features": [
-                "meaning",
+                "speech_act",
+                "intention_holder",
                 "sentence_type"
               ],
-              "mapping_note": "상대 의도를 묻는 기능과 종결 위치에서 조회한다."
+              "mapping_note": "상대 의도를 묻는 기능과 종결 위치에서 조회한다. 2026-09-28 원문 재대조: 설명형 조건을 기능·참여자·결합 성분으로 분리. 원문 관찰 범위를 넘는 생성 허용이 아니다.",
+              "feature_sources": {
+                "intention_holder": "input",
+                "sentence_type": "input",
+                "speech_act": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
+              "E2"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "INTERROGATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "speech_act",
+                  "operator": "is",
+                  "values": [
+                    "ask_intention"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "intention_holder",
+                  "operator": "is",
+                  "values": [
+                    "addressee"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "interrogative"
+                  ],
+                  "evidence_keys": [
+                    "E2"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "speech_act",
+                "intention_holder",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다. 2026-09-28 원문 재대조: 설명형 조건을 기능·참여자·결합 성분으로 분리. 원문 관찰 범위를 넘는 생성 허용이 아니다.",
+              "feature_sources": {
+                "intention_holder": "input",
+                "sentence_type": "input",
+                "speech_act": "input"
+              }
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1",
               "E2"
             ]
           }
@@ -1848,10 +2007,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "speech_act",
                   "operator": "is",
                   "values": [
-                    "state_speaker_intention"
+                    "state_intention"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "intention_holder",
+                  "operator": "is",
+                  "values": [
+                    "speaker"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -1873,10 +2042,77 @@
             "application": {
               "target": "clause.final_ending",
               "input_features": [
-                "meaning",
+                "speech_act",
+                "intention_holder",
                 "sentence_type"
               ],
-              "mapping_note": "질문형과 표면형이 같아도 용법은 분리한다."
+              "mapping_note": "질문형과 표면형이 같아도 용법은 분리한다. 2026-09-28 원문 재대조: 설명형 조건을 기능·참여자·결합 성분으로 분리. 원문 관찰 범위를 넘는 생성 허용이 아니다.",
+              "feature_sources": {
+                "intention_holder": "input",
+                "sentence_type": "input",
+                "speech_act": "input"
+              }
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DECLARATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "speech_act",
+                  "operator": "is",
+                  "values": [
+                    "state_intention"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "intention_holder",
+                  "operator": "is",
+                  "values": [
+                    "speaker"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "declarative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "speech_act",
+                "intention_holder",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다. 2026-09-28 원문 재대조: 설명형 조건을 기능·참여자·결합 성분으로 분리. 원문 관찰 범위를 넘는 생성 허용이 아니다.",
+              "feature_sources": {
+                "intention_holder": "input",
+                "sentence_type": "input",
+                "speech_act": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1970,10 +2206,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "speech_act",
                   "operator": "is",
                   "values": [
-                    "guess_the_answer"
+                    "guess_answer"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "interrogative"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -1985,9 +2231,14 @@
             "application": {
               "target": "clause.final_ending",
               "input_features": [
-                "meaning"
+                "speech_act",
+                "sentence_type"
               ],
-              "mapping_note": "source claim의 기능별 금지. 일반 의문 또는 추측 양태 전체를 금지하지 않는다."
+              "mapping_note": "source claim의 기능별 금지. 일반 의문 또는 추측 양태 전체를 금지하지 않는다. 2026-09-28 원문 재대조: 설명형 조건을 기능·참여자·결합 성분으로 분리. 원문 관찰 범위를 넘는 생성 허용이 아니다.",
+              "feature_sources": {
+                "sentence_type": "input",
+                "speech_act": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -2111,7 +2362,11 @@
                 "meaning",
                 "host_pos"
               ],
-              "mapping_note": "형용사 종결 구성의 감정 의미로 조회하며 방식 연결과 구별한다."
+              "mapping_note": "형용사 종결 구성의 감정 의미로 조회하며 방식 연결과 구별한다.",
+              "feature_sources": {
+                "host_pos": "input",
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -2244,7 +2499,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "순서는 거로 뒤 는. 모든 용법에서 가능하다는 주장은 아니다."
+              "mapping_note": "순서는 거로 뒤 는. 모든 용법에서 가능하다는 주장은 아니다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -2278,7 +2536,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "거로 뒤 도의 원문 사례."
+              "mapping_note": "거로 뒤 도의 원문 사례.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -2312,7 +2573,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "거로 뒤 만의 원문 사례."
+              "mapping_note": "거로 뒤 만의 원문 사례.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -2419,10 +2683,10 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "following_form",
                   "operator": "is",
                   "values": [
-                    "georo_kkeum_combination"
+                    "끔"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -2434,9 +2698,12 @@
             "application": {
               "target": "predicate.inflection",
               "input_features": [
-                "meaning"
+                "following_form"
               ],
-              "mapping_note": "-게끔 전체의 단순 치환을 차단하는 원문 제약. 역사적 이유는 별도 가설."
+              "mapping_note": "-게끔 전체의 단순 치환을 차단하는 원문 제약. 역사적 이유는 별도 가설. 2026-09-29: 원문 대조로 조건과 실제 값 공급원을 보완.",
+              "feature_sources": {
+                "following_form": "candidate"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [

@@ -18,7 +18,14 @@
   ],
   "scope_note": "전체 범위 통합 작성의 진행 배치. 포함한 관계만 작성했으며 페이지 전수 작성·독립 검토·생성 승인과 다르다.",
   "coverage": [
-    {"page":4,"status":"partial","reason":"해당 쪽을 근거로 하는 개별 문법 기록을 직접 작성함","remaining":["이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"]},
+    {
+      "page": 4,
+      "status": "partial",
+      "reason": "해당 쪽을 근거로 하는 개별 문법 기록을 직접 작성함",
+      "remaining": [
+        "이 쪽의 모든 문법 설명·표 항목의 작성/배경/보류/제외 대조는 아직 미완료"
+      ]
+    },
     {
       "page": 2,
       "status": "partial",
@@ -102,7 +109,7 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "construction_kind",
                   "operator": "is",
                   "values": [
                     "quotative_rago_hada"
@@ -117,9 +124,12 @@
             "application": {
               "target": "expression.orthography",
               "input_features": [
-                "meaning"
+                "construction_kind"
               ],
-              "mapping_note": "인용 구성으로 식별된 형태열에서 조회한다. 독립 어휘 카다 전체에 적용하지 않는다."
+              "mapping_note": "인용 구성으로 식별된 형태열에서 조회한다. 독립 어휘 카다 전체에 적용하지 않는다. 2026-09-29: 원문 대조로 조건과 실제 값 공급원을 보완.",
+              "feature_sources": {
+                "construction_kind": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -221,7 +231,7 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "construction_kind",
                   "operator": "is",
                   "values": [
                     "quotative_rago_hada"
@@ -236,9 +246,12 @@
             "application": {
               "target": "expression.orthography",
               "input_features": [
-                "meaning"
+                "construction_kind"
               ],
-              "mapping_note": "지역형 후보로 보존하며 기본 출력 우선순위를 자동 지정하지 않는다."
+              "mapping_note": "지역형 후보로 보존하며 기본 출력 우선순위를 자동 지정하지 않는다. 2026-09-29: 원문 대조로 조건과 실제 값 공급원을 보완.",
+              "feature_sources": {
+                "construction_kind": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -358,7 +371,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "시도 -어 보다와 구별하고 계사 추측 구성에 연결한다."
+              "mapping_note": "시도 -어 보다와 구별하고 계사 추측 구성에 연결한다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -477,7 +493,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "발음 표기 후보이며 입력의 ㄴ을 일괄 삭제하지 않는다."
+              "mapping_note": "발음 표기 후보이며 입력의 ㄴ을 일괄 삭제하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -754,7 +773,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "원문의 표기 의견임을 표시하며 실제 모든 화자의 문법 사실로 쓰지 않는다."
+              "mapping_note": "원문의 표기 의견임을 표시하며 실제 모든 화자의 문법 사실로 쓰지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "editorial_convention",
             "evidence_keys": [

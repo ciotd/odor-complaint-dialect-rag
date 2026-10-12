@@ -1,0 +1,3299 @@
+{
+  "date": "2026-09-29",
+  "status": "structure_repair_and_manual_retrieval_check_not_generation_evaluation",
+  "graph_before_sha256": "e4640e48a7b9f6ddacf3555f35edd3373efb930c9328ecd6a49a44ab17ccfc47",
+  "graph_after_sha256": "170969edaf1c9b0a4edb34022d834fe59a691d109591d3f99d4b212a127ec5d7",
+  "historical_30_result_sha256": "d6ba9023a181afc321c94af495308b1a0f3915a36810c3f94c60cfb3a5fcc7b2",
+  "verifier_sha256": "1d78b4767ca182499265716fe5d4e70e567990b80b520ee2ac870899c4e6e867",
+  "query_engine_sha256": "8856a5c557b9b0816d6e5ce2b68c21111623f5ec8b852772cd96b3a60fc63b84",
+  "retriever_sha256": "49033665739deb67cd5808d58b201d936bd788499e9f1b12b2a4b29848036351",
+  "summary_after": {
+    "records": 331,
+    "assertions": 1138,
+    "nodes": 6092,
+    "edges": 15639,
+    "node_types": {
+      "KnowledgeRecord": 331,
+      "Assertion": 1138,
+      "Condition": 1819,
+      "ExpressionUse": 1084,
+      "Value": 297,
+      "IllustrativeExample": 76,
+      "AnalysisFeature": 29,
+      "GrammarConcept": 99,
+      "SourceLocation": 332,
+      "Source": 7,
+      "SurfaceForm": 871,
+      "ApplicationTarget": 9
+    },
+    "meaning_only_assertions": 508,
+    "records_with_meaning_only_assertions": 199,
+    "assertions_with_meaning": 525,
+    "legacy_binding_assertions": 525,
+    "generic_caution_used_as_condition": 14,
+    "detail_entries_stored_as_prose": 370,
+    "authored_to_graph_mismatches": 0,
+    "integrity_issue_counts": {
+      "duplicate_node_ids": 0,
+      "duplicate_edge_ids": 0,
+      "dangling_edges": 0,
+      "isolated_node_ids": 0,
+      "condition_edge_mismatches": 0,
+      "assertion_link_errors": 0
+    }
+  },
+  "original_30_comparison": [
+    {
+      "before": {
+        "id": "DEV001",
+        "input": "오늘은 날씨가 참 좋네요.",
+        "clauses": [
+          {
+            "clause_id": "DEV001:c1",
+            "selected": [
+              {
+                "id": "GYS-R042:A6",
+                "form": "-아/어요",
+                "path": [
+                  "concept:EXCLAMATIVE",
+                  "GYS-R042:F3",
+                  "GYS-R042:A6"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV001",
+        "input": "오늘은 날씨가 참 좋네요.",
+        "clauses": [
+          {
+            "clause_id": "DEV001:c1",
+            "selected": [
+              {
+                "id": "GYS-R042:A6",
+                "form": "-아/어요",
+                "path": [
+                  "concept:EXCLAMATIVE",
+                  "GYS-R042:F3",
+                  "GYS-R042:A6"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV002",
+        "input": "집에 가는 길에 빵을 샀어.",
+        "clauses": [
+          {
+            "clause_id": "DEV002:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A7",
+                "form": "-아/어",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F3",
+                  "GYS-R041:A7"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV002",
+        "input": "집에 가는 길에 빵을 샀어.",
+        "clauses": [
+          {
+            "clause_id": "DEV002:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A7",
+                "form": "-아/어",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F3",
+                  "GYS-R041:A7"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV003",
+        "input": "이 음식은 생각보다 맵네요.",
+        "clauses": [
+          {
+            "clause_id": "DEV003:c1",
+            "selected": [
+              {
+                "id": "GYS-R042:A6",
+                "form": "-아/어요",
+                "path": [
+                  "concept:EXCLAMATIVE",
+                  "GYS-R042:F3",
+                  "GYS-R042:A6"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV003",
+        "input": "이 음식은 생각보다 맵네요.",
+        "clauses": [
+          {
+            "clause_id": "DEV003:c1",
+            "selected": [
+              {
+                "id": "GYS-R042:A6",
+                "form": "-아/어요",
+                "path": [
+                  "concept:EXCLAMATIVE",
+                  "GYS-R042:F3",
+                  "GYS-R042:A6"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV004",
+        "input": "아까 문 앞에 있던 사람이 제 친구예요.",
+        "clauses": [
+          {
+            "clause_id": "DEV004:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A8",
+                "form": "-아/어요",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F4",
+                  "GYS-R041:A8"
+                ]
+              },
+              {
+                "id": "GYS-J013:A4",
+                "form": "-(ㅂ)니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-J013:F1",
+                  "GYS-J013:A4"
+                ]
+              },
+              {
+                "id": "GYS-H014:A1",
+                "form": "-(스)ㅂ니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H014:F1",
+                  "GYS-H014:A1"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV004",
+        "input": "아까 문 앞에 있던 사람이 제 친구예요.",
+        "clauses": [
+          {
+            "clause_id": "DEV004:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A8",
+                "form": "-아/어요",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F4",
+                  "GYS-R041:A8"
+                ]
+              },
+              {
+                "id": "GYS-J013:A4",
+                "form": "-(ㅂ)니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-J013:F1",
+                  "GYS-J013:A4"
+                ]
+              },
+              {
+                "id": "GYS-H028:A3",
+                "form": "-아/어요",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H028:F1",
+                  "GYS-H028:A3"
+                ]
+              },
+              {
+                "id": "GYS-H014:A1",
+                "form": "-(스)ㅂ니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H014:F1",
+                  "GYS-H014:A1"
+                ]
+              },
+              {
+                "id": "GYS-H028:A7",
+                "form": "-아/어예",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H028:F2",
+                  "GYS-H028:A7"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV005",
+        "input": "나는 커피보다 차가 더 좋아.",
+        "clauses": [
+          {
+            "clause_id": "DEV005:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A7",
+                "form": "-아/어",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F3",
+                  "GYS-R041:A7"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV005",
+        "input": "나는 커피보다 차가 더 좋아.",
+        "clauses": [
+          {
+            "clause_id": "DEV005:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A7",
+                "form": "-아/어",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F3",
+                  "GYS-R041:A7"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV006",
+        "input": "할머니께서 지금 방에서 쉬고 계세요.",
+        "clauses": [
+          {
+            "clause_id": "DEV006:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A8",
+                "form": "-아/어요",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F4",
+                  "GYS-R041:A8"
+                ]
+              },
+              {
+                "id": "GYS-J013:A4",
+                "form": "-(ㅂ)니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-J013:F1",
+                  "GYS-J013:A4"
+                ]
+              },
+              {
+                "id": "GYS-H014:A1",
+                "form": "-(스)ㅂ니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H014:F1",
+                  "GYS-H014:A1"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV006",
+        "input": "할머니께서 지금 방에서 쉬고 계세요.",
+        "clauses": [
+          {
+            "clause_id": "DEV006:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A8",
+                "form": "-아/어요",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F4",
+                  "GYS-R041:A8"
+                ]
+              },
+              {
+                "id": "GYS-J013:A4",
+                "form": "-(ㅂ)니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-J013:F1",
+                  "GYS-J013:A4"
+                ]
+              },
+              {
+                "id": "GYS-H028:A3",
+                "form": "-아/어요",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H028:F1",
+                  "GYS-H028:A3"
+                ]
+              },
+              {
+                "id": "GYS-H014:A1",
+                "form": "-(스)ㅂ니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H014:F1",
+                  "GYS-H014:A1"
+                ]
+              },
+              {
+                "id": "GYS-H028:A7",
+                "form": "-아/어예",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H028:F2",
+                  "GYS-H028:A7"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV007",
+        "input": "나는 아직 점심을 안 먹었어.",
+        "clauses": [
+          {
+            "clause_id": "DEV007:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A7",
+                "form": "-아/어",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F3",
+                  "GYS-R041:A7"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV007",
+        "input": "나는 아직 점심을 안 먹었어.",
+        "clauses": [
+          {
+            "clause_id": "DEV007:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A7",
+                "form": "-아/어",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F3",
+                  "GYS-R041:A7"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV008",
+        "input": "비가 너무 많이 와서 밖에 못 나가겠어요.",
+        "clauses": [
+          {
+            "clause_id": "DEV008:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A8",
+                "form": "-아/어요",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F4",
+                  "GYS-R041:A8"
+                ]
+              },
+              {
+                "id": "GYS-J013:A4",
+                "form": "-(ㅂ)니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-J013:F1",
+                  "GYS-J013:A4"
+                ]
+              },
+              {
+                "id": "GYS-H014:A1",
+                "form": "-(스)ㅂ니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H014:F1",
+                  "GYS-H014:A1"
+                ]
+              }
+            ]
+          },
+          {
+            "clause_id": "DEV008:c2",
+            "selected": [
+              {
+                "id": "GYS-R047:A1",
+                "form": "-아/어서",
+                "path": [
+                  "concept:CAUSE",
+                  "GYS-R047:F1",
+                  "GYS-R047:A1"
+                ]
+              },
+              {
+                "id": "GYS-R047:A2",
+                "form": "-니",
+                "path": [
+                  "concept:CAUSE",
+                  "GYS-R047:F2",
+                  "GYS-R047:A2"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV008",
+        "input": "비가 너무 많이 와서 밖에 못 나가겠어요.",
+        "clauses": [
+          {
+            "clause_id": "DEV008:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A8",
+                "form": "-아/어요",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F4",
+                  "GYS-R041:A8"
+                ]
+              },
+              {
+                "id": "GYS-J013:A4",
+                "form": "-(ㅂ)니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-J013:F1",
+                  "GYS-J013:A4"
+                ]
+              },
+              {
+                "id": "GYS-H028:A3",
+                "form": "-아/어요",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H028:F1",
+                  "GYS-H028:A3"
+                ]
+              },
+              {
+                "id": "GYS-H014:A1",
+                "form": "-(스)ㅂ니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H014:F1",
+                  "GYS-H014:A1"
+                ]
+              },
+              {
+                "id": "GYS-H028:A7",
+                "form": "-아/어예",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H028:F2",
+                  "GYS-H028:A7"
+                ]
+              }
+            ]
+          },
+          {
+            "clause_id": "DEV008:c2",
+            "selected": [
+              {
+                "id": "GYS-R047:A1",
+                "form": "-아/어서",
+                "path": [
+                  "concept:CAUSE",
+                  "GYS-R047:F1",
+                  "GYS-R047:A1"
+                ]
+              },
+              {
+                "id": "GYS-R047:A2",
+                "form": "-니",
+                "path": [
+                  "concept:CAUSE",
+                  "GYS-R047:F2",
+                  "GYS-R047:A2"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV009",
+        "input": "그 사람이 싫은 건 아니야.",
+        "clauses": [
+          {
+            "clause_id": "DEV009:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A7",
+                "form": "-아/어",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F3",
+                  "GYS-R041:A7"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV009",
+        "input": "그 사람이 싫은 건 아니야.",
+        "clauses": [
+          {
+            "clause_id": "DEV009:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A7",
+                "form": "-아/어",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F3",
+                  "GYS-R041:A7"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV010",
+        "input": "오늘 안에 다 끝낼 수 있을 것 같아요.",
+        "clauses": [
+          {
+            "clause_id": "DEV010:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A8",
+                "form": "-아/어요",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F4",
+                  "GYS-R041:A8"
+                ]
+              },
+              {
+                "id": "GYS-J013:A4",
+                "form": "-(ㅂ)니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-J013:F1",
+                  "GYS-J013:A4"
+                ]
+              },
+              {
+                "id": "GYS-H014:A1",
+                "form": "-(스)ㅂ니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H014:F1",
+                  "GYS-H014:A1"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV010",
+        "input": "오늘 안에 다 끝낼 수 있을 것 같아요.",
+        "clauses": [
+          {
+            "clause_id": "DEV010:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A8",
+                "form": "-아/어요",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F4",
+                  "GYS-R041:A8"
+                ]
+              },
+              {
+                "id": "GYS-J013:A4",
+                "form": "-(ㅂ)니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-J013:F1",
+                  "GYS-J013:A4"
+                ]
+              },
+              {
+                "id": "GYS-H028:A3",
+                "form": "-아/어요",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H028:F1",
+                  "GYS-H028:A3"
+                ]
+              },
+              {
+                "id": "GYS-H014:A1",
+                "form": "-(스)ㅂ니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H014:F1",
+                  "GYS-H014:A1"
+                ]
+              },
+              {
+                "id": "GYS-H028:A7",
+                "form": "-아/어예",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H028:F2",
+                  "GYS-H028:A7"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV011",
+        "input": "버스가 벌써 출발했나요?",
+        "clauses": [
+          {
+            "clause_id": "DEV011:c1",
+            "selected": [
+              {
+                "id": "GYS-H006:A4",
+                "form": "-(느)ㄴ가요",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H006:F3",
+                  "GYS-H006:A4"
+                ]
+              },
+              {
+                "id": "GYS-H008:A4",
+                "form": "-(느)ㄴ강요",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H008:F3",
+                  "GYS-H008:A4"
+                ]
+              },
+              {
+                "id": "GYS-H012:A4",
+                "form": "-(느)ㄴ강예",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H012:F3",
+                  "GYS-H012:A4"
+                ]
+              },
+              {
+                "id": "GYS-H014:A2",
+                "form": "-(스)ㅂ니꺼",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H014:F2",
+                  "GYS-H014:A2"
+                ]
+              },
+              {
+                "id": "GYS-H010:A4",
+                "form": "-(느)ㄴ가예",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H010:F3",
+                  "GYS-H010:A4"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV011",
+        "input": "버스가 벌써 출발했나요?",
+        "clauses": [
+          {
+            "clause_id": "DEV011:c1",
+            "selected": [
+              {
+                "id": "GYS-H006:A4",
+                "form": "-(느)ㄴ가요",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H006:F3",
+                  "GYS-H006:A4"
+                ]
+              },
+              {
+                "id": "GYS-H008:A4",
+                "form": "-(느)ㄴ강요",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H008:F3",
+                  "GYS-H008:A4"
+                ]
+              },
+              {
+                "id": "GYS-H012:A4",
+                "form": "-(느)ㄴ강예",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H012:F3",
+                  "GYS-H012:A4"
+                ]
+              },
+              {
+                "id": "GYS-H014:A2",
+                "form": "-(스)ㅂ니꺼",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H014:F2",
+                  "GYS-H014:A2"
+                ]
+              },
+              {
+                "id": "GYS-H028:A4",
+                "form": "-아/어요",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H028:F1",
+                  "GYS-H028:A4"
+                ]
+              },
+              {
+                "id": "GYS-H010:A4",
+                "form": "-(느)ㄴ가예",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H010:F3",
+                  "GYS-H010:A4"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV012",
+        "input": "열쇠를 어디에 뒀어?",
+        "clauses": [
+          {
+            "clause_id": "DEV012:c1",
+            "selected": [
+              {
+                "id": "GYS-Q002:A1",
+                "form": "-노",
+                "path": [
+                  "concept:CONTENT_QUESTION",
+                  "GYS-Q002:F1",
+                  "GYS-Q002:A1"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV012",
+        "input": "열쇠를 어디에 뒀어?",
+        "clauses": [
+          {
+            "clause_id": "DEV012:c1",
+            "selected": [
+              {
+                "id": "GYS-Q002:A1",
+                "form": "-노",
+                "path": [
+                  "concept:CONTENT_QUESTION",
+                  "GYS-Q002:F1",
+                  "GYS-Q002:A1"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV013",
+        "input": "내일 몇 시에 만나면 될까요?",
+        "clauses": [
+          {
+            "clause_id": "DEV013:c1",
+            "selected": [
+              {
+                "id": "GYS-H009:A4",
+                "form": "-(느)ㄴ고예",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H009:F3",
+                  "GYS-H009:A4"
+                ]
+              },
+              {
+                "id": "GYS-H007:A4",
+                "form": "-(느)ㄴ공요",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H007:F3",
+                  "GYS-H007:A4"
+                ]
+              },
+              {
+                "id": "GYS-H014:A2",
+                "form": "-(스)ㅂ니꺼",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H014:F2",
+                  "GYS-H014:A2"
+                ]
+              },
+              {
+                "id": "GYS-H005:A4",
+                "form": "-(느)ㄴ고요",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H005:F3",
+                  "GYS-H005:A4"
+                ]
+              },
+              {
+                "id": "GYS-H011:A4",
+                "form": "-(느)ㄴ공예",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H011:F3",
+                  "GYS-H011:A4"
+                ]
+              }
+            ]
+          },
+          {
+            "clause_id": "DEV013:c2",
+            "selected": [
+              {
+                "id": "GYS-R046:A1",
+                "form": "-걸랑",
+                "path": [
+                  "concept:CONDITION",
+                  "GYS-R046:F1",
+                  "GYS-R046:A1"
+                ]
+              },
+              {
+                "id": "GYS-R005:A1",
+                "form": "-먼",
+                "path": [
+                  "concept:CONDITION",
+                  "GYS-R005:F1",
+                  "GYS-R005:A1"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV013",
+        "input": "내일 몇 시에 만나면 될까요?",
+        "clauses": [
+          {
+            "clause_id": "DEV013:c1",
+            "selected": [
+              {
+                "id": "GYS-H009:A4",
+                "form": "-(느)ㄴ고예",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H009:F3",
+                  "GYS-H009:A4"
+                ]
+              },
+              {
+                "id": "GYS-H007:A4",
+                "form": "-(느)ㄴ공요",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H007:F3",
+                  "GYS-H007:A4"
+                ]
+              },
+              {
+                "id": "GYS-H014:A2",
+                "form": "-(스)ㅂ니꺼",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H014:F2",
+                  "GYS-H014:A2"
+                ]
+              },
+              {
+                "id": "GYS-H028:A4",
+                "form": "-아/어요",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H028:F1",
+                  "GYS-H028:A4"
+                ]
+              },
+              {
+                "id": "GYS-H005:A4",
+                "form": "-(느)ㄴ고요",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H005:F3",
+                  "GYS-H005:A4"
+                ]
+              },
+              {
+                "id": "GYS-H011:A4",
+                "form": "-(느)ㄴ공예",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H011:F3",
+                  "GYS-H011:A4"
+                ]
+              }
+            ]
+          },
+          {
+            "clause_id": "DEV013:c2",
+            "selected": [
+              {
+                "id": "GYS-R046:A1",
+                "form": "-걸랑",
+                "path": [
+                  "concept:CONDITION",
+                  "GYS-R046:F1",
+                  "GYS-R046:A1"
+                ]
+              },
+              {
+                "id": "GYS-R005:A1",
+                "form": "-먼",
+                "path": [
+                  "concept:CONDITION",
+                  "GYS-R005:F1",
+                  "GYS-R005:A1"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV014",
+        "input": "아까 왜 아무 말도 안 했어?",
+        "clauses": [
+          {
+            "clause_id": "DEV014:c1",
+            "selected": [
+              {
+                "id": "GYS-Q002:A1",
+                "form": "-노",
+                "path": [
+                  "concept:CONTENT_QUESTION",
+                  "GYS-Q002:F1",
+                  "GYS-Q002:A1"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV014",
+        "input": "아까 왜 아무 말도 안 했어?",
+        "clauses": [
+          {
+            "clause_id": "DEV014:c1",
+            "selected": [
+              {
+                "id": "GYS-Q002:A1",
+                "form": "-노",
+                "path": [
+                  "concept:CONTENT_QUESTION",
+                  "GYS-Q002:F1",
+                  "GYS-Q002:A1"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV015",
+        "input": "이 우산은 누구 거예요?",
+        "clauses": [
+          {
+            "clause_id": "DEV015:c1",
+            "selected": [
+              {
+                "id": "GYS-H009:A4",
+                "form": "-(느)ㄴ고예",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H009:F3",
+                  "GYS-H009:A4"
+                ]
+              },
+              {
+                "id": "GYS-H007:A4",
+                "form": "-(느)ㄴ공요",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H007:F3",
+                  "GYS-H007:A4"
+                ]
+              },
+              {
+                "id": "GYS-H014:A2",
+                "form": "-(스)ㅂ니꺼",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H014:F2",
+                  "GYS-H014:A2"
+                ]
+              },
+              {
+                "id": "GYS-H005:A4",
+                "form": "-(느)ㄴ고요",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H005:F3",
+                  "GYS-H005:A4"
+                ]
+              },
+              {
+                "id": "GYS-H011:A4",
+                "form": "-(느)ㄴ공예",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H011:F3",
+                  "GYS-H011:A4"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV015",
+        "input": "이 우산은 누구 거예요?",
+        "clauses": [
+          {
+            "clause_id": "DEV015:c1",
+            "selected": [
+              {
+                "id": "GYS-H009:A4",
+                "form": "-(느)ㄴ고예",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H009:F3",
+                  "GYS-H009:A4"
+                ]
+              },
+              {
+                "id": "GYS-H007:A4",
+                "form": "-(느)ㄴ공요",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H007:F3",
+                  "GYS-H007:A4"
+                ]
+              },
+              {
+                "id": "GYS-H014:A2",
+                "form": "-(스)ㅂ니꺼",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H014:F2",
+                  "GYS-H014:A2"
+                ]
+              },
+              {
+                "id": "GYS-H028:A4",
+                "form": "-아/어요",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H028:F1",
+                  "GYS-H028:A4"
+                ]
+              },
+              {
+                "id": "GYS-H005:A4",
+                "form": "-(느)ㄴ고요",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H005:F3",
+                  "GYS-H005:A4"
+                ]
+              },
+              {
+                "id": "GYS-H011:A4",
+                "form": "-(느)ㄴ공예",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H011:F3",
+                  "GYS-H011:A4"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV016",
+        "input": "너는 지금 집에 가는 거야, 아니면 회사로 돌아가는 거야?",
+        "clauses": [
+          {
+            "clause_id": "DEV016:c1",
+            "selected": []
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV016",
+        "input": "너는 지금 집에 가는 거야, 아니면 회사로 돌아가는 거야?",
+        "clauses": [
+          {
+            "clause_id": "DEV016:c1",
+            "selected": []
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV017",
+        "input": "문 좀 닫아 주세요.",
+        "clauses": [
+          {
+            "clause_id": "DEV017:c1",
+            "selected": [
+              {
+                "id": "GYS-H014:A3",
+                "form": "-(으)이소",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-H014:F3",
+                  "GYS-H014:A3"
+                ]
+              },
+              {
+                "id": "GYS-R039:A14",
+                "form": "-아/어요",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-R039:F7",
+                  "GYS-R039:A14"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV017",
+        "input": "문 좀 닫아 주세요.",
+        "clauses": [
+          {
+            "clause_id": "DEV017:c1",
+            "selected": [
+              {
+                "id": "GYS-H014:A3",
+                "form": "-(으)이소",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-H014:F3",
+                  "GYS-H014:A3"
+                ]
+              },
+              {
+                "id": "GYS-R039:A14",
+                "form": "-아/어요",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-R039:F7",
+                  "GYS-R039:A14"
+                ]
+              },
+              {
+                "id": "GYS-H028:A5",
+                "form": "-아/어요",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-H028:F1",
+                  "GYS-H028:A5"
+                ]
+              },
+              {
+                "id": "GYS-H028:A9",
+                "form": "-아/어예",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-H028:F2",
+                  "GYS-H028:A9"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV018",
+        "input": "이 상자 옮기는 것 좀 도와줄래?",
+        "clauses": [
+          {
+            "clause_id": "DEV018:c1",
+            "selected": []
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV018",
+        "input": "이 상자 옮기는 것 좀 도와줄래?",
+        "clauses": [
+          {
+            "clause_id": "DEV018:c1",
+            "selected": []
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV019",
+        "input": "바닥이 미끄러우니까 천천히 걸으세요.",
+        "clauses": [
+          {
+            "clause_id": "DEV019:c1",
+            "selected": [
+              {
+                "id": "GYS-H014:A3",
+                "form": "-(으)이소",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-H014:F3",
+                  "GYS-H014:A3"
+                ]
+              },
+              {
+                "id": "GYS-R039:A14",
+                "form": "-아/어요",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-R039:F7",
+                  "GYS-R039:A14"
+                ]
+              }
+            ]
+          },
+          {
+            "clause_id": "DEV019:c2",
+            "selected": [
+              {
+                "id": "GYS-R047:A1",
+                "form": "-아/어서",
+                "path": [
+                  "concept:CAUSE",
+                  "GYS-R047:F1",
+                  "GYS-R047:A1"
+                ]
+              },
+              {
+                "id": "GYS-R047:A2",
+                "form": "-니",
+                "path": [
+                  "concept:CAUSE",
+                  "GYS-R047:F2",
+                  "GYS-R047:A2"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV019",
+        "input": "바닥이 미끄러우니까 천천히 걸으세요.",
+        "clauses": [
+          {
+            "clause_id": "DEV019:c1",
+            "selected": [
+              {
+                "id": "GYS-H014:A3",
+                "form": "-(으)이소",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-H014:F3",
+                  "GYS-H014:A3"
+                ]
+              },
+              {
+                "id": "GYS-R039:A14",
+                "form": "-아/어요",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-R039:F7",
+                  "GYS-R039:A14"
+                ]
+              },
+              {
+                "id": "GYS-H028:A5",
+                "form": "-아/어요",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-H028:F1",
+                  "GYS-H028:A5"
+                ]
+              },
+              {
+                "id": "GYS-H028:A9",
+                "form": "-아/어예",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-H028:F2",
+                  "GYS-H028:A9"
+                ]
+              }
+            ]
+          },
+          {
+            "clause_id": "DEV019:c2",
+            "selected": [
+              {
+                "id": "GYS-R047:A1",
+                "form": "-아/어서",
+                "path": [
+                  "concept:CAUSE",
+                  "GYS-R047:F1",
+                  "GYS-R047:A1"
+                ]
+              },
+              {
+                "id": "GYS-R047:A2",
+                "form": "-니",
+                "path": [
+                  "concept:CAUSE",
+                  "GYS-R047:F2",
+                  "GYS-R047:A2"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV020",
+        "input": "그 얘기는 다른 사람한테 하지 마.",
+        "clauses": [
+          {
+            "clause_id": "DEV020:c1",
+            "selected": [
+              {
+                "id": "GYS-R039:A13",
+                "form": "-아/어",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-R039:F6",
+                  "GYS-R039:A13"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV020",
+        "input": "그 얘기는 다른 사람한테 하지 마.",
+        "clauses": [
+          {
+            "clause_id": "DEV020:c1",
+            "selected": [
+              {
+                "id": "GYS-R039:A13",
+                "form": "-아/어",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-R039:F6",
+                  "GYS-R039:A13"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV021",
+        "input": "잠깐만 기다려 주세요. 제가 확인해 볼게요.",
+        "clauses": [
+          {
+            "clause_id": "DEV021:c1",
+            "selected": [
+              {
+                "id": "GYS-H014:A3",
+                "form": "-(으)이소",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-H014:F3",
+                  "GYS-H014:A3"
+                ]
+              },
+              {
+                "id": "GYS-R039:A14",
+                "form": "-아/어요",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-R039:F7",
+                  "GYS-R039:A14"
+                ]
+              }
+            ]
+          },
+          {
+            "clause_id": "DEV021:c2",
+            "selected": [
+              {
+                "id": "GYS-R041:A8",
+                "form": "-아/어요",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F4",
+                  "GYS-R041:A8"
+                ]
+              },
+              {
+                "id": "GYS-J013:A4",
+                "form": "-(ㅂ)니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-J013:F1",
+                  "GYS-J013:A4"
+                ]
+              },
+              {
+                "id": "GYS-H014:A1",
+                "form": "-(스)ㅂ니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H014:F1",
+                  "GYS-H014:A1"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV021",
+        "input": "잠깐만 기다려 주세요. 제가 확인해 볼게요.",
+        "clauses": [
+          {
+            "clause_id": "DEV021:c1",
+            "selected": [
+              {
+                "id": "GYS-H014:A3",
+                "form": "-(으)이소",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-H014:F3",
+                  "GYS-H014:A3"
+                ]
+              },
+              {
+                "id": "GYS-R039:A14",
+                "form": "-아/어요",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-R039:F7",
+                  "GYS-R039:A14"
+                ]
+              },
+              {
+                "id": "GYS-H028:A5",
+                "form": "-아/어요",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-H028:F1",
+                  "GYS-H028:A5"
+                ]
+              },
+              {
+                "id": "GYS-H028:A9",
+                "form": "-아/어예",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-H028:F2",
+                  "GYS-H028:A9"
+                ]
+              }
+            ]
+          },
+          {
+            "clause_id": "DEV021:c2",
+            "selected": [
+              {
+                "id": "GYS-R041:A8",
+                "form": "-아/어요",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F4",
+                  "GYS-R041:A8"
+                ]
+              },
+              {
+                "id": "GYS-J013:A4",
+                "form": "-(ㅂ)니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-J013:F1",
+                  "GYS-J013:A4"
+                ]
+              },
+              {
+                "id": "GYS-H028:A3",
+                "form": "-아/어요",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H028:F1",
+                  "GYS-H028:A3"
+                ]
+              },
+              {
+                "id": "GYS-H014:A1",
+                "form": "-(스)ㅂ니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H014:F1",
+                  "GYS-H014:A1"
+                ]
+              },
+              {
+                "id": "GYS-H028:A7",
+                "form": "-아/어예",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H028:F2",
+                  "GYS-H028:A7"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV022",
+        "input": "시간 괜찮으면 같이 점심 먹자.",
+        "clauses": [
+          {
+            "clause_id": "DEV022:c1",
+            "selected": [
+              {
+                "id": "GYS-R040:A9",
+                "form": "-아/어",
+                "path": [
+                  "concept:HORTATIVE",
+                  "GYS-R040:F4",
+                  "GYS-R040:A9"
+                ]
+              }
+            ]
+          },
+          {
+            "clause_id": "DEV022:c2",
+            "selected": [
+              {
+                "id": "GYS-R046:A1",
+                "form": "-걸랑",
+                "path": [
+                  "concept:CONDITION",
+                  "GYS-R046:F1",
+                  "GYS-R046:A1"
+                ]
+              },
+              {
+                "id": "GYS-R005:A1",
+                "form": "-먼",
+                "path": [
+                  "concept:CONDITION",
+                  "GYS-R005:F1",
+                  "GYS-R005:A1"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV022",
+        "input": "시간 괜찮으면 같이 점심 먹자.",
+        "clauses": [
+          {
+            "clause_id": "DEV022:c1",
+            "selected": [
+              {
+                "id": "GYS-R040:A9",
+                "form": "-아/어",
+                "path": [
+                  "concept:HORTATIVE",
+                  "GYS-R040:F4",
+                  "GYS-R040:A9"
+                ]
+              }
+            ]
+          },
+          {
+            "clause_id": "DEV022:c2",
+            "selected": [
+              {
+                "id": "GYS-R046:A1",
+                "form": "-걸랑",
+                "path": [
+                  "concept:CONDITION",
+                  "GYS-R046:F1",
+                  "GYS-R046:A1"
+                ]
+              },
+              {
+                "id": "GYS-R005:A1",
+                "form": "-먼",
+                "path": [
+                  "concept:CONDITION",
+                  "GYS-R005:F1",
+                  "GYS-R005:A1"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV023",
+        "input": "어제부터 목이 아팠는데 오늘은 좀 괜찮아요.",
+        "clauses": [
+          {
+            "clause_id": "DEV023:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A8",
+                "form": "-아/어요",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F4",
+                  "GYS-R041:A8"
+                ]
+              },
+              {
+                "id": "GYS-J013:A4",
+                "form": "-(ㅂ)니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-J013:F1",
+                  "GYS-J013:A4"
+                ]
+              },
+              {
+                "id": "GYS-H014:A1",
+                "form": "-(스)ㅂ니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H014:F1",
+                  "GYS-H014:A1"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV023",
+        "input": "어제부터 목이 아팠는데 오늘은 좀 괜찮아요.",
+        "clauses": [
+          {
+            "clause_id": "DEV023:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A8",
+                "form": "-아/어요",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F4",
+                  "GYS-R041:A8"
+                ]
+              },
+              {
+                "id": "GYS-J013:A4",
+                "form": "-(ㅂ)니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-J013:F1",
+                  "GYS-J013:A4"
+                ]
+              },
+              {
+                "id": "GYS-H028:A3",
+                "form": "-아/어요",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H028:F1",
+                  "GYS-H028:A3"
+                ]
+              },
+              {
+                "id": "GYS-H014:A1",
+                "form": "-(스)ㅂ니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H014:F1",
+                  "GYS-H014:A1"
+                ]
+              },
+              {
+                "id": "GYS-H028:A7",
+                "form": "-아/어예",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H028:F2",
+                  "GYS-H028:A7"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV024",
+        "input": "내가 도착할 때까지 여기서 기다려.",
+        "clauses": [
+          {
+            "clause_id": "DEV024:c1",
+            "selected": [
+              {
+                "id": "GYS-R039:A13",
+                "form": "-아/어",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-R039:F6",
+                  "GYS-R039:A13"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV024",
+        "input": "내가 도착할 때까지 여기서 기다려.",
+        "clauses": [
+          {
+            "clause_id": "DEV024:c1",
+            "selected": [
+              {
+                "id": "GYS-R039:A13",
+                "form": "-아/어",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-R039:F6",
+                  "GYS-R039:A13"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV025",
+        "input": "시간이 없으면 내일 해도 돼.",
+        "clauses": [
+          {
+            "clause_id": "DEV025:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A7",
+                "form": "-아/어",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F3",
+                  "GYS-R041:A7"
+                ]
+              }
+            ]
+          },
+          {
+            "clause_id": "DEV025:c2",
+            "selected": [
+              {
+                "id": "GYS-R046:A1",
+                "form": "-걸랑",
+                "path": [
+                  "concept:CONDITION",
+                  "GYS-R046:F1",
+                  "GYS-R046:A1"
+                ]
+              },
+              {
+                "id": "GYS-R005:A1",
+                "form": "-먼",
+                "path": [
+                  "concept:CONDITION",
+                  "GYS-R005:F1",
+                  "GYS-R005:A1"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV025",
+        "input": "시간이 없으면 내일 해도 돼.",
+        "clauses": [
+          {
+            "clause_id": "DEV025:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A7",
+                "form": "-아/어",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F3",
+                  "GYS-R041:A7"
+                ]
+              }
+            ]
+          },
+          {
+            "clause_id": "DEV025:c2",
+            "selected": [
+              {
+                "id": "GYS-R046:A1",
+                "form": "-걸랑",
+                "path": [
+                  "concept:CONDITION",
+                  "GYS-R046:F1",
+                  "GYS-R046:A1"
+                ]
+              },
+              {
+                "id": "GYS-R005:A1",
+                "form": "-먼",
+                "path": [
+                  "concept:CONDITION",
+                  "GYS-R005:F1",
+                  "GYS-R005:A1"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV026",
+        "input": "늦을까 봐 조금 일찍 나왔어요.",
+        "clauses": [
+          {
+            "clause_id": "DEV026:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A8",
+                "form": "-아/어요",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F4",
+                  "GYS-R041:A8"
+                ]
+              },
+              {
+                "id": "GYS-J013:A4",
+                "form": "-(ㅂ)니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-J013:F1",
+                  "GYS-J013:A4"
+                ]
+              },
+              {
+                "id": "GYS-H014:A1",
+                "form": "-(스)ㅂ니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H014:F1",
+                  "GYS-H014:A1"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV026",
+        "input": "늦을까 봐 조금 일찍 나왔어요.",
+        "clauses": [
+          {
+            "clause_id": "DEV026:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A8",
+                "form": "-아/어요",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F4",
+                  "GYS-R041:A8"
+                ]
+              },
+              {
+                "id": "GYS-J013:A4",
+                "form": "-(ㅂ)니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-J013:F1",
+                  "GYS-J013:A4"
+                ]
+              },
+              {
+                "id": "GYS-H028:A3",
+                "form": "-아/어요",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H028:F1",
+                  "GYS-H028:A3"
+                ]
+              },
+              {
+                "id": "GYS-H014:A1",
+                "form": "-(스)ㅂ니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H014:F1",
+                  "GYS-H014:A1"
+                ]
+              },
+              {
+                "id": "GYS-H028:A7",
+                "form": "-아/어예",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H028:F2",
+                  "GYS-H028:A7"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV027",
+        "input": "동생이 오늘은 늦게 온다고 했어.",
+        "clauses": [
+          {
+            "clause_id": "DEV027:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A7",
+                "form": "-아/어",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F3",
+                  "GYS-R041:A7"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV027",
+        "input": "동생이 오늘은 늦게 온다고 했어.",
+        "clauses": [
+          {
+            "clause_id": "DEV027:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A7",
+                "form": "-아/어",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F3",
+                  "GYS-R041:A7"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV028",
+        "input": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+        "clauses": [
+          {
+            "clause_id": "DEV028:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A8",
+                "form": "-아/어요",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F4",
+                  "GYS-R041:A8"
+                ]
+              },
+              {
+                "id": "GYS-J013:A4",
+                "form": "-(ㅂ)니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-J013:F1",
+                  "GYS-J013:A4"
+                ]
+              },
+              {
+                "id": "GYS-H014:A1",
+                "form": "-(스)ㅂ니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H014:F1",
+                  "GYS-H014:A1"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV028",
+        "input": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+        "clauses": [
+          {
+            "clause_id": "DEV028:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A8",
+                "form": "-아/어요",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F4",
+                  "GYS-R041:A8"
+                ]
+              },
+              {
+                "id": "GYS-J013:A4",
+                "form": "-(ㅂ)니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-J013:F1",
+                  "GYS-J013:A4"
+                ]
+              },
+              {
+                "id": "GYS-H028:A3",
+                "form": "-아/어요",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H028:F1",
+                  "GYS-H028:A3"
+                ]
+              },
+              {
+                "id": "GYS-H014:A1",
+                "form": "-(스)ㅂ니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H014:F1",
+                  "GYS-H014:A1"
+                ]
+              },
+              {
+                "id": "GYS-H028:A7",
+                "form": "-아/어예",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H028:F2",
+                  "GYS-H028:A7"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV029",
+        "input": "그 가게에 가 봤는데 음식이 괜찮더라.",
+        "clauses": [
+          {
+            "clause_id": "DEV029:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A7",
+                "form": "-아/어",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F3",
+                  "GYS-R041:A7"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV029",
+        "input": "그 가게에 가 봤는데 음식이 괜찮더라.",
+        "clauses": [
+          {
+            "clause_id": "DEV029:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A7",
+                "form": "-아/어",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F3",
+                  "GYS-R041:A7"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "id": "DEV030",
+        "input": "피곤하면 먼저 자. 뒷정리는 내가 할게.",
+        "clauses": [
+          {
+            "clause_id": "DEV030:c1",
+            "selected": [
+              {
+                "id": "GYS-R039:A13",
+                "form": "-아/어",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-R039:F6",
+                  "GYS-R039:A13"
+                ]
+              }
+            ]
+          },
+          {
+            "clause_id": "DEV030:c2",
+            "selected": [
+              {
+                "id": "GYS-R041:A7",
+                "form": "-아/어",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F3",
+                  "GYS-R041:A7"
+                ]
+              }
+            ]
+          },
+          {
+            "clause_id": "DEV030:c3",
+            "selected": [
+              {
+                "id": "GYS-R046:A1",
+                "form": "-걸랑",
+                "path": [
+                  "concept:CONDITION",
+                  "GYS-R046:F1",
+                  "GYS-R046:A1"
+                ]
+              },
+              {
+                "id": "GYS-R005:A1",
+                "form": "-먼",
+                "path": [
+                  "concept:CONDITION",
+                  "GYS-R005:F1",
+                  "GYS-R005:A1"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "after": {
+        "id": "DEV030",
+        "input": "피곤하면 먼저 자. 뒷정리는 내가 할게.",
+        "clauses": [
+          {
+            "clause_id": "DEV030:c1",
+            "selected": [
+              {
+                "id": "GYS-R039:A13",
+                "form": "-아/어",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-R039:F6",
+                  "GYS-R039:A13"
+                ]
+              }
+            ]
+          },
+          {
+            "clause_id": "DEV030:c2",
+            "selected": [
+              {
+                "id": "GYS-R041:A7",
+                "form": "-아/어",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F3",
+                  "GYS-R041:A7"
+                ]
+              }
+            ]
+          },
+          {
+            "clause_id": "DEV030:c3",
+            "selected": [
+              {
+                "id": "GYS-R046:A1",
+                "form": "-걸랑",
+                "path": [
+                  "concept:CONDITION",
+                  "GYS-R046:F1",
+                  "GYS-R046:A1"
+                ]
+              },
+              {
+                "id": "GYS-R005:A1",
+                "form": "-먼",
+                "path": [
+                  "concept:CONDITION",
+                  "GYS-R005:F1",
+                  "GYS-R005:A1"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "new_inputs_created_after_repairs": [
+    {
+      "analysis": {
+        "id": "NEW001",
+        "input": "오늘 회의는 세 시에 끝났어요.",
+        "preservation_note": "의미·시제·청자 높임 유지",
+        "unqueried_structure_note": "수동 분석 기반 조회 검증이며 자동 분석/번역 품질 평가가 아님.",
+        "clauses": [
+          {
+            "clause_id": "NEW001:c1",
+            "predicate_complex_id": "NEW001:p1",
+            "text": "오늘 회의는 세 시에 끝났어요.",
+            "span": [
+              0,
+              17
+            ],
+            "role": "main",
+            "features": {
+              "host_form": "끝나다",
+              "host_pos": "verb",
+              "host_class": "predicate_other_than_anida",
+              "sentence_type": "declarative"
+            },
+            "preserved_candidate_features": {
+              "prefinal_profile": "switching_prefinal_present",
+              "preceding_form": "-었-"
+            },
+            "observed_politeness": "polite",
+            "target_scenarios": [
+              {
+                "speech_level": "HAEYO_LEVEL"
+              },
+              {
+                "speech_level": "HAISOCHE"
+              },
+              {
+                "addressee_treatment": "informal_high"
+              }
+            ]
+          }
+        ]
+      },
+      "retrieval": {
+        "id": "NEW001",
+        "input": "오늘 회의는 세 시에 끝났어요.",
+        "clauses": [
+          {
+            "clause_id": "NEW001:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A8",
+                "form": "-아/어요",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F4",
+                  "GYS-R041:A8"
+                ]
+              },
+              {
+                "id": "GYS-J013:A4",
+                "form": "-(ㅂ)니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-J013:F1",
+                  "GYS-J013:A4"
+                ]
+              },
+              {
+                "id": "GYS-H028:A3",
+                "form": "-아/어요",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H028:F1",
+                  "GYS-H028:A3"
+                ]
+              },
+              {
+                "id": "GYS-H014:A1",
+                "form": "-(스)ㅂ니더",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H014:F1",
+                  "GYS-H014:A1"
+                ]
+              },
+              {
+                "id": "GYS-H028:A7",
+                "form": "-아/어예",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-H028:F2",
+                  "GYS-H028:A7"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "haeye": [
+        {
+          "id": "GYS-H028:A7",
+          "disposition": "sent_as_conditional_reference",
+          "scenarios": [
+            {
+              "target": {
+                "speech_level": "HAEYO_LEVEL"
+              },
+              "eligible": false,
+              "reasons": [
+                "condition_unknown"
+              ]
+            },
+            {
+              "target": {
+                "speech_level": "HAISOCHE"
+              },
+              "eligible": false,
+              "reasons": [
+                "condition_unknown"
+              ]
+            },
+            {
+              "target": {
+                "addressee_treatment": "informal_high"
+              },
+              "eligible": true,
+              "reasons": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "analysis": {
+        "id": "NEW002",
+        "input": "택배가 도착했어요?",
+        "preservation_note": "의미·시제·청자 높임 유지",
+        "unqueried_structure_note": "수동 분석 기반 조회 검증이며 자동 분석/번역 품질 평가가 아님.",
+        "clauses": [
+          {
+            "clause_id": "NEW002:c1",
+            "predicate_complex_id": "NEW002:p1",
+            "text": "택배가 도착했어요?",
+            "span": [
+              0,
+              10
+            ],
+            "role": "main",
+            "features": {
+              "host_form": "도착하다",
+              "host_pos": "verb",
+              "host_class": "predicate_other_than_anida",
+              "sentence_type": "interrogative",
+              "question_type": "polar",
+              "response_orientation": "addressee"
+            },
+            "preserved_candidate_features": {
+              "prefinal_profile": "switching_prefinal_present",
+              "preceding_form": "-었-"
+            },
+            "observed_politeness": "polite",
+            "target_scenarios": [
+              {
+                "speech_level": "HAEYO_LEVEL"
+              },
+              {
+                "speech_level": "HAISOCHE"
+              },
+              {
+                "addressee_treatment": "informal_high"
+              }
+            ]
+          }
+        ]
+      },
+      "retrieval": {
+        "id": "NEW002",
+        "input": "택배가 도착했어요?",
+        "clauses": [
+          {
+            "clause_id": "NEW002:c1",
+            "selected": [
+              {
+                "id": "GYS-H006:A4",
+                "form": "-(느)ㄴ가요",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H006:F3",
+                  "GYS-H006:A4"
+                ]
+              },
+              {
+                "id": "GYS-H008:A4",
+                "form": "-(느)ㄴ강요",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H008:F3",
+                  "GYS-H008:A4"
+                ]
+              },
+              {
+                "id": "GYS-H012:A4",
+                "form": "-(느)ㄴ강예",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H012:F3",
+                  "GYS-H012:A4"
+                ]
+              },
+              {
+                "id": "GYS-H014:A2",
+                "form": "-(스)ㅂ니꺼",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H014:F2",
+                  "GYS-H014:A2"
+                ]
+              },
+              {
+                "id": "GYS-H028:A4",
+                "form": "-아/어요",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H028:F1",
+                  "GYS-H028:A4"
+                ]
+              },
+              {
+                "id": "GYS-H010:A4",
+                "form": "-(느)ㄴ가예",
+                "path": [
+                  "concept:INTERROGATIVE",
+                  "GYS-H010:F3",
+                  "GYS-H010:A4"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "haeye": [
+        {
+          "id": "GYS-H028:A8",
+          "disposition": "eligible_not_sent_cap_or_duplicate",
+          "scenarios": [
+            {
+              "target": {
+                "speech_level": "HAEYO_LEVEL"
+              },
+              "eligible": false,
+              "reasons": [
+                "condition_unknown"
+              ]
+            },
+            {
+              "target": {
+                "speech_level": "HAISOCHE"
+              },
+              "eligible": false,
+              "reasons": [
+                "condition_unknown"
+              ]
+            },
+            {
+              "target": {
+                "addressee_treatment": "informal_high"
+              },
+              "eligible": true,
+              "reasons": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "analysis": {
+        "id": "NEW003",
+        "input": "창문을 조금 열어 주세요.",
+        "preservation_note": "의미·시제·청자 높임 유지",
+        "unqueried_structure_note": "수동 분석 기반 조회 검증이며 자동 분석/번역 품질 평가가 아님.",
+        "clauses": [
+          {
+            "clause_id": "NEW003:c1",
+            "predicate_complex_id": "NEW003:p1",
+            "text": "창문을 조금 열어 주세요.",
+            "span": [
+              0,
+              14
+            ],
+            "role": "main",
+            "features": {
+              "host_form": "열다",
+              "host_pos": "verb",
+              "host_class": "predicate_other_than_anida",
+              "sentence_type": "imperative",
+              "action_participants": "addressee_only",
+              "speech_act": "request"
+            },
+            "preserved_candidate_features": {
+              "prefinal_profile": "none"
+            },
+            "observed_politeness": "polite",
+            "target_scenarios": [
+              {
+                "speech_level": "HAEYO_LEVEL"
+              },
+              {
+                "speech_level": "HAISOCHE"
+              },
+              {
+                "addressee_treatment": "informal_high"
+              }
+            ]
+          }
+        ]
+      },
+      "retrieval": {
+        "id": "NEW003",
+        "input": "창문을 조금 열어 주세요.",
+        "clauses": [
+          {
+            "clause_id": "NEW003:c1",
+            "selected": [
+              {
+                "id": "GYS-H014:A3",
+                "form": "-(으)이소",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-H014:F3",
+                  "GYS-H014:A3"
+                ]
+              },
+              {
+                "id": "GYS-R039:A14",
+                "form": "-아/어요",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-R039:F7",
+                  "GYS-R039:A14"
+                ]
+              },
+              {
+                "id": "GYS-H028:A5",
+                "form": "-아/어요",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-H028:F1",
+                  "GYS-H028:A5"
+                ]
+              },
+              {
+                "id": "GYS-H028:A9",
+                "form": "-아/어예",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-H028:F2",
+                  "GYS-H028:A9"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "haeye": [
+        {
+          "id": "GYS-H028:A9",
+          "disposition": "sent_as_conditional_reference",
+          "scenarios": [
+            {
+              "target": {
+                "speech_level": "HAEYO_LEVEL"
+              },
+              "eligible": false,
+              "reasons": [
+                "condition_unknown"
+              ]
+            },
+            {
+              "target": {
+                "speech_level": "HAISOCHE"
+              },
+              "eligible": false,
+              "reasons": [
+                "condition_unknown"
+              ]
+            },
+            {
+              "target": {
+                "addressee_treatment": "informal_high"
+              },
+              "eligible": true,
+              "reasons": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "analysis": {
+        "id": "NEW004",
+        "input": "오늘은 여기서 같이 쉬어요.",
+        "preservation_note": "의미·시제·청자 높임 유지",
+        "unqueried_structure_note": "수동 분석 기반 조회 검증이며 자동 분석/번역 품질 평가가 아님.",
+        "clauses": [
+          {
+            "clause_id": "NEW004:c1",
+            "predicate_complex_id": "NEW004:p1",
+            "text": "오늘은 여기서 같이 쉬어요.",
+            "span": [
+              0,
+              15
+            ],
+            "role": "main",
+            "features": {
+              "host_form": "쉬다",
+              "host_pos": "verb",
+              "host_class": "predicate_other_than_anida",
+              "sentence_type": "hortative",
+              "action_participants": "speaker_and_addressee"
+            },
+            "preserved_candidate_features": {
+              "prefinal_profile": "none"
+            },
+            "observed_politeness": "polite",
+            "target_scenarios": [
+              {
+                "speech_level": "HAEYO_LEVEL"
+              },
+              {
+                "speech_level": "HAISOCHE"
+              },
+              {
+                "addressee_treatment": "informal_high"
+              }
+            ]
+          }
+        ]
+      },
+      "retrieval": {
+        "id": "NEW004",
+        "input": "오늘은 여기서 같이 쉬어요.",
+        "clauses": [
+          {
+            "clause_id": "NEW004:c1",
+            "selected": [
+              {
+                "id": "GYS-H028:A6",
+                "form": "-아/어요",
+                "path": [
+                  "concept:HORTATIVE",
+                  "GYS-H028:F1",
+                  "GYS-H028:A6"
+                ]
+              },
+              {
+                "id": "GYS-H028:A10",
+                "form": "-아/어예",
+                "path": [
+                  "concept:HORTATIVE",
+                  "GYS-H028:F2",
+                  "GYS-H028:A10"
+                ]
+              },
+              {
+                "id": "GYS-H014:A4",
+                "form": "-(으)이시더",
+                "path": [
+                  "concept:HORTATIVE",
+                  "GYS-H014:F4",
+                  "GYS-H014:A4"
+                ]
+              },
+              {
+                "id": "GYS-R040:A10",
+                "form": "-아/어요",
+                "path": [
+                  "concept:HORTATIVE",
+                  "GYS-R040:F5",
+                  "GYS-R040:A10"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "haeye": [
+        {
+          "id": "GYS-H028:A10",
+          "disposition": "sent_as_conditional_reference",
+          "scenarios": [
+            {
+              "target": {
+                "speech_level": "HAEYO_LEVEL"
+              },
+              "eligible": false,
+              "reasons": [
+                "condition_unknown"
+              ]
+            },
+            {
+              "target": {
+                "speech_level": "HAISOCHE"
+              },
+              "eligible": false,
+              "reasons": [
+                "condition_unknown"
+              ]
+            },
+            {
+              "target": {
+                "addressee_treatment": "informal_high"
+              },
+              "eligible": true,
+              "reasons": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "analysis": {
+        "id": "NEW005",
+        "input": "오늘 회의는 세 시에 끝났어.",
+        "preservation_note": "의미·시제·청자 높임 유지",
+        "unqueried_structure_note": "수동 분석 기반 조회 검증이며 자동 분석/번역 품질 평가가 아님.",
+        "clauses": [
+          {
+            "clause_id": "NEW005:c1",
+            "predicate_complex_id": "NEW005:p1",
+            "text": "오늘 회의는 세 시에 끝났어.",
+            "span": [
+              0,
+              16
+            ],
+            "role": "main",
+            "features": {
+              "host_form": "끝나다",
+              "host_pos": "verb",
+              "host_class": "predicate_other_than_anida",
+              "sentence_type": "declarative"
+            },
+            "preserved_candidate_features": {
+              "prefinal_profile": "switching_prefinal_present",
+              "preceding_form": "-었-"
+            },
+            "observed_politeness": "non_polite",
+            "target_scenarios": [
+              {
+                "speech_level": "HAECHE"
+              },
+              {
+                "speech_level": "HAERACHE"
+              },
+              {
+                "addressee_treatment": "informal_low"
+              }
+            ]
+          }
+        ]
+      },
+      "retrieval": {
+        "id": "NEW005",
+        "input": "오늘 회의는 세 시에 끝났어.",
+        "clauses": [
+          {
+            "clause_id": "NEW005:c1",
+            "selected": [
+              {
+                "id": "GYS-R041:A7",
+                "form": "-아/어",
+                "path": [
+                  "concept:DECLARATIVE",
+                  "GYS-R041:F3",
+                  "GYS-R041:A7"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "haeye": [
+        {
+          "id": "GYS-H028:A7",
+          "disposition": "held_or_excluded",
+          "scenarios": [
+            {
+              "target": {
+                "speech_level": "HAECHE"
+              },
+              "eligible": false,
+              "reasons": [
+                "condition_unknown"
+              ]
+            },
+            {
+              "target": {
+                "speech_level": "HAERACHE"
+              },
+              "eligible": false,
+              "reasons": [
+                "condition_unknown"
+              ]
+            },
+            {
+              "target": {
+                "addressee_treatment": "informal_low"
+              },
+              "eligible": false,
+              "reasons": [
+                "condition_mismatch"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "analysis": {
+        "id": "NEW006",
+        "input": "택배가 도착했어?",
+        "preservation_note": "의미·시제·청자 높임 유지",
+        "unqueried_structure_note": "수동 분석 기반 조회 검증이며 자동 분석/번역 품질 평가가 아님.",
+        "clauses": [
+          {
+            "clause_id": "NEW006:c1",
+            "predicate_complex_id": "NEW006:p1",
+            "text": "택배가 도착했어?",
+            "span": [
+              0,
+              9
+            ],
+            "role": "main",
+            "features": {
+              "host_form": "도착하다",
+              "host_pos": "verb",
+              "host_class": "predicate_other_than_anida",
+              "sentence_type": "interrogative",
+              "question_type": "polar",
+              "response_orientation": "addressee"
+            },
+            "preserved_candidate_features": {
+              "prefinal_profile": "switching_prefinal_present",
+              "preceding_form": "-었-"
+            },
+            "observed_politeness": "non_polite",
+            "target_scenarios": [
+              {
+                "speech_level": "HAECHE"
+              },
+              {
+                "speech_level": "HAERACHE"
+              },
+              {
+                "addressee_treatment": "informal_low"
+              }
+            ]
+          }
+        ]
+      },
+      "retrieval": {
+        "id": "NEW006",
+        "input": "택배가 도착했어?",
+        "clauses": [
+          {
+            "clause_id": "NEW006:c1",
+            "selected": [
+              {
+                "id": "GYS-Q001:A1",
+                "form": "-나",
+                "path": [
+                  "concept:POLAR_QUESTION",
+                  "GYS-Q001:F1",
+                  "GYS-Q001:A1"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "haeye": [
+        {
+          "id": "GYS-H028:A8",
+          "disposition": "held_or_excluded",
+          "scenarios": [
+            {
+              "target": {
+                "speech_level": "HAECHE"
+              },
+              "eligible": false,
+              "reasons": [
+                "condition_unknown"
+              ]
+            },
+            {
+              "target": {
+                "speech_level": "HAERACHE"
+              },
+              "eligible": false,
+              "reasons": [
+                "condition_unknown"
+              ]
+            },
+            {
+              "target": {
+                "addressee_treatment": "informal_low"
+              },
+              "eligible": false,
+              "reasons": [
+                "condition_mismatch"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "analysis": {
+        "id": "NEW007",
+        "input": "창문을 조금 열어.",
+        "preservation_note": "의미·시제·청자 높임 유지",
+        "unqueried_structure_note": "수동 분석 기반 조회 검증이며 자동 분석/번역 품질 평가가 아님.",
+        "clauses": [
+          {
+            "clause_id": "NEW007:c1",
+            "predicate_complex_id": "NEW007:p1",
+            "text": "창문을 조금 열어.",
+            "span": [
+              0,
+              10
+            ],
+            "role": "main",
+            "features": {
+              "host_form": "열다",
+              "host_pos": "verb",
+              "host_class": "predicate_other_than_anida",
+              "sentence_type": "imperative",
+              "action_participants": "addressee_only",
+              "speech_act": "request"
+            },
+            "preserved_candidate_features": {
+              "prefinal_profile": "none"
+            },
+            "observed_politeness": "non_polite",
+            "target_scenarios": [
+              {
+                "speech_level": "HAECHE"
+              },
+              {
+                "speech_level": "HAERACHE"
+              },
+              {
+                "addressee_treatment": "informal_low"
+              }
+            ]
+          }
+        ]
+      },
+      "retrieval": {
+        "id": "NEW007",
+        "input": "창문을 조금 열어.",
+        "clauses": [
+          {
+            "clause_id": "NEW007:c1",
+            "selected": [
+              {
+                "id": "GYS-R039:A13",
+                "form": "-아/어",
+                "path": [
+                  "concept:IMPERATIVE",
+                  "GYS-R039:F6",
+                  "GYS-R039:A13"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "haeye": [
+        {
+          "id": "GYS-H028:A9",
+          "disposition": "held_or_excluded",
+          "scenarios": [
+            {
+              "target": {
+                "speech_level": "HAECHE"
+              },
+              "eligible": false,
+              "reasons": [
+                "condition_unknown"
+              ]
+            },
+            {
+              "target": {
+                "speech_level": "HAERACHE"
+              },
+              "eligible": false,
+              "reasons": [
+                "condition_unknown"
+              ]
+            },
+            {
+              "target": {
+                "addressee_treatment": "informal_low"
+              },
+              "eligible": false,
+              "reasons": [
+                "condition_mismatch"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "analysis": {
+        "id": "NEW008",
+        "input": "오늘은 여기서 같이 쉬자.",
+        "preservation_note": "의미·시제·청자 높임 유지",
+        "unqueried_structure_note": "수동 분석 기반 조회 검증이며 자동 분석/번역 품질 평가가 아님.",
+        "clauses": [
+          {
+            "clause_id": "NEW008:c1",
+            "predicate_complex_id": "NEW008:p1",
+            "text": "오늘은 여기서 같이 쉬자.",
+            "span": [
+              0,
+              14
+            ],
+            "role": "main",
+            "features": {
+              "host_form": "쉬다",
+              "host_pos": "verb",
+              "host_class": "predicate_other_than_anida",
+              "sentence_type": "hortative",
+              "action_participants": "speaker_and_addressee"
+            },
+            "preserved_candidate_features": {
+              "prefinal_profile": "none"
+            },
+            "observed_politeness": "non_polite",
+            "target_scenarios": [
+              {
+                "speech_level": "HAECHE"
+              },
+              {
+                "speech_level": "HAERACHE"
+              },
+              {
+                "addressee_treatment": "informal_low"
+              }
+            ]
+          }
+        ]
+      },
+      "retrieval": {
+        "id": "NEW008",
+        "input": "오늘은 여기서 같이 쉬자.",
+        "clauses": [
+          {
+            "clause_id": "NEW008:c1",
+            "selected": [
+              {
+                "id": "GYS-R040:A9",
+                "form": "-아/어",
+                "path": [
+                  "concept:HORTATIVE",
+                  "GYS-R040:F4",
+                  "GYS-R040:A9"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "haeye": [
+        {
+          "id": "GYS-H028:A10",
+          "disposition": "held_or_excluded",
+          "scenarios": [
+            {
+              "target": {
+                "speech_level": "HAECHE"
+              },
+              "eligible": false,
+              "reasons": [
+                "condition_unknown"
+              ]
+            },
+            {
+              "target": {
+                "speech_level": "HAERACHE"
+              },
+              "eligible": false,
+              "reasons": [
+                "condition_unknown"
+              ]
+            },
+            {
+              "target": {
+                "addressee_treatment": "informal_low"
+              },
+              "eligible": false,
+              "reasons": [
+                "condition_mismatch"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "New inputs are author-constructed manual retrieval probes, not independent naturalness evaluation.",
+    "No Qwen call or translation rerun.",
+    "Before paths are the saved historical retrieval; after paths use the current graph and query code.",
+    "Top-6 candidate selection and automatic input analysis are not certified by this repair."
+  ]
+}

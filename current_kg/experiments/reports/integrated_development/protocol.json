@@ -1,0 +1,124 @@
+{
+  "status": "completed",
+  "created_utc": "2026-10-08T07:56:32.673888+00:00",
+  "conditions": [
+    "prompt_only",
+    "source_hybrid",
+    "record_hybrid",
+    "graph_hybrid"
+  ],
+  "query_mode": "raw_sentence",
+  "dependencies": {
+    "experiments/integrated_retrieval.py": "6c4d85a868aad8d8f6ab5959a9113e445712870776264843fa88663157128b44",
+    "experiments/source_bindings.py": "56cd1b0f1b8c970d9ba1f0df5bf13c0204c4c071e297bd33fa32477b525a9c8a",
+    "experiments/analysis_input.py": "b79ec60b2a98626dd9c2371c022371fe4a2190b9cfb915db3752938e9f6eb173",
+    "experiments/embedding_retrieval.py": "7fd8f7bbc8f85ff079921bd6be442778b277137feb06ffbf453ed8d4e53c1e4d",
+    "experiments/source_retrieval.py": "ff0bfb11b8929796ae899ef8c819d4bcaeab3427a016ce6713526fc66d37ba4b",
+    "experiments/source_analysis_guard.py": "3a5e4c572815c721757348f38f6c8e92d6c917156b62b50e63c52ad1430b4455",
+    "grammar/query_review.py": "8856a5c557b9b0816d6e5ce2b68c21111623f5ec8b852772cd96b3a60fc63b84",
+    "grammar/analysis_contract.json": "aff8e4fc527a5743ad2e77a4656d49812f804d347462d325c68b7e45933b6873",
+    "grammar/source_evidence/summary.json": "43de7b91d6a5997ab78202dfef08df75e60c9fcce30fb1c68fbddc2b9ad7fcc4"
+  },
+  "analysis": "cached automatic guarded analysis; same across all conditions",
+  "analysis_calls_this_run": 0,
+  "translation_calls_planned": 120,
+  "repetitions": 1,
+  "seed": 20260923,
+  "method": "integrated_source_bound_assertion_retrieval_v1",
+  "max_per_binding": 6,
+  "top_k_search": 6,
+  "graph_hops": 2,
+  "graph_directions": [
+    "outgoing"
+  ],
+  "graph_relations_priority": [
+    "has_applicability_constraint",
+    "has_inflection_description",
+    "has_construction_component",
+    "shares_quotative_construction",
+    "contracts_to",
+    "combines_with",
+    "excludes_combination",
+    "variant_of",
+    "same_usage_candidate",
+    "contrasts_in_function"
+  ],
+  "budget_reference_unicode_characters": 24000,
+  "rrf_k": 60,
+  "rrf_pool": 50,
+  "condition_filter": "Function/form/hybrid discovery; independently bound application slots, conditions, politeness and exclusions. Mismatch/unknown audit only.",
+  "exclusion": "held_scope_tension edges excluded; common concept/source hubs not traversed",
+  "limitations": [
+    "All sentences are development data.",
+    "No independent naturalness evaluation.",
+    "Reference amount differs; graph contrast tests expansion as a system component, not content-matched topology alone.",
+    "prompt_only retains same cached analysis/instructions; this is not raw-sentence-only baseline.",
+    "Cached analysis is development input, not gold; morphological binding is a hypothesis.",
+    "Source condition is raw excerpt RAG; KG conditions deliver only matched assertions.",
+    "No generation quality conclusion from execution success."
+  ],
+  "config": {
+    "dataset": "development_30.jsonl",
+    "condition": "prompt_only",
+    "requested_model": "Qwen3.8-27B",
+    "system_prompt": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요.",
+    "generation": {
+      "max_tokens": 512,
+      "temperature": 0.3,
+      "top_p": 0.8,
+      "top_k": 20,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      }
+    },
+    "repetitions": 1,
+    "timeout_seconds": 30,
+    "kg_used": false,
+    "few_shot_used": false,
+    "evaluation": "not_performed",
+    "note": "개발 진단용. 최초 출력 보존, 실패 시 중단. 과거 연결 점검의 샘플링 설정을 출발점으로 사용하며 최적 설정 주장이 아님. inspection_focus는 모델에 전달하지 않음. 실제 체크포인트·양자화는 모델 ID만으로 확정하지 않음."
+  },
+  "network_timeout_seconds": 60,
+  "input_sha256": "0592aedf2aaead4ef72c4080bdca25614375ec4c4b17b8e5cb9a412df57e0d5b",
+  "analysis_sha256": "cdd162dd8754133ae397b66a0bad6ff4714ba4fdff80dd0d221d0752d01e151c",
+  "graph_sha256": "75c913dd7c39c0224764efcfba6a4ad014ad8c7c36e8ece9ed8eb2407d340fe7",
+  "records_sha256": "2cfddd07bb6deace1d93353cf75874d18c1badda2e1466b9d69a439c05813937",
+  "runner_sha256": "1cafdf612e427d3d68cb829add30904e7a5fe598c895418eadf4cf617bfbc4c9",
+  "embedding_runner_sha256": "7fd8f7bbc8f85ff079921bd6be442778b277137feb06ffbf453ed8d4e53c1e4d",
+  "embedding_model": {
+    "model_id": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "purpose": "development retrieval comparison; not dialect-tuned or proven optimal",
+    "execution": "local CPU; no source text sent to Hugging Face"
+  },
+  "embedding_index_sha256": "e3f14a85fba3c2ba8883e6662dc4173fa17b4ec1008f60f6f817efbf8faeefe2",
+  "chunks": 1688,
+  "query_truncations": 0,
+  "graph_expansion_active": 1,
+  "prepared_artifact_sha256": {
+    "jobs.json": "cca0e12c673cd4e86927b0f99d655b023af76a3e0c9a028881075139df0df965",
+    "retrieval.json": "ef20f7781de2b4c7978068d86090526e9f83eee809f0a2ed5dbab6b7024f989d",
+    "analysis.json": "8e413c0197ee7ba437fbb3029e7137b8829a87675efa5060c1bcebdb0a390ce0"
+  },
+  "pre_generation_review": {
+    "status": "reviewed_with_documented_gaps",
+    "packet_integrity_passed": true,
+    "known_gaps": [
+      "Automatic question/clause-relation misclassification remains in new probes; no manual correction.",
+      "DEV013/DEV016/DEV018 have no eligible KG cards.",
+      "C/D selected cards identical in all 30; full requests identical in 29. No isolated graph expansion effect claim."
+    ],
+    "scope": "User requested translation test after being informed of residual analysis errors. Development generation, not quality approval.",
+    "review_report_sha256": "b10408b3a46417777389fd85a99bcbeba0ef89ecc65412a8e5db3d32a8af8dfa"
+  },
+  "generation_runner_sha256": "eec836b5ac19607e1a118421baaa1b8f78ff1a104e7a72372836039dbd50c5e9",
+  "endpoint_sha256": "03bdfce6caff3fa12a0b14fe05a301a12c3f0915e60d3e60e89bc53308775201",
+  "models": [
+    "Qwen3.8-27B"
+  ],
+  "workers": 2,
+  "completed": 120,
+  "actual_generation_attempts": 120,
+  "completed_utc": "2026-10-08T08:08:09.536885+00:00",
+  "quality_evaluation": "pending independent human review"
+}

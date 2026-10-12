@@ -1,0 +1,18 @@
+자동 분석 → 원문 형태 검증 → 현재 KG 조회 → Qwen 생성
+현재 코드·KG·프롬프트 수정 없음. 개발 진단 2문장, 각 1회.
+원본 요청·응답: question_pair_20261006T025911838343Z.json
+
+USERQ001
+너 어제 뭐했어?
+분석: {"host_pos": "verb", "sentence_type": "interrogative", "question_type": "content", "host_class": "predicate_other_than_anida", "host_form": "하다", "stem_vowel": "a", "stem_coda": "absent", "speech_act": null, "subject_person": "second", "response_orientation": "addressee"}
+조회 기능: CONTENT_QUESTION, INTERROGATIVE
+선택 후보: GYS-Q002:A1 -노
+생성 원문: 너 어제 뭐 했노?
+
+USERQ002
+너 오늘 아침에 국밥 먹었어?
+분석: {"host_pos": "verb", "sentence_type": "interrogative", "question_type": "polar", "host_class": "predicate_other_than_anida", "host_form": "먹다", "stem_vowel": "e", "stem_coda": "absent", "speech_act": "ask_intention", "subject_person": "second", "response_orientation": "addressee"}
+조회 기능: INTERROGATIVE, POLAR_QUESTION
+선택 후보: GYS-Q001:A1 -나
+생성 원문: 너 오늘 아침에 국밥 먹었나?
+

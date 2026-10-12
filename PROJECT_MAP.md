@@ -1,11 +1,14 @@
 # 프로젝트 지도
 
-최종 갱신: 2026-09-18. 작업 진입점은 [current_kg/README.md](current_kg/README.md) 하나로 모은다.
+최종 갱신: 2026-10-12. 새 표현 구조는 [kg_v2/README.md](kg_v2/README.md), 보존된 기존 KG·실험은 [current_kg/README.md](current_kg/README.md)에서 본다. `archive/v2_failed`와 새 `kg_v2`는 서로 다른 작업이다.
 
 | 위치 | 역할 |
 |---|---|
 | [연구미팅.md](연구미팅.md) | 목적·합의·미정 사항·주요 결정 이유 |
 | [이관.md](이관.md) | 새 세션의 필수 원칙·재개 안내 |
+| [kg_v2/README.md](kg_v2/README.md) | 새 KG 표현·전체 문헌 추출·병렬 검토·조회 및 검증 |
+| `kg_v2/authored/`, `kg_v2/reviews/` | 출처별 지식 원본과 페이지 검토·잔여 한계 |
+| `kg_v2/reports/` | 빌드·공백 처리·통합 근거 검증 결과 |
 | [current_kg/README.md](current_kg/README.md) | 현재 상태·파일 관계·검사 전체 목록·실행 명령 |
 | `current_kg/grammar/authored/` | 직접 작성한 지식 수정 원본 |
 | `current_kg/grammar/integration.json` | 통합 관계·문제·처리 장부 수정 원본 |

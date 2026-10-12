@@ -1,0 +1,142 @@
+{
+  "reviewer": "root coordinator using gpt-6-astra",
+  "scope": "Targeted semantic and visual spot checks, plus correction requests to assigned source reviewers; not exhaustive independent validation.",
+  "checks": [
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_pages": [
+        6,
+        46,
+        47
+      ],
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:full:1057",
+        "NAMU_GRAMMAR_20260908:v2:full:0239"
+      ],
+      "method": "Root read p46–47 footnotes and viewed the rendered p6 table.",
+      "finding": "[21] supplies 먹다 for 묵다; rightmost -고 cell spells 묵고 across a line break. Footnotes distinguish 버리다 meanings and softly scoped regional prevalence.",
+      "result": "Core lexical→inflection path supported; asked worker to bind lexical footnotes directly."
+    },
+    {
+      "source_id": "RYU2014",
+      "pdf_pages": [
+        14
+      ],
+      "fact_ids": [
+        "RYU2014:v2:full:0078"
+      ],
+      "method": "Root re-read body and footnote12 against the corrected statement.",
+      "finding": "Body says specific -십시오 absent, while footnote preserves -소/-으이소. This is not absence of the whole high-honorific category.",
+      "result": "Corrected interpretation verified."
+    },
+    {
+      "source_id": "YANG2021",
+      "pdf_pages": [
+        6,
+        7,
+        8
+      ],
+      "fact_ids": [
+        "YANG2021:v2:full:0022",
+        "YANG2021:v2:full:0026"
+      ],
+      "method": "Root re-read full source pages and audited original fact evidence.",
+      "finding": "-거로끔 prohibition is directly supported on p6. General functional statement requires separate evidence for its exclusion clauses.",
+      "result": "Negative example verified; requested stronger exclusion evidence from worker."
+    },
+    {
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "pdf_pages": [
+        2
+      ],
+      "fact_ids": [
+        "NAMU_PHONOLOGY_20260908:v2:full:0006"
+      ],
+      "method": "Root read positive rule and 영남/엥남 exclusion in original paragraph.",
+      "finding": "ㅕ→ㅔ is restricted to an onset consonant, not all written ㅕ.",
+      "result": "Rule scope verified; requested complete positive and negative evidence."
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_pages": [
+        81
+      ],
+      "fact_ids": [],
+      "method": "Root read table14 extracted rows and footnote77; worker visually checks printed table.",
+      "finding": "Printed row/subtotal inconsistencies must not be silently normalized. Corpus counts do not represent modern usage probabilities.",
+      "result": "Source contradiction retained as review limitation."
+    },
+    {
+      "source_id": "NAMU20260901",
+      "pdf_pages": [
+        19
+      ],
+      "fact_ids": [
+        "NAMU20260901:v2:review_completion:0017",
+        "NAMU20260901:v2:review_completion:0019"
+      ],
+      "method": "Root compared compound summary claims against their initially short evidence anchors.",
+      "finding": "Single short quote did not cover all asserted correspondences.",
+      "result": "Rechecked repaired :0017 plus separate :0072/:0073/:0076 facts: source→target correspondences now carry both original dialect and standard gloss snippets; retained as bounded reference_only analyst interpretations."
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_pages": [
+        18,
+        47
+      ],
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0002"
+      ],
+      "method": "Root rendered p18 PDF and visually checked table row and -고 column, with p47 [40] meaning.",
+      "finding": "빠줗고 and 빠주고 are orthographic forms; 빠주코 is a separate pronunciation row.",
+      "result": "Confirmed candidate/reference distinction and added query regression to prevent pronunciation row being emitted as spelling."
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_pages": [
+        214,
+        215
+      ],
+      "method": "Root directly viewed both original rendered pages and recalculated row/subtotal arithmetic.",
+      "finding": "해예체 printed totals18+1+2+3+5=29; regional cells18+4+2+3+5=32.",
+      "result": "Published record preserves source contradiction; cross-review explanatory error corrected before final integration."
+    }
+  ],
+  "limitations": [
+    "Schema and exact-quote matching are mechanical checks, not proof that all claims are semantically correct.",
+    "Same-model multi-agent review is not a human or model-independent linguistic evaluation.",
+    "No new sentence translation experiment was conducted."
+  ],
+  "cross_reviews": [
+    {
+      "reviewer": "other_sources_review",
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "facts": "review:0001–0108",
+      "result": "All 108 table cells checked against p18 image; no discrepancies. 36 pronunciation vs 72 orthographic cells distinguished."
+    },
+    {
+      "reviewer": "grammar_honorific_review",
+      "source_id": "NAMU20260901",
+      "facts": "review_completion:0017–0019,0071–0088,0189–0191",
+      "result": "Two evidence issues found. Root re-read p19 and corrected :0087 to the actual paired 온천 standard sentence, and appended full standard 매표소 sentence to :0017. Semantic direction and lemma-null boundaries checked."
+    },
+    {
+      "reviewer": "other_sources_review",
+      "source_id": "JO2018",
+      "facts": "gap_review:0599–0600",
+      "result": "Rendered pp31–32 independently; all 23 regional raw-transcription entries per matrix readable and integrated. Interpretation of special symbols and absent original audio remain limited."
+    },
+    {
+      "reviewer": "grammar_honorific_review and root",
+      "source_id": "JO2018",
+      "pdf_pages": [
+        129,
+        195,
+        214,
+        215
+      ],
+      "result": "Worker confirmed printed regional sums differ: p129 355 vs357; p195 8320 vs7893; p214 -가예 4 vs1. Root visually rechecked pp214–215 and corrected a cross-review arithmetic error: printed row totals sum to29, regional cells sum to32; printed subtotal29 follows printed -가예1. The incorrect claim that subtotal supports regional4 was withdrawn."
+    }
+  ]
+}

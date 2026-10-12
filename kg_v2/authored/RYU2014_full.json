@@ -1,0 +1,7120 @@
+{
+  "source_id": "RYU2014",
+  "facts": [
+    {
+      "id": "RYU2014:v2:full:0001",
+      "type": "context",
+      "source_pattern": {
+        "text": "논문 범위",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "대명사·조사·종결·연결·시제·부정·파생·보조용언·부사의 변화",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "quote": "2. 문법 형태 및 사용 양상의 변화"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0002",
+      "type": "context",
+      "source_pattern": {
+        "text": "요약의 표준화 설명",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "방언형과 새로 쓰이는 표준어형을 구별하며 본문 표에서 개별 판단",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 2,
+          "quote": "그거, 요것/요거, 저거’, ‘여/여게, 거, 저/저게’가 쓰였다. 10대에서는 모두"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0003",
+      "type": "context",
+      "source_pattern": {
+        "text": "현지조사",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "2014년 7월 22~24일 함양군 서하면 신기·오현 조사",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 3,
+          "quote": "구한 것이다. 함양 방언에 대한 조사는 2014년 7월 22일부터 24일까지 함양"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0004",
+      "type": "context",
+      "source_pattern": {
+        "text": "언어자료 표본",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "주 제보자 3명과 보조 제보자 3명; 고령층의 전통형 조사",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 4,
+          "quote": "위와 같은 대상자를 조사한 문법 형태는 현재에 잘 사용되지 않은 형태도"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0005",
+      "type": "context",
+      "source_pattern": {
+        "text": "사용 확인과 표 해석",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "65세 확인자 1명과 12세 확인자 2명; 괄호는 후세대 등장형, 빈칸은 표준어와 같은 형태",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "면 표준어를 100% 사용하는 것이다. 표준어와 방언의 형태가 같은 것의 사용"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0006",
+      "type": "context",
+      "source_pattern": {
+        "text": "선행 연구 및 1인칭 변화",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "함양 전반 기술의 목적; 내는/내한테 감소와 저/제의 확산",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 6,
+          "quote": "사용되었다. 1인칭 단수 ‘저’의 방언형은 사용되지 않았다. 그런데 이러한"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0007",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "나",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 1,
+          "number": "singular"
+        }
+      },
+      "target_pattern": {
+        "text": "내",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 1,
+          "number": "singular"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "나는 간다.          나    20    10      내   내는 간다.\n    일 내가 간다.           내                  내   내가 가지."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "주제 위치의 내는. 나의 모든 용법을 내로 치환하지 않음."
+    },
+    {
+      "id": "RYU2014:v2:full:0008",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "저희",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 1,
+          "number": "plural"
+        }
+      },
+      "target_pattern": {
+        "text": "즈이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 1,
+          "number": "plural"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "저희가 갑니다.        저희     0     5     즈이   즈이가 갑니다.\n    복"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "60대 0, 10대 5로 보고된 표의 용법."
+    },
+    {
+      "id": "RYU2014:v2:full:0009",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "저희들",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 1,
+          "number": "plural"
+        }
+      },
+      "target_pattern": {
+        "text": "내들",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 1,
+          "number": "plural"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "수 저희들이 갑니다.       저희들    0     0     내들   내들이 갑니다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "두 확인 세대 모두 0으로 보고됨."
+    },
+    {
+      "id": "RYU2014:v2:full:0010",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "너",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 2,
+          "number": "singular"
+        }
+      },
+      "target_pattern": {
+        "text": "니",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 2,
+          "number": "singular"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "quote": "이 너는 무엇을 하느냐?           50  40     니   니는 뭐하노?\n                       너"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "단수 주제 용법."
+    },
+    {
+      "id": "RYU2014:v2:full:0011",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "네",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 2,
+          "number": "singular"
+        }
+      },
+      "target_pattern": {
+        "text": "니",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 2,
+          "number": "singular"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "quote": "30    55    니   니가 그 했나?\n     칭 네가 그것을 했느냐?     네"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "네가의 주격 용법."
+    },
+    {
+      "id": "RYU2014:v2:full:0012",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "네",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 2,
+          "number": "singular"
+        }
+      },
+      "target_pattern": {
+        "text": "니",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 2,
+          "number": "singular"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "quote": "인     이것이 네 물건이냐?     네     50   75    니   이기 니 신발이가?\n     단"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "소유 용법."
+    },
+    {
+      "id": "RYU2014:v2:full:0013",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "너희",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 2,
+          "number": "plural"
+        }
+      },
+      "target_pattern": {
+        "text": "느",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 2,
+          "number": "plural"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "quote": "명   이                      50     0    느   이기 느 끼냐\n 사   인 이것이 너희 것이냐?    너희    50    30    너   이기 너 끼냐?"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "단수 너→니와 분리. 10대에서 느/너그/너들은 0, 너그들 5로 제시."
+    },
+    {
+      "id": "RYU2014:v2:full:0014",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "너희",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 2,
+          "number": "plural"
+        }
+      },
+      "target_pattern": {
+        "text": "너",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 2,
+          "number": "plural"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "quote": "사   인 이것이 너희 것이냐?    너희    50    30    너   이기 너 끼냐?\n     칭                      50     0   너그   이것이 너그 것이냐?"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "단수 너→니와 분리. 10대에서 느/너그/너들은 0, 너그들 5로 제시."
+    },
+    {
+      "id": "RYU2014:v2:full:0015",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "너희",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 2,
+          "number": "plural"
+        }
+      },
+      "target_pattern": {
+        "text": "너그",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 2,
+          "number": "plural"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "quote": "칭                      50     0   너그   이것이 너그 것이냐?\n                             5     0   너들   이기 너들 끼가?"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "단수 너→니와 분리. 10대에서 느/너그/너들은 0, 너그들 5로 제시."
+    },
+    {
+      "id": "RYU2014:v2:full:0016",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "너희들",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 2,
+          "number": "plural"
+        }
+      },
+      "target_pattern": {
+        "text": "너들",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 2,
+          "number": "plural"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "quote": "5     0   너들   이기 너들 끼가?\n       이것이 너희들"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "단수 너→니와 분리. 10대에서 느/너그/너들은 0, 너그들 5로 제시."
+    },
+    {
+      "id": "RYU2014:v2:full:0017",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "너희들",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 2,
+          "number": "plural"
+        }
+      },
+      "target_pattern": {
+        "text": "너그들",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 2,
+          "number": "plural"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "quote": "것이냐?                  5    5    너그들 이것이 너그들 것이냐?\n     수"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "단수 너→니와 분리. 10대에서 느/너그/너들은 0, 너그들 5로 제시."
+    },
+    {
+      "id": "RYU2014:v2:full:0018",
+      "type": "context",
+      "source_pattern": {
+        "text": "대명사의 장음 및 연령 제약",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "야/가/자와 여/거/저의 장음. 자네·당신의 어린 화자 미사용을 문법 금지로 확대하지 않는다.",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "quote": "때문이다. 방언형 ‘야, 가, 자’도 ‘이 아, 그 아, 저 아’의 준말이지만 한 단어처럼"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0019",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "얘",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 3
+        }
+      },
+      "target_pattern": {
+        "text": "야",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 3
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "quote": "야가 지금 어데 가노?\n인"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "원문은 무신/먼을 의문대명사 묶음으로 기술. 무신은 확인 세대 모두 0; 먼은 10대 0."
+    },
+    {
+      "id": "RYU2014:v2:full:0020",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "걔",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 3
+        }
+      },
+      "target_pattern": {
+        "text": "가",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 3
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "quote": "대                     걔    40     0      가     가가 지금 어데 가노?\n    대 가느냐?"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "원문은 무신/먼을 의문대명사 묶음으로 기술. 무신은 확인 세대 모두 0; 먼은 10대 0."
+    },
+    {
+      "id": "RYU2014:v2:full:0021",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "쟤",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 3
+        }
+      },
+      "target_pattern": {
+        "text": "자",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "person": 3
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "quote": "사                     쟤    40     5      자     자가 지금 어데 가노?\n    사 가느냐?"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "원문은 무신/먼을 의문대명사 묶음으로 기술. 무신은 확인 세대 모두 0; 먼은 10대 0."
+    },
+    {
+      "id": "RYU2014:v2:full:0022",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "자기",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "reflexive": true
+        }
+      },
+      "target_pattern": {
+        "text": "이녁이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "reflexive": true
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "quote": "인   재 철수는 자기가 제일            0     0     이녁이 이녁이 그래 놓고\n                      자기"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "원문은 무신/먼을 의문대명사 묶음으로 기술. 무신은 확인 세대 모두 0; 먼은 10대 0."
+    },
+    {
+      "id": "RYU2014:v2:full:0023",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "자기",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "reflexive": true
+        }
+      },
+      "target_pattern": {
+        "text": "지",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "reflexive": true
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "quote": "칭   귀 잘 났다고 생각한다.          75     55     지     지가 그래 놓고\n대   대 아버지는 당신께서"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "원문은 무신/먼을 의문대명사 묶음으로 기술. 무신은 확인 세대 모두 0; 먼은 10대 0."
+    },
+    {
+      "id": "RYU2014:v2:full:0024",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "누구",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "interrogative": true
+        }
+      },
+      "target_pattern": {
+        "text": "누",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "interrogative": true
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "quote": "저 사람이 누구냐?     누구   80     30     누\n                                               저 사람이 누고?"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "원문은 무신/먼을 의문대명사 묶음으로 기술. 무신은 확인 세대 모두 0; 먼은 10대 0."
+    },
+    {
+      "id": "RYU2014:v2:full:0025",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "무엇",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "interrogative": true
+        }
+      },
+      "target_pattern": {
+        "text": "뭐",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "interrogative": true
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "quote": "의문 저것이 무엇이냐?          무엇   90     100    뭐     저것이 뭐꼬?\n대명사 저것이 뭐냐?           뭐    10     60     머     저것이 머꼬?"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "원문은 무신/먼을 의문대명사 묶음으로 기술. 무신은 확인 세대 모두 0; 먼은 10대 0."
+    },
+    {
+      "id": "RYU2014:v2:full:0026",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "뭐",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "interrogative": true
+        }
+      },
+      "target_pattern": {
+        "text": "머",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "interrogative": true
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "quote": "대명사 저것이 뭐냐?           뭐    10     60     머     저것이 머꼬?\n                            0     0     무신     무신 일고?"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "원문은 무신/먼을 의문대명사 묶음으로 기술. 무신은 확인 세대 모두 0; 먼은 10대 0."
+    },
+    {
+      "id": "RYU2014:v2:full:0027",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "무슨",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "interrogative": true
+        }
+      },
+      "target_pattern": {
+        "text": "무신",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "interrogative": true
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "quote": "0     0     무신     무신 일고?\n       무슨 일로 오라 하나?   무슨"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "원문은 무신/먼을 의문대명사 묶음으로 기술. 무신은 확인 세대 모두 0; 먼은 10대 0."
+    },
+    {
+      "id": "RYU2014:v2:full:0028",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "무슨",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "interrogative": true
+        }
+      },
+      "target_pattern": {
+        "text": "먼",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "interrogative": true
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "quote": "80     0      먼     먼 일이고?"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "원문은 무신/먼을 의문대명사 묶음으로 기술. 무신은 확인 세대 모두 0; 먼은 10대 0."
+    },
+    {
+      "id": "RYU2014:v2:full:0029",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "어디",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "의문 용법",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "어데",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": "의문 용법",
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "interrogative_use",
+          "op": "eq",
+          "value": true,
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "quote": "‘어데, 언제, 어느, 와, 얼매나, 어째’ 방언형으로 사용되고 있다."
+        },
+        {
+          "pdf_page": 9,
+          "quote": "의문사 ‘어디, 언제, 어느, 왜, 얼마나, 어떻게’는"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "각주 9의 나열 순서에 따른 대응. 부정칭·감탄·접속 용법에 자동 확장하지 않는다."
+    },
+    {
+      "id": "RYU2014:v2:full:0030",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "왜",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "의문 용법",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "와",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": "의문 용법",
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "interrogative_use",
+          "op": "eq",
+          "value": true,
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "quote": "‘어데, 언제, 어느, 와, 얼매나, 어째’ 방언형으로 사용되고 있다."
+        },
+        {
+          "pdf_page": 9,
+          "quote": "의문사 ‘어디, 언제, 어느, 왜, 얼마나, 어떻게’는"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "각주 9의 나열 순서에 따른 대응. 부정칭·감탄·접속 용법에 자동 확장하지 않는다."
+    },
+    {
+      "id": "RYU2014:v2:full:0031",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "얼마나",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "의문 용법",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "얼매나",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": "의문 용법",
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "interrogative_use",
+          "op": "eq",
+          "value": true,
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "quote": "‘어데, 언제, 어느, 와, 얼매나, 어째’ 방언형으로 사용되고 있다."
+        },
+        {
+          "pdf_page": 9,
+          "quote": "의문사 ‘어디, 언제, 어느, 왜, 얼마나, 어떻게’는"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "각주 9의 나열 순서에 따른 대응. 부정칭·감탄·접속 용법에 자동 확장하지 않는다."
+    },
+    {
+      "id": "RYU2014:v2:full:0032",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "어떻게",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "의문 용법",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "어째",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": "의문 용법",
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "interrogative_use",
+          "op": "eq",
+          "value": true,
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "quote": "‘어데, 언제, 어느, 와, 얼매나, 어째’ 방언형으로 사용되고 있다."
+        },
+        {
+          "pdf_page": 9,
+          "quote": "의문사 ‘어디, 언제, 어느, 왜, 얼마나, 어떻게’는"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "각주 9의 나열 순서에 따른 대응. 부정칭·감탄·접속 용법에 자동 확장하지 않는다."
+    },
+    {
+      "id": "RYU2014:v2:full:0033",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "이것",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "deictic": true
+        }
+      },
+      "target_pattern": {
+        "text": "이게",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "deictic": true
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "quote": "이것은 책이다.      이것   80   80   이게   이게 책이라.\n       그것은 책이다.     그것   50   40   그거   그거는 책이다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "물건/장소 용법 구분. 장소형은 10대에서 0으로 보고."
+    },
+    {
+      "id": "RYU2014:v2:full:0034",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "그것",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "deictic": true
+        }
+      },
+      "target_pattern": {
+        "text": "그거",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "deictic": true
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "quote": "그것은 책이다.     그것   50   40   그거   그거는 책이다.\n     사"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "물건/장소 용법 구분. 장소형은 10대에서 0으로 보고."
+    },
+    {
+      "id": "RYU2014:v2:full:0035",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "요것",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "deictic": true
+        }
+      },
+      "target_pattern": {
+        "text": "요거",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "deictic": true
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "quote": "지                       50   75   요거   요거는 뭐꼬?\n 시"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "물건/장소 용법 구분. 장소형은 10대에서 0으로 보고."
+    },
+    {
+      "id": "RYU2014:v2:full:0036",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "저것",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "deictic": true
+        }
+      },
+      "target_pattern": {
+        "text": "저거",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "deictic": true
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "quote": "저것은 뭐야?       저것   90   85   저거   저거는 뭐시고?\n 대"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "물건/장소 용법 구분. 장소형은 10대에서 0으로 보고."
+    },
+    {
+      "id": "RYU2014:v2:full:0037",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "여기",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "deictic": true
+        }
+      },
+      "target_pattern": {
+        "text": "여",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "deictic": true
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "quote": "50   0    여    여가 좋다.\n 명    여기가 제일 좋아.    여기"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "물건/장소 용법 구분. 장소형은 10대에서 0으로 보고."
+    },
+    {
+      "id": "RYU2014:v2:full:0038",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "여기",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "deictic": true
+        }
+      },
+      "target_pattern": {
+        "text": "여게",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "deictic": true
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "quote": "사                       50   0    여게   여게 좋다.\n     장"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "물건/장소 용법 구분. 장소형은 10대에서 0으로 보고."
+    },
+    {
+      "id": "RYU2014:v2:full:0039",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "거기",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "deictic": true
+        }
+      },
+      "target_pattern": {
+        "text": "거",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "deictic": true
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "quote": "거기가 제일 좋아.   거기   50   0    거    거 있네.\n     소"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "물건/장소 용법 구분. 장소형은 10대에서 0으로 보고."
+    },
+    {
+      "id": "RYU2014:v2:full:0040",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "저기",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "deictic": true
+        }
+      },
+      "target_pattern": {
+        "text": "저게",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "deictic": true
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "quote": "30   0    저게   저게 제일 좋아.\n      저기가 제일 좋아.    저기"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "물건/장소 용법 구분. 장소형은 10대에서 0으로 보고."
+    },
+    {
+      "id": "RYU2014:v2:full:0041",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "저기",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "deictic": true
+        }
+      },
+      "target_pattern": {
+        "text": "저",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "pronoun",
+          "deictic": true
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "quote": "50   0    저    저가 제일 좋아."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "물건/장소 용법 구분. 장소형은 10대에서 0으로 보고."
+    },
+    {
+      "id": "RYU2014:v2:full:0042",
+      "type": "particle",
+      "source_pattern": {
+        "text": "-에게",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-한테",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "quote": "조사에서 여격을 나타내는 ‘-에게, -께, -한테’는 ‘-한테’만 쓰인다. 그리고 ‘-보\n고, -더러’도 ‘-한테’, 기구의 사용을 나타내는 ‘-로,-로써’는 ‘-로’, 자격을 나"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "대체 시 청자/주체 높임과 조사 의미를 검토. -으로서→-갖고는 본문 기술이며 뒤 표와 일치 검토 필요."
+    },
+    {
+      "id": "RYU2014:v2:full:0043",
+      "type": "particle",
+      "source_pattern": {
+        "text": "-께",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-한테",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "quote": "조사에서 여격을 나타내는 ‘-에게, -께, -한테’는 ‘-한테’만 쓰인다. 그리고 ‘-보\n고, -더러’도 ‘-한테’, 기구의 사용을 나타내는 ‘-로,-로써’는 ‘-로’, 자격을 나"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "대체 시 청자/주체 높임과 조사 의미를 검토. -으로서→-갖고는 본문 기술이며 뒤 표와 일치 검토 필요."
+    },
+    {
+      "id": "RYU2014:v2:full:0044",
+      "type": "particle",
+      "source_pattern": {
+        "text": "-보고",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-한테",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "quote": "‘-보\n고, -더러’도 ‘-한테’, 기구의 사용을 나타내는 ‘-로,-로써’는 ‘-로’, 자격을 나\n타내는 ‘-으로서’는 ‘-갖고’, 공동격을 나타내는 ‘-와/과, -하고, -이랑’은 ‘-이\n랑’으로, ‘-처럼’은 ‘-매이로’, ‘-만큼’은 ‘-만치’로 쓰이고 있다.\n 그런데 이러한 형태는"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "대체 시 청자/주체 높임과 조사 의미를 검토. -으로서→-갖고는 본문 기술이며 뒤 표와 일치 검토 필요."
+    },
+    {
+      "id": "RYU2014:v2:full:0045",
+      "type": "particle",
+      "source_pattern": {
+        "text": "-더러",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-한테",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "quote": "‘-보\n고, -더러’도 ‘-한테’, 기구의 사용을 나타내는 ‘-로,-로써’는 ‘-로’, 자격을 나\n타내는 ‘-으로서’는 ‘-갖고’, 공동격을 나타내는 ‘-와/과, -하고, -이랑’은 ‘-이\n랑’으로, ‘-처럼’은 ‘-매이로’, ‘-만큼’은 ‘-만치’로 쓰이고 있다.\n 그런데 이러한 형태는"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "대체 시 청자/주체 높임과 조사 의미를 검토. -으로서→-갖고는 본문 기술이며 뒤 표와 일치 검토 필요."
+    },
+    {
+      "id": "RYU2014:v2:full:0046",
+      "type": "particle",
+      "source_pattern": {
+        "text": "-(으)로써",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-(으)로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "quote": "고, -더러’도 ‘-한테’, 기구의 사용을 나타내는 ‘-로,-로써’는 ‘-로’, 자격을 나\n타내는 ‘-으로서’는 ‘-갖고’, 공동격을 나타내는 ‘-와/과, -하고, -이랑’은 ‘-이"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "대체 시 청자/주체 높임과 조사 의미를 검토. -으로서→-갖고는 본문 기술이며 뒤 표와 일치 검토 필요."
+    },
+    {
+      "id": "RYU2014:v2:full:0047",
+      "type": "particle",
+      "source_pattern": {
+        "text": "-으로서",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-갖고",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "quote": "타내는 ‘-으로서’는 ‘-갖고’, 공동격을 나타내는 ‘-와/과, -하고, -이랑’은 ‘-이\n랑’으로, ‘-처럼’은 ‘-매이로’, ‘-만큼’은 ‘-만치’로 쓰이고 있다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "대체 시 청자/주체 높임과 조사 의미를 검토. -으로서→-갖고는 본문 기술이며 뒤 표와 일치 검토 필요."
+    },
+    {
+      "id": "RYU2014:v2:full:0048",
+      "type": "particle",
+      "source_pattern": {
+        "text": "-와/과",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-이랑",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "quote": "타내는 ‘-으로서’는 ‘-갖고’, 공동격을 나타내는 ‘-와/과, -하고, -이랑’은 ‘-이\n랑’으로, ‘-처럼’은 ‘-매이로’, ‘-만큼’은 ‘-만치’로 쓰이고 있다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "대체 시 청자/주체 높임과 조사 의미를 검토. -으로서→-갖고는 본문 기술이며 뒤 표와 일치 검토 필요."
+    },
+    {
+      "id": "RYU2014:v2:full:0049",
+      "type": "particle",
+      "source_pattern": {
+        "text": "-하고",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-이랑",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "quote": "타내는 ‘-으로서’는 ‘-갖고’, 공동격을 나타내는 ‘-와/과, -하고, -이랑’은 ‘-이\n랑’으로, ‘-처럼’은 ‘-매이로’, ‘-만큼’은 ‘-만치’로 쓰이고 있다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "대체 시 청자/주체 높임과 조사 의미를 검토. -으로서→-갖고는 본문 기술이며 뒤 표와 일치 검토 필요."
+    },
+    {
+      "id": "RYU2014:v2:full:0050",
+      "type": "particle",
+      "source_pattern": {
+        "text": "-처럼",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-매이로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "quote": "랑’으로, ‘-처럼’은 ‘-매이로’, ‘-만큼’은 ‘-만치’로 쓰이고 있다.\n 그런데 이러한 형태는 주격조사 높임형 ‘-께서’가 60대, 10대 모두에게서"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "대체 시 청자/주체 높임과 조사 의미를 검토. -으로서→-갖고는 본문 기술이며 뒤 표와 일치 검토 필요."
+    },
+    {
+      "id": "RYU2014:v2:full:0051",
+      "type": "particle",
+      "source_pattern": {
+        "text": "-만큼",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-만치",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "quote": "랑’으로, ‘-처럼’은 ‘-매이로’, ‘-만큼’은 ‘-만치’로 쓰이고 있다.\n 그런데 이러한 형태는 주격조사 높임형 ‘-께서’가 60대, 10대 모두에게서"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "대체 시 청자/주체 높임과 조사 의미를 검토. -으로서→-갖고는 본문 기술이며 뒤 표와 일치 검토 필요."
+    },
+    {
+      "id": "RYU2014:v2:full:0052",
+      "type": "context",
+      "source_pattern": {
+        "text": "관형격과 표준어 조사 유입",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-의의 전통형 부재·생략과 10대 신규 사용; 께서/에게/께와 접속 와/하고의 후세대 등장",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "quote": "격조사는 대부분 표준어의 격조사와 같으나 차이점만 보면 관형격 조사"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0053",
+      "type": "particle",
+      "source_pattern": {
+        "text": "-을/를",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "생략",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 11,
+          "quote": "목적격 밥을 먹어라.                                     -을/를    밥을 묵어라.\n                          -을/를"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "표에 실린 해당 통사 위치에서만 참고. 목적격 생략이 의무라는 뜻은 아님."
+    },
+    {
+      "id": "RYU2014:v2:full:0054",
+      "type": "particle",
+      "source_pattern": {
+        "text": "-서/에서",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-서",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 11,
+          "quote": "어디에서 왔나?          -서/에서                  -서     어데서 왔노?"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "표에 실린 해당 통사 위치에서만 참고. 목적격 생략이 의무라는 뜻은 아님."
+    },
+    {
+      "id": "RYU2014:v2:full:0055",
+      "type": "particle",
+      "source_pattern": {
+        "text": "-아/야",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-아/야",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 11,
+          "quote": "철수야, 이리 와라.       -아/야                  -아/야    철수야.\n 호격"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "표에 실린 해당 통사 위치에서만 참고. 목적격 생략이 의무라는 뜻은 아님."
+    },
+    {
+      "id": "RYU2014:v2:full:0056",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "먹다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "verb"
+        }
+      },
+      "target_pattern": {
+        "text": "묵다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "verb"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 11,
+          "quote": "목적격 밥을 먹어라.                                     -을/를    밥을 묵어라.\n                          -을/를"
+        }
+      ],
+      "claim_status": "analyst_interpretation",
+      "usability": "candidate",
+      "notes": "표준어 밥을 먹어라/방언 밥을 묵어라의 평행 예에서 어간 대응을 분석한 것. 저자가 독립 사전 항목으로 제시한 것은 아니다."
+    },
+    {
+      "id": "RYU2014:v2:full:0057",
+      "type": "particle",
+      "source_pattern": {
+        "text": "-처럼",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-매이로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "quote": "나처럼 해 봐라.      -처럼    50     0      -매이로 나매이로 해 봐라\n     나만큼만 해 봐라.     -만큼    50     0      -만치     나만치 해보라."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "표의 용법에 한정. -라고는 명명 예의 인용 위치."
+    },
+    {
+      "id": "RYU2014:v2:full:0058",
+      "type": "particle",
+      "source_pattern": {
+        "text": "-만큼",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-만치",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "quote": "나만큼만 해 봐라.     -만큼    50     0      -만치     나만치 해보라.\n     밥은커녕 죽도 못"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "표의 용법에 한정. -라고는 명명 예의 인용 위치."
+    },
+    {
+      "id": "RYU2014:v2:full:0059",
+      "type": "particle",
+      "source_pattern": {
+        "text": "-라고",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-라",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "quote": "말했다.                                        부르냐?\n     쌀밥보다 보리밥이"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "표의 용법에 한정. -라고는 명명 예의 인용 위치."
+    },
+    {
+      "id": "RYU2014:v2:full:0060",
+      "type": "context",
+      "source_pattern": {
+        "text": "주제보조사 조사 내 충돌",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "제보자는 은/는 미사용이라 했으나 별도 함양 자료집에 보리는/팣은/나는 있음; 재확인 필요",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "quote": "‘보리는, 팣은, 나는’가 등재되어 있다(심사자A). 이러한 차이가 개인적인 것"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0061",
+      "type": "particle",
+      "source_pattern": {
+        "text": "-만",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-마",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 13,
+          "quote": "딸만 간다.          -만                                 딸마 갔어.\n                              0       0         -마"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "-마는 두 확인 세대에서 0으로 보고. -나마/-라도의 세부 화용 차이는 추가 검토."
+    },
+    {
+      "id": "RYU2014:v2:full:0062",
+      "type": "particle",
+      "source_pattern": {
+        "text": "-(이)나마",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-이라도",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 13,
+          "quote": "딸이나마 내편이어서 -(이)나\n                             100     100      -이라도       내편이어서"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "-마는 두 확인 세대에서 0으로 보고. -나마/-라도의 세부 화용 차이는 추가 검토."
+    },
+    {
+      "id": "RYU2014:v2:full:0063",
+      "type": "particle",
+      "source_pattern": {
+        "text": "-가지고",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-갖고",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 13,
+          "quote": "일을 해가지고 먹고                                         밥을 해갖고\n                     -가지고     50      50       -갖고"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "-마는 두 확인 세대에서 0으로 보고. -나마/-라도의 세부 화용 차이는 추가 검토."
+    },
+    {
+      "id": "RYU2014:v2:full:0064",
+      "type": "context",
+      "source_pattern": {
+        "text": "공유 보조사",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "도/마다/까지/마저/조차/이나/밖에의 공유 형태 및 이야기말로/요의 세대 변화",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 13,
+          "quote": "딸도 같이 간다.       -도                        -도       딸도 갔어."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0065",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-아/어라",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-아/어라",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "sentence_type",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "target",
+          "field": "speech_level",
+          "op": "eq",
+          "value": "아주낮춤",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "연령별 사용과 발화 의도·억양을 함께 검토한다. 표의 예문만으로 모든 질문을 -노로 바꾸지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [
+          "아주낮춤"
+        ],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 14,
+          "quote": "경어법 체계에 따라 아주낮춤, 예사낮춤, 예사높임, 아주높임 4단계 체계와\n두루 낮춤의 ‘-요’ 결락형과 두루높임의 ‘-요’ 첨가형 형태로 구분하여 알아"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "표의 아주/예사/두루 높임 구분을 보존; 다른 문헌 체계와 자동 동일시하지 않음."
+    },
+    {
+      "id": "RYU2014:v2:full:0066",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-게",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-게",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "sentence_type",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "target",
+          "field": "speech_level",
+          "op": "eq",
+          "value": "예사낮춤",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "연령별 사용과 발화 의도·억양을 함께 검토한다. 표의 예문만으로 모든 질문을 -노로 바꾸지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [
+          "예사낮춤"
+        ],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 14,
+          "quote": "경어법 체계에 따라 아주낮춤, 예사낮춤, 예사높임, 아주높임 4단계 체계와\n두루 낮춤의 ‘-요’ 결락형과 두루높임의 ‘-요’ 첨가형 형태로 구분하여 알아"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "표의 아주/예사/두루 높임 구분을 보존; 다른 문헌 체계와 자동 동일시하지 않음."
+    },
+    {
+      "id": "RYU2014:v2:full:0067",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-오",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-시오",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "sentence_type",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "target",
+          "field": "speech_level",
+          "op": "eq",
+          "value": "예사높임",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "연령별 사용과 발화 의도·억양을 함께 검토한다. 표의 예문만으로 모든 질문을 -노로 바꾸지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [
+          "예사높임"
+        ],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 14,
+          "quote": "결합하여 쓰인 ‘-시오’가 쓰이고 있다. 아주높임의 ‘-십시오’는 원 방언형에\n는 없었으나12) 60대, 10대 모두에서 표준어의 영향으로 활발하게 스이게 되"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "표의 아주/예사/두루 높임 구분을 보존; 다른 문헌 체계와 자동 동일시하지 않음."
+    },
+    {
+      "id": "RYU2014:v2:full:0068",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-아/어요",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-아/어요",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "sentence_type",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "target",
+          "field": "speech_level",
+          "op": "eq",
+          "value": "두루높임",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "연령별 사용과 발화 의도·억양을 함께 검토한다. 표의 예문만으로 모든 질문을 -노로 바꾸지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [
+          "두루높임"
+        ],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 15,
+          "quote": "저리 가요           -아/어요                      -아/어요      저리 가요.\n명령형"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "표의 아주/예사/두루 높임 구분을 보존; 다른 문헌 체계와 자동 동일시하지 않음."
+    },
+    {
+      "id": "RYU2014:v2:full:0069",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-자",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-자",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "hortative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "sentence_type",
+          "op": "eq",
+          "value": "hortative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "target",
+          "field": "speech_level",
+          "op": "eq",
+          "value": "아주낮춤",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "연령별 사용과 발화 의도·억양을 함께 검토한다. 표의 예문만으로 모든 질문을 -노로 바꾸지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [
+          "아주낮춤"
+        ],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 15,
+          "quote": "함양 방언의 청유형 종결어미는 아주 낮춤 ‘-자’, 예사높임 ‘-소’, 아주높임\n‘-ㅂ시다’ 및 두루 낮춤, 두루높임 ‘-아/어, -아/어요’가 쓰이고 있다. 예사낮"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "표의 아주/예사/두루 높임 구분을 보존; 다른 문헌 체계와 자동 동일시하지 않음."
+    },
+    {
+      "id": "RYU2014:v2:full:0070",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-오",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-소",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "hortative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "sentence_type",
+          "op": "eq",
+          "value": "hortative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "target",
+          "field": "speech_level",
+          "op": "eq",
+          "value": "예사높임",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "연령별 사용과 발화 의도·억양을 함께 검토한다. 표의 예문만으로 모든 질문을 -노로 바꾸지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [
+          "예사높임"
+        ],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 15,
+          "quote": "함양 방언의 청유형 종결어미는 아주 낮춤 ‘-자’, 예사높임 ‘-소’, 아주높임\n‘-ㅂ시다’ 및 두루 낮춤, 두루높임 ‘-아/어, -아/어요’가 쓰이고 있다. 예사낮"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "표의 아주/예사/두루 높임 구분을 보존; 다른 문헌 체계와 자동 동일시하지 않음."
+    },
+    {
+      "id": "RYU2014:v2:full:0071",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-ㅂ시다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㅂ시다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "hortative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "sentence_type",
+          "op": "eq",
+          "value": "hortative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "target",
+          "field": "speech_level",
+          "op": "eq",
+          "value": "아주높임",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "연령별 사용과 발화 의도·억양을 함께 검토한다. 표의 예문만으로 모든 질문을 -노로 바꾸지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [
+          "아주높임"
+        ],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 15,
+          "quote": "함양 방언의 청유형 종결어미는 아주 낮춤 ‘-자’, 예사높임 ‘-소’, 아주높임\n‘-ㅂ시다’ 및 두루 낮춤, 두루높임 ‘-아/어, -아/어요’가 쓰이고 있다. 예사낮"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "표의 아주/예사/두루 높임 구분을 보존; 다른 문헌 체계와 자동 동일시하지 않음."
+    },
+    {
+      "id": "RYU2014:v2:full:0072",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-느냐",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-노",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "sentence_type",
+          "op": "eq",
+          "value": "interrogative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "target",
+          "field": "speech_level",
+          "op": "eq",
+          "value": "아주낮춤",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "연령별 사용과 발화 의도·억양을 함께 검토한다. 표의 예문만으로 모든 질문을 -노로 바꾸지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [
+          "아주낮춤"
+        ],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 16,
+          "quote": "무엇을 먹느냐?           -느냐      90     85      -노       뭐 먹고 있노?\n       무엇을 먹는가?           -는가                    -는가       뭐 먹는가?"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "표의 아주/예사/두루 높임 구분을 보존; 다른 문헌 체계와 자동 동일시하지 않음."
+    },
+    {
+      "id": "RYU2014:v2:full:0073",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-는가",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-는가",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "sentence_type",
+          "op": "eq",
+          "value": "interrogative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "target",
+          "field": "speech_level",
+          "op": "eq",
+          "value": "예사낮춤",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "연령별 사용과 발화 의도·억양을 함께 검토한다. 표의 예문만으로 모든 질문을 -노로 바꾸지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [
+          "예사낮춤"
+        ],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 16,
+          "quote": "무엇을 먹는가?           -는가                    -는가       뭐 먹는가?\n       무엇을 먹으오?           -오       x       x       .           ."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "표의 아주/예사/두루 높임 구분을 보존; 다른 문헌 체계와 자동 동일시하지 않음."
+    },
+    {
+      "id": "RYU2014:v2:full:0074",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-다/ㄴ다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-다/ㄴ다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "declarative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "sentence_type",
+          "op": "eq",
+          "value": "declarative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "target",
+          "field": "speech_level",
+          "op": "eq",
+          "value": "아주낮춤",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "연령별 사용과 발화 의도·억양을 함께 검토한다. 표의 예문만으로 모든 질문을 -노로 바꾸지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [
+          "아주낮춤"
+        ],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 16,
+          "quote": "함양 방언의 서술형 종결어미는 아주 낮춤 ‘-다/ㄴ다’, 예사낮춤 ‘-네’ 및\n두루 낮춤과 두루높임 ‘-아/어, -아/어요’가 쓰이고 있다. 예사높임과 아주높"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "표의 아주/예사/두루 높임 구분을 보존; 다른 문헌 체계와 자동 동일시하지 않음."
+    },
+    {
+      "id": "RYU2014:v2:full:0075",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-네",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-네",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "declarative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "sentence_type",
+          "op": "eq",
+          "value": "declarative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "target",
+          "field": "speech_level",
+          "op": "eq",
+          "value": "예사낮춤",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "연령별 사용과 발화 의도·억양을 함께 검토한다. 표의 예문만으로 모든 질문을 -노로 바꾸지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [
+          "예사낮춤"
+        ],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 16,
+          "quote": "함양 방언의 서술형 종결어미는 아주 낮춤 ‘-다/ㄴ다’, 예사낮춤 ‘-네’ 및\n두루 낮춤과 두루높임 ‘-아/어, -아/어요’가 쓰이고 있다. 예사높임과 아주높"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "표의 아주/예사/두루 높임 구분을 보존; 다른 문헌 체계와 자동 동일시하지 않음."
+    },
+    {
+      "id": "RYU2014:v2:full:0076",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-(는)구나",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "exclamative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "sentence_type",
+          "op": "eq",
+          "value": "exclamative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "target",
+          "field": "speech_level",
+          "op": "eq",
+          "value": "아주낮춤",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "연령별 사용과 발화 의도·억양을 함께 검토한다. 표의 예문만으로 모든 질문을 -노로 바꾸지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [
+          "아주낮춤"
+        ],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 17,
+          "quote": "꽃이 참 예쁘구나!     -(는)구나    70     100     -다      꽃이 예쁘다!\n       꽃이 참 예쁘구만!     -(는)구만    80     100     -네      꽃이 예쁘네!"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "표의 아주/예사/두루 높임 구분을 보존; 다른 문헌 체계와 자동 동일시하지 않음."
+    },
+    {
+      "id": "RYU2014:v2:full:0077",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-(는)구만",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-네",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "exclamative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "sentence_type",
+          "op": "eq",
+          "value": "exclamative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "target",
+          "field": "speech_level",
+          "op": "eq",
+          "value": "예사낮춤",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "연령별 사용과 발화 의도·억양을 함께 검토한다. 표의 예문만으로 모든 질문을 -노로 바꾸지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [
+          "예사낮춤"
+        ],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 17,
+          "quote": "꽃이 참 예쁘구만!     -(는)구만    80     100     -네      꽃이 예쁘네!\n       꽃이 참 예쁘오!       -오       x       x       .           ."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "표의 아주/예사/두루 높임 구분을 보존; 다른 문헌 체계와 자동 동일시하지 않음."
+    },
+    {
+      "id": "RYU2014:v2:full:0078",
+      "type": "context",
+      "source_pattern": {
+        "text": "명령 높임 기술의 제한",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "본문은 원 방언의 -십시오 부재를 말하며, 각주12는 예사높임 -소·아주높임 -으이소의 전통 사용을 명시한다. 범주 부재로 해석하지 않는다.",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 14,
+          "quote": "12) 그러나 이 지역 방언에서는 예사높임으로 ‘-소’, 아주높임으로 ‘-으이소’가 쓰"
+        },
+        {
+          "pdf_page": 14,
+          "quote": "아주높임의 ‘-십시오’는 원 방언형에는 없었으나"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0079",
+      "type": "context",
+      "source_pattern": {
+        "text": "청유/의문 세대 변화",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-세 미사용, -소/-ㅂ시다의 후세대 변화 및 -세요/-ㅂ니까 등장",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 15,
+          "quote": "예사낮\n춤 ‘-세’ 및 두루높임 ‘-으세요’ 형태는 쓰이지 않고 있다. 이러한 형태의 사\n용은 변화하여 예사높임 ‘-소’가 60대, 10대에서 모두 사용되지 않게 되고,\n또 10대에서는 ‘-ㅂ시다’도 사용하지 않게 되고, 대신 ‘-으세요’와 같은 두루\n높임체 형태를 많이 사용하고 있다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0080",
+      "type": "context",
+      "source_pattern": {
+        "text": "종결의 표준어 공유형",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-아/어와 -아/어요 공유; 서술 ㅂ니다의 후세대 유입",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 16,
+          "quote": "임 형태는 안 쓰였다. ‘-세요’ 형태도 안 쓰인다. 그러나 표준어 ‘-ㅂ니다’"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0081",
+      "type": "context",
+      "source_pattern": {
+        "text": "연결 어미 체계",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "대등/종속/보조/인용의 구분. 지만/지의 미사용 설명은 뒤 세대 변화와 함께 검토",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 17,
+          "quote": "연결어미는 크게 대등적 연결어미, 종속적 연결어미, 보조적 연결어미, 인"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0082",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-면서",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㅁ서",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "simultaneity"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "clause_relation",
+          "op": "eq",
+          "value": "simultaneity",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 18,
+          "quote": "형은 가면서 노래를                                     장에 감서, 춤추고\n                       -면서      5       0    - 서"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "각 표의 연결 의미에 한정. -다가→-다는 관형 -는에 적용하지 않는다."
+    },
+    {
+      "id": "RYU2014:v2:full:0083",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-더라도",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-도",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "concession"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "clause_relation",
+          "op": "eq",
+          "value": "concession",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 18,
+          "quote": "형은 가더라도 너는                                     형은 가도, 너는 더\n                      -더라도     100     80     -도"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "각 표의 연결 의미에 한정. -다가→-다는 관형 -는에 적용하지 않는다."
+    },
+    {
+      "id": "RYU2014:v2:full:0084",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-다가",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interruption"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "clause_relation",
+          "op": "eq",
+          "value": "interruption",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 18,
+          "quote": "형은 가다가 다시                                         형은 가다, 다시 돌아\n연결                     -다가      30     20     -다"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "각 표의 연결 의미에 한정. -다가→-다는 관형 -는에 적용하지 않는다."
+    },
+    {
+      "id": "RYU2014:v2:full:0085",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-(으)며",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-고",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "coordination"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "clause_relation",
+          "op": "eq",
+          "value": "coordination",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 18,
+          "quote": "-(으)며     90     60     -고\n    저것은 무엇인가?                                         저것은 무엇이고?"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "각 표의 연결 의미에 한정. -다가→-다는 관형 -는에 적용하지 않는다."
+    },
+    {
+      "id": "RYU2014:v2:full:0086",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-(으)니까",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-어서",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "cause"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "clause_relation",
+          "op": "eq",
+          "value": "cause",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 18,
+          "quote": "부르다.                                           배부르다.\n종속적"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "각 표의 연결 의미에 한정. -다가→-다는 관형 -는에 적용하지 않는다."
+    },
+    {
+      "id": "RYU2014:v2:full:0087",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-이관대",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-인데",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "background"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "clause_relation",
+          "op": "eq",
+          "value": "background",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 18,
+          "quote": "연결                    -이관대     100     100   -인데\n    그러냐?                                              그러냐?"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "각 표의 연결 의미에 한정. -다가→-다는 관형 -는에 적용하지 않는다."
+    },
+    {
+      "id": "RYU2014:v2:full:0088",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-거든",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-걸랑",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "condition"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "clause_relation",
+          "op": "eq",
+          "value": "condition",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 18,
+          "quote": "내 아들을 보거든                                         우리 아 보걸랑\n                       -거든      80      x    -걸랑"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "각 표의 연결 의미에 한정. -다가→-다는 관형 -는에 적용하지 않는다."
+    },
+    {
+      "id": "RYU2014:v2:full:0089",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-고 하네",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "인용 보고",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "카네",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": "인용 보고",
+        "features": {}
+      },
+      "functions": [
+        "quotation"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "construction",
+          "op": "eq",
+          "value": "quotation_reporting",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 18,
+          "quote": "‘-고 하네’가 축약된 형태 ‘카네’ 형태로 나타난다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "실제 표면형 축약을 보존. 일반 동사 하다로 확장하지 않는다."
+    },
+    {
+      "id": "RYU2014:v2:full:0090",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-(으)려고",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-(으)ㄹ라고",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "purpose"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "clause_relation",
+          "op": "eq",
+          "value": "purpose",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 19,
+          "quote": "점심을 먹으려고                                      점심 먹을라고 집에\n                     -(으)려고    80    30       라"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "인용 -꼬는 일반 나열 -고와 구별."
+    },
+    {
+      "id": "RYU2014:v2:full:0091",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-면",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-먼",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "condition"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "clause_relation",
+          "op": "eq",
+          "value": "condition",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 19,
+          "quote": "어미 네가 오면 나는 간다.   -면           70     0      -먼     니가 오먼 나는 간다.\n      비가 오니 물이                                      비가 오니 물이"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "인용 -꼬는 일반 나열 -고와 구별."
+    },
+    {
+      "id": "RYU2014:v2:full:0092",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-고자",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-라고",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "purpose"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "clause_relation",
+          "op": "eq",
+          "value": "purpose",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 19,
+          "quote": "-고자     100     x     -라고     돈 벌라고 일을 한다.\n      한다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "인용 -꼬는 일반 나열 -고와 구별."
+    },
+    {
+      "id": "RYU2014:v2:full:0093",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-고",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-꼬",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "quotation"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "construction",
+          "op": "eq",
+          "value": "quotation",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 19,
+          "quote": "인용적                   -고       60     0      -꼬     지가 간다꼬 말했다.\n    말했다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "인용 -꼬는 일반 나열 -고와 구별."
+    },
+    {
+      "id": "RYU2014:v2:full:0094",
+      "type": "context",
+      "source_pattern": {
+        "text": "공유 연결형과 보조 연결",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "ㄹ수록/듯이/아어서/니/러/아어/게/고는 표준어와 공유. -지 부정은 세대 변화가 있음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 19,
+          "quote": "보조적 미국에 가게 되었다. -게,-도록        100    50      -게     미국에 가게 되었다"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0095",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-ㄹ 것이다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄹ 끼다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "future"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 20,
+          "quote": "-     것-    100      5    - 끼다 내일 논에 갈 끼다.\n       것이다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "미래 종결 용법. 60대100/10대5라는 원문 확인값이며 자연스러움 확률이 아님."
+    },
+    {
+      "id": "RYU2014:v2:full:0096",
+      "type": "context",
+      "source_pattern": {
+        "text": "시제 기술",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "종결 미래 겠/리 부재 설명과 내일+현재형 대안; 과거 었/더/었더, 후세대 었었 유입",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 20,
+          "quote": "‘-ㄹ 끼다’와 같은 형태는 60대에서는 100% 사용하고 있으나 10대에서는 거"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0097",
+      "type": "inflection",
+      "source_pattern": {
+        "text": "묵다",
+        "domain": "dialect",
+        "lemma": "묵다",
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "묵고",
+        "domain": "dialect",
+        "lemma": "묵다",
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "lemma",
+          "op": "eq",
+          "value": "묵다",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "ending",
+          "op": "eq",
+          "value": "-고",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 20,
+          "quote": "지금 밥을 묵고 있다."
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "원문 예문의 관찰형. 모든 활용을 일반화하지 않는다."
+    },
+    {
+      "id": "RYU2014:v2:full:0098",
+      "type": "context",
+      "source_pattern": {
+        "text": "관형형 보존",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "관형사형은 표준어와 같다는 본문 기술과 -았던의 세대 차이; 가는의 -는을 -다로 바꾸는 근거가 아님",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 21,
+          "quote": "지금 가는 사람은                                       지금 가는 사람이"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0099",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-지 않다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "안",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "negation"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 21,
+          "quote": "쓰이지 않고, 짧은 부정인 ‘안, 못’ 부정만 쓰이고 있다. 그리고 ‘-지 말다’\n부정은 표준어와 같은 ‘-지 말다’가 쓰이고 있다. 이러한 방언형 부정 형태는"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "장형/단형 부정 대응이나 부정 범위와 문장 구성을 재검토해야 함. 후세대 장형 부정을 금지하지 않는다."
+    },
+    {
+      "id": "RYU2014:v2:full:0100",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-지 못하다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "못",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "negation"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 21,
+          "quote": "쓰이지 않고, 짧은 부정인 ‘안, 못’ 부정만 쓰이고 있다. 그리고 ‘-지 말다’\n부정은 표준어와 같은 ‘-지 말다’가 쓰이고 있다. 이러한 방언형 부정 형태는"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "장형/단형 부정 대응이나 부정 범위와 문장 구성을 재검토해야 함. 후세대 장형 부정을 금지하지 않는다."
+    },
+    {
+      "id": "RYU2014:v2:full:0101",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "못",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "target_pattern": {
+        "text": "몬",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "functions": [
+        "negation"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 22,
+          "quote": "형은 일이 있어서 못                                       형은 일이 있어 몬\n                         못       10      0         몬"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "60대10/10대0 보고. 못의 모든 의미·위치에 일괄 대응하지 않는다."
+    },
+    {
+      "id": "RYU2014:v2:full:0102",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-지 말다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-지 말다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "prohibition"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 22,
+          "quote": "너는 아직 가지 마라. -지 말다                      -지 말다 니는 아직 가지 마라.\n 말다"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0103",
+      "type": "context",
+      "source_pattern": {
+        "text": "사동 접미사",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "이/이우/기/히/리/우/구/추/애 계열과 명령형 결합 축약",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 22,
+          "quote": "함양 방언에서 사동사를 파생시키는 사동접미사에는 ‘-이-, -이우-, -기-,"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0104",
+      "type": "inflection",
+      "source_pattern": {
+        "text": "깨우다",
+        "domain": "shared",
+        "lemma": "깨우다",
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "깨아라",
+        "domain": "dialect",
+        "lemma": "깨우다",
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "lemma",
+          "op": "eq",
+          "value": "깨우다",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "ending",
+          "op": "eq",
+          "value": "-아라",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 23,
+          "quote": "잠을 깨워라.           -우-              -우-   잠 깨아라"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "본문이 명시한 우/구/추+아라 축약의 개별 확인형. 다른 어간에 자동 확장하지 않는다."
+    },
+    {
+      "id": "RYU2014:v2:full:0105",
+      "type": "inflection",
+      "source_pattern": {
+        "text": "돋구다",
+        "domain": "shared",
+        "lemma": "돋구다",
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "돋가라",
+        "domain": "dialect",
+        "lemma": "돋구다",
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "lemma",
+          "op": "eq",
+          "value": "돋구다",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "ending",
+          "op": "eq",
+          "value": "-아라",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 23,
+          "quote": "두둑을 돋구어라.         -구-              -구-   입맛을 돋가라."
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "본문이 명시한 우/구/추+아라 축약의 개별 확인형. 다른 어간에 자동 확장하지 않는다."
+    },
+    {
+      "id": "RYU2014:v2:full:0106",
+      "type": "inflection",
+      "source_pattern": {
+        "text": "낮추다",
+        "domain": "shared",
+        "lemma": "낮추다",
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "낮차라",
+        "domain": "dialect",
+        "lemma": "낮추다",
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "lemma",
+          "op": "eq",
+          "value": "낮추다",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "ending",
+          "op": "eq",
+          "value": "-아라",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 23,
+          "quote": "좀 낮춰 봐.           -추-              -추-   낮차라"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "본문이 명시한 우/구/추+아라 축약의 개별 확인형. 다른 어간에 자동 확장하지 않는다."
+    },
+    {
+      "id": "RYU2014:v2:full:0107",
+      "type": "context",
+      "source_pattern": {
+        "text": "피동 접미사",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "이/기/히/리의 공유 및 예문; 보이다→빈다, 끊겼다→끊깄다 등의 관찰",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 23,
+          "quote": "함양 방언에서 피동사를 파생시키는 피동접미사에는 ‘-이-, -기-, -히-, -리-’가"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0108",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-어 버리다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-어 삐다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "completion"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 24,
+          "quote": "이러한 보조동사 형태 사용의 변화는 ‘-어 삐다’와 같은 형태가 표준어 형\n태와 같은 ‘-어 버리다’로 변해가고, ‘-고 나다, -게 맨들다, -어 싸다’와 같은"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "보조용언 용법의 대응 또는 공유. 본용언과 구별하고 의미·부정 범위를 보존한다."
+    },
+    {
+      "id": "RYU2014:v2:full:0109",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-고 있다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-고 있다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "progressive"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 24,
+          "quote": "편지를 쓰고 있다.       (-고) 있다             (-고) 있다 놀고 있다.\n     길을 잃어 버렸다.       (어) 버리다    5    0   (-어) 삐다 이자 뿠다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "보조용언 용법의 대응 또는 공유. 본용언과 구별하고 의미·부정 범위를 보존한다."
+    },
+    {
+      "id": "RYU2014:v2:full:0110",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-고 나다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-고 나다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "completion"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 24,
+          "quote": "밥을 먹고 나서 갔다.     (-고) 나다         x   (-고) 나다\n                                                     갔다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "보조용언 용법의 대응 또는 공유. 본용언과 구별하고 의미·부정 범위를 보존한다."
+    },
+    {
+      "id": "RYU2014:v2:full:0111",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-어 주다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-어 주다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "benefactive"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 24,
+          "quote": "봉사 꽃을 만들어 주었다.        (-어) 주다             (-어) 주다 맨들어 줬다.\n시행 안 오는가 보다.          (-어) 보다             (-어) 보다 안 오는 가 배."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "보조용언 용법의 대응 또는 공유. 본용언과 구별하고 의미·부정 범위를 보존한다."
+    },
+    {
+      "id": "RYU2014:v2:full:0112",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-어 놓다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-어 놓다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "result_state"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 25,
+          "quote": "책상에 얹어\n     책을 책상에 얹어 놓았다. (-어) 놓다                  (-어) 놓다"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "보조용언 용법의 대응 또는 공유. 본용언과 구별하고 의미·부정 범위를 보존한다."
+    },
+    {
+      "id": "RYU2014:v2:full:0113",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-게 만들다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-게 맨들다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "causative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 25,
+          "quote": "만들다                     맨들다      만들었다.\n     종이가 잘 접혀 진다.    (-어) 지다                 (-어) 지다 점점 덥어 진다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "보조용언 용법의 대응 또는 공유. 본용언과 구별하고 의미·부정 범위를 보존한다."
+    },
+    {
+      "id": "RYU2014:v2:full:0114",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-어 지다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-어 지다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "passive"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 25,
+          "quote": "종이가 잘 접혀 진다.    (-어) 지다                 (-어) 지다 점점 덥어 진다.\n피동"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "보조용언 용법의 대응 또는 공유. 본용언과 구별하고 의미·부정 범위를 보존한다."
+    },
+    {
+      "id": "RYU2014:v2:full:0115",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-게 되다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-게 되다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "change_of_state"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 25,
+          "quote": "나도 가게 되었다.      (-게) 되다                 (-게) 되다 나도 가게 됐다.\n                      (-지)"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "보조용언 용법의 대응 또는 공유. 본용언과 구별하고 의미·부정 범위를 보존한다."
+    },
+    {
+      "id": "RYU2014:v2:full:0116",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-어 대다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-어 싸다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "repetition"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 25,
+          "quote": "쌌는다.\n                       (-어)                    (-어)"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "보조용언 용법의 대응 또는 공유. 본용언과 구별하고 의미·부정 범위를 보존한다."
+    },
+    {
+      "id": "RYU2014:v2:full:0117",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-어 보이다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-어 보이다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "appearance"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 25,
+          "quote": "짐작 기분이 좋아 보인다.                                         좋아 비네.\n                      보이다                     보이다"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "보조용언 용법의 대응 또는 공유. 본용언과 구별하고 의미·부정 범위를 보존한다."
+    },
+    {
+      "id": "RYU2014:v2:full:0118",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-어야 한다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-어야 한다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "obligation"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 25,
+          "quote": "너는 오지 못한다.                (90)   (70)   .(-지 못-) .(너는 못 온다.)\n                      못하다"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "보조용언 용법의 대응 또는 공유. 본용언과 구별하고 의미·부정 범위를 보존한다."
+    },
+    {
+      "id": "RYU2014:v2:full:0119",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-기는 하다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-기는 하다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "concession"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 25,
+          "quote": "시인 밥을 먹기는 했다.\n                       하다                       하다     했다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "보조용언 용법의 대응 또는 공유. 본용언과 구별하고 의미·부정 범위를 보존한다."
+    },
+    {
+      "id": "RYU2014:v2:full:0120",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-고 싶다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-고 싶다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "desire"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 26,
+          "quote": "희망 집에 가고 싶다.           (-고) 싶다               (-고) 싶다 집에 가고 싶다.\n      날씨가 덥지 않다.       (-지) 않다 (100) (50)    .(-지 않다) .(날씨가 안 덥다.)"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "보조용언 용법의 대응 또는 공유. 본용언과 구별하고 의미·부정 범위를 보존한다."
+    },
+    {
+      "id": "RYU2014:v2:full:0121",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-ㄴ가 보다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄴ가 보다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "conjecture"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 26,
+          "quote": "저 것이 학교인가 보다                           (- 가) 보다 저게 학굔갑다.\n                         -나) 보다"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "보조용언 용법의 대응 또는 공유. 본용언과 구별하고 의미·부정 범위를 보존한다."
+    },
+    {
+      "id": "RYU2014:v2:full:0122",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-어 있다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-어 있다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "result_state"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 26,
+          "quote": "상태 여기에 앉아 있어라.         (-어) 있다               (-어) 있다 여 앉아 있어라.\n시인 크기는 하다.             (-기는) 하다                 .     .(크다)"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "보조용언 용법의 대응 또는 공유. 본용언과 구별하고 의미·부정 범위를 보존한다."
+    },
+    {
+      "id": "RYU2014:v2:full:0123",
+      "type": "context",
+      "source_pattern": {
+        "text": "보조동사의 사용 변화",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "어가다/어오다/어내다/어갖고/지못의 후세대 유입과 삐다/맨들다/싸다 변화",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 24,
+          "quote": "이러한 보조동사 형태 사용의 변화는 ‘-어 삐다’와 같은 형태가 표준어 형"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0124",
+      "type": "context",
+      "source_pattern": {
+        "text": "보조형용사 한계",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "추측 -는가/-나/-ㄹ까 싶다의 미사용 기술 및 부정 보조형용사의 세대 변화",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 26,
+          "quote": "수도 있다. 추측의 ‘(-는가, -나, -ㄹ까) 싶다’ 보조 형용사는 여전히 안 쓰이고"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0125",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "실컷",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "target_pattern": {
+        "text": "마이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 27,
+          "quote": "실컷 먹어라.            실컷     100   80    마이      마이 묵어라.\n많이 먹어라.            많이     100   75    마이      마이 먹어라."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "대조표 예문의 의미에 한정. 다른 동음·다의적 용법과 구별."
+    },
+    {
+      "id": "RYU2014:v2:full:0126",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "많이",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "target_pattern": {
+        "text": "마이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 27,
+          "quote": "많이 먹어라.            많이     100   75    마이      마이 먹어라.\n너무 많이 먹지마.         너무                 너무      너무 마이 먹지마."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "대조표 예문의 의미에 한정. 다른 동음·다의적 용법과 구별."
+    },
+    {
+      "id": "RYU2014:v2:full:0127",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "조금만",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "target_pattern": {
+        "text": "쪼께만",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 27,
+          "quote": "조금만 먹어라.           조금      50   50    쪼께만 쪼께만 먹어라.\n자주 와라.             자주                 자주      자주 오래이."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "대조표 예문의 의미에 한정. 다른 동음·다의적 용법과 구별."
+    },
+    {
+      "id": "RYU2014:v2:full:0128",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "빨리",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "target_pattern": {
+        "text": "어서",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 27,
+          "quote": "빨리 와라.             빨리      50   60    어서      어서 와라.\n얼른 와라.             얼른                 얼른      얼른 와라."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "대조표 예문의 의미에 한정. 다른 동음·다의적 용법과 구별."
+    },
+    {
+      "id": "RYU2014:v2:full:0129",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "걸핏하면",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "target_pattern": {
+        "text": "꺼떡하면",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 27,
+          "quote": "쟤는 걸핏하면 울어.        걸핏하면    10   100 꺼떡하면 애가 꺼떡하면 운다.\n가끔 들릴게요.           가끔                 가끔      가끔 올 게요."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "대조표 예문의 의미에 한정. 다른 동음·다의적 용법과 구별."
+    },
+    {
+      "id": "RYU2014:v2:full:0130",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "이따금",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "target_pattern": {
+        "text": "가끔",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 27,
+          "quote": "이따끔 소식이 들려와.       이따금     90   100   가끔      가끔 전화를 잘 해야.\n먼저 할 사람?           먼저      20   50    앞에      앞에 가요."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "대조표 예문의 의미에 한정. 다른 동음·다의적 용법과 구별."
+    },
+    {
+      "id": "RYU2014:v2:full:0131",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "먼저",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "target_pattern": {
+        "text": "앞에",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 27,
+          "quote": "먼저 할 사람?           먼저      20   50    앞에      앞에 가요.\n나중에 할 사람?          나중에                나중에 나중에 할 사람?"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "대조표 예문의 의미에 한정. 다른 동음·다의적 용법과 구별."
+    },
+    {
+      "id": "RYU2014:v2:full:0132",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "가득",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "target_pattern": {
+        "text": "한거석",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 27,
+          "quote": "감자가 가득 찼다.         가득      20   10    한거석 물이 한거석 찼네.\n몽땅 쓸어 담아라.         몽땅                 몽땅      몽땅 쓸어 담아라."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "대조표 예문의 의미에 한정. 다른 동음·다의적 용법과 구별."
+    },
+    {
+      "id": "RYU2014:v2:full:0133",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "기어코",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "target_pattern": {
+        "text": "꼭",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 27,
+          "quote": "기어코 그 일을 하겠느냐? 기어코         80   80     꼭      꼭 해야 하냐?\n                                      제와/보 비가 와서 제와/보도시"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "대조표 예문의 의미에 한정. 다른 동음·다의적 용법과 구별."
+    },
+    {
+      "id": "RYU2014:v2:full:0134",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "겨우",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "target_pattern": {
+        "text": "제와/보도시",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 27,
+          "quote": "눈이 와서 겨우 왔다.       겨우      10   0\n                                       도시 왔다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "대조표 예문의 의미에 한정. 다른 동음·다의적 용법과 구별."
+    },
+    {
+      "id": "RYU2014:v2:full:0135",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "저절로",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "target_pattern": {
+        "text": "절로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 27,
+          "quote": "저절로 돈이 생기는 줄\n                   저절로     0    0     절로      절로 움직인다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "대조표 예문의 의미에 한정. 다른 동음·다의적 용법과 구별."
+    },
+    {
+      "id": "RYU2014:v2:full:0136",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "하마터면",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "target_pattern": {
+        "text": "까딱하면",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 28,
+          "quote": "하마터면 넘어질 뻔 했다. 하마터면     10   5     까딱하면 까딱하면 넘어질 뻔 했다.\n가만히 있어 봐.       가만히     20   50    가마이 제발 가마이 있어."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "대조표 예문의 의미에 한정. 다른 동음·다의적 용법과 구별."
+    },
+    {
+      "id": "RYU2014:v2:full:0137",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "가만히",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "target_pattern": {
+        "text": "가마이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 28,
+          "quote": "가만히 있어 봐.       가만히     20   50    가마이 제발 가마이 있어.\n공연히 그 일을 했어.    공연히     30   0      백지   할 일 없이"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "대조표 예문의 의미에 한정. 다른 동음·다의적 용법과 구별."
+    },
+    {
+      "id": "RYU2014:v2:full:0138",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "공연히",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "target_pattern": {
+        "text": "백지",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 28,
+          "quote": "공연히 그 일을 했어.    공연히     30   0      백지   할 일 없이\n곧장 내려가면 학교야.    곧장      30   100   쪽바로 쪽바로 내려가면 논이다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "대조표 예문의 의미에 한정. 다른 동음·다의적 용법과 구별."
+    },
+    {
+      "id": "RYU2014:v2:full:0139",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "곧장",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "target_pattern": {
+        "text": "쪽바로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 28,
+          "quote": "곧장 내려가면 학교야.    곧장      30   100   쪽바로 쪽바로 내려가면 논이다.\n벌써 다 왔어?        벌써                  벌써   벌써 다 왔어?"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "대조표 예문의 의미에 한정. 다른 동음·다의적 용법과 구별."
+    },
+    {
+      "id": "RYU2014:v2:full:0140",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "가장",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "target_pattern": {
+        "text": "제일로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "pos": "adverb"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 28,
+          "quote": "가장 먼저 온 사람이\n                가장      50   100   제일로 제일로 먼저 했어?"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "대조표 예문의 의미에 한정. 다른 동음·다의적 용법과 구별."
+    },
+    {
+      "id": "RYU2014:v2:full:0141",
+      "type": "context",
+      "source_pattern": {
+        "text": "공유 부사와 사용 변화",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "너무/자주/얼른/항상/늘/자꾸/가끔/나중에/몽땅/모조리/혼자/함께/똑똑히/설마 등 공유; 매우/그냥 유입",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 27,
+          "quote": "매우 좋아?             매우     (100) (100) .(매우)"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0142",
+      "type": "context",
+      "source_pattern": {
+        "text": "의식 조사 표본",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "2014년 8월 65세 이상40명과 초등6학년45명. 문법형 사용 확인 표본과 별개",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 28,
+          "quote": "림노모당(15명)에서 함양읍에 거주하는 65세 이상의 노인 40명, 그리고 8월"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0143",
+      "type": "context",
+      "source_pattern": {
+        "text": "방언에 대한 태도",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "학생·노인의 사용 선호와 방언 사용자에 대한 태도 표. 생성의 말투 선택 확률로 사용하지 않음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 29,
+          "quote": "따라 사투리로 말하고 싶은 학생이 20% 된다. 그에 반해 표준어든 사투리든"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0144",
+      "type": "context",
+      "source_pattern": {
+        "text": "표준어에 대한 태도",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "표준어 구사 희망의 세대 차이에 대한 저자 해석",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 30,
+          "quote": "분들이 37.5%로 대부분의 노인들이 표준어로 말하고 싶어 한다. 이는 어린"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0145",
+      "type": "context",
+      "source_pattern": {
+        "text": "표준어 습득 경로",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "학생은 수업/TV 등, 노인은 TV 응답 비중이 큼; 응답 표본 한정",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 31,
+          "quote": "가장\n많이 배우는 곳은 수업 시간이다. 다음은 텔레비전이다.15) 이에 반해 60세\n이상은 전적으로 텔레비전을 통해서 배운다. 어린이들도 31.1%가 텔레비전\n을 통해서 배운다. 텔레비전이 표준어 교육의 부담양이 크다는 것을 알 수\n있다.\n 지금까지 살펴 본 바를 종합해 보면 어린이들은 표준어와 방언에 대"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0146",
+      "type": "context",
+      "source_pattern": {
+        "text": "결론 요약",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "앞 절의 대명사·조사·어미·시제·부정·파생·보조용언·부사·의식 결과 재진술",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 32,
+          "quote": "먼저 함양 방언의 대명사로는 1인칭 단수는 ‘나, 내’가, 복수로는 ‘우리,"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0147",
+      "type": "context",
+      "source_pattern": {
+        "text": "결론 요약",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "앞 절의 대명사·조사·어미·시제·부정·파생·보조용언·부사·의식 결과 재진술",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 33,
+          "quote": "셋째로 종결어미와 경어법 형태의 표준어와의 차이점을 보면 청유형에서"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "RYU2014:v2:full:0148",
+      "type": "context",
+      "source_pattern": {
+        "text": "결론 요약",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "앞 절의 대명사·조사·어미·시제·부정·파생·보조용언·부사·의식 결과 재진술",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 34,
+          "quote": "아홉째로 부사로 특징적인 것은 ‘마이, 쪼께만, 한거석, 제와/보도시, 절로,"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,5853 @@
+{
+  "source_id": "JO2018",
+  "facts": [
+    {
+      "id": "JO2018:v2:interrogative:0001",
+      "type": "context",
+      "source_pattern": {
+        "text": "의문법 범위",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "판정·설명 및 수사 의문 구분. 하이소는 판정/설명을 함께 담당하고 하게·해라는 형태 대립",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 117,
+          "quote": "특성의문법은일반적으로청자에게질문을하여그에대답을요구하는것으1로,설명의문문과판정의문문으로크게구분할수있다.25)의문법또한청자에따라다양한상대높임법의종결어미가나타난다.여기에서는의문법에사용되는하이소체,하소체,하게체,해라체에해당하는종결어미의목록및지역분포와사용양상을살펴보고,각종결어미의특성을분석해본다.3.1.2.1.하이소체1)종결어미의종류및지역분포와사용양상대계에서는[+높임],[-하대]에해당하는하이소체의문법종결어미는1방언형과표준형으로크게구분할수있다.26)먼저,방언형을살펴보기로한다.첫째,방언형중‘-껴’와관련된종결어미는다음과같이나타난다.(69)ㄱ.“주인어른요.오늘도타작을하니껴?”(7-17:346/예천)ㄴ.“여보시오,아침일찌기그참이거게기(고기)좋심더.이거한바리(한마리)어예,얼매달라합니껴?”(7-2:276/경주)ㄷ.“어른요.고만나머슴고만사고우리농장만해도안될니껴?”(7-11:292/군위)125)물론,의문"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0002",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -니껴",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-니껴",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 118,
+          "quote": "덕)ㅈ.아버님성질이가어예맞추면좋을리껴?(7-7:95/영덕)(69)에서는‘-니껴’,‘-ㅂ니껴’,‘-ㄹ니껴’,‘-ㄹ라니껴’,‘-시껴’,‘-이껴’,‘-이껴’,‘-디껴’,-ㅂ디껴‘,-ㄹ리껴’가쓰이고있는데,공통적으로‘-껴’를포함하고있으며,윗사람인청자가나타나면서[+높임]으로쓰이고있다.또한하이소체서술법의‘-니더/ㅂ니더’와같이,‘-니껴’와‘-ㅂ니껴’의경우동일어간의환경에도불구하고‘-ㅂ-’이수의적으로나타나지만,지역적으로는대립을보인다.그러나‘-디껴’,‘-ㅂ디껴’의경우는그러한현상이발견되지않는다.둘째,‘-꺼’와관련된종결어미가발견된다.(70)ㄱ.“아이,오시니,이자(이제)오시니꺼?”(7-2:106/경주)ㄴ.“아이양반,어디가장새(장사)하고오십니꺼?”(7-2:691/경주)ㄷ.“안돼요.첨에거약조한대로해이되지약조한대로아하고다른데로내장가갈라그디꺼?”(7-13:74/예천)ㄹ.“선생님,오늘장에소끔(소값)얼매한다캅디꺼"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "판정/설명 양쪽. 결합 형태·지역·시제 등 별도 진술과 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0003",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㅂ니껴",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㅂ니껴",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 118,
+          "quote": "님성질이가어예맞추면좋을리껴?(7-7:95/영덕)(69)에서는‘-니껴’,‘-ㅂ니껴’,‘-ㄹ니껴’,‘-ㄹ라니껴’,‘-시껴’,‘-이껴’,‘-이껴’,‘-디껴’,-ㅂ디껴‘,-ㄹ리껴’가쓰이고있는데,공통적으로‘-껴’를포함하고있으며,윗사람인청자가나타나면서[+높임]으로쓰이고있다.또한하이소체서술법의‘-니더/ㅂ니더’와같이,‘-니껴’와‘-ㅂ니껴’의경우동일어간의환경에도불구하고‘-ㅂ-’이수의적으로나타나지만,지역적으로는대립을보인다.그러나‘-디껴’,‘-ㅂ디껴’의경우는그러한현상이발견되지않는다.둘째,‘-꺼’와관련된종결어미가발견된다.(70)ㄱ.“아이,오시니,이자(이제)오시니꺼?”(7-2:106/경주)ㄴ.“아이양반,어디가장새(장사)하고오십니꺼?”(7-2:691/경주)ㄷ.“안돼요.첨에거약조한대로해이되지약조한대로아하고다른데로내장가갈라그디꺼?”(7-13:74/예천)ㄹ.“선생님,오늘장에소끔(소값)얼매한다캅디꺼?”(7-1"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "판정/설명 양쪽. 결합 형태·지역·시제 등 별도 진술과 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0004",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㄹ니껴",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄹ니껴",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 118,
+          "quote": "맞추면좋을리껴?(7-7:95/영덕)(69)에서는‘-니껴’,‘-ㅂ니껴’,‘-ㄹ니껴’,‘-ㄹ라니껴’,‘-시껴’,‘-이껴’,‘-이껴’,‘-디껴’,-ㅂ디껴‘,-ㄹ리껴’가쓰이고있는데,공통적으로‘-껴’를포함하고있으며,윗사람인청자가나타나면서[+높임]으로쓰이고있다.또한하이소체서술법의‘-니더/ㅂ니더’와같이,‘-니껴’와‘-ㅂ니껴’의경우동일어간의환경에도불구하고‘-ㅂ-’이수의적으로나타나지만,지역적으로는대립을보인다.그러나‘-디껴’,‘-ㅂ디껴’의경우는그러한현상이발견되지않는다.둘째,‘-꺼’와관련된종결어미가발견된다.(70)ㄱ.“아이,오시니,이자(이제)오시니꺼?”(7-2:106/경주)ㄴ.“아이양반,어디가장새(장사)하고오십니꺼?”(7-2:691/경주)ㄷ.“안돼요.첨에거약조한대로해이되지약조한대로아하고다른데로내장가갈라그디꺼?”(7-13:74/예천)ㄹ.“선생님,오늘장에소끔(소값)얼매한다캅디꺼?”(7-13:74/대구"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "판정/설명 양쪽. 결합 형태·지역·시제 등 별도 진술과 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0005",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㄹ라니껴",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄹ라니껴",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 118,
+          "quote": "?(7-7:95/영덕)(69)에서는‘-니껴’,‘-ㅂ니껴’,‘-ㄹ니껴’,‘-ㄹ라니껴’,‘-시껴’,‘-이껴’,‘-이껴’,‘-디껴’,-ㅂ디껴‘,-ㄹ리껴’가쓰이고있는데,공통적으로‘-껴’를포함하고있으며,윗사람인청자가나타나면서[+높임]으로쓰이고있다.또한하이소체서술법의‘-니더/ㅂ니더’와같이,‘-니껴’와‘-ㅂ니껴’의경우동일어간의환경에도불구하고‘-ㅂ-’이수의적으로나타나지만,지역적으로는대립을보인다.그러나‘-디껴’,‘-ㅂ디껴’의경우는그러한현상이발견되지않는다.둘째,‘-꺼’와관련된종결어미가발견된다.(70)ㄱ.“아이,오시니,이자(이제)오시니꺼?”(7-2:106/경주)ㄴ.“아이양반,어디가장새(장사)하고오십니꺼?”(7-2:691/경주)ㄷ.“안돼요.첨에거약조한대로해이되지약조한대로아하고다른데로내장가갈라그디꺼?”(7-13:74/예천)ㄹ.“선생님,오늘장에소끔(소값)얼매한다캅디꺼?”(7-13:74/대구)(70)에서"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "판정/설명 양쪽. 결합 형태·지역·시제 등 별도 진술과 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0006",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -시껴",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-시껴",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 118,
+          "quote": "/영덕)(69)에서는‘-니껴’,‘-ㅂ니껴’,‘-ㄹ니껴’,‘-ㄹ라니껴’,‘-시껴’,‘-이껴’,‘-이껴’,‘-디껴’,-ㅂ디껴‘,-ㄹ리껴’가쓰이고있는데,공통적으로‘-껴’를포함하고있으며,윗사람인청자가나타나면서[+높임]으로쓰이고있다.또한하이소체서술법의‘-니더/ㅂ니더’와같이,‘-니껴’와‘-ㅂ니껴’의경우동일어간의환경에도불구하고‘-ㅂ-’이수의적으로나타나지만,지역적으로는대립을보인다.그러나‘-디껴’,‘-ㅂ디껴’의경우는그러한현상이발견되지않는다.둘째,‘-꺼’와관련된종결어미가발견된다.(70)ㄱ.“아이,오시니,이자(이제)오시니꺼?”(7-2:106/경주)ㄴ.“아이양반,어디가장새(장사)하고오십니꺼?”(7-2:691/경주)ㄷ.“안돼요.첨에거약조한대로해이되지약조한대로아하고다른데로내장가갈라그디꺼?”(7-13:74/예천)ㄹ.“선생님,오늘장에소끔(소값)얼매한다캅디꺼?”(7-13:74/대구)(70)에서는‘-니꺼’,‘"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "판정/설명 양쪽. 결합 형태·지역·시제 등 별도 진술과 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0007",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -이껴",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-이껴",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 118,
+          "quote": "9)에서는‘-니껴’,‘-ㅂ니껴’,‘-ㄹ니껴’,‘-ㄹ라니껴’,‘-시껴’,‘-이껴’,‘-이껴’,‘-디껴’,-ㅂ디껴‘,-ㄹ리껴’가쓰이고있는데,공통적으로‘-껴’를포함하고있으며,윗사람인청자가나타나면서[+높임]으로쓰이고있다.또한하이소체서술법의‘-니더/ㅂ니더’와같이,‘-니껴’와‘-ㅂ니껴’의경우동일어간의환경에도불구하고‘-ㅂ-’이수의적으로나타나지만,지역적으로는대립을보인다.그러나‘-디껴’,‘-ㅂ디껴’의경우는그러한현상이발견되지않는다.둘째,‘-꺼’와관련된종결어미가발견된다.(70)ㄱ.“아이,오시니,이자(이제)오시니꺼?”(7-2:106/경주)ㄴ.“아이양반,어디가장새(장사)하고오십니꺼?”(7-2:691/경주)ㄷ.“안돼요.첨에거약조한대로해이되지약조한대로아하고다른데로내장가갈라그디꺼?”(7-13:74/예천)ㄹ.“선생님,오늘장에소끔(소값)얼매한다캅디꺼?”(7-13:74/대구)(70)에서는‘-니꺼’,‘-ㅂ니꺼’,"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "판정/설명 양쪽. 결합 형태·지역·시제 등 별도 진술과 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0008",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -디껴",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-디껴",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 118,
+          "quote": "-ㅂ니껴’,‘-ㄹ니껴’,‘-ㄹ라니껴’,‘-시껴’,‘-이껴’,‘-이껴’,‘-디껴’,-ㅂ디껴‘,-ㄹ리껴’가쓰이고있는데,공통적으로‘-껴’를포함하고있으며,윗사람인청자가나타나면서[+높임]으로쓰이고있다.또한하이소체서술법의‘-니더/ㅂ니더’와같이,‘-니껴’와‘-ㅂ니껴’의경우동일어간의환경에도불구하고‘-ㅂ-’이수의적으로나타나지만,지역적으로는대립을보인다.그러나‘-디껴’,‘-ㅂ디껴’의경우는그러한현상이발견되지않는다.둘째,‘-꺼’와관련된종결어미가발견된다.(70)ㄱ.“아이,오시니,이자(이제)오시니꺼?”(7-2:106/경주)ㄴ.“아이양반,어디가장새(장사)하고오십니꺼?”(7-2:691/경주)ㄷ.“안돼요.첨에거약조한대로해이되지약조한대로아하고다른데로내장가갈라그디꺼?”(7-13:74/예천)ㄹ.“선생님,오늘장에소끔(소값)얼매한다캅디꺼?”(7-13:74/대구)(70)에서는‘-니꺼’,‘-ㅂ니꺼’,‘-디꺼’,‘-ㅂ디꺼’"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "판정/설명 양쪽. 결합 형태·지역·시제 등 별도 진술과 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0009",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㅂ디껴",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㅂ디껴",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 118,
+          "quote": ",‘-ㄹ니껴’,‘-ㄹ라니껴’,‘-시껴’,‘-이껴’,‘-이껴’,‘-디껴’,-ㅂ디껴‘,-ㄹ리껴’가쓰이고있는데,공통적으로‘-껴’를포함하고있으며,윗사람인청자가나타나면서[+높임]으로쓰이고있다.또한하이소체서술법의‘-니더/ㅂ니더’와같이,‘-니껴’와‘-ㅂ니껴’의경우동일어간의환경에도불구하고‘-ㅂ-’이수의적으로나타나지만,지역적으로는대립을보인다.그러나‘-디껴’,‘-ㅂ디껴’의경우는그러한현상이발견되지않는다.둘째,‘-꺼’와관련된종결어미가발견된다.(70)ㄱ.“아이,오시니,이자(이제)오시니꺼?”(7-2:106/경주)ㄴ.“아이양반,어디가장새(장사)하고오십니꺼?”(7-2:691/경주)ㄷ.“안돼요.첨에거약조한대로해이되지약조한대로아하고다른데로내장가갈라그디꺼?”(7-13:74/예천)ㄹ.“선생님,오늘장에소끔(소값)얼매한다캅디꺼?”(7-13:74/대구)(70)에서는‘-니꺼’,‘-ㅂ니꺼’,‘-디꺼’,‘-ㅂ디꺼’가쓰이고있"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "판정/설명 양쪽. 결합 형태·지역·시제 등 별도 진술과 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0010",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㄹ리껴",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄹ리껴",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 118,
+          "quote": "’,‘-ㄹ라니껴’,‘-시껴’,‘-이껴’,‘-이껴’,‘-디껴’,-ㅂ디껴‘,-ㄹ리껴’가쓰이고있는데,공통적으로‘-껴’를포함하고있으며,윗사람인청자가나타나면서[+높임]으로쓰이고있다.또한하이소체서술법의‘-니더/ㅂ니더’와같이,‘-니껴’와‘-ㅂ니껴’의경우동일어간의환경에도불구하고‘-ㅂ-’이수의적으로나타나지만,지역적으로는대립을보인다.그러나‘-디껴’,‘-ㅂ디껴’의경우는그러한현상이발견되지않는다.둘째,‘-꺼’와관련된종결어미가발견된다.(70)ㄱ.“아이,오시니,이자(이제)오시니꺼?”(7-2:106/경주)ㄴ.“아이양반,어디가장새(장사)하고오십니꺼?”(7-2:691/경주)ㄷ.“안돼요.첨에거약조한대로해이되지약조한대로아하고다른데로내장가갈라그디꺼?”(7-13:74/예천)ㄹ.“선생님,오늘장에소끔(소값)얼매한다캅디꺼?”(7-13:74/대구)(70)에서는‘-니꺼’,‘-ㅂ니꺼’,‘-디꺼’,‘-ㅂ디꺼’가쓰이고있는데,공통적"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "판정/설명 양쪽. 결합 형태·지역·시제 등 별도 진술과 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0011",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -니꺼",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-니꺼",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 118,
+          "quote": ",오늘장에소끔(소값)얼매한다캅디꺼?”(7-13:74/대구)(70)에서는‘-니꺼’,‘-ㅂ니꺼’,‘-디꺼’,‘-ㅂ디꺼’가쓰이고있는데,공통적으로‘-꺼’를포함하고있으며,‘-니껴’와반모음만차이가난다.또한‘-니꺼’,‘-ㅂ니꺼’는‘-니껴’,‘-ㅂ니껴’와동일하게‘-ㅂ-’이수의적으로나타나지-106-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "판정/설명 양쪽. 결합 형태·지역·시제 등 별도 진술과 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0012",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㅂ니꺼",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㅂ니꺼",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 118,
+          "quote": "끔(소값)얼매한다캅디꺼?”(7-13:74/대구)(70)에서는‘-니꺼’,‘-ㅂ니꺼’,‘-디꺼’,‘-ㅂ디꺼’가쓰이고있는데,공통적으로‘-꺼’를포함하고있으며,‘-니껴’와반모음만차이가난다.또한‘-니꺼’,‘-ㅂ니꺼’는‘-니껴’,‘-ㅂ니껴’와동일하게‘-ㅂ-’이수의적으로나타나지-106-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "판정/설명 양쪽. 결합 형태·지역·시제 등 별도 진술과 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0013",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -디꺼",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-디꺼",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 118,
+          "quote": "한다캅디꺼?”(7-13:74/대구)(70)에서는‘-니꺼’,‘-ㅂ니꺼’,‘-디꺼’,‘-ㅂ디꺼’가쓰이고있는데,공통적으로‘-꺼’를포함하고있으며,‘-니껴’와반모음만차이가난다.또한‘-니꺼’,‘-ㅂ니꺼’는‘-니껴’,‘-ㅂ니껴’와동일하게‘-ㅂ-’이수의적으로나타나지-106-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "판정/설명 양쪽. 결합 형태·지역·시제 등 별도 진술과 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0014",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㅂ디꺼",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㅂ디꺼",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 118,
+          "quote": "”(7-13:74/대구)(70)에서는‘-니꺼’,‘-ㅂ니꺼’,‘-디꺼’,‘-ㅂ디꺼’가쓰이고있는데,공통적으로‘-꺼’를포함하고있으며,‘-니껴’와반모음만차이가난다.또한‘-니꺼’,‘-ㅂ니꺼’는‘-니껴’,‘-ㅂ니껴’와동일하게‘-ㅂ-’이수의적으로나타나지-106-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "판정/설명 양쪽. 결합 형태·지역·시제 등 별도 진술과 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0015",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㅂ니까",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㅂ니까",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 119,
+          "quote": "지병명제반뭐좀그병날비좀빼겠십니까?”(7-13:576/대구)(71)에서는‘-ㅂ니까’,‘-습니까’,‘-ㅂ디까’,‘-습디까’,‘-입니까’가쓰이고있다.‘-ㅂ니까’,‘-습니까’,‘-ㅂ디까’,‘-습디까’는표준어와동일한쓰임을보여주고있으며,(71ㅁ,ㅂ)의‘-입니까’,‘-십니까’는‘-습니까’로대치가가능한데,‘-습-’대신‘-입-’과‘-십-’이쓰인경우이다.이상으로하이소체의문법종결어미의유형은다음과같이정리할수있다.<표21>하이소체의문법종결어미높임등급유형종결어미-니껴/ㅂ니껴,-니꺼/ㅂ니꺼,-디꺼/ㅂ디꺼,-디껴/ㅂ디방언형하이소체껴,-시껴,-이껴,-ㄹ리껴표준형-ㅂ니까/습니까,-ㅂ디까/습디까표준형인‘-ㅂ니까/습니까’는합쇼체로,이에대응하는방언형인하이소체는‘-니껴’,‘-니꺼’등이나타난다.즉,경북방언하이소체의문법종결어미는‘-까:-꺼:-껴’의대립을기준으로몇몇형태소가결합하여나타나는특징을보인다.또한표준형에비해방언형에서"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "판정/설명 양쪽. 결합 형태·지역·시제 등 별도 진술과 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0016",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -습니까",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-습니까",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 119,
+          "quote": "그병날비좀빼겠십니까?”(7-13:576/대구)(71)에서는‘-ㅂ니까’,‘-습니까’,‘-ㅂ디까’,‘-습디까’,‘-입니까’가쓰이고있다.‘-ㅂ니까’,‘-습니까’,‘-ㅂ디까’,‘-습디까’는표준어와동일한쓰임을보여주고있으며,(71ㅁ,ㅂ)의‘-입니까’,‘-십니까’는‘-습니까’로대치가가능한데,‘-습-’대신‘-입-’과‘-십-’이쓰인경우이다.이상으로하이소체의문법종결어미의유형은다음과같이정리할수있다.<표21>하이소체의문법종결어미높임등급유형종결어미-니껴/ㅂ니껴,-니꺼/ㅂ니꺼,-디꺼/ㅂ디꺼,-디껴/ㅂ디방언형하이소체껴,-시껴,-이껴,-ㄹ리껴표준형-ㅂ니까/습니까,-ㅂ디까/습디까표준형인‘-ㅂ니까/습니까’는합쇼체로,이에대응하는방언형인하이소체는‘-니껴’,‘-니꺼’등이나타난다.즉,경북방언하이소체의문법종결어미는‘-까:-꺼:-껴’의대립을기준으로몇몇형태소가결합하여나타나는특징을보인다.또한표준형에비해방언형에서는다양한종결어"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "판정/설명 양쪽. 결합 형태·지역·시제 등 별도 진술과 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0017",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㅂ디까",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㅂ디까",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 119,
+          "quote": "십니까?”(7-13:576/대구)(71)에서는‘-ㅂ니까’,‘-습니까’,‘-ㅂ디까’,‘-습디까’,‘-입니까’가쓰이고있다.‘-ㅂ니까’,‘-습니까’,‘-ㅂ디까’,‘-습디까’는표준어와동일한쓰임을보여주고있으며,(71ㅁ,ㅂ)의‘-입니까’,‘-십니까’는‘-습니까’로대치가가능한데,‘-습-’대신‘-입-’과‘-십-’이쓰인경우이다.이상으로하이소체의문법종결어미의유형은다음과같이정리할수있다.<표21>하이소체의문법종결어미높임등급유형종결어미-니껴/ㅂ니껴,-니꺼/ㅂ니꺼,-디꺼/ㅂ디꺼,-디껴/ㅂ디방언형하이소체껴,-시껴,-이껴,-ㄹ리껴표준형-ㅂ니까/습니까,-ㅂ디까/습디까표준형인‘-ㅂ니까/습니까’는합쇼체로,이에대응하는방언형인하이소체는‘-니껴’,‘-니꺼’등이나타난다.즉,경북방언하이소체의문법종결어미는‘-까:-꺼:-껴’의대립을기준으로몇몇형태소가결합하여나타나는특징을보인다.또한표준형에비해방언형에서는다양한종결어미가나타-10"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "판정/설명 양쪽. 결합 형태·지역·시제 등 별도 진술과 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0018",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -습디까",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-습디까",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 119,
+          "quote": "-13:576/대구)(71)에서는‘-ㅂ니까’,‘-습니까’,‘-ㅂ디까’,‘-습디까’,‘-입니까’가쓰이고있다.‘-ㅂ니까’,‘-습니까’,‘-ㅂ디까’,‘-습디까’는표준어와동일한쓰임을보여주고있으며,(71ㅁ,ㅂ)의‘-입니까’,‘-십니까’는‘-습니까’로대치가가능한데,‘-습-’대신‘-입-’과‘-십-’이쓰인경우이다.이상으로하이소체의문법종결어미의유형은다음과같이정리할수있다.<표21>하이소체의문법종결어미높임등급유형종결어미-니껴/ㅂ니껴,-니꺼/ㅂ니꺼,-디꺼/ㅂ디꺼,-디껴/ㅂ디방언형하이소체껴,-시껴,-이껴,-ㄹ리껴표준형-ㅂ니까/습니까,-ㅂ디까/습디까표준형인‘-ㅂ니까/습니까’는합쇼체로,이에대응하는방언형인하이소체는‘-니껴’,‘-니꺼’등이나타난다.즉,경북방언하이소체의문법종결어미는‘-까:-꺼:-껴’의대립을기준으로몇몇형태소가결합하여나타나는특징을보인다.또한표준형에비해방언형에서는다양한종결어미가나타-107-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "판정/설명 양쪽. 결합 형태·지역·시제 등 별도 진술과 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0019",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -입니까",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-입니까",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 119,
+          "quote": "/대구)(71)에서는‘-ㅂ니까’,‘-습니까’,‘-ㅂ디까’,‘-습디까’,‘-입니까’가쓰이고있다.‘-ㅂ니까’,‘-습니까’,‘-ㅂ디까’,‘-습디까’는표준어와동일한쓰임을보여주고있으며,(71ㅁ,ㅂ)의‘-입니까’,‘-십니까’는‘-습니까’로대치가가능한데,‘-습-’대신‘-입-’과‘-십-’이쓰인경우이다.이상으로하이소체의문법종결어미의유형은다음과같이정리할수있다.<표21>하이소체의문법종결어미높임등급유형종결어미-니껴/ㅂ니껴,-니꺼/ㅂ니꺼,-디꺼/ㅂ디꺼,-디껴/ㅂ디방언형하이소체껴,-시껴,-이껴,-ㄹ리껴표준형-ㅂ니까/습니까,-ㅂ디까/습디까표준형인‘-ㅂ니까/습니까’는합쇼체로,이에대응하는방언형인하이소체는‘-니껴’,‘-니꺼’등이나타난다.즉,경북방언하이소체의문법종결어미는‘-까:-꺼:-껴’의대립을기준으로몇몇형태소가결합하여나타나는특징을보인다.또한표준형에비해방언형에서는다양한종결어미가나타-107-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "판정/설명 양쪽. 결합 형태·지역·시제 등 별도 진술과 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0020",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -십니까",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-십니까",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 119,
+          "quote": "-습디까’는표준어와동일한쓰임을보여주고있으며,(71ㅁ,ㅂ)의‘-입니까’,‘-십니까’는‘-습니까’로대치가가능한데,‘-습-’대신‘-입-’과‘-십-’이쓰인경우이다.이상으로하이소체의문법종결어미의유형은다음과같이정리할수있다.<표21>하이소체의문법종결어미높임등급유형종결어미-니껴/ㅂ니껴,-니꺼/ㅂ니꺼,-디꺼/ㅂ디꺼,-디껴/ㅂ디방언형하이소체껴,-시껴,-이껴,-ㄹ리껴표준형-ㅂ니까/습니까,-ㅂ디까/습디까표준형인‘-ㅂ니까/습니까’는합쇼체로,이에대응하는방언형인하이소체는‘-니껴’,‘-니꺼’등이나타난다.즉,경북방언하이소체의문법종결어미는‘-까:-꺼:-껴’의대립을기준으로몇몇형태소가결합하여나타나는특징을보인다.또한표준형에비해방언형에서는다양한종결어미가나타-107-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "판정/설명 양쪽. 결합 형태·지역·시제 등 별도 진술과 함께 조회."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0021",
+      "type": "context",
+      "source_pattern": {
+        "text": "ㅂ 결합 관찰의 차이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "니껴/ㅂ니껴·니꺼/ㅂ니꺼의 같은 환경 수의적 사용 관찰. 디 계열은 같은 증거가 부족",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 118,
+          "quote": "더’와같이,‘-니껴’와‘-ㅂ니껴’의경우동일어간의환경에도불구하고‘-ㅂ-’이수의적으로나타나지만,지역적으로는대립을보인다.그러나‘-디껴’,‘-ㅂ디껴’의경우는그러한현상이발견되지않는다.둘째,‘-꺼’와관련된종결어미가발견된다.(70)ㄱ.“아이,오시니,이자(이제)오시니꺼?”(7-2:106/경주)ㄴ.“아이양반,어디가장새(장사)하고오십니꺼?”(7-2:691/경주)ㄷ.“안돼요.첨에거약조한대로해이되지약조한대로아하고다른데로내장가갈라그디꺼?”(7-13:74/예천)ㄹ.“선생님,오늘장에소끔(소값)얼매한다캅디꺼?”(7-13:74/대구)(70)에서는‘-니꺼’,‘-ㅂ니꺼’,‘-디꺼’,‘-ㅂ디꺼’가쓰이고있는데,공통적으로‘-꺼’를포함하고있으며,‘-니껴’와반모음만차이가난다.또한‘-니꺼’,‘-ㅂ니꺼’는‘-니껴’,‘-ㅂ니껴’와동일하게‘-ㅂ-’이수의적으로나타나지-106-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0022",
+      "type": "context",
+      "source_pattern": {
+        "text": "입·십의 변이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "입니까/십니까는 습니까 대응. 겠입니까의 입을 항상 계사 이+ㅂ으로 분해하지 않음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 119,
+          "quote": "쓰임을보여주고있으며,(71ㅁ,ㅂ)의‘-입니까’,‘-십니까’는‘-습니까’로대치가가능한데,‘-습-’대신‘-입-’과‘-십-’이쓰인경우이다.이상으로하이소체의문법종결어미의유형은다음과같이정리할수있다.<표21>하이소체의문법종결어미높임등급유형종결어미-니껴/ㅂ니껴,-니꺼/ㅂ니꺼,-디꺼/ㅂ디꺼,-디껴/ㅂ디방언형하이소체껴,-시껴,-이껴,-ㄹ리껴표준형-ㅂ니까/습니까,-ㅂ디까/습디까표준형인‘-ㅂ니까/습니까’는합쇼체로,이에대응하는방언형인하이소체는‘-니껴’,‘-니꺼’등이나타난다.즉,경북방언하이소체의문법종결어미는‘-까:-꺼:-껴’의대립을기준으로몇몇형태소가결합하여나타나는특징을보인다.또한표준형에비해방언형에서는다양한종결어미가나타-107-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0023",
+      "type": "context",
+      "source_pattern": {
+        "text": "이껴 등급과 기원",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "하이소/하소 선행 분류 차이. 저자는 니껴에서 ㄴ 탈락 가능성을 제시하나 뒤에서 결합 환경 차이도 강조",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 120,
+          "quote": "라도상대높임법의등급에서차이를보이는종결어미가있다.이들을제시하면다음과같다.-이껴:하이소체(신승원:1990)하소체(황대화:1998),(정인상:1998),(이상규:1991),(최명옥:1980)‘-이껴’는기존연구에서등급체계상혼란을보이는종결어미이다.신승원(1990)은영풍지역어에서하이소체로쓰이고있는것으로보는반면,최명옥(1980)등은하소체로설정하고있다.이러한차이는형태론적으로볼때,명령법의‘-이소:-소’처럼그등급이설정되어야하는데,‘-이껴:-껴’의대립은나타나지않는다.그러나‘-이껴’는표준형의‘-ㅂ니까/습니까’에대응되며,‘-니껴’에서‘-ㄴ-’이탈락한형태일가능성으로미루어볼때128),하이소체에해당하는것으로볼수있다.다음으로,대계의하이소체의문법종결어미의유형별지역분포와사용양상을제시하면다음과같다.127)[부록4]참고.128)강신항(1978)에서는‘-이껴’를‘-니껴’와함께다루고있다.-108-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0024",
+      "type": "context",
+      "source_pattern": {
+        "text": "하이소 의문 분포",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "껴 계열 동부·북부 우세, 꺼 계열 구미·대구·달성 우세. 표준형의 분포/빈도가 넓음. 표와 본문 일부 배타 표현은 실제 수치와 차이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 121,
+          "quote": "짐작케한다.방언형의지역분포에서특징적인것은,이른바‘-껴’계열과‘-꺼’계열이지역적차이를나타내고있다는점이다.‘-니껴’,‘-이껴’,‘-디껴’등은경주,영덕,안동,예천지역을중심으로나타나는반면에,성주를기점으로구미,상주지역에서는단한차례도나타나지않는다.다만,‘-ㅂ니껴’만대구,달성지역에서몇차례발견된다.이는하이소체서술법의‘-니더’,‘-ㅂ니더’의지역분포와도일치한다.반대로‘-니꺼’,‘-ㅂ니꺼’등은구미,대구,달성지역에주로분포하며예천,봉화등의지역으로갈수록그쓰임이적게나타난다.그리고‘-꺼’계열이표준형과대응되는형태만존재하는것으로보아,-109-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0025",
+      "type": "context",
+      "source_pattern": {
+        "text": "니껴의 광역 분포",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "이 코퍼스의 니껴는 북부 중심. 삼척 및 서남 분포는 선행 재인용이며 경북 전용성의 근거가 아님",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 122,
+          "quote": "‘-꺼’와관련된형태이다.129)전혜숙(2008:167-169)에서는강원도삼척에서‘-니껴’가사용되고있음을밝히고있다.즉,‘-니껴’는경북북부지역을포함한,강원도남부동해안지역까지사용되고있음을알수있다.130)김병제(1965:153)에서도안동,예천,영주,봉화,영양에서와광주,곡성,순천,구례,나주,함평,장성,영광지방에서는‘-니꺼’보다‘-니껴’가더많이쓰이는것으로보고있는데,이로미루어보아,‘-니껴’는경북북부지역과함께서남방언에걸쳐나타나는형태임을알수있다.-110-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0026",
+      "type": "context",
+      "source_pattern": {
+        "text": "꺼·까 분포",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "니꺼 북부 감소, ㅂ니꺼/ㅂ디꺼 안동·봉화 미관찰. 표준 까 계열 전역",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 123,
+          "quote": "꽃안있입디꺼?(7-1:304/경주)‘-니꺼’는대부분지역에서고루나타나지만,북부지역으로갈수록그빈1도수가적게나타난다.31)특히,‘-ㅂ니꺼’,‘-ㅂ디꺼’의경우안동과봉화지역에서는단한차례도나타나지않는다.즉,‘-니껴’와‘-니꺼’는지역적차이를보여주고있다.셋째,‘-까’와관련된형태이다.(74)ㄱ.“아이고선생님반찬이그래가되겠입니까?”(7-6:67/영덕)ㄴ.“어떻기대감인데저하고우예사돈을하겠습니까?\"(7-15:32/구미)ㄷ.“아,그래요,아이구그러믄그아무데집이어떻기생깄읍디까?”(7-8:398/상주)ㄹ.“아,그런자리가어데있습디까.참고마운말씀입니다.”(7-14:737/달성)‘-ㅂ니까/습니까’,‘-ㅂ디까/습디까’는모든지역에걸쳐서나타난다.흥미로운점은,‘-껴’계열을포함하여‘-는교’,‘-ㄴ기요’등방언형이거의나타나지않는구미와상주지역에서가장많이나타난다는것이다.즉,해당지역에서는하이소체에해당하는방언형대신표준어형을더쓰고있"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0027",
+      "type": "context",
+      "source_pattern": {
+        "text": "교·기요의 지역",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "경북 동남부 특히 경주 중심. 하이소 절에서도 다루지만 하소 절에 재분류되어 원문의 등급 불일치 검토 필요",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 124,
+          "quote": "기요’도이와동일한경향을보인다.그러므로‘-ㄴ교’,‘-꾜’,‘-ㄴ기요’는경북동남부지역에서두드러지게사용되는형태임을알수있다.주목할부분은,다른방언형들에비해‘-ㄴ교’와‘-ㄴ기요’의사용빈도가상당히높게나타난다는것이다.이는‘-ㄴ기요’가일종의문법화과정을거치면서‘-ㄴ교’로쓰이는것과관련이있을것으로1추정된다.32)2)하이소체의문법종결어미의통사･의미적특성(1)-니껴/ㅂ니껴,-니꺼/ㅂ니꺼,-디껴/ㅂ디껴,-디꺼/ㅂ디꺼표준형의‘-ㅂ니까/습니까’,‘-ㅂ디까/습디까’등에대응되는방언형으로,‘-껴’계열에는‘-니껴/ㅂ니껴’,‘-디껴/ㅂ디껴’,‘-꺼’계열에는‘-니꺼/ㅂ니꺼’,‘-디꺼/ㅂ디꺼’가있다.즉/ㅏ/,/ㅓ/와반모음의차이로방언형과표준형으로구분이가능하다.133)132)이혁화(2009:304-305)에서는기존연구에서제시한‘-는교’의지역분포를정리하여언어지도를제시하고있는데,이와동일한분포를보여주고있다.또한‘-는교’의기원을‘"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0028",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-ㅂ니까",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㅂ니껴",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 124,
+          "quote": "으로1추정된다.32)2)하이소체의문법종결어미의통사･의미적특성(1)-니껴/ㅂ니껴,-니꺼/ㅂ니꺼,-디껴/ㅂ디껴,-디꺼/ㅂ디꺼표준형의‘-ㅂ니까/습니까’,‘-ㅂ디까/습디까’등에대응되는방언형으로,‘-껴’계열에는‘-니껴/ㅂ니껴’,‘-디껴/ㅂ디껴’,‘-꺼’계열에는‘-니꺼/ㅂ니꺼’,‘-디꺼/ㅂ디꺼’가있다.즉/ㅏ/,/ㅓ/와반모음의차이로방언형과표준형으로구분이가능하다.133)132)이혁화(2009:304-305)에서는기존연구에서제시한‘-는교’의지역분포를정리하여언어지도를제시하고있는데,이와동일한분포를보여주고있다.또한‘-는교’의기원을‘-는가요’가아닌,‘-는것(형식명사)-이(계사)-요(’하소‘체의의문법어미)’의구성에서온것으로추정하고있다.133)‘-니껴’,‘-니꺼’에대한통시적견해로,정용구(1994:36)에서는‘니잇가>니이까>니까>니꺼’의과정을거친것으로분석한바있다.-112-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "원문 대응 관계. 동일 모음 환경의 유일한 정답 형태로 강제하지 않음."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0029",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-ㅂ니까",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㅂ니꺼",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 124,
+          "quote": "32)2)하이소체의문법종결어미의통사･의미적특성(1)-니껴/ㅂ니껴,-니꺼/ㅂ니꺼,-디껴/ㅂ디껴,-디꺼/ㅂ디꺼표준형의‘-ㅂ니까/습니까’,‘-ㅂ디까/습디까’등에대응되는방언형으로,‘-껴’계열에는‘-니껴/ㅂ니껴’,‘-디껴/ㅂ디껴’,‘-꺼’계열에는‘-니꺼/ㅂ니꺼’,‘-디꺼/ㅂ디꺼’가있다.즉/ㅏ/,/ㅓ/와반모음의차이로방언형과표준형으로구분이가능하다.133)132)이혁화(2009:304-305)에서는기존연구에서제시한‘-는교’의지역분포를정리하여언어지도를제시하고있는데,이와동일한분포를보여주고있다.또한‘-는교’의기원을‘-는가요’가아닌,‘-는것(형식명사)-이(계사)-요(’하소‘체의의문법어미)’의구성에서온것으로추정하고있다.133)‘-니껴’,‘-니꺼’에대한통시적견해로,정용구(1994:36)에서는‘니잇가>니이까>니까>니꺼’의과정을거친것으로분석한바있다.-112-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "원문 대응 관계. 동일 모음 환경의 유일한 정답 형태로 강제하지 않음."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0030",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-ㅂ디까",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㅂ디껴",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 124,
+          "quote": "체의문법종결어미의통사･의미적특성(1)-니껴/ㅂ니껴,-니꺼/ㅂ니꺼,-디껴/ㅂ디껴,-디꺼/ㅂ디꺼표준형의‘-ㅂ니까/습니까’,‘-ㅂ디까/습디까’등에대응되는방언형으로,‘-껴’계열에는‘-니껴/ㅂ니껴’,‘-디껴/ㅂ디껴’,‘-꺼’계열에는‘-니꺼/ㅂ니꺼’,‘-디꺼/ㅂ디꺼’가있다.즉/ㅏ/,/ㅓ/와반모음의차이로방언형과표준형으로구분이가능하다.133)132)이혁화(2009:304-305)에서는기존연구에서제시한‘-는교’의지역분포를정리하여언어지도를제시하고있는데,이와동일한분포를보여주고있다.또한‘-는교’의기원을‘-는가요’가아닌,‘-는것(형식명사)-이(계사)-요(’하소‘체의의문법어미)’의구성에서온것으로추정하고있다.133)‘-니껴’,‘-니꺼’에대한통시적견해로,정용구(1994:36)에서는‘니잇가>니이까>니까>니꺼’의과정을거친것으로분석한바있다.-112-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "원문 대응 관계. 동일 모음 환경의 유일한 정답 형태로 강제하지 않음."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0031",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-ㅂ디까",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㅂ디꺼",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 124,
+          "quote": "의통사･의미적특성(1)-니껴/ㅂ니껴,-니꺼/ㅂ니꺼,-디껴/ㅂ디껴,-디꺼/ㅂ디꺼표준형의‘-ㅂ니까/습니까’,‘-ㅂ디까/습디까’등에대응되는방언형으로,‘-껴’계열에는‘-니껴/ㅂ니껴’,‘-디껴/ㅂ디껴’,‘-꺼’계열에는‘-니꺼/ㅂ니꺼’,‘-디꺼/ㅂ디꺼’가있다.즉/ㅏ/,/ㅓ/와반모음의차이로방언형과표준형으로구분이가능하다.133)132)이혁화(2009:304-305)에서는기존연구에서제시한‘-는교’의지역분포를정리하여언어지도를제시하고있는데,이와동일한분포를보여주고있다.또한‘-는교’의기원을‘-는가요’가아닌,‘-는것(형식명사)-이(계사)-요(’하소‘체의의문법어미)’의구성에서온것으로추정하고있다.133)‘-니껴’,‘-니꺼’에대한통시적견해로,정용구(1994:36)에서는‘니잇가>니이까>니까>니꺼’의과정을거친것으로분석한바있다.-112-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "원문 대응 관계. 동일 모음 환경의 유일한 정답 형태로 강제하지 않음."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0032",
+      "type": "context",
+      "source_pattern": {
+        "text": "니 계열의 결합",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "용언·계사 및 시/었/겠, 끼(것+이)와 자유 결합. 디 계열의 수의적 ㅂ 탈락은 증거 부족",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 125,
+          "quote": "7-14:379/달성)‘-(ㅂ)니껴’,‘-(ㅂ)니꺼’는수의적결합뿐만아니라선어말어미‘-시-’(76ㄱ,ㄴ,ㄷ,ㄹ),‘-었-’(76ㅅ),‘-겠-’(76ㅇ)등과도자유롭게결합한다.(76ㅈ)은의존명사와계사가축약된‘끼(것+이)’에결합하고있다.그러나‘-디껴/ㅂ디껴’,‘-디꺼/ㅂ디꺼’에서는그러한현상을찾아보기어렵다.(77)ㄱ.“허이,그게머그꼬좋아가주,머이상스럽디껴?”(7-6:710/영덕)ㄴ.“그우리선생님,여안오셨디껴?”(7-9:417/안동)ㄷ.“아이,우리선생임여어안왔입디꺼?”(7-13:70/대구)ㄹ.“안돼요.첨에거약조한대로해이되지약조한대로아하고다른데로내장가갈라그디꺼?”(7-18:336/예천)-113-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0033",
+      "type": "context",
+      "source_pattern": {
+        "text": "디 계열 수의성 가설",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "시·었 결합은 관찰, ㅂ 수의적 결합은 평행 구조 추측이며 용례 부족. 까→꺼→껴의 변화 순서도 추정",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 126,
+          "quote": "디꺼/ㅂ디꺼’또한수의적결합이가능한것으로보인다.그러나이들은한차례의예만나타나판단하기어려운부분이있다.다음은‘-니껴/ㅂ니껴’,‘-니꺼/ㅂ니꺼’와‘-ㅂ니까/습니까’,‘-ㅂ디까/습디까’를살펴보자.(78)ㄱ.“아,형님이카이참이거난관한일입니다.이거하매숫자가다되있는데,이걸어얍니까?”(7-11:38/군위)ㄴ.“어무이가우예여게앉아있십니꺼?”(7-5:56/성주)ㄷ.“그래아무데도아픈데도없이믄그래와그래잡숫는것도이렇게안자시고그래우짤낍니껴?”ㄹ.“어머님,오늘밤에그래뜨십디까?:(7-6:628/영덕)ㅁ.“아버님,집에오실찍에아무것도안보입디꺼?”(7-13:149/대구ㅂ.“허이,그게머그꼬좋아가주,머이상스럽디껴?”(7-6:710/영덕))(78ㄱ,ㄴ,ㄷ)의‘-ㅂ니까’와‘-ㅂ니꺼’,‘-ㅂ니껴’,(78ㄹ,ㅁ,ㅂ)의‘-ㅂ디까’,‘-ㅂ디꺼’‘-ㅂ디껴’는‘-까:-꺼:-껴’의대립을보여준다.이로미루어보아모음의교체(-까>-꺼)및모음"
+        }
+      ],
+      "claim_status": "author_hypothesis",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0034",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -이껴",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-이껴",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "in",
+          "value": [
+            "adjective",
+            "copula"
+          ],
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 127,
+          "quote": ".“아버님꼭제가시집가야될리껴?”(7-6:158/영덕)(79ㄱ,ㄴ,ㄷ)의‘-이껴’는‘-니껴/ㅂ니껴’와달리,어간말음에따라매개모음이나타난다.또한결합관계에있어서도형용사어간과계사와의결합1은가능하나,동사어간과쓰이는경우는나타나지않는다.34)(79ㄹ,ㅁ)의‘-ㄹ시껴’와‘-시껴’는조금독특한형태이다.특히,(79ㅁ)은‘오니껴:오시껴’가함께쓰이는데,‘-시-’를주체존대로본다면,‘-니-’가탈락한것으로볼수도있다.그러나하이소체서술법의‘-시더’와마찬가지로여기에쓰인‘-시-’는주체존대가아닌,‘​(의존명사)+이-(지정사)+-이-(청자높임소)’의결합형이다.왜냐하면공시적으로‘-껴’만쓰이는경우는나타나지않기때문이다.(79ㅂ)의‘-ㄹ리껴’는(79ㄹ)인‘-ㄹ시껴’와같은기능을가진것으로,표준어의‘-겠습니까’에대응된다.앞서살펴본해라체서술법의‘-ㄹ꾸마’와마찬가지로‘-ㄹ-’이미래를나타내는것으로‘-겠-’과같은기능을가진다.3.1.2."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "형용사·계사 결합, 매개모음. 동사 결합은 본 자료 미관찰."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0035",
+      "type": "context",
+      "source_pattern": {
+        "text": "시껴·ㄹ리껴 분석",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "오니껴/오시껴 공기. 시를 주체높임으로 단순 처리하지 않고 결합형 분석. ㄹ리껴/ㄹ시껴는 겠습니까 대응",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 127,
+          "quote": "ㅂ)의‘-ㄹ리껴’는(79ㄹ)인‘-ㄹ시껴’와같은기능을가진것으로,표준어의‘-겠습니까’에대응된다.앞서살펴본해라체서술법의‘-ㄹ꾸마’와마찬가지로‘-ㄹ-’이미래를나타내는것으로‘-겠-’과같은기능을가진다.3.1.2.2.하소체1)종결어미의종류및지역분포와사용양상하소체의문법종결어미는표준형인하오체에해당하는‘-소’와함께방언형인‘-교’,‘-꾜’,‘-기요’등이쓰인다.134)이와관련하여정희선(2013:21)에서는‘-니껴’가‘-이껴’로실현될수있음을언급하였는데,앞서분석한것처럼,‘-니껴/ㅂ니껴’와‘-이껴’는결합환경에서차이가난다.-115-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0036",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-겠습니까",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄹ리껴",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative",
+        "conjecture"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 127,
+          "quote": "ㅂ)의‘-ㄹ리껴’는(79ㄹ)인‘-ㄹ시껴’와같은기능을가진것으로,표준어의‘-겠습니까’에대응된다.앞서살펴본해라체서술법의‘-ㄹ꾸마’와마찬가지로‘-ㄹ-’이미래를나타내는것으로‘-겠-’과같은기능을가진다.3.1.2.2.하소체1)종결어미의종류및지역분포와사용양상하소체의문법종결어미는표준형인하오체에해당하는‘-소’와함께방언형인‘-교’,‘-꾜’,‘-기요’등이쓰인다.134)이와관련하여정희선(2013:21)에서는‘-니껴’가‘-이껴’로실현될수있음을언급하였는데,앞서분석한것처럼,‘-니껴/ㅂ니껴’와‘-이껴’는결합환경에서차이가난다.-115-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0037",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-겠습니까",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄹ시껴",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative",
+        "conjecture"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 127,
+          "quote": "ㅂ)의‘-ㄹ리껴’는(79ㄹ)인‘-ㄹ시껴’와같은기능을가진것으로,표준어의‘-겠습니까’에대응된다.앞서살펴본해라체서술법의‘-ㄹ꾸마’와마찬가지로‘-ㄹ-’이미래를나타내는것으로‘-겠-’과같은기능을가진다.3.1.2.2.하소체1)종결어미의종류및지역분포와사용양상하소체의문법종결어미는표준형인하오체에해당하는‘-소’와함께방언형인‘-교’,‘-꾜’,‘-기요’등이쓰인다.134)이와관련하여정희선(2013:21)에서는‘-니껴’가‘-이껴’로실현될수있음을언급하였는데,앞서분석한것처럼,‘-니껴/ㅂ니껴’와‘-이껴’는결합환경에서차이가난다.-115-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0038",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㄴ교",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄴ교",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 128,
+          "quote": "낀데.테를어디가어떤데귀해야되겠는기요?”(7-3:65/경주)(80)에서는‘-ㄴ교’,‘-꾜’,‘-니꾜’,‘-ㄹ꾜’,‘-는기요’가쓰이고있다.‘-는기요’의경우,형태상해요체로보이지만형성과정및높임등분의사용에있어서하이소체에포함된다.135)하소체서술법에서쓰인‘-소’가의문법에서도나타난다.(81)ㄱ.“내가상주님을알수가있소?”(7-13:214/대구)ㄴ.“주모요어뭐잡았소?\"(7-15:55/구미)이상으로하소체의문법종결어미의유형은다음과같이정리할수있다.<표23>하소체의문법종결어미높임등급유형종결어미방언형-ㄴ교,-ㄹ교,-ㄴ기요,-꾜하소체표준형-소하소체의문법종결어미는서술법에서도쓰이는표준형‘-소’와방언형인‘-ㄴ교’와관련된변이형태가나타난다.135)‘-는기요’는‘-는교’와밀접한관계를맺고있다.이와관련하여‘-는교’의형성과정을‘-는것이오’,‘-는것이요’,‘-는가요’로보는세가지견해가나타난다.여기에서는‘-는것이오’로판단하고"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "이 절/표는 하소이나 본문 일부 하이소 표기가 혼재함. 등급 단정 대신 청자·지역을 검토."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0039",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㄹ교",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄹ교",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 128,
+          "quote": "이정리할수있다.<표23>하소체의문법종결어미높임등급유형종결어미방언형-ㄴ교,-ㄹ교,-ㄴ기요,-꾜하소체표준형-소하소체의문법종결어미는서술법에서도쓰이는표준형‘-소’와방언형인‘-ㄴ교’와관련된변이형태가나타난다.135)‘-는기요’는‘-는교’와밀접한관계를맺고있다.이와관련하여‘-는교’의형성과정을‘-는것이오’,‘-는것이요’,‘-는가요’로보는세가지견해가나타난다.여기에서는‘-는것이오’로판단하고있다.-116-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "이 절/표는 하소이나 본문 일부 하이소 표기가 혼재함. 등급 단정 대신 청자·지역을 검토."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0040",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㄴ기요",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄴ기요",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 128,
+          "quote": "수있다.<표23>하소체의문법종결어미높임등급유형종결어미방언형-ㄴ교,-ㄹ교,-ㄴ기요,-꾜하소체표준형-소하소체의문법종결어미는서술법에서도쓰이는표준형‘-소’와방언형인‘-ㄴ교’와관련된변이형태가나타난다.135)‘-는기요’는‘-는교’와밀접한관계를맺고있다.이와관련하여‘-는교’의형성과정을‘-는것이오’,‘-는것이요’,‘-는가요’로보는세가지견해가나타난다.여기에서는‘-는것이오’로판단하고있다.-116-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "이 절/표는 하소이나 본문 일부 하이소 표기가 혼재함. 등급 단정 대신 청자·지역을 검토."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0041",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -꾜",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-꾜",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 128,
+          "quote": "디가어떤데귀해야되겠는기요?”(7-3:65/경주)(80)에서는‘-ㄴ교’,‘-꾜’,‘-니꾜’,‘-ㄹ꾜’,‘-는기요’가쓰이고있다.‘-는기요’의경우,형태상해요체로보이지만형성과정및높임등분의사용에있어서하이소체에포함된다.135)하소체서술법에서쓰인‘-소’가의문법에서도나타난다.(81)ㄱ.“내가상주님을알수가있소?”(7-13:214/대구)ㄴ.“주모요어뭐잡았소?\"(7-15:55/구미)이상으로하소체의문법종결어미의유형은다음과같이정리할수있다.<표23>하소체의문법종결어미높임등급유형종결어미방언형-ㄴ교,-ㄹ교,-ㄴ기요,-꾜하소체표준형-소하소체의문법종결어미는서술법에서도쓰이는표준형‘-소’와방언형인‘-ㄴ교’와관련된변이형태가나타난다.135)‘-는기요’는‘-는교’와밀접한관계를맺고있다.이와관련하여‘-는교’의형성과정을‘-는것이오’,‘-는것이요’,‘-는가요’로보는세가지견해가나타난다.여기에서는‘-는것이오’로판단하고있다.-11"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "이 절/표는 하소이나 본문 일부 하이소 표기가 혼재함. 등급 단정 대신 청자·지역을 검토."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0042",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -니꾜",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-니꾜",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 128,
+          "quote": "귀해야되겠는기요?”(7-3:65/경주)(80)에서는‘-ㄴ교’,‘-꾜’,‘-니꾜’,‘-ㄹ꾜’,‘-는기요’가쓰이고있다.‘-는기요’의경우,형태상해요체로보이지만형성과정및높임등분의사용에있어서하이소체에포함된다.135)하소체서술법에서쓰인‘-소’가의문법에서도나타난다.(81)ㄱ.“내가상주님을알수가있소?”(7-13:214/대구)ㄴ.“주모요어뭐잡았소?\"(7-15:55/구미)이상으로하소체의문법종결어미의유형은다음과같이정리할수있다.<표23>하소체의문법종결어미높임등급유형종결어미방언형-ㄴ교,-ㄹ교,-ㄴ기요,-꾜하소체표준형-소하소체의문법종결어미는서술법에서도쓰이는표준형‘-소’와방언형인‘-ㄴ교’와관련된변이형태가나타난다.135)‘-는기요’는‘-는교’와밀접한관계를맺고있다.이와관련하여‘-는교’의형성과정을‘-는것이오’,‘-는것이요’,‘-는가요’로보는세가지견해가나타난다.여기에서는‘-는것이오’로판단하고있다.-116-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "이 절/표는 하소이나 본문 일부 하이소 표기가 혼재함. 등급 단정 대신 청자·지역을 검토."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0043",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㄹ꾜",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄹ꾜",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 128,
+          "quote": "기요?”(7-3:65/경주)(80)에서는‘-ㄴ교’,‘-꾜’,‘-니꾜’,‘-ㄹ꾜’,‘-는기요’가쓰이고있다.‘-는기요’의경우,형태상해요체로보이지만형성과정및높임등분의사용에있어서하이소체에포함된다.135)하소체서술법에서쓰인‘-소’가의문법에서도나타난다.(81)ㄱ.“내가상주님을알수가있소?”(7-13:214/대구)ㄴ.“주모요어뭐잡았소?\"(7-15:55/구미)이상으로하소체의문법종결어미의유형은다음과같이정리할수있다.<표23>하소체의문법종결어미높임등급유형종결어미방언형-ㄴ교,-ㄹ교,-ㄴ기요,-꾜하소체표준형-소하소체의문법종결어미는서술법에서도쓰이는표준형‘-소’와방언형인‘-ㄴ교’와관련된변이형태가나타난다.135)‘-는기요’는‘-는교’와밀접한관계를맺고있다.이와관련하여‘-는교’의형성과정을‘-는것이오’,‘-는것이요’,‘-는가요’로보는세가지견해가나타난다.여기에서는‘-는것이오’로판단하고있다.-116-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "이 절/표는 하소이나 본문 일부 하이소 표기가 혼재함. 등급 단정 대신 청자·지역을 검토."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0044",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -는기요",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-는기요",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 128,
+          "quote": "-3:65/경주)(80)에서는‘-ㄴ교’,‘-꾜’,‘-니꾜’,‘-ㄹ꾜’,‘-는기요’가쓰이고있다.‘-는기요’의경우,형태상해요체로보이지만형성과정및높임등분의사용에있어서하이소체에포함된다.135)하소체서술법에서쓰인‘-소’가의문법에서도나타난다.(81)ㄱ.“내가상주님을알수가있소?”(7-13:214/대구)ㄴ.“주모요어뭐잡았소?\"(7-15:55/구미)이상으로하소체의문법종결어미의유형은다음과같이정리할수있다.<표23>하소체의문법종결어미높임등급유형종결어미방언형-ㄴ교,-ㄹ교,-ㄴ기요,-꾜하소체표준형-소하소체의문법종결어미는서술법에서도쓰이는표준형‘-소’와방언형인‘-ㄴ교’와관련된변이형태가나타난다.135)‘-는기요’는‘-는교’와밀접한관계를맺고있다.이와관련하여‘-는교’의형성과정을‘-는것이오’,‘-는것이요’,‘-는가요’로보는세가지견해가나타난다.여기에서는‘-는것이오’로판단하고있다.-116-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "이 절/표는 하소이나 본문 일부 하이소 표기가 혼재함. 등급 단정 대신 청자·지역을 검토."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0045",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -소",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-소",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 128,
+          "quote": "성과정및높임등분의사용에있어서하이소체에포함된다.135)하소체서술법에서쓰인‘-소’가의문법에서도나타난다.(81)ㄱ.“내가상주님을알수가있소?”(7-13:214/대구)ㄴ.“주모요어뭐잡았소?\"(7-15:55/구미)이상으로하소체의문법종결어미의유형은다음과같이정리할수있다.<표23>하소체의문법종결어미높임등급유형종결어미방언형-ㄴ교,-ㄹ교,-ㄴ기요,-꾜하소체표준형-소하소체의문법종결어미는서술법에서도쓰이는표준형‘-소’와방언형인‘-ㄴ교’와관련된변이형태가나타난다.135)‘-는기요’는‘-는교’와밀접한관계를맺고있다.이와관련하여‘-는교’의형성과정을‘-는것이오’,‘-는것이요’,‘-는가요’로보는세가지견해가나타난다.여기에서는‘-는것이오’로판단하고있다.-116-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "reference_only",
+      "notes": "이 절/표는 하소이나 본문 일부 하이소 표기가 혼재함. 등급 단정 대신 청자·지역을 검토."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0046",
+      "type": "context",
+      "source_pattern": {
+        "text": "기요의 분류 불일치",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "하소 절·표23의 기요와 본문의 하이소 포함 서술이 불일치. 형태상 해요처럼 보여도 기원 분석 별개",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 128,
+          "quote": "있다.‘-는기요’의경우,형태상해요체로보이지만형성과정및높임등분의사용에있어서하이소체에포함된다.135)하소체서술법에서쓰인‘-소’가의문법에서도나타난다.(81)ㄱ.“내가상주님을알수가있소?”(7-13:214/대구)ㄴ.“주모요어뭐잡았소?\"(7-15:55/구미)이상으로하소체의문법종결어미의유형은다음과같이정리할수있다.<표23>하소체의문법종결어미높임등급유형종결어미방언형-ㄴ교,-ㄹ교,-ㄴ기요,-꾜하소체표준형-소하소체의문법종결어미는서술법에서도쓰이는표준형‘-소’와방언형인‘-ㄴ교’와관련된변이형태가나타난다.135)‘-는기요’는‘-는교’와밀접한관계를맺고있다.이와관련하여‘-는교’의형성과정을‘-는것이오’,‘-는것이요’,‘-는가요’로보는세가지견해가나타난다.여기에서는‘-는것이오’로판단하고있다.-116-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0047",
+      "type": "context",
+      "source_pattern": {
+        "text": "표기와 기능",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "ㅡ/ㅓ·ㅔ/ㅐ 표기, 는공→능공 조음위치동화는 그 자체로 다른 기능을 뜻하지 않음. 표24의 목록을 원문 보존",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 129,
+          "quote": "기능면에서변별력이없는형태이다.또한‘-는공’,‘-능공’등의경우,‘-는공’이조음위치동화를일으켜‘-능공’이된것으로볼수있어표기방식에서의차이만나타날뿐문법적기능에서큰차이는없다.그리고계사나매개모음의결합여부를판단할수있게표기하여음운론적환경을보여주기도한다.다음으로,대계의하이소체의문법종결어미의유형별지역분포와사용양상을제시하면다음과같다.<표24>하소체의문법종결어미의지역분포와사용양상경북경북중동부방언방언구획서부경북중동경북중동높방언서부방언동부방언합임지역계법상구대달성군경영안예봉(합계)주미구성주위주덕동천화유형종결어미-ㄴ교․7322954318747319363합계363-ㄴ기요1․172122536․11284합계284하방언형-꾜․․․․․․31․․․4소-ㄴ꾜․․․․․․1․․․․1체-ㄹ꾜․․․․․․1․․․․1-니꾜․․․․․․1․․․․1합계7‘-소’504662121330464182621357표준형합계357하소체의문법종결어"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0048",
+      "type": "context",
+      "source_pattern": {
+        "text": "교·기요 분포와 기원 재인용",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "경주·영덕·대구 중심. 소 광역 분포. 는교 기원 재인용과 본문 채택 가설 구분",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 130,
+          "quote": "지!양반의자식이되가글을일러야될터인데,내가이래있어가되는교?”(7-2:82/경주)ㄴ.“하이구,예.아저씨,기다리다가,기다리가얼매나기다렸는데인자구해오는기요?”(7-1:129/경주)ㄷ.“흥,여보!세상아두푼짜리수박이어딨소?”(7-1:108/경주)ㄹ.“장군오늘들으이,두사충이를죽이야댄다는데,꼭죽이야되겠소?”(7-6:160/영덕)‘-ㄴ교’는경주를중심으로영덕과대구지역에서그분포가두드러지게나타나고상주지역을비롯한경북서부방언에서는거의나타나지않는다.‘-ㄴ기요’도이와동일한경향을보인다.그러므로‘-ㄴ교’,‘-꾜’,‘-ㄴ기요’는경북동남부지역에서두드러지게사용되는형태임을알수있다.13)(782ㄹ,ㅁ)의‘1-소’38)는서술법과마찬가지로대부분지역에서고루분포하지만,다른표준형과방언형에비해그사용빈도가높지는않다.139)2)하소체의문법종결어미의통사･의미적특성(1)-ㄴ교,-ㄹ교,-기요,-꾜경주지역을중심으로나타나는‘-ㄴ교’,‘-기요"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0049",
+      "type": "context",
+      "source_pattern": {
+        "text": "교의 두 기원 가설",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "는가요 축약설 vs 는것이오 축약설. 저자는 것+이→기 구성에 비추어 후자를 선택",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 131,
+          "quote": "데,의문사와의공기여부로구분이가능하다.한편,‘-ㄴ교’와‘-기요’에대한기원은두가지견해로나타난다.먼저신기상(1980:213-214)과김태엽(1992:90-91),이기갑(2003:228)은‘-는가요>-로설명하였고140),이상규(ㄴ교’1991:69),이혁화(2009)는‘-는것이오>-는게오>-는기오>-는교’로보았다.경북방언에서는‘것(의존명사)+이(계사)’가축약된형태인‘기’가종결어미와문법화된형태가나타나는것으로보아후자의견해가더타당한것으로보인다.141)(84)ㄱ.“아부지요,경주지방을씨꾜?대구지방을씨꾜?”(7-2:415/경주)ㄴ.“어무이요머를해가드리꾜?머를잡수마어무이벼이나을꾜?”(7-2:385/경주)ㄷ.“아부지인지꺼짐장아갈라카먼,여가가있니꾜?마집이달(닭)잡지요.”(7-1:359/경주)ㄹ.내삼가리(삽가래질을하면서)하나부르꾜?(7-2:129/경주)ㅁ.a:“자네가산에가머머자딸아머썩는다캐가주고그래디마는"
+        }
+      ],
+      "claim_status": "author_hypothesis",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0050",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㄴ교",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄴ교",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 131,
+          "quote": "3:726/대구)ㄹ.“아무어른있능기요?\"(7-3:250/경주)(83)의‘-ㄴ교’와‘-ㄴ기요’는판정의문문과설명의문문에서두루쓰이고있는데,의문사와의공기여부로구분이가능하다.한편,‘-ㄴ교’와‘-기요’에대한기원은두가지견해로나타난다.먼저신기상(1980:213-214)과김태엽(1992:90-91),이기갑(2003:228)은‘-는가요>-로설명하였고140),이상규(ㄴ교’1991:69),이혁화(2009)는‘-는것이오>-는게오>-는기오>-는교’로보았다.경북방언에서는‘것(의존명사)+이(계사)’가축약된형태인‘기’가종결어미와문법화된형태가나타나는것으로보아후자의견해가더타당한것으로보인다.141)(84)ㄱ.“아부지요,경주지방을씨꾜?대구지방을씨꾜?”(7-2:415/경주)ㄴ.“어무이요머를해가드리꾜?머를잡수마어무이벼이나을꾜?”(7-2:385/경주)ㄷ.“아부지인지꺼짐장아갈라카먼,여가가있니꾜?마집이달(닭)잡지요.”(7-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "판정·설명 모두 가능, 의문사의 담화 기능으로 구분. 지역/등급 불확실성을 함께 검토."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0051",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㄴ기요",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄴ기요",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 131,
+          "quote": "대구)ㄹ.“아무어른있능기요?\"(7-3:250/경주)(83)의‘-ㄴ교’와‘-ㄴ기요’는판정의문문과설명의문문에서두루쓰이고있는데,의문사와의공기여부로구분이가능하다.한편,‘-ㄴ교’와‘-기요’에대한기원은두가지견해로나타난다.먼저신기상(1980:213-214)과김태엽(1992:90-91),이기갑(2003:228)은‘-는가요>-로설명하였고140),이상규(ㄴ교’1991:69),이혁화(2009)는‘-는것이오>-는게오>-는기오>-는교’로보았다.경북방언에서는‘것(의존명사)+이(계사)’가축약된형태인‘기’가종결어미와문법화된형태가나타나는것으로보아후자의견해가더타당한것으로보인다.141)(84)ㄱ.“아부지요,경주지방을씨꾜?대구지방을씨꾜?”(7-2:415/경주)ㄴ.“어무이요머를해가드리꾜?머를잡수마어무이벼이나을꾜?”(7-2:385/경주)ㄷ.“아부지인지꺼짐장아갈라카먼,여가가있니꾜?마집이달(닭)잡지요.”(7-1:359/"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "판정·설명 모두 가능, 의문사의 담화 기능으로 구분. 지역/등급 불확실성을 함께 검토."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0052",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-을까요",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-꾜",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 131,
+          "quote": "노,좀알아달라.”b:“내가멀아니꾜?”(7-6:124/영덕)(84)에서는‘-을까요’에대응되는‘-꾜’형이높임으로쓰이고있다.(84ㄱ)140)김태엽(1985)은‘-는것이오〉-는게오〉-는기오〉-는교’로보다가이후김태엽(1996)에서는‘-는가요>-ㄴ교’로보았다.141)앞서살펴본‘-ㄹ끼다’가그사례가될수있다.-119-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "동사 직접 또는 ㄹ 추측과 결합. 니꾜와의 관계는 별도 가설."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0053",
+      "type": "context",
+      "source_pattern": {
+        "text": "꾜의 결합·높임",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "동사 직접/ㄹ/니와 결합 관찰. 니껴와 관계는 추측, 꼬와 반모음·높임 차이. 니꾜 음성 검증은 논문 저자의 확인",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 132,
+          "quote": "문,설명의문문으로구분할수있다.한편,해라체의문법종결어미중‘-꼬’가쓰이는데,반모음의차이로높임의정도에서차이가난다.3.1.2.3.하게체1)종결어미의종류및지역분포와사용양상대계에서는[-높임],[-하대]에해당하는하게체의문법종결어미는방언형인‘-ㄴ가’,‘-ㄴ고’,‘-는게’등의형태가발견되는데,하게체서술법과달리,방언형이더많이쓰인다는점이특징이다.(85)ㄱ.“저사람이어짠사람인데어제여와있더이오늘또여와있는가?”(7-11:144/군위)ㄴ.“허허이사람아!자네이사람아면장질만할줄알고당나귀만타고댕길줄알지,씬게먼동모는가?씬게소태아인강?”(7-9:515/안동)ㄷ.“와이고오늘워에그런데,어무이반찬은뭘로해드렸는고?”(7-17:57/예천)ㄹ.“할마시,저두어르이저새명당서산대사새명당두어르이,둘친구가저른친구가참둘도없는친구가저른친구가와서식사가어예됬는공?”(7-2:228/경주)142)‘-니꾜’는한차례만나타난용례인데,음성자료를확인한결"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0054",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㄴ가",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄴ가",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하게"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 133,
+          "quote": "?(7-9:876/안동)(85)에서는자네,당신등의청자가확인되며,이와함께‘-ㄴ가’,‘-ㄴ강’,‘-ㄴ고’,‘-ㄴ공’,‘-ㄴ게나’가하게체의문법종결어미로쓰이고있다.(85ㄱ)의‘-ㄴ가’는표준어에서도쓰이며,(85ㄴ)의‘-ㄴ고’는현대국어에서는잘1쓰이지않지만,이지역에서는보편적으로쓰인다.43)이상으로하게체의문법종결어미의유형은다음과같이정리할수있다.<표25>하게체의문법종결어미높임등급유형종결어미하게체방언형-ㄴ가(ㄴ강)/-ㄴ고(ㄴ공),-ㄴ게하게체의문법종결어미는표준어에서크게보편적으로쓰이지않는중세국어의형태를그대로계승한경우가많다.한편,기존연구에서제시된하게체의문법종결어미목록체계양상을1바탕으로몇가지특성을제시하면다음과같다.44)첫째,공통적으로앞에서제시한형태에대해등급설정을다르게보는연구가있다.김영황(2013)에서는하오체,최학근(1964)에서는평등칭과수하칭,김정인(1985)에서는반말로다루면서등급상의차이를보여준다.이러"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "질문 유형·결합·지역 제약은 아래 별도 진술. ㄴ고는 현대 표준사전 고어 처리와 달리 이 자료에 활발."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0055",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㄴ강",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄴ강",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하게"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 133,
+          "quote": "876/안동)(85)에서는자네,당신등의청자가확인되며,이와함께‘-ㄴ가’,‘-ㄴ강’,‘-ㄴ고’,‘-ㄴ공’,‘-ㄴ게나’가하게체의문법종결어미로쓰이고있다.(85ㄱ)의‘-ㄴ가’는표준어에서도쓰이며,(85ㄴ)의‘-ㄴ고’는현대국어에서는잘1쓰이지않지만,이지역에서는보편적으로쓰인다.43)이상으로하게체의문법종결어미의유형은다음과같이정리할수있다.<표25>하게체의문법종결어미높임등급유형종결어미하게체방언형-ㄴ가(ㄴ강)/-ㄴ고(ㄴ공),-ㄴ게하게체의문법종결어미는표준어에서크게보편적으로쓰이지않는중세국어의형태를그대로계승한경우가많다.한편,기존연구에서제시된하게체의문법종결어미목록체계양상을1바탕으로몇가지특성을제시하면다음과같다.44)첫째,공통적으로앞에서제시한형태에대해등급설정을다르게보는연구가있다.김영황(2013)에서는하오체,최학근(1964)에서는평등칭과수하칭,김정인(1985)에서는반말로다루면서등급상의차이를보여준다.이러한등급차이는"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "질문 유형·결합·지역 제약은 아래 별도 진술. ㄴ고는 현대 표준사전 고어 처리와 달리 이 자료에 활발."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0056",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㄴ고",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄴ고",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하게"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 133,
+          "quote": ")(85)에서는자네,당신등의청자가확인되며,이와함께‘-ㄴ가’,‘-ㄴ강’,‘-ㄴ고’,‘-ㄴ공’,‘-ㄴ게나’가하게체의문법종결어미로쓰이고있다.(85ㄱ)의‘-ㄴ가’는표준어에서도쓰이며,(85ㄴ)의‘-ㄴ고’는현대국어에서는잘1쓰이지않지만,이지역에서는보편적으로쓰인다.43)이상으로하게체의문법종결어미의유형은다음과같이정리할수있다.<표25>하게체의문법종결어미높임등급유형종결어미하게체방언형-ㄴ가(ㄴ강)/-ㄴ고(ㄴ공),-ㄴ게하게체의문법종결어미는표준어에서크게보편적으로쓰이지않는중세국어의형태를그대로계승한경우가많다.한편,기존연구에서제시된하게체의문법종결어미목록체계양상을1바탕으로몇가지특성을제시하면다음과같다.44)첫째,공통적으로앞에서제시한형태에대해등급설정을다르게보는연구가있다.김영황(2013)에서는하오체,최학근(1964)에서는평등칭과수하칭,김정인(1985)에서는반말로다루면서등급상의차이를보여준다.이러한등급차이는상대높임의등"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "질문 유형·결합·지역 제약은 아래 별도 진술. ㄴ고는 현대 표준사전 고어 처리와 달리 이 자료에 활발."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0057",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㄴ공",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄴ공",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하게"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 133,
+          "quote": "서는자네,당신등의청자가확인되며,이와함께‘-ㄴ가’,‘-ㄴ강’,‘-ㄴ고’,‘-ㄴ공’,‘-ㄴ게나’가하게체의문법종결어미로쓰이고있다.(85ㄱ)의‘-ㄴ가’는표준어에서도쓰이며,(85ㄴ)의‘-ㄴ고’는현대국어에서는잘1쓰이지않지만,이지역에서는보편적으로쓰인다.43)이상으로하게체의문법종결어미의유형은다음과같이정리할수있다.<표25>하게체의문법종결어미높임등급유형종결어미하게체방언형-ㄴ가(ㄴ강)/-ㄴ고(ㄴ공),-ㄴ게하게체의문법종결어미는표준어에서크게보편적으로쓰이지않는중세국어의형태를그대로계승한경우가많다.한편,기존연구에서제시된하게체의문법종결어미목록체계양상을1바탕으로몇가지특성을제시하면다음과같다.44)첫째,공통적으로앞에서제시한형태에대해등급설정을다르게보는연구가있다.김영황(2013)에서는하오체,최학근(1964)에서는평등칭과수하칭,김정인(1985)에서는반말로다루면서등급상의차이를보여준다.이러한등급차이는상대높임의등급을3등급,"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "질문 유형·결합·지역 제약은 아래 별도 진술. ㄴ고는 현대 표준사전 고어 처리와 달리 이 자료에 활발."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0058",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㄴ게나",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄴ게나",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하게"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 133,
+          "quote": "신등의청자가확인되며,이와함께‘-ㄴ가’,‘-ㄴ강’,‘-ㄴ고’,‘-ㄴ공’,‘-ㄴ게나’가하게체의문법종결어미로쓰이고있다.(85ㄱ)의‘-ㄴ가’는표준어에서도쓰이며,(85ㄴ)의‘-ㄴ고’는현대국어에서는잘1쓰이지않지만,이지역에서는보편적으로쓰인다.43)이상으로하게체의문법종결어미의유형은다음과같이정리할수있다.<표25>하게체의문법종결어미높임등급유형종결어미하게체방언형-ㄴ가(ㄴ강)/-ㄴ고(ㄴ공),-ㄴ게하게체의문법종결어미는표준어에서크게보편적으로쓰이지않는중세국어의형태를그대로계승한경우가많다.한편,기존연구에서제시된하게체의문법종결어미목록체계양상을1바탕으로몇가지특성을제시하면다음과같다.44)첫째,공통적으로앞에서제시한형태에대해등급설정을다르게보는연구가있다.김영황(2013)에서는하오체,최학근(1964)에서는평등칭과수하칭,김정인(1985)에서는반말로다루면서등급상의차이를보여준다.이러한등급차이는상대높임의등급을3등급,4등급,5등"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "질문 유형·결합·지역 제약은 아래 별도 진술. ㄴ고는 현대 표준사전 고어 처리와 달리 이 자료에 활발."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0059",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㄴ게",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄴ게",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하게"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 133,
+          "quote": "신등의청자가확인되며,이와함께‘-ㄴ가’,‘-ㄴ강’,‘-ㄴ고’,‘-ㄴ공’,‘-ㄴ게나’가하게체의문법종결어미로쓰이고있다.(85ㄱ)의‘-ㄴ가’는표준어에서도쓰이며,(85ㄴ)의‘-ㄴ고’는현대국어에서는잘1쓰이지않지만,이지역에서는보편적으로쓰인다.43)이상으로하게체의문법종결어미의유형은다음과같이정리할수있다.<표25>하게체의문법종결어미높임등급유형종결어미하게체방언형-ㄴ가(ㄴ강)/-ㄴ고(ㄴ공),-ㄴ게하게체의문법종결어미는표준어에서크게보편적으로쓰이지않는중세국어의형태를그대로계승한경우가많다.한편,기존연구에서제시된하게체의문법종결어미목록체계양상을1바탕으로몇가지특성을제시하면다음과같다.44)첫째,공통적으로앞에서제시한형태에대해등급설정을다르게보는연구가있다.김영황(2013)에서는하오체,최학근(1964)에서는평등칭과수하칭,김정인(1985)에서는반말로다루면서등급상의차이를보여준다.이러한등급차이는상대높임의등급을3등급,4등급,5등"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "질문 유형·결합·지역 제약은 아래 별도 진술. ㄴ고는 현대 표준사전 고어 처리와 달리 이 자료에 활발."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0060",
+      "type": "context",
+      "source_pattern": {
+        "text": "분류 및 지더 미관찰",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "ㄹ래/ㄹ까/제는 요·예·여 결합 및 등급 유동성을 고려해 해체로 설정. 지더는 선행 연구만 있고 본 코퍼스 미관찰",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 134,
+          "quote": ",영주,례천)지방등에분포되어있는생산적인현상의하나이다.”라고언급하면서‘1-지더’47)를제시하고있다.그러나대계에서는이러한형태로쓰인용례가나타나지않는다.148)다음으로,대계의하게체의문법종결어미의유형별지역분포와사용양상을제시하면다음과같다.145)일반적으로격식체에서는‘-요’,‘-예’,‘-여’가결합할수없다.146)앞서언급하자면,이연구에서는제시된종결어미를해체로설정하고있다.147)김병제(1965:162-163)에서는다음과같은예문을제시하고있다.집에갓다왓지더?,지끔장에가지더?,이거내묵을밥이지더?148)김병제(1965:163)에서는,“‘-지더’는원래서술법‘-지다〉-지더’가의문법으로전환한것인만큼억양에따라서술법에도통용된다.”고언급하고있다.그러나대계에서는서술법으로쓰이는‘-지더’또한나타나지않는다.-122-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0061",
+      "type": "context",
+      "source_pattern": {
+        "text": "하게 의문 분포표",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "ㄴ가/ㄴ고 계열 광역. 는게는 표에서 판정에 배치했지만 본문·실례는 판정/설명 모두",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 135,
+          "quote": "10120525판-ㄴ강7113842314484348156정합계809하방-는게1292․6․321826게언합계34체형-ㄴ고36301363142218415657239설-ㄴ공41850․6423․1․4106명합계406하게체의문법종결어미는이지역에서오랫동안쓰여져온것으로보이는,‘-ㄴ가’,‘-ㄴ고’가지역분포및사용빈도에있어서도큰비중을차지하고있다.그럼에도불구하고하이소체나,뒤에서살펴보게될해라체에비해그형태가상당히적게나타난다.그만큼하게체의높임등급의지위가다른등급에비해상대적으로약하다는증거이기도하다.또한하이소체와달리,판정의문문과설명의문문의구분이뚜렷하게드러난다.‘-는게’의경우의문사의여부에따라모두쓰이는특성을보인다.각유형별지역분포와사용양상은다음과같다.(86)ㄱ.“머어자네가나한데부탁할기있는가?이얘기해보세.”이카거던.(7-8:341/상주)ㄴ.야아,정승집이면은작년에우리집에왔던그어른이숙종대왕이아이던강?(7-13:530/"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0062",
+      "type": "context",
+      "source_pattern": {
+        "text": "하게 의문 지역 변이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "ㄴ강/ㄴ공은 봉화·예천·안동에서 상대적 희소, 는게나 1례. 는게의 하소 분류 선행 견해도 존재",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 136,
+          "quote": "태는1아니나,대구와군위지역등지에서다소나타난다.51)‘-는게나’는대계에서단한차례만그예가확인이된다.152)2)하게체의문법종결어미의통사･의미적특성(1)-ㄴ가(ㄴ강)/-ㄴ고(ㄴ공)잘알려진바와같이,‘-ㄴ가’,‘-ㄴ강’은판정의문문으로,‘-ㄴ고’,‘-ㄴ공’1은설명의문문으로쓰이며,의문사의여부에따라그기능을달리한다.53)(87)ㄱ.“그자네어데머머큰볼일이있는가?”(7-9:322/안동)ㄴ.오라바인뒤에오고또저게동상은앞에왔다카던강?(7-8:1006/상주)ㄷ.“자네들어보게.자네자제가거참사램이아주묘하고지식이묘한겉은149)한국방언자료집(1989:319-320)에서는이들의사용지역을다음과같이제시하고있다.오는가:영풍,울진,문경,예천,안동,상주,의성,영덕,영일,칠곡,경산,영천,고령,달성,청도가는가:안동,상주,청송,영덕,성주150)이상규(1991:132-133)에서는이를하소체로다루면서다음과같은예를제시하고있다.(할배요"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0063",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㄴ가",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄴ가",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "question_type",
+          "op": "eq",
+          "value": "polar",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하게"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 136,
+          "quote": "(86)에서는‘-ㄴ가,-ㄴ강,-ㄴ고,-ㄴ공’과‘-ㄴ게,-ㄴ게나’가쓰이고있다.그리고각각의종결어미‘-ㄴ가’,‘-ㄴ고’,‘-ㄴ강’,‘-ㄴ공’이대표적으로많이쓰인다.‘-ㄴ가’,‘-ㄴ고’,‘-ㄴ강’,‘-ㄴ공’은이미잘알려진형태로,대부분의지역에서두루쓰이며,다른지역에비해상대적으로성주지역에서1그쓰임이적다.49)‘-ㄴ강’,‘-ㄴ공’은상대적으로봉화,예천,안동지역에서크게쓰이지않는다.‘-ㄴ게’150)는다른형태와비교해많이쓰이는형태는1아니나,대구와군위지역등지에서다소나타난다.51)‘-는게나’는대계에서단한차례만그예가확인이된다.152)2)하게체의문법종결어미의통사･의미적특성(1)-ㄴ가(ㄴ강)/-ㄴ고(ㄴ공)잘알려진바와같이,‘-ㄴ가’,‘-ㄴ강’은판정의문문으로,‘-ㄴ고’,‘-ㄴ공’1은설명의문문으로쓰이며,의문사의여부에따라그기능을달리한다.53)(87)ㄱ.“그자네어데"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "단순 의문대명사 문자열 출현이 아니라 질문의 판정/설명 기능으로 선택."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0064",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㄴ강",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄴ강",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "question_type",
+          "op": "eq",
+          "value": "polar",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하게"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 136,
+          "quote": "(86)에서는‘-ㄴ가,-ㄴ강,-ㄴ고,-ㄴ공’과‘-ㄴ게,-ㄴ게나’가쓰이고있다.그리고각각의종결어미‘-ㄴ가’,‘-ㄴ고’,‘-ㄴ강’,‘-ㄴ공’이대표적으로많이쓰인다.‘-ㄴ가’,‘-ㄴ고’,‘-ㄴ강’,‘-ㄴ공’은이미잘알려진형태로,대부분의지역에서두루쓰이며,다른지역에비해상대적으로성주지역에서1그쓰임이적다.49)‘-ㄴ강’,‘-ㄴ공’은상대적으로봉화,예천,안동지역에서크게쓰이지않는다.‘-ㄴ게’150)는다른형태와비교해많이쓰이는형태는1아니나,대구와군위지역등지에서다소나타난다.51)‘-는게나’는대계에서단한차례만그예가확인이된다.152)2)하게체의문법종결어미의통사･의미적특성(1)-ㄴ가(ㄴ강)/-ㄴ고(ㄴ공)잘알려진바와같이,‘-ㄴ가’,‘-ㄴ강’은판정의문문으로,‘-ㄴ고’,‘-ㄴ공’1은설명의문문으로쓰이며,의문사의여부에따라그기능을달리한다.53)(87)ㄱ.“그자네어데머머큰볼"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "단순 의문대명사 문자열 출현이 아니라 질문의 판정/설명 기능으로 선택."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0065",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㄴ고",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄴ고",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "question_type",
+          "op": "eq",
+          "value": "content",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하게"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 136,
+          "quote": "(86)에서는‘-ㄴ가,-ㄴ강,-ㄴ고,-ㄴ공’과‘-ㄴ게,-ㄴ게나’가쓰이고있다.그리고각각의종결어미‘-ㄴ가’,‘-ㄴ고’,‘-ㄴ강’,‘-ㄴ공’이대표적으로많이쓰인다.‘-ㄴ가’,‘-ㄴ고’,‘-ㄴ강’,‘-ㄴ공’은이미잘알려진형태로,대부분의지역에서두루쓰이며,다른지역에비해상대적으로성주지역에서1그쓰임이적다.49)‘-ㄴ강’,‘-ㄴ공’은상대적으로봉화,예천,안동지역에서크게쓰이지않는다.‘-ㄴ게’150)는다른형태와비교해많이쓰이는형태는1아니나,대구와군위지역등지에서다소나타난다.51)‘-는게나’는대계에서단한차례만그예가확인이된다.152)2)하게체의문법종결어미의통사･의미적특성(1)-ㄴ가(ㄴ강)/-ㄴ고(ㄴ공)잘알려진바와같이,‘-ㄴ가’,‘-ㄴ강’은판정의문문으로,‘-ㄴ고’,‘-ㄴ공’1은설명의문문으로쓰이며,의문사의여부에따라그기능을달리한다.53)(87)ㄱ.“그자네어데머머큰볼일이있는"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "단순 의문대명사 문자열 출현이 아니라 질문의 판정/설명 기능으로 선택."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0066",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㄴ공",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄴ공",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "question_type",
+          "op": "eq",
+          "value": "content",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하게"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 136,
+          "quote": "(86)에서는‘-ㄴ가,-ㄴ강,-ㄴ고,-ㄴ공’과‘-ㄴ게,-ㄴ게나’가쓰이고있다.그리고각각의종결어미‘-ㄴ가’,‘-ㄴ고’,‘-ㄴ강’,‘-ㄴ공’이대표적으로많이쓰인다.‘-ㄴ가’,‘-ㄴ고’,‘-ㄴ강’,‘-ㄴ공’은이미잘알려진형태로,대부분의지역에서두루쓰이며,다른지역에비해상대적으로성주지역에서1그쓰임이적다.49)‘-ㄴ강’,‘-ㄴ공’은상대적으로봉화,예천,안동지역에서크게쓰이지않는다.‘-ㄴ게’150)는다른형태와비교해많이쓰이는형태는1아니나,대구와군위지역등지에서다소나타난다.51)‘-는게나’는대계에서단한차례만그예가확인이된다.152)2)하게체의문법종결어미의통사･의미적특성(1)-ㄴ가(ㄴ강)/-ㄴ고(ㄴ공)잘알려진바와같이,‘-ㄴ가’,‘-ㄴ강’은판정의문문으로,‘-ㄴ고’,‘-ㄴ공’1은설명의문문으로쓰이며,의문사의여부에따라그기능을달리한다.53)(87)ㄱ.“그자네어데머머큰볼일이있는가?”("
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "단순 의문대명사 문자열 출현이 아니라 질문의 판정/설명 기능으로 선택."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0067",
+      "type": "context",
+      "source_pattern": {
+        "text": "ㄴ은 단순 높임 표지만 아님",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "ㄴ가/ㄴ고는 용언 결합 가능, 가/고와 통사 결합이 다름. ㄴ을 떼어 높임 단계만 바꾸는 연산 금지",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 137,
+          "quote": "계사나‘있다’,‘없다’등에서결합하는특성을보여준다.즉등급에서의차이가나더라도결합관계에서이들은차이를보이므로‘-ㄴ-’이관여하는것이높임의등급에만머물지않는다는증거가된다.154)(88ㅅ)의‘것가’의경우는좀특이한데,두가지경우로나누어볼수있다.첫째,‘-겠는가’에대응되는형식으로보는것과,의존명사‘것’에계사‘이’가생략되고‘-가’가결합한것으로보는경우이다.이와관련하여대계에서는다음과같은예문이발견된다.154)최동주(2003:106)에서도‘-가/고’가용언과결합하지못하는이유,선어말어미와결합하였을때관형사형어미‘ㄴ’과동일한양상을보이는것을이유로이러한설정에는문제가있다고지적하고있다.-125-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0068",
+      "type": "context",
+      "source_pattern": {
+        "text": "있다/없다와 가의 분석 차이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "이 페이지는 가가 계사·있다·없다와 결합한다고 기술하나 뒤 가/고 절은 용언 미결합으로 기술. 일관된 보편 규칙으로 통합하지 않음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 137,
+          "quote": "나(88ㅁ)의‘-ㄴ가’는용언과결합할수있는반면,(88ㅂ)의‘-가’는계사나‘있다’,‘없다’등에서결합하는특성을보여준다.즉등급에서의차이가나더라도결합관계에서이들은차이를보이므로‘-ㄴ-’이관여하는것이높임의등급에만머물지않는다는증거가된다.154)(88ㅅ)의‘것가’의경우는좀특이한데,두가지경우로나누어볼수있다.첫째,‘-겠는가’에대응되는형식으로보는것과,의존명사‘것’에계사‘이’가생략되고‘-가’가결합한것으로보는경우이다.이와관련하여대계에서는다음과같은예문이발견된다.154)최동주(2003:106)에서도‘-가/고’가용언과결합하지못하는이유,선어말어미와결합하였을때관형사형어미‘ㄴ’과동일한양상을보이는것을이유로이러한설정에는문제가있다고지적하고있다.-125-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0069",
+      "type": "construction",
+      "source_pattern": {
+        "text": "것인가",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "것가",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하게"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 138,
+          "quote": "가’로,그사이에계사‘이-’가탈락하면서다음과같은과정으로생성된것으로보인다.‘것+이-+-ㄴ가’>‘것+-ㄴ가’>‘것가’이는앞서살펴본하게체서술법의‘-ㄹ세’와같은변동으로,‘-ㄴ가’의‘-ㄴ-’이계사‘이-’와‘것’의‘ㅅ’으로인해탈락한것으로볼수있다.그러므로여기에쓰인‘-가’는해라체의‘-가’가아닌하게체의‘-ㄴ가’이다.한편,이상규(1991:71)에서는‘-ㄴ강’,‘-ㄴ공’이간접의문문의형식으로쓰이고있음을밝히고있는데,대계에서는직접의문문으로도사용되는것을확인하였다.(2)-ㄴ게(90)ㄱ.“그럼우리가먼저썼는게아이라,저집에먼저썼는게?”(7-1:174/군위)ㄴ.“또뭐있는게?”(7-14:486/구미)ㄷ.“아이구사돈,아이구사돈어디가는게?내가고기사가오는데어디가는게?”(7-14:382/군위)ㄹ.인제고마놔두고인제잤부렜그던.자이께네잠이올택이있는게나?(7-9:876/안동)(90)의‘-는게’는의문사의여부에따라판정의문문,설명의문문"
+        }
+      ],
+      "claim_status": "author_hypothesis",
+      "usability": "reference_only",
+      "notes": "것+이+ㄴ가에서 계사·ㄴ 탈락이라는 저자의 분석. 해라 가와 구별."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0070",
+      "type": "context",
+      "source_pattern": {
+        "text": "강·공 직접 질문",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "선행 간접의문 전용 설명과 달리 직접의문도 확인. ㄴ게는 두 질문 유형에 모두 쓰임",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 138,
+          "quote": "‘-ㄴ강’,‘-ㄴ공’이간접의문문의형식으로쓰이고있음을밝히고있는데,대계에서는직접의문문으로도사용되는것을확인하였다.(2)-ㄴ게(90)ㄱ.“그럼우리가먼저썼는게아이라,저집에먼저썼는게?”(7-1:174/군위)ㄴ.“또뭐있는게?”(7-14:486/구미)ㄷ.“아이구사돈,아이구사돈어디가는게?내가고기사가오는데어디가는게?”(7-14:382/군위)ㄹ.인제고마놔두고인제잤부렜그던.자이께네잠이올택이있는게나?(7-9:876/안동)(90)의‘-는게’는의문사의여부에따라판정의문문,설명의문문에모두-126-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0071",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㄴ게",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄴ게",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하게"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 138,
+          "quote": "이고있음을밝히고있는데,대계에서는직접의문문으로도사용되는것을확인하였다.(2)-ㄴ게(90)ㄱ.“그럼우리가먼저썼는게아이라,저집에먼저썼는게?”(7-1:174/군위)ㄴ.“또뭐있는게?”(7-14:486/구미)ㄷ.“아이구사돈,아이구사돈어디가는게?내가고기사가오는데어디가는게?”(7-14:382/군위)ㄹ.인제고마놔두고인제잤부렜그던.자이께네잠이올택이있는게나?(7-9:876/안동)(90)의‘-는게’는의문사의여부에따라판정의문문,설명의문문에모두-126-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "판정/설명 모두; 관형+명사 게와 문장 종결 용법을 구분."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0072",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -는게",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-는게",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하게"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 138,
+          "quote": "인제잤부렜그던.자이께네잠이올택이있는게나?(7-9:876/안동)(90)의‘-는게’는의문사의여부에따라판정의문문,설명의문문에모두-126-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "판정/설명 모두; 관형+명사 게와 문장 종결 용법을 구분."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0073",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -는게나",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-는게나",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "self_question",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하게"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 139,
+          "quote": "ㅔ/,/ㅏ/의모음차이를보일뿐,그기능에서는차이를보이지는않는다.(90ㄹ)의‘-는게나’는화자자신이스스로자문하는형식으로쓰인다.3.1.2.4.해라체1)종결어미의종류및지역분포와사용양상대계에서는[-높임],[+하대]에해당하는해라체의문법종결어미는다른등급에비해그형태가많이나타난다.이를방언형과표준형으로구분하여제시하고자한다.먼저방언형을살펴보자.(91)ㄱ.“야,이사람자네편작아이가?”(7-8:758/상주)ㄴ.“그래야야,니그거무슨소리고?언제?”(7-13:91/대구)ㄷ.“아그래이거참니가이걸알겠나?”(7-17:105/예천)ㄹ.“그래이상하다.그래어째넌이래왔노?\"(7-15:30/구미)ㅁ.“내,여니리란말이라?”(7-10:663/봉화)ㅂ.“너,어데있는부인이로?”(7-17:51/예천)ㅅ.“그래가가라카는데가가야안될라?”(7-2:375/경주)ㅇ.“그렇거든,이사람아.우리집이고마저아―나(아이)글이나갈체주고고만내집에있으면워떨로"
+        }
+      ],
+      "claim_status": "attested_example",
+      "usability": "candidate",
+      "notes": "화자 자문 1례. 광범위 생산성 승인 아님."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0074",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -가",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-가",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 139,
+          "quote": "우이(어째)마음변했나와이레커데이?”(7-13:427/대구)(91)에서는‘-가’,‘-고’,‘-나’,‘-노’,‘-라’,‘-로’,‘-ㄹ라’,‘-ㄹ로’,‘-다’,‘-도’,‘-데이’,가각각쓰이고있다.청자의자질에서[-높임]이확인되며,‘-데이’를제외한형태들은공통적으로‘-아/오’의대립을정확하게보여주고있다.또한의문사가없는‘-가’(91ㄱ),‘-나’(91ㄷ),‘-라’(91ㅁ),‘-ㄹ라’(91ㅅ),‘--127-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "아/오 대립과 서술어 조건 및 예외를 함께 조회. 데이는 대구1례."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0075",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -고",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-고",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 139,
+          "quote": ")마음변했나와이레커데이?”(7-13:427/대구)(91)에서는‘-가’,‘-고’,‘-나’,‘-노’,‘-라’,‘-로’,‘-ㄹ라’,‘-ㄹ로’,‘-다’,‘-도’,‘-데이’,가각각쓰이고있다.청자의자질에서[-높임]이확인되며,‘-데이’를제외한형태들은공통적으로‘-아/오’의대립을정확하게보여주고있다.또한의문사가없는‘-가’(91ㄱ),‘-나’(91ㄷ),‘-라’(91ㅁ),‘-ㄹ라’(91ㅅ),‘--127-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "아/오 대립과 서술어 조건 및 예외를 함께 조회. 데이는 대구1례."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0076",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -나",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-나",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 139,
+          "quote": "나와이레커데이?”(7-13:427/대구)(91)에서는‘-가’,‘-고’,‘-나’,‘-노’,‘-라’,‘-로’,‘-ㄹ라’,‘-ㄹ로’,‘-다’,‘-도’,‘-데이’,가각각쓰이고있다.청자의자질에서[-높임]이확인되며,‘-데이’를제외한형태들은공통적으로‘-아/오’의대립을정확하게보여주고있다.또한의문사가없는‘-가’(91ㄱ),‘-나’(91ㄷ),‘-라’(91ㅁ),‘-ㄹ라’(91ㅅ),‘--127-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "아/오 대립과 서술어 조건 및 예외를 함께 조회. 데이는 대구1례."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0077",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -노",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-노",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 139,
+          "quote": "데이?”(7-13:427/대구)(91)에서는‘-가’,‘-고’,‘-나’,‘-노’,‘-라’,‘-로’,‘-ㄹ라’,‘-ㄹ로’,‘-다’,‘-도’,‘-데이’,가각각쓰이고있다.청자의자질에서[-높임]이확인되며,‘-데이’를제외한형태들은공통적으로‘-아/오’의대립을정확하게보여주고있다.또한의문사가없는‘-가’(91ㄱ),‘-나’(91ㄷ),‘-라’(91ㅁ),‘-ㄹ라’(91ㅅ),‘--127-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "아/오 대립과 서술어 조건 및 예외를 함께 조회. 데이는 대구1례."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0078",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -라",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-라",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 139,
+          "quote": "7-13:427/대구)(91)에서는‘-가’,‘-고’,‘-나’,‘-노’,‘-라’,‘-로’,‘-ㄹ라’,‘-ㄹ로’,‘-다’,‘-도’,‘-데이’,가각각쓰이고있다.청자의자질에서[-높임]이확인되며,‘-데이’를제외한형태들은공통적으로‘-아/오’의대립을정확하게보여주고있다.또한의문사가없는‘-가’(91ㄱ),‘-나’(91ㄷ),‘-라’(91ㅁ),‘-ㄹ라’(91ㅅ),‘--127-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "아/오 대립과 서술어 조건 및 예외를 함께 조회. 데이는 대구1례."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0079",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -로",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 139,
+          "quote": "427/대구)(91)에서는‘-가’,‘-고’,‘-나’,‘-노’,‘-라’,‘-로’,‘-ㄹ라’,‘-ㄹ로’,‘-다’,‘-도’,‘-데이’,가각각쓰이고있다.청자의자질에서[-높임]이확인되며,‘-데이’를제외한형태들은공통적으로‘-아/오’의대립을정확하게보여주고있다.또한의문사가없는‘-가’(91ㄱ),‘-나’(91ㄷ),‘-라’(91ㅁ),‘-ㄹ라’(91ㅅ),‘--127-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "아/오 대립과 서술어 조건 및 예외를 함께 조회. 데이는 대구1례."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0080",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㄹ라",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄹ라",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 139,
+          "quote": "구)(91)에서는‘-가’,‘-고’,‘-나’,‘-노’,‘-라’,‘-로’,‘-ㄹ라’,‘-ㄹ로’,‘-다’,‘-도’,‘-데이’,가각각쓰이고있다.청자의자질에서[-높임]이확인되며,‘-데이’를제외한형태들은공통적으로‘-아/오’의대립을정확하게보여주고있다.또한의문사가없는‘-가’(91ㄱ),‘-나’(91ㄷ),‘-라’(91ㅁ),‘-ㄹ라’(91ㅅ),‘--127-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "아/오 대립과 서술어 조건 및 예외를 함께 조회. 데이는 대구1례."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0081",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㄹ로",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄹ로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 139,
+          "quote": "에서는‘-가’,‘-고’,‘-나’,‘-노’,‘-라’,‘-로’,‘-ㄹ라’,‘-ㄹ로’,‘-다’,‘-도’,‘-데이’,가각각쓰이고있다.청자의자질에서[-높임]이확인되며,‘-데이’를제외한형태들은공통적으로‘-아/오’의대립을정확하게보여주고있다.또한의문사가없는‘-가’(91ㄱ),‘-나’(91ㄷ),‘-라’(91ㅁ),‘-ㄹ라’(91ㅅ),‘--127-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "아/오 대립과 서술어 조건 및 예외를 함께 조회. 데이는 대구1례."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0082",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -다",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 139,
+          "quote": "’,‘-고’,‘-나’,‘-노’,‘-라’,‘-로’,‘-ㄹ라’,‘-ㄹ로’,‘-다’,‘-도’,‘-데이’,가각각쓰이고있다.청자의자질에서[-높임]이확인되며,‘-데이’를제외한형태들은공통적으로‘-아/오’의대립을정확하게보여주고있다.또한의문사가없는‘-가’(91ㄱ),‘-나’(91ㄷ),‘-라’(91ㅁ),‘-ㄹ라’(91ㅅ),‘--127-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "아/오 대립과 서술어 조건 및 예외를 함께 조회. 데이는 대구1례."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0083",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -도",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-도",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 139,
+          "quote": "’,‘-나’,‘-노’,‘-라’,‘-로’,‘-ㄹ라’,‘-ㄹ로’,‘-다’,‘-도’,‘-데이’,가각각쓰이고있다.청자의자질에서[-높임]이확인되며,‘-데이’를제외한형태들은공통적으로‘-아/오’의대립을정확하게보여주고있다.또한의문사가없는‘-가’(91ㄱ),‘-나’(91ㄷ),‘-라’(91ㅁ),‘-ㄹ라’(91ㅅ),‘--127-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "아/오 대립과 서술어 조건 및 예외를 함께 조회. 데이는 대구1례."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0084",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -데이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-데이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 139,
+          "quote": "’,‘-노’,‘-라’,‘-로’,‘-ㄹ라’,‘-ㄹ로’,‘-다’,‘-도’,‘-데이’,가각각쓰이고있다.청자의자질에서[-높임]이확인되며,‘-데이’를제외한형태들은공통적으로‘-아/오’의대립을정확하게보여주고있다.또한의문사가없는‘-가’(91ㄱ),‘-나’(91ㄷ),‘-라’(91ㅁ),‘-ㄹ라’(91ㅅ),‘--127-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "아/오 대립과 서술어 조건 및 예외를 함께 조회. 데이는 대구1례."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0085",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -냐",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-냐",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 140,
+          "quote": "오늘저녁에어째이술을가져와서날권하니?\"(7-8:955/상주)(92)에서는‘-냐’,‘-느냐’,‘-니’가쓰이고있다.현대국어와마찬가지로의문사유무에따라서이들은판정의문문과설명의문문으로구분지어쓰인다.이상으로해라체의문법종결어미의유형은다음과같이정리할수있다.<표27>해라체의문법종결어미높임등급유형종결어미방언형-가/고,-나/노,-라/로,-ㄹ라/ㄹ로,-다/도,-데이해라체표준형-(으)냐/느냐,-니해라체의문법은하이소체와마찬가지로방언형이그가짓수가표준형보다많이나타나며,판정의문문과설명의문문의구분이명확하게드러나는특성을보인다.한편,기존연구에서제시된하게체의문법종결어미목록체계양상을-128-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "표준형이 실제 방언 코퍼스에도 쓰임. 판정/설명 모두."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0086",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -느냐",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-느냐",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 140,
+          "quote": "어째이술을가져와서날권하니?\"(7-8:955/상주)(92)에서는‘-냐’,‘-느냐’,‘-니’가쓰이고있다.현대국어와마찬가지로의문사유무에따라서이들은판정의문문과설명의문문으로구분지어쓰인다.이상으로해라체의문법종결어미의유형은다음과같이정리할수있다.<표27>해라체의문법종결어미높임등급유형종결어미방언형-가/고,-나/노,-라/로,-ㄹ라/ㄹ로,-다/도,-데이해라체표준형-(으)냐/느냐,-니해라체의문법은하이소체와마찬가지로방언형이그가짓수가표준형보다많이나타나며,판정의문문과설명의문문의구분이명확하게드러나는특성을보인다.한편,기존연구에서제시된하게체의문법종결어미목록체계양상을-128-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "표준형이 실제 방언 코퍼스에도 쓰임. 판정/설명 모두."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0087",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -니",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-니",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 140,
+          "quote": "져와서날권하니?\"(7-8:955/상주)(92)에서는‘-냐’,‘-느냐’,‘-니’가쓰이고있다.현대국어와마찬가지로의문사유무에따라서이들은판정의문문과설명의문문으로구분지어쓰인다.이상으로해라체의문법종결어미의유형은다음과같이정리할수있다.<표27>해라체의문법종결어미높임등급유형종결어미방언형-가/고,-나/노,-라/로,-ㄹ라/ㄹ로,-다/도,-데이해라체표준형-(으)냐/느냐,-니해라체의문법은하이소체와마찬가지로방언형이그가짓수가표준형보다많이나타나며,판정의문문과설명의문문의구분이명확하게드러나는특성을보인다.한편,기존연구에서제시된하게체의문법종결어미목록체계양상을-128-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "표준형이 실제 방언 코퍼스에도 쓰임. 판정/설명 모두."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0088",
+      "type": "context",
+      "source_pattern": {
+        "text": "데이 질문의 증거",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "와 이레커데이는 설명 질문. 평서 데이와 억양 차이지만 한 사례이므로 생산 규칙으로 확대하지 않음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 140,
+          "quote": "법으로쓰이고있음을확인하였다.해라체서술법의‘-데이’와결합환경은동일하나문말의억양의차이로구분이가능하다.또한의문사‘와(왜)’와함께쓰이는것으로보아,설명의문문에해당하는것으로보인다.다음은표준형에해당하는종결어미는다음과같다.(92)ㄱ.“그래당시이어떠한사람이냐?(7-2:202/경주)ㄴ.“달밝은데뭣이제일좋으냐?”(7-4:59/성주)ㄷ.“와카느냐?”(7-4:38/성주)ㄹ.“그래.너,오늘저녁에어째이술을가져와서날권하니?\"(7-8:955/상주)(92)에서는‘-냐’,‘-느냐’,‘-니’가쓰이고있다.현대국어와마찬가지로의문사유무에따라서이들은판정의문문과설명의문문으로구분지어쓰인다.이상으로해라체의문법종결어미의유형은다음과같이정리할수있다.<표27>해라체의문법종결어미높임등급유형종결어미방언형-가/고,-나/노,-라/로,-ㄹ라/ㄹ로,-다/도,-데이해라체표준형-(으)냐/느냐,-니해라체의문법은하이소체와마찬가지로방언형이그가짓수가표준"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0089",
+      "type": "context",
+      "source_pattern": {
+        "text": "해체와 해라체 연구사",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "제/지러/ㄹ래/ㄹ까 등은 요·예·여 결합에 비추어 해체. 동오·을랑강 등의 선행형은 본 자료 미관찰",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 141,
+          "quote": ",새로운형태를제시한연구도있다.황대화(1998),김병제(1965)에서는‘-동오’156),박창원(1991)에서는‘-라’,‘-을랑강’,장희승(2000)에서는장희승를제시하였는데,대계에서는발견되지않는다.다음으로,대계의해라체의문법종결어미의유형별지역분포와사용양상을제시하면다음과같다.<표28>해라체의문법종결어미의지역분포와사용양상경북경북중동부방언방언구획서부경북중동경북중동높방언서부방언동부방언임합계지역법상구대달성군경영안예봉(합계)주미구성주위주덕동천화유형종결어미-가235428191987179110146318596합계614판-나26111112389763055842852081841352,226정합계2,361의-다1․21․613612․241해방문합계43라언문-라4065․2527105382126249체형-ㄹ라7․1․․3615233758합계340-고441303840358732117629121511,021설합"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0090",
+      "type": "context",
+      "source_pattern": {
+        "text": "해라 의문 분포",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "가/고/나/노는 광역 다수. 라/로는 영덕·안동 등 동부 중심. 지역별 표의 합계는 추출/원문 오차 우려",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 142,
+          "quote": "가지로이지역을대표하는해라체의형태는‘-가’,‘-고’,‘-나’,‘-노’이다.전지역에서두루쓰이고있으며,다른형태들에비해그빈도수도상당히높게나타난다.17)또한‘5-라’,‘-로’는영덕,안동지역의경북중동동부방언에서주로분포하는특징을보인다.해라체의문법종결어미는판정의문문과설명의문문으로구분하여지역분포및사용양상을살펴볼필요가있다.왜냐하면표준형과달리의문문의유형에따라그특성이구분되기때문이다.먼저판정의문문을살펴보자.(93)ㄱ.“야,이사람자네편작아이가?”(7-8:758/상주)ㄴ.“아그래이거참니가이걸알겠나?”(7-17:105/예천)그래?욕을비며는,그둘이왔다크다,서이왔다크다?”(7-3:631/ㄷ.“경주)ㄹ.“그래.야야,내일모레내생일아이라?”(7-19:129/안동)ㅁ.“그래가가라카는데가가야안될라?”(7-2:375/경주)157)한국방언자료집(1989:320-321)에서는이들의사용지역을다음과같이제시하고있다.쟁이가:의성,"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0091",
+      "type": "context",
+      "source_pattern": {
+        "text": "지역과 질문 유형",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "나/노 광역, 다/도·라/로·ㄹ라/ㄹ로는 동부 중심, 데이 질문 대구1례(다음 페이지로 설명이 이어짐)",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 143,
+          "quote": "방언에서판정의문문으로쓰이는‘-가’,‘-나’,‘-다’,‘-라’,‘-ㄹ라’는지역분포에서차이를보인다.이중‘-나’가전지역에서나타나며,사용빈도에서도가장많이쓰인다.‘-가’는‘-나’이비해사용빈도는상대적으로낮게나타나지만,지역분포에서는일치되는경향을보인다.주목할부분은‘-다’,‘-라’,‘-ㄹ라’인데,‘-다’는경주,영덕,안동지역에서주로쓰이고,구미,성주지역에서는한차례도쓰이지않는다.‘-라’,‘-ㄹ라’또한영덕,안동을중심으로주변지역에서주로쓰면서,안동지역에서는‘-라’,‘-ㄹ라’가‘-가’보다상대적으로높게나타난다.18)즉,‘5-가’,‘-나’는경북방언에서보편적으로쓰이는데반해,‘-다’,‘-라’,‘-ㄹ라’는경북중동동부방언에서주로쓰이는판정의문문이라할수있다.다음은,설명의문문이다.(94)ㄱ.“그래야야,니그거무슨소리고?언제?”(7-13:91/대구)ㄴ.“그래이상하다.그래어째넌이래왔노?\"(7-15:30/구미)ㄷ.“뭔말하도?”("
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0092",
+      "type": "context",
+      "source_pattern": {
+        "text": "표준형 질문의 시대성",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "냐는 전역 다수, 니는 당시 자료 희소. 오늘날 니 빈도 추정을 이 수치로 대신하지 않음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 144,
+          "quote": ",지역분포에있어서도전지역을아우르고있다.반면,현대구어에서주로쓰이는‘-니’는이당시에는그사용이많지않은것으로나타난다.2)해라체의문법종결어미의통사･의미적특성(1)-가/고‘-가/고’는계사와직접결합하여쓰이는특징을보인다.(96)ㄱ.“제비가갈대밭에갈대우에앉았는데니가제갈이가?\"(7-3:247/경주)ㄴ.“동생들이당체놀러도안오고이거이상하다.뻣깄나오짠택이고?”(7-14:40/달성)ㄷ.“니가주인이가?”(7-13:290/대구)ㄹ.“하이구야야,니가우짼일이고?”(7-13:284/대구)ㅁ.“니아무것이아이가?”(7-6:184/영덕)(96)의‘-가’,‘1-고’59)는앞서살펴본‘-ㄴ가’,‘-ㄴ고’와그쓰임이같다.다만,용언과는결합하는경우가없고,계사나지정사와결합하여쓰인다.특159)김병제(1965:165)에서는이형태는이야기하는사람이알고저하는사실에대한의문,추측을포함한의문,그리고주체의행동에대한주저또는상대편에대하여의논을제기할경"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0093",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -가",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-가",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "copula",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "question_type",
+          "op": "eq",
+          "value": "polar",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 144,
+          "quote": "그사용이많지않은것으로나타난다.2)해라체의문법종결어미의통사･의미적특성(1)-가/고‘-가/고’는계사와직접결합하여쓰이는특징을보인다.(96)ㄱ.“제비가갈대밭에갈대우에앉았는데니가제갈이가?\"(7-3:247/경주)ㄴ.“동생들이당체놀러도안오고이거이상하다.뻣깄나오짠택이고?”(7-14:40/달성)ㄷ.“니가주인이가?”(7-13:290/대구)ㄹ.“하이구야야,니가우짼일이고?”(7-13:284/대구)ㅁ.“니아무것이아이가?”(7-6:184/영덕)(96)의‘-가’,‘1-고’59)는앞서살펴본‘-ㄴ가’,‘-ㄴ고’와그쓰임이같다.다만,용언과는결합하는경우가없고,계사나지정사와결합하여쓰인다.특159)김병제(1965:165)에서는이형태는이야기하는사람이알고저하는사실에대한의문,추측을포함한의문,그리고주체의행동에대한주저또는상대편에대하여의논을제기할경우에쓰는것으로보았다.-132-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "계사 결합 기본 규칙. 아니다 방언 아이다도 해당. 있다/없다 기술의 본문 불일치와 나/노 예외 별도."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0094",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -고",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-고",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "copula",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "question_type",
+          "op": "eq",
+          "value": "content",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 144,
+          "quote": "대구)ㅁ.“니아무것이아이가?”(7-6:184/영덕)(96)의‘-가’,‘1-고’59)는앞서살펴본‘-ㄴ가’,‘-ㄴ고’와그쓰임이같다.다만,용언과는결합하는경우가없고,계사나지정사와결합하여쓰인다.특159)김병제(1965:165)에서는이형태는이야기하는사람이알고저하는사실에대한의문,추측을포함한의문,그리고주체의행동에대한주저또는상대편에대하여의논을제기할경우에쓰는것으로보았다.-132-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "계사 결합 기본 규칙. 아니다 방언 아이다도 해당. 있다/없다 기술의 본문 불일치와 나/노 예외 별도."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0095",
+      "type": "context",
+      "source_pattern": {
+        "text": "아이가 수사 질문",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "아이다+가는 수사의문 가능. 고 수사의문 미관찰은 이 자료의 관찰 한계",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 145,
+          "quote": "히,(96ㅁ)은‘아이다’1와결합하면서수사의문문의기능을갖기도한다.60)한편,‘-가’와‘-고’는물음말의유무에따라조사‘가’와‘고’를구별하여쓰는문법은중세어에서부터그모습을확인할수있으며,같은문법현상이동남방언과제주방언에에서나타난다.(이기갑2003:170)또한이방언권에서는지정사와결합하여쓰이면서앞서살펴본‘-ㄴ가’와‘-ㄴ고’와의등급에서그차이가난다.161)(2)-나/노‘-나/노’는‘-가/고’와는달리,용언과선어말어미와의결합이자유롭다.(97)ㄱ.“야,너집에는마커어데갔노,너아부지있나?”(7-6:425/영덕)ㄴ.“아,그래.꼭니가그말이옳나?”(7-14:527/달성)ㄷ.“그이사람아,그,그내코를말이여낫게한다디어째이래됐노?”(7-10:80/안동)ㄹ.“야들너그와그래시끄럽게하노?”(7-5:21/성주)ㅁ.“채찍에나오다니그멀언(무슨)말이노?”(7-7:790/영덕)(97)의‘-나/노’"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0096",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -나",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-나",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "in",
+          "value": [
+            "verb",
+            "adjective"
+          ],
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "question_type",
+          "op": "eq",
+          "value": "polar",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 145,
+          "quote": "쓰이면서앞서살펴본‘-ㄴ가’와‘-ㄴ고’와의등급에서그차이가난다.161)(2)-나/노‘-나/노’는‘-가/고’와는달리,용언과선어말어미와의결합이자유롭다.(97)ㄱ.“야,너집에는마커어데갔노,너아부지있나?”(7-6:425/영덕)ㄴ.“아,그래.꼭니가그말이옳나?”(7-14:527/달성)ㄷ.“그이사람아,그,그내코를말이여낫게한다디어째이래됐노?”(7-10:80/안동)ㄹ.“야들너그와그래시끄럽게하노?”(7-5:21/성주)ㅁ.“채찍에나오다니그멀언(무슨)말이노?”(7-7:790/영덕)(97)의‘-나/노’는‘느+아/오’의구조로,의문사의여부에따라설명의문문16과판정의문문으로쓰인다.2)또한(97ㄱ,ㄴ,ㄷ,ㄹ)에서보듯이,대부분160)이자료확인해본결과,‘-고’가결합하여수사의문문으로쓰이는예문은발견되지않는다.161)이와관련하여김태엽(1996:155-156)에서는‘-ㄴ-’의유무로예사높임과안높임의차이가나타가기때문에이를일종의"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "용언 어간 기본 규칙. 계사 직접 노 관찰 예외는 별도 진술."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0097",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -나",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-나",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "tense_aspect_suffix",
+          "op": "in",
+          "value": [
+            "-었-",
+            "-더-",
+            "-겠-"
+          ],
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "question_type",
+          "op": "eq",
+          "value": "polar",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 145,
+          "quote": "쓰이면서앞서살펴본‘-ㄴ가’와‘-ㄴ고’와의등급에서그차이가난다.161)(2)-나/노‘-나/노’는‘-가/고’와는달리,용언과선어말어미와의결합이자유롭다.(97)ㄱ.“야,너집에는마커어데갔노,너아부지있나?”(7-6:425/영덕)ㄴ.“아,그래.꼭니가그말이옳나?”(7-14:527/달성)ㄷ.“그이사람아,그,그내코를말이여낫게한다디어째이래됐노?”(7-10:80/안동)ㄹ.“야들너그와그래시끄럽게하노?”(7-5:21/성주)ㅁ.“채찍에나오다니그멀언(무슨)말이노?”(7-7:790/영덕)(97)의‘-나/노’는‘느+아/오’의구조로,의문사의여부에따라설명의문문16과판정의문문으로쓰인다.2)또한(97ㄱ,ㄴ,ㄷ,ㄹ)에서보듯이,대부분160)이자료확인해본결과,‘-고’가결합하여수사의문문으로쓰이는예문은발견되지않는다.161)이와관련하여김태엽(1996:155-156)에서는‘-ㄴ-’의유무로예사높임과안높임의차이가나타가기때문에이를일종의"
+        }
+      ],
+      "claim_status": "secondary_report",
+      "usability": "candidate",
+      "notes": "시상 었/더/겠 결합 시 체언 서술어도 나/노. 박종갑1999 재인용."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0098",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -노",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-노",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "in",
+          "value": [
+            "verb",
+            "adjective"
+          ],
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "question_type",
+          "op": "eq",
+          "value": "content",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 145,
+          "quote": "임소로추정하고있다.162)박종갑(1999:4-6)에서는‘-가,-고,-나,-노’네가지유형의실현제약을다음과같이밝히고있다.1.서술어에시상관련형태가통합되어있지않을때용언서술어의문사없음:-나/있음:-노체언서술어의문사없음:-가/있음:-고2.서술어에{엇}/{더}/{겠}등의형태가통합되어있을때의문사없음:-나의문사있음:-노-133-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "용언 어간 기본 규칙. 계사 직접 노 관찰 예외는 별도 진술."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0099",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -노",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-노",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "tense_aspect_suffix",
+          "op": "in",
+          "value": [
+            "-었-",
+            "-더-",
+            "-겠-"
+          ],
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "question_type",
+          "op": "eq",
+          "value": "content",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 145,
+          "quote": "임소로추정하고있다.162)박종갑(1999:4-6)에서는‘-가,-고,-나,-노’네가지유형의실현제약을다음과같이밝히고있다.1.서술어에시상관련형태가통합되어있지않을때용언서술어의문사없음:-나/있음:-노체언서술어의문사없음:-가/있음:-고2.서술어에{엇}/{더}/{겠}등의형태가통합되어있을때의문사없음:-나의문사있음:-노-133-"
+        }
+      ],
+      "claim_status": "secondary_report",
+      "usability": "candidate",
+      "notes": "시상 었/더/겠 결합 시 체언 서술어도 나/노. 박종갑1999 재인용."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0100",
+      "type": "inflection",
+      "source_pattern": {
+        "text": "말이다",
+        "domain": "dialect",
+        "lemma": "말이다",
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "말이노",
+        "domain": "dialect",
+        "lemma": "말이다",
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "lemma",
+          "op": "eq",
+          "value": "말이다",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "ending",
+          "op": "eq",
+          "value": "-노",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "question_type",
+          "op": "eq",
+          "value": "content",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "영덕"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 145,
+          "quote": "그와그래시끄럽게하노?”(7-5:21/성주)ㅁ.“채찍에나오다니그멀언(무슨)말이노?”(7-7:790/영덕)(97)의‘-나/노’는‘느+아/오’의구조로,의문사의여부에따라설명의문문16과판정의문문으로쓰인다.2)또한(97ㄱ,ㄴ,ㄷ,ㄹ)에서보듯이,대부분160)이자료확인해본결과,‘-고’가결합하여수사의문문으로쓰이는예문은발견되지않는다.161)이와관련하여김태엽(1996:155-156)에서는‘-ㄴ-’의유무로예사높임과안높임의차이가나타가기때문에이를일종의청자높임소로추정하고있다.162)박종갑(1999:4-6)에서는‘-가,-고,-나,-노’네가지유형의실현제약을다음과같이밝히고있다.1.서술어에시상관련형태가통합되어있지않을때용언서술어의문사없음:-나/있음:-노체언서술어의문사없음:-가/있음:-고2.서술어에{엇}/{더}/{겠}등의형태가통합되어있을때의문사없음:-나의문사있음:-노-133-"
+        }
+      ],
+      "claim_status": "attested_example",
+      "usability": "candidate",
+      "notes": "영덕 예문. 계사 뒤 노 예외이며 계사 뒤 나도 자동 허용하는 근거가 아님."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0101",
+      "type": "context",
+      "source_pattern": {
+        "text": "계사 뒤 노 예외",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "계사에는 가/고 우세지만 노 결합도 실제 관찰, 나 결합은 미관찰. 이전 시기 사용 가능성은 저자 가설",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 146,
+          "quote": "용언과자연스럽게결합하여쓰이는경우가대부분이다.그러나일부용례에서는‘-노’가계사와결합하여쓰이기도한다(97ㅁ).계사와결합할경우,대부분은‘-가/고’를주로쓰지만,이시기전에는‘-나/노’또한계사와결합하여쓰였을가능성도보인다.163)한편,‘-나/노’에대한통시적분석에는다양한견해가있다.먼저,서태룡(1985b)에서는‘느+아’(동사통합형),‘은+아’(형용사통합형),서정목(1987:44)에서는‘​+니+아/오’,김태엽(1996:153)에서는‘느+아’,고영근(1974),이현희(1982)에서는‘-​가’​의응축형으로분석하였다.(3)-다/도,-데이(98)ㄱ.돈이주머이에엽전한개라카다?(7-1:328/경주)ㄴ.“가가뭐라카노?거밑에꺼달라고안카다?”(7-9:83/안동)ㄷ.“아누가그카도?”(7-3:85/경주)ㄹ.“머라크도?”(7-2:162/경주)ㅁ.“자네는우리둘이앞서와놓이,디에따라오미맘이어떻도?”(7-1:396)ㅂ."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:interrogative:0102",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -다",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "question_type",
+          "op": "eq",
+          "value": "polar",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 146,
+          "quote": "1974),이현희(1982)에서는‘-​가’​의응축형으로분석하였다.(3)-다/도,-데이(98)ㄱ.돈이주머이에엽전한개라카다?(7-1:328/경주)ㄴ.“가가뭐라카노?거밑에꺼달라고안카다?”(7-9:83/안동)ㄷ.“아누가그카도?”(7-3:85/경주)ㄹ.“머라크도?”(7-2:162/경주)ㅁ.“자네는우리둘이앞서와놓이,디에따라오미맘이어떻도?”(7-1:396)ㅂ.“니가우이(어째)마음변했나와이레커데이?”(7-13:427/대구)(98)의‘-다/도’는표준형의‘-디’,‘-더냐’에대응되는데,대부분동사어간과직접결합하여쓰이는경우가대부분인데,형용사어간과결합하는경우도보인다(98ㅁ).164)또한‘-가/고’,‘-나/노’와마찬가지로의문사의여부에따라판정의문문과설명의문문으로쓰인다.한편,(98ㅂ)의‘-데이’는서술법에서나타나는데,문말의억양과의문사‘왜(와)’와공기하면서의문법으로쓰이고있다.동사‘카다’에결합하는것으로보아‘-다"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "표준어 디/더냐 대응. 동사 직접, 도는 형용사 예도 있음; 다 형용사 미관찰."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0103",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -도",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-도",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "question_type",
+          "op": "eq",
+          "value": "content",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 146,
+          "quote": "했나와이레커데이?”(7-13:427/대구)(98)의‘-다/도’는표준형의‘-디’,‘-더냐’에대응되는데,대부분동사어간과직접결합하여쓰이는경우가대부분인데,형용사어간과결합하는경우도보인다(98ㅁ).164)또한‘-가/고’,‘-나/노’와마찬가지로의문사의여부에따라판정의문문과설명의문문으로쓰인다.한편,(98ㅂ)의‘-데이’는서술법에서나타나는데,문말의억양과의문사‘왜(와)’와공기하면서의문법으로쓰이고있다.동사‘카다’에결합하는것으로보아‘-다’에‘-이’가결합하여일종의강조를나타내는것으로보이나,‘-다’는의문사없이판정의문문으로쓰이므로그조건이다르다.그러므로163)‘-나’를쓰는경우는발견되지않는다.164)‘-다’가형용사어간과결합하는경우는자료에서발견되지않는다.-134-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "표준어 디/더냐 대응. 동사 직접, 도는 형용사 예도 있음; 다 형용사 미관찰."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0104",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -데이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-데이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "question_type",
+          "op": "eq",
+          "value": "content",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 146,
+          "quote": ",이현희(1982)에서는‘-​가’​의응축형으로분석하였다.(3)-다/도,-데이(98)ㄱ.돈이주머이에엽전한개라카다?(7-1:328/경주)ㄴ.“가가뭐라카노?거밑에꺼달라고안카다?”(7-9:83/안동)ㄷ.“아누가그카도?”(7-3:85/경주)ㄹ.“머라크도?”(7-2:162/경주)ㅁ.“자네는우리둘이앞서와놓이,디에따라오미맘이어떻도?”(7-1:396)ㅂ.“니가우이(어째)마음변했나와이레커데이?”(7-13:427/대구)(98)의‘-다/도’는표준형의‘-디’,‘-더냐’에대응되는데,대부분동사어간과직접결합하여쓰이는경우가대부분인데,형용사어간과결합하는경우도보인다(98ㅁ).164)또한‘-가/고’,‘-나/노’와마찬가지로의문사의여부에따라판정의문문과설명의문문으로쓰인다.한편,(98ㅂ)의‘-데이’는서술법에서나타나는데,문말의억양과의문사‘왜(와)’와공기하면서의문법으로쓰이고있다.동사‘카다’에결합하는것으로보아‘-다’에‘-이"
+        }
+      ],
+      "claim_status": "attested_example",
+      "usability": "reference_only",
+      "notes": "카다 결합 및 와 공기1례. 저자가 음성 확인했으나 단일 사례의 일반화는 유보."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0105",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -라",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-라",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "copula",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "question_type",
+          "op": "eq",
+          "value": "polar",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 147,
+          "quote": "1단순히억양에의한차이만나타난다.65)(4)-라/로,-ㄹ라/ㄹ로(99)ㄱ.그어른,부처손가락끊어온어른이목사(牧使)라?(7-9:270/안동)ㄴ.“그래어디서오는손님이로?”(7-7:87/영덕)ㄷ.영해거무신(무슨)말(마을)이라?(7-2:330/경주)ㄹ.“이놈우맥을봐도아무래도대지(大地)고,그뭐봐도대진데어어쩐일이라?”(7-2:359/봉화)ㅁ.“당신도한분써볼라?”(7-8:148/상주)ㅂ.“잔채집에뭐야없을라?”(7-2:634/봉화)ㅅ.얼매나고상이많을로?(7-10:627/봉화)(99ㄱ,ㄴ)의‘-라/로’는‘-가/고’와같이,의문사의여부에따라판정의문문과설명의문문으로쓰인다.최명옥(1980:74)에서는이‘-라/로’는‘-가/고’와발생조건이나기능이같다고언급하고있지만,(99ㄷ,ㄹ)은의문사(무슨,어쩐)와공기하면서‘-라’가동일한기능으로쓰이지않고있다.이‘-라’는설명의문문의‘-고’로대치하"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "계사와 결합. 라는 설명 질문 예외도 있어 아/오 일대일 강제 금지."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0106",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -로",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "copula",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "question_type",
+          "op": "eq",
+          "value": "content",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 147,
+          "quote": "문의‘-고’로대치하여도문장의의미가변하지않는다.또한자료에서발견된모든예문에서계사와결합하는특성을보인다.즉,의문사의여부로‘-가/고’,‘-나/노’로구분되는것과는그기원이나통시적변화가다름을짐작할수있다.그중한가지는,표준형의‘-래’가이지역에서‘-라’로변화하여쓰였을가능성이다.표준어에서쓰이는‘-래’는계사나‘아니다’와결합하여쓰이는데,이‘-라’가쓰이는환경과동일하기때문이다.물론,통시적으로변화했을가능성도충분히존재한다.(99ㅂ,ㅅ)의‘-ㄹ라/ㄹ로’는용언어간과매개모음이결합하며,수사의문문으로쓰이는경우이다.165)음성자료를확인해본결과,의문법으로쓰인것을확인하였다.그러나이예문은한차례만나타나므로그런판단을하기에는무리가있다.-135-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "계사와 결합. 라는 설명 질문 예외도 있어 아/오 일대일 강제 금지."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0107",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -라",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-라",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "copula",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "question_type",
+          "op": "eq",
+          "value": "content",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 147,
+          "quote": "1단순히억양에의한차이만나타난다.65)(4)-라/로,-ㄹ라/ㄹ로(99)ㄱ.그어른,부처손가락끊어온어른이목사(牧使)라?(7-9:270/안동)ㄴ.“그래어디서오는손님이로?”(7-7:87/영덕)ㄷ.영해거무신(무슨)말(마을)이라?(7-2:330/경주)ㄹ.“이놈우맥을봐도아무래도대지(大地)고,그뭐봐도대진데어어쩐일이라?”(7-2:359/봉화)ㅁ.“당신도한분써볼라?”(7-8:148/상주)ㅂ.“잔채집에뭐야없을라?”(7-2:634/봉화)ㅅ.얼매나고상이많을로?(7-10:627/봉화)(99ㄱ,ㄴ)의‘-라/로’는‘-가/고’와같이,의문사의여부에따라판정의문문과설명의문문으로쓰인다.최명옥(1980:74)에서는이‘-라/로’는‘-가/고’와발생조건이나기능이같다고언급하고있지만,(99ㄷ,ㄹ)은의문사(무슨,어쩐)와공기하면서‘-라’가동일한기능으로쓰이지않고있다.이‘-라’는설명의문문의‘-고’로대치하"
+        }
+      ],
+      "claim_status": "attested_example",
+      "usability": "candidate",
+      "notes": "무슨/어쩐과 공기한 설명 질문. 라=판정만이라는 과잉 일반화의 반례."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0108",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㄹ라",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄹ라",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 147,
+          "quote": "1단순히억양에의한차이만나타난다.65)(4)-라/로,-ㄹ라/ㄹ로(99)ㄱ.그어른,부처손가락끊어온어른이목사(牧使)라?(7-9:270/안동)ㄴ.“그래어디서오는손님이로?”(7-7:87/영덕)ㄷ.영해거무신(무슨)말(마을)이라?(7-2:330/경주)ㄹ.“이놈우맥을봐도아무래도대지(大地)고,그뭐봐도대진데어어쩐일이라?”(7-2:359/봉화)ㅁ.“당신도한분써볼라?”(7-8:148/상주)ㅂ.“잔채집에뭐야없을라?”(7-2:634/봉화)ㅅ.얼매나고상이많을로?(7-10:627/봉화)(99ㄱ,ㄴ)의‘-라/로’는‘-가/고’와같이,의문사의여부에따라판정의문문과설명의문문으로쓰인다.최명옥(1980:74)에서는이‘-라/로’는‘-가/고’와발생조건이나기능이같다고언급하고있지만,(99ㄷ,ㄹ)은의문사(무슨,어쩐)와공기하면서‘-라’가동일한기능으로쓰이지않고있다.이‘-라’는설명의문문의‘-고’로대치하여도문장의"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "용언 어간+매개모음, 수사의문 관찰. 써볼라의 행동 제안 등 문맥을 함께 확인."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0109",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㄹ로",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄹ로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 147,
+          "quote": "충분히존재한다.(99ㅂ,ㅅ)의‘-ㄹ라/ㄹ로’는용언어간과매개모음이결합하며,수사의문문으로쓰이는경우이다.165)음성자료를확인해본결과,의문법으로쓰인것을확인하였다.그러나이예문은한차례만나타나므로그런판단을하기에는무리가있다.-135-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "용언 어간+매개모음, 수사의문 관찰. 써볼라의 행동 제안 등 문맥을 함께 확인."
+    },
+    {
+      "id": "JO2018:v2:interrogative:0110",
+      "type": "context",
+      "source_pattern": {
+        "text": "라 기원의 가설",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "표준 래→라 변화 가능성. 통시 변화는 확정 사실이 아님",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 147,
+          "quote": "짐작할수있다.그중한가지는,표준형의‘-래’가이지역에서‘-라’로변화하여쓰였을가능성이다.표준어에서쓰이는‘-래’는계사나‘아니다’와결합하여쓰이는데,이‘-라’가쓰이는환경과동일하기때문이다.물론,통시적으로변화했을가능성도충분히존재한다.(99ㅂ,ㅅ)의‘-ㄹ라/ㄹ로’는용언어간과매개모음이결합하며,수사의문문으로쓰이는경우이다.165)음성자료를확인해본결과,의문법으로쓰인것을확인하였다.그러나이예문은한차례만나타나므로그런판단을하기에는무리가있다.-135-"
+        }
+      ],
+      "claim_status": "author_hypothesis",
+      "usability": "reference_only",
+      "notes": ""
+    }
+  ]
+}

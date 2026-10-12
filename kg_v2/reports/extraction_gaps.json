@@ -1,0 +1,1976 @@
+{
+  "gap_pages": 79,
+  "pages": [
+    {
+      "source_id": "JO2018",
+      "pdf_page": 250,
+      "disposition": "context",
+      "fact_ids": [
+        "JO2018:v2:appendix:0002",
+        "JO2018:v2:appendix:0003",
+        "JO2018:v2:gap_review:0385",
+        "JO2018:v2:gap_review:0386",
+        "JO2018:v2:gap_review:0387",
+        "JO2018:v2:gap_review:0388",
+        "JO2018:v2:gap_review:0389",
+        "JO2018:v2:gap_review:0390",
+        "JO2018:v2:gap_review:0391",
+        "JO2018:v2:gap_review:0392",
+        "JO2018:v2:gap_review:0393",
+        "JO2018:v2:gap_review:0394",
+        "JO2018:v2:gap_review:0395",
+        "JO2018:v2:gap_review:0396",
+        "JO2018:v2:gap_review:0397",
+        "JO2018:v2:gap_review:0398",
+        "JO2018:v2:gap_review:0399",
+        "JO2018:v2:gap_review:0400",
+        "JO2018:v2:gap_review:0401",
+        "JO2018:v2:gap_review:0402",
+        "JO2018:v2:gap_review:0403",
+        "JO2018:v2:gap_review:0404",
+        "JO2018:v2:gap_review:0405"
+      ],
+      "note": "부록1 권책별 모든 지역·제보자 셀과 부록2 성별·연령별 모든 셀을 이미지와 대조하여 구조화.",
+      "gaps": [
+        "부록2 남자 셀 합382/합계381 및 60대 성별합260/인쇄259 불일치. 원자료 없이는 올바른 수치 정정 불가. 부록1 총편수3167과 본문 자료 개요 집계 범위 차이도 미상."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 252,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:appendix:0006",
+        "JO2018:v2:appendix:0007",
+        "JO2018:v2:gap_review:0248",
+        "JO2018:v2:gap_review:0249",
+        "JO2018:v2:gap_review:0250",
+        "JO2018:v2:gap_review:0251",
+        "JO2018:v2:gap_review:0252",
+        "JO2018:v2:gap_review:0253",
+        "JO2018:v2:gap_review:0254",
+        "JO2018:v2:gap_review:0255"
+      ],
+      "note": "부록의 해당 페이지 모든 연구자별 높임등급·형태 셀을 원본 이미지와 대조하여 묶음 참고 사실로 구조화. 페이지 경계의 연구자 소유와 병합 셀 확인. 개별 어미를 새로운 생성 규칙으로 일반화하지 않음.",
+      "gaps": [
+        "배대온 행의 옛한글 특수글자 를 PDF 추출 코드대로 보존. 원전 음가/현대 문자 치환은 확정하지 않음."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 253,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:appendix:0008",
+        "JO2018:v2:appendix:0009",
+        "JO2018:v2:appendix:0010",
+        "JO2018:v2:gap_review:0256",
+        "JO2018:v2:gap_review:0257",
+        "JO2018:v2:gap_review:0258",
+        "JO2018:v2:gap_review:0259",
+        "JO2018:v2:gap_review:0260",
+        "JO2018:v2:gap_review:0261",
+        "JO2018:v2:gap_review:0262",
+        "JO2018:v2:gap_review:0263",
+        "JO2018:v2:gap_review:0264"
+      ],
+      "note": "부록의 해당 페이지 모든 연구자별 높임등급·형태 셀을 원본 이미지와 대조하여 묶음 참고 사실로 구조화. 페이지 경계의 연구자 소유와 병합 셀 확인. 개별 어미를 새로운 생성 규칙으로 일반화하지 않음.",
+      "gaps": [
+        "박창원 행의 -이끄요 특수글자를 추출 코드로 보존. 음가/현대 문자 치환은 미확정."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 257,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:appendix:0018",
+        "JO2018:v2:appendix:0019",
+        "JO2018:v2:gap_review:0291",
+        "JO2018:v2:gap_review:0292",
+        "JO2018:v2:gap_review:0293",
+        "JO2018:v2:gap_review:0294",
+        "JO2018:v2:gap_review:0295",
+        "JO2018:v2:gap_review:0296",
+        "JO2018:v2:gap_review:0297",
+        "JO2018:v2:gap_review:0298",
+        "JO2018:v2:gap_review:0299"
+      ],
+      "note": "부록의 해당 페이지 모든 연구자별 높임등급·형태 셀을 원본 이미지와 대조하여 묶음 참고 사실로 구조화. 페이지 경계의 연구자 소유와 병합 셀 확인. 개별 어미를 새로운 생성 규칙으로 일반화하지 않음.",
+      "gaps": [
+        "배대온 행 -껴의 특수글자를 추출 코드로 보존. 원전의 정확한 음가/현대 문자 치환 미확정."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 258,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:appendix:0020",
+        "JO2018:v2:appendix:0021",
+        "JO2018:v2:gap_review:0299",
+        "JO2018:v2:gap_review:0300",
+        "JO2018:v2:gap_review:0301",
+        "JO2018:v2:gap_review:0302",
+        "JO2018:v2:gap_review:0303",
+        "JO2018:v2:gap_review:0304",
+        "JO2018:v2:gap_review:0305",
+        "JO2018:v2:gap_review:0306",
+        "JO2018:v2:gap_review:0307"
+      ],
+      "note": "부록의 해당 페이지 모든 연구자별 높임등급·형태 셀을 원본 이미지와 대조하여 묶음 참고 사실로 구조화. 페이지 경계의 연구자 소유와 병합 셀 확인. 개별 어미를 새로운 생성 규칙으로 일반화하지 않음.",
+      "gaps": [
+        "박창원 행 -라의 특수글자를 추출 코드로 보존. 원전 음가/현대 문자 치환 미확정."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 261,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:appendix:0028",
+        "JO2018:v2:appendix:0029",
+        "JO2018:v2:appendix:0030",
+        "JO2018:v2:gap_review:0330",
+        "JO2018:v2:gap_review:0331",
+        "JO2018:v2:gap_review:0332",
+        "JO2018:v2:gap_review:0333",
+        "JO2018:v2:gap_review:0334",
+        "JO2018:v2:gap_review:0335",
+        "JO2018:v2:gap_review:0336",
+        "JO2018:v2:gap_review:0337",
+        "JO2018:v2:gap_review:0338",
+        "JO2018:v2:gap_review:0339",
+        "JO2018:v2:gap_review:0340",
+        "JO2018:v2:gap_review:0341"
+      ],
+      "note": "부록의 해당 페이지 모든 연구자별 높임등급·형태 셀을 원본 이미지와 대조하여 묶음 참고 사실로 구조화. 페이지 경계의 연구자 소유와 병합 셀 확인. 개별 어미를 새로운 생성 규칙으로 일반화하지 않음.",
+      "gaps": [
+        "배대온 행 -데의 특수글자를 추출 코드로 보존. 원전 음가/현대 문자 치환 미확정."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 81,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:declarative:0043",
+        "JO2018:v2:gap_review:0001",
+        "JO2018:v2:gap_review:0002",
+        "JO2018:v2:gap_review:0003",
+        "JO2018:v2:gap_review:0004",
+        "JO2018:v2:gap_review:0005",
+        "JO2018:v2:gap_review:0006",
+        "JO2018:v2:gap_review:0007",
+        "JO2018:v2:gap_review:0008",
+        "JO2018:v2:gap_review:0009",
+        "JO2018:v2:gap_review:0010",
+        "JO2018:v2:gap_review:0011",
+        "JO2018:v2:gap_review:0012",
+        "JO2018:v2:gap_review:0013",
+        "JO2018:v2:gap_review:0014",
+        "JO2018:v2:gap_review:0015",
+        "JO2018:v2:gap_review:0016",
+        "JO2018:v2:gap_review:0017",
+        "JO2018:v2:gap_review:0018"
+      ],
+      "note": "표 14 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화.",
+      "gaps": [
+        "원본 표14 자체의 합계 불일치: 니더 두 행 합1880/소계1888, 니다행5946+236/소계6183, 디다행161+8/소계176, (옵)나이다행7/소계176. 원자료 집계 없이는 정정 불가."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 96,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:declarative:0076",
+        "JO2018:v2:gap_review:0019",
+        "JO2018:v2:gap_review:0020",
+        "JO2018:v2:gap_review:0021",
+        "JO2018:v2:gap_review:0022"
+      ],
+      "note": "표 16 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화.",
+      "gaps": [
+        "표16 유형 칸은 구마·구매까지 표준형으로 합쳐 표시하지만 본문은 구마를 방언형이라 함. 본문의 성주 중심 일반화와 표의 군위97·성주9 차이를 보존."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 102,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:declarative:0090",
+        "JO2018:v2:gap_review:0023",
+        "JO2018:v2:gap_review:0024",
+        "JO2018:v2:gap_review:0025",
+        "JO2018:v2:gap_review:0026",
+        "JO2018:v2:gap_review:0027",
+        "JO2018:v2:gap_review:0028",
+        "JO2018:v2:gap_review:0029",
+        "JO2018:v2:gap_review:0030"
+      ],
+      "note": "표 18 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화.",
+      "gaps": [
+        "표18 -ㅅ세 경주 셀은 빈칸. 군위1·영덕1도 있는데 본문은 안동·예천·봉화에서만 발견된다고 서술. 배타 지역 규칙으로 쓸 수 없음."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 111,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:declarative:0112",
+        "JO2018:v2:gap_review:0031",
+        "JO2018:v2:gap_review:0032",
+        "JO2018:v2:gap_review:0033",
+        "JO2018:v2:gap_review:0034",
+        "JO2018:v2:gap_review:0035",
+        "JO2018:v2:gap_review:0036",
+        "JO2018:v2:gap_review:0037",
+        "JO2018:v2:gap_review:0038",
+        "JO2018:v2:gap_review:0039",
+        "JO2018:v2:gap_review:0040"
+      ],
+      "note": "표 20 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화.",
+      "gaps": [
+        "표20 -꾸마 인쇄 행합163/소계164 불일치. 지역 셀 합은163이므로 소계를 자동 정정하지 않고 두 값을 보존."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 177,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:hortative:0022",
+        "JO2018:v2:gap_review:0120",
+        "JO2018:v2:gap_review:0121",
+        "JO2018:v2:gap_review:0122",
+        "JO2018:v2:gap_review:0123",
+        "JO2018:v2:gap_review:0124"
+      ],
+      "note": "표 40 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화.",
+      "gaps": [
+        "표40 -ㅂ시다 지역합663/행합663이나 소계712. 원자료가 없어 소계 오류 여부 확정 불가."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 189,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:hortative:0036",
+        "JO2018:v2:gap_review:0127",
+        "JO2018:v2:gap_review:0128",
+        "JO2018:v2:gap_review:0129"
+      ],
+      "note": "표 44 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화.",
+      "gaps": [
+        "표44는 -제만 별도 행으로 집계하며 본문·예149ㄹㅁ의 -제이/-재이 별도 빈도는 제공하지 않음. -제 합계에 포함 여부 미상."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 150,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:imperative:0035",
+        "JO2018:v2:gap_review:0084",
+        "JO2018:v2:gap_review:0085",
+        "JO2018:v2:gap_review:0086",
+        "JO2018:v2:gap_review:0087",
+        "JO2018:v2:gap_review:0088"
+      ],
+      "note": "표 30 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화.",
+      "gaps": [
+        "표30 방언형 행합1028+124와 소계2598 불일치. 원본도 같은 수치이므로 추출오류로 취급하지 않음."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 157,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:imperative:0042",
+        "JO2018:v2:gap_review:0089",
+        "JO2018:v2:gap_review:0090",
+        "JO2018:v2:gap_review:0091"
+      ],
+      "note": "표 32 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화.",
+      "gaps": [
+        "표32 두 행1440+6과 소계2598 불일치."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 165,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:imperative:0051",
+        "JO2018:v2:gap_review:0104",
+        "JO2018:v2:gap_review:0105",
+        "JO2018:v2:gap_review:0106",
+        "JO2018:v2:gap_review:0107",
+        "JO2018:v2:gap_review:0108",
+        "JO2018:v2:gap_review:0109",
+        "JO2018:v2:gap_review:0110",
+        "JO2018:v2:gap_review:0111",
+        "JO2018:v2:gap_review:0112",
+        "JO2018:v2:gap_review:0113",
+        "JO2018:v2:gap_review:0114",
+        "JO2018:v2:gap_review:0115"
+      ],
+      "note": "표 36 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화.",
+      "gaps": [
+        "본문은 -느라가 서부 미출현이라 하나 표36 구미1·달성1이 있고 예117ㅂ도 구미. 해당 배제 일반화 확정 불가."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 195,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:informal:0097",
+        "JO2018:v2:gap_review:0130",
+        "JO2018:v2:gap_review:0131",
+        "JO2018:v2:gap_review:0132",
+        "JO2018:v2:gap_review:0133",
+        "JO2018:v2:gap_review:0134",
+        "JO2018:v2:gap_review:0135",
+        "JO2018:v2:gap_review:0136",
+        "JO2018:v2:gap_review:0137",
+        "JO2018:v2:gap_review:0138",
+        "JO2018:v2:gap_review:0139",
+        "JO2018:v2:gap_review:0140",
+        "JO2018:v2:gap_review:0141"
+      ],
+      "note": "표 46 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화.",
+      "gaps": [
+        "표46 -래이 지역합2943/행합2938/소계2943, -ㄴ데 지역합8320/행합7893(봉화427 차이) 불일치. -제이 구미1 이외 셀·행합은 빈칸. -래/-래이 표기와 이어지는 분포 서술도 불일치하여 임의 수정하지 않음."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 204,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:informal:0106",
+        "JO2018:v2:gap_review:0149",
+        "JO2018:v2:gap_review:0150",
+        "JO2018:v2:gap_review:0151",
+        "JO2018:v2:gap_review:0152",
+        "JO2018:v2:gap_review:0153",
+        "JO2018:v2:gap_review:0154",
+        "JO2018:v2:gap_review:0155",
+        "JO2018:v2:gap_review:0156",
+        "JO2018:v2:gap_review:0157",
+        "JO2018:v2:gap_review:0158",
+        "JO2018:v2:gap_review:0159",
+        "JO2018:v2:gap_review:0160",
+        "JO2018:v2:gap_review:0161",
+        "JO2018:v2:gap_review:0162",
+        "JO2018:v2:gap_review:0163",
+        "JO2018:v2:gap_review:0164",
+        "JO2018:v2:gap_review:0165",
+        "JO2018:v2:gap_review:0166",
+        "JO2018:v2:gap_review:0167"
+      ],
+      "note": "표 48 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화.",
+      "gaps": [
+        "표48 해요체 인쇄 소계11776은 행합 합산과 일치하지 않음. 인쇄값 보존; 현재 발화빈도나 비율로 사용 불가."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 209,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:informal:0111",
+        "JO2018:v2:gap_review:0171",
+        "JO2018:v2:gap_review:0172",
+        "JO2018:v2:gap_review:0173",
+        "JO2018:v2:gap_review:0174",
+        "JO2018:v2:gap_review:0175",
+        "JO2018:v2:gap_review:0176",
+        "JO2018:v2:gap_review:0177"
+      ],
+      "note": "표 50 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화.",
+      "gaps": [
+        "본문의 -께 상주·예천 및 -지러 경주 실현은 배타적 분포가 아님. 표50 -께는 여러 지역에서 관찰, -지러 군위·영덕·안동도 관찰."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 214,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:informal:0116",
+        "JO2018:v2:gap_review:0178",
+        "JO2018:v2:gap_review:0179",
+        "JO2018:v2:gap_review:0180",
+        "JO2018:v2:gap_review:0181",
+        "JO2018:v2:gap_review:0182",
+        "JO2018:v2:gap_review:0183",
+        "JO2018:v2:gap_review:0184",
+        "JO2018:v2:gap_review:0185",
+        "JO2018:v2:gap_review:0186",
+        "JO2018:v2:gap_review:0187",
+        "JO2018:v2:gap_review:0188",
+        "JO2018:v2:gap_review:0189",
+        "JO2018:v2:gap_review:0190",
+        "JO2018:v2:gap_review:0191",
+        "JO2018:v2:gap_review:0192",
+        "JO2018:v2:gap_review:0193",
+        "JO2018:v2:gap_review:0194",
+        "JO2018:v2:gap_review:0195",
+        "JO2018:v2:gap_review:0196",
+        "JO2018:v2:gap_review:0197",
+        "JO2018:v2:gap_review:0198",
+        "JO2018:v2:gap_review:0199",
+        "JO2018:v2:gap_review:0200",
+        "JO2018:v2:gap_review:0201"
+      ],
+      "note": "표 52 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화.",
+      "gaps": [
+        "표52 -가예의 지역 셀1+1+2=4이나 인쇄 행합1. 해예체 소계29(p215)는 인쇄 행합18+1+2+3+5와 일치하며 지역 셀 합32와 다름. 원문 행합·소계는 고치지 않음."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 219,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:informal:0078",
+        "JO2018:v2:informal:0079",
+        "JO2018:v2:informal:0080",
+        "JO2018:v2:informal:0081",
+        "JO2018:v2:informal:0082",
+        "JO2018:v2:informal:0083",
+        "JO2018:v2:informal:0084",
+        "JO2018:v2:informal:0121",
+        "JO2018:v2:gap_review:0203",
+        "JO2018:v2:gap_review:0204",
+        "JO2018:v2:gap_review:0205",
+        "JO2018:v2:gap_review:0206",
+        "JO2018:v2:gap_review:0207",
+        "JO2018:v2:gap_review:0208",
+        "JO2018:v2:gap_review:0209",
+        "JO2018:v2:gap_review:0210"
+      ],
+      "note": "표 54 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화.",
+      "gaps": [
+        "표54 -ㅂ시요 구미는 빈칸. 본문은 예형 미출현이라고 하나 표53·54는 -지예 달성1을 제시. -예 계열 전체 배제 불가."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 227,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:informal:0129",
+        "JO2018:v2:gap_review:0216",
+        "JO2018:v2:gap_review:0217",
+        "JO2018:v2:gap_review:0218",
+        "JO2018:v2:gap_review:0219",
+        "JO2018:v2:gap_review:0220",
+        "JO2018:v2:gap_review:0221",
+        "JO2018:v2:gap_review:0222",
+        "JO2018:v2:gap_review:0223",
+        "JO2018:v2:gap_review:0224",
+        "JO2018:v2:gap_review:0225",
+        "JO2018:v2:gap_review:0226",
+        "JO2018:v2:gap_review:0227",
+        "JO2018:v2:gap_review:0228",
+        "JO2018:v2:gap_review:0229",
+        "JO2018:v2:gap_review:0230",
+        "JO2018:v2:gap_review:0231",
+        "JO2018:v2:gap_review:0232",
+        "JO2018:v2:gap_review:0233",
+        "JO2018:v2:gap_review:0234",
+        "JO2018:v2:gap_review:0235",
+        "JO2018:v2:gap_review:0236",
+        "JO2018:v2:gap_review:0237"
+      ],
+      "note": "표57 유형·등급별 인쇄 비율 전부 구조화. 어미 목록과 서부/동부 칸은 본문 표와 기존 어미 사실을 대조.",
+      "gaps": [
+        "표57의 인쇄 비율은 원 집계 오류를 해소하지 못함. 하이소체 명령81.3% 등은 표30의2598 소계에 의존한 것으로 보여 검증된 사용률 아님."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 228,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:informal:0130",
+        "JO2018:v2:gap_review:0222",
+        "JO2018:v2:gap_review:0223",
+        "JO2018:v2:gap_review:0224",
+        "JO2018:v2:gap_review:0225",
+        "JO2018:v2:gap_review:0226",
+        "JO2018:v2:gap_review:0227",
+        "JO2018:v2:gap_review:0228",
+        "JO2018:v2:gap_review:0229",
+        "JO2018:v2:gap_review:0230",
+        "JO2018:v2:gap_review:0231",
+        "JO2018:v2:gap_review:0232",
+        "JO2018:v2:gap_review:0233",
+        "JO2018:v2:gap_review:0234",
+        "JO2018:v2:gap_review:0235",
+        "JO2018:v2:gap_review:0236",
+        "JO2018:v2:gap_review:0237"
+      ],
+      "note": "표57 유형·등급별 인쇄 비율 전부 구조화. 어미 목록과 서부/동부 칸은 본문 표와 기존 어미 사실을 대조.",
+      "gaps": [
+        "표57의 인쇄 비율은 원 집계 오류를 해소하지 못함. 하이소체 명령81.3% 등은 표30의2598 소계에 의존한 것으로 보여 검증된 사용률 아님."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 121,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:interrogative:0024",
+        "JO2018:v2:gap_review:0041",
+        "JO2018:v2:gap_review:0042",
+        "JO2018:v2:gap_review:0043",
+        "JO2018:v2:gap_review:0044",
+        "JO2018:v2:gap_review:0045",
+        "JO2018:v2:gap_review:0046",
+        "JO2018:v2:gap_review:0047",
+        "JO2018:v2:gap_review:0048",
+        "JO2018:v2:gap_review:0049",
+        "JO2018:v2:gap_review:0050",
+        "JO2018:v2:gap_review:0051",
+        "JO2018:v2:gap_review:0052",
+        "JO2018:v2:gap_review:0053",
+        "JO2018:v2:gap_review:0054"
+      ],
+      "note": "표 22 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화.",
+      "gaps": [
+        "표22 -ㅂ니껴 구미2도 있으므로 본문의 남서부 비관찰을 껴 계열 전체 금지로 일반화 불가."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 129,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:interrogative:0047",
+        "JO2018:v2:gap_review:0055",
+        "JO2018:v2:gap_review:0056",
+        "JO2018:v2:gap_review:0057",
+        "JO2018:v2:gap_review:0058",
+        "JO2018:v2:gap_review:0059",
+        "JO2018:v2:gap_review:0060",
+        "JO2018:v2:gap_review:0061",
+        "JO2018:v2:gap_review:0062"
+      ],
+      "note": "표 24 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화.",
+      "gaps": [
+        "표24 -소 지역 셀 합355와 인쇄 행합·소계357 불일치. PDF 원본에서도 동일하여 원자료 없이는 정정 불가."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 135,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:interrogative:0061",
+        "JO2018:v2:gap_review:0063",
+        "JO2018:v2:gap_review:0064",
+        "JO2018:v2:gap_review:0065",
+        "JO2018:v2:gap_review:0066",
+        "JO2018:v2:gap_review:0067",
+        "JO2018:v2:gap_review:0068"
+      ],
+      "note": "표 26 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화.",
+      "gaps": [
+        "표26 인쇄 행합은 지역 합에서 봉화 값을 빠뜨린 양상(-ㄴ가525/지역합645, -는게26/소계34 등). 원본 수치를 임의 정정하지 않음."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 141,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:interrogative:0089",
+        "JO2018:v2:gap_review:0069",
+        "JO2018:v2:gap_review:0070",
+        "JO2018:v2:gap_review:0071",
+        "JO2018:v2:gap_review:0072",
+        "JO2018:v2:gap_review:0073",
+        "JO2018:v2:gap_review:0074",
+        "JO2018:v2:gap_review:0075",
+        "JO2018:v2:gap_review:0076",
+        "JO2018:v2:gap_review:0077",
+        "JO2018:v2:gap_review:0078",
+        "JO2018:v2:gap_review:0079",
+        "JO2018:v2:gap_review:0080",
+        "JO2018:v2:gap_review:0081",
+        "JO2018:v2:gap_review:0082"
+      ],
+      "note": "표 28 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화.",
+      "gaps": [
+        "표28 인쇄 행합과 소계·지역 합계 불일치는 PDF 원본에도 존재. 누락 추정으로 행합을 고치지 않음."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 142,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:interrogative:0090",
+        "JO2018:v2:gap_review:0077",
+        "JO2018:v2:gap_review:0078",
+        "JO2018:v2:gap_review:0079",
+        "JO2018:v2:gap_review:0080",
+        "JO2018:v2:gap_review:0081",
+        "JO2018:v2:gap_review:0082",
+        "JO2018:v2:gap_review:0083"
+      ],
+      "note": "표 28 전체 지역별 어미 행·인쇄 합계·점/빈칸을 원본 이미지와 대조하여 구조화.",
+      "gaps": [
+        "표28 계속: -로/-ㄹ로 소계200은 행합210+33 및 지역합233+38과 모두 불일치. -냐 행2207/소계2315. 원자료 없이는 확정 총수 정정 불가."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 31,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:intro:0019",
+        "JO2018:v2:gap_review:0479",
+        "JO2018:v2:gap_review:0480",
+        "JO2018:v2:gap_review:0481",
+        "JO2018:v2:gap_review:0482",
+        "JO2018:v2:gap_review:0491",
+        "JO2018:v2:gap_review:0492",
+        "JO2018:v2:gap_review:0599"
+      ],
+      "note": "예1의 구술 표현 및 예2ㄱ 나흘 한글 변이4종을 추출. 전사와 실제 발음의 불일치 보존. 원본 이미지를 별도 교차 검토하여 23개 지역의 원문 음성기호열과 복수형을 모두 지역별로 구조화. 기호를 현대 IPA/한글 음가로 임의 치환하지 않음.",
+      "gaps": [
+        "지역별 기호열은 모두 구조화했으나 Ǝ 등 특수기호의 현대 IPA 환산 및 # 범례 해석은 재인용 원전 범례 없이 미확정. 실제 원음성의 장단·성조를 이 표로 검증할 수 없음."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 32,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:intro:0020",
+        "JO2018:v2:gap_review:0483",
+        "JO2018:v2:gap_review:0484",
+        "JO2018:v2:gap_review:0485",
+        "JO2018:v2:gap_review:0486",
+        "JO2018:v2:gap_review:0487",
+        "JO2018:v2:gap_review:0488",
+        "JO2018:v2:gap_review:0489",
+        "JO2018:v2:gap_review:0490",
+        "JO2018:v2:gap_review:0493",
+        "JO2018:v2:gap_review:0600"
+      ],
+      "note": "예2ㄴ 고드름 한글 변이8종과 전사 한계·음성 검증 조건을 보존. 원본 이미지를 별도 교차 검토하여 23개 지역의 원문 음성기호열과 복수형을 모두 지역별로 구조화. 기호를 현대 IPA/한글 음가로 임의 치환하지 않음.",
+      "gaps": [
+        "지역별 기호열은 모두 구조화했으나 Ǝ 등 특수기호의 현대 IPA 환산 및 # 범례 해석은 재인용 원전 범례 없이 미확정. 실제 원음성의 장단·성조를 이 표로 검증할 수 없음."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 47,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:intro:0037",
+        "JO2018:v2:gap_review:0460",
+        "JO2018:v2:gap_review:0461",
+        "JO2018:v2:gap_review:0462",
+        "JO2018:v2:gap_review:0463",
+        "JO2018:v2:gap_review:0464",
+        "JO2018:v2:gap_review:0465",
+        "JO2018:v2:gap_review:0466",
+        "JO2018:v2:gap_review:0467",
+        "JO2018:v2:gap_review:0468",
+        "JO2018:v2:gap_review:0469",
+        "JO2018:v2:gap_review:0470",
+        "JO2018:v2:gap_review:0471",
+        "JO2018:v2:gap_review:0472",
+        "JO2018:v2:gap_review:0473",
+        "JO2018:v2:gap_review:0474",
+        "JO2018:v2:gap_review:0475",
+        "JO2018:v2:gap_review:0476",
+        "JO2018:v2:gap_review:0477",
+        "JO2018:v2:gap_review:0478"
+      ],
+      "note": "표5의19 형태별 높임등급과 감탄·서술·의문·명령·청유 중첩 모든 표시를 직접 확인.",
+      "gaps": [
+        "p48 본문은 비격식 모든 형태에서 의문 중첩이라 하나 표5 -군의 의문 칸은 빈칸. 표와 본문을 합쳐 일률 일반화하지 않음."
+      ]
+    },
+    {
+      "source_id": "JO2018",
+      "pdf_page": 60,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "JO2018:v2:intro:0054",
+        "JO2018:v2:gap_review:0445",
+        "JO2018:v2:gap_review:0446",
+        "JO2018:v2:gap_review:0447",
+        "JO2018:v2:gap_review:0448",
+        "JO2018:v2:gap_review:0449",
+        "JO2018:v2:gap_review:0450",
+        "JO2018:v2:gap_review:0451",
+        "JO2018:v2:gap_review:0452",
+        "JO2018:v2:gap_review:0453",
+        "JO2018:v2:gap_review:0454",
+        "JO2018:v2:gap_review:0455",
+        "JO2018:v2:gap_review:0456",
+        "JO2018:v2:gap_review:0457",
+        "JO2018:v2:gap_review:0458",
+        "JO2018:v2:gap_review:0459"
+      ],
+      "note": "표9 전체15 연구자 행을 이미지 대조·구조화.",
+      "gaps": [
+        "표9 이기갑(2003)은 예사높임, 표1은 예사낮춤으로 인쇄되어 있다. 재인용 원전 미확인 상태에서 하나를 정정하지 않음."
+      ]
+    },
+    {
+      "source_id": "NAMU20260901",
+      "pdf_page": 6,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU20260901:v2:full:0016",
+        "NAMU20260901:v2:full:0017",
+        "NAMU20260901:v2:full:0018",
+        "NAMU20260901:v2:full:0019",
+        "NAMU20260901:v2:full:0020",
+        "NAMU20260901:v2:full:0021",
+        "NAMU20260901:v2:full:0022",
+        "NAMU20260901:v2:full:0023",
+        "NAMU20260901:v2:full:0024",
+        "NAMU20260901:v2:full:0025",
+        "NAMU20260901:v2:full:0026",
+        "NAMU20260901:v2:full:0027",
+        "NAMU20260901:v2:full:0028",
+        "NAMU20260901:v2:full:0029",
+        "NAMU20260901:v2:full:0030",
+        "NAMU20260901:v2:full:0031",
+        "NAMU20260901:v2:full:0032",
+        "NAMU20260901:v2:review_completion:0040",
+        "NAMU20260901:v2:review_completion:0041",
+        "NAMU20260901:v2:review_completion:0045"
+      ],
+      "note": "개요·문법·음운·지역·전사·각주를 읽고 언어 지식과 미디어 설명을 구분함. 재검토: 음운 예의 누락 변이·각주 조건을 추가하고 기존 후보에 직접 범위를 연결. 음성 검증을 텍스트 검토 완료와 구별.",
+      "gaps": [
+        "지역·세대·발음 세부를 로컬 본문·각주로 대조했으나 외부 음성/링크의 청각 검증은 자료 밖이다."
+      ]
+    },
+    {
+      "source_id": "NAMU20260901",
+      "pdf_page": 7,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU20260901:v2:full:0033",
+        "NAMU20260901:v2:full:0034",
+        "NAMU20260901:v2:full:0035",
+        "NAMU20260901:v2:full:0036",
+        "NAMU20260901:v2:full:0037",
+        "NAMU20260901:v2:review_completion:0042"
+      ],
+      "note": "개요·문법·음운·지역·전사·각주를 읽고 언어 지식과 미디어 설명을 구분함. 재검토: 음운 예의 누락 변이·각주 조건을 추가하고 기존 후보에 직접 범위를 연결. 음성 검증을 텍스트 검토 완료와 구별.",
+      "gaps": [
+        "지역·세대·발음 세부를 로컬 본문·각주로 대조했으나 외부 음성/링크의 청각 검증은 자료 밖이다."
+      ]
+    },
+    {
+      "source_id": "NAMU20260901",
+      "pdf_page": 12,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU20260901:v2:full:0051",
+        "NAMU20260901:v2:full:0052",
+        "NAMU20260901:v2:full:0053",
+        "NAMU20260901:v2:full:0054",
+        "NAMU20260901:v2:full:0055",
+        "NAMU20260901:v2:full:0056",
+        "NAMU20260901:v2:full:0057",
+        "NAMU20260901:v2:full:0058",
+        "NAMU20260901:v2:review_completion:0043"
+      ],
+      "note": "개요·문법·음운·지역·전사·각주를 읽고 언어 지식과 미디어 설명을 구분함. 재검토: 음운 예의 누락 변이·각주 조건을 추가하고 기존 후보에 직접 범위를 연결. 음성 검증을 텍스트 검토 완료와 구별.",
+      "gaps": [
+        "지역·세대·발음 세부를 로컬 본문·각주로 대조했으나 외부 음성/링크의 청각 검증은 자료 밖이다."
+      ]
+    },
+    {
+      "source_id": "NAMU20260901",
+      "pdf_page": 13,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU20260901:v2:full:0059",
+        "NAMU20260901:v2:full:0060",
+        "NAMU20260901:v2:full:0061",
+        "NAMU20260901:v2:full:0062",
+        "NAMU20260901:v2:full:0063",
+        "NAMU20260901:v2:full:0064",
+        "NAMU20260901:v2:full:0065",
+        "NAMU20260901:v2:full:0066",
+        "NAMU20260901:v2:review_completion:0044"
+      ],
+      "note": "개요·문법·음운·지역·전사·각주를 읽고 언어 지식과 미디어 설명을 구분함. 재검토: 음운 예의 누락 변이·각주 조건을 추가하고 기존 후보에 직접 범위를 연결. 음성 검증을 텍스트 검토 완료와 구별.",
+      "gaps": [
+        "지역·세대·발음 세부를 로컬 본문·각주로 대조했으나 외부 음성/링크의 청각 검증은 자료 밖이다."
+      ]
+    },
+    {
+      "source_id": "NAMU20260901",
+      "pdf_page": 17,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU20260901:v2:full:0131",
+        "NAMU20260901:v2:review_completion:0012",
+        "NAMU20260901:v2:review_completion:0013",
+        "NAMU20260901:v2:review_completion:0051",
+        "NAMU20260901:v2:review_completion:0211",
+        "NAMU20260901:v2:review_completion:0212",
+        "NAMU20260901:v2:review_completion:0213",
+        "NAMU20260901:v2:review_completion:0214",
+        "NAMU20260901:v2:review_completion:0215",
+        "NAMU20260901:v2:review_completion:0216",
+        "NAMU20260901:v2:review_completion:0217",
+        "NAMU20260901:v2:review_completion:0218",
+        "NAMU20260901:v2:review_completion:0219",
+        "NAMU20260901:v2:review_completion:0220",
+        "NAMU20260901:v2:review_completion:0221",
+        "NAMU20260901:v2:review_completion:0222",
+        "NAMU20260901:v2:review_completion:0223",
+        "NAMU20260901:v2:review_completion:0225",
+        "NAMU20260901:v2:review_completion:0226",
+        "NAMU20260901:v2:review_completion:0227",
+        "NAMU20260901:v2:review_completion:0014"
+      ],
+      "note": "개요·문법·음운·지역·전사·각주를 읽고 언어 지식과 미디어 설명을 구분함. 재검토: 전체 페이지 전사·대역 재독 후 누락 어휘·문법·화용을 개별 참고 관찰로 추가; 인용 청자와 무대 화자 및 분석적 대역을 구별. 읽을 수 있는 잔여 구성은 후속 대응 사실로 추가 완료; 동일 표준어 반복과 모든 음절의 형태소 분석은 추출 범위 밖.",
+      "gaps": [
+        "연결 영상·음성은 PDF에 없어 실제 억양·전사 정확성의 독립 재검증 불가."
+      ]
+    },
+    {
+      "source_id": "NAMU20260901",
+      "pdf_page": 18,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU20260901:v2:full:0132",
+        "NAMU20260901:v2:full:0133",
+        "NAMU20260901:v2:full:0134",
+        "NAMU20260901:v2:full:0135",
+        "NAMU20260901:v2:full:0136",
+        "NAMU20260901:v2:full:0137",
+        "NAMU20260901:v2:full:0184",
+        "NAMU20260901:v2:review_completion:0014",
+        "NAMU20260901:v2:review_completion:0015",
+        "NAMU20260901:v2:review_completion:0016",
+        "NAMU20260901:v2:review_completion:0051",
+        "NAMU20260901:v2:review_completion:0052",
+        "NAMU20260901:v2:review_completion:0053",
+        "NAMU20260901:v2:review_completion:0054",
+        "NAMU20260901:v2:review_completion:0055",
+        "NAMU20260901:v2:review_completion:0056",
+        "NAMU20260901:v2:review_completion:0057",
+        "NAMU20260901:v2:review_completion:0058",
+        "NAMU20260901:v2:review_completion:0059",
+        "NAMU20260901:v2:review_completion:0060",
+        "NAMU20260901:v2:review_completion:0061",
+        "NAMU20260901:v2:review_completion:0062",
+        "NAMU20260901:v2:review_completion:0063",
+        "NAMU20260901:v2:review_completion:0064",
+        "NAMU20260901:v2:review_completion:0065",
+        "NAMU20260901:v2:review_completion:0066",
+        "NAMU20260901:v2:review_completion:0067",
+        "NAMU20260901:v2:review_completion:0068",
+        "NAMU20260901:v2:review_completion:0069",
+        "NAMU20260901:v2:review_completion:0070",
+        "NAMU20260901:v2:review_completion:0186",
+        "NAMU20260901:v2:review_completion:0187",
+        "NAMU20260901:v2:review_completion:0188"
+      ],
+      "note": "개요·문법·음운·지역·전사·각주를 읽고 언어 지식과 미디어 설명을 구분함. 재검토: 전체 페이지 전사·대역 재독 후 누락 어휘·문법·화용을 개별 참고 관찰로 추가; 인용 청자와 무대 화자 및 분석적 대역을 구별. 읽을 수 있는 잔여 구성은 후속 대응 사실로 추가 완료; 동일 표준어 반복과 모든 음절의 형태소 분석은 추출 범위 밖.",
+      "gaps": [
+        "연결 영상·음성은 PDF에 없어 실제 억양·전사 정확성의 독립 재검증 불가.",
+        "원 대역의 꼴매아도?는 의미 불명으로 추출 불가."
+      ]
+    },
+    {
+      "source_id": "NAMU20260901",
+      "pdf_page": 19,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU20260901:v2:full:0138",
+        "NAMU20260901:v2:full:0139",
+        "NAMU20260901:v2:full:0140",
+        "NAMU20260901:v2:full:0141",
+        "NAMU20260901:v2:full:0142",
+        "NAMU20260901:v2:full:0143",
+        "NAMU20260901:v2:full:0144",
+        "NAMU20260901:v2:full:0185",
+        "NAMU20260901:v2:review_completion:0017",
+        "NAMU20260901:v2:review_completion:0018",
+        "NAMU20260901:v2:review_completion:0019",
+        "NAMU20260901:v2:review_completion:0071",
+        "NAMU20260901:v2:review_completion:0072",
+        "NAMU20260901:v2:review_completion:0073",
+        "NAMU20260901:v2:review_completion:0074",
+        "NAMU20260901:v2:review_completion:0075",
+        "NAMU20260901:v2:review_completion:0076",
+        "NAMU20260901:v2:review_completion:0077",
+        "NAMU20260901:v2:review_completion:0078",
+        "NAMU20260901:v2:review_completion:0079",
+        "NAMU20260901:v2:review_completion:0080",
+        "NAMU20260901:v2:review_completion:0081",
+        "NAMU20260901:v2:review_completion:0082",
+        "NAMU20260901:v2:review_completion:0083",
+        "NAMU20260901:v2:review_completion:0084",
+        "NAMU20260901:v2:review_completion:0085",
+        "NAMU20260901:v2:review_completion:0086",
+        "NAMU20260901:v2:review_completion:0087",
+        "NAMU20260901:v2:review_completion:0088",
+        "NAMU20260901:v2:review_completion:0189",
+        "NAMU20260901:v2:review_completion:0190",
+        "NAMU20260901:v2:review_completion:0191"
+      ],
+      "note": "개요·문법·음운·지역·전사·각주를 읽고 언어 지식과 미디어 설명을 구분함. 재검토: 전체 페이지 전사·대역 재독 후 누락 어휘·문법·화용을 개별 참고 관찰로 추가; 인용 청자와 무대 화자 및 분석적 대역을 구별. 읽을 수 있는 잔여 구성은 후속 대응 사실로 추가 완료; 동일 표준어 반복과 모든 음절의 형태소 분석은 추출 범위 밖.",
+      "gaps": [
+        "연결 영상·음성은 PDF에 없어 실제 억양·전사 정확성의 독립 재검증 불가."
+      ]
+    },
+    {
+      "source_id": "NAMU20260901",
+      "pdf_page": 20,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU20260901:v2:full:0145",
+        "NAMU20260901:v2:full:0146",
+        "NAMU20260901:v2:full:0147",
+        "NAMU20260901:v2:full:0148",
+        "NAMU20260901:v2:full:0149",
+        "NAMU20260901:v2:full:0150",
+        "NAMU20260901:v2:full:0151",
+        "NAMU20260901:v2:full:0186",
+        "NAMU20260901:v2:review_completion:0020",
+        "NAMU20260901:v2:review_completion:0021",
+        "NAMU20260901:v2:review_completion:0089",
+        "NAMU20260901:v2:review_completion:0090",
+        "NAMU20260901:v2:review_completion:0091",
+        "NAMU20260901:v2:review_completion:0092",
+        "NAMU20260901:v2:review_completion:0093",
+        "NAMU20260901:v2:review_completion:0094",
+        "NAMU20260901:v2:review_completion:0095",
+        "NAMU20260901:v2:review_completion:0096",
+        "NAMU20260901:v2:review_completion:0097",
+        "NAMU20260901:v2:review_completion:0098",
+        "NAMU20260901:v2:review_completion:0099",
+        "NAMU20260901:v2:review_completion:0100",
+        "NAMU20260901:v2:review_completion:0101",
+        "NAMU20260901:v2:review_completion:0102",
+        "NAMU20260901:v2:review_completion:0103",
+        "NAMU20260901:v2:review_completion:0192",
+        "NAMU20260901:v2:review_completion:0193",
+        "NAMU20260901:v2:review_completion:0194",
+        "NAMU20260901:v2:review_completion:0195",
+        "NAMU20260901:v2:review_completion:0196"
+      ],
+      "note": "개요·문법·음운·지역·전사·각주를 읽고 언어 지식과 미디어 설명을 구분함. 재검토: 전체 페이지 전사·대역 재독 후 누락 어휘·문법·화용을 개별 참고 관찰로 추가; 인용 청자와 무대 화자 및 분석적 대역을 구별. 읽을 수 있는 잔여 구성은 후속 대응 사실로 추가 완료; 동일 표준어 반복과 모든 음절의 형태소 분석은 추출 범위 밖.",
+      "gaps": [
+        "연결 영상·음성은 PDF에 없어 실제 억양·전사 정확성의 독립 재검증 불가."
+      ]
+    },
+    {
+      "source_id": "NAMU20260901",
+      "pdf_page": 21,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU20260901:v2:full:0187",
+        "NAMU20260901:v2:full:0188",
+        "NAMU20260901:v2:full:0189",
+        "NAMU20260901:v2:full:0190",
+        "NAMU20260901:v2:full:0191",
+        "NAMU20260901:v2:full:0192",
+        "NAMU20260901:v2:review_completion:0022",
+        "NAMU20260901:v2:review_completion:0023",
+        "NAMU20260901:v2:review_completion:0104",
+        "NAMU20260901:v2:review_completion:0105",
+        "NAMU20260901:v2:review_completion:0106",
+        "NAMU20260901:v2:review_completion:0107",
+        "NAMU20260901:v2:review_completion:0108"
+      ],
+      "note": "개요·문법·음운·지역·전사·각주를 읽고 언어 지식과 미디어 설명을 구분함. 재검토: 전체 페이지 전사·대역 재독 후 누락 어휘·문법·화용을 개별 참고 관찰로 추가; 인용 청자와 무대 화자 및 분석적 대역을 구별.",
+      "gaps": [
+        "연결 영상·음성은 PDF에 없어 실제 억양·전사 정확성의 독립 재검증 불가."
+      ]
+    },
+    {
+      "source_id": "NAMU20260901",
+      "pdf_page": 22,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU20260901:v2:full:0152",
+        "NAMU20260901:v2:full:0153",
+        "NAMU20260901:v2:full:0154",
+        "NAMU20260901:v2:full:0155",
+        "NAMU20260901:v2:full:0156",
+        "NAMU20260901:v2:full:0157",
+        "NAMU20260901:v2:full:0193",
+        "NAMU20260901:v2:review_completion:0024",
+        "NAMU20260901:v2:review_completion:0025",
+        "NAMU20260901:v2:review_completion:0109",
+        "NAMU20260901:v2:review_completion:0110",
+        "NAMU20260901:v2:review_completion:0111",
+        "NAMU20260901:v2:review_completion:0112",
+        "NAMU20260901:v2:review_completion:0113",
+        "NAMU20260901:v2:review_completion:0114",
+        "NAMU20260901:v2:review_completion:0115",
+        "NAMU20260901:v2:review_completion:0116",
+        "NAMU20260901:v2:review_completion:0117",
+        "NAMU20260901:v2:review_completion:0197",
+        "NAMU20260901:v2:review_completion:0198"
+      ],
+      "note": "개요·문법·음운·지역·전사·각주를 읽고 언어 지식과 미디어 설명을 구분함. 재검토: 전체 페이지 전사·대역 재독 후 누락 어휘·문법·화용을 개별 참고 관찰로 추가; 인용 청자와 무대 화자 및 분석적 대역을 구별. 읽을 수 있는 잔여 구성은 후속 대응 사실로 추가 완료; 동일 표준어 반복과 모든 음절의 형태소 분석은 추출 범위 밖.",
+      "gaps": [
+        "연결 영상·음성은 PDF에 없어 실제 억양·전사 정확성의 독립 재검증 불가."
+      ]
+    },
+    {
+      "source_id": "NAMU20260901",
+      "pdf_page": 23,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU20260901:v2:full:0158",
+        "NAMU20260901:v2:full:0159",
+        "NAMU20260901:v2:full:0160",
+        "NAMU20260901:v2:full:0161",
+        "NAMU20260901:v2:full:0162",
+        "NAMU20260901:v2:full:0163",
+        "NAMU20260901:v2:full:0194",
+        "NAMU20260901:v2:review_completion:0026",
+        "NAMU20260901:v2:review_completion:0027",
+        "NAMU20260901:v2:review_completion:0028",
+        "NAMU20260901:v2:review_completion:0118",
+        "NAMU20260901:v2:review_completion:0119",
+        "NAMU20260901:v2:review_completion:0120",
+        "NAMU20260901:v2:review_completion:0121",
+        "NAMU20260901:v2:review_completion:0122",
+        "NAMU20260901:v2:review_completion:0123",
+        "NAMU20260901:v2:review_completion:0124",
+        "NAMU20260901:v2:review_completion:0125",
+        "NAMU20260901:v2:review_completion:0126",
+        "NAMU20260901:v2:review_completion:0127",
+        "NAMU20260901:v2:review_completion:0128",
+        "NAMU20260901:v2:review_completion:0199",
+        "NAMU20260901:v2:review_completion:0200",
+        "NAMU20260901:v2:review_completion:0201",
+        "NAMU20260901:v2:review_completion:0198"
+      ],
+      "note": "개요·문법·음운·지역·전사·각주를 읽고 언어 지식과 미디어 설명을 구분함. 재검토: 전체 페이지 전사·대역 재독 후 누락 어휘·문법·화용을 개별 참고 관찰로 추가; 인용 청자와 무대 화자 및 분석적 대역을 구별. 읽을 수 있는 잔여 구성은 후속 대응 사실로 추가 완료; 동일 표준어 반복과 모든 음절의 형태소 분석은 추출 범위 밖.",
+      "gaps": [
+        "연결 영상·음성은 PDF에 없어 실제 억양·전사 정확성의 독립 재검증 불가."
+      ]
+    },
+    {
+      "source_id": "NAMU20260901",
+      "pdf_page": 24,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU20260901:v2:full:0164",
+        "NAMU20260901:v2:full:0165",
+        "NAMU20260901:v2:full:0166",
+        "NAMU20260901:v2:full:0167",
+        "NAMU20260901:v2:full:0195",
+        "NAMU20260901:v2:review_completion:0029",
+        "NAMU20260901:v2:review_completion:0030",
+        "NAMU20260901:v2:review_completion:0031",
+        "NAMU20260901:v2:review_completion:0129",
+        "NAMU20260901:v2:review_completion:0130",
+        "NAMU20260901:v2:review_completion:0131",
+        "NAMU20260901:v2:review_completion:0132",
+        "NAMU20260901:v2:review_completion:0133",
+        "NAMU20260901:v2:review_completion:0134",
+        "NAMU20260901:v2:review_completion:0135",
+        "NAMU20260901:v2:review_completion:0136",
+        "NAMU20260901:v2:review_completion:0137",
+        "NAMU20260901:v2:review_completion:0138",
+        "NAMU20260901:v2:review_completion:0139",
+        "NAMU20260901:v2:review_completion:0140",
+        "NAMU20260901:v2:review_completion:0141",
+        "NAMU20260901:v2:review_completion:0142",
+        "NAMU20260901:v2:review_completion:0143",
+        "NAMU20260901:v2:review_completion:0144",
+        "NAMU20260901:v2:review_completion:0202",
+        "NAMU20260901:v2:review_completion:0203",
+        "NAMU20260901:v2:review_completion:0224"
+      ],
+      "note": "개요·문법·음운·지역·전사·각주를 읽고 언어 지식과 미디어 설명을 구분함. 재검토: 전체 페이지 전사·대역 재독 후 누락 어휘·문법·화용을 개별 참고 관찰로 추가; 인용 청자와 무대 화자 및 분석적 대역을 구별. 읽을 수 있는 잔여 구성은 후속 대응 사실로 추가 완료; 동일 표준어 반복과 모든 음절의 형태소 분석은 추출 범위 밖.",
+      "gaps": [
+        "연결 영상·음성은 PDF에 없어 실제 억양·전사 정확성의 독립 재검증 불가."
+      ]
+    },
+    {
+      "source_id": "NAMU20260901",
+      "pdf_page": 25,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU20260901:v2:full:0168",
+        "NAMU20260901:v2:full:0169",
+        "NAMU20260901:v2:full:0170",
+        "NAMU20260901:v2:full:0196",
+        "NAMU20260901:v2:review_completion:0032",
+        "NAMU20260901:v2:review_completion:0033",
+        "NAMU20260901:v2:review_completion:0145",
+        "NAMU20260901:v2:review_completion:0146",
+        "NAMU20260901:v2:review_completion:0147",
+        "NAMU20260901:v2:review_completion:0148",
+        "NAMU20260901:v2:review_completion:0149",
+        "NAMU20260901:v2:review_completion:0150",
+        "NAMU20260901:v2:review_completion:0151",
+        "NAMU20260901:v2:review_completion:0152",
+        "NAMU20260901:v2:review_completion:0153",
+        "NAMU20260901:v2:review_completion:0154",
+        "NAMU20260901:v2:review_completion:0204",
+        "NAMU20260901:v2:review_completion:0205"
+      ],
+      "note": "개요·문법·음운·지역·전사·각주를 읽고 언어 지식과 미디어 설명을 구분함. 재검토: 전체 페이지 전사·대역 재독 후 누락 어휘·문법·화용을 개별 참고 관찰로 추가; 인용 청자와 무대 화자 및 분석적 대역을 구별. 읽을 수 있는 잔여 구성은 후속 대응 사실로 추가 완료; 동일 표준어 반복과 모든 음절의 형태소 분석은 추출 범위 밖.",
+      "gaps": [
+        "연결 영상·음성은 PDF에 없어 실제 억양·전사 정확성의 독립 재검증 불가."
+      ]
+    },
+    {
+      "source_id": "NAMU20260901",
+      "pdf_page": 26,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU20260901:v2:full:0171",
+        "NAMU20260901:v2:full:0172",
+        "NAMU20260901:v2:full:0173",
+        "NAMU20260901:v2:full:0174",
+        "NAMU20260901:v2:full:0175",
+        "NAMU20260901:v2:full:0176",
+        "NAMU20260901:v2:full:0177",
+        "NAMU20260901:v2:full:0178",
+        "NAMU20260901:v2:full:0179",
+        "NAMU20260901:v2:full:0197",
+        "NAMU20260901:v2:full:0198",
+        "NAMU20260901:v2:review_completion:0034",
+        "NAMU20260901:v2:review_completion:0035",
+        "NAMU20260901:v2:review_completion:0036",
+        "NAMU20260901:v2:review_completion:0155",
+        "NAMU20260901:v2:review_completion:0156",
+        "NAMU20260901:v2:review_completion:0157",
+        "NAMU20260901:v2:review_completion:0158",
+        "NAMU20260901:v2:review_completion:0159",
+        "NAMU20260901:v2:review_completion:0160",
+        "NAMU20260901:v2:review_completion:0161",
+        "NAMU20260901:v2:review_completion:0162",
+        "NAMU20260901:v2:review_completion:0163",
+        "NAMU20260901:v2:review_completion:0164",
+        "NAMU20260901:v2:review_completion:0165",
+        "NAMU20260901:v2:review_completion:0166",
+        "NAMU20260901:v2:review_completion:0167",
+        "NAMU20260901:v2:review_completion:0168",
+        "NAMU20260901:v2:review_completion:0169",
+        "NAMU20260901:v2:review_completion:0170",
+        "NAMU20260901:v2:review_completion:0171",
+        "NAMU20260901:v2:review_completion:0172",
+        "NAMU20260901:v2:review_completion:0173",
+        "NAMU20260901:v2:review_completion:0174",
+        "NAMU20260901:v2:review_completion:0175",
+        "NAMU20260901:v2:review_completion:0176",
+        "NAMU20260901:v2:review_completion:0177",
+        "NAMU20260901:v2:review_completion:0206",
+        "NAMU20260901:v2:review_completion:0207",
+        "NAMU20260901:v2:review_completion:0037"
+      ],
+      "note": "개요·문법·음운·지역·전사·각주를 읽고 언어 지식과 미디어 설명을 구분함. 재검토: 전체 페이지 전사·대역 재독 후 누락 어휘·문법·화용을 개별 참고 관찰로 추가; 인용 청자와 무대 화자 및 분석적 대역을 구별. 읽을 수 있는 잔여 구성은 후속 대응 사실로 추가 완료; 동일 표준어 반복과 모든 음절의 형태소 분석은 추출 범위 밖.",
+      "gaps": [
+        "연결 영상·음성은 PDF에 없어 실제 억양·전사 정확성의 독립 재검증 불가."
+      ]
+    },
+    {
+      "source_id": "NAMU20260901",
+      "pdf_page": 27,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU20260901:v2:full:0180",
+        "NAMU20260901:v2:full:0181",
+        "NAMU20260901:v2:full:0182",
+        "NAMU20260901:v2:full:0183",
+        "NAMU20260901:v2:full:0199",
+        "NAMU20260901:v2:review_completion:0037",
+        "NAMU20260901:v2:review_completion:0038",
+        "NAMU20260901:v2:review_completion:0039",
+        "NAMU20260901:v2:review_completion:0175",
+        "NAMU20260901:v2:review_completion:0176",
+        "NAMU20260901:v2:review_completion:0177",
+        "NAMU20260901:v2:review_completion:0178",
+        "NAMU20260901:v2:review_completion:0179",
+        "NAMU20260901:v2:review_completion:0180",
+        "NAMU20260901:v2:review_completion:0181",
+        "NAMU20260901:v2:review_completion:0182",
+        "NAMU20260901:v2:review_completion:0183",
+        "NAMU20260901:v2:review_completion:0184",
+        "NAMU20260901:v2:review_completion:0185",
+        "NAMU20260901:v2:review_completion:0208",
+        "NAMU20260901:v2:review_completion:0209",
+        "NAMU20260901:v2:review_completion:0210"
+      ],
+      "note": "개요·문법·음운·지역·전사·각주를 읽고 언어 지식과 미디어 설명을 구분함. 재검토: 전체 페이지 전사·대역 재독 후 누락 어휘·문법·화용을 개별 참고 관찰로 추가; 인용 청자와 무대 화자 및 분석적 대역을 구별. 읽을 수 있는 잔여 구성은 후속 대응 사실로 추가 완료; 동일 표준어 반복과 모든 음절의 형태소 분석은 추출 범위 밖.",
+      "gaps": [
+        "연결 영상·음성은 PDF에 없어 실제 억양·전사 정확성의 독립 재검증 불가.",
+        "원 전사의 ?? 마라는 판독 미상으로 복원 불가."
+      ]
+    },
+    {
+      "source_id": "NAMU20260901",
+      "pdf_page": 49,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU20260901:v2:full:0207",
+        "NAMU20260901:v2:review_completion:0045",
+        "NAMU20260901:v2:review_completion:0046"
+      ],
+      "note": "개요·문법·음운·지역·전사·각주를 읽고 언어 지식과 미디어 설명을 구분함. 재검토: 음운 예의 누락 변이·각주 조건을 추가하고 기존 후보에 직접 범위를 연결. 음성 검증을 텍스트 검토 완료와 구별.",
+      "gaps": [
+        "지역·세대·발음 세부를 로컬 본문·각주로 대조했으나 외부 음성/링크의 청각 검증은 자료 밖이다."
+      ]
+    },
+    {
+      "source_id": "NAMU20260901",
+      "pdf_page": 50,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU20260901:v2:full:0208",
+        "NAMU20260901:v2:review_completion:0047",
+        "NAMU20260901:v2:review_completion:0048"
+      ],
+      "note": "개요·문법·음운·지역·전사·각주를 읽고 언어 지식과 미디어 설명을 구분함. 재검토: 음운 예의 누락 변이·각주 조건을 추가하고 기존 후보에 직접 범위를 연결. 음성 검증을 텍스트 검토 완료와 구별.",
+      "gaps": [
+        "지역·세대·발음 세부를 로컬 본문·각주로 대조했으나 외부 음성/링크의 청각 검증은 자료 밖이다."
+      ]
+    },
+    {
+      "source_id": "NAMU20260901",
+      "pdf_page": 51,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU20260901:v2:full:0209",
+        "NAMU20260901:v2:full:0210",
+        "NAMU20260901:v2:review_completion:0049",
+        "NAMU20260901:v2:review_completion:0050"
+      ],
+      "note": "개요·문법·음운·지역·전사·각주를 읽고 언어 지식과 미디어 설명을 구분함. 재검토: 음운 예의 누락 변이·각주 조건을 추가하고 기존 후보에 직접 범위를 연결. 음성 검증을 텍스트 검토 완료와 구별.",
+      "gaps": [
+        "지역·세대·발음 세부를 로컬 본문·각주로 대조했으나 외부 음성/링크의 청각 검증은 자료 밖이다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 16,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:full:0407",
+        "NAMU_GRAMMAR_20260908:v2:full:0408",
+        "NAMU_GRAMMAR_20260908:v2:full:0409",
+        "NAMU_GRAMMAR_20260908:v2:full:0410",
+        "NAMU_GRAMMAR_20260908:v2:full:0411",
+        "NAMU_GRAMMAR_20260908:v2:full:0412",
+        "NAMU_GRAMMAR_20260908:v2:full:0413",
+        "NAMU_GRAMMAR_20260908:v2:full:0414",
+        "NAMU_GRAMMAR_20260908:v2:full:0415",
+        "NAMU_GRAMMAR_20260908:v2:full:0416",
+        "NAMU_GRAMMAR_20260908:v2:full:0417",
+        "NAMU_GRAMMAR_20260908:v2:full:0418",
+        "NAMU_GRAMMAR_20260908:v2:full:0419",
+        "NAMU_GRAMMAR_20260908:v2:full:0420",
+        "NAMU_GRAMMAR_20260908:v2:full:0421",
+        "NAMU_GRAMMAR_20260908:v2:full:0422",
+        "NAMU_GRAMMAR_20260908:v2:full:0423",
+        "NAMU_GRAMMAR_20260908:v2:review:0178"
+      ],
+      "note": "본문·표·각주를 읽고 개별 형태/기능/범위 및 미해결 부분을 기록함. 2026-10-12 재검토: 원영상은 PDF에 삽입/링크된 외부 자료로서 현재 PDF 재전사만 확인했다.",
+      "gaps": [
+        "원영상은 PDF에 삽입/링크된 외부 자료로서 현재 PDF 재전사만 확인했다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 17,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:full:0424",
+        "NAMU_GRAMMAR_20260908:v2:full:0425",
+        "NAMU_GRAMMAR_20260908:v2:full:0426",
+        "NAMU_GRAMMAR_20260908:v2:full:0427",
+        "NAMU_GRAMMAR_20260908:v2:full:0428",
+        "NAMU_GRAMMAR_20260908:v2:full:0429",
+        "NAMU_GRAMMAR_20260908:v2:full:0430",
+        "NAMU_GRAMMAR_20260908:v2:full:0431",
+        "NAMU_GRAMMAR_20260908:v2:full:0432",
+        "NAMU_GRAMMAR_20260908:v2:full:0433",
+        "NAMU_GRAMMAR_20260908:v2:full:0434",
+        "NAMU_GRAMMAR_20260908:v2:full:0435",
+        "NAMU_GRAMMAR_20260908:v2:full:0436",
+        "NAMU_GRAMMAR_20260908:v2:full:0437",
+        "NAMU_GRAMMAR_20260908:v2:full:0438",
+        "NAMU_GRAMMAR_20260908:v2:full:0439",
+        "NAMU_GRAMMAR_20260908:v2:full:0440",
+        "NAMU_GRAMMAR_20260908:v2:full:0441",
+        "NAMU_GRAMMAR_20260908:v2:full:0442",
+        "NAMU_GRAMMAR_20260908:v2:full:0443",
+        "NAMU_GRAMMAR_20260908:v2:full:0444",
+        "NAMU_GRAMMAR_20260908:v2:full:0445",
+        "NAMU_GRAMMAR_20260908:v2:full:0446",
+        "NAMU_GRAMMAR_20260908:v2:full:0447",
+        "NAMU_GRAMMAR_20260908:v2:full:0448",
+        "NAMU_GRAMMAR_20260908:v2:full:0449",
+        "NAMU_GRAMMAR_20260908:v2:full:0450",
+        "NAMU_GRAMMAR_20260908:v2:full:0451",
+        "NAMU_GRAMMAR_20260908:v2:full:0452",
+        "NAMU_GRAMMAR_20260908:v2:full:0453",
+        "NAMU_GRAMMAR_20260908:v2:full:0454",
+        "NAMU_GRAMMAR_20260908:v2:full:0455",
+        "NAMU_GRAMMAR_20260908:v2:full:0456",
+        "NAMU_GRAMMAR_20260908:v2:full:0457",
+        "NAMU_GRAMMAR_20260908:v2:full:0458",
+        "NAMU_GRAMMAR_20260908:v2:full:0459",
+        "NAMU_GRAMMAR_20260908:v2:full:0460",
+        "NAMU_GRAMMAR_20260908:v2:full:0461",
+        "NAMU_GRAMMAR_20260908:v2:full:0462",
+        "NAMU_GRAMMAR_20260908:v2:full:0463",
+        "NAMU_GRAMMAR_20260908:v2:full:0464",
+        "NAMU_GRAMMAR_20260908:v2:full:0465",
+        "NAMU_GRAMMAR_20260908:v2:full:0466",
+        "NAMU_GRAMMAR_20260908:v2:full:0467",
+        "NAMU_GRAMMAR_20260908:v2:full:0468",
+        "NAMU_GRAMMAR_20260908:v2:full:0469",
+        "NAMU_GRAMMAR_20260908:v2:full:0470",
+        "NAMU_GRAMMAR_20260908:v2:full:0471",
+        "NAMU_GRAMMAR_20260908:v2:full:0472",
+        "NAMU_GRAMMAR_20260908:v2:full:0473",
+        "NAMU_GRAMMAR_20260908:v2:full:0474",
+        "NAMU_GRAMMAR_20260908:v2:full:0475",
+        "NAMU_GRAMMAR_20260908:v2:full:0476",
+        "NAMU_GRAMMAR_20260908:v2:full:0477",
+        "NAMU_GRAMMAR_20260908:v2:full:0478",
+        "NAMU_GRAMMAR_20260908:v2:full:0479",
+        "NAMU_GRAMMAR_20260908:v2:full:0480",
+        "NAMU_GRAMMAR_20260908:v2:full:0481",
+        "NAMU_GRAMMAR_20260908:v2:full:0482",
+        "NAMU_GRAMMAR_20260908:v2:full:0483"
+      ],
+      "note": "본문·표·각주를 읽고 개별 형태/기능/범위 및 미해결 부분을 기록함.",
+      "gaps": [
+        "원표 삐가/삐가 중복 기재로 뿌다의 -아가 형태를 확정할 수 없다. 뿌가로 복원하지 않는다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 26,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:full:0562",
+        "NAMU_GRAMMAR_20260908:v2:full:0563",
+        "NAMU_GRAMMAR_20260908:v2:full:0564",
+        "NAMU_GRAMMAR_20260908:v2:full:0565",
+        "NAMU_GRAMMAR_20260908:v2:full:0566",
+        "NAMU_GRAMMAR_20260908:v2:full:0567",
+        "NAMU_GRAMMAR_20260908:v2:full:0568",
+        "NAMU_GRAMMAR_20260908:v2:full:0569",
+        "NAMU_GRAMMAR_20260908:v2:full:0570",
+        "NAMU_GRAMMAR_20260908:v2:full:0571",
+        "NAMU_GRAMMAR_20260908:v2:full:0572",
+        "NAMU_GRAMMAR_20260908:v2:full:0573",
+        "NAMU_GRAMMAR_20260908:v2:full:0574",
+        "NAMU_GRAMMAR_20260908:v2:full:0575",
+        "NAMU_GRAMMAR_20260908:v2:full:0576",
+        "NAMU_GRAMMAR_20260908:v2:full:0577",
+        "NAMU_GRAMMAR_20260908:v2:full:0578",
+        "NAMU_GRAMMAR_20260908:v2:full:0579",
+        "NAMU_GRAMMAR_20260908:v2:full:0580",
+        "NAMU_GRAMMAR_20260908:v2:full:0581",
+        "NAMU_GRAMMAR_20260908:v2:full:0582",
+        "NAMU_GRAMMAR_20260908:v2:full:0583",
+        "NAMU_GRAMMAR_20260908:v2:review:0156",
+        "NAMU_GRAMMAR_20260908:v2:review:0157",
+        "NAMU_GRAMMAR_20260908:v2:review:0158",
+        "NAMU_GRAMMAR_20260908:v2:review:0159",
+        "NAMU_GRAMMAR_20260908:v2:review:0179",
+        "NAMU_GRAMMAR_20260908:v2:review:0309",
+        "NAMU_GRAMMAR_20260908:v2:review:0310",
+        "NAMU_GRAMMAR_20260908:v2:review:0311",
+        "NAMU_GRAMMAR_20260908:v2:review:0312",
+        "NAMU_GRAMMAR_20260908:v2:review:0313",
+        "NAMU_GRAMMAR_20260908:v2:review:0314",
+        "NAMU_GRAMMAR_20260908:v2:review:0315",
+        "NAMU_GRAMMAR_20260908:v2:review:0316",
+        "NAMU_GRAMMAR_20260908:v2:review:0317",
+        "NAMU_GRAMMAR_20260908:v2:review:0318",
+        "NAMU_GRAMMAR_20260908:v2:review:0319",
+        "NAMU_GRAMMAR_20260908:v2:review:0320",
+        "NAMU_GRAMMAR_20260908:v2:review:0321",
+        "NAMU_GRAMMAR_20260908:v2:review:0322",
+        "NAMU_GRAMMAR_20260908:v2:review:0323",
+        "NAMU_GRAMMAR_20260908:v2:review:0324",
+        "NAMU_GRAMMAR_20260908:v2:review:0325",
+        "NAMU_GRAMMAR_20260908:v2:review:0326",
+        "NAMU_GRAMMAR_20260908:v2:review:0327",
+        "NAMU_GRAMMAR_20260908:v2:review:0328",
+        "NAMU_GRAMMAR_20260908:v2:review:0329",
+        "NAMU_GRAMMAR_20260908:v2:review:0330",
+        "NAMU_GRAMMAR_20260908:v2:review:0331",
+        "NAMU_GRAMMAR_20260908:v2:review:0332",
+        "NAMU_GRAMMAR_20260908:v2:review:0333"
+      ],
+      "note": "본문·표·각주를 읽고 개별 형태/기능/범위 및 미해결 부분을 기록함. 2026-10-12 재검토: 소꿉장난·고양이 지역 지도 링크는 PDF에 시군구별 대응을 싣지 않아 개별 지역 배당을 확정할 수 없다.",
+      "gaps": [
+        "소꿉장난·고양이 지역 지도 링크는 PDF에 시군구별 대응을 싣지 않아 개별 지역 배당을 확정할 수 없다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 31,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:full:0786",
+        "NAMU_GRAMMAR_20260908:v2:full:0787",
+        "NAMU_GRAMMAR_20260908:v2:full:0788",
+        "NAMU_GRAMMAR_20260908:v2:full:0789",
+        "NAMU_GRAMMAR_20260908:v2:full:0790",
+        "NAMU_GRAMMAR_20260908:v2:full:0791",
+        "NAMU_GRAMMAR_20260908:v2:full:0792",
+        "NAMU_GRAMMAR_20260908:v2:full:0793",
+        "NAMU_GRAMMAR_20260908:v2:full:0794",
+        "NAMU_GRAMMAR_20260908:v2:full:0795",
+        "NAMU_GRAMMAR_20260908:v2:full:0796",
+        "NAMU_GRAMMAR_20260908:v2:full:0797",
+        "NAMU_GRAMMAR_20260908:v2:full:0798",
+        "NAMU_GRAMMAR_20260908:v2:full:0799",
+        "NAMU_GRAMMAR_20260908:v2:full:0800",
+        "NAMU_GRAMMAR_20260908:v2:full:0801",
+        "NAMU_GRAMMAR_20260908:v2:full:0802",
+        "NAMU_GRAMMAR_20260908:v2:full:0803",
+        "NAMU_GRAMMAR_20260908:v2:full:0804",
+        "NAMU_GRAMMAR_20260908:v2:full:0805",
+        "NAMU_GRAMMAR_20260908:v2:full:0806",
+        "NAMU_GRAMMAR_20260908:v2:full:0807",
+        "NAMU_GRAMMAR_20260908:v2:full:0808",
+        "NAMU_GRAMMAR_20260908:v2:review:0184"
+      ],
+      "note": "본문·표·각주를 읽고 개별 형태/기능/범위 및 미해결 부분을 기록함. 2026-10-12 재검토: 고양이 세부 변이의 지역은 외부 지도 링크뿐이어서 PDF에서 개별 시군구를 확정할 수 없다.",
+      "gaps": [
+        "고양이 세부 변이의 지역은 외부 지도 링크뿐이어서 PDF에서 개별 시군구를 확정할 수 없다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 44,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:full:1010",
+        "NAMU_GRAMMAR_20260908:v2:full:1011",
+        "NAMU_GRAMMAR_20260908:v2:full:1012",
+        "NAMU_GRAMMAR_20260908:v2:full:1013",
+        "NAMU_GRAMMAR_20260908:v2:full:1042",
+        "NAMU_GRAMMAR_20260908:v2:review:0167",
+        "NAMU_GRAMMAR_20260908:v2:review:0168",
+        "NAMU_GRAMMAR_20260908:v2:review:0197"
+      ],
+      "note": "본문·표·각주를 읽고 개별 형태/기능/범위 및 미해결 부분을 기록함. 2026-10-12 재검토: 인터넷 예문 원전과 최명옥2019 원전/음성은 미확보. PDF의 원문·수정·풀이만 확인했다.",
+      "gaps": [
+        "인터넷 예문 원전과 최명옥2019 원전/음성은 미확보. PDF의 원문·수정·풀이만 확인했다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 45,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:full:1043",
+        "NAMU_GRAMMAR_20260908:v2:full:1044",
+        "NAMU_GRAMMAR_20260908:v2:full:1045",
+        "NAMU_GRAMMAR_20260908:v2:full:1046",
+        "NAMU_GRAMMAR_20260908:v2:full:1047",
+        "NAMU_GRAMMAR_20260908:v2:full:1048",
+        "NAMU_GRAMMAR_20260908:v2:full:1049",
+        "NAMU_GRAMMAR_20260908:v2:full:1050",
+        "NAMU_GRAMMAR_20260908:v2:full:1051",
+        "NAMU_GRAMMAR_20260908:v2:full:1052",
+        "NAMU_GRAMMAR_20260908:v2:review:0198"
+      ],
+      "note": "본문·표·각주를 읽고 개별 형태/기능/범위 및 미해결 부분을 기록함. 2026-10-12 재검토: 경주 전사 인용의 실제 음성과 학술 원전은 미확보. PDF의 수정·해석만 확인했다.",
+      "gaps": [
+        "경주 전사 인용의 실제 음성과 학술 원전은 미확보. PDF의 수정·해석만 확인했다."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 6,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:full:0026",
+        "NAMU_HONORIFICS_20260908:v2:full:0027",
+        "NAMU_HONORIFICS_20260908:v2:review:0101"
+      ],
+      "note": "상대높임법 문헌 전체 페이지를 읽고 해당 페이지의 형식·지역·화용 조건 및 재인용을 구분함. 2026-10-12 재검토: 구포 영상 원본 미확보. PDF가 제공한 재전사만 근거이다.",
+      "gaps": [
+        "구포 영상 원본 미확보. PDF가 제공한 재전사만 근거이다."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 9,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:full:0044",
+        "NAMU_HONORIFICS_20260908:v2:full:0045",
+        "NAMU_HONORIFICS_20260908:v2:review:0103"
+      ],
+      "note": "상대높임법 문헌 전체 페이지를 읽고 해당 페이지의 형식·지역·화용 조건 및 재인용을 구분함. 2026-10-12 재검토: 하동 영상 원본 미확보. PDF 재전사와 작성 비교 예만 확인했다.",
+      "gaps": [
+        "하동 영상 원본 미확보. PDF 재전사와 작성 비교 예만 확인했다."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 10,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:full:0046",
+        "NAMU_HONORIFICS_20260908:v2:full:0047",
+        "NAMU_HONORIFICS_20260908:v2:full:0048",
+        "NAMU_HONORIFICS_20260908:v2:review:0062",
+        "NAMU_HONORIFICS_20260908:v2:review:0063",
+        "NAMU_HONORIFICS_20260908:v2:review:0064",
+        "NAMU_HONORIFICS_20260908:v2:review:0065",
+        "NAMU_HONORIFICS_20260908:v2:review:0066",
+        "NAMU_HONORIFICS_20260908:v2:review:0067",
+        "NAMU_HONORIFICS_20260908:v2:review:0068",
+        "NAMU_HONORIFICS_20260908:v2:review:0069",
+        "NAMU_HONORIFICS_20260908:v2:review:0104"
+      ],
+      "note": "상대높임법 문헌 전체 페이지를 읽고 해당 페이지의 형식·지역·화용 조건 및 재인용을 구분함. 2026-10-12 재검토: 하동 음성 및 이혁화 원전 미확보. PDF 인용의 형태·기능만 보존했다.",
+      "gaps": [
+        "하동 음성 및 이혁화 원전 미확보. PDF 인용의 형태·기능만 보존했다."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 11,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:full:0049",
+        "NAMU_HONORIFICS_20260908:v2:review:0070",
+        "NAMU_HONORIFICS_20260908:v2:review:0071",
+        "NAMU_HONORIFICS_20260908:v2:review:0072",
+        "NAMU_HONORIFICS_20260908:v2:review:0073",
+        "NAMU_HONORIFICS_20260908:v2:review:0074",
+        "NAMU_HONORIFICS_20260908:v2:review:0075",
+        "NAMU_HONORIFICS_20260908:v2:review:0076",
+        "NAMU_HONORIFICS_20260908:v2:review:0105"
+      ],
+      "note": "상대높임법 문헌 전체 페이지를 읽고 해당 페이지의 형식·지역·화용 조건 및 재인용을 구분함. 2026-10-12 재검토: 구마/누마의 하소 분류는 문헌 자체가 유보하며 달성의 요/소 반례를 명시. 논문 원전 음성 미확보.",
+      "gaps": [
+        "구마/누마의 하소 분류는 문헌 자체가 유보하며 달성의 요/소 반례를 명시. 논문 원전 음성 미확보."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 13,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:full:0052",
+        "NAMU_HONORIFICS_20260908:v2:full:0053",
+        "NAMU_HONORIFICS_20260908:v2:full:0054",
+        "NAMU_HONORIFICS_20260908:v2:full:0055",
+        "NAMU_HONORIFICS_20260908:v2:full:0056",
+        "NAMU_HONORIFICS_20260908:v2:full:0057",
+        "NAMU_HONORIFICS_20260908:v2:full:0058",
+        "NAMU_HONORIFICS_20260908:v2:full:0059",
+        "NAMU_HONORIFICS_20260908:v2:review:0107"
+      ],
+      "note": "상대높임법 문헌 전체 페이지를 읽고 해당 페이지의 형식·지역·화용 조건 및 재인용을 구분함. 2026-10-12 재검토: 부산 영상 원본 미확보. PDF 전사의 가소/해체 혼용만 확인했다.",
+      "gaps": [
+        "부산 영상 원본 미확보. PDF 전사의 가소/해체 혼용만 확인했다."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 15,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:full:0086",
+        "NAMU_HONORIFICS_20260908:v2:review:0108"
+      ],
+      "note": "상대높임법 문헌 전체 페이지를 읽고 해당 페이지의 형식·지역·화용 조건 및 재인용을 구분함. 2026-10-12 재검토: 안동 영상 원본 미확보. 니껴형 기원은 문헌의 학설 재인용으로 보존했다.",
+      "gaps": [
+        "안동 영상 원본 미확보. 니껴형 기원은 문헌의 학설 재인용으로 보존했다."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 16,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:full:0087",
+        "NAMU_HONORIFICS_20260908:v2:full:0088",
+        "NAMU_HONORIFICS_20260908:v2:full:0089",
+        "NAMU_HONORIFICS_20260908:v2:full:0090",
+        "NAMU_HONORIFICS_20260908:v2:review:0085",
+        "NAMU_HONORIFICS_20260908:v2:review:0086",
+        "NAMU_HONORIFICS_20260908:v2:review:0087",
+        "NAMU_HONORIFICS_20260908:v2:review:0088",
+        "NAMU_HONORIFICS_20260908:v2:review:0089",
+        "NAMU_HONORIFICS_20260908:v2:review:0090",
+        "NAMU_HONORIFICS_20260908:v2:review:0091",
+        "NAMU_HONORIFICS_20260908:v2:review:0092",
+        "NAMU_HONORIFICS_20260908:v2:review:0093",
+        "NAMU_HONORIFICS_20260908:v2:review:0094",
+        "NAMU_HONORIFICS_20260908:v2:review:0095",
+        "NAMU_HONORIFICS_20260908:v2:review:0096",
+        "NAMU_HONORIFICS_20260908:v2:review:0097",
+        "NAMU_HONORIFICS_20260908:v2:review:0098",
+        "NAMU_HONORIFICS_20260908:v2:review:0109"
+      ],
+      "note": "상대높임법 문헌 전체 페이지를 읽고 해당 페이지의 형식·지역·화용 조건 및 재인용을 구분함. 2026-10-12 재검토: 니더 형용사 결합은 원문의 아마도라는 추정. 전체 지역별 실제 사용 빈도·영상 원본은 미확보.",
+      "gaps": [
+        "니더 형용사 결합은 원문의 아마도라는 추정. 전체 지역별 실제 사용 빈도·영상 원본은 미확보."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 17,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:full:0091",
+        "NAMU_HONORIFICS_20260908:v2:review:0110",
+        "NAMU_HONORIFICS_20260908:v2:review:0128",
+        "NAMU_HONORIFICS_20260908:v2:review:0129",
+        "NAMU_HONORIFICS_20260908:v2:review:0130",
+        "NAMU_HONORIFICS_20260908:v2:review:0139"
+      ],
+      "note": "상대높임법 문헌 전체 페이지를 읽고 해당 페이지의 형식·지역·화용 조건 및 재인용을 구분함. 2026-10-12 재검토: 포항 기계면 영상 원본 미확보. 당시 61세 화자라는 PDF 설명과 재전사만 확인했다.",
+      "gaps": [
+        "포항 기계면 영상 원본 미확보. 당시 61세 화자라는 PDF 설명과 재전사만 확인했다."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 20,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:full:0104",
+        "NAMU_HONORIFICS_20260908:v2:review:0112"
+      ],
+      "note": "상대높임법 문헌 전체 페이지를 읽고 해당 페이지의 형식·지역·화용 조건 및 재인용을 구분함. 2026-10-12 재검토: 남해 영상의 미신(?)은 원문조차 이름 판독을 유보. 음성 원본 미확보.",
+      "gaps": [
+        "남해 영상의 미신(?)은 원문조차 이름 판독을 유보. 음성 원본 미확보."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 22,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:full:0113",
+        "NAMU_HONORIFICS_20260908:v2:full:0114",
+        "NAMU_HONORIFICS_20260908:v2:full:0115",
+        "NAMU_HONORIFICS_20260908:v2:review:0114"
+      ],
+      "note": "상대높임법 문헌 전체 페이지를 읽고 해당 페이지의 형식·지역·화용 조건 및 재인용을 구분함. 2026-10-12 재검토: 대구 영상 원본 미확보. 담깄다의 은어 표지를 보존하되 뜻을 추정하지 않는다.",
+      "gaps": [
+        "대구 영상 원본 미확보. 담깄다의 은어 표지를 보존하되 뜻을 추정하지 않는다."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 23,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:full:0116",
+        "NAMU_HONORIFICS_20260908:v2:review:0115"
+      ],
+      "note": "상대높임법 문헌 전체 페이지를 읽고 해당 페이지의 형식·지역·화용 조건 및 재인용을 구분함. 2026-10-12 재검토: 영덕 영상 원본 미확보. 전통 안동 나/으나의 모든 실제 활용형은 문헌에 없다.",
+      "gaps": [
+        "영덕 영상 원본 미확보. 전통 안동 나/으나의 모든 실제 활용형은 문헌에 없다."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 24,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:full:0117",
+        "NAMU_HONORIFICS_20260908:v2:full:0118",
+        "NAMU_HONORIFICS_20260908:v2:full:0119",
+        "NAMU_HONORIFICS_20260908:v2:review:0116",
+        "NAMU_HONORIFICS_20260908:v2:review:0131"
+      ],
+      "note": "상대높임법 문헌 전체 페이지를 읽고 해당 페이지의 형식·지역·화용 조건 및 재인용을 구분함. 2026-10-12 재검토: 울진 실제 대화 영상은 문헌도 없다고 명시. 어미 통합과 음조 추정을 분리했다.",
+      "gaps": [
+        "울진 실제 대화 영상은 문헌도 없다고 명시. 어미 통합과 음조 추정을 분리했다."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 25,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:full:0120",
+        "NAMU_HONORIFICS_20260908:v2:full:0121",
+        "NAMU_HONORIFICS_20260908:v2:full:0122",
+        "NAMU_HONORIFICS_20260908:v2:review:0117"
+      ],
+      "note": "상대높임법 문헌 전체 페이지를 읽고 해당 페이지의 형식·지역·화용 조건 및 재인용을 구분함. 2026-10-12 재검토: 네형 원영상은 문헌도 없다고 명시하며 -는데 기원은 가설. 의령 영상 원본 미확보.",
+      "gaps": [
+        "네형 원영상은 문헌도 없다고 명시하며 -는데 기원은 가설. 의령 영상 원본 미확보."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 27,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:full:0130",
+        "NAMU_HONORIFICS_20260908:v2:full:0131",
+        "NAMU_HONORIFICS_20260908:v2:review:0119",
+        "NAMU_HONORIFICS_20260908:v2:review:0132",
+        "NAMU_HONORIFICS_20260908:v2:review:0133"
+      ],
+      "note": "상대높임법 문헌 전체 페이지를 읽고 해당 페이지의 형식·지역·화용 조건 및 재인용을 구분함. 2026-10-12 재검토: 예천·경주 영상 원본 미확보. 한개/키우는카마 풀이와 전사 형태만 확인했다.",
+      "gaps": [
+        "예천·경주 영상 원본 미확보. 한개/키우는카마 풀이와 전사 형태만 확인했다."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 28,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:full:0132",
+        "NAMU_HONORIFICS_20260908:v2:full:0133",
+        "NAMU_HONORIFICS_20260908:v2:full:0134",
+        "NAMU_HONORIFICS_20260908:v2:full:0135",
+        "NAMU_HONORIFICS_20260908:v2:full:0136",
+        "NAMU_HONORIFICS_20260908:v2:full:0137",
+        "NAMU_HONORIFICS_20260908:v2:full:0138",
+        "NAMU_HONORIFICS_20260908:v2:full:0139",
+        "NAMU_HONORIFICS_20260908:v2:review:0120",
+        "NAMU_HONORIFICS_20260908:v2:review:0134"
+      ],
+      "note": "상대높임법 문헌 전체 페이지를 읽고 해당 페이지의 형식·지역·화용 조건 및 재인용을 구분함. 2026-10-12 재검토: 부산 음성 원전 미확보. 해여 기원은 문헌의 듯하다 추정이며 확정 사실이 아니다.",
+      "gaps": [
+        "부산 음성 원전 미확보. 해여 기원은 문헌의 듯하다 추정이며 확정 사실이 아니다."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 29,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:full:0140",
+        "NAMU_HONORIFICS_20260908:v2:full:0141",
+        "NAMU_HONORIFICS_20260908:v2:full:0142",
+        "NAMU_HONORIFICS_20260908:v2:full:0143",
+        "NAMU_HONORIFICS_20260908:v2:full:0144",
+        "NAMU_HONORIFICS_20260908:v2:full:0145",
+        "NAMU_HONORIFICS_20260908:v2:review:0121",
+        "NAMU_HONORIFICS_20260908:v2:review:0135",
+        "NAMU_HONORIFICS_20260908:v2:review:0136",
+        "NAMU_HONORIFICS_20260908:v2:review:0137",
+        "NAMU_HONORIFICS_20260908:v2:review:0138"
+      ],
+      "note": "상대높임법 문헌 전체 페이지를 읽고 해당 페이지의 형식·지역·화용 조건 및 재인용을 구분함. 2026-10-12 재검토: 문경 영상 원본 미확보. 친구/청중의 문체 교대는 PDF 재전사 설명에 한정한다.",
+      "gaps": [
+        "문경 영상 원본 미확보. 친구/청중의 문체 교대는 PDF 재전사 설명에 한정한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "pdf_page": 1,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_PHONOLOGY_20260908:v2:full:0001",
+        "NAMU_PHONOLOGY_20260908:v2:full:0002",
+        "NAMU_PHONOLOGY_20260908:v2:review_completion:0001"
+      ],
+      "note": "목차·모음체계·대구 세대 차이. 재검토: 보이는 본문·표 전부 재검토; 누락 제한과 해석 강도를 보강. 실제 없는 외부 근거는 출처 한계로 유지.",
+      "gaps": [
+        "PDF에 접힌 각주/연결 원문이 실리지 않아 확인 불가; 다른 시점 위키 내용으로 이 스냅샷의 누락을 추정하지 않음."
+      ]
+    },
+    {
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "pdf_page": 2,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_PHONOLOGY_20260908:v2:full:0003",
+        "NAMU_PHONOLOGY_20260908:v2:full:0004",
+        "NAMU_PHONOLOGY_20260908:v2:full:0005",
+        "NAMU_PHONOLOGY_20260908:v2:full:0006",
+        "NAMU_PHONOLOGY_20260908:v2:full:0007",
+        "NAMU_PHONOLOGY_20260908:v2:full:0008",
+        "NAMU_PHONOLOGY_20260908:v2:full:0009",
+        "NAMU_PHONOLOGY_20260908:v2:full:0010",
+        "NAMU_PHONOLOGY_20260908:v2:full:0011",
+        "NAMU_PHONOLOGY_20260908:v2:full:0012",
+        "NAMU_PHONOLOGY_20260908:v2:full:0013",
+        "NAMU_PHONOLOGY_20260908:v2:full:0014",
+        "NAMU_PHONOLOGY_20260908:v2:full:0015",
+        "NAMU_PHONOLOGY_20260908:v2:review_completion:0002"
+      ],
+      "note": "모음 합류 예외, 단모음화·전설모음화와 표기 구별. 재검토: 보이는 본문·표 전부 재검토; 누락 제한과 해석 강도를 보강. 실제 없는 외부 근거는 출처 한계로 유지.",
+      "gaps": [
+        "PDF에 접힌 각주/연결 원문이 실리지 않아 확인 불가; 다른 시점 위키 내용으로 이 스냅샷의 누락을 추정하지 않음."
+      ]
+    },
+    {
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "pdf_page": 3,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_PHONOLOGY_20260908:v2:full:0016",
+        "NAMU_PHONOLOGY_20260908:v2:full:0017",
+        "NAMU_PHONOLOGY_20260908:v2:full:0018",
+        "NAMU_PHONOLOGY_20260908:v2:full:0019",
+        "NAMU_PHONOLOGY_20260908:v2:full:0020",
+        "NAMU_PHONOLOGY_20260908:v2:full:0021",
+        "NAMU_PHONOLOGY_20260908:v2:full:0022",
+        "NAMU_PHONOLOGY_20260908:v2:full:0023",
+        "NAMU_PHONOLOGY_20260908:v2:full:0024",
+        "NAMU_PHONOLOGY_20260908:v2:full:0025",
+        "NAMU_PHONOLOGY_20260908:v2:full:0026",
+        "NAMU_PHONOLOGY_20260908:v2:full:0027",
+        "NAMU_PHONOLOGY_20260908:v2:full:0028",
+        "NAMU_PHONOLOGY_20260908:v2:full:0029",
+        "NAMU_PHONOLOGY_20260908:v2:full:0030",
+        "NAMU_PHONOLOGY_20260908:v2:full:0031",
+        "NAMU_PHONOLOGY_20260908:v2:review_completion:0003"
+      ],
+      "note": "자음동화 표와 ㄴ 탈락 표의 발음 칼럼. 재검토: 보이는 본문·표 전부 재검토; 누락 제한과 해석 강도를 보강. 실제 없는 외부 근거는 출처 한계로 유지.",
+      "gaps": [
+        "PDF에 접힌 각주/연결 원문이 실리지 않아 확인 불가; 다른 시점 위키 내용으로 이 스냅샷의 누락을 추정하지 않음."
+      ]
+    },
+    {
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "pdf_page": 6,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_PHONOLOGY_20260908:v2:full:0063",
+        "NAMU_PHONOLOGY_20260908:v2:full:0064",
+        "NAMU_PHONOLOGY_20260908:v2:full:0065",
+        "NAMU_PHONOLOGY_20260908:v2:full:0066",
+        "NAMU_PHONOLOGY_20260908:v2:full:0067",
+        "NAMU_PHONOLOGY_20260908:v2:full:0068",
+        "NAMU_PHONOLOGY_20260908:v2:full:0069",
+        "NAMU_PHONOLOGY_20260908:v2:full:0070",
+        "NAMU_PHONOLOGY_20260908:v2:full:0071",
+        "NAMU_PHONOLOGY_20260908:v2:full:0072",
+        "NAMU_PHONOLOGY_20260908:v2:full:0073",
+        "NAMU_PHONOLOGY_20260908:v2:full:0074",
+        "NAMU_PHONOLOGY_20260908:v2:full:0075",
+        "NAMU_PHONOLOGY_20260908:v2:full:0076",
+        "NAMU_PHONOLOGY_20260908:v2:full:0077",
+        "NAMU_PHONOLOGY_20260908:v2:full:0078",
+        "NAMU_PHONOLOGY_20260908:v2:full:0079",
+        "NAMU_PHONOLOGY_20260908:v2:full:0080",
+        "NAMU_PHONOLOGY_20260908:v2:full:0081",
+        "NAMU_PHONOLOGY_20260908:v2:review_completion:0004"
+      ],
+      "note": "표 계속, ㄷ/ㄹ 탈락, 하다 유기음, 구개음화·세대 범위. 재검토: 보이는 본문·표 전부 재검토; 누락 제한과 해석 강도를 보강. 실제 없는 외부 근거는 출처 한계로 유지.",
+      "gaps": [
+        "PDF에 접힌 각주/연결 원문이 실리지 않아 확인 불가; 다른 시점 위키 내용으로 이 스냅샷의 누락을 추정하지 않음."
+      ]
+    },
+    {
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "pdf_page": 7,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_PHONOLOGY_20260908:v2:full:0082",
+        "NAMU_PHONOLOGY_20260908:v2:full:0083",
+        "NAMU_PHONOLOGY_20260908:v2:full:0084",
+        "NAMU_PHONOLOGY_20260908:v2:full:0085",
+        "NAMU_PHONOLOGY_20260908:v2:full:0086",
+        "NAMU_PHONOLOGY_20260908:v2:full:0087",
+        "NAMU_PHONOLOGY_20260908:v2:full:0088",
+        "NAMU_PHONOLOGY_20260908:v2:full:0089",
+        "NAMU_PHONOLOGY_20260908:v2:full:0090",
+        "NAMU_PHONOLOGY_20260908:v2:full:0091",
+        "NAMU_PHONOLOGY_20260908:v2:full:0092",
+        "NAMU_PHONOLOGY_20260908:v2:full:0093",
+        "NAMU_PHONOLOGY_20260908:v2:full:0094",
+        "NAMU_PHONOLOGY_20260908:v2:full:0095",
+        "NAMU_PHONOLOGY_20260908:v2:full:0096",
+        "NAMU_PHONOLOGY_20260908:v2:full:0097",
+        "NAMU_PHONOLOGY_20260908:v2:full:0098",
+        "NAMU_PHONOLOGY_20260908:v2:full:0099",
+        "NAMU_PHONOLOGY_20260908:v2:full:0100",
+        "NAMU_PHONOLOGY_20260908:v2:full:0101",
+        "NAMU_PHONOLOGY_20260908:v2:full:0102",
+        "NAMU_PHONOLOGY_20260908:v2:full:0103",
+        "NAMU_PHONOLOGY_20260908:v2:review_completion:0005"
+      ],
+      "note": "구개음화 계속, ㅅ/ㅆ, 순경음·반치음 흔적과 축약. 재검토: 보이는 본문·표 전부 재검토; 누락 제한과 해석 강도를 보강. 실제 없는 외부 근거는 출처 한계로 유지.",
+      "gaps": [
+        "PDF에 접힌 각주/연결 원문이 실리지 않아 확인 불가; 다른 시점 위키 내용으로 이 스냅샷의 누락을 추정하지 않음."
+      ]
+    },
+    {
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "pdf_page": 8,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "NAMU_PHONOLOGY_20260908:v2:full:0104",
+        "NAMU_PHONOLOGY_20260908:v2:full:0105",
+        "NAMU_PHONOLOGY_20260908:v2:full:0106",
+        "NAMU_PHONOLOGY_20260908:v2:full:0107",
+        "NAMU_PHONOLOGY_20260908:v2:full:0108",
+        "NAMU_PHONOLOGY_20260908:v2:full:0109",
+        "NAMU_PHONOLOGY_20260908:v2:full:0110",
+        "NAMU_PHONOLOGY_20260908:v2:full:0111",
+        "NAMU_PHONOLOGY_20260908:v2:full:0112",
+        "NAMU_PHONOLOGY_20260908:v2:review_completion:0006"
+      ],
+      "note": "지역별 지시/인용 축약 및 합성 예, 운소 개괄·라이선스. 재검토: 보이는 본문·표 전부 재검토; 누락 제한과 해석 강도를 보강. 실제 없는 외부 근거는 출처 한계로 유지.",
+      "gaps": [
+        "PDF에 접힌 각주/연결 원문이 실리지 않아 확인 불가; 다른 시점 위키 내용으로 이 스냅샷의 누락을 추정하지 않음."
+      ]
+    },
+    {
+      "source_id": "RYU2014",
+      "pdf_page": 12,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "RYU2014:v2:full:0057",
+        "RYU2014:v2:full:0058",
+        "RYU2014:v2:full:0059",
+        "RYU2014:v2:full:0060",
+        "RYU2014:v2:review_completion:0001"
+      ],
+      "note": "격조사 표 계속 및 주제조사 미사용에 대한 상충 근거 각주. 재검토: 본문10쪽·표12쪽·각주10의 상충을 직접 대조하여 원문 한계를 구체화.",
+      "gaps": [
+        "자격 -으로서/-갖고의 본문·표 불일치와 주제 은/는 제보자·자료집 차이는 원문 자체 미해결; 추가 원자료 없이는 원인을 확정할 수 없음."
+      ]
+    },
+    {
+      "source_id": "RYU2014",
+      "pdf_page": 29,
+      "disposition": "knowledge",
+      "fact_ids": [
+        "RYU2014:v2:full:0143",
+        "RYU2014:v2:review_completion:0009",
+        "RYU2014:v2:review_completion:0012"
+      ],
+      "note": "태도 표와 해석. 재검토: 설문 모든 항목의 응답수·비율을 참고 사실로 보존.",
+      "gaps": [
+        "태도 항목2의 표 53.3%와 본문 71.1% 해석 차이를 사실로 보존; 원저자 확인 없이 동일 태도로 합치지 않음."
+      ]
+    }
+  ],
+  "note": "All pages have been read; these are explicit limits of semantic extraction and source interpretation."
+}

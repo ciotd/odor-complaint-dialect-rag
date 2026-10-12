@@ -1,0 +1,1502 @@
+{
+  "facts_sha256": "b96f57ab1e147d9f9afbfed26399cd946085493249d164240eff2c296e76c175",
+  "graph_sha256": "cb88c00d4f989e45dc193936812fbce70551ee59328e8bed6785f7366ba445c7",
+  "input_analysis": "manually supplied lemma and requested ending; no sentence parser involved",
+  "lexical_statements": 650,
+  "lexical_statements_with_structural_inflection_edges": 44,
+  "structural_inflection_edges": 484,
+  "usability_counts": {
+    "reference_only": 1745,
+    "candidate": 2004,
+    "blocked": 8
+  },
+  "cases": [
+    {
+      "request": {
+        "lemma": "먹다",
+        "ending": "-고",
+        "lexical_id": null
+      },
+      "surfaces": [
+        "묵고"
+      ],
+      "paths": [
+        {
+          "lexical_id": "NAMU_GRAMMAR_20260908:v2:full:1057",
+          "inflection_id": "NAMU_GRAMMAR_20260908:v2:full:0239",
+          "surface": "묵고",
+          "selected_candidate": {
+            "lemma": "묵다",
+            "host_form": "묵다",
+            "ending": "-고"
+          },
+          "checks": {
+            "lexical": {
+              "rejected": false,
+              "conditions": [],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            },
+            "inflection": {
+              "rejected": false,
+              "conditions": [
+                {
+                  "owner": "candidate",
+                  "field": "lemma",
+                  "op": "eq",
+                  "value": "묵다",
+                  "basis": "explicit",
+                  "actual": "묵다",
+                  "status": "satisfied"
+                },
+                {
+                  "owner": "candidate",
+                  "field": "ending",
+                  "op": "eq",
+                  "value": "-고",
+                  "basis": "explicit",
+                  "actual": "-고",
+                  "status": "satisfied"
+                }
+              ],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            }
+          },
+          "review_reasons": [
+            "cross_statement_sense_and_scope",
+            "generation_not_validated",
+            "sense_requires_review",
+            "source_scope_requires_review",
+            "textual_constraints_require_review"
+          ],
+          "generation_approved": false
+        },
+        {
+          "lexical_id": "NAMU_GRAMMAR_20260908:v2:full:1057",
+          "inflection_id": "RYU2014:v2:full:0097",
+          "surface": "묵고",
+          "selected_candidate": {
+            "lemma": "묵다",
+            "host_form": "묵다",
+            "ending": "-고"
+          },
+          "checks": {
+            "lexical": {
+              "rejected": false,
+              "conditions": [],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            },
+            "inflection": {
+              "rejected": false,
+              "conditions": [
+                {
+                  "owner": "candidate",
+                  "field": "lemma",
+                  "op": "eq",
+                  "value": "묵다",
+                  "basis": "explicit",
+                  "actual": "묵다",
+                  "status": "satisfied"
+                },
+                {
+                  "owner": "candidate",
+                  "field": "ending",
+                  "op": "eq",
+                  "value": "-고",
+                  "basis": "explicit",
+                  "actual": "-고",
+                  "status": "satisfied"
+                }
+              ],
+              "review_reasons": [
+                "source_scope_requires_review"
+              ]
+            }
+          },
+          "review_reasons": [
+            "cross_statement_sense_and_scope",
+            "generation_not_validated",
+            "sense_requires_review",
+            "source_scope_requires_review",
+            "textual_constraints_require_review"
+          ],
+          "generation_approved": false
+        },
+        {
+          "lexical_id": "RYU2014:v2:full:0056",
+          "inflection_id": "NAMU_GRAMMAR_20260908:v2:full:0239",
+          "surface": "묵고",
+          "selected_candidate": {
+            "pos": "verb",
+            "lemma": "묵다",
+            "host_form": "묵다",
+            "ending": "-고"
+          },
+          "checks": {
+            "lexical": {
+              "rejected": false,
+              "conditions": [],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "claim_status_requires_review"
+              ]
+            },
+            "inflection": {
+              "rejected": false,
+              "conditions": [
+                {
+                  "owner": "candidate",
+                  "field": "lemma",
+                  "op": "eq",
+                  "value": "묵다",
+                  "basis": "explicit",
+                  "actual": "묵다",
+                  "status": "satisfied"
+                },
+                {
+                  "owner": "candidate",
+                  "field": "ending",
+                  "op": "eq",
+                  "value": "-고",
+                  "basis": "explicit",
+                  "actual": "-고",
+                  "status": "satisfied"
+                }
+              ],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            }
+          },
+          "review_reasons": [
+            "claim_status_requires_review",
+            "cross_statement_sense_and_scope",
+            "generation_not_validated",
+            "sense_requires_review",
+            "source_scope_requires_review",
+            "textual_constraints_require_review"
+          ],
+          "generation_approved": false
+        },
+        {
+          "lexical_id": "RYU2014:v2:full:0056",
+          "inflection_id": "RYU2014:v2:full:0097",
+          "surface": "묵고",
+          "selected_candidate": {
+            "pos": "verb",
+            "lemma": "묵다",
+            "host_form": "묵다",
+            "ending": "-고"
+          },
+          "checks": {
+            "lexical": {
+              "rejected": false,
+              "conditions": [],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "claim_status_requires_review"
+              ]
+            },
+            "inflection": {
+              "rejected": false,
+              "conditions": [
+                {
+                  "owner": "candidate",
+                  "field": "lemma",
+                  "op": "eq",
+                  "value": "묵다",
+                  "basis": "explicit",
+                  "actual": "묵다",
+                  "status": "satisfied"
+                },
+                {
+                  "owner": "candidate",
+                  "field": "ending",
+                  "op": "eq",
+                  "value": "-고",
+                  "basis": "explicit",
+                  "actual": "-고",
+                  "status": "satisfied"
+                }
+              ],
+              "review_reasons": [
+                "source_scope_requires_review"
+              ]
+            }
+          },
+          "review_reasons": [
+            "claim_status_requires_review",
+            "cross_statement_sense_and_scope",
+            "generation_not_validated",
+            "source_scope_requires_review",
+            "textual_constraints_require_review"
+          ],
+          "generation_approved": false
+        }
+      ],
+      "rejected_path_count": 30,
+      "lexical_without_inflection": []
+    },
+    {
+      "request": {
+        "lemma": "먹다",
+        "ending": "-아/어라",
+        "lexical_id": null
+      },
+      "surfaces": [
+        "무우라",
+        "묵어라"
+      ],
+      "paths": [
+        {
+          "lexical_id": "NAMU_GRAMMAR_20260908:v2:full:1057",
+          "inflection_id": "NAMU_GRAMMAR_20260908:v2:full:0227",
+          "surface": "묵어라",
+          "selected_candidate": {
+            "lemma": "묵다",
+            "host_form": "묵다",
+            "ending": "-아/어라"
+          },
+          "checks": {
+            "lexical": {
+              "rejected": false,
+              "conditions": [],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            },
+            "inflection": {
+              "rejected": false,
+              "conditions": [
+                {
+                  "owner": "candidate",
+                  "field": "lemma",
+                  "op": "eq",
+                  "value": "묵다",
+                  "basis": "explicit",
+                  "actual": "묵다",
+                  "status": "satisfied"
+                },
+                {
+                  "owner": "candidate",
+                  "field": "ending",
+                  "op": "eq",
+                  "value": "-아/어라",
+                  "basis": "explicit",
+                  "actual": "-아/어라",
+                  "status": "satisfied"
+                }
+              ],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            }
+          },
+          "review_reasons": [
+            "cross_statement_sense_and_scope",
+            "generation_not_validated",
+            "sense_requires_review",
+            "source_scope_requires_review",
+            "textual_constraints_require_review"
+          ],
+          "generation_approved": false
+        },
+        {
+          "lexical_id": "NAMU_GRAMMAR_20260908:v2:full:1057",
+          "inflection_id": "NAMU_GRAMMAR_20260908:v2:full:0228",
+          "surface": "무우라",
+          "selected_candidate": {
+            "lemma": "묵다",
+            "host_form": "묵다",
+            "ending": "-아/어라"
+          },
+          "checks": {
+            "lexical": {
+              "rejected": false,
+              "conditions": [],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            },
+            "inflection": {
+              "rejected": false,
+              "conditions": [
+                {
+                  "owner": "candidate",
+                  "field": "lemma",
+                  "op": "eq",
+                  "value": "묵다",
+                  "basis": "explicit",
+                  "actual": "묵다",
+                  "status": "satisfied"
+                },
+                {
+                  "owner": "candidate",
+                  "field": "ending",
+                  "op": "eq",
+                  "value": "-아/어라",
+                  "basis": "explicit",
+                  "actual": "-아/어라",
+                  "status": "satisfied"
+                }
+              ],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            }
+          },
+          "review_reasons": [
+            "cross_statement_sense_and_scope",
+            "generation_not_validated",
+            "sense_requires_review",
+            "source_scope_requires_review",
+            "textual_constraints_require_review"
+          ],
+          "generation_approved": false
+        },
+        {
+          "lexical_id": "RYU2014:v2:full:0056",
+          "inflection_id": "NAMU_GRAMMAR_20260908:v2:full:0227",
+          "surface": "묵어라",
+          "selected_candidate": {
+            "pos": "verb",
+            "lemma": "묵다",
+            "host_form": "묵다",
+            "ending": "-아/어라"
+          },
+          "checks": {
+            "lexical": {
+              "rejected": false,
+              "conditions": [],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "claim_status_requires_review"
+              ]
+            },
+            "inflection": {
+              "rejected": false,
+              "conditions": [
+                {
+                  "owner": "candidate",
+                  "field": "lemma",
+                  "op": "eq",
+                  "value": "묵다",
+                  "basis": "explicit",
+                  "actual": "묵다",
+                  "status": "satisfied"
+                },
+                {
+                  "owner": "candidate",
+                  "field": "ending",
+                  "op": "eq",
+                  "value": "-아/어라",
+                  "basis": "explicit",
+                  "actual": "-아/어라",
+                  "status": "satisfied"
+                }
+              ],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            }
+          },
+          "review_reasons": [
+            "claim_status_requires_review",
+            "cross_statement_sense_and_scope",
+            "generation_not_validated",
+            "sense_requires_review",
+            "source_scope_requires_review",
+            "textual_constraints_require_review"
+          ],
+          "generation_approved": false
+        },
+        {
+          "lexical_id": "RYU2014:v2:full:0056",
+          "inflection_id": "NAMU_GRAMMAR_20260908:v2:full:0228",
+          "surface": "무우라",
+          "selected_candidate": {
+            "pos": "verb",
+            "lemma": "묵다",
+            "host_form": "묵다",
+            "ending": "-아/어라"
+          },
+          "checks": {
+            "lexical": {
+              "rejected": false,
+              "conditions": [],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "claim_status_requires_review"
+              ]
+            },
+            "inflection": {
+              "rejected": false,
+              "conditions": [
+                {
+                  "owner": "candidate",
+                  "field": "lemma",
+                  "op": "eq",
+                  "value": "묵다",
+                  "basis": "explicit",
+                  "actual": "묵다",
+                  "status": "satisfied"
+                },
+                {
+                  "owner": "candidate",
+                  "field": "ending",
+                  "op": "eq",
+                  "value": "-아/어라",
+                  "basis": "explicit",
+                  "actual": "-아/어라",
+                  "status": "satisfied"
+                }
+              ],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            }
+          },
+          "review_reasons": [
+            "claim_status_requires_review",
+            "cross_statement_sense_and_scope",
+            "generation_not_validated",
+            "sense_requires_review",
+            "source_scope_requires_review",
+            "textual_constraints_require_review"
+          ],
+          "generation_approved": false
+        }
+      ],
+      "rejected_path_count": 30,
+      "lexical_without_inflection": []
+    },
+    {
+      "request": {
+        "lemma": "버리다",
+        "ending": "-고",
+        "lexical_id": null
+      },
+      "surfaces": [
+        "버리고",
+        "베리고",
+        "뿌고",
+        "삐고"
+      ],
+      "paths": [
+        {
+          "lexical_id": "NAMU_GRAMMAR_20260908:v2:full:0429",
+          "inflection_id": "NAMU_GRAMMAR_20260908:v2:full:0440",
+          "surface": "버리고",
+          "selected_candidate": {
+            "lemma": "버리다",
+            "host_form": "버리다",
+            "ending": "-고"
+          },
+          "checks": {
+            "lexical": {
+              "rejected": false,
+              "conditions": [],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            },
+            "inflection": {
+              "rejected": false,
+              "conditions": [
+                {
+                  "owner": "candidate",
+                  "field": "lemma",
+                  "op": "eq",
+                  "value": "버리다",
+                  "basis": "explicit",
+                  "actual": "버리다",
+                  "status": "satisfied"
+                },
+                {
+                  "owner": "candidate",
+                  "field": "ending",
+                  "op": "eq",
+                  "value": "-고",
+                  "basis": "explicit",
+                  "actual": "-고",
+                  "status": "satisfied"
+                }
+              ],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            }
+          },
+          "review_reasons": [
+            "cross_statement_sense_and_scope",
+            "generation_not_validated",
+            "sense_requires_review",
+            "source_scope_requires_review",
+            "textual_constraints_require_review"
+          ],
+          "generation_approved": false
+        },
+        {
+          "lexical_id": "NAMU_GRAMMAR_20260908:v2:full:0430",
+          "inflection_id": "NAMU_GRAMMAR_20260908:v2:full:0448",
+          "surface": "베리고",
+          "selected_candidate": {
+            "lemma": "베리다",
+            "host_form": "베리다",
+            "ending": "-고"
+          },
+          "checks": {
+            "lexical": {
+              "rejected": false,
+              "conditions": [],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            },
+            "inflection": {
+              "rejected": false,
+              "conditions": [
+                {
+                  "owner": "candidate",
+                  "field": "lemma",
+                  "op": "eq",
+                  "value": "베리다",
+                  "basis": "explicit",
+                  "actual": "베리다",
+                  "status": "satisfied"
+                },
+                {
+                  "owner": "candidate",
+                  "field": "ending",
+                  "op": "eq",
+                  "value": "-고",
+                  "basis": "explicit",
+                  "actual": "-고",
+                  "status": "satisfied"
+                }
+              ],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            }
+          },
+          "review_reasons": [
+            "cross_statement_sense_and_scope",
+            "generation_not_validated",
+            "sense_requires_review",
+            "source_scope_requires_review",
+            "textual_constraints_require_review"
+          ],
+          "generation_approved": false
+        },
+        {
+          "lexical_id": "NAMU_GRAMMAR_20260908:v2:full:0431",
+          "inflection_id": "NAMU_GRAMMAR_20260908:v2:full:0010",
+          "surface": "삐고",
+          "selected_candidate": {
+            "lemma": "삐다",
+            "host_form": "삐다",
+            "ending": "-고"
+          },
+          "checks": {
+            "lexical": {
+              "rejected": false,
+              "conditions": [],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            },
+            "inflection": {
+              "rejected": false,
+              "conditions": [
+                {
+                  "owner": "candidate",
+                  "field": "lemma",
+                  "op": "eq",
+                  "value": "삐다",
+                  "basis": "explicit",
+                  "actual": "삐다",
+                  "status": "satisfied"
+                },
+                {
+                  "owner": "candidate",
+                  "field": "ending",
+                  "op": "eq",
+                  "value": "-고",
+                  "basis": "explicit",
+                  "actual": "-고",
+                  "status": "satisfied"
+                }
+              ],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review"
+              ]
+            }
+          },
+          "review_reasons": [
+            "cross_statement_sense_and_scope",
+            "generation_not_validated",
+            "sense_requires_review",
+            "source_scope_requires_review",
+            "textual_constraints_require_review"
+          ],
+          "generation_approved": false
+        },
+        {
+          "lexical_id": "NAMU_GRAMMAR_20260908:v2:full:0431",
+          "inflection_id": "NAMU_GRAMMAR_20260908:v2:full:0018",
+          "surface": "삐고",
+          "selected_candidate": {
+            "lemma": "삐다",
+            "host_form": "삐다",
+            "ending": "-고"
+          },
+          "checks": {
+            "lexical": {
+              "rejected": false,
+              "conditions": [],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            },
+            "inflection": {
+              "rejected": false,
+              "conditions": [
+                {
+                  "owner": "candidate",
+                  "field": "lemma",
+                  "op": "eq",
+                  "value": "삐다",
+                  "basis": "explicit",
+                  "actual": "삐다",
+                  "status": "satisfied"
+                },
+                {
+                  "owner": "candidate",
+                  "field": "ending",
+                  "op": "eq",
+                  "value": "-고",
+                  "basis": "explicit",
+                  "actual": "-고",
+                  "status": "satisfied"
+                }
+              ],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review"
+              ]
+            }
+          },
+          "review_reasons": [
+            "cross_statement_sense_and_scope",
+            "generation_not_validated",
+            "sense_requires_review",
+            "source_scope_requires_review",
+            "textual_constraints_require_review"
+          ],
+          "generation_approved": false
+        },
+        {
+          "lexical_id": "NAMU_GRAMMAR_20260908:v2:full:0431",
+          "inflection_id": "NAMU_GRAMMAR_20260908:v2:full:0456",
+          "surface": "삐고",
+          "selected_candidate": {
+            "lemma": "삐다",
+            "host_form": "삐다",
+            "ending": "-고"
+          },
+          "checks": {
+            "lexical": {
+              "rejected": false,
+              "conditions": [],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            },
+            "inflection": {
+              "rejected": false,
+              "conditions": [
+                {
+                  "owner": "candidate",
+                  "field": "lemma",
+                  "op": "eq",
+                  "value": "삐다",
+                  "basis": "explicit",
+                  "actual": "삐다",
+                  "status": "satisfied"
+                },
+                {
+                  "owner": "candidate",
+                  "field": "ending",
+                  "op": "eq",
+                  "value": "-고",
+                  "basis": "explicit",
+                  "actual": "-고",
+                  "status": "satisfied"
+                }
+              ],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            }
+          },
+          "review_reasons": [
+            "cross_statement_sense_and_scope",
+            "generation_not_validated",
+            "sense_requires_review",
+            "source_scope_requires_review",
+            "textual_constraints_require_review"
+          ],
+          "generation_approved": false
+        },
+        {
+          "lexical_id": "NAMU_GRAMMAR_20260908:v2:full:0432",
+          "inflection_id": "NAMU_GRAMMAR_20260908:v2:full:0464",
+          "surface": "뿌고",
+          "selected_candidate": {
+            "lemma": "뿌다",
+            "host_form": "뿌다",
+            "ending": "-고"
+          },
+          "checks": {
+            "lexical": {
+              "rejected": false,
+              "conditions": [],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            },
+            "inflection": {
+              "rejected": false,
+              "conditions": [
+                {
+                  "owner": "candidate",
+                  "field": "lemma",
+                  "op": "eq",
+                  "value": "뿌다",
+                  "basis": "explicit",
+                  "actual": "뿌다",
+                  "status": "satisfied"
+                },
+                {
+                  "owner": "candidate",
+                  "field": "ending",
+                  "op": "eq",
+                  "value": "-고",
+                  "basis": "explicit",
+                  "actual": "-고",
+                  "status": "satisfied"
+                }
+              ],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            }
+          },
+          "review_reasons": [
+            "cross_statement_sense_and_scope",
+            "generation_not_validated",
+            "sense_requires_review",
+            "source_scope_requires_review",
+            "textual_constraints_require_review"
+          ],
+          "generation_approved": false
+        }
+      ],
+      "rejected_path_count": 42,
+      "lexical_without_inflection": []
+    },
+    {
+      "request": {
+        "lemma": "데우다",
+        "ending": "-고",
+        "lexical_id": null
+      },
+      "surfaces": [
+        "뎁후고",
+        "뎁히고"
+      ],
+      "paths": [
+        {
+          "lexical_id": "NAMU_GRAMMAR_20260908:v2:full:0906",
+          "inflection_id": "NAMU_GRAMMAR_20260908:v2:full:0167",
+          "surface": "뎁후고",
+          "selected_candidate": {
+            "lemma": "뎁후다",
+            "host_form": "뎁후다",
+            "ending": "-고"
+          },
+          "checks": {
+            "lexical": {
+              "rejected": false,
+              "conditions": [],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            },
+            "inflection": {
+              "rejected": false,
+              "conditions": [
+                {
+                  "owner": "candidate",
+                  "field": "lemma",
+                  "op": "eq",
+                  "value": "뎁후다",
+                  "basis": "explicit",
+                  "actual": "뎁후다",
+                  "status": "satisfied"
+                },
+                {
+                  "owner": "candidate",
+                  "field": "ending",
+                  "op": "eq",
+                  "value": "-고",
+                  "basis": "explicit",
+                  "actual": "-고",
+                  "status": "satisfied"
+                }
+              ],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            }
+          },
+          "review_reasons": [
+            "cross_statement_sense_and_scope",
+            "generation_not_validated",
+            "sense_requires_review",
+            "source_scope_requires_review",
+            "textual_constraints_require_review"
+          ],
+          "generation_approved": false
+        },
+        {
+          "lexical_id": "NAMU_GRAMMAR_20260908:v2:full:0907",
+          "inflection_id": "NAMU_GRAMMAR_20260908:v2:full:0058",
+          "surface": "뎁히고",
+          "selected_candidate": {
+            "lemma": "뎁히다",
+            "host_form": "뎁히다",
+            "ending": "-고"
+          },
+          "checks": {
+            "lexical": {
+              "rejected": false,
+              "conditions": [],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            },
+            "inflection": {
+              "rejected": false,
+              "conditions": [
+                {
+                  "owner": "candidate",
+                  "field": "lemma",
+                  "op": "eq",
+                  "value": "뎁히다",
+                  "basis": "explicit",
+                  "actual": "뎁히다",
+                  "status": "satisfied"
+                },
+                {
+                  "owner": "candidate",
+                  "field": "ending",
+                  "op": "eq",
+                  "value": "-고",
+                  "basis": "explicit",
+                  "actual": "-고",
+                  "status": "satisfied"
+                }
+              ],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            }
+          },
+          "review_reasons": [
+            "cross_statement_sense_and_scope",
+            "generation_not_validated",
+            "sense_requires_review",
+            "source_scope_requires_review",
+            "textual_constraints_require_review"
+          ],
+          "generation_approved": false
+        },
+        {
+          "lexical_id": "NAMU_GRAMMAR_20260908:v2:full:0907",
+          "inflection_id": "NAMU_GRAMMAR_20260908:v2:full:0066",
+          "surface": "뎁히고",
+          "selected_candidate": {
+            "lemma": "뎁히다",
+            "host_form": "뎁히다",
+            "ending": "-고"
+          },
+          "checks": {
+            "lexical": {
+              "rejected": false,
+              "conditions": [],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            },
+            "inflection": {
+              "rejected": false,
+              "conditions": [
+                {
+                  "owner": "candidate",
+                  "field": "lemma",
+                  "op": "eq",
+                  "value": "뎁히다",
+                  "basis": "explicit",
+                  "actual": "뎁히다",
+                  "status": "satisfied"
+                },
+                {
+                  "owner": "candidate",
+                  "field": "ending",
+                  "op": "eq",
+                  "value": "-고",
+                  "basis": "explicit",
+                  "actual": "-고",
+                  "status": "satisfied"
+                }
+              ],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            }
+          },
+          "review_reasons": [
+            "cross_statement_sense_and_scope",
+            "generation_not_validated",
+            "sense_requires_review",
+            "source_scope_requires_review",
+            "textual_constraints_require_review"
+          ],
+          "generation_approved": false
+        },
+        {
+          "lexical_id": "NAMU_GRAMMAR_20260908:v2:full:1046",
+          "inflection_id": "NAMU_GRAMMAR_20260908:v2:full:0058",
+          "surface": "뎁히고",
+          "selected_candidate": {
+            "lemma": "뎁히다",
+            "host_form": "뎁히다",
+            "ending": "-고"
+          },
+          "checks": {
+            "lexical": {
+              "rejected": false,
+              "conditions": [],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review"
+              ]
+            },
+            "inflection": {
+              "rejected": false,
+              "conditions": [
+                {
+                  "owner": "candidate",
+                  "field": "lemma",
+                  "op": "eq",
+                  "value": "뎁히다",
+                  "basis": "explicit",
+                  "actual": "뎁히다",
+                  "status": "satisfied"
+                },
+                {
+                  "owner": "candidate",
+                  "field": "ending",
+                  "op": "eq",
+                  "value": "-고",
+                  "basis": "explicit",
+                  "actual": "-고",
+                  "status": "satisfied"
+                }
+              ],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            }
+          },
+          "review_reasons": [
+            "cross_statement_sense_and_scope",
+            "generation_not_validated",
+            "sense_requires_review",
+            "source_scope_requires_review",
+            "textual_constraints_require_review"
+          ],
+          "generation_approved": false
+        },
+        {
+          "lexical_id": "NAMU_GRAMMAR_20260908:v2:full:1046",
+          "inflection_id": "NAMU_GRAMMAR_20260908:v2:full:0066",
+          "surface": "뎁히고",
+          "selected_candidate": {
+            "lemma": "뎁히다",
+            "host_form": "뎁히다",
+            "ending": "-고"
+          },
+          "checks": {
+            "lexical": {
+              "rejected": false,
+              "conditions": [],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review"
+              ]
+            },
+            "inflection": {
+              "rejected": false,
+              "conditions": [
+                {
+                  "owner": "candidate",
+                  "field": "lemma",
+                  "op": "eq",
+                  "value": "뎁히다",
+                  "basis": "explicit",
+                  "actual": "뎁히다",
+                  "status": "satisfied"
+                },
+                {
+                  "owner": "candidate",
+                  "field": "ending",
+                  "op": "eq",
+                  "value": "-고",
+                  "basis": "explicit",
+                  "actual": "-고",
+                  "status": "satisfied"
+                }
+              ],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            }
+          },
+          "review_reasons": [
+            "cross_statement_sense_and_scope",
+            "generation_not_validated",
+            "sense_requires_review",
+            "source_scope_requires_review",
+            "textual_constraints_require_review"
+          ],
+          "generation_approved": false
+        },
+        {
+          "lexical_id": "NAMU_GRAMMAR_20260908:v2:full:1053",
+          "inflection_id": "NAMU_GRAMMAR_20260908:v2:full:0167",
+          "surface": "뎁후고",
+          "selected_candidate": {
+            "lemma": "뎁후다",
+            "host_form": "뎁후다",
+            "ending": "-고"
+          },
+          "checks": {
+            "lexical": {
+              "rejected": false,
+              "conditions": [],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review"
+              ]
+            },
+            "inflection": {
+              "rejected": false,
+              "conditions": [
+                {
+                  "owner": "candidate",
+                  "field": "lemma",
+                  "op": "eq",
+                  "value": "뎁후다",
+                  "basis": "explicit",
+                  "actual": "뎁후다",
+                  "status": "satisfied"
+                },
+                {
+                  "owner": "candidate",
+                  "field": "ending",
+                  "op": "eq",
+                  "value": "-고",
+                  "basis": "explicit",
+                  "actual": "-고",
+                  "status": "satisfied"
+                }
+              ],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            }
+          },
+          "review_reasons": [
+            "cross_statement_sense_and_scope",
+            "generation_not_validated",
+            "sense_requires_review",
+            "source_scope_requires_review",
+            "textual_constraints_require_review"
+          ],
+          "generation_approved": false
+        }
+      ],
+      "rejected_path_count": 42,
+      "lexical_without_inflection": [
+        "NAMU_GRAMMAR_20260908:v2:full:0913"
+      ]
+    },
+    {
+      "request": {
+        "lemma": "내리다",
+        "ending": "-고",
+        "lexical_id": null
+      },
+      "surfaces": [
+        "내루고"
+      ],
+      "paths": [
+        {
+          "lexical_id": "NAMU_GRAMMAR_20260908:v2:full:0496",
+          "inflection_id": "NAMU_GRAMMAR_20260908:v2:full:0135",
+          "surface": "내루고",
+          "selected_candidate": {
+            "lemma": "내루다",
+            "host_form": "내루다",
+            "ending": "-고"
+          },
+          "checks": {
+            "lexical": {
+              "rejected": false,
+              "conditions": [],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review"
+              ]
+            },
+            "inflection": {
+              "rejected": false,
+              "conditions": [
+                {
+                  "owner": "candidate",
+                  "field": "lemma",
+                  "op": "eq",
+                  "value": "내루다",
+                  "basis": "explicit",
+                  "actual": "내루다",
+                  "status": "satisfied"
+                },
+                {
+                  "owner": "candidate",
+                  "field": "ending",
+                  "op": "eq",
+                  "value": "-고",
+                  "basis": "explicit",
+                  "actual": "-고",
+                  "status": "satisfied"
+                }
+              ],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            }
+          },
+          "review_reasons": [
+            "cross_statement_sense_and_scope",
+            "generation_not_validated",
+            "sense_requires_review",
+            "source_scope_requires_review",
+            "textual_constraints_require_review"
+          ],
+          "generation_approved": false
+        },
+        {
+          "lexical_id": "NAMU_GRAMMAR_20260908:v2:full:1049",
+          "inflection_id": "NAMU_GRAMMAR_20260908:v2:full:0135",
+          "surface": "내루고",
+          "selected_candidate": {
+            "lemma": "내루다",
+            "host_form": "내루다",
+            "ending": "-고"
+          },
+          "checks": {
+            "lexical": {
+              "rejected": false,
+              "conditions": [],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review"
+              ]
+            },
+            "inflection": {
+              "rejected": false,
+              "conditions": [
+                {
+                  "owner": "candidate",
+                  "field": "lemma",
+                  "op": "eq",
+                  "value": "내루다",
+                  "basis": "explicit",
+                  "actual": "내루다",
+                  "status": "satisfied"
+                },
+                {
+                  "owner": "candidate",
+                  "field": "ending",
+                  "op": "eq",
+                  "value": "-고",
+                  "basis": "explicit",
+                  "actual": "-고",
+                  "status": "satisfied"
+                }
+              ],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review",
+                "sense_requires_review"
+              ]
+            }
+          },
+          "review_reasons": [
+            "cross_statement_sense_and_scope",
+            "generation_not_validated",
+            "sense_requires_review",
+            "source_scope_requires_review",
+            "textual_constraints_require_review"
+          ],
+          "generation_approved": false
+        }
+      ],
+      "rejected_path_count": 14,
+      "lexical_without_inflection": [
+        "NAMU_GRAMMAR_20260908:v2:full:0495"
+      ]
+    },
+    {
+      "request": {
+        "lemma": "빠뜨리다",
+        "ending": "-고",
+        "lexical_id": null
+      },
+      "surfaces": [
+        "빠주고",
+        "빠줗고"
+      ],
+      "paths": [
+        {
+          "lexical_id": "NAMU_GRAMMAR_20260908:v2:full:1063",
+          "inflection_id": "NAMU_GRAMMAR_20260908:v2:review:0002",
+          "surface": "빠줗고",
+          "selected_candidate": {
+            "lemma": "빠줗다",
+            "host_form": "빠줗다",
+            "ending": "-고"
+          },
+          "checks": {
+            "lexical": {
+              "rejected": false,
+              "conditions": [],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review"
+              ]
+            },
+            "inflection": {
+              "rejected": false,
+              "conditions": [
+                {
+                  "owner": "candidate",
+                  "field": "lemma",
+                  "op": "eq",
+                  "value": "빠줗다",
+                  "basis": "explicit",
+                  "actual": "빠줗다",
+                  "status": "satisfied"
+                },
+                {
+                  "owner": "candidate",
+                  "field": "ending",
+                  "op": "eq",
+                  "value": "-고",
+                  "basis": "explicit",
+                  "actual": "-고",
+                  "status": "satisfied"
+                },
+                {
+                  "owner": "candidate",
+                  "field": "representation",
+                  "op": "eq",
+                  "value": "orthographic_웋",
+                  "basis": "explicit",
+                  "actual": null,
+                  "status": "unknown"
+                }
+              ],
+              "review_reasons": [
+                "missing_structured_analysis",
+                "textual_constraints_require_review",
+                "source_scope_requires_review"
+              ]
+            }
+          },
+          "review_reasons": [
+            "cross_statement_sense_and_scope",
+            "generation_not_validated",
+            "missing_structured_analysis",
+            "source_scope_requires_review",
+            "textual_constraints_require_review"
+          ],
+          "generation_approved": false
+        },
+        {
+          "lexical_id": "NAMU_GRAMMAR_20260908:v2:full:1064",
+          "inflection_id": "NAMU_GRAMMAR_20260908:v2:review:0026",
+          "surface": "빠주고",
+          "selected_candidate": {
+            "lemma": "빠주다",
+            "host_form": "빠주다",
+            "ending": "-고"
+          },
+          "checks": {
+            "lexical": {
+              "rejected": false,
+              "conditions": [],
+              "review_reasons": [
+                "textual_constraints_require_review",
+                "source_scope_requires_review"
+              ]
+            },
+            "inflection": {
+              "rejected": false,
+              "conditions": [
+                {
+                  "owner": "candidate",
+                  "field": "lemma",
+                  "op": "eq",
+                  "value": "빠주다",
+                  "basis": "explicit",
+                  "actual": "빠주다",
+                  "status": "satisfied"
+                },
+                {
+                  "owner": "candidate",
+                  "field": "ending",
+                  "op": "eq",
+                  "value": "-고",
+                  "basis": "explicit",
+                  "actual": "-고",
+                  "status": "satisfied"
+                },
+                {
+                  "owner": "candidate",
+                  "field": "representation",
+                  "op": "eq",
+                  "value": "orthographic_우",
+                  "basis": "explicit",
+                  "actual": null,
+                  "status": "unknown"
+                }
+              ],
+              "review_reasons": [
+                "missing_structured_analysis",
+                "textual_constraints_require_review",
+                "source_scope_requires_review"
+              ]
+            }
+          },
+          "review_reasons": [
+            "cross_statement_sense_and_scope",
+            "generation_not_validated",
+            "missing_structured_analysis",
+            "source_scope_requires_review",
+            "textual_constraints_require_review"
+          ],
+          "generation_approved": false
+        }
+      ],
+      "rejected_path_count": 34,
+      "lexical_without_inflection": []
+    },
+    {
+      "request": {
+        "lemma": "먹다",
+        "ending": "-없는어미",
+        "lexical_id": null
+      },
+      "surfaces": [],
+      "paths": [],
+      "rejected_path_count": 34,
+      "lexical_without_inflection": []
+    }
+  ],
+  "translation_quality": "not evaluated",
+  "interpretation": "A path is a reviewable source-grounded candidate, not a validated translation rule."
+}

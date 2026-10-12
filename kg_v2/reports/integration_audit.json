@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "errors": [],
+  "original_gap_pages": 162,
+  "gap_disposition_counts": {
+    "resolved": 84,
+    "source_limitation": 78
+  },
+  "facts_before": 2379,
+  "facts_after": 3757,
+  "net_added_facts": 1378,
+  "modified_existing_facts": 759,
+  "remaining_gap_pages": 79,
+  "newly_recorded_constraint_pages": [
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 17,
+      "gaps": [
+        "원표 삐가/삐가 중복 기재로 뿌다의 -아가 형태를 확정할 수 없다. 뿌가로 복원하지 않는다."
+      ]
+    }
+  ],
+  "facts_sha256": "b96f57ab1e147d9f9afbfed26399cd946085493249d164240eff2c296e76c175",
+  "graph_sha256": "cb88c00d4f989e45dc193936812fbce70551ee59328e8bed6785f7366ba445c7",
+  "checks": [
+    "Every original gap has one explicit review disposition",
+    "Every baseline fact ID is preserved",
+    "Every fact is represented in the page ledger",
+    "Graph statement identities and edge endpoints agree",
+    "Inflection links preserve lemma match and scope/sense review",
+    "Compiled output hashes match the build report"
+  ],
+  "limits": [
+    "Mechanical audit does not prove semantic entailment or translation quality.",
+    "Three Astra workers and a coordinating Astra are model review, not independent human validation."
+  ]
+}

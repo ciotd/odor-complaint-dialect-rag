@@ -1,0 +1,1065 @@
+unit_id	source_id	pdf_page	model_kind	quoted_spans_count	proposed_kg_ids	quarantined_kg_ids	candidate_link_review	pdf_visual_review	possible_url_or_header_in_examples	semantic_approval
+source:YANG2021:p1:u1	YANG2021	1	background	0			False	False	False	False
+source:YANG2021:p2:u1	YANG2021	2	mixed	6	GYS-Y001	GYS-Y010	True	True	False	False
+source:YANG2021:p3:u1	YANG2021	3	background	0			False	False	False	False
+source:YANG2021:p4:u1	YANG2021	4	grammar	5			False	False	False	False
+source:YANG2021:p5:u1	YANG2021	5	grammar	2			False	False	False	False
+source:YANG2021:p5:u2	YANG2021	5	background	0			False	False	False	False
+source:YANG2021:p6:u1	YANG2021	6	mixed	7	GYS-Y014,GYS-Y015		False	False	False	False
+source:YANG2021:p7:u1	YANG2021	7	mixed	3	GYS-Y014		False	False	False	False
+source:YANG2021:p8:u1	YANG2021	8	mixed	2	GYS-Y002		False	True	False	False
+source:YANG2021:p9:u1	YANG2021	9	mixed	7	GYS-Y001,GYS-Y002		False	False	False	False
+source:YANG2021:p10:u1	YANG2021	10	mixed	3	GYS-Y003,GYS-Y004		False	False	False	False
+source:YANG2021:p11:u1	YANG2021	11	mixed	9	GYS-Y004,GYS-Y005,GYS-Y006,GYS-Y007,GYS-J004		False	True	False	False
+source:YANG2021:p12:u1	YANG2021	12	mixed	3	GYS-Y005,GYS-Y006,GYS-Y007,GYS-Y008		False	False	False	False
+source:YANG2021:p13:u1	YANG2021	13	mixed	7	GYS-Y008		False	False	False	False
+source:YANG2021:p14:u1	YANG2021	14	mixed	8	GYS-Y009		False	False	False	False
+source:YANG2021:p15:u1	YANG2021	15	mixed	6	GYS-Y009		False	False	False	False
+source:YANG2021:p16:u1	YANG2021	16	mixed	3	GYS-Y010,GYS-Y011		False	False	False	False
+source:YANG2021:p17:u1	YANG2021	17	mixed	5	GYS-Y010,GYS-Y011,GYS-Y012		False	False	False	False
+source:YANG2021:p18:u1	YANG2021	18	grammar	4	GYS-Y013		False	False	False	False
+source:YANG2021:p19:u1	YANG2021	19	grammar	0	GYS-Y009		False	False	False	False
+source:YANG2021:p20:u1	YANG2021	20	references	0			False	False	False	False
+source:YANG2021:p21:u1	YANG2021	21	background	0			False	False	False	False
+source:YANG2021:p21:u2	YANG2021	21	background	0			False	False	False	False
+source:JO2018:p1:u1	JO2018	1	background	0			False	False	False	False
+source:JO2018:p2:u1	JO2018	2	background	0			False	False	False	False
+source:JO2018:p3:u1	JO2018	3	background	0			False	False	False	False
+source:JO2018:p4:u1	JO2018	4	background	0			False	False	False	False
+source:JO2018:p5:u1	JO2018	5	background	0			False	False	False	False
+source:JO2018:p5:u2	JO2018	5	background	0			False	False	False	False
+source:JO2018:p6:u1	JO2018	6	background	0			False	False	False	False
+source:JO2018:p6:u2	JO2018	6	background	0			False	False	False	False
+source:JO2018:p7:u1	JO2018	7	background	0			False	False	False	False
+source:JO2018:p7:u2	JO2018	7	background	0			False	False	False	False
+source:JO2018:p8:u1	JO2018	8	background	0			False	False	False	False
+source:JO2018:p8:u2	JO2018	8	background	0			False	False	False	False
+source:JO2018:p9:u1	JO2018	9	background	0			False	False	False	False
+source:JO2018:p10:u1	JO2018	10	background	0			False	True	False	False
+source:JO2018:p10:u2	JO2018	10	background	0			False	True	False	False
+source:JO2018:p10:u3	JO2018	10	background	0			False	True	False	False
+source:JO2018:p10:u4	JO2018	10	background	0			False	True	False	False
+source:JO2018:p10:u5	JO2018	10	background	0			False	True	False	False
+source:JO2018:p10:u6	JO2018	10	background	0			False	True	False	False
+source:JO2018:p10:u7	JO2018	10	background	0			False	True	False	False
+source:JO2018:p10:u8	JO2018	10	background	0			False	True	False	False
+source:JO2018:p11:u1	JO2018	11	background	0			False	True	False	False
+source:JO2018:p11:u2	JO2018	11	background	0			False	True	False	False
+source:JO2018:p11:u3	JO2018	11	grammar	0			False	True	False	False
+source:JO2018:p11:u4	JO2018	11	grammar	0			False	True	False	False
+source:JO2018:p11:u5	JO2018	11	background	0			False	True	False	False
+source:JO2018:p11:u6	JO2018	11	background	0			False	True	False	False
+source:JO2018:p11:u7	JO2018	11	background	0			False	True	False	False
+source:JO2018:p11:u8	JO2018	11	background	0			False	True	False	False
+source:JO2018:p11:u9	JO2018	11	background	0			False	True	False	False
+source:JO2018:p11:u10	JO2018	11	background	0			False	True	False	False
+source:JO2018:p11:u11	JO2018	11	background	0			False	True	False	False
+source:JO2018:p12:u1	JO2018	12	grammar	0			False	True	False	False
+source:JO2018:p12:u2	JO2018	12	background	0			False	True	False	False
+source:JO2018:p12:u3	JO2018	12	grammar	0			False	True	False	False
+source:JO2018:p12:u4	JO2018	12	grammar	0			False	True	False	False
+source:JO2018:p12:u5	JO2018	12	grammar	0			False	True	False	False
+source:JO2018:p12:u6	JO2018	12	uncertain	0			False	True	False	False
+source:JO2018:p12:u7	JO2018	12	uncertain	0			False	True	False	False
+source:JO2018:p12:u8	JO2018	12	background	0			False	False	False	False
+source:JO2018:p12:u9	JO2018	12	background	0			False	False	False	False
+source:JO2018:p13:u1	JO2018	13	background	0			False	False	False	False
+source:JO2018:p13:u2	JO2018	13	references	0			False	False	False	False
+source:JO2018:p14:u1	JO2018	14	background	0			False	False	False	False
+source:JO2018:p14:u2	JO2018	14	background	0			False	False	False	False
+source:JO2018:p15:u1	JO2018	15	background	0			False	False	False	False
+source:JO2018:p15:u2	JO2018	15	references	0			False	False	False	False
+source:JO2018:p16:u1	JO2018	16	background	0			False	False	False	False
+source:JO2018:p16:u2	JO2018	16	background	0			False	False	False	False
+source:JO2018:p17:u1	JO2018	17	background	0			False	False	False	False
+source:JO2018:p17:u2	JO2018	17	background	0			False	False	False	False
+source:JO2018:p18:u1	JO2018	18	background	0			False	False	False	False
+source:JO2018:p18:u2	JO2018	18	background	0			False	False	False	False
+source:JO2018:p19:u1	JO2018	19	background	0			False	False	False	False
+source:JO2018:p19:u2	JO2018	19	background	0			False	False	False	False
+source:JO2018:p19:u3	JO2018	19	background	0			False	False	False	False
+source:JO2018:p20:u1	JO2018	20	background	0			False	False	False	False
+source:JO2018:p20:u2	JO2018	20	references	0			False	False	False	False
+source:JO2018:p20:u3	JO2018	20	background	0			False	False	False	False
+source:JO2018:p21:u1	JO2018	21	table	0			False	True	False	False
+source:JO2018:p21:u2	JO2018	21	table	0			False	True	False	False
+source:JO2018:p21:u3	JO2018	21	table	0			False	True	False	False
+source:JO2018:p21:u4	JO2018	21	background	0			False	False	False	False
+source:JO2018:p22:u1	JO2018	22	background	0			False	False	False	False
+source:JO2018:p22:u2	JO2018	22	background	0			False	False	False	False
+source:JO2018:p23:u1	JO2018	23	table	0			False	True	False	False
+source:JO2018:p23:u2	JO2018	23	table	0			False	True	False	False
+source:JO2018:p23:u3	JO2018	23	background	0			False	False	False	False
+source:JO2018:p24:u1	JO2018	24	table	0			False	True	False	False
+source:JO2018:p24:u2	JO2018	24	mixed	0			False	True	False	False
+source:JO2018:p25:u1	JO2018	25	background	0			False	False	False	False
+source:JO2018:p25:u2	JO2018	25	background	0			False	False	False	False
+source:JO2018:p26:u1	JO2018	26	background	0			False	False	False	False
+source:JO2018:p26:u2	JO2018	26	background	0	GYS-J049		False	False	False	False
+source:JO2018:p27:u1	JO2018	27	background	2		GYS-J049	True	False	False	False
+source:JO2018:p27:u2	JO2018	27	background	0	GYS-Y001		False	False	False	False
+source:JO2018:p28:u1	JO2018	28	background	0			False	False	False	False
+source:JO2018:p28:u2	JO2018	28	background	0			False	False	False	False
+source:JO2018:p28:u3	JO2018	28	background	0			False	False	False	False
+source:JO2018:p29:u1	JO2018	29	background	0			False	False	False	False
+source:JO2018:p29:u2	JO2018	29	references	0			False	False	False	False
+source:JO2018:p30:u1	JO2018	30	background	0			False	False	False	False
+source:JO2018:p30:u2	JO2018	30	background	2			False	False	False	False
+source:JO2018:p31:u1	JO2018	31	example	3			False	True	False	False
+source:JO2018:p31:u2	JO2018	31	table	0			False	True	False	False
+source:JO2018:p31:u3	JO2018	31	background	0			False	False	False	False
+source:JO2018:p32:u1	JO2018	32	table	1			False	True	False	False
+source:JO2018:p32:u2	JO2018	32	table	0			False	True	False	False
+source:JO2018:p32:u3	JO2018	32	background	1			False	False	False	False
+source:JO2018:p32:u4	JO2018	32	background	1			False	False	False	False
+source:JO2018:p33:u1	JO2018	33	example	2	GYS-G007		False	True	False	False
+source:JO2018:p33:u2	JO2018	33	mixed	3			False	True	False	False
+source:JO2018:p33:u3	JO2018	33	example	2			False	False	False	False
+source:JO2018:p34:u1	JO2018	34	mixed	0			False	True	False	False
+source:JO2018:p34:u2	JO2018	34	background	0			False	False	False	False
+source:JO2018:p35:u1	JO2018	35	example	4		GYS-J020	True	False	False	False
+source:JO2018:p35:u2	JO2018	35	background	0	GYS-J020		False	False	False	False
+source:JO2018:p36:u1	JO2018	36	mixed	6			False	True	False	False
+source:JO2018:p36:u2	JO2018	36	example	8			False	False	False	False
+source:JO2018:p37:u1	JO2018	37	example	6	GYS-I043		False	False	False	False
+source:JO2018:p37:u2	JO2018	37	mixed	3			False	False	False	False
+source:JO2018:p38:u1	JO2018	38	background	0			False	False	False	False
+source:JO2018:p38:u2	JO2018	38	background	0			False	False	False	False
+source:JO2018:p39:u1	JO2018	39	background	0			False	False	False	False
+source:JO2018:p40:u1	JO2018	40	background	0			False	False	False	False
+source:JO2018:p40:u2	JO2018	40	references	0			False	False	False	False
+source:JO2018:p40:u3	JO2018	40	background	0			False	False	False	False
+source:JO2018:p41:u1	JO2018	41	background	0			False	False	False	False
+source:JO2018:p42:u1	JO2018	42	background	0			False	False	False	False
+source:JO2018:p43:u1	JO2018	43	background	0			False	False	False	False
+source:JO2018:p44:u1	JO2018	44	table	0			False	True	False	False
+source:JO2018:p44:u2	JO2018	44	table	0			False	True	False	False
+source:JO2018:p44:u3	JO2018	44	background	0			False	False	False	False
+source:JO2018:p45:u1	JO2018	45	background	0			False	False	False	False
+source:JO2018:p45:u2	JO2018	45	table	0			False	True	False	False
+source:JO2018:p46:u1	JO2018	46	table	0			False	True	False	False
+source:JO2018:p46:u2	JO2018	46	table	0			False	True	False	False
+source:JO2018:p46:u3	JO2018	46	table	0			False	True	False	False
+source:JO2018:p47:u1	JO2018	47	background	0			False	False	False	False
+source:JO2018:p47:u2	JO2018	47	table	0			False	True	False	False
+source:JO2018:p48:u1	JO2018	48	mixed	3			False	False	False	False
+source:JO2018:p48:u2	JO2018	48	mixed	8		GYS-J029	True	False	False	False
+source:JO2018:p48:u3	JO2018	48	grammar	0			False	False	False	False
+source:JO2018:p49:u1	JO2018	49	grammar	0			False	False	False	False
+source:JO2018:p49:u2	JO2018	49	example	6			False	False	False	False
+source:JO2018:p49:u3	JO2018	49	grammar	2			False	False	False	False
+source:JO2018:p50:u1	JO2018	50	mixed	0			False	False	False	False
+source:JO2018:p50:u2	JO2018	50	background	0			False	False	False	False
+source:JO2018:p51:u1	JO2018	51	table	0			False	True	False	False
+source:JO2018:p51:u2	JO2018	51	background	0			False	False	False	False
+source:JO2018:p52:u1	JO2018	52	table	0			False	True	False	False
+source:JO2018:p52:u2	JO2018	52	mixed	3			False	False	False	False
+source:JO2018:p53:u1	JO2018	53	mixed	3			False	False	False	False
+source:JO2018:p53:u2	JO2018	53	example	6	GYS-G018		False	False	False	False
+source:JO2018:p53:u3	JO2018	53	grammar	0			False	False	False	False
+source:JO2018:p54:u1	JO2018	54	mixed	4			False	False	False	False
+source:JO2018:p54:u2	JO2018	54	grammar	0			False	False	False	False
+source:JO2018:p54:u3	JO2018	54	background	0	GYS-H029		False	False	False	False
+source:JO2018:p54:u4	JO2018	54	references	0			False	False	False	False
+source:JO2018:p55:u1	JO2018	55	mixed	5	GYS-H030		False	False	False	False
+source:JO2018:p55:u2	JO2018	55	grammar	0	GYS-H005		False	False	False	False
+source:JO2018:p56:u1	JO2018	56	mixed	0	GYS-H017		False	True	False	False
+source:JO2018:p56:u2	JO2018	56	background	0	GYS-H029		False	False	False	False
+source:JO2018:p57:u1	JO2018	57	example	8	GYS-H028	GYS-H029	True	True	False	False
+source:JO2018:p57:u2	JO2018	57	mixed	7	GYS-H028,GYS-H029		False	False	False	False
+source:JO2018:p57:u3	JO2018	57	grammar	0	GYS-H029		False	False	False	False
+source:JO2018:p58:u1	JO2018	58	grammar	0	GYS-H029		False	False	False	False
+source:JO2018:p58:u2	JO2018	58	table	0	GYS-H029		False	True	False	False
+source:JO2018:p59:u1	JO2018	59	grammar	0			False	False	False	False
+source:JO2018:p59:u2	JO2018	59	background	0			False	False	False	False
+source:JO2018:p60:u1	JO2018	60	table	0			False	True	False	False
+source:JO2018:p60:u2	JO2018	60	table	6			False	True	False	False
+source:JO2018:p61:u1	JO2018	61	background	0			False	False	False	False
+source:JO2018:p61:u2	JO2018	61	mixed	2	GYS-H014		False	False	False	False
+source:JO2018:p62:u1	JO2018	62	example	4	GYS-H014		False	False	False	False
+source:JO2018:p62:u2	JO2018	62	grammar	0	GYS-H014		False	False	False	False
+source:JO2018:p62:u3	JO2018	62	example	4	GYS-H014		False	False	False	False
+source:JO2018:p63:u1	JO2018	63	mixed	4	GYS-H014		False	False	False	False
+source:JO2018:p63:u2	JO2018	63	example	6	GYS-H014,GYS-J033		False	False	False	False
+source:JO2018:p63:u3	JO2018	63	grammar	0	GYS-H027,GYS-J033		False	False	False	False
+source:JO2018:p64:u1	JO2018	64	grammar	0	GYS-H027		False	False	False	False
+source:JO2018:p64:u2	JO2018	64	references	0			False	False	False	False
+source:JO2018:p65:u1	JO2018	65	mixed	6	GYS-H014,GYS-H015		False	False	False	False
+source:JO2018:p65:u2	JO2018	65	mixed	13			False	False	False	False
+source:JO2018:p66:u1	JO2018	66	example	6	GYS-H014,GYS-J019		False	False	False	False
+source:JO2018:p66:u2	JO2018	66	grammar	0	GYS-H014		False	False	False	False
+source:JO2018:p67:u1	JO2018	67	grammar	0	GYS-H014,GYS-J019		False	False	False	False
+source:JO2018:p67:u2	JO2018	67	table	12	GYS-H003,GYS-J024		False	False	False	False
+source:JO2018:p68:u1	JO2018	68	background	0	GYS-H003		False	False	False	False
+source:JO2018:p68:u2	JO2018	68	mixed	2			False	False	False	False
+source:JO2018:p68:u3	JO2018	68	background	0			False	False	False	False
+source:JO2018:p69:u1	JO2018	69	example	4			False	False	False	False
+source:JO2018:p69:u2	JO2018	69	grammar	0	GYS-H003,GYS-H004		False	False	False	False
+source:JO2018:p69:u3	JO2018	69	mixed	4	GYS-I050		False	False	False	False
+source:JO2018:p70:u1	JO2018	70	mixed	2	GYS-H027		False	False	False	False
+source:JO2018:p70:u2	JO2018	70	grammar	0			False	False	False	False
+source:JO2018:p71:u1	JO2018	71	table	0			False	True	False	False
+source:JO2018:p72:u1	JO2018	72	mixed	6			False	False	False	False
+source:JO2018:p72:u2	JO2018	72	grammar	5			False	False	False	False
+source:JO2018:p73:u1	JO2018	73	grammar	0			False	False	False	False
+source:JO2018:p73:u2	JO2018	73	example	4	GYS-J019,GYS-J048		False	True	False	False
+source:JO2018:p73:u3	JO2018	73	grammar	0	GYS-J048		False	False	False	False
+source:JO2018:p73:u4	JO2018	73	grammar	0	GYS-J013		False	False	False	False
+source:JO2018:p74:u1	JO2018	74	mixed	3			False	False	False	False
+source:JO2018:p74:u2	JO2018	74	references	0			False	False	False	False
+source:JO2018:p75:u1	JO2018	75	mixed	3		GYS-J013	True	False	False	False
+source:JO2018:p75:u2	JO2018	75	background	0			False	False	False	False
+source:JO2018:p76:u1	JO2018	76	example	6	GYS-J012	GYS-J014	True	False	False	False
+source:JO2018:p76:u2	JO2018	76	grammar	0	GYS-J012,GYS-J014		False	False	False	False
+source:JO2018:p76:u3	JO2018	76	mixed	5	GYS-J012,GYS-H014		False	False	False	False
+source:JO2018:p76:u4	JO2018	76	mixed	3	GYS-J012,GYS-H022		False	False	False	False
+source:JO2018:p77:u1	JO2018	77	example	4	GYS-J016,GYS-H022,GYS-H023		False	False	False	False
+source:JO2018:p77:u2	JO2018	77	grammar	0	GYS-J012,GYS-J016	GYS-H022	True	False	False	False
+source:JO2018:p77:u3	JO2018	77	mixed	6	GYS-J019		False	False	False	False
+source:JO2018:p77:u4	JO2018	77	example	3	GYS-J019		False	False	False	False
+source:JO2018:p78:u1	JO2018	78	grammar	0	GYS-J019,GYS-J012		False	False	False	False
+source:JO2018:p78:u2	JO2018	78	example	4		GYS-J012	True	False	False	False
+source:JO2018:p78:u3	JO2018	78	grammar	0	GYS-J012		False	False	False	False
+source:JO2018:p78:u4	JO2018	78	example	2			False	False	False	False
+source:JO2018:p79:u1	JO2018	79	mixed	3	GYS-H014		False	False	False	False
+source:JO2018:p79:u2	JO2018	79	table	0		GYS-H014	True	True	False	False
+source:JO2018:p80:u1	JO2018	80	grammar	0	GYS-H014		False	False	False	False
+source:JO2018:p80:u2	JO2018	80	background	0			False	False	False	False
+source:JO2018:p81:u1	JO2018	81	table	0	GYS-H014		False	True	False	False
+source:JO2018:p81:u2	JO2018	81	table	0	GYS-J019,GYS-J016	GYS-H014	True	True	False	False
+source:JO2018:p81:u3	JO2018	81	mixed	0			False	True	False	False
+source:JO2018:p82:u1	JO2018	82	grammar	0		GYS-J012	True	False	False	False
+source:JO2018:p82:u2	JO2018	82	example	7	GYS-J012		False	False	False	False
+source:JO2018:p82:u3	JO2018	82	example	3	GYS-J012,GYS-J024		False	False	False	False
+source:JO2018:p83:u1	JO2018	83	mixed	1	GYS-J012	GYS-J014	True	False	False	False
+source:JO2018:p83:u2	JO2018	83	example	6	GYS-J015		False	False	False	False
+source:JO2018:p83:u3	JO2018	83	mixed	2		GYS-J012	True	False	False	False
+source:JO2018:p84:u1	JO2018	84	grammar	0	GYS-J019	GYS-J012	True	False	False	False
+source:JO2018:p84:u2	JO2018	84	example	8	GYS-J019		False	False	False	False
+source:JO2018:p84:u3	JO2018	84	mixed	2	GYS-J019,GYS-J012		False	False	False	False
+source:JO2018:p84:u4	JO2018	84	background	0	GYS-J019		False	False	False	False
+source:JO2018:p85:u1	JO2018	85	example	7	GYS-H015	GYS-J012	True	False	False	False
+source:JO2018:p85:u2	JO2018	85	grammar	1	GYS-J019		False	False	False	False
+source:JO2018:p85:u3	JO2018	85	background	0			False	False	False	False
+source:JO2018:p86:u1	JO2018	86	example	5	GYS-H022		False	False	False	False
+source:JO2018:p86:u2	JO2018	86	grammar	0		GYS-H022	True	False	False	False
+source:JO2018:p86:u3	JO2018	86	example	5	GYS-J019		False	False	False	False
+source:JO2018:p86:u4	JO2018	86	background	0	GYS-J026		False	False	False	False
+source:JO2018:p87:u1	JO2018	87	grammar	0	GYS-J019		False	False	False	False
+source:JO2018:p87:u2	JO2018	87	example	7	GYS-J012		False	True	False	False
+source:JO2018:p87:u3	JO2018	87	example	5	GYS-J019	GYS-J012	True	True	False	False
+source:JO2018:p87:u4	JO2018	87	background	0			False	False	False	False
+source:JO2018:p87:u5	JO2018	87	background	0			False	False	False	False
+source:JO2018:p88:u1	JO2018	88	grammar	2	GYS-J012,GYS-J019		False	True	False	False
+source:JO2018:p88:u2	JO2018	88	mixed	4	GYS-J012,GYS-J014		False	False	False	False
+source:JO2018:p88:u3	JO2018	88	background	0	GYS-J012		False	False	False	False
+source:JO2018:p89:u1	JO2018	89	mixed	2	GYS-J013,GYS-J014		False	False	False	False
+source:JO2018:p89:u2	JO2018	89	example	7	GYS-H024		False	False	False	False
+source:JO2018:p89:u3	JO2018	89	background	0			False	False	False	False
+source:JO2018:p90:u1	JO2018	90	grammar	0	GYS-J015		False	False	False	False
+source:JO2018:p90:u2	JO2018	90	example	4	GYS-J016,GYS-H023		False	False	False	False
+source:JO2018:p90:u3	JO2018	90	background	0	GYS-J015		False	False	False	False
+source:JO2018:p91:u1	JO2018	91	mixed	1	GYS-J016		False	False	False	False
+source:JO2018:p91:u2	JO2018	91	example	7	GYS-J017	GYS-J018	True	False	False	False
+source:JO2018:p91:u3	JO2018	91	background	0	GYS-J016,GYS-H022		False	False	False	False
+source:JO2018:p92:u1	JO2018	92	grammar	0	GYS-J017,GYS-J018		False	False	False	False
+source:JO2018:p92:u2	JO2018	92	mixed	3	GYS-J017,GYS-J035		False	False	False	False
+source:JO2018:p92:u3	JO2018	92	background	1	GYS-J017,GYS-J018		False	False	False	False
+source:JO2018:p92:u4	JO2018	92	background	0	GYS-J018		False	False	False	False
+source:JO2018:p93:u1	JO2018	93	grammar	0	GYS-J035	GYS-J017	True	False	False	False
+source:JO2018:p93:u2	JO2018	93	mixed	4	GYS-J035	GYS-J048	True	False	False	False
+source:JO2018:p94:u1	JO2018	94	grammar	0	GYS-J048		False	False	False	False
+source:JO2018:p94:u2	JO2018	94	mixed	3	GYS-J049		False	False	False	False
+source:JO2018:p94:u3	JO2018	94	background	0			False	True	False	False
+source:JO2018:p95:u1	JO2018	95	background	0	GYS-H021		False	False	False	False
+source:JO2018:p95:u2	JO2018	95	grammar	1			False	True	False	False
+source:JO2018:p96:u1	JO2018	96	table	0	GYS-H021		False	True	False	False
+source:JO2018:p96:u2	JO2018	96	table	0	GYS-H021		False	True	False	False
+source:JO2018:p96:u3	JO2018	96	mixed	3	GYS-J048		False	False	False	False
+source:JO2018:p97:u1	JO2018	97	mixed	3	GYS-J049		False	True	False	False
+source:JO2018:p97:u2	JO2018	97	example	5	GYS-H021	GYS-J048	True	True	False	False
+source:JO2018:p98:u1	JO2018	98	grammar	0	GYS-H021,GYS-J048		False	False	False	False
+source:JO2018:p98:u2	JO2018	98	mixed	4	GYS-J049		False	False	False	False
+source:JO2018:p98:u3	JO2018	98	references	0	GYS-J048		False	False	False	False
+source:JO2018:p99:u1	JO2018	99	mixed	0			False	False	False	False
+source:JO2018:p99:u2	JO2018	99	example	5	GYS-J050		False	False	False	False
+source:JO2018:p99:u3	JO2018	99	background	0			False	False	False	False
+source:JO2018:p100:u1	JO2018	100	grammar	0		GYS-J050	True	False	False	False
+source:JO2018:p100:u2	JO2018	100	example	4		GYS-J052,GYS-J006	True	False	False	False
+source:JO2018:p100:u3	JO2018	100	mixed	0	GYS-J052,GYS-J006		False	True	False	False
+source:JO2018:p101:u1	JO2018	101	mixed	3			False	False	False	False
+source:JO2018:p101:u2	JO2018	101	mixed	0			False	False	False	False
+source:JO2018:p102:u1	JO2018	102	table	0			False	True	False	False
+source:JO2018:p102:u2	JO2018	102	table	0	GYS-J052,GYS-J006		False	True	False	False
+source:JO2018:p102:u3	JO2018	102	grammar	1			False	False	False	False
+source:JO2018:p103:u1	JO2018	103	mixed	3			False	False	False	False
+source:JO2018:p103:u2	JO2018	103	mixed	5	GYS-J052		False	False	False	False
+source:JO2018:p103:u3	JO2018	103	background	0			False	False	False	False
+source:JO2018:p104:u1	JO2018	104	mixed	6	GYS-J050		False	False	False	False
+source:JO2018:p104:u2	JO2018	104	grammar	1	GYS-J050		False	False	False	False
+source:JO2018:p105:u1	JO2018	105	grammar	0	GYS-J052	GYS-J050	True	False	False	False
+source:JO2018:p105:u2	JO2018	105	mixed	5	GYS-J052,GYS-J011		False	False	False	False
+source:JO2018:p105:u3	JO2018	105	mixed	0	GYS-J011,GYS-J051		False	True	False	False
+source:JO2018:p106:u1	JO2018	106	grammar	0	GYS-J052,GYS-J006,GYS-J007		False	False	False	False
+source:JO2018:p106:u2	JO2018	106	mixed	3	GYS-J006,GYS-J007		False	False	False	False
+source:JO2018:p106:u3	JO2018	106	background	0			False	False	False	False
+source:JO2018:p107:u1	JO2018	107	mixed	5		GYS-J055	True	False	False	False
+source:JO2018:p107:u2	JO2018	107	mixed	3	GYS-J013,GYS-J035		False	False	False	False
+source:JO2018:p108:u1	JO2018	108	mixed	5	GYS-J019,GYS-J005		False	False	False	False
+source:JO2018:p108:u2	JO2018	108	mixed	2	GYS-J005,GYS-J004		False	False	False	False
+source:JO2018:p108:u3	JO2018	108	grammar	0	GYS-J004		False	False	False	False
+source:JO2018:p109:u1	JO2018	109	table	0			False	True	False	False
+source:JO2018:p109:u2	JO2018	109	background	0			False	False	False	False
+source:JO2018:p110:u1	JO2018	110	grammar	0		GYS-J005	True	False	False	False
+source:JO2018:p110:u2	JO2018	110	grammar	0	GYS-J019		False	False	False	False
+source:JO2018:p110:u3	JO2018	110	background	1			False	False	False	False
+source:JO2018:p111:u1	JO2018	111	table	0			False	True	False	False
+source:JO2018:p111:u2	JO2018	111	table	0	GYS-J004		False	True	False	False
+source:JO2018:p111:u3	JO2018	111	table	0	GYS-J005		False	True	False	False
+source:JO2018:p111:u4	JO2018	111	grammar	0	GYS-J019		False	False	False	False
+source:JO2018:p112:u1	JO2018	112	mixed	6		GYS-J053,GYS-J054,GYS-J055	True	False	False	False
+source:JO2018:p112:u2	JO2018	112	mixed	2		GYS-J044	True	True	False	False
+source:JO2018:p112:u3	JO2018	112	background	0			False	False	False	False
+source:JO2018:p113:u1	JO2018	113	mixed	5		GYS-I050	True	False	False	False
+source:JO2018:p113:u2	JO2018	113	example	2	GYS-G034		False	False	False	False
+source:JO2018:p114:u1	JO2018	114	example	6	GYS-J053,GYS-J054,GYS-J055		False	False	False	False
+source:JO2018:p114:u2	JO2018	114	grammar	0	GYS-J053,GYS-J054		False	False	False	False
+source:JO2018:p114:u3	JO2018	114	grammar	0	GYS-J055		False	False	False	False
+source:JO2018:p114:u4	JO2018	114	references	3	GYS-J053,GYS-J054,GYS-J055		False	False	False	False
+source:JO2018:p115:u1	JO2018	115	mixed	4	GYS-J056,GYS-J019		False	False	False	False
+source:JO2018:p115:u2	JO2018	115	mixed	4	GYS-J056,GYS-J030		False	False	False	False
+source:JO2018:p116:u1	JO2018	116	grammar	0	GYS-J030		False	False	False	False
+source:JO2018:p116:u2	JO2018	116	example	5			False	False	False	False
+source:JO2018:p116:u3	JO2018	116	grammar	0			False	False	False	False
+source:JO2018:p117:u1	JO2018	117	mixed	3		GYS-J023	True	False	False	False
+source:JO2018:p117:u2	JO2018	117	background	0			False	False	False	False
+source:JO2018:p118:u1	JO2018	118	example	8	GYS-J023		False	False	False	False
+source:JO2018:p118:u2	JO2018	118	grammar	0	GYS-J020,GYS-J023		False	False	False	False
+source:JO2018:p118:u3	JO2018	118	mixed	4	GYS-J021		False	False	False	False
+source:JO2018:p119:u1	JO2018	119	mixed	5	GYS-J021		False	True	False	False
+source:JO2018:p119:u2	JO2018	119	table	0	GYS-J023,GYS-H014		False	True	False	False
+source:JO2018:p119:u3	JO2018	119	background	0			False	False	False	False
+source:JO2018:p120:u1	JO2018	120	background	0		GYS-H014	True	False	False	False
+source:JO2018:p120:u2	JO2018	120	grammar	0	GYS-H014		False	False	False	False
+source:JO2018:p121:u1	JO2018	121	table	0	GYS-H014		False	True	False	False
+source:JO2018:p121:u2	JO2018	121	table	0	GYS-J023,GYS-J021	GYS-H014	True	True	False	False
+source:JO2018:p121:u3	JO2018	121	table	0		GYS-H014	True	True	False	False
+source:JO2018:p121:u4	JO2018	121	grammar	0	GYS-H014		False	False	False	False
+source:JO2018:p122:u1	JO2018	122	mixed	6	GYS-H014	GYS-J023	True	False	False	False
+source:JO2018:p122:u2	JO2018	122	mixed	3	GYS-H014,GYS-J023		False	False	False	False
+source:JO2018:p122:u3	JO2018	122	background	0	GYS-J020		False	False	False	False
+source:JO2018:p123:u1	JO2018	123	mixed	3	GYS-H014	GYS-J020	True	False	False	False
+source:JO2018:p123:u2	JO2018	123	mixed	5	GYS-H031		False	True	False	False
+source:JO2018:p123:u3	JO2018	123	table	2	GYS-J020		False	False	False	False
+source:JO2018:p124:u1	JO2018	124	mixed	3		GYS-J019	True	True	False	False
+source:JO2018:p124:u2	JO2018	124	grammar	0	GYS-J020,GYS-J024		False	False	False	False
+source:JO2018:p125:u1	JO2018	125	grammar	0	GYS-J020		False	False	False	False
+source:JO2018:p125:u2	JO2018	125	example	9	GYS-J020		False	False	False	False
+source:JO2018:p125:u3	JO2018	125	mixed	4	GYS-J020,GYS-J021		False	False	False	False
+source:JO2018:p126:u1	JO2018	126	grammar	0	GYS-J021,GYS-J020		False	False	False	False
+source:JO2018:p126:u2	JO2018	126	example	5	GYS-J021	GYS-J020	True	True	False	False
+source:JO2018:p126:u3	JO2018	126	grammar	0	GYS-J020,GYS-J021,GYS-J023		False	False	False	False
+source:JO2018:p127:u1	JO2018	127	example	6	GYS-J022,GYS-J023		False	False	False	False
+source:JO2018:p127:u2	JO2018	127	grammar	0	GYS-J022,GYS-J023		False	False	False	False
+source:JO2018:p127:u3	JO2018	127	mixed	0	GYS-J023		False	False	False	False
+source:JO2018:p128:u1	JO2018	128	example	7	GYS-J024		False	False	False	False
+source:JO2018:p128:u2	JO2018	128	mixed	2	GYS-J024,GYS-H017		False	False	False	False
+source:JO2018:p128:u3	JO2018	128	grammar	0	GYS-J024		False	False	False	False
+source:JO2018:p129:u1	JO2018	129	grammar	0			False	False	False	False
+source:JO2018:p129:u2	JO2018	129	table	0	GYS-H019,GYS-J024		False	True	False	False
+source:JO2018:p129:u3	JO2018	129	table	0	GYS-J049		False	True	False	False
+source:JO2018:p130:u1	JO2018	130	mixed	4	GYS-H019	GYS-J024,GYS-J049	True	False	False	False
+source:JO2018:p130:u2	JO2018	130	grammar	0	GYS-H019	GYS-J024	True	False	False	False
+source:JO2018:p130:u3	JO2018	130	references	0	GYS-J024		False	False	False	False
+source:JO2018:p131:u1	JO2018	131	example	4	GYS-J024		False	False	False	False
+source:JO2018:p131:u2	JO2018	131	grammar	0	GYS-J024		False	False	False	False
+source:JO2018:p131:u3	JO2018	131	example	4	GYS-J025		False	True	False	False
+source:JO2018:p131:u4	JO2018	131	references	0	GYS-J024		False	False	False	False
+source:JO2018:p132:u1	JO2018	132	grammar	0	GYS-J025,GYS-H003		False	False	False	False
+source:JO2018:p132:u2	JO2018	132	example	4		GYS-H003	True	False	False	False
+source:JO2018:p133:u1	JO2018	133	mixed	1	GYS-H003		False	False	False	False
+source:JO2018:p133:u2	JO2018	133	background	0			False	False	False	False
+source:JO2018:p134:u1	JO2018	134	background	0			False	False	False	False
+source:JO2018:p134:u2	JO2018	134	mixed	3			False	False	False	False
+source:JO2018:p135:u1	JO2018	135	table	0	GYS-H003		False	True	False	False
+source:JO2018:p135:u2	JO2018	135	mixed	0	GYS-H003	GYS-H004	True	True	False	False
+source:JO2018:p135:u3	JO2018	135	example	6	GYS-H003		False	False	False	False
+source:JO2018:p135:u4	JO2018	135	background	0			False	False	False	False
+source:JO2018:p136:u1	JO2018	136	grammar	0	GYS-J001,GYS-J002,GYS-H003		False	False	False	False
+source:JO2018:p136:u2	JO2018	136	mixed	3	GYS-J001,GYS-J002		False	True	False	False
+source:JO2018:p137:u1	JO2018	137	mixed	2	GYS-J002		False	False	False	False
+source:JO2018:p137:u2	JO2018	137	example	7	GYS-Q005,GYS-J002		False	False	False	False
+source:JO2018:p137:u3	JO2018	137	grammar	0	GYS-J003		False	False	False	False
+source:JO2018:p138:u1	JO2018	138	mixed	3	GYS-J003		False	False	False	False
+source:JO2018:p138:u2	JO2018	138	grammar	0	GYS-J003,GYS-Q013		False	False	False	False
+source:JO2018:p138:u3	JO2018	138	mixed	4	GYS-J003		False	False	False	False
+source:JO2018:p139:u1	JO2018	139	mixed	6	GYS-J061		False	False	False	False
+source:JO2018:p139:u2	JO2018	139	example	5	GYS-J061		False	False	False	False
+source:JO2018:p139:u3	JO2018	139	grammar	0			False	False	False	False
+source:JO2018:p140:u1	JO2018	140	mixed	4			False	False	False	False
+source:JO2018:p140:u2	JO2018	140	table	0			False	False	False	False
+source:JO2018:p141:u1	JO2018	141	background	0			False	False	False	False
+source:JO2018:p141:u2	JO2018	141	table	0			False	True	False	False
+source:JO2018:p141:u3	JO2018	141	table	2			False	True	False	False
+source:JO2018:p142:u1	JO2018	142	table	0			False	True	False	False
+source:JO2018:p142:u2	JO2018	142	grammar	0			False	False	False	False
+source:JO2018:p142:u3	JO2018	142	mixed	4	GYS-G018		False	True	False	False
+source:JO2018:p143:u1	JO2018	143	grammar	0			False	False	False	False
+source:JO2018:p143:u2	JO2018	143	example	6	GYS-J061,GYS-G020		False	False	False	False
+source:JO2018:p143:u3	JO2018	143	grammar	0	GYS-J056		False	False	False	False
+source:JO2018:p144:u1	JO2018	144	mixed	4	GYS-J057		False	False	False	False
+source:JO2018:p144:u2	JO2018	144	mixed	4	GYS-J057		False	True	False	False
+source:JO2018:p144:u3	JO2018	144	background	0			False	False	False	False
+source:JO2018:p145:u1	JO2018	145	mixed	0	GYS-J058		False	False	False	False
+source:JO2018:p145:u2	JO2018	145	mixed	5	GYS-J058,GYS-J059		False	False	False	False
+source:JO2018:p145:u3	JO2018	145	references	0	GYS-J058		False	False	False	False
+source:JO2018:p146:u1	JO2018	146	grammar	0	GYS-J059		False	False	False	False
+source:JO2018:p146:u2	JO2018	146	example	6	GYS-J060,GYS-J019		False	False	False	False
+source:JO2018:p146:u3	JO2018	146	grammar	0	GYS-J060,GYS-J056		False	False	False	False
+source:JO2018:p147:u1	JO2018	147	example	7	GYS-J061,GYS-J062,GYS-R032		False	False	False	False
+source:JO2018:p147:u2	JO2018	147	grammar	0	GYS-J061,GYS-J030		False	False	False	False
+source:JO2018:p147:u3	JO2018	147	grammar	0	GYS-J062		False	False	False	False
+source:JO2018:p148:u1	JO2018	148	mixed	5	GYS-J026,GYS-H014		False	False	False	False
+source:JO2018:p148:u2	JO2018	148	mixed	1		GYS-J026,GYS-H014	True	False	False	False
+source:JO2018:p149:u1	JO2018	149	mixed	2	GYS-H014		False	False	False	False
+source:JO2018:p149:u2	JO2018	149	background	0			False	False	False	False
+source:JO2018:p150:u1	JO2018	150	background	0	GYS-H014		False	False	False	False
+source:JO2018:p150:u2	JO2018	150	table	0	GYS-H014		False	True	False	False
+source:JO2018:p150:u3	JO2018	150	table	2			False	True	False	False
+source:JO2018:p151:u1	JO2018	151	mixed	7	GYS-H014		False	False	False	False
+source:JO2018:p151:u2	JO2018	151	mixed	4	GYS-H014		False	False	False	False
+source:JO2018:p152:u1	JO2018	152	example	5	GYS-J026		False	False	False	False
+source:JO2018:p152:u2	JO2018	152	grammar	1	GYS-J026,GYS-H015		False	False	False	False
+source:JO2018:p152:u3	JO2018	152	example	4	GYS-J026		False	False	False	False
+source:JO2018:p153:u1	JO2018	153	grammar	0	GYS-J026		False	False	False	False
+source:JO2018:p153:u2	JO2018	153	example	4	GYS-J026,GYS-H031		False	False	False	False
+source:JO2018:p153:u3	JO2018	153	grammar	0	GYS-J026,GYS-H015		False	False	False	False
+source:JO2018:p153:u4	JO2018	153	references	0	GYS-J026		False	False	False	False
+source:JO2018:p154:u1	JO2018	154	example	7	GYS-J026,GYS-J027,GYS-H015		False	False	False	False
+source:JO2018:p154:u2	JO2018	154	mixed	1	GYS-J026,GYS-J027		False	False	False	False
+source:JO2018:p154:u3	JO2018	154	grammar	0	GYS-J027,GYS-J026		False	True	False	False
+source:JO2018:p155:u1	JO2018	155	mixed	3	GYS-J026		False	True	False	False
+source:JO2018:p155:u2	JO2018	155	grammar	2	GYS-J026		False	True	False	False
+source:JO2018:p155:u3	JO2018	155	background	1			False	False	False	False
+source:JO2018:p156:u1	JO2018	156	grammar	0	GYS-J028		False	True	False	False
+source:JO2018:p156:u2	JO2018	156	table	2		GYS-J028	True	True	False	False
+source:JO2018:p157:u1	JO2018	157	mixed	0			False	True	False	False
+source:JO2018:p157:u2	JO2018	157	table	0	GYS-J028		False	True	False	False
+source:JO2018:p157:u3	JO2018	157	example	1		GYS-J028	True	False	False	False
+source:JO2018:p158:u1	JO2018	158	example	3	GYS-J028		False	True	False	False
+source:JO2018:p158:u2	JO2018	158	grammar	0	GYS-J028		False	False	False	False
+source:JO2018:p158:u3	JO2018	158	example	4	GYS-J029		False	False	False	False
+source:JO2018:p159:u1	JO2018	159	mixed	0			False	False	False	False
+source:JO2018:p159:u2	JO2018	159	background	0			False	False	False	False
+source:JO2018:p160:u1	JO2018	160	table	0			False	True	False	False
+source:JO2018:p160:u2	JO2018	160	grammar	0	GYS-J006		False	False	False	False
+source:JO2018:p160:u3	JO2018	160	example	4	GYS-J006		False	False	False	False
+source:JO2018:p160:u4	JO2018	160	references	0			False	False	False	False
+source:JO2018:p161:u1	JO2018	161	mixed	5			False	True	False	False
+source:JO2018:p161:u2	JO2018	161	grammar	0			False	False	False	False
+source:JO2018:p162:u1	JO2018	162	mixed	5	GYS-J029		False	False	False	False
+source:JO2018:p162:u2	JO2018	162	grammar	0	GYS-J029		False	False	False	False
+source:JO2018:p163:u1	JO2018	163	mixed	6	GYS-J030		False	True	False	False
+source:JO2018:p163:u2	JO2018	163	example	6	GYS-I049,GYS-J031		False	True	False	False
+source:JO2018:p163:u3	JO2018	163	grammar	0			False	False	False	False
+source:JO2018:p163:u4	JO2018	163	example	7	GYS-I050		False	False	False	False
+source:JO2018:p163:u5	JO2018	163	background	0			False	False	False	False
+source:JO2018:p164:u1	JO2018	164	mixed	0			False	False	False	False
+source:JO2018:p164:u2	JO2018	164	table	0			False	True	False	False
+source:JO2018:p164:u3	JO2018	164	table	0	GYS-J030,GYS-G017		False	True	False	False
+source:JO2018:p165:u1	JO2018	165	table	0			False	True	False	False
+source:JO2018:p165:u2	JO2018	165	mixed	0			False	False	False	False
+source:JO2018:p165:u3	JO2018	165	example	6	GYS-I050		False	True	False	False
+source:JO2018:p165:u4	JO2018	165	grammar	0			False	False	False	False
+source:JO2018:p166:u1	JO2018	166	mixed	4	GYS-J005		False	True	False	False
+source:JO2018:p166:u2	JO2018	166	mixed	4	GYS-J031,GYS-I049		False	False	False	False
+source:JO2018:p166:u3	JO2018	166	mixed	4		GYS-I050	True	False	False	False
+source:JO2018:p167:u1	JO2018	167	mixed	5	GYS-I050		False	False	False	False
+source:JO2018:p167:u2	JO2018	167	mixed	2		GYS-I050	True	False	False	False
+source:JO2018:p167:u3	JO2018	167	mixed	2		GYS-J030	True	False	False	False
+source:JO2018:p168:u1	JO2018	168	mixed	5	GYS-J030		False	False	False	False
+source:JO2018:p168:u2	JO2018	168	mixed	4	GYS-J030		False	False	False	False
+source:JO2018:p169:u1	JO2018	169	mixed	3	GYS-J031		False	False	False	False
+source:JO2018:p169:u2	JO2018	169	example	4	GYS-J032		False	False	False	False
+source:JO2018:p169:u3	JO2018	169	grammar	0	GYS-J032		False	False	False	False
+source:JO2018:p170:u1	JO2018	170	mixed	2	GYS-J033,GYS-H014		False	False	False	False
+source:JO2018:p170:u2	JO2018	170	background	0			False	False	False	False
+source:JO2018:p171:u1	JO2018	171	mixed	2	GYS-J033,GYS-H014		False	False	False	False
+source:JO2018:p171:u2	JO2018	171	background	0	GYS-J033,GYS-H014		False	False	False	False
+source:JO2018:p172:u1	JO2018	172	grammar	0	GYS-H014,GYS-J033		False	False	False	False
+source:JO2018:p172:u2	JO2018	172	table	0	GYS-H014,GYS-J033		False	True	False	False
+source:JO2018:p172:u3	JO2018	172	background	0			False	False	False	False
+source:JO2018:p173:u1	JO2018	173	example	3	GYS-J033,GYS-H014		False	False	False	False
+source:JO2018:p173:u2	JO2018	173	grammar	0	GYS-H014,GYS-J033		False	False	False	False
+source:JO2018:p173:u3	JO2018	173	grammar	0	GYS-H014		False	False	False	False
+source:JO2018:p174:u1	JO2018	174	example	4	GYS-J033,GYS-H014		False	False	False	False
+source:JO2018:p174:u2	JO2018	174	grammar	0	GYS-J033,GYS-H014		False	False	False	False
+source:JO2018:p174:u3	JO2018	174	example	5	GYS-J033,GYS-H014		False	False	False	False
+source:JO2018:p174:u4	JO2018	174	example	1	GYS-J033		False	False	False	False
+source:JO2018:p175:u1	JO2018	175	grammar	0	GYS-H027,GYS-H014		False	False	False	False
+source:JO2018:p175:u2	JO2018	175	mixed	5		GYS-J033,GYS-J035	True	False	False	False
+source:JO2018:p175:u3	JO2018	175	background	0			False	False	False	False
+source:JO2018:p176:u1	JO2018	176	mixed	2	GYS-J033,GYS-J035		False	False	False	False
+source:JO2018:p176:u2	JO2018	176	mixed	2		GYS-J033	True	False	False	False
+source:JO2018:p177:u1	JO2018	177	grammar	0	GYS-J033,GYS-H014		False	False	False	False
+source:JO2018:p177:u2	JO2018	177	table	0	GYS-J035		False	True	False	False
+source:JO2018:p177:u3	JO2018	177	table	0			False	True	False	False
+source:JO2018:p178:u1	JO2018	178	mixed	4			False	False	False	False
+source:JO2018:p178:u2	JO2018	178	mixed	1	GYS-J035		False	False	False	False
+source:JO2018:p178:u3	JO2018	178	mixed	2			False	False	False	False
+source:JO2018:p179:u1	JO2018	179	mixed	2			False	False	False	False
+source:JO2018:p179:u2	JO2018	179	mixed	3			False	False	False	False
+source:JO2018:p180:u1	JO2018	180	grammar	0	GYS-J034		False	False	False	False
+source:JO2018:p180:u2	JO2018	180	example	3	GYS-J034,GYS-J033,GYS-H014,GYS-J026		False	True	False	False
+source:JO2018:p180:u3	JO2018	180	grammar	0	GYS-J034,GYS-H027		False	False	False	False
+source:JO2018:p181:u1	JO2018	181	mixed	2	GYS-J033		False	False	False	False
+source:JO2018:p181:u2	JO2018	181	mixed	3	GYS-J033		False	False	False	False
+source:JO2018:p182:u1	JO2018	182	mixed	2	GYS-J035		False	False	False	False
+source:JO2018:p182:u2	JO2018	182	grammar	0	GYS-J035		False	False	False	False
+source:JO2018:p182:u3	JO2018	182	grammar	0	GYS-J035		False	False	False	False
+source:JO2018:p183:u1	JO2018	183	mixed	4			False	False	False	False
+source:JO2018:p183:u2	JO2018	183	grammar	0			False	False	False	False
+source:JO2018:p184:u1	JO2018	184	mixed	5	GYS-J043		False	False	False	False
+source:JO2018:p184:u2	JO2018	184	grammar	0			False	False	False	False
+source:JO2018:p185:u1	JO2018	185	table	0			False	True	False	False
+source:JO2018:p185:u2	JO2018	185	mixed	4			False	True	False	False
+source:JO2018:p185:u3	JO2018	185	background	0			False	False	False	False
+source:JO2018:p186:u1	JO2018	186	mixed	3	GYS-J036		False	False	False	False
+source:JO2018:p186:u2	JO2018	186	example	6		GYS-J036	True	False	False	False
+source:JO2018:p187:u1	JO2018	187	mixed	4		GYS-J036	True	False	False	False
+source:JO2018:p187:u2	JO2018	187	background	0			False	False	False	False
+source:JO2018:p188:u1	JO2018	188	mixed	3	GYS-J037		False	False	False	False
+source:JO2018:p188:u2	JO2018	188	example	5	GYS-J037		False	False	False	False
+source:JO2018:p189:u1	JO2018	189	table	0			False	True	False	False
+source:JO2018:p189:u2	JO2018	189	table	0	GYS-J036		False	True	False	False
+source:JO2018:p189:u3	JO2018	189	example	5		GYS-J036	True	False	False	False
+source:JO2018:p189:u4	JO2018	189	grammar	0			False	False	False	False
+source:JO2018:p190:u1	JO2018	190	mixed	3	GYS-J036		False	False	False	False
+source:JO2018:p190:u2	JO2018	190	example	4	GYS-J036		False	False	False	False
+source:JO2018:p190:u3	JO2018	190	grammar	0	GYS-J036		False	False	False	False
+source:JO2018:p191:u1	JO2018	191	mixed	2			False	True	False	False
+source:JO2018:p192:u1	JO2018	192	mixed	3			False	True	False	False
+source:JO2018:p192:u2	JO2018	192	example	5			False	False	False	False
+source:JO2018:p192:u3	JO2018	192	grammar	0			False	False	False	False
+source:JO2018:p193:u1	JO2018	193	example	5	GYS-P017		False	False	False	False
+source:JO2018:p193:u2	JO2018	193	grammar	2	GYS-J040,GYS-J042		False	False	False	False
+source:JO2018:p193:u3	JO2018	193	mixed	0			False	False	False	False
+source:JO2018:p194:u1	JO2018	194	grammar	0			False	False	False	False
+source:JO2018:p194:u2	JO2018	194	grammar	0			False	False	False	False
+source:JO2018:p194:u3	JO2018	194	grammar	0			False	False	False	False
+source:JO2018:p195:u1	JO2018	195	table	0			False	True	False	False
+source:JO2018:p195:u2	JO2018	195	table	0			False	True	False	False
+source:JO2018:p195:u3	JO2018	195	table	0			False	True	False	False
+source:JO2018:p195:u4	JO2018	195	grammar	0			False	False	False	False
+source:JO2018:p195:u5	JO2018	195	example	5			False	False	False	False
+source:JO2018:p196:u1	JO2018	196	mixed	5	GYS-I050		False	False	False	False
+source:JO2018:p196:u2	JO2018	196	mixed	5			False	False	False	False
+source:JO2018:p196:u3	JO2018	196	background	0			False	False	False	False
+source:JO2018:p197:u1	JO2018	197	mixed	3			False	True	False	False
+source:JO2018:p197:u2	JO2018	197	mixed	1			False	False	False	False
+source:JO2018:p197:u3	JO2018	197	background	0			False	False	False	False
+source:JO2018:p198:u1	JO2018	198	example	7	GYS-J038		False	False	False	False
+source:JO2018:p198:u2	JO2018	198	grammar	0	GYS-J038		False	False	False	False
+source:JO2018:p198:u3	JO2018	198	background	0	GYS-J038		False	False	False	False
+source:JO2018:p199:u1	JO2018	199	example	7	GYS-J039,GYS-H029		False	True	False	False
+source:JO2018:p199:u2	JO2018	199	example	6	GYS-J039,GYS-H029		False	False	False	False
+source:JO2018:p199:u3	JO2018	199	grammar	0	GYS-J039		False	False	False	False
+source:JO2018:p200:u1	JO2018	200	mixed	6	GYS-J040		False	False	False	False
+source:JO2018:p200:u2	JO2018	200	grammar	0	GYS-J040		False	False	False	False
+source:JO2018:p200:u3	JO2018	200	grammar	0	GYS-J040		False	False	False	False
+source:JO2018:p201:u1	JO2018	201	mixed	3	GYS-J041		False	False	False	False
+source:JO2018:p201:u2	JO2018	201	mixed	2	GYS-H029,GYS-J041		False	False	False	False
+source:JO2018:p202:u1	JO2018	202	example	6	GYS-G018,GYS-G020,GYS-H023,GYS-J012		False	True	False	False
+source:JO2018:p202:u2	JO2018	202	grammar	0	GYS-H017,GYS-J013		False	False	False	False
+source:JO2018:p202:u3	JO2018	202	example	7			False	True	False	False
+source:JO2018:p202:u4	JO2018	202	example	2	GYS-J039,GYS-H023,GYS-G020		False	False	False	False
+source:JO2018:p203:u1	JO2018	203	mixed	1	GYS-H029,GYS-H017		False	False	False	False
+source:JO2018:p203:u2	JO2018	203	table	1	GYS-H028		False	True	False	False
+source:JO2018:p203:u3	JO2018	203	table	0			False	True	False	False
+source:JO2018:p204:u1	JO2018	204	table	0	GYS-H028		False	True	False	False
+source:JO2018:p204:u2	JO2018	204	mixed	0	GYS-H029		False	True	False	False
+source:JO2018:p204:u3	JO2018	204	mixed	4	GYS-G020		False	False	False	False
+source:JO2018:p205:u1	JO2018	205	mixed	4	GYS-H028		False	False	False	False
+source:JO2018:p205:u2	JO2018	205	grammar	0	GYS-H014		False	False	False	False
+source:JO2018:p205:u3	JO2018	205	example	7	GYS-Y011		False	False	False	False
+source:JO2018:p205:u4	JO2018	205	background	2			False	False	False	False
+source:JO2018:p206:u1	JO2018	206	mixed	8	GYS-H029		False	False	False	False
+source:JO2018:p206:u2	JO2018	206	grammar	3			False	False	False	False
+source:JO2018:p207:u1	JO2018	207	mixed	8	GYS-J042		False	True	False	False
+source:JO2018:p207:u2	JO2018	207	example	7			False	False	False	False
+source:JO2018:p207:u3	JO2018	207	example	1			False	False	False	False
+source:JO2018:p208:u1	JO2018	208	grammar	0			False	False	False	False
+source:JO2018:p208:u2	JO2018	208	table	0			False	True	False	False
+source:JO2018:p209:u1	JO2018	209	table	0			False	True	False	False
+source:JO2018:p209:u2	JO2018	209	mixed	5	GYS-J040		False	False	False	False
+source:JO2018:p209:u3	JO2018	209	grammar	0	GYS-J040		False	False	False	False
+source:JO2018:p210:u1	JO2018	210	mixed	5	GYS-J042		False	True	False	False
+source:JO2018:p210:u2	JO2018	210	mixed	6	GYS-J042		False	True	False	False
+source:JO2018:p210:u3	JO2018	210	example	2	GYS-J042,GYS-J040		False	False	False	False
+source:JO2018:p211:u1	JO2018	211	grammar	0	GYS-J042		False	False	False	False
+source:JO2018:p211:u2	JO2018	211	example	6	GYS-J043		False	False	False	False
+source:JO2018:p211:u3	JO2018	211	grammar	0	GYS-J043	GYS-J042	True	False	False	False
+source:JO2018:p212:u1	JO2018	212	mixed	3	GYS-J044		False	True	False	False
+source:JO2018:p212:u2	JO2018	212	mixed	4	GYS-J045,GYS-H029		False	False	False	False
+source:JO2018:p213:u1	JO2018	213	example	7	GYS-J008,GYS-J045,GYS-G020		False	False	False	False
+source:JO2018:p213:u2	JO2018	213	mixed	5	GYS-J045,GYS-H029		False	False	False	False
+source:JO2018:p213:u3	JO2018	213	table	0	GYS-J045,GYS-H029		False	False	False	False
+source:JO2018:p214:u1	JO2018	214	grammar	0	GYS-H029		False	False	False	False
+source:JO2018:p214:u2	JO2018	214	table	0	GYS-J045		False	True	False	False
+source:JO2018:p214:u3	JO2018	214	table	0	GYS-H017,GYS-J008,GYS-H026,GYS-J046		False	True	False	False
+source:JO2018:p214:u4	JO2018	214	mixed	1	GYS-H010		False	False	False	False
+source:JO2018:p215:u1	JO2018	215	mixed	3	GYS-H029		False	False	False	False
+source:JO2018:p215:u2	JO2018	215	example	7	GYS-J045,GYS-J008		False	False	False	False
+source:JO2018:p215:u3	JO2018	215	example	5	GYS-J008	GYS-J045	True	True	False	False
+source:JO2018:p216:u1	JO2018	216	example	4	GYS-J010		False	False	False	False
+source:JO2018:p216:u2	JO2018	216	grammar	0	GYS-J045		False	False	False	False
+source:JO2018:p216:u3	JO2018	216	grammar	0			False	False	False	False
+source:JO2018:p217:u1	JO2018	217	mixed	4	GYS-J009		False	False	False	False
+source:JO2018:p217:u2	JO2018	217	grammar	0	GYS-J009		False	False	False	False
+source:JO2018:p218:u1	JO2018	218	mixed	6	GYS-H017,GYS-H031		False	False	False	False
+source:JO2018:p218:u2	JO2018	218	mixed	5			False	False	False	False
+source:JO2018:p219:u1	JO2018	219	table	0	GYS-H029,GYS-J010		False	True	False	False
+source:JO2018:p219:u2	JO2018	219	table	0	GYS-J010,GYS-H028		False	True	False	False
+source:JO2018:p219:u3	JO2018	219	table	0	GYS-H029		False	True	False	False
+source:JO2018:p220:u1	JO2018	220	mixed	4		GYS-H029	True	False	False	False
+source:JO2018:p220:u2	JO2018	220	mixed	4		GYS-H029	True	False	False	False
+source:JO2018:p221:u1	JO2018	221	mixed	3			False	False	False	False
+source:JO2018:p221:u2	JO2018	221	grammar	0			False	False	False	False
+source:JO2018:p222:u1	JO2018	222	mixed	4	GYS-J046		False	False	False	False
+source:JO2018:p222:u2	JO2018	222	grammar	0			False	False	False	False
+source:JO2018:p223:u1	JO2018	223	table	0	GYS-J046		False	True	False	False
+source:JO2018:p223:u2	JO2018	223	mixed	1	GYS-J046		False	False	False	False
+source:JO2018:p224:u1	JO2018	224	mixed	2	GYS-J046		False	False	False	False
+source:JO2018:p224:u2	JO2018	224	grammar	0	GYS-J047		False	False	False	False
+source:JO2018:p225:u1	JO2018	225	background	0			False	False	False	False
+source:JO2018:p226:u1	JO2018	226	grammar	0	GYS-J031		False	False	False	False
+source:JO2018:p226:u2	JO2018	226	grammar	0	GYS-J003		False	False	False	False
+source:JO2018:p227:u1	JO2018	227	grammar	0		GYS-J003	True	False	False	False
+source:JO2018:p227:u2	JO2018	227	table	20	GYS-H014,GYS-J019,GYS-H024		False	True	False	False
+source:JO2018:p227:u3	JO2018	227	table	31	GYS-J052,GYS-H017,GYS-J006,GYS-H026		False	True	False	False
+source:JO2018:p227:u4	JO2018	227	table	11	GYS-H029,GYS-J039,GYS-J010		False	True	False	False
+source:JO2018:p228:u1	JO2018	228	table	25	GYS-J023,GYS-J024,GYS-H002,GYS-J021		False	True	False	False
+source:JO2018:p228:u2	JO2018	228	table	30	GYS-J045,GYS-H029,GYS-J008,GYS-H017		False	True	False	False
+source:JO2018:p228:u3	JO2018	228	table	27	GYS-J033,GYS-H014,GYS-H029,GYS-H017		False	True	False	False
+source:JO2018:p228:u4	JO2018	228	background	0			False	True	False	False
+source:JO2018:p229:u1	JO2018	229	references	0			False	False	False	False
+source:JO2018:p229:u2	JO2018	229	references	0			False	False	False	False
+source:JO2018:p229:u3	JO2018	229	references	0			False	False	False	False
+source:JO2018:p230:u1	JO2018	230	references	0			False	False	False	False
+source:JO2018:p230:u2	JO2018	230	references	0			False	False	False	False
+source:JO2018:p231:u1	JO2018	231	references	0			False	False	False	False
+source:JO2018:p231:u2	JO2018	231	references	0			False	False	False	False
+source:JO2018:p232:u1	JO2018	232	references	0			False	False	False	False
+source:JO2018:p232:u2	JO2018	232	references	0			False	False	False	False
+source:JO2018:p233:u1	JO2018	233	references	0			False	False	False	False
+source:JO2018:p233:u2	JO2018	233	references	0			False	False	False	False
+source:JO2018:p233:u3	JO2018	233	references	0			False	False	False	False
+source:JO2018:p234:u1	JO2018	234	references	0			False	False	False	False
+source:JO2018:p234:u2	JO2018	234	references	0			False	False	False	False
+source:JO2018:p235:u1	JO2018	235	references	0			False	False	False	False
+source:JO2018:p235:u2	JO2018	235	references	0			False	False	False	False
+source:JO2018:p236:u1	JO2018	236	references	0			False	False	False	False
+source:JO2018:p236:u2	JO2018	236	references	0			False	False	False	False
+source:JO2018:p237:u1	JO2018	237	references	0			False	False	False	False
+source:JO2018:p237:u2	JO2018	237	background	0			False	False	False	False
+source:JO2018:p238:u1	JO2018	238	references	0			False	False	False	False
+source:JO2018:p238:u2	JO2018	238	references	0			False	False	False	False
+source:JO2018:p239:u1	JO2018	239	references	0			False	False	False	False
+source:JO2018:p239:u2	JO2018	239	references	0			False	False	False	False
+source:JO2018:p240:u1	JO2018	240	references	0			False	False	False	False
+source:JO2018:p240:u2	JO2018	240	references	0			False	False	False	False
+source:JO2018:p241:u1	JO2018	241	references	0			False	False	False	False
+source:JO2018:p241:u2	JO2018	241	references	0			False	False	False	False
+source:JO2018:p242:u1	JO2018	242	references	0			False	False	False	False
+source:JO2018:p242:u2	JO2018	242	references	0			False	False	False	False
+source:JO2018:p243:u1	JO2018	243	references	0			False	False	False	False
+source:JO2018:p243:u2	JO2018	243	references	0			False	False	False	False
+source:JO2018:p244:u1	JO2018	244	references	0			False	False	False	False
+source:JO2018:p244:u2	JO2018	244	references	0			False	False	False	False
+source:JO2018:p245:u1	JO2018	245	references	0			False	False	False	False
+source:JO2018:p245:u2	JO2018	245	references	0			False	False	False	False
+source:JO2018:p246:u1	JO2018	246	references	0			False	False	False	False
+source:JO2018:p246:u2	JO2018	246	references	0			False	False	False	False
+source:JO2018:p247:u1	JO2018	247	references	0			False	False	False	False
+source:JO2018:p247:u2	JO2018	247	references	0			False	False	False	False
+source:JO2018:p248:u1	JO2018	248	references	0			False	False	False	False
+source:JO2018:p248:u2	JO2018	248	references	0			False	False	False	False
+source:JO2018:p249:u1	JO2018	249	references	0			False	False	False	False
+source:JO2018:p250:u1	JO2018	250	table	0			False	True	False	False
+source:JO2018:p250:u2	JO2018	250	table	0			False	True	False	False
+source:JO2018:p250:u3	JO2018	250	table	0			False	True	False	False
+source:JO2018:p250:u4	JO2018	250	table	0			False	True	False	False
+source:JO2018:p251:u1	JO2018	251	table	0	GYS-J048,GYS-J012,GYS-H022		False	True	False	False
+source:JO2018:p251:u2	JO2018	251	table	0	GYS-J048,GYS-H023,GYS-R039,GYS-H021		False	True	False	False
+source:JO2018:p251:u3	JO2018	251	table	0	GYS-J019,GYS-J012,GYS-J015		False	True	False	False
+source:JO2018:p252:u1	JO2018	252	table	0	GYS-H029,GYS-H017,GYS-H014		False	True	False	False
+source:JO2018:p252:u2	JO2018	252	table	0	GYS-H017,GYS-J006,GYS-H024,GYS-J019		False	True	False	False
+source:JO2018:p252:u3	JO2018	252	table	0	GYS-H024,GYS-J014,GYS-H022,GYS-H023		False	True	False	False
+source:JO2018:p252:u4	JO2018	252	table	3			False	True	False	False
+source:JO2018:p253:u1	JO2018	253	table	6	GYS-H017		False	True	False	False
+source:JO2018:p253:u2	JO2018	253	table	4	GYS-H017		False	True	False	False
+source:JO2018:p253:u3	JO2018	253	table	4	GYS-J019		False	True	False	False
+source:JO2018:p254:u1	JO2018	254	table	3	GYS-J012,GYS-H014		False	True	False	False
+source:JO2018:p254:u2	JO2018	254	table	5	GYS-H021		False	True	False	False
+source:JO2018:p254:u3	JO2018	254	table	0			False	True	False	False
+source:JO2018:p255:u1	JO2018	255	table	0	GYS-H019		False	True	False	False
+source:JO2018:p255:u2	JO2018	255	table	0	GYS-J021,GYS-J024		False	True	False	False
+source:JO2018:p255:u3	JO2018	255	table	0	GYS-J020,GYS-J021		False	True	False	False
+source:JO2018:p256:u1	JO2018	256	table	0	GYS-H017,GYS-H026		False	True	False	False
+source:JO2018:p256:u2	JO2018	256	table	0	GYS-H029,GYS-H017		False	True	False	False
+source:JO2018:p256:u3	JO2018	256	table	0			False	True	False	False
+source:JO2018:p257:u1	JO2018	257	table	0	GYS-J020,GYS-J021		False	True	False	False
+source:JO2018:p257:u2	JO2018	257	table	0	GYS-H027,GYS-H026		False	True	False	False
+source:JO2018:p257:u3	JO2018	257	table	0	GYS-J021,GYS-H004		False	True	False	False
+source:JO2018:p257:u4	JO2018	257	table	0	GYS-H030		False	True	False	False
+source:JO2018:p258:u1	JO2018	258	table	0	GYS-H017		False	True	False	False
+source:JO2018:p258:u2	JO2018	258	table	0	GYS-H019		False	True	False	False
+source:JO2018:p258:u3	JO2018	258	table	0	GYS-J024		False	True	False	False
+source:JO2018:p259:u1	JO2018	259	table	0	GYS-H019		False	True	False	False
+source:JO2018:p259:u2	JO2018	259	table	0	GYS-J045,GYS-H007		False	True	False	False
+source:JO2018:p259:u3	JO2018	259	table	0	GYS-R039,GYS-J006,GYS-J026		False	True	False	False
+source:JO2018:p260:u1	JO2018	260	table	0	GYS-J026,GYS-H015,GYS-R039,GYS-H017		False	True	False	False
+source:JO2018:p260:u2	JO2018	260	table	7	GYS-H029,GYS-J026,GYS-H017,GYS-I004		False	True	False	False
+source:JO2018:p260:u3	JO2018	260	table	5	GYS-J026		False	True	False	False
+source:JO2018:p261:u1	JO2018	261	table	8	GYS-H017,GYS-H026,GYS-H002,GYS-H027		False	True	False	False
+source:JO2018:p261:u2	JO2018	261	table	6	GYS-H017,GYS-J006,GYS-H021,GYS-I050		False	True	False	False
+source:JO2018:p261:u3	JO2018	261	table	6	GYS-R039,GYS-I050,GYS-H004,GYS-H003		False	True	False	False
+source:JO2018:p262:u1	JO2018	262	table	12	GYS-R039,GYS-J026,GYS-H020,GYS-J006		False	True	False	False
+source:JO2018:p262:u2	JO2018	262	table	0			False	True	False	False
+source:JO2018:p263:u1	JO2018	263	table	0	GYS-J033		False	True	False	False
+source:JO2018:p263:u2	JO2018	263	table	0	GYS-H029		False	True	False	False
+source:JO2018:p264:u1	JO2018	264	table	0	GYS-J033		False	True	False	False
+source:JO2018:p264:u2	JO2018	264	table	0	GYS-J035		False	True	False	False
+source:JO2018:p265:u1	JO2018	265	table	0	GYS-J033		False	True	False	False
+source:JO2018:p265:u2	JO2018	265	table	1			False	True	False	False
+source:RYU2014:p1:u1	RYU2014	1	background	1			False	False	False	False
+source:RYU2014:p2:u1	RYU2014	2	mixed	16	GYS-R029,GYS-R033,GYS-R039		False	False	False	False
+source:RYU2014:p3:u1	RYU2014	3	mixed	4	GYS-R058		False	False	False	False
+source:RYU2014:p4:u1	RYU2014	4	background	0			False	False	False	False
+source:RYU2014:p5:u1	RYU2014	5	background	0			False	False	False	False
+source:RYU2014:p6:u1	RYU2014	6	mixed	3	GYS-R027,GYS-R028		False	False	False	False
+source:RYU2014:p7:u1	RYU2014	7	table	21	GYS-R027,GYS-R028		False	True	False	False
+source:RYU2014:p7:u2	RYU2014	7	background	0			False	False	False	False
+source:RYU2014:p8:u1	RYU2014	8	table	16	GYS-R029		False	True	False	False
+source:RYU2014:p8:u2	RYU2014	8	background	10	GYS-R029,GYS-R030		False	False	False	False
+source:RYU2014:p9:u1	RYU2014	9	table	7	GYS-R030,GYS-R031		False	True	False	False
+source:RYU2014:p9:u2	RYU2014	9	mixed	7	GYS-R032		False	False	False	False
+source:RYU2014:p10:u1	RYU2014	10	mixed	10	GYS-R033,GYS-R034,GYS-R035		False	False	False	False
+source:RYU2014:p11:u1	RYU2014	11	mixed	4	GYS-R002,GYS-R034		False	True	False	False
+source:RYU2014:p11:u2	RYU2014	11	mixed	10	GYS-R001,GYS-R034,GYS-R035,GYS-R036		False	False	False	False
+source:RYU2014:p12:u1	RYU2014	12	mixed	7	GYS-R003,GYS-R004,GYS-R036,GYS-R046		False	True	False	False
+source:RYU2014:p12:u2	RYU2014	12	background	1	GYS-R060		False	False	False	False
+source:RYU2014:p13:u1	RYU2014	13	table	4	GYS-R037,GYS-G030		False	True	False	False
+source:RYU2014:p13:u2	RYU2014	13	mixed	6	GYS-R037,GYS-R038		False	True	False	False
+source:RYU2014:p14:u1	RYU2014	14	mixed	5	GYS-R039,GYS-H015		False	False	False	False
+source:RYU2014:p15:u1	RYU2014	15	mixed	9	GYS-R040		False	False	False	False
+source:RYU2014:p15:u2	RYU2014	15	background	0			False	False	False	False
+source:RYU2014:p16:u1	RYU2014	16	mixed	7	GYS-R025,GYS-R041		False	False	False	False
+source:RYU2014:p16:u2	RYU2014	16	table	6	GYS-R041		False	True	False	False
+source:RYU2014:p17:u1	RYU2014	17	mixed	7	GYS-R042,GYS-R026		False	False	False	False
+source:RYU2014:p17:u2	RYU2014	17	background	0			False	False	False	False
+source:RYU2014:p18:u1	RYU2014	18	table	1	GYS-R043,GYS-R044,GYS-R045		False	True	False	False
+source:RYU2014:p18:u2	RYU2014	18	table	2	GYS-R046,GYS-R047		False	True	False	False
+source:RYU2014:p19:u1	RYU2014	19	table	7	GYS-R005,GYS-R006,GYS-R047,GYS-R048,GYS-R049		False	True	False	False
+source:RYU2014:p19:u2	RYU2014	19	mixed	4	GYS-R007,GYS-R008,GYS-R050		False	True	False	False
+source:RYU2014:p20:u1	RYU2014	20	mixed	10	GYS-R009,GYS-R050		False	True	False	False
+source:RYU2014:p20:u2	RYU2014	20	table	1	GYS-R050,GYS-G036		False	True	False	False
+source:RYU2014:p21:u1	RYU2014	21	table	0		GYS-R050	True	True	False	False
+source:RYU2014:p21:u2	RYU2014	21	mixed	3	GYS-R020		False	True	False	False
+source:RYU2014:p22:u1	RYU2014	22	mixed	3	GYS-R021,GYS-R022,GYS-R051		False	True	False	False
+source:RYU2014:p23:u1	RYU2014	23	mixed	12	GYS-R023,GYS-R051,GYS-R052		False	False	False	False
+source:RYU2014:p24:u1	RYU2014	24	grammar	0	GYS-R010,GYS-R011,GYS-R012,GYS-R053,GYS-R057,GYS-G012,GYS-R015		False	False	False	False
+source:RYU2014:p24:u2	RYU2014	24	table	10	GYS-R010,GYS-R011,GYS-R012,GYS-R053,GYS-R057,GYS-G012		False	True	False	False
+source:RYU2014:p25:u1	RYU2014	25	table	10	GYS-R013,GYS-R014,GYS-R015,GYS-R024,GYS-R056		False	True	False	False
+source:RYU2014:p25:u2	RYU2014	25	mixed	8	GYS-R015,GYS-R016,GYS-R054,GYS-R055		False	True	False	False
+source:RYU2014:p26:u1	RYU2014	26	table	8	GYS-R017,GYS-R018,GYS-R019,GYS-R055,GYS-P003,GYS-I052		False	True	False	False
+source:RYU2014:p26:u2	RYU2014	26	background	0			False	False	False	False
+source:RYU2014:p27:u1	RYU2014	27	table	19	GYS-R058		False	False	False	False
+source:RYU2014:p27:u2	RYU2014	27	table	12	GYS-R058		False	True	False	False
+source:RYU2014:p28:u1	RYU2014	28	mixed	9	GYS-R059		False	False	False	False
+source:RYU2014:p28:u2	RYU2014	28	background	0			False	False	False	False
+source:RYU2014:p29:u1	RYU2014	29	background	0			False	False	False	False
+source:RYU2014:p30:u1	RYU2014	30	mixed	0			False	False	False	False
+source:RYU2014:p31:u1	RYU2014	31	mixed	0			False	False	False	False
+source:RYU2014:p32:u1	RYU2014	32	grammar	0	GYS-R029,GYS-R033,GYS-R031		False	False	False	False
+source:RYU2014:p33:u1	RYU2014	33	grammar	0	GYS-R040,GYS-R051,GYS-R039,GYS-R050		False	False	False	False
+source:RYU2014:p34:u1	RYU2014	34	grammar	0	GYS-R058,GYS-R055,GYS-R059		False	False	False	False
+source:RYU2014:p35:u1	RYU2014	35	references	0			False	False	False	False
+source:RYU2014:p36:u1	RYU2014	36	references	0			False	False	False	False
+source:RYU2014:p37:u1	RYU2014	37	background	0			False	False	False	False
+source:RYU2014:p37:u2	RYU2014	37	background	0			False	False	False	False
+source:RYU2014:p38:u1	RYU2014	38	background	0			False	False	False	False
+source:NAMU20260901:p1:u1	NAMU20260901	1	background	0			False	False	False	False
+source:NAMU20260901:p2:u1	NAMU20260901	2	background	0			False	False	False	False
+source:NAMU20260901:p3:u1	NAMU20260901	3	mixed	2	GYS-H003,GYS-H028		False	True	False	False
+source:NAMU20260901:p3:u2	NAMU20260901	3	mixed	3	GYS-H028,GYS-H003		False	False	False	False
+source:NAMU20260901:p4:u1	NAMU20260901	4	mixed	3	GYS-H028,GYS-H003		False	False	False	False
+source:NAMU20260901:p4:u2	NAMU20260901	4	grammar	3	GYS-G009		False	False	False	False
+source:NAMU20260901:p5:u1	NAMU20260901	5	grammar	3			False	False	False	False
+source:NAMU20260901:p6:u1	NAMU20260901	6	grammar	4	GYS-P007,GYS-P008,GYS-P005		False	False	False	False
+source:NAMU20260901:p6:u2	NAMU20260901	6	mixed	2			False	False	False	False
+source:NAMU20260901:p7:u1	NAMU20260901	7	mixed	6			False	False	False	False
+source:NAMU20260901:p7:u2	NAMU20260901	7	mixed	1			False	False	False	False
+source:NAMU20260901:p8:u1	NAMU20260901	8	background	0			False	False	False	False
+source:NAMU20260901:p8:u2	NAMU20260901	8	background	3			False	False	False	False
+source:NAMU20260901:p9:u1	NAMU20260901	9	background	2			False	False	False	False
+source:NAMU20260901:p9:u2	NAMU20260901	9	background	0			False	False	False	False
+source:NAMU20260901:p9:u3	NAMU20260901	9	background	0			False	False	False	False
+source:NAMU20260901:p10:u1	NAMU20260901	10	background	1	GYS-H014		False	False	False	False
+source:NAMU20260901:p11:u1	NAMU20260901	11	background	0			False	False	False	False
+source:NAMU20260901:p11:u2	NAMU20260901	11	background	0			False	False	False	False
+source:NAMU20260901:p12:u1	NAMU20260901	12	mixed	5	GYS-O004,GYS-P016,GYS-P001		False	False	False	False
+source:NAMU20260901:p13:u1	NAMU20260901	13	mixed	7	GYS-O004,GYS-P017		False	False	False	False
+source:NAMU20260901:p13:u2	NAMU20260901	13	mixed	3	GYS-O005		False	True	False	False
+source:NAMU20260901:p14:u1	NAMU20260901	14	background	3			False	True	False	False
+source:NAMU20260901:p14:u2	NAMU20260901	14	mixed	4			False	False	False	False
+source:NAMU20260901:p15:u1	NAMU20260901	15	example	10	GYS-O006,GYS-P017		False	True	False	False
+source:NAMU20260901:p16:u1	NAMU20260901	16	example	4	GYS-O007		False	False	False	False
+source:NAMU20260901:p16:u2	NAMU20260901	16	example	50	GYS-O008		False	True	False	False
+source:NAMU20260901:p17:u1	NAMU20260901	17	mixed	14			False	False	False	False
+source:NAMU20260901:p18:u1	NAMU20260901	18	example	25	GYS-R059,GYS-G020,GYS-G022		False	False	False	False
+source:NAMU20260901:p18:u2	NAMU20260901	18	example	21	GYS-G018		False	False	False	False
+source:NAMU20260901:p19:u1	NAMU20260901	19	example	12			False	False	False	False
+source:NAMU20260901:p19:u2	NAMU20260901	19	example	21	GYS-I044,GYS-G058		False	False	False	False
+source:NAMU20260901:p20:u1	NAMU20260901	20	example	20	GYS-I044,GYS-G020		False	False	False	False
+source:NAMU20260901:p20:u2	NAMU20260901	20	example	8			False	False	False	False
+source:NAMU20260901:p21:u1	NAMU20260901	21	mixed	13	GYS-O003		False	False	False	False
+source:NAMU20260901:p22:u1	NAMU20260901	22	mixed	15	GYS-H024,GYS-J018		False	False	False	False
+source:NAMU20260901:p22:u2	NAMU20260901	22	example	7			False	True	False	False
+source:NAMU20260901:p23:u1	NAMU20260901	23	mixed	14	GYS-G034,GYS-J057,GYS-Q002		False	False	False	False
+source:NAMU20260901:p23:u2	NAMU20260901	23	example	16	GYS-G034		False	True	False	False
+source:NAMU20260901:p24:u1	NAMU20260901	24	example	7			False	True	False	False
+source:NAMU20260901:p24:u2	NAMU20260901	24	example	20	GYS-G034		False	True	False	False
+source:NAMU20260901:p24:u3	NAMU20260901	24	example	1			False	False	False	False
+source:NAMU20260901:p25:u1	NAMU20260901	25	example	22	GYS-G034		False	False	False	False
+source:NAMU20260901:p25:u2	NAMU20260901	25	background	5			False	False	False	False
+source:NAMU20260901:p26:u1	NAMU20260901	26	mixed	8	GYS-O001		False	False	False	False
+source:NAMU20260901:p26:u2	NAMU20260901	26	example	1			False	False	False	False
+source:NAMU20260901:p27:u1	NAMU20260901	27	example	7			False	True	False	False
+source:NAMU20260901:p27:u2	NAMU20260901	27	mixed	9	GYS-J057		False	False	False	False
+source:NAMU20260901:p28:u1	NAMU20260901	28	mixed	7	GYS-H019		False	False	False	False
+source:NAMU20260901:p28:u2	NAMU20260901	28	mixed	6	GYS-H019,GYS-H001,GYS-H002		False	True	False	False
+source:NAMU20260901:p29:u1	NAMU20260901	29	background	1			False	False	False	False
+source:NAMU20260901:p29:u2	NAMU20260901	29	background	1			False	False	False	False
+source:NAMU20260901:p30:u1	NAMU20260901	30	background	1			False	False	False	False
+source:NAMU20260901:p30:u2	NAMU20260901	30	background	1			False	False	False	False
+source:NAMU20260901:p31:u1	NAMU20260901	31	background	1			False	False	False	False
+source:NAMU20260901:p31:u2	NAMU20260901	31	background	1			False	False	False	False
+source:NAMU20260901:p32:u1	NAMU20260901	32	background	0			False	False	False	False
+source:NAMU20260901:p32:u2	NAMU20260901	32	background	0			False	False	False	False
+source:NAMU20260901:p33:u1	NAMU20260901	33	background	0			False	False	False	False
+source:NAMU20260901:p33:u2	NAMU20260901	33	background	0			False	False	False	False
+source:NAMU20260901:p34:u1	NAMU20260901	34	background	2			False	False	False	False
+source:NAMU20260901:p34:u2	NAMU20260901	34	background	0			False	False	False	False
+source:NAMU20260901:p35:u1	NAMU20260901	35	background	0			False	False	False	False
+source:NAMU20260901:p35:u2	NAMU20260901	35	background	0			False	False	False	False
+source:NAMU20260901:p36:u1	NAMU20260901	36	background	0			False	False	False	False
+source:NAMU20260901:p36:u2	NAMU20260901	36	background	0			False	False	False	False
+source:NAMU20260901:p37:u1	NAMU20260901	37	background	17			False	False	False	False
+source:NAMU20260901:p37:u2	NAMU20260901	37	background	10			False	False	False	False
+source:NAMU20260901:p38:u1	NAMU20260901	38	background	0			False	False	False	False
+source:NAMU20260901:p38:u2	NAMU20260901	38	background	0			False	False	False	False
+source:NAMU20260901:p39:u1	NAMU20260901	39	background	0			False	False	False	False
+source:NAMU20260901:p39:u2	NAMU20260901	39	background	0			False	False	False	False
+source:NAMU20260901:p40:u1	NAMU20260901	40	background	0			False	False	False	False
+source:NAMU20260901:p40:u2	NAMU20260901	40	background	0			False	False	False	False
+source:NAMU20260901:p41:u1	NAMU20260901	41	background	0			False	False	False	False
+source:NAMU20260901:p41:u2	NAMU20260901	41	background	0			False	False	False	False
+source:NAMU20260901:p42:u1	NAMU20260901	42	background	0			False	False	False	False
+source:NAMU20260901:p42:u2	NAMU20260901	42	background	0			False	False	False	False
+source:NAMU20260901:p43:u1	NAMU20260901	43	background	0			False	False	False	False
+source:NAMU20260901:p44:u1	NAMU20260901	44	background	0			False	False	False	False
+source:NAMU20260901:p44:u2	NAMU20260901	44	background	0			False	False	False	False
+source:NAMU20260901:p45:u1	NAMU20260901	45	background	0			False	False	False	False
+source:NAMU20260901:p45:u2	NAMU20260901	45	background	0			False	False	False	False
+source:NAMU20260901:p46:u1	NAMU20260901	46	background	0			False	False	False	False
+source:NAMU20260901:p46:u2	NAMU20260901	46	background	0			False	False	False	False
+source:NAMU20260901:p47:u1	NAMU20260901	47	mixed	1	GYS-G051		False	False	False	False
+source:NAMU20260901:p48:u1	NAMU20260901	48	mixed	7	GYS-G007		False	False	False	False
+source:NAMU20260901:p48:u2	NAMU20260901	48	background	2			False	False	False	False
+source:NAMU20260901:p49:u1	NAMU20260901	49	background	12			False	False	False	False
+source:NAMU20260901:p49:u2	NAMU20260901	49	mixed	6			False	False	False	False
+source:NAMU20260901:p50:u1	NAMU20260901	50	background	13			False	False	False	False
+source:NAMU20260901:p50:u2	NAMU20260901	50	background	6			False	False	False	False
+source:NAMU20260901:p51:u1	NAMU20260901	51	background	7			False	False	False	False
+source:NAMU20260901:p51:u2	NAMU20260901	51	mixed	1	GYS-O009		False	False	False	False
+source:NAMU20260901:p52:u1	NAMU20260901	52	mixed	2	GYS-G016		False	False	False	False
+source:NAMU20260901:p52:u2	NAMU20260901	52	background	0			False	False	False	False
+source:NAMU20260901:p53:u1	NAMU20260901	53	mixed	2	GYS-O010,GYS-H019		False	False	False	False
+source:NAMU20260901:p53:u2	NAMU20260901	53	background	0			False	False	False	False
+source:NAMU20260901:p54:u1	NAMU20260901	54	background	1			False	False	False	False
+source:NAMU20260901:p54:u2	NAMU20260901	54	background	0			False	False	False	False
+source:NAMU20260901:p55:u1	NAMU20260901	55	background	0			False	False	False	False
+source:NAMU20260901:p55:u2	NAMU20260901	55	references	0			False	False	False	False
+source:NAMU_GRAMMAR_20260908:p1:u1	NAMU_GRAMMAR_20260908	1	background	0			False	False	False	False
+source:NAMU_GRAMMAR_20260908:p2:u1	NAMU_GRAMMAR_20260908	2	background	0			False	False	False	False
+source:NAMU_GRAMMAR_20260908:p3:u1	NAMU_GRAMMAR_20260908	3	background	0			False	False	False	False
+source:NAMU_GRAMMAR_20260908:p3:u2	NAMU_GRAMMAR_20260908	3	grammar	0	GYS-I003,GYS-I004		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p4:u1	NAMU_GRAMMAR_20260908	4	table	0	GYS-I020,GYS-I021,GYS-I022,GYS-I023,GYS-I024,GYS-I025		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p4:u2	NAMU_GRAMMAR_20260908	4	mixed	1	GYS-I005,GYS-I007,GYS-I008,GYS-I026,GYS-I027,GYS-I028		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p5:u1	NAMU_GRAMMAR_20260908	5	table	1	GYS-I029,GYS-I030,GYS-I031,GYS-I032,GYS-I033,GYS-I034,GYS-I035		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p5:u2	NAMU_GRAMMAR_20260908	5	mixed	3	GYS-I012,GYS-I013,GYS-I036,GYS-I037,GYS-I038,GYS-I039,GYS-I040,GYS-I057		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p6:u1	NAMU_GRAMMAR_20260908	6	mixed	3	GYS-I041,GYS-I042,GYS-I043,GYS-I044,GYS-I047,GYS-I048		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p6:u2	NAMU_GRAMMAR_20260908	6	mixed	3	GYS-I045,GYS-I049		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p7:u1	NAMU_GRAMMAR_20260908	7	mixed	3	GYS-I046,GYS-I050,GYS-I051,GYS-I052		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p7:u2	NAMU_GRAMMAR_20260908	7	mixed	4	GYS-I052,GYS-I054,GYS-I055,GYS-I056		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p8:u1	NAMU_GRAMMAR_20260908	8	mixed	4	GYS-Q001,GYS-Q002,GYS-Q003,GYS-Q004,GYS-Q005,GYS-Q006,GYS-Q007,GYS-Q009		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p8:u2	NAMU_GRAMMAR_20260908	8	table	4	GYS-Q001,GYS-Q002,GYS-Q003,GYS-Q004,GYS-Q005,GYS-Q006,GYS-Q007,GYS-Q009		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p8:u3	NAMU_GRAMMAR_20260908	8	table	1			False	True	False	False
+source:NAMU_GRAMMAR_20260908:p9:u1	NAMU_GRAMMAR_20260908	9	grammar	4	GYS-Q001,GYS-Q002,GYS-Q008		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p9:u2	NAMU_GRAMMAR_20260908	9	grammar	1	GYS-Q002		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p10:u1	NAMU_GRAMMAR_20260908	10	grammar	5	GYS-Q003,GYS-Q004,GYS-Q005		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p11:u1	NAMU_GRAMMAR_20260908	11	grammar	9	GYS-Q006,GYS-Q007		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p11:u2	NAMU_GRAMMAR_20260908	11	grammar	2	GYS-Q009		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p12:u1	NAMU_GRAMMAR_20260908	12	grammar	17	GYS-Q009,GYS-Q010,GYS-Q011		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p13:u1	NAMU_GRAMMAR_20260908	13	grammar	11	GYS-Q011,GYS-Q012,GYS-Q013		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p14:u1	NAMU_GRAMMAR_20260908	14	grammar	5	GYS-Q014,GYS-Q015,GYS-Q016		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p14:u2	NAMU_GRAMMAR_20260908	14	grammar	1	GYS-Q016		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p15:u1	NAMU_GRAMMAR_20260908	15	table	41	GYS-G009		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p15:u2	NAMU_GRAMMAR_20260908	15	grammar	13	GYS-G009		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p16:u1	NAMU_GRAMMAR_20260908	16	mixed	4	GYS-G010		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p17:u1	NAMU_GRAMMAR_20260908	17	grammar	7	GYS-G011,GYS-G012,GYS-G013		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p17:u2	NAMU_GRAMMAR_20260908	17	table	1	GYS-G013		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p18:u1	NAMU_GRAMMAR_20260908	18	mixed	2	GYS-G014,GYS-R051		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p18:u2	NAMU_GRAMMAR_20260908	18	table	0	GYS-G014		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p18:u3	NAMU_GRAMMAR_20260908	18	mixed	3	GYS-G014,GYS-I032,GYS-I034		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p19:u1	NAMU_GRAMMAR_20260908	19	mixed	2	GYS-G014,GYS-G015		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p19:u2	NAMU_GRAMMAR_20260908	19	table	1	GYS-G016,GYS-H014,GYS-J019		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p20:u1	NAMU_GRAMMAR_20260908	20	table	0	GYS-G016,GYS-H014		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p20:u2	NAMU_GRAMMAR_20260908	20	grammar	3	GYS-G016,GYS-G017		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p21:u1	NAMU_GRAMMAR_20260908	21	mixed	5	GYS-G016,GYS-I049		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p21:u2	NAMU_GRAMMAR_20260908	21	mixed	1	GYS-G018,GYS-G019		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p22:u1	NAMU_GRAMMAR_20260908	22	table	7	GYS-G018,GYS-G019,GYS-H017,GYS-J039		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p22:u2	NAMU_GRAMMAR_20260908	22	mixed	5	GYS-G018,GYS-G020		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p22:u3	NAMU_GRAMMAR_20260908	22	table	1	GYS-H022		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p23:u1	NAMU_GRAMMAR_20260908	23	mixed	6	GYS-H025		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p23:u2	NAMU_GRAMMAR_20260908	23	mixed	8			False	True	False	False
+source:NAMU_GRAMMAR_20260908:p24:u1	NAMU_GRAMMAR_20260908	24	mixed	8	GYS-P016,GYS-H031		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p25:u1	NAMU_GRAMMAR_20260908	25	mixed	2	GYS-G015,GYS-G014		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p25:u2	NAMU_GRAMMAR_20260908	25	mixed	2	GYS-G015,GYS-I042		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p26:u1	NAMU_GRAMMAR_20260908	26	background	2			False	False	False	False
+source:NAMU_GRAMMAR_20260908:p26:u2	NAMU_GRAMMAR_20260908	26	table	2	GYS-G021,GYS-G022		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p27:u1	NAMU_GRAMMAR_20260908	27	table	11	GYS-G022,GYS-G023,GYS-G024,GYS-G025,GYS-G026,GYS-G027,GYS-G028,GYS-G029		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p27:u2	NAMU_GRAMMAR_20260908	27	table	10	GYS-G030,GYS-G031,GYS-G032,GYS-G033,GYS-G003,GYS-G004,GYS-G005		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p28:u1	NAMU_GRAMMAR_20260908	28	table	11	GYS-G034,GYS-G035,GYS-G036,GYS-G019,GYS-G018,GYS-H017		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p28:u2	NAMU_GRAMMAR_20260908	28	table	4	GYS-G037,GYS-G038,GYS-G039,GYS-G001,GYS-G040		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p28:u3	NAMU_GRAMMAR_20260908	28	table	6	GYS-G041,GYS-G006,GYS-G036		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p29:u1	NAMU_GRAMMAR_20260908	29	table	11	GYS-G042,GYS-G043		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p29:u2	NAMU_GRAMMAR_20260908	29	mixed	4	GYS-G044,GYS-G045,GYS-G046		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p30:u1	NAMU_GRAMMAR_20260908	30	table	2			False	True	False	False
+source:NAMU_GRAMMAR_20260908:p30:u2	NAMU_GRAMMAR_20260908	30	mixed	7	GYS-G007,GYS-G008,GYS-G047,GYS-P016,GYS-O004,GYS-G069		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p30:u3	NAMU_GRAMMAR_20260908	30	table	4	GYS-G048		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p31:u1	NAMU_GRAMMAR_20260908	31	table	4			False	True	False	False
+source:NAMU_GRAMMAR_20260908:p31:u2	NAMU_GRAMMAR_20260908	31	table	3	GYS-G040		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p31:u3	NAMU_GRAMMAR_20260908	31	table	1			False	False	False	False
+source:NAMU_GRAMMAR_20260908:p32:u1	NAMU_GRAMMAR_20260908	32	table	4	GYS-I056		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p32:u2	NAMU_GRAMMAR_20260908	32	table	7			False	True	False	False
+source:NAMU_GRAMMAR_20260908:p32:u3	NAMU_GRAMMAR_20260908	32	table	3			False	True	False	False
+source:NAMU_GRAMMAR_20260908:p33:u1	NAMU_GRAMMAR_20260908	33	table	6			False	True	False	False
+source:NAMU_GRAMMAR_20260908:p33:u2	NAMU_GRAMMAR_20260908	33	table	6	GYS-G052		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p33:u3	NAMU_GRAMMAR_20260908	33	table	2			False	True	False	False
+source:NAMU_GRAMMAR_20260908:p34:u1	NAMU_GRAMMAR_20260908	34	table	0			False	True	False	False
+source:NAMU_GRAMMAR_20260908:p34:u2	NAMU_GRAMMAR_20260908	34	mixed	4	GYS-G053,GYS-G054		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p34:u3	NAMU_GRAMMAR_20260908	34	mixed	0	GYS-G055		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p35:u1	NAMU_GRAMMAR_20260908	35	mixed	0			False	True	False	False
+source:NAMU_GRAMMAR_20260908:p35:u2	NAMU_GRAMMAR_20260908	35	mixed	2	GYS-R059		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p35:u3	NAMU_GRAMMAR_20260908	35	mixed	1	GYS-G056,GYS-G057,GYS-H015		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p36:u1	NAMU_GRAMMAR_20260908	36	mixed	5	GYS-G058,GYS-I033		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p36:u2	NAMU_GRAMMAR_20260908	36	table	9	GYS-G059,GYS-G060		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p36:u3	NAMU_GRAMMAR_20260908	36	background	1			False	False	False	False
+source:NAMU_GRAMMAR_20260908:p37:u1	NAMU_GRAMMAR_20260908	37	table	8	GYS-I050,GYS-P008		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p37:u2	NAMU_GRAMMAR_20260908	37	table	9	GYS-G061,GYS-I024,GYS-H015		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p37:u3	NAMU_GRAMMAR_20260908	37	table	5			False	False	False	False
+source:NAMU_GRAMMAR_20260908:p38:u1	NAMU_GRAMMAR_20260908	38	table	7	GYS-G062		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p38:u2	NAMU_GRAMMAR_20260908	38	table	3	GYS-G063,GYS-G064		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p38:u3	NAMU_GRAMMAR_20260908	38	table	4	GYS-G064,GYS-G065		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p39:u1	NAMU_GRAMMAR_20260908	39	table	4	GYS-G066,GYS-G067		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p39:u2	NAMU_GRAMMAR_20260908	39	mixed	6	GYS-G068		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p40:u1	NAMU_GRAMMAR_20260908	40	table	7			False	True	False	False
+source:NAMU_GRAMMAR_20260908:p40:u2	NAMU_GRAMMAR_20260908	40	table	8			False	True	False	False
+source:NAMU_GRAMMAR_20260908:p40:u3	NAMU_GRAMMAR_20260908	40	background	0			False	False	False	False
+source:NAMU_GRAMMAR_20260908:p41:u1	NAMU_GRAMMAR_20260908	41	table	0	GYS-G069,GYS-G070		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p41:u2	NAMU_GRAMMAR_20260908	41	table	0	GYS-G071		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p41:u3	NAMU_GRAMMAR_20260908	41	table	0			False	True	False	False
+source:NAMU_GRAMMAR_20260908:p42:u1	NAMU_GRAMMAR_20260908	42	mixed	3	GYS-G049		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p42:u2	NAMU_GRAMMAR_20260908	42	table	0	GYS-G049,GYS-G050		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p43:u1	NAMU_GRAMMAR_20260908	43	mixed	4	GYS-G050,GYS-G049		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p43:u2	NAMU_GRAMMAR_20260908	43	table	2			False	True	False	False
+source:NAMU_GRAMMAR_20260908:p43:u3	NAMU_GRAMMAR_20260908	43	table	1			False	True	False	False
+source:NAMU_GRAMMAR_20260908:p44:u1	NAMU_GRAMMAR_20260908	44	table	1			False	True	False	False
+source:NAMU_GRAMMAR_20260908:p44:u2	NAMU_GRAMMAR_20260908	44	example	6	GYS-G040,GYS-G056		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p45:u1	NAMU_GRAMMAR_20260908	45	mixed	16	GYS-G051,GYS-I015,GYS-I016,GYS-I017,GYS-I021,GYS-I022,GYS-I023,GYS-I024,GYS-I025,GYS-I029,GYS-I030,GYS-I031,GYS-I032		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p46:u1	NAMU_GRAMMAR_20260908	46	mixed	8	GYS-I014,GYS-I033,GYS-I045,GYS-I056,GYS-G012		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p46:u2	NAMU_GRAMMAR_20260908	46	grammar	3	GYS-G012,GYS-R011		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p47:u1	NAMU_GRAMMAR_20260908	47	mixed	22	GYS-G016,GYS-G018,GYS-G023,GYS-R051		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p47:u2	NAMU_GRAMMAR_20260908	47	background	1			False	False	True	False
+source:NAMU_GRAMMAR_20260908:p48:u1	NAMU_GRAMMAR_20260908	48	mixed	5	GYS-G001,GYS-G028,GYS-G034,GYS-G040		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p48:u2	NAMU_GRAMMAR_20260908	48	mixed	4	GYS-G044,GYS-P016		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p49:u1	NAMU_GRAMMAR_20260908	49	mixed	26	GYS-G048		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p49:u2	NAMU_GRAMMAR_20260908	49	background	1			False	False	False	False
+source:NAMU_GRAMMAR_20260908:p50:u1	NAMU_GRAMMAR_20260908	50	mixed	21	GYS-G050,GYS-Q010		False	True	False	False
+source:NAMU_GRAMMAR_20260908:p50:u2	NAMU_GRAMMAR_20260908	50	example	2	GYS-I054,GYS-G040,GYS-G056,GYS-J032		False	False	False	False
+source:NAMU_GRAMMAR_20260908:p51:u1	NAMU_GRAMMAR_20260908	51	example	1	GYS-G051		False	False	False	False
+source:NAMU_HONORIFICS_20260908:p1:u1	NAMU_HONORIFICS_20260908	1	background	0			False	False	False	False
+source:NAMU_HONORIFICS_20260908:p2:u1	NAMU_HONORIFICS_20260908	2	background	0			False	False	False	False
+source:NAMU_HONORIFICS_20260908:p3:u1	NAMU_HONORIFICS_20260908	3	background	0			False	False	False	False
+source:NAMU_HONORIFICS_20260908:p3:u2	NAMU_HONORIFICS_20260908	3	table	0	GYS-H019,GYS-H029,GYS-H017		False	True	False	False
+source:NAMU_HONORIFICS_20260908:p4:u1	NAMU_HONORIFICS_20260908	4	mixed	0			False	True	False	False
+source:NAMU_HONORIFICS_20260908:p4:u2	NAMU_HONORIFICS_20260908	4	mixed	1	GYS-H014,GYS-H019		False	False	False	False
+source:NAMU_HONORIFICS_20260908:p5:u1	NAMU_HONORIFICS_20260908	5	mixed	1	GYS-H015,GYS-H016		False	False	False	False
+source:NAMU_HONORIFICS_20260908:p6:u1	NAMU_HONORIFICS_20260908	6	mixed	3	GYS-H014		False	False	False	False
+source:NAMU_HONORIFICS_20260908:p6:u2	NAMU_HONORIFICS_20260908	6	grammar	0			False	False	False	False
+source:NAMU_HONORIFICS_20260908:p7:u1	NAMU_HONORIFICS_20260908	7	table	0	GYS-H019	GYS-H018	True	True	False	False
+source:NAMU_HONORIFICS_20260908:p7:u2	NAMU_HONORIFICS_20260908	7	mixed	1	GYS-H017,GYS-H031		False	False	False	False
+source:NAMU_HONORIFICS_20260908:p7:u3	NAMU_HONORIFICS_20260908	7	background	1			False	False	False	False
+source:NAMU_HONORIFICS_20260908:p8:u1	NAMU_HONORIFICS_20260908	8	mixed	7	GYS-H019,GYS-H001,GYS-H002		False	False	False	False
+source:NAMU_HONORIFICS_20260908:p8:u2	NAMU_HONORIFICS_20260908	8	grammar	1	GYS-H020		False	False	False	False
+source:NAMU_HONORIFICS_20260908:p9:u1	NAMU_HONORIFICS_20260908	9	mixed	17	GYS-H020,GYS-R032		False	True	False	False
+source:NAMU_HONORIFICS_20260908:p10:u1	NAMU_HONORIFICS_20260908	10	mixed	16	GYS-H020,GYS-H019		False	True	False	False
+source:NAMU_HONORIFICS_20260908:p11:u1	NAMU_HONORIFICS_20260908	11	mixed	7	GYS-H021,GYS-H019		False	False	False	False
+source:NAMU_HONORIFICS_20260908:p11:u2	NAMU_HONORIFICS_20260908	11	background	0			False	False	False	False
+source:NAMU_HONORIFICS_20260908:p12:u1	NAMU_HONORIFICS_20260908	12	mixed	2	GYS-H019,GYS-H014,GYS-H027		False	False	False	False
+source:NAMU_HONORIFICS_20260908:p12:u2	NAMU_HONORIFICS_20260908	12	background	1			False	False	True	False
+source:NAMU_HONORIFICS_20260908:p13:u1	NAMU_HONORIFICS_20260908	13	mixed	4	GYS-H014		False	False	False	False
+source:NAMU_HONORIFICS_20260908:p14:u1	NAMU_HONORIFICS_20260908	14	grammar	16	GYS-H022,GYS-H024,GYS-H025		False	False	False	False
+source:NAMU_HONORIFICS_20260908:p14:u2	NAMU_HONORIFICS_20260908	14	table	2	GYS-H023		False	True	False	False
+source:NAMU_HONORIFICS_20260908:p15:u1	NAMU_HONORIFICS_20260908	15	mixed	1	GYS-H014		False	False	False	False
+source:NAMU_HONORIFICS_20260908:p16:u1	NAMU_HONORIFICS_20260908	16	mixed	2	GYS-H026,GYS-H014,GYS-H019		False	False	False	False
+source:NAMU_HONORIFICS_20260908:p17:u1	NAMU_HONORIFICS_20260908	17	mixed	9	GYS-H019,GYS-J019,GYS-H014		False	False	False	False
+source:NAMU_HONORIFICS_20260908:p17:u2	NAMU_HONORIFICS_20260908	17	mixed	4	GYS-H014,GYS-H019		False	True	False	False
+source:NAMU_HONORIFICS_20260908:p18:u1	NAMU_HONORIFICS_20260908	18	mixed	5	GYS-H027		False	False	False	False
+source:NAMU_HONORIFICS_20260908:p19:u1	NAMU_HONORIFICS_20260908	19	mixed	1	GYS-H003,GYS-H004,GYS-H027		False	False	False	False
+source:NAMU_HONORIFICS_20260908:p19:u2	NAMU_HONORIFICS_20260908	19	background	1			False	False	True	False
+source:NAMU_HONORIFICS_20260908:p20:u1	NAMU_HONORIFICS_20260908	20	mixed	20			False	False	False	False
+source:NAMU_HONORIFICS_20260908:p21:u1	NAMU_HONORIFICS_20260908	21	mixed	1			False	False	False	False
+source:NAMU_HONORIFICS_20260908:p21:u2	NAMU_HONORIFICS_20260908	21	background	0			False	False	False	False
+source:NAMU_HONORIFICS_20260908:p22:u1	NAMU_HONORIFICS_20260908	22	mixed	4			False	False	False	False
+source:NAMU_HONORIFICS_20260908:p23:u1	NAMU_HONORIFICS_20260908	23	mixed	2			False	False	False	False
+source:NAMU_HONORIFICS_20260908:p24:u1	NAMU_HONORIFICS_20260908	24	mixed	1	GYS-Q015		False	False	False	False
+source:NAMU_HONORIFICS_20260908:p25:u1	NAMU_HONORIFICS_20260908	25	mixed	3	GYS-Q015		False	False	False	False
+source:NAMU_HONORIFICS_20260908:p26:u1	NAMU_HONORIFICS_20260908	26	mixed	1	GYS-H028		False	True	False	False
+source:NAMU_HONORIFICS_20260908:p27:u1	NAMU_HONORIFICS_20260908	27	mixed	3	GYS-H028		False	False	False	False
+source:NAMU_HONORIFICS_20260908:p28:u1	NAMU_HONORIFICS_20260908	28	grammar	1			False	True	False	False
+source:NAMU_HONORIFICS_20260908:p28:u2	NAMU_HONORIFICS_20260908	28	grammar	0	GYS-H029		False	False	False	False
+source:NAMU_HONORIFICS_20260908:p29:u1	NAMU_HONORIFICS_20260908	29	mixed	1	GYS-H029		False	False	False	False
+source:NAMU_HONORIFICS_20260908:p30:u1	NAMU_HONORIFICS_20260908	30	mixed	1	GYS-H030,GYS-H031		False	False	False	False
+source:NAMU_HONORIFICS_20260908:p31:u1	NAMU_HONORIFICS_20260908	31	mixed	3			False	False	False	False
+source:NAMU_HONORIFICS_20260908:p31:u2	NAMU_HONORIFICS_20260908	31	background	1	GYS-H001		False	False	False	False
+source:NAMU_HONORIFICS_20260908:p32:u1	NAMU_HONORIFICS_20260908	32	mixed	1	GYS-H001,GYS-H002,GYS-H018		False	True	False	False
+source:NAMU_HONORIFICS_20260908:p32:u2	NAMU_HONORIFICS_20260908	32	background	2	GYS-H020,GYS-H021		False	False	False	False
+source:NAMU_HONORIFICS_20260908:p33:u1	NAMU_HONORIFICS_20260908	33	mixed	2	GYS-H025,GYS-H014		False	False	False	False
+source:NAMU_HONORIFICS_20260908:p33:u2	NAMU_HONORIFICS_20260908	33	background	2			False	False	False	False
+source:NAMU_HONORIFICS_20260908:p34:u1	NAMU_HONORIFICS_20260908	34	mixed	3	GYS-H003,GYS-H004,GYS-H005,GYS-H006,GYS-H007,GYS-H008,GYS-H009,GYS-H010,GYS-H011,GYS-H012,GYS-H013,GYS-H027,GYS-I054		False	False	False	False
+source:NAMU_HONORIFICS_20260908:p34:u2	NAMU_HONORIFICS_20260908	34	mixed	0			False	False	False	False
+source:NAMU_HONORIFICS_20260908:p35:u1	NAMU_HONORIFICS_20260908	35	mixed	1	GYS-H029,GYS-G066,GYS-G020		False	False	False	False
+source:NAMU_PHONOLOGY_20260908:p1:u1	NAMU_PHONOLOGY_20260908	1	background	0		GYS-P006	True	False	False	False
+source:NAMU_PHONOLOGY_20260908:p2:u1	NAMU_PHONOLOGY_20260908	2	grammar	7	GYS-P006,GYS-P007,GYS-P008		False	False	False	False
+source:NAMU_PHONOLOGY_20260908:p2:u2	NAMU_PHONOLOGY_20260908	2	background	0			False	False	False	False
+source:NAMU_PHONOLOGY_20260908:p3:u1	NAMU_PHONOLOGY_20260908	3	mixed	13	GYS-P004,GYS-P009		False	False	False	False
+source:NAMU_PHONOLOGY_20260908:p3:u2	NAMU_PHONOLOGY_20260908	3	background	0			False	False	False	False
+source:NAMU_PHONOLOGY_20260908:p4:u1	NAMU_PHONOLOGY_20260908	4	mixed	20	GYS-P004,GYS-P010		False	False	False	False
+source:NAMU_PHONOLOGY_20260908:p5:u1	NAMU_PHONOLOGY_20260908	5	mixed	20	GYS-P011,GYS-P010,GYS-R033		False	False	False	False
+source:NAMU_PHONOLOGY_20260908:p5:u2	NAMU_PHONOLOGY_20260908	5	background	0			False	False	False	False
+source:NAMU_PHONOLOGY_20260908:p6:u1	NAMU_PHONOLOGY_20260908	6	mixed	17	GYS-P005,GYS-P012,GYS-P013,GYS-P014		False	False	False	False
+source:NAMU_PHONOLOGY_20260908:p7:u1	NAMU_PHONOLOGY_20260908	7	mixed	20	GYS-P003,GYS-P015,GYS-I057		False	False	False	False
+source:NAMU_PHONOLOGY_20260908:p8:u1	NAMU_PHONOLOGY_20260908	8	mixed	7	GYS-P001,GYS-P002,GYS-P016,GYS-P017,GYS-O004		False	True	False	False

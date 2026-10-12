@@ -9,7 +9,7 @@ import json, zipfile, random, difflib, argparse
 from pathlib import Path
 
 ZIP = Path.home() / "dialect_corpus/aihub/VL_02. 경상도_03. 2인발화.zip"
-OUT = Path(__file__).resolve().parent / "baseline_testset_100.jsonl"
+OUT = Path(__file__).resolve().parent / "inputs/baseline_testset_100.jsonl"
 GAP = 0.8          # 문장 경계로 볼 무음 간격(초)
 MIN_EOJEOL, MAX_EOJEOL = 5, 25
 MIN_DIST = 0.1     # 정규화 Levenshtein 하한 (박근형 외 2026의 방언 표본 기준)

@@ -1,0 +1,196 @@
+{
+  "run": "current_kg/experiments/archive/runs/integrated_retrieval_20261008_dev30_v3",
+  "status": "completed",
+  "successful_outputs": 120,
+  "actual_generation_attempts": 120,
+  "new_analysis_calls": 0,
+  "conditions": [
+    "prompt_only",
+    "source_hybrid",
+    "record_hybrid",
+    "graph_hybrid"
+  ],
+  "same_request_record_graph": [
+    {
+      "id": "DEV001",
+      "same_output": true
+    },
+    {
+      "id": "DEV002",
+      "same_output": true
+    },
+    {
+      "id": "DEV003",
+      "same_output": true
+    },
+    {
+      "id": "DEV004",
+      "same_output": true
+    },
+    {
+      "id": "DEV005",
+      "same_output": true
+    },
+    {
+      "id": "DEV006",
+      "same_output": true
+    },
+    {
+      "id": "DEV007",
+      "same_output": true
+    },
+    {
+      "id": "DEV008",
+      "same_output": true
+    },
+    {
+      "id": "DEV009",
+      "same_output": true
+    },
+    {
+      "id": "DEV010",
+      "same_output": true
+    },
+    {
+      "id": "DEV011",
+      "same_output": true
+    },
+    {
+      "id": "DEV012",
+      "same_output": true
+    },
+    {
+      "id": "DEV013",
+      "same_output": true
+    },
+    {
+      "id": "DEV014",
+      "same_output": true
+    },
+    {
+      "id": "DEV015",
+      "same_output": true
+    },
+    {
+      "id": "DEV016",
+      "same_output": true
+    },
+    {
+      "id": "DEV017",
+      "same_output": true
+    },
+    {
+      "id": "DEV018",
+      "same_output": true
+    },
+    {
+      "id": "DEV019",
+      "same_output": true
+    },
+    {
+      "id": "DEV020",
+      "same_output": true
+    },
+    {
+      "id": "DEV021",
+      "same_output": true
+    },
+    {
+      "id": "DEV022",
+      "same_output": true
+    },
+    {
+      "id": "DEV023",
+      "same_output": true
+    },
+    {
+      "id": "DEV024",
+      "same_output": true
+    },
+    {
+      "id": "DEV025",
+      "same_output": true
+    },
+    {
+      "id": "DEV026",
+      "same_output": true
+    },
+    {
+      "id": "DEV028",
+      "same_output": true
+    },
+    {
+      "id": "DEV029",
+      "same_output": true
+    },
+    {
+      "id": "DEV030",
+      "same_output": true
+    }
+  ],
+  "different_request_record_graph": [
+    {
+      "id": "DEV027",
+      "same_output": true
+    }
+  ],
+  "identical_request_different_output_ids": [],
+  "different_request_different_output_ids": [],
+  "query_truncations": 0,
+  "dropped_cards": 16,
+  "costs": {
+    "prompt_only": {
+      "successful": 30,
+      "usage": {
+        "prompt_tokens": 10521,
+        "total_tokens": 10869,
+        "completion_tokens": 348
+      },
+      "summed_request_seconds": 17.968,
+      "mean_attempt_seconds": 0.599,
+      "reference_chars_min": 34,
+      "reference_chars_max": 34
+    },
+    "source_hybrid": {
+      "successful": 30,
+      "usage": {
+        "prompt_tokens": 65145,
+        "total_tokens": 65488,
+        "completion_tokens": 343
+      },
+      "summed_request_seconds": 21.009,
+      "mean_attempt_seconds": 0.7,
+      "reference_chars_min": 2945,
+      "reference_chars_max": 5623
+    },
+    "record_hybrid": {
+      "successful": 30,
+      "usage": {
+        "prompt_tokens": 88446,
+        "total_tokens": 88799,
+        "completion_tokens": 353
+      },
+      "summed_request_seconds": 29.525,
+      "mean_attempt_seconds": 0.984,
+      "reference_chars_min": 34,
+      "reference_chars_max": 23819
+    },
+    "graph_hybrid": {
+      "successful": 30,
+      "usage": {
+        "prompt_tokens": 89156,
+        "total_tokens": 89509,
+        "completion_tokens": 353
+      },
+      "summed_request_seconds": 26.316,
+      "mean_attempt_seconds": 0.877,
+      "reference_chars_min": 34,
+      "reference_chars_max": 23819
+    }
+  },
+  "quality_scores": "not assigned; independent review pending",
+  "protocol_sha256": "e4e55e619af0711f0a4abf0318050f8441d87498be355ac6b03906131cd99158",
+  "outputs_sha256": "a6353bc40b74814c593fceb9386eb72a56bd1abd72961859019a20d6e8995012",
+  "retrieval_sha256": "ef20f7781de2b4c7978068d86090526e9f83eee809f0a2ed5dbab6b7024f989d",
+  "interpretation": "Diagnostic outputs do not establish a quality gain. No-expansion identical-request differences show seed is not an absolute reproducibility guarantee."
+}

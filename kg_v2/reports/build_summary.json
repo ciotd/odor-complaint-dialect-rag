@@ -1,0 +1,86 @@
+{
+  "status": "full_source_draft",
+  "source_pages": 474,
+  "reviewed_pages": 474,
+  "pending_pages": 0,
+  "facts": 3757,
+  "fact_types": {
+    "context": 688,
+    "usage": 620,
+    "ending": 608,
+    "phonology": 88,
+    "construction": 292,
+    "inflection": 675,
+    "lexical_mapping": 650,
+    "constraint": 10,
+    "particle": 126
+  },
+  "claim_statuses": {
+    "secondary_report": 297,
+    "attested_form": 1097,
+    "source_generalization": 1849,
+    "author_hypothesis": 16,
+    "analyst_interpretation": 297,
+    "attested_example": 193,
+    "negative_example": 8
+  },
+  "nodes": 25750,
+  "edges": 35308,
+  "sources": [
+    {
+      "source_id": "YANG2021",
+      "pages": 22,
+      "reviewed_pages": 22,
+      "facts": 58,
+      "gap_pages": 0
+    },
+    {
+      "source_id": "JO2018",
+      "pages": 265,
+      "reviewed_pages": 265,
+      "facts": 1203,
+      "gap_pages": 31
+    },
+    {
+      "source_id": "RYU2014",
+      "pages": 38,
+      "reviewed_pages": 38,
+      "facts": 160,
+      "gap_pages": 2
+    },
+    {
+      "source_id": "NAMU20260901",
+      "pages": 55,
+      "reviewed_pages": 55,
+      "facts": 450,
+      "gap_pages": 18
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pages": 51,
+      "reviewed_pages": 51,
+      "facts": 1463,
+      "gap_pages": 6
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pages": 35,
+      "reviewed_pages": 35,
+      "facts": 305,
+      "gap_pages": 16
+    },
+    {
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "pages": 8,
+      "reviewed_pages": 8,
+      "facts": 118,
+      "gap_pages": 6
+    }
+  ],
+  "legacy_preservation": "all hashed legacy files unchanged",
+  "semantic_completeness": "not implied by page coverage; inspect review notes and gaps",
+  "translation_quality": "not evaluated",
+  "authoring_model": "gpt-6-astra",
+  "facts_sha256": "b96f57ab1e147d9f9afbfed26399cd946085493249d164240eff2c296e76c175",
+  "graph_sha256": "cb88c00d4f989e45dc193936812fbce70551ee59328e8bed6785f7366ba445c7"
+}

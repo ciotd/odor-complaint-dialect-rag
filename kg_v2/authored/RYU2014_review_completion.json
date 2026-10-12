@@ -1,0 +1,1294 @@
+{
+  "source_id": "RYU2014",
+  "facts": [
+    {
+      "id": "RYU2014:v2:review_completion:0001",
+      "type": "context",
+      "source_pattern": {
+        "text": "자격조사 본문·표 불일치",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "10쪽 본문은 -으로서→-갖고라 하나 12쪽 표는 .(으로서), 60대/10대 (100)/(100)이며 방언 예는 점으로 비었다. 자격 -갖고를 생산 규칙으로 확정할 수 없다.",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "body_page": 10,
+          "table_form": ".(으로서)",
+          "usage_60": "(100)",
+          "usage_10": "(100)"
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "해당 문헌·표·전사 범위의 기록이며 현대 사용 확률이나 자동 생성 규칙이 아니다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양 조사범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "quote": "이장으로서 당연히"
+        },
+        {
+          "pdf_page": 10,
+          "quote": "자격을 나타내는 ‘-으로서’는 ‘-갖고’"
+        },
+        {
+          "pdf_page": 12,
+          "quote": "100    100     -으로     톱으로 썰어라.\n     톱으로써 잘라라.     -(으)로써\n     이장으로서 당연히"
+        },
+        {
+          "pdf_page": 12,
+          "quote": "톱으로써 잘라라.     -(으)로써\n     이장으로서 당연히\n                   -으로서 (100) (100) .(으로서) ."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": "10쪽 본문도 읽음. 주제 은/는 충돌은 기존 0060에 보존; 개인/지역 원인 원문이 미해결."
+    },
+    {
+      "id": "RYU2014:v2:review_completion:0002",
+      "type": "context",
+      "source_pattern": {
+        "text": "명령 표 및 높임형 유입",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "PDF 표의 행·열을 시각 대조하여 누락 자모와 세대별 표기값을 보존.",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "columns": [
+            "standard",
+            "dialect",
+            "usage_60",
+            "usage_10",
+            "dialect_example"
+          ],
+          "rows": [
+            [
+              "-아/어라",
+              "-아/어라",
+              null,
+              null,
+              "저리 가라."
+            ],
+            [
+              "-게",
+              "-게",
+              "100",
+              "x",
+              "저리 가게."
+            ],
+            [
+              "-오",
+              "-시오",
+              "70",
+              "x",
+              "저리 내시오."
+            ],
+            [
+              "-ㅂ시오",
+              ".(-십시오)",
+              "(100)",
+              "(90)",
+              null
+            ],
+            [
+              "-아/어",
+              "-아/어",
+              null,
+              null,
+              "저리 가."
+            ]
+          ],
+          "blank_cell": null
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "해당 문헌·표·전사 범위의 기록이며 현대 사용 확률이나 자동 생성 규칙이 아니다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양 조사범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 14,
+          "quote": "저리 가십시오"
+        },
+        {
+          "pdf_page": 14,
+          "quote": "표준어            방언 사용 비율                방언\n 구 분\n          예            형태       60대     10대     형태           예\n       저리 가라.         -아/어라                    -아/어라     저리 가라.\n       저리 가게.          -게       100      x       -게      저리 가게.\n명령형 저리 가오.             -오        70      x      -시오      저리 내시오.\n       저리 가십시오        - 시오      (100)   (90)   .(-십시오)   .\n       저리 가.          -아/어                      -아/어     저리 가."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": "pdftoppm 렌더 이미지 대조. null은 원문 빈 칸, x/0/괄호는 원문 그대로 구별. 자모 복원은 실제 PDF 시각 판독이며 인용은 텍스트 추출의 연속 문자열. 21쪽 .(-았더-)는 인쇄형을 보존하며 -았던으로 교정하지 않음."
+    },
+    {
+      "id": "RYU2014:v2:review_completion:0003",
+      "type": "context",
+      "source_pattern": {
+        "text": "청유 표 및 명령 표 계속",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "PDF 표의 행·열을 시각 대조하여 누락 자모와 세대별 표기값을 보존.",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "columns": [
+            "standard",
+            "dialect",
+            "usage_60",
+            "usage_10",
+            "dialect_example"
+          ],
+          "rows": [
+            [
+              "명령 -아/어요",
+              "-아/어요",
+              null,
+              null,
+              "저리 가요."
+            ],
+            [
+              "명령 -세요/-시지요",
+              ".(-세요/시지요)",
+              "(75/75)",
+              "(100/x)",
+              null
+            ],
+            [
+              "청유 -자",
+              "-자",
+              null,
+              null,
+              "저리 가자."
+            ],
+            [
+              "청유 -세",
+              ".",
+              "x",
+              "x",
+              null
+            ],
+            [
+              "청유 -오",
+              "-소",
+              "x",
+              "x",
+              "저리 가소."
+            ],
+            [
+              "청유 -ㅂ시다",
+              "-ㅂ시다",
+              null,
+              "x",
+              "저리 갑시다."
+            ],
+            [
+              "청유 -아/어",
+              "-아/어",
+              null,
+              null,
+              "저리 가."
+            ],
+            [
+              "청유 -아/어요",
+              "-아/어요",
+              null,
+              null,
+              "가면 돼요."
+            ],
+            [
+              "청유 -으세요",
+              ".(-으세요)",
+              "(x)",
+              "(100)",
+              null
+            ]
+          ],
+          "blank_cell": null
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "해당 문헌·표·전사 범위의 기록이며 현대 사용 확률이나 자동 생성 규칙이 아니다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양 조사범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 15,
+          "quote": "저리 갑시다."
+        },
+        {
+          "pdf_page": 15,
+          "quote": "저리 가요           -아/어요                      -아/어요      저리 가요.\n명령형\n       (저리 가세요) (-세요/-시지요) (75/75) (100/x) .(-세요/시지요) ."
+        },
+        {
+          "pdf_page": 15,
+          "quote": "방언 사용\n                 표준어                                       방언\n 구 분                               비율\n             예           형태       60대    10대      형태            예\n       저리 가자.            -자                        -자      저리 가자.\n       저리 가세.            -세        x      x         .           .\n       저리 가오.            -오        x      x        -소      저리 가소.\n청유형 저리 갑시다.             - 시다              x      - 시다       저리 갑시다.\n       저리 가.             -아/어                     -아/어     저리 가.\n       저리 가요.           -아/어요                    -아/어요     가면 돼요.\n       (저리 가세요.)        (-으세요)    (x)    (100)   .(-으세요)        ."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": "pdftoppm 렌더 이미지 대조. null은 원문 빈 칸, x/0/괄호는 원문 그대로 구별. 자모 복원은 실제 PDF 시각 판독이며 인용은 텍스트 추출의 연속 문자열. 21쪽 .(-았더-)는 인쇄형을 보존하며 -았던으로 교정하지 않음."
+    },
+    {
+      "id": "RYU2014:v2:review_completion:0004",
+      "type": "context",
+      "source_pattern": {
+        "text": "의문·서술 표",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "PDF 표의 행·열을 시각 대조하여 누락 자모와 세대별 표기값을 보존.",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "columns": [
+            "standard",
+            "dialect",
+            "usage_60",
+            "usage_10",
+            "dialect_example"
+          ],
+          "rows": [
+            [
+              "의문 -느냐",
+              "-노",
+              "90",
+              "85",
+              "뭐 먹고 있노?"
+            ],
+            [
+              "의문 -는가",
+              "-는가",
+              null,
+              null,
+              "뭐 먹는가?"
+            ],
+            [
+              "의문 -오",
+              ".",
+              "x",
+              "x",
+              null
+            ],
+            [
+              "의문 -ㅂ니까",
+              ".(-ㅂ니까)",
+              "(100)",
+              "(x)",
+              null
+            ],
+            [
+              "의문 -아/어",
+              "-아/어",
+              null,
+              null,
+              "뭐 먹어?"
+            ],
+            [
+              "의문 -아/어요",
+              "-아/어요",
+              null,
+              null,
+              "뭐 잡수어요?"
+            ],
+            [
+              "의문 -세요",
+              ".(-세요)",
+              "(100)",
+              "(x)",
+              null
+            ],
+            [
+              "서술 -다/ㄴ다",
+              "-다/ㄴ다",
+              null,
+              null,
+              "논에 간다/"
+            ],
+            [
+              "서술 -네",
+              "-네",
+              null,
+              "x",
+              "논에 가네"
+            ],
+            [
+              "서술 -오",
+              ".",
+              "x",
+              "x",
+              null
+            ],
+            [
+              "서술 -ㅂ니다",
+              ".(-ㅂ니다)",
+              "(100)",
+              "(100)",
+              null
+            ],
+            [
+              "서술 -아/어",
+              "-아/어",
+              null,
+              null,
+              "논에 가."
+            ],
+            [
+              "서술 -아/어요",
+              "-아/어요",
+              null,
+              null,
+              "논에 가요."
+            ],
+            [
+              "서술 -으세요",
+              ".",
+              "(x)",
+              "(x)",
+              null
+            ]
+          ],
+          "blank_cell": null
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "해당 문헌·표·전사 범위의 기록이며 현대 사용 확률이나 자동 생성 규칙이 아니다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양 조사범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 16,
+          "quote": "뭐 먹고 있노?"
+        },
+        {
+          "pdf_page": 16,
+          "quote": "방언 사용\n                   표준어                                    방언\n 구 분                               비율\n               예          형태      60대     10대    형태            예\n       무엇을 먹느냐?           -느냐      90     85      -노       뭐 먹고 있노?\n       무엇을 먹는가?           -는가                    -는가       뭐 먹는가?\n       무엇을 먹으오?           -오       x       x       .           .\n 의문형 무엇을 먹습니까?           - 니까     (100)   (x)   .(- 니까)        .\n       무엇을 먹어?           -아/어                    -아/어      뭐 먹어?\n       무엇을 먹어요?          -아/어요                  -아/어요      뭐 잡수어요?\n       (무엇을 먹으세요?)       (-세요)    (100)   (x)   .(-세요)         ."
+        },
+        {
+          "pdf_page": 16,
+          "quote": "방언 사용\n                   표준어                                    방언\n구 분                                 비율\n               예          형태      60대     10대     형태           예\n       논에 간다.            -다/ 다                  -다/ 다      논에 간다/\n       논에 가네.             -네               x      -네       논에 가네\n       논에 가오.             -오        x      x       .               .\n       논에 갑니다.           - 니다     (100) (100)   .(- 니다)            .\n서술형\n       논에 가.             -아/어                    -아/어      논에 가.\n       논에 가요.            -아/어요                  -아/어요      논에 가요.\n       (아버지는 논에"
+        },
+        {
+          "pdf_page": 16,
+          "quote": "(-으세요)    (x)    (x)      .               .\n       가세요.)"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": "pdftoppm 렌더 이미지 대조. null은 원문 빈 칸, x/0/괄호는 원문 그대로 구별. 자모 복원은 실제 PDF 시각 판독이며 인용은 텍스트 추출의 연속 문자열. 21쪽 .(-았더-)는 인쇄형을 보존하며 -았던으로 교정하지 않음."
+    },
+    {
+      "id": "RYU2014:v2:review_completion:0005",
+      "type": "context",
+      "source_pattern": {
+        "text": "감탄 표",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "PDF 표의 행·열을 시각 대조하여 누락 자모와 세대별 표기값을 보존.",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "columns": [
+            "standard",
+            "dialect",
+            "usage_60",
+            "usage_10",
+            "dialect_example"
+          ],
+          "rows": [
+            [
+              "-(는)구나",
+              "-다",
+              "70",
+              "100",
+              "꽃이 예쁘다!"
+            ],
+            [
+              "-(는)구만",
+              "-네",
+              "80",
+              "100",
+              "꽃이 예쁘네!"
+            ],
+            [
+              "-오",
+              ".",
+              "x",
+              "x",
+              null
+            ],
+            [
+              "-ㅂ니다",
+              ".(-ㅂ니다)",
+              "(100)",
+              "(x)",
+              null
+            ],
+            [
+              "-아/어",
+              "-아/어",
+              null,
+              null,
+              "꽃이 참 예뻐!"
+            ],
+            [
+              "-아/어요",
+              "-아/어요",
+              null,
+              null,
+              "꽃이 참 예뻐요!"
+            ],
+            [
+              "-으세요",
+              ".(-으세요)",
+              "(100)",
+              "(x)",
+              null
+            ]
+          ],
+          "blank_cell": null
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "해당 문헌·표·전사 범위의 기록이며 현대 사용 확률이나 자동 생성 규칙이 아니다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양 조사범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 17,
+          "quote": "꽃이 예쁘다!"
+        },
+        {
+          "pdf_page": 17,
+          "quote": "방언 사용\n                표준어                                    방언\n 구 분                             비율\n            예          형태      60대     10대    형태            예\n       꽃이 참 예쁘구나!     -(는)구나    70     100     -다      꽃이 예쁘다!\n       꽃이 참 예쁘구만!     -(는)구만    80     100     -네      꽃이 예쁘네!\n       꽃이 참 예쁘오!       -오       x       x       .           .\n감탄형 꽃이 참 예쁩니다!        - 니다     (100)   (x)   .(- 니다)        .\n       꽃이 참 예뻐!       -아/어                    -아/어     꽃이 참 예뻐!\n       꽃이 참 예뻐요!      -아/어요                  -아/어요     꽃이 참 예뻐요!\n       (딸이 참 예쁘세요!) (-으세요)     (100)   (x)   .(-으세요)        ."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": "pdftoppm 렌더 이미지 대조. null은 원문 빈 칸, x/0/괄호는 원문 그대로 구별. 자모 복원은 실제 PDF 시각 판독이며 인용은 텍스트 추출의 연속 문자열. 21쪽 .(-았더-)는 인쇄형을 보존하며 -았던으로 교정하지 않음."
+    },
+    {
+      "id": "RYU2014:v2:review_completion:0006",
+      "type": "context",
+      "source_pattern": {
+        "text": "연결어미 표 계속",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "PDF 표의 행·열을 시각 대조하여 누락 자모와 세대별 표기값을 보존.",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "columns": [
+            "standard",
+            "dialect",
+            "usage_60",
+            "usage_10",
+            "dialect_example"
+          ],
+          "rows": [
+            [
+              "-(으)려고",
+              "-(으)ㄹ라고",
+              "80",
+              "30",
+              "점심 먹을라고 집에 간다."
+            ],
+            [
+              "-ㄹ수록",
+              "-ㄹ수록",
+              null,
+              null,
+              "보면 볼수록 예쁘네."
+            ],
+            [
+              "-듯이",
+              "-듯이",
+              "5",
+              "20",
+              null
+            ],
+            [
+              "-아/어서",
+              "-아/어서",
+              null,
+              null,
+              null
+            ],
+            [
+              "-면",
+              "-먼",
+              "70",
+              "0",
+              "니가 오먼 나는 간다."
+            ],
+            [
+              "-니",
+              "-니",
+              null,
+              null,
+              null
+            ],
+            [
+              "-러",
+              "-러",
+              "30",
+              "100",
+              "물 무러 온다."
+            ],
+            [
+              "-고자",
+              "-라고",
+              "100",
+              "x",
+              "돈 벌라고 일을 한다."
+            ],
+            [
+              "보조 -아/어",
+              "-아/어",
+              null,
+              null,
+              null
+            ],
+            [
+              "-게,-도록",
+              "-게",
+              "100",
+              "50",
+              "미국에 가게 되었다"
+            ],
+            [
+              "-지",
+              ".(안)",
+              "(100)",
+              "(100)",
+              "(아무도 안 오네.)"
+            ],
+            [
+              "보조 -고",
+              "-고",
+              null,
+              null,
+              null
+            ],
+            [
+              "인용 -고",
+              "-꼬",
+              "60",
+              "0",
+              "지가 간다꼬 말했다."
+            ],
+            [
+              "인용 -라고",
+              "-고",
+              "30",
+              "100",
+              "밥 무라 카네."
+            ]
+          ],
+          "blank_cell": null
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "해당 문헌·표·전사 범위의 기록이며 현대 사용 확률이나 자동 생성 규칙이 아니다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양 조사범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 19,
+          "quote": "점심 먹을라고 집에"
+        },
+        {
+          "pdf_page": 19,
+          "quote": "-(으)\n      점심을 먹으려고                                      점심 먹을라고 집에\n                     -(으)려고    80    30       라\n      집에 간다.                                        간다.\n                                              고\n      보면 볼수록 예쁘네.    - 수록                   - 수록 보면 볼수록 예쁘네.\n      너도 알 듯이 내 딸은                                  너도 알 듯이 내 딸은\n                      -듯이      5     20     -듯이\n      예뻐.                                           예뻐.\n종속적 배가 아파서 일하러                                      배가 아파서 일하러\n                -아/어서                       -아/어서"
+        },
+        {
+          "pdf_page": 19,
+          "quote": "연결 못 갔다.                                            못 갔다.\n어미 네가 오면 나는 간다.   -면           70     0      -먼     니가 오먼 나는 간다.\n      비가 오니 물이                                      비가 오니 물이\n                      -니                     -니\n      넘친다.                                          넘친다.\n      물을 먹으러 짐승이\n                      -러       30    100     -러     물 무러 온다.\n      내려 온다.\n      돈을 벌고자 일을\n                      -고자     100     x     -라고     돈 벌라고 일을 한다.\n      한다.\n      책이 꽂혀 있다.      -아/어                   -아/어 책이 꽂혀 있다.\n보조적 미국에 가게 되었다. -게,-도록        100    50      -게     미국에 가게 되었다"
+        },
+        {
+          "pdf_page": 19,
+          "quote": "연결   아무도 오지 않았다.     -지      (100) (100)    .(안)   (아무도 안 오네.)\n 어미   밭에서 일을 하고                                     밭에서 일을 하고\n                      -고                     -고\n      있다.                                           있다.\n    자기가 간다고\n인용적                   -고       60     0      -꼬     지가 간다꼬 말했다.\n    말했다.\n연결\n    “내가 간다.”라고\n어미                    -라고      30    100     -고     밥 무라 카네.\n    말했다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": "pdftoppm 렌더 이미지 대조. null은 원문 빈 칸, x/0/괄호는 원문 그대로 구별. 자모 복원은 실제 PDF 시각 판독이며 인용은 텍스트 추출의 연속 문자열. 21쪽 .(-았더-)는 인쇄형을 보존하며 -았던으로 교정하지 않음."
+    },
+    {
+      "id": "RYU2014:v2:review_completion:0007",
+      "type": "context",
+      "source_pattern": {
+        "text": "종결 시제 표",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "PDF 표의 행·열을 시각 대조하여 누락 자모와 세대별 표기값을 보존.",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "columns": [
+            "standard",
+            "dialect",
+            "usage_60",
+            "usage_10",
+            "dialect_example"
+          ],
+          "rows": [
+            [
+              "미래 -겠-",
+              ".",
+              "x",
+              "x",
+              "(니는 내일 논에 간다.)"
+            ],
+            [
+              "미래 -리-",
+              ".",
+              "x",
+              "x",
+              "(내일 논에 간다.)"
+            ],
+            [
+              "미래 -ㄹ 것-",
+              "-ㄹ끼다",
+              "100",
+              "5",
+              "내일 논에 갈 끼다."
+            ],
+            [
+              "현재 -ㄴ/는-",
+              "-ㄴ/는-",
+              null,
+              null,
+              "나는 지금 밭에 간다."
+            ],
+            [
+              "현재 형용사 -φ-",
+              "-ø-",
+              null,
+              null,
+              "꽃이 예쁘다"
+            ],
+            [
+              "현재 명사 -φ-",
+              "-ø-",
+              null,
+              null,
+              "저것이 밭이다."
+            ],
+            [
+              "현재 -고 있-",
+              "-고 있-",
+              null,
+              null,
+              "지금 밥을 묵고 있다."
+            ],
+            [
+              "과거 -었-",
+              "-었-",
+              null,
+              null,
+              "밥 뭈나?"
+            ],
+            [
+              "과거 -더-",
+              "-더-",
+              null,
+              null,
+              "맷돼지가 밭에 있더라."
+            ],
+            [
+              "과거 -었었-",
+              ".(-었었-)",
+              "(100)",
+              "x",
+              null
+            ],
+            [
+              "과거 -었더-",
+              "었더",
+              null,
+              null,
+              "난리 났더라."
+            ]
+          ],
+          "blank_cell": null
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "해당 문헌·표·전사 범위의 기록이며 현대 사용 확률이나 자동 생성 규칙이 아니다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양 조사범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 20,
+          "quote": "내일 논에 갈 끼다."
+        },
+        {
+          "pdf_page": 20,
+          "quote": "방언 사용\n                표준어                                        방언\n 구 분                               비율\n            예             형태      60대     10대    형태               예\n       나는 내일 논에                                           (니는 내일 논에\n                          -겠-      x       x       .\n       가겠다.                                               간다.)\n   미 나는 내일 논에\n                          -리-      x       x       .      (내일 논에 간다.)\n   래 가리라 .\n       나는 내일 논에 갈\n                      -     것-    100      5    - 끼다 내일 논에 갈 끼다.\n       것이다.\n       나는 지금 밭에 간다. - /는-                       - /는- 나는 지금 밭에 간다."
+        },
+        {
+          "pdf_page": 20,
+          "quote": "나무가 참 예쁘다.         -φ-                    -ø-      꽃이 예쁘다\n  현\n종   저것은 밭이다.      -φ-                            -ø-      저것이 밭이다.\n  재\n결   나는 지금 밭에 가고\n형               -고 있-                           -고 있- 지금 밥을 묵고 있다.\n    있다.\n       너는 밥을 먹었느냐?        -었-                    -었-      밥 뭈나?\n       형이 어제 밥을                                           맷돼지가 밭에\n                          -더-                    -더-\n       먹더라.                                               있더라.\n   과 너는 어제 밭에\n                      -었었-        (100)    x    .(-었었-)           .\n   거 갔었느냐?\n       내가 어제 밭에"
+        },
+        {
+          "pdf_page": 20,
+          "quote": "가보았더니 멧돼지가     -었더-                       었더       난리 났더라.\n       난리를 냈더라."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": "pdftoppm 렌더 이미지 대조. null은 원문 빈 칸, x/0/괄호는 원문 그대로 구별. 자모 복원은 실제 PDF 시각 판독이며 인용은 텍스트 추출의 연속 문자열. 21쪽 .(-았더-)는 인쇄형을 보존하며 -았던으로 교정하지 않음."
+    },
+    {
+      "id": "RYU2014:v2:review_completion:0008",
+      "type": "context",
+      "source_pattern": {
+        "text": "관형 시제 표",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "PDF 표의 행·열을 시각 대조하여 누락 자모와 세대별 표기값을 보존.",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "columns": [
+            "standard",
+            "dialect",
+            "usage_60",
+            "usage_10",
+            "dialect_example"
+          ],
+          "rows": [
+            [
+              "미래 -ㄹ",
+              "-ㄹ",
+              null,
+              null,
+              "내가 만낼 사람은 이장님이다."
+            ],
+            [
+              "현재 동사 -는",
+              "-는",
+              null,
+              null,
+              "지금 가는 사람이 누고?"
+            ],
+            [
+              "현재 형용사 -ㄴ",
+              "-ㄴ",
+              null,
+              null,
+              "제일 예쁜 사람이 누고?"
+            ],
+            [
+              "현재 서술격 -ㄴ",
+              "-ㄴ",
+              null,
+              null,
+              "지금 생일인 사람이 누고?"
+            ],
+            [
+              "과거 서술격 -ㄴ",
+              "-ㄴ",
+              null,
+              null,
+              "어제 생일인 사람은 누고?"
+            ],
+            [
+              "과거 동사 -ㄴ",
+              "-ㄴ",
+              null,
+              null,
+              "어제 집에 간 학생은 누고?"
+            ],
+            [
+              "-았던",
+              ".(-았더-)",
+              "(100)",
+              "(x)",
+              null
+            ]
+          ],
+          "blank_cell": null
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "해당 문헌·표·전사 범위의 기록이며 현대 사용 확률이나 자동 생성 규칙이 아니다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양 조사범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 21,
+          "quote": "내가 만낼 사람은"
+        },
+        {
+          "pdf_page": 21,
+          "quote": "미 내가 만날 사람은                                         내가 만낼 사람은\n                        -                      -\n   래 이장님이다.                                            이장님이다.\n       지금 가는 사람은                                       지금 가는 사람이\n                        -는                     -는\n       누구냐?                                            누고?\n   현 제일 예쁜 사람은                                         제일 예쁜 사람이\n                        -                      -\n 관 재 누구냐?                                              누고?\n 형   지금 생일인 사람은                                        지금 생일인 사람이\n                        -                      -"
+        },
+        {
+          "pdf_page": 21,
+          "quote": "사   누구냐?                                              누고?\n 형   어제 생일인 사람은                                        어제 생일인 사람은\n                        -                      -\n       누구냐?                                            누고?\n   과 어제 집에 간 학생은                                       어제 집에 간 학생은\n                        -                      -\n   거 누구냐?                                              누고?\n       어제 갔던 곳은\n                        -았던    (100)   (x)   .(-았더-)         .\n       어디냐?."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": "pdftoppm 렌더 이미지 대조. null은 원문 빈 칸, x/0/괄호는 원문 그대로 구별. 자모 복원은 실제 PDF 시각 판독이며 인용은 텍스트 추출의 연속 문자열. 21쪽 .(-았더-)는 인쇄형을 보존하며 -았던으로 교정하지 않음."
+    },
+    {
+      "id": "RYU2014:v2:review_completion:0009",
+      "type": "context",
+      "source_pattern": {
+        "text": "방언 사용자를 볼 때 태도",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "함양 의식조사: 초등학생 45명·60세 이상 40명의 항목별 응답과 비율.",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "columns": [
+            "response",
+            "children_count",
+            "children_percent",
+            "elder_count",
+            "elder_percent"
+          ],
+          "rows": [
+            [
+              "정겨워 나도 사용하고 싶다",
+              11,
+              24.4,
+              0,
+              0
+            ],
+            [
+              "정겹지만 많이 쓰고 싶지 않다",
+              24,
+              53.3,
+              18,
+              45.0
+            ],
+            [
+              "촌스럽지만 조금은 괜찮다",
+              8,
+              17.8,
+              17,
+              42.5
+            ],
+            [
+              "촌스러워 쓰고 싶지 않다",
+              2,
+              4.5,
+              5,
+              12.5
+            ]
+          ]
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "해당 문헌·표·전사 범위의 기록이며 현대 사용 확률이나 자동 생성 규칙이 아니다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양 조사범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 29,
+          "quote": "11 (24.4)"
+        },
+        {
+          "pdf_page": 29,
+          "quote": "번호              항 목              10대 초반      60세 이상\n     구수하고 정겹게 느껴져서 나도 사투리로 말하고\n 1                               11 (24.4)     0 (0)\n     싶어진다.\n     구수하고 정겹게 느껴지지만 많이 쓰고 싶지는\n 2                               24 (53.3)   18 (45.0)\n     않다.\n     촌스럽게 생각되지만 조금은 써도 괜찮다고\n 3                               8 (17.8)    17 (42.5)\n     생각한다.\n 4   촌스럽게 느껴져서 쓰고 싶지 않다.          2 (4.5)    5 (12.5)\n 계                               45 (100)    40 (100)"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": "문법형 사용 확인의 60대/10대 소수 제보자와 별개 의식조사 표본. 응답명은 짧게 요약한 분석가 표제."
+    },
+    {
+      "id": "RYU2014:v2:review_completion:0010",
+      "type": "context",
+      "source_pattern": {
+        "text": "표준어 화자를 볼 때 말하고 싶은 정도",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "함양 의식조사: 초등학생 45명·60세 이상 40명의 항목별 응답과 비율.",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "columns": [
+            "response",
+            "children_count",
+            "children_percent",
+            "elder_count",
+            "elder_percent"
+          ],
+          "rows": [
+            [
+              "많이",
+              5,
+              11.1,
+              19,
+              47.5
+            ],
+            [
+              "보통",
+              18,
+              40.0,
+              15,
+              37.5
+            ],
+            [
+              "조금",
+              13,
+              28.9,
+              6,
+              15.0
+            ],
+            [
+              "없음",
+              9,
+              20.0,
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "해당 문헌·표·전사 범위의 기록이며 현대 사용 확률이나 자동 생성 규칙이 아니다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양 조사범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 30,
+          "quote": "5 (11.1)"
+        },
+        {
+          "pdf_page": 30,
+          "quote": "번호              항 목                10대 초반      60세 이상\n 1    나도 표준어로 말하면 좋겠다는 생각이 많이 든다.   5 (11.1)    19 (47.5)\n      나도 표준어로 말하면 좋겠다는 생각이 보통 정도\n 2                                  18 (40.0)   15 (37.5)\n      든다.\n      나도 표준어로 말하면 좋겠다는 생각이 조금은\n 3                                  13 (28.9)   6 (15.0)\n      든다.\n      나도 표준어로 말하면 좋겠다는 생각이 들지\n 4                                  9 (20.0)      0 (0)\n      않는다.\n 계                                  45 (100)    40 (100)"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": "문법형 사용 확인의 60대/10대 소수 제보자와 별개 의식조사 표본. 응답명은 짧게 요약한 분석가 표제."
+    },
+    {
+      "id": "RYU2014:v2:review_completion:0011",
+      "type": "context",
+      "source_pattern": {
+        "text": "표준어 최대 습득 경로",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "함양 의식조사: 초등학생 45명·60세 이상 40명의 항목별 응답과 비율.",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "columns": [
+            "response",
+            "children_count",
+            "children_percent",
+            "elder_count",
+            "elder_percent"
+          ],
+          "rows": [
+            [
+              "수업",
+              16,
+              35.6,
+              2,
+              5.0
+            ],
+            [
+              "텔레비전",
+              14,
+              31.1,
+              38,
+              95.0
+            ],
+            [
+              "책 잡지 신문",
+              8,
+              17.8,
+              0,
+              0.0
+            ],
+            [
+              "표준어 사용자와 대화",
+              7,
+              15.5,
+              0,
+              0.0
+            ]
+          ]
+        }
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "해당 문헌·표·전사 범위의 기록이며 현대 사용 확률이나 자동 생성 규칙이 아니다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양 조사범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 31,
+          "quote": "16 (35.6)"
+        },
+        {
+          "pdf_page": 31,
+          "quote": "번호               항 목                10대 초반      60세 이상\n      교과서가 표준어로 되어 있으므로 수업 시간을\n  1                                  16 (35.6)    2 (5.0)\n      통해 제일 많이 배우게 된다.\n      텔레비전에서는 주로 표준어를 써서 말하므로\n  2                                  14 (31.1)   38 (95.0)\n      텔레비전을 볼 때 표준어를 제일 많이 배우게 된다.\n      책, 잡지, 신문 등이 주로 표준어로 되었기 때문에\n  3                                  8 (17.8)     0 (0.0)\n      이런 것들을 읽을 때 제일 많이 배우게 된다.\n      표준어를 쓰는 사람과 대화를 할 때 제일 많이\n  4                                  7 (15.5)     0 (0.0)\n      배우게 된다.\n 계                                   45 (100)    40 (100)"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": "문법형 사용 확인의 60대/10대 소수 제보자와 별개 의식조사 표본. 응답명은 짧게 요약한 분석가 표제."
+    },
+    {
+      "id": "RYU2014:v2:review_completion:0012",
+      "type": "context",
+      "source_pattern": {
+        "text": "본문 71.1%의 해석 한계",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "본문은 정겹지만 많이 쓰고 싶지 않다는 학생을 71.1%라 쓰지만 표의 해당 항목은 53.3%; 71.1은 53.3+17.8의 합이다. 합계의 두 태도를 같은 태도로 단정하지 않는다.",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "해당 문헌·표·전사 범위의 기록이며 현대 사용 확률이나 자동 생성 규칙이 아니다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 함양 조사범위"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 29,
+          "quote": "71.1%의 어린이들이"
+        },
+        {
+          "pdf_page": 29,
+          "quote": "싶어진다.\n     구수하고 정겹게 느껴지지만 많이 쓰고 싶지는\n 2                               24 (53.3)   18 (45.0)"
+        },
+        {
+          "pdf_page": 29,
+          "quote": "않다.\n     촌스럽게 생각되지만 조금은 써도 괜찮다고\n 3                               8 (17.8)    17 (42.5)"
+        },
+        {
+          "pdf_page": 29,
+          "quote": "이 표는 방언 사용자에 대한 의식을 조사한 것이다. 어린이들은 방언 사용\n자에 대해 호감은 갖고 있지만 많이 쓰고 싶지는 않고 조금은 쓰고 싶어 하는\n편이다. 71.1%의 어린이들이 사투리가 정겹게 느껴지지만 많이 쓰고는 싶지"
+        }
+      ],
+      "claim_status": "analyst_interpretation",
+      "usability": "reference_only",
+      "notes": ""
+    }
+  ]
+}

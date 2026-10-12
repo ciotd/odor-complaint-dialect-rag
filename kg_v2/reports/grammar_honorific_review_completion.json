@@ -1,0 +1,5160 @@
+{
+  "source_ids": [
+    "NAMU_GRAMMAR_20260908",
+    "NAMU_HONORIFICS_20260908"
+  ],
+  "gap_dispositions": [
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 16,
+      "status": "source_limitation",
+      "reason": "원영상은 PDF에 삽입/링크된 외부 자료로서 현재 PDF 재전사만 확인했다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0178"
+      ],
+      "original_gaps": [
+        "문헌에 실린 재전사/편집 예문을 읽었으나 연결된 음성·영상·인용원문은 별도 미검증."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 18,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0001",
+        "NAMU_GRAMMAR_20260908:v2:review:0002",
+        "NAMU_GRAMMAR_20260908:v2:review:0003",
+        "NAMU_GRAMMAR_20260908:v2:review:0004",
+        "NAMU_GRAMMAR_20260908:v2:review:0005",
+        "NAMU_GRAMMAR_20260908:v2:review:0006",
+        "NAMU_GRAMMAR_20260908:v2:review:0007",
+        "NAMU_GRAMMAR_20260908:v2:review:0008",
+        "NAMU_GRAMMAR_20260908:v2:review:0009",
+        "NAMU_GRAMMAR_20260908:v2:review:0010",
+        "NAMU_GRAMMAR_20260908:v2:review:0011",
+        "NAMU_GRAMMAR_20260908:v2:review:0012",
+        "NAMU_GRAMMAR_20260908:v2:review:0013",
+        "NAMU_GRAMMAR_20260908:v2:review:0014",
+        "NAMU_GRAMMAR_20260908:v2:review:0015",
+        "NAMU_GRAMMAR_20260908:v2:review:0016",
+        "NAMU_GRAMMAR_20260908:v2:review:0017",
+        "NAMU_GRAMMAR_20260908:v2:review:0018",
+        "NAMU_GRAMMAR_20260908:v2:review:0019",
+        "NAMU_GRAMMAR_20260908:v2:review:0020",
+        "NAMU_GRAMMAR_20260908:v2:review:0021",
+        "NAMU_GRAMMAR_20260908:v2:review:0022",
+        "NAMU_GRAMMAR_20260908:v2:review:0023",
+        "NAMU_GRAMMAR_20260908:v2:review:0024",
+        "NAMU_GRAMMAR_20260908:v2:review:0025",
+        "NAMU_GRAMMAR_20260908:v2:review:0026",
+        "NAMU_GRAMMAR_20260908:v2:review:0027",
+        "NAMU_GRAMMAR_20260908:v2:review:0028",
+        "NAMU_GRAMMAR_20260908:v2:review:0029",
+        "NAMU_GRAMMAR_20260908:v2:review:0030",
+        "NAMU_GRAMMAR_20260908:v2:review:0031",
+        "NAMU_GRAMMAR_20260908:v2:review:0032",
+        "NAMU_GRAMMAR_20260908:v2:review:0033",
+        "NAMU_GRAMMAR_20260908:v2:review:0034",
+        "NAMU_GRAMMAR_20260908:v2:review:0035",
+        "NAMU_GRAMMAR_20260908:v2:review:0036",
+        "NAMU_GRAMMAR_20260908:v2:review:0037",
+        "NAMU_GRAMMAR_20260908:v2:review:0038",
+        "NAMU_GRAMMAR_20260908:v2:review:0039",
+        "NAMU_GRAMMAR_20260908:v2:review:0040",
+        "NAMU_GRAMMAR_20260908:v2:review:0041",
+        "NAMU_GRAMMAR_20260908:v2:review:0042",
+        "NAMU_GRAMMAR_20260908:v2:review:0043",
+        "NAMU_GRAMMAR_20260908:v2:review:0044",
+        "NAMU_GRAMMAR_20260908:v2:review:0045",
+        "NAMU_GRAMMAR_20260908:v2:review:0046",
+        "NAMU_GRAMMAR_20260908:v2:review:0047",
+        "NAMU_GRAMMAR_20260908:v2:review:0048",
+        "NAMU_GRAMMAR_20260908:v2:review:0049",
+        "NAMU_GRAMMAR_20260908:v2:review:0050",
+        "NAMU_GRAMMAR_20260908:v2:review:0051",
+        "NAMU_GRAMMAR_20260908:v2:review:0052",
+        "NAMU_GRAMMAR_20260908:v2:review:0053",
+        "NAMU_GRAMMAR_20260908:v2:review:0054",
+        "NAMU_GRAMMAR_20260908:v2:review:0055",
+        "NAMU_GRAMMAR_20260908:v2:review:0056",
+        "NAMU_GRAMMAR_20260908:v2:review:0057",
+        "NAMU_GRAMMAR_20260908:v2:review:0058",
+        "NAMU_GRAMMAR_20260908:v2:review:0059",
+        "NAMU_GRAMMAR_20260908:v2:review:0060",
+        "NAMU_GRAMMAR_20260908:v2:review:0061",
+        "NAMU_GRAMMAR_20260908:v2:review:0062",
+        "NAMU_GRAMMAR_20260908:v2:review:0063",
+        "NAMU_GRAMMAR_20260908:v2:review:0064",
+        "NAMU_GRAMMAR_20260908:v2:review:0065",
+        "NAMU_GRAMMAR_20260908:v2:review:0066",
+        "NAMU_GRAMMAR_20260908:v2:review:0067",
+        "NAMU_GRAMMAR_20260908:v2:review:0068",
+        "NAMU_GRAMMAR_20260908:v2:review:0069",
+        "NAMU_GRAMMAR_20260908:v2:review:0070",
+        "NAMU_GRAMMAR_20260908:v2:review:0071",
+        "NAMU_GRAMMAR_20260908:v2:review:0072",
+        "NAMU_GRAMMAR_20260908:v2:review:0073",
+        "NAMU_GRAMMAR_20260908:v2:review:0074",
+        "NAMU_GRAMMAR_20260908:v2:review:0075",
+        "NAMU_GRAMMAR_20260908:v2:review:0076",
+        "NAMU_GRAMMAR_20260908:v2:review:0077",
+        "NAMU_GRAMMAR_20260908:v2:review:0078",
+        "NAMU_GRAMMAR_20260908:v2:review:0079",
+        "NAMU_GRAMMAR_20260908:v2:review:0080",
+        "NAMU_GRAMMAR_20260908:v2:review:0081",
+        "NAMU_GRAMMAR_20260908:v2:review:0082",
+        "NAMU_GRAMMAR_20260908:v2:review:0083",
+        "NAMU_GRAMMAR_20260908:v2:review:0084",
+        "NAMU_GRAMMAR_20260908:v2:review:0085",
+        "NAMU_GRAMMAR_20260908:v2:review:0086",
+        "NAMU_GRAMMAR_20260908:v2:review:0087",
+        "NAMU_GRAMMAR_20260908:v2:review:0088",
+        "NAMU_GRAMMAR_20260908:v2:review:0089",
+        "NAMU_GRAMMAR_20260908:v2:review:0090",
+        "NAMU_GRAMMAR_20260908:v2:review:0091",
+        "NAMU_GRAMMAR_20260908:v2:review:0092",
+        "NAMU_GRAMMAR_20260908:v2:review:0093",
+        "NAMU_GRAMMAR_20260908:v2:review:0094",
+        "NAMU_GRAMMAR_20260908:v2:review:0095",
+        "NAMU_GRAMMAR_20260908:v2:review:0096",
+        "NAMU_GRAMMAR_20260908:v2:review:0097",
+        "NAMU_GRAMMAR_20260908:v2:review:0098",
+        "NAMU_GRAMMAR_20260908:v2:review:0099",
+        "NAMU_GRAMMAR_20260908:v2:review:0100",
+        "NAMU_GRAMMAR_20260908:v2:review:0101",
+        "NAMU_GRAMMAR_20260908:v2:review:0102",
+        "NAMU_GRAMMAR_20260908:v2:review:0103",
+        "NAMU_GRAMMAR_20260908:v2:review:0104",
+        "NAMU_GRAMMAR_20260908:v2:review:0105",
+        "NAMU_GRAMMAR_20260908:v2:review:0106",
+        "NAMU_GRAMMAR_20260908:v2:review:0107",
+        "NAMU_GRAMMAR_20260908:v2:review:0108"
+      ],
+      "original_gaps": [
+        "빠줗다·널쭣다·섞웋다의 복잡한 표기/발음 활용표는 문맥으로 보존했으나 전 셀의 이미지 대조·개별형 추출은 남아 있다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 21,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0109",
+        "NAMU_GRAMMAR_20260908:v2:review:0110",
+        "NAMU_GRAMMAR_20260908:v2:review:0111",
+        "NAMU_GRAMMAR_20260908:v2:review:0112",
+        "NAMU_GRAMMAR_20260908:v2:review:0113",
+        "NAMU_GRAMMAR_20260908:v2:review:0114",
+        "NAMU_GRAMMAR_20260908:v2:review:0115",
+        "NAMU_GRAMMAR_20260908:v2:review:0116",
+        "NAMU_GRAMMAR_20260908:v2:review:0117",
+        "NAMU_GRAMMAR_20260908:v2:review:0118",
+        "NAMU_GRAMMAR_20260908:v2:review:0119",
+        "NAMU_GRAMMAR_20260908:v2:review:0120",
+        "NAMU_GRAMMAR_20260908:v2:review:0121",
+        "NAMU_GRAMMAR_20260908:v2:review:0122",
+        "NAMU_GRAMMAR_20260908:v2:review:0123",
+        "NAMU_GRAMMAR_20260908:v2:review:0124",
+        "NAMU_GRAMMAR_20260908:v2:review:0125",
+        "NAMU_GRAMMAR_20260908:v2:review:0126",
+        "NAMU_GRAMMAR_20260908:v2:review:0127",
+        "NAMU_GRAMMAR_20260908:v2:review:0128",
+        "NAMU_GRAMMAR_20260908:v2:review:0129",
+        "NAMU_GRAMMAR_20260908:v2:review:0130",
+        "NAMU_GRAMMAR_20260908:v2:review:0131",
+        "NAMU_GRAMMAR_20260908:v2:review:0132",
+        "NAMU_GRAMMAR_20260908:v2:review:0133",
+        "NAMU_GRAMMAR_20260908:v2:review:0134",
+        "NAMU_GRAMMAR_20260908:v2:review:0135",
+        "NAMU_GRAMMAR_20260908:v2:review:0136",
+        "NAMU_GRAMMAR_20260908:v2:review:0137",
+        "NAMU_GRAMMAR_20260908:v2:review:0138",
+        "NAMU_GRAMMAR_20260908:v2:review:0139",
+        "NAMU_GRAMMAR_20260908:v2:review:0140",
+        "NAMU_GRAMMAR_20260908:v2:review:0141",
+        "NAMU_GRAMMAR_20260908:v2:review:0142",
+        "NAMU_GRAMMAR_20260908:v2:review:0143",
+        "NAMU_GRAMMAR_20260908:v2:review:0144",
+        "NAMU_GRAMMAR_20260908:v2:review:0145",
+        "NAMU_GRAMMAR_20260908:v2:review:0146",
+        "NAMU_GRAMMAR_20260908:v2:review:0147",
+        "NAMU_GRAMMAR_20260908:v2:review:0148",
+        "NAMU_GRAMMAR_20260908:v2:review:0149",
+        "NAMU_GRAMMAR_20260908:v2:review:0150",
+        "NAMU_GRAMMAR_20260908:v2:review:0151",
+        "NAMU_GRAMMAR_20260908:v2:review:0152",
+        "NAMU_GRAMMAR_20260908:v2:review:0153",
+        "NAMU_GRAMMAR_20260908:v2:review:0154"
+      ],
+      "original_gaps": [
+        "이다/아이다의 모든 높임·과거·회상 표 셀은 개별형으로 완전 분해하지 않았고 북부 니껴 세부 활용을 추가 대조해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 22,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0115",
+        "NAMU_GRAMMAR_20260908:v2:review:0116",
+        "NAMU_GRAMMAR_20260908:v2:review:0117",
+        "NAMU_GRAMMAR_20260908:v2:review:0118",
+        "NAMU_GRAMMAR_20260908:v2:review:0119",
+        "NAMU_GRAMMAR_20260908:v2:review:0120",
+        "NAMU_GRAMMAR_20260908:v2:review:0121",
+        "NAMU_GRAMMAR_20260908:v2:review:0122",
+        "NAMU_GRAMMAR_20260908:v2:review:0123",
+        "NAMU_GRAMMAR_20260908:v2:review:0124",
+        "NAMU_GRAMMAR_20260908:v2:review:0125",
+        "NAMU_GRAMMAR_20260908:v2:review:0126",
+        "NAMU_GRAMMAR_20260908:v2:review:0127",
+        "NAMU_GRAMMAR_20260908:v2:review:0128",
+        "NAMU_GRAMMAR_20260908:v2:review:0129",
+        "NAMU_GRAMMAR_20260908:v2:review:0130",
+        "NAMU_GRAMMAR_20260908:v2:review:0131",
+        "NAMU_GRAMMAR_20260908:v2:review:0132",
+        "NAMU_GRAMMAR_20260908:v2:review:0133",
+        "NAMU_GRAMMAR_20260908:v2:review:0134",
+        "NAMU_GRAMMAR_20260908:v2:review:0135",
+        "NAMU_GRAMMAR_20260908:v2:review:0136",
+        "NAMU_GRAMMAR_20260908:v2:review:0137",
+        "NAMU_GRAMMAR_20260908:v2:review:0138",
+        "NAMU_GRAMMAR_20260908:v2:review:0139",
+        "NAMU_GRAMMAR_20260908:v2:review:0140",
+        "NAMU_GRAMMAR_20260908:v2:review:0141",
+        "NAMU_GRAMMAR_20260908:v2:review:0142",
+        "NAMU_GRAMMAR_20260908:v2:review:0143",
+        "NAMU_GRAMMAR_20260908:v2:review:0144",
+        "NAMU_GRAMMAR_20260908:v2:review:0145",
+        "NAMU_GRAMMAR_20260908:v2:review:0146",
+        "NAMU_GRAMMAR_20260908:v2:review:0147",
+        "NAMU_GRAMMAR_20260908:v2:review:0148",
+        "NAMU_GRAMMAR_20260908:v2:review:0149",
+        "NAMU_GRAMMAR_20260908:v2:review:0150"
+      ],
+      "original_gaps": [
+        "이다/아이다의 모든 높임·과거·회상 표 셀은 개별형으로 완전 분해하지 않았고 북부 니껴 세부 활용을 추가 대조해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 23,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0151",
+        "NAMU_GRAMMAR_20260908:v2:review:0152",
+        "NAMU_GRAMMAR_20260908:v2:review:0153",
+        "NAMU_GRAMMAR_20260908:v2:review:0154",
+        "NAMU_GRAMMAR_20260908:v2:review:0155"
+      ],
+      "original_gaps": [
+        "이다/아이다의 모든 높임·과거·회상 표 셀은 개별형으로 완전 분해하지 않았고 북부 니껴 세부 활용을 추가 대조해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 26,
+      "status": "source_limitation",
+      "reason": "소꿉장난·고양이 지역 지도 링크는 PDF에 시군구별 대응을 싣지 않아 개별 지역 배당을 확정할 수 없다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0156",
+        "NAMU_GRAMMAR_20260908:v2:review:0157",
+        "NAMU_GRAMMAR_20260908:v2:review:0158",
+        "NAMU_GRAMMAR_20260908:v2:review:0159",
+        "NAMU_GRAMMAR_20260908:v2:review:0179",
+        "NAMU_GRAMMAR_20260908:v2:review:0309",
+        "NAMU_GRAMMAR_20260908:v2:review:0310",
+        "NAMU_GRAMMAR_20260908:v2:review:0311",
+        "NAMU_GRAMMAR_20260908:v2:review:0312",
+        "NAMU_GRAMMAR_20260908:v2:review:0313",
+        "NAMU_GRAMMAR_20260908:v2:review:0314",
+        "NAMU_GRAMMAR_20260908:v2:review:0315",
+        "NAMU_GRAMMAR_20260908:v2:review:0316",
+        "NAMU_GRAMMAR_20260908:v2:review:0317",
+        "NAMU_GRAMMAR_20260908:v2:review:0318",
+        "NAMU_GRAMMAR_20260908:v2:review:0319",
+        "NAMU_GRAMMAR_20260908:v2:review:0320",
+        "NAMU_GRAMMAR_20260908:v2:review:0321",
+        "NAMU_GRAMMAR_20260908:v2:review:0322",
+        "NAMU_GRAMMAR_20260908:v2:review:0323",
+        "NAMU_GRAMMAR_20260908:v2:review:0324",
+        "NAMU_GRAMMAR_20260908:v2:review:0325",
+        "NAMU_GRAMMAR_20260908:v2:review:0326",
+        "NAMU_GRAMMAR_20260908:v2:review:0327",
+        "NAMU_GRAMMAR_20260908:v2:review:0328",
+        "NAMU_GRAMMAR_20260908:v2:review:0329",
+        "NAMU_GRAMMAR_20260908:v2:review:0330",
+        "NAMU_GRAMMAR_20260908:v2:review:0331",
+        "NAMU_GRAMMAR_20260908:v2:review:0332",
+        "NAMU_GRAMMAR_20260908:v2:review:0333"
+      ],
+      "original_gaps": [
+        "세부 지역·세대·성조·다의어 및 긴 예문의 모든 부수 지식을 완전 분해하지 않음. 근거 페이지와 각주를 함께 참조해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 27,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0180"
+      ],
+      "original_gaps": [
+        "표의 모든 대체형은 자동 적용 규칙이 아님. 본문/각주 제약 중 일부는 텍스트 제약·별도 진술로 남아 있으므로 합성 조회 시 검토가 필요하다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 28,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0181"
+      ],
+      "original_gaps": [
+        "표의 모든 대체형은 자동 적용 규칙이 아님. 본문/각주 제약 중 일부는 텍스트 제약·별도 진술로 남아 있으므로 합성 조회 시 검토가 필요하다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 29,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0182",
+        "NAMU_GRAMMAR_20260908:v2:review:0276",
+        "NAMU_GRAMMAR_20260908:v2:review:0277",
+        "NAMU_GRAMMAR_20260908:v2:review:0278",
+        "NAMU_GRAMMAR_20260908:v2:review:0279",
+        "NAMU_GRAMMAR_20260908:v2:review:0280",
+        "NAMU_GRAMMAR_20260908:v2:review:0281",
+        "NAMU_GRAMMAR_20260908:v2:review:0282",
+        "NAMU_GRAMMAR_20260908:v2:review:0283",
+        "NAMU_GRAMMAR_20260908:v2:review:0284",
+        "NAMU_GRAMMAR_20260908:v2:review:0285",
+        "NAMU_GRAMMAR_20260908:v2:review:0286",
+        "NAMU_GRAMMAR_20260908:v2:review:0287",
+        "NAMU_GRAMMAR_20260908:v2:review:0288",
+        "NAMU_GRAMMAR_20260908:v2:review:0289",
+        "NAMU_GRAMMAR_20260908:v2:review:0290",
+        "NAMU_GRAMMAR_20260908:v2:review:0291",
+        "NAMU_GRAMMAR_20260908:v2:review:0292",
+        "NAMU_GRAMMAR_20260908:v2:review:0293",
+        "NAMU_GRAMMAR_20260908:v2:review:0294",
+        "NAMU_GRAMMAR_20260908:v2:review:0295",
+        "NAMU_GRAMMAR_20260908:v2:review:0296",
+        "NAMU_GRAMMAR_20260908:v2:review:0297",
+        "NAMU_GRAMMAR_20260908:v2:review:0298",
+        "NAMU_GRAMMAR_20260908:v2:review:0299",
+        "NAMU_GRAMMAR_20260908:v2:review:0300",
+        "NAMU_GRAMMAR_20260908:v2:review:0301",
+        "NAMU_GRAMMAR_20260908:v2:review:0302",
+        "NAMU_GRAMMAR_20260908:v2:review:0303",
+        "NAMU_GRAMMAR_20260908:v2:review:0304",
+        "NAMU_GRAMMAR_20260908:v2:review:0305",
+        "NAMU_GRAMMAR_20260908:v2:review:0306",
+        "NAMU_GRAMMAR_20260908:v2:review:0307",
+        "NAMU_GRAMMAR_20260908:v2:review:0308"
+      ],
+      "original_gaps": [
+        "표의 모든 대체형은 자동 적용 규칙이 아님. 본문/각주 제약 중 일부는 텍스트 제약·별도 진술로 남아 있으므로 합성 조회 시 검토가 필요하다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 30,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0160",
+        "NAMU_GRAMMAR_20260908:v2:review:0183",
+        "NAMU_GRAMMAR_20260908:v2:review:0276",
+        "NAMU_GRAMMAR_20260908:v2:review:0277",
+        "NAMU_GRAMMAR_20260908:v2:review:0278",
+        "NAMU_GRAMMAR_20260908:v2:review:0279",
+        "NAMU_GRAMMAR_20260908:v2:review:0280",
+        "NAMU_GRAMMAR_20260908:v2:review:0281",
+        "NAMU_GRAMMAR_20260908:v2:review:0282",
+        "NAMU_GRAMMAR_20260908:v2:review:0283",
+        "NAMU_GRAMMAR_20260908:v2:review:0284",
+        "NAMU_GRAMMAR_20260908:v2:review:0285",
+        "NAMU_GRAMMAR_20260908:v2:review:0286",
+        "NAMU_GRAMMAR_20260908:v2:review:0287",
+        "NAMU_GRAMMAR_20260908:v2:review:0288",
+        "NAMU_GRAMMAR_20260908:v2:review:0289",
+        "NAMU_GRAMMAR_20260908:v2:review:0290",
+        "NAMU_GRAMMAR_20260908:v2:review:0291",
+        "NAMU_GRAMMAR_20260908:v2:review:0292",
+        "NAMU_GRAMMAR_20260908:v2:review:0293",
+        "NAMU_GRAMMAR_20260908:v2:review:0294",
+        "NAMU_GRAMMAR_20260908:v2:review:0295",
+        "NAMU_GRAMMAR_20260908:v2:review:0296",
+        "NAMU_GRAMMAR_20260908:v2:review:0297",
+        "NAMU_GRAMMAR_20260908:v2:review:0298",
+        "NAMU_GRAMMAR_20260908:v2:review:0299",
+        "NAMU_GRAMMAR_20260908:v2:review:0300",
+        "NAMU_GRAMMAR_20260908:v2:review:0301",
+        "NAMU_GRAMMAR_20260908:v2:review:0302",
+        "NAMU_GRAMMAR_20260908:v2:review:0303",
+        "NAMU_GRAMMAR_20260908:v2:review:0304",
+        "NAMU_GRAMMAR_20260908:v2:review:0305",
+        "NAMU_GRAMMAR_20260908:v2:review:0306",
+        "NAMU_GRAMMAR_20260908:v2:review:0307",
+        "NAMU_GRAMMAR_20260908:v2:review:0308"
+      ],
+      "original_gaps": [
+        "세부 지역·세대·성조·다의어 및 긴 예문의 모든 부수 지식을 완전 분해하지 않음. 근거 페이지와 각주를 함께 참조해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 31,
+      "status": "source_limitation",
+      "reason": "고양이 세부 변이의 지역은 외부 지도 링크뿐이어서 PDF에서 개별 시군구를 확정할 수 없다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0184"
+      ],
+      "original_gaps": [
+        "세부 지역·세대·성조·다의어 및 긴 예문의 모든 부수 지식을 완전 분해하지 않음. 근거 페이지와 각주를 함께 참조해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 32,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0185"
+      ],
+      "original_gaps": [
+        "세부 지역·세대·성조·다의어 및 긴 예문의 모든 부수 지식을 완전 분해하지 않음. 근거 페이지와 각주를 함께 참조해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 33,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0186"
+      ],
+      "original_gaps": [
+        "세부 지역·세대·성조·다의어 및 긴 예문의 모든 부수 지식을 완전 분해하지 않음. 근거 페이지와 각주를 함께 참조해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 34,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0161",
+        "NAMU_GRAMMAR_20260908:v2:review:0162",
+        "NAMU_GRAMMAR_20260908:v2:review:0163",
+        "NAMU_GRAMMAR_20260908:v2:review:0164",
+        "NAMU_GRAMMAR_20260908:v2:review:0187"
+      ],
+      "original_gaps": [
+        "세부 지역·세대·성조·다의어 및 긴 예문의 모든 부수 지식을 완전 분해하지 않음. 근거 페이지와 각주를 함께 참조해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 35,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0161",
+        "NAMU_GRAMMAR_20260908:v2:review:0162",
+        "NAMU_GRAMMAR_20260908:v2:review:0163",
+        "NAMU_GRAMMAR_20260908:v2:review:0164",
+        "NAMU_GRAMMAR_20260908:v2:review:0188"
+      ],
+      "original_gaps": [
+        "세부 지역·세대·성조·다의어 및 긴 예문의 모든 부수 지식을 완전 분해하지 않음. 근거 페이지와 각주를 함께 참조해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 36,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0189"
+      ],
+      "original_gaps": [
+        "세부 지역·세대·성조·다의어 및 긴 예문의 모든 부수 지식을 완전 분해하지 않음. 근거 페이지와 각주를 함께 참조해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 37,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0190"
+      ],
+      "original_gaps": [
+        "세부 지역·세대·성조·다의어 및 긴 예문의 모든 부수 지식을 완전 분해하지 않음. 근거 페이지와 각주를 함께 참조해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 38,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0191",
+        "NAMU_GRAMMAR_20260908:v2:review:0359",
+        "NAMU_GRAMMAR_20260908:v2:review:0360",
+        "NAMU_GRAMMAR_20260908:v2:review:0361",
+        "NAMU_GRAMMAR_20260908:v2:review:0362",
+        "NAMU_GRAMMAR_20260908:v2:review:0363",
+        "NAMU_GRAMMAR_20260908:v2:review:0364",
+        "NAMU_GRAMMAR_20260908:v2:review:0365",
+        "NAMU_GRAMMAR_20260908:v2:review:0366",
+        "NAMU_GRAMMAR_20260908:v2:review:0367",
+        "NAMU_GRAMMAR_20260908:v2:review:0368",
+        "NAMU_GRAMMAR_20260908:v2:review:0369",
+        "NAMU_GRAMMAR_20260908:v2:review:0370",
+        "NAMU_GRAMMAR_20260908:v2:review:0371",
+        "NAMU_GRAMMAR_20260908:v2:review:0372",
+        "NAMU_GRAMMAR_20260908:v2:review:0373",
+        "NAMU_GRAMMAR_20260908:v2:review:0374",
+        "NAMU_GRAMMAR_20260908:v2:review:0375",
+        "NAMU_GRAMMAR_20260908:v2:review:0376",
+        "NAMU_GRAMMAR_20260908:v2:review:0377"
+      ],
+      "original_gaps": [
+        "세부 지역·세대·성조·다의어 및 긴 예문의 모든 부수 지식을 완전 분해하지 않음. 근거 페이지와 각주를 함께 참조해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 39,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0192",
+        "NAMU_GRAMMAR_20260908:v2:review:0378",
+        "NAMU_GRAMMAR_20260908:v2:review:0379",
+        "NAMU_GRAMMAR_20260908:v2:review:0380",
+        "NAMU_GRAMMAR_20260908:v2:review:0381",
+        "NAMU_GRAMMAR_20260908:v2:review:0382",
+        "NAMU_GRAMMAR_20260908:v2:review:0383",
+        "NAMU_GRAMMAR_20260908:v2:review:0384",
+        "NAMU_GRAMMAR_20260908:v2:review:0385",
+        "NAMU_GRAMMAR_20260908:v2:review:0386",
+        "NAMU_GRAMMAR_20260908:v2:review:0387",
+        "NAMU_GRAMMAR_20260908:v2:review:0388"
+      ],
+      "original_gaps": [
+        "세부 지역·세대·성조·다의어 및 긴 예문의 모든 부수 지식을 완전 분해하지 않음. 근거 페이지와 각주를 함께 참조해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 40,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0193"
+      ],
+      "original_gaps": [
+        "세부 지역·세대·성조·다의어 및 긴 예문의 모든 부수 지식을 완전 분해하지 않음. 근거 페이지와 각주를 함께 참조해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 41,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0194",
+        "NAMU_GRAMMAR_20260908:v2:review:0340",
+        "NAMU_GRAMMAR_20260908:v2:review:0341",
+        "NAMU_GRAMMAR_20260908:v2:review:0342",
+        "NAMU_GRAMMAR_20260908:v2:review:0343",
+        "NAMU_GRAMMAR_20260908:v2:review:0344",
+        "NAMU_GRAMMAR_20260908:v2:review:0345",
+        "NAMU_GRAMMAR_20260908:v2:review:0346",
+        "NAMU_GRAMMAR_20260908:v2:review:0347",
+        "NAMU_GRAMMAR_20260908:v2:review:0348",
+        "NAMU_GRAMMAR_20260908:v2:review:0349",
+        "NAMU_GRAMMAR_20260908:v2:review:0350",
+        "NAMU_GRAMMAR_20260908:v2:review:0351",
+        "NAMU_GRAMMAR_20260908:v2:review:0352",
+        "NAMU_GRAMMAR_20260908:v2:review:0353",
+        "NAMU_GRAMMAR_20260908:v2:review:0354",
+        "NAMU_GRAMMAR_20260908:v2:review:0355",
+        "NAMU_GRAMMAR_20260908:v2:review:0356",
+        "NAMU_GRAMMAR_20260908:v2:review:0357",
+        "NAMU_GRAMMAR_20260908:v2:review:0358"
+      ],
+      "original_gaps": [
+        "세부 지역·세대·성조·다의어 및 긴 예문의 모든 부수 지식을 완전 분해하지 않음. 근거 페이지와 각주를 함께 참조해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 42,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0195",
+        "NAMU_GRAMMAR_20260908:v2:review:0203",
+        "NAMU_GRAMMAR_20260908:v2:review:0204",
+        "NAMU_GRAMMAR_20260908:v2:review:0205",
+        "NAMU_GRAMMAR_20260908:v2:review:0206",
+        "NAMU_GRAMMAR_20260908:v2:review:0207",
+        "NAMU_GRAMMAR_20260908:v2:review:0208",
+        "NAMU_GRAMMAR_20260908:v2:review:0209",
+        "NAMU_GRAMMAR_20260908:v2:review:0210",
+        "NAMU_GRAMMAR_20260908:v2:review:0211",
+        "NAMU_GRAMMAR_20260908:v2:review:0212",
+        "NAMU_GRAMMAR_20260908:v2:review:0213",
+        "NAMU_GRAMMAR_20260908:v2:review:0214",
+        "NAMU_GRAMMAR_20260908:v2:review:0215",
+        "NAMU_GRAMMAR_20260908:v2:review:0216",
+        "NAMU_GRAMMAR_20260908:v2:review:0217",
+        "NAMU_GRAMMAR_20260908:v2:review:0218",
+        "NAMU_GRAMMAR_20260908:v2:review:0219",
+        "NAMU_GRAMMAR_20260908:v2:review:0220",
+        "NAMU_GRAMMAR_20260908:v2:review:0221",
+        "NAMU_GRAMMAR_20260908:v2:review:0222",
+        "NAMU_GRAMMAR_20260908:v2:review:0223",
+        "NAMU_GRAMMAR_20260908:v2:review:0224",
+        "NAMU_GRAMMAR_20260908:v2:review:0225",
+        "NAMU_GRAMMAR_20260908:v2:review:0226",
+        "NAMU_GRAMMAR_20260908:v2:review:0227",
+        "NAMU_GRAMMAR_20260908:v2:review:0228",
+        "NAMU_GRAMMAR_20260908:v2:review:0229",
+        "NAMU_GRAMMAR_20260908:v2:review:0230",
+        "NAMU_GRAMMAR_20260908:v2:review:0231",
+        "NAMU_GRAMMAR_20260908:v2:review:0232",
+        "NAMU_GRAMMAR_20260908:v2:review:0233",
+        "NAMU_GRAMMAR_20260908:v2:review:0234",
+        "NAMU_GRAMMAR_20260908:v2:review:0235",
+        "NAMU_GRAMMAR_20260908:v2:review:0236",
+        "NAMU_GRAMMAR_20260908:v2:review:0237",
+        "NAMU_GRAMMAR_20260908:v2:review:0238",
+        "NAMU_GRAMMAR_20260908:v2:review:0239",
+        "NAMU_GRAMMAR_20260908:v2:review:0240",
+        "NAMU_GRAMMAR_20260908:v2:review:0241",
+        "NAMU_GRAMMAR_20260908:v2:review:0242",
+        "NAMU_GRAMMAR_20260908:v2:review:0243",
+        "NAMU_GRAMMAR_20260908:v2:review:0244",
+        "NAMU_GRAMMAR_20260908:v2:review:0245",
+        "NAMU_GRAMMAR_20260908:v2:review:0246",
+        "NAMU_GRAMMAR_20260908:v2:review:0247",
+        "NAMU_GRAMMAR_20260908:v2:review:0248",
+        "NAMU_GRAMMAR_20260908:v2:review:0249",
+        "NAMU_GRAMMAR_20260908:v2:review:0250",
+        "NAMU_GRAMMAR_20260908:v2:review:0251",
+        "NAMU_GRAMMAR_20260908:v2:review:0252",
+        "NAMU_GRAMMAR_20260908:v2:review:0253",
+        "NAMU_GRAMMAR_20260908:v2:review:0254",
+        "NAMU_GRAMMAR_20260908:v2:review:0255",
+        "NAMU_GRAMMAR_20260908:v2:review:0256",
+        "NAMU_GRAMMAR_20260908:v2:review:0257",
+        "NAMU_GRAMMAR_20260908:v2:review:0258",
+        "NAMU_GRAMMAR_20260908:v2:review:0259",
+        "NAMU_GRAMMAR_20260908:v2:review:0260",
+        "NAMU_GRAMMAR_20260908:v2:review:0261",
+        "NAMU_GRAMMAR_20260908:v2:review:0262",
+        "NAMU_GRAMMAR_20260908:v2:review:0263",
+        "NAMU_GRAMMAR_20260908:v2:review:0264",
+        "NAMU_GRAMMAR_20260908:v2:review:0265",
+        "NAMU_GRAMMAR_20260908:v2:review:0266",
+        "NAMU_GRAMMAR_20260908:v2:review:0267",
+        "NAMU_GRAMMAR_20260908:v2:review:0268",
+        "NAMU_GRAMMAR_20260908:v2:review:0269",
+        "NAMU_GRAMMAR_20260908:v2:review:0270",
+        "NAMU_GRAMMAR_20260908:v2:review:0271",
+        "NAMU_GRAMMAR_20260908:v2:review:0272",
+        "NAMU_GRAMMAR_20260908:v2:review:0273",
+        "NAMU_GRAMMAR_20260908:v2:review:0274",
+        "NAMU_GRAMMAR_20260908:v2:review:0275"
+      ],
+      "original_gaps": [
+        "세부 지역·세대·성조·다의어 및 긴 예문의 모든 부수 지식을 완전 분해하지 않음. 근거 페이지와 각주를 함께 참조해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 43,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0165",
+        "NAMU_GRAMMAR_20260908:v2:review:0166",
+        "NAMU_GRAMMAR_20260908:v2:review:0196",
+        "NAMU_GRAMMAR_20260908:v2:review:0334",
+        "NAMU_GRAMMAR_20260908:v2:review:0335",
+        "NAMU_GRAMMAR_20260908:v2:review:0336",
+        "NAMU_GRAMMAR_20260908:v2:review:0337",
+        "NAMU_GRAMMAR_20260908:v2:review:0338",
+        "NAMU_GRAMMAR_20260908:v2:review:0339"
+      ],
+      "original_gaps": [
+        "세부 지역·세대·성조·다의어 및 긴 예문의 모든 부수 지식을 완전 분해하지 않음. 근거 페이지와 각주를 함께 참조해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 44,
+      "status": "source_limitation",
+      "reason": "인터넷 예문 원전과 최명옥2019 원전/음성은 미확보. PDF의 원문·수정·풀이만 확인했다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0167",
+        "NAMU_GRAMMAR_20260908:v2:review:0168",
+        "NAMU_GRAMMAR_20260908:v2:review:0197"
+      ],
+      "original_gaps": [
+        "세부 지역·세대·성조·다의어 및 긴 예문의 모든 부수 지식을 완전 분해하지 않음. 근거 페이지와 각주를 함께 참조해야 한다.",
+        "문헌에 실린 재전사/편집 예문을 읽었으나 연결된 음성·영상·인용원문은 별도 미검증."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 45,
+      "status": "source_limitation",
+      "reason": "경주 전사 인용의 실제 음성과 학술 원전은 미확보. PDF의 수정·해석만 확인했다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0198"
+      ],
+      "original_gaps": [
+        "문헌에 실린 재전사/편집 예문을 읽었으나 연결된 음성·영상·인용원문은 별도 미검증."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 47,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0001",
+        "NAMU_GRAMMAR_20260908:v2:review:0002",
+        "NAMU_GRAMMAR_20260908:v2:review:0003",
+        "NAMU_GRAMMAR_20260908:v2:review:0004",
+        "NAMU_GRAMMAR_20260908:v2:review:0005",
+        "NAMU_GRAMMAR_20260908:v2:review:0006",
+        "NAMU_GRAMMAR_20260908:v2:review:0007",
+        "NAMU_GRAMMAR_20260908:v2:review:0008",
+        "NAMU_GRAMMAR_20260908:v2:review:0009",
+        "NAMU_GRAMMAR_20260908:v2:review:0010",
+        "NAMU_GRAMMAR_20260908:v2:review:0011",
+        "NAMU_GRAMMAR_20260908:v2:review:0012",
+        "NAMU_GRAMMAR_20260908:v2:review:0013",
+        "NAMU_GRAMMAR_20260908:v2:review:0014",
+        "NAMU_GRAMMAR_20260908:v2:review:0015",
+        "NAMU_GRAMMAR_20260908:v2:review:0016",
+        "NAMU_GRAMMAR_20260908:v2:review:0017",
+        "NAMU_GRAMMAR_20260908:v2:review:0018",
+        "NAMU_GRAMMAR_20260908:v2:review:0019",
+        "NAMU_GRAMMAR_20260908:v2:review:0020",
+        "NAMU_GRAMMAR_20260908:v2:review:0021",
+        "NAMU_GRAMMAR_20260908:v2:review:0022",
+        "NAMU_GRAMMAR_20260908:v2:review:0023",
+        "NAMU_GRAMMAR_20260908:v2:review:0024",
+        "NAMU_GRAMMAR_20260908:v2:review:0025",
+        "NAMU_GRAMMAR_20260908:v2:review:0026",
+        "NAMU_GRAMMAR_20260908:v2:review:0027",
+        "NAMU_GRAMMAR_20260908:v2:review:0028",
+        "NAMU_GRAMMAR_20260908:v2:review:0029",
+        "NAMU_GRAMMAR_20260908:v2:review:0030",
+        "NAMU_GRAMMAR_20260908:v2:review:0031",
+        "NAMU_GRAMMAR_20260908:v2:review:0032",
+        "NAMU_GRAMMAR_20260908:v2:review:0033",
+        "NAMU_GRAMMAR_20260908:v2:review:0034",
+        "NAMU_GRAMMAR_20260908:v2:review:0035",
+        "NAMU_GRAMMAR_20260908:v2:review:0036",
+        "NAMU_GRAMMAR_20260908:v2:review:0037",
+        "NAMU_GRAMMAR_20260908:v2:review:0038",
+        "NAMU_GRAMMAR_20260908:v2:review:0039",
+        "NAMU_GRAMMAR_20260908:v2:review:0040",
+        "NAMU_GRAMMAR_20260908:v2:review:0041",
+        "NAMU_GRAMMAR_20260908:v2:review:0042",
+        "NAMU_GRAMMAR_20260908:v2:review:0043",
+        "NAMU_GRAMMAR_20260908:v2:review:0044",
+        "NAMU_GRAMMAR_20260908:v2:review:0045",
+        "NAMU_GRAMMAR_20260908:v2:review:0046",
+        "NAMU_GRAMMAR_20260908:v2:review:0047",
+        "NAMU_GRAMMAR_20260908:v2:review:0048",
+        "NAMU_GRAMMAR_20260908:v2:review:0049",
+        "NAMU_GRAMMAR_20260908:v2:review:0050",
+        "NAMU_GRAMMAR_20260908:v2:review:0051",
+        "NAMU_GRAMMAR_20260908:v2:review:0052",
+        "NAMU_GRAMMAR_20260908:v2:review:0053",
+        "NAMU_GRAMMAR_20260908:v2:review:0054",
+        "NAMU_GRAMMAR_20260908:v2:review:0055",
+        "NAMU_GRAMMAR_20260908:v2:review:0056",
+        "NAMU_GRAMMAR_20260908:v2:review:0057",
+        "NAMU_GRAMMAR_20260908:v2:review:0058",
+        "NAMU_GRAMMAR_20260908:v2:review:0059",
+        "NAMU_GRAMMAR_20260908:v2:review:0060",
+        "NAMU_GRAMMAR_20260908:v2:review:0061",
+        "NAMU_GRAMMAR_20260908:v2:review:0062",
+        "NAMU_GRAMMAR_20260908:v2:review:0063",
+        "NAMU_GRAMMAR_20260908:v2:review:0064",
+        "NAMU_GRAMMAR_20260908:v2:review:0065",
+        "NAMU_GRAMMAR_20260908:v2:review:0066",
+        "NAMU_GRAMMAR_20260908:v2:review:0067",
+        "NAMU_GRAMMAR_20260908:v2:review:0068",
+        "NAMU_GRAMMAR_20260908:v2:review:0069",
+        "NAMU_GRAMMAR_20260908:v2:review:0070",
+        "NAMU_GRAMMAR_20260908:v2:review:0071",
+        "NAMU_GRAMMAR_20260908:v2:review:0072",
+        "NAMU_GRAMMAR_20260908:v2:review:0073",
+        "NAMU_GRAMMAR_20260908:v2:review:0074",
+        "NAMU_GRAMMAR_20260908:v2:review:0075",
+        "NAMU_GRAMMAR_20260908:v2:review:0076",
+        "NAMU_GRAMMAR_20260908:v2:review:0077",
+        "NAMU_GRAMMAR_20260908:v2:review:0078",
+        "NAMU_GRAMMAR_20260908:v2:review:0079",
+        "NAMU_GRAMMAR_20260908:v2:review:0080",
+        "NAMU_GRAMMAR_20260908:v2:review:0081",
+        "NAMU_GRAMMAR_20260908:v2:review:0082",
+        "NAMU_GRAMMAR_20260908:v2:review:0083",
+        "NAMU_GRAMMAR_20260908:v2:review:0084",
+        "NAMU_GRAMMAR_20260908:v2:review:0085",
+        "NAMU_GRAMMAR_20260908:v2:review:0086",
+        "NAMU_GRAMMAR_20260908:v2:review:0087",
+        "NAMU_GRAMMAR_20260908:v2:review:0088",
+        "NAMU_GRAMMAR_20260908:v2:review:0089",
+        "NAMU_GRAMMAR_20260908:v2:review:0090",
+        "NAMU_GRAMMAR_20260908:v2:review:0091",
+        "NAMU_GRAMMAR_20260908:v2:review:0092",
+        "NAMU_GRAMMAR_20260908:v2:review:0093",
+        "NAMU_GRAMMAR_20260908:v2:review:0094",
+        "NAMU_GRAMMAR_20260908:v2:review:0095",
+        "NAMU_GRAMMAR_20260908:v2:review:0096",
+        "NAMU_GRAMMAR_20260908:v2:review:0097",
+        "NAMU_GRAMMAR_20260908:v2:review:0098",
+        "NAMU_GRAMMAR_20260908:v2:review:0099",
+        "NAMU_GRAMMAR_20260908:v2:review:0100",
+        "NAMU_GRAMMAR_20260908:v2:review:0101",
+        "NAMU_GRAMMAR_20260908:v2:review:0102",
+        "NAMU_GRAMMAR_20260908:v2:review:0103",
+        "NAMU_GRAMMAR_20260908:v2:review:0104",
+        "NAMU_GRAMMAR_20260908:v2:review:0105",
+        "NAMU_GRAMMAR_20260908:v2:review:0106",
+        "NAMU_GRAMMAR_20260908:v2:review:0107",
+        "NAMU_GRAMMAR_20260908:v2:review:0108",
+        "NAMU_GRAMMAR_20260908:v2:review:0109",
+        "NAMU_GRAMMAR_20260908:v2:review:0110",
+        "NAMU_GRAMMAR_20260908:v2:review:0111",
+        "NAMU_GRAMMAR_20260908:v2:review:0112",
+        "NAMU_GRAMMAR_20260908:v2:review:0113",
+        "NAMU_GRAMMAR_20260908:v2:review:0114",
+        "NAMU_GRAMMAR_20260908:v2:review:0115",
+        "NAMU_GRAMMAR_20260908:v2:review:0116",
+        "NAMU_GRAMMAR_20260908:v2:review:0117",
+        "NAMU_GRAMMAR_20260908:v2:review:0118",
+        "NAMU_GRAMMAR_20260908:v2:review:0119",
+        "NAMU_GRAMMAR_20260908:v2:review:0120",
+        "NAMU_GRAMMAR_20260908:v2:review:0121",
+        "NAMU_GRAMMAR_20260908:v2:review:0122",
+        "NAMU_GRAMMAR_20260908:v2:review:0123",
+        "NAMU_GRAMMAR_20260908:v2:review:0124",
+        "NAMU_GRAMMAR_20260908:v2:review:0125",
+        "NAMU_GRAMMAR_20260908:v2:review:0126",
+        "NAMU_GRAMMAR_20260908:v2:review:0127",
+        "NAMU_GRAMMAR_20260908:v2:review:0128",
+        "NAMU_GRAMMAR_20260908:v2:review:0129",
+        "NAMU_GRAMMAR_20260908:v2:review:0130",
+        "NAMU_GRAMMAR_20260908:v2:review:0131",
+        "NAMU_GRAMMAR_20260908:v2:review:0132",
+        "NAMU_GRAMMAR_20260908:v2:review:0133",
+        "NAMU_GRAMMAR_20260908:v2:review:0134",
+        "NAMU_GRAMMAR_20260908:v2:review:0135",
+        "NAMU_GRAMMAR_20260908:v2:review:0136",
+        "NAMU_GRAMMAR_20260908:v2:review:0137",
+        "NAMU_GRAMMAR_20260908:v2:review:0138",
+        "NAMU_GRAMMAR_20260908:v2:review:0139",
+        "NAMU_GRAMMAR_20260908:v2:review:0140",
+        "NAMU_GRAMMAR_20260908:v2:review:0141",
+        "NAMU_GRAMMAR_20260908:v2:review:0142",
+        "NAMU_GRAMMAR_20260908:v2:review:0143",
+        "NAMU_GRAMMAR_20260908:v2:review:0144",
+        "NAMU_GRAMMAR_20260908:v2:review:0145",
+        "NAMU_GRAMMAR_20260908:v2:review:0146",
+        "NAMU_GRAMMAR_20260908:v2:review:0147",
+        "NAMU_GRAMMAR_20260908:v2:review:0148",
+        "NAMU_GRAMMAR_20260908:v2:review:0149",
+        "NAMU_GRAMMAR_20260908:v2:review:0150",
+        "NAMU_GRAMMAR_20260908:v2:review:0151",
+        "NAMU_GRAMMAR_20260908:v2:review:0152",
+        "NAMU_GRAMMAR_20260908:v2:review:0153",
+        "NAMU_GRAMMAR_20260908:v2:review:0154",
+        "NAMU_GRAMMAR_20260908:v2:review:0199"
+      ],
+      "original_gaps": [
+        "세부 지역·세대·성조·다의어 및 긴 예문의 모든 부수 지식을 완전 분해하지 않음. 근거 페이지와 각주를 함께 참조해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 48,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0200"
+      ],
+      "original_gaps": [
+        "세부 지역·세대·성조·다의어 및 긴 예문의 모든 부수 지식을 완전 분해하지 않음. 근거 페이지와 각주를 함께 참조해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 49,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0169",
+        "NAMU_GRAMMAR_20260908:v2:review:0170",
+        "NAMU_GRAMMAR_20260908:v2:review:0171",
+        "NAMU_GRAMMAR_20260908:v2:review:0201"
+      ],
+      "original_gaps": [
+        "세부 지역·세대·성조·다의어 및 긴 예문의 모든 부수 지식을 완전 분해하지 않음. 근거 페이지와 각주를 함께 참조해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 50,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0172",
+        "NAMU_GRAMMAR_20260908:v2:review:0173",
+        "NAMU_GRAMMAR_20260908:v2:review:0174",
+        "NAMU_GRAMMAR_20260908:v2:review:0175",
+        "NAMU_GRAMMAR_20260908:v2:review:0176",
+        "NAMU_GRAMMAR_20260908:v2:review:0177",
+        "NAMU_GRAMMAR_20260908:v2:review:0202",
+        "NAMU_GRAMMAR_20260908:v2:review:0229",
+        "NAMU_GRAMMAR_20260908:v2:review:0230",
+        "NAMU_GRAMMAR_20260908:v2:review:0231",
+        "NAMU_GRAMMAR_20260908:v2:review:0232",
+        "NAMU_GRAMMAR_20260908:v2:review:0233",
+        "NAMU_GRAMMAR_20260908:v2:review:0234",
+        "NAMU_GRAMMAR_20260908:v2:review:0235",
+        "NAMU_GRAMMAR_20260908:v2:review:0236",
+        "NAMU_GRAMMAR_20260908:v2:review:0237",
+        "NAMU_GRAMMAR_20260908:v2:review:0238",
+        "NAMU_GRAMMAR_20260908:v2:review:0239",
+        "NAMU_GRAMMAR_20260908:v2:review:0240",
+        "NAMU_GRAMMAR_20260908:v2:review:0241",
+        "NAMU_GRAMMAR_20260908:v2:review:0242",
+        "NAMU_GRAMMAR_20260908:v2:review:0243",
+        "NAMU_GRAMMAR_20260908:v2:review:0244",
+        "NAMU_GRAMMAR_20260908:v2:review:0245",
+        "NAMU_GRAMMAR_20260908:v2:review:0246",
+        "NAMU_GRAMMAR_20260908:v2:review:0247",
+        "NAMU_GRAMMAR_20260908:v2:review:0248",
+        "NAMU_GRAMMAR_20260908:v2:review:0249",
+        "NAMU_GRAMMAR_20260908:v2:review:0250",
+        "NAMU_GRAMMAR_20260908:v2:review:0251",
+        "NAMU_GRAMMAR_20260908:v2:review:0252",
+        "NAMU_GRAMMAR_20260908:v2:review:0253",
+        "NAMU_GRAMMAR_20260908:v2:review:0254",
+        "NAMU_GRAMMAR_20260908:v2:review:0255",
+        "NAMU_GRAMMAR_20260908:v2:review:0256",
+        "NAMU_GRAMMAR_20260908:v2:review:0257",
+        "NAMU_GRAMMAR_20260908:v2:review:0258",
+        "NAMU_GRAMMAR_20260908:v2:review:0259",
+        "NAMU_GRAMMAR_20260908:v2:review:0260",
+        "NAMU_GRAMMAR_20260908:v2:review:0261",
+        "NAMU_GRAMMAR_20260908:v2:review:0262",
+        "NAMU_GRAMMAR_20260908:v2:review:0263",
+        "NAMU_GRAMMAR_20260908:v2:review:0264",
+        "NAMU_GRAMMAR_20260908:v2:review:0265",
+        "NAMU_GRAMMAR_20260908:v2:review:0266",
+        "NAMU_GRAMMAR_20260908:v2:review:0267",
+        "NAMU_GRAMMAR_20260908:v2:review:0268",
+        "NAMU_GRAMMAR_20260908:v2:review:0269",
+        "NAMU_GRAMMAR_20260908:v2:review:0270",
+        "NAMU_GRAMMAR_20260908:v2:review:0271",
+        "NAMU_GRAMMAR_20260908:v2:review:0272",
+        "NAMU_GRAMMAR_20260908:v2:review:0273",
+        "NAMU_GRAMMAR_20260908:v2:review:0274",
+        "NAMU_GRAMMAR_20260908:v2:review:0275",
+        "NAMU_GRAMMAR_20260908:v2:review:0342",
+        "NAMU_GRAMMAR_20260908:v2:review:0343",
+        "NAMU_GRAMMAR_20260908:v2:review:0344",
+        "NAMU_GRAMMAR_20260908:v2:review:0345",
+        "NAMU_GRAMMAR_20260908:v2:review:0346",
+        "NAMU_GRAMMAR_20260908:v2:review:0347",
+        "NAMU_GRAMMAR_20260908:v2:review:0348",
+        "NAMU_GRAMMAR_20260908:v2:review:0349",
+        "NAMU_GRAMMAR_20260908:v2:review:0350",
+        "NAMU_GRAMMAR_20260908:v2:review:0351",
+        "NAMU_GRAMMAR_20260908:v2:review:0378",
+        "NAMU_GRAMMAR_20260908:v2:review:0379",
+        "NAMU_GRAMMAR_20260908:v2:review:0380",
+        "NAMU_GRAMMAR_20260908:v2:review:0381"
+      ],
+      "original_gaps": [
+        "세부 지역·세대·성조·다의어 및 긴 예문의 모든 부수 지식을 완전 분해하지 않음. 근거 페이지와 각주를 함께 참조해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 3,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0001",
+        "NAMU_HONORIFICS_20260908:v2:review:0002",
+        "NAMU_HONORIFICS_20260908:v2:review:0003",
+        "NAMU_HONORIFICS_20260908:v2:review:0004",
+        "NAMU_HONORIFICS_20260908:v2:review:0005",
+        "NAMU_HONORIFICS_20260908:v2:review:0006",
+        "NAMU_HONORIFICS_20260908:v2:review:0007",
+        "NAMU_HONORIFICS_20260908:v2:review:0008",
+        "NAMU_HONORIFICS_20260908:v2:review:0009",
+        "NAMU_HONORIFICS_20260908:v2:review:0010",
+        "NAMU_HONORIFICS_20260908:v2:review:0011",
+        "NAMU_HONORIFICS_20260908:v2:review:0012",
+        "NAMU_HONORIFICS_20260908:v2:review:0013",
+        "NAMU_HONORIFICS_20260908:v2:review:0014",
+        "NAMU_HONORIFICS_20260908:v2:review:0015",
+        "NAMU_HONORIFICS_20260908:v2:review:0016",
+        "NAMU_HONORIFICS_20260908:v2:review:0017",
+        "NAMU_HONORIFICS_20260908:v2:review:0018",
+        "NAMU_HONORIFICS_20260908:v2:review:0019",
+        "NAMU_HONORIFICS_20260908:v2:review:0020",
+        "NAMU_HONORIFICS_20260908:v2:review:0021",
+        "NAMU_HONORIFICS_20260908:v2:review:0022",
+        "NAMU_HONORIFICS_20260908:v2:review:0023",
+        "NAMU_HONORIFICS_20260908:v2:review:0024",
+        "NAMU_HONORIFICS_20260908:v2:review:0025",
+        "NAMU_HONORIFICS_20260908:v2:review:0026",
+        "NAMU_HONORIFICS_20260908:v2:review:0027",
+        "NAMU_HONORIFICS_20260908:v2:review:0028",
+        "NAMU_HONORIFICS_20260908:v2:review:0029",
+        "NAMU_HONORIFICS_20260908:v2:review:0030",
+        "NAMU_HONORIFICS_20260908:v2:review:0031",
+        "NAMU_HONORIFICS_20260908:v2:review:0032",
+        "NAMU_HONORIFICS_20260908:v2:review:0033",
+        "NAMU_HONORIFICS_20260908:v2:review:0034",
+        "NAMU_HONORIFICS_20260908:v2:review:0035",
+        "NAMU_HONORIFICS_20260908:v2:review:0036",
+        "NAMU_HONORIFICS_20260908:v2:review:0037",
+        "NAMU_HONORIFICS_20260908:v2:review:0038",
+        "NAMU_HONORIFICS_20260908:v2:review:0039",
+        "NAMU_HONORIFICS_20260908:v2:review:0040",
+        "NAMU_HONORIFICS_20260908:v2:review:0041",
+        "NAMU_HONORIFICS_20260908:v2:review:0042",
+        "NAMU_HONORIFICS_20260908:v2:review:0043",
+        "NAMU_HONORIFICS_20260908:v2:review:0044",
+        "NAMU_HONORIFICS_20260908:v2:review:0045",
+        "NAMU_HONORIFICS_20260908:v2:review:0046",
+        "NAMU_HONORIFICS_20260908:v2:review:0047",
+        "NAMU_HONORIFICS_20260908:v2:review:0048",
+        "NAMU_HONORIFICS_20260908:v2:review:0049",
+        "NAMU_HONORIFICS_20260908:v2:review:0050",
+        "NAMU_HONORIFICS_20260908:v2:review:0051",
+        "NAMU_HONORIFICS_20260908:v2:review:0052",
+        "NAMU_HONORIFICS_20260908:v2:review:0053",
+        "NAMU_HONORIFICS_20260908:v2:review:0054"
+      ],
+      "original_gaps": [
+        "복잡한 지역·높임 표의 모든 셀을 독립된 실행 규칙으로 전환하지 않음. 원문 표와 관련 설명을 함께 조회해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 4,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0043",
+        "NAMU_HONORIFICS_20260908:v2:review:0044",
+        "NAMU_HONORIFICS_20260908:v2:review:0045",
+        "NAMU_HONORIFICS_20260908:v2:review:0046",
+        "NAMU_HONORIFICS_20260908:v2:review:0047",
+        "NAMU_HONORIFICS_20260908:v2:review:0048",
+        "NAMU_HONORIFICS_20260908:v2:review:0049",
+        "NAMU_HONORIFICS_20260908:v2:review:0050",
+        "NAMU_HONORIFICS_20260908:v2:review:0051",
+        "NAMU_HONORIFICS_20260908:v2:review:0052",
+        "NAMU_HONORIFICS_20260908:v2:review:0053",
+        "NAMU_HONORIFICS_20260908:v2:review:0054",
+        "NAMU_HONORIFICS_20260908:v2:review:0099"
+      ],
+      "original_gaps": [
+        "복잡한 지역·높임 표의 모든 셀을 독립된 실행 규칙으로 전환하지 않음. 원문 표와 관련 설명을 함께 조회해야 한다.",
+        "작성 예문·영상 재전사의 모든 어휘/활용형을 분해하지 않음. 인용된 음성/영상 원본은 미검증."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 5,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0100"
+      ],
+      "original_gaps": [
+        "작성 예문·영상 재전사의 모든 어휘/활용형을 분해하지 않음. 인용된 음성/영상 원본은 미검증."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 6,
+      "status": "source_limitation",
+      "reason": "구포 영상 원본 미확보. PDF가 제공한 재전사만 근거이다.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0101"
+      ],
+      "original_gaps": [
+        "작성 예문·영상 재전사의 모든 어휘/활용형을 분해하지 않음. 인용된 음성/영상 원본은 미검증."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 7,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0102"
+      ],
+      "original_gaps": [
+        "복잡한 지역·높임 표의 모든 셀을 독립된 실행 규칙으로 전환하지 않음. 원문 표와 관련 설명을 함께 조회해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 9,
+      "status": "source_limitation",
+      "reason": "하동 영상 원본 미확보. PDF 재전사와 작성 비교 예만 확인했다.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0103"
+      ],
+      "original_gaps": [
+        "작성 예문·영상 재전사의 모든 어휘/활용형을 분해하지 않음. 인용된 음성/영상 원본은 미검증."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 10,
+      "status": "source_limitation",
+      "reason": "하동 음성 및 이혁화 원전 미확보. PDF 인용의 형태·기능만 보존했다.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0062",
+        "NAMU_HONORIFICS_20260908:v2:review:0063",
+        "NAMU_HONORIFICS_20260908:v2:review:0064",
+        "NAMU_HONORIFICS_20260908:v2:review:0065",
+        "NAMU_HONORIFICS_20260908:v2:review:0066",
+        "NAMU_HONORIFICS_20260908:v2:review:0067",
+        "NAMU_HONORIFICS_20260908:v2:review:0068",
+        "NAMU_HONORIFICS_20260908:v2:review:0069",
+        "NAMU_HONORIFICS_20260908:v2:review:0104"
+      ],
+      "original_gaps": [
+        "작성 예문·영상 재전사의 모든 어휘/활용형을 분해하지 않음. 인용된 음성/영상 원본은 미검증."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 11,
+      "status": "source_limitation",
+      "reason": "구마/누마의 하소 분류는 문헌 자체가 유보하며 달성의 요/소 반례를 명시. 논문 원전 음성 미확보.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0070",
+        "NAMU_HONORIFICS_20260908:v2:review:0071",
+        "NAMU_HONORIFICS_20260908:v2:review:0072",
+        "NAMU_HONORIFICS_20260908:v2:review:0073",
+        "NAMU_HONORIFICS_20260908:v2:review:0074",
+        "NAMU_HONORIFICS_20260908:v2:review:0075",
+        "NAMU_HONORIFICS_20260908:v2:review:0076",
+        "NAMU_HONORIFICS_20260908:v2:review:0105"
+      ],
+      "original_gaps": [
+        "복잡한 지역·높임 표의 모든 셀을 독립된 실행 규칙으로 전환하지 않음. 원문 표와 관련 설명을 함께 조회해야 한다.",
+        "작성 예문·영상 재전사의 모든 어휘/활용형을 분해하지 않음. 인용된 음성/영상 원본은 미검증."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 12,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0077",
+        "NAMU_HONORIFICS_20260908:v2:review:0078",
+        "NAMU_HONORIFICS_20260908:v2:review:0079",
+        "NAMU_HONORIFICS_20260908:v2:review:0080",
+        "NAMU_HONORIFICS_20260908:v2:review:0081",
+        "NAMU_HONORIFICS_20260908:v2:review:0082",
+        "NAMU_HONORIFICS_20260908:v2:review:0083",
+        "NAMU_HONORIFICS_20260908:v2:review:0084",
+        "NAMU_HONORIFICS_20260908:v2:review:0106"
+      ],
+      "original_gaps": [
+        "복잡한 지역·높임 표의 모든 셀을 독립된 실행 규칙으로 전환하지 않음. 원문 표와 관련 설명을 함께 조회해야 한다.",
+        "작성 예문·영상 재전사의 모든 어휘/활용형을 분해하지 않음. 인용된 음성/영상 원본은 미검증."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 13,
+      "status": "source_limitation",
+      "reason": "부산 영상 원본 미확보. PDF 전사의 가소/해체 혼용만 확인했다.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0107"
+      ],
+      "original_gaps": [
+        "복잡한 지역·높임 표의 모든 셀을 독립된 실행 규칙으로 전환하지 않음. 원문 표와 관련 설명을 함께 조회해야 한다.",
+        "작성 예문·영상 재전사의 모든 어휘/활용형을 분해하지 않음. 인용된 음성/영상 원본은 미검증."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 15,
+      "status": "source_limitation",
+      "reason": "안동 영상 원본 미확보. 니껴형 기원은 문헌의 학설 재인용으로 보존했다.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0108"
+      ],
+      "original_gaps": [
+        "작성 예문·영상 재전사의 모든 어휘/활용형을 분해하지 않음. 인용된 음성/영상 원본은 미검증."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 16,
+      "status": "source_limitation",
+      "reason": "니더 형용사 결합은 원문의 아마도라는 추정. 전체 지역별 실제 사용 빈도·영상 원본은 미확보.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0085",
+        "NAMU_HONORIFICS_20260908:v2:review:0086",
+        "NAMU_HONORIFICS_20260908:v2:review:0087",
+        "NAMU_HONORIFICS_20260908:v2:review:0088",
+        "NAMU_HONORIFICS_20260908:v2:review:0089",
+        "NAMU_HONORIFICS_20260908:v2:review:0090",
+        "NAMU_HONORIFICS_20260908:v2:review:0091",
+        "NAMU_HONORIFICS_20260908:v2:review:0092",
+        "NAMU_HONORIFICS_20260908:v2:review:0093",
+        "NAMU_HONORIFICS_20260908:v2:review:0094",
+        "NAMU_HONORIFICS_20260908:v2:review:0095",
+        "NAMU_HONORIFICS_20260908:v2:review:0096",
+        "NAMU_HONORIFICS_20260908:v2:review:0097",
+        "NAMU_HONORIFICS_20260908:v2:review:0098",
+        "NAMU_HONORIFICS_20260908:v2:review:0109"
+      ],
+      "original_gaps": [
+        "복잡한 지역·높임 표의 모든 셀을 독립된 실행 규칙으로 전환하지 않음. 원문 표와 관련 설명을 함께 조회해야 한다.",
+        "작성 예문·영상 재전사의 모든 어휘/활용형을 분해하지 않음. 인용된 음성/영상 원본은 미검증."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 17,
+      "status": "source_limitation",
+      "reason": "포항 기계면 영상 원본 미확보. 당시 61세 화자라는 PDF 설명과 재전사만 확인했다.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0110",
+        "NAMU_HONORIFICS_20260908:v2:review:0128",
+        "NAMU_HONORIFICS_20260908:v2:review:0129",
+        "NAMU_HONORIFICS_20260908:v2:review:0130",
+        "NAMU_HONORIFICS_20260908:v2:review:0139"
+      ],
+      "original_gaps": [
+        "작성 예문·영상 재전사의 모든 어휘/활용형을 분해하지 않음. 인용된 음성/영상 원본은 미검증."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 19,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0111"
+      ],
+      "original_gaps": [
+        "복잡한 지역·높임 표의 모든 셀을 독립된 실행 규칙으로 전환하지 않음. 원문 표와 관련 설명을 함께 조회해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 20,
+      "status": "source_limitation",
+      "reason": "남해 영상의 미신(?)은 원문조차 이름 판독을 유보. 음성 원본 미확보.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0112"
+      ],
+      "original_gaps": [
+        "작성 예문·영상 재전사의 모든 어휘/활용형을 분해하지 않음. 인용된 음성/영상 원본은 미검증."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 21,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0113",
+        "NAMU_HONORIFICS_20260908:v2:review:0140"
+      ],
+      "original_gaps": [
+        "복잡한 지역·높임 표의 모든 셀을 독립된 실행 규칙으로 전환하지 않음. 원문 표와 관련 설명을 함께 조회해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 22,
+      "status": "source_limitation",
+      "reason": "대구 영상 원본 미확보. 담깄다의 은어 표지를 보존하되 뜻을 추정하지 않는다.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0114"
+      ],
+      "original_gaps": [
+        "작성 예문·영상 재전사의 모든 어휘/활용형을 분해하지 않음. 인용된 음성/영상 원본은 미검증."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 23,
+      "status": "source_limitation",
+      "reason": "영덕 영상 원본 미확보. 전통 안동 나/으나의 모든 실제 활용형은 문헌에 없다.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0115"
+      ],
+      "original_gaps": [
+        "작성 예문·영상 재전사의 모든 어휘/활용형을 분해하지 않음. 인용된 음성/영상 원본은 미검증."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 24,
+      "status": "source_limitation",
+      "reason": "울진 실제 대화 영상은 문헌도 없다고 명시. 어미 통합과 음조 추정을 분리했다.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0116",
+        "NAMU_HONORIFICS_20260908:v2:review:0131"
+      ],
+      "original_gaps": [
+        "작성 예문·영상 재전사의 모든 어휘/활용형을 분해하지 않음. 인용된 음성/영상 원본은 미검증."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 25,
+      "status": "source_limitation",
+      "reason": "네형 원영상은 문헌도 없다고 명시하며 -는데 기원은 가설. 의령 영상 원본 미확보.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0117"
+      ],
+      "original_gaps": [
+        "작성 예문·영상 재전사의 모든 어휘/활용형을 분해하지 않음. 인용된 음성/영상 원본은 미검증."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 26,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0118"
+      ],
+      "original_gaps": [
+        "작성 예문·영상 재전사의 모든 어휘/활용형을 분해하지 않음. 인용된 음성/영상 원본은 미검증."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 27,
+      "status": "source_limitation",
+      "reason": "예천·경주 영상 원본 미확보. 한개/키우는카마 풀이와 전사 형태만 확인했다.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0119",
+        "NAMU_HONORIFICS_20260908:v2:review:0132",
+        "NAMU_HONORIFICS_20260908:v2:review:0133"
+      ],
+      "original_gaps": [
+        "작성 예문·영상 재전사의 모든 어휘/활용형을 분해하지 않음. 인용된 음성/영상 원본은 미검증."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 28,
+      "status": "source_limitation",
+      "reason": "부산 음성 원전 미확보. 해여 기원은 문헌의 듯하다 추정이며 확정 사실이 아니다.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0120",
+        "NAMU_HONORIFICS_20260908:v2:review:0134"
+      ],
+      "original_gaps": [
+        "작성 예문·영상 재전사의 모든 어휘/활용형을 분해하지 않음. 인용된 음성/영상 원본은 미검증."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 29,
+      "status": "source_limitation",
+      "reason": "문경 영상 원본 미확보. 친구/청중의 문체 교대는 PDF 재전사 설명에 한정한다.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0121",
+        "NAMU_HONORIFICS_20260908:v2:review:0135",
+        "NAMU_HONORIFICS_20260908:v2:review:0136",
+        "NAMU_HONORIFICS_20260908:v2:review:0137",
+        "NAMU_HONORIFICS_20260908:v2:review:0138"
+      ],
+      "original_gaps": [
+        "작성 예문·영상 재전사의 모든 어휘/활용형을 분해하지 않음. 인용된 음성/영상 원본은 미검증."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 30,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0122"
+      ],
+      "original_gaps": [
+        "작성 예문·영상 재전사의 모든 어휘/활용형을 분해하지 않음. 인용된 음성/영상 원본은 미검증."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 31,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0003",
+        "NAMU_HONORIFICS_20260908:v2:review:0009",
+        "NAMU_HONORIFICS_20260908:v2:review:0012",
+        "NAMU_HONORIFICS_20260908:v2:review:0015",
+        "NAMU_HONORIFICS_20260908:v2:review:0021",
+        "NAMU_HONORIFICS_20260908:v2:review:0025",
+        "NAMU_HONORIFICS_20260908:v2:review:0027",
+        "NAMU_HONORIFICS_20260908:v2:review:0033",
+        "NAMU_HONORIFICS_20260908:v2:review:0039",
+        "NAMU_HONORIFICS_20260908:v2:review:0045",
+        "NAMU_HONORIFICS_20260908:v2:review:0051",
+        "NAMU_HONORIFICS_20260908:v2:review:0123"
+      ],
+      "original_gaps": [
+        "작성 예문·영상 재전사의 모든 어휘/활용형을 분해하지 않음. 인용된 음성/영상 원본은 미검증."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 32,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0055",
+        "NAMU_HONORIFICS_20260908:v2:review:0056",
+        "NAMU_HONORIFICS_20260908:v2:review:0057",
+        "NAMU_HONORIFICS_20260908:v2:review:0058",
+        "NAMU_HONORIFICS_20260908:v2:review:0059",
+        "NAMU_HONORIFICS_20260908:v2:review:0060",
+        "NAMU_HONORIFICS_20260908:v2:review:0061",
+        "NAMU_HONORIFICS_20260908:v2:review:0062",
+        "NAMU_HONORIFICS_20260908:v2:review:0063",
+        "NAMU_HONORIFICS_20260908:v2:review:0064",
+        "NAMU_HONORIFICS_20260908:v2:review:0065",
+        "NAMU_HONORIFICS_20260908:v2:review:0066",
+        "NAMU_HONORIFICS_20260908:v2:review:0067",
+        "NAMU_HONORIFICS_20260908:v2:review:0068",
+        "NAMU_HONORIFICS_20260908:v2:review:0069",
+        "NAMU_HONORIFICS_20260908:v2:review:0070",
+        "NAMU_HONORIFICS_20260908:v2:review:0071",
+        "NAMU_HONORIFICS_20260908:v2:review:0072",
+        "NAMU_HONORIFICS_20260908:v2:review:0073",
+        "NAMU_HONORIFICS_20260908:v2:review:0074",
+        "NAMU_HONORIFICS_20260908:v2:review:0075",
+        "NAMU_HONORIFICS_20260908:v2:review:0076",
+        "NAMU_HONORIFICS_20260908:v2:review:0104",
+        "NAMU_HONORIFICS_20260908:v2:review:0124"
+      ],
+      "original_gaps": [
+        "각주의 문화·어원 풀이와 세부 어휘 중 일부는 메모로만 보존. 원문 본문과 각주 부호를 함께 확인해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 33,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0070",
+        "NAMU_HONORIFICS_20260908:v2:review:0071",
+        "NAMU_HONORIFICS_20260908:v2:review:0072",
+        "NAMU_HONORIFICS_20260908:v2:review:0073",
+        "NAMU_HONORIFICS_20260908:v2:review:0074",
+        "NAMU_HONORIFICS_20260908:v2:review:0075",
+        "NAMU_HONORIFICS_20260908:v2:review:0076",
+        "NAMU_HONORIFICS_20260908:v2:review:0085",
+        "NAMU_HONORIFICS_20260908:v2:review:0086",
+        "NAMU_HONORIFICS_20260908:v2:review:0087",
+        "NAMU_HONORIFICS_20260908:v2:review:0088",
+        "NAMU_HONORIFICS_20260908:v2:review:0089",
+        "NAMU_HONORIFICS_20260908:v2:review:0090",
+        "NAMU_HONORIFICS_20260908:v2:review:0091",
+        "NAMU_HONORIFICS_20260908:v2:review:0092",
+        "NAMU_HONORIFICS_20260908:v2:review:0093",
+        "NAMU_HONORIFICS_20260908:v2:review:0094",
+        "NAMU_HONORIFICS_20260908:v2:review:0095",
+        "NAMU_HONORIFICS_20260908:v2:review:0096",
+        "NAMU_HONORIFICS_20260908:v2:review:0097",
+        "NAMU_HONORIFICS_20260908:v2:review:0098",
+        "NAMU_HONORIFICS_20260908:v2:review:0125",
+        "NAMU_HONORIFICS_20260908:v2:review:0128",
+        "NAMU_HONORIFICS_20260908:v2:review:0129",
+        "NAMU_HONORIFICS_20260908:v2:review:0130"
+      ],
+      "original_gaps": [
+        "각주의 문화·어원 풀이와 세부 어휘 중 일부는 메모로만 보존. 원문 본문과 각주 부호를 함께 확인해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 34,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0112",
+        "NAMU_HONORIFICS_20260908:v2:review:0114",
+        "NAMU_HONORIFICS_20260908:v2:review:0126",
+        "NAMU_HONORIFICS_20260908:v2:review:0131",
+        "NAMU_HONORIFICS_20260908:v2:review:0139"
+      ],
+      "original_gaps": [
+        "각주의 문화·어원 풀이와 세부 어휘 중 일부는 메모로만 보존. 원문 본문과 각주 부호를 함께 확인해야 한다."
+      ]
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 35,
+      "status": "resolved",
+      "reason": "미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
+      "fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0119",
+        "NAMU_HONORIFICS_20260908:v2:review:0120",
+        "NAMU_HONORIFICS_20260908:v2:review:0121",
+        "NAMU_HONORIFICS_20260908:v2:review:0127",
+        "NAMU_HONORIFICS_20260908:v2:review:0132",
+        "NAMU_HONORIFICS_20260908:v2:review:0133",
+        "NAMU_HONORIFICS_20260908:v2:review:0134",
+        "NAMU_HONORIFICS_20260908:v2:review:0135",
+        "NAMU_HONORIFICS_20260908:v2:review:0136",
+        "NAMU_HONORIFICS_20260908:v2:review:0137",
+        "NAMU_HONORIFICS_20260908:v2:review:0138"
+      ],
+      "original_gaps": [
+        "각주의 문화·어원 풀이와 세부 어휘 중 일부는 메모로만 보존. 원문 본문과 각주 부호를 함께 확인해야 한다."
+      ]
+    }
+  ],
+  "remaining_work": [
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 16,
+      "kind": "source_limitation",
+      "description": "원영상은 PDF에 삽입/링크된 외부 자료로서 현재 PDF 재전사만 확인했다."
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 26,
+      "kind": "source_limitation",
+      "description": "소꿉장난·고양이 지역 지도 링크는 PDF에 시군구별 대응을 싣지 않아 개별 지역 배당을 확정할 수 없다."
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 31,
+      "kind": "source_limitation",
+      "description": "고양이 세부 변이의 지역은 외부 지도 링크뿐이어서 PDF에서 개별 시군구를 확정할 수 없다."
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 44,
+      "kind": "source_limitation",
+      "description": "인터넷 예문 원전과 최명옥2019 원전/음성은 미확보. PDF의 원문·수정·풀이만 확인했다."
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 45,
+      "kind": "source_limitation",
+      "description": "경주 전사 인용의 실제 음성과 학술 원전은 미확보. PDF의 수정·해석만 확인했다."
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 6,
+      "kind": "source_limitation",
+      "description": "구포 영상 원본 미확보. PDF가 제공한 재전사만 근거이다."
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 9,
+      "kind": "source_limitation",
+      "description": "하동 영상 원본 미확보. PDF 재전사와 작성 비교 예만 확인했다."
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 10,
+      "kind": "source_limitation",
+      "description": "하동 음성 및 이혁화 원전 미확보. PDF 인용의 형태·기능만 보존했다."
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 11,
+      "kind": "source_limitation",
+      "description": "구마/누마의 하소 분류는 문헌 자체가 유보하며 달성의 요/소 반례를 명시. 논문 원전 음성 미확보."
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 13,
+      "kind": "source_limitation",
+      "description": "부산 영상 원본 미확보. PDF 전사의 가소/해체 혼용만 확인했다."
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 15,
+      "kind": "source_limitation",
+      "description": "안동 영상 원본 미확보. 니껴형 기원은 문헌의 학설 재인용으로 보존했다."
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 16,
+      "kind": "source_limitation",
+      "description": "니더 형용사 결합은 원문의 아마도라는 추정. 전체 지역별 실제 사용 빈도·영상 원본은 미확보."
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 17,
+      "kind": "source_limitation",
+      "description": "포항 기계면 영상 원본 미확보. 당시 61세 화자라는 PDF 설명과 재전사만 확인했다."
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 20,
+      "kind": "source_limitation",
+      "description": "남해 영상의 미신(?)은 원문조차 이름 판독을 유보. 음성 원본 미확보."
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 22,
+      "kind": "source_limitation",
+      "description": "대구 영상 원본 미확보. 담깄다의 은어 표지를 보존하되 뜻을 추정하지 않는다."
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 23,
+      "kind": "source_limitation",
+      "description": "영덕 영상 원본 미확보. 전통 안동 나/으나의 모든 실제 활용형은 문헌에 없다."
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 24,
+      "kind": "source_limitation",
+      "description": "울진 실제 대화 영상은 문헌도 없다고 명시. 어미 통합과 음조 추정을 분리했다."
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 25,
+      "kind": "source_limitation",
+      "description": "네형 원영상은 문헌도 없다고 명시하며 -는데 기원은 가설. 의령 영상 원본 미확보."
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 27,
+      "kind": "source_limitation",
+      "description": "예천·경주 영상 원본 미확보. 한개/키우는카마 풀이와 전사 형태만 확인했다."
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 28,
+      "kind": "source_limitation",
+      "description": "부산 음성 원전 미확보. 해여 기원은 문헌의 듯하다 추정이며 확정 사실이 아니다."
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 29,
+      "kind": "source_limitation",
+      "description": "문경 영상 원본 미확보. 친구/청중의 문체 교대는 PDF 재전사 설명에 한정한다."
+    }
+  ],
+  "corrections": [
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0003",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0004",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0005",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0006",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0007",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0008",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0009",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0010",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0011",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0012",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0013",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0014",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0015",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0016",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0017",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0018",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0019",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0020",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0021",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0022",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0023",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0024",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0025",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0026",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0027",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0028",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0029",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0030",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0031",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0032",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0033",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0034",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0035",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0036",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0037",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0038",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0039",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0040",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0041",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0042",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0043",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0044",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0045",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0046",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0047",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0048",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0049",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0050",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0051",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0052",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0053",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0054",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0055",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0056",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0057",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0058",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0059",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0060",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0061",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0062",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0063",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0064",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0065",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0066",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0067",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0068",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0069",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0070",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0071",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0072",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0073",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0074",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0075",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0076",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0077",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0078",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0079",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0080",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0081",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0082",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0083",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0084",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0085",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0086",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0087",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0088",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0089",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0090",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0092",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0093",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0094",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0095",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0096",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0097",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0098",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0099",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0100",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0101",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0102",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0103",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0104",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0105",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0106",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0107",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0108",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0109",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0110",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0111",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0112",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0113",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0114",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0115",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0116",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0117",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0118",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0119",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0120",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0121",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0122",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0123",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0124",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0125",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0126",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0127",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0128",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0129",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0130",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0131",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0132",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0133",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0134",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0135",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0136",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0137",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0138",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0139",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0140",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0141",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0142",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0143",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0144",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0145",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0146",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0147",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0148",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0149",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0150",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0151",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0152",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0153",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0154",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0155",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0156",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0157",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0158",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0159",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0160",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0161",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0162",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0163",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0164",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0165",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0166",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0167",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0168",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0169",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0170",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0171",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0172",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0173",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0174",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0175",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0176",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0177",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0178",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0179",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0180",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0181",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0182",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0183",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0184",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0185",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0186",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0187",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0188",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0189",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0190",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0191",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0192",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0193",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0194",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0195",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0196",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0197",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0198",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0199",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0200",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0201",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0202",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0203",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0204",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0205",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0206",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0207",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0208",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0209",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0210",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0211",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0212",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0213",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0214",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0215",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0216",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0217",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0218",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0219",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0220",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0221",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0222",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0223",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0225",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0226",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0227",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0228",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0229",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0230",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0231",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0232",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0233",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0234",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0235",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0236",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0237",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0238",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0239",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0240",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0241",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0242",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0243",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0244",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0245",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0246",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0247",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0248",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0249",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0250",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0251",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0252",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0253",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0254",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0255",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0256",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0257",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0258",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0259",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0260",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0261",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0262",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0263",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0264",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0265",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0266",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0267",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0268",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0269",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0270",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0271",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0272",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0273",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0274",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0275",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0276",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0277",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0278",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0279",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0280",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0281",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0282",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0283",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0284",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0286",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0287",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0288",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0289",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0290",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0291",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0292",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0293",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0294",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0295",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0296",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0297",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0298",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0299",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0300",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0301",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0302",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0303",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0304",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0305",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0357",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0358",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0359",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0360",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0361",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0362",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0363",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0364",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0365",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0366",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0367",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0368",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0369",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0370",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0371",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0372",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0373",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0374",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0375",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0376",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0377",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0378",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0379",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0380",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0381",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0382",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0383",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0384",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0385",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0386",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0387",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0388",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0389",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0390",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0391",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0392",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0393",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0394",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0395",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0396",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0397",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0398",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0399",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0400",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0401",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0402",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0403",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0404",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0405",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0406",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0407",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0408",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0409",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0410",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0411",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0412",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0413",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0414",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0415",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0416",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0417",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0418",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0419",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0420",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0421",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0422",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0424",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0425",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0426",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0427",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0433",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0434",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0435",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0436",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0437",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0438",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0439",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0440",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0441",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0442",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0443",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0444",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0445",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0446",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0447",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0448",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0449",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0450",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0451",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0452",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0453",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0454",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0455",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0456",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0457",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0458",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0459",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0460",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0461",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0462",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0463",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0464",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0465",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0466",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0467",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0468",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0469",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0470",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0471",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0472",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0473",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0474",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0475",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0476",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0477",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0478",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0479",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0480",
+      "change": "활용표의 실제 열 머리와 표제어·행 주변 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0003",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0004",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0005",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0006",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0007",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0008",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0009",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0010",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0012",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0013",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0014",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0015",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0016",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0052",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0053",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0054",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0055",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0056",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0057",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0058",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0093",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0094",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0095",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0096",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0097",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0098",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0099",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0100",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0101",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0102",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0106",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0107",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0108",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0109",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0110",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0111",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0112",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0123",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0125",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0126",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0127",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0132",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0133",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0134",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0135",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0136",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0137",
+      "change": "높임 표의 실제 어미 행과 기능 열 근거 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0786",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0787",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0788",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0789",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0790",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0791",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0792",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0793",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0794",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0795",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0796",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0797",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0798",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0799",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0800",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0801",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0802",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0803",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0804",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0805",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0806",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0807",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0808",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0809",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0810",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0811",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0812",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0813",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0814",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0815",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0816",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0817",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0818",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0819",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0820",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0821",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0822",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0823",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0824",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0825",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0826",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0827",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0828",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0829",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0830",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0831",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0832",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0833",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0834",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0835",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0836",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0837",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0838",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0839",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0840",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0841",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0842",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0843",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0844",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0845",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0846",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0847",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0848",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0849",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0850",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0851",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0852",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0853",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0854",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0855",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0856",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0857",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0858",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0859",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0860",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0861",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0862",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0863",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0864",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0865",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0866",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0867",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0868",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0869",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0870",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0871",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0872",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0873",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0874",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0875",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0876",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0877",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0878",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0879",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0880",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0881",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0882",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0883",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0884",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0885",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0886",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0887",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0888",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0889",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0890",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0891",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0892",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0893",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0894",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0895",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0896",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0897",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0898",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0899",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0900",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0901",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0902",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0903",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0904",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0905",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0906",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0907",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0908",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0909",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0910",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0911",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0912",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0913",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0914",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0915",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0916",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0917",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0918",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0919",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0920",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0921",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0922",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0923",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0924",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0925",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0926",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0927",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0928",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0929",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0930",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0931",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0932",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0933",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0934",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0935",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0936",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0937",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0938",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0939",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0940",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0941",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0942",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0943",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0944",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0945",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0946",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0947",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0948",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0949",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0950",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0951",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0952",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0953",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0954",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0955",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0956",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0957",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0958",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0959",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0960",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0961",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0962",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0963",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0964",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0965",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0966",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0967",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0968",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0969",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0970",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0971",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0972",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0973",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0974",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0975",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0976",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0977",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0978",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0979",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0980",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0981",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0982",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0983",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0984",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0985",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0986",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0987",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0988",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0989",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0990",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0991",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0992",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0993",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0994",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0995",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0996",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0997",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0998",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0999",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1000",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1001",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1002",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1003",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1004",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1005",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1006",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1007",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1008",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1009",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1010",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1011",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1012",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1013",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1016",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1017",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1018",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1034",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1035",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1036",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1037",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1038",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1039",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1040",
+      "change": "어휘표 표제어·뜻·지역·예문 행 문맥 보강"
+    },
+    {
+      "change": "이미지로 확인한 표기 활용 118건은 candidate, 발음 36건은 reference_only로 분리. candidate는 자동 생성 승인이 아님.",
+      "fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:review:0001",
+        "NAMU_GRAMMAR_20260908:v2:review:0002",
+        "NAMU_GRAMMAR_20260908:v2:review:0003",
+        "NAMU_GRAMMAR_20260908:v2:review:0004",
+        "NAMU_GRAMMAR_20260908:v2:review:0005",
+        "NAMU_GRAMMAR_20260908:v2:review:0006",
+        "NAMU_GRAMMAR_20260908:v2:review:0007",
+        "NAMU_GRAMMAR_20260908:v2:review:0008",
+        "NAMU_GRAMMAR_20260908:v2:review:0009",
+        "NAMU_GRAMMAR_20260908:v2:review:0010",
+        "NAMU_GRAMMAR_20260908:v2:review:0011",
+        "NAMU_GRAMMAR_20260908:v2:review:0012",
+        "NAMU_GRAMMAR_20260908:v2:review:0025",
+        "NAMU_GRAMMAR_20260908:v2:review:0026",
+        "NAMU_GRAMMAR_20260908:v2:review:0027",
+        "NAMU_GRAMMAR_20260908:v2:review:0028",
+        "NAMU_GRAMMAR_20260908:v2:review:0029",
+        "NAMU_GRAMMAR_20260908:v2:review:0030",
+        "NAMU_GRAMMAR_20260908:v2:review:0031",
+        "NAMU_GRAMMAR_20260908:v2:review:0032",
+        "NAMU_GRAMMAR_20260908:v2:review:0033",
+        "NAMU_GRAMMAR_20260908:v2:review:0034",
+        "NAMU_GRAMMAR_20260908:v2:review:0035",
+        "NAMU_GRAMMAR_20260908:v2:review:0036",
+        "NAMU_GRAMMAR_20260908:v2:review:0037",
+        "NAMU_GRAMMAR_20260908:v2:review:0038",
+        "NAMU_GRAMMAR_20260908:v2:review:0039",
+        "NAMU_GRAMMAR_20260908:v2:review:0040",
+        "NAMU_GRAMMAR_20260908:v2:review:0041",
+        "NAMU_GRAMMAR_20260908:v2:review:0042",
+        "NAMU_GRAMMAR_20260908:v2:review:0043",
+        "NAMU_GRAMMAR_20260908:v2:review:0044",
+        "NAMU_GRAMMAR_20260908:v2:review:0045",
+        "NAMU_GRAMMAR_20260908:v2:review:0046",
+        "NAMU_GRAMMAR_20260908:v2:review:0047",
+        "NAMU_GRAMMAR_20260908:v2:review:0048",
+        "NAMU_GRAMMAR_20260908:v2:review:0061",
+        "NAMU_GRAMMAR_20260908:v2:review:0062",
+        "NAMU_GRAMMAR_20260908:v2:review:0063",
+        "NAMU_GRAMMAR_20260908:v2:review:0064",
+        "NAMU_GRAMMAR_20260908:v2:review:0065",
+        "NAMU_GRAMMAR_20260908:v2:review:0066",
+        "NAMU_GRAMMAR_20260908:v2:review:0067",
+        "NAMU_GRAMMAR_20260908:v2:review:0068",
+        "NAMU_GRAMMAR_20260908:v2:review:0069",
+        "NAMU_GRAMMAR_20260908:v2:review:0070",
+        "NAMU_GRAMMAR_20260908:v2:review:0071",
+        "NAMU_GRAMMAR_20260908:v2:review:0072",
+        "NAMU_GRAMMAR_20260908:v2:review:0073",
+        "NAMU_GRAMMAR_20260908:v2:review:0074",
+        "NAMU_GRAMMAR_20260908:v2:review:0075",
+        "NAMU_GRAMMAR_20260908:v2:review:0076",
+        "NAMU_GRAMMAR_20260908:v2:review:0077",
+        "NAMU_GRAMMAR_20260908:v2:review:0078",
+        "NAMU_GRAMMAR_20260908:v2:review:0079",
+        "NAMU_GRAMMAR_20260908:v2:review:0080",
+        "NAMU_GRAMMAR_20260908:v2:review:0081",
+        "NAMU_GRAMMAR_20260908:v2:review:0082",
+        "NAMU_GRAMMAR_20260908:v2:review:0083",
+        "NAMU_GRAMMAR_20260908:v2:review:0084",
+        "NAMU_GRAMMAR_20260908:v2:review:0097",
+        "NAMU_GRAMMAR_20260908:v2:review:0098",
+        "NAMU_GRAMMAR_20260908:v2:review:0099",
+        "NAMU_GRAMMAR_20260908:v2:review:0100",
+        "NAMU_GRAMMAR_20260908:v2:review:0101",
+        "NAMU_GRAMMAR_20260908:v2:review:0102",
+        "NAMU_GRAMMAR_20260908:v2:review:0103",
+        "NAMU_GRAMMAR_20260908:v2:review:0104",
+        "NAMU_GRAMMAR_20260908:v2:review:0105",
+        "NAMU_GRAMMAR_20260908:v2:review:0106",
+        "NAMU_GRAMMAR_20260908:v2:review:0107",
+        "NAMU_GRAMMAR_20260908:v2:review:0108",
+        "NAMU_GRAMMAR_20260908:v2:review:0109",
+        "NAMU_GRAMMAR_20260908:v2:review:0110",
+        "NAMU_GRAMMAR_20260908:v2:review:0111",
+        "NAMU_GRAMMAR_20260908:v2:review:0112",
+        "NAMU_GRAMMAR_20260908:v2:review:0113",
+        "NAMU_GRAMMAR_20260908:v2:review:0114",
+        "NAMU_GRAMMAR_20260908:v2:review:0115",
+        "NAMU_GRAMMAR_20260908:v2:review:0116",
+        "NAMU_GRAMMAR_20260908:v2:review:0117",
+        "NAMU_GRAMMAR_20260908:v2:review:0118",
+        "NAMU_GRAMMAR_20260908:v2:review:0119",
+        "NAMU_GRAMMAR_20260908:v2:review:0120",
+        "NAMU_GRAMMAR_20260908:v2:review:0121",
+        "NAMU_GRAMMAR_20260908:v2:review:0122",
+        "NAMU_GRAMMAR_20260908:v2:review:0123",
+        "NAMU_GRAMMAR_20260908:v2:review:0124",
+        "NAMU_GRAMMAR_20260908:v2:review:0125",
+        "NAMU_GRAMMAR_20260908:v2:review:0126",
+        "NAMU_GRAMMAR_20260908:v2:review:0127",
+        "NAMU_GRAMMAR_20260908:v2:review:0128",
+        "NAMU_GRAMMAR_20260908:v2:review:0129",
+        "NAMU_GRAMMAR_20260908:v2:review:0130",
+        "NAMU_GRAMMAR_20260908:v2:review:0131",
+        "NAMU_GRAMMAR_20260908:v2:review:0132",
+        "NAMU_GRAMMAR_20260908:v2:review:0133",
+        "NAMU_GRAMMAR_20260908:v2:review:0134",
+        "NAMU_GRAMMAR_20260908:v2:review:0135",
+        "NAMU_GRAMMAR_20260908:v2:review:0136",
+        "NAMU_GRAMMAR_20260908:v2:review:0137",
+        "NAMU_GRAMMAR_20260908:v2:review:0138",
+        "NAMU_GRAMMAR_20260908:v2:review:0139",
+        "NAMU_GRAMMAR_20260908:v2:review:0140",
+        "NAMU_GRAMMAR_20260908:v2:review:0141",
+        "NAMU_GRAMMAR_20260908:v2:review:0142",
+        "NAMU_GRAMMAR_20260908:v2:review:0143",
+        "NAMU_GRAMMAR_20260908:v2:review:0144",
+        "NAMU_GRAMMAR_20260908:v2:review:0145",
+        "NAMU_GRAMMAR_20260908:v2:review:0146",
+        "NAMU_GRAMMAR_20260908:v2:review:0147",
+        "NAMU_GRAMMAR_20260908:v2:review:0148",
+        "NAMU_GRAMMAR_20260908:v2:review:0149",
+        "NAMU_GRAMMAR_20260908:v2:review:0150",
+        "NAMU_GRAMMAR_20260908:v2:review:0151",
+        "NAMU_GRAMMAR_20260908:v2:review:0152",
+        "NAMU_GRAMMAR_20260908:v2:review:0153",
+        "NAMU_GRAMMAR_20260908:v2:review:0154"
+      ]
+    }
+  ],
+  "added_fact_ids": [
+    "NAMU_GRAMMAR_20260908:v2:review:0001",
+    "NAMU_GRAMMAR_20260908:v2:review:0002",
+    "NAMU_GRAMMAR_20260908:v2:review:0003",
+    "NAMU_GRAMMAR_20260908:v2:review:0004",
+    "NAMU_GRAMMAR_20260908:v2:review:0005",
+    "NAMU_GRAMMAR_20260908:v2:review:0006",
+    "NAMU_GRAMMAR_20260908:v2:review:0007",
+    "NAMU_GRAMMAR_20260908:v2:review:0008",
+    "NAMU_GRAMMAR_20260908:v2:review:0009",
+    "NAMU_GRAMMAR_20260908:v2:review:0010",
+    "NAMU_GRAMMAR_20260908:v2:review:0011",
+    "NAMU_GRAMMAR_20260908:v2:review:0012",
+    "NAMU_GRAMMAR_20260908:v2:review:0013",
+    "NAMU_GRAMMAR_20260908:v2:review:0014",
+    "NAMU_GRAMMAR_20260908:v2:review:0015",
+    "NAMU_GRAMMAR_20260908:v2:review:0016",
+    "NAMU_GRAMMAR_20260908:v2:review:0017",
+    "NAMU_GRAMMAR_20260908:v2:review:0018",
+    "NAMU_GRAMMAR_20260908:v2:review:0019",
+    "NAMU_GRAMMAR_20260908:v2:review:0020",
+    "NAMU_GRAMMAR_20260908:v2:review:0021",
+    "NAMU_GRAMMAR_20260908:v2:review:0022",
+    "NAMU_GRAMMAR_20260908:v2:review:0023",
+    "NAMU_GRAMMAR_20260908:v2:review:0024",
+    "NAMU_GRAMMAR_20260908:v2:review:0025",
+    "NAMU_GRAMMAR_20260908:v2:review:0026",
+    "NAMU_GRAMMAR_20260908:v2:review:0027",
+    "NAMU_GRAMMAR_20260908:v2:review:0028",
+    "NAMU_GRAMMAR_20260908:v2:review:0029",
+    "NAMU_GRAMMAR_20260908:v2:review:0030",
+    "NAMU_GRAMMAR_20260908:v2:review:0031",
+    "NAMU_GRAMMAR_20260908:v2:review:0032",
+    "NAMU_GRAMMAR_20260908:v2:review:0033",
+    "NAMU_GRAMMAR_20260908:v2:review:0034",
+    "NAMU_GRAMMAR_20260908:v2:review:0035",
+    "NAMU_GRAMMAR_20260908:v2:review:0036",
+    "NAMU_GRAMMAR_20260908:v2:review:0037",
+    "NAMU_GRAMMAR_20260908:v2:review:0038",
+    "NAMU_GRAMMAR_20260908:v2:review:0039",
+    "NAMU_GRAMMAR_20260908:v2:review:0040",
+    "NAMU_GRAMMAR_20260908:v2:review:0041",
+    "NAMU_GRAMMAR_20260908:v2:review:0042",
+    "NAMU_GRAMMAR_20260908:v2:review:0043",
+    "NAMU_GRAMMAR_20260908:v2:review:0044",
+    "NAMU_GRAMMAR_20260908:v2:review:0045",
+    "NAMU_GRAMMAR_20260908:v2:review:0046",
+    "NAMU_GRAMMAR_20260908:v2:review:0047",
+    "NAMU_GRAMMAR_20260908:v2:review:0048",
+    "NAMU_GRAMMAR_20260908:v2:review:0049",
+    "NAMU_GRAMMAR_20260908:v2:review:0050",
+    "NAMU_GRAMMAR_20260908:v2:review:0051",
+    "NAMU_GRAMMAR_20260908:v2:review:0052",
+    "NAMU_GRAMMAR_20260908:v2:review:0053",
+    "NAMU_GRAMMAR_20260908:v2:review:0054",
+    "NAMU_GRAMMAR_20260908:v2:review:0055",
+    "NAMU_GRAMMAR_20260908:v2:review:0056",
+    "NAMU_GRAMMAR_20260908:v2:review:0057",
+    "NAMU_GRAMMAR_20260908:v2:review:0058",
+    "NAMU_GRAMMAR_20260908:v2:review:0059",
+    "NAMU_GRAMMAR_20260908:v2:review:0060",
+    "NAMU_GRAMMAR_20260908:v2:review:0061",
+    "NAMU_GRAMMAR_20260908:v2:review:0062",
+    "NAMU_GRAMMAR_20260908:v2:review:0063",
+    "NAMU_GRAMMAR_20260908:v2:review:0064",
+    "NAMU_GRAMMAR_20260908:v2:review:0065",
+    "NAMU_GRAMMAR_20260908:v2:review:0066",
+    "NAMU_GRAMMAR_20260908:v2:review:0067",
+    "NAMU_GRAMMAR_20260908:v2:review:0068",
+    "NAMU_GRAMMAR_20260908:v2:review:0069",
+    "NAMU_GRAMMAR_20260908:v2:review:0070",
+    "NAMU_GRAMMAR_20260908:v2:review:0071",
+    "NAMU_GRAMMAR_20260908:v2:review:0072",
+    "NAMU_GRAMMAR_20260908:v2:review:0073",
+    "NAMU_GRAMMAR_20260908:v2:review:0074",
+    "NAMU_GRAMMAR_20260908:v2:review:0075",
+    "NAMU_GRAMMAR_20260908:v2:review:0076",
+    "NAMU_GRAMMAR_20260908:v2:review:0077",
+    "NAMU_GRAMMAR_20260908:v2:review:0078",
+    "NAMU_GRAMMAR_20260908:v2:review:0079",
+    "NAMU_GRAMMAR_20260908:v2:review:0080",
+    "NAMU_GRAMMAR_20260908:v2:review:0081",
+    "NAMU_GRAMMAR_20260908:v2:review:0082",
+    "NAMU_GRAMMAR_20260908:v2:review:0083",
+    "NAMU_GRAMMAR_20260908:v2:review:0084",
+    "NAMU_GRAMMAR_20260908:v2:review:0085",
+    "NAMU_GRAMMAR_20260908:v2:review:0086",
+    "NAMU_GRAMMAR_20260908:v2:review:0087",
+    "NAMU_GRAMMAR_20260908:v2:review:0088",
+    "NAMU_GRAMMAR_20260908:v2:review:0089",
+    "NAMU_GRAMMAR_20260908:v2:review:0090",
+    "NAMU_GRAMMAR_20260908:v2:review:0091",
+    "NAMU_GRAMMAR_20260908:v2:review:0092",
+    "NAMU_GRAMMAR_20260908:v2:review:0093",
+    "NAMU_GRAMMAR_20260908:v2:review:0094",
+    "NAMU_GRAMMAR_20260908:v2:review:0095",
+    "NAMU_GRAMMAR_20260908:v2:review:0096",
+    "NAMU_GRAMMAR_20260908:v2:review:0097",
+    "NAMU_GRAMMAR_20260908:v2:review:0098",
+    "NAMU_GRAMMAR_20260908:v2:review:0099",
+    "NAMU_GRAMMAR_20260908:v2:review:0100",
+    "NAMU_GRAMMAR_20260908:v2:review:0101",
+    "NAMU_GRAMMAR_20260908:v2:review:0102",
+    "NAMU_GRAMMAR_20260908:v2:review:0103",
+    "NAMU_GRAMMAR_20260908:v2:review:0104",
+    "NAMU_GRAMMAR_20260908:v2:review:0105",
+    "NAMU_GRAMMAR_20260908:v2:review:0106",
+    "NAMU_GRAMMAR_20260908:v2:review:0107",
+    "NAMU_GRAMMAR_20260908:v2:review:0108",
+    "NAMU_GRAMMAR_20260908:v2:review:0109",
+    "NAMU_GRAMMAR_20260908:v2:review:0110",
+    "NAMU_GRAMMAR_20260908:v2:review:0111",
+    "NAMU_GRAMMAR_20260908:v2:review:0112",
+    "NAMU_GRAMMAR_20260908:v2:review:0113",
+    "NAMU_GRAMMAR_20260908:v2:review:0114",
+    "NAMU_GRAMMAR_20260908:v2:review:0115",
+    "NAMU_GRAMMAR_20260908:v2:review:0116",
+    "NAMU_GRAMMAR_20260908:v2:review:0117",
+    "NAMU_GRAMMAR_20260908:v2:review:0118",
+    "NAMU_GRAMMAR_20260908:v2:review:0119",
+    "NAMU_GRAMMAR_20260908:v2:review:0120",
+    "NAMU_GRAMMAR_20260908:v2:review:0121",
+    "NAMU_GRAMMAR_20260908:v2:review:0122",
+    "NAMU_GRAMMAR_20260908:v2:review:0123",
+    "NAMU_GRAMMAR_20260908:v2:review:0124",
+    "NAMU_GRAMMAR_20260908:v2:review:0125",
+    "NAMU_GRAMMAR_20260908:v2:review:0126",
+    "NAMU_GRAMMAR_20260908:v2:review:0127",
+    "NAMU_GRAMMAR_20260908:v2:review:0128",
+    "NAMU_GRAMMAR_20260908:v2:review:0129",
+    "NAMU_GRAMMAR_20260908:v2:review:0130",
+    "NAMU_GRAMMAR_20260908:v2:review:0131",
+    "NAMU_GRAMMAR_20260908:v2:review:0132",
+    "NAMU_GRAMMAR_20260908:v2:review:0133",
+    "NAMU_GRAMMAR_20260908:v2:review:0134",
+    "NAMU_GRAMMAR_20260908:v2:review:0135",
+    "NAMU_GRAMMAR_20260908:v2:review:0136",
+    "NAMU_GRAMMAR_20260908:v2:review:0137",
+    "NAMU_GRAMMAR_20260908:v2:review:0138",
+    "NAMU_GRAMMAR_20260908:v2:review:0139",
+    "NAMU_GRAMMAR_20260908:v2:review:0140",
+    "NAMU_GRAMMAR_20260908:v2:review:0141",
+    "NAMU_GRAMMAR_20260908:v2:review:0142",
+    "NAMU_GRAMMAR_20260908:v2:review:0143",
+    "NAMU_GRAMMAR_20260908:v2:review:0144",
+    "NAMU_GRAMMAR_20260908:v2:review:0145",
+    "NAMU_GRAMMAR_20260908:v2:review:0146",
+    "NAMU_GRAMMAR_20260908:v2:review:0147",
+    "NAMU_GRAMMAR_20260908:v2:review:0148",
+    "NAMU_GRAMMAR_20260908:v2:review:0149",
+    "NAMU_GRAMMAR_20260908:v2:review:0150",
+    "NAMU_GRAMMAR_20260908:v2:review:0151",
+    "NAMU_GRAMMAR_20260908:v2:review:0152",
+    "NAMU_GRAMMAR_20260908:v2:review:0153",
+    "NAMU_GRAMMAR_20260908:v2:review:0154",
+    "NAMU_GRAMMAR_20260908:v2:review:0155",
+    "NAMU_GRAMMAR_20260908:v2:review:0156",
+    "NAMU_GRAMMAR_20260908:v2:review:0157",
+    "NAMU_GRAMMAR_20260908:v2:review:0158",
+    "NAMU_GRAMMAR_20260908:v2:review:0159",
+    "NAMU_GRAMMAR_20260908:v2:review:0160",
+    "NAMU_GRAMMAR_20260908:v2:review:0161",
+    "NAMU_GRAMMAR_20260908:v2:review:0162",
+    "NAMU_GRAMMAR_20260908:v2:review:0163",
+    "NAMU_GRAMMAR_20260908:v2:review:0164",
+    "NAMU_GRAMMAR_20260908:v2:review:0165",
+    "NAMU_GRAMMAR_20260908:v2:review:0166",
+    "NAMU_GRAMMAR_20260908:v2:review:0167",
+    "NAMU_GRAMMAR_20260908:v2:review:0168",
+    "NAMU_GRAMMAR_20260908:v2:review:0169",
+    "NAMU_GRAMMAR_20260908:v2:review:0170",
+    "NAMU_GRAMMAR_20260908:v2:review:0171",
+    "NAMU_GRAMMAR_20260908:v2:review:0172",
+    "NAMU_GRAMMAR_20260908:v2:review:0173",
+    "NAMU_GRAMMAR_20260908:v2:review:0174",
+    "NAMU_GRAMMAR_20260908:v2:review:0175",
+    "NAMU_GRAMMAR_20260908:v2:review:0176",
+    "NAMU_GRAMMAR_20260908:v2:review:0177",
+    "NAMU_GRAMMAR_20260908:v2:review:0178",
+    "NAMU_GRAMMAR_20260908:v2:review:0179",
+    "NAMU_GRAMMAR_20260908:v2:review:0180",
+    "NAMU_GRAMMAR_20260908:v2:review:0181",
+    "NAMU_GRAMMAR_20260908:v2:review:0182",
+    "NAMU_GRAMMAR_20260908:v2:review:0183",
+    "NAMU_GRAMMAR_20260908:v2:review:0184",
+    "NAMU_GRAMMAR_20260908:v2:review:0185",
+    "NAMU_GRAMMAR_20260908:v2:review:0186",
+    "NAMU_GRAMMAR_20260908:v2:review:0187",
+    "NAMU_GRAMMAR_20260908:v2:review:0188",
+    "NAMU_GRAMMAR_20260908:v2:review:0189",
+    "NAMU_GRAMMAR_20260908:v2:review:0190",
+    "NAMU_GRAMMAR_20260908:v2:review:0191",
+    "NAMU_GRAMMAR_20260908:v2:review:0192",
+    "NAMU_GRAMMAR_20260908:v2:review:0193",
+    "NAMU_GRAMMAR_20260908:v2:review:0194",
+    "NAMU_GRAMMAR_20260908:v2:review:0195",
+    "NAMU_GRAMMAR_20260908:v2:review:0196",
+    "NAMU_GRAMMAR_20260908:v2:review:0197",
+    "NAMU_GRAMMAR_20260908:v2:review:0198",
+    "NAMU_GRAMMAR_20260908:v2:review:0199",
+    "NAMU_GRAMMAR_20260908:v2:review:0200",
+    "NAMU_GRAMMAR_20260908:v2:review:0201",
+    "NAMU_GRAMMAR_20260908:v2:review:0202",
+    "NAMU_GRAMMAR_20260908:v2:review:0203",
+    "NAMU_GRAMMAR_20260908:v2:review:0204",
+    "NAMU_GRAMMAR_20260908:v2:review:0205",
+    "NAMU_GRAMMAR_20260908:v2:review:0206",
+    "NAMU_GRAMMAR_20260908:v2:review:0207",
+    "NAMU_GRAMMAR_20260908:v2:review:0208",
+    "NAMU_GRAMMAR_20260908:v2:review:0209",
+    "NAMU_GRAMMAR_20260908:v2:review:0210",
+    "NAMU_GRAMMAR_20260908:v2:review:0211",
+    "NAMU_GRAMMAR_20260908:v2:review:0212",
+    "NAMU_GRAMMAR_20260908:v2:review:0213",
+    "NAMU_GRAMMAR_20260908:v2:review:0214",
+    "NAMU_GRAMMAR_20260908:v2:review:0215",
+    "NAMU_GRAMMAR_20260908:v2:review:0216",
+    "NAMU_GRAMMAR_20260908:v2:review:0217",
+    "NAMU_GRAMMAR_20260908:v2:review:0218",
+    "NAMU_GRAMMAR_20260908:v2:review:0219",
+    "NAMU_GRAMMAR_20260908:v2:review:0220",
+    "NAMU_GRAMMAR_20260908:v2:review:0221",
+    "NAMU_GRAMMAR_20260908:v2:review:0222",
+    "NAMU_GRAMMAR_20260908:v2:review:0223",
+    "NAMU_GRAMMAR_20260908:v2:review:0224",
+    "NAMU_GRAMMAR_20260908:v2:review:0225",
+    "NAMU_GRAMMAR_20260908:v2:review:0226",
+    "NAMU_GRAMMAR_20260908:v2:review:0227",
+    "NAMU_GRAMMAR_20260908:v2:review:0228",
+    "NAMU_GRAMMAR_20260908:v2:review:0229",
+    "NAMU_GRAMMAR_20260908:v2:review:0230",
+    "NAMU_GRAMMAR_20260908:v2:review:0231",
+    "NAMU_GRAMMAR_20260908:v2:review:0232",
+    "NAMU_GRAMMAR_20260908:v2:review:0233",
+    "NAMU_GRAMMAR_20260908:v2:review:0234",
+    "NAMU_GRAMMAR_20260908:v2:review:0235",
+    "NAMU_GRAMMAR_20260908:v2:review:0236",
+    "NAMU_GRAMMAR_20260908:v2:review:0237",
+    "NAMU_GRAMMAR_20260908:v2:review:0238",
+    "NAMU_GRAMMAR_20260908:v2:review:0239",
+    "NAMU_GRAMMAR_20260908:v2:review:0240",
+    "NAMU_GRAMMAR_20260908:v2:review:0241",
+    "NAMU_GRAMMAR_20260908:v2:review:0242",
+    "NAMU_GRAMMAR_20260908:v2:review:0243",
+    "NAMU_GRAMMAR_20260908:v2:review:0244",
+    "NAMU_GRAMMAR_20260908:v2:review:0245",
+    "NAMU_GRAMMAR_20260908:v2:review:0246",
+    "NAMU_GRAMMAR_20260908:v2:review:0247",
+    "NAMU_GRAMMAR_20260908:v2:review:0248",
+    "NAMU_GRAMMAR_20260908:v2:review:0249",
+    "NAMU_GRAMMAR_20260908:v2:review:0250",
+    "NAMU_GRAMMAR_20260908:v2:review:0251",
+    "NAMU_GRAMMAR_20260908:v2:review:0252",
+    "NAMU_GRAMMAR_20260908:v2:review:0253",
+    "NAMU_GRAMMAR_20260908:v2:review:0254",
+    "NAMU_GRAMMAR_20260908:v2:review:0255",
+    "NAMU_GRAMMAR_20260908:v2:review:0256",
+    "NAMU_GRAMMAR_20260908:v2:review:0257",
+    "NAMU_GRAMMAR_20260908:v2:review:0258",
+    "NAMU_GRAMMAR_20260908:v2:review:0259",
+    "NAMU_GRAMMAR_20260908:v2:review:0260",
+    "NAMU_GRAMMAR_20260908:v2:review:0261",
+    "NAMU_GRAMMAR_20260908:v2:review:0262",
+    "NAMU_GRAMMAR_20260908:v2:review:0263",
+    "NAMU_GRAMMAR_20260908:v2:review:0264",
+    "NAMU_GRAMMAR_20260908:v2:review:0265",
+    "NAMU_GRAMMAR_20260908:v2:review:0266",
+    "NAMU_GRAMMAR_20260908:v2:review:0267",
+    "NAMU_GRAMMAR_20260908:v2:review:0268",
+    "NAMU_GRAMMAR_20260908:v2:review:0269",
+    "NAMU_GRAMMAR_20260908:v2:review:0270",
+    "NAMU_GRAMMAR_20260908:v2:review:0271",
+    "NAMU_GRAMMAR_20260908:v2:review:0272",
+    "NAMU_GRAMMAR_20260908:v2:review:0273",
+    "NAMU_GRAMMAR_20260908:v2:review:0274",
+    "NAMU_GRAMMAR_20260908:v2:review:0275",
+    "NAMU_GRAMMAR_20260908:v2:review:0276",
+    "NAMU_GRAMMAR_20260908:v2:review:0277",
+    "NAMU_GRAMMAR_20260908:v2:review:0278",
+    "NAMU_GRAMMAR_20260908:v2:review:0279",
+    "NAMU_GRAMMAR_20260908:v2:review:0280",
+    "NAMU_GRAMMAR_20260908:v2:review:0281",
+    "NAMU_GRAMMAR_20260908:v2:review:0282",
+    "NAMU_GRAMMAR_20260908:v2:review:0283",
+    "NAMU_GRAMMAR_20260908:v2:review:0284",
+    "NAMU_GRAMMAR_20260908:v2:review:0285",
+    "NAMU_GRAMMAR_20260908:v2:review:0286",
+    "NAMU_GRAMMAR_20260908:v2:review:0287",
+    "NAMU_GRAMMAR_20260908:v2:review:0288",
+    "NAMU_GRAMMAR_20260908:v2:review:0289",
+    "NAMU_GRAMMAR_20260908:v2:review:0290",
+    "NAMU_GRAMMAR_20260908:v2:review:0291",
+    "NAMU_GRAMMAR_20260908:v2:review:0292",
+    "NAMU_GRAMMAR_20260908:v2:review:0293",
+    "NAMU_GRAMMAR_20260908:v2:review:0294",
+    "NAMU_GRAMMAR_20260908:v2:review:0295",
+    "NAMU_GRAMMAR_20260908:v2:review:0296",
+    "NAMU_GRAMMAR_20260908:v2:review:0297",
+    "NAMU_GRAMMAR_20260908:v2:review:0298",
+    "NAMU_GRAMMAR_20260908:v2:review:0299",
+    "NAMU_GRAMMAR_20260908:v2:review:0300",
+    "NAMU_GRAMMAR_20260908:v2:review:0301",
+    "NAMU_GRAMMAR_20260908:v2:review:0302",
+    "NAMU_GRAMMAR_20260908:v2:review:0303",
+    "NAMU_GRAMMAR_20260908:v2:review:0304",
+    "NAMU_GRAMMAR_20260908:v2:review:0305",
+    "NAMU_GRAMMAR_20260908:v2:review:0306",
+    "NAMU_GRAMMAR_20260908:v2:review:0307",
+    "NAMU_GRAMMAR_20260908:v2:review:0308",
+    "NAMU_GRAMMAR_20260908:v2:review:0309",
+    "NAMU_GRAMMAR_20260908:v2:review:0310",
+    "NAMU_GRAMMAR_20260908:v2:review:0311",
+    "NAMU_GRAMMAR_20260908:v2:review:0312",
+    "NAMU_GRAMMAR_20260908:v2:review:0313",
+    "NAMU_GRAMMAR_20260908:v2:review:0314",
+    "NAMU_GRAMMAR_20260908:v2:review:0315",
+    "NAMU_GRAMMAR_20260908:v2:review:0316",
+    "NAMU_GRAMMAR_20260908:v2:review:0317",
+    "NAMU_GRAMMAR_20260908:v2:review:0318",
+    "NAMU_GRAMMAR_20260908:v2:review:0319",
+    "NAMU_GRAMMAR_20260908:v2:review:0320",
+    "NAMU_GRAMMAR_20260908:v2:review:0321",
+    "NAMU_GRAMMAR_20260908:v2:review:0322",
+    "NAMU_GRAMMAR_20260908:v2:review:0323",
+    "NAMU_GRAMMAR_20260908:v2:review:0324",
+    "NAMU_GRAMMAR_20260908:v2:review:0325",
+    "NAMU_GRAMMAR_20260908:v2:review:0326",
+    "NAMU_GRAMMAR_20260908:v2:review:0327",
+    "NAMU_GRAMMAR_20260908:v2:review:0328",
+    "NAMU_GRAMMAR_20260908:v2:review:0329",
+    "NAMU_GRAMMAR_20260908:v2:review:0330",
+    "NAMU_GRAMMAR_20260908:v2:review:0331",
+    "NAMU_GRAMMAR_20260908:v2:review:0332",
+    "NAMU_GRAMMAR_20260908:v2:review:0333",
+    "NAMU_GRAMMAR_20260908:v2:review:0334",
+    "NAMU_GRAMMAR_20260908:v2:review:0335",
+    "NAMU_GRAMMAR_20260908:v2:review:0336",
+    "NAMU_GRAMMAR_20260908:v2:review:0337",
+    "NAMU_GRAMMAR_20260908:v2:review:0338",
+    "NAMU_GRAMMAR_20260908:v2:review:0339",
+    "NAMU_GRAMMAR_20260908:v2:review:0340",
+    "NAMU_GRAMMAR_20260908:v2:review:0341",
+    "NAMU_GRAMMAR_20260908:v2:review:0342",
+    "NAMU_GRAMMAR_20260908:v2:review:0343",
+    "NAMU_GRAMMAR_20260908:v2:review:0344",
+    "NAMU_GRAMMAR_20260908:v2:review:0345",
+    "NAMU_GRAMMAR_20260908:v2:review:0346",
+    "NAMU_GRAMMAR_20260908:v2:review:0347",
+    "NAMU_GRAMMAR_20260908:v2:review:0348",
+    "NAMU_GRAMMAR_20260908:v2:review:0349",
+    "NAMU_GRAMMAR_20260908:v2:review:0350",
+    "NAMU_GRAMMAR_20260908:v2:review:0351",
+    "NAMU_GRAMMAR_20260908:v2:review:0352",
+    "NAMU_GRAMMAR_20260908:v2:review:0353",
+    "NAMU_GRAMMAR_20260908:v2:review:0354",
+    "NAMU_GRAMMAR_20260908:v2:review:0355",
+    "NAMU_GRAMMAR_20260908:v2:review:0356",
+    "NAMU_GRAMMAR_20260908:v2:review:0357",
+    "NAMU_GRAMMAR_20260908:v2:review:0358",
+    "NAMU_GRAMMAR_20260908:v2:review:0359",
+    "NAMU_GRAMMAR_20260908:v2:review:0360",
+    "NAMU_GRAMMAR_20260908:v2:review:0361",
+    "NAMU_GRAMMAR_20260908:v2:review:0362",
+    "NAMU_GRAMMAR_20260908:v2:review:0363",
+    "NAMU_GRAMMAR_20260908:v2:review:0364",
+    "NAMU_GRAMMAR_20260908:v2:review:0365",
+    "NAMU_GRAMMAR_20260908:v2:review:0366",
+    "NAMU_GRAMMAR_20260908:v2:review:0367",
+    "NAMU_GRAMMAR_20260908:v2:review:0368",
+    "NAMU_GRAMMAR_20260908:v2:review:0369",
+    "NAMU_GRAMMAR_20260908:v2:review:0370",
+    "NAMU_GRAMMAR_20260908:v2:review:0371",
+    "NAMU_GRAMMAR_20260908:v2:review:0372",
+    "NAMU_GRAMMAR_20260908:v2:review:0373",
+    "NAMU_GRAMMAR_20260908:v2:review:0374",
+    "NAMU_GRAMMAR_20260908:v2:review:0375",
+    "NAMU_GRAMMAR_20260908:v2:review:0376",
+    "NAMU_GRAMMAR_20260908:v2:review:0377",
+    "NAMU_GRAMMAR_20260908:v2:review:0378",
+    "NAMU_GRAMMAR_20260908:v2:review:0379",
+    "NAMU_GRAMMAR_20260908:v2:review:0380",
+    "NAMU_GRAMMAR_20260908:v2:review:0381",
+    "NAMU_GRAMMAR_20260908:v2:review:0382",
+    "NAMU_GRAMMAR_20260908:v2:review:0383",
+    "NAMU_GRAMMAR_20260908:v2:review:0384",
+    "NAMU_GRAMMAR_20260908:v2:review:0385",
+    "NAMU_GRAMMAR_20260908:v2:review:0386",
+    "NAMU_GRAMMAR_20260908:v2:review:0387",
+    "NAMU_GRAMMAR_20260908:v2:review:0388",
+    "NAMU_HONORIFICS_20260908:v2:review:0001",
+    "NAMU_HONORIFICS_20260908:v2:review:0002",
+    "NAMU_HONORIFICS_20260908:v2:review:0003",
+    "NAMU_HONORIFICS_20260908:v2:review:0004",
+    "NAMU_HONORIFICS_20260908:v2:review:0005",
+    "NAMU_HONORIFICS_20260908:v2:review:0006",
+    "NAMU_HONORIFICS_20260908:v2:review:0007",
+    "NAMU_HONORIFICS_20260908:v2:review:0008",
+    "NAMU_HONORIFICS_20260908:v2:review:0009",
+    "NAMU_HONORIFICS_20260908:v2:review:0010",
+    "NAMU_HONORIFICS_20260908:v2:review:0011",
+    "NAMU_HONORIFICS_20260908:v2:review:0012",
+    "NAMU_HONORIFICS_20260908:v2:review:0013",
+    "NAMU_HONORIFICS_20260908:v2:review:0014",
+    "NAMU_HONORIFICS_20260908:v2:review:0015",
+    "NAMU_HONORIFICS_20260908:v2:review:0016",
+    "NAMU_HONORIFICS_20260908:v2:review:0017",
+    "NAMU_HONORIFICS_20260908:v2:review:0018",
+    "NAMU_HONORIFICS_20260908:v2:review:0019",
+    "NAMU_HONORIFICS_20260908:v2:review:0020",
+    "NAMU_HONORIFICS_20260908:v2:review:0021",
+    "NAMU_HONORIFICS_20260908:v2:review:0022",
+    "NAMU_HONORIFICS_20260908:v2:review:0023",
+    "NAMU_HONORIFICS_20260908:v2:review:0024",
+    "NAMU_HONORIFICS_20260908:v2:review:0025",
+    "NAMU_HONORIFICS_20260908:v2:review:0026",
+    "NAMU_HONORIFICS_20260908:v2:review:0027",
+    "NAMU_HONORIFICS_20260908:v2:review:0028",
+    "NAMU_HONORIFICS_20260908:v2:review:0029",
+    "NAMU_HONORIFICS_20260908:v2:review:0030",
+    "NAMU_HONORIFICS_20260908:v2:review:0031",
+    "NAMU_HONORIFICS_20260908:v2:review:0032",
+    "NAMU_HONORIFICS_20260908:v2:review:0033",
+    "NAMU_HONORIFICS_20260908:v2:review:0034",
+    "NAMU_HONORIFICS_20260908:v2:review:0035",
+    "NAMU_HONORIFICS_20260908:v2:review:0036",
+    "NAMU_HONORIFICS_20260908:v2:review:0037",
+    "NAMU_HONORIFICS_20260908:v2:review:0038",
+    "NAMU_HONORIFICS_20260908:v2:review:0039",
+    "NAMU_HONORIFICS_20260908:v2:review:0040",
+    "NAMU_HONORIFICS_20260908:v2:review:0041",
+    "NAMU_HONORIFICS_20260908:v2:review:0042",
+    "NAMU_HONORIFICS_20260908:v2:review:0043",
+    "NAMU_HONORIFICS_20260908:v2:review:0044",
+    "NAMU_HONORIFICS_20260908:v2:review:0045",
+    "NAMU_HONORIFICS_20260908:v2:review:0046",
+    "NAMU_HONORIFICS_20260908:v2:review:0047",
+    "NAMU_HONORIFICS_20260908:v2:review:0048",
+    "NAMU_HONORIFICS_20260908:v2:review:0049",
+    "NAMU_HONORIFICS_20260908:v2:review:0050",
+    "NAMU_HONORIFICS_20260908:v2:review:0051",
+    "NAMU_HONORIFICS_20260908:v2:review:0052",
+    "NAMU_HONORIFICS_20260908:v2:review:0053",
+    "NAMU_HONORIFICS_20260908:v2:review:0054",
+    "NAMU_HONORIFICS_20260908:v2:review:0055",
+    "NAMU_HONORIFICS_20260908:v2:review:0056",
+    "NAMU_HONORIFICS_20260908:v2:review:0057",
+    "NAMU_HONORIFICS_20260908:v2:review:0058",
+    "NAMU_HONORIFICS_20260908:v2:review:0059",
+    "NAMU_HONORIFICS_20260908:v2:review:0060",
+    "NAMU_HONORIFICS_20260908:v2:review:0061",
+    "NAMU_HONORIFICS_20260908:v2:review:0062",
+    "NAMU_HONORIFICS_20260908:v2:review:0063",
+    "NAMU_HONORIFICS_20260908:v2:review:0064",
+    "NAMU_HONORIFICS_20260908:v2:review:0065",
+    "NAMU_HONORIFICS_20260908:v2:review:0066",
+    "NAMU_HONORIFICS_20260908:v2:review:0067",
+    "NAMU_HONORIFICS_20260908:v2:review:0068",
+    "NAMU_HONORIFICS_20260908:v2:review:0069",
+    "NAMU_HONORIFICS_20260908:v2:review:0070",
+    "NAMU_HONORIFICS_20260908:v2:review:0071",
+    "NAMU_HONORIFICS_20260908:v2:review:0072",
+    "NAMU_HONORIFICS_20260908:v2:review:0073",
+    "NAMU_HONORIFICS_20260908:v2:review:0074",
+    "NAMU_HONORIFICS_20260908:v2:review:0075",
+    "NAMU_HONORIFICS_20260908:v2:review:0076",
+    "NAMU_HONORIFICS_20260908:v2:review:0077",
+    "NAMU_HONORIFICS_20260908:v2:review:0078",
+    "NAMU_HONORIFICS_20260908:v2:review:0079",
+    "NAMU_HONORIFICS_20260908:v2:review:0080",
+    "NAMU_HONORIFICS_20260908:v2:review:0081",
+    "NAMU_HONORIFICS_20260908:v2:review:0082",
+    "NAMU_HONORIFICS_20260908:v2:review:0083",
+    "NAMU_HONORIFICS_20260908:v2:review:0084",
+    "NAMU_HONORIFICS_20260908:v2:review:0085",
+    "NAMU_HONORIFICS_20260908:v2:review:0086",
+    "NAMU_HONORIFICS_20260908:v2:review:0087",
+    "NAMU_HONORIFICS_20260908:v2:review:0088",
+    "NAMU_HONORIFICS_20260908:v2:review:0089",
+    "NAMU_HONORIFICS_20260908:v2:review:0090",
+    "NAMU_HONORIFICS_20260908:v2:review:0091",
+    "NAMU_HONORIFICS_20260908:v2:review:0092",
+    "NAMU_HONORIFICS_20260908:v2:review:0093",
+    "NAMU_HONORIFICS_20260908:v2:review:0094",
+    "NAMU_HONORIFICS_20260908:v2:review:0095",
+    "NAMU_HONORIFICS_20260908:v2:review:0096",
+    "NAMU_HONORIFICS_20260908:v2:review:0097",
+    "NAMU_HONORIFICS_20260908:v2:review:0098",
+    "NAMU_HONORIFICS_20260908:v2:review:0099",
+    "NAMU_HONORIFICS_20260908:v2:review:0100",
+    "NAMU_HONORIFICS_20260908:v2:review:0101",
+    "NAMU_HONORIFICS_20260908:v2:review:0102",
+    "NAMU_HONORIFICS_20260908:v2:review:0103",
+    "NAMU_HONORIFICS_20260908:v2:review:0104",
+    "NAMU_HONORIFICS_20260908:v2:review:0105",
+    "NAMU_HONORIFICS_20260908:v2:review:0106",
+    "NAMU_HONORIFICS_20260908:v2:review:0107",
+    "NAMU_HONORIFICS_20260908:v2:review:0108",
+    "NAMU_HONORIFICS_20260908:v2:review:0109",
+    "NAMU_HONORIFICS_20260908:v2:review:0110",
+    "NAMU_HONORIFICS_20260908:v2:review:0111",
+    "NAMU_HONORIFICS_20260908:v2:review:0112",
+    "NAMU_HONORIFICS_20260908:v2:review:0113",
+    "NAMU_HONORIFICS_20260908:v2:review:0114",
+    "NAMU_HONORIFICS_20260908:v2:review:0115",
+    "NAMU_HONORIFICS_20260908:v2:review:0116",
+    "NAMU_HONORIFICS_20260908:v2:review:0117",
+    "NAMU_HONORIFICS_20260908:v2:review:0118",
+    "NAMU_HONORIFICS_20260908:v2:review:0119",
+    "NAMU_HONORIFICS_20260908:v2:review:0120",
+    "NAMU_HONORIFICS_20260908:v2:review:0121",
+    "NAMU_HONORIFICS_20260908:v2:review:0122",
+    "NAMU_HONORIFICS_20260908:v2:review:0123",
+    "NAMU_HONORIFICS_20260908:v2:review:0124",
+    "NAMU_HONORIFICS_20260908:v2:review:0125",
+    "NAMU_HONORIFICS_20260908:v2:review:0126",
+    "NAMU_HONORIFICS_20260908:v2:review:0127",
+    "NAMU_HONORIFICS_20260908:v2:review:0128",
+    "NAMU_HONORIFICS_20260908:v2:review:0129",
+    "NAMU_HONORIFICS_20260908:v2:review:0130",
+    "NAMU_HONORIFICS_20260908:v2:review:0131",
+    "NAMU_HONORIFICS_20260908:v2:review:0132",
+    "NAMU_HONORIFICS_20260908:v2:review:0133",
+    "NAMU_HONORIFICS_20260908:v2:review:0134",
+    "NAMU_HONORIFICS_20260908:v2:review:0135",
+    "NAMU_HONORIFICS_20260908:v2:review:0136",
+    "NAMU_HONORIFICS_20260908:v2:review:0137",
+    "NAMU_HONORIFICS_20260908:v2:review:0138",
+    "NAMU_HONORIFICS_20260908:v2:review:0139",
+    "NAMU_HONORIFICS_20260908:v2:review:0140"
+  ],
+  "audit_note": "59개 원래 gap 페이지를 PDF 추출문으로 재독. 문법 p18·21–23·30·42 및 높임 p3·12는 이미지 배치도 확인. 표의 참고용 보존은 실행 규칙 승인과 별개이며 외부 음성·원전은 확인하지 않음. 최종 어휘 감사에서 소꿉장난 25변이·관용구 이형태·외래어 대체 방언·감탄사의 의미별 항목도 보강함."
+}

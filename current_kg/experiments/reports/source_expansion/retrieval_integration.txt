@@ -1,0 +1,440 @@
+조회 통합 최종 점검 — 번역 생성 0회
+기존 30문장 + 수정 후 신규 8문장. 신규 대조 6/8 충족.
+전달 카드의 조건 일치는 입력 분석값에 대한 판정이며 그 분석값의 의미 정확성을 보장하지 않음.
+기존 30문장 C/D 선택 카드 동일: 30건; 전체 패킷 동일: 29건.
+후보 없음: DEV013, DEV016, DEV018
+신규 대조 결과: {"quote_contraction_reached": true, "lexical_hada_not_quote": true, "content_no": true, "polar_na": false, "polite_not_bare_no_na": true, "modifier_not_daga": true, "transition_reached": false, "command_quote_not_statement": true}
+실패한 대조는 분석/조회 한계로 남김. 문장별 정답으로 분석값을 덮어쓰지 않음.
+
+통합 조회 — 생성 전 점검 (번역 결과 아님)
+기존 30문장: 저장된 자동 분석 재사용. 신규 8문장: Qwen 자동 분석 + 원문 형태 확인.
+신규 문장도 개발 진단 자료이며 독립 평가셋/자연스러움 검증이 아니다.
+
+DEV001 오늘은 날씨가 참 좋네요.
+  위치: 오늘은 날씨가 참 좋네요. [0, 14]
+  분석: {"host_pos": "adjective", "sentence_type": "declarative", "host_class": "predicate_other_than_anida", "host_form": "좋다", "stem_vowel": "ㅗ", "stem_coda": "absent", "subject_person": "third"}
+  전달: GYS-H014:A1, GYS-H028:A3, GYS-H028:A7, GYS-J013:A4, GYS-R041:A8
+  관계: 직접 발견 경로
+
+DEV002 집에 가는 길에 빵을 샀어.
+  위치: 집에 가는 길에 빵을 샀어. [0, 15]
+  분석: {"host_pos": "verb", "sentence_type": "declarative", "host_class": "predicate_other_than_anida", "host_form": "사다", "stem_vowel": "a", "stem_coda": "absent", "subject_person": "first"}
+  전달: GYS-R041:A7
+  관계: 직접 발견 경로
+  위치: 는 [4, 5]
+  분석: {"source_form": "-는"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+
+DEV003 이 음식은 생각보다 맵네요.
+  위치: 이 음식은 생각보다 맵네요. [0, 15]
+  분석: {"host_pos": "adjective", "sentence_type": "declarative", "host_class": "predicate_other_than_anida", "host_form": "맵다", "stem_vowel": "ㅏ", "stem_coda": "absent", "subject_person": "third"}
+  전달: GYS-H014:A1, GYS-H028:A3, GYS-H028:A7, GYS-J013:A4, GYS-R041:A8
+  관계: 직접 발견 경로
+
+DEV004 아까 문 앞에 있던 사람이 제 친구예요.
+  위치: 아까 문 앞에 있던 사람이 제 친구예요. [0, 22]
+  분석: {"host_pos": "copula", "host_class": "nominal_copula", "host_form": "이다", "sentence_type": "declarative", "subject_person": "third", "nominal_coda": "absent", "stem_vowel": "a", "stem_coda": "absent"}
+  전달: GYS-H014:A1, GYS-H028:A3, GYS-H028:A7, GYS-J013:A4, GYS-R041:A8
+  관계: 직접 발견 경로
+  위치: 던 [9, 10]
+  분석: {"source_form": "-던"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+
+DEV005 나는 커피보다 차가 더 좋아.
+  위치: 나는 커피보다 차가 더 좋아. [0, 16]
+  분석: {"host_pos": "adjective", "sentence_type": "declarative", "host_class": "predicate_other_than_anida", "host_form": "좋다", "stem_vowel": "a", "stem_coda": "absent", "subject_person": "first"}
+  전달: GYS-R041:A7
+  관계: 직접 발견 경로
+
+DEV006 할머니께서 지금 방에서 쉬고 계세요.
+  위치: 할머니께서 지금 방에서 쉬고 계세요. [0, 20]
+  분석: {"host_pos": "verb", "sentence_type": "declarative", "host_class": "predicate_other_than_anida", "host_form": "쉬다", "stem_vowel": "ㅜ", "stem_coda": "absent", "subject_person": "third", "following_predicate_role": "auxiliary"}
+  전달: GYS-H014:A1, GYS-H028:A3, GYS-H028:A7, GYS-J013:A4, GYS-R041:A8
+  관계: 직접 발견 경로
+  위치: 고 [14, 15]
+  분석: {"source_form": "-고"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+
+DEV007 나는 아직 점심을 안 먹었어.
+  위치: 나는 아직 점심을 안 먹었어. [0, 16]
+  분석: {"host_pos": "verb", "sentence_type": "declarative", "host_class": "predicate_other_than_anida", "host_form": "먹다", "stem_vowel": "e", "stem_coda": "absent", "subject_person": "first"}
+  전달: GYS-R041:A7
+  관계: 직접 발견 경로
+
+DEV008 비가 너무 많이 와서 밖에 못 나가겠어요.
+  위치: 비가 너무 많이 와서 [0, 11]
+  분석: {"host_pos": "verb", "host_class": "predicate_other_than_anida", "host_form": "와서", "stem_vowel": "o", "stem_coda": "absent", "clause_relation": "cause", "subject_person": "third"}
+  전달: GYS-R047:A1, GYS-R047:A2
+  관계: 직접 발견 경로
+  위치: 밖에 못 나가겠어요. [12, 23]
+  분석: {"host_pos": "verb", "host_class": "predicate_other_than_anida", "host_form": "나가겠어요", "stem_vowel": "a", "stem_coda": "absent", "sentence_type": "declarative", "speech_act": "state_intention", "subject_person": "first"}
+  전달: GYS-H014:A1, GYS-H028:A3, GYS-H028:A7, GYS-J013:A4, GYS-R041:A8
+  관계: 직접 발견 경로
+  위치: 와서 [9, 11]
+  분석: {"source_form": "-어서", "clause_relation": "cause"}
+  전달: GYS-R047:A1, GYS-R047:A2
+  관계: 직접 발견 경로
+
+DEV009 그 사람이 싫은 건 아니야.
+  위치: 그 사람이 싫은 건 아니야. [0, 15]
+  분석: {"host_pos": "copula", "host_class": "negative_copula", "host_form": "아니다", "sentence_type": "declarative"}
+  전달: GYS-R041:A7
+  관계: 직접 발견 경로
+  위치: 은 [7, 8]
+  분석: {"source_form": "-은"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+
+DEV010 오늘 안에 다 끝낼 수 있을 것 같아요.
+  위치: 오늘 안에 다 끝낼 수 있을 것 같아요. [0, 22]
+  분석: {"host_pos": "adjective", "sentence_type": "declarative", "host_class": "predicate_other_than_anida", "host_form": "같다", "stem_vowel": "ㅏ", "stem_coda": "absent", "meaning": "추측", "speech_act": "state_intention", "intention_holder": "speaker", "subject_person": "first"}
+  전달: GYS-H014:A1, GYS-H028:A3, GYS-H028:A7, GYS-J013:A4, GYS-R041:A8
+  관계: 직접 발견 경로
+  위치: 낼 [9, 10]
+  분석: {"source_form": "-ᆯ"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+  위치: 을 [14, 15]
+  분석: {"source_form": "-을"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+
+DEV011 버스가 벌써 출발했나요?
+  위치: 버스가 벌써 출발했나요? [0, 13]
+  분석: {"host_pos": "verb", "sentence_type": "interrogative", "question_type": "polar", "host_class": "predicate_other_than_anida", "host_form": "출발하다", "stem_vowel": "a", "stem_coda": "absent", "subject_person": "third", "response_orientation": "addressee"}
+  전달: GYS-H006:A4, GYS-H008:A4, GYS-H010:A4, GYS-H012:A4, GYS-H014:A2, GYS-H028:A4
+  관계: 직접 발견 경로
+
+DEV012 열쇠를 어디에 뒀어?
+  위치: 열쇠를 어디에 뒀어? [0, 11]
+  분석: {"host_pos": "verb", "sentence_type": "interrogative", "question_type": "content", "host_class": "predicate_other_than_anida", "host_form": "두다", "stem_vowel": "u", "stem_coda": "absent", "subject_person": "second", "response_orientation": "addressee"}
+  전달: GYS-Q002:A1
+  관계: 직접 발견 경로
+
+DEV013 내일 몇 시에 만나면 될까요?
+  위치: 면 [10, 11]
+  분석: {"source_form": "-면"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+
+DEV014 아까 왜 아무 말도 안 했어?
+  위치: 아까 왜 아무 말도 안 했어? [0, 16]
+  분석: {"host_pos": "verb", "sentence_type": "interrogative", "question_type": "content", "host_class": "predicate_other_than_anida", "host_form": "하다", "stem_vowel": "a", "stem_coda": "absent", "subject_person": "second", "response_orientation": "addressee"}
+  전달: GYS-Q002:A1
+  관계: 직접 발견 경로
+
+DEV015 이 우산은 누구 거예요?
+  위치: 이 우산은 누구 거예요? [0, 13]
+  분석: {"host_pos": "copula", "host_class": "nominal_copula", "sentence_type": "interrogative", "question_type": "content", "host_form": "이다", "nominal_coda": "absent", "subject_person": "third", "response_orientation": "addressee"}
+  전달: GYS-H005:A4, GYS-H007:A4, GYS-H009:A4, GYS-H011:A4, GYS-H014:A2, GYS-H028:A4
+  관계: 직접 발견 경로
+
+DEV016 너는 지금 집에 가는 거야, 아니면 회사로 돌아가는 거야?
+  위치: 는 [10, 11]
+  분석: {"source_form": "-는"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+  위치: 야 [13, 14]
+  분석: {"source_form": "-야"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+  위치: 면 [18, 19]
+  분석: {"source_form": "-면"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+  위치: 는 [27, 28]
+  분석: {"source_form": "-는"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+
+DEV017 문 좀 닫아 주세요.
+  위치: 문 좀 닫아 주세요. [0, 11]
+  분석: {"host_pos": "verb", "sentence_type": "imperative", "host_class": "predicate_other_than_anida", "host_form": "닫다", "stem_vowel": "a", "stem_coda": "absent", "speech_act": "request", "action_participants": "addressee_only", "intention_holder": "speaker", "subject_person": "second"}
+  전달: GYS-H014:A3, GYS-H028:A5, GYS-H028:A9, GYS-R039:A14
+  관계: 직접 발견 경로
+  위치: 아 [5, 6]
+  분석: {"source_form": "-어"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+
+DEV018 이 상자 옮기는 것 좀 도와줄래?
+  위치: 는 [7, 8]
+  분석: {"source_form": "-는"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+  위치: 와 [14, 15]
+  분석: {"source_form": "-어"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+
+DEV019 바닥이 미끄러우니까 천천히 걸으세요.
+  위치: 바닥이 미끄러우니까 [0, 10]
+  분석: {"host_pos": "adjective", "sentence_type": "declarative", "host_class": "predicate_other_than_anida", "host_form": "미끄러우", "stem_vowel": "u", "stem_coda": "absent", "clause_relation": "cause", "subject_person": "third", "source_form": "-(으)니까"}
+  전달: GYS-G034:A1, GYS-G034:A2, GYS-G034:A3, GYS-G034:A4, GYS-G034:A5, GYS-R047:A1
+  관계: 직접 발견 경로
+  위치: 우니까 [7, 10]
+  분석: {"source_form": "-(으)니까", "clause_relation": "cause"}
+  전달: GYS-G034:A1, GYS-G034:A2, GYS-G034:A3, GYS-G034:A4, GYS-G034:A5, GYS-R047:A1
+  관계: 직접 발견 경로
+
+DEV020 그 얘기는 다른 사람한테 하지 마.
+  위치: 그 얘기는 다른 사람한테 하지 마. [0, 19]
+  분석: {"host_pos": "verb", "sentence_type": "imperative", "host_class": "predicate_other_than_anida", "host_form": "하다", "stem_vowel": "a", "stem_coda": "absent", "meaning": "금지", "speech_act": "request", "action_participants": "addressee_only", "intention_holder": "speaker", "subject_person": "second"}
+  전달: GYS-R039:A13
+  관계: 직접 발견 경로
+  위치: 지 [15, 16]
+  분석: {"source_form": "-지"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+
+DEV021 잠깐만 기다려 주세요. 제가 확인해 볼게요.
+  위치: 잠깐만 기다려 주세요. [0, 12]
+  분석: {"host_pos": "verb", "sentence_type": "imperative", "host_class": "predicate_other_than_anida", "host_form": "기다리다", "stem_vowel": "이", "stem_coda": "absent", "speech_act": "request", "action_participants": "addressee_only", "subject_person": "second"}
+  전달: GYS-H014:A3, GYS-H028:A5, GYS-H028:A9, GYS-R039:A14
+  관계: 직접 발견 경로
+  위치: 제가 확인해 볼게요. [13, 24]
+  분석: {"host_pos": "verb", "sentence_type": "declarative", "host_class": "predicate_other_than_anida", "host_form": "확인하다", "stem_vowel": "아", "stem_coda": "absent", "speech_act": "state_intention", "intention_holder": "speaker", "subject_person": "first", "following_predicate_role": "auxiliary"}
+  전달: GYS-H014:A1, GYS-H028:A3, GYS-H028:A7, GYS-J013:A4, GYS-R041:A8
+  관계: 직접 발견 경로
+  위치: 려 [6, 7]
+  분석: {"source_form": "-어"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+  위치: 해 [18, 19]
+  분석: {"source_form": "-어"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+
+DEV022 시간 괜찮으면 같이 점심 먹자.
+  위치: 시간 괜찮으면 [0, 7]
+  분석: {"host_pos": "adjective", "sentence_type": "declarative", "host_class": "predicate_other_than_anida", "host_form": "괜찮다", "stem_vowel": "a", "stem_coda": "absent", "clause_relation": "condition", "subject_person": "second"}
+  전달: GYS-R005:A1, GYS-R046:A1
+  관계: 직접 발견 경로
+  위치: 시간 괜찮으면 같이 점심 먹자. [0, 17]
+  분석: {"host_pos": "verb", "sentence_type": "hortative", "host_class": "predicate_other_than_anida", "host_form": "먹다", "stem_vowel": "e", "stem_coda": "absent", "speech_act": "request", "action_participants": "speaker_and_addressee", "intention_holder": "speaker", "subject_person": "first"}
+  전달: GYS-R040:A9
+  관계: 직접 발견 경로
+  위치: 으면 [5, 7]
+  분석: {"source_form": "-으면", "clause_relation": "condition"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+
+DEV023 어제부터 목이 아팠는데 오늘은 좀 괜찮아요.
+  위치: 어제부터 목이 아팠는데 [0, 12]
+  분석: {"host_pos": "adjective", "host_class": "predicate_other_than_anida", "host_form": "아프다", "stem_vowel": "ㅓ", "stem_coda": "absent", "subject_person": "third", "clause_relation": "concession"}
+  전달: GYS-R044:A1
+  관계: 직접 발견 경로
+  위치: 오늘은 좀 괜찮아요. [13, 24]
+  분석: {"host_pos": "adjective", "host_class": "predicate_other_than_anida", "host_form": "괜찮다", "stem_vowel": "ㅏ", "stem_coda": "absent", "subject_person": "third", "sentence_type": "declarative"}
+  전달: GYS-H014:A1, GYS-H028:A3, GYS-H028:A7, GYS-J013:A4, GYS-R041:A8
+  관계: 직접 발견 경로
+  위치: 는데 [10, 12]
+  분석: {"source_form": "-는데", "clause_relation": "concession"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+
+DEV024 내가 도착할 때까지 여기서 기다려.
+  위치: 내가 도착할 때까지 여기서 기다려. [0, 19]
+  분석: {"host_pos": "verb", "sentence_type": "imperative", "host_class": "predicate_other_than_anida", "host_form": "기다리다", "stem_vowel": "i", "stem_coda": "absent", "speech_act": "request", "action_participants": "addressee_only", "intention_holder": "speaker", "beneficiary": "speaker", "subject_person": "second"}
+  전달: GYS-R039:A13
+  관계: 직접 발견 경로
+  위치: 내가 도착할 때까지 [0, 10]
+  분석: {"host_pos": "verb", "sentence_type": "declarative", "host_class": "predicate_other_than_anida", "host_form": "도착하다", "stem_vowel": "a", "stem_coda": "absent", "subject_person": "first", "clause_relation": "condition"}
+  전달: GYS-R005:A1, GYS-R046:A1
+  관계: 직접 발견 경로
+  위치: 할 [5, 6]
+  분석: {"source_form": "-ᆯ"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+
+DEV025 시간이 없으면 내일 해도 돼.
+  위치: 시간이 없으면 [0, 7]
+  분석: {"host_pos": "adjective", "host_class": "predicate_other_than_anida", "host_form": "없다", "stem_vowel": "없", "stem_coda": "absent", "meaning": "condition", "subject_person": "third", "clause_relation": "condition"}
+  전달: GYS-G003:A1, GYS-G003:A2, GYS-R005:A1, GYS-R046:A1
+  관계: 직접 발견 경로
+  위치: 내일 해도 돼. [8, 16]
+  분석: {"host_pos": "verb", "sentence_type": "declarative", "host_class": "predicate_other_than_anida", "host_form": "하다", "stem_vowel": "하", "stem_coda": "absent", "speech_act": "request", "action_participants": "addressee_only", "intention_holder": "speaker", "subject_person": "second"}
+  전달: GYS-R041:A7
+  관계: 직접 발견 경로
+  위치: 으면 [5, 7]
+  분석: {"source_form": "-으면", "clause_relation": "condition"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+  위치: 해도 [11, 13]
+  분석: {"source_form": "-어도"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+
+DEV026 늦을까 봐 조금 일찍 나왔어요.
+  위치: 늦을까 봐 [0, 5]
+  분석: {"host_pos": "adjective", "host_form": "늦다", "stem_vowel": "ㅜ", "stem_coda": "absent", "clause_relation": "cause"}
+  전달: GYS-R047:A1, GYS-R047:A2
+  관계: 직접 발견 경로
+  위치: 조금 일찍 나왔어요. [6, 17]
+  분석: {"host_pos": "verb", "host_form": "나오다", "stem_vowel": "ㅗ", "stem_coda": "absent", "sentence_type": "declarative", "subject_person": "first"}
+  전달: GYS-H014:A1, GYS-H028:A3, GYS-H028:A7, GYS-J013:A4, GYS-R041:A8
+  관계: 직접 발견 경로
+  위치: 을까 [1, 3]
+  분석: {"source_form": "-을까"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+  위치: 봐 [4, 5]
+  분석: {"source_form": "-어", "clause_relation": "cause"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+
+DEV027 동생이 오늘은 늦게 온다고 했어.
+  위치: 동생이 오늘은 늦게 온다고 했어. [0, 18]
+  분석: {"host_pos": "verb", "sentence_type": "declarative", "host_class": "predicate_other_than_anida", "host_form": "하다", "stem_vowel": "a", "stem_coda": "absent", "subject_person": "third"}
+  전달: GYS-R041:A7
+  관계: 직접 발견 경로
+  위치: 게 [9, 10]
+  분석: {"source_form": "-게"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+  위치: 온다고 [11, 14]
+  분석: {"construction_kind": "quotative_hada", "quotation_type": "statement", "source_form": "-고"}
+  전달: GYS-G072:A1, GYS-G072:A2, GYS-R007:A1, GYS-R007:A2
+  관계: edge:12ae41bd7a2f43ead667984d
+  위치: 온다고 했 [11, 16]
+  분석: {"construction_kind": "quotative_hada", "quotation_type": "statement", "source_form": "-고 하-"}
+  전달: GYS-O004:A5
+  관계: edge:27412b235976f539db532f84
+  위치: 온다고 했어 [11, 17]
+  분석: {"construction_kind": "quotative_hada", "quotation_type": "statement", "source_form": "-고 했어"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+
+DEV028 아까 말한 건 이걸 버리라는 뜻이 아니었어요.
+  위치: 아까 말한 건 이걸 버리라는 뜻이 아니었어요. [0, 25]
+  분석: {"host_pos": "copula", "host_class": "negative_copula", "host_form": "아니다", "sentence_type": "declarative", "subject_person": "third", "stem_coda": "absent", "stem_vowel": "a"}
+  전달: GYS-H014:A1, GYS-H028:A3, GYS-H028:A7, GYS-J013:A4, GYS-R041:A8
+  관계: 직접 발견 경로
+  위치: 한 [4, 5]
+  분석: {"source_form": "-ᆫ"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+  위치: 라는 [13, 15]
+  분석: {"source_form": "-라는"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+
+DEV029 그 가게에 가 봤는데 음식이 괜찮더라.
+  위치: 그 가게에 가 봤는데 [0, 11]
+  분석: {"host_pos": "verb", "sentence_type": "declarative", "host_class": "predicate_other_than_anida", "host_form": "가다", "stem_vowel": "a", "stem_coda": "absent", "subject_person": "first", "clause_relation": "cause"}
+  전달: GYS-R047:A1, GYS-R047:A2
+  관계: 직접 발견 경로
+  위치: 음식이 괜찮더라 [12, 20]
+  분석: {"host_pos": "adjective", "sentence_type": "declarative", "host_class": "predicate_other_than_anida", "host_form": "괜찮다", "stem_vowel": "a", "stem_coda": "absent", "subject_person": "third"}
+  전달: GYS-R041:A7
+  관계: 직접 발견 경로
+  위치: 가 [6, 7]
+  분석: {"source_form": "-어"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+  위치: 는데 [9, 11]
+  분석: {"source_form": "-는데", "clause_relation": "cause"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+
+DEV030 피곤하면 먼저 자. 뒷정리는 내가 할게.
+  위치: 피곤하면 먼저 자. [0, 10]
+  분석: {"host_pos": "verb", "sentence_type": "imperative", "host_class": "predicate_other_than_anida", "host_form": "자", "stem_vowel": "a", "stem_coda": "absent", "speech_act": "request", "action_participants": "addressee_only", "subject_person": "second"}
+  전달: GYS-R039:A13
+  관계: 직접 발견 경로
+  위치: 뒷정리는 내가 할게. [11, 22]
+  분석: {"host_pos": "verb", "sentence_type": "declarative", "host_class": "predicate_other_than_anida", "host_form": "할게", "stem_vowel": "a", "stem_coda": "absent", "speech_act": "state_intention", "intention_holder": "speaker", "subject_person": "first"}
+  전달: GYS-R041:A7
+  관계: 직접 발견 경로
+  위치: 면 [3, 4]
+  분석: {"source_form": "-면"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+
+NEW01 형이 모레 부산에 간다고 했어요.
+  위치: 형이 모레 부산에 간다고 했어요. [0, 18]
+  분석: {"host_pos": "verb", "host_class": "predicate_other_than_anida", "host_form": "하다", "sentence_type": "declarative", "following_predicate_role": "lexical"}
+  전달: GYS-H014:A1, GYS-H028:A3, GYS-H028:A7, GYS-J013:A4, GYS-R041:A8
+  관계: 직접 발견 경로
+  위치: 간다고 [10, 13]
+  분석: {"construction_kind": "quotative_hada", "quotation_type": "statement", "source_form": "-고"}
+  전달: GYS-G072:A1, GYS-G072:A2, GYS-R007:A1, GYS-R007:A2
+  관계: edge:12ae41bd7a2f43ead667984d
+  위치: 간다고 했 [10, 15]
+  분석: {"construction_kind": "quotative_hada", "quotation_type": "statement", "source_form": "-고 하-"}
+  전달: GYS-O004:A5
+  관계: edge:27412b235976f539db532f84
+  위치: 간다고 했어요 [10, 17]
+  분석: {"construction_kind": "quotative_hada", "quotation_type": "statement", "source_form": "-고 했어요"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+
+NEW02 형이 아침에 운동을 했어요.
+  위치: 형이 아침에 운동을 했어요. [0, 15]
+  분석: {"host_pos": "verb", "host_class": "predicate_other_than_anida", "host_form": "하다", "sentence_type": "declarative", "subject_person": "third", "meaning": "과거에 행한 행위의 보고"}
+  전달: GYS-H014:A1, GYS-H028:A3, GYS-H028:A7, GYS-J013:A4, GYS-R041:A8
+  관계: 직접 발견 경로
+
+NEW03 어디에서 그 우산을 샀어?
+  위치: 어디에서 그 우산을 샀어? [0, 14]
+  분석: {"host_pos": "verb", "sentence_type": "interrogative", "question_type": "content", "host_class": "predicate_other_than_anida", "host_form": "사다", "stem_vowel": "a", "stem_coda": "absent", "response_orientation": "addressee"}
+  전달: GYS-Q002:A1
+  관계: 직접 발견 경로
+
+NEW04 여기에서 그 우산을 샀어?
+  위치: 여기에서 그 우산을 샀어? [0, 14]
+  분석: {"host_pos": "verb", "sentence_type": "interrogative", "question_type": "content", "host_class": "predicate_other_than_anida", "host_form": "사다", "stem_vowel": "a", "stem_coda": "absent", "speech_act": "ask_intention", "response_orientation": "addressee"}
+  전달: GYS-Q002:A1
+  관계: 직접 발견 경로
+
+NEW05 어디에서 그 우산을 샀어요?
+  위치: 어디에서 그 우산을 샀어요? [0, 15]
+  분석: {"host_pos": "verb", "sentence_type": "interrogative", "question_type": "content", "host_class": "predicate_other_than_anida", "host_form": "사다", "stem_vowel": "a", "stem_coda": "absent", "subject_person": "second", "response_orientation": "addressee"}
+  전달: GYS-H005:A4, GYS-H007:A4, GYS-H009:A4, GYS-H011:A4, GYS-H014:A2, GYS-H028:A4
+  관계: 직접 발견 경로
+
+NEW06 학교로 걸어가는 동안 전화를 받았어요.
+  위치: 학교로 걸어가는 동안 전화를 받았어요. [0, 21]
+  분석: {"host_pos": "verb", "host_class": "predicate_other_than_anida", "host_form": "받다", "sentence_type": "declarative", "stem_vowel": "a", "stem_coda": "absent", "meaning": "과거에 전화를 받았다."}
+  전달: GYS-H014:A1, GYS-H028:A3, GYS-H028:A7, GYS-J013:A4, GYS-R041:A8
+  관계: 직접 발견 경로
+  위치: 는 [7, 8]
+  분석: {"source_form": "-는"}
+  전달: 없음 — 조건/적용 위치 미충족 또는 분량 제한
+  관계: 직접 발견 경로
+
+NEW07 설거지를 하다가 잠시 앉았어요.
+  위치: 설거지를 하다가 [0, 8]
+  분석: {"host_pos": "verb", "host_class": "predicate_other_than_anida", "host_form": "하다", "stem_vowel": "a", "stem_coda": "absent", "clause_relation": "simultaneous_action", "source_form": "-다가"}
+  전달: GYS-R043:A1
+  관계: 직접 발견 경로
+  위치: 잠시 앉았어요. [9, 17]
+  분석: {"host_pos": "verb", "host_class": "predicate_other_than_anida", "host_form": "앉다", "stem_vowel": "a", "stem_coda": "absent", "sentence_type": "declarative", "subject_person": "first"}
+  전달: GYS-H014:A1, GYS-H028:A3, GYS-H028:A7, GYS-J013:A4, GYS-R041:A8
+  관계: 직접 발견 경로
+  위치: 다가 [6, 8]
+  분석: {"source_form": "-다가", "clause_relation": "simultaneous_action"}
+  전달: GYS-R043:A1
+  관계: 직접 발견 경로
+
+NEW08 직원이 저쪽에서 기다리라고 하셨어요.
+  위치: 직원이 저쪽에서 기다리라고 하셨어요. [0, 20]
+  분석: {"host_pos": "verb", "host_class": "predicate_other_than_anida", "host_form": "하다", "sentence_type": "declarative", "subject_person": "third"}
+  전달: GYS-H014:A1, GYS-H028:A3, GYS-H028:A7, GYS-J013:A4, GYS-R041:A8
+  관계: 직접 발견 경로
+  위치: 라고 [12, 14]
+  분석: {"construction_kind": "quotative_rago_hada", "quotation_type": "command", "source_form": "-고"}
+  전달: GYS-G072:A1, GYS-G072:A2
+  관계: 직접 발견 경로
+  위치: 라고 하 [12, 16]
+  분석: {"construction_kind": "quotative_rago_hada", "quotation_type": "command", "source_form": "-고 하-"}
+  전달: GYS-O004:A5, GYS-P016:A3, GYS-P016:A4
+  관계: 직접 발견 경로
+  위치: 라고 하셨어요 [12, 19]
+  분석: {"construction_kind": "quotative_rago_hada", "quotation_type": "command", "source_form": "-고 하셨어요"}
+  전달: GYS-P016:A3, GYS-P016:A4
+  관계: 직접 발견 경로
+

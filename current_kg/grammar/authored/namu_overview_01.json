@@ -200,7 +200,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "문장 속 보조용언 기능으로 확인한 사례이며 본동사 버리다와 구별한다."
+              "mapping_note": "문장 속 보조용언 기능으로 확인한 사례이며 본동사 버리다와 구별한다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "example_only",
             "evidence_keys": [
@@ -234,7 +237,10 @@
               "input_features": [
                 "following_form"
               ],
-              "mapping_note": "관찰된 연결형과 활용표를 연결할 근거로 쓴다."
+              "mapping_note": "관찰된 연결형과 활용표를 연결할 근거로 쓴다.",
+              "feature_sources": {
+                "following_form": "candidate"
+              }
             },
             "assertion_mode": "example_only",
             "evidence_keys": [

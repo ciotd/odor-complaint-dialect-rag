@@ -1,0 +1,3630 @@
+{
+  "source_id": "JO2018",
+  "facts": [
+    {
+      "id": "JO2018:v2:intro:0001",
+      "type": "context",
+      "source_pattern": {
+        "text": "연구 범위",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "경북의 방언형과 표준형 종결어미를 함께 분석. 방언형만이 실제 발화라는 전제 배제",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 13,
+          "quote": "계 (\n                                           경북 편)\n                                               (이하\n대계 라 함)\n      을 대상으로 1980년대의 경북방언 종결어미를 분석하여 지역\n분포 및 사용 양상과 통사･의미적 특성을 밝히는 데에 목적이 있다.구체적\n으로는    대계 의 전산화를 통해 추출된 모든 종결어미를 문장 종결법과 상\n대 높임법에 따라 분류하고,이들을 방언형과 표준형으로 구분하여 종결어\n미의 종류를 확인한다.그리고 형태별 빈도수를 제시하여 지역 분포와 사용\n양상을 파악하여 1980년대의 종결어미가 어떠한 양상으로 쓰였는지 논의한\n다.마지막으로 종결어미의 통사와 의미를 분석하고 그 특성을 살펴보는 것\n을 목적으로 한다.기존 연구에서는 대부분 방언형만을 대상으로 연구가 진\n행된 반면,이 연구에서는 한 시기의 자료를 바탕으로 방언형과 표준형을\n비교하여 그 사용 정도를 파악함으로써,당시 종결어미가 어떠한 양상으로\n쓰였는지 실질적으로 확인할 수 있다는 점에서 연구의 차별성을 갖는다.\n 방언을 이상적으로 연구하는 방법은,해당 방언을 사용하는 지역 전체를\n조"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0002",
+      "type": "context",
+      "source_pattern": {
+        "text": "자료 선택",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "구어 자료를 통한 실제 사용과 지역분포 검토. 질문지 응답의 문법성 판단과 구술 자료의 빈도를 구별",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 14,
+          "quote": "근래에 와서 국립국어원 및 학술 단체에서는 다양한 사업을 통해 방언 자\n료 구축 사업을 진행하고 있다.구체적인 사례로,국립국어원에서는 2004년\n‘\n전국 지역어 조사 사업’\n            ,2007년 ‘\n                   민족 생활어 조사 사업’등이 진행되었고,\n문학 작품에 나타난 방언들을 수집･정리하여,‘\n                        문학 속의 방언’총서를 발간\n하였다.또한 각 연구자 및 민간단체에서도 방언사전 및 방언 구술사,방언\n지도 등 다양한 유형의 자료를 발간하고 있다.이뿐만 아니라,국립국어원\n누리집에서는 지역어 찾기,듣기,구술 자료 등을 제공하고 있어서 방언 자\n료에 대한 접근성이 용이해졌다.\n                2) 즉 국어 방언 전반을 좀 더 체계적이고\n\n광범위하게 파악할 수 있는 환경이 조성되었을 뿐만 아니라,개인 연구자\n입장에서도 효율적인 연구를 진행할 수 있게 된 것이다.실제 해당 지역의\n방언 자료를 활용하여 점차 다양한 연구가 이루어지고 있다.이러한 방언\n자료 유형 중,현재 가장 방대한 방언 구술 자료가            한국구비문학대계 이\n 3\n다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0003",
+      "type": "context",
+      "source_pattern": {
+        "text": "기존 연구의 한계",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "특정 지역이나 범주 중심 연구와 전체 경북 분포 연구를 구분",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 15,
+          "quote": "러한 논의들은 몇 개의 구술 자료나 조사된 방언 어휘를 활용해 연구를 하\n던 기존의 방식을 벗어나,방대한 구술 데이터베이스를 구축하고 이를 활용\n해 연구하는 것으로 방언 연구 방법론이 전환되고 있음을 보여준다.\n 방언 구술 자료는,그 자료적 특성에 따라 음운,어휘,형태와 통사,의미,\n담화,방언 지도,문화 콘텐츠 등 다양한 연구에 활용될 수 있다.또한 자료\n의 구축 범위가 클수록,각 방언권별 특징 및 지역별 방언 차이를 보다 구\n체적으로 파악할 수 있을 뿐만 아니라,이를 통해 좀 더 세밀한 방언 구획\n도 가능해진다.그리고 연구자 입장에서는 개별 방언 연구의 어려움을 극복\n할 수 있다는 점,언어적 측면에서는 한국어 전반의 모습을 좀 더 다양하게\n살펴볼 수 있다는 점에서도 방언 구술 자료의 활용은 광범위하다.그리고\n자료의 구축 정도가 시기별로 이루어진다면,방언권 간의 비교와 더불어 통\n시적 현상까지 살펴볼 수 있으므로 더욱 많은 방언 구술 자료의 수집과 체\n계화가 필요한 시점이다.\n 경북방언"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0004",
+      "type": "context",
+      "source_pattern": {
+        "text": "연구사",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "기존 지역방언 연구의 기술 범주·자료 수집법 소개; 재인용은 독립 실증 자료가 아님",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 16,
+          "quote": "1.\n 2.선행 연구 검토\n\n\n 문순덕(\n    2009)\n        에서는 2000년부터 2008년 이후에 발표된 방언 문법 연구 현\n황을 격조사,보조사,파생어,합성어,문법화,보조용언,연결어미,종결어미,\n시제･상･양태,대우법,피동･사동법,부정법 등으로 나누어 방언 문법 연구\n현황을 제시하고 있다.그 중에서 특히,경상도방언과 제주도방언이 다른 지\n역 방언에 비해 상당히 많은 연구가 이루어짐을 밝히고 있고,그 이유로는\n‘\n두 방언권의 독자성 인식이 강하다’\n                  고 언급하고 있다.이와 더불어 김무식\n(\n2011)\n    과 안귀남(\n         2016)\n             에서는 경북방언을 중심으로 그 연구 성과와 현황을\n구체적으로 제시하고 있는데,‘\n               음운론 〉문법론 〉일반론 〉어휘론 〉지역어\n조사 〉문헌 연구 〉구획/\n             경계’순으로 연구 영역의 정도를 보여주고 있다.\n여기서 주목할 점은, 대계 를 비롯한 방언 자료를 대상으로 하여 본격적으\n로 이루어진 연구는 그리 많지"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0005",
+      "type": "context",
+      "source_pattern": {
+        "text": "연구사 계속",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "문법 형태 및 지역별 형태소 분석의 선행 연구 비교",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 17,
+          "quote": "였다.특히 방언 자료 전산화의 문제점을 지적하고,방언 자료를\n활용한 연구의 필요성을 역설하였다.정승철(\n                      2014)\n                          에서는 한국 방언 자료집\n의 편찬 역사를 종이 출판 시기와 전자 출판 시기로 크게 구분하여 분석하\n였다.그리고 방언 자료집의 유형을 단어를 수록한 ‘\n                           사전류’\n                              ,‘지도류’\n                                   ,‘검색\n프로그램류’\n     와 텍스트를 수록한 방언 자료집으로 유형화하고 각각의 자료집\n의 성격을 분석하여 그 특성을 보여주고 있다.특히 전국 단위의 자료집으\n로 ‘한국구비문학대계 , 민중자서전 ,｢지역어 전사 보고서｣, 지역어 구술\n자료 총서 ,｢민족 생활어 조사 보고서｣’등을 제시하였다.또한 시대와 지\n역별 통계를 제시하여 방언 자료집 편찬의 흐름을 구체적으로 밝히고 있다.\n소신애(\n   2014)\n       에서는 대상 권역에 따라 전국 방언 자료집과 대방언권 자료집\n목록을 제시하고 수록 자료의 성격,자료집의 유형(\n                          자료집,사전류,기타)\n                                    으\n로 구분한 뒤,이를 거시 구조(\n        "
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0006",
+      "type": "context",
+      "source_pattern": {
+        "text": "선행 연구의 해여·보조사",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "해여는 높임/비높임 모두 사용한다는 이혁화의 분석. 명령형+보자의 종결보조사 분석은 재인용",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 18,
+          "quote": "된 용례를 바탕으로 비교･분석하였다.특히 이 지역에서만 사용되\n는 ‘\n  해여체’\n     를 비격식체에 포함시켜 종전의 비격식 체계와는 다른 점이 특징\n이다.이혁화(\n      2007ㄴ)\n           에서는 종결어미 ‘\n                    -어여’\n                       의 음운,형태,상대경어법적 특\n징으로 나누어 분석하였고,특히 비격식체인 해요체와 해체에 두루 쓰이고\n있음을 밝히고 있다.이혁화(\n              2009)\n                  에서는 의문법 어미 ‘\n                             -는교’\n                                의 이형태 교\n체,상대 경어법상의 지역적 차이,형태의 기원을 분석하였다.특히 ‘\n                                   -는교’\n는 ‘\n  -는 것(\n      형식명사)\n          -이(\n            계사)\n              -요(\n                의문형어미)\n                     ’의 구조로 파악하고 있다.이\n혁화(\n  2010)\n      에서는 경상방언 사동사인 ‘\n                    꺼주다,널쭈다,떨주다,빠주다,터주\n다,퍼주다’\n     의 의미와 기능을 분석하고,중앙어 ‘\n          "
+        }
+      ],
+      "claim_status": "secondary_report",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0007",
+      "type": "context",
+      "source_pattern": {
+        "text": "경북 문법 선행 연구",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "개별 지역·형태 연구와 비교 문법 연구의 범위 차이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 19,
+          "quote": "화를 대상으로 텍스트 언어학적 측면을 바탕으로\n응결성과 응집성 양상을 연구하였다.\n 이밖에도    대계 는 아니지만 구술 자료를 통한 국어학적 연구가 있다.임\n정민(\n  2008)\n      에서는 동일한 유형의 구술 자료집인          한국민요집Ⅰ 을 대상으로\n경남방언의 음운,형태,어휘적 특징을 밝혔고,김현주(\n                           1997)\n                               는 민담의 결속\n구조를,윤석민(\n       1999)\n           에서는 설화텍스트의 화행적 기능을,심우장(\n                                 2001ㄴ)\n                                      에\n서는 ‘\n   근데’\n     ,‘그래’\n         류의 담화 표지 기능을 살폈다.그리고 박지윤(\n                                 2011)\n                                     에서\n는 경북방언 담화표지 ‘\n            인자’\n              의 실현양상을 텍스트 언어학적 측면에서 분석\n하였다.\n 셋째,문헌을 대상으로 이루어진 방언 연구로,서재극(\n                            1962)\n                                ,김주원"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0008",
+      "type": "context",
+      "source_pattern": {
+        "text": "상대높임 분류의 이견",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "연구자별 등급 수와 명칭이 일치하지 않음. 표를 보편적 단일 체계로 합치지 않음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 20,
+          "quote": "한 선행연구 검토이다.경북방언 종결어\n미 연구는,문장 종결법 체계,상대 높임법 체계 연구와 더불어,기능 및 통\n사적 특성을 밝힌 연구가 주를 이루었다.특히 문장 종결법의 설정 방식과\n상대 높임법 등급 체계에서 연구 범위 및 지역에 따라 다양한 차이를 보이\n고 있다.여기에서는 문장 종결법 연구와 상대 높임법에 대한 체계 연구,종\n결어미의 통사적 연구로 나누어 기존 연구를 살펴보기로 한다.\n 첫째,문장 종결법과 상대 높임법에 대한 연구는,동남 방언 등의 대방언\n권과 동해안 등의 특정 지역을 대상으로 한 연구와 함께 경상북도의 행정\n구역을 대상으로 한 지역어 연구로 구분할 수 있다.대방언권 및 특정 지역\n을 대상으로 한 연구에는 정인상(\n                 1998)\n                     ,이기갑(\n                         2003)\n                             ,정희선(\n                                 2013)\n                                     ,정철\n(\n1997)\n    , 김병제(\n         1965)\n             , 황대화(\n                  1998)\n                      , 리동빈(\n                           2004)\n      "
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0009",
+      "type": "context",
+      "source_pattern": {
+        "text": "상대높임 체계 비교표",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "연구자별 3/4/5단계 등 분류 차이 보존; 표의 분류값은 연구자 소유 주장",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 21,
+          "quote": "<표 1> 경북 대방언권의 종결어미 체계 설정 양상 5)\n\n 지역     연구자     용어          상대 높임법             문장 종결법\n        김병제                  존대,하오,하게,          서술법,의문법,\n                계칭범주   5                   4\n        (19\n          65)                 반말,해라             명령법,권유법\n        황대화                                     알림법,물음법,\n                말차림    3     높임,같음,낮춤      4\n        (19\n          98)                                   시킴법,추김법\n        정 철                                      서술,의문,\n                경어법    -        -          4\n        (\n        1997)                                    명령,청유\n                                                서술법,의문법,\n        정인상     청자\n                       3     존대"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0010",
+      "type": "context",
+      "source_pattern": {
+        "text": "등급 판별 기준",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "소/요·해여의 지위와 자료·지역 차이가 분류 차이에 기여",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 22,
+          "quote": "체,하소체,하게체,해라체의 4등급과 비격\n식체의 해요체,해체,해여체의 3등급으로 나누어 다른 경북 지역과 그 등급\n의 차이가 남을 밝히고 있다.그리고 박원우(\n                       1973)\n                           에서는 비격식체인 해요체\n를 포함시켜 4등급으로 제시하였다.이러한 연구들은 경북방언에서 격식체\n와 비격식체,3등급과 4등급에 대한 실질적 차이를 논의할 필요성을 증명한\n다.\n 문장 종결법은 서술형,의문형,명령형,청유형을 공통적으로 제시하고,감\n탄형을 독립적으로 설정한 연구(\n                박원우:\n                   1973)\n                       와 공동법,약속법,경계법 등\n\n\n                   -1\n                    0"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0011",
+      "type": "context",
+      "source_pattern": {
+        "text": "지역 연구의 분포표",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "개별 지역 연구의 상대높임 등급 수를 비교한 연구사",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 23,
+          "quote": "다음으로 경북 하위 지역어의 종결어미 체계를 제시하면 다음과 같다.\n\n\n       <표 2> 경북 하위 지역어의 종결어미 체계 설정 양상 6)\n\n 지역   연구자    용어         상대 높임법             문장 종결법\n                                          서술법,의문법,명령법,\n      강신항              상칭,중칭,등칭,하칭,\n             대우법   5                  7   청유법,감탄법,허락법,\n      (\n      197\n        8)                 -아/\n                             어+요\n                                             약속법\n      배대온                                 서술형,의문형,명령형,\n             경어법   4   극존대,존대,평대,하대   5\n      (\n      197\n        9)                                 청유형,감탄법\n      김대현\n 안동          대우법   3   하소체,하게체,해라체    -        -\n      (\n      199\n        2)\n 방언\n      임지룡    청자                    "
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0012",
+      "type": "context",
+      "source_pattern": {
+        "text": "지역 편중",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "북서부 및 안동 등 연구와 경주·경산·청도·영천 등 연구의 편중을 검토",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 24,
+          "quote": "(\n      199\n        6)                 안높임법                청유법\n\n\n\n <표 2>는 경북 하위 지역어에 대한 기존 연구로,대부분 행정구역을 기\n준으로 하고 있다.지역적으로는 문경,예천,성주,상주 등 경북 서북부 지\n역이 많이 이루어졌고,개별적으로는 안동 방언권이 가장 많다.반면,경주,\n경산,청도,영천 등 남부 지역어의 연구가 보이지 않는다.즉 지역적으로\n편중된 연구가 이루어졌음을 알 수 있다.\n\n\n                          -1\n                           2"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0013",
+      "type": "context",
+      "source_pattern": {
+        "text": "는교 기원과 의문형 연구",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "는교의 기원에는 상이한 분석이 있고, 나/노 및 가/고의 선택은 서술어와 의문 성격에 관계",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 25,
+          "quote": ".\n 둘째,종결어미의 통사적 연구는,이 지역의 특성을 잘 보여주는 ‘\n                                   -는교’\n                                      ,\n‘\n-어여’\n   ,‘-나/\n       노’,‘\n          -가/\n            고’등에 대한 통사적 연구를 비롯하여 다양한 종결어\n미에 대한 연구가 이루어졌다.\n ‘\n -는교’\n    에 대한 연구에는,최명옥(\n                 1980)\n                     은 ‘\n                       -은/\n                         는 기요/\n                             교’는 이 지역의 ‘\n                                       -\n니껴,-이껴’\n      와 동일한 환경에서 쓰인다고 하였고,신기상(\n                             1980)\n                                 은 ‘\n                                   -는기요’\n                                       ,\n김영태(\n   1983)\n       는 ‘\n         -응/\n           능교’\n             , 김태엽("
+        }
+      ],
+      "claim_status": "secondary_report",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0014",
+      "type": "context",
+      "source_pattern": {
+        "text": "여·이·구마의 분석 논쟁",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "여의 종결어미/보조사 분석과 이의 확인·강조 기능, 구마의 서술/약속 및 성조 차이는 연구자별 주장",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 26,
+          "quote": "대등급,형태와 통사 및 의미 기능을 밝힌 연구\n이다.특히,‘\n      -여’\n        를 문장종결조사로 설정하고,화자가 명제나 청자에 대한\n의향을 한정하는 문법적인 기능을 한다고 설명하였다.이혁화(\n                               2007ㄴ)\n                                    에서도\n경북 서부방언에서 사용되는 ‘\n               -어여’\n                  의 음운,형태,상대 경어법적 특징을 분\n석하였는데,이 지역에서 쓰이는 ‘\n                 -어여’\n                    는 다른 문법 단위와 결합하는 경우\n가 적어 종결어미로 처리하고 있다.\n 천시권(\n    1975)\n        에서는 중세국어를 바탕으로 경북방언의 의문첨사를 하소체,\n하게체,해라체로 나누고 각 해당 형태를 통시적으로 분석하였다.특히 형태\n별 지역적 쓰임을 제시하여 방언 구획을 시도하였다.권재일(\n                               1982)\n                                   에서는 경\n북방언의 문장종결조사 ‘\n            -이’\n              의 문법적 지위 및 통사와 의미 특성을 분석하\n였다.특히 문장 종결법의 종류에 따른 결합 체계를 설정하고,‘\n                 "
+        }
+      ],
+      "claim_status": "secondary_report",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0015",
+      "type": "context",
+      "source_pattern": {
+        "text": "구로 기원과 성주 변화",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "구로 계열의 형태변이 및 게+로 기원 가설, 시기별 성주 연구 비교",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 27,
+          "quote": "시하고 있다.박신명･이혁화(\n                    2013)\n                        에서는 경상방언 어미 ‘\n                                    -구로’\n                                       에\n대한 변이형과 기능,통시적 형성 과정을 분석하였다.특히,‘\n                               -거러,-거로,\n-그러,-그로,-고로,-구러,-구로,-게로,-기로’등의 변이형을 제시하였\n고,어미 ‘\n     -게’\n       에 강조 표시 ‘\n               -로’\n                 가 결합된 구성 ‘\n                          -게로’\n                             에서 발달한 것으로\n추정하면서 ‘\n      -구로’\n         와 ‘\n           -게’\n             의 공존 현상을 설명하고 있다.\n 경북방언 종결어미의 통사적 연구를 종합해 보면,그 기능과 기원에 대한\n연구가 다른 방언권에 비해 많은 연구 성과를 이루었다.그러나 대부분의\n연구가 직접 조사와 질문지 방식으로 이루어졌기 때문에 조사 범위에 따라\n한계가 있다.그러므로   대계 와 같은 구술 자료를 대상으로 한 연구는 전\n통적 방식으로 이루어진 연구에 비해 종결어미가 쓰인 다양한 문"
+        }
+      ],
+      "claim_status": "secondary_report",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0016",
+      "type": "context",
+      "source_pattern": {
+        "text": "코퍼스 판본",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "18권 원자료를 분석. 이후 갱신분과 혼동하지 않으며 전사의 형태음소적 성격 및 전사자 판단의 한계 보존",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 28,
+          "quote": "연구의 대상은          한국구비문학대계 (\n                             경상북도 편)18책이다.\n                                         7) 이 자료\n\n에는 경주,월성,성주,영덕,상주,안동,봉화,군위,대구,달성,구미,선산,\n예천 등에 거주하는 경상북도 지역 발화자의 입말이 채록되어 있다.채록된\n내용은 ‘\n    설화,민요,무가’ 8\n            이다.)\n\n 문헌 연구에서 기본적으로 살펴보아야 할 사항은,대상 문헌이 가진 ‘\n                                     국어\n학적 성격’\n     이다.문헌을 통하여 어떠한 연구가 가능하며,무엇을 연구할 것\n인지를 판단해야 한다.즉 문헌이 가진 특성을 통해,국어학적 가치가 있는\n지를 판단하는 것이다.그러한 측면에서                  대계 는 어떠한 국어학적 성격을\n가지고 있는지 국어 연구 분야의 영역별 분석을 통해 보다 구체적인 자료의\n성격과 가치를 규명해 볼           필요가 있다.\n  대계 는 크게 구술 자료에 해당하며,각 지역 방언으로 전사하고 있다는\n점이 가장 큰 특징이다.그러므로 기본적으로 방언 연구 자료에 해당한다고\n볼 수 있다.\n      9) 여기에서는 연구 대상인              대계 에서 나타난 몇몇 사례를 통해"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0017",
+      "type": "context",
+      "source_pattern": {
+        "text": "표본과 시대",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "1978~1984년 채록, 13 시군 63 읍면 654 제보자. 주로 60~70대; 설화3264·민요1498·무가48",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 29,
+          "quote": "다.\n   1) 이 연구의 대상이 되는\n    0                        대계 는 총 18책으로 구성되어 있고,\n1978년부터 1984년 사이에 조사된 내용을 싣고 있다.그리고 조사 당시의\n행정 구역으로 경주,월성,성주,대구,달성,구미,선산,영덕,상주,안동,\n봉화,군위,예천 지역에 전해졌던 설화･민요･무가를 채록하여 수록하고 있\n다.\n  대계   82책의 총 수록 작품 수량은 설화가 15,\n                              107편,민요 6,\n                                       187편,무가\n376편이다.\n      1)이 중\n       1        대계 은 설화 3,\n                         264편,민요 1,\n                                  498편,무가 48편이 수록\n되었고,조사 지역은 13시(\n              군)63읍(\n                   면),제보자 수는 654명12)으로 확인되었\n으며,제보자는 대부분 60,70대에 분포13)하고 있다.\n                              14)\n\n  대계 는 각 조사 지역에 대한 개괄적 설명,조사 시기,조사자와 제보자\n정보,본문 시작 전 개요,구술 당시에 일어난 다양한 현장 묘사 등을 상세\n히 기술하고 있다.이를 통해 ‘\n "
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0018",
+      "type": "context",
+      "source_pattern": {
+        "text": "음성과 전사의 차이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "원음성 접근 가능성을 설명하지만 이번 구축은 PDF 전사 검토이며 음성을 검증한 것으로 표시하지 않음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 30,
+          "quote": "다.주목할 부분은,당시에 구술된 자료를 청취할 수 있\n게 해당 자료마다 음성 파일을 제공하고 있다는 점이다.그러므로 ‘\n                                   음성 듣\n기’\n 를 통해 텍스트와의 비교가 가능하고,실제 구연 당시의 현장을 생동감\n있게 접할 수 있다.\n          16)\n\n  대계 는 해당 지역에서 전승되는 설화･민요･무가를 마을에 거주하고 있\n는 제보자를 통한 ‘\n          구술 발화’\n               17\n                )를 채록･수집하여 그 지역의 방언형으로 전\n\n15)2차 년도 증보 사업에서는 디지털 편찬을 사업의 주요 항목으로 두고 있다.이에 대한\n  자세한 내용은 김병선( 20\n                09)참고.\n16)대계를 통한 음운 연구가 가능한 이유는,바로 음성 자료의 제공 때문이기도 하다.\n17) 대계 는 조사자-제보자의 관계에서 이루어진 발화이다.즉 인위적 관계에서 이루어진\n  다.이에 대해 박경래(2007:\n                  76-79\n                      )는 ‘\n                         자연 발화는 버스 안이나 가게,시장 등에서 그 지역\n  토박이 화자들끼리 하는 말을 관찰자가 우연히 듣거나 의도적으로 들을 수 있는 것이라\n  면,구술 발화는 주로"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0019",
+      "type": "context",
+      "source_pattern": {
+        "text": "표준 표기와 발음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "나흘·고드름의 표기와 방언 발음 불일치. 표준어로 보이는 전사를 곧 비방언으로 판정할 수 없음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 31,
+          "quote": ".\n\n\n   (\n   1)ㄱ.“\n       아따,그놈 개성놈 독하다 카디 독하긴 독하다요.사흘 나흘 굶고 그\n                ”\n        놈이 살아간다꼬.(\n                 7-1\n                   5:1\n                     95/\n                       구미)\n                         18)\n\n      ㄴ.“\n        문을 열어 도라”\n                카이 열어 주나 어른이 그래 앉아 있으이,우짤 수도\n        없고 이래가지고 그마 한 사 나흘 마 그래가 굶어가 눕은 기\n        라.\n         (7-1\n            4:1\n              11/\n                달성군)\n      ㄷ.새미(\n          수염)\n            에 고드름이 주룽주룽 달랬그던.\n                            (7-10:\n                                 572/\n                                    봉화)\n      ㄹ.막 여게 콧물캉 춤캉 고드름이 질질 달래.\n                              (7-6:\n                                  484/\n    "
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0020",
+      "type": "context",
+      "source_pattern": {
+        "text": "전사 한계",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "형태음소 표기와 음성 차이, 모음 체계의 지역차. 실제 발음은 텍스트만으로 확정 불가",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 32,
+          "quote": "당시 경북방언에서 실현되는 모음 체계와는 관계없이 표준어형을 그대로 표\n기하거나,전사자의 자의적 표기로 인해 일관성 없이 표기되어 있음을 알\n수 있다.또한 장모음의 실현 여부 및 다른 운율적 요소들은 형태 음소적\n표기로 인해 파악하기 어렵다.이러한 확인은 음성 자료를 활용하여 정확한\n전사를 통해서만 확인이 가능한 부분이다.\n                     19\n                      )\n\n  대계 와   한국방언자료집 의 비교에서 알 수 있듯이,형태 음소적 표기\n를 보여주고 있는     대계 에서는 음운론적 연구에 한계가 있음은 분명하다.\n그러나 현재 원문과 함께 그에 해당되는 음성 파일을 함께 제공하고 있으므\n로,이를 활용하여 정확한 전사가 가능하다.그리고 그러한 과정을 통해 음\n운론적 연구의 토대를 마련할 수 있다.앞에 제시한 예들 중에서 몇 가지만\n음성 파일을 활용하여 정밀 전사하면 다음과 같다.\n                          20\n                           )\n\n\n19)방언 음성형으로 표기되지 않았다는 점이 대계 가 가진 방언 자료로서의 한계로 지적\n  되어 왔다.즉 음운론 연구에서는 한계성을 가질 수밖에 없다는 평가"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0021",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "수염",
+        "domain": "standard",
+        "lemma": "수염",
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "새미",
+        "domain": "dialect",
+        "lemma": "새미",
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 33,
+          "quote": ":자기도 이제 한 사 나흘 굶어 놓았으니 배가 고프다 말이라.\n     ㄷ.원문:새미(\n            수염)\n              에 고드름이 주룽주룽 달랬그던.\n        I  ʷi\n        PA:s ːmi ːdi\n               Eko rƎmič\n                       uruŋč\n                           uruŋt\n                               all\n                                 ÉgƎt\n                                    Ǝn.\n        표준어:수염에 고드름이 주렁주렁 달렸거든.\n     ㄹ.원문:막 여게 콧물캉 춤캉 고드름이 질질 달래.\n        I   kýƎkEkʰó\n        PA:má         kʰá\n                   mmul ŋčʰúmkʰá ːdƎr\n                               ŋko  Ǝmič\n                                       il\n                                        či\n                                         lta\n                                           ll\n"
+        }
+      ],
+      "claim_status": "attested_example",
+      "usability": "candidate",
+      "notes": "전사와 표준어 풀이의 부분 대응. 예문에 나타난 용법 범위."
+    },
+    {
+      "id": "JO2018:v2:intro:0022",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "여기",
+        "domain": "standard",
+        "lemma": "여기",
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "여게",
+        "domain": "dialect",
+        "lemma": "여게",
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 33,
+          "quote": "t\n                                    Ǝn.\n        표준어:수염에 고드름이 주렁주렁 달렸거든.\n     ㄹ.원문:막 여게 콧물캉 춤캉 고드름이 질질 달래.\n        I   kýƎkEkʰó\n        PA:má         kʰá\n                   mmul ŋčʰúmkʰá ːdƎr\n                               ŋko  Ǝmič\n                                       il\n                                        či\n                                         lta\n                                           ll\n                                            É.\n        표준어:막 여기에 콧물하고 춤하고 고드름이 줄줄 달려.\n\n\n (\n 3)은 ‘대계 원문(\n           형태 음소적 표기)\n                    ,국제음성기호(\n                           IPA)\n                              ,표준어 대역’순\n으로 정밀전사한 것이다.\n            2) 앞서 살펴본 모음과 운소뿐만 아니라,다양한 음\n        "
+        }
+      ],
+      "claim_status": "attested_example",
+      "usability": "candidate",
+      "notes": "전사와 표준어 풀이의 부분 대응. 예문에 나타난 용법 범위."
+    },
+    {
+      "id": "JO2018:v2:intro:0023",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "이제",
+        "domain": "standard",
+        "lemma": "이제",
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "인자",
+        "domain": "dialect",
+        "lemma": "인자",
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 33,
+          "quote": "하긴 독하네요,사흘 나흘 굶고 그\n            놈이 살아간다고.\n     ㄴ.원문:자기도 인자 한 사 나흘 굶어났으이 배가 고프다 말이라.\n        PA:č\n        I  ági\n             toi\n               nčáhá\n                   ns  Ǝlkuːl\n                     aná    mƎná\n                               s       pʰƎdama\n                                ƎipÉgago     rir\n                                               a.\n        표준어:자기도 이제 한 사 나흘 굶어 놓았으니 배가 고프다 말이라.\n     ㄷ.원문:새미(\n            수염)\n              에 고드름이 주룽주룽 달랬그던.\n        I  ʷi\n        PA:s ːmi ːdi\n               Eko rƎmič\n                       uruŋč\n                           uruŋt\n                               all\n                                 ÉgƎt\n                                    Ǝn."
+        }
+      ],
+      "claim_status": "attested_example",
+      "usability": "candidate",
+      "notes": "전사와 표준어 풀이의 부분 대응. 예문에 나타난 용법 범위."
+    },
+    {
+      "id": "JO2018:v2:intro:0024",
+      "type": "context",
+      "source_pattern": {
+        "text": "티롱의 문화적 의미",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "시신을 바로 묻지 않고 가려 놓는 지역적 장례 관행의 문맥. 보통 명사의 단순 대치로 환원하지 않음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 34,
+          "quote": "ㄷ.티롱이라고 이전에는 대번 안장을 안 하고 어데 갖다 놔돗다가 새로 씁니다.쓰는\n       데,거어다가 모시 놓고 안장을 안 했어요.미를 안 써요 속히.해놨는데,그래 이\n                           (\n       늠아가 풍수집에를 매일 가요,밤으로만.7-8\n                              :74\n                                4/상주)\n\n\n (\n 4)에서는 ‘\n       티롱’\n         이라는 어휘가 쓰이고 있다.각각의 문장 관계에서 그 의\n미자질을 분석하면,(\n          4ㄱ)\n            에서는 의존명사 ‘\n                     데’와 관계하고 있으므로 [\n                                   +장소]\n                                      ,\n(\n4ㄴ)\n  에서는 동사 ‘\n         묶다’\n           와 관계하고 있으므로 [\n                       +물건]정도가 포함된 것임을\n추정할 수 있을 뿐,정확한 의미를 파악하기는 어렵다.그러나 (\n                                 4ㄷ)\n                                   에서는\n‘\n티롱’\n  에 대한 내용을 서술하고 있는데,구술한 제보자들"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0025",
+      "type": "context",
+      "source_pattern": {
+        "text": "지역형과 표준형 혼용",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "북부 니껴와 남부 니꺼의 경향 및 동일 화자의 표준형·방언형 혼용을 보존",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 35,
+          "quote": "(\n  5)ㄱ.“\n      아이 사돈 자에(\n              장에)어예 왔니껴?\n                       ”“난 소 팔로 왔니더.\n                                   ”(\n                                    7-1\n                                      8:3\n                                        01/\n                                          예천)\n      ㄴ.“\n        선생님,저저저 우리 누부 한분 귀경할랑가요?참 얼굴 잘 났씸니더.한분 귀경하\n        실랍니꺼?\n            ”(7\n              -13\n                :91\n                  /대구)\n      ㄷ.“\n        아부지 바이 뜨시니껴?\n                   ”카고,형,아침마중 와가주고.또 여름이며는 또,“\n                                             덥잖십\n        니까?\n          ”그래 여름이며는 여름 옷에 머 아부지 해드려라.\n                                    (7-7\n                                "
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0026",
+      "type": "context",
+      "source_pattern": {
+        "text": "설화 인용 발화",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "이야기 속 인물의 청자 관계와 조사자에게 하는 발화의 청자 관계를 분리",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 36,
+          "quote": "하여 응결성,응집성,상황성,정보성,상호텍스트성,대화 구조,담화 표지\n등 다양한 텍스트 분석이 가능하다.그리고 이를 통해 각 지역의 방언 텍스\n트를 비교 분석하고 지역적 특성을 밝히는 것은,국어 텍스트 연구의 큰 토\n대가 될 수 있다. 대계 를 비롯한 방언 구술 자료의 구축과 연구가 중요한\n이유가 바로 여기에 있다.여기에서는 담화 분석과 담화 표지를 사례로 들\n어 그 가능성을 살펴본다.\n\n\n    (\n    6)[\n      7-1\n        3:3\n          05-0\n             1]그래 인자,\n      [\n      7-1\n        3:3\n          05-0\n             2]“\n               고놈 매쳤잖는가,우리 집에 누가 있다고 너거 선생님 놀러 올라 그래\n               ”\n              요.\n      [\n      7-1\n        3:3\n          05-0\n             3]“\n               사철 그카잖아요.저 아래 저 혼자 사는 아주머이한테 놀러 한 번 가\n                         ”[\n              봤으만 사철 그캅니더. 웃음]\n      [\n      7-1\n        3:3\n          05-0\n             4]“\n               아,고놈이 매쳤"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0027",
+      "type": "context",
+      "source_pattern": {
+        "text": "설화 인용 발화 계속",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "인용된 등장인물 사이의 관계를 실제 제보자와 조사자의 관계로 오인하지 않음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 37,
+          "quote": "5/\n                                                대구)\n\n\n  (\n  7)[\n    7-1\n      2:1\n        37-0\n           5]그래 갔뿌고 나이 그래 인자 거 또 신랑하고 또 시애비하고 또 인자\n               부자가 팔밭 쫏으로 간다.\n    [\n    7-1\n      3:3\n        05-0\n           6]저 만대이 팔밭쫏으로 올라가거던.올라가가주고 팔밭을 꿍꿍 쫏는다.\n    [\n    7-1\n      3:3\n        05-0\n           7]그래 인자 정심을 해 이고,저 참 감자죽을 낋이가 주고 정심을 해 이\n            골랑 만대이 올라가이,그래 거 새딕이가 정심을 먹골랑 니리오다 가이\n            께네 아 정지문 앞에 요 쪼 밑에 쪼만한 밭데기 하나 있는데 서기가\n            환하이 뻗치거던.그 밭에서.\n                                          (\n                                          7-1\n                                            2:1\n                                              37/\n                             "
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0028",
+      "type": "context",
+      "source_pattern": {
+        "text": "인자의 담화 기능",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "인자는 시간 부사 외 담화 연결·주제 전환·말 메우기 기능을 가지므로 모든 경우 이제로 등치하지 않음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 38,
+          "quote": "고,이에 따른 다양한 담화 분석이 가능하다.\n (\n 6),(\n    7)에서는 ‘\n          인자,인제’\n               의 담화표지가 실현되고 있다.(\n                               6)에서는 문장\n접속 기능으로 담화 표지가 실현되고 있는데,발화자가 방언형 ‘\n                                 인자’\n                                   와 표\n준어 ‘\n   인제’\n     를 동시에 사용하고 있다.(\n                   7)에서 전자의 ‘\n                            인자’\n                              는 군말,후자의\n‘\n인자’\n  는 화제 전환의 담화 표지로 쓰이고 있다.즉 하나의 담화 표지는 각\n텍스트에서 다양한 기능으로 나타나고 있다.즉,이러한 구술 자료는 담화\n표지의 갖는 다양한 기능을 분석할 수 있다.\n 이상에서   대계 를 국어학적으로 분석하여 다양한 연구 가능성을 살펴보\n았다.\n 음운 연구에서는, 대계 의 형태 음소적 표기와 전사자의 자의적 표기로\n인한 전사상의 오류로 음운 연구 대상이 되기 어렵다는 지적이 있었고,실\n제로 음소와 운소 등에서 그러한 문제점을 발견하였다.그러나 ‘\n                                 장서각 디지\n털 아카이브’\n "
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0029",
+      "type": "context",
+      "source_pattern": {
+        "text": "형태·통사 분석 원칙",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "원자료 충실성 및 형태 통사 분석 후 종결형 분류. 원문에 없는 어형을 원문 관찰로 만들지 않음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 39,
+          "quote": "태의 종결어미가 다양한 상대 높임법의 등급에서 사용되는 등 방대한 자료\n분석을 통해 문법 영역 전반에서 활용할 수 있다.\n 텍스트 연구에서는,텍스트 구조 분석을 통해 동일 주제 혹은 동일 등장\n인물의 다양한 담화 상황을 분석할 수 있음을 확인하였고,담화 표지 사용\n에 있어서의 다양한 기능을 구술 자료의 텍스트를 통해 확인하였다.\n\n\n\n\n1.\n 4.연구 내용 및 방법\n\n\n 대계 의 종결어미 연구를 위한 구체적인 내용은 다음과 같다.\n\n\n  ① 경북방언 종결어미 종류의 목록 체계 확립\n  ② 경북방언 종결어미의 지역 분포 및 사용 양상 분석\n  ③ 경북방언 종결어미의 통사･의미적 특성 분석\n\n\n 위의 세 가지 내용을 분석하기 위한 연구 방법은 다음과 같다.\n 첫째,기존의 경북방언 종결어미 연구에서는 대부분 표준형을 제외하고\n방언형만을 다루었지만,이 연구에서는   대계 에 나타난 모든 종결어미를\n대상으로 한다.즉 종결어미를 방언형과 표준형으로 구분하여 경북방언에서\n쓰인 종결어미 목록 체계를 확립하고자 한다.그 이유는 대량의 자료를 통\n하"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0030",
+      "type": "context",
+      "source_pattern": {
+        "text": "동시적 기술의 범위",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "1980년대 구술 자료의 공시적 기술과 후대 변화의 추정을 구별",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 40,
+          "quote": "5\n                                      )\n\n 둘째,종결어미의 지역 분포 및 사용 양상을 분석하기 위해 전산화한 자\n료에서 추출한 종결어미의 목록 체계를 기준으로 권 책과 지역별로 먼저 분\n류한 다음,해당 지역에 따라 그 형태별 빈도수를 제시한다.그리고 경북방\n언의 하위 방언 구획26)에 따라 이들을 분류한다.이를 통해 경북방언의 하\n\n\n23)문장 종결법 설정과 상대 높임법 체계 설정은 2          장 참고.\n24)방언 구술 자료 전산화에 있어서 가장 중요한 것은 원문과 전산화 자료의 동일성이다.\n  전산화 과정이 정확하지 않으면,문법 연구의 바탕이 되는 형태소 분석에서부터 다양한 국\n  어학적 분석에 이르기까지 많은 오류를 범할 가능성이 크다. 이에 대해 박경래\n  (\n  2007:\n      107-111\n            )에서는 구술 발화 자료의 조사 방법과 전사 방식을 사례를 통해 제시하였는\n  데,특히 전산화에 대해 ‘     방언 음성형,국제음성기호(      IPA),형태 음소적 표기,표준어 대역’\n  등 4단 체계로 기술하는 것이 이상적임을 밝히면서,연구 목적에 따라 다양하게 구성할"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0031",
+      "type": "context",
+      "source_pattern": {
+        "text": "하위 방언권",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "최명옥의 경북 서부·중동부·중서부 구획과 실제 표본 지역을 구별",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 41,
+          "quote": "위 구획에 따라 나타나는 지역적 특성과 사용 양상을 기술한다.즉 방언형\n과 표준형과의 비교를 통해 형태별 지역 분포가 어떠한 방식으로 나타나며,\n사용 양상에 있어서도 그 특성을 밝힐 수 있을 것으로 기대된다.물론 방언\n형 사이에서도 지역적 특성 등을 찾아낼 수 있을 것이다.\n 셋째,위의 내용을 바탕으로 기존 연구들에 제시된 종결어미와   대계 에\n나타나는 종결어미를 비교 분석하여 형태별 기능과 통사적 구조,그리고 의\n미 기능 등을 살펴본다.특히,하나의 형태가 문장에서 어떠한 양상으로 쓰\n이고 있는지 분석하여 형태별 특성을 제시한다.또한,방언형과 표준형과의\n비교를 통해 형태적,통사적 결합 관계에서 어떠한 차이점을 보이고 있는지\n파악한다.다만,이 연구는 1980년대를 대상으로 한 공시적 연구이므로 특별\n한 경우를 제외하고는 형태의 기원 및 통시적 변화 과정은 다루지 않기로\n한다.\n\n\n\n\n                  -2\n                   9"
+        }
+      ],
+      "claim_status": "secondary_report",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0032",
+      "type": "context",
+      "source_pattern": {
+        "text": "분류의 네 쟁점",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "감탄문의 독립성, 격식/비격식 구분, 하이소/하소 구분, 하게체 높임 설정",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 42,
+          "quote": "Ⅱ.경북방언 종결어미의 문법적 성격\n\n 한 방언권의 개별성을 잘 나타내는 언어적 요소로는 크게 음운,어휘,문\n법 분야로 나눌 수 있다.그 가운데 문법적 층위에서 그 방언권의 특징을\n잘 나타내주는 요소 중 하나가 바로 종결어미이다.그리고 그 형태들을 기\n준으로 문법 체계 및 다른 방언권과의 비교를 통해 그 방언의 독자적 성격\n을 파악할 수 있다.또한 개별 방언권의 종결어미 체계는 비교방언학 연구\n와 언어지도 작성 등 방언연구의 다양한 분야에 활용되기도 한다.\n 국어 종결어미에는 문장 종결법27)과 상대 높임법28)이 밀접하게 관여한다.\n왜냐하면 화자가 어떠한 형식으로 문장을 맺느냐에 따라 문장 종결법이 결\n정되고,청자가 누구인지에 따라 상대 높임법이 다르게 쓰이기 때문이다.이\n러한 특징으로 인해 교착어적 특징을 가진 국어에서는 종결어미가 문법 영\n역에 있어서도 상당히 큰 비중을 차지한다.왜냐하면 서술법,의문법,명령\n법,청유법 등"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0033",
+      "type": "context",
+      "source_pattern": {
+        "text": "문장 종결 유형",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "문법적 종결 유형과 발화 의도 유형의 기준 차이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 43,
+          "quote": "1980년대의 경북방언 종결어미\n체계를 제시하고자 한다.\n\n\n\n\n2.\n 1.문장 종결법의 설정\n\n\n 종결어미는 형식상 문장을 끝맺는 기능을 가짐과 동시에,화자가 청자에\n대한 태도나 목적을 나타내는 문법범주이다.그러므로 어떤 종결어미를 사\n용하느냐에 따라 문장의 종류가 달라진다.다시 말하면,어떤 기준으로 종결\n어미를 구분하는지에 따라 문장 종결법의 유형도 다양하게 나타난다.여기\n에서는 경북방언의 문장 종결법에 대한 기존 논의를 검토하여 이 연구의 문\n장 종결법 체계를 제시한다.\n 표준어의 문장 종결법은 문법적 측면,의미적 측면 등 분석 기준에 따라\n다양한 견해가 나타난다.\n            2) 이는 경북방언에서도 마찬가지이다.선행 연구에\n             9\n\n서 제시된 대표적인 문장 종결법을 요약 정리하면 다음과 같다.\n\n\n\n\n29)표준어의 문장 종결법은 문법･    의미적 측면,그리고 절충안 입장 정도로 크게 구분할 수\n  있다.대표적인 사례를 보면 다음과 같다.\n  1)문법적 측면\n     4종류-최현배(\n            1971):베풂월,물음월,"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0034",
+      "type": "context",
+      "source_pattern": {
+        "text": "종결법 연구사 표",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "연구자별 문장 종결 유형 3~8개. 분류의 불일치를 은폐하지 않음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 44,
+          "quote": "<표 3> 경북방언의 문장 종결법 분류\n\n구분              문장 종결법                  연구논저\n      서술법(약속법,감탄법),의문법,명령법(\n                          공동법)        최명옥(  1980\n                                               )\n      서술형,의문형,명령형                     전인득(  1979\n                                               )\n3종류   평서형,명령형,청유형                     김성주(  1996\n                                               )\n      서술(\n        단순,감동),의문,명령(약속,청유)           민원식(  1994\n                                               )\n      대답･\n        긍정형,의문･질의형,명령･권유형             최학근(  1964\n                                               )\n                                    이기갑(\n                                       200\n          "
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0035",
+      "type": "context",
+      "source_pattern": {
+        "text": "유형 분류의 의미",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "감탄·약속·허락·경계 등 담화 기능과 형태론적 분류를 구별",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 45,
+          "quote": "정균(\n                           1998)등이 있다.\n 서술법,의문법,명령법,청유법 등에 감탄법,공동법 등의 다양한 문장 종\n결법을 포함시킨 경우는,문법적 측면을 기준으로 하고 의미적 측면을 통해\n세분화한 것이고,약속법,허락법,경계법 등을 서술법,의문법 등과 같은 층\n위에 둔 경우는,의미적 측면을 기준으로 설정한 것이다.\n                             30)\n\n 문장 종결법에서 가장 문제가 되는 것이 감탄법의 설정 문제이다.감탄법\n은 독립적인 문장 종결법으로 설정한 경우와 서술법에 포함시킨 경우가 있\n다.김태엽(\n     1996)\n         에서는 감탄법을 서술법에 포함시킨 반면,정인상(\n                                  1998)\n                                      ,김\n정균(\n  1998)\n      에서는 서술법,의문법,명령법,청유법,감탄법과 함께 약속법을\n따로 설정해 두고 있다.강신항(\n                1979)\n                    은 ‘\n                      -나’\n                        가 감탄으로 쓰이면서 동시에\n의문법으로도 사용된다고 하였다.이 또한 전자는 문법에 초점을,후자는 의\n미에 초점을 둔 것이라고 할 수 있는데,기존 연구에서 제시된 경북"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0036",
+      "type": "context",
+      "source_pattern": {
+        "text": "문법과 화용",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "같은 어미가 다른 발화 기능을 수행하므로 하나의 형태에 하나의 기능만 고정하지 않음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 46,
+          "quote": "<표 4> 감탄법 종결어미 목록\n\n지역    연구자    용어     등급 체계                      형태\n                          존대     ･\n동남    정인상\n             감탄법    3     평대     -쎄,-네\n방언    (\n      199\n        8)\n                          하대     -데이,-ㅅ다,-구나,-고나,-아라\n                         합쇼체     ･\n경상도   박원우                해요체     ･\n             감탄형    4\n방언    (\n      197\n        3)               하게체     ･\n                         해라체     -다,-라,-야,-여,-고,-나\n                         하소체     ･\n                         해요체     해체 어미 +요\n      김정균                하오체     ･\n             감탄법    6\n      (\n      199\n        8)                해체     -괴,-으에,-네,-ㄷ세,-데,-을세\n                         하게체     ･\n                         해라체"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0037",
+      "type": "context",
+      "source_pattern": {
+        "text": "동형 어미의 다기능",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "네·세 등 서술·의문·명령·청유의 형태 겹침. 감탄은 분류 체계에 따라 서술에 포함",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 47,
+          "quote": "<표 4>는 상대 높임법의 등급에 따라 종결어미를 제시한 것이다.강신항\n(\n1979)\n    ,서정욱(\n        1981)\n            을 제외하고는 제시된 등급에서 빈자리가 나타난다.즉,\n감탄법의 상대 높임법 체계에는 높임의 등급에 따라 종결어미가 존재하지\n않는다.특히 하소체,존대 등 [\n                +높임]\n                   의 의미자질을 가진 형태가 거의 나타\n나지 않고,대부분 해라체와 해체에 종결어미가 분포하고 있다.그 이유는\n감탄법 종결어미가 화자의 주관적 정서를 표출하는 기능을 담당하고 있기\n때문이다.게다가 감탄법에 쓰이는 [\n                  +높임]\n                     의 종결어미는 서술법 종결어미와\n형태와 기능이 동일하다.그만큼 문장 종결법으로서의 독자성이 약하다31)\n또한 [\n   -높임]\n      에 해당하는 형태들도 서술법,청유법과 동일한 형태를 갖는 것\n이 많고,다른 문장 종결법과 중첩되어 사용되는 경우가 대부분이다.<표\n4>를 바탕으로 다른 문장 종결법과의 중첩 여부를 비교하면"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0038",
+      "type": "usage",
+      "source_pattern": {
+        "text": "-세",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "것일세에서 축약된 세",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "declarative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 48,
+          "quote": "“\n       야,그 도령네가 어데 있는동 이 동네 물을 어예 갖다 먹는동 아도 못하\n        는겠세,물 달라 그는 거 보이.\n                        ”(7\n                          -18\n                            :51\n                              6/예천)\n        (\n        야,그 도령네가 어디 있든지 이 동네 물을 어떻게 갖다 먹는지 알지도\n        못하는 것일세.물을 달라고 그러는 것 보니.\n                               )\n     ㄴ.“\n       보니,미 자리가 아매도 한 댓 달 있으면 후소이 붙으겠세.\n                                      ”(7\n                                        -10\n                                          :36\n                                            1/봉화)\n        (\n        =보아하니,묘 자리가 아마도 한 댓 달 있으면 후손이 붙을 것일세.\n                                            )\n     ㄷ.“\n       그게 아이고,내가 말하기는 좀 거북하고마는,나캉 "
+        }
+      ],
+      "claim_status": "attested_example",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0039",
+      "type": "usage",
+      "source_pattern": {
+        "text": "-세",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "나캉 사돈 하세의 공동 행위 제안",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "hortative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 48,
+          "quote": "것일세.\n                                            )\n     ㄷ.“\n       그게 아이고,내가 말하기는 좀 거북하고마는,나캉 사돈하세.\n                                      ”(\n                                       7-1\n                                         :27\n                                           7/경주)\n        (\n        =그게 아니고,내가 말하기는 좀 거북하고,나랑 사돈하자.\n                                      )\n     ㄹ.“\n       아 이사람 방에 들어가세.조용시리 우리 얘기하세.\n                                 ”(7\n                                   -12\n                                     :51\n                                       8/군위)\n        (\n        =아 이사람 방에 들어가게,조용하게 우리 이야기하자.\n                                    )\n     ㅁ.a:“\n         안됩니다.그 궤를 가주가만 안 됩니다"
+        }
+      ],
+      "claim_status": "attested_example",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0040",
+      "type": "usage",
+      "source_pattern": {
+        "text": "-세",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "갖다 주세·배를 타세의 청자 행동 지시",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 48,
+          "quote": "갑니다.\n                                       ”\n        b:친구한테 내가 그런 준다꼬 말을 했으이 구처없네.갖다주세.\n                                         (7-1\n                                            1:7\n                                              3/군위)\n         (\n         =친구한테 내가 그걸 군다고 말을 했으니 구처없다.갖다주게.\n                                         )\n     ㅂ.“\n       배를 타게.이 배를 타세.\n                    ”(7\n                      -6:\n                        154\n                          /영덕)\n        (\n        =배를 타게,이 배를 타세.\n                      )\n\n\n (\n 8)은 종결어미 ‘\n          -세’\n            가 다양한 문장 종결법에서 사용되고 있는데,의문법\n을 제외하고 서술법(   32\n          8ㄱ,ㄴ) )\n                ,청유법(\n                    8ㄷ,ㄹ)\n                "
+        }
+      ],
+      "claim_status": "attested_example",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0041",
+      "type": "context",
+      "source_pattern": {
+        "text": "억양과 종결",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "네요·데예·여 등 같은 형태의 서술/의문을 억양과 발화 맥락으로 구분",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 49,
+          "quote": ",ㅂ)\n      가 쓰인 용례이다.각각의 예에서 동일한 종결어미가 두 가지 이\n상의 문장 종결법으로 쓰이고 있는 것을 확인할 수 있는데,문말의 억양 차\n이로 서술법과 의문법이 구분된다.그러나 (\n                      9ㄱ,ㄷ,ㅁ)\n                            은 화용론적으로 대\n화 상황을 파악하지 않는 이상 이들의 종결어미가 감탄법으로 쓰인 것인지\n다른 문장 종결법으로 쓰인 것인지 구분하기 쉽지 않다.그러므로 문법적\n측면에서 감탄법 종결어미를 독자적인 문장 종결법으로 인정하기는 어렵다.\n 이상으로 경북방언에서의 문장 종결법 설정 문제를 살펴보았다.문장 종\n결법의 설정 방식에 따라 3종류에서 8종류까지 다양하게 제시되었는데 서술\n법,의문법,명령법은 공통적으로 제시되고 있는 반면,감탄법,청유법,경계\n법,약속법,공동법 등 여타 다른 문장 종결법에 대해서는 그 차이를 보이고\n\n33) 표준국어대사전 에서는 ‘ -ㄹ세’\n                     가 설명과 감탄으로 쓰이고 있음을 설명하고 있다.\n  「1」하게할 자리에 쓰여,자기의 생각을 설명하는 데 쓰이는 종결 어"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0042",
+      "type": "context",
+      "source_pattern": {
+        "text": "채택한 문장 유형",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "서술·의문·명령·청유의 4분류. 감탄의 의미 기능을 삭제하는 것이 아님",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 50,
+          "quote": "있다.그리고 이들 문장 종결법에 포함된 종결어미는 서술법,의문법,감탄\n법과 대부분 형태를 공유하고 있다.즉 문장 종결법의 분류 기준을 문법적\n특성에 초점을 두느냐,의미적 특성에 초점을 두느냐에 따라 그 유형에서\n명확하게 차이가 나타난다.\n 감탄법 설정의 경우 상대 높임법에 따른 종결어미의 빈자리가 다른 문장\n종결법에 비해 상당히 많이 나타나고,제시된 종결어미도 서술법,의문법,\n청유법,명령법과 중첩되어 사용되는 경우가 대부분이다.그리고 감탄의 의\n미 자체가 청자에게 초점이 있다기보다는 발화자 스스로의 주관적,감정적\n발화이기 때문에 상대 높임법이 체계적으로 나타나기 어렵다.또한 화용론\n적인 분석이 이루어져야만 그 기능과 의미를 정확하게 판단할 수 있다.즉\n감탄법은 다른 문장 종결법과 대등한 관계를 갖기 어려워 독립적인 문장 종\n결법으로 설정하기에는 어려움이 따른다.물론,의미론적 측면에서의 분류는\n가능하지만 문법적 기능으로 봤을 때는 서술법과"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0043",
+      "type": "context",
+      "source_pattern": {
+        "text": "격식성",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "발화 상황·관계와 등급의 고정/유동성으로 격식성을 논의",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 51,
+          "quote": "2.\n 2.격식체와 비격식체의 구분\n\n\n 종결어미는 형식상 문장의 끝맺음의 기능을 담당하기도 하지만,이와 동\n                                 3\n시에 화자와 청자 사이의 관계를 보여주는 문법범주이기도 하다.6\n                                  ) 다시 말\n\n해 화자와 청자 간의 관계가 종결어미 사용을 결정하는 데 영향을 준다.이\n는 문장 종결법과 마찬가지로 상대 높임법을 어떻게 설정하는지에 따라 그\n등급이 다양하게 나타난다.여기에서는 경북방언의 상대 높임법에 대한 기\n                                3\n존 논의를 검토하여,격식체와 비격식체 설정 문제를 살펴본다.7) 격식체와\n\n비격식체의 구분 문제를 먼저 살피는 이유는,격식/\n                          비격식의 유무에 따라서\n상대 높임의 등급에 차이가 나기 때문이다.격식체와 비격식체에 대한 대표\n적 연구를 요약 정리하면 다음과 같다.\n\n\n               <표 7> 격식체와 비격식체의 비교\n\n 격식체/비격식체               상대 높임법                연구논저\n                                            최명옥(1980)\n             하소체, 하게체, 해라체\n                               "
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0044",
+      "type": "context",
+      "source_pattern": {
+        "text": "격식성의 선행 견해",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "연구자별 격식·비격식 기준 차이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 52,
+          "quote": "000)\n\n            상칭, 중칭, 등칭, 하칭\n                                          강신항(1978)\n            -아/어+요\n    격식체     아주높임, 예사높임[경남], 예사낮춤, 아주낮춤\n                                          이기갑(2003)\n   비격식체     반말, 두루높임\n    격식체     하이소체, 하소체, 하게체, 해라체\n                                          이혁화(2007)\n   비격식체     해체, 해요체, 해여체\n\n\n <표 7>과 같이,격식체만 설정한 연구에서는 대부분 해요체 등의 비격식\n체를 격식체에 포함한 경우가 많았고(\n                   최명옥:\n                      1980)\n                          ,비격식체의 구분이 없이\n해요체를 설정한 연구에서는 해요체의 등급이 상이하게 나타나는 것을 확인\n할 수 있다(\n      김정균:\n         1998,장희승:\n                 2000)\n                     .또한,비격식체를 제시하였지만,격식\n체와의 구분 없이 5등급으로 제시한 경우도 있다(\n                          전상준:\n                  "
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0045",
+      "type": "context",
+      "source_pattern": {
+        "text": "발화 대상별 말투",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "조사자와 이야기 인물의 말투를 나눔. 가족 관계의 높임·친밀성도 별개",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 53,
+          "quote": "ㄹ.“\n       아버지 그럼 정녕 보실랍니껴?”\n                       (7-1\n                          7:8\n                            6/예천)\n     ㅁ.“\n       아이구 이 사람아,그래 내 아들은 우쨌는고?\n                              ”(7\n                                -8:\n                                  335\n                                    /상주)\n     ㅂ.“\n       니 돈 석냥 뭐 할라 카노?”\n                      (7-1\n                         3:8\n                           3/대구)\n\n\n (\n 10)\n   은 격식체 중 서술법,의문법의 종결어미가 사용되고 있는 용례이다.\n(\n10ㄱ)\n   은 아버지에게 ‘\n           -ㅂ니더’\n               ,(10ㄴ)\n                    은 아랫사람에게 ‘\n                             -는가’\n                                ,(10ㄷ)\n                                     은 ‘\n             "
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0046",
+      "type": "context",
+      "source_pattern": {
+        "text": "지러 분류",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "본 연구는 지러를 해체로 분류. 네·다·나와의 결합 및 다른 분류 견해가 있음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 54,
+          "quote": "고 싶어가 우- 구\n         경하러 와가 이 따라 왔네.와가 보이,머슴은 바아 앉았지러.\n                                         (7-3\n                                            :33\n                                              8/\n         경주)\n      ㄹ.“\n        니 저 여자 윗기겠나?윗기마 내 술,내가 대턱을 내지러.\n                                      ”(7\n                                        -1:\n                                          627\n                                            /경주)\n\n\n (\n 12)\n   는 해체의 종결어미인 ‘\n               -제’\n                 ,‘-지러’\n                      가 하게체,해라체와 혼용해서 나\n타나는 용례이다.‘\n         -제’\n           가 하게체의 ‘\n                  -네’\n                    (12ㄱ)\n                        ,해라체의 ‘\n                         "
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0047",
+      "type": "usage",
+      "source_pattern": {
+        "text": "겠심니더요",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "격식 높임형 뒤 요 결합의 관찰 사례",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 55,
+          "quote": "무슨 머시로,이도로 갈라 카냐.\n                             ”\n        b:“\n          백성을 좀 안정을 시케 놓고 오겠심니더요.\n                                ”(7\n                                  -3:\n                                    184\n                                      /경주)\n      ㄴ.동래 정씨가 토째비 설에 믜 쓰고 정승 났답니다요.\n                                   (7-5\n                                      :50\n                                        0/성주)\n      ㄷ.그 사체를 알고 고햐(\n                   고향)\n                     을 알았지,안찾이며는 그 모든 것이 아입니까요.\n        그르이까 그 자손들이 지금까지도 그 공로가 그 사람께 있어요.\n                                         (7-7\n                                            :82\n                                              /영덕)\n   "
+        }
+      ],
+      "claim_status": "attested_example",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0048",
+      "type": "usage",
+      "source_pattern": {
+        "text": "답니다요",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "격식 높임형 뒤 요 결합의 관찰 사례",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 55,
+          "quote": "(7\n                                  -3:\n                                    184\n                                      /경주)\n      ㄴ.동래 정씨가 토째비 설에 믜 쓰고 정승 났답니다요.\n                                   (7-5\n                                      :50\n                                        0/성주)\n      ㄷ.그 사체를 알고 고햐(\n                   고향)\n                     을 알았지,안찾이며는 그 모든 것이 아입니까요.\n        그르이까 그 자손들이 지금까지도 그 공로가 그 사람께 있어요.\n                                         (7-7\n                                            :82\n                                              /영덕)\n      ㄹ.“\n        이름은 무엇입니까요?”\n                   (7-1\n                      1:1\n                        35/\n                      "
+        }
+      ],
+      "claim_status": "attested_example",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0049",
+      "type": "usage",
+      "source_pattern": {
+        "text": "입니까요",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "격식 높임형 뒤 요 결합의 관찰 사례",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 55,
+          "quote": "ㄷ.그 사체를 알고 고햐(\n                   고향)\n                     을 알았지,안찾이며는 그 모든 것이 아입니까요.\n        그르이까 그 자손들이 지금까지도 그 공로가 그 사람께 있어요.\n                                         (7-7\n                                            :82\n                                              /영덕)\n      ㄹ.“\n        이름은 무엇입니까요?”\n                   (7-1\n                      1:1\n                        35/\n                          군위)\n\n\n (\n 13)\n   은 ‘\n     -니더’\n        ,‘-니다’\n             와 ‘\n               -ㅂ니까’\n                   에 ‘\n                     -요’\n                       가 결합하여 [\n                              +높임]\n                                 을 보여주고\n있다.즉,‘\n     하이소체+요’\n           43\n            )의 구성으"
+        }
+      ],
+      "claim_status": "attested_example",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0050",
+      "type": "context",
+      "source_pattern": {
+        "text": "비격식 지역 변이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "해요와 해예·해여를 구별; 대구·달성의 예 및 경북 서부 여",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 56,
+          "quote": "북방언에서 사용되는 비격식체는 표준어의 ‘\n                            해요체’\n                               뿐만 아니라\n‘  4\n해예체’6\n    )와 ‘  4\n       해여체’7\n           )가 있다.\n\n46)‘\n   해예체’는 지금껏 설정되지 않은 비격식체로,기존 연구에서는 대부분 해요체와 같이 형\n  태만 언급되어 왔다.이상규(  199\n                     1)에서는 ‘ -아요( 예)\n                                   ,-지요(예),-거든요(예)’\n                                                  로 하소체에\n  포함시켰고,최동주( 2003\n                )에서는 ‘-데+-요/예’ 를 하소체로,박창원( 199\n                                             1)에서는 ‘-라예,-아\n  예,-지예,-거든예’를 합쇼체로,이기갑(   2003)에서는 ‘예’\n                                      를 두루높임,박원우(  1973)\n                                                       에서는\n  해요체에 포함시켜 다루었다.그러나 이 연구에서는 경북 서부 지역에서 특정적으로 "
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0051",
+      "type": "context",
+      "source_pattern": {
+        "text": "해예와 해여의 분포",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "해예의 높임 사용 및 해여의 높임·비높임 혼용. 원문의 여 품사 분석은 선행 연구에 따라 다름",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 57,
+          "quote": "가주 사라고.\n                       ”\n        a:“\n          어허 솥뚜방이도 하나 없는데,우예 살림살이를 해여.\n                                     ”\n        b:“\n          아이,내 저 솥 상 솥뚜방이 하나 사주께.\n                                ”(7\n                                  -16\n                                    :28\n                                      5/구미)\n\n\n (\n 14)\n   에서는 비격식체인 해예체,해여체가 격식체와 함께 쓰이는 용례이다.\n(\n14ㄱ)\n   은 청자인 할머니에게 ‘\n               -ㅂ니꺼’\n                   와 ‘\n                     -어예’\n                        ,(14ㄴ)\n                             은 청자인 어머니에\n\n\n47)‘\n   -여’혹은 ‘\n         -어여’\n            에 관해서는 두 가지 견해가 있다.안귀남(   20\n                                       04)\n                                         에"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0052",
+      "type": "context",
+      "source_pattern": {
+        "text": "해여의 등급 통합",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "해여는 하게체 포함 여러 등급과 공기. 해요/해예+하게의 자료 내 비관찰을 언어 전체 불가능으로 강제하지 않음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 58,
+          "quote": "‘\n                               -라예’\n                                  를 쓰고 있\n다.즉,해예체 종결어미는 해요체와 마찬가지로 하게체를 제외한 모든 등급\n에서 유동적으로 쓰이고 있다.(\n                14ㄹ)\n                   은 ‘\n                     -노’\n                       와 ‘\n                         -여’\n                           ,(14ㅁ)\n                                은 ‘\n                                  -여’\n                                    와 ‘\n                                      -다’\n가 쓰이면서 해라체와 해여체가,(\n                 14ㅂ)\n                    은 ‘\n                      -여’\n                        와 ‘\n                          -ㅂ니다’\n                              가 함께 쓰이면\n서 해여체와 하소체가 같이 나타나 해요체,해예체와 동일한 쓰임을 보여준\n다.그러나 해여체게 하소체와 쓰일"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0053",
+      "type": "context",
+      "source_pattern": {
+        "text": "등급 설정 논쟁",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "상대높임 단계 수와 하게체 지위의 연구사",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 59,
+          "quote": "체를 구분하고,이에 따른 종결어미 목록을 제시하고자 한다.\n\n\n\n\n2.\n 3.상대 높임법의 체계 설정\n\n\n 종결어미는 형식상 문장의 끝맺음을 담당하기도 하지만,이와 동시에 화\n                             5\n자와 청자 사이의 관계를 보여주는 문법범주이기도 하다.0\n                              ) 다시 말해 언어\n\n외적 요소인 화자와 청자 간의 관계가 상대 높임 종결어미 사용을 결정하는\n데 영향을 준다.이는 문장 종결법과 마찬가지로 상대 높임법을 어떻게 설\n정하는지에 따라 그 등급이 다양하게 나타난다.여기에서는 경북방언의 상\n대 높임법에 대한 기존 논의를 검토하여,쟁점이 되는 ‘\n                             하이소체’\n                                 와 ‘\n                                   하소체’\n의 문제,‘\n     하게체’\n        의 높임 설정 문제를 살펴보고,본고에서 제시하는 상대 높\n임법 체계를 제시한다.\n 지금까지 경북방언에서의 상대 높임법 등급은 아래 <표 9>와 같이 3등급\n에서 7등급까지로 다양하게 설정되었다.특히 동일 지역을 대상으로도 그\n등급이 다르게 나타나는데,한 예로 안동 지역의 경우에는 3등급에서 6등급\n까지 그 체계가 다양하다.그만큼 상"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0054",
+      "type": "context",
+      "source_pattern": {
+        "text": "상대높임 비교표",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "학자별 3~7등급 체계; 본 논문의 채택 체계와 재인용 표를 구분",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 60,
+          "quote": "도\n하위 지역어에 따라 그 등급 체계가 다르게 나타날 수 있기 때문이다.\n\n\n              <표 9> 경북방언 상대 높임법 분류\n\n구분             상대 높임법               지역      연구논저\n\n      하소체,하게체,해라체                   동해안    최명옥(\n                                              1980)\n\n      하이소(\n         하소)\n           체,하게체,해라체                 경북    이상규(\n                                              1991)\n\n      아주높임법,예사높임법,안높임법               포항    김태엽(\n                                              1996)\n\n3등급   3단계,2단계,1단계                    안동    임지룡(\n                                              1998)\n\n      아주높임,예사높임,아주낮춤                 동남    이기갑(\n                                              2003)\n\n      하소체,하게체,해라체                   동해안   "
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0055",
+      "type": "context",
+      "source_pattern": {
+        "text": "하이소와 하소",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "높임 이가 있는 형식과 없는 형식 및 청자 관계의 대조",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 61,
+          "quote": "할무이.질 가다아 질이 저물아 여기 섰는데,할무이하고\n              하룻밤 세아 가입시더.\n                         ”(7\n                           -5:\n                             64/\n                               성주)\n            ㄴ.“\n              아이구,아버님 아버님 일어나이소.집에 가입시더.여기는 산\n              입니더,집에 가입시더.\n                         ”(7\n                           -5:\n                             64/\n                               성주)\n\n51)안귀남(\n      200\n        6:463\n            )에서는 “\n                 형태론적인 측면에서 동남방언의 ‘\n                                  하이소체’ ,‘\n                                         하소체’,‘\n                                              해요체’가\n  분화되지만 화용론적인 측면에서는 ‘ 하소체’,‘\n                           하게체’\n      "
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0056",
+      "type": "context",
+      "source_pattern": {
+        "text": "형태와 청자 관계",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "가+입시더와 가+ㅂ시더의 형태 대비. 선행 연구의 아버지/배우자 예는 재인용",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 62,
+          "quote": "내 웃기에 여 자고\n            갑시더.\n               ”(7\n                 -10\n                   :63\n                     6/봉화)\n\n\n (\n 15)\n   는 하이소체와 하소체 청유법의 용례이다.공통적으로 어간 ‘\n                                  가-’\n                                    에 ‘\n                                      -\n입시더’\n   (15ㄱ,ㄴ,ㄷ)\n           가 결합하는 경우와 ‘\n                      -ㅂ시더’\n                          (15ㄹ,ㅁ,ㅂ)\n                                  가 결합한\n경우로 구분할 수 있는데,형태상 상대 높임의 형태소 ‘\n                             -이-’\n                                의 결합 유무에\n서 차이가 난다.또한 (\n            15ㄱ,ㄴ,ㄷ)\n                   은 화자보다 윗사람인 할머니,아버지,\n선생님에게,(\n      15ㄹ,ㅁ,ㅂ)\n             은 화자보다 낮거나 동급의 청자에게 쓰인다는 점\n에서 청자에 대한 등급에서도 그 차이를 확인할 수 "
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0057",
+      "type": "context",
+      "source_pattern": {
+        "text": "높임 혼용의 관찰",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "동일한 아버지에게 하이소·하소·표준형이 혼용됨",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 63,
+          "quote": "/구미)\n\n\n (\n 17ㄱ,ㄴ)\n      은 명령법으로 ‘\n              -하이소’\n                  와 ‘\n                    -하소’\n                       가 혼용되어 쓰이고 있다.(\n                                     17\nㄷ)\n 은 하이소체 명령법 ‘\n            -이소’\n               가 쓰이고 있음에도 불구하고 청유법에서는\n하이소체 ‘\n     -입시더’\n         가 아닌,하소체 ‘\n                  -ㅂ시더’\n                      가 나타난다.(\n                             17ㄹ)\n                                은 청유법으\n로 하이소체의 ‘\n        -입시더’\n            ,하소체의 ‘\n                  -ㅂ시더’\n                      ,표준형인 ‘   5\n                            -ㅂ시다’2\n                                 )가 동시\n\n                        -5\n                         1"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0058",
+      "type": "context",
+      "source_pattern": {
+        "text": "등급 혼용 해석",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "1980년대 친밀한 부자 관계의 혼용. 형태상의 구별과 실제 발화 사용의 유동성을 함께 보존",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 64,
+          "quote": ".\n               5) 또한 (\n                4    17)\n                       의 예문은 공통적으로 아버지와\n아들의 대화로,친밀도가 높은 관계에 놓여 있다는 점에 주목할 필요가 있\n다.\n 명령법의 ‘\n      -이소 :-소’\n             ,청유법의 ‘\n                   -입시다 :-ㅂ시다’\n                             처럼 높임의 형태소\n‘\n-이-’\n   의 유무로 하이소체와 하소체가 구분될 수 있다면,나머지 종결어미에\n\n\n52) 표준국어대사전 에서는 ‘   -ㅂ시다’를 하오체로 설정하고 있다.\n53)이에 대해 이상규(  1\n               999\n                 :133)\n                     에서는 ‘-시이소’ ,‘\n                                 -이소’\n                                    ,‘-시소’ 는 수의적 교체가 가능한 것\n  으로,이는 등급상의 차이가 아님을 언급하였고,이기갑(         20\n                                         03:26\n                                             0)에서는 경남방언에서는\n  그 등급이 구분되나,경북방언에서는 그"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0059",
+      "type": "context",
+      "source_pattern": {
+        "text": "이의 분포",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "명령·청유의 이 유무 대비가 모든 종결법에 동일하게 적용되지는 않음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 65,
+          "quote": ",지 따라 오머 이 안에 들어 와가지고는 지 발자죽을 놓지 말\n      고 자꾸 따라 오이소.\n                 ”(7\n                   -13\n                     :13\n                       5/대구)\n    ㄴ.“\n      아이구,할아부지 할무이요.저 우에 저저 조초이 그 위에 사람이 다\n      죽니더.집으로 들어가소.\n                  ”(7\n                    -2:\n                      366\n                        /경주)\n    ㄷ.“\n      그래 아부지 그런기 아이라 배를 다 모았으니 우리가 마 육지로 나가입\n      시다.\n        ”(7\n          -13\n            :67\n              3/대구)\n    ㄹ.“\n      아부지 그것 좀 저어 봅시다.편지를 봅시다.\n                             ”(7\n                               -11\n                                 :63\n                                   /군위)\n    ㅁ.아부지 어무이.인제 단독 외동아들 우리 내외간 밖에 안 남았소.\n                         "
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0060",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-ㅂ니다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㅂ니더",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "declarative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 67,
+          "quote": "‘\n                -ㅂ니다’\n                    는 표준어에서 합쇼체에 해당하는데,\n(\n19ㄴ)\n   의 ‘\n     -ㅂ니더’\n         는 ‘\n           -ㅂ니다’\n               와 모음에서 차이가 날 뿐,다른 면에서는 차\n이를 보이지 않는다.(\n           19ㄷ)\n              의 ‘\n                -ㅂ니데이’\n                     는 ‘\n                       -ㅂ니+ -데-+ -이’\n                                   의 구조로\n‘\n-ㅂ니더’\n    와 대립한다.즉,‘\n             -ㅂ니다 :-ㅂ니더 :-ㅂ니데이’\n                              의 대립 관계가\n성립한다.마찬가지로 의문법의 용례를 보인 (\n                       19ㄹ,ㅁ,ㅂ)또한 기능상 차\n이는 나타나지 않고,형태상 ‘\n               -ㅂ니까 :-ㅂ니꺼 :-ㅂ니껴’\n                               의 대립 관계를\n보여준다.이러한 체계를 가진다는 것은,이들이 같은 등급에 속한다는 사실\n을 말해주며,‘\n       -ㅂ니다’\n           와 ‘\n             -ㅂ니까’\n                 가 합쇼체에"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0061",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-ㅂ니다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㅂ니데이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "declarative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 67,
+          "quote": "차이가 날 뿐,다른 면에서는 차\n이를 보이지 않는다.(\n           19ㄷ)\n              의 ‘\n                -ㅂ니데이’\n                     는 ‘\n                       -ㅂ니+ -데-+ -이’\n                                   의 구조로\n‘\n-ㅂ니더’\n    와 대립한다.즉,‘\n             -ㅂ니다 :-ㅂ니더 :-ㅂ니데이’\n                              의 대립 관계가\n성립한다.마찬가지로 의문법의 용례를 보인 (\n                       19ㄹ,ㅁ,ㅂ)또한 기능상 차\n이는 나타나지 않고,형태상 ‘\n               -ㅂ니까 :-ㅂ니꺼 :-ㅂ니껴’\n                               의 대립 관계를\n보여준다.이러한 체계를 가진다는 것은,이들이 같은 등급에 속한다는 사실\n을 말해주며,‘\n       -ㅂ니다’\n           와 ‘\n             -ㅂ니까’\n                 가 합쇼체에 속하므로,‘\n                             -ㅂ니더’\n                                 ,‘-ㅂ니\n데이’\n  ,‘-ㅂ니꺼’\n        ,‘-ㅂ니껴’또한 합쇼체에 속한 것이라 할 수 있다.표준어에\n서는 "
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0062",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-ㅂ니까",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㅂ니꺼",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 67,
+          "quote": ",ㅁ,ㅂ)또한 기능상 차\n이는 나타나지 않고,형태상 ‘\n               -ㅂ니까 :-ㅂ니꺼 :-ㅂ니껴’\n                               의 대립 관계를\n보여준다.이러한 체계를 가진다는 것은,이들이 같은 등급에 속한다는 사실\n을 말해주며,‘\n       -ㅂ니다’\n           와 ‘\n             -ㅂ니까’\n                 가 합쇼체에 속하므로,‘\n                             -ㅂ니더’\n                                 ,‘-ㅂ니\n데이’\n  ,‘-ㅂ니꺼’\n        ,‘-ㅂ니껴’또한 합쇼체에 속한 것이라 할 수 있다.표준어에\n서는 ‘\n   합쇼체 :하오체 :하게체 :해라체’\n                     의 격식체 등급을 가지는 데 반\n해56),경북방언에서는 ‘\n             하이소체 :하소체 :하게체 :해라체’\n                                로 그 명칭만 다\n를 뿐,이들은 같은 등급을 의미하는 것이다.즉,표준어의 합쇼체에 해당하\n는 종결어미는,경북방언에서 하이소체와 동일한 등급을 가진다.상대 높임\n법에 대한 표준어와 경북방언을 비교하여 도표화 하면 다음과 같다.\n\n\n        <표 11> 경북방언과 표준어의 상대 높임법의 비교 57)\n\n   상대             경북방"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0063",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-ㅂ니까",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㅂ니껴",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "interrogative"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 67,
+          "quote": "또한 기능상 차\n이는 나타나지 않고,형태상 ‘\n               -ㅂ니까 :-ㅂ니꺼 :-ㅂ니껴’\n                               의 대립 관계를\n보여준다.이러한 체계를 가진다는 것은,이들이 같은 등급에 속한다는 사실\n을 말해주며,‘\n       -ㅂ니다’\n           와 ‘\n             -ㅂ니까’\n                 가 합쇼체에 속하므로,‘\n                             -ㅂ니더’\n                                 ,‘-ㅂ니\n데이’\n  ,‘-ㅂ니꺼’\n        ,‘-ㅂ니껴’또한 합쇼체에 속한 것이라 할 수 있다.표준어에\n서는 ‘\n   합쇼체 :하오체 :하게체 :해라체’\n                     의 격식체 등급을 가지는 데 반\n해56),경북방언에서는 ‘\n             하이소체 :하소체 :하게체 :해라체’\n                                로 그 명칭만 다\n를 뿐,이들은 같은 등급을 의미하는 것이다.즉,표준어의 합쇼체에 해당하\n는 종결어미는,경북방언에서 하이소체와 동일한 등급을 가진다.상대 높임\n법에 대한 표준어와 경북방언을 비교하여 도표화 하면 다음과 같다.\n\n\n        <표 11> 경북방언과 표준어의 상대 높임법의 비교 57)\n\n   상대             경북방언    "
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0064",
+      "type": "context",
+      "source_pattern": {
+        "text": "서술·의문 높임형",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "높임의 이 대신 니/ㅂ니 계열이 서술·의문에서 해당 기능을 담당. 는교의 등급 변화는 선행 가설",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 66,
+          "quote": "를 찾아보기 힘들다.높임의 형태소 ‘\n                   -이-’\n                      는 명령법과 청유법에서는 보이지\n만,서술법과 의문법에서는 나타나지 않는다.다시 말하면,모든 유형에 이\n와 같은 형식이 나타나야 등급의 구분이 명확하게 이루어지는데,일부에서\n만 발견되는 형태소로 그 등급을 구분하는 것은 체계적이지 못하다.\n                                   55)\n\n 그러나 이들의 빈자리를 다른 형태소가 대신하고 있다는 점에 주목할 필\n요가 있다.이와 관련된 예문을 살펴보자.\n\n\n   (\n   19)ㄱ.“\n        아부지요,천상 지가 오 분(\n                      이 번)\n                         에 서울 재상가댁에 무남독녀한테\n        장가를 갈라면은 아부지가 뭐 좀 심을 써 주시야 되겠읍니다.\n                                        ”(7-8:\n                                             67/\n        상주)\n      ㄴ.“\n        그 할배 다른기 아닙니더.저어 집 남편은 말이여,그어 문중엔들 압\n        니까?출입이 있읍니까?만고에 아무것도 없고 한데 제가 평생에 소\n        원이 있읍니다.\n               ”(7-1"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0065",
+      "type": "context",
+      "source_pattern": {
+        "text": "하게체 높임의 이견",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "하위자나 동년배를 대우하는 사용을 높임으로 볼지 논쟁. 친밀·대우와 높임 자질을 구분",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 68,
+          "quote": "언에서는 하이소체와 하소체 두 가지로 구분이 가능하다.\n 다음으로,‘\n      하게체’\n         의 높임 설정 문제이다.즉 하게체를 [\n                             +높임]\n                                으로 보는\n경우와 [\n    -높임]\n       으로 보는 두 가지 견해가 나타난다.\n                          5) 최명옥(\n                           8    1980:\n                                    66)\n                                      에서\n는 [\n  -존대,-하대]\n         로 하게체를 설정하여 [\n                     -높임]       5\n                        으로 설정하였다.9\n                                 ) 이에 반\n\n해 김태엽(\n     1996:\n         39-43)\n              에서는 [\n                  ±높임]\n                     을 기준으로 하게체를 예사높임으로 설\n정하였고,최동주(\n        2003:\n            99)\n              에서는 화자가 아랫사람이거나 동급 연령의 청자\n를 높여"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0066",
+      "type": "context",
+      "source_pattern": {
+        "text": "하게체와 해라체 혼용",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "자네·야 등의 호칭과 네·는가·는고·게·ㄹ세 및 해라체 혼용 사례",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 69,
+          "quote": "ㄷ.“\n        나는 손님이 와서 못 가겠네.자네 혼차 가게.\n                                ”(7\n                                  -8:\n                                    169\n                                      /상주)\n      ㄹ. “\n         야, 이 사람아 자기 오마이 디리 가게. 밤새도록 잠도 못 잤\n        네.\n         ”(7\n           -16\n             :51\n               /구미)\n      ㅁ.“\n        말은 좀 급하나마나,이 사람아 조복을 잃어부렀네.들으이 자네 점을\n        잘 한다이,속히 좀 점을 한 장 해 보게.\n                              ”(7\n                                -9:\n                                  325\n                                    /안동)\n      ㅂ.“\n        자네,버는 수가 있네.내일 아침에 이 앞 집은 큰 부잘세.시방 그아들\n        이 시방 죽는데,자네 가가주고 내 고친다고 말을 하고 오게.\n                                       "
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0067",
+      "type": "context",
+      "source_pattern": {
+        "text": "저자의 하게체 분류",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "저자는 [-높임,-하대]로 설정. 하게+요 미관찰과 혼용 양상을 근거로 듦; 다른 분석을 제거하지 않음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 70,
+          "quote": "적으로 선택해서 쓰는 것으로 파악된다.\n 이와는 반대로,하게체가 [\n              +높임]\n                 이 되기 위해서는 하소체와의 혼용도 나\n타나야 하는데,그러한 용례는 보이지 않는다.또한 비격식체의 구성 중에\n서,앞서 살펴본 바와 같이 ‘\n               해체+요’\n                   의 구성은 [\n                         +높임]\n                            의 자질을 가지면서\n윗사람에게 쓰는 것으로 나타나지만,‘\n                   하게체+요’\n                        의 구성은 나타나지 않는다.\n왜냐하면 ‘\n     하게체+요’\n          가 성립되기 위해서는 [\n                      +높임]\n                         의 자질로 쓰여야 하는데,\n하게체는 화자가 아랫사람에게 발화할 때 사용되므로 이러한 구성이 나타날\n    6\n수 없다.5\n     ) 그러므로 하게체는 최명옥(\n                    1980:\n                        66)\n                          에 따라 [\n                               -높임]\n                                  ,["
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0068",
+      "type": "context",
+      "source_pattern": {
+        "text": "상대높임 최종 표",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "격식 하이소·하소·하게·해라 및 비격식 해·해요·해예·해여의 의미 자질과 혼용. 표 아래 본문에서 하이소 누락되어 표와 불일치",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 71,
+          "quote": "<표 12> 경북방언의 상대 높임법 체계\n\n    상대 높임법        의미 자질        실현 양상\n          하이소체   [\n                 +높임]\n                    [-하대]\n                            하이소체와 하소체의 혼용\n          하소체    [\n                 +높임]\n                    [-하대]\n   격식체\n          하게체    [\n                 -높임]\n                    [-하대]\n                            하게체와 해라체와 혼용\n          해라체    [\n                 -높임]\n                    [+하대]\n           해체    [\n                 -높임]\n                    [+하대]    해라체와 해체의 혼용\n          해요체\n                 [\n                 +높임]\n                    [-하대]     하소체와 혼용\n  비격식체    해예체\n          해여체    [\n                 -높임]\n                    [-하대]\n                         "
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0069",
+      "type": "context",
+      "source_pattern": {
+        "text": "종결어미 분석 단위",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "쓰+었 뒤 니더/ㅂ니더/소/네/다를 비교하여 선어말·종결 구성요소 분리",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 72,
+          "quote": "쓰다’\n                                  에 과거\n선어말어미 ‘\n      -었-’\n         이 결합하고 있다.\n\n\n  (\n  23)ㄱ.쓰-+-었-+-ㅂ-+-니-+-더\n     ㄴ.쓰-+-었-+-니-+더\n     ㄷ.쓰-+-었-+-소\n     ㄹ.쓰-+-었-+-네\n     ㅁ.쓰-+-었-+-다\n\n\n (\n 23)\n   에서 어간 ‘\n         쓰-’\n           와 과거시제 선어말어미 ‘\n                        -었-’\n                           을 제외하면 종결어미\n‘\n-더’\n  ,‘-소’\n      ,‘-네’\n          ,‘-다’\n              가 남고,(\n                   23ㄱ,ㄴ)\n                        은 ‘\n                          -ㅂ- + -니-’\n                                   ,‘-니-’\n                                        가 남게\n\n\n\n                       -6\n                        0"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0070",
+      "type": "context",
+      "source_pattern": {
+        "text": "결합체의 기능",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "더 단독은 니/ㅂ니 없이 같은 높임을 갖지 않음. ㅂ니데이는 이 포함 형태이며 구마는의 는은 선택적",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 73,
+          "quote": ",‘\n           -ㅂ니데’\n               가 쓰이는 경우는 없다.이는 일종의 문법화\n과정을 거쳐 교착화된 형태로 볼 수 있다.그러나 (\n                           24ㄹ,ㅁ)\n                                의 ‘\n                                  -구마’\n                                     ,‘-구\n마는’\n  에서 ‘\n     -는’\n       은 보조사로 반드시 결합하지 않아도 된다.\n 한편,특정 어간에만 결합하는 어미도 나타난다.다음 예문을 살펴보자.\n\n\n\n\n67)‘-ㅂ니더’ 와 ‘\n            -니더’ 의 예에서,같은 어간과 선어말어미와 결합하고 있음에도 불구하고 ‘ -\n  ㅂ-’ 에서 차이가 난다.후술하겠지만,이들은 경북 내에서도 지역적 차이를 보이면서 일종\n  의 대립적 관계를 갖기도 한다.\n68)이와 관련하여 김태엽(     1\n                    996\n                      :29-37)\n                            에서는 ‘\n                                청자높임소’\n                                     로 보았으며,그 구조를 ‘\n                         "
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:intro:0071",
+      "type": "inflection",
+      "source_pattern": {
+        "text": "도다",
+        "domain": "dialect",
+        "lemma": "도다",
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "도고",
+        "domain": "dialect",
+        "lemma": "도다",
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "lemma",
+          "op": "eq",
+          "value": "도다",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "ending",
+          "op": "eq",
+          "value": "-고",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 74,
+          "quote": "(\n   25)ㄱ.“\n        할마이 할마이 묵 한 덩어리 도고.\n                          ”(7-4:\n                               118/\n                                  성주)\n      ㄴ.“\n        물 좀 도가,물 좀 도가.\n                     ”(7-8:\n                          760/\n                             상주)\n      ㄷ.“\n        거 저 가,술 가 한 병 받어 온나.\n                           ”(7-9:\n                                888/\n                                   안동)\n\n\n (\n 25)\n   에서는 어간 ‘\n          도-’\n            ,‘오-’\n                에 각각 ‘\n                     -고’\n                       ,‘-가’\n                           ,‘-ㄴ나’\n                                가 결합한 경우인\n데,이 형태소들은 앞에 제시한 어간과만 결합하여 쓰이는 어휘적 조건에\n의한 형태소가 종결어미로 쓰인 경우이다.\n 이와 같이,상대 "
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "원문 어간 도-/오-를 기본형으로 정규화. 이 결합 제한을 다른 어간에 확대하지 않음."
+    },
+    {
+      "id": "JO2018:v2:intro:0072",
+      "type": "inflection",
+      "source_pattern": {
+        "text": "도다",
+        "domain": "dialect",
+        "lemma": "도다",
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "도가",
+        "domain": "dialect",
+        "lemma": "도다",
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "lemma",
+          "op": "eq",
+          "value": "도다",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "ending",
+          "op": "eq",
+          "value": "-가",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 74,
+          "quote": "이 할마이 묵 한 덩어리 도고.\n                          ”(7-4:\n                               118/\n                                  성주)\n      ㄴ.“\n        물 좀 도가,물 좀 도가.\n                     ”(7-8:\n                          760/\n                             상주)\n      ㄷ.“\n        거 저 가,술 가 한 병 받어 온나.\n                           ”(7-9:\n                                888/\n                                   안동)\n\n\n (\n 25)\n   에서는 어간 ‘\n          도-’\n            ,‘오-’\n                에 각각 ‘\n                     -고’\n                       ,‘-가’\n                           ,‘-ㄴ나’\n                                가 결합한 경우인\n데,이 형태소들은 앞에 제시한 어간과만 결합하여 쓰이는 어휘적 조건에\n의한 형태소가 종결어미로 쓰인 경우이다.\n 이와 같이,상대 높임과 관련된 경북방언 종결어미에는 단일"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "원문 어간 도-/오-를 기본형으로 정규화. 이 결합 제한을 다른 어간에 확대하지 않음."
+    },
+    {
+      "id": "JO2018:v2:intro:0073",
+      "type": "inflection",
+      "source_pattern": {
+        "text": "오다",
+        "domain": "dialect",
+        "lemma": "오다",
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "온나",
+        "domain": "dialect",
+        "lemma": "오다",
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "lemma",
+          "op": "eq",
+          "value": "오다",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "ending",
+          "op": "eq",
+          "value": "-ㄴ나",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 74,
+          "quote": "좀 도가.\n                     ”(7-8:\n                          760/\n                             상주)\n      ㄷ.“\n        거 저 가,술 가 한 병 받어 온나.\n                           ”(7-9:\n                                888/\n                                   안동)\n\n\n (\n 25)\n   에서는 어간 ‘\n          도-’\n            ,‘오-’\n                에 각각 ‘\n                     -고’\n                       ,‘-가’\n                           ,‘-ㄴ나’\n                                가 결합한 경우인\n데,이 형태소들은 앞에 제시한 어간과만 결합하여 쓰이는 어휘적 조건에\n의한 형태소가 종결어미로 쓰인 경우이다.\n 이와 같이,상대 높임과 관련된 경북방언 종결어미에는 단일 어미와 형태\n소가 둘 이상 결합한 복합 어미로 구분할 수 있으며,복합 어미에 결합한\n형태소는 일종의 교착적 선어말어미로,종결어미와 분리하게 되면 그 기능\n을 상실하는 경우가 있다.\n             69) 그러므로 여기에서는 단일 종결어미와 더불어\n\n교착적 선어말어"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "원문 어간 도-/오-를 기본형으로 정규화. 이 결합 제한을 다른 어간에 확대하지 않음."
+    },
+    {
+      "id": "JO2018:v2:intro:0074",
+      "type": "context",
+      "source_pattern": {
+        "text": "단일·복합·어휘 제한 어미",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "단일형, 교착적 선어말을 포함한 복합형, 특정 어간에 한정된 종결형을 함께 기술",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 한국구비문학대계 경북 자료. 현대 구어 전체로 일반화하지 않음."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 1980년대 구술 자료"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 74,
+          "quote": "결합한 경우인\n데,이 형태소들은 앞에 제시한 어간과만 결합하여 쓰이는 어휘적 조건에\n의한 형태소가 종결어미로 쓰인 경우이다.\n 이와 같이,상대 높임과 관련된 경북방언 종결어미에는 단일 어미와 형태\n소가 둘 이상 결합한 복합 어미로 구분할 수 있으며,복합 어미에 결합한\n형태소는 일종의 교착적 선어말어미로,종결어미와 분리하게 되면 그 기능\n을 상실하는 경우가 있다.\n             69) 그러므로 여기에서는 단일 종결어미와 더불어\n\n교착적 선어말어미를 포함한 복합형 종결어미,그리고 어휘적 조건에 의한\n종결어미도 포함하여 기술하기로 한다.\n\n\n\n\n3.\n 1.격식체\n\n\n 앞서 격식체와 비격식체에서 다루었듯이,이 둘은 높임의 등급에서 유동\n성의 유무로 그 특성이 구분된다.격식체는 일정한 등급에 쓰인다는 점에서\n비격식체와 구분되기는 하나,하이소체와 하소체,하게체와 해라체의 혼용이\n나타나면서 등급상의 혼란을 보이기도 한다.그러나 이러한 혼용 양상은 화\n용론적 입장에서 일어나는 경우이며,형태적으로는 하"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    }
+  ]
+}

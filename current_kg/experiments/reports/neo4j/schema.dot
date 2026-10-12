@@ -1,0 +1,38 @@
+digraph KG {
+rankdir=LR; bgcolor="white"; pad=0.35; nodesep=0.5; ranksep=1.1;
+graph [fontname="DejaVu Sans",fontsize=15,label="Current grammar KG: node types and selected relations\n6098 nodes / 15651 edges; structure, not a runtime trace",labelloc=t];
+node [shape=box,style="rounded,filled",fillcolor="#eef4fb",color="#476582",fontname="DejaVu Sans",fontsize=12];
+edge [fontname="DejaVu Sans",fontsize=10,color="#63788c"];
+"AnalysisFeature" [label="AnalysisFeature\n29"];
+"ApplicationTarget" [label="ApplicationTarget\n9"];
+"Assertion" [label="Assertion\n1138"];
+"Condition" [label="Condition\n1819"];
+"ExpressionUse" [label="ExpressionUse\n1084"];
+"GrammarConcept" [label="GrammarConcept\n99"];
+"IllustrativeExample" [label="IllustrativeExample\n76"];
+"KnowledgeRecord" [label="KnowledgeRecord\n331"];
+"Source" [label="Source\n7"];
+"SourceExample" [label="SourceExample\n6"];
+"SourceLocation" [label="SourceLocation\n332"];
+"SurfaceForm" [label="SurfaceForm\n871"];
+"Value" [label="Value\n297"];
+"Assertion" -> "ApplicationTarget" [label="applies_at (1138)"];
+"Assertion" -> "ExpressionUse" [label="object (467)"];
+"Assertion" -> "GrammarConcept" [label="object (374)"];
+"Assertion" -> "Value" [label="object (297)"];
+"Assertion" -> "Condition" [label="requires_all (1807)"];
+"Assertion" -> "AnalysisFeature" [label="requires_analysis_of (1817)"];
+"Assertion" -> "Condition" [label="requires_any (12)"];
+"Assertion" -> "ExpressionUse" [label="subject (1128)"];
+"Assertion" -> "GrammarConcept" [label="subject (10)"];
+"Condition" -> "SourceLocation" [label="supported_at (1861)"];
+"ExpressionUse" -> "GrammarConcept" [label="realizes (374)"];
+"ExpressionUse" -> "SurfaceForm" [label="written_as (1084)"];
+"IllustrativeExample" -> "Assertion" [label="illustrates_assertion (76)"];
+"KnowledgeRecord" -> "Assertion" [label="contains_assertion (1138)"];
+"KnowledgeRecord" -> "IllustrativeExample" [label="has_illustrative_example (76)"];
+"KnowledgeRecord" -> "SourceExample" [label="has_source_example (6)"];
+"KnowledgeRecord" -> "SourceLocation" [label="supported_at (440)"];
+"SourceExample" -> "SourceLocation" [label="supported_at (6)"];
+"SourceLocation" -> "Source" [label="in_source (332)"];
+}

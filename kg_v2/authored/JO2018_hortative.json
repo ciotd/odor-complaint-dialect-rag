@@ -1,0 +1,2297 @@
+{
+  "source_id": "JO2018",
+  "facts": [
+    {
+      "id": "JO2018:v2:hortative:0001",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -이시더",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-이시더",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "hortative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "hortative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "verb",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 170,
+          "quote": "경을(구경을)한분해보입시더.”(7-13:120/대구)(126)에서는각각‘-이시더’,‘-입시더’가청유법종결어미로쓰이고있다.공통적으로용언어간과결합하고있으며,주어에서[+높임]의대상이확인된다.(126ㄱ,ㄴ)은동일한어간에‘-이시더’와‘-입시더’가결합한다.서술법‘-니더’,‘-ㅂ니더’와마찬가지로‘-ㅂ-’은지역적으로대립한다.둘째,표준형종결어미는다음과같이나타난다.-158-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "화자·청자 공동 행동. 종결형이 같은 서술·명령과 구별하고 실제 발화의 등급 혼용을 고려."
+    },
+    {
+      "id": "JO2018:v2:hortative:0002",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -입시더",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-입시더",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "hortative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "hortative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "verb",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 170,
+          "quote": "한분해보입시더.”(7-13:120/대구)(126)에서는각각‘-이시더’,‘-입시더’가청유법종결어미로쓰이고있다.공통적으로용언어간과결합하고있으며,주어에서[+높임]의대상이확인된다.(126ㄱ,ㄴ)은동일한어간에‘-이시더’와‘-입시더’가결합한다.서술법‘-니더’,‘-ㅂ니더’와마찬가지로‘-ㅂ-’은지역적으로대립한다.둘째,표준형종결어미는다음과같이나타난다.-158-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "화자·청자 공동 행동. 종결형이 같은 서술·명령과 구별하고 실제 발화의 등급 혼용을 고려."
+    },
+    {
+      "id": "JO2018:v2:hortative:0003",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -입시다",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-입시다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "hortative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "hortative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "verb",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 171,
+          "quote": "0/구미)(127)에서는표준형의‘-ㅂ시다’에높임의형태소‘-이-’가결합된‘-입시다’가쓰인다.‘-ㅂ시다’는표준어에서하오체에해당하는데,‘-이-’가결합하면서그등급이높아진것으로볼수있다.이상으로하이소체청유법종결어미의유형은다음과같이정리할수있다.<표37>하이소체청유법종결어미높임등급유형종결어미방언형-이시더/입시더하이소체표준형-입시다하이소체청유법종결어미는표준형과방언형으로‘-입시더:-입시다’의대립을보여주며,지역적으로‘-이시더:-입시더’의대립을보여준다.한편,기존연구에서제시된하이소체청유법종결어미목록체계양상을1바탕으로몇가지특성을제시하면다음과같다.82)첫째,하이소체청유법종결어미에서는공통적으로‘-이시더’,‘-입시더’,‘-입시다’등을제시하고있어큰이견이보이지않는다.다만,청유법이아닌다른문장종결법으로제시한경우가있다.김병제(1965),김영황(2013)에서는권유법,황대화(1998),리동빈(2004)는추김법,최명옥(1"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "화자·청자 공동 행동. 종결형이 같은 서술·명령과 구별하고 실제 발화의 등급 혼용을 고려."
+    },
+    {
+      "id": "JO2018:v2:hortative:0004",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -시더",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-시더",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "hortative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "hortative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "verb",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 176,
+          "quote": "기는대로갑시대이.씨기는대로하소.”(7-3:58/경주)(131)에서는각각‘-시더’,‘-ㅂ시더’,‘-ㅁ시더’,‘-시더이’가청유법종결어미로쓰이고있다.공통적으로용언어간과결합하고있으며,주어에서[+높임]의대상이확인된다.(131ㄱ,ㄴ)은동일한어간에‘-시더’와‘-ㅂ시더’가결합한다.‘-이시더’,‘-입니더’와마찬가지로지역적대립을보여준다.(131ㄷ)의‘-ㅁ시더’는비음동화환경으로‘-ㅂ시다’와동일한형태이며,(131ㄹ)은‘-시더’에‘-이’가결합하여쓰인다.(131ㅁ,ㅂ)에서는서술법의‘-데이’에‘-시-’가결합하여청유법을나타내고있다.공통적으로높임의형태소‘-시-’와,‘-다’,‘-더’,‘-데이’가결합하여청유법을나타낸다.둘째,표준형종결어미는다음과같이나타난다.(132)ㄱ.“아이아주반님!여바아드갑시다.”(7-18:357/예천)ㄴ.a:“나정처없이가는사람이요.\"b:“나도그렇소.거동행합시다.\"(7-15:55/구미)(132"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "화자·청자 공동 행동. 종결형이 같은 서술·명령과 구별하고 실제 발화의 등급 혼용을 고려."
+    },
+    {
+      "id": "JO2018:v2:hortative:0005",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㅂ시더",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㅂ시더",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "hortative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "hortative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "verb",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 176,
+          "quote": "대이.씨기는대로하소.”(7-3:58/경주)(131)에서는각각‘-시더’,‘-ㅂ시더’,‘-ㅁ시더’,‘-시더이’가청유법종결어미로쓰이고있다.공통적으로용언어간과결합하고있으며,주어에서[+높임]의대상이확인된다.(131ㄱ,ㄴ)은동일한어간에‘-시더’와‘-ㅂ시더’가결합한다.‘-이시더’,‘-입니더’와마찬가지로지역적대립을보여준다.(131ㄷ)의‘-ㅁ시더’는비음동화환경으로‘-ㅂ시다’와동일한형태이며,(131ㄹ)은‘-시더’에‘-이’가결합하여쓰인다.(131ㅁ,ㅂ)에서는서술법의‘-데이’에‘-시-’가결합하여청유법을나타내고있다.공통적으로높임의형태소‘-시-’와,‘-다’,‘-더’,‘-데이’가결합하여청유법을나타낸다.둘째,표준형종결어미는다음과같이나타난다.(132)ㄱ.“아이아주반님!여바아드갑시다.”(7-18:357/예천)ㄴ.a:“나정처없이가는사람이요.\"b:“나도그렇소.거동행합시다.\"(7-15:55/구미)(132)의‘-ㅂ시"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "화자·청자 공동 행동. 종결형이 같은 서술·명령과 구별하고 실제 발화의 등급 혼용을 고려."
+    },
+    {
+      "id": "JO2018:v2:hortative:0006",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㅁ시더",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㅁ시더",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "hortative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "hortative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "verb",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 176,
+          "quote": "로하소.”(7-3:58/경주)(131)에서는각각‘-시더’,‘-ㅂ시더’,‘-ㅁ시더’,‘-시더이’가청유법종결어미로쓰이고있다.공통적으로용언어간과결합하고있으며,주어에서[+높임]의대상이확인된다.(131ㄱ,ㄴ)은동일한어간에‘-시더’와‘-ㅂ시더’가결합한다.‘-이시더’,‘-입니더’와마찬가지로지역적대립을보여준다.(131ㄷ)의‘-ㅁ시더’는비음동화환경으로‘-ㅂ시다’와동일한형태이며,(131ㄹ)은‘-시더’에‘-이’가결합하여쓰인다.(131ㅁ,ㅂ)에서는서술법의‘-데이’에‘-시-’가결합하여청유법을나타내고있다.공통적으로높임의형태소‘-시-’와,‘-다’,‘-더’,‘-데이’가결합하여청유법을나타낸다.둘째,표준형종결어미는다음과같이나타난다.(132)ㄱ.“아이아주반님!여바아드갑시다.”(7-18:357/예천)ㄴ.a:“나정처없이가는사람이요.\"b:“나도그렇소.거동행합시다.\"(7-15:55/구미)(132)의‘-ㅂ시다’는표준어와"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "화자·청자 공동 행동. 종결형이 같은 서술·명령과 구별하고 실제 발화의 등급 혼용을 고려."
+    },
+    {
+      "id": "JO2018:v2:hortative:0007",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -시더이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-시더이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "hortative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "hortative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "verb",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 176,
+          "quote": "-3:58/경주)(131)에서는각각‘-시더’,‘-ㅂ시더’,‘-ㅁ시더’,‘-시더이’가청유법종결어미로쓰이고있다.공통적으로용언어간과결합하고있으며,주어에서[+높임]의대상이확인된다.(131ㄱ,ㄴ)은동일한어간에‘-시더’와‘-ㅂ시더’가결합한다.‘-이시더’,‘-입니더’와마찬가지로지역적대립을보여준다.(131ㄷ)의‘-ㅁ시더’는비음동화환경으로‘-ㅂ시다’와동일한형태이며,(131ㄹ)은‘-시더’에‘-이’가결합하여쓰인다.(131ㅁ,ㅂ)에서는서술법의‘-데이’에‘-시-’가결합하여청유법을나타내고있다.공통적으로높임의형태소‘-시-’와,‘-다’,‘-더’,‘-데이’가결합하여청유법을나타낸다.둘째,표준형종결어미는다음과같이나타난다.(132)ㄱ.“아이아주반님!여바아드갑시다.”(7-18:357/예천)ㄴ.a:“나정처없이가는사람이요.\"b:“나도그렇소.거동행합시다.\"(7-15:55/구미)(132)의‘-ㅂ시다’는표준어와동일하게나타난"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "화자·청자 공동 행동. 종결형이 같은 서술·명령과 구별하고 실제 발화의 등급 혼용을 고려."
+    },
+    {
+      "id": "JO2018:v2:hortative:0008",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -시데이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-시데이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "hortative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "hortative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "verb",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 176,
+          "quote": "수있다.<표39>하소체청유법종결어미높임등급유형종결어미방언형-시더/ㅂ시더,-시데이하소체표준형-ㅂ시다하소체청유법종결어미는방언형인‘-시더/ㅂ시더’,표준형인‘-ㅂ시다’가나타나며,‘-시데이’는하소체서술법종결어미와형태를같이하지만그쓰임은다르다.한편,기존연구에서제시된하소체청유법종결어미목록체계양상을-164-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "화자·청자 공동 행동. 종결형이 같은 서술·명령과 구별하고 실제 발화의 등급 혼용을 고려."
+    },
+    {
+      "id": "JO2018:v2:hortative:0009",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -ㅂ시다",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㅂ시다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "hortative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "hortative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "verb",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 176,
+          "quote": "와마찬가지로지역적대립을보여준다.(131ㄷ)의‘-ㅁ시더’는비음동화환경으로‘-ㅂ시다’와동일한형태이며,(131ㄹ)은‘-시더’에‘-이’가결합하여쓰인다.(131ㅁ,ㅂ)에서는서술법의‘-데이’에‘-시-’가결합하여청유법을나타내고있다.공통적으로높임의형태소‘-시-’와,‘-다’,‘-더’,‘-데이’가결합하여청유법을나타낸다.둘째,표준형종결어미는다음과같이나타난다.(132)ㄱ.“아이아주반님!여바아드갑시다.”(7-18:357/예천)ㄴ.a:“나정처없이가는사람이요.\"b:“나도그렇소.거동행합시다.\"(7-15:55/구미)(132)의‘-ㅂ시다’는표준어와동일하게나타난다.이상으로하소체청유법종결어미의유형은다음과같이정리할수있다.<표39>하소체청유법종결어미높임등급유형종결어미방언형-시더/ㅂ시더,-시데이하소체표준형-ㅂ시다하소체청유법종결어미는방언형인‘-시더/ㅂ시더’,표준형인‘-ㅂ시다’가나타나며,‘-시데이’는하소체서술법종결어미와형"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "화자·청자 공동 행동. 종결형이 같은 서술·명령과 구별하고 실제 발화의 등급 혼용을 고려."
+    },
+    {
+      "id": "JO2018:v2:hortative:0010",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -세",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-세",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "hortative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "hortative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "verb",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하게"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 183,
+          "quote": "게체1)종결어미의종류및지역분포와사용양상대계의하게체청유법종결어미는표준형의‘-세’만나타나며,특별한방언형은발견되지않는다.(141)ㄱ.“자네상객으로왔잖는가?이리들어와술한잔먹세.”(7-17:155/예천)ㄴ.“그래집에다가보세.내며느리라는게,자네떠나보낸뒤에,약하약하한이얘기를하고자네를불러들이라꼬하이,한번디가보세.”(7-9:307/안동)ㄷ.자네딸캉우리아들캉백년계약을맺으세.(7-13:173/대구)ㄹ.“그래그라만오늘저우리집에가세.가가주고술이나한잔하고우리회포를하세.”(7-12:478/군위)(141)의‘-세’는청자가화자보다아랫사람으로[-높임]의자질을가진다.또한어간과직접결합하며,음운론적환경에따라매개모음이삽입되기도한다.즉표준어에서쓰이는양상과동일하게이방언형에서도나타난다.이상으로하게체청유법종결어미의유형은다음과같이정리할수있다.<표41>하게체청유법종결어미높임등급유형종결어미하게체표준형-세하게체청유법종결어미에서는경"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "화자·청자 공동 행동. 종결형이 같은 서술·명령과 구별하고 실제 발화의 등급 혼용을 고려."
+    },
+    {
+      "id": "JO2018:v2:hortative:0011",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -제",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-제",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "hortative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "hortative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "verb",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 186,
+          "quote": "상대계의해라체청유법종결어미는표준형에대응하는방언형만나타난다.첫째,방언형인‘-제’와‘-제이’가나타난다.(145)ㄱ.a:“하따,이거참멫천리지부에서,멫천리오이말이지배가고푼데,언넘(어느놈)밥이라도있이마좀먹제.”b:“아,이사람아,밥전에우선입에가풀이끼가주고담배라도피았으마,담배가있어야제.”c:“아,이사람들아,그러나저러나나는거거신이떨어져가신이없다.”(7-2:736/경주)ㄴ.a:“그래내일지녁에꼭그래제이!”b:“몰시더뭐작은아버지그케마음에계시마몰시더.”(7-17:333/예천)ㄷ.“아무것아아무것아,니는요리하거라.나는요리가꺼이,가는데는내연(내년)다오는(다가오는)동짓달에팥죽먹는날이그날요게만내재이.한트로(한곳으로)가마우리가못산다.ꡓ(7-9:1031/안동)-174-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "화자·청자 공동 행동. 종결형이 같은 서술·명령과 구별하고 실제 발화의 등급 혼용을 고려."
+    },
+    {
+      "id": "JO2018:v2:hortative:0012",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -제이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-제이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "hortative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "hortative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "verb",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 186,
+          "quote": "라체청유법종결어미는표준형에대응하는방언형만나타난다.첫째,방언형인‘-제’와‘-제이’가나타난다.(145)ㄱ.a:“하따,이거참멫천리지부에서,멫천리오이말이지배가고푼데,언넘(어느놈)밥이라도있이마좀먹제.”b:“아,이사람아,밥전에우선입에가풀이끼가주고담배라도피았으마,담배가있어야제.”c:“아,이사람들아,그러나저러나나는거거신이떨어져가신이없다.”(7-2:736/경주)ㄴ.a:“그래내일지녁에꼭그래제이!”b:“몰시더뭐작은아버지그케마음에계시마몰시더.”(7-17:333/예천)ㄷ.“아무것아아무것아,니는요리하거라.나는요리가꺼이,가는데는내연(내년)다오는(다가오는)동짓달에팥죽먹는날이그날요게만내재이.한트로(한곳으로)가마우리가못산다.ꡓ(7-9:1031/안동)-174-"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "화자·청자 공동 행동. 종결형이 같은 서술·명령과 구별하고 실제 발화의 등급 혼용을 고려."
+    },
+    {
+      "id": "JO2018:v2:hortative:0013",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -자",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-자",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "hortative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "hortative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "verb",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 187,
+          "quote": "-제이’가쓰이고있다.여기에서도‘-이’가결합한형태가나타난다.둘째,표준형인‘-자’가쓰인다.(146)ㄱ.“당신캉나캉백년해로를맺일모양이까네,저딸로내가중신을할모양이까네,내말대로치우자.”(7-3:49/경주)ㄴ.“요번에는자네가아들을놓고내가딸을놓으만서로혼인언약을하자.”(7-12:128/군위)ㄷ.“우리아무꺼시한테혼사를하자.”(7-16:71/구미)ㄹ.“우리가인제는마실에서도많이얻어먹고이만침컸이이께네,인제는타관에가좀얻어먹자.”(7-18:512/예천)(146)에서는주어와공기하면서화자또한행위를수반하는문장으로,표준형인‘-자’가쓰이고,다른형태소와결합된종결어미는보이지않는다.이상으로해라체청유법종결어미의유형은다음과같이정리할수있다.<표43>해라체청유법종결어미높임등급유형종결어미방언형-제해라체표준형-자해라체청유법종결어미는표준형인‘-자’와이에대응되는방언형‘-제’만쓰이면서다른높임등급에비해그형태가적다.한편,기존연구에서제시"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": "화자·청자 공동 행동. 종결형이 같은 서술·명령과 구별하고 실제 발화의 등급 혼용을 고려."
+    },
+    {
+      "id": "JO2018:v2:hortative:0014",
+      "type": "context",
+      "source_pattern": {
+        "text": "청유와 명령의 구별",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "화자와 청자 함께 행동하는 청유. 이시더/입시더는 같은 보다 어간에 나타나지만 ㅂ 유무 지역 대조",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 170,
+          "quote": "결어미의종류와지역분포및사용양상과통사･의미적특성청유법은일반적으로화자와청자가동시에어떤행동을취할때나타나는문장종결법이다.청자홀로행동을취하는명령법과구분되는점이여기에있다.3.1.4.1.하이소체1)종결어미의종류및지역분포와사용양상청유법에도[+높임],[-하대]의자질을가진종결어미,즉하이소체가나타나는데,그형태가많지는않다.방언형에서도형태소결합을통한몇가지의형태만존재할뿐이다.이에해당하는종결어미를대계에서살펴보기로한다.첫째,방언형종결어미는다음과같이나타난다.(126)ㄱ.“혀임(형님)시긴대로해가주고우리함문저을띠보이시더.어야능공보이시더”(7-3:404/경주)ㄴ.“예,그러마채에가주고여어내놓고나가가리겠임더.그런데고방기경을(구경을)한분해보입시더.”(7-13:120/대구)(126)에서는각각‘-이시더’,‘-입시더’가청유법종결어미로쓰이고있다.공통적으로용언어간과결합하고있으며,주어에서[+높임]의대상이확인된다.(126ㄱ,ㄴ)은"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:hortative:0015",
+      "type": "context",
+      "source_pattern": {
+        "text": "입시다 구성",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "ㅂ시다+높임 이로 분석. 권유·공동·추김법은 이 연구에서 문법적 청유에 포함",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 171,
+          "quote": "을살리놓입시다.\"(7-15:30/구미)(127)에서는표준형의‘-ㅂ시다’에높임의형태소‘-이-’가결합된‘-입시다’가쓰인다.‘-ㅂ시다’는표준어에서하오체에해당하는데,‘-이-’가결합하면서그등급이높아진것으로볼수있다.이상으로하이소체청유법종결어미의유형은다음과같이정리할수있다.<표37>하이소체청유법종결어미높임등급유형종결어미방언형-이시더/입시더하이소체표준형-입시다하이소체청유법종결어미는표준형과방언형으로‘-입시더:-입시다’의대립을보여주며,지역적으로‘-이시더:-입시더’의대립을보여준다.한편,기존연구에서제시된하이소체청유법종결어미목록체계양상을1바탕으로몇가지특성을제시하면다음과같다.82)첫째,하이소체청유법종결어미에서는공통적으로‘-이시더’,‘-입시더’,‘-입시다’등을제시하고있어큰이견이보이지않는다.다만,청유법이아닌다른문장종결법으로제시한경우가있다.김병제(1965),김영황(2013)에서는권유법,황대화(1998),리동빈"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:hortative:0016",
+      "type": "context",
+      "source_pattern": {
+        "text": "높임 청유 등급·미관찰",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "입시더는 3/4단계 체계에 따라 분류 차이. 시입시더·시옵사이다는 본 자료 미관찰",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 172,
+          "quote": "입시더’(배정숙,1989)‘-(시옵)사이다’(서정욱,1981)는대1계에서나타나지않았다.84)대계에서하이소체청유법종결어미의유형별지역분포와사용양상을제시하면다음과같다.<표38>하이소체청유법종결어미의지역분포와사용양상경북경북중동부방언방언구획서부경북중동경북중동높방언서부방언동부방언임합계지역법상구대달성군경영안예봉(합계)주미구성주위주덕동천화유형종결어미-이시더․․․․․․21․․․3하방언형-입시더․914188211․․․53이합계56소체-입시다396․2197111․49표준형합계49하이소체에청유법종결어미는‘-입시더’,‘-입시다’로크게구분된다.또한표준형보다는방언형이조금더쓰이지만,그빈도수가높지는않다.‘-입시다’는달성,봉화지역을제외하고는전지역에걸쳐고루분포하며,‘-이시184)배정숙(1989)에서는‘-아예/어예’를제시하였는데,이는비격식체이므로격식체에서제외하였다.-160-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:hortative:0017",
+      "type": "context",
+      "source_pattern": {
+        "text": "이시더/입시더 분포",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "이시더 경주·영덕, 입시더 서부·중서부 중심, 안동·예천·봉화 미관찰. 표준 입시다 전역이라는 본문과 표의 달성·봉화 미관찰을 함께 보존",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 173,
+          "quote": "선생님,대궐로가입시다.”(7-13:530/대구)(128ㄱ)의‘-이시더’는경주,영덕에서만나타나고,그외의지역에서는발견되지않는다.대신(128ㄴ)의‘-입시더’는‘-이시더’와반대로경북서부방언이나경북중동서부방언에서그사용이빈번하다.즉,서술법의‘-니더’,‘-ㅂ니더’와같이,어간에결합되는종성‘-ㅂ-’의유무에따라지역적분포에서차이를보인다.주목할부분은안동,예천,봉화에서는이러한형태의사용이보이지않는다.이는경북방언내에서도하이소체가모두쓰이고있지않음을보여주는것이기도하다.표준형인‘-입시다’는경북전지역에서고루나타나는데,흥미로운점은,앞서살펴본‘-이시더’가쓰이지않는지역에서‘-입시다’가쓰이고있다는점이다.다시말하면‘-입시다’와‘-입시더’의사용지역이어느정도일치하는경향을보인다.즉,이지역의‘-입시더’는‘-입시다’의모음변화로생긴형태일수도있다.그근거로‘-입시더:-입시다’는대립되는반면,‘-이시더:-이시다’의대립은나타나지않는다.2)"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:hortative:0018",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -이시더",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-이시더",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "hortative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "verb",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "actor",
+          "op": "eq",
+          "value": "speaker_and_addressee",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하이소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 174,
+          "quote": "다날이저물어서여하룻밤자고가입시다.”(7-13:614/대구)(129ㄱ)의‘-이시더’는동사어간과직접결합하여청유법으로쓰이는데,1체언과결합할경우에는서술법으로쓰인다.85)(129ㄴ)에서는명령법의‘-이소’와청유법의‘-입시더’가쓰이면서하이소체로쓰이고있다.(129ㄷ)에서도명령법‘-이소’,청유법‘-입시더’,서술법‘-입니더’가쓰이면서하이소체체계를보여주고있다.이러한용례에서는문장종결법에따라하이소체가균등하게쓰이고있음을보여주고있다.그러나다른문장종결법과마찬가지로등급의혼용양상이나타나기도한다.(130)ㄱ.“아부지업히이소.인지갑시더.”(7-14:170/달성)ㄴ.“아무때연분에내가돈가방을잃아뿌고가암지르고댕길때그래날밥도주고극장도델고간그엄마아입니꺼?내가친부모가없어서내엄마삼아모실라꼬왔심더.이거내삐리뿌고가입시더.”(7-14:273/달성)ㄷ.“여이거마입시더,촌을내려갑시더.촌에오데가서사지,이래가사지마입시더.”(7-13:61"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "동사 직접 결합은 청유, 체언 결합은 서술 동형 형태."
+    },
+    {
+      "id": "JO2018:v2:hortative:0019",
+      "type": "context",
+      "source_pattern": {
+        "text": "이소·입시더·입니더의 정합과 혼용",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "같은 하이소 체계를 유지한 예와 갑시더 혼용 예를 모두 확인",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 174,
+          "quote": "이소체가균등하게쓰이고있음을보여주고있다.그러나다른문장종결법과마찬가지로등급의혼용양상이나타나기도한다.(130)ㄱ.“아부지업히이소.인지갑시더.”(7-14:170/달성)ㄴ.“아무때연분에내가돈가방을잃아뿌고가암지르고댕길때그래날밥도주고극장도델고간그엄마아입니꺼?내가친부모가없어서내엄마삼아모실라꼬왔심더.이거내삐리뿌고가입시더.”(7-14:273/달성)ㄷ.“여이거마입시더,촌을내려갑시더.촌에오데가서사지,이래가사지마입시더.”(7-13:617/대구)ㄹ.“사랑아나갑시더.손님이왔는데함꾸이가보입시더.”(7-13:617/대구)ㅁ.a:“대감님이어째서왔입니꺼?”b:“나는대갬이라캐도먹을꺼리가없다.없으이너거한테양식을,좀빌러왔다.”a:“그러면대감님,우리문제를내가지골랑저내길합시더.”(7-12:644/군위)185)서술법으로쓰이는예는다음과같다.마과게로몬하고마낙방이됐단말이시더.(7-1:283/경주)-162-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:hortative:0020",
+      "type": "context",
+      "source_pattern": {
+        "text": "실제 청자 관계의 혼용",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "부자·부부 관계에서 하이소/하소 혼용. +높임 공유와 지역별 대체 해석은 1980년대 자료 범위",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 175,
+          "quote": "다.또한하이소체가쓰이지않는지역에서는하이소체대신하소체를대체하여사용한다.즉,1980년대에는하이소체와하소체가지역적으로구분되기도하지만,혼용양상으로인하여등급에서혼란을보이는시기라고할수있다.3.1.4.2.하소체1)종결어미의종류및지역분포와사용양상하소체청유법은하이소체에서‘-이-’가없이쓰이는형태로,그형태가많지는않다.방언형에서도형태소결합을통한몇가지의형태만존재할뿐이다.이에해당하는종결어미를대계에서살펴보기로한다.첫째,방언형종결어미는다음과같이나타난다.(131)ㄱ.“영감요영감요!오늘고마저녁에제사머로(먹으러)가시더.”(7-17:585/예천)ㄴ.“그럼,짊어지고형수인데갑시더.”(7-7:429/영덕)ㄷ.“아부지마구치소.내그저빙장어른데루(데리고)이얘기함시더.”(7-10:566/안동)ㄹ.이거뭐퍼떡퍼떡이야기합시더이.(7-14:539/달성)ㅁ.“아부지요,우리도떡마이얻어가오새이.우리적은집이아무것이오186)의문법의‘-ㅂ니꺼"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:hortative:0021",
+      "type": "context",
+      "source_pattern": {
+        "text": "ㅁ시더의 분류 주의",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "본 청유 절은 ㅁ시더를 ㅂ시더 계열로 다루나 이얘기함시더 예문은 앞 서술절의 1인칭 약속 예문과 겹침. 동일 문자열의 기능 분류 충돌을 보존",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 176,
+          "quote": "하소.”(7-3:58/경주)(131)에서는각각‘-시더’,‘-ㅂ시더’,‘-ㅁ시더’,‘-시더이’가청유법종결어미로쓰이고있다.공통적으로용언어간과결합하고있으며,주어에서[+높임]의대상이확인된다.(131ㄱ,ㄴ)은동일한어간에‘-시더’와‘-ㅂ시더’가결합한다.‘-이시더’,‘-입니더’와마찬가지로지역적대립을보여준다.(131ㄷ)의‘-ㅁ시더’는비음동화환경으로‘-ㅂ시다’와동일한형태이며,(131ㄹ)은‘-시더’에‘-이’가결합하여쓰인다.(131ㅁ,ㅂ)에서는서술법의‘-데이’에‘-시-’가결합하여청유법을나타내고있다.공통적으로높임의형태소‘-시-’와,‘-다’,‘-더’,‘-데이’가결합하여청유법을나타낸다.둘째,표준형종결어미는다음과같이나타난다.(132)ㄱ.“아이아주반님!여바아드갑시다.”(7-18:357/예천)ㄴ.a:“나정처없이가는사람이요.\"b:“나도그렇소.거동행합시다.\"(7-15:55/구미)(132)의‘-ㅂ시다’는표준어와동"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:hortative:0022",
+      "type": "context",
+      "source_pattern": {
+        "text": "하소 청유 목록과 표",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "ㅂ시더와 입시더의 높임 분석, ㅂ세다 미관찰. 빈도표 행 합계와 총계 불일치 가능성",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 177,
+          "quote": "하소체에해당하는것으로보아야한다.둘째,새로운종결어미를제시한경우가있는데,‘-ㅂ세다’(김병제,1965)는대계에서나타나지않았다.대계에서하소체청유법종결어미의유형별지역분포와사용양상을제시하면다음과같다.<표40>하소체청유법종결어미의지역분포와사용양상경북경북중동부방언방언구획서부경북중동경북중동높방언서부방언동부방언임합계지역법상구대달성군경영안예봉(합계)주미구성주위주덕동천화유형종결어미-시더․․․․․131822311716117-ㅂ시더1214436131259158․4213방언형합계330하-시데이․․․․․․1․1․․2소합계2체-ㅂ시다79944739311059265275628663표준형합계712188)[부록6]참고.-165-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:hortative:0023",
+      "type": "context",
+      "source_pattern": {
+        "text": "시더의 지역 차이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "시더 동부 우세·서부 미관찰, ㅂ시더 서부·중서부 우세, 합시더이 달성1례",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 178,
+          "quote": "4:539/달성)(133ㄱ,ㄴ)의‘-시더’는경주,영덕,안동을비롯한경북중동동부방언에서1만나타나고,상주,구미등의경북서부방언권에서는발견되지않는다.89)대신(133ㄷ,ㄹ)의‘-ㅂ시더’는표준형인‘-ㅂ시다’의방언형으로,‘-시더’와반대로경북서부방언이나경북중동서부방언에서그사용이빈번하다.즉,서술법의‘-니더’,‘-ㅂ니더’와같이,어간에결합되는종성‘-ㅂ-’의유무에따라지역적분포에서차이를보인다.(138ㅁ)의‘-시더이’는그사용이한차례만나타났다.(134)ㄱ.“장자집할머니,아들을놨다디뭘놨는동귀경해봅시다.”(7-10:631/봉화)ㄴ.“형님,어저케웬중놈이와서저러싸케로들여보내봅시다.”(7-13:530/대구)표준형인‘-ㅂ시다’는경북전지역에서고루나타나는데,흥미로운점은,앞189)한국방언자료집(1989:317)에서는‘-시더’가쓰이는지역을다음과같이제시하고있다.영풍,봉화,영양,의성,영덕,군위,경산,고령,달성,청도,월성,안동"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:hortative:0024",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-ㅂ시다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-시더",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "hortative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "hortative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "verb",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 179,
+          "quote": "퍼떡이야기합시더이.(7-14:539/달성)‘-시더’는표준형인‘-ㅂ시다’로대치하면의미변화가일어나지않으므로이에대응되는표현이라할수있다.19)‘0-시더’는하이소체서술법의‘-시190)최동주(2003:109)에서는‘-​+이+다’의결합형이통시적으로굳어져쓰이는형태로보고있다.-167-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:hortative:0025",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-ㅂ시다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㅂ시더",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "hortative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "hortative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "verb",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 179,
+          "quote": "시더’의사용지역이일치하는경향을보인다.즉,이지역의‘-ㅂ시더’는‘-ㅂ시다’의모음변화로생긴형태일수도있다.하이소체와마찬가지로‘-시더’는‘-ㅂ시더’가대립하지만,‘-ㅂ시다’의경우대립하는‘-시다’가나타나지않는다.(135)ㄱ.“아부지요,우리도떡마이얻어가오새이.우리적은집이아무것이오그던떡주지마시데이.”(7-9:990/안동)ㄴ.“그래요?그렇거등,워낙다틀렀이이,오늘저녁나캉갑시더.내씨기는대로갑시대이.씨기는대로하소.”(7-3:58/경주)‘-시데이’는다른하소체유형에비해그사용빈도가거의없다.하이소체서술법의‘-니데이’와해라체서술법의‘-데이’도이와같은양상을보이는데,이는문장종결법에이형태가같이공유되고있기때문으로보인다.2)하소체청유법종결어미의통사･의미적특성(1)-시더/ㅂ시더(136)ㄱ.“할머이오.내가혼자자니더.우리집에가시더.내자는방에가자시더.내이거빨아가주같이가시더.”(7-6:652/영덕)ㄴ.“그래요?그렇거등,워낙다틀"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "형태 대응은 관찰; 모음 변화의 기원 설명은 가능성."
+    },
+    {
+      "id": "JO2018:v2:hortative:0026",
+      "type": "context",
+      "source_pattern": {
+        "text": "시더의 통사와 이 탈락",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "동작 동사 청유와 시제 선어말 결합 서술 구분. 시더이의 이 선택성과 시데이의 이 비탈락을 구별",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 180,
+          "quote": "조를나타내는‘-이’가결합하여쓰이는데,뒤에서살펴볼‘-시데이’에서는‘-이’가탈락하여쓰일수없으나,‘-ㅂ시더’와결합할경우에는탈락이가능하다.한편,기존연구검토에서‘-시더/ㅂ시더’가하소체와하이소체두등급에서나타나고있음을앞서확인하였다.(137)ㄱ.a:“하,샌님요,샌님요,저거씨기는대로하소.”b:“어야하꼬?”a:“이부뚜맥이를자고팝시더.”(7-1:237/경주)ㄴ.“울아부이할랑교?우리집이갑시더.우리곡석은아매백석은되니더.”(7-2:178/경주)ㄷ.“아이고율곡선생이어인일입니꺼?좀들어오이소.내일은산구경가입시더.”(7-4:134/성주)ㄹ.“아이구,아버님아버님일어나이소.집에가입시더.여기는산입니더,집에가입시더.”(7-5:64/성주)(137ㄱ)에서는화자보다높은샌님과의대화이다.화자는명령법의‘-소’와청유법의‘-ㅂ시더’로샌님과대화하면서두형태가하소체로쓰이고있음을알수있다.(137ㄴ)에서는화자보다높은상대에게하소체의문법‘-ㄴ"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:hortative:0027",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -시더",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-시더",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "hortative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "verb",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "tense_aspect_suffix",
+          "op": "exists",
+          "value": false,
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "hortative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하소"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 180,
+          "quote": "일수없으나,‘-ㅂ시더’와결합할경우에는탈락이가능하다.한편,기존연구검토에서‘-시더/ㅂ시더’가하소체와하이소체두등급에서나타나고있음을앞서확인하였다.(137)ㄱ.a:“하,샌님요,샌님요,저거씨기는대로하소.”b:“어야하꼬?”a:“이부뚜맥이를자고팝시더.”(7-1:237/경주)ㄴ.“울아부이할랑교?우리집이갑시더.우리곡석은아매백석은되니더.”(7-2:178/경주)ㄷ.“아이고율곡선생이어인일입니꺼?좀들어오이소.내일은산구경가입시더.”(7-4:134/성주)ㄹ.“아이구,아버님아버님일어나이소.집에가입시더.여기는산입니더,집에가입시더.”(7-5:64/성주)(137ㄱ)에서는화자보다높은샌님과의대화이다.화자는명령법의‘-소’와청유법의‘-ㅂ시더’로샌님과대화하면서두형태가하소체로쓰이고있음을알수있다.(137ㄴ)에서는화자보다높은상대에게하소체의문법‘-ㄴ교’,청유법‘-ㅂ시더’,하이소체서술법‘-니더’가차례로쓰이고있다.(137ㄷ)에서는명"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "시제 선어말 결합 서술과 구별. 선행연구는 존재사 잇도 허용하므로 동작동사만이라는 본문과 범위차 보존."
+    },
+    {
+      "id": "JO2018:v2:hortative:0028",
+      "type": "context",
+      "source_pattern": {
+        "text": "ㅂ시다와 입시다의 혼용",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "ㅂ시다에는 ㅂ 필수. 부자·어머니 청자에게 입시다/ㅂ시다·네요 등 혼용. 문법 등급과 사회 관계 일대일 아님",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 181,
+          "quote": "138)에서는표준형인‘-ㅂ시다’의용례로,앞서본‘-시더/ㅂ시더’와는다르게,반드시‘-ㅂ-’을수반하여쓰인다.그리고‘-ㅂ시다’또한혼용양상이나타난다.(139)ㄱ.“아부지여관으로가입시다.아부지저여관있거던여관으로가입시다.거어가서이얘기합시다.”(7-15:152/구미)ㄴ.“허허이게웬일이고울어무이눈떴네요.인자고마가입시다.”(7-4:246/성주)ㄷ.“아,여비돈이고말고머여게있지머가먼뭘하오?그저같이있입시다.”(7-7:459/영덕)(139ㄱ)에서는‘-입시다’와함께‘-ㅂ시다’가혼용해서쓰이고있고,(139ㄴ)에서는비격식체서술법의‘-네요’와‘-입시다’가,(139ㄷ)은해라체의문법의‘-오’와함께‘-입시다’가쓰인다.그러므로실제언어사용에서는이들의등급구분이약화되고있음을알수있다.-169-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:hortative:0029",
+      "type": "context",
+      "source_pattern": {
+        "text": "시데이와 시더이",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "동사 직접 결합 및 아버지/배우자 높임 청자 관찰. 시더이 구조 분석 두 가설, 단일 사례로 확정 불가",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 182,
+          "quote": "‘-시데이’를비교분석해보면,형태상‘-디’와‘-데’의차이만나타난다.이에대해두가지설명이있을수있다.첫째,‘-시더이’의경우서술법의‘-니더’가있으므로‘-더’를기준으로‘-니-’와‘-시-’의결합여부에따라서술법과청유법으로구분할수있지만,‘-데이’의경우‘-데-’나‘-이’가단일형태로쓰이는경우는보이지않는다.또한‘-데이’가쓰일때에는해라체로나타나지만앞에‘-니-’나‘-시-’가결합하면하소체로쓰인다.그러므로‘-시더이’와‘-시데이’는구분이필요하다.두번째로,단순히모음의변동즉,‘ㅓ>ㅔ’의경우를생각해볼수도있다.이경우에는물론‘-시더이’는‘-데이’형에포함되어야한다.이처럼두가지의경우로구분하였을때‘-시더이’가어느쪽으로포함이되어야하는지정확한구분이가능해진다.그러나자료에서는이러한용례가한차례만나타나구체적인확인이어렵다.192)앞서다양한문장종결법에서본것처럼,여기에도상대높임법의어울림현상이작용한것으로보인다.즉통사적측면을벗어나텍스트측면에"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:hortative:0030",
+      "type": "context",
+      "source_pattern": {
+        "text": "하게 청유의 표준형",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "세만 관찰, 매개모음 가능. 해당 방언에 형태가 존재하지 않는다는 본문은 별도 방언 전용형 부재라는 뜻",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 183,
+          "quote": "4.3.하게체1)종결어미의종류및지역분포와사용양상대계의하게체청유법종결어미는표준형의‘-세’만나타나며,특별한방언형은발견되지않는다.(141)ㄱ.“자네상객으로왔잖는가?이리들어와술한잔먹세.”(7-17:155/예천)ㄴ.“그래집에다가보세.내며느리라는게,자네떠나보낸뒤에,약하약하한이얘기를하고자네를불러들이라꼬하이,한번디가보세.”(7-9:307/안동)ㄷ.자네딸캉우리아들캉백년계약을맺으세.(7-13:173/대구)ㄹ.“그래그라만오늘저우리집에가세.가가주고술이나한잔하고우리회포를하세.”(7-12:478/군위)(141)의‘-세’는청자가화자보다아랫사람으로[-높임]의자질을가진다.또한어간과직접결합하며,음운론적환경에따라매개모음이삽입되기도한다.즉표준어에서쓰이는양상과동일하게이방언형에서도나타난다.이상으로하게체청유법종결어미의유형은다음과같이정리할수있다.<표41>하게체청유법종결어미높임등급유형종결어미하게체표준형-세하게체청유법종결어"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:hortative:0031",
+      "type": "context",
+      "source_pattern": {
+        "text": "까·음세·으세이 분류",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "까는 의향 질문으로 해체 의문 분류. 음세는 약속 서술만, 으세이 청유는 본 자료 미관찰. 질문과 공동행동 제안 의미는 분리",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 184,
+          "quote": "’로대치된다.표준어에서‘-ㄹ까’는비격식체인해체에속하며,물음이나추측,청자의의사를묻는표현으로의문법에해당한다.특히,(142ㅁ)이독백의경우라면화자스스로에게묻는의문법으로도해석될수있다.그러므로‘-까’는의사를묻는의문법종결어미로보는것이타당한것으로보인다.셋째,‘-음세’와‘-으세이’가청유법으로쓰이는경우이다.이태욱(1996)에서는하게체서술법과형태를같이하는‘-음세’,박창원(1991)에서는‘-으세이’가청유법으로쓰인다고제시하였는데,‘-음세’는약속의의미를나타내는하게체서술법만발견이된다.‘-으세이’는앞서많은형태에서종결어미다음에‘-이’가결합하는특성으로보았을때,청유법에도이러한‘-이’의결합이있을것으로예상이되나,대계에서발견되지않는다.다음으로,대계의하게체청유법종결어미의유형별지역분포와사용양상을제시하면다음과같다.193)[부록6]참고.-172-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:hortative:0032",
+      "type": "context",
+      "source_pattern": {
+        "text": "세 청유의 광역 분포",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "세는 전역, 독립 방언 전용형은 미관찰. 공동행동이 관찰되는 예문",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 185,
+          "quote": "나만나타나고,다른종결어미는보이지않는다.즉표준형인‘-세’만단독적으로쓰이면서전지역에걸쳐고루분포하고있다.전체적인사용양상은다음과같다.(143)ㄱ.“아이,그나락저닷섬하고바꾸세.”(7-13:282/대구)ㄴ.“그게아이고,내가말하기는좀거북하고마는,나캉사돈하세.”(7-1:277/경주)ㄷ.“우리다함께들어가보세.”(7-6:102/영덕)ㄹ.“죽어도같이죽고살아도같이사세.\"(7-15:477/구미)하게체청유법어미는‘-세’만나타난다.그러므로전지역에서쓰이고있으며기존연구에서제시한다른종결어미는대계에나타나지않았다.2)하게체청유법종결어미의통사･의미적특성(1)-세하게체청유법의‘-세’는그사용에있어서도표준어와다르지않다.(144)ㄱ.내가여,밥줄테이께네같이앉아바둑뜨고서노세.(7-17:134/예천)-173-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:hortative:0033",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -세",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-세",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "hortative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "verb",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "actor",
+          "op": "eq",
+          "value": "speaker_and_addressee",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "하게"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 186,
+          "quote": "가딸을놓고누가아들을낳든지간에사돈을하세.(7-9:427/안동)(144)의‘-세’를해라체의‘-자’로대치하여도문장의의미가변하지않는다.다른선어말어미와결합할경우서술법으로쓰인다.또한용언과바로결합할때는명령법과청유법으로쓰이는데,화자와청자의포함관계를통해구분이가능하다.3.1.4.4.해라체1)종결어미의종류및지역분포와사용양상대계의해라체청유법종결어미는표준형에대응하는방언형만나타난다.첫째,방언형인‘-제’와‘-제이’가나타난다.(145)ㄱ.a:“하따,이거참멫천리지부에서,멫천리오이말이지배가고푼데,언넘(어느놈)밥이라도있이마좀먹제.”b:“아,이사람아,밥전에우선입에가풀이끼가주고담배라도피았으마,담배가있어야제.”c:“아,이사람들아,그러나저러나나는거거신이떨어져가신이없다.”(7-2:736/경주)ㄴ.a:“그래내일지녁에꼭그래제이!”b:“몰시더뭐작은아버지그케마음에계시마몰시더.”(7-17:333/예천)ㄷ.“아무것아아무것아,니는요"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "동사 직접 결합과 화자·청자 공동 행동. 청자 단독은 명령, 선어말 결합 서술 용법 별개."
+    },
+    {
+      "id": "JO2018:v2:hortative:0034",
+      "type": "context",
+      "source_pattern": {
+        "text": "자와 제",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "표준형 자 및 제/제이 관찰. 표43은 제만 대표형으로 표기",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 187,
+          "quote": "-제’와‘-제이’가쓰이고있다.여기에서도‘-이’가결합한형태가나타난다.둘째,표준형인‘-자’가쓰인다.(146)ㄱ.“당신캉나캉백년해로를맺일모양이까네,저딸로내가중신을할모양이까네,내말대로치우자.”(7-3:49/경주)ㄴ.“요번에는자네가아들을놓고내가딸을놓으만서로혼인언약을하자.”(7-12:128/군위)ㄷ.“우리아무꺼시한테혼사를하자.”(7-16:71/구미)ㄹ.“우리가인제는마실에서도많이얻어먹고이만침컸이이께네,인제는타관에가좀얻어먹자.”(7-18:512/예천)(146)에서는주어와공기하면서화자또한행위를수반하는문장으로,표준형인‘-자’가쓰이고,다른형태소와결합된종결어미는보이지않는다.이상으로해라체청유법종결어미의유형은다음과같이정리할수있다.<표43>해라체청유법종결어미높임등급유형종결어미방언형-제해라체표준형-자해라체청유법종결어미는표준형인‘-자’와이에대응되는방언형‘-제’만쓰이면서다른높임등급에비해그형태가적다.한편,기존연"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:hortative:0035",
+      "type": "context",
+      "source_pattern": {
+        "text": "지머의 잘못된 단위화",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "지+뭐(감탄사) 구문으로 분석하여 독립 청유 어미 지머를 설정하지 않음. 지는 억양·주어에 따라 의문·명령도 가능",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 188,
+          "quote": "머식은말이지뭐그일각도그머그럼(어김)이없드라는게라.문장끝에쓰인‘뭐’는일종의감탄사로앞서나오는‘-지’가해라체서술법종결어미이다.다음으로,대계의해라체청유법종결어미의유형별지역분포와사용양상을제시하면다음과같다.-176-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:hortative:0036",
+      "type": "context",
+      "source_pattern": {
+        "text": "해라 청유의 빈도",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "자는 전역 우세, 제/제이 희소. 드문 방언형을 모든 제안에 강제할 근거 아님",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 189,
+          "quote": "자’가가장보편적으로쓰이고,‘-제이’는영덕,안동등지에서몇차례발견될뿐,그사용빈도는높지않다.2)해라체청유법종결어미의통사･의미적특성-177-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "JO2018:v2:hortative:0037",
+      "type": "ending",
+      "source_pattern": {
+        "text": "종결형: -자",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-자",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "hortative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "verb",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "tense_aspect_suffix",
+          "op": "exists",
+          "value": false,
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "subject_honorific",
+          "op": "eq",
+          "value": false,
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "hortative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 190,
+          "quote": "(1)-자(150)ㄱ.“뭐하이튼뭐돈이있든없든물건이이래내래왔으이먹자.”(7-10:440/봉화)ㄴ.“그럼.좋다가자.그럼머자앙가봐야나는돈이없고니돈만자꼬쓰이미안해서되겠나?”(7-14:270/달성)ㄷ.“아주큰집이갈거없다.우리아부지어무이제사를우리집이서채리자.”(7-9:1047/안동)(150ㄱ,ㄴ)의‘-자’또한동작동사와만결합하고,반드시2인칭주어나1인칭복수와공기할때쓰일수있다.또한해라체의특성상높임의‘-시-’나시제선어말어미와도결합이불가능하다.(2)-제(151)ㄱ.a:“아이,샌-님고만니러가입시다.”b:“그래,니러가제.그렇고,너는우예뭐식상을,뭐우예먹느냐?”(7-11:344/군위)ㄴ.a:“내가돈을대주께.어예든동생일을잘하게.자네사돈을청하게.”b:“그럼그래보세!자네돈대줄라만그래보제.”(7-18:409/예천)ㄷ.“그래내일지녁에꼭그래제이!”("
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "원문은 2인칭 또는1인칭복수, 시 및 시제 선어말 미결합을 명시. 공동행동 의미와 높임 조건을 함께 검토."
+    },
+    {
+      "id": "JO2018:v2:hortative:0038",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-자",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-제",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "hortative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "verb",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "hortative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 190,
+          "quote": "서되겠나?”(7-14:270/달성)ㄷ.“아주큰집이갈거없다.우리아부지어무이제사를우리집이서채리자.”(7-9:1047/안동)(150ㄱ,ㄴ)의‘-자’또한동작동사와만결합하고,반드시2인칭주어나1인칭복수와공기할때쓰일수있다.또한해라체의특성상높임의‘-시-’나시제선어말어미와도결합이불가능하다.(2)-제(151)ㄱ.a:“아이,샌-님고만니러가입시다.”b:“그래,니러가제.그렇고,너는우예뭐식상을,뭐우예먹느냐?”(7-11:344/군위)ㄴ.a:“내가돈을대주께.어예든동생일을잘하게.자네사돈을청하게.”b:“그럼그래보세!자네돈대줄라만그래보제.”(7-18:409/예천)ㄷ.“그래내일지녁에꼭그래제이!”(7-17:333/예천)ㄹ.동짓달에팥죽먹는날이그날요게만내재이.(7-9:1031/안동)(151ㄱ)의대화에서손아랫사람에게‘-제’와해라체의문법의‘-냐?’를쓰면서그등급의일치를보여주지만,(151ㄴ)의경우,나이가있는친구들사이의대화로,"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "제는 하게 세와도 혼용, 제이는 부드러운 의미 전달. 평서·의문 제와 별도 의미."
+    },
+    {
+      "id": "JO2018:v2:hortative:0039",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-자",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-제이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "hortative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "pos",
+          "op": "eq",
+          "value": "verb",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "function",
+          "op": "eq",
+          "value": "hortative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북: 세부 분포는 진술 참조"
+        ],
+        "speech_levels": [
+          "해라"
+        ],
+        "registers": [
+          "구술 설화·민요·무가 및 조사 발화"
+        ],
+        "period": [
+          "1978–1984 채록"
+        ],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 190,
+          "quote": "!자네돈대줄라만그래보제.”(7-18:409/예천)ㄷ.“그래내일지녁에꼭그래제이!”(7-17:333/예천)ㄹ.동짓달에팥죽먹는날이그날요게만내재이.(7-9:1031/안동)(151ㄱ)의대화에서손아랫사람에게‘-제’와해라체의문법의‘-냐?’를쓰면서그등급의일치를보여주지만,(151ㄴ)의경우,나이가있는친구들사이의대화로,하게체의‘-세’와‘-제’가같이쓰이면서‘-제’가해라체와하게체두경우에쓰이고있다는것을알수있다.(151ㄷ,ㄹ)의‘-제이’는‘-자’보다는좀더의미적전달을부드럽게할때사용되는것으로보인다.이는서술법의‘-데이’와같은의미기능으로보인다.-178-"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "제는 하게 세와도 혼용, 제이는 부드러운 의미 전달. 평서·의문 제와 별도 의미."
+    }
+  ]
+}

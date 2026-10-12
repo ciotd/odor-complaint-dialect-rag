@@ -134,7 +134,13 @@
                 "register",
                 "region"
               ],
-              "mapping_note": "목표 절의 상대높임·사용 장면을 외부 맥락에서 받고 지역 범위를 대조한다. 부산 전체 또는 모든 비격식 상황으로 적용 범위를 넓히지 않는다. 장터는 장소 필수조건이 아니라 친근 맥락의 예이다."
+              "mapping_note": "목표 절의 상대높임·사용 장면을 외부 맥락에서 받고 지역 범위를 대조한다. 부산 전체 또는 모든 비격식 상황으로 적용 범위를 넓히지 않는다. 장터는 장소 필수조건이 아니라 친근 맥락의 예이다.",
+              "feature_sources": {
+                "region": "target",
+                "register": "target",
+                "sentence_type": "input",
+                "speech_level": "target"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -369,7 +375,13 @@
                 "register",
                 "region"
               ],
-              "mapping_note": "목표 절의 상대높임·사용 장면을 외부 맥락에서 받고 지역 범위를 대조한다. 부산 전체 또는 모든 비격식 상황으로 적용 범위를 넓히지 않는다."
+              "mapping_note": "목표 절의 상대높임·사용 장면을 외부 맥락에서 받고 지역 범위를 대조한다. 부산 전체 또는 모든 비격식 상황으로 적용 범위를 넓히지 않는다.",
+              "feature_sources": {
+                "region": "target",
+                "register": "target",
+                "sentence_type": "input",
+                "speech_level": "target"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -441,7 +453,13 @@
                 "register",
                 "region"
               ],
-              "mapping_note": "목표 절의 상대높임·사용 장면을 외부 맥락에서 받고 지역 범위를 대조한다. 부산 전체 또는 모든 비격식 상황으로 적용 범위를 넓히지 않는다."
+              "mapping_note": "목표 절의 상대높임·사용 장면을 외부 맥락에서 받고 지역 범위를 대조한다. 부산 전체 또는 모든 비격식 상황으로 적용 범위를 넓히지 않는다.",
+              "feature_sources": {
+                "region": "target",
+                "register": "target",
+                "sentence_type": "input",
+                "speech_level": "target"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -513,7 +531,13 @@
                 "register",
                 "region"
               ],
-              "mapping_note": "목표 절의 상대높임·사용 장면을 외부 맥락에서 받고 지역 범위를 대조한다. 부산 전체 또는 모든 비격식 상황으로 적용 범위를 넓히지 않는다."
+              "mapping_note": "목표 절의 상대높임·사용 장면을 외부 맥락에서 받고 지역 범위를 대조한다. 부산 전체 또는 모든 비격식 상황으로 적용 범위를 넓히지 않는다.",
+              "feature_sources": {
+                "region": "target",
+                "register": "target",
+                "sentence_type": "input",
+                "speech_level": "target"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [

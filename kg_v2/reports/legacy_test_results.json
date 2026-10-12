@@ -1,0 +1,20 @@
+{
+  "grammar": {
+    "command": ".venv/retrieval/bin/python -m unittest discover -s current_kg/grammar -p test_*.py",
+    "tests": 98,
+    "status": "passed",
+    "seconds": 80.888
+  },
+  "experiments": {
+    "command": ".venv/retrieval/bin/python -m unittest discover -s current_kg/experiments -p test_*.py",
+    "tests": 77,
+    "status": "passed",
+    "seconds": 23.907
+  },
+  "note": "Implementation regression tests, not dialect quality certification. Legacy data was not rebuilt or modified.",
+  "legacy_reproduction": {
+    "command": ".venv/retrieval/bin/python current_kg/grammar/build.py check",
+    "records": 334,
+    "status": "passed"
+  }
+}

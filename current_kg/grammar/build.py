@@ -19,7 +19,7 @@ GROUPS = {
  "MORPHOLOGY": ("형태 구성과 결합", "INFLECTION:활용 DERIVATION:파생 STEM:어간 PREFINAL_ENDING:선어말어미 FINAL_ENDING:종결어미 CONNECTIVE_ENDING:연결어미 TRANSFORMATIVE_ENDING:전성어미 CASE_PARTICLE:격조사 AUXILIARY_PARTICLE:보조사 CONJUNCTIVE_PARTICLE:접속조사 ALLOMORPH:이형태 AUXILIARY_PREDICATE:보조용언"),
  "SYNTAX": ("문장 구조와 성분", "CLAUSE:절 PREDICATE:서술어 SUBJECT:주어 OBJECT:목적어 COMPLEMENT:보어 ARGUMENT:논항 MODIFIER:수식 COORDINATION:대등접속 SUBORDINATION:종속접속 EMBEDDING:내포 QUOTATION:인용 NOMINALIZATION:명사절화 RELATIVIZATION:관형절화 ELLIPSIS:생략 WORD_ORDER:어순"),
  "FUNCTION": ("문법 기능과 적용 범위", "TENSE:시제 PAST:과거 PRESENT:현재 FUTURE:미래 ASPECT:상 PROGRESSIVE:진행 RESULTATIVE:결과상 MODALITY:양태 GUESS:추측 INTENTION:의도 OBLIGATION:의무 POSSIBILITY:가능 NEGATION:부정 ABILITY_NEGATION:능력부정 PROHIBITION:금지 CAUSATIVE:사동 PASSIVE:피동 CAUSE:이유 PURPOSE:목적 CONDITION:조건 CONCESSION:양보 MANNER:방식 FOCUS:초점 EMPHASIS:강조 TOPIC:화제 COMPARISON:비교 SCOPE:적용범위"),
- "DISCOURSE": ("문장 유형과 높임 및 담화", "DECLARATIVE:평서 INTERROGATIVE:의문 POLAR_QUESTION:판정의문 CONTENT_QUESTION:설명의문 IMPERATIVE:명령 HORTATIVE:청유 EXCLAMATIVE:감탄 HONORIFICS:높임 SUBJECT_HONORIFIC:주체높임 OBJECT_HONORIFIC:객체높임 ADDRESSEE_HONORIFIC:상대높임 SPEECH_LEVEL:상대높임등급 ADDRESS:호칭 PERSON:인칭 DISCOURSE_MARKER:담화표지 USAGE:사용맥락"),
+ "DISCOURSE": ("문장 유형과 높임 및 담화", "DECLARATIVE:평서 INTERROGATIVE:의문 POLAR_QUESTION:판정의문 CONTENT_QUESTION:설명의문 IMPERATIVE:명령 REQUEST:요청 HORTATIVE:청유 EXCLAMATIVE:감탄 HONORIFICS:높임 SUBJECT_HONORIFIC:주체높임 OBJECT_HONORIFIC:객체높임 ADDRESSEE_HONORIFIC:상대높임 SPEECH_LEVEL:상대높임등급 ADDRESS:호칭 PERSON:인칭 DISCOURSE_MARKER:담화표지 USAGE:사용맥락"),
  "PHONOLOGY": ("음운과 표기", "VOWEL:모음 CONSONANT:자음 PITCH:성조 CONTRACTION:축약 DELETION:탈락 ASSIMILATION:동화 INSERTION:첨가 ORTHOGRAPHY:표기"),
 }
 
@@ -131,6 +131,9 @@ def validate_record(record, target, supplied):
         used = {c["field"] for c in rel["conditions"]["all"] + rel["conditions"]["any"]}
         if not used <= set(application["input_features"]):
             raise ValueError("Condition field missing from input bridge")
+        providers = application.get("feature_sources")
+        if providers is not None and (not used <= set(providers) or not set(providers) <= set(application["input_features"])):
+            raise ValueError("Feature provider missing or outside analysis bridge")
         if not used and application["target"] != "knowledge.context":
             raise ValueError("Explicit retrieval features required")
         for condition in rel["conditions"]["all"] + rel["conditions"]["any"]:
@@ -150,6 +153,12 @@ def validate_record(record, target, supplied):
     for details in record["details"].values():
         for detail in details:
             refs(detail["evidence_keys"])
+    quoted_keys = set()
+    for example in record.get("source_examples", []):
+        refs([example["evidence_key"]])
+        if example["key"] in quoted_keys:
+            raise ValueError("Duplicate source example key")
+        quoted_keys.add(example["key"])
     if not record["illustrative_examples_note"].strip():
         raise ValueError("Example status/reason required")
     for example in record["illustrative_examples"] or []:
@@ -232,7 +241,9 @@ def graph(records, source_list):
             edge(rid, "contains_assertion", aid)
             edge(aid, "applies_at", "target:" + rel["application"]["target"])
             for feature in rel["application"]["input_features"]:
-                edge(aid, "requires_analysis_of", "analysis:" + feature)
+                providers = rel["application"].get("feature_sources", {})
+                edge(aid, "requires_analysis_of", "analysis:" + feature,
+                     **({"value_source": providers[feature]} if feature in providers else {}))
             subject = fmap.get(rel["subject"], rel["subject"])
             edge(aid, "subject", subject)
             edge(aid, "object", target)
@@ -257,6 +268,12 @@ def graph(records, source_list):
                 edge(xid, "uses_knowledge_from", supporting_id)
             for key in example["basis_evidence_keys"]:
                 edge(xid, "based_on_grammar_at", evmap[key])
+        for example in r.get("source_examples", []):
+            xid = node(rid + ":" + example["key"], "SourceExample", text=example["text"],
+                       note=example["note"], record_id=rid, source_id=sid,
+                       source_origin="verbatim_source", evaluation_gold=False, operational=False)
+            edge(rid, "has_source_example", xid)
+            edge(xid, "supported_at", evmap[example["evidence_key"]])
     edges = list({encoded(e): e for e in edges}.values())
     for e in edges:
         if e["source"] not in nodes or e["target"] not in nodes:
@@ -268,6 +285,8 @@ def graph(records, source_list):
 def collect(manifest):
     page_index = {(s["source_id"], p["page"]) for s in manifest["sources"] for p in s["pages"]}
     records, coverage, ids = [], {}, set()
+    example_pages = {}
+    source_map = {s["source_id"]: s for s in manifest["sources"]}
     for path in sorted((BASE / "authored").glob("*.json")):
         bundle = read(path)
         if bundle["schema_version"] != "0.2" or bundle["author"]["method"] != "direct_source_reading":
@@ -283,6 +302,10 @@ def collect(manifest):
                 raise ValueError("Duplicate stable record ID")
             ids.add(rid)
             validate_record(knowledge, read_pages, read_pages)
+            if knowledge.get("source_examples"):
+                if sid not in example_pages:
+                    example_pages[sid] = source_pages(source_map[sid])
+                verify_source_examples(knowledge, example_pages[sid])
             validate_admission(wrapper)
             review = wrapper["review"]
             if review["source_fidelity"] not in {"author_checked", "needs_review"}:
@@ -314,6 +337,15 @@ def collect(manifest):
             if link["record_id"] not in ids or link["relation"] not in {"illustrates", "qualifies", "contrasts_with"}:
                 raise ValueError("Invalid cross-record link")
     return records, coverage
+
+
+def verify_source_examples(knowledge, pages):
+    """Verbatim source binding; not semantic correctness or a translation-pair claim."""
+    evidence = {e["key"]:e for e in knowledge["evidence"]}
+    for example in knowledge.get("source_examples", []):
+        page = evidence[example["evidence_key"]]["page"]
+        if example["text"] not in pages[page-1]:
+            raise ValueError("Source example is not verbatim on its cited PDF page")
 
 def validate_admission(wrapper):
     """Source-only background is not active grammar knowledge."""

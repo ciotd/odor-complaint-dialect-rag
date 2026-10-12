@@ -3,7 +3,8 @@
   "author": {
     "agent": "Codex",
     "method": "direct_source_reading",
-    "authored_on": "2026-09-17"
+    "authored_on": "2026-09-17",
+    "revised_on": "2026-10-08"
   },
   "source_id": "RYU2014",
   "read_pages": [
@@ -3004,7 +3005,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "example_only",
             "evidence_keys": [
@@ -3141,10 +3145,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "sentence_type",
                   "operator": "is",
                   "values": [
-                    "명령"
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "very_low"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -3156,9 +3170,14 @@
             "application": {
               "target": "predicate.construction",
               "input_features": [
-                "meaning"
+                "addressee_treatment",
+                "sentence_type"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -3175,10 +3194,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "sentence_type",
                   "operator": "is",
                   "values": [
-                    "명령"
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "plain_low"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -3190,9 +3219,14 @@
             "application": {
               "target": "predicate.construction",
               "input_features": [
-                "meaning"
+                "addressee_treatment",
+                "sentence_type"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -3209,10 +3243,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "sentence_type",
                   "operator": "is",
                   "values": [
-                    "명령"
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "plain_high"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -3224,9 +3268,14 @@
             "application": {
               "target": "predicate.construction",
               "input_features": [
-                "meaning"
+                "addressee_treatment",
+                "sentence_type"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -3243,10 +3292,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "sentence_type",
                   "operator": "is",
                   "values": [
-                    "명령"
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "plain_high"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -3258,9 +3317,14 @@
             "application": {
               "target": "predicate.construction",
               "input_features": [
-                "meaning"
+                "addressee_treatment",
+                "sentence_type"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -3277,10 +3341,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "sentence_type",
                   "operator": "is",
                   "values": [
-                    "명령"
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "very_high"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -3292,9 +3366,14 @@
             "application": {
               "target": "predicate.construction",
               "input_features": [
-                "meaning"
+                "addressee_treatment",
+                "sentence_type"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -3311,10 +3390,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "sentence_type",
                   "operator": "is",
                   "values": [
-                    "명령"
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "informal_low"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -3326,9 +3415,14 @@
             "application": {
               "target": "predicate.construction",
               "input_features": [
-                "meaning"
+                "addressee_treatment",
+                "sentence_type"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -3345,10 +3439,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "sentence_type",
                   "operator": "is",
                   "values": [
-                    "명령"
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "informal_high"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -3360,9 +3464,357 @@
             "application": {
               "target": "predicate.construction",
               "input_features": [
-                "meaning"
+                "addressee_treatment",
+                "sentence_type"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "IMPERATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "very_low"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "addressee_treatment",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "IMPERATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "plain_low"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "addressee_treatment",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "IMPERATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "plain_high"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "addressee_treatment",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F4",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "IMPERATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "plain_high"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "addressee_treatment",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F5",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "IMPERATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "very_high"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "addressee_treatment",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F6",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "IMPERATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "informal_low"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "addressee_treatment",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F7",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "IMPERATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "imperative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "informal_high"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "addressee_treatment",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -3418,7 +3870,8 @@
           ]
         },
         "gaps": [
-          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증",
+          "기능 관계는 원문 분류의 접근 경로이며 높임·세대·현대 사용 적합성 조건의 실행 구조화는 미완료다."
         ],
         "illustrative_examples": null,
         "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
@@ -3485,10 +3938,30 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "sentence_type",
                   "operator": "is",
                   "values": [
-                    "화자·청자 공동행동 제안"
+                    "hortative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "very_low"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "action_participants",
+                  "operator": "is",
+                  "values": [
+                    "speaker_and_addressee"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -3500,9 +3973,16 @@
             "application": {
               "target": "predicate.construction",
               "input_features": [
-                "meaning"
+                "action_participants",
+                "addressee_treatment",
+                "sentence_type"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "action_participants": "input",
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -3519,10 +3999,30 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "sentence_type",
                   "operator": "is",
                   "values": [
-                    "화자·청자 공동행동 제안"
+                    "hortative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "plain_high"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "action_participants",
+                  "operator": "is",
+                  "values": [
+                    "speaker_and_addressee"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -3534,9 +4034,16 @@
             "application": {
               "target": "predicate.construction",
               "input_features": [
-                "meaning"
+                "action_participants",
+                "addressee_treatment",
+                "sentence_type"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "action_participants": "input",
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -3553,10 +4060,30 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "sentence_type",
                   "operator": "is",
                   "values": [
-                    "화자·청자 공동행동 제안"
+                    "hortative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "very_high"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "action_participants",
+                  "operator": "is",
+                  "values": [
+                    "speaker_and_addressee"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -3568,9 +4095,16 @@
             "application": {
               "target": "predicate.construction",
               "input_features": [
-                "meaning"
+                "action_participants",
+                "addressee_treatment",
+                "sentence_type"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "action_participants": "input",
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -3587,10 +4121,30 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "sentence_type",
                   "operator": "is",
                   "values": [
-                    "화자·청자 공동행동 제안"
+                    "hortative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "informal_low"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "action_participants",
+                  "operator": "is",
+                  "values": [
+                    "speaker_and_addressee"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -3602,9 +4156,16 @@
             "application": {
               "target": "predicate.construction",
               "input_features": [
-                "meaning"
+                "action_participants",
+                "addressee_treatment",
+                "sentence_type"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "action_participants": "input",
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -3621,10 +4182,30 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "sentence_type",
                   "operator": "is",
                   "values": [
-                    "화자·청자 공동행동 제안"
+                    "hortative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "informal_high"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "action_participants",
+                  "operator": "is",
+                  "values": [
+                    "speaker_and_addressee"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -3636,9 +4217,321 @@
             "application": {
               "target": "predicate.construction",
               "input_features": [
-                "meaning"
+                "action_participants",
+                "addressee_treatment",
+                "sentence_type"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "action_participants": "input",
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "HORTATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "hortative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "very_low"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "action_participants",
+                  "operator": "is",
+                  "values": [
+                    "speaker_and_addressee"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "action_participants",
+                "addressee_treatment",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "action_participants": "input",
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "HORTATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "hortative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "plain_high"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "action_participants",
+                  "operator": "is",
+                  "values": [
+                    "speaker_and_addressee"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "action_participants",
+                "addressee_treatment",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "action_participants": "input",
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "HORTATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "hortative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "very_high"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "action_participants",
+                  "operator": "is",
+                  "values": [
+                    "speaker_and_addressee"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "action_participants",
+                "addressee_treatment",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "action_participants": "input",
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F4",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "HORTATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "hortative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "informal_low"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "action_participants",
+                  "operator": "is",
+                  "values": [
+                    "speaker_and_addressee"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "action_participants",
+                "addressee_treatment",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "action_participants": "input",
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F5",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "HORTATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "hortative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "informal_high"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "action_participants",
+                  "operator": "is",
+                  "values": [
+                    "speaker_and_addressee"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "action_participants",
+                "addressee_treatment",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "action_participants": "input",
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -3690,11 +4583,21 @@
               "evidence_keys": [
                 "E1"
               ]
+            },
+            {
+              "field": "시대세대제한",
+              "values": [
+                "PDF 15쪽은 -소가 조사된 60대·10대 모두에서 사용되지 않고, -ㅂ시다는 10대에서 사용되지 않게 되었다고 서술한다. 문헌상 기능 연결과 현대 추천 후보를 구별한다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
             }
           ]
         },
         "gaps": [
-          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증",
+          "기능 관계는 원문 분류의 접근 경로이며 높임·세대·현대 사용 적합성 조건의 실행 구조화는 미완료다."
         ],
         "illustrative_examples": null,
         "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
@@ -3754,10 +4657,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "sentence_type",
                   "operator": "is",
                   "values": [
-                    "평서 서술"
+                    "declarative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "very_low"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -3769,9 +4682,14 @@
             "application": {
               "target": "predicate.construction",
               "input_features": [
-                "meaning"
+                "addressee_treatment",
+                "sentence_type"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -3788,10 +4706,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "sentence_type",
                   "operator": "is",
                   "values": [
-                    "평서 서술"
+                    "declarative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "plain_low"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -3803,9 +4731,14 @@
             "application": {
               "target": "predicate.construction",
               "input_features": [
-                "meaning"
+                "addressee_treatment",
+                "sentence_type"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -3822,10 +4755,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "sentence_type",
                   "operator": "is",
                   "values": [
-                    "평서 서술"
+                    "declarative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "informal_low"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -3837,9 +4780,14 @@
             "application": {
               "target": "predicate.construction",
               "input_features": [
-                "meaning"
+                "addressee_treatment",
+                "sentence_type"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -3856,10 +4804,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "sentence_type",
                   "operator": "is",
                   "values": [
-                    "평서 서술"
+                    "declarative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "informal_high"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -3871,9 +4829,210 @@
             "application": {
               "target": "predicate.construction",
               "input_features": [
-                "meaning"
+                "addressee_treatment",
+                "sentence_type"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DECLARATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "declarative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "very_low"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "addressee_treatment",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DECLARATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "declarative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "plain_low"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "addressee_treatment",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DECLARATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "declarative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "informal_low"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "addressee_treatment",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
+            },
+            "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F4",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "DECLARATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "declarative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "informal_high"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "addressee_treatment",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 문장 기능의 조회 경로. 관련 결합·높임·지역·시대·예외는 함께 검토하며 이 관계만으로 생성 허용을 확정하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -3929,7 +5088,8 @@
           ]
         },
         "gaps": [
-          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증"
+          "모든 어휘·시제·높임 조합의 허용 여부와 현대 자연스러움은 미검증",
+          "기능 관계는 원문 분류의 접근 경로이며 높임·세대·현대 사용 적합성 조건의 실행 구조화는 미완료다."
         ],
         "illustrative_examples": null,
         "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
@@ -3982,10 +5142,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "sentence_type",
                   "operator": "is",
                   "values": [
-                    "감탄"
+                    "exclamative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "very_low"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -3997,9 +5167,14 @@
             "application": {
               "target": "predicate.construction",
               "input_features": [
-                "meaning"
+                "addressee_treatment",
+                "sentence_type"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -4016,10 +5191,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "sentence_type",
                   "operator": "is",
                   "values": [
-                    "감탄"
+                    "exclamative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "informal_low"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -4031,9 +5216,14 @@
             "application": {
               "target": "predicate.construction",
               "input_features": [
-                "meaning"
+                "addressee_treatment",
+                "sentence_type"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -4050,10 +5240,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "sentence_type",
                   "operator": "is",
                   "values": [
-                    "감탄"
+                    "exclamative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "informal_high"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -4065,11 +5265,163 @@
             "application": {
               "target": "predicate.construction",
               "input_features": [
-                "meaning"
+                "addressee_treatment",
+                "sentence_type"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
             },
             "assertion_mode": "source_statement",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "EXCLAMATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "exclamative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "very_low"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "addressee_treatment",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 기능의 접근 경로이며 동일 형태의 다른 용법과 조건을 합치지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
+            },
+            "assertion_mode": "extractor_interpretation",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "EXCLAMATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "exclamative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "informal_low"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "addressee_treatment",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 기능의 접근 경로이며 동일 형태의 다른 용법과 조건을 합치지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
+            },
+            "assertion_mode": "extractor_interpretation",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          {
+            "subject": "F3",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "EXCLAMATIVE"
+            },
+            "conditions": {
+              "all": [
+                {
+                  "field": "sentence_type",
+                  "operator": "is",
+                  "values": [
+                    "exclamative"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "addressee_treatment",
+                  "operator": "is",
+                  "values": [
+                    "informal_high"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.final_ending",
+              "input_features": [
+                "addressee_treatment",
+                "sentence_type"
+              ],
+              "mapping_note": "원문에 명시된 기능의 접근 경로이며 동일 형태의 다른 용법과 조건을 합치지 않는다.",
+              "feature_sources": {
+                "addressee_treatment": "target",
+                "sentence_type": "input"
+              }
+            },
+            "assertion_mode": "extractor_interpretation",
             "evidence_keys": [
               "E1"
             ]
@@ -4162,10 +5514,10 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "clause_relation",
                   "operator": "is",
                   "values": [
-                    "동시 동작"
+                    "simultaneous_action"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -4175,11 +5527,14 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "clause_relation"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다. 2026-09-28 개발 조회에서 확인한 위치 오류 정정: RYU2014 18~19쪽의 절 연결 용법을 clause.connective에 결속한다.",
+              "feature_sources": {
+                "clause_relation": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -4274,10 +5629,10 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "clause_relation",
                   "operator": "is",
                   "values": [
-                    "양보 연결"
+                    "concession"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -4287,11 +5642,14 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "clause_relation"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다. 2026-09-28 개발 조회에서 확인한 위치 오류 정정: RYU2014 18~19쪽의 절 연결 용법을 clause.connective에 결속한다.",
+              "feature_sources": {
+                "clause_relation": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -4373,6 +5731,13 @@
             "role": "dialect",
             "sense": "행위 중단·전환",
             "pos": null
+          },
+          {
+            "key": "F2",
+            "text": "-다가",
+            "role": "standard",
+            "sense": "행위 중단/전환 연결의 표준형",
+            "pos": "연결어미"
           }
         ],
         "relations": [
@@ -4386,10 +5751,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "clause_relation",
                   "operator": "is",
                   "values": [
-                    "행위 중단·전환"
+                    "interruption_transition"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "source_form",
+                  "operator": "is",
+                  "values": [
+                    "-다가"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -4399,16 +5774,70 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "clause_relation",
+                "source_form"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "feature_sources": {
+                "clause_relation": "input",
+                "source_form": "input"
+              },
+              "mapping_note": "18쪽 표의 중단/전환 연결 -다가 구간에 한정한다. 관형사형 -는이나 가는 길 전체를 -다로 바꾸지 않는다."
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
               "E1"
             ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "variant_of",
+            "object": {
+              "kind": "form",
+              "ref": "F2"
+            },
+            "evidence_keys": [
+              "E1"
+            ],
+            "assertion_mode": "source_statement",
+            "conditions": {
+              "all": [
+                {
+                  "field": "clause_relation",
+                  "operator": "is",
+                  "values": [
+                    "interruption_transition"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "source_form",
+                  "operator": "is",
+                  "values": [
+                    "-다가"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.connective",
+              "input_features": [
+                "clause_relation",
+                "source_form"
+              ],
+              "feature_sources": {
+                "clause_relation": "input",
+                "source_form": "input"
+              },
+              "mapping_note": "형태와 절 관계가 모두 맞는 범위의 표 대응. 시제/문장 내용은 표의 예에서 복사하지 않는다."
+            }
           }
         ],
         "scope": {
@@ -4498,10 +5927,10 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "clause_relation",
                   "operator": "is",
                   "values": [
-                    "후행 행동의 조건"
+                    "condition"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -4511,11 +5940,14 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "clause_relation"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다. 2026-09-28 개발 조회에서 확인한 위치 오류 정정: RYU2014 18~19쪽의 절 연결 용법을 clause.connective에 결속한다.",
+              "feature_sources": {
+                "clause_relation": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -4617,10 +6049,10 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "clause_relation",
                   "operator": "is",
                   "values": [
-                    "원인·이유"
+                    "cause"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -4630,11 +6062,14 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "clause_relation"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다. 2026-09-28 개발 조회에서 확인한 위치 오류 정정: RYU2014 18~19쪽의 절 연결 용법을 clause.connective에 결속한다.",
+              "feature_sources": {
+                "clause_relation": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -4651,10 +6086,10 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "clause_relation",
                   "operator": "is",
                   "values": [
-                    "원인·이유"
+                    "cause"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -4664,11 +6099,14 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "clause_relation"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다. 2026-09-28 개발 조회에서 확인한 위치 오류 정정: RYU2014 18~19쪽의 절 연결 용법을 clause.connective에 결속한다.",
+              "feature_sources": {
+                "clause_relation": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -4763,10 +6201,10 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "clause_relation",
                   "operator": "is",
                   "values": [
-                    "이동의 목적"
+                    "movement_purpose"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -4776,11 +6214,14 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "clause_relation"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다. 2026-09-28 개발 조회에서 확인한 위치 오류 정정: RYU2014 18~19쪽의 절 연결 용법을 clause.connective에 결속한다.",
+              "feature_sources": {
+                "clause_relation": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -4882,10 +6323,10 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "clause_relation",
                   "operator": "is",
                   "values": [
-                    "종속절 연결"
+                    "increasing_degree"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -4895,11 +6336,14 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "clause_relation"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다. 2026-09-28 개발 조회에서 확인한 위치 오류 정정: RYU2014 18~19쪽의 절 연결 용법을 clause.connective에 결속한다.",
+              "feature_sources": {
+                "clause_relation": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -4916,10 +6360,10 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "clause_relation",
                   "operator": "is",
                   "values": [
-                    "종속절 연결"
+                    "manner_comparison"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -4929,11 +6373,14 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "clause_relation"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다. 2026-09-28 추가 원문 대조: 문장 기능·문헌상 상대대우·절 관계·실제 결합 조건을 분리. 문헌 조사형의 현대 추천을 뜻하지 않는다. 2026-09-28 개발 조회에서 확인한 위치 오류 정정: RYU2014 18~19쪽의 절 연결 용법을 clause.connective에 결속한다.",
+              "feature_sources": {
+                "clause_relation": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5066,7 +6513,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5100,7 +6550,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5134,7 +6587,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5168,7 +6624,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5343,7 +6802,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5378,7 +6840,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5413,7 +6878,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5448,7 +6916,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5483,7 +6954,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5518,7 +6992,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5553,7 +7030,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5588,7 +7068,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5623,7 +7106,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5658,7 +7144,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5798,7 +7287,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5832,7 +7324,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5866,7 +7361,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5900,7 +7398,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -6019,7 +7520,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -6053,7 +7557,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -6172,7 +7679,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -6206,7 +7716,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "example_only",
             "evidence_keys": [
@@ -6318,7 +7831,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -6437,7 +7953,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -6471,7 +7990,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "example_only",
             "evidence_keys": [
@@ -6590,7 +8112,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -6624,7 +8149,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "example_only",
             "evidence_keys": [

@@ -3,6 +3,7 @@ import copy
 import unittest
 import build
 import integration_review
+import authoring_audit
 
 
 class IntegrationChecks(unittest.TestCase):
@@ -105,6 +106,83 @@ class IntegrationChecks(unittest.TestCase):
         exceptions = [r for r in row["knowledge"]["relations"] if r["subject"] == "F1" and r["object"]["ref"] == "CONTENT_QUESTION"]
         self.assertEqual(1, len(exceptions))
         self.assertEqual("example_only", exceptions[0]["assertion_mode"])
+
+    def test_ending_audit_covers_inventory_and_preserves_interpretation_distinction(self):
+        result = authoring_audit.audit_ending_connections(self.records, self.graph)
+        self.assertEqual(len(self.records), len(result["records"]))
+        self.assertEqual({r["id"] for r in self.records}, {r["record_id"] for r in result["records"]})
+        row = next(r for r in result["records"] if r["record_id"] == "GYS-H005")
+        self.assertTrue(row["realizes_assertions"])
+        self.assertTrue(row["interpretation_assertions"])
+        self.assertTrue(all(not v for v in result["whole_graph_integrity"].values()))
+
+    def test_ending_audit_detects_removed_condition_edge(self):
+        graph = copy.deepcopy(self.graph)
+        graph["edges"] = [e for e in graph["edges"] if not
+                          (e["source"] == "GYS-Q002:A1" and e["type"] == "requires_all")]
+        result = authoring_audit.audit_ending_connections(self.records, graph)
+        self.assertIn({"assertion_id": "GYS-Q002:A1", "mode": "all"},
+                      result["whole_graph_integrity"]["condition_edge_mismatches"])
+
+    def test_ending_audit_does_not_count_metadata_as_semantic_connection(self):
+        graph = copy.deepcopy(self.graph)
+        form = "GYS-Q002:F1"
+        graph["edges"] = [e for e in graph["edges"] if not
+                          (form in (e["source"], e["target"]) and
+                           ("assertion_id" in e["properties"] or "integration_id" in e["properties"]))]
+        result = authoring_audit.audit_ending_connections(self.records, graph)
+        row = next(r for r in result["records"] if r["record_id"] == "GYS-Q002")
+        self.assertIn(form, {f["id"] for f in row["unconnected_forms"]})
+        self.assertNotIn(form, result["whole_graph_integrity"]["isolated_node_ids"])
+
+    def test_work_queue_covers_all_selected_records_without_false_completion(self):
+        result = authoring_audit.audit_ending_connections(self.records, self.graph)
+        selected = [r for r in result['records'] if r['tier'] != 'outside_selected_scope']
+        # Three source-table quotation records were added on 2026-10-08.
+        self.assertEqual(277, len(selected))
+        self.assertTrue({'GYS-G072', 'GYS-G073', 'GYS-G074'} <= {r['record_id'] for r in selected})
+        self.assertTrue(all(r['condition_work']['next_actions'] for r in selected))
+        self.assertTrue(all(r['condition_work']['exception_coverage']=='not_exhaustively_reviewed' for r in selected))
+        self.assertTrue(all(not r['condition_work']['no_known_restriction_asserted'] for r in selected))
+        # Fully bound data may still contain unstructured meaning conditions.
+        self.assertTrue(any(r['condition_work']['pending_semantic_conditions'] and
+                            not r['condition_work']['pending_feature_bindings'] for r in selected))
+
+    def test_ending_audit_detects_missing_endpoint_and_evidence(self):
+        graph = copy.deepcopy(self.graph)
+        graph["edges"][0]["target"] = "missing:node"
+        assertion = next(n for n in graph["nodes"] if n["id"] == "GYS-Q002:A1")
+        assertion["properties"]["evidence_ids"] = ["missing:evidence"]
+        result = authoring_audit.audit_ending_connections(self.records, graph)
+        self.assertIn(graph["edges"][0]["id"], result["whole_graph_integrity"]["dangling_edges"])
+        self.assertIn({"assertion_id": "GYS-Q002:A1", "relation": "evidence_ids"},
+                      result["whole_graph_integrity"]["assertion_link_errors"])
+
+    def test_function_repair_preserves_composed_question_and_restricted_intention(self):
+        semantics = [e for e in self.graph["edges"] if "assertion_id" in e["properties"]]
+        h5 = [e for e in semantics if e["properties"]["record_id"] == "GYS-H005" and e["type"] == "realizes"]
+        self.assertEqual(["GYS-H005:F3"], [e["source"] for e in h5])
+        y10 = next(e for e in semantics if e["source"] == "GYS-Y010:F1" and e["target"] == "concept:INTERROGATIVE")
+        fields = {c['field']: c['values'] for c in y10['properties']['conditions']['all']}
+        self.assertEqual(['ask_intention'], fields['speech_act'])
+        self.assertEqual(['addressee'], fields['intention_holder'])
+
+    def test_new_imperative_forms_are_not_lemmas_or_generalized_examples(self):
+        semantics = [e for e in self.graph["edges"] if "assertion_id" in e["properties"]]
+        uses = [e for e in semantics if e["properties"]["record_id"] == "GYS-I050" and e["type"] == "realizes"]
+        self.assertEqual(11, len(uses))
+        self.assertFalse({e["source"] for e in uses} & {"GYS-I050:F" + str(i) for i in range(1,5)})
+        example = next(e for e in semantics if e["source"] == "GYS-R023:F2" and e["target"] == "concept:IMPERATIVE")
+        self.assertEqual("example_only", example["properties"]["assertion_mode"])
+
+    def test_function_review_does_not_turn_negative_or_ambiguous_guidance_into_permission(self):
+        review = build.read(build.BASE / "integration.json")["function_route_review"]
+        rows = {r["record_id"]:r for r in review["decisions"]}
+        self.assertEqual("negative_constraint",rows["GYS-Y012"]["decision"])
+        self.assertFalse(rows["GYS-Q011"]["assertions"])
+        self.assertFalse(rows["GYS-Q009"]["assertions"])
+        semantic_ids = {e["properties"]["assertion_id"] for e in self.graph["edges"] if "assertion_id" in e["properties"]}
+        self.assertTrue({aid for r in rows.values() for aid in r["assertions"]} <= semantic_ids)
 
     def test_triple_export_has_only_semantic_or_integration_rows(self):
         rows = build.render_triples(self.graph).splitlines()

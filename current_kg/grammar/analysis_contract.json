@@ -1,41 +1,336 @@
 {
-  "version": "0.1",
+  "version": "0.5",
   "status": "author_defined_bridge_not_implemented_parser",
   "principle": "표준어 분석과 방언 KG는 기능·결합환경의 공통 식별자를 공유한다. 분석기의 원시 품사 태그와 문자열을 그대로 방언 형태에 치환하지 않는다.",
   "binding": {
     "instance_requirement": "실제 분석 결과는 clause_id와 predicate_complex_id를 가져야 한다. 아래의 target은 재사용 가능한 자리 정의이며 특정 입력 절이 아니다.",
     "unknown_policy": "분석 누락·복수 해석을 false나 무조건 허용으로 처리하지 않는다. 후보와 미확보 조건을 남긴다.",
-    "conditions_semantics": "all은 모두, 비어 있지 않은 any는 하나 이상 만족해야 한다. 현재는 저장·연결 규격이며 실행용 조건 판정기는 미구현이다.",
+    "conditions_semantics": "all은 모두, 비어 있지 않은 any는 하나 이상 만족해야 한다. 진단 판정기는 is/one_of 문자열만 지원하며 자동 분석·완전한 생성 판정기는 미완성이다.",
     "scope_policy": "목표 지역·세대·사용 장면은 입력 문장에서 추측하지 않는다. 문헌의 지역 범위와 별도로 대조한다.",
-    "generation_policy": "조건 적합 후보여도 문헌의 적용 범위·예외·공백과 다른 표현의 조합을 추가 검토해야 한다. 자동 생성 승인은 없다."
+    "generation_policy": "조건 적합 후보여도 문헌의 적용 범위·예외·공백과 다른 표현의 조합을 추가 검토해야 한다. 자동 생성 승인은 없다.",
+    "feature_sources": "application.feature_sources가 있으면 input/candidate/target를 분리한다. 후보 내부 값은 조건의 요구값으로부터 역으로 채우지 않는다. 미지정 기존 기록은 legacy_flat으로 취급하며 순차 이관한다.",
+    "instance_validation": "experiments/analysis_input.py의 분석 인스턴스 1.1 규격으로 조회 전에 검증한다. 원문 관찰 features, preserved_candidate_features, 정책에서 도출한 목표를 분리한다. 기존 1.0은 명시적 호환 변환으로 읽고 원본을 수정하지 않는다.",
+    "repair_scope_20261008": "source_form/quotation_type는 원문 근거를 갖는 KG 조건의 공급 계약이다. 단계 2에서 실제 입력 분석/조회와 연결해야 하며 이 규격 변경만으로 자동 공급을 주장하지 않는다."
   },
   "targets": {
-    "phrase.particle": {"label": "해당 명사구의 조사 용법·결합", "binds_to": ["clause_id", "phrase_id", "particle_component_id"]},
-    "predicate.construction": {"label": "절 내부 보조용언·파생·시제·부정 구성", "binds_to": ["clause_id", "predicate_complex_id"]},
-    "expression.orthography": {"label": "선택된 표현 구성의 축약·표기", "binds_to": ["clause_id", "expression_id"]},
-    "predicate.lexical_choice": {"label": "특정 서술어의 지역 어휘형 후보 선택; 활용형 선택과는 별개", "binds_to": ["clause_id", "predicate_component_id"]},
-    "knowledge.context": {"label": "조회 규칙으로 확정하지 않는 문헌의 개괄·표기 원칙·역사 설명", "binds_to": []},
-    "clause.connective": {"label": "특정 절의 연결 구성", "binds_to": ["clause_id", "linked_clause_id", "ending_component_id"]},
-    "clause.final_ending": {"label": "해당 절의 종결 구성", "binds_to": ["clause_id", "predicate_complex_id"]},
-    "clause.question_interpretation": {"label": "해당 절의 질문 해석", "binds_to": ["clause_id"]},
-    "predicate.inflection": {"label": "특정 서술부 성분과 뒤따르는 어미의 결합", "binds_to": ["clause_id", "predicate_component_id", "ending_component_id"]}
+    "phrase.particle": {
+      "label": "해당 명사구의 조사 용법·결합",
+      "binds_to": [
+        "clause_id",
+        "phrase_id",
+        "particle_component_id"
+      ]
+    },
+    "predicate.construction": {
+      "label": "절 내부 보조용언·파생·시제·부정 구성",
+      "binds_to": [
+        "clause_id",
+        "predicate_complex_id"
+      ]
+    },
+    "expression.orthography": {
+      "label": "선택된 표현 구성의 축약·표기",
+      "binds_to": [
+        "clause_id",
+        "expression_id"
+      ]
+    },
+    "predicate.lexical_choice": {
+      "label": "특정 서술어의 지역 어휘형 후보 선택; 활용형 선택과는 별개",
+      "binds_to": [
+        "clause_id",
+        "predicate_component_id"
+      ]
+    },
+    "knowledge.context": {
+      "label": "조회 규칙으로 확정하지 않는 문헌의 개괄·표기 원칙·역사 설명",
+      "binds_to": []
+    },
+    "clause.connective": {
+      "label": "특정 절의 연결 구성",
+      "binds_to": [
+        "clause_id",
+        "linked_clause_id",
+        "ending_component_id"
+      ]
+    },
+    "clause.final_ending": {
+      "label": "해당 절의 종결 구성",
+      "binds_to": [
+        "clause_id",
+        "predicate_complex_id"
+      ]
+    },
+    "clause.question_interpretation": {
+      "label": "해당 절의 질문 해석",
+      "binds_to": [
+        "clause_id"
+      ]
+    },
+    "predicate.inflection": {
+      "label": "특정 서술부 성분과 뒤따르는 어미의 결합",
+      "binds_to": [
+        "clause_id",
+        "predicate_component_id",
+        "ending_component_id"
+      ]
+    }
   },
   "features": {
-    "preceding_form": {"label": "후보 구성에서 바로 앞에 오는 요소", "analysis_requirement": "입력 관찰값과 구별되는 후보 내부 값이다. verb_stem_direct는 선어말 없이 동사 어간에 직접 결합하는 경우를 뜻한다."},
-    "stem_length": {"label": "원문이 지정한 어간 또는 어간 말단 형태소의 음절 수", "analysis_requirement": "전체 어간 길이와 마지막 형태소 길이를 혼동하지 않는다. 원문의 단위가 불명확하면 판정을 보류한다."},
-    "host_pos": {"label": "해당 서술어 성분의 품사", "values": ["verb", "adjective", "predicate"], "analysis_requirement": "predicate는 원문의 용언 범주를 보존한 상위값이다. 특정 분석기의 원시 태그를 직접 대입하지 않는다."},
-    "sentence_type": {"label": "해당 절의 문장유형", "values": ["interrogative", "declarative", "imperative", "hortative", "exclamative"], "analysis_requirement": "주절과 내포절의 유형을 분리하고 실제 발화 의도와 동일시하지 않는다."},
-    "register": {"label": "외부 맥락에서 확인한 사용 장면", "values": ["formal", "market_familiar", "informal_friendly"], "analysis_requirement": "informal_friendly는 친근한 비격식 맥락이며 장터는 그 예이다. market_familiar는 과거 값으로 남기되 신규 필수 장소 조건에 쓰지 않는다. 모든 비격식 상황과 동치로 확대하지 않는다."},
-    "question_type": {"label": "표면 의문사 유무가 아닌 질문 해석", "values": ["polar", "content", "rhetorical_polar", "rhetorical_content", "ambiguous"], "analysis_requirement": "표준어의 무엇/어디가 부정칭인지 의문칭인지 문맥과 함께 판정한다. 불명확하면 복수 후보를 유지한다."},
-    "speech_level": {"label": "목표 절의 방언 상대높임 체계", "values": ["HAERACHE", "HAGECHE", "HAECHE", "HASOCHE", "HAISOCHE"], "analysis_requirement": "표준어 해체를 무조건 방언 해라체로 변환하지 않는다. 사용자 목표 및 원문의 청자 관계를 별도 확인한다."},
-    "host_class": {"label": "선어말어미를 결합하기 전 서술부 바탕 유형", "values": ["predicate_other_than_anida", "nominal_copula", "negative_copula"], "analysis_requirement": "아니다는 일반 형용사와 따로 분류한다. 계사 분석은 이다를 조사로 태깅하든 용언으로 태깅하든 같은 결합 유형으로 정규화한다."},
-    "prefinal_profile": {"label": "종결어미 앞 선어말어미의 실제 결합 구성", "values": ["none", "subject_honorific_only", "switching_prefinal_present"], "analysis_requirement": "시제/높임이라는 기능 태그만으로 확정하지 않는다. 현재 근거의 switching은 -었-/-겠-/-더-이며 -시-만 있는 경우와 공존을 구분한다. 그 밖의 선어말어미는 미확보다."},
-    "nominal_coda": {"label": "계사 앞 체언의 끝 받침", "values": ["present", "absent"], "analysis_requirement": "문장 전체 마지막 글자가 아니라 계사 앞 체언 성분을 검사한다."},
-    "host_form": {"label": "해당 서술부 또는 분석 대상의 원형·형태", "analysis_requirement": "문장 전체가 아니라 지정 성분에 결속한다."},
-    "following_form": {"label": "바로 뒤에 결합하는 어미 계열", "analysis_requirement": "의미가 같다는 이유로 -아/어 계열과 자음 어미를 같은 값으로 취급하지 않는다."},
-    "stem_vowel": {"label": "분석한 어간 끝 모음", "analysis_requirement": "출력 철자가 아니라 활용 전 어간을 검사한다."},
-    "stem_coda": {"label": "분석한 어간 끝 받침", "values": ["present", "absent"], "analysis_requirement": "형태소 경계 확인이 선행되어야 한다."},
-    "meaning": {"label": "자료 용어에 대응시킨 문법 의미", "analysis_requirement": "원문의 강조·목적 등의 의미를 동일 ID에 대응시킬 수 있는지 먼저 확인한다."},
-    "region": {"label": "외부에서 지정한 목표 지역", "analysis_requirement": "문헌의 지역 범위를 자동 확대하지 않는다."}
+    "preceding_form": {
+      "label": "후보 구성에서 바로 앞에 오는 요소",
+      "analysis_requirement": "입력 관찰값과 구별되는 후보 내부 값이다. verb_stem_direct는 선어말 없이 동사 어간에 직접 결합하는 경우를 뜻한다."
+    },
+    "stem_length": {
+      "label": "원문이 지정한 어간 또는 어간 말단 형태소의 음절 수",
+      "analysis_requirement": "전체 어간 길이와 마지막 형태소 길이를 혼동하지 않는다. 원문의 단위가 불명확하면 판정을 보류한다."
+    },
+    "host_pos": {
+      "label": "해당 서술어 성분의 품사",
+      "values": [
+        "verb",
+        "adjective",
+        "predicate",
+        "copula"
+      ],
+      "analysis_requirement": "predicate는 원문의 용언 범주를 보존한 상위값이다. 특정 분석기의 원시 태그를 직접 대입하지 않는다. copula는 입력의 계사 이다 분석값이며 verb/adjective/predicate와 자동 등치하지 않는다. 계사 결합 유형은 host_class=nominal_copula로 별도 보존한다."
+    },
+    "sentence_type": {
+      "label": "해당 절의 문장유형",
+      "values": [
+        "interrogative",
+        "declarative",
+        "imperative",
+        "hortative",
+        "exclamative"
+      ],
+      "analysis_requirement": "주절과 내포절의 유형을 분리하고 실제 발화 의도와 동일시하지 않는다."
+    },
+    "register": {
+      "label": "외부 맥락에서 확인한 사용 장면",
+      "values": [
+        "formal",
+        "market_familiar",
+        "informal_friendly"
+      ],
+      "analysis_requirement": "informal_friendly는 친근한 비격식 맥락이며 장터는 그 예이다. market_familiar는 과거 값으로 남기되 신규 필수 장소 조건에 쓰지 않는다. 모든 비격식 상황과 동치로 확대하지 않는다."
+    },
+    "question_type": {
+      "label": "표면 의문사 유무가 아닌 질문 해석",
+      "values": [
+        "polar",
+        "content",
+        "rhetorical_polar",
+        "rhetorical_content",
+        "ambiguous"
+      ],
+      "analysis_requirement": "표준어의 무엇/어디가 부정칭인지 의문칭인지 문맥과 함께 판정한다. 불명확하면 복수 후보를 유지한다."
+    },
+    "speech_level": {
+      "label": "목표 절의 방언 상대높임 체계",
+      "values": [
+        "HAERACHE",
+        "HAGECHE",
+        "HAECHE",
+        "HASOCHE",
+        "HAISOCHE",
+        "HAEYO_LEVEL"
+      ],
+      "analysis_requirement": "표준어 해체를 무조건 방언 해라체로 변환하지 않는다. 사용자 목표 및 원문의 청자 관계를 별도 확인한다. HAEYO_LEVEL은 원문 각주가 명시한 해요체 수준의 상대높임이며 모든 지역의 단일 어체나 현대 자연스러움을 보증하지 않는다."
+    },
+    "host_class": {
+      "label": "선어말어미를 결합하기 전 서술부 바탕 유형",
+      "values": [
+        "predicate_other_than_anida",
+        "nominal_copula",
+        "negative_copula"
+      ],
+      "analysis_requirement": "아니다는 일반 형용사와 따로 분류한다. 계사 분석은 이다를 조사로 태깅하든 용언으로 태깅하든 같은 결합 유형으로 정규화한다."
+    },
+    "prefinal_profile": {
+      "label": "종결어미 앞 선어말어미의 실제 결합 구성",
+      "values": [
+        "none",
+        "subject_honorific_only",
+        "switching_prefinal_present"
+      ],
+      "analysis_requirement": "시제/높임이라는 기능 태그만으로 확정하지 않는다. 현재 근거의 switching은 -었-/-겠-/-더-이며 -시-만 있는 경우와 공존을 구분한다. 그 밖의 선어말어미는 미확보다."
+    },
+    "nominal_coda": {
+      "label": "계사 앞 체언의 끝 받침",
+      "values": [
+        "present",
+        "absent"
+      ],
+      "analysis_requirement": "문장 전체 마지막 글자가 아니라 계사 앞 체언 성분을 검사한다."
+    },
+    "host_form": {
+      "label": "해당 서술부 또는 분석 대상의 원형·형태",
+      "analysis_requirement": "문장 전체가 아니라 지정 성분에 결속한다."
+    },
+    "following_form": {
+      "label": "바로 뒤에 결합하는 형태소·용언 어간",
+      "analysis_requirement": "의미가 같다는 이유로 -아/어 계열과 자음 어미를 같은 값으로 취급하지 않는다. 후보의 바로 뒤 형태소·용언 어간도 표현할 수 있다. 되-와 끔을 문장 어디에나 나타난 문자열로 판정하지 않는다."
+    },
+    "stem_vowel": {
+      "label": "분석한 어간 끝 모음",
+      "analysis_requirement": "출력 철자가 아니라 활용 전 어간을 검사한다."
+    },
+    "stem_coda": {
+      "label": "분석한 어간 끝 받침",
+      "values": [
+        "present",
+        "absent"
+      ],
+      "analysis_requirement": "형태소 경계 확인이 선행되어야 한다."
+    },
+    "meaning": {
+      "label": "자료 용어에 대응시킨 문법 의미",
+      "analysis_requirement": "원문의 강조·목적 등의 의미를 동일 ID에 대응시킬 수 있는지 먼저 확인한다."
+    },
+    "region": {
+      "label": "외부에서 지정한 목표 지역",
+      "analysis_requirement": "문헌의 지역 범위를 자동 확대하지 않는다."
+    },
+    "attachment_coda": {
+      "label": "선택한 활용 후보에서 어미 바로 앞 요소의 받침",
+      "values": [
+        "present",
+        "absent"
+      ],
+      "analysis_requirement": "사전형 어간의 stem_coda와 다르다. 불규칙·매개모음 실현을 선택한 뒤의 후보 내부 값이며, 입력 표면 철자에서 자동 복사하지 않는다."
+    },
+    "speech_act": {
+      "label": "문장 형식과 구별한 발화 의도",
+      "values": [
+        "request",
+        "ask_intention",
+        "state_intention",
+        "guess_answer",
+        "promise"
+      ],
+      "analysis_requirement": "질문형 부탁도 있을 수 있다. 의문문이라는 이유만으로 요청이나 알아맞히기를 판정하지 않는다."
+    },
+    "action_participants": {
+      "label": "요구하거나 제안하는 행동의 수행자",
+      "values": [
+        "addressee_only",
+        "speaker_and_addressee"
+      ],
+      "analysis_requirement": "문법적 주어 인칭과 구별하며 생략되거나 불명확하면 미확정으로 남긴다."
+    },
+    "intention_holder": {
+      "label": "의도의 주체",
+      "values": [
+        "speaker",
+        "addressee"
+      ],
+      "analysis_requirement": "인용절의 화자와 주절 화자를 구별한다."
+    },
+    "beneficiary": {
+      "label": "요청된 행위의 수혜자",
+      "values": [
+        "speaker"
+      ],
+      "analysis_requirement": "도-/다- 구성의 화자 수혜 해석. 단순히 문장에 나가 있다는 이유로 판정하지 않는다."
+    },
+    "subject_person": {
+      "label": "해당 절 주어의 인칭",
+      "values": [
+        "first",
+        "second",
+        "third"
+      ],
+      "analysis_requirement": "주어 생략과 인용절의 시점을 구별한다."
+    },
+    "interaction_tone": {
+      "label": "목표 표현의 상호작용 태도",
+      "values": [
+        "friendly"
+      ],
+      "analysis_requirement": "친근함은 높임 등급과 독립적이며 후보 자체에서 역추론하지 않는다."
+    },
+    "addressee_treatment": {
+      "label": "문헌의 상대 대우 정도",
+      "values": [
+        "very_low",
+        "plain_low",
+        "plain_high",
+        "very_high",
+        "informal_low",
+        "informal_high"
+      ],
+      "analysis_requirement": "아주낮춤/예사낮춤/예사높임/아주높임/두루낮춤/두루높임의 문헌 분류다. 이를 지역별 어체 이름이나 표준어 등급과 자동 등치하지 않는다."
+    },
+    "clause_relation": {
+      "label": "연결되는 절 사이의 의미 관계",
+      "values": [
+        "condition",
+        "purpose_intention",
+        "simultaneous_action",
+        "concession",
+        "interruption_transition",
+        "cause",
+        "movement_purpose",
+        "increasing_degree",
+        "manner_comparison",
+        "purpose_intention",
+        "retrospective_sequence",
+        "retrospective_contrast",
+        "addition",
+        "contrast"
+      ],
+      "analysis_requirement": "앞절과 뒤절의 의미 관계를 함께 분석한다. 조건절과 원인절을 형태만으로 동일시하지 않는다. 이동 목적은 후행 이동 사건이 확인된 경우다."
+    },
+    "attachment_coda_class": {
+      "label": "실제 결합 지점의 받침 종류",
+      "values": [
+        "vowel_final",
+        "rieul_final",
+        "other_consonant_final"
+      ],
+      "analysis_requirement": "기본형이 아닌 선택된 활용 구성의 바로 앞 요소를 검사한다. ㄹ 탈락 여부를 확정하기 전 사전형 받침을 복사하지 않는다."
+    },
+    "response_orientation": {
+      "label": "질문의 응답을 누구에게 요구하는가",
+      "values": [
+        "addressee",
+        "self"
+      ],
+      "analysis_requirement": "의문사 존재와 구별한다. 텍스트만으로 자문/상대 질문을 판정할 수 없으면 미확정으로 남긴다."
+    },
+    "following_predicate_role": {
+      "label": "후행 용언의 해당 구성 내 역할",
+      "values": [
+        "auxiliary",
+        "lexical"
+      ],
+      "analysis_requirement": "동일한 되다도 본용언과 보조용언을 구분한다. 철자만으로 정하지 않고 불명확하면 미확인으로 남긴다."
+    },
+    "construction_kind": {
+      "label": "입력의 인용 보고·지시적 그러다·일반 하다 구성",
+      "values": [
+        "quotative_rago_hada",
+        "deictic_geureoda",
+        "quotative_hada",
+        "quotative_reporting",
+        "lexical_hada"
+      ],
+      "analysis_requirement": "카다라는 출력 형태에서 역추론하지 않는다. 표준어 인용 구성과 지시적 그러다를 문맥으로 구분한다. quotative_hada는 인용 어미와 보고 하다가 결합한 구성, quotative_reporting은 말하다 등 다른 보고 서술부를 포함한 인용 구성, lexical_hada는 인용이 아닌 일반 동사 하다이다. 기존 quotative_rago_hada는 -라고 하다의 구체적 구성값으로 유지한다."
+    },
+    "source_form": {
+      "label": "입력의 해당 구성에 결속된 표준어 형태",
+      "analysis_requirement": "표면 문장 전체가 아니라 원문 span과 형태 분석으로 확인한 해당 어미/구성의 표준형. 축약 출력이나 후보의 요구값에서 역으로 채우지 않는다. 상위 절에서 하위 구성으로 무조건 상속하지 않는다. 값 미확보는 unknown이며 이 규격 추가가 자동 분석 구현을 뜻하지 않는다."
+    },
+    "quotation_type": {
+      "label": "인용된 내용의 발화 유형",
+      "values": [
+        "statement",
+        "question",
+        "command",
+        "suggestion"
+      ],
+      "analysis_requirement": "보고 문장 전체의 평서/질문과 구별하여 인용 내부를 분석한다. 하다/했다라는 문자열만으로 인용 여부나 유형을 정하지 않는다."
+    }
   }
 }

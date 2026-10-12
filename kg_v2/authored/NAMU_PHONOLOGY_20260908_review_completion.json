@@ -1,0 +1,309 @@
+{
+  "source_id": "NAMU_PHONOLOGY_20260908",
+  "facts": [
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:review_completion:0001",
+      "type": "context",
+      "source_pattern": {
+        "text": "대구 중년 대조",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "젊은층과 대조되는 40대의 ㅓ/ㅡ 발음이 거의 겹칠 만큼 덜 명확하다는 논문 재인용.",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "해당 문헌·표·전사 범위의 기록이며 현대 사용 확률이나 자동 생성 규칙이 아니다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "대구"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "quote": "40대 정도만 봐도"
+        },
+        {
+          "pdf_page": 1,
+          "quote": "모음(ㅏ, ㅓ, ㅐ=ㅔ, ㅗ, ㅜ, ㅡ, ㅣ)과 다르게, 동남 방언은 6홑모음 체계(ㅏ, ㅐ=ㅔ, ㅗ, ㅜ, ㅓ=ㅡ, ㅣ), 또는 7홑모음이되 ㅓ\n 와 ㅡ 대신 ㅔ와 ㅐ를 구분하는 체계[1]를 사용한다. 다만 최근 젊은 화자와 늙은 화자를 비교한 논문에 따르면 대구 10-20대\n 화자들은 ㅓ와 ㅡ발음을 서울 사람만큼 명확히 구분하고 있다고 한다. 다만 40대 정도만 봐도 ㅓ와 ㅡ 구분이 거의 겹칠 정도"
+        }
+      ],
+      "claim_status": "secondary_report",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:review_completion:0002",
+      "type": "constraint",
+      "source_pattern": {
+        "text": "영남 단모음화 부정 예",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "초성이 없는 영남을 엥남으로 바꾸지 않는다고 명시. 초성 있는 ㅕ→ㅔ와 구별.",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "해당 문헌·표·전사 범위의 기록이며 현대 사용 확률이나 자동 생성 규칙이 아니다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "개별 지역·화자 범위 참조"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 2,
+          "quote": "'영남'을 '엥남'이라고 하지는 않는다."
+        },
+        {
+          "pdf_page": 2,
+          "quote": "는데, /ㅕ/의 음절 부음(副音)인 반모음 /j/가, 이어지는 음절 주음(主音) /ㅓ/를 [ㅔ]로 전설화하고 그 자신은 사라지는 현상.\n 표준어에서도 꽤 많이 발견되며, 비슷한 예를 찾자면 '하셔요' → '하세요'가 있다. 음절 초 자음, 즉 초성이 있을 경우에 국한되\n 기에, 초성 없는 /ㅕ/가 들어간 '영남'을 '엥남'이라고 하지는 않는다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:review_completion:0003",
+      "type": "context",
+      "source_pattern": {
+        "text": "강세와 동화의 인과 가설",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "강세로 뜻을 구분할 수 있어 발음이 애매해도 된다는 문장은 보인다라는 편집자 해석이지 인과 입증이 아니다.",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "해당 문헌·표·전사 범위의 기록이며 현대 사용 확률이나 자동 생성 규칙이 아니다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "개별 지역·화자 범위 참조"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 3,
+          "quote": "때문으로 보인다."
+        },
+        {
+          "pdf_page": 3,
+          "quote": "있고      읻꼬            익꼬\n\n 발음이 애매하더라도 특유의 강세로 인해 의미를 쉽게 구분할 수 있기 때문으로 보인다. 최명옥의 \"한국어의 방언\"에 따르면"
+        }
+      ],
+      "claim_status": "author_hypothesis",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:review_completion:0004",
+      "type": "context",
+      "source_pattern": {
+        "text": "하다 표의 철자·발음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "깝깝하다/낄쭉하다/남 탓하다는 형태소 철자를 유지하고 괄호 속 [깝까바다]/[낄쭈가다]/[남타다다]를 실제 발음으로 구별.",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "해당 문헌·표·전사 범위의 기록이며 현대 사용 확률이나 자동 생성 규칙이 아니다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남 대부분·경북 드문드문"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 6,
+          "quote": "남 탓하다[남타다다]"
+        },
+        {
+          "pdf_page": 6,
+          "quote": "-하다\n      표준어           동남방언\n  갑갑하다[갑까파다] 깝깝하다[깝까바다]"
+        },
+        {
+          "pdf_page": 6,
+          "quote": "표준어           동남방언\n  갑갑하다[갑까파다] 깝깝하다[깝까바다]\n  길쭉하다[길쭈카다] 낄쭉하다[낄쭈가다][6]"
+        },
+        {
+          "pdf_page": 6,
+          "quote": "갑갑하다[갑까파다] 깝깝하다[깝까바다]\n  길쭉하다[길쭈카다] 낄쭉하다[낄쭈가다][6]\n  남 탓하다[남타타다] 남 탓하다[남타다다]"
+        },
+        {
+          "pdf_page": 6,
+          "quote": "살고                      사~고        사~고\n\n 유기음소화로 '-하다'에서 ㅎ을 발음하지 않는 경우가 있는데 경남 대부분 지역, 경북에서 드문드문 나타난다. 다른 남부 방언"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:review_completion:0005",
+      "type": "context",
+      "source_pattern": {
+        "text": "ㅅ/ㅆ 어휘 분화",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "새그럽다/쌔그럽다는 원문에서 여린말/센말 구별로도 쓰인다고 기술. 철자가 무조건 자유 교체하는 동일 의미 규칙은 아니다.",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "해당 문헌·표·전사 범위의 기록이며 현대 사용 확률이나 자동 생성 규칙이 아니다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "개별 지역·화자 범위 참조"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "여린말과 센말"
+        },
+        {
+          "pdf_page": 7,
+          "quote": "경북대학교 국어국문학과 이상규 교수의 논문에 따르면, 경상북도는 대구와 낙동강을 기점으로 동쪽, 경상남도는 남서쪽을 제\n 외한 나머지 동쪽 지역이 ㅅ과 ㅆ을 변별하지 않았다고 한다. 이전에는 이 두 음소를 구분을 할 필요가 없었으나, 표준어 단어\n 가 많이 유입되면서 구분할 필요가 생겼다. 현재 어린 화자를 기준으로 ㅅ과 ㅆ을 구분하기 시작했으며, 일부 새그럽다, 쌔그"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:review_completion:0006",
+      "type": "context",
+      "source_pattern": {
+        "text": "라거ᇹ다의 지역 한정",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "경북 북동부 인용 축약 -라거ᇹ다와 경남 서·중부 -라쿠다를 지역별로 구별. 지역 표기는 전형적 범위이지 독립 화자 검증이 아니다.",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "해당 문헌·표·전사 범위의 기록이며 현대 사용 확률이나 자동 생성 규칙이 아니다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경북 북동부"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "quote": "<경북 북동부>"
+        },
+        {
+          "pdf_page": 8,
+          "quote": "그러다: 그라다 <경상도 전역>\n        -라고 하다: -라카다 <경상도 전역>\n        -라고 하다: -라쿠다 <경남 서부/중부 대부분>"
+        },
+        {
+          "pdf_page": 8,
+          "quote": "-라고 하다: -라카다 <경상도 전역>\n        -라고 하다: -라쿠다 <경남 서부/중부 대부분>\n        -라고 하다: -라거ᇹ다 <경북 북동부>"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    }
+  ]
+}

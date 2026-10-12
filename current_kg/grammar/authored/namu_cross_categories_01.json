@@ -3,7 +3,8 @@
   "author": {
     "agent": "Codex",
     "method": "direct_source_reading",
-    "authored_on": "2026-09-17"
+    "authored_on": "2026-09-17",
+    "revised_on": "2026-10-08"
   },
   "source_id": "NAMU_GRAMMAR_20260908",
   "read_pages": [
@@ -116,7 +117,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "본문의 넓은 대응표를 각주 범위와 함께 해석한다."
+              "mapping_note": "본문의 넓은 대응표를 각주 범위와 함께 해석한다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -151,7 +155,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "조건 미확보의 변이형"
+              "mapping_note": "조건 미확보의 변이형",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -185,7 +192,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "조건 미확보의 변이형"
+              "mapping_note": "조건 미확보의 변이형",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -420,7 +430,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "해당 두 절의 조건 관계를 연결한다."
+              "mapping_note": "해당 두 절의 조건 관계를 연결한다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -454,7 +467,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "공유 기능이지만 지역·결합 조건의 동일성은 확정하지 않는다."
+              "mapping_note": "공유 기능이지만 지역·결합 조건의 동일성은 확정하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -565,7 +581,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "동시 관계에서 조회하며 -로를 모든 어미에 덧붙이지 않는다."
+              "mapping_note": "동시 관계에서 조회하며 -로를 모든 어미에 덧붙이지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -676,7 +695,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "원인 해석이 확인된 경우. -아가 전 용법을 이유로 한정하지 않는다."
+              "mapping_note": "원인 해석이 확인된 경우. -아가 전 용법을 이유로 한정하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -771,6 +793,13 @@
             "sense": "목적·의도 연결",
             "pos": "연결어미",
             "role": "dialect"
+          },
+          {
+            "key": "F3",
+            "text": "-(으)려고",
+            "role": "standard",
+            "sense": "의도 목적의 원문 표준형",
+            "pos": "연결어미"
           }
         ],
         "relations": [
@@ -784,7 +813,18 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "source_form",
+                  "operator": "one_of",
+                  "values": [
+                    "-(으)려고",
+                    "-(으)려"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
                   "operator": "is",
                   "values": [
                     "purpose_intention"
@@ -799,9 +839,14 @@
             "application": {
               "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "source_form",
+                "clause_relation"
               ],
-              "mapping_note": "목표 행동 해석을 확인한다."
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 28쪽의 해당 표준어 행과 절 관계에 한정한다. 같은 음절의 인용/종결형 또는 다른 원인의 구성으로 확대하지 않는다."
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -818,7 +863,18 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "source_form",
+                  "operator": "one_of",
+                  "values": [
+                    "-(으)려고",
+                    "-(으)려"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
                   "operator": "is",
                   "values": [
                     "purpose_intention"
@@ -833,14 +889,69 @@
             "application": {
               "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "source_form",
+                "clause_relation"
               ],
-              "mapping_note": "원문의 대응형을 연결. 인용 -라고와 구별한다."
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 28쪽의 해당 표준어 행과 절 관계에 한정한다. 같은 음절의 인용/종결형 또는 다른 원인의 구성으로 확대하지 않는다."
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
               "E1"
             ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "variant_of",
+            "object": {
+              "kind": "form",
+              "ref": "F3"
+            },
+            "evidence_keys": [
+              "E1"
+            ],
+            "assertion_mode": "source_statement",
+            "conditions": {
+              "all": [
+                {
+                  "field": "source_form",
+                  "operator": "one_of",
+                  "values": [
+                    "-(으)려고",
+                    "-(으)려"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
+                  "operator": "is",
+                  "values": [
+                    "purpose_intention"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.connective",
+              "input_features": [
+                "source_form",
+                "clause_relation"
+              ],
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 표의 형태 대응을 보존한다. 의미가 유사한 모든 연결 구성의 일괄 치환이 아니다."
+            }
           }
         ],
         "scope": {
@@ -937,7 +1048,7 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "construction_kind",
                   "operator": "is",
                   "values": [
                     "quotative_rago_hada"
@@ -950,11 +1061,14 @@
               "any": []
             },
             "application": {
-              "target": "clause.connective",
+              "target": "expression.orthography",
               "input_features": [
-                "meaning"
+                "construction_kind"
               ],
-              "mapping_note": "인용 구성에서 음운 문서의 축약과 연결한다."
+              "feature_sources": {
+                "construction_kind": "input"
+              },
+              "mapping_note": "-라고 하다 구성 전체의 축약. 일반 연결어미 또는 목적 -(으)려고에 적용하지 않는다."
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1065,7 +1179,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "해당 부정의 범위를 보존해야 하며 장형 전체의 무조건 치환은 아니다."
+              "mapping_note": "해당 부정의 범위를 보존해야 하며 장형 전체의 무조건 치환은 아니다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [

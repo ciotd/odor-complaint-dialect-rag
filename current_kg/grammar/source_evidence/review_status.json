@@ -1,0 +1,23 @@
+{
+  "status": "first_pass_completed_pending_human_review",
+  "pid": 4108789,
+  "started_at": "2026-10-08T00:38:58.640980+00:00",
+  "total_units": 1064,
+  "completed_units": 1064,
+  "attempted_units_this_run": 60,
+  "failed_units_this_run": 0,
+  "source_index_sha256": "e1f67b4b7779618f1be2a2f37bfdf2f7e1d747608e0a99c3b2ca9428c474d80d",
+  "endpoint_sha256": "03bdfce6caff3fa12a0b14fe05a301a12c3f0915e60d3e60e89bc53308775201",
+  "script_sha256": "e061351528da5ab3c3249922defb5315fc9f3a93b0fa3c1efb9200e616df96f1",
+  "model": "Qwen3.8-27B",
+  "semantic_approval": false,
+  "workers": 2,
+  "background_process_started": false,
+  "approval": "User explicitly approved all 1064 source units to the existing Qwen server on 2026-10-07.",
+  "updated_at": "2026-10-08T00:45:15.034410+00:00",
+  "ended_at": "2026-10-08T00:45:15.094785+00:00",
+  "note": "1,064 first-pass proposals completed against the pre-repair snapshot. Source texts/spans are unchanged; KG citation/surface mappings changed after source-grounded repairs. 8 units have targeted author dispositions in reports/source_expansion/kg_repairs.json; no full semantic approval. Old model responses and their snapshot hash are preserved.",
+  "current_units_sha256": "f393a2d14ae4b486efe9816d8336f0b7f8775862e25c65ce5bf63fc03ba99368",
+  "review_applies_to": "pre-repair KG/source-alignment snapshot; source text remains unchanged",
+  "current_alignment_changed": true
+}

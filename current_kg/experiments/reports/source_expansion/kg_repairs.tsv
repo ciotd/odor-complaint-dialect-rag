@@ -1,0 +1,17 @@
+record_id	action	label	source_id	pdf_pages	changed_assertions	added_assertions	reason	authored_file
+GYS-G007	modified	인용 -라고 하다의 -라카다 대응	NAMU_GRAMMAR_20260908	30	GYS-G007:A1		같은 -라고 하다 축약의 조건 이름/적용 위치를 P001과 정합화	current_kg/grammar/authored/namu_cross_categories_01.json
+GYS-P016	modified	인용 축약과 지시적 그러다 계열 구별	NAMU_PHONOLOGY_20260908	8	GYS-P016:A1,GYS-P016:A2,GYS-P016:A3,GYS-P016:A4,GYS-P016:A5		지시적 그러다와 인용 라카다/라쿠다의 조건을 구조화	current_kg/grammar/authored/namu_phonology_expansion_02.json
+GYS-O004	modified	인용의 카다와 지시적 카다의 범위 차이	NAMU20260901	12		GYS-O004:A5,GYS-O004:A6	본문의 인용 -고+하→카 결합을 명시적 축약 관계로 작성	current_kg/grammar/authored/namu_overview_expansion_02.json
+GYS-R007	modified	함양 간접 인용 -꼬	RYU2014	19,18	GYS-R007:A1	GYS-R007:A2	인용문 내부의 평서 내용 및 표준형 -고를 조건/대응형으로 분리	current_kg/grammar/authored/ryu2014_01.json
+GYS-R008	modified	명령 인용과 카네 축약 사례	RYU2014	19,18	GYS-R008:A1	GYS-R008:A2	인용 명령 예문과 -고 하네→카네 일반 축약 설명을 분리	current_kg/grammar/authored/ryu2014_01.json
+GYS-G006	modified	-(으)ㄹ라꼬 목적·의도 연결	NAMU_GRAMMAR_20260908	28	GYS-G006:A1,GYS-G006:A2	GYS-G006:A3	표준어 형태와 절 관계를 조건으로 결속하고 연결 위치를 정정: 의도 목적	current_kg/grammar/authored/namu_cross_categories_01.json
+GYS-G034	modified	원인·이유의 -(으)이끼네 계열	NAMU_GRAMMAR_20260908	28	GYS-G034:A1,GYS-G034:A2,GYS-G034:A3,GYS-G034:A4	GYS-G034:A5	표준어 형태와 절 관계를 조건으로 결속하고 연결 위치를 정정: 원인 이유	current_kg/grammar/authored/namu_grammar_expansion_02.json
+GYS-G036	modified	회상 연결 -더니/-디이	NAMU_GRAMMAR_20260908	28	GYS-G036:A1,GYS-G036:A2,GYS-G036:A3	GYS-G036:A4	표준어 형태와 절 관계를 조건으로 결속하고 연결 위치를 정정: 회상 후속	current_kg/grammar/authored/namu_grammar_expansion_02.json
+GYS-G037	modified	대조 -디만 계열	NAMU_GRAMMAR_20260908	28	GYS-G037:A1,GYS-G037:A2,GYS-G037:A3,GYS-G037:A4	GYS-G037:A5	표준어 형태와 절 관계를 조건으로 결속하고 연결 위치를 정정: 회상 대조	current_kg/grammar/authored/namu_grammar_expansion_02.json
+GYS-G038	modified	양보·대조 -아도와 -지만	NAMU_GRAMMAR_20260908	28	GYS-G038:A1,GYS-G038:A2,GYS-G038:A3	GYS-G038:A4	표준어 형태와 절 관계를 조건으로 결속하고 연결 위치를 정정: 양보 대조	current_kg/grammar/authored/namu_grammar_expansion_02.json
+GYS-G039	modified	가산 연결 -지만	NAMU_GRAMMAR_20260908	28	GYS-G039:A1,GYS-G039:A2	GYS-G039:A3	표준어 형태와 절 관계를 조건으로 결속하고 연결 위치를 정정: 가산 연결	current_kg/grammar/authored/namu_grammar_expansion_02.json
+GYS-G041	modified	-니라꼬/-니라고의 이유 연결	NAMU_GRAMMAR_20260908	28	GYS-G041:A1,GYS-G041:A2,GYS-G041:A3	GYS-G041:A4	표준어 형태와 절 관계를 조건으로 결속하고 연결 위치를 정정: -느라고 이유 연결	current_kg/grammar/authored/namu_grammar_expansion_02.json
+GYS-R045	modified	중단·전환 연결 -다	RYU2014	18	GYS-R045:A1	GYS-R045:A2	-다가→-다 중단 전환 구성과 관형 구성을 구별할 형태 조건 추가	current_kg/grammar/authored/ryu2014_expansion_02.json
+GYS-G072	added	인용 연결 -고와 -꼬의 형태 대응	NAMU_GRAMMAR_20260908	28		GYS-G072:A1,GYS-G072:A2	원문 표의 미작성 행을 개별 형태·기능·조건 관계로 신규 작성	current_kg/grammar/authored/namu_grammar_expansion_02.json
+GYS-G073	added	인용 내용 나열 -다느니/-다니이	NAMU_GRAMMAR_20260908	28		GYS-G073:A1,GYS-G073:A2	원문 표의 미작성 행을 개별 형태·기능·조건 관계로 신규 작성	current_kg/grammar/authored/namu_grammar_expansion_02.json
+GYS-G074	added	인용 회상 연결 -다더니/-다디~이	NAMU_GRAMMAR_20260908	28		GYS-G074:A1,GYS-G074:A2	원문 표의 미작성 행을 개별 형태·기능·조건 관계로 신규 작성	current_kg/grammar/authored/namu_grammar_expansion_02.json

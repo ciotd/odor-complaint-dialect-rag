@@ -1,0 +1,21 @@
+{
+  "remote": "https://github.com/ciotd/odor-complaint-dialect-rag.git",
+  "branch": "main",
+  "remote_head_before": "cf52fbd16593f1e1a4bf7ff41fef166b19c73a40",
+  "publication_authorization": "User explicitly requested all work to date be updated on GitHub after integration and verification.",
+  "included_scope": "Existing uncommitted research/code/results/docs plus KG v2, respecting .gitignore.",
+  "excluded_scope": [
+    "Original PDFs",
+    "AI-Hub corpus and protected derived inputs",
+    "Dictionary raw resources",
+    "Runtime credentials",
+    "Full local source page extracts and agent temporary files"
+  ],
+  "credential_scan": "Final publishable files: no private-key, GitHub-token, OpenAI-key or JWT signatures found. Initial JSON credential-field scan also found no nonempty credential values.",
+  "record_type": "pre_push_checks; remote publication is confirmed separately after git push",
+  "publishable_file_count": 327,
+  "file_size_check": "No publishable file exceeds 90 MB",
+  "excluded_path_check": "No original PDF, kg_v2/local data or .env file in publishable set",
+  "whitespace_check": "Code, documentation and new KG pass with CRLF accepted. Preserved legacy generated experiment reports retain empty TSV rating fields, blank EOF separators and three historical progress-log trailing spaces; not normalized to keep protected artifacts unchanged.",
+  "staging_check": "238 changed/added/renamed files; no unstaged differences after git add -A. Ignored original sources, full page extracts and runtime files excluded."
+}

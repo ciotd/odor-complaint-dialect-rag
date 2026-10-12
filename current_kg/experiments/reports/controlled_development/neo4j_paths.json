@@ -1,0 +1,25 @@
+{
+  "status": "all_used_cross_record_edges_verified_in_neo4j",
+  "snapshot_sha256": "6725eb02e5f1cf284f402661f4b82b2b53b267b7430da63f02595e8ec35ee0bc",
+  "unique_edges": 11,
+  "path_occurrences": 15,
+  "active_sentences": 11,
+  "cypher": "MATCH (a:KGNode {snapshot:$snapshot})-[r]->(b:KGNode {snapshot:$snapshot}) WHERE r.id IN $edges RETURN r.id,a.id,type(r),b.id,r.properties_json",
+  "parameters": {
+    "snapshot": "6725eb02e5f1cf284f402661f4b82b2b53b267b7430da63f02595e8ec35ee0bc",
+    "edges": [
+      "edge:29a816abc27fd4fec0b153e4",
+      "edge:1e07b961dc1c4ed3dac2d3d9",
+      "edge:f3d8653f6f4a98ff99add910",
+      "edge:2556bd6afde4c04e0dc81bed",
+      "edge:49c48814b2403c6dfacd55aa",
+      "edge:beeb0f66a129187453dc0fda",
+      "edge:9f2175c837d7baad8c955406",
+      "edge:5078cfff593f74a241e6cef4",
+      "edge:c7903793b852424a857c12bd",
+      "edge:da75c12de6bda061a3a4c636",
+      "edge:69d3f51c5c1e5b8205b1d7e4"
+    ]
+  },
+  "limitation": "Existence/parity, not relevance approval. Generation uses Python packets."
+}

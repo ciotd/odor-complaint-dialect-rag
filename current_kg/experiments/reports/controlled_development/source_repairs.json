@@ -1,0 +1,27 @@
+{
+  "status": "targeted_source_repairs_not_full_review",
+  "changes": [
+    {
+      "record_id": "GYS-R007",
+      "file": "current_kg/grammar/authored/ryu2014_01.json",
+      "source_examples": 1,
+      "basis": "direct PDF text and visual inspection on 2026-10-08",
+      "rule_generalization": false
+    },
+    {
+      "record_id": "GYS-R008",
+      "file": "current_kg/grammar/authored/ryu2014_01.json",
+      "source_examples": 1,
+      "basis": "direct PDF text and visual inspection on 2026-10-08",
+      "rule_generalization": false
+    },
+    {
+      "record_id": "GYS-O004",
+      "file": "current_kg/grammar/authored/namu_overview_expansion_02.json",
+      "source_examples": 4,
+      "basis": "direct PDF text and visual inspection on 2026-10-08",
+      "rule_generalization": false
+    }
+  ],
+  "not_completed": "61 candidate-link and 307 visual flags are not all adjudicated"
+}

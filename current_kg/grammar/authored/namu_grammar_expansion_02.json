@@ -3,7 +3,8 @@
   "author": {
     "agent": "Codex",
     "method": "direct_source_reading",
-    "authored_on": "2026-09-17"
+    "authored_on": "2026-09-17",
+    "revised_on": "2026-10-08"
   },
   "source_id": "NAMU_GRAMMAR_20260908",
   "read_pages": [
@@ -226,7 +227,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -260,7 +264,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -294,7 +301,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -617,7 +627,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -651,7 +664,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -685,7 +701,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -818,7 +837,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -853,7 +875,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -888,7 +913,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -923,7 +951,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1393,7 +1424,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "example_only",
             "evidence_keys": [
@@ -1427,7 +1461,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "example_only",
             "evidence_keys": [
@@ -1553,7 +1590,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1589,7 +1629,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1625,7 +1668,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1759,7 +1805,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1793,7 +1842,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1926,7 +1978,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1962,7 +2017,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -1998,7 +2056,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -2034,7 +2095,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -2167,7 +2231,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -2201,7 +2268,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -2327,7 +2397,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -2361,7 +2434,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -2395,7 +2471,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5389,7 +5468,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5423,7 +5505,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5457,7 +5542,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5491,7 +5579,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5594,6 +5685,13 @@
             "role": "dialect",
             "sense": "원인·이유 연결",
             "pos": null
+          },
+          {
+            "key": "F5",
+            "text": "-(으)니까",
+            "role": "standard",
+            "sense": "원인 이유의 원문 표준형",
+            "pos": "연결어미"
           }
         ],
         "relations": [
@@ -5607,10 +5705,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "source_form",
                   "operator": "is",
                   "values": [
-                    "원인·이유 연결"
+                    "-(으)니까"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
+                  "operator": "is",
+                  "values": [
+                    "cause"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -5620,11 +5728,16 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "source_form",
+                "clause_relation"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 28쪽의 해당 표준어 행과 절 관계에 한정한다. 같은 음절의 인용/종결형 또는 다른 원인의 구성으로 확대하지 않는다."
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5641,10 +5754,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "source_form",
                   "operator": "is",
                   "values": [
-                    "원인·이유 연결"
+                    "-(으)니까"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
+                  "operator": "is",
+                  "values": [
+                    "cause"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -5654,11 +5777,16 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "source_form",
+                "clause_relation"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 28쪽의 해당 표준어 행과 절 관계에 한정한다. 같은 음절의 인용/종결형 또는 다른 원인의 구성으로 확대하지 않는다."
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5675,10 +5803,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "source_form",
                   "operator": "is",
                   "values": [
-                    "원인·이유 연결"
+                    "-(으)니까"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
+                  "operator": "is",
+                  "values": [
+                    "cause"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -5688,11 +5826,16 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "source_form",
+                "clause_relation"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 28쪽의 해당 표준어 행과 절 관계에 한정한다. 같은 음절의 인용/종결형 또는 다른 원인의 구성으로 확대하지 않는다."
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5709,10 +5852,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "source_form",
                   "operator": "is",
                   "values": [
-                    "원인·이유 연결"
+                    "-(으)니까"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
+                  "operator": "is",
+                  "values": [
+                    "cause"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -5722,16 +5875,70 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "source_form",
+                "clause_relation"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 28쪽의 해당 표준어 행과 절 관계에 한정한다. 같은 음절의 인용/종결형 또는 다른 원인의 구성으로 확대하지 않는다."
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
               "E1"
             ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "variant_of",
+            "object": {
+              "kind": "form",
+              "ref": "F5"
+            },
+            "evidence_keys": [
+              "E1"
+            ],
+            "assertion_mode": "source_statement",
+            "conditions": {
+              "all": [
+                {
+                  "field": "source_form",
+                  "operator": "is",
+                  "values": [
+                    "-(으)니까"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
+                  "operator": "is",
+                  "values": [
+                    "cause"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.connective",
+              "input_features": [
+                "source_form",
+                "clause_relation"
+              ],
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 표의 형태 대응을 보존한다. 의미가 유사한 모든 연결 구성의 일괄 치환이 아니다."
+            }
           }
         ],
         "scope": {
@@ -5838,7 +6045,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5934,6 +6144,13 @@
             "role": "dialect",
             "sense": "회상·후속 사태 연결",
             "pos": null
+          },
+          {
+            "key": "F4",
+            "text": "-더니",
+            "role": "standard",
+            "sense": "회상 후속의 원문 표준형",
+            "pos": "연결어미"
           }
         ],
         "relations": [
@@ -5947,10 +6164,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "source_form",
                   "operator": "is",
                   "values": [
-                    "회상·후속 사태 연결"
+                    "-더니"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
+                  "operator": "is",
+                  "values": [
+                    "retrospective_sequence"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -5960,11 +6187,16 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "source_form",
+                "clause_relation"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 28쪽의 해당 표준어 행과 절 관계에 한정한다. 같은 음절의 인용/종결형 또는 다른 원인의 구성으로 확대하지 않는다."
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -5981,10 +6213,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "source_form",
                   "operator": "is",
                   "values": [
-                    "회상·후속 사태 연결"
+                    "-더니"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
+                  "operator": "is",
+                  "values": [
+                    "retrospective_sequence"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -5994,11 +6236,16 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "source_form",
+                "clause_relation"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 28쪽의 해당 표준어 행과 절 관계에 한정한다. 같은 음절의 인용/종결형 또는 다른 원인의 구성으로 확대하지 않는다."
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -6015,10 +6262,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "source_form",
                   "operator": "is",
                   "values": [
-                    "회상·후속 사태 연결"
+                    "-더니"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
+                  "operator": "is",
+                  "values": [
+                    "retrospective_sequence"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -6028,16 +6285,70 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "source_form",
+                "clause_relation"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 28쪽의 해당 표준어 행과 절 관계에 한정한다. 같은 음절의 인용/종결형 또는 다른 원인의 구성으로 확대하지 않는다."
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
               "E1"
             ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "variant_of",
+            "object": {
+              "kind": "form",
+              "ref": "F4"
+            },
+            "evidence_keys": [
+              "E1"
+            ],
+            "assertion_mode": "source_statement",
+            "conditions": {
+              "all": [
+                {
+                  "field": "source_form",
+                  "operator": "is",
+                  "values": [
+                    "-더니"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
+                  "operator": "is",
+                  "values": [
+                    "retrospective_sequence"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.connective",
+              "input_features": [
+                "source_form",
+                "clause_relation"
+              ],
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 표의 형태 대응을 보존한다. 의미가 유사한 모든 연결 구성의 일괄 치환이 아니다."
+            }
           }
         ],
         "scope": {
@@ -6135,6 +6446,13 @@
             "role": "dialect",
             "sense": "회상·대조 연결",
             "pos": null
+          },
+          {
+            "key": "F5",
+            "text": "-더니만",
+            "role": "standard",
+            "sense": "회상 대조의 원문 표준형",
+            "pos": "연결어미"
           }
         ],
         "relations": [
@@ -6148,10 +6466,21 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "source_form",
+                  "operator": "one_of",
+                  "values": [
+                    "-더니만",
+                    "-더니마는"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
                   "operator": "is",
                   "values": [
-                    "회상·대조 연결"
+                    "retrospective_contrast"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -6161,11 +6490,16 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "source_form",
+                "clause_relation"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 28쪽의 해당 표준어 행과 절 관계에 한정한다. 같은 음절의 인용/종결형 또는 다른 원인의 구성으로 확대하지 않는다."
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -6182,10 +6516,21 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "source_form",
+                  "operator": "one_of",
+                  "values": [
+                    "-더니만",
+                    "-더니마는"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
                   "operator": "is",
                   "values": [
-                    "회상·대조 연결"
+                    "retrospective_contrast"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -6195,11 +6540,16 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "source_form",
+                "clause_relation"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 28쪽의 해당 표준어 행과 절 관계에 한정한다. 같은 음절의 인용/종결형 또는 다른 원인의 구성으로 확대하지 않는다."
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -6216,10 +6566,21 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "source_form",
+                  "operator": "one_of",
+                  "values": [
+                    "-더니만",
+                    "-더니마는"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
                   "operator": "is",
                   "values": [
-                    "회상·대조 연결"
+                    "retrospective_contrast"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -6229,11 +6590,16 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "source_form",
+                "clause_relation"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 28쪽의 해당 표준어 행과 절 관계에 한정한다. 같은 음절의 인용/종결형 또는 다른 원인의 구성으로 확대하지 않는다."
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -6250,10 +6616,21 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "source_form",
+                  "operator": "one_of",
+                  "values": [
+                    "-더니만",
+                    "-더니마는"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
                   "operator": "is",
                   "values": [
-                    "회상·대조 연결"
+                    "retrospective_contrast"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -6263,16 +6640,71 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "source_form",
+                "clause_relation"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 28쪽의 해당 표준어 행과 절 관계에 한정한다. 같은 음절의 인용/종결형 또는 다른 원인의 구성으로 확대하지 않는다."
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
               "E1"
             ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "variant_of",
+            "object": {
+              "kind": "form",
+              "ref": "F5"
+            },
+            "evidence_keys": [
+              "E1"
+            ],
+            "assertion_mode": "source_statement",
+            "conditions": {
+              "all": [
+                {
+                  "field": "source_form",
+                  "operator": "one_of",
+                  "values": [
+                    "-더니만",
+                    "-더니마는"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
+                  "operator": "is",
+                  "values": [
+                    "retrospective_contrast"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.connective",
+              "input_features": [
+                "source_form",
+                "clause_relation"
+              ],
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 표의 형태 대응을 보존한다. 의미가 유사한 모든 연결 구성의 일괄 치환이 아니다."
+            }
           }
         ],
         "scope": {
@@ -6363,6 +6795,13 @@
             "role": "dialect",
             "sense": "양보·대조",
             "pos": null
+          },
+          {
+            "key": "F4",
+            "text": "-지마는",
+            "role": "standard",
+            "sense": "양보 대조의 원문 표준형",
+            "pos": "연결어미"
           }
         ],
         "relations": [
@@ -6376,10 +6815,22 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
-                  "operator": "is",
+                  "field": "source_form",
+                  "operator": "one_of",
                   "values": [
-                    "양보·대조"
+                    "-지마는",
+                    "-지만"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
+                  "operator": "one_of",
+                  "values": [
+                    "concession",
+                    "contrast"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -6389,11 +6840,16 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "source_form",
+                "clause_relation"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 28쪽의 해당 표준어 행과 절 관계에 한정한다. 같은 음절의 인용/종결형 또는 다른 원인의 구성으로 확대하지 않는다."
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -6410,10 +6866,22 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
-                  "operator": "is",
+                  "field": "source_form",
+                  "operator": "one_of",
                   "values": [
-                    "양보·대조"
+                    "-지마는",
+                    "-지만"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
+                  "operator": "one_of",
+                  "values": [
+                    "concession",
+                    "contrast"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -6423,11 +6891,16 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "source_form",
+                "clause_relation"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 28쪽의 해당 표준어 행과 절 관계에 한정한다. 같은 음절의 인용/종결형 또는 다른 원인의 구성으로 확대하지 않는다."
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -6444,10 +6917,22 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
-                  "operator": "is",
+                  "field": "source_form",
+                  "operator": "one_of",
                   "values": [
-                    "양보·대조"
+                    "-지마는",
+                    "-지만"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
+                  "operator": "one_of",
+                  "values": [
+                    "concession",
+                    "contrast"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -6457,16 +6942,72 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "source_form",
+                "clause_relation"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 28쪽의 해당 표준어 행과 절 관계에 한정한다. 같은 음절의 인용/종결형 또는 다른 원인의 구성으로 확대하지 않는다."
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
               "E1"
             ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "variant_of",
+            "object": {
+              "kind": "form",
+              "ref": "F4"
+            },
+            "evidence_keys": [
+              "E1"
+            ],
+            "assertion_mode": "source_statement",
+            "conditions": {
+              "all": [
+                {
+                  "field": "source_form",
+                  "operator": "one_of",
+                  "values": [
+                    "-지마는",
+                    "-지만"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
+                  "operator": "one_of",
+                  "values": [
+                    "concession",
+                    "contrast"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.connective",
+              "input_features": [
+                "source_form",
+                "clause_relation"
+              ],
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 표의 형태 대응을 보존한다. 의미가 유사한 모든 연결 구성의 일괄 치환이 아니다."
+            }
           }
         ],
         "scope": {
@@ -6550,6 +7091,13 @@
             "role": "dialect",
             "sense": "가산 연결",
             "pos": null
+          },
+          {
+            "key": "F3",
+            "text": "-거니와",
+            "role": "standard",
+            "sense": "가산 연결의 원문 표준형",
+            "pos": "연결어미"
           }
         ],
         "relations": [
@@ -6563,10 +7111,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "source_form",
                   "operator": "is",
                   "values": [
-                    "가산 연결"
+                    "-거니와"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
+                  "operator": "is",
+                  "values": [
+                    "addition"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -6576,11 +7134,16 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "source_form",
+                "clause_relation"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 28쪽의 해당 표준어 행과 절 관계에 한정한다. 같은 음절의 인용/종결형 또는 다른 원인의 구성으로 확대하지 않는다."
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -6597,10 +7160,20 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "source_form",
                   "operator": "is",
                   "values": [
-                    "가산 연결"
+                    "-거니와"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
+                  "operator": "is",
+                  "values": [
+                    "addition"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -6610,16 +7183,70 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "source_form",
+                "clause_relation"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 28쪽의 해당 표준어 행과 절 관계에 한정한다. 같은 음절의 인용/종결형 또는 다른 원인의 구성으로 확대하지 않는다."
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
               "E1"
             ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "variant_of",
+            "object": {
+              "kind": "form",
+              "ref": "F3"
+            },
+            "evidence_keys": [
+              "E1"
+            ],
+            "assertion_mode": "source_statement",
+            "conditions": {
+              "all": [
+                {
+                  "field": "source_form",
+                  "operator": "is",
+                  "values": [
+                    "-거니와"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
+                  "operator": "is",
+                  "values": [
+                    "addition"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.connective",
+              "input_features": [
+                "source_form",
+                "clause_relation"
+              ],
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 표의 형태 대응을 보존한다. 의미가 유사한 모든 연결 구성의 일괄 치환이 아니다."
+            }
           }
         ],
         "scope": {
@@ -6733,7 +7360,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -6767,7 +7397,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -6863,6 +7496,13 @@
             "role": "dialect",
             "sense": "-느라고 대응 이유 연결",
             "pos": null
+          },
+          {
+            "key": "F4",
+            "text": "-느라",
+            "role": "standard",
+            "sense": "-느라고 이유 연결의 원문 표준형",
+            "pos": "연결어미"
           }
         ],
         "relations": [
@@ -6876,10 +7516,21 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "source_form",
+                  "operator": "one_of",
+                  "values": [
+                    "-느라",
+                    "-느라고"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
                   "operator": "is",
                   "values": [
-                    "-느라고 대응 이유 연결"
+                    "cause"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -6889,11 +7540,16 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "source_form",
+                "clause_relation"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 28쪽의 해당 표준어 행과 절 관계에 한정한다. 같은 음절의 인용/종결형 또는 다른 원인의 구성으로 확대하지 않는다."
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -6910,10 +7566,21 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "source_form",
+                  "operator": "one_of",
+                  "values": [
+                    "-느라",
+                    "-느라고"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
                   "operator": "is",
                   "values": [
-                    "-느라고 대응 이유 연결"
+                    "cause"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -6923,11 +7590,16 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "source_form",
+                "clause_relation"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 28쪽의 해당 표준어 행과 절 관계에 한정한다. 같은 음절의 인용/종결형 또는 다른 원인의 구성으로 확대하지 않는다."
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -6944,10 +7616,21 @@
             "conditions": {
               "all": [
                 {
-                  "field": "meaning",
+                  "field": "source_form",
+                  "operator": "one_of",
+                  "values": [
+                    "-느라",
+                    "-느라고"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
                   "operator": "is",
                   "values": [
-                    "-느라고 대응 이유 연결"
+                    "cause"
                   ],
                   "evidence_keys": [
                     "E1"
@@ -6957,16 +7640,71 @@
               "any": []
             },
             "application": {
-              "target": "predicate.construction",
+              "target": "clause.connective",
               "input_features": [
-                "meaning"
+                "source_form",
+                "clause_relation"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 28쪽의 해당 표준어 행과 절 관계에 한정한다. 같은 음절의 인용/종결형 또는 다른 원인의 구성으로 확대하지 않는다."
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
               "E1"
             ]
+          },
+          {
+            "subject": "F1",
+            "predicate": "variant_of",
+            "object": {
+              "kind": "form",
+              "ref": "F4"
+            },
+            "evidence_keys": [
+              "E1"
+            ],
+            "assertion_mode": "source_statement",
+            "conditions": {
+              "all": [
+                {
+                  "field": "source_form",
+                  "operator": "one_of",
+                  "values": [
+                    "-느라",
+                    "-느라고"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "clause_relation",
+                  "operator": "is",
+                  "values": [
+                    "cause"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.connective",
+              "input_features": [
+                "source_form",
+                "clause_relation"
+              ],
+              "feature_sources": {
+                "source_form": "input",
+                "clause_relation": "input"
+              },
+              "mapping_note": "원문 표의 형태 대응을 보존한다. 의미가 유사한 모든 연결 구성의 일괄 치환이 아니다."
+            }
           }
         ],
         "scope": {
@@ -7080,7 +7818,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -7114,7 +7855,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -7226,7 +7970,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -7338,7 +8085,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -7450,7 +8200,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -7763,7 +8516,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -7797,7 +8553,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -7909,7 +8668,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "source_statement",
             "evidence_keys": [
@@ -7944,7 +8706,10 @@
               "input_features": [
                 "meaning"
               ],
-              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다."
+              "mapping_note": "입력의 기능·구성 해석과 후보 표현을 구별하여 조회한다. 원문에 없는 결합 허용·지역 일반화는 추론하지 않는다.",
+              "feature_sources": {
+                "meaning": "input"
+              }
             },
             "assertion_mode": "example_only",
             "evidence_keys": [
@@ -8704,6 +9469,526 @@
         ],
         "illustrative_examples": null,
         "illustrative_examples_note": "원문 설명과 제시형을 기록했다. 독립적으로 자연스러움을 판단하지 못한 새 설명용 문장은 null로 남긴다."
+      }
+    },
+    {
+      "id": "GYS-G072",
+      "knowledge": {
+        "kind": "construction",
+        "label": "인용 연결 -고와 -꼬의 형태 대응",
+        "concepts": [
+          "QUOTATION",
+          "CONNECTIVE_ENDING"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-고",
+            "role": "standard",
+            "sense": "인용 표지의 된소리형이며 일반 나열 -고나 의문 종결 -고와 구별한다.",
+            "pos": "인용 연결 구성"
+          },
+          {
+            "key": "F2",
+            "text": "-꼬",
+            "role": "dialect",
+            "sense": "인용 표지의 된소리형이며 일반 나열 -고나 의문 종결 -고와 구별한다.",
+            "pos": "인용 연결 구성"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "QUOTATION"
+            },
+            "evidence_keys": [
+              "E1"
+            ],
+            "assertion_mode": "source_statement",
+            "conditions": {
+              "all": [
+                {
+                  "field": "source_form",
+                  "operator": "is",
+                  "values": [
+                    "-고"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "construction_kind",
+                  "operator": "one_of",
+                  "values": [
+                    "quotative_rago_hada",
+                    "quotative_hada",
+                    "quotative_reporting"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.connective",
+              "input_features": [
+                "source_form",
+                "construction_kind"
+              ],
+              "feature_sources": {
+                "source_form": "input",
+                "construction_kind": "input"
+              },
+              "mapping_note": "인용 표지의 된소리형이며 일반 나열 -고나 의문 종결 -고와 구별한다."
+            }
+          },
+          {
+            "subject": "F2",
+            "predicate": "variant_of",
+            "object": {
+              "kind": "form",
+              "ref": "F1"
+            },
+            "evidence_keys": [
+              "E1"
+            ],
+            "assertion_mode": "source_statement",
+            "conditions": {
+              "all": [
+                {
+                  "field": "source_form",
+                  "operator": "is",
+                  "values": [
+                    "-고"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                },
+                {
+                  "field": "construction_kind",
+                  "operator": "one_of",
+                  "values": [
+                    "quotative_rago_hada",
+                    "quotative_hada",
+                    "quotative_reporting"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.connective",
+              "input_features": [
+                "source_form",
+                "construction_kind"
+              ],
+              "feature_sources": {
+                "source_form": "input",
+                "construction_kind": "input"
+              },
+              "mapping_note": "인용 표지의 된소리형이며 일반 나열 -고나 의문 종결 -고와 구별한다."
+            }
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 원문의 지역별 제한은 개별 설명 참조"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 28,
+            "locator": "-고 행의 표준어/방언/예문 칸; PDF 화면 대조"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "구성의 범위",
+              "values": [
+                "인용 표지의 된소리형이며 일반 나열 -고나 의문 종결 -고와 구별한다.",
+                "표의 형태 대응이며 억양·전 음운 환경·현대 자연스러움의 검증은 아니다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "문헌 표에 없는 세부 결합/억양과 생성 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 표를 근거로 형태와 기능을 작성했다. 평가 정답이나 새 번역 예문을 만들지 않았다."
+      },
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "revision": {
+        "authored_on": "2026-10-08",
+        "basis": "direct PDF page/table review after model alignment proposal"
+      }
+    },
+    {
+      "id": "GYS-G073",
+      "knowledge": {
+        "kind": "construction",
+        "label": "인용 내용 나열 -다느니/-다니이",
+        "concepts": [
+          "QUOTATION",
+          "CONNECTIVE_ENDING"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-다느니",
+            "role": "standard",
+            "sense": "많다느니 적다느니 식의 인용 내용 나열에 한정한다. 이 행의 예를 -다더니 행으로 이동하지 않는다.",
+            "pos": "인용 연결 구성"
+          },
+          {
+            "key": "F2",
+            "text": "-다니이",
+            "role": "dialect",
+            "sense": "많다느니 적다느니 식의 인용 내용 나열에 한정한다. 이 행의 예를 -다더니 행으로 이동하지 않는다.",
+            "pos": "인용 연결 구성"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "QUOTATION"
+            },
+            "evidence_keys": [
+              "E1"
+            ],
+            "assertion_mode": "source_statement",
+            "conditions": {
+              "all": [
+                {
+                  "field": "source_form",
+                  "operator": "is",
+                  "values": [
+                    "-다느니"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.connective",
+              "input_features": [
+                "source_form"
+              ],
+              "feature_sources": {
+                "source_form": "input"
+              },
+              "mapping_note": "많다느니 적다느니 식의 인용 내용 나열에 한정한다. 이 행의 예를 -다더니 행으로 이동하지 않는다."
+            }
+          },
+          {
+            "subject": "F2",
+            "predicate": "variant_of",
+            "object": {
+              "kind": "form",
+              "ref": "F1"
+            },
+            "evidence_keys": [
+              "E1"
+            ],
+            "assertion_mode": "source_statement",
+            "conditions": {
+              "all": [
+                {
+                  "field": "source_form",
+                  "operator": "is",
+                  "values": [
+                    "-다느니"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.connective",
+              "input_features": [
+                "source_form"
+              ],
+              "feature_sources": {
+                "source_form": "input"
+              },
+              "mapping_note": "많다느니 적다느니 식의 인용 내용 나열에 한정한다. 이 행의 예를 -다더니 행으로 이동하지 않는다."
+            }
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 원문의 지역별 제한은 개별 설명 참조"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 28,
+            "locator": "-다느니 행의 표준어/방언/예문 칸; PDF 화면 대조"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "구성의 범위",
+              "values": [
+                "많다느니 적다느니 식의 인용 내용 나열에 한정한다. 이 행의 예를 -다더니 행으로 이동하지 않는다.",
+                "표의 형태 대응이며 억양·전 음운 환경·현대 자연스러움의 검증은 아니다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "문헌 표에 없는 세부 결합/억양과 생성 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 표를 근거로 형태와 기능을 작성했다. 평가 정답이나 새 번역 예문을 만들지 않았다."
+      },
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "revision": {
+        "authored_on": "2026-10-08",
+        "basis": "direct PDF page/table review after model alignment proposal"
+      }
+    },
+    {
+      "id": "GYS-G074",
+      "knowledge": {
+        "kind": "construction",
+        "label": "인용 회상 연결 -다더니/-다디~이",
+        "concepts": [
+          "QUOTATION",
+          "CONNECTIVE_ENDING"
+        ],
+        "forms": [
+          {
+            "key": "F1",
+            "text": "-다더니",
+            "role": "standard",
+            "sense": "표의 싫다디이 잘 묵네 예가 붙는 행. 직접 회상 -더니와 인용 내용을 포함한 -다더니를 합치지 않는다.",
+            "pos": "인용 연결 구성"
+          },
+          {
+            "key": "F2",
+            "text": "-다디~이",
+            "role": "dialect",
+            "sense": "표의 싫다디이 잘 묵네 예가 붙는 행. 직접 회상 -더니와 인용 내용을 포함한 -다더니를 합치지 않는다.",
+            "pos": "인용 연결 구성"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "F2",
+            "predicate": "realizes",
+            "object": {
+              "kind": "concept",
+              "ref": "QUOTATION"
+            },
+            "evidence_keys": [
+              "E1"
+            ],
+            "assertion_mode": "source_statement",
+            "conditions": {
+              "all": [
+                {
+                  "field": "source_form",
+                  "operator": "is",
+                  "values": [
+                    "-다더니"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.connective",
+              "input_features": [
+                "source_form"
+              ],
+              "feature_sources": {
+                "source_form": "input"
+              },
+              "mapping_note": "표의 싫다디이 잘 묵네 예가 붙는 행. 직접 회상 -더니와 인용 내용을 포함한 -다더니를 합치지 않는다."
+            }
+          },
+          {
+            "subject": "F2",
+            "predicate": "variant_of",
+            "object": {
+              "kind": "form",
+              "ref": "F1"
+            },
+            "evidence_keys": [
+              "E1"
+            ],
+            "assertion_mode": "source_statement",
+            "conditions": {
+              "all": [
+                {
+                  "field": "source_form",
+                  "operator": "is",
+                  "values": [
+                    "-다더니"
+                  ],
+                  "evidence_keys": [
+                    "E1"
+                  ]
+                }
+              ],
+              "any": []
+            },
+            "application": {
+              "target": "clause.connective",
+              "input_features": [
+                "source_form"
+              ],
+              "feature_sources": {
+                "source_form": "input"
+              },
+              "mapping_note": "표의 싫다디이 잘 묵네 예가 붙는 행. 직접 회상 -더니와 인용 내용을 포함한 -다더니를 합치지 않는다."
+            }
+          }
+        ],
+        "scope": {
+          "region": {
+            "values": [
+              "경상도: 원문의 지역별 제한은 개별 설명 참조"
+            ],
+            "basis": "source_context",
+            "evidence_keys": [
+              "E1"
+            ]
+          },
+          "period": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "generation": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          },
+          "register": {
+            "values": [],
+            "basis": "unknown",
+            "evidence_keys": []
+          }
+        },
+        "evidence": [
+          {
+            "key": "E1",
+            "page": 28,
+            "locator": "-다더니 행의 표준어/방언/예문 칸; PDF 화면 대조"
+          }
+        ],
+        "details": {
+          "construction": [
+            {
+              "field": "구성의 범위",
+              "values": [
+                "표의 싫다디이 잘 묵네 예가 붙는 행. 직접 회상 -더니와 인용 내용을 포함한 -다더니를 합치지 않는다.",
+                "표의 형태 대응이며 억양·전 음운 환경·현대 자연스러움의 검증은 아니다."
+              ],
+              "evidence_keys": [
+                "E1"
+              ]
+            }
+          ]
+        },
+        "gaps": [
+          "문헌 표에 없는 세부 결합/억양과 생성 자연스러움은 미검증"
+        ],
+        "illustrative_examples": null,
+        "illustrative_examples_note": "원문 표를 근거로 형태와 기능을 작성했다. 평가 정답이나 새 번역 예문을 만들지 않았다."
+      },
+      "review": {
+        "source_fidelity": "author_checked",
+        "independent_review": "not_performed",
+        "generation": "not_approved"
+      },
+      "revision": {
+        "authored_on": "2026-10-08",
+        "basis": "direct PDF page/table review after model alignment proposal"
       }
     }
   ]

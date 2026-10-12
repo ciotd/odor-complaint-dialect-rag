@@ -1,0 +1,380 @@
+{
+  "status": "roundtrip_and_entry_queries_verified",
+  "neo4j_version": [
+    "5.26.31"
+  ],
+  "snapshot_sha256": "6725eb02e5f1cf284f402661f4b82b2b53b267b7430da63f02595e8ec35ee0bc",
+  "nodes": 6098,
+  "edges": 15651,
+  "node_types": {
+    "KnowledgeRecord": 331,
+    "Assertion": 1138,
+    "Condition": 1819,
+    "ExpressionUse": 1084,
+    "Value": 297,
+    "IllustrativeExample": 76,
+    "SourceExample": 6,
+    "AnalysisFeature": 29,
+    "GrammarConcept": 99,
+    "SourceLocation": 332,
+    "Source": 7,
+    "SurfaceForm": 871,
+    "ApplicationTarget": 9
+  },
+  "edge_types": {
+    "realizes": 374,
+    "contains_assertion": 1138,
+    "subject": 1138,
+    "supported_at": 2307,
+    "written_as": 1084,
+    "requires_analysis_of": 1817,
+    "highlights_form": 68,
+    "has_interpretation": 253,
+    "describes": 1084,
+    "requires_all": 1807,
+    "object": 1138,
+    "variant_of": 82,
+    "applies_at": 1138,
+    "has_surface_form": 337,
+    "in_source": 332,
+    "from_source": 331,
+    "contracts_to": 11,
+    "based_on_grammar_at": 116,
+    "about": 542,
+    "illustrates": 30,
+    "illustrates_assertion": 76,
+    "has_applicability_constraint": 51,
+    "has_inflection_description": 29,
+    "contrasts_in_function": 19,
+    "has_illustrative_example": 76,
+    "classified_under": 98,
+    "contrasts_with": 13,
+    "excludes_combination": 4,
+    "combines_with": 44,
+    "scope_tension_with": 5,
+    "attaches_to": 13,
+    "uses_knowledge_from": 18,
+    "same_usage_candidate": 7,
+    "shares_function_with": 16,
+    "shares_quotative_construction": 4,
+    "qualifies": 12,
+    "requires_any": 12,
+    "has_source_example": 6,
+    "has_example": 10,
+    "has_construction_component": 9,
+    "has_usage_change": 1,
+    "excludes_function": 1
+  },
+  "function_entry_comparisons": [
+    {
+      "function_id": "concept:ABILITY_NEGATION",
+      "edges": 1,
+      "equal": true
+    },
+    {
+      "function_id": "concept:ADDRESS",
+      "edges": 2,
+      "equal": true
+    },
+    {
+      "function_id": "concept:ADDRESSEE_HONORIFIC",
+      "edges": 12,
+      "equal": true
+    },
+    {
+      "function_id": "concept:ADJECTIVE",
+      "edges": 5,
+      "equal": true
+    },
+    {
+      "function_id": "concept:ADVERB",
+      "edges": 1,
+      "equal": true
+    },
+    {
+      "function_id": "concept:ASPECT",
+      "edges": 1,
+      "equal": true
+    },
+    {
+      "function_id": "concept:ASSIMILATION",
+      "edges": 2,
+      "equal": true
+    },
+    {
+      "function_id": "concept:AUXILIARY_PARTICLE",
+      "edges": 2,
+      "equal": true
+    },
+    {
+      "function_id": "concept:AUXILIARY_PREDICATE",
+      "edges": 2,
+      "equal": true
+    },
+    {
+      "function_id": "concept:CASE_PARTICLE",
+      "edges": 1,
+      "equal": true
+    },
+    {
+      "function_id": "concept:CAUSATIVE",
+      "edges": 11,
+      "equal": true
+    },
+    {
+      "function_id": "concept:CAUSE",
+      "edges": 7,
+      "equal": true
+    },
+    {
+      "function_id": "concept:COMPARISON",
+      "edges": 5,
+      "equal": true
+    },
+    {
+      "function_id": "concept:COMPLEMENT",
+      "edges": 1,
+      "equal": true
+    },
+    {
+      "function_id": "concept:CONCESSION",
+      "edges": 2,
+      "equal": true
+    },
+    {
+      "function_id": "concept:CONDITION",
+      "edges": 6,
+      "equal": true
+    },
+    {
+      "function_id": "concept:CONJUNCTIVE_PARTICLE",
+      "edges": 1,
+      "equal": true
+    },
+    {
+      "function_id": "concept:CONNECTIVE_ENDING",
+      "edges": 4,
+      "equal": true
+    },
+    {
+      "function_id": "concept:CONSONANT",
+      "edges": 1,
+      "equal": true
+    },
+    {
+      "function_id": "concept:CONTENT_QUESTION",
+      "edges": 19,
+      "equal": true
+    },
+    {
+      "function_id": "concept:CONTRACTION",
+      "edges": 3,
+      "equal": true
+    },
+    {
+      "function_id": "concept:COORDINATION",
+      "edges": 2,
+      "equal": true
+    },
+    {
+      "function_id": "concept:COPULA",
+      "edges": 3,
+      "equal": true
+    },
+    {
+      "function_id": "concept:DECLARATIVE",
+      "edges": 39,
+      "equal": true
+    },
+    {
+      "function_id": "concept:DELETION",
+      "edges": 1,
+      "equal": true
+    },
+    {
+      "function_id": "concept:DISCOURSE_MARKER",
+      "edges": 10,
+      "equal": true
+    },
+    {
+      "function_id": "concept:EMBEDDING",
+      "edges": 1,
+      "equal": true
+    },
+    {
+      "function_id": "concept:EMPHASIS",
+      "edges": 4,
+      "equal": true
+    },
+    {
+      "function_id": "concept:EXCLAMATIVE",
+      "edges": 12,
+      "equal": true
+    },
+    {
+      "function_id": "concept:FOCUS",
+      "edges": 2,
+      "equal": true
+    },
+    {
+      "function_id": "concept:FUTURE",
+      "edges": 1,
+      "equal": true
+    },
+    {
+      "function_id": "concept:GUESS",
+      "edges": 4,
+      "equal": true
+    },
+    {
+      "function_id": "concept:HORTATIVE",
+      "edges": 23,
+      "equal": true
+    },
+    {
+      "function_id": "concept:IMPERATIVE",
+      "edges": 44,
+      "equal": true
+    },
+    {
+      "function_id": "concept:INTENTION",
+      "edges": 7,
+      "equal": true
+    },
+    {
+      "function_id": "concept:INTERROGATIVE",
+      "edges": 53,
+      "equal": true
+    },
+    {
+      "function_id": "concept:MANNER",
+      "edges": 2,
+      "equal": true
+    },
+    {
+      "function_id": "concept:MODALITY",
+      "edges": 2,
+      "equal": true
+    },
+    {
+      "function_id": "concept:NEGATION",
+      "edges": 3,
+      "equal": true
+    },
+    {
+      "function_id": "concept:NOUN",
+      "edges": 1,
+      "equal": true
+    },
+    {
+      "function_id": "concept:OBJECT",
+      "edges": 3,
+      "equal": true
+    },
+    {
+      "function_id": "concept:OBLIGATION",
+      "edges": 1,
+      "equal": true
+    },
+    {
+      "function_id": "concept:ORTHOGRAPHY",
+      "edges": 2,
+      "equal": true
+    },
+    {
+      "function_id": "concept:PARTICLE",
+      "edges": 3,
+      "equal": true
+    },
+    {
+      "function_id": "concept:PASSIVE",
+      "edges": 5,
+      "equal": true
+    },
+    {
+      "function_id": "concept:PAST",
+      "edges": 5,
+      "equal": true
+    },
+    {
+      "function_id": "concept:POLAR_QUESTION",
+      "edges": 13,
+      "equal": true
+    },
+    {
+      "function_id": "concept:PREDICATE",
+      "edges": 3,
+      "equal": true
+    },
+    {
+      "function_id": "concept:PROGRESSIVE",
+      "edges": 1,
+      "equal": true
+    },
+    {
+      "function_id": "concept:PROHIBITION",
+      "edges": 1,
+      "equal": true
+    },
+    {
+      "function_id": "concept:PURPOSE",
+      "edges": 5,
+      "equal": true
+    },
+    {
+      "function_id": "concept:QUOTATION",
+      "edges": 4,
+      "equal": true
+    },
+    {
+      "function_id": "concept:REQUEST",
+      "edges": 5,
+      "equal": true
+    },
+    {
+      "function_id": "concept:RESULTATIVE",
+      "edges": 2,
+      "equal": true
+    },
+    {
+      "function_id": "concept:SUBJECT",
+      "edges": 1,
+      "equal": true
+    },
+    {
+      "function_id": "concept:SUBJECT_HONORIFIC",
+      "edges": 1,
+      "equal": true
+    },
+    {
+      "function_id": "concept:SUBORDINATION",
+      "edges": 2,
+      "equal": true
+    },
+    {
+      "function_id": "concept:TOPIC",
+      "edges": 2,
+      "equal": true
+    },
+    {
+      "function_id": "concept:USAGE",
+      "edges": 3,
+      "equal": true
+    },
+    {
+      "function_id": "concept:VERB",
+      "edges": 8,
+      "equal": true
+    },
+    {
+      "function_id": "concept:VOWEL",
+      "edges": 1,
+      "equal": true
+    }
+  ],
+  "limitations": [
+    "Storage and first-stage entry parity only; condition evaluation remains Python.",
+    "No new grammar validation, embedding search, or translation evaluation.",
+    "Graph connections displayed by Browser are not automatically execution traces."
+  ]
+}

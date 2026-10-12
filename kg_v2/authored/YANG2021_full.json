@@ -1,0 +1,2851 @@
+{
+  "source_id": "YANG2021",
+  "facts": [
+    {
+      "id": "YANG2021:v2:full:0001",
+      "type": "context",
+      "source_pattern": {
+        "text": "-게/-거로 비교",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "접속·종결 기능을 구분하고 형태 대응과 용법 동일성을 구별",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 1,
+          "quote": "‘-거로’가 ‘-게’와 단순히 형태가 서로 다르다는 것을 넘어 쓰임에도 차이가 난다는 것은 주목할 만하다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0002",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-게",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "용법별 대응을 먼저 확인한다. 모든 -게를 치환하지 않는다."
+        },
+        {
+          "kind": "scope",
+          "description": "이형태 선택의 지역/음운 환경은 이 문장만으로 확정되지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 2,
+          "quote": "‘-게’의 경남방언형은 ‘-거로’, ‘-구로’, ‘-그로’, ‘-고로’ 등으로 나타난다."
+        },
+        {
+          "pdf_page": 3,
+          "quote": "‘-거로’는 그 쓰임이 공용어와 완전히 일치하지 않고 특정 언어환경에서 다소 다른 행보를 보이기도 한다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0003",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-게",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-구로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "용법별 대응을 먼저 확인한다. 모든 -게를 치환하지 않는다."
+        },
+        {
+          "kind": "scope",
+          "description": "이형태 선택의 지역/음운 환경은 이 문장만으로 확정되지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 2,
+          "quote": "‘-게’의 경남방언형은 ‘-거로’, ‘-구로’, ‘-그로’, ‘-고로’ 등으로 나타난다."
+        },
+        {
+          "pdf_page": 3,
+          "quote": "‘-거로’는 그 쓰임이 공용어와 완전히 일치하지 않고 특정 언어환경에서 다소 다른 행보를 보이기도 한다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0004",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-게",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-그로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "용법별 대응을 먼저 확인한다. 모든 -게를 치환하지 않는다."
+        },
+        {
+          "kind": "scope",
+          "description": "이형태 선택의 지역/음운 환경은 이 문장만으로 확정되지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 2,
+          "quote": "‘-게’의 경남방언형은 ‘-거로’, ‘-구로’, ‘-그로’, ‘-고로’ 등으로 나타난다."
+        },
+        {
+          "pdf_page": 3,
+          "quote": "‘-거로’는 그 쓰임이 공용어와 완전히 일치하지 않고 특정 언어환경에서 다소 다른 행보를 보이기도 한다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0005",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-게",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-고로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "용법별 대응을 먼저 확인한다. 모든 -게를 치환하지 않는다."
+        },
+        {
+          "kind": "scope",
+          "description": "이형태 선택의 지역/음운 환경은 이 문장만으로 확정되지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 2,
+          "quote": "‘-게’의 경남방언형은 ‘-거로’, ‘-구로’, ‘-그로’, ‘-고로’ 등으로 나타난다."
+        },
+        {
+          "pdf_page": 3,
+          "quote": "‘-거로’는 그 쓰임이 공용어와 완전히 일치하지 않고 특정 언어환경에서 다소 다른 행보를 보이기도 한다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0006",
+      "type": "usage",
+      "source_pattern": {
+        "text": "-거로/-구로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "원문은 가장 많이 나타나는 두 이형태로 설명",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 2,
+          "quote": "여러 이형태 중에서 ‘-거로’, ‘-구로’가 가장 많이 나타나는데"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": "빈도 수치나 현대 사용 확률을 의미하지 않음."
+    },
+    {
+      "id": "YANG2021:v2:full:0007",
+      "type": "context",
+      "source_pattern": {
+        "text": "인용 예문",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "제목·지명 있는 자료는 한국구비문학대계; 없는 예는 저자 제시 경남방언",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 2,
+          "quote": "‘-거로’의 예문으로 쓰이는 자료는 한국구비문학대계에서 가져온 것으로 제목과 지명은 괄호로 제시하였다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0008",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-게",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "상대 의도 질문",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": "상대 의도 질문",
+        "features": {}
+      },
+      "functions": [
+        "interrogative",
+        "intention"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "speech_act",
+          "op": "eq",
+          "value": "ask_intention",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "구체적 높임형은 별도로 결정한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 3,
+          "quote": "(2ㄱ)은 상대의 의도를 묻는 예이고"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0009",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-게",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "선행 사태 부정의 반어 질문",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": "반어적 부정 질문",
+        "features": {}
+      },
+      "functions": [
+        "interrogative",
+        "negation"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "question_type",
+          "op": "eq",
+          "value": "rhetorical",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 3,
+          "quote": "(2ㄴ)은 선행절의 사태가 성립하지 않음을 드러내기 위해 반어적 물음을 나타내는 예이다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0010",
+      "type": "context",
+      "source_pattern": {
+        "text": "-거로 형성",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "중세국어 -긔/-게 등과 조사 로의 결합·문법화 가설",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 4,
+          "quote": "‘-거로’는 형태적 측면에서, 중세국어 어말어미 ‘-긔/​/거/게’ 등에 조사 ‘로’가 결합된 것으로 볼 수 있다."
+        }
+      ],
+      "claim_status": "author_hypothesis",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0011",
+      "type": "usage",
+      "source_pattern": {
+        "text": "-게로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "현재 거의 쓰이지 않는다고 저자가 기술",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 4,
+          "quote": "‘-게로’는 현재 거의 쓰이지 않고 있다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": "저자의 기술 시점에 한정."
+    },
+    {
+      "id": "YANG2021:v2:full:0012",
+      "type": "particle",
+      "source_pattern": {
+        "text": "한테",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "한테로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "emphasis"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "수여격·처격·행위격의 원문 용법 확인"
+        },
+        {
+          "kind": "scope",
+          "description": "방향·지향성과 강조에 관한 이 논문의 설명이며 모든 조사에 확장하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "조사 ‘로’에 선행하는 조사는 ‘한테’, ‘께’, ‘에’, ‘에서’, ‘서’이다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0013",
+      "type": "particle",
+      "source_pattern": {
+        "text": "께",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "께로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "emphasis"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "수여격·처격·행위격의 원문 용법 확인"
+        },
+        {
+          "kind": "scope",
+          "description": "방향·지향성과 강조에 관한 이 논문의 설명이며 모든 조사에 확장하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "조사 ‘로’에 선행하는 조사는 ‘한테’, ‘께’, ‘에’, ‘에서’, ‘서’이다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0014",
+      "type": "particle",
+      "source_pattern": {
+        "text": "에",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "에로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "emphasis"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "수여격·처격·행위격의 원문 용법 확인"
+        },
+        {
+          "kind": "scope",
+          "description": "방향·지향성과 강조에 관한 이 논문의 설명이며 모든 조사에 확장하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "조사 ‘로’에 선행하는 조사는 ‘한테’, ‘께’, ‘에’, ‘에서’, ‘서’이다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0015",
+      "type": "particle",
+      "source_pattern": {
+        "text": "에서",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "에서로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "emphasis"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "수여격·처격·행위격의 원문 용법 확인"
+        },
+        {
+          "kind": "scope",
+          "description": "방향·지향성과 강조에 관한 이 논문의 설명이며 모든 조사에 확장하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "조사 ‘로’에 선행하는 조사는 ‘한테’, ‘께’, ‘에’, ‘에서’, ‘서’이다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0016",
+      "type": "particle",
+      "source_pattern": {
+        "text": "서",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "서로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "emphasis"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "수여격·처격·행위격의 원문 용법 확인"
+        },
+        {
+          "kind": "scope",
+          "description": "방향·지향성과 강조에 관한 이 논문의 설명이며 모든 조사에 확장하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "조사 ‘로’에 선행하는 조사는 ‘한테’, ‘께’, ‘에’, ‘에서’, ‘서’이다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0017",
+      "type": "usage",
+      "source_pattern": {
+        "text": "조사 뒤 로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "원문에서는 생략해도 문장 의미가 변하지 않는 강조 기능으로 설명",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "emphasis"
+      ],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "이때의 조사 ‘로’는 생략하여도 문장의 의미는 변하지 않을뿐더러, 선행 조사의 의미를 더 잘 드러내는 ‘강조 기능’을 하게 된다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0018",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-면서",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-믄서로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "앞말과의 실제 활용·결합 환경을 별도로 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "‘-거로’를 비롯한 ‘-믄서로, -ㄴ께로, -어서로, -고서로’ 등으로"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "본문에 열거된 대응. 전체 활용 패러다임이 아님."
+    },
+    {
+      "id": "YANG2021:v2:full:0019",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-니까",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-ㄴ께로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "앞말과의 실제 활용·결합 환경을 별도로 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "‘-거로’를 비롯한 ‘-믄서로, -ㄴ께로, -어서로, -고서로’ 등으로"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "본문에 열거된 대응. 전체 활용 패러다임이 아님."
+    },
+    {
+      "id": "YANG2021:v2:full:0020",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-어서",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-어서로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "앞말과의 실제 활용·결합 환경을 별도로 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "‘-거로’를 비롯한 ‘-믄서로, -ㄴ께로, -어서로, -고서로’ 등으로"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "본문에 열거된 대응. 전체 활용 패러다임이 아님."
+    },
+    {
+      "id": "YANG2021:v2:full:0021",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-고서",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-고서로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "앞말과의 실제 활용·결합 환경을 별도로 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 5,
+          "quote": "‘-거로’를 비롯한 ‘-믄서로, -ㄴ께로, -어서로, -고서로’ 등으로"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "본문에 열거된 대응. 전체 활용 패러다임이 아님."
+    },
+    {
+      "id": "YANG2021:v2:full:0022",
+      "type": "constraint",
+      "source_pattern": {
+        "text": "-게끔",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로끔",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "exclude",
+          "description": "-거로 뒤에 강조 요소 끔을 붙이는 변환을 금지하는 저자의 판단."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 6,
+          "quote": "경남방언에서는 ‘-거로끔’ 형태가 쓰이지 않는다."
+        }
+      ],
+      "claim_status": "negative_example",
+      "usability": "blocked",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0023",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-거로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로는",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "ending",
+          "op": "eq",
+          "value": "-거로",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "following_particle",
+          "op": "eq",
+          "value": "는",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "보조사가 나타내는 한정·강조 의미를 보존한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "(6) ㄱ. 곱게 커갖고 중매가 들어 와가지고 참 시집을 갔는데,"
+        },
+        {
+          "pdf_page": 6,
+          "quote": "‘-거로’에 보조사 ‘은/는’, ‘도’, ‘만’이 각각 붙은"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "7쪽 실제 용례와 6쪽 설명을 함께 사용."
+    },
+    {
+      "id": "YANG2021:v2:full:0024",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-거로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로도",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "ending",
+          "op": "eq",
+          "value": "-거로",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "following_particle",
+          "op": "eq",
+          "value": "도",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "보조사가 나타내는 한정·강조 의미를 보존한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "(6) ㄱ. 곱게 커갖고 중매가 들어 와가지고 참 시집을 갔는데,"
+        },
+        {
+          "pdf_page": 6,
+          "quote": "‘-거로’에 보조사 ‘은/는’, ‘도’, ‘만’이 각각 붙은"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "7쪽 실제 용례와 6쪽 설명을 함께 사용."
+    },
+    {
+      "id": "YANG2021:v2:full:0025",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-거로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로만",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "ending",
+          "op": "eq",
+          "value": "-거로",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "following_particle",
+          "op": "eq",
+          "value": "만",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "보조사가 나타내는 한정·강조 의미를 보존한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 7,
+          "quote": "(6) ㄱ. 곱게 커갖고 중매가 들어 와가지고 참 시집을 갔는데,"
+        },
+        {
+          "pdf_page": 6,
+          "quote": "‘-거로’에 보조사 ‘은/는’, ‘도’, ‘만’이 각각 붙은"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "7쪽 실제 용례와 6쪽 설명을 함께 사용."
+    },
+    {
+      "id": "YANG2021:v2:full:0026",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-게",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "결과",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": "결과",
+        "features": {}
+      },
+      "functions": [
+        "result"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "clause_relation",
+          "op": "eq",
+          "value": "result",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "exclude",
+          "description": "보조용언 되- 앞이나 -거로끔에는 확장하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 2,
+          "quote": "결과, 목적, 방식, 정도 등의 의미기능을 한다."
+        },
+        {
+          "pdf_page": 6,
+          "quote": "경남방언에서는 ‘-거로끔’ 형태가 쓰이지 않는다."
+        },
+        {
+          "pdf_page": 12,
+          "quote": "‘되-’가 보조용언일 경우에는 ‘-거로’를 취하지 않는다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0027",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-게",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "목적",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": "목적",
+        "features": {}
+      },
+      "functions": [
+        "purpose"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "clause_relation",
+          "op": "eq",
+          "value": "purpose",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "exclude",
+          "description": "보조용언 되- 앞이나 -거로끔에는 확장하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 2,
+          "quote": "결과, 목적, 방식, 정도 등의 의미기능을 한다."
+        },
+        {
+          "pdf_page": 6,
+          "quote": "경남방언에서는 ‘-거로끔’ 형태가 쓰이지 않는다."
+        },
+        {
+          "pdf_page": 12,
+          "quote": "‘되-’가 보조용언일 경우에는 ‘-거로’를 취하지 않는다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0028",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-게",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "방식",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": "방식",
+        "features": {}
+      },
+      "functions": [
+        "manner"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "clause_relation",
+          "op": "eq",
+          "value": "manner",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "exclude",
+          "description": "보조용언 되- 앞이나 -거로끔에는 확장하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 2,
+          "quote": "결과, 목적, 방식, 정도 등의 의미기능을 한다."
+        },
+        {
+          "pdf_page": 6,
+          "quote": "경남방언에서는 ‘-거로끔’ 형태가 쓰이지 않는다."
+        },
+        {
+          "pdf_page": 12,
+          "quote": "‘되-’가 보조용언일 경우에는 ‘-거로’를 취하지 않는다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0029",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-게",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "정도",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": "정도",
+        "features": {}
+      },
+      "functions": [
+        "degree"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "clause_relation",
+          "op": "eq",
+          "value": "degree",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "exclude",
+          "description": "보조용언 되- 앞이나 -거로끔에는 확장하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 2,
+          "quote": "결과, 목적, 방식, 정도 등의 의미기능을 한다."
+        },
+        {
+          "pdf_page": 6,
+          "quote": "경남방언에서는 ‘-거로끔’ 형태가 쓰이지 않는다."
+        },
+        {
+          "pdf_page": 12,
+          "quote": "‘되-’가 보조용언일 경우에는 ‘-거로’를 취하지 않는다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0030",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-도록",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "정도",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": "정도",
+        "features": {}
+      },
+      "functions": [
+        "degree"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "clause_relation",
+          "op": "eq",
+          "value": "degree",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 8,
+          "quote": "정도의 의미를 지닌 위 (7)의 예는 ‘-도록’과 교체되어 쓰일 수도 있다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0031",
+      "type": "usage",
+      "source_pattern": {
+        "text": "-거로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "문맥에 따라 목적/정도 중의 해석",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "uncertainty",
+          "description": "문맥으로 해소되지 않는 목적/정도는 복수 해석으로 보존한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "quote": "방언형인 ‘-거로’가 쓰인 문장도 ‘목적’이나 ‘정도’의 의미로 해석된다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0032",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-도록",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "도급: 어느 경계까지 동작 지속",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": "도급",
+        "features": {}
+      },
+      "functions": [
+        "temporal_limit"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "clause_relation",
+          "op": "eq",
+          "value": "temporal_limit",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "quote": "위 (12)는 ‘-거로’가 동작이 지속되어 어느 경계까지 이르는 도급의 의미로 쓰인 예이다."
+        },
+        {
+          "pdf_page": 9,
+          "quote": "‘-도록’ 역시 (9)와 같은 문맥에서는 정도나 도급의 의미로 해석할 수 있다."
+        }
+      ],
+      "claim_status": "analyst_interpretation",
+      "usability": "candidate",
+      "notes": "표준어 대응은 9쪽 -도록의 도급 설명과 연결한 분석가 해석."
+    },
+    {
+      "id": "YANG2021:v2:full:0033",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-게 하다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "간접사동",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로 하다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": "간접사동",
+        "features": {}
+      },
+      "functions": [
+        "causative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "construction",
+          "op": "eq",
+          "value": "indirect_causative",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "host_pos",
+          "op": "eq",
+          "value": "verb",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 10,
+          "quote": "동사를 선행용언으로 취하는 ‘-거로 하-’ 구성은 공용어의 ‘-게 하-’ 구성과 마찬가지로 간접 사동의 의미를 지닌다."
+        },
+        {
+          "pdf_page": 11,
+          "quote": "사동의 의미를 지니는 공용어 ‘-게 하-’ 구성은 일부 문맥에서 ‘-도록 하-’와도 쓰임이 겹치며"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0034",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-도록 하다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "imperative",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로 하다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": "imperative",
+        "features": {}
+      },
+      "functions": [
+        "imperative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "speech_act",
+          "op": "eq",
+          "value": "imperative",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "exclude",
+          "description": "해당 용법을 간접사동 -게 하다로 해석하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "quote": "위의 예는 사동의 의미를 드러내는 것이 아니라 명령, 약속이나 제안의 의미를 지니기 때문이다."
+        },
+        {
+          "pdf_page": 11,
+          "quote": "경남방언에서 ‘-거로 하-’는 이런 ‘-도록 하-’ 구성과 쓰임이 별반 다르지 않다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0035",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-도록 하다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "promise",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로 하다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": "promise",
+        "features": {}
+      },
+      "functions": [
+        "promise"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "speech_act",
+          "op": "eq",
+          "value": "promise",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "exclude",
+          "description": "해당 용법을 간접사동 -게 하다로 해석하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "quote": "위의 예는 사동의 의미를 드러내는 것이 아니라 명령, 약속이나 제안의 의미를 지니기 때문이다."
+        },
+        {
+          "pdf_page": 11,
+          "quote": "경남방언에서 ‘-거로 하-’는 이런 ‘-도록 하-’ 구성과 쓰임이 별반 다르지 않다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0036",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-도록 하다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "suggestion",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로 하다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": "suggestion",
+        "features": {}
+      },
+      "functions": [
+        "suggestion"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "speech_act",
+          "op": "eq",
+          "value": "suggestion",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "exclude",
+          "description": "해당 용법을 간접사동 -게 하다로 해석하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "quote": "위의 예는 사동의 의미를 드러내는 것이 아니라 명령, 약속이나 제안의 의미를 지니기 때문이다."
+        },
+        {
+          "pdf_page": 11,
+          "quote": "경남방언에서 ‘-거로 하-’는 이런 ‘-도록 하-’ 구성과 쓰임이 별반 다르지 않다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0037",
+      "type": "constraint",
+      "source_pattern": {
+        "text": "-게 되다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "보조용언",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로 되다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "following_verb",
+          "op": "eq",
+          "value": "되다",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "following_verb_role",
+          "op": "eq",
+          "value": "auxiliary",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "exclude",
+          "description": "보조용언 되다 앞 -게를 -거로로 바꾸지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "quote": "‘되-’가 보조용언일 경우에는 ‘-거로’를 취하지 않는다."
+        },
+        {
+          "pdf_page": 13,
+          "quote": "어쩌다 보이 나도 그걸 {보게, *보구로} 된 기라."
+        }
+      ],
+      "claim_status": "negative_example",
+      "usability": "blocked",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0038",
+      "type": "construction",
+      "source_pattern": {
+        "text": "-게 되다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "본용언 되다의 상태 구성",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로 되다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "following_verb",
+          "op": "eq",
+          "value": "되다",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "following_verb_role",
+          "op": "eq",
+          "value": "lexical",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "본용언/보조용언 구분이 확인되어야 한다."
+        },
+        {
+          "kind": "scope",
+          "description": "논문의 허용 예는 형용사 쪼그맣다의 상태를 기술하는 본용언 되다이다. 모든 본용언 되다 환경의 자유 대치로 확대하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 13,
+          "quote": "(17ㄱ)의 ‘-거로’와 어울려 쓰이는 ‘되-’는 본용언에 해당한다."
+        },
+        {
+          "pdf_page": 13,
+          "quote": "창문이 쪼그맣그로 돼 있응께"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "창문이 쪼그맣그로 돼 있응께 예의 허용 범위."
+    },
+    {
+      "id": "YANG2021:v2:full:0039",
+      "type": "construction",
+      "source_pattern": {
+        "text": "형용사-게",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "형용사-거로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "manner"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "host_pos",
+          "op": "eq",
+          "value": "adjective",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "-이와의 분담 및 개별 어휘 예를 함께 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 14,
+          "quote": "형용사와 결합하는 부사형 어미 ‘-게’ 자리는 ‘-거로’와 ‘-이’가 분담하여 쓰인다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0040",
+      "type": "construction",
+      "source_pattern": {
+        "text": "형용사-게",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "형용사-이",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "manner"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "host_pos",
+          "op": "eq",
+          "value": "adjective",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "하다형 형용사의 경향이며 필수 규칙이 아니다."
+        },
+        {
+          "kind": "require",
+          "description": "개별 어휘의 결합 근거를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 15,
+          "quote": "대체적으로 ‘하-’를 취하는 형용사가 ‘-이’와 결합한다."
+        },
+        {
+          "pdf_page": 15,
+          "quote": "‘하-’를 취하는 형용사가 ‘-거로’와 결합하는 경우도 있다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0041",
+      "type": "usage",
+      "source_pattern": {
+        "text": "하다형 형용사",
+        "domain": "shared",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로와도 결합하는 예외",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 15,
+          "quote": "‘하-’를 취하는 형용사가 ‘-거로’와 결합하는 경우도 있다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": "묵직하구로·반듯하구로 예를 포함."
+    },
+    {
+      "id": "YANG2021:v2:full:0042",
+      "type": "lexical_mapping",
+      "source_pattern": {
+        "text": "야릇하고 짓궂다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "야릇하고 짓궂음",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "얄궂다",
+        "domain": "dialect",
+        "lemma": "얄궂다",
+        "sense": "야릇하고 짓궂음",
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 15,
+          "quote": "‘야릇하고 짓궂다’의 뜻인 형용사 ‘얄궂다’"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "문헌의 뜻풀이 대응이며 완전한 문장 치환 규칙은 아니다."
+    },
+    {
+      "id": "YANG2021:v2:full:0043",
+      "type": "inflection",
+      "source_pattern": {
+        "text": "얄궂다",
+        "domain": "dialect",
+        "lemma": "얄궂다",
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "얄궂거로",
+        "domain": "dialect",
+        "lemma": "얄궂다",
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "lemma",
+          "op": "eq",
+          "value": "얄궂다",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "ending",
+          "op": "eq",
+          "value": "-거로",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "문헌 확인형만 제시하며 다른 어휘에 일반화하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 15,
+          "quote": "형용사 ‘얄궂다’가 ‘-거로’ 또는 ‘-이’와 결합하여 쓰이는 예이다."
+        },
+        {
+          "pdf_page": 15,
+          "quote": "얄궂거로"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0044",
+      "type": "inflection",
+      "source_pattern": {
+        "text": "얄궂다",
+        "domain": "dialect",
+        "lemma": "얄궂다",
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "얄궂이",
+        "domain": "dialect",
+        "lemma": "얄궂다",
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "lemma",
+          "op": "eq",
+          "value": "얄궂다",
+          "basis": "explicit"
+        },
+        {
+          "owner": "candidate",
+          "field": "ending",
+          "op": "eq",
+          "value": "-이",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "문헌 확인형만 제시하며 다른 어휘에 일반화하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 15,
+          "quote": "형용사 ‘얄궂다’가 ‘-거로’ 또는 ‘-이’와 결합하여 쓰이는 예이다."
+        },
+        {
+          "pdf_page": 15,
+          "quote": "얄궂이"
+        }
+      ],
+      "claim_status": "attested_form",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0045",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-(으)려고",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "화자 의도 진술",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": "화자 의도 진술",
+        "features": {}
+      },
+      "functions": [
+        "declarative",
+        "intention"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "speech_act",
+          "op": "eq",
+          "value": "state_intention",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 16,
+          "quote": "경남방언에서 종결어미 ‘-거로’가 의도표현으로 쓰인 것이다. 이 역시 의도를 드러내는 ‘-(으)려고’와 자유롭게 쓰이고 있다."
+        },
+        {
+          "pdf_page": 17,
+          "quote": "(26ㄴ)은 ‘-으려고’ 대신에 ‘-거로’로 자신의 의도를 표현하는 예이다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0046",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-(으)려고",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "상대 의도 질문",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": "상대 의도 질문",
+        "features": {}
+      },
+      "functions": [
+        "interrogative",
+        "intention"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "speech_act",
+          "op": "eq",
+          "value": "ask_intention",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 17,
+          "quote": "(26ㄷ)은 ‘-거로’로서 상대의 의도를 묻고 있고"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0047",
+      "type": "constraint",
+      "source_pattern": {
+        "text": "-게",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "짐작하여 답하기를 요구하는 질문",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "speech_act",
+          "op": "eq",
+          "value": "guess_answer",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "exclude",
+          "description": "뭐게/누구였게의 수수께끼 질문을 뭐구로/누구였구로로 변환하지 않는다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 17,
+          "quote": "‘-거로’에는 한번 짐작해서 답해 보라는 의미를 나타내는 의문 종결어미로서의 쓰임이 없다."
+        }
+      ],
+      "claim_status": "negative_example",
+      "usability": "blocked",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0048",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-어라",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "형용사 감정·감탄",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": "형용사 감정·감탄",
+        "features": {}
+      },
+      "functions": [
+        "exclamative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "host_pos",
+          "op": "eq",
+          "value": "adjective",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "speech_act",
+          "op": "eq",
+          "value": "express_emotion",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "exclude",
+          "description": "이 감탄 용법은 -게와 대치되지 않는다."
+        },
+        {
+          "kind": "scope",
+          "description": "청자 높임을 결정하는 완전한 체계는 이 진술에 없다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 18,
+          "quote": "흔히 국어에서 종결어미 ‘-어라, -구나, -군(구먼), -네’ 등으로 표현하는 것과 같다."
+        },
+        {
+          "pdf_page": 18,
+          "quote": "‘-거로’는 형용사와 어울려 앞말에 대해 화자의 감정을 수반한다."
+        },
+        {
+          "pdf_page": 18,
+          "quote": "이때는 ‘-게’로 대치되지 않는다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0049",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-구나",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "형용사 감정·감탄",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": "형용사 감정·감탄",
+        "features": {}
+      },
+      "functions": [
+        "exclamative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "host_pos",
+          "op": "eq",
+          "value": "adjective",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "speech_act",
+          "op": "eq",
+          "value": "express_emotion",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "exclude",
+          "description": "이 감탄 용법은 -게와 대치되지 않는다."
+        },
+        {
+          "kind": "scope",
+          "description": "청자 높임을 결정하는 완전한 체계는 이 진술에 없다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 18,
+          "quote": "흔히 국어에서 종결어미 ‘-어라, -구나, -군(구먼), -네’ 등으로 표현하는 것과 같다."
+        },
+        {
+          "pdf_page": 18,
+          "quote": "‘-거로’는 형용사와 어울려 앞말에 대해 화자의 감정을 수반한다."
+        },
+        {
+          "pdf_page": 18,
+          "quote": "이때는 ‘-게’로 대치되지 않는다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0050",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-군",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "형용사 감정·감탄",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": "형용사 감정·감탄",
+        "features": {}
+      },
+      "functions": [
+        "exclamative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "host_pos",
+          "op": "eq",
+          "value": "adjective",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "speech_act",
+          "op": "eq",
+          "value": "express_emotion",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "exclude",
+          "description": "이 감탄 용법은 -게와 대치되지 않는다."
+        },
+        {
+          "kind": "scope",
+          "description": "청자 높임을 결정하는 완전한 체계는 이 진술에 없다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 18,
+          "quote": "흔히 국어에서 종결어미 ‘-어라, -구나, -군(구먼), -네’ 등으로 표현하는 것과 같다."
+        },
+        {
+          "pdf_page": 18,
+          "quote": "‘-거로’는 형용사와 어울려 앞말에 대해 화자의 감정을 수반한다."
+        },
+        {
+          "pdf_page": 18,
+          "quote": "이때는 ‘-게’로 대치되지 않는다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0051",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-구먼",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "형용사 감정·감탄",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": "형용사 감정·감탄",
+        "features": {}
+      },
+      "functions": [
+        "exclamative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "host_pos",
+          "op": "eq",
+          "value": "adjective",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "speech_act",
+          "op": "eq",
+          "value": "express_emotion",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "exclude",
+          "description": "이 감탄 용법은 -게와 대치되지 않는다."
+        },
+        {
+          "kind": "scope",
+          "description": "청자 높임을 결정하는 완전한 체계는 이 진술에 없다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 18,
+          "quote": "흔히 국어에서 종결어미 ‘-어라, -구나, -군(구먼), -네’ 등으로 표현하는 것과 같다."
+        },
+        {
+          "pdf_page": 18,
+          "quote": "‘-거로’는 형용사와 어울려 앞말에 대해 화자의 감정을 수반한다."
+        },
+        {
+          "pdf_page": 18,
+          "quote": "이때는 ‘-게’로 대치되지 않는다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0052",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-네",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "형용사 감정·감탄",
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "-거로",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": "형용사 감정·감탄",
+        "features": {}
+      },
+      "functions": [
+        "exclamative"
+      ],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "host_pos",
+          "op": "eq",
+          "value": "adjective",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "speech_act",
+          "op": "eq",
+          "value": "express_emotion",
+          "basis": "explicit"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "exclude",
+          "description": "이 감탄 용법은 -게와 대치되지 않는다."
+        },
+        {
+          "kind": "scope",
+          "description": "청자 높임을 결정하는 완전한 체계는 이 진술에 없다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 18,
+          "quote": "흔히 국어에서 종결어미 ‘-어라, -구나, -군(구먼), -네’ 등으로 표현하는 것과 같다."
+        },
+        {
+          "pdf_page": 18,
+          "quote": "‘-거로’는 형용사와 어울려 앞말에 대해 화자의 감정을 수반한다."
+        },
+        {
+          "pdf_page": 18,
+          "quote": "이때는 ‘-게’로 대치되지 않는다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": ""
+    },
+    {
+      "id": "YANG2021:v2:full:0053",
+      "type": "context",
+      "source_pattern": {
+        "text": "-거로 결론",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "접속과 종결의 용법별 차이 재확인",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [],
+      "conditions": [],
+      "constraints": [],
+      "scope": {
+        "regions": [
+          "경남(개별 인용 예의 지역은 별도)"
+        ],
+        "speech_levels": [],
+        "registers": [],
+        "period": [],
+        "note": ""
+      },
+      "evidence": [
+        {
+          "pdf_page": 19,
+          "quote": "보조용언 ‘되-’ 앞에는 ‘-거로’가 쓰이지 않는다."
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "reference_only",
+      "notes": "앞 절의 개별 진술을 요약한 결론으로 독립 증거로 중복 계산하지 않는다."
+    }
+  ]
+}
