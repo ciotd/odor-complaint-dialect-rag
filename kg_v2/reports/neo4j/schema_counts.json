@@ -1,0 +1,128 @@
+{
+  "nodes": {
+    "Source": 7,
+    "SourcePage": 474,
+    "KnowledgeStatement": 3757,
+    "ExpressionUse": 7514,
+    "Constraint": 4032,
+    "Evidence": 7790,
+    "Function": 58,
+    "Condition": 2118
+  },
+  "edges": [
+    {
+      "from": "SourcePage",
+      "relation": "part_of",
+      "to": "Source",
+      "count": 474
+    },
+    {
+      "from": "Source",
+      "relation": "document_dependency",
+      "to": "Source",
+      "count": 5
+    },
+    {
+      "from": "Evidence",
+      "relation": "located_on",
+      "to": "SourcePage",
+      "count": 7790
+    },
+    {
+      "from": "KnowledgeStatement",
+      "relation": "candidate_has_inflection",
+      "to": "KnowledgeStatement",
+      "count": 484
+    },
+    {
+      "from": "KnowledgeStatement",
+      "relation": "source_expression",
+      "to": "ExpressionUse",
+      "count": 3757
+    },
+    {
+      "from": "ExpressionUse",
+      "relation": "documents",
+      "to": "ExpressionUse",
+      "count": 688
+    },
+    {
+      "from": "KnowledgeStatement",
+      "relation": "target_expression",
+      "to": "ExpressionUse",
+      "count": 3757
+    },
+    {
+      "from": "ExpressionUse",
+      "relation": "describes_usage",
+      "to": "ExpressionUse",
+      "count": 620
+    },
+    {
+      "from": "ExpressionUse",
+      "relation": "ending_realization",
+      "to": "ExpressionUse",
+      "count": 608
+    },
+    {
+      "from": "ExpressionUse",
+      "relation": "phonological_correspondence",
+      "to": "ExpressionUse",
+      "count": 88
+    },
+    {
+      "from": "ExpressionUse",
+      "relation": "construction_correspondence",
+      "to": "ExpressionUse",
+      "count": 292
+    },
+    {
+      "from": "ExpressionUse",
+      "relation": "attested_or_described_inflection",
+      "to": "ExpressionUse",
+      "count": 675
+    },
+    {
+      "from": "ExpressionUse",
+      "relation": "lexical_correspondence",
+      "to": "ExpressionUse",
+      "count": 650
+    },
+    {
+      "from": "ExpressionUse",
+      "relation": "restricts",
+      "to": "ExpressionUse",
+      "count": 10
+    },
+    {
+      "from": "ExpressionUse",
+      "relation": "particle_correspondence",
+      "to": "ExpressionUse",
+      "count": 126
+    },
+    {
+      "from": "KnowledgeStatement",
+      "relation": "has_constraint",
+      "to": "Constraint",
+      "count": 4032
+    },
+    {
+      "from": "KnowledgeStatement",
+      "relation": "supported_by",
+      "to": "Evidence",
+      "count": 7790
+    },
+    {
+      "from": "KnowledgeStatement",
+      "relation": "describes_function",
+      "to": "Function",
+      "count": 1344
+    },
+    {
+      "from": "KnowledgeStatement",
+      "relation": "requires",
+      "to": "Condition",
+      "count": 2118
+    }
+  ]
+}

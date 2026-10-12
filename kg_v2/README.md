@@ -4,7 +4,7 @@
 
 **현재 상태는 문헌 전체 기반 초안의 병렬 보완·통합 검토까지 마친 단계다.** 1차 초안 2,379개 진술 이후 Astra 작업자 3개가 원래 검토 한계를 기록한 162쪽을 분담했다. 1,378개 진술을 추가하고 기존 759개 진술을 수정·보강했다. 원래 162쪽의 처리 결과는 해결 84쪽, 일부 해결 0쪽, 원문·자료 한계 78쪽이다.
 
-각 처리 이유와 현재 남아 있는 제약은 [통합 감사](reports/integration_audit.json), [페이지별 한계](reports/extraction_gaps.json)에 남겼다. 문헌의 모든 문장을 독립 규칙으로 바꾸거나 문장 번역을 검증했다는 뜻은 아니다. 문장 분석·생성 파이프라인 연결과 번역 비교는 아직 하지 않았다.
+각 처리 이유와 현재 남아 있는 제약은 [통합 감사](reports/integration_audit.json), [페이지별 한계](reports/extraction_gaps.json)에 남겼다. 문헌의 모든 문장을 독립 규칙으로 바꾸거나 문장 번역을 검증했다는 뜻은 아니다. 2026-10-12 후속 작업에서 문장 분석·생성 연결과 개발 비교를 실행했다. 최신 실행 상태는 아래 절과 [번역 보고서](reports/translation_20261012/README.md)를 따른다.
 
 ## 이번 구조의 핵심
 
@@ -72,7 +72,7 @@ flowchart LR
 ```bash
 python kg_v2/extract_sources.py
 .venv/retrieval/bin/python kg_v2/build.py --require-full
-python -m unittest discover -s kg_v2 -p 'test_*.py' -v
+.venv/retrieval/bin/python -m unittest discover -s kg_v2 -p 'test_*.py' -v
 python kg_v2/diagnose.py
 python kg_v2/integration_audit.py
 python kg_v2/query.py --lemma 먹다 --ending=-고
@@ -80,7 +80,7 @@ python kg_v2/query.py --lemma 먹다 --ending=-고
 
 빌드는 PDF·추출 본문 해시, 진술 스키마, 인용 문자열의 실제 페이지 내 존재, 검토 진술의 페이지 연결, 전체 페이지 누락 여부, 기존 KG 169개 보호 파일 해시를 검사한다. 인용 문자열이 존재한다는 검사는 그 인용이 진술 전체를 충분히 뒷받침한다는 의미 판정을 자동으로 보장하지 않는다. 그 부분은 작성 검토와 후속 감사 대상이다.
 
-회귀 테스트 9개는 표준어→방언 기본형→활용 경로, 의미별 어휘 선택, 미등록 어미, 미확인 조건, 의문형 결합 조건, 부정 예문·참고 자료의 적용 차단, 원문 표의 의심 셀 처리를 검증했다. 현재 모든 검사가 통과했다. 기존 KG 보호 파일 169개의 해시는 작업 시작 시점과 같다.
+초안 조회 회귀 테스트 9개는 표준어→방언 기본형→활용 경로, 의미별 어휘 선택, 미등록 어미, 미확인 조건, 의문형 결합 조건, 부정 예문·참고 자료의 적용 차단, 원문 표의 의심 셀 처리를 검증했다. 현재 모든 검사가 통과했다. 기존 KG 보호 파일 169개의 해시는 작업 시작 시점과 같다.
 
 ## 병렬 검토 결과와 남은 경계
 
@@ -94,4 +94,27 @@ python kg_v2/query.py --lemma 먹다 --ending=-고
 
 같은 Astra를 사용한 분담·교차 검토는 사람 전문가나 다른 모델의 독립 평가가 아니다. 자유 서술 조건, 문헌 간 의미 동일성·상충 및 지역·시대 적합성의 자동 판정은 여전히 별도 과제다. 조회 결과는 검토 가능한 후보이며 자동 생성 승인이 아니다.
 
-다음 번역 실험은 입력 문장의 형태소·용법 분석을 이 경로에 연결한 뒤, 동일 문장·동일 생성 조건에서 기존 KG와 비교해야 한다. 이번 결과로 확인한 것은 지식 표현과 조회 경로의 보완이며 번역 자연스러움의 향상은 아직 측정하지 않았다.
+문헌 추출과 조회 검사를 문장 번역 품질의 증명으로 해석하지 않는다. 후속 문장 실험의 출력과 품질 진단은 아래 실행 결과에서 분리해 기록한다.
+
+## 문장 분석·생성 연결 및 Neo4j — 2026-10-12 후속
+
+`run_translation.py`가 Qwen 입력 분석 → 원문 결속 검증·Kiwi 형태 분석 → KG v2 후보/활용 경로 조회 → Qwen 생성까지 연결한다. 기존 KG와 새 KG의 원본은 변경하지 않는다. 실제 원문 구간, 기본형, 선어말어미와 어미가 참조에 포함된다. `blocked`·`reference_only`·구조화 조건 미확인 후보는 생성 참조에서 제외한다. 원문의 과거·높임 형태가 남아 있는데 표의 현재형으로 덮어쓰지 않도록 활용 조회를 제한했다. 자유 서술 제약·의미·지역 판단은 여전히 생성 모델이 해석하므로 품질 승인을 뜻하지 않는다.
+
+```bash
+# 현재 프로젝트 실행 환경. 분석 호출은 최대 180초까지 기다린다.
+.venv/retrieval/bin/python kg_v2/run_translation.py translate \
+  --text '나는 배가 고파서 먼저 밥을 먹고 있을게.' \
+  --folder kg_v2/local/my_translation
+
+# 동일한 38개 개발 입력의 네 조건 비교. 새 폴더를 사용한다.
+.venv/retrieval/bin/python kg_v2/run_translation.py prepare --folder kg_v2/local/new_comparison
+.venv/retrieval/bin/python kg_v2/run_translation.py generate --folder kg_v2/local/new_comparison
+```
+
+실시간 실행은 기존 로컬 모델 연결 설정을 사용한다. 비교 준비는 기존 개발 분석·조회 캐시가 필요하며, 이번 실험의 고정 분석·참조·실제 요청은 보고서에 보존한다. 환경 의존성은 `requirements-translation.txt`와 기존 `current_kg/experiments/requirements-*.txt`를 따른다.
+
+- [최종 번역 비교·진단](reports/translation_20261012/README.md), [38개 입력의 출력 전체](reports/translation_20261012/comparison.txt)
+- [입력 분석·조회·생성 구현 검사](reports/translation_20261012/implementation_verification.json): 총 15개 테스트. 모델 출력의 자연스러움 검사와 구별한다.
+- [Neo4j 시각화 안내](reports/neo4j/README.md), [전체 구조 PNG](reports/neo4j/schema.png), [먹다→묵다→묵고 PNG](reports/neo4j/eating_path.png)
+
+PNG는 Neo4j에 실제 적재한 데이터를 조회하여 Graphviz로 렌더링했다. 전체 노드·관계·속성의 왕복 일치를 검증했으며 기존 Neo4j 그래프는 보존했다.

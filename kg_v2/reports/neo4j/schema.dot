@@ -1,0 +1,24 @@
+digraph G {
+rankdir=LR; bgcolor="white"; pad=0.4; nodesep=0.35; ranksep=0.8;
+graph [fontname="Noto Sans CJK KR",fontsize=20,labelloc=t,label="KG v2 전체 구성 — Neo4j 조회 집계\n25,750개 노드 · 35,308개 관계 | 유형별 집계이며 실제 단일 노드가 아님"];
+node [shape=box,style="rounded,filled",fontname="Noto Sans CJK KR",fontsize=12,margin="0.16,0.1",color="#7b8994"];
+edge [fontname="Noto Sans CJK KR",fontsize=9,color="#8796a5",arrowsize=0.65];
+"Source" [label="문헌\nSource\n7개",fillcolor="#d5e9f9"];
+"SourcePage" [label="원문 페이지\nSourcePage\n474개",fillcolor="#e5f2ff"];
+"KnowledgeStatement" [label="지식 진술\nKnowledgeStatement\n3,757개",fillcolor="#d9ecff"];
+"ExpressionUse" [label="출처별 표현\nExpressionUse\n7,514개",fillcolor="#d9f2e6"];
+"Constraint" [label="제약·불확실성\nConstraint\n4,032개",fillcolor="#fae2d7"];
+"Evidence" [label="인용 근거\nEvidence\n7,790개",fillcolor="#fff0c2"];
+"Function" [label="문법 기능\nFunction\n58개",fillcolor="#e7dff7"];
+"Condition" [label="적용 조건\nCondition\n2,118개",fillcolor="#f4ddea"];
+"Evidence" -> "SourcePage" [label="located_on  7,790"];
+"ExpressionUse" -> "ExpressionUse" [label="어휘·활용·어미 등 9종 대응\n3,757개 관계"];
+"KnowledgeStatement" -> "KnowledgeStatement" [label="candidate_has_inflection  484"];
+"KnowledgeStatement" -> "Function" [label="describes_function  1,344"];
+"KnowledgeStatement" -> "Constraint" [label="has_constraint  4,032"];
+"KnowledgeStatement" -> "Condition" [label="requires  2,118"];
+"KnowledgeStatement" -> "ExpressionUse" [label="source_expression  3,757\ntarget_expression  3,757"];
+"KnowledgeStatement" -> "Evidence" [label="supported_by  7,790"];
+"Source" -> "Source" [label="document_dependency  5"];
+"SourcePage" -> "Source" [label="part_of  474"];
+}

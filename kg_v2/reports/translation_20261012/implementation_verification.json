@@ -1,0 +1,24 @@
+{
+  "tests": 15,
+  "status": "passed",
+  "command": ".venv/retrieval/bin/python -m unittest discover -s kg_v2 -p 'test_*.py' -v",
+  "seconds": 6.473,
+  "new_checks": [
+    "full input reaches eating inflection edge",
+    "past morphology does not use uninflected present table cell",
+    "explicit why question correction preserves original annotation",
+    "copula ending not treated as particle",
+    "invalid source span rejected",
+    "specific source form not bypassed by general function matching"
+  ],
+  "neo4j_verification": "../neo4j/verification.json",
+  "generation_quality": "separate from implementation checks",
+  "legacy_preservation": {
+    "files": 169,
+    "changed": []
+  },
+  "kg_v2_source_graph_preservation": {
+    "facts.jsonl": "b96f57ab1e147d9f9afbfed26399cd946085493249d164240eff2c296e76c175",
+    "graph.json": "cb88c00d4f989e45dc193936812fbce70551ee59328e8bed6785f7366ba445c7"
+  }
+}

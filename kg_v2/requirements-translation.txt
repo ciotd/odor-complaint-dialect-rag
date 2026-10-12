@@ -1,0 +1,3 @@
+# Existing project .venv/retrieval also supplies legacy retrieval dependencies.
+kiwipiepy==0.23.1
+jsonschema==4.26.0

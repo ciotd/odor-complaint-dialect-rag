@@ -1,0 +1,32 @@
+{
+  "input": "나는 배가 고파서 먼저 밥을 먹고 있을게.",
+  "output": "내 배가 고파서 앞에 밥 묵고 있을게.",
+  "analysis_status": "validated",
+  "analysis_attempts": 1,
+  "retrieved_references": 16,
+  "graph_paths": [
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:1057",
+      "type": "candidate_has_inflection",
+      "target": "NAMU_GRAMMAR_20260908:v2:full:0239",
+      "properties": {
+        "match": "target_lemma_equals_inflection_lemma",
+        "requires_scope_and_sense_review": true
+      }
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:1057",
+      "type": "candidate_has_inflection",
+      "target": "RYU2014:v2:full:0097",
+      "properties": {
+        "match": "target_lemma_equals_inflection_lemma",
+        "requires_scope_and_sense_review": true
+      }
+    }
+  ],
+  "initial_attempt": "60-second analysis request timed out; failure preserved locally",
+  "successful_retry": "180-second timeout; Qwen analysis validated on first retry attempt, followed by KG retrieval and generation",
+  "limits": "Live analysis differs from cached benchmark analysis; this is an execution check, not an additional quality benchmark.",
+  "earlier_successful_output": "내 배가 고파서 먼저 밥 묵고 있을게.",
+  "final_code_recheck": "Passed using final source-pattern routing"
+}

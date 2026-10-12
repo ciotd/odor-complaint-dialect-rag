@@ -1,0 +1,260 @@
+{
+  "focus": [
+    "NAMU_GRAMMAR_20260908:v2:full:1057",
+    "NAMU_GRAMMAR_20260908:v2:full:0239"
+  ],
+  "nodes": [
+    {
+      "id": "source:NAMU_GRAMMAR_20260908",
+      "label": "동남 방언 / 문법\n원문 문헌",
+      "type": "Source"
+    },
+    {
+      "id": "source:NAMU_GRAMMAR_20260908:p6",
+      "label": "문법 PDF 6쪽",
+      "type": "SourcePage"
+    },
+    {
+      "id": "source:NAMU_GRAMMAR_20260908:p46",
+      "label": "문법 PDF 46쪽",
+      "type": "SourcePage"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0239",
+      "label": "활용: 묵다 + -고 → 묵고\nfull:0239",
+      "type": "KnowledgeStatement"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1057",
+      "label": "어휘 대응: 먹다 → 묵다\nfull:1057",
+      "type": "KnowledgeStatement"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0239:source",
+      "label": "묵다\ndialect · source",
+      "type": "ExpressionUse"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0239:target",
+      "label": "묵고\ndialect · target",
+      "type": "ExpressionUse"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1057:source",
+      "label": "먹다\nstandard · source",
+      "type": "ExpressionUse"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1057:target",
+      "label": "묵다\ndialect · target",
+      "type": "ExpressionUse"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0239:constraint:1",
+      "label": "위키의 세부 지역·화자·시대 범위와 해당 어휘\n의미를 확인한다.",
+      "type": "Constraint"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1057:constraint:1",
+      "label": "위키의 세부 지역·화자·시대 범위와 해당 어휘\n의미를 확인한다.",
+      "type": "Constraint"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0239:evidence:1",
+      "label": "원문 인용 · PDF 6쪽\n묵다 묵어/무 묵어라/무\n묵어가/무    묵었다/무    묵으니/무\n묵…",
+      "type": "Evidence"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0239:evidence:2",
+      "label": "원문 인용 · PDF 6쪽\n-아 -아라 -아가 -았다 -으니 -으모\n-라고 -고…",
+      "type": "Evidence"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0239:evidence:3",
+      "label": "원문 인용 · PDF 6쪽\n-아 -아라 -아가 -았다 -으니 -으모\n-라고 -고  묵다 묵어/무 묵어라/무\n묵어가/무 묵었다/무 묵으니/무 묵으…",
+      "type": "Evidence"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0239:evidence:4",
+      "label": "원문 인용 · PDF 46쪽\n[21] 먹다…",
+      "type": "Evidence"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1057:evidence:1",
+      "label": "원문 인용 · PDF 46쪽\n[21] 먹다  [22] 가지다…",
+      "type": "Evidence"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1057:evidence:2",
+      "label": "원문 인용 · PDF 6쪽\n묵다 묵어/무 묵어라/무\n묵어가/무    묵었다/무    묵으니/무\n묵…",
+      "type": "Evidence"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1057:evidence:3",
+      "label": "원문 인용 · PDF 46쪽\n[21] 먹다…",
+      "type": "Evidence"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:1057:evidence:4",
+      "label": "원문 인용 · PDF 6쪽\n묵다 묵어/무 묵어라/무 묵어가/무\n묵었다/무 묵으니/무 묵으모/무\n묵으라고/무우 묵  [21] 우 우라 우가\n웄다…",
+      "type": "Evidence"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0239:condition:1",
+      "label": "candidate.lemma\neq 묵다",
+      "type": "Condition"
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:full:0239:condition:2",
+      "label": "candidate.ending\neq -고",
+      "type": "Condition"
+    }
+  ],
+  "edges": [
+    {
+      "source": "source:NAMU_GRAMMAR_20260908:p6",
+      "type": "part_of",
+      "target": "source:NAMU_GRAMMAR_20260908"
+    },
+    {
+      "source": "source:NAMU_GRAMMAR_20260908:p46",
+      "type": "part_of",
+      "target": "source:NAMU_GRAMMAR_20260908"
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:1057:evidence:4",
+      "type": "located_on",
+      "target": "source:NAMU_GRAMMAR_20260908:p6"
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:1057:evidence:2",
+      "type": "located_on",
+      "target": "source:NAMU_GRAMMAR_20260908:p6"
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:0239:evidence:3",
+      "type": "located_on",
+      "target": "source:NAMU_GRAMMAR_20260908:p6"
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:0239:evidence:2",
+      "type": "located_on",
+      "target": "source:NAMU_GRAMMAR_20260908:p6"
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:0239:evidence:1",
+      "type": "located_on",
+      "target": "source:NAMU_GRAMMAR_20260908:p6"
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:1057:evidence:1",
+      "type": "located_on",
+      "target": "source:NAMU_GRAMMAR_20260908:p46"
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:1057:evidence:3",
+      "type": "located_on",
+      "target": "source:NAMU_GRAMMAR_20260908:p46"
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:0239:evidence:4",
+      "type": "located_on",
+      "target": "source:NAMU_GRAMMAR_20260908:p46"
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:1057",
+      "type": "candidate_has_inflection",
+      "target": "NAMU_GRAMMAR_20260908:v2:full:0239"
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:0239",
+      "type": "source_expression",
+      "target": "NAMU_GRAMMAR_20260908:v2:full:0239:source"
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:0239:source",
+      "type": "attested_or_described_inflection",
+      "target": "NAMU_GRAMMAR_20260908:v2:full:0239:target"
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:0239",
+      "type": "target_expression",
+      "target": "NAMU_GRAMMAR_20260908:v2:full:0239:target"
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:1057",
+      "type": "source_expression",
+      "target": "NAMU_GRAMMAR_20260908:v2:full:1057:source"
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:1057:source",
+      "type": "lexical_correspondence",
+      "target": "NAMU_GRAMMAR_20260908:v2:full:1057:target"
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:1057",
+      "type": "target_expression",
+      "target": "NAMU_GRAMMAR_20260908:v2:full:1057:target"
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:0239",
+      "type": "has_constraint",
+      "target": "NAMU_GRAMMAR_20260908:v2:full:0239:constraint:1"
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:1057",
+      "type": "has_constraint",
+      "target": "NAMU_GRAMMAR_20260908:v2:full:1057:constraint:1"
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:0239",
+      "type": "supported_by",
+      "target": "NAMU_GRAMMAR_20260908:v2:full:0239:evidence:1"
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:0239",
+      "type": "supported_by",
+      "target": "NAMU_GRAMMAR_20260908:v2:full:0239:evidence:2"
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:0239",
+      "type": "supported_by",
+      "target": "NAMU_GRAMMAR_20260908:v2:full:0239:evidence:3"
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:0239",
+      "type": "supported_by",
+      "target": "NAMU_GRAMMAR_20260908:v2:full:0239:evidence:4"
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:1057",
+      "type": "supported_by",
+      "target": "NAMU_GRAMMAR_20260908:v2:full:1057:evidence:1"
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:1057",
+      "type": "supported_by",
+      "target": "NAMU_GRAMMAR_20260908:v2:full:1057:evidence:2"
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:1057",
+      "type": "supported_by",
+      "target": "NAMU_GRAMMAR_20260908:v2:full:1057:evidence:3"
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:1057",
+      "type": "supported_by",
+      "target": "NAMU_GRAMMAR_20260908:v2:full:1057:evidence:4"
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:0239",
+      "type": "requires",
+      "target": "NAMU_GRAMMAR_20260908:v2:full:0239:condition:1"
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:full:0239",
+      "type": "requires",
+      "target": "NAMU_GRAMMAR_20260908:v2:full:0239:condition:2"
+    }
+  ]
+}
