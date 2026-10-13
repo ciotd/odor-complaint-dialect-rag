@@ -1,0 +1,148 @@
+{
+  "id": "ADVCE008B",
+  "input": "제가 전에 읽던 책을 빌려드릴게요.",
+  "condition": "terminal_function_retrieval",
+  "request": {
+    "model": "Qwen3.8-27B",
+    "max_tokens": 512,
+    "temperature": 0.3,
+    "top_p": 0.8,
+    "top_k": 20,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "seed": 20260923,
+    "messages": [
+      {
+        "role": "system",
+        "content": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요."
+      },
+      {
+        "role": "user",
+        "content": "standard를 자연스러운 경상도 방언으로 변환하세요. analysis와 source_morphology는 원문 분석의 가설이며 원문이 우선입니다. transformation_plan 또는 references와 graph_paths는 조건부 참고 자료입니다. 의미·지역·시대·높임·결합 조건이 맞는 자료를 선택하고 관련 없는 자료는 사용하지 마세요. 조건 미확인은 적용 허용이 아니며 연결된 진술끼리 조건을 상속하지 않습니다. 기본형 대응과 완성 활용형을 구별하고 원문의 부정·시제·높임·인용·발화 의도를 유지하세요. preservation의 관형절·겸양·주체와 청자 높임·이동 관점 보존을 어휘 치환보다 우선하세요. 모델 조언 후보는 원문 확인형이 아니며 불확실하면 원문의 구조를 보존하세요. 표에 없는 활용형은 표에 실린 확인형으로 주장하지 마세요. 원문에 없는 내용을 추가하지 말고 변환한 발화만 출력하세요.\n{\"standard\":\"제가 전에 읽던 책을 빌려드릴게요.\",\"analysis\":[{\"text\":\"제가 전에 읽던 책을 빌려드릴게요.\",\"span\":[0,19],\"role\":\"main\",\"features\":{\"host_pos\":\"verb\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"빌려드리다\",\"sentence_type\":\"declarative\",\"speech_act\":\"state_intention\",\"subject_person\":\"first\",\"beneficiary\":\"speaker\",\"intention_holder\":\"speaker\",\"action_participants\":\"speaker_and_addressee\",\"source_form\":\"빌려드릴게요\"},\"observed_politeness\":\"polite\",\"observed_subject_honorific\":\"not_observed\",\"tense_or_modality\":\"modal\",\"preserved_candidate_features\":{\"prefinal_profile\":\"none\",\"preceding_form\":\"verb_stem_direct\"}}],\"source_morphology\":{\"tokens\":[{\"form\":\"저\",\"tag\":\"NP\",\"span\":[0,1],\"surface\":\"제\"},{\"form\":\"가\",\"tag\":\"JKS\",\"span\":[1,2],\"surface\":\"가\"},{\"form\":\"전\",\"tag\":\"NNG\",\"span\":[3,4],\"surface\":\"전\"},{\"form\":\"에\",\"tag\":\"JKB\",\"span\":[4,5],\"surface\":\"에\"},{\"form\":\"읽\",\"tag\":\"VV\",\"span\":[6,7],\"surface\":\"읽\"},{\"form\":\"던\",\"tag\":\"ETM\",\"span\":[7,8],\"surface\":\"던\"},{\"form\":\"책\",\"tag\":\"NNG\",\"span\":[9,10],\"surface\":\"책\"},{\"form\":\"을\",\"tag\":\"JKO\",\"span\":[10,11],\"surface\":\"을\"},{\"form\":\"빌리\",\"tag\":\"VV\",\"span\":[12,14],\"surface\":\"빌려\"},{\"form\":\"어\",\"tag\":\"EC\",\"span\":[13,14],\"surface\":\"려\"},{\"form\":\"드리\",\"tag\":\"VX\",\"span\":[14,16],\"surface\":\"드릴\"},{\"form\":\"ᆯ게요\",\"tag\":\"EF\",\"span\":[15,18],\"surface\":\"릴게요\"},{\"form\":\".\",\"tag\":\"SF\",\"span\":[18,19],\"surface\":\".\"}],\"words\":[{\"form\":\"저\",\"tag\":\"NP\",\"span\":[0,1],\"surface\":\"제\",\"lemma\":\"저\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":0},{\"form\":\"전\",\"tag\":\"NNG\",\"span\":[3,4],\"surface\":\"전\",\"lemma\":\"전\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":2},{\"form\":\"읽\",\"tag\":\"VV\",\"span\":[6,7],\"surface\":\"읽\",\"lemma\":\"읽다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"던\",\"ending_tag\":\"ETM\",\"token_index\":4,\"predicate_span\":[6,8]},{\"form\":\"책\",\"tag\":\"NNG\",\"span\":[9,10],\"surface\":\"책\",\"lemma\":\"책\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":6},{\"form\":\"빌리\",\"tag\":\"VV\",\"span\":[12,14],\"surface\":\"빌려\",\"lemma\":\"빌리다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"어\",\"ending_tag\":\"EC\",\"token_index\":8,\"predicate_span\":[12,14]},{\"form\":\"드리\",\"tag\":\"VX\",\"span\":[14,16],\"surface\":\"드릴\",\"lemma\":\"드리다\",\"pos\":\"auxiliary\",\"prefinals\":[],\"ending\":\"ᆯ게요\",\"ending_tag\":\"EF\",\"token_index\":10,\"predicate_span\":[14,18]}],\"status\":\"Kiwi_hypotheses_not_gold\"},\"transformation_plan\":[{\"target_text\":\"제가 전에 읽던 책을 빌려드릴게요.\",\"span\":[0,19],\"preserve\":[{\"features\":{\"host_pos\":\"verb\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"빌려드리다\",\"sentence_type\":\"declarative\",\"speech_act\":\"state_intention\",\"subject_person\":\"first\",\"beneficiary\":\"speaker\",\"intention_holder\":\"speaker\",\"action_participants\":\"speaker_and_addressee\",\"source_form\":\"빌려드릴게요\"},\"listener_politeness\":\"polite\",\"subject_honorific\":\"not_observed\",\"tense_or_modality\":\"modal\"}],\"candidates\":[{\"id\":\"PLAN:terminal:polite_promise:ᆯ게요\",\"source_id\":\"COMPOSED_FROM_KG\",\"type\":\"ending\",\"source_pattern\":{\"text\":\"-ᆯ게요\",\"domain\":\"standard\",\"lemma\":null,\"sense\":null,\"features\":{\"match_unit\":\"terminal_ending\"}},\"target_pattern\":{\"text\":\"-(으)(ㄹ)께예\",\"domain\":\"dialect\",\"lemma\":null,\"sense\":null,\"features\":{\"realization\":\"function_bound_terminal_plan\"}},\"functions\":[\"declarative\"],\"conditions\":[{\"owner\":\"input\",\"field\":\"sentence_type\",\"op\":\"eq\",\"value\":\"declarative\",\"basis\":\"analyst_interpretation\"}],\"constraints\":[{\"kind\":\"require\",\"description\":\"원문의 시제·부정·높임·화행을 보존하고 명시된 종결 구간만 바꾼다.\"},{\"kind\":\"scope\",\"description\":\"사용자가 요청한 종결 계열 우선 정책. 문헌의 지역·시대 제한을 현대 경북40대 전체의 보편 규칙으로 확대하지 않는다.\"}],\"scope\":{\"regions\":[\"동남 방언: 개별 지역·세대 제한 우선\"],\"speech_levels\":[\"해예\"],\"registers\":[],\"period\":[],\"note\":\"여러 종결 계열의 선택은 운영 정책이며 문헌의 동일 높임 등급 주장과 다르다.\"},\"claim_status\":\"analyst_interpretation\",\"notes\":\"문헌의 구성요소를 원문 구간에 조합한 계획. 완성형 전체가 문헌 예문이라는 뜻이 아니다.\",\"binding\":{\"text\":\"제가 전에 읽던 책을 빌려드릴게요.\",\"span\":[0,19],\"clause_id\":\"ADVCE008B:c1\",\"host_lemma\":\"드리다\",\"ending\":\"ᆯ게요\",\"predicate_span\":[14,18],\"speech_style_preference\":{\"politeness\":\"polite\",\"register\":\"informal_polite\",\"source_ending\":\"ᆯ게요\",\"basis\":\"source_terminal_form\"},\"ending_conversion\":{\"family\":\"polite_promise\",\"status\":\"derived_surface_not_attested_complete_utterance\",\"source_text\":\"드릴게요\",\"source_span\":[14,18],\"preferred_surface\":\"드리께예\",\"source_morphemes\":[\"드리\",\"ᆯ게요\"],\"preserve_prefinals\":[],\"supporting_fact_ids\":[\"NAMU_GRAMMAR_20260908:v2:full:0711\",\"NAMU_GRAMMAR_20260908:v2:full:0702\",\"NAMU_GRAMMAR_20260908:v2:terminal_review:0001\"],\"support_checks\":[{\"id\":\"NAMU_GRAMMAR_20260908:v2:full:0711\",\"role\":\"rule\",\"conditions\":[]},{\"id\":\"NAMU_GRAMMAR_20260908:v2:full:0702\",\"role\":\"rule\",\"conditions\":[]},{\"id\":\"NAMU_GRAMMAR_20260908:v2:terminal_review:0001\",\"role\":\"example_only\",\"conditions\":[]}],\"analysis_notes\":[],\"instruction\":\"선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다.\"}},\"origin\":\"documentary_components_with_analyst_composition\",\"evidence_pages\":[{\"source_id\":\"NAMU_GRAMMAR_20260908\",\"pdf_page\":28},{\"source_id\":\"NAMU_GRAMMAR_20260908\",\"pdf_page\":28},{\"source_id\":\"NAMU_GRAMMAR_20260908\",\"pdf_page\":21}],\"supporting_fact_ids\":[\"NAMU_GRAMMAR_20260908:v2:full:0711\",\"NAMU_GRAMMAR_20260908:v2:full:0702\",\"NAMU_GRAMMAR_20260908:v2:terminal_review:0001\"]}]}],\"graph_paths\":[],\"preservation\":{\"origin\":\"reviewed_preservation_policy_not_dialect_rule\",\"relative_clauses\":[{\"text\":\"읽던\",\"span\":[6,8],\"lemma\":\"읽다\",\"ending\":\"던\",\"prefinals\":[],\"instruction\":\"관형절 역할과 이 구간 자체의 시제·상을 보존한다. 종결형으로 바꾸거나 주절 과거를 복사하지 않는다.\"}],\"supporting_knowledge\":[{\"id\":\"RYU2014:v2:full:0098\",\"usability\":\"reference_only\",\"role\":\"preservation_support_not_transformation\",\"description\":\"관형사형은 표준어와 같다는 본문 기술과 -았던의 세대 차이; 가는의 -는을 -다로 바꾸는 근거가 아님\",\"source_id\":\"RYU2014\",\"evidence_pages\":[20,21],\"scope\":{\"regions\":[\"경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위\"],\"speech_levels\":[],\"registers\":[],\"period\":[],\"note\":\"2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다.\"}}],\"invariants\":[\"원문의 명제·부정·시제·화행과 모든 절을 유지한다.\",\"청자 높임, 주체 높임, 저/제의 겸양을 각각 보존한다. 주어를 호격으로 바꾸지 않는다.\",\"가는/오는 이동 관점과 먼저의 시간 순서를 보존한다. 앞에의 시간 용법 자체는 금지하지 않는다.\",\"인용 내용과 보고 서술부의 시제를 구분한다. 회상 -대를 표면형만 보고 전언으로 판단하지 않는다.\"],\"source_honorific_predicates\":[{\"lemma\":\"드리다\",\"text\":\"드릴게요\"}],\"terminal_analysis_review\":[]},\"plan_policy\":\"후보는 모두 적용할 목록이 아니라 대안이다. 어휘보다 의미·높임·시제·문장 역할 보존을 우선한다. 종결은 ending_conversion의 family와 preferred_surface를 우선 사용하며 같은 끝에 여러 종결을 겹쳐 붙이지 않는다. preferred_surface는 원래 어간 기준의 조합안이고 방언 어간을 선택하면 그 어간에 맞춰 활용한다. 문헌 구성요소와 분석자 조합·완성형을 구분한다. 원문에 맞는 후보만 사용한다. MODEL_ADVICE는 원문에서 직접 확인된 완성형이 아닌 모델 조합 제안이다. 보존용 지식은 치환 규칙이 아니다.\"}"
+      }
+    ]
+  },
+  "status": "success",
+  "response": {
+    "id": "chatcmpl-99ca6ec99c9c884a",
+    "object": "chat.completion",
+    "created": 1791853121,
+    "model": "Qwen3.8-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "제가 전에 읽던 책을 빌려드리께예.",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.27.1-51f03443",
+    "usage": {
+      "prompt_tokens": 2589,
+      "total_tokens": 2601,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  },
+  "first_output": "제가 전에 읽던 책을 빌려드리께예.",
+  "first_check": {
+    "status": "no_screening_flags",
+    "flags": [],
+    "repair_required": false,
+    "not_accuracy": true
+  },
+  "output": "제가 전에 읽던 책을 빌려드리께예.",
+  "final_check": {
+    "status": "no_screening_flags",
+    "flags": [],
+    "repair_required": false,
+    "not_accuracy": true
+  },
+  "repair_attempted": false,
+  "selection": "first_pass",
+  "calls": [
+    {
+      "request": {
+        "model": "Qwen3.8-27B",
+        "max_tokens": 512,
+        "temperature": 0.3,
+        "top_p": 0.8,
+        "top_k": 20,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "seed": 20260923,
+        "messages": [
+          {
+            "role": "system",
+            "content": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요."
+          },
+          {
+            "role": "user",
+            "content": "standard를 자연스러운 경상도 방언으로 변환하세요. analysis와 source_morphology는 원문 분석의 가설이며 원문이 우선입니다. transformation_plan 또는 references와 graph_paths는 조건부 참고 자료입니다. 의미·지역·시대·높임·결합 조건이 맞는 자료를 선택하고 관련 없는 자료는 사용하지 마세요. 조건 미확인은 적용 허용이 아니며 연결된 진술끼리 조건을 상속하지 않습니다. 기본형 대응과 완성 활용형을 구별하고 원문의 부정·시제·높임·인용·발화 의도를 유지하세요. preservation의 관형절·겸양·주체와 청자 높임·이동 관점 보존을 어휘 치환보다 우선하세요. 모델 조언 후보는 원문 확인형이 아니며 불확실하면 원문의 구조를 보존하세요. 표에 없는 활용형은 표에 실린 확인형으로 주장하지 마세요. 원문에 없는 내용을 추가하지 말고 변환한 발화만 출력하세요.\n{\"standard\":\"제가 전에 읽던 책을 빌려드릴게요.\",\"analysis\":[{\"text\":\"제가 전에 읽던 책을 빌려드릴게요.\",\"span\":[0,19],\"role\":\"main\",\"features\":{\"host_pos\":\"verb\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"빌려드리다\",\"sentence_type\":\"declarative\",\"speech_act\":\"state_intention\",\"subject_person\":\"first\",\"beneficiary\":\"speaker\",\"intention_holder\":\"speaker\",\"action_participants\":\"speaker_and_addressee\",\"source_form\":\"빌려드릴게요\"},\"observed_politeness\":\"polite\",\"observed_subject_honorific\":\"not_observed\",\"tense_or_modality\":\"modal\",\"preserved_candidate_features\":{\"prefinal_profile\":\"none\",\"preceding_form\":\"verb_stem_direct\"}}],\"source_morphology\":{\"tokens\":[{\"form\":\"저\",\"tag\":\"NP\",\"span\":[0,1],\"surface\":\"제\"},{\"form\":\"가\",\"tag\":\"JKS\",\"span\":[1,2],\"surface\":\"가\"},{\"form\":\"전\",\"tag\":\"NNG\",\"span\":[3,4],\"surface\":\"전\"},{\"form\":\"에\",\"tag\":\"JKB\",\"span\":[4,5],\"surface\":\"에\"},{\"form\":\"읽\",\"tag\":\"VV\",\"span\":[6,7],\"surface\":\"읽\"},{\"form\":\"던\",\"tag\":\"ETM\",\"span\":[7,8],\"surface\":\"던\"},{\"form\":\"책\",\"tag\":\"NNG\",\"span\":[9,10],\"surface\":\"책\"},{\"form\":\"을\",\"tag\":\"JKO\",\"span\":[10,11],\"surface\":\"을\"},{\"form\":\"빌리\",\"tag\":\"VV\",\"span\":[12,14],\"surface\":\"빌려\"},{\"form\":\"어\",\"tag\":\"EC\",\"span\":[13,14],\"surface\":\"려\"},{\"form\":\"드리\",\"tag\":\"VX\",\"span\":[14,16],\"surface\":\"드릴\"},{\"form\":\"ᆯ게요\",\"tag\":\"EF\",\"span\":[15,18],\"surface\":\"릴게요\"},{\"form\":\".\",\"tag\":\"SF\",\"span\":[18,19],\"surface\":\".\"}],\"words\":[{\"form\":\"저\",\"tag\":\"NP\",\"span\":[0,1],\"surface\":\"제\",\"lemma\":\"저\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":0},{\"form\":\"전\",\"tag\":\"NNG\",\"span\":[3,4],\"surface\":\"전\",\"lemma\":\"전\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":2},{\"form\":\"읽\",\"tag\":\"VV\",\"span\":[6,7],\"surface\":\"읽\",\"lemma\":\"읽다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"던\",\"ending_tag\":\"ETM\",\"token_index\":4,\"predicate_span\":[6,8]},{\"form\":\"책\",\"tag\":\"NNG\",\"span\":[9,10],\"surface\":\"책\",\"lemma\":\"책\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":6},{\"form\":\"빌리\",\"tag\":\"VV\",\"span\":[12,14],\"surface\":\"빌려\",\"lemma\":\"빌리다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"어\",\"ending_tag\":\"EC\",\"token_index\":8,\"predicate_span\":[12,14]},{\"form\":\"드리\",\"tag\":\"VX\",\"span\":[14,16],\"surface\":\"드릴\",\"lemma\":\"드리다\",\"pos\":\"auxiliary\",\"prefinals\":[],\"ending\":\"ᆯ게요\",\"ending_tag\":\"EF\",\"token_index\":10,\"predicate_span\":[14,18]}],\"status\":\"Kiwi_hypotheses_not_gold\"},\"transformation_plan\":[{\"target_text\":\"제가 전에 읽던 책을 빌려드릴게요.\",\"span\":[0,19],\"preserve\":[{\"features\":{\"host_pos\":\"verb\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"빌려드리다\",\"sentence_type\":\"declarative\",\"speech_act\":\"state_intention\",\"subject_person\":\"first\",\"beneficiary\":\"speaker\",\"intention_holder\":\"speaker\",\"action_participants\":\"speaker_and_addressee\",\"source_form\":\"빌려드릴게요\"},\"listener_politeness\":\"polite\",\"subject_honorific\":\"not_observed\",\"tense_or_modality\":\"modal\"}],\"candidates\":[{\"id\":\"PLAN:terminal:polite_promise:ᆯ게요\",\"source_id\":\"COMPOSED_FROM_KG\",\"type\":\"ending\",\"source_pattern\":{\"text\":\"-ᆯ게요\",\"domain\":\"standard\",\"lemma\":null,\"sense\":null,\"features\":{\"match_unit\":\"terminal_ending\"}},\"target_pattern\":{\"text\":\"-(으)(ㄹ)께예\",\"domain\":\"dialect\",\"lemma\":null,\"sense\":null,\"features\":{\"realization\":\"function_bound_terminal_plan\"}},\"functions\":[\"declarative\"],\"conditions\":[{\"owner\":\"input\",\"field\":\"sentence_type\",\"op\":\"eq\",\"value\":\"declarative\",\"basis\":\"analyst_interpretation\"}],\"constraints\":[{\"kind\":\"require\",\"description\":\"원문의 시제·부정·높임·화행을 보존하고 명시된 종결 구간만 바꾼다.\"},{\"kind\":\"scope\",\"description\":\"사용자가 요청한 종결 계열 우선 정책. 문헌의 지역·시대 제한을 현대 경북40대 전체의 보편 규칙으로 확대하지 않는다.\"}],\"scope\":{\"regions\":[\"동남 방언: 개별 지역·세대 제한 우선\"],\"speech_levels\":[\"해예\"],\"registers\":[],\"period\":[],\"note\":\"여러 종결 계열의 선택은 운영 정책이며 문헌의 동일 높임 등급 주장과 다르다.\"},\"claim_status\":\"analyst_interpretation\",\"notes\":\"문헌의 구성요소를 원문 구간에 조합한 계획. 완성형 전체가 문헌 예문이라는 뜻이 아니다.\",\"binding\":{\"text\":\"제가 전에 읽던 책을 빌려드릴게요.\",\"span\":[0,19],\"clause_id\":\"ADVCE008B:c1\",\"host_lemma\":\"드리다\",\"ending\":\"ᆯ게요\",\"predicate_span\":[14,18],\"speech_style_preference\":{\"politeness\":\"polite\",\"register\":\"informal_polite\",\"source_ending\":\"ᆯ게요\",\"basis\":\"source_terminal_form\"},\"ending_conversion\":{\"family\":\"polite_promise\",\"status\":\"derived_surface_not_attested_complete_utterance\",\"source_text\":\"드릴게요\",\"source_span\":[14,18],\"preferred_surface\":\"드리께예\",\"source_morphemes\":[\"드리\",\"ᆯ게요\"],\"preserve_prefinals\":[],\"supporting_fact_ids\":[\"NAMU_GRAMMAR_20260908:v2:full:0711\",\"NAMU_GRAMMAR_20260908:v2:full:0702\",\"NAMU_GRAMMAR_20260908:v2:terminal_review:0001\"],\"support_checks\":[{\"id\":\"NAMU_GRAMMAR_20260908:v2:full:0711\",\"role\":\"rule\",\"conditions\":[]},{\"id\":\"NAMU_GRAMMAR_20260908:v2:full:0702\",\"role\":\"rule\",\"conditions\":[]},{\"id\":\"NAMU_GRAMMAR_20260908:v2:terminal_review:0001\",\"role\":\"example_only\",\"conditions\":[]}],\"analysis_notes\":[],\"instruction\":\"선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다.\"}},\"origin\":\"documentary_components_with_analyst_composition\",\"evidence_pages\":[{\"source_id\":\"NAMU_GRAMMAR_20260908\",\"pdf_page\":28},{\"source_id\":\"NAMU_GRAMMAR_20260908\",\"pdf_page\":28},{\"source_id\":\"NAMU_GRAMMAR_20260908\",\"pdf_page\":21}],\"supporting_fact_ids\":[\"NAMU_GRAMMAR_20260908:v2:full:0711\",\"NAMU_GRAMMAR_20260908:v2:full:0702\",\"NAMU_GRAMMAR_20260908:v2:terminal_review:0001\"]}]}],\"graph_paths\":[],\"preservation\":{\"origin\":\"reviewed_preservation_policy_not_dialect_rule\",\"relative_clauses\":[{\"text\":\"읽던\",\"span\":[6,8],\"lemma\":\"읽다\",\"ending\":\"던\",\"prefinals\":[],\"instruction\":\"관형절 역할과 이 구간 자체의 시제·상을 보존한다. 종결형으로 바꾸거나 주절 과거를 복사하지 않는다.\"}],\"supporting_knowledge\":[{\"id\":\"RYU2014:v2:full:0098\",\"usability\":\"reference_only\",\"role\":\"preservation_support_not_transformation\",\"description\":\"관형사형은 표준어와 같다는 본문 기술과 -았던의 세대 차이; 가는의 -는을 -다로 바꾸는 근거가 아님\",\"source_id\":\"RYU2014\",\"evidence_pages\":[20,21],\"scope\":{\"regions\":[\"경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위\"],\"speech_levels\":[],\"registers\":[],\"period\":[],\"note\":\"2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다.\"}}],\"invariants\":[\"원문의 명제·부정·시제·화행과 모든 절을 유지한다.\",\"청자 높임, 주체 높임, 저/제의 겸양을 각각 보존한다. 주어를 호격으로 바꾸지 않는다.\",\"가는/오는 이동 관점과 먼저의 시간 순서를 보존한다. 앞에의 시간 용법 자체는 금지하지 않는다.\",\"인용 내용과 보고 서술부의 시제를 구분한다. 회상 -대를 표면형만 보고 전언으로 판단하지 않는다.\"],\"source_honorific_predicates\":[{\"lemma\":\"드리다\",\"text\":\"드릴게요\"}],\"terminal_analysis_review\":[]},\"plan_policy\":\"후보는 모두 적용할 목록이 아니라 대안이다. 어휘보다 의미·높임·시제·문장 역할 보존을 우선한다. 종결은 ending_conversion의 family와 preferred_surface를 우선 사용하며 같은 끝에 여러 종결을 겹쳐 붙이지 않는다. preferred_surface는 원래 어간 기준의 조합안이고 방언 어간을 선택하면 그 어간에 맞춰 활용한다. 문헌 구성요소와 분석자 조합·완성형을 구분한다. 원문에 맞는 후보만 사용한다. MODEL_ADVICE는 원문에서 직접 확인된 완성형이 아닌 모델 조합 제안이다. 보존용 지식은 치환 규칙이 아니다.\"}"
+          }
+        ]
+      },
+      "response": {
+        "id": "chatcmpl-99ca6ec99c9c884a",
+        "object": "chat.completion",
+        "created": 1791853121,
+        "model": "Qwen3.8-27B",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "제가 전에 읽던 책을 빌려드리께예.",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.27.1-51f03443",
+        "usage": {
+          "prompt_tokens": 2589,
+          "total_tokens": 2601,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      },
+      "status": "success",
+      "elapsed_seconds": 0.9657900705933571
+    }
+  ]
+}

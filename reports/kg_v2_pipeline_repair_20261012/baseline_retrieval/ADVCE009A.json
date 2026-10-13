@@ -1,0 +1,1939 @@
+{
+  "id": "ADVCE009A",
+  "input": "그 식당 음식이 짜더라.",
+  "morphology": {
+    "tokens": [
+      {
+        "form": "그",
+        "tag": "MM",
+        "span": [
+          0,
+          1
+        ],
+        "surface": "그"
+      },
+      {
+        "form": "식당",
+        "tag": "NNG",
+        "span": [
+          2,
+          4
+        ],
+        "surface": "식당"
+      },
+      {
+        "form": "음식",
+        "tag": "NNG",
+        "span": [
+          5,
+          7
+        ],
+        "surface": "음식"
+      },
+      {
+        "form": "이",
+        "tag": "JKS",
+        "span": [
+          7,
+          8
+        ],
+        "surface": "이"
+      },
+      {
+        "form": "짜",
+        "tag": "VA",
+        "span": [
+          9,
+          10
+        ],
+        "surface": "짜"
+      },
+      {
+        "form": "더라",
+        "tag": "EF",
+        "span": [
+          10,
+          12
+        ],
+        "surface": "더라"
+      },
+      {
+        "form": ".",
+        "tag": "SF",
+        "span": [
+          12,
+          13
+        ],
+        "surface": "."
+      }
+    ],
+    "words": [
+      {
+        "form": "식당",
+        "tag": "NNG",
+        "span": [
+          2,
+          4
+        ],
+        "surface": "식당",
+        "lemma": "식당",
+        "pos": "nominal",
+        "prefinals": [],
+        "ending": null,
+        "ending_tag": null,
+        "token_index": 1
+      },
+      {
+        "form": "음식",
+        "tag": "NNG",
+        "span": [
+          5,
+          7
+        ],
+        "surface": "음식",
+        "lemma": "음식",
+        "pos": "nominal",
+        "prefinals": [],
+        "ending": null,
+        "ending_tag": null,
+        "token_index": 2
+      },
+      {
+        "form": "짜",
+        "tag": "VA",
+        "span": [
+          9,
+          10
+        ],
+        "surface": "짜",
+        "lemma": "짜다",
+        "pos": "adjective",
+        "prefinals": [],
+        "ending": "더라",
+        "ending_tag": "EF",
+        "token_index": 4,
+        "predicate_span": [
+          9,
+          12
+        ]
+      }
+    ],
+    "status": "Kiwi_hypotheses_not_gold"
+  },
+  "packets": {
+    "v2_direct": {
+      "references": [
+        {
+          "id": "NAMU_GRAMMAR_20260908:v2:full:0768",
+          "source_id": "NAMU_GRAMMAR_20260908",
+          "type": "lexical_mapping",
+          "source_pattern": {
+            "text": "짜다",
+            "domain": "standard",
+            "lemma": "짜다",
+            "sense": "맛",
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "짭다",
+            "domain": "dialect",
+            "lemma": "짭다",
+            "sense": "맛",
+            "features": {}
+          },
+          "functions": [],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "위키의 세부 지역·화자·시대 범위와 해당 어휘 의미를 확인한다."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "동남 방언: 개별 지역·세대 제한 우선"
+            ],
+            "speech_levels": [],
+            "registers": [],
+            "period": [],
+            "note": "2026-09-07 수정판의 서술. 재인용을 독립 근거로 중복 계산하지 않는다."
+          },
+          "evidence": [
+            {
+              "pdf_page": 29,
+              "quote": "맛 표현\n    표준어      달다          시다       짜다      쓰다       맵다(매워)"
+            }
+          ],
+          "claim_status": "source_generalization",
+          "usability": "candidate",
+          "notes": "",
+          "input_binding": {
+            "text": "짜",
+            "span": [
+              9,
+              10
+            ],
+            "lemma": "짜다",
+            "prefinals": [],
+            "ending": "더라",
+            "predicate_span": [
+              9,
+              12
+            ],
+            "following_particle": null
+          },
+          "retrieval_route": "bound_lexical_mapping",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review",
+              "sense_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908:v2:full:0725",
+          "source_id": "NAMU_GRAMMAR_20260908",
+          "type": "ending",
+          "source_pattern": {
+            "text": "-더라",
+            "domain": "standard",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "-대",
+            "domain": "dialect",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "functions": [
+            "retrospective"
+          ],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "위키의 세부 지역·화자·시대 범위와 해당 어휘 의미를 확인한다."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "동남 방언: 개별 지역·세대 제한 우선"
+            ],
+            "speech_levels": [],
+            "registers": [],
+            "period": [],
+            "note": "2026-09-07 수정판의 서술. 재인용을 독립 근거로 중복 계산하지 않는다."
+          },
+          "evidence": [
+            {
+              "pdf_page": 28,
+              "quote": "-더라                            -대/-더라/-더래                                       거어 참 덥데\n       -고                             -고, -(인용)꼬                                       만다꼬[79]"
+            }
+          ],
+          "claim_status": "source_generalization",
+          "usability": "candidate",
+          "notes": "표의 기능/연결 위치를 확인한 후보. 질문 어미의 ㅏ/ㅗ, ㄴ/ㄱ 및 모음조화·지역·세대 조건은 관련 본문과 함께 검토해야 한다.",
+          "input_binding": {
+            "text": "그 식당 음식이 짜더라.",
+            "span": [
+              0,
+              13
+            ],
+            "clause_id": "ADVCE009A:c1",
+            "host_lemma": "짜다",
+            "ending": "더라",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "더라",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "retrieval_route": "source_form",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908:v2:full:0726",
+          "source_id": "NAMU_GRAMMAR_20260908",
+          "type": "ending",
+          "source_pattern": {
+            "text": "-더라",
+            "domain": "standard",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "-더라",
+            "domain": "dialect",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "functions": [
+            "retrospective"
+          ],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "위키의 세부 지역·화자·시대 범위와 해당 어휘 의미를 확인한다."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "동남 방언: 개별 지역·세대 제한 우선"
+            ],
+            "speech_levels": [],
+            "registers": [],
+            "period": [],
+            "note": "2026-09-07 수정판의 서술. 재인용을 독립 근거로 중복 계산하지 않는다."
+          },
+          "evidence": [
+            {
+              "pdf_page": 28,
+              "quote": "-더라                            -대/-더라/-더래                                       거어 참 덥데\n       -고                             -고, -(인용)꼬                                       만다꼬[79]"
+            }
+          ],
+          "claim_status": "source_generalization",
+          "usability": "candidate",
+          "notes": "표의 기능/연결 위치를 확인한 후보. 질문 어미의 ㅏ/ㅗ, ㄴ/ㄱ 및 모음조화·지역·세대 조건은 관련 본문과 함께 검토해야 한다.",
+          "input_binding": {
+            "text": "그 식당 음식이 짜더라.",
+            "span": [
+              0,
+              13
+            ],
+            "clause_id": "ADVCE009A:c1",
+            "host_lemma": "짜다",
+            "ending": "더라",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "더라",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "retrieval_route": "source_form",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908:v2:full:0727",
+          "source_id": "NAMU_GRAMMAR_20260908",
+          "type": "ending",
+          "source_pattern": {
+            "text": "-더라",
+            "domain": "standard",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "-더래",
+            "domain": "dialect",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "functions": [
+            "retrospective"
+          ],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "위키의 세부 지역·화자·시대 범위와 해당 어휘 의미를 확인한다."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "동남 방언: 개별 지역·세대 제한 우선"
+            ],
+            "speech_levels": [],
+            "registers": [],
+            "period": [],
+            "note": "2026-09-07 수정판의 서술. 재인용을 독립 근거로 중복 계산하지 않는다."
+          },
+          "evidence": [
+            {
+              "pdf_page": 28,
+              "quote": "-더라                            -대/-더라/-더래                                       거어 참 덥데\n       -고                             -고, -(인용)꼬                                       만다꼬[79]"
+            }
+          ],
+          "claim_status": "source_generalization",
+          "usability": "candidate",
+          "notes": "표의 기능/연결 위치를 확인한 후보. 질문 어미의 ㅏ/ㅗ, ㄴ/ㄱ 및 모음조화·지역·세대 조건은 관련 본문과 함께 검토해야 한다.",
+          "input_binding": {
+            "text": "그 식당 음식이 짜더라.",
+            "span": [
+              0,
+              13
+            ],
+            "clause_id": "ADVCE009A:c1",
+            "host_lemma": "짜다",
+            "ending": "더라",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "더라",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "retrieval_route": "source_form",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        },
+        {
+          "id": "JO2018:v2:declarative:0099",
+          "source_id": "JO2018",
+          "type": "ending",
+          "source_pattern": {
+            "text": "종결형: -ㄹ다",
+            "domain": "metalinguistic",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "-ㄹ다",
+            "domain": "dialect",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "functions": [
+            "declarative"
+          ],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "경북: 세부 분포는 진술 참조"
+            ],
+            "speech_levels": [
+              "해라"
+            ],
+            "registers": [
+              "구술 설화·민요·무가 및 조사 발화"
+            ],
+            "period": [
+              "1978–1984 채록"
+            ],
+            "note": ""
+          },
+          "evidence": [
+            {
+              "pdf_page": 109,
+              "quote": "별로제시하면다음과같다.<표19>해라체서술법종결어미높임등급유형종결어미방언형-ㄹ다,-ㅅ다,-ㄹ끼다,-데이,-래이,-(ㄹ)꾸마해라체표준형-다,-ㄴ다,-아라/어라해라체서술법종결어미는하게체와달리방언형이상대적으로더많이나타난다.특히,표준형의‘-다’,‘-ㄴ다’와다른결합방식을가진‘-ㄹ다’,‘-ㅅ다’,‘-ㄹ끼다’,하이소체의‘-니데이/ㅂ니데이’에서앞의형태소가절단되어높임의등급이낮아진‘-데이’,표준형‘-아라/어라’에대응되는‘-래이’,감탄을나타내는‘-구마’,약속을나타내는‘-꾸마’등다양한기능과의미를가진형태들이나타난다.한편,기존연구에서제시된해라체서술법종결어미목록체계양상을바탕으로몇가지특성을제시하면다음과같다.116)첫째,기존연구에서비격식체를설정하지않은경우,대부분비격식체의해체를해라체에포함시켜다루고있다.대표적으로‘-지러’의경우를살펴보기로한다.-지러:하소체(황대화:1998,리동빈:2004)하게체(김태엽:1996,황"
+            }
+          ],
+          "claim_status": "attested_form",
+          "usability": "candidate",
+          "notes": "문법 범주는 서술; 세부 추측·감탄·약속과 결합 조건을 구분.",
+          "input_binding": {
+            "text": "그 식당 음식이 짜더라.",
+            "span": [
+              0,
+              13
+            ],
+            "clause_id": "ADVCE009A:c1",
+            "host_lemma": "짜다",
+            "ending": "더라",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "더라",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "retrieval_route": "clause_function",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        },
+        {
+          "id": "JO2018:v2:declarative:0100",
+          "source_id": "JO2018",
+          "type": "ending",
+          "source_pattern": {
+            "text": "종결형: -ㅅ다",
+            "domain": "metalinguistic",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "-ㅅ다",
+            "domain": "dialect",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "functions": [
+            "declarative"
+          ],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "경북: 세부 분포는 진술 참조"
+            ],
+            "speech_levels": [
+              "해라"
+            ],
+            "registers": [
+              "구술 설화·민요·무가 및 조사 발화"
+            ],
+            "period": [
+              "1978–1984 채록"
+            ],
+            "note": ""
+          },
+          "evidence": [
+            {
+              "pdf_page": 109,
+              "quote": "하면다음과같다.<표19>해라체서술법종결어미높임등급유형종결어미방언형-ㄹ다,-ㅅ다,-ㄹ끼다,-데이,-래이,-(ㄹ)꾸마해라체표준형-다,-ㄴ다,-아라/어라해라체서술법종결어미는하게체와달리방언형이상대적으로더많이나타난다.특히,표준형의‘-다’,‘-ㄴ다’와다른결합방식을가진‘-ㄹ다’,‘-ㅅ다’,‘-ㄹ끼다’,하이소체의‘-니데이/ㅂ니데이’에서앞의형태소가절단되어높임의등급이낮아진‘-데이’,표준형‘-아라/어라’에대응되는‘-래이’,감탄을나타내는‘-구마’,약속을나타내는‘-꾸마’등다양한기능과의미를가진형태들이나타난다.한편,기존연구에서제시된해라체서술법종결어미목록체계양상을바탕으로몇가지특성을제시하면다음과같다.116)첫째,기존연구에서비격식체를설정하지않은경우,대부분비격식체의해체를해라체에포함시켜다루고있다.대표적으로‘-지러’의경우를살펴보기로한다.-지러:하소체(황대화:1998,리동빈:2004)하게체(김태엽:1996,황대화:1"
+            }
+          ],
+          "claim_status": "attested_form",
+          "usability": "candidate",
+          "notes": "문법 범주는 서술; 세부 추측·감탄·약속과 결합 조건을 구분.",
+          "input_binding": {
+            "text": "그 식당 음식이 짜더라.",
+            "span": [
+              0,
+              13
+            ],
+            "clause_id": "ADVCE009A:c1",
+            "host_lemma": "짜다",
+            "ending": "더라",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "더라",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "retrieval_route": "clause_function",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        },
+        {
+          "id": "JO2018:v2:declarative:0101",
+          "source_id": "JO2018",
+          "type": "ending",
+          "source_pattern": {
+            "text": "종결형: -ㄹ끼다",
+            "domain": "metalinguistic",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "-ㄹ끼다",
+            "domain": "dialect",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "functions": [
+            "declarative"
+          ],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "경북: 세부 분포는 진술 참조"
+            ],
+            "speech_levels": [
+              "해라"
+            ],
+            "registers": [
+              "구술 설화·민요·무가 및 조사 발화"
+            ],
+            "period": [
+              "1978–1984 채록"
+            ],
+            "note": ""
+          },
+          "evidence": [
+            {
+              "pdf_page": 109,
+              "quote": "과같다.<표19>해라체서술법종결어미높임등급유형종결어미방언형-ㄹ다,-ㅅ다,-ㄹ끼다,-데이,-래이,-(ㄹ)꾸마해라체표준형-다,-ㄴ다,-아라/어라해라체서술법종결어미는하게체와달리방언형이상대적으로더많이나타난다.특히,표준형의‘-다’,‘-ㄴ다’와다른결합방식을가진‘-ㄹ다’,‘-ㅅ다’,‘-ㄹ끼다’,하이소체의‘-니데이/ㅂ니데이’에서앞의형태소가절단되어높임의등급이낮아진‘-데이’,표준형‘-아라/어라’에대응되는‘-래이’,감탄을나타내는‘-구마’,약속을나타내는‘-꾸마’등다양한기능과의미를가진형태들이나타난다.한편,기존연구에서제시된해라체서술법종결어미목록체계양상을바탕으로몇가지특성을제시하면다음과같다.116)첫째,기존연구에서비격식체를설정하지않은경우,대부분비격식체의해체를해라체에포함시켜다루고있다.대표적으로‘-지러’의경우를살펴보기로한다.-지러:하소체(황대화:1998,리동빈:2004)하게체(김태엽:1996,황대화:1998)"
+            }
+          ],
+          "claim_status": "attested_form",
+          "usability": "candidate",
+          "notes": "문법 범주는 서술; 세부 추측·감탄·약속과 결합 조건을 구분.",
+          "input_binding": {
+            "text": "그 식당 음식이 짜더라.",
+            "span": [
+              0,
+              13
+            ],
+            "clause_id": "ADVCE009A:c1",
+            "host_lemma": "짜다",
+            "ending": "더라",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "더라",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "retrieval_route": "clause_function",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        }
+      ],
+      "graph_paths": []
+    },
+    "v2_graph": {
+      "references": [
+        {
+          "id": "NAMU_GRAMMAR_20260908:v2:full:0768",
+          "source_id": "NAMU_GRAMMAR_20260908",
+          "type": "lexical_mapping",
+          "source_pattern": {
+            "text": "짜다",
+            "domain": "standard",
+            "lemma": "짜다",
+            "sense": "맛",
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "짭다",
+            "domain": "dialect",
+            "lemma": "짭다",
+            "sense": "맛",
+            "features": {}
+          },
+          "functions": [],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "위키의 세부 지역·화자·시대 범위와 해당 어휘 의미를 확인한다."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "동남 방언: 개별 지역·세대 제한 우선"
+            ],
+            "speech_levels": [],
+            "registers": [],
+            "period": [],
+            "note": "2026-09-07 수정판의 서술. 재인용을 독립 근거로 중복 계산하지 않는다."
+          },
+          "evidence": [
+            {
+              "pdf_page": 29,
+              "quote": "맛 표현\n    표준어      달다          시다       짜다      쓰다       맵다(매워)"
+            }
+          ],
+          "claim_status": "source_generalization",
+          "usability": "candidate",
+          "notes": "",
+          "input_binding": {
+            "text": "짜",
+            "span": [
+              9,
+              10
+            ],
+            "lemma": "짜다",
+            "prefinals": [],
+            "ending": "더라",
+            "predicate_span": [
+              9,
+              12
+            ],
+            "following_particle": null
+          },
+          "retrieval_route": "bound_lexical_mapping",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review",
+              "sense_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908:v2:full:0725",
+          "source_id": "NAMU_GRAMMAR_20260908",
+          "type": "ending",
+          "source_pattern": {
+            "text": "-더라",
+            "domain": "standard",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "-대",
+            "domain": "dialect",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "functions": [
+            "retrospective"
+          ],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "위키의 세부 지역·화자·시대 범위와 해당 어휘 의미를 확인한다."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "동남 방언: 개별 지역·세대 제한 우선"
+            ],
+            "speech_levels": [],
+            "registers": [],
+            "period": [],
+            "note": "2026-09-07 수정판의 서술. 재인용을 독립 근거로 중복 계산하지 않는다."
+          },
+          "evidence": [
+            {
+              "pdf_page": 28,
+              "quote": "-더라                            -대/-더라/-더래                                       거어 참 덥데\n       -고                             -고, -(인용)꼬                                       만다꼬[79]"
+            }
+          ],
+          "claim_status": "source_generalization",
+          "usability": "candidate",
+          "notes": "표의 기능/연결 위치를 확인한 후보. 질문 어미의 ㅏ/ㅗ, ㄴ/ㄱ 및 모음조화·지역·세대 조건은 관련 본문과 함께 검토해야 한다.",
+          "input_binding": {
+            "text": "그 식당 음식이 짜더라.",
+            "span": [
+              0,
+              13
+            ],
+            "clause_id": "ADVCE009A:c1",
+            "host_lemma": "짜다",
+            "ending": "더라",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "더라",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "retrieval_route": "source_form",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908:v2:full:0726",
+          "source_id": "NAMU_GRAMMAR_20260908",
+          "type": "ending",
+          "source_pattern": {
+            "text": "-더라",
+            "domain": "standard",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "-더라",
+            "domain": "dialect",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "functions": [
+            "retrospective"
+          ],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "위키의 세부 지역·화자·시대 범위와 해당 어휘 의미를 확인한다."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "동남 방언: 개별 지역·세대 제한 우선"
+            ],
+            "speech_levels": [],
+            "registers": [],
+            "period": [],
+            "note": "2026-09-07 수정판의 서술. 재인용을 독립 근거로 중복 계산하지 않는다."
+          },
+          "evidence": [
+            {
+              "pdf_page": 28,
+              "quote": "-더라                            -대/-더라/-더래                                       거어 참 덥데\n       -고                             -고, -(인용)꼬                                       만다꼬[79]"
+            }
+          ],
+          "claim_status": "source_generalization",
+          "usability": "candidate",
+          "notes": "표의 기능/연결 위치를 확인한 후보. 질문 어미의 ㅏ/ㅗ, ㄴ/ㄱ 및 모음조화·지역·세대 조건은 관련 본문과 함께 검토해야 한다.",
+          "input_binding": {
+            "text": "그 식당 음식이 짜더라.",
+            "span": [
+              0,
+              13
+            ],
+            "clause_id": "ADVCE009A:c1",
+            "host_lemma": "짜다",
+            "ending": "더라",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "더라",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "retrieval_route": "source_form",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        },
+        {
+          "id": "NAMU_GRAMMAR_20260908:v2:full:0727",
+          "source_id": "NAMU_GRAMMAR_20260908",
+          "type": "ending",
+          "source_pattern": {
+            "text": "-더라",
+            "domain": "standard",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "-더래",
+            "domain": "dialect",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "functions": [
+            "retrospective"
+          ],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "위키의 세부 지역·화자·시대 범위와 해당 어휘 의미를 확인한다."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "동남 방언: 개별 지역·세대 제한 우선"
+            ],
+            "speech_levels": [],
+            "registers": [],
+            "period": [],
+            "note": "2026-09-07 수정판의 서술. 재인용을 독립 근거로 중복 계산하지 않는다."
+          },
+          "evidence": [
+            {
+              "pdf_page": 28,
+              "quote": "-더라                            -대/-더라/-더래                                       거어 참 덥데\n       -고                             -고, -(인용)꼬                                       만다꼬[79]"
+            }
+          ],
+          "claim_status": "source_generalization",
+          "usability": "candidate",
+          "notes": "표의 기능/연결 위치를 확인한 후보. 질문 어미의 ㅏ/ㅗ, ㄴ/ㄱ 및 모음조화·지역·세대 조건은 관련 본문과 함께 검토해야 한다.",
+          "input_binding": {
+            "text": "그 식당 음식이 짜더라.",
+            "span": [
+              0,
+              13
+            ],
+            "clause_id": "ADVCE009A:c1",
+            "host_lemma": "짜다",
+            "ending": "더라",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "더라",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "retrieval_route": "source_form",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        },
+        {
+          "id": "JO2018:v2:declarative:0099",
+          "source_id": "JO2018",
+          "type": "ending",
+          "source_pattern": {
+            "text": "종결형: -ㄹ다",
+            "domain": "metalinguistic",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "-ㄹ다",
+            "domain": "dialect",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "functions": [
+            "declarative"
+          ],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "경북: 세부 분포는 진술 참조"
+            ],
+            "speech_levels": [
+              "해라"
+            ],
+            "registers": [
+              "구술 설화·민요·무가 및 조사 발화"
+            ],
+            "period": [
+              "1978–1984 채록"
+            ],
+            "note": ""
+          },
+          "evidence": [
+            {
+              "pdf_page": 109,
+              "quote": "별로제시하면다음과같다.<표19>해라체서술법종결어미높임등급유형종결어미방언형-ㄹ다,-ㅅ다,-ㄹ끼다,-데이,-래이,-(ㄹ)꾸마해라체표준형-다,-ㄴ다,-아라/어라해라체서술법종결어미는하게체와달리방언형이상대적으로더많이나타난다.특히,표준형의‘-다’,‘-ㄴ다’와다른결합방식을가진‘-ㄹ다’,‘-ㅅ다’,‘-ㄹ끼다’,하이소체의‘-니데이/ㅂ니데이’에서앞의형태소가절단되어높임의등급이낮아진‘-데이’,표준형‘-아라/어라’에대응되는‘-래이’,감탄을나타내는‘-구마’,약속을나타내는‘-꾸마’등다양한기능과의미를가진형태들이나타난다.한편,기존연구에서제시된해라체서술법종결어미목록체계양상을바탕으로몇가지특성을제시하면다음과같다.116)첫째,기존연구에서비격식체를설정하지않은경우,대부분비격식체의해체를해라체에포함시켜다루고있다.대표적으로‘-지러’의경우를살펴보기로한다.-지러:하소체(황대화:1998,리동빈:2004)하게체(김태엽:1996,황"
+            }
+          ],
+          "claim_status": "attested_form",
+          "usability": "candidate",
+          "notes": "문법 범주는 서술; 세부 추측·감탄·약속과 결합 조건을 구분.",
+          "input_binding": {
+            "text": "그 식당 음식이 짜더라.",
+            "span": [
+              0,
+              13
+            ],
+            "clause_id": "ADVCE009A:c1",
+            "host_lemma": "짜다",
+            "ending": "더라",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "더라",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "retrieval_route": "clause_function",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        },
+        {
+          "id": "JO2018:v2:declarative:0100",
+          "source_id": "JO2018",
+          "type": "ending",
+          "source_pattern": {
+            "text": "종결형: -ㅅ다",
+            "domain": "metalinguistic",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "-ㅅ다",
+            "domain": "dialect",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "functions": [
+            "declarative"
+          ],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "경북: 세부 분포는 진술 참조"
+            ],
+            "speech_levels": [
+              "해라"
+            ],
+            "registers": [
+              "구술 설화·민요·무가 및 조사 발화"
+            ],
+            "period": [
+              "1978–1984 채록"
+            ],
+            "note": ""
+          },
+          "evidence": [
+            {
+              "pdf_page": 109,
+              "quote": "하면다음과같다.<표19>해라체서술법종결어미높임등급유형종결어미방언형-ㄹ다,-ㅅ다,-ㄹ끼다,-데이,-래이,-(ㄹ)꾸마해라체표준형-다,-ㄴ다,-아라/어라해라체서술법종결어미는하게체와달리방언형이상대적으로더많이나타난다.특히,표준형의‘-다’,‘-ㄴ다’와다른결합방식을가진‘-ㄹ다’,‘-ㅅ다’,‘-ㄹ끼다’,하이소체의‘-니데이/ㅂ니데이’에서앞의형태소가절단되어높임의등급이낮아진‘-데이’,표준형‘-아라/어라’에대응되는‘-래이’,감탄을나타내는‘-구마’,약속을나타내는‘-꾸마’등다양한기능과의미를가진형태들이나타난다.한편,기존연구에서제시된해라체서술법종결어미목록체계양상을바탕으로몇가지특성을제시하면다음과같다.116)첫째,기존연구에서비격식체를설정하지않은경우,대부분비격식체의해체를해라체에포함시켜다루고있다.대표적으로‘-지러’의경우를살펴보기로한다.-지러:하소체(황대화:1998,리동빈:2004)하게체(김태엽:1996,황대화:1"
+            }
+          ],
+          "claim_status": "attested_form",
+          "usability": "candidate",
+          "notes": "문법 범주는 서술; 세부 추측·감탄·약속과 결합 조건을 구분.",
+          "input_binding": {
+            "text": "그 식당 음식이 짜더라.",
+            "span": [
+              0,
+              13
+            ],
+            "clause_id": "ADVCE009A:c1",
+            "host_lemma": "짜다",
+            "ending": "더라",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "더라",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "retrieval_route": "clause_function",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        },
+        {
+          "id": "JO2018:v2:declarative:0101",
+          "source_id": "JO2018",
+          "type": "ending",
+          "source_pattern": {
+            "text": "종결형: -ㄹ끼다",
+            "domain": "metalinguistic",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "-ㄹ끼다",
+            "domain": "dialect",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "functions": [
+            "declarative"
+          ],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "경북: 세부 분포는 진술 참조"
+            ],
+            "speech_levels": [
+              "해라"
+            ],
+            "registers": [
+              "구술 설화·민요·무가 및 조사 발화"
+            ],
+            "period": [
+              "1978–1984 채록"
+            ],
+            "note": ""
+          },
+          "evidence": [
+            {
+              "pdf_page": 109,
+              "quote": "과같다.<표19>해라체서술법종결어미높임등급유형종결어미방언형-ㄹ다,-ㅅ다,-ㄹ끼다,-데이,-래이,-(ㄹ)꾸마해라체표준형-다,-ㄴ다,-아라/어라해라체서술법종결어미는하게체와달리방언형이상대적으로더많이나타난다.특히,표준형의‘-다’,‘-ㄴ다’와다른결합방식을가진‘-ㄹ다’,‘-ㅅ다’,‘-ㄹ끼다’,하이소체의‘-니데이/ㅂ니데이’에서앞의형태소가절단되어높임의등급이낮아진‘-데이’,표준형‘-아라/어라’에대응되는‘-래이’,감탄을나타내는‘-구마’,약속을나타내는‘-꾸마’등다양한기능과의미를가진형태들이나타난다.한편,기존연구에서제시된해라체서술법종결어미목록체계양상을바탕으로몇가지특성을제시하면다음과같다.116)첫째,기존연구에서비격식체를설정하지않은경우,대부분비격식체의해체를해라체에포함시켜다루고있다.대표적으로‘-지러’의경우를살펴보기로한다.-지러:하소체(황대화:1998,리동빈:2004)하게체(김태엽:1996,황대화:1998)"
+            }
+          ],
+          "claim_status": "attested_form",
+          "usability": "candidate",
+          "notes": "문법 범주는 서술; 세부 추측·감탄·약속과 결합 조건을 구분.",
+          "input_binding": {
+            "text": "그 식당 음식이 짜더라.",
+            "span": [
+              0,
+              13
+            ],
+            "clause_id": "ADVCE009A:c1",
+            "host_lemma": "짜다",
+            "ending": "더라",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "더라",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "retrieval_route": "clause_function",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        }
+      ],
+      "graph_paths": []
+    }
+  },
+  "rejected": [
+    {
+      "id": "JO2018:v2:declarative:0115",
+      "binding": {
+        "text": "그 식당 음식이 짜더라.",
+        "span": [
+          0,
+          13
+        ],
+        "clause_id": "ADVCE009A:c1",
+        "host_lemma": "짜다",
+        "ending": "더라",
+        "speech_style_preference": {
+          "politeness": "non_polite",
+          "register": "unknown",
+          "source_ending": "더라",
+          "basis": "cached_politeness_only"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [
+          {
+            "owner": "input",
+            "field": "function",
+            "op": "in",
+            "value": [
+              "conjecture",
+              "possibility"
+            ],
+            "basis": "explicit",
+            "actual": "declarative",
+            "status": "failed"
+          }
+        ],
+        "review_reasons": [
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "JO2018:v2:declarative:0117",
+      "binding": {
+        "text": "그 식당 음식이 짜더라.",
+        "span": [
+          0,
+          13
+        ],
+        "clause_id": "ADVCE009A:c1",
+        "host_lemma": "짜다",
+        "ending": "더라",
+        "speech_style_preference": {
+          "politeness": "non_polite",
+          "register": "unknown",
+          "source_ending": "더라",
+          "basis": "cached_politeness_only"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [],
+        "review_reasons": [
+          "textual_constraints_require_review",
+          "source_scope_requires_review",
+          "claim_status_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "JO2018:v2:declarative:0119",
+      "binding": {
+        "text": "그 식당 음식이 짜더라.",
+        "span": [
+          0,
+          13
+        ],
+        "clause_id": "ADVCE009A:c1",
+        "host_lemma": "짜다",
+        "ending": "더라",
+        "speech_style_preference": {
+          "politeness": "non_polite",
+          "register": "unknown",
+          "source_ending": "더라",
+          "basis": "cached_politeness_only"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [
+          {
+            "owner": "candidate",
+            "field": "pos",
+            "op": "eq",
+            "value": "adjective",
+            "basis": "explicit",
+            "actual": "adjective",
+            "status": "satisfied"
+          },
+          {
+            "owner": "input",
+            "field": "function",
+            "op": "eq",
+            "value": "exclamative",
+            "basis": "explicit",
+            "actual": "declarative",
+            "status": "failed"
+          }
+        ],
+        "review_reasons": [
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "JO2018:v2:declarative:0120",
+      "binding": {
+        "text": "그 식당 음식이 짜더라.",
+        "span": [
+          0,
+          13
+        ],
+        "clause_id": "ADVCE009A:c1",
+        "host_lemma": "짜다",
+        "ending": "더라",
+        "speech_style_preference": {
+          "politeness": "non_polite",
+          "register": "unknown",
+          "source_ending": "더라",
+          "basis": "cached_politeness_only"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [
+          {
+            "owner": "candidate",
+            "field": "pos",
+            "op": "eq",
+            "value": "adjective",
+            "basis": "explicit",
+            "actual": "adjective",
+            "status": "satisfied"
+          },
+          {
+            "owner": "input",
+            "field": "function",
+            "op": "eq",
+            "value": "exclamative",
+            "basis": "explicit",
+            "actual": "declarative",
+            "status": "failed"
+          }
+        ],
+        "review_reasons": [
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "JO2018:v2:declarative:0122",
+      "binding": {
+        "text": "그 식당 음식이 짜더라.",
+        "span": [
+          0,
+          13
+        ],
+        "clause_id": "ADVCE009A:c1",
+        "host_lemma": "짜다",
+        "ending": "더라",
+        "speech_style_preference": {
+          "politeness": "non_polite",
+          "register": "unknown",
+          "source_ending": "더라",
+          "basis": "cached_politeness_only"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [
+          {
+            "owner": "candidate",
+            "field": "pos",
+            "op": "eq",
+            "value": "verb",
+            "basis": "explicit",
+            "actual": "adjective",
+            "status": "failed"
+          },
+          {
+            "owner": "input",
+            "field": "function",
+            "op": "eq",
+            "value": "promise",
+            "basis": "explicit",
+            "actual": "declarative",
+            "status": "failed"
+          }
+        ],
+        "review_reasons": [
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "JO2018:v2:declarative:0123",
+      "binding": {
+        "text": "그 식당 음식이 짜더라.",
+        "span": [
+          0,
+          13
+        ],
+        "clause_id": "ADVCE009A:c1",
+        "host_lemma": "짜다",
+        "ending": "더라",
+        "speech_style_preference": {
+          "politeness": "non_polite",
+          "register": "unknown",
+          "source_ending": "더라",
+          "basis": "cached_politeness_only"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [
+          {
+            "owner": "candidate",
+            "field": "pos",
+            "op": "eq",
+            "value": "verb",
+            "basis": "explicit",
+            "actual": "adjective",
+            "status": "failed"
+          },
+          {
+            "owner": "input",
+            "field": "function",
+            "op": "eq",
+            "value": "promise",
+            "basis": "explicit",
+            "actual": "declarative",
+            "status": "failed"
+          }
+        ],
+        "review_reasons": [
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "JO2018:v2:informal:0135",
+      "binding": {
+        "text": "그 식당 음식이 짜더라.",
+        "span": [
+          0,
+          13
+        ],
+        "clause_id": "ADVCE009A:c1",
+        "host_lemma": "짜다",
+        "ending": "더라",
+        "speech_style_preference": {
+          "politeness": "non_polite",
+          "register": "unknown",
+          "source_ending": "더라",
+          "basis": "cached_politeness_only"
+        }
+      },
+      "route": "clause_function",
+      "reason": "unknown_structured_condition",
+      "checks": {
+        "rejected": false,
+        "conditions": [
+          {
+            "owner": "candidate",
+            "field": "preceding_suffix",
+            "op": "eq",
+            "value": "-ㄹ-",
+            "basis": "explicit",
+            "actual": null,
+            "status": "unknown"
+          }
+        ],
+        "review_reasons": [
+          "missing_structured_analysis",
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    }
+  ],
+  "proposal_count": 30,
+  "speech_style_profiles": [
+    {
+      "clause_id": "ADVCE009A:c1",
+      "span": [
+        0,
+        13
+      ],
+      "politeness": "non_polite",
+      "register": "unknown",
+      "source_ending": "더라",
+      "basis": "cached_politeness_only"
+    }
+  ],
+  "selection_audit": {
+    "v2_direct": {
+      "omitted": [
+        {
+          "id": "JO2018:v2:declarative:0102",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:declarative:0103",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:declarative:0104",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:declarative:0105",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:declarative:0106",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:declarative:0107",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:declarative:0108",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:declarative:0118",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:informal:0001",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:informal:0002",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:informal:0003",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:informal:0004",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:informal:0005",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:informal:0006",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:informal:0007",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:informal:0008",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:informal:0009",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:informal:0010",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:informal:0011",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:informal:0012",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:informal:0013",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908:v2:full:0106",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908:v2:full:0131",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        }
+      ]
+    },
+    "v2_graph": {
+      "omitted": [
+        {
+          "id": "JO2018:v2:declarative:0102",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:declarative:0103",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:declarative:0104",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:declarative:0105",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:declarative:0106",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:declarative:0107",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:declarative:0108",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:declarative:0118",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:informal:0001",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:informal:0002",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:informal:0003",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:informal:0004",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:informal:0005",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:informal:0006",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:informal:0007",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:informal:0008",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:informal:0009",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:informal:0010",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:informal:0011",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:informal:0012",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "JO2018:v2:informal:0013",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908:v2:full:0106",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908:v2:full:0131",
+          "span": [
+            0,
+            13
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 0
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "Morphology and cached semantic analysis are hypotheses.",
+    "Unknown structured conditions excluded; textual scope and sense remain explicit references.",
+    "Speech-style priority is a source-cued retrieval heuristic, not dialect equivalence or generation validation.",
+    "No missing inflections synthesized; generator must preserve unprovided tense/honorific material."
+  ]
+}

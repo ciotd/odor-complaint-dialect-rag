@@ -1,0 +1,23 @@
+{
+  "agents": [
+    {
+      "agent": "/root/jo_review",
+      "parent_thread": "01a11a98-7c06-7882-b357-0398888813e2",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "medium"
+    },
+    {
+      "agent": "/root/grammar_honorific_review",
+      "parent_thread": "01a11a98-7c06-7882-b357-0398888813e2",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "medium"
+    },
+    {
+      "agent": "/root/other_sources_review",
+      "parent_thread": "01a11a98-7c06-7882-b357-0398888813e2",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "medium"
+    }
+  ],
+  "task_prompt_verbatim": "Local task-message content is encrypted; delegation instructions are reconstructed from AUTHORING.md and completion reports, not presented as verbatim."
+}

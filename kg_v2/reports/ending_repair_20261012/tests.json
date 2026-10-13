@@ -1,0 +1,7 @@
+{
+  "command": ".venv/retrieval/bin/python -m unittest discover -s kg_v2 -p 'test_*.py' -v",
+  "tests": 31,
+  "seconds": 8.839,
+  "status": "passed",
+  "scope": "KG/query and retrieval regressions, not generation quality"
+}

@@ -1,0 +1,336 @@
+{
+  "id": "ADVCE001A",
+  "input": "기차가 지금 정차하나요?",
+  "morphology": {
+    "tokens": [
+      {
+        "form": "기차",
+        "tag": "NNG",
+        "span": [
+          0,
+          2
+        ],
+        "surface": "기차"
+      },
+      {
+        "form": "가",
+        "tag": "JKS",
+        "span": [
+          2,
+          3
+        ],
+        "surface": "가"
+      },
+      {
+        "form": "지금",
+        "tag": "MAG",
+        "span": [
+          4,
+          6
+        ],
+        "surface": "지금"
+      },
+      {
+        "form": "정차",
+        "tag": "NNG",
+        "span": [
+          7,
+          9
+        ],
+        "surface": "정차"
+      },
+      {
+        "form": "하",
+        "tag": "XSV",
+        "span": [
+          9,
+          10
+        ],
+        "surface": "하"
+      },
+      {
+        "form": "나요",
+        "tag": "EF",
+        "span": [
+          10,
+          12
+        ],
+        "surface": "나요"
+      },
+      {
+        "form": "?",
+        "tag": "SF",
+        "span": [
+          12,
+          13
+        ],
+        "surface": "?"
+      }
+    ],
+    "words": [
+      {
+        "form": "기차",
+        "tag": "NNG",
+        "span": [
+          0,
+          2
+        ],
+        "surface": "기차",
+        "lemma": "기차",
+        "pos": "nominal",
+        "prefinals": [],
+        "ending": null,
+        "ending_tag": null,
+        "token_index": 0
+      },
+      {
+        "form": "지금",
+        "tag": "MAG",
+        "span": [
+          4,
+          6
+        ],
+        "surface": "지금",
+        "lemma": "지금",
+        "pos": "nominal",
+        "prefinals": [],
+        "ending": null,
+        "ending_tag": null,
+        "token_index": 2
+      },
+      {
+        "form": "정차",
+        "tag": "NNG",
+        "span": [
+          7,
+          9
+        ],
+        "surface": "정차",
+        "lemma": "정차",
+        "pos": "nominal",
+        "prefinals": [],
+        "ending": null,
+        "ending_tag": null,
+        "token_index": 3
+      }
+    ],
+    "status": "Kiwi_hypotheses_not_gold"
+  },
+  "packets": {
+    "v2_direct": {
+      "references": [
+        {
+          "id": "NAMU20260901:v2:full:0027",
+          "source_id": "NAMU20260901",
+          "type": "lexical_mapping",
+          "source_pattern": {
+            "text": "지금",
+            "domain": "standard",
+            "lemma": "지금",
+            "sense": null,
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "짐",
+            "domain": "dialect",
+            "lemma": "짐",
+            "sense": null,
+            "features": {}
+          },
+          "functions": [],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "2026-09-01 위키 판의 서술·재전사. 지역·세대·화용 제약 및 원영상 미검증을 고려한다."
+            },
+            {
+              "kind": "scope",
+              "description": "49쪽 각주: 화자별 축약 단계와 발음·표기·연령 차이를 유지하며 일괄 철자 치환으로 쓰지 않는다."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "동남 방언: 진술별 범위 우선"
+            ],
+            "speech_levels": [],
+            "registers": [],
+            "period": [],
+            "note": ""
+          },
+          "evidence": [
+            {
+              "pdf_page": 6,
+              "quote": "예5) 오늘 → 올, 지금 → 짐, 내일 → 낼[11]\n        이중모음의 단모음화"
+            },
+            {
+              "pdf_page": 49,
+              "quote": "지역이나 화자에 따라서는 완전히 한음절로 축약되지는 않고"
+            }
+          ],
+          "claim_status": "source_generalization",
+          "usability": "candidate",
+          "notes": "음변화 예의 형태 대응. 축약 단계·발음·표기·세대 차이를 모두 동일한 표기로 강제하지 않는다.",
+          "input_binding": {
+            "text": "지금",
+            "span": [
+              4,
+              6
+            ],
+            "lemma": "지금",
+            "prefinals": [],
+            "ending": null,
+            "predicate_span": null,
+            "following_particle": null
+          },
+          "retrieval_route": "bound_lexical_mapping",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        }
+      ],
+      "graph_paths": []
+    },
+    "v2_graph": {
+      "references": [
+        {
+          "id": "NAMU20260901:v2:full:0027",
+          "source_id": "NAMU20260901",
+          "type": "lexical_mapping",
+          "source_pattern": {
+            "text": "지금",
+            "domain": "standard",
+            "lemma": "지금",
+            "sense": null,
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "짐",
+            "domain": "dialect",
+            "lemma": "짐",
+            "sense": null,
+            "features": {}
+          },
+          "functions": [],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "2026-09-01 위키 판의 서술·재전사. 지역·세대·화용 제약 및 원영상 미검증을 고려한다."
+            },
+            {
+              "kind": "scope",
+              "description": "49쪽 각주: 화자별 축약 단계와 발음·표기·연령 차이를 유지하며 일괄 철자 치환으로 쓰지 않는다."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "동남 방언: 진술별 범위 우선"
+            ],
+            "speech_levels": [],
+            "registers": [],
+            "period": [],
+            "note": ""
+          },
+          "evidence": [
+            {
+              "pdf_page": 6,
+              "quote": "예5) 오늘 → 올, 지금 → 짐, 내일 → 낼[11]\n        이중모음의 단모음화"
+            },
+            {
+              "pdf_page": 49,
+              "quote": "지역이나 화자에 따라서는 완전히 한음절로 축약되지는 않고"
+            }
+          ],
+          "claim_status": "source_generalization",
+          "usability": "candidate",
+          "notes": "음변화 예의 형태 대응. 축약 단계·발음·표기·세대 차이를 모두 동일한 표기로 강제하지 않는다.",
+          "input_binding": {
+            "text": "지금",
+            "span": [
+              4,
+              6
+            ],
+            "lemma": "지금",
+            "prefinals": [],
+            "ending": null,
+            "predicate_span": null,
+            "following_particle": null
+          },
+          "retrieval_route": "bound_lexical_mapping",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        }
+      ],
+      "graph_paths": []
+    }
+  },
+  "rejected": [
+    {
+      "id": "NAMU_PHONOLOGY_20260908:v2:full:0062",
+      "binding": {
+        "text": "지금",
+        "span": [
+          4,
+          6
+        ],
+        "lemma": "지금",
+        "prefinals": [],
+        "ending": null,
+        "predicate_span": null,
+        "following_particle": null
+      },
+      "route": "bound_lexical_mapping",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [],
+        "review_reasons": [
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    }
+  ],
+  "proposal_count": 1,
+  "speech_style_profiles": [
+    {
+      "clause_id": "ADVCE001A:c1",
+      "span": [
+        0,
+        13
+      ],
+      "politeness": "polite",
+      "register": "informal_polite",
+      "source_ending": "나요",
+      "basis": "source_terminal_form"
+    }
+  ],
+  "selection_audit": {
+    "v2_direct": {
+      "omitted": []
+    },
+    "v2_graph": {
+      "omitted": []
+    }
+  },
+  "limitations": [
+    "Morphology and cached semantic analysis are hypotheses.",
+    "Unknown structured conditions excluded; textual scope and sense remain explicit references.",
+    "Speech-style priority is a source-cued retrieval heuristic, not dialect equivalence or generation validation.",
+    "No missing inflections synthesized; generator must preserve unprovided tense/honorific material."
+  ]
+}

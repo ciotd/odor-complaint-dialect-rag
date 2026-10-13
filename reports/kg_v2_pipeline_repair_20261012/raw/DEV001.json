@@ -1,0 +1,72 @@
+{
+  "id": "DEV001",
+  "input": "오늘은 날씨가 참 좋네요.",
+  "condition": "after",
+  "request": {
+    "model": "Qwen3.8-27B",
+    "max_tokens": 512,
+    "temperature": 0.3,
+    "top_p": 0.8,
+    "top_k": 20,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "seed": 20260923,
+    "messages": [
+      {
+        "role": "system",
+        "content": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요."
+      },
+      {
+        "role": "user",
+        "content": "standard를 자연스러운 경상도 방언으로 변환하세요. analysis와 source_morphology는 원문 분석의 가설이며 원문이 우선입니다. transformation_plan 또는 references와 graph_paths는 조건부 참고 자료입니다. 의미·지역·시대·높임·결합 조건이 맞는 자료를 선택하고 관련 없는 자료는 사용하지 마세요. 조건 미확인은 적용 허용이 아니며 연결된 진술끼리 조건을 상속하지 않습니다. 기본형 대응과 완성 활용형을 구별하고 원문의 부정·시제·높임·인용·발화 의도를 유지하세요. preservation의 관형절·겸양·주체와 청자 높임·이동 관점 보존을 어휘 치환보다 우선하세요. 모델 조언 후보는 원문 확인형이 아니며 불확실하면 원문의 구조를 보존하세요. 표에 없는 활용형은 표에 실린 확인형으로 주장하지 마세요. 원문에 없는 내용을 추가하지 말고 변환한 발화만 출력하세요.\n{\"standard\":\"오늘은 날씨가 참 좋네요.\",\"analysis\":[{\"text\":\"오늘은 날씨가 참 좋네요.\",\"span\":[0,14],\"role\":\"main\",\"features\":{\"host_pos\":\"adjective\",\"sentence_type\":\"declarative\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"좋다\",\"stem_vowel\":\"ㅗ\",\"stem_coda\":\"absent\",\"subject_person\":\"third\"},\"observed_politeness\":\"polite\",\"observed_subject_honorific\":\"not_observed\",\"tense_or_modality\":\"present\",\"preserved_candidate_features\":{\"prefinal_profile\":\"none\"}}],\"source_morphology\":{\"tokens\":[{\"form\":\"오늘\",\"tag\":\"NNG\",\"span\":[0,2],\"surface\":\"오늘\"},{\"form\":\"은\",\"tag\":\"JX\",\"span\":[2,3],\"surface\":\"은\"},{\"form\":\"날씨\",\"tag\":\"NNG\",\"span\":[4,6],\"surface\":\"날씨\"},{\"form\":\"가\",\"tag\":\"JKS\",\"span\":[6,7],\"surface\":\"가\"},{\"form\":\"참\",\"tag\":\"MAG\",\"span\":[8,9],\"surface\":\"참\"},{\"form\":\"좋\",\"tag\":\"VA\",\"span\":[10,11],\"surface\":\"좋\"},{\"form\":\"네요\",\"tag\":\"EF\",\"span\":[11,13],\"surface\":\"네요\"},{\"form\":\".\",\"tag\":\"SF\",\"span\":[13,14],\"surface\":\".\"}],\"words\":[{\"form\":\"오늘\",\"tag\":\"NNG\",\"span\":[0,2],\"surface\":\"오늘\",\"lemma\":\"오늘\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":0},{\"form\":\"날씨\",\"tag\":\"NNG\",\"span\":[4,6],\"surface\":\"날씨\",\"lemma\":\"날씨\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":2},{\"form\":\"참\",\"tag\":\"MAG\",\"span\":[8,9],\"surface\":\"참\",\"lemma\":\"참\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":4},{\"form\":\"좋\",\"tag\":\"VA\",\"span\":[10,11],\"surface\":\"좋\",\"lemma\":\"좋다\",\"pos\":\"adjective\",\"prefinals\":[],\"ending\":\"네요\",\"ending_tag\":\"EF\",\"token_index\":5,\"predicate_span\":[10,13]}],\"status\":\"Kiwi_hypotheses_not_gold\"},\"transformation_plan\":[{\"target_text\":\"오늘은 날씨가 참 좋네요.\",\"span\":[0,14],\"preserve\":[{\"features\":{\"host_pos\":\"adjective\",\"sentence_type\":\"declarative\",\"question_type\":null,\"host_class\":\"predicate_other_than_anida\",\"nominal_coda\":null,\"host_form\":\"좋다\",\"stem_vowel\":\"ㅗ\",\"stem_coda\":\"absent\",\"meaning\":null,\"speech_act\":null,\"action_participants\":null,\"intention_holder\":null,\"beneficiary\":null,\"subject_person\":\"third\",\"clause_relation\":null,\"response_orientation\":null,\"following_predicate_role\":null,\"construction_kind\":null},\"listener_politeness\":\"polite\",\"subject_honorific\":\"not_observed\",\"tense_or_modality\":\"present\"}],\"candidates\":[{\"id\":\"ADVICE:polite_terminal_particle:1:네요\",\"source_id\":\"MODEL_ADVICE\",\"type\":\"ending\",\"source_pattern\":{\"text\":\"-네요\",\"domain\":\"standard\",\"lemma\":null,\"sense\":null,\"features\":{\"match_unit\":\"terminal_ending\"}},\"target_pattern\":{\"text\":\"-네예\",\"domain\":\"dialect\",\"lemma\":null,\"sense\":null,\"features\":{\"realization\":\"replace_ending_preserve_prefix\"}},\"functions\":[\"declarative\"],\"conditions\":[{\"owner\":\"input\",\"field\":\"sentence_type\",\"op\":\"in\",\"value\":[\"declarative\",\"interrogative\",\"imperative\",\"propositive\",\"hortative\"],\"basis\":\"analyst_interpretation\"}],\"constraints\":[{\"kind\":\"require\",\"description\":\"Only source-bound main-clause EF with source informal-politeness evidence. Preserve stem, prefinals, sentence type and speech act. No embedded endings or formal register conversion.\"},{\"kind\":\"uncertainty\",\"description\":\"Source describes 요/예 and some examples; this bounded composition across the listed endings is model advice. Every resulting form is not independently attested or speaker-validated.\"}],\"scope\":{\"regions\":[\"동남 방언: 지역·화자 검토 필요\"],\"speech_levels\":[\"해예\"],\"registers\":[\"informal_polite\"],\"period\":[],\"note\":\"검토 후 범위를 제한한 모델 조합 제안\"},\"claim_status\":\"analyst_interpretation\",\"notes\":\"문헌의 요/예 설명은 구성요소 근거이며, 이 입력에 대한 완성형과 일반 적용 조건은 모델 제안이다.\",\"binding\":{\"text\":\"오늘은 날씨가 참 좋네요.\",\"span\":[0,14],\"clause_id\":\"DEV001:c1\",\"host_lemma\":\"좋다\",\"ending\":\"네요\",\"predicate_span\":[10,13],\"speech_style_preference\":{\"politeness\":\"polite\",\"register\":\"informal_polite\",\"source_ending\":\"네요\",\"basis\":\"source_terminal_form\"},\"ending_conversion\":{\"status\":\"derived_composition_not_attested_surface\",\"operation\":\"replace_terminal_ending\",\"source_morphemes\":[\"좋\",\"네요\"],\"candidate_morphemes\":[\"좋\",\"네예\"],\"preserve_prefinals\":[],\"instruction\":\"선어말어미·부정·주체 높임을 보존한다. 어간의 방언 대응은 별도 근거로만 선택한다. 이 조합은 문헌의 완성형 인용이 아니다.\"}},\"origin\":\"model_advice_not_documentary_fact\",\"evidence_pages\":[{\"source_id\":\"NAMU_GRAMMAR_20260908\",\"pdf_page\":28},{\"source_id\":\"NAMU_HONORIFICS_20260908\",\"pdf_page\":26},{\"source_id\":\"NAMU_HONORIFICS_20260908\",\"pdf_page\":26}],\"supporting_fact_ids\":[\"NAMU_GRAMMAR_20260908:v2:full:0702\",\"NAMU_HONORIFICS_20260908:v2:full:0124\"]}]},{\"target_text\":\"오늘\",\"span\":[0,2],\"preserve\":[{\"features\":{\"host_pos\":\"adjective\",\"sentence_type\":\"declarative\",\"question_type\":null,\"host_class\":\"predicate_other_than_anida\",\"nominal_coda\":null,\"host_form\":\"좋다\",\"stem_vowel\":\"ㅗ\",\"stem_coda\":\"absent\",\"meaning\":null,\"speech_act\":null,\"action_participants\":null,\"intention_holder\":null,\"beneficiary\":null,\"subject_person\":\"third\",\"clause_relation\":null,\"response_orientation\":null,\"following_predicate_role\":null,\"construction_kind\":null},\"listener_politeness\":\"polite\",\"subject_honorific\":\"not_observed\",\"tense_or_modality\":\"present\"}],\"candidates\":[{\"id\":\"NAMU20260901:v2:full:0026\",\"source_id\":\"NAMU20260901\",\"type\":\"lexical_mapping\",\"source_pattern\":{\"text\":\"오늘\",\"domain\":\"standard\",\"lemma\":\"오늘\",\"sense\":null,\"features\":{}},\"target_pattern\":{\"text\":\"올\",\"domain\":\"dialect\",\"lemma\":\"올\",\"sense\":null,\"features\":{}},\"functions\":[],\"conditions\":[],\"constraints\":[{\"kind\":\"scope\",\"description\":\"2026-09-01 위키 판의 서술·재전사. 지역·세대·화용 제약 및 원영상 미검증을 고려한다.\"},{\"kind\":\"scope\",\"description\":\"49쪽 각주: 화자별 축약 단계와 발음·표기·연령 차이를 유지하며 일괄 철자 치환으로 쓰지 않는다.\"}],\"scope\":{\"regions\":[\"동남 방언: 진술별 범위 우선\"],\"speech_levels\":[],\"registers\":[],\"period\":[],\"note\":\"\"},\"claim_status\":\"source_generalization\",\"notes\":\"음변화 예의 형태 대응. 축약 단계·발음·표기·세대 차이를 모두 동일한 표기로 강제하지 않는다.\",\"binding\":{\"text\":\"오늘\",\"span\":[0,2],\"lemma\":\"오늘\",\"prefinals\":[],\"ending\":null,\"predicate_span\":null,\"following_particle\":\"은\"},\"origin\":\"documentary_KG\",\"evidence_pages\":[{\"source_id\":\"NAMU20260901\",\"pdf_page\":6},{\"source_id\":\"NAMU20260901\",\"pdf_page\":49}]}]}],\"graph_paths\":[],\"preservation\":{\"origin\":\"reviewed_preservation_policy_not_dialect_rule\",\"relative_clauses\":[],\"supporting_knowledge\":[],\"invariants\":[\"원문의 명제·부정·시제·화행과 모든 절을 유지한다.\",\"청자 높임, 주체 높임, 저/제의 겸양을 각각 보존한다. 주어를 호격으로 바꾸지 않는다.\",\"가는/오는 이동 관점과 먼저의 시간 순서를 보존한다. 앞에의 시간 용법 자체는 금지하지 않는다.\",\"인용 내용과 보고 서술부의 시제를 구분한다. 회상 -대를 표면형만 보고 전언으로 판단하지 않는다.\"],\"source_honorific_predicates\":[]},\"plan_policy\":\"후보는 모두 적용할 목록이 아니라 대안이다. 어휘보다 의미·높임·시제·문장 역할 보존을 우선한다. 원문에 맞는 후보만 사용한다. MODEL_ADVICE는 원문에서 직접 확인된 완성형이 아닌 모델 조합 제안이다. 보존용 지식은 치환 규칙이 아니다.\"}"
+      }
+    ]
+  },
+  "status": "success",
+  "attempts": [
+    {
+      "elapsed_seconds": 0.7162681147456169,
+      "response": {
+        "id": "chatcmpl-9ef11e83cc0a684e",
+        "object": "chat.completion",
+        "created": 1791797477,
+        "model": "Qwen3.8-27B",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "올은 날씨가 참 좋네예.",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.27.1-51f03443",
+        "usage": {
+          "prompt_tokens": 2267,
+          "total_tokens": 2277,
+          "completion_tokens": 10,
+          "prompt_tokens_details": null
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    }
+  ],
+  "output": "올은 날씨가 참 좋네예."
+}

@@ -1,0 +1,1589 @@
+{
+  "date": "2026-10-12",
+  "stage": "retrieval_and_38_input_generation_completed",
+  "kg": {
+    "before_facts": 3757,
+    "after_facts": 3761,
+    "added_ids": [
+      "NAMU_GRAMMAR_20260908:v2:ending_repair:0001",
+      "NAMU_GRAMMAR_20260908:v2:ending_repair:0002",
+      "NAMU_HONORIFICS_20260908:v2:ending_repair:0001",
+      "NAMU_HONORIFICS_20260908:v2:ending_repair:0002"
+    ],
+    "modified_ids": [
+      "RYU2014:v2:full:0007"
+    ],
+    "deleted_ids": []
+  },
+  "protected_previous_report_files": 27,
+  "protected_reports_unchanged": true,
+  "legacy_kg_protection": "169 hashed files checked by build.py --require-full",
+  "source_review": {
+    "pdf_images_checked": [
+      "RYU2014 p7",
+      "NAMU_GRAMMAR_20260908 p28",
+      "NAMU_HONORIFICS_20260908 p26"
+    ],
+    "evidence_text_checked_by_build": "all 3761 facts",
+    "explicit_mappings": [
+      "-이에요 -> -이라예",
+      "-이야 -> -이라"
+    ],
+    "analyst_compositions": [
+      "-어요 -> -어예",
+      "-아요 -> -아예"
+    ],
+    "not_claimed": [
+      "No exact 했어예 source example found",
+      "No blanket -야 -> -다 mapping added",
+      "No generated sentence claimed as an attested source example"
+    ]
+  },
+  "changes": [
+    "source-scoped topic condition on 나 -> 내",
+    "present declarative copula spelling alignment",
+    "source-specific terminal conversion preserving prefinals",
+    "suppress function-only alternatives after a specific conversion is actually selected",
+    "deduplicate statements per input binding, not across all clauses",
+    "include authored notes in model references"
+  ],
+  "request_matches_to_previous": {
+    "no_kg": 38,
+    "legacy_graph": 38,
+    "v2_direct": 2,
+    "v2_graph": 2
+  },
+  "diagnostics": [
+    {
+      "id": "DEV004",
+      "input": "아까 문 앞에 있던 사람이 제 친구예요.",
+      "before": [
+        {
+          "id": "JO2018:v2:informal:0028",
+          "source": "종결형: -예",
+          "target": "-예",
+          "binding": {
+            "text": "아까 문 앞에 있던 사람이 제 친구예요.",
+            "span": [
+              0,
+              22
+            ],
+            "clause_id": "DEV004:c1",
+            "host_lemma": "이다",
+            "ending": "예요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "예요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:informal:0029",
+          "source": "종결형: -네예",
+          "target": "-네예",
+          "binding": {
+            "text": "아까 문 앞에 있던 사람이 제 친구예요.",
+            "span": [
+              0,
+              22
+            ],
+            "clause_id": "DEV004:c1",
+            "host_lemma": "이다",
+            "ending": "예요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "예요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:informal:0030",
+          "source": "종결형: -데예",
+          "target": "-데예",
+          "binding": {
+            "text": "아까 문 앞에 있던 사람이 제 친구예요.",
+            "span": [
+              0,
+              22
+            ],
+            "clause_id": "DEV004:c1",
+            "host_lemma": "이다",
+            "ending": "예요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "예요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:informal:0031",
+          "source": "종결형: -라예",
+          "target": "-라예",
+          "binding": {
+            "text": "아까 문 앞에 있던 사람이 제 친구예요.",
+            "span": [
+              0,
+              22
+            ],
+            "clause_id": "DEV004:c1",
+            "host_lemma": "이다",
+            "ending": "예요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "예요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:informal:0032",
+          "source": "종결형: -래예",
+          "target": "-래예",
+          "binding": {
+            "text": "아까 문 앞에 있던 사람이 제 친구예요.",
+            "span": [
+              0,
+              22
+            ],
+            "clause_id": "DEV004:c1",
+            "host_lemma": "이다",
+            "ending": "예요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "예요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:informal:0033",
+          "source": "종결형: -지예",
+          "target": "-지예",
+          "binding": {
+            "text": "아까 문 앞에 있던 사람이 제 친구예요.",
+            "span": [
+              0,
+              22
+            ],
+            "clause_id": "DEV004:c1",
+            "host_lemma": "이다",
+            "ending": "예요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "예요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "route": "clause_function"
+        }
+      ],
+      "after": [
+        {
+          "id": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001",
+          "source": "-이에요",
+          "target": "-이라예",
+          "binding": {
+            "text": "아까 문 앞에 있던 사람이 제 친구예요.",
+            "span": [
+              0,
+              22
+            ],
+            "clause_id": "DEV004:c1",
+            "host_lemma": "이다",
+            "ending": "예요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "예요",
+              "basis": "source_terminal_form"
+            },
+            "ending_conversion": {
+              "status": "derived_composition_not_attested_surface",
+              "operation": "replace_copula_and_ending",
+              "source_morphemes": [
+                "이",
+                "예요"
+              ],
+              "candidate_morphemes": [
+                "이라예"
+              ],
+              "preserve_prefinals": [],
+              "instruction": "선어말어미·부정·주체 높임을 보존한다. 어간의 방언 대응은 별도 근거로만 선택한다. 이 조합은 문헌의 완성형 인용이 아니다."
+            }
+          },
+          "route": "source_form"
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908:v2:full:0125",
+          "source": "-이에요",
+          "target": "-이라요",
+          "binding": {
+            "text": "아까 문 앞에 있던 사람이 제 친구예요.",
+            "span": [
+              0,
+              22
+            ],
+            "clause_id": "DEV004:c1",
+            "host_lemma": "이다",
+            "ending": "예요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "예요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "route": "source_form"
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908:v2:full:0126",
+          "source": "-이에요",
+          "target": "-이래요",
+          "binding": {
+            "text": "아까 문 앞에 있던 사람이 제 친구예요.",
+            "span": [
+              0,
+              22
+            ],
+            "clause_id": "DEV004:c1",
+            "host_lemma": "이다",
+            "ending": "예요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "예요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "route": "source_form"
+        }
+      ]
+    },
+    {
+      "id": "DEV005",
+      "input": "나는 커피보다 차가 더 좋아.",
+      "before": [
+        {
+          "id": "RYU2014:v2:full:0007",
+          "source": "나",
+          "target": "내",
+          "binding": {
+            "text": "나",
+            "span": [
+              0,
+              1
+            ],
+            "lemma": "나",
+            "prefinals": [],
+            "ending": null,
+            "predicate_span": null
+          },
+          "route": "bound_lexical_mapping"
+        },
+        {
+          "id": "JO2018:v2:declarative:0099",
+          "source": "종결형: -ㄹ다",
+          "target": "-ㄹ다",
+          "binding": {
+            "text": "나는 커피보다 차가 더 좋아.",
+            "span": [
+              0,
+              16
+            ],
+            "clause_id": "DEV005:c1",
+            "host_lemma": "좋다",
+            "ending": "어",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "어",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:declarative:0100",
+          "source": "종결형: -ㅅ다",
+          "target": "-ㅅ다",
+          "binding": {
+            "text": "나는 커피보다 차가 더 좋아.",
+            "span": [
+              0,
+              16
+            ],
+            "clause_id": "DEV005:c1",
+            "host_lemma": "좋다",
+            "ending": "어",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "어",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:declarative:0101",
+          "source": "종결형: -ㄹ끼다",
+          "target": "-ㄹ끼다",
+          "binding": {
+            "text": "나는 커피보다 차가 더 좋아.",
+            "span": [
+              0,
+              16
+            ],
+            "clause_id": "DEV005:c1",
+            "host_lemma": "좋다",
+            "ending": "어",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "어",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:declarative:0102",
+          "source": "종결형: -데이",
+          "target": "-데이",
+          "binding": {
+            "text": "나는 커피보다 차가 더 좋아.",
+            "span": [
+              0,
+              16
+            ],
+            "clause_id": "DEV005:c1",
+            "host_lemma": "좋다",
+            "ending": "어",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "어",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:declarative:0103",
+          "source": "종결형: -래이",
+          "target": "-래이",
+          "binding": {
+            "text": "나는 커피보다 차가 더 좋아.",
+            "span": [
+              0,
+              16
+            ],
+            "clause_id": "DEV005:c1",
+            "host_lemma": "좋다",
+            "ending": "어",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "어",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:declarative:0104",
+          "source": "종결형: -꾸마",
+          "target": "-꾸마",
+          "binding": {
+            "text": "나는 커피보다 차가 더 좋아.",
+            "span": [
+              0,
+              16
+            ],
+            "clause_id": "DEV005:c1",
+            "host_lemma": "좋다",
+            "ending": "어",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "어",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "route": "clause_function"
+        }
+      ],
+      "after": [
+        {
+          "id": "RYU2014:v2:full:0007",
+          "source": "나",
+          "target": "내",
+          "binding": {
+            "text": "나",
+            "span": [
+              0,
+              1
+            ],
+            "lemma": "나",
+            "prefinals": [],
+            "ending": null,
+            "predicate_span": null,
+            "following_particle": "는"
+          },
+          "route": "bound_lexical_mapping"
+        },
+        {
+          "id": "JO2018:v2:declarative:0099",
+          "source": "종결형: -ㄹ다",
+          "target": "-ㄹ다",
+          "binding": {
+            "text": "나는 커피보다 차가 더 좋아.",
+            "span": [
+              0,
+              16
+            ],
+            "clause_id": "DEV005:c1",
+            "host_lemma": "좋다",
+            "ending": "어",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "어",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:declarative:0100",
+          "source": "종결형: -ㅅ다",
+          "target": "-ㅅ다",
+          "binding": {
+            "text": "나는 커피보다 차가 더 좋아.",
+            "span": [
+              0,
+              16
+            ],
+            "clause_id": "DEV005:c1",
+            "host_lemma": "좋다",
+            "ending": "어",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "어",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:declarative:0101",
+          "source": "종결형: -ㄹ끼다",
+          "target": "-ㄹ끼다",
+          "binding": {
+            "text": "나는 커피보다 차가 더 좋아.",
+            "span": [
+              0,
+              16
+            ],
+            "clause_id": "DEV005:c1",
+            "host_lemma": "좋다",
+            "ending": "어",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "어",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:declarative:0102",
+          "source": "종결형: -데이",
+          "target": "-데이",
+          "binding": {
+            "text": "나는 커피보다 차가 더 좋아.",
+            "span": [
+              0,
+              16
+            ],
+            "clause_id": "DEV005:c1",
+            "host_lemma": "좋다",
+            "ending": "어",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "어",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:declarative:0103",
+          "source": "종결형: -래이",
+          "target": "-래이",
+          "binding": {
+            "text": "나는 커피보다 차가 더 좋아.",
+            "span": [
+              0,
+              16
+            ],
+            "clause_id": "DEV005:c1",
+            "host_lemma": "좋다",
+            "ending": "어",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "어",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:declarative:0104",
+          "source": "종결형: -꾸마",
+          "target": "-꾸마",
+          "binding": {
+            "text": "나는 커피보다 차가 더 좋아.",
+            "span": [
+              0,
+              16
+            ],
+            "clause_id": "DEV005:c1",
+            "host_lemma": "좋다",
+            "ending": "어",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "어",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "route": "clause_function"
+        }
+      ]
+    },
+    {
+      "id": "DEV007",
+      "input": "나는 아직 점심을 안 먹었어.",
+      "before": [
+        {
+          "id": "RYU2014:v2:full:0007",
+          "source": "나",
+          "target": "내",
+          "binding": {
+            "text": "나",
+            "span": [
+              0,
+              1
+            ],
+            "lemma": "나",
+            "prefinals": [],
+            "ending": null,
+            "predicate_span": null
+          },
+          "route": "bound_lexical_mapping"
+        },
+        {
+          "id": "JO2018:v2:declarative:0099",
+          "source": "종결형: -ㄹ다",
+          "target": "-ㄹ다",
+          "binding": {
+            "text": "나는 아직 점심을 안 먹었어.",
+            "span": [
+              0,
+              16
+            ],
+            "clause_id": "DEV007:c1",
+            "host_lemma": "먹다",
+            "ending": "어",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "어",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:declarative:0100",
+          "source": "종결형: -ㅅ다",
+          "target": "-ㅅ다",
+          "binding": {
+            "text": "나는 아직 점심을 안 먹었어.",
+            "span": [
+              0,
+              16
+            ],
+            "clause_id": "DEV007:c1",
+            "host_lemma": "먹다",
+            "ending": "어",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "어",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:declarative:0101",
+          "source": "종결형: -ㄹ끼다",
+          "target": "-ㄹ끼다",
+          "binding": {
+            "text": "나는 아직 점심을 안 먹었어.",
+            "span": [
+              0,
+              16
+            ],
+            "clause_id": "DEV007:c1",
+            "host_lemma": "먹다",
+            "ending": "어",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "어",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:declarative:0102",
+          "source": "종결형: -데이",
+          "target": "-데이",
+          "binding": {
+            "text": "나는 아직 점심을 안 먹었어.",
+            "span": [
+              0,
+              16
+            ],
+            "clause_id": "DEV007:c1",
+            "host_lemma": "먹다",
+            "ending": "어",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "어",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:declarative:0103",
+          "source": "종결형: -래이",
+          "target": "-래이",
+          "binding": {
+            "text": "나는 아직 점심을 안 먹었어.",
+            "span": [
+              0,
+              16
+            ],
+            "clause_id": "DEV007:c1",
+            "host_lemma": "먹다",
+            "ending": "어",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "어",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:declarative:0104",
+          "source": "종결형: -꾸마",
+          "target": "-꾸마",
+          "binding": {
+            "text": "나는 아직 점심을 안 먹었어.",
+            "span": [
+              0,
+              16
+            ],
+            "clause_id": "DEV007:c1",
+            "host_lemma": "먹다",
+            "ending": "어",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "어",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "route": "clause_function"
+        }
+      ],
+      "after": [
+        {
+          "id": "RYU2014:v2:full:0007",
+          "source": "나",
+          "target": "내",
+          "binding": {
+            "text": "나",
+            "span": [
+              0,
+              1
+            ],
+            "lemma": "나",
+            "prefinals": [],
+            "ending": null,
+            "predicate_span": null,
+            "following_particle": "는"
+          },
+          "route": "bound_lexical_mapping"
+        },
+        {
+          "id": "JO2018:v2:declarative:0099",
+          "source": "종결형: -ㄹ다",
+          "target": "-ㄹ다",
+          "binding": {
+            "text": "나는 아직 점심을 안 먹었어.",
+            "span": [
+              0,
+              16
+            ],
+            "clause_id": "DEV007:c1",
+            "host_lemma": "먹다",
+            "ending": "어",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "어",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:declarative:0100",
+          "source": "종결형: -ㅅ다",
+          "target": "-ㅅ다",
+          "binding": {
+            "text": "나는 아직 점심을 안 먹었어.",
+            "span": [
+              0,
+              16
+            ],
+            "clause_id": "DEV007:c1",
+            "host_lemma": "먹다",
+            "ending": "어",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "어",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:declarative:0101",
+          "source": "종결형: -ㄹ끼다",
+          "target": "-ㄹ끼다",
+          "binding": {
+            "text": "나는 아직 점심을 안 먹었어.",
+            "span": [
+              0,
+              16
+            ],
+            "clause_id": "DEV007:c1",
+            "host_lemma": "먹다",
+            "ending": "어",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "어",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:declarative:0102",
+          "source": "종결형: -데이",
+          "target": "-데이",
+          "binding": {
+            "text": "나는 아직 점심을 안 먹었어.",
+            "span": [
+              0,
+              16
+            ],
+            "clause_id": "DEV007:c1",
+            "host_lemma": "먹다",
+            "ending": "어",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "어",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:declarative:0103",
+          "source": "종결형: -래이",
+          "target": "-래이",
+          "binding": {
+            "text": "나는 아직 점심을 안 먹었어.",
+            "span": [
+              0,
+              16
+            ],
+            "clause_id": "DEV007:c1",
+            "host_lemma": "먹다",
+            "ending": "어",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "어",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:declarative:0104",
+          "source": "종결형: -꾸마",
+          "target": "-꾸마",
+          "binding": {
+            "text": "나는 아직 점심을 안 먹었어.",
+            "span": [
+              0,
+              16
+            ],
+            "clause_id": "DEV007:c1",
+            "host_lemma": "먹다",
+            "ending": "어",
+            "speech_style_preference": {
+              "politeness": "non_polite",
+              "register": "unknown",
+              "source_ending": "어",
+              "basis": "cached_politeness_only"
+            }
+          },
+          "route": "clause_function"
+        }
+      ]
+    },
+    {
+      "id": "DEV008",
+      "input": "비가 너무 많이 와서 밖에 못 나가겠어요.",
+      "before": [
+        {
+          "id": "JO2018:v2:informal:0028",
+          "source": "종결형: -예",
+          "target": "-예",
+          "binding": {
+            "text": "밖에 못 나가겠어요.",
+            "span": [
+              12,
+              23
+            ],
+            "clause_id": "DEV008:c2",
+            "host_lemma": "나가다",
+            "ending": "어요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "어요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:informal:0029",
+          "source": "종결형: -네예",
+          "target": "-네예",
+          "binding": {
+            "text": "밖에 못 나가겠어요.",
+            "span": [
+              12,
+              23
+            ],
+            "clause_id": "DEV008:c2",
+            "host_lemma": "나가다",
+            "ending": "어요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "어요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:informal:0030",
+          "source": "종결형: -데예",
+          "target": "-데예",
+          "binding": {
+            "text": "밖에 못 나가겠어요.",
+            "span": [
+              12,
+              23
+            ],
+            "clause_id": "DEV008:c2",
+            "host_lemma": "나가다",
+            "ending": "어요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "어요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:informal:0031",
+          "source": "종결형: -라예",
+          "target": "-라예",
+          "binding": {
+            "text": "밖에 못 나가겠어요.",
+            "span": [
+              12,
+              23
+            ],
+            "clause_id": "DEV008:c2",
+            "host_lemma": "나가다",
+            "ending": "어요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "어요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:informal:0032",
+          "source": "종결형: -래예",
+          "target": "-래예",
+          "binding": {
+            "text": "밖에 못 나가겠어요.",
+            "span": [
+              12,
+              23
+            ],
+            "clause_id": "DEV008:c2",
+            "host_lemma": "나가다",
+            "ending": "어요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "어요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:informal:0033",
+          "source": "종결형: -지예",
+          "target": "-지예",
+          "binding": {
+            "text": "밖에 못 나가겠어요.",
+            "span": [
+              12,
+              23
+            ],
+            "clause_id": "DEV008:c2",
+            "host_lemma": "나가다",
+            "ending": "어요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "어요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "route": "clause_function"
+        }
+      ],
+      "after": [
+        {
+          "id": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001",
+          "source": "-어요",
+          "target": "-어예",
+          "binding": {
+            "text": "밖에 못 나가겠어요.",
+            "span": [
+              12,
+              23
+            ],
+            "clause_id": "DEV008:c2",
+            "host_lemma": "나가다",
+            "ending": "어요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "어요",
+              "basis": "source_terminal_form"
+            },
+            "ending_conversion": {
+              "status": "derived_composition_not_attested_surface",
+              "operation": "replace_terminal_ending",
+              "source_morphemes": [
+                "나가",
+                "겠",
+                "어요"
+              ],
+              "candidate_morphemes": [
+                "나가",
+                "겠",
+                "어예"
+              ],
+              "preserve_prefinals": [
+                "겠"
+              ],
+              "instruction": "선어말어미·부정·주체 높임을 보존한다. 어간의 방언 대응은 별도 근거로만 선택한다. 이 조합은 문헌의 완성형 인용이 아니다."
+            }
+          },
+          "route": "source_form"
+        }
+      ]
+    },
+    {
+      "id": "DEV026",
+      "input": "늦을까 봐 조금 일찍 나왔어요.",
+      "before": [
+        {
+          "id": "JO2018:v2:informal:0028",
+          "source": "종결형: -예",
+          "target": "-예",
+          "binding": {
+            "text": "조금 일찍 나왔어요.",
+            "span": [
+              6,
+              17
+            ],
+            "clause_id": "DEV026:c2",
+            "host_lemma": "나오다",
+            "ending": "어요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "어요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:informal:0029",
+          "source": "종결형: -네예",
+          "target": "-네예",
+          "binding": {
+            "text": "조금 일찍 나왔어요.",
+            "span": [
+              6,
+              17
+            ],
+            "clause_id": "DEV026:c2",
+            "host_lemma": "나오다",
+            "ending": "어요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "어요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:informal:0030",
+          "source": "종결형: -데예",
+          "target": "-데예",
+          "binding": {
+            "text": "조금 일찍 나왔어요.",
+            "span": [
+              6,
+              17
+            ],
+            "clause_id": "DEV026:c2",
+            "host_lemma": "나오다",
+            "ending": "어요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "어요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:informal:0031",
+          "source": "종결형: -라예",
+          "target": "-라예",
+          "binding": {
+            "text": "조금 일찍 나왔어요.",
+            "span": [
+              6,
+              17
+            ],
+            "clause_id": "DEV026:c2",
+            "host_lemma": "나오다",
+            "ending": "어요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "어요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:informal:0032",
+          "source": "종결형: -래예",
+          "target": "-래예",
+          "binding": {
+            "text": "조금 일찍 나왔어요.",
+            "span": [
+              6,
+              17
+            ],
+            "clause_id": "DEV026:c2",
+            "host_lemma": "나오다",
+            "ending": "어요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "어요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:informal:0033",
+          "source": "종결형: -지예",
+          "target": "-지예",
+          "binding": {
+            "text": "조금 일찍 나왔어요.",
+            "span": [
+              6,
+              17
+            ],
+            "clause_id": "DEV026:c2",
+            "host_lemma": "나오다",
+            "ending": "어요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "어요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "route": "clause_function"
+        }
+      ],
+      "after": [
+        {
+          "id": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001",
+          "source": "-어요",
+          "target": "-어예",
+          "binding": {
+            "text": "조금 일찍 나왔어요.",
+            "span": [
+              6,
+              17
+            ],
+            "clause_id": "DEV026:c2",
+            "host_lemma": "나오다",
+            "ending": "어요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "어요",
+              "basis": "source_terminal_form"
+            },
+            "ending_conversion": {
+              "status": "derived_composition_not_attested_surface",
+              "operation": "replace_terminal_ending",
+              "source_morphemes": [
+                "나오",
+                "었",
+                "어요"
+              ],
+              "candidate_morphemes": [
+                "나오",
+                "었",
+                "어예"
+              ],
+              "preserve_prefinals": [
+                "었"
+              ],
+              "instruction": "선어말어미·부정·주체 높임을 보존한다. 어간의 방언 대응은 별도 근거로만 선택한다. 이 조합은 문헌의 완성형 인용이 아니다."
+            }
+          },
+          "route": "source_form"
+        }
+      ]
+    },
+    {
+      "id": "DEV028",
+      "input": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+      "before": [
+        {
+          "id": "JO2018:v2:informal:0028",
+          "source": "종결형: -예",
+          "target": "-예",
+          "binding": {
+            "text": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+            "span": [
+              0,
+              25
+            ],
+            "clause_id": "DEV028:c1",
+            "host_lemma": "아니다",
+            "ending": "어요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "어요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:informal:0029",
+          "source": "종결형: -네예",
+          "target": "-네예",
+          "binding": {
+            "text": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+            "span": [
+              0,
+              25
+            ],
+            "clause_id": "DEV028:c1",
+            "host_lemma": "아니다",
+            "ending": "어요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "어요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:informal:0030",
+          "source": "종결형: -데예",
+          "target": "-데예",
+          "binding": {
+            "text": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+            "span": [
+              0,
+              25
+            ],
+            "clause_id": "DEV028:c1",
+            "host_lemma": "아니다",
+            "ending": "어요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "어요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:informal:0031",
+          "source": "종결형: -라예",
+          "target": "-라예",
+          "binding": {
+            "text": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+            "span": [
+              0,
+              25
+            ],
+            "clause_id": "DEV028:c1",
+            "host_lemma": "아니다",
+            "ending": "어요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "어요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:informal:0032",
+          "source": "종결형: -래예",
+          "target": "-래예",
+          "binding": {
+            "text": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+            "span": [
+              0,
+              25
+            ],
+            "clause_id": "DEV028:c1",
+            "host_lemma": "아니다",
+            "ending": "어요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "어요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "route": "clause_function"
+        },
+        {
+          "id": "JO2018:v2:informal:0033",
+          "source": "종결형: -지예",
+          "target": "-지예",
+          "binding": {
+            "text": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+            "span": [
+              0,
+              25
+            ],
+            "clause_id": "DEV028:c1",
+            "host_lemma": "아니다",
+            "ending": "어요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "어요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "route": "clause_function"
+        }
+      ],
+      "after": [
+        {
+          "id": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001",
+          "source": "-어요",
+          "target": "-어예",
+          "binding": {
+            "text": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+            "span": [
+              0,
+              25
+            ],
+            "clause_id": "DEV028:c1",
+            "host_lemma": "아니다",
+            "ending": "어요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "어요",
+              "basis": "source_terminal_form"
+            },
+            "ending_conversion": {
+              "status": "derived_composition_not_attested_surface",
+              "operation": "replace_terminal_ending",
+              "source_morphemes": [
+                "아니",
+                "었",
+                "어요"
+              ],
+              "candidate_morphemes": [
+                "아니",
+                "었",
+                "어예"
+              ],
+              "preserve_prefinals": [
+                "었"
+              ],
+              "instruction": "선어말어미·부정·주체 높임을 보존한다. 어간의 방언 대응은 별도 근거로만 선택한다. 이 조합은 문헌의 완성형 인용이 아니다."
+            }
+          },
+          "route": "source_form"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Qwen analysis and Kiwi morphology can still fail, including derived XSV/XSA predicate hosts.",
+    "Speaker naturalness and regional/register choice have not received independent human evaluation.",
+    "Retrieval success does not prove generated politeness preservation.",
+    "This bundles KG, retrieval and reference-payload changes; not an isolated KG ablation.",
+    "New conversion coverage is narrow: fused 세요/죠/까요 and some copula/derived-predicate analyses remain unsupported. No generic generation repair or output rewriting was added."
+  ],
+  "generation": {
+    "status": "completed",
+    "successful_calls": 152,
+    "reused_results": 76,
+    "new_generation_attempts": 76,
+    "additional_live_generations": 2,
+    "additional_live_analysis_items": 2
+  },
+  "specific_conversion_inputs": {
+    "v2_direct": [
+      "DEV004",
+      "DEV008",
+      "DEV010",
+      "DEV023",
+      "DEV026",
+      "DEV028",
+      "LONG003",
+      "LONG004"
+    ],
+    "v2_graph": [
+      "DEV004",
+      "DEV008",
+      "DEV010",
+      "DEV023",
+      "DEV026",
+      "DEV028",
+      "LONG003",
+      "LONG004"
+    ]
+  },
+  "qualitative_observations": [
+    {
+      "ids": [
+        "DEV004"
+      ],
+      "finding": "Both v2 outputs now contain 친구라예 rather than 친구예."
+    },
+    {
+      "ids": [
+        "DEV008",
+        "DEV010",
+        "DEV023",
+        "DEV026",
+        "DEV028"
+      ],
+      "finding": "Outputs retain 예 in endings; DEV010 graph already retained 예 before this repair. DEV008 still contains a repetitive 마이 마이."
+    },
+    {
+      "ids": [
+        "DEV005",
+        "DEV007",
+        "LONG001"
+      ],
+      "finding": "나->내 is delivered but used only in LONG001; this lexical variant is not obligatory."
+    },
+    {
+      "ids": [
+        "DEV006"
+      ],
+      "finding": "Graph output regressed 계세요 -> 계셔. Source Kiwi analysis has 계/NNG + 이/VCP + 세요/EF; no precise ending conversion is selected."
+    },
+    {
+      "ids": [
+        "DEV011"
+      ],
+      "finding": "출발했나요 has XSV 하, excluded from current predicate hosts; no v2 references selected."
+    },
+    {
+      "ids": [
+        "DEV013"
+      ],
+      "finding": "될까요 has no selected ending references; existing indirect-request filtering excludes function-only candidates."
+    },
+    {
+      "ids": [
+        "DEV019"
+      ],
+      "finding": "걸으세요 -> 걸으세 in both conditions; no specific conversion covers fused 으세요, broad ending alternatives remain."
+    },
+    {
+      "ids": [
+        "LONG006",
+        "LONG007"
+      ],
+      "finding": "Non-target issues persist: 관형절 가노 길에, repeated 그리그리. Not a successful overall dialect-quality fix."
+    }
+  ],
+  "live_checks": [
+    {
+      "case": "past",
+      "input": "제가 어제 숙제를 했어요.",
+      "output": "제가 어제 숙제를 했어예.",
+      "analysis_mode": "fresh_Qwen_analysis_plus_Kiwi",
+      "selected_ending_candidates": [
+        "-어예"
+      ],
+      "selected_conversion_plans": [
+        {
+          "status": "derived_composition_not_attested_surface",
+          "operation": "replace_terminal_ending",
+          "source_morphemes": [
+            "하",
+            "었",
+            "어요"
+          ],
+          "candidate_morphemes": [
+            "하",
+            "었",
+            "어예"
+          ],
+          "preserve_prefinals": [
+            "었"
+          ],
+          "instruction": "선어말어미·부정·주체 높임을 보존한다. 어간의 방언 대응은 별도 근거로만 선택한다. 이 조합은 문헌의 완성형 인용이 아니다."
+        }
+      ],
+      "actual_model": "Qwen3.8-27B"
+    },
+    {
+      "case": "copula",
+      "input": "그 사람은 내 친구야.",
+      "output": "그 사람은 내 친구래.",
+      "analysis_mode": "fresh_Qwen_analysis_plus_Kiwi",
+      "selected_ending_candidates": [
+        "-이라",
+        "-이래"
+      ],
+      "selected_conversion_plans": [
+        {
+          "status": "derived_composition_not_attested_surface",
+          "operation": "replace_copula_and_ending",
+          "source_morphemes": [
+            "이",
+            "야"
+          ],
+          "candidate_morphemes": [
+            "이라"
+          ],
+          "preserve_prefinals": [],
+          "instruction": "선어말어미·부정·주체 높임을 보존한다. 어간의 방언 대응은 별도 근거로만 선택한다. 이 조합은 문헌의 완성형 인용이 아니다."
+        }
+      ],
+      "actual_model": "Qwen3.8-27B"
+    }
+  ],
+  "live_check_limits": "Two fresh analysis+generation examples, one generation each, no paired before-run; not independent held-out evaluation. Copula output selects the separately attested 북부 -이래 variant, so a fixed target regional register is still not enforced.",
+  "final_verification": {
+    "frozen_run_hashes": "passed",
+    "previous_report_hashes": "passed",
+    "legacy_protected_files": 169
+  }
+}

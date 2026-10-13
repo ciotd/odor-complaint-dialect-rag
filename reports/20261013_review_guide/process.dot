@@ -1,0 +1,6 @@
+digraph G {
+graph [rankdir=TB,bgcolor="white",ranksep=.28,nodesep=.22];node [shape=box,style="rounded,filled",fillcolor="#edf4fa",fontname="Noto Sans CJK KR",fontsize=12];edge [fontname="Noto Sans CJK KR",fontsize=10];
+a[label="미리 준비: PDF → Astra의 지식 항목 → 코드로 만든 KG",fillcolor="#d8e9e0"];
+b[label="표준어 입력"];c[label="Qwen: 의미·높임을 JSON으로 분석"];d[label="Kiwi: 같은 원문의 단어·어미 분석"];e[label="코드: 분석 연결 + KG 조회 + 조건 확인"];f[label="코드: 원문 구간별 후보·변환안을 메시지로 구성"];g[label="Qwen: 방언 문장 생성"];i[label="검사 코드: 전부 검사 / 필요한 경우 Qwen 수정 최대 1회"];
+b->c->d->e->f->g->i;a->e[label="지식 제공"];
+}

@@ -1,0 +1,4196 @@
+[
+  {
+    "id": "DEV001",
+    "input": "오늘은 날씨가 참 좋네요.",
+    "old_endings": [
+      [
+        "오늘은 날씨가 참 좋네요.",
+        "-네예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "좋네요",
+        "source_span": [
+          10,
+          13
+        ],
+        "preferred_surface": "좋네예",
+        "source_morphemes": [
+          "좋",
+          "네요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0124",
+          "NAMU_GRAMMAR_20260908:v2:full:0702"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0702",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 4807
+  },
+  {
+    "id": "DEV002",
+    "input": "집에 가는 길에 빵을 샀어.",
+    "old_endings": [],
+    "selected_terminals": [
+      {
+        "family": "casual_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "샀어",
+        "source_span": [
+          12,
+          14
+        ],
+        "preferred_surface": "샀다",
+        "source_morphemes": [
+          "사",
+          "었",
+          "어"
+        ],
+        "preserve_prefinals": [
+          "었"
+        ],
+        "supporting_fact_ids": [
+          "JO2018:v2:declarative:0105"
+        ],
+        "support_checks": [
+          {
+            "id": "JO2018:v2:declarative:0105",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 3865
+  },
+  {
+    "id": "DEV003",
+    "input": "이 음식은 생각보다 맵네요.",
+    "old_endings": [
+      [
+        "이 음식은 생각보다 맵네요.",
+        "-네예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "맵네요",
+        "source_span": [
+          11,
+          14
+        ],
+        "preferred_surface": "맵네예",
+        "source_morphemes": [
+          "맵",
+          "네요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0124",
+          "NAMU_GRAMMAR_20260908:v2:full:0702"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0702",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 3582
+  },
+  {
+    "id": "DEV004",
+    "input": "아까 문 앞에 있던 사람이 제 친구예요.",
+    "old_endings": [
+      [
+        "아까 문 앞에 있던 사람이 제 친구예요.",
+        "-이라예"
+      ],
+      [
+        "아까 문 앞에 있던 사람이 제 친구예요.",
+        "-이라요"
+      ],
+      [
+        "아까 문 앞에 있던 사람이 제 친구예요.",
+        "-이래요"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "예요",
+        "source_span": [
+          19,
+          21
+        ],
+        "preferred_surface": "라예",
+        "source_morphemes": [
+          "이",
+          "예요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_GRAMMAR_20260908:v2:ending_repair:0001"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "candidate",
+                "field": "lemma",
+                "op": "eq",
+                "value": "이다",
+                "basis": "explicit",
+                "actual": "이다",
+                "status": "satisfied"
+              },
+              {
+                "owner": "input",
+                "field": "has_prefinals",
+                "op": "eq",
+                "value": false,
+                "basis": "analyst_interpretation",
+                "actual": false,
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 3891
+  },
+  {
+    "id": "DEV005",
+    "input": "나는 커피보다 차가 더 좋아.",
+    "old_endings": [],
+    "selected_terminals": [
+      {
+        "family": "casual_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "좋아",
+        "source_span": [
+          13,
+          15
+        ],
+        "preferred_surface": "좋다",
+        "source_morphemes": [
+          "좋",
+          "어"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "JO2018:v2:declarative:0105"
+        ],
+        "support_checks": [
+          {
+            "id": "JO2018:v2:declarative:0105",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 4857
+  },
+  {
+    "id": "DEV006",
+    "input": "할머니께서 지금 방에서 쉬고 계세요.",
+    "old_endings": [
+      [
+        "할머니께서 지금 방에서 쉬고 계세요.",
+        "-어예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "계세요",
+        "source_span": [
+          16,
+          19
+        ],
+        "preferred_surface": "계셔예",
+        "source_morphemes": [
+          "계시",
+          "어요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0124"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 8800
+  },
+  {
+    "id": "DEV007",
+    "input": "나는 아직 점심을 안 먹었어.",
+    "old_endings": [],
+    "selected_terminals": [
+      {
+        "family": "casual_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "먹었어",
+        "source_span": [
+          12,
+          15
+        ],
+        "preferred_surface": "먹었다",
+        "source_morphemes": [
+          "먹",
+          "었",
+          "어"
+        ],
+        "preserve_prefinals": [
+          "었"
+        ],
+        "supporting_fact_ids": [
+          "JO2018:v2:declarative:0105"
+        ],
+        "support_checks": [
+          {
+            "id": "JO2018:v2:declarative:0105",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 6332
+  },
+  {
+    "id": "DEV008",
+    "input": "비가 너무 많이 와서 밖에 못 나가겠어요.",
+    "old_endings": [
+      [
+        "밖에 못 나가겠어요.",
+        "-어예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "나가겠어요",
+        "source_span": [
+          17,
+          22
+        ],
+        "preferred_surface": "나가겠어예",
+        "source_morphemes": [
+          "나가",
+          "겠",
+          "어요"
+        ],
+        "preserve_prefinals": [
+          "겠"
+        ],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0124"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 10571
+  },
+  {
+    "id": "DEV009",
+    "input": "그 사람이 싫은 건 아니야.",
+    "old_endings": [],
+    "selected_terminals": [],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 982
+  },
+  {
+    "id": "DEV010",
+    "input": "오늘 안에 다 끝낼 수 있을 것 같아요.",
+    "old_endings": [
+      [
+        "오늘 안에 다 끝낼 수 있을 것 같아요.",
+        "-어예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "같아요",
+        "source_span": [
+          18,
+          21
+        ],
+        "preferred_surface": "같아예",
+        "source_morphemes": [
+          "같",
+          "어요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0124"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 5117
+  },
+  {
+    "id": "DEV011",
+    "input": "버스가 벌써 출발했나요?",
+    "old_endings": [
+      [
+        "버스가 벌써 출발했나요?",
+        "-나예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_question",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "출발했나요",
+        "source_span": [
+          7,
+          12
+        ],
+        "preferred_surface": "출발했는교",
+        "source_morphemes": [
+          "출발하",
+          "었",
+          "나요"
+        ],
+        "preserve_prefinals": [
+          "었"
+        ],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0034"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0034",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "candidate",
+                "field": "pos",
+                "op": "eq",
+                "value": "verb",
+                "basis": "explicit",
+                "actual": "verb",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 3160
+  },
+  {
+    "id": "DEV012",
+    "input": "열쇠를 어디에 뒀어?",
+    "old_endings": [
+      [
+        "열쇠를 어디에 뒀어?",
+        "-노"
+      ],
+      [
+        "열쇠를 어디에 뒀어?",
+        "-도"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "casual_question",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "뒀어",
+        "source_span": [
+          8,
+          10
+        ],
+        "preferred_surface": "뒀노",
+        "source_morphemes": [
+          "두",
+          "었",
+          "어"
+        ],
+        "preserve_prefinals": [
+          "었"
+        ],
+        "supporting_fact_ids": [
+          "JO2018:v2:interrogative:0098"
+        ],
+        "support_checks": [
+          {
+            "id": "JO2018:v2:interrogative:0098",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "candidate",
+                "field": "pos",
+                "op": "in",
+                "value": [
+                  "verb",
+                  "adjective"
+                ],
+                "basis": "explicit",
+                "actual": "verb",
+                "status": "satisfied"
+              },
+              {
+                "owner": "input",
+                "field": "question_type",
+                "op": "eq",
+                "value": "content",
+                "basis": "explicit",
+                "actual": "content",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 3306
+  },
+  {
+    "id": "DEV013",
+    "input": "내일 몇 시에 만나면 될까요?",
+    "old_endings": [
+      [
+        "내일 몇 시에 만나면 될까요?",
+        "-ᆯ까예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_modal_or_confirmation",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "될까요",
+        "source_span": [
+          12,
+          15
+        ],
+        "preferred_surface": "될까예",
+        "source_morphemes": [
+          "되",
+          "ᆯ까요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_GRAMMAR_20260908:v2:full:0702",
+          "NAMU_HONORIFICS_20260908:v2:full:0124"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0702",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 8306
+  },
+  {
+    "id": "DEV014",
+    "input": "아까 왜 아무 말도 안 했어?",
+    "old_endings": [
+      [
+        "아까 왜 아무 말도 안 했어?",
+        "-노"
+      ],
+      [
+        "아까 왜 아무 말도 안 했어?",
+        "-도"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "casual_question",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "했어",
+        "source_span": [
+          13,
+          15
+        ],
+        "preferred_surface": "했노",
+        "source_morphemes": [
+          "하",
+          "었",
+          "어"
+        ],
+        "preserve_prefinals": [
+          "었"
+        ],
+        "supporting_fact_ids": [
+          "JO2018:v2:interrogative:0098"
+        ],
+        "support_checks": [
+          {
+            "id": "JO2018:v2:interrogative:0098",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "candidate",
+                "field": "pos",
+                "op": "in",
+                "value": [
+                  "verb",
+                  "adjective"
+                ],
+                "basis": "explicit",
+                "actual": "verb",
+                "status": "satisfied"
+              },
+              {
+                "owner": "input",
+                "field": "question_type",
+                "op": "eq",
+                "value": "content",
+                "basis": "explicit",
+                "actual": "content",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 3313
+  },
+  {
+    "id": "DEV015",
+    "input": "이 우산은 누구 거예요?",
+    "old_endings": [
+      [
+        "이 우산은 누구 거예요?",
+        "-이껴"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_question",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "예요",
+        "source_span": [
+          10,
+          12
+        ],
+        "preferred_surface": "인교",
+        "source_morphemes": [
+          "이",
+          "예요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0038"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0038",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 5378
+  },
+  {
+    "id": "DEV016",
+    "input": "너는 지금 집에 가는 거야, 아니면 회사로 돌아가는 거야?",
+    "old_endings": [],
+    "selected_terminals": [],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 3554
+  },
+  {
+    "id": "DEV017",
+    "input": "문 좀 닫아 주세요.",
+    "old_endings": [
+      [
+        "문 좀 닫아 주세요.",
+        "-세예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_request",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "주세요",
+        "source_span": [
+          7,
+          10
+        ],
+        "preferred_surface": "주이소",
+        "source_morphemes": [
+          "주",
+          "세요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0006"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0006",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "input",
+                "field": "sentence_function",
+                "op": "eq",
+                "value": "imperative",
+                "basis": "explicit",
+                "actual": "imperative",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 3520
+  },
+  {
+    "id": "DEV018",
+    "input": "이 상자 옮기는 것 좀 도와줄래?",
+    "old_endings": [
+      [
+        "이 상자 옮기는 것 좀 도와줄래?",
+        "-나"
+      ],
+      [
+        "이 상자 옮기는 것 좀 도와줄래?",
+        "-다"
+      ]
+    ],
+    "selected_terminals": [],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 4953
+  },
+  {
+    "id": "DEV019",
+    "input": "바닥이 미끄러우니까 천천히 걸으세요.",
+    "old_endings": [
+      [
+        "바닥이 미끄러우니까 천천히 걸으세요.",
+        "-으세예"
+      ],
+      [
+        "바닥이 미끄러우니까",
+        "-(으)이까"
+      ],
+      [
+        "바닥이 미끄러우니까",
+        "-(으)니께"
+      ],
+      [
+        "바닥이 미끄러우니까",
+        "-(으)ㄴ께"
+      ],
+      [
+        "바닥이 미끄러우니까",
+        "-(으)이끼네"
+      ],
+      [
+        "바닥이 미끄러우니까",
+        "-(으)이꺼네"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_request",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "걸으세요",
+        "source_span": [
+          15,
+          19
+        ],
+        "preferred_surface": "걸으이소",
+        "source_morphemes": [
+          "걷",
+          "으세요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0006"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0006",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "input",
+                "field": "sentence_function",
+                "op": "eq",
+                "value": "imperative",
+                "basis": "explicit",
+                "actual": "imperative",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 11851
+  },
+  {
+    "id": "DEV020",
+    "input": "그 얘기는 다른 사람한테 하지 마.",
+    "old_endings": [
+      [
+        "그 얘기는 다른 사람한테 하지 마.",
+        "-래"
+      ],
+      [
+        "그 얘기는 다른 사람한테 하지 마.",
+        "-래이"
+      ],
+      [
+        "그 얘기는 다른 사람한테 하지 마.",
+        "-가래이"
+      ],
+      [
+        "그 얘기는 다른 사람한테 하지 마.",
+        "-거래이"
+      ],
+      [
+        "그 얘기는 다른 사람한테 하지 마.",
+        "-나래이"
+      ],
+      [
+        "그 얘기는 다른 사람한테 하지 마.",
+        "-느래이"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "casual_request",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "마",
+        "source_span": [
+          17,
+          18
+        ],
+        "preferred_surface": "마라",
+        "source_morphemes": [
+          "말",
+          "어"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "JO2018:v2:imperative:0053"
+        ],
+        "support_checks": [
+          {
+            "id": "JO2018:v2:imperative:0053",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "candidate",
+                "field": "pos",
+                "op": "eq",
+                "value": "verb",
+                "basis": "explicit",
+                "actual": "verb",
+                "status": "satisfied"
+              },
+              {
+                "owner": "input",
+                "field": "function",
+                "op": "eq",
+                "value": "imperative",
+                "basis": "explicit",
+                "actual": "imperative",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 3524
+  },
+  {
+    "id": "DEV021",
+    "input": "잠깐만 기다려 주세요. 제가 확인해 볼게요.",
+    "old_endings": [
+      [
+        "잠깐만 기다려 주세요.",
+        "-세예"
+      ],
+      [
+        "제가 확인해 볼게요.",
+        "-ᆯ게예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_request",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "주세요",
+        "source_span": [
+          8,
+          11
+        ],
+        "preferred_surface": "주이소",
+        "source_morphemes": [
+          "주",
+          "세요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0006"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0006",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "input",
+                "field": "sentence_function",
+                "op": "eq",
+                "value": "imperative",
+                "basis": "explicit",
+                "actual": "imperative",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      },
+      {
+        "family": "polite_promise",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "볼게요",
+        "source_span": [
+          20,
+          23
+        ],
+        "preferred_surface": "보께예",
+        "source_morphemes": [
+          "보",
+          "ᆯ게요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_GRAMMAR_20260908:v2:full:0711",
+          "NAMU_GRAMMAR_20260908:v2:full:0702",
+          "NAMU_GRAMMAR_20260908:v2:terminal_review:0001"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0711",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0702",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001",
+            "role": "example_only",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 6892
+  },
+  {
+    "id": "DEV022",
+    "input": "시간 괜찮으면 같이 점심 먹자.",
+    "old_endings": [
+      [
+        "시간 괜찮으면 같이 점심 먹자.",
+        "-제"
+      ],
+      [
+        "시간 괜찮으면 같이 점심 먹자.",
+        "-제이"
+      ],
+      [
+        "시간 괜찮으면 같이 점심 먹자.",
+        "-자"
+      ]
+    ],
+    "selected_terminals": [],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 10663
+  },
+  {
+    "id": "DEV023",
+    "input": "어제부터 목이 아팠는데 오늘은 좀 괜찮아요.",
+    "old_endings": [
+      [
+        "오늘은 좀 괜찮아요.",
+        "-어예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "괜찮아요",
+        "source_span": [
+          19,
+          23
+        ],
+        "preferred_surface": "괜찮아예",
+        "source_morphemes": [
+          "괜찮",
+          "어요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0124"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 7235
+  },
+  {
+    "id": "DEV024",
+    "input": "내가 도착할 때까지 여기서 기다려.",
+    "old_endings": [
+      [
+        "내가 도착할 때까지 여기서 기다려.",
+        "-라"
+      ],
+      [
+        "내가 도착할 때까지 여기서 기다려.",
+        "-래이"
+      ],
+      [
+        "내가 도착할 때까지 여기서 기다려.",
+        "-래"
+      ],
+      [
+        "내가 도착할 때까지 여기서 기다려.",
+        "-가래이"
+      ],
+      [
+        "내가 도착할 때까지 여기서 기다려.",
+        "-거래이"
+      ],
+      [
+        "내가 도착할 때까지 여기서 기다려.",
+        "-나래이"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "casual_request",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "기다려",
+        "source_span": [
+          15,
+          18
+        ],
+        "preferred_surface": "기다려라",
+        "source_morphemes": [
+          "기다리",
+          "어"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "JO2018:v2:imperative:0053"
+        ],
+        "support_checks": [
+          {
+            "id": "JO2018:v2:imperative:0053",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "candidate",
+                "field": "pos",
+                "op": "eq",
+                "value": "verb",
+                "basis": "explicit",
+                "actual": "verb",
+                "status": "satisfied"
+              },
+              {
+                "owner": "input",
+                "field": "function",
+                "op": "eq",
+                "value": "imperative",
+                "basis": "explicit",
+                "actual": "imperative",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 7007
+  },
+  {
+    "id": "DEV025",
+    "input": "시간이 없으면 내일 해도 돼.",
+    "old_endings": [],
+    "selected_terminals": [
+      {
+        "family": "casual_permission",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "돼",
+        "source_span": [
+          14,
+          15
+        ],
+        "preferred_surface": "된다",
+        "source_morphemes": [
+          "되",
+          "어"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "JO2018:v2:declarative:0105",
+          "JO2018:v2:declarative:0106"
+        ],
+        "support_checks": [
+          {
+            "id": "JO2018:v2:declarative:0105",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "JO2018:v2:declarative:0106",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [
+          "permission_construction_preserved_not_independent_dialect_fact"
+        ],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 13473
+  },
+  {
+    "id": "DEV026",
+    "input": "늦을까 봐 조금 일찍 나왔어요.",
+    "old_endings": [
+      [
+        "조금 일찍 나왔어요.",
+        "-어예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "나왔어요",
+        "source_span": [
+          12,
+          16
+        ],
+        "preferred_surface": "나왔어예",
+        "source_morphemes": [
+          "나오",
+          "었",
+          "어요"
+        ],
+        "preserve_prefinals": [
+          "었"
+        ],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0124"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 8299
+  },
+  {
+    "id": "DEV027",
+    "input": "동생이 오늘은 늦게 온다고 했어.",
+    "old_endings": [],
+    "selected_terminals": [
+      {
+        "family": "casual_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "했어",
+        "source_span": [
+          15,
+          17
+        ],
+        "preferred_surface": "했다",
+        "source_morphemes": [
+          "하",
+          "었",
+          "어"
+        ],
+        "preserve_prefinals": [
+          "었"
+        ],
+        "supporting_fact_ids": [
+          "JO2018:v2:declarative:0105"
+        ],
+        "support_checks": [
+          {
+            "id": "JO2018:v2:declarative:0105",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 9925
+  },
+  {
+    "id": "DEV028",
+    "input": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+    "old_endings": [
+      [
+        "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+        "-어예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "아니었어요",
+        "source_span": [
+          19,
+          24
+        ],
+        "preferred_surface": "아니었어예",
+        "source_morphemes": [
+          "아니",
+          "었",
+          "어요"
+        ],
+        "preserve_prefinals": [
+          "었"
+        ],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0124"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 8953
+  },
+  {
+    "id": "DEV029",
+    "input": "그 가게에 가 봤는데 음식이 괜찮더라.",
+    "old_endings": [
+      [
+        "음식이 괜찮더라",
+        "-대"
+      ],
+      [
+        "음식이 괜찮더라",
+        "-더라"
+      ],
+      [
+        "음식이 괜찮더라",
+        "-더래"
+      ]
+    ],
+    "selected_terminals": [],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 7481
+  },
+  {
+    "id": "DEV030",
+    "input": "피곤하면 먼저 자. 뒷정리는 내가 할게.",
+    "old_endings": [
+      [
+        "피곤하면 먼저 자.",
+        "-라"
+      ],
+      [
+        "피곤하면 먼저 자.",
+        "-래이"
+      ],
+      [
+        "피곤하면 먼저 자.",
+        "-래"
+      ],
+      [
+        "피곤하면 먼저 자.",
+        "-가래이"
+      ],
+      [
+        "피곤하면 먼저 자.",
+        "-거래이"
+      ],
+      [
+        "피곤하면 먼저 자.",
+        "-나래이"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "casual_request",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "자",
+        "source_span": [
+          8,
+          9
+        ],
+        "preferred_surface": "자라",
+        "source_morphemes": [
+          "자",
+          "어"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "JO2018:v2:imperative:0053"
+        ],
+        "support_checks": [
+          {
+            "id": "JO2018:v2:imperative:0053",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "candidate",
+                "field": "pos",
+                "op": "eq",
+                "value": "verb",
+                "basis": "explicit",
+                "actual": "verb",
+                "status": "satisfied"
+              },
+              {
+                "owner": "input",
+                "field": "function",
+                "op": "eq",
+                "value": "imperative",
+                "basis": "explicit",
+                "actual": "imperative",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      },
+      {
+        "family": "casual_promise",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "할게",
+        "source_span": [
+          19,
+          21
+        ],
+        "preferred_surface": "하께",
+        "source_morphemes": [
+          "하",
+          "ᆯ게"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_GRAMMAR_20260908:v2:full:0711"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0711",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 7371
+  },
+  {
+    "id": "LONG001",
+    "input": "너 지금 어디야? 아까 역 앞에서 만나자고 했는데 왜 아직 안 와? 나는 배가 고파서 먼저 밥을 먹고 있을게.",
+    "old_endings": [
+      [
+        "너 지금 어디야?",
+        "-(이)고"
+      ],
+      [
+        "왜 아직 안 와?",
+        "-노"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "casual_question",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "와",
+        "source_span": [
+          35,
+          36
+        ],
+        "preferred_surface": "오노",
+        "source_morphemes": [
+          "오",
+          "어"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "JO2018:v2:interrogative:0098"
+        ],
+        "support_checks": [
+          {
+            "id": "JO2018:v2:interrogative:0098",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "candidate",
+                "field": "pos",
+                "op": "in",
+                "value": [
+                  "verb",
+                  "adjective"
+                ],
+                "basis": "explicit",
+                "actual": "verb",
+                "status": "satisfied"
+              },
+              {
+                "owner": "input",
+                "field": "question_type",
+                "op": "eq",
+                "value": "content",
+                "basis": "explicit",
+                "actual": "content",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      },
+      {
+        "family": "casual_promise",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "있을게",
+        "source_span": [
+          57,
+          60
+        ],
+        "preferred_surface": "있으께",
+        "source_morphemes": [
+          "있",
+          "을게"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_GRAMMAR_20260908:v2:full:0711"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0711",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 22189
+  },
+  {
+    "id": "LONG002",
+    "input": "오늘 시장에서 사 온 사과 먹어 봤어? 보기에는 조금 작아도 생각보다 달고 맛있더라. 혼자 다 먹지 말고 동생 것도 좀 남겨 둬.",
+    "old_endings": [
+      [
+        "보기에는 조금 작아도 생각보다 달고 맛있더라.",
+        "-대"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "casual_question",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "봤어",
+        "source_span": [
+          18,
+          20
+        ],
+        "preferred_surface": "봤나",
+        "source_morphemes": [
+          "보",
+          "었",
+          "어"
+        ],
+        "preserve_prefinals": [
+          "었"
+        ],
+        "supporting_fact_ids": [
+          "JO2018:v2:interrogative:0096"
+        ],
+        "support_checks": [
+          {
+            "id": "JO2018:v2:interrogative:0096",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "candidate",
+                "field": "pos",
+                "op": "in",
+                "value": [
+                  "verb",
+                  "adjective"
+                ],
+                "basis": "explicit",
+                "actual": "verb",
+                "status": "satisfied"
+              },
+              {
+                "owner": "input",
+                "field": "question_type",
+                "op": "eq",
+                "value": "polar",
+                "basis": "explicit",
+                "actual": "polar",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      },
+      {
+        "family": "casual_request",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "둬",
+        "source_span": [
+          70,
+          71
+        ],
+        "preferred_surface": "둬라",
+        "source_morphemes": [
+          "두",
+          "어"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "JO2018:v2:imperative:0053"
+        ],
+        "support_checks": [
+          {
+            "id": "JO2018:v2:imperative:0053",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "candidate",
+                "field": "pos",
+                "op": "eq",
+                "value": "verb",
+                "basis": "explicit",
+                "actual": "verb",
+                "status": "satisfied"
+              },
+              {
+                "owner": "input",
+                "field": "function",
+                "op": "eq",
+                "value": "imperative",
+                "basis": "explicit",
+                "actual": "imperative",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 22247
+  },
+  {
+    "id": "LONG003",
+    "input": "사장님, 이 국은 뭐가 들어가서 이렇게 맛있어요? 제가 매운 음식은 잘 못 먹는데 이건 괜찮네요. 반찬도 조금만 더 주세요.",
+    "old_endings": [
+      [
+        "이건 괜찮네요",
+        "-네예"
+      ],
+      [
+        "반찬도 조금만 더 주세요",
+        "-세예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_question",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "맛있어요",
+        "source_span": [
+          22,
+          26
+        ],
+        "preferred_surface": "맛있는교",
+        "source_morphemes": [
+          "맛있",
+          "어요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0033"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0033",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "candidate",
+                "field": "pos",
+                "op": "eq",
+                "value": "adjective",
+                "basis": "explicit",
+                "actual": "adjective",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      },
+      {
+        "family": "polite_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "괜찮네요",
+        "source_span": [
+          49,
+          53
+        ],
+        "preferred_surface": "괜찮네예",
+        "source_morphemes": [
+          "괜찮",
+          "네요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0124",
+          "NAMU_GRAMMAR_20260908:v2:full:0702"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0702",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      },
+      {
+        "family": "polite_request",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "주세요",
+        "source_span": [
+          65,
+          68
+        ],
+        "preferred_surface": "주이소",
+        "source_morphemes": [
+          "주",
+          "세요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0006"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0006",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "input",
+                "field": "sentence_function",
+                "op": "eq",
+                "value": "imperative",
+                "basis": "explicit",
+                "actual": "imperative",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 21245
+  },
+  {
+    "id": "LONG004",
+    "input": "할머니, 밖에 비가 많이 오는데 우산은 챙기셨어요? 길이 미끄러우니까 혼자 나가지 마세요. 제가 집 앞까지 모셔다드릴게요.",
+    "old_endings": [
+      [
+        "길이 미끄러우니까 혼자 나가지 마세요.",
+        "-세예"
+      ],
+      [
+        "제가 집 앞까지 모셔다드릴게요.",
+        "-ᆯ게예"
+      ],
+      [
+        "할머니, 밖에 비가 많이 오는데 우산은 챙기셨어요?",
+        "-어예"
+      ],
+      [
+        "길이 미끄러우니까",
+        "-(으)이까"
+      ],
+      [
+        "길이 미끄러우니까",
+        "-(으)니께"
+      ],
+      [
+        "길이 미끄러우니까",
+        "-(으)ㄴ께"
+      ],
+      [
+        "길이 미끄러우니까",
+        "-(으)이끼네"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_question",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "챙기셨어요",
+        "source_span": [
+          22,
+          27
+        ],
+        "preferred_surface": "챙기셨는교",
+        "source_morphemes": [
+          "챙기",
+          "시",
+          "었",
+          "어요"
+        ],
+        "preserve_prefinals": [
+          "시",
+          "었"
+        ],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0034"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0034",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "candidate",
+                "field": "pos",
+                "op": "eq",
+                "value": "verb",
+                "basis": "explicit",
+                "actual": "verb",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      },
+      {
+        "family": "polite_request",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "마세요",
+        "source_span": [
+          46,
+          49
+        ],
+        "preferred_surface": "마이소",
+        "source_morphemes": [
+          "말",
+          "세요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0006"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0006",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "input",
+                "field": "sentence_function",
+                "op": "eq",
+                "value": "imperative",
+                "basis": "explicit",
+                "actual": "imperative",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      },
+      {
+        "family": "polite_promise",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "드릴게요",
+        "source_span": [
+          63,
+          67
+        ],
+        "preferred_surface": "드리께예",
+        "source_morphemes": [
+          "드리",
+          "ᆯ게요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_GRAMMAR_20260908:v2:full:0711",
+          "NAMU_GRAMMAR_20260908:v2:full:0702",
+          "NAMU_GRAMMAR_20260908:v2:terminal_review:0001"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0711",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0702",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001",
+            "role": "example_only",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 21706
+  },
+  {
+    "id": "LONG005",
+    "input": "어제 민수가 오늘은 늦게 온다고 했어. 그래서 우리끼리 먼저 저녁을 먹으려고 하는데 너는 어떻게 할 거야? 기다릴 거면 나한테 미리 말해 줘.",
+    "old_endings": [
+      [
+        "먹으려고",
+        "-(으)ㄹ라"
+      ],
+      [
+        "기다릴 거면",
+        "-머"
+      ],
+      [
+        "기다릴 거면",
+        "-먼"
+      ],
+      [
+        "너는 어떻게 할 거야?",
+        "-(이)고"
+      ],
+      [
+        "나한테 미리 말해 줘.",
+        "-래"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "casual_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "했어",
+        "source_span": [
+          18,
+          20
+        ],
+        "preferred_surface": "했다",
+        "source_morphemes": [
+          "하",
+          "었",
+          "어"
+        ],
+        "preserve_prefinals": [
+          "었"
+        ],
+        "supporting_fact_ids": [
+          "JO2018:v2:declarative:0105"
+        ],
+        "support_checks": [
+          {
+            "id": "JO2018:v2:declarative:0105",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      },
+      {
+        "family": "casual_request",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "줘",
+        "source_span": [
+          77,
+          78
+        ],
+        "preferred_surface": "줘라",
+        "source_morphemes": [
+          "주",
+          "어"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "JO2018:v2:imperative:0053"
+        ],
+        "support_checks": [
+          {
+            "id": "JO2018:v2:imperative:0053",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "candidate",
+                "field": "pos",
+                "op": "eq",
+                "value": "verb",
+                "basis": "explicit",
+                "actual": "verb",
+                "status": "satisfied"
+              },
+              {
+                "owner": "input",
+                "field": "function",
+                "op": "eq",
+                "value": "imperative",
+                "basis": "explicit",
+                "actual": "imperative",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 20926
+  },
+  {
+    "id": "LONG006",
+    "input": "집에 가는 길에 네가 좋아하는 빵을 샀어. 버스를 기다리다가 비가 와서 조금 젖었는데 빵은 괜찮아. 식탁 위에 뒀으니까 배고프면 먹어.",
+    "old_endings": [
+      [
+        "식탁 위에 뒀으니까",
+        "-(으)이까"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "casual_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "샀어",
+        "source_span": [
+          20,
+          22
+        ],
+        "preferred_surface": "샀다",
+        "source_morphemes": [
+          "사",
+          "었",
+          "어"
+        ],
+        "preserve_prefinals": [
+          "었"
+        ],
+        "supporting_fact_ids": [
+          "JO2018:v2:declarative:0105"
+        ],
+        "support_checks": [
+          {
+            "id": "JO2018:v2:declarative:0105",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      },
+      {
+        "family": "casual_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "괜찮아",
+        "source_span": [
+          51,
+          54
+        ],
+        "preferred_surface": "괜찮다",
+        "source_morphemes": [
+          "괜찮",
+          "어"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "JO2018:v2:declarative:0105"
+        ],
+        "support_checks": [
+          {
+            "id": "JO2018:v2:declarative:0105",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      },
+      {
+        "family": "casual_request",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "먹어",
+        "source_span": [
+          72,
+          74
+        ],
+        "preferred_surface": "먹어라",
+        "source_morphemes": [
+          "먹",
+          "어"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "JO2018:v2:imperative:0053"
+        ],
+        "support_checks": [
+          {
+            "id": "JO2018:v2:imperative:0053",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "candidate",
+                "field": "pos",
+                "op": "eq",
+                "value": "verb",
+                "basis": "explicit",
+                "actual": "verb",
+                "status": "satisfied"
+              },
+              {
+                "owner": "input",
+                "field": "function",
+                "op": "eq",
+                "value": "imperative",
+                "basis": "explicit",
+                "actual": "imperative",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 22430
+  },
+  {
+    "id": "LONG007",
+    "input": "아까부터 뭘 그렇게 찾고 있어? 열쇠는 네가 아침에 부엌 식탁 위에 놓았잖아. 거기에도 없으면 내가 같이 찾아 줄 테니까 가방부터 다시 봐.",
+    "old_endings": [
+      [
+        "내가 같이 찾아 줄 테니까",
+        "-(으)이까"
+      ],
+      [
+        "내가 같이 찾아 줄 테니까",
+        "-(으)니께"
+      ],
+      [
+        "내가 같이 찾아 줄 테니까",
+        "-(으)ㄴ께"
+      ],
+      [
+        "내가 같이 찾아 줄 테니까",
+        "-(으)이끼네"
+      ],
+      [
+        "내가 같이 찾아 줄 테니까",
+        "-(으)이꺼네"
+      ],
+      [
+        "아까부터 뭘 그렇게 찾고 있어?",
+        "-노"
+      ],
+      [
+        "아까부터 뭘 그렇게 찾고 있어?",
+        "-도"
+      ],
+      [
+        "가방부터 다시 봐.",
+        "-라"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "casual_question",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "있어",
+        "source_span": [
+          14,
+          16
+        ],
+        "preferred_surface": "있노",
+        "source_morphemes": [
+          "있",
+          "어"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "JO2018:v2:interrogative:0098"
+        ],
+        "support_checks": [
+          {
+            "id": "JO2018:v2:interrogative:0098",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "candidate",
+                "field": "pos",
+                "op": "in",
+                "value": [
+                  "verb",
+                  "adjective"
+                ],
+                "basis": "explicit",
+                "actual": "verb",
+                "status": "satisfied"
+              },
+              {
+                "owner": "input",
+                "field": "question_type",
+                "op": "eq",
+                "value": "content",
+                "basis": "explicit",
+                "actual": "content",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      },
+      {
+        "family": "casual_request",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "봐",
+        "source_span": [
+          76,
+          77
+        ],
+        "preferred_surface": "봐라",
+        "source_morphemes": [
+          "보",
+          "어"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "JO2018:v2:imperative:0053"
+        ],
+        "support_checks": [
+          {
+            "id": "JO2018:v2:imperative:0053",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "candidate",
+                "field": "pos",
+                "op": "eq",
+                "value": "verb",
+                "basis": "explicit",
+                "actual": "verb",
+                "status": "satisfied"
+              },
+              {
+                "owner": "input",
+                "field": "function",
+                "op": "eq",
+                "value": "imperative",
+                "basis": "explicit",
+                "actual": "imperative",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 21504
+  },
+  {
+    "id": "LONG008",
+    "input": "오늘 일이 많아서 많이 힘드셨죠? 급한 건 제가 마무리할 테니까 먼저 들어가서 쉬세요. 내일 아침에 오시면 어디까지 했는지 말씀드릴게요.",
+    "old_endings": [
+      [
+        "오늘 일이 많아서 많이 힘드셨죠?",
+        "-지예"
+      ],
+      [
+        "급한 건 제가 마무리할 테니까 먼저 들어가서 쉬세요.",
+        "-세예"
+      ],
+      [
+        "내일 아침에 오시면 어디까지 했는지 말씀드릴게요.",
+        "-ᆯ게예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_modal_or_confirmation",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "힘드셨죠",
+        "source_span": [
+          13,
+          17
+        ],
+        "preferred_surface": "힘드셨지예",
+        "source_morphemes": [
+          "힘들",
+          "시",
+          "었",
+          "죠"
+        ],
+        "preserve_prefinals": [
+          "시",
+          "었"
+        ],
+        "supporting_fact_ids": [
+          "NAMU_GRAMMAR_20260908:v2:full:0702",
+          "NAMU_HONORIFICS_20260908:v2:full:0124"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0702",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      },
+      {
+        "family": "polite_request",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "쉬세요",
+        "source_span": [
+          44,
+          47
+        ],
+        "preferred_surface": "쉬이소",
+        "source_morphemes": [
+          "쉬",
+          "세요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0006"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0006",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "input",
+                "field": "sentence_function",
+                "op": "eq",
+                "value": "imperative",
+                "basis": "explicit",
+                "actual": "imperative",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      },
+      {
+        "family": "polite_promise",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "드릴게요",
+        "source_span": [
+          71,
+          75
+        ],
+        "preferred_surface": "드리께예",
+        "source_morphemes": [
+          "드리",
+          "ᆯ게요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_GRAMMAR_20260908:v2:full:0711",
+          "NAMU_GRAMMAR_20260908:v2:full:0702",
+          "NAMU_GRAMMAR_20260908:v2:terminal_review:0001"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0711",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0702",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001",
+            "role": "example_only",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 21812
+  },
+  {
+    "id": "NEW001",
+    "input": "저기 창가에 앉아 있는 분이 제 선생님이에요.",
+    "old_endings": [
+      [
+        "저기 창가에 앉아 있는 분이 제 선생님이에요.",
+        "-이라예"
+      ],
+      [
+        "저기 창가에 앉아 있는 분이 제 선생님이에요.",
+        "-이라요"
+      ],
+      [
+        "저기 창가에 앉아 있는 분이 제 선생님이에요.",
+        "-이래요"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "이에요",
+        "source_span": [
+          21,
+          24
+        ],
+        "preferred_surface": "이라예",
+        "source_morphemes": [
+          "이",
+          "에요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_GRAMMAR_20260908:v2:ending_repair:0001"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "candidate",
+                "field": "lemma",
+                "op": "eq",
+                "value": "이다",
+                "basis": "explicit",
+                "actual": "이다",
+                "status": "satisfied"
+              },
+              {
+                "owner": "input",
+                "field": "has_prefinals",
+                "op": "eq",
+                "value": false,
+                "basis": "analyst_interpretation",
+                "actual": false,
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 6212
+  },
+  {
+    "id": "NEW002",
+    "input": "저는 어제 도서관에서 책을 빌렸어요.",
+    "old_endings": [
+      [
+        "저는 어제 도서관에서 책을 빌렸어요.",
+        "-어예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "빌렸어요",
+        "source_span": [
+          15,
+          19
+        ],
+        "preferred_surface": "빌렸어예",
+        "source_morphemes": [
+          "빌리",
+          "었",
+          "어요"
+        ],
+        "preserve_prefinals": [
+          "었"
+        ],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0124"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 3202
+  },
+  {
+    "id": "NEW003",
+    "input": "아버지께서는 아직 저녁을 안 드셨어요.",
+    "old_endings": [
+      [
+        "아버지께서는 아직 저녁을 안 드셨어요.",
+        "-어예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "드셨어요",
+        "source_span": [
+          16,
+          20
+        ],
+        "preferred_surface": "드셨어예",
+        "source_morphemes": [
+          "드시",
+          "었",
+          "어요"
+        ],
+        "preserve_prefinals": [
+          "었"
+        ],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0124"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 3232
+  },
+  {
+    "id": "NEW004",
+    "input": "회의가 벌써 시작했나요?",
+    "old_endings": [
+      [
+        "회의가 벌써 시작했나요?",
+        "-나예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_question",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "시작했나요",
+        "source_span": [
+          7,
+          12
+        ],
+        "preferred_surface": "시작했는교",
+        "source_morphemes": [
+          "시작하",
+          "었",
+          "나요"
+        ],
+        "preserve_prefinals": [
+          "었"
+        ],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0034"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0034",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "candidate",
+                "field": "pos",
+                "op": "eq",
+                "value": "verb",
+                "basis": "explicit",
+                "actual": "verb",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 3160
+  },
+  {
+    "id": "NEW005",
+    "input": "이 서류는 어디에 놓으면 될까요?",
+    "old_endings": [
+      [
+        "이 서류는 어디에 놓으면 될까요?",
+        "-ᆯ까예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_modal_or_confirmation",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "될까요",
+        "source_span": [
+          14,
+          17
+        ],
+        "preferred_surface": "될까예",
+        "source_morphemes": [
+          "되",
+          "ᆯ까요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_GRAMMAR_20260908:v2:full:0702",
+          "NAMU_HONORIFICS_20260908:v2:full:0124"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0702",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 7081
+  },
+  {
+    "id": "NEW006",
+    "input": "계단이 어두우니까 조심해서 내려오세요.",
+    "old_endings": [
+      [
+        "조심해서 내려오세요.",
+        "-세예"
+      ],
+      [
+        "계단이 어두우니까",
+        "-(으)이까"
+      ],
+      [
+        "계단이 어두우니까",
+        "-(으)니께"
+      ],
+      [
+        "계단이 어두우니까",
+        "-(으)ㄴ께"
+      ],
+      [
+        "계단이 어두우니까",
+        "-(으)이끼네"
+      ],
+      [
+        "계단이 어두우니까",
+        "-(으)이꺼네"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_request",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "내려오세요",
+        "source_span": [
+          15,
+          20
+        ],
+        "preferred_surface": "내려오이소",
+        "source_morphemes": [
+          "내려오",
+          "세요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0006"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0006",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "input",
+                "field": "sentence_function",
+                "op": "eq",
+                "value": "imperative",
+                "basis": "explicit",
+                "actual": "imperative",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 11822
+  },
+  {
+    "id": "NEW007",
+    "input": "내가 먼저 먹고 있을 테니까 천천히 와.",
+    "old_endings": [
+      [
+        "내가 먼저 먹고 있을 테니까",
+        "-(으)이까"
+      ],
+      [
+        "내가 먼저 먹고 있을 테니까",
+        "-(으)니께"
+      ],
+      [
+        "내가 먼저 먹고 있을 테니까",
+        "-(으)ㄴ께"
+      ],
+      [
+        "내가 먼저 먹고 있을 테니까",
+        "-(으)이끼네"
+      ],
+      [
+        "내가 먼저 먹고 있을 테니까",
+        "-(으)이꺼네"
+      ],
+      [
+        "천천히 와.",
+        "-라"
+      ],
+      [
+        "천천히 와.",
+        "-래이"
+      ],
+      [
+        "천천히 와.",
+        "-래"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "casual_request",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "와",
+        "source_span": [
+          20,
+          21
+        ],
+        "preferred_surface": "온나",
+        "source_morphemes": [
+          "오",
+          "어"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "JO2018:v2:imperative:0064"
+        ],
+        "support_checks": [
+          {
+            "id": "JO2018:v2:imperative:0064",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "candidate",
+                "field": "lemma",
+                "op": "eq",
+                "value": "오다",
+                "basis": "explicit",
+                "actual": "오다",
+                "status": "satisfied"
+              },
+              {
+                "owner": "candidate",
+                "field": "ending",
+                "op": "eq",
+                "value": "-ㄴ나",
+                "basis": "explicit",
+                "actual": "-ㄴ나",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 18628
+  },
+  {
+    "id": "NEW008",
+    "input": "그건 네 잘못이 아니야.",
+    "old_endings": [],
+    "selected_terminals": [],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 1627
+  },
+  {
+    "id": "NEW009",
+    "input": "동생이 좋아하는 과자를 가방에 넣었어.",
+    "old_endings": [],
+    "selected_terminals": [
+      {
+        "family": "casual_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "넣었어",
+        "source_span": [
+          17,
+          20
+        ],
+        "preferred_surface": "넣었다",
+        "source_morphemes": [
+          "넣",
+          "었",
+          "어"
+        ],
+        "preserve_prefinals": [
+          "었"
+        ],
+        "supporting_fact_ids": [
+          "JO2018:v2:declarative:0105"
+        ],
+        "support_checks": [
+          {
+            "id": "JO2018:v2:declarative:0105",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 5334
+  },
+  {
+    "id": "NEW010",
+    "input": "할아버지, 안경을 어디에 두셨어요? 제가 같이 찾아드릴게요.",
+    "old_endings": [
+      [
+        "제가 같이 찾아드릴게요.",
+        "-ᆯ게예"
+      ],
+      [
+        "할아버지, 안경을 어디에 두셨어요?",
+        "-어예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_question",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "두셨어요",
+        "source_span": [
+          14,
+          18
+        ],
+        "preferred_surface": "두셨는교",
+        "source_morphemes": [
+          "두",
+          "시",
+          "었",
+          "어요"
+        ],
+        "preserve_prefinals": [
+          "시",
+          "었"
+        ],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0034"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0034",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "candidate",
+                "field": "pos",
+                "op": "eq",
+                "value": "verb",
+                "basis": "explicit",
+                "actual": "verb",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      },
+      {
+        "family": "polite_promise",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "드릴게요",
+        "source_span": [
+          28,
+          32
+        ],
+        "preferred_surface": "드리께예",
+        "source_morphemes": [
+          "드리",
+          "ᆯ게요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_GRAMMAR_20260908:v2:full:0711",
+          "NAMU_GRAMMAR_20260908:v2:full:0702",
+          "NAMU_GRAMMAR_20260908:v2:terminal_review:0001"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0711",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0702",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001",
+            "role": "example_only",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 7747
+  },
+  {
+    "id": "NEW011",
+    "input": "오늘은 시간이 없어서 먼저 갈게요. 남은 일은 내일 제가 할게요.",
+    "old_endings": [
+      [
+        "오늘은 시간이 없어서 먼저 갈게요.",
+        "-ᆯ게예"
+      ],
+      [
+        "남은 일은 내일 제가 할게요.",
+        "-ᆯ게예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_promise",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "갈게요",
+        "source_span": [
+          15,
+          18
+        ],
+        "preferred_surface": "가께예",
+        "source_morphemes": [
+          "가",
+          "ᆯ게요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_GRAMMAR_20260908:v2:full:0711",
+          "NAMU_GRAMMAR_20260908:v2:full:0702",
+          "NAMU_GRAMMAR_20260908:v2:terminal_review:0001"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0711",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0702",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001",
+            "role": "example_only",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      },
+      {
+        "family": "polite_promise",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "할게요",
+        "source_span": [
+          32,
+          35
+        ],
+        "preferred_surface": "하께예",
+        "source_morphemes": [
+          "하",
+          "ᆯ게요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_GRAMMAR_20260908:v2:full:0711",
+          "NAMU_GRAMMAR_20260908:v2:full:0702",
+          "NAMU_GRAMMAR_20260908:v2:terminal_review:0001"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0711",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0702",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001",
+            "role": "example_only",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 12523
+  },
+  {
+    "id": "NEW012",
+    "input": "그 물건을 버리라고 한 건 아니었어요. 잠깐 다른 곳에 옮겨 달라는 뜻이었어요.",
+    "old_endings": [
+      [
+        "그 물건을 버리라고 한 건 아니었어요.",
+        "-어예"
+      ],
+      [
+        "잠깐 다른 곳에 옮겨 달라는 뜻이었어요.",
+        "-어예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "아니었어요",
+        "source_span": [
+          15,
+          20
+        ],
+        "preferred_surface": "아니었어예",
+        "source_morphemes": [
+          "아니",
+          "었",
+          "어요"
+        ],
+        "preserve_prefinals": [
+          "었"
+        ],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0124"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      },
+      {
+        "family": "polite_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "이었어요",
+        "source_span": [
+          39,
+          43
+        ],
+        "preferred_surface": "이었어예",
+        "source_morphemes": [
+          "이",
+          "었",
+          "어요"
+        ],
+        "preserve_prefinals": [
+          "었"
+        ],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0124"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 22399
+  },
+  {
+    "id": "ADVCE001A",
+    "input": "기차가 지금 정차하나요?",
+    "old_endings": [
+      [
+        "기차가 지금 정차하나요?",
+        "-나예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_question",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "정차하나요",
+        "source_span": [
+          7,
+          12
+        ],
+        "preferred_surface": "정차하는교",
+        "source_morphemes": [
+          "정차하",
+          "나요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0034"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0034",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "candidate",
+                "field": "pos",
+                "op": "eq",
+                "value": "verb",
+                "basis": "explicit",
+                "actual": "verb",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 4383
+  },
+  {
+    "id": "ADVCE001B",
+    "input": "기차가 어제 정차했나요?",
+    "old_endings": [
+      [
+        "기차가 어제 정차했나요?",
+        "-나예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_question",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "정차했나요",
+        "source_span": [
+          7,
+          12
+        ],
+        "preferred_surface": "정차했는교",
+        "source_morphemes": [
+          "정차하",
+          "었",
+          "나요"
+        ],
+        "preserve_prefinals": [
+          "었"
+        ],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0034"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0034",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "candidate",
+                "field": "pos",
+                "op": "eq",
+                "value": "verb",
+                "basis": "explicit",
+                "actual": "verb",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 3163
+  },
+  {
+    "id": "ADVCE002A",
+    "input": "선생님께서 자료를 읽고 계세요.",
+    "old_endings": [
+      [
+        "선생님께서 자료를 읽고 계세요.",
+        "-어예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "계세요",
+        "source_span": [
+          13,
+          16
+        ],
+        "preferred_surface": "계셔예",
+        "source_morphemes": [
+          "계시",
+          "어요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0124"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 3221
+  },
+  {
+    "id": "ADVCE002B",
+    "input": "선생님께서 자료를 읽고 계셨어요.",
+    "old_endings": [
+      [
+        "선생님께서 자료를 읽고 계셨어요.",
+        "-어예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "계셨어요",
+        "source_span": [
+          13,
+          17
+        ],
+        "preferred_surface": "계셨어예",
+        "source_morphemes": [
+          "계시",
+          "었",
+          "어요"
+        ],
+        "preserve_prefinals": [
+          "었"
+        ],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0124"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 3232
+  },
+  {
+    "id": "ADVCE003A",
+    "input": "이 문을 제가 닫을까요?",
+    "old_endings": [
+      [
+        "이 문을 제가 닫을까요?",
+        "-을까예"
+      ],
+      [
+        "이 문을 제가 닫을까요?",
+        "-꾜"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_modal_or_confirmation",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "닫을까요",
+        "source_span": [
+          8,
+          12
+        ],
+        "preferred_surface": "닫을까예",
+        "source_morphemes": [
+          "닫",
+          "을까요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_GRAMMAR_20260908:v2:full:0702",
+          "NAMU_HONORIFICS_20260908:v2:full:0124"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0702",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 3628
+  },
+  {
+    "id": "ADVCE003B",
+    "input": "이 문이 저절로 닫힐까요?",
+    "old_endings": [
+      [
+        "이 문이 저절로 닫힐까요?",
+        "-ᆯ까예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_modal_or_confirmation",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "닫힐까요",
+        "source_span": [
+          9,
+          13
+        ],
+        "preferred_surface": "닫힐까예",
+        "source_morphemes": [
+          "닫히",
+          "ᆯ까요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_GRAMMAR_20260908:v2:full:0702",
+          "NAMU_HONORIFICS_20260908:v2:full:0124"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0702",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 4794
+  },
+  {
+    "id": "ADVCE004A",
+    "input": "선생님은 매일 이 길로 걸으세요.",
+    "old_endings": [
+      [
+        "선생님은 매일 이 길로 걸으세요.",
+        "-으세예"
+      ]
+    ],
+    "selected_terminals": [],
+    "request_changed": true,
+    "blocked": [
+      {
+        "status": "blocked",
+        "reason": "ambiguous_seyo_conflicts_with_cached_question; requires_analysis_review",
+        "binding": {
+          "text": "선생님은 매일 이 길로 걸으세요.",
+          "span": [
+            0,
+            18
+          ],
+          "clause_id": "ADVCE004A:c1",
+          "host_lemma": "걷다",
+          "ending": "으세요",
+          "predicate_span": [
+            13,
+            17
+          ],
+          "speech_style_preference": {
+            "politeness": "polite",
+            "register": "informal_polite",
+            "source_ending": "으세요",
+            "basis": "source_terminal_form"
+          }
+        },
+        "source_ending": "으세요"
+      }
+    ],
+    "reference_packet_chars": 666
+  },
+  {
+    "id": "ADVCE004B",
+    "input": "선생님, 오늘은 이 길로 걸으세요.",
+    "old_endings": [
+      [
+        "선생님, 오늘은 이 길로 걸으세요.",
+        "-으세예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_request",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "걸으세요",
+        "source_span": [
+          14,
+          18
+        ],
+        "preferred_surface": "걸으이소",
+        "source_morphemes": [
+          "걷",
+          "으세요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0006"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0006",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "input",
+                "field": "sentence_function",
+                "op": "eq",
+                "value": "imperative",
+                "basis": "explicit",
+                "actual": "imperative",
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 4768
+  },
+  {
+    "id": "ADVCE005A",
+    "input": "그 사람은 제 동료예요.",
+    "old_endings": [
+      [
+        "그 사람은 제 동료예요.",
+        "-이라예"
+      ],
+      [
+        "그 사람은 제 동료예요.",
+        "-이라요"
+      ],
+      [
+        "그 사람은 제 동료예요.",
+        "-이래요"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "예요",
+        "source_span": [
+          10,
+          12
+        ],
+        "preferred_surface": "라예",
+        "source_morphemes": [
+          "이",
+          "예요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_GRAMMAR_20260908:v2:ending_repair:0001"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001",
+            "role": "rule",
+            "conditions": [
+              {
+                "owner": "candidate",
+                "field": "lemma",
+                "op": "eq",
+                "value": "이다",
+                "basis": "explicit",
+                "actual": "이다",
+                "status": "satisfied"
+              },
+              {
+                "owner": "input",
+                "field": "has_prefinals",
+                "op": "eq",
+                "value": false,
+                "basis": "analyst_interpretation",
+                "actual": false,
+                "status": "satisfied"
+              }
+            ]
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 3332
+  },
+  {
+    "id": "ADVCE005B",
+    "input": "그 사람은 제 동료를 도와요.",
+    "old_endings": [
+      [
+        "그 사람은 제 동료를 도와요.",
+        "-어예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "도와요",
+        "source_span": [
+          12,
+          15
+        ],
+        "preferred_surface": "도와예",
+        "source_morphemes": [
+          "돕",
+          "어요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0124"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 3190
+  },
+  {
+    "id": "ADVCE006A",
+    "input": "저는 그 내용을 설명했어요.",
+    "old_endings": [
+      [
+        "저는 그 내용을 설명했어요.",
+        "-어예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "설명했어요",
+        "source_span": [
+          9,
+          14
+        ],
+        "preferred_surface": "설명했어예",
+        "source_morphemes": [
+          "설명하",
+          "었",
+          "어요"
+        ],
+        "preserve_prefinals": [
+          "었"
+        ],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0124"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 3202
+  },
+  {
+    "id": "ADVCE006B",
+    "input": "나는 그 내용을 설명했어요.",
+    "old_endings": [
+      [
+        "나는 그 내용을 설명했어요.",
+        "-어예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "설명했어요",
+        "source_span": [
+          9,
+          14
+        ],
+        "preferred_surface": "설명했어예",
+        "source_morphemes": [
+          "설명하",
+          "었",
+          "어요"
+        ],
+        "preserve_prefinals": [
+          "었"
+        ],
+        "supporting_fact_ids": [
+          "NAMU_HONORIFICS_20260908:v2:full:0124"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 4752
+  },
+  {
+    "id": "ADVCE007A",
+    "input": "저는 먼저 기다릴게요.",
+    "old_endings": [
+      [
+        "저는 먼저 기다릴게요.",
+        "-ᆯ게예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_promise",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "기다릴게요",
+        "source_span": [
+          6,
+          11
+        ],
+        "preferred_surface": "기다리께예",
+        "source_morphemes": [
+          "기다리",
+          "ᆯ게요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_GRAMMAR_20260908:v2:full:0711",
+          "NAMU_GRAMMAR_20260908:v2:full:0702",
+          "NAMU_GRAMMAR_20260908:v2:terminal_review:0001"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0711",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0702",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001",
+            "role": "example_only",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 5006
+  },
+  {
+    "id": "ADVCE007B",
+    "input": "저는 앞에서 기다릴게요.",
+    "old_endings": [
+      [
+        "저는 앞에서 기다릴게요.",
+        "-ᆯ게예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_promise",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "기다릴게요",
+        "source_span": [
+          7,
+          12
+        ],
+        "preferred_surface": "기다리께예",
+        "source_morphemes": [
+          "기다리",
+          "ᆯ게요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_GRAMMAR_20260908:v2:full:0711",
+          "NAMU_GRAMMAR_20260908:v2:full:0702",
+          "NAMU_GRAMMAR_20260908:v2:terminal_review:0001"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0711",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0702",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001",
+            "role": "example_only",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 3810
+  },
+  {
+    "id": "ADVCE008A",
+    "input": "제가 지금 읽는 책을 빌려드릴게요.",
+    "old_endings": [
+      [
+        "제가 지금 읽는 책을 빌려드릴게요.",
+        "-ᆯ게예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_promise",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "드릴게요",
+        "source_span": [
+          14,
+          18
+        ],
+        "preferred_surface": "드리께예",
+        "source_morphemes": [
+          "드리",
+          "ᆯ게요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_GRAMMAR_20260908:v2:full:0711",
+          "NAMU_GRAMMAR_20260908:v2:full:0702",
+          "NAMU_GRAMMAR_20260908:v2:terminal_review:0001"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0711",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0702",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001",
+            "role": "example_only",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 5622
+  },
+  {
+    "id": "ADVCE008B",
+    "input": "제가 전에 읽던 책을 빌려드릴게요.",
+    "old_endings": [
+      [
+        "제가 전에 읽던 책을 빌려드릴게요.",
+        "-ᆯ게예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_promise",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "드릴게요",
+        "source_span": [
+          14,
+          18
+        ],
+        "preferred_surface": "드리께예",
+        "source_morphemes": [
+          "드리",
+          "ᆯ게요"
+        ],
+        "preserve_prefinals": [],
+        "supporting_fact_ids": [
+          "NAMU_GRAMMAR_20260908:v2:full:0711",
+          "NAMU_GRAMMAR_20260908:v2:full:0702",
+          "NAMU_GRAMMAR_20260908:v2:terminal_review:0001"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0711",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0702",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001",
+            "role": "example_only",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 4395
+  },
+  {
+    "id": "ADVCE009A",
+    "input": "그 식당 음식이 짜더라.",
+    "old_endings": [
+      [
+        "그 식당 음식이 짜더라.",
+        "-대"
+      ],
+      [
+        "그 식당 음식이 짜더라.",
+        "-더라"
+      ],
+      [
+        "그 식당 음식이 짜더라.",
+        "-더래"
+      ]
+    ],
+    "selected_terminals": [],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 5792
+  },
+  {
+    "id": "ADVCE009B",
+    "input": "그 식당 음식이 짜다고 들었어.",
+    "old_endings": [],
+    "selected_terminals": [
+      {
+        "family": "casual_declarative",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "들었어",
+        "source_span": [
+          13,
+          16
+        ],
+        "preferred_surface": "들었다",
+        "source_morphemes": [
+          "듣",
+          "었",
+          "어"
+        ],
+        "preserve_prefinals": [
+          "었"
+        ],
+        "supporting_fact_ids": [
+          "JO2018:v2:declarative:0105"
+        ],
+        "support_checks": [
+          {
+            "id": "JO2018:v2:declarative:0105",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 6488
+  },
+  {
+    "id": "ADVCE010A",
+    "input": "그 서류는 이미 제출하셨죠?",
+    "old_endings": [
+      [
+        "그 서류는 이미 제출하셨죠?",
+        "-지예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_modal_or_confirmation",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "제출하셨죠",
+        "source_span": [
+          9,
+          14
+        ],
+        "preferred_surface": "제출하셨지예",
+        "source_morphemes": [
+          "제출하",
+          "시",
+          "었",
+          "죠"
+        ],
+        "preserve_prefinals": [
+          "시",
+          "었"
+        ],
+        "supporting_fact_ids": [
+          "NAMU_GRAMMAR_20260908:v2:full:0702",
+          "NAMU_HONORIFICS_20260908:v2:full:0124"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0702",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 3670
+  },
+  {
+    "id": "ADVCE010B",
+    "input": "그 서류는 이미 제출하셨죠.",
+    "old_endings": [
+      [
+        "그 서류는 이미 제출하셨죠.",
+        "-지예"
+      ]
+    ],
+    "selected_terminals": [
+      {
+        "family": "polite_modal_or_confirmation",
+        "status": "derived_surface_not_attested_complete_utterance",
+        "source_text": "제출하셨죠",
+        "source_span": [
+          9,
+          14
+        ],
+        "preferred_surface": "제출하셨지예",
+        "source_morphemes": [
+          "제출하",
+          "시",
+          "었",
+          "죠"
+        ],
+        "preserve_prefinals": [
+          "시",
+          "었"
+        ],
+        "supporting_fact_ids": [
+          "NAMU_GRAMMAR_20260908:v2:full:0702",
+          "NAMU_HONORIFICS_20260908:v2:full:0124"
+        ],
+        "support_checks": [
+          {
+            "id": "NAMU_GRAMMAR_20260908:v2:full:0702",
+            "role": "rule",
+            "conditions": []
+          },
+          {
+            "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+            "role": "rule",
+            "conditions": []
+          }
+        ],
+        "analysis_notes": [],
+        "instruction": "선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다."
+      }
+    ],
+    "request_changed": true,
+    "blocked": [],
+    "reference_packet_chars": 3670
+  }
+]

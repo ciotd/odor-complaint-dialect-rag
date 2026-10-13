@@ -1,0 +1,3438 @@
+{
+  "items": [
+    {
+      "id": "QUAL001",
+      "input": "사실 저 같은 경우에는 학교 다닐 때는 자격증이나 그런 뭔가를 배운다는 거에 대해서 생각을 많이 하진 않았어요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "문장 전체가 하나의 종결 서술부를 가진 단일 문장임. '자격증이나 그런 뭔가를 배운다는 거에 대해서'는 복잡한 관형절/의존명사 구성으로, 세부 내부 구조는 source_units에 보존함.",
+      "clauses": [
+        {
+          "clause_id": "QUAL001:c1",
+          "predicate_complex_id": "QUAL001:c1:predicate",
+          "text": "사실 저 같은 경우에는 학교 다닐 때는 자격증이나 그런 뭔가를 배운다는 거에 대해서 생각을 많이 하진 않았어요.",
+          "span": [
+            0,
+            62
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "하다",
+            "sentence_type": "declarative",
+            "speech_act": null,
+            "subject_person": "first",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "meaning": "과거에 자격증 학습에 대해 깊이 생각하지 않았다는 상태의 서술",
+            "source_form": "않았어요"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "부정 표현 '하진 않았다'는 '하지 않았다'의 축약/강조 형태로 분석됨. 종결 어미 '-요'로 청자 높임 확인.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "QUAL001:u1",
+          "text": "사실 저 같은 경우에는 학교 다닐 때는 자격증이나 그런 뭔가를 배운다는 거에 대해서 생각을 많이 하진 않았어요.",
+          "span": [
+            0,
+            62
+          ],
+          "kind": "문장 전체",
+          "parent_index": null,
+          "meaning": "화자가 학교 시절 자격증 취득에 대해 고민하지 않았음을 서술하는 문장",
+          "form_queries": [
+            "사실 저 같은 경우에는 학교 다닐 때는 자격증이나 그런 뭔가를 배운다는 거에 대해서 생각을 많이 하진 않았어요"
+          ],
+          "semantic_queries": [
+            "과거 경험 서술",
+            "자격증 학습에 대한 무관심",
+            "학교 시절 회고"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL001:u2",
+          "text": "사실",
+          "span": [
+            0,
+            2
+          ],
+          "kind": "부사/연결어",
+          "parent_index": 0,
+          "meaning": "화자의 진술을 보완하거나 전제를 밝히는 표현",
+          "form_queries": [
+            "사실"
+          ],
+          "semantic_queries": [
+            "진술 보완",
+            "전제 제시"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL001:u3",
+          "text": "저 같은 경우에는",
+          "span": [
+            3,
+            12
+          ],
+          "kind": "주어/상황 한정",
+          "parent_index": 0,
+          "meaning": "화자 본인의 경우를 한정하여 서술",
+          "form_queries": [
+            "저 같은 경우에는"
+          ],
+          "semantic_queries": [
+            "화자 한정",
+            "개인 경험 강조"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL001:u4",
+          "text": "학교 다닐 때는",
+          "span": [
+            13,
+            21
+          ],
+          "kind": "시간 부사절",
+          "parent_index": 0,
+          "meaning": "학교에 다니던 과거의 시간대를 지정",
+          "form_queries": [
+            "학교 다닐 때는"
+          ],
+          "semantic_queries": [
+            "과거 시간 한정",
+            "학창 시절"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL001:u5",
+          "text": "자격증이나 그런 뭔가를 배운다는 거에 대해서",
+          "span": [
+            22,
+            46
+          ],
+          "kind": "관형절/의존명사 구성",
+          "parent_index": 0,
+          "meaning": "자격증이나 유사한 것을 배우는 행위/개념에 대해",
+          "form_queries": [
+            "자격증이나 그런 뭔가를 배운다는 거에 대해서"
+          ],
+          "semantic_queries": [
+            "자격증 학습 대상",
+            "배움의 개념"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL001:u6",
+          "text": "생각을 많이 하진 않았어요",
+          "span": [
+            47,
+            61
+          ],
+          "kind": "서술부",
+          "parent_index": 0,
+          "meaning": "많이 생각하지 않았다는 과거의 부정적 상태",
+          "form_queries": [
+            "생각을 많이 하진 않았어요",
+            "생각을 많이 하지 않았어요"
+          ],
+          "semantic_queries": [
+            "부정적 과거 경험",
+            "고민 없음"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "QUAL002",
+      "input": "그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "문장 전체가 하나의 종결 서술부로 분석되며, 별도 연결절은 없다. '그런데'는 문두 접속 부사로 취급되어 독립적인 절로 분리하지 않았다.",
+      "clauses": [
+        {
+          "clause_id": "QUAL002:c1",
+          "predicate_complex_id": "QUAL002:c1:predicate",
+          "text": "그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요.",
+          "span": [
+            0,
+            54
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "copula",
+            "host_class": "nominal_copula",
+            "host_form": "이다",
+            "sentence_type": "declarative",
+            "speech_act": null,
+            "subject_person": "first",
+            "nominal_coda": "present",
+            "stem_coda": "absent",
+            "stem_vowel": "a",
+            "meaning": "배움의 눈을 뜨게 된 것임을 서술",
+            "source_form": "된 거예요"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {},
+          "scope_note": "서술부는 '된 거예요'로, 의존명사 '거'와 결합된 '이다'의 활용형이다. '뜨게'는 관형형 어미 '-게'가 결합한 형태이며, 이는 '눈'을 수식하는 관형절 내부의 형태이므로 주절의 선어말어미 목록에는 포함하지 않는다. '된'은 '되다'의 관형형 어미 '-ㄴ'이다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "QUAL002:u1",
+          "text": "그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요.",
+          "span": [
+            0,
+            54
+          ],
+          "kind": "문장 전체",
+          "parent_index": null,
+          "meaning": "대학 졸업 후 사회생활을 하면서 배움의 눈을 늦게 떴다는 회고",
+          "form_queries": [
+            "그런데",
+            "졸업하고",
+            "사회생활을 하면서",
+            "배움의 눈을 뜨게 된 거예요"
+          ],
+          "semantic_queries": [
+            "회고적 서술",
+            "시간 경과와 변화",
+            "배움의 시작"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL002:u2",
+          "text": "대학을 졸업하고",
+          "span": [
+            7,
+            15
+          ],
+          "kind": "연결절 (동사+연결어미)",
+          "parent_index": 0,
+          "meaning": "대학을 졸업한 후",
+          "form_queries": [
+            "졸업하다",
+            "-고"
+          ],
+          "semantic_queries": [
+            "순차적 사건",
+            "대학 졸업"
+          ],
+          "features": {
+            "clause_relation": "retrospective_sequence"
+          }
+        },
+        {
+          "unit_id": "QUAL002:u3",
+          "text": "사회생활을 하면서",
+          "span": [
+            16,
+            25
+          ],
+          "kind": "연결절 (명사+조사+동사+연결어미)",
+          "parent_index": 0,
+          "meaning": "사회생활을 하는 동안",
+          "form_queries": [
+            "사회생활",
+            "하면서"
+          ],
+          "semantic_queries": [
+            "동시적 상황",
+            "사회생활 중"
+          ],
+          "features": {
+            "clause_relation": "simultaneous_action"
+          }
+        },
+        {
+          "unit_id": "QUAL002:u4",
+          "text": "배움의 눈을 뜨게 된 거예요",
+          "span": [
+            38,
+            53
+          ],
+          "kind": "주절 서술부 (관형절+의존명사+계사)",
+          "parent_index": 0,
+          "meaning": "배움의 눈을 뜨게 된 것임을 나타냄",
+          "form_queries": [
+            "눈을 뜨다",
+            "-게",
+            "-ㄴ",
+            "거예요"
+          ],
+          "semantic_queries": [
+            "깨달음",
+            "배움의 시작",
+            "과거 완료"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL002:u5",
+          "text": "배움의 눈을 뜨게",
+          "span": [
+            38,
+            47
+          ],
+          "kind": "관형절 (관용 표현+관형형 어미)",
+          "parent_index": 3,
+          "meaning": "배움의 눈을 뜨게 (된)",
+          "form_queries": [
+            "눈을 뜨다",
+            "-게"
+          ],
+          "semantic_queries": [
+            "관용 표현",
+            "깨달음"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "QUAL003",
+      "input": "제가 좀 어떻게 보면 과를 잘못 선정해가지고 이십 대는 거의 시간을 날리면서 보낸 것 같아요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "어미 '해가지고'의 정확한 문법적 분류(연결어미 -아/어 가지고의 구어적 축약인지, 관용적 인과 연결인지)는 원문만으로는 표준어 규격과의 정합성이 불명확하여 별도 분석을 보류한다.",
+      "clauses": [
+        {
+          "clause_id": "QUAL003:c1",
+          "predicate_complex_id": "QUAL003:c1:predicate",
+          "text": "제가 좀 어떻게 보면 과를 잘못 선정해가지고 이십 대는 거의 시간을 날리면서 보낸 것 같아요.",
+          "span": [
+            0,
+            52
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "copula",
+            "host_class": "nominal_copula",
+            "host_form": "같다",
+            "sentence_type": "declarative",
+            "speech_act": null,
+            "subject_person": "first",
+            "nominal_coda": "absent",
+            "stem_vowel": "a",
+            "stem_coda": "absent"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none"
+          },
+          "scope_note": "종결 어미 '-아요'는 반말체(비격식체)의 평서형이다. '것 같아요'는 화자의 추측이나 주관적 판단을 나타내는 구성이다. 앞절 '선정해가지고'는 인과 관계를 나타내는 연결절로 해석되나, '해가지고'의 형태가 표준어 규격의 연결어미 목록에 명확히 대응되지 않아 features에 clause_relation을 기입하지 않았다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "QUAL003:u1",
+          "text": "제가 좀 어떻게 보면 과를 잘못 선정해가지고 이십 대는 거의 시간을 날리면서 보낸 것 같아요.",
+          "span": [
+            0,
+            52
+          ],
+          "kind": "문장 전체",
+          "parent_index": null,
+          "meaning": "화자가 과를 잘못 선택하여 20대 시간을 낭비했다고 느끼는 내용을 담은 평서문",
+          "form_queries": [
+            "선정해가지고",
+            "날리면서",
+            "보낸 것 같아요"
+          ],
+          "semantic_queries": [
+            "인과 관계 연결어미",
+            "동시성 연결어미",
+            "추측/판단 표현"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL003:u2",
+          "text": "제가 좀 어떻게 보면 과를 잘못 선정해가지고",
+          "span": [
+            0,
+            24
+          ],
+          "kind": "인과 연결절",
+          "parent_index": 0,
+          "meaning": "과를 잘못 선택했다는 원인을 나타내는 절",
+          "form_queries": [
+            "선정해가지고"
+          ],
+          "semantic_queries": [
+            "인과 관계",
+            "구어적 인과 연결"
+          ],
+          "features": {
+            "clause_relation": "cause"
+          }
+        },
+        {
+          "unit_id": "QUAL003:u3",
+          "text": "선정해가지고",
+          "span": [
+            18,
+            24
+          ],
+          "kind": "연결 용언 구성",
+          "parent_index": 1,
+          "meaning": "선정하다 + 해가지고(인과 연결)",
+          "form_queries": [
+            "선정하다",
+            "해가지고"
+          ],
+          "semantic_queries": [
+            "인과 연결어미",
+            "구어체 인과 표현"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL003:u4",
+          "text": "이십 대는 거의 시간을 날리면서 보낸",
+          "span": [
+            25,
+            45
+          ],
+          "kind": "관형절",
+          "parent_index": 0,
+          "meaning": "20대 동안 시간을 낭비하면서 보냈다는 내용을 '것'을 수식하는 관형절",
+          "form_queries": [
+            "날리면서",
+            "보낸"
+          ],
+          "semantic_queries": [
+            "동시성 연결",
+            "과거 관형형"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL003:u5",
+          "text": "날리면서",
+          "span": [
+            38,
+            42
+          ],
+          "kind": "연결 용언",
+          "parent_index": 3,
+          "meaning": "시간을 낭비하는 행위가 '보내다'와 동시에 일어남을 나타냄",
+          "form_queries": [
+            "날리다",
+            "-면서"
+          ],
+          "semantic_queries": [
+            "동시성 연결어미"
+          ],
+          "features": {
+            "clause_relation": "simultaneous_action"
+          }
+        },
+        {
+          "unit_id": "QUAL003:u6",
+          "text": "보낸",
+          "span": [
+            43,
+            45
+          ],
+          "kind": "관형형 용언",
+          "parent_index": 3,
+          "meaning": "보내다의 과거 관형형",
+          "form_queries": [
+            "보내다",
+            "-ㄴ"
+          ],
+          "semantic_queries": [
+            "과거 관형형"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL003:u7",
+          "text": "것 같아요",
+          "span": [
+            46,
+            51
+          ],
+          "kind": "추측/판단 종결 구성",
+          "parent_index": 0,
+          "meaning": "화자의 주관적 판단이나 추측을 나타내는 종결 표현",
+          "form_queries": [
+            "같다",
+            "-아요"
+          ],
+          "semantic_queries": [
+            "추측 표현",
+            "주관적 판단"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "QUAL004",
+      "input": "이게 마음이, 열정은 뜨거운데 머리가 좀 잘 안 따라주는 게 있더라고요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "명사구 '마음이, 열정은'과 '머리가'의 내부 구조는 별도 분석 대상이 아님.",
+      "clauses": [
+        {
+          "clause_id": "QUAL004:c1",
+          "predicate_complex_id": "QUAL004:c1:predicate",
+          "text": "이게 마음이, 열정은 뜨거운데",
+          "span": [
+            0,
+            16
+          ],
+          "role": "connective",
+          "features": {
+            "host_pos": "adjective",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "뜨겁다",
+            "stem_vowel": "o",
+            "stem_coda": "absent",
+            "clause_relation": "contrast",
+            "sentence_type": "declarative"
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none"
+          },
+          "scope_note": "연결어미 -ㄴ데로 종결되지 않고 후행절과 연결됨. '뜨겁다'의 어간은 '뜨겁'으로 받침이 있음.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "QUAL004:c2",
+          "predicate_complex_id": "QUAL004:c2:predicate",
+          "text": "머리가 좀 잘 안 따라주는 게 있더라고요.",
+          "span": [
+            17,
+            40
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "따라주다",
+            "stem_vowel": "u",
+            "stem_coda": "absent",
+            "sentence_type": "declarative",
+            "speech_act": "state_intention",
+            "subject_person": "first",
+            "meaning": "화자가 경험한 과거의 상태나 사실을 회상하며 서술"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {},
+          "scope_note": "종결어미 -더라고요는 과거 경험의 회상과 청자에게 확인을 구하는 뉘앙스를 포함. '따라주다'는 보조동사 '주다'가 결합된 형태.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "QUAL004:u1",
+          "text": "이게 마음이, 열정은 뜨거운데 머리가 좀 잘 안 따라주는 게 있더라고요.",
+          "span": [
+            0,
+            40
+          ],
+          "kind": "문장 전체",
+          "parent_index": null,
+          "meaning": "화자의 열정과 머리의 불일치를 회상하며 서술하는 문장",
+          "form_queries": [
+            "이게 마음이, 열정은 뜨거운데 머리가 좀 잘 안 따라주는 게 있더라고요."
+          ],
+          "semantic_queries": [
+            "열정은 뜨겁지만 머리가 따라주지 않는다는 회상",
+            "감정과 인지 능력의 괴리를 표현한 문장"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL004:u2",
+          "text": "뜨거운데",
+          "span": [
+            12,
+            16
+          ],
+          "kind": "연결절 서술부",
+          "parent_index": 0,
+          "meaning": "마음과 열정이 뜨겁다는 상태를 후행절과 대비시키며 연결",
+          "form_queries": [
+            "뜨겁다",
+            "-ㄴ데"
+          ],
+          "semantic_queries": [
+            "형용사 '뜨겁다'의 관형형/연결형 활용",
+            "대조적 연결어미 -ㄴ데"
+          ],
+          "features": {
+            "clause_relation": "contrast"
+          }
+        },
+        {
+          "unit_id": "QUAL004:u3",
+          "text": "따라주는 게",
+          "span": [
+            27,
+            33
+          ],
+          "kind": "관형절",
+          "parent_index": 0,
+          "meaning": "머리가 잘 따라주지 않는다는 내용을 명사 '것'을 수식하는 관형절",
+          "form_queries": [
+            "따라주다",
+            "-는"
+          ],
+          "semantic_queries": [
+            "동사 '따라주다'의 관형형 어미 -는",
+            "부정 부사 '안'과 정도 부사 '좀', '잘'의 결합"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL004:u4",
+          "text": "있더라고요",
+          "span": [
+            34,
+            39
+          ],
+          "kind": "종결 서술부",
+          "parent_index": 0,
+          "meaning": "화자가 과거에 경험하거나 인식한 사실을 회상하며 청자에게 전달",
+          "form_queries": [
+            "있다",
+            "-더라고요"
+          ],
+          "semantic_queries": [
+            "존재 동사 '있다'의 과거 회상 종결어미",
+            "경험적 회상과 확인을 나타내는 -더라고요"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "QUAL005",
+      "input": "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "명사구 '대학교 졸업반 애들이'의 내부 수식 관계는 별도 분석 대상이 아님.",
+      "clauses": [
+        {
+          "clause_id": "QUAL005:c1",
+          "predicate_complex_id": "QUAL005:c1:predicate",
+          "text": "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어요.",
+          "span": [
+            0,
+            33
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "copula",
+            "host_class": "nominal_copula",
+            "host_form": "이다",
+            "sentence_type": "declarative",
+            "speech_act": null,
+            "subject_person": "third",
+            "nominal_coda": "present",
+            "source_form": "이에요"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "주어 '애들이'의 받침 'ㄹ'이 있어 '이에요'로 실현됨. 선어말 '-었-'은 과거 시제를 나타냄.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "QUAL005:u1",
+          "text": "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어요.",
+          "span": [
+            0,
+            33
+          ],
+          "kind": "문장",
+          "parent_index": null,
+          "meaning": "과거에 화자와 함께 공부했던 사람들이 대학교 졸업반이었다는 서술",
+          "form_queries": [
+            "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어요."
+          ],
+          "semantic_queries": [
+            "과거 경험 서술",
+            "동료의 학년 상태 설명"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL005:u2",
+          "text": "그때 저랑 같이 공부했던",
+          "span": [
+            0,
+            13
+          ],
+          "kind": "관형절",
+          "parent_index": 0,
+          "meaning": "주어 '애들이'를 수식하는 관형절. 과거에 화자와 함께 공부했다는 내용",
+          "form_queries": [
+            "공부했던"
+          ],
+          "semantic_queries": [
+            "과거 경험 수식",
+            "화자 포함 동반 행위"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL005:u3",
+          "text": "공부했던",
+          "span": [
+            9,
+            13
+          ],
+          "kind": "관형형",
+          "parent_index": 1,
+          "meaning": "동사 '공부하다'의 관형형. 과거 시제 포함",
+          "form_queries": [
+            "공부하다",
+            "-았-"
+          ],
+          "semantic_queries": [
+            "과거 행위",
+            "공부"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL005:u4",
+          "text": "대학교 졸업반 애들이",
+          "span": [
+            18,
+            29
+          ],
+          "kind": "명사구",
+          "parent_index": 0,
+          "meaning": "서술부의 주어. 대학교 졸업반인 아이들",
+          "form_queries": [
+            "대학교 졸업반 애들이"
+          ],
+          "semantic_queries": [
+            "대학 졸업반 학생"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL005:u5",
+          "text": "애들이었어요",
+          "span": [
+            26,
+            32
+          ],
+          "kind": "서술부",
+          "parent_index": 0,
+          "meaning": "명사 '애들'과 계사 '이다'의 결합. 과거 평서",
+          "form_queries": [
+            "이다",
+            "이에요",
+            "-었-"
+          ],
+          "semantic_queries": [
+            "과거 평서",
+            "명사 서술"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "QUAL006",
+      "input": "저 같은 경우에는 감각이 없어서인지 모르겠는데 머리가 잘 안 돌아가고 되게 힘들더라고요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "문장 내 '인지 모르겠는데'의 '인지'는 '인지'와 '모르겠는데'의 경계가 모호할 수 있으나, 문맥상 '인지'를 '인지'로, '모르겠는데'를 연결절로 해석하여 분석했다. '저 같은 경우에는'의 '경우'는 관용적 표현으로 별도 분석하지 않았다.",
+      "clauses": [
+        {
+          "clause_id": "QUAL006:c1",
+          "predicate_complex_id": "QUAL006:c1:predicate",
+          "text": "저 같은 경우에는 감각이 없어서인지 모르겠는데",
+          "span": [
+            0,
+            25
+          ],
+          "role": "connective",
+          "features": {
+            "host_pos": "adjective",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "모르다",
+            "stem_vowel": "ㅓ",
+            "stem_coda": "absent",
+            "sentence_type": "declarative",
+            "clause_relation": "cause",
+            "meaning": "원인에 대한 불확실성을 나타내며, 후행 절의 원인이나 배경을 제시한다."
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "modal",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-겠-"
+          },
+          "scope_note": "'인지'는 '인지'로 분석하고 '모르겠는데'를 연결어미 -는데가 결합한 형태로 보았다. '모르다'의 어간은 '모르'로, 선어말어미 -겠-이 결합하여 '모르겠'이 되고, 연결어미 -는데가 결합하여 '모르겠는데'가 된다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "QUAL006:c2",
+          "predicate_complex_id": "QUAL006:c2:predicate",
+          "text": "머리가 잘 안 돌아가고",
+          "span": [
+            26,
+            38
+          ],
+          "role": "connective",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "돌아가다",
+            "stem_vowel": "ㅏ",
+            "stem_coda": "absent",
+            "sentence_type": "declarative",
+            "clause_relation": "addition",
+            "meaning": "인지 기능의 저하를 나타내며, 후행 절과 추가적인 상태를 나열한다."
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "'잘 안 돌아가고'에서 '안'은 부사로 '돌아가다'를 부정한다. '돌아가다'의 어간은 '돌아가'로, 선어말어미 없이 연결어미 -고가 결합하여 '돌아가고'가 된다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "QUAL006:c3",
+          "predicate_complex_id": "QUAL006:c3:predicate",
+          "text": "되게 힘들더라고요.",
+          "span": [
+            39,
+            49
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "adjective",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "힘들다",
+            "stem_vowel": "ㅓ",
+            "stem_coda": "absent",
+            "sentence_type": "declarative",
+            "speech_act": "state_intention",
+            "meaning": "화자가 느끼는 고통이나 어려움을 회상하여 보고한다."
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {},
+          "scope_note": "'되게'는 부사로 '힘들다'를 강조한다. '힘들다'의 어간은 '힘들'로, 선어말어미 -었-이 결합하여 '힘들었'이 되고, 종결어미 -더라고요가 결합하여 '힘들더라고요'가 된다. -더라고요는 과거 경험이나 관찰을 보고하는 뉘앙스를 가진다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "QUAL006:u1",
+          "text": "저 같은 경우에는 감각이 없어서인지 모르겠는데 머리가 잘 안 돌아가고 되게 힘들더라고요.",
+          "span": [
+            0,
+            49
+          ],
+          "kind": "문장",
+          "parent_index": null,
+          "meaning": "화자가 감각 부재로 인해 인지 기능이 저하되고 고통을 느끼고 있음을 회상하여 보고하는 문장.",
+          "form_queries": [
+            "저 같은 경우에는",
+            "감각이 없어서인지 모르겠는데",
+            "머리가 잘 안 돌아가고",
+            "되게 힘들더라고요"
+          ],
+          "semantic_queries": [
+            "주관적 상태 회상",
+            "원인 불확실성 표현",
+            "인지 저하와 고통 표현"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL006:u2",
+          "text": "저 같은 경우에는",
+          "span": [
+            0,
+            9
+          ],
+          "kind": "주어 구",
+          "parent_index": 0,
+          "meaning": "화자의 특정 상황이나 조건을 지시하는 관용적 표현.",
+          "form_queries": [
+            "저",
+            "같은",
+            "경우에는"
+          ],
+          "semantic_queries": [
+            "화자 지시",
+            "상황 한정"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL006:u3",
+          "text": "감각이 없어서인지 모르겠는데",
+          "span": [
+            10,
+            25
+          ],
+          "kind": "연결절",
+          "parent_index": 0,
+          "meaning": "감각 부재가 원인인지 불확실함을 나타내는 연결절.",
+          "form_queries": [
+            "감각이",
+            "없어서인지",
+            "모르겠는데"
+          ],
+          "semantic_queries": [
+            "원인 불확실성",
+            "연결어미 -는데"
+          ],
+          "features": {
+            "clause_relation": "cause",
+            "quotation_type": null
+          }
+        },
+        {
+          "unit_id": "QUAL006:u4",
+          "text": "감각이 없어서인지",
+          "span": [
+            10,
+            19
+          ],
+          "kind": "관형절",
+          "parent_index": 2,
+          "meaning": "감각이 없어서인지 여부를 나타내는 관형절.",
+          "form_queries": [
+            "감각이",
+            "없어서인지"
+          ],
+          "semantic_queries": [
+            "부정 관형절",
+            "인지 여부"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL006:u5",
+          "text": "없어서인지",
+          "span": [
+            14,
+            19
+          ],
+          "kind": "관형형",
+          "parent_index": 3,
+          "meaning": "없어서인지 여부를 나타내는 관형형.",
+          "form_queries": [
+            "없어서인지"
+          ],
+          "semantic_queries": [
+            "부정 관형형",
+            "인지 여부"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL006:u6",
+          "text": "모르겠는데",
+          "span": [
+            20,
+            25
+          ],
+          "kind": "서술부",
+          "parent_index": 2,
+          "meaning": "모르겠음을 나타내는 서술부.",
+          "form_queries": [
+            "모르겠는데"
+          ],
+          "semantic_queries": [
+            "불확실성 표현",
+            "연결어미 -는데"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL006:u7",
+          "text": "머리가 잘 안 돌아가고",
+          "span": [
+            26,
+            38
+          ],
+          "kind": "연결절",
+          "parent_index": 0,
+          "meaning": "머리가 잘 안 돌아가는 상태를 나타내는 연결절.",
+          "form_queries": [
+            "머리가",
+            "잘 안 돌아가고"
+          ],
+          "semantic_queries": [
+            "인지 저하",
+            "연결어미 -고"
+          ],
+          "features": {
+            "clause_relation": "addition",
+            "quotation_type": null
+          }
+        },
+        {
+          "unit_id": "QUAL006:u8",
+          "text": "잘 안 돌아가고",
+          "span": [
+            30,
+            38
+          ],
+          "kind": "서술부",
+          "parent_index": 6,
+          "meaning": "잘 안 돌아가는 상태를 나타내는 서술부.",
+          "form_queries": [
+            "잘 안 돌아가고"
+          ],
+          "semantic_queries": [
+            "부정 서술",
+            "연결어미 -고"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL006:u9",
+          "text": "되게 힘들더라고요.",
+          "span": [
+            39,
+            49
+          ],
+          "kind": "주절",
+          "parent_index": 0,
+          "meaning": "되게 힘들었던 경험을 회상하여 보고하는 주절.",
+          "form_queries": [
+            "되게",
+            "힘들더라고요"
+          ],
+          "semantic_queries": [
+            "고통 표현",
+            "과거 회상",
+            "보고 뉘앙스"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL006:u10",
+          "text": "되게",
+          "span": [
+            39,
+            41
+          ],
+          "kind": "부사",
+          "parent_index": 8,
+          "meaning": "정도를 강조하는 부사.",
+          "form_queries": [
+            "되게"
+          ],
+          "semantic_queries": [
+            "강조 부사"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL006:u11",
+          "text": "힘들더라고요.",
+          "span": [
+            42,
+            49
+          ],
+          "kind": "서술부",
+          "parent_index": 8,
+          "meaning": "힘들었던 경험을 회상하여 보고하는 서술부.",
+          "form_queries": [
+            "힘들더라고요"
+          ],
+          "semantic_queries": [
+            "과거 회상",
+            "보고 뉘앙스"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "QUAL007",
+      "input": "이걸 배우고 컴퓨터가 손에 익으면서 그때부터는 되게 보람 있고 더 배우고 싶다는 그런 마음도 강하게 들었고요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "문장 전체가 하나의 긴 서술 구조로 이어지며, '그때부터는'이라는 시간 부사구와 '그런 마음도'라는 관형절 구조가 복합적으로 결합되어 있어 세부적인 문법적 경계는 원문 흐름에 의존한다.",
+      "clauses": [
+        {
+          "clause_id": "QUAL007:c1",
+          "predicate_complex_id": "QUAL007:c1:predicate",
+          "text": "이걸 배우고 컴퓨터가 손에 익으면서 그때부터는 되게 보람 있고 더 배우고 싶다는 그런 마음도 강하게 들었고요.",
+          "span": [
+            0,
+            61
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "들다",
+            "sentence_type": "declarative",
+            "speech_act": null,
+            "subject_person": "first",
+            "meaning": "마음이 강하게 들었다는 과거의 경험과 감정을 서술한다.",
+            "source_form": "들었고요"
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {},
+          "scope_note": "종결 어미 '-고요'는 평서형 '-고'와 연어 '-요'의 결합으로 보이며, 청자 높임이 나타난다. 선어말 '-었-'은 과거 시제를 나타낸다. '마음'이 주어이며, 화자의 내면 상태를 서술한다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "QUAL007:u1",
+          "text": "이걸 배우고 컴퓨터가 손에 익으면서 그때부터는 되게 보람 있고 더 배우고 싶다는 그런 마음도 강하게 들었고요.",
+          "span": [
+            0,
+            61
+          ],
+          "kind": "문장 전체",
+          "parent_index": null,
+          "meaning": "컴퓨터를 배우고 익힌 후 보람을 느끼고 더 배우고 싶은 마음이 강해졌다는 내용을 담은 평서문.",
+          "form_queries": [
+            "들었고요",
+            "마음이 들다"
+          ],
+          "semantic_queries": [
+            "과거 경험 서술",
+            "감정 변화 표현",
+            "평서문 종결"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL007:u2",
+          "text": "이걸 배우고 컴퓨터가 손에 익으면서",
+          "span": [
+            0,
+            19
+          ],
+          "kind": "연결절(동시/인과)",
+          "parent_index": 0,
+          "meaning": "배우고 익히는 과정이 진행됨에 따라, 혹은 그 결과로 나타나는 상황을 나타내는 연결절.",
+          "form_queries": [
+            "배우고",
+            "익으면서"
+          ],
+          "semantic_queries": [
+            "동시적 상황",
+            "인과적 배경"
+          ],
+          "features": {
+            "clause_relation": "simultaneous_action"
+          }
+        },
+        {
+          "unit_id": "QUAL007:u3",
+          "text": "그때부터는",
+          "span": [
+            20,
+            25
+          ],
+          "kind": "시간 부사구",
+          "parent_index": 0,
+          "meaning": "특정 시점 이후를 가리키는 시간 부사.",
+          "form_queries": [
+            "그때부터는"
+          ],
+          "semantic_queries": [
+            "시간 기준점",
+            "이후 지속"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL007:u4",
+          "text": "되게 보람 있고 더 배우고 싶다는",
+          "span": [
+            26,
+            44
+          ],
+          "kind": "관형절",
+          "parent_index": 0,
+          "meaning": "'마음'을 수식하는 내용으로, 보람을 느끼고 더 배우고 싶은 상태를 기술한다.",
+          "form_queries": [
+            "보람 있고",
+            "배우고 싶다는"
+          ],
+          "semantic_queries": [
+            "관형형 연결",
+            "내면 상태 기술"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL007:u5",
+          "text": "그런 마음도",
+          "span": [
+            45,
+            51
+          ],
+          "kind": "주어",
+          "parent_index": 0,
+          "meaning": "앞서 기술된 상태의 마음을 가리키는 대명사 '그런'이 수식한 명사 '마음'에 조사 '도'가 결합한 주어.",
+          "form_queries": [
+            "그런 마음도"
+          ],
+          "semantic_queries": [
+            "대명사 수식",
+            "주어 성분"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL007:u6",
+          "text": "강하게",
+          "span": [
+            52,
+            55
+          ],
+          "kind": "부사",
+          "parent_index": 0,
+          "meaning": "마음이 든 정도를 나타내는 부사.",
+          "form_queries": [
+            "강하게"
+          ],
+          "semantic_queries": [
+            "정도 부사"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL007:u7",
+          "text": "들었고요",
+          "span": [
+            56,
+            60
+          ],
+          "kind": "종결 서술부",
+          "parent_index": 0,
+          "meaning": "마음이 들었다는 과거의 사실을 평서형으로 종결하는 서술부.",
+          "form_queries": [
+            "들었고요",
+            "들다 + -었- + -고 + -요"
+          ],
+          "semantic_queries": [
+            "과거 평서",
+            "높임 종결"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "QUAL008",
+      "input": "사실 서른 살 때 자격증 공부를 했을 때는 그냥 뭔가 내가 갖고 있어야지 그런 욕심이 더 컸고요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "문장 앞부분의 '사실'은 화자의 화제 설정이나 전제 확인을 위한 담화 마커로, 문법적 종결 서술부나 연결절이 아니므로 별도 클로즈로 분리하지 않았다.",
+      "clauses": [
+        {
+          "clause_id": "QUAL008:c1",
+          "predicate_complex_id": "QUAL008:c1:predicate",
+          "text": "사실 서른 살 때 자격증 공부를 했을 때는 그냥 뭔가 내가 갖고 있어야지 그런 욕심이 더 컸고요.",
+          "span": [
+            0,
+            54
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "adjective",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "크다",
+            "sentence_type": "declarative",
+            "speech_act": null,
+            "subject_person": "first",
+            "stem_vowel": "a",
+            "stem_coda": "absent"
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {},
+          "scope_note": "종결 어미 '-(으)고요'는 연결어미 '-(으)고'와 종결 어미 '-요'가 결합된 형태로 분석된다. '-었-'은 과거 선어말어미로 확인된다. 주어 '욕심'은 3인칭 명사이지만, 그 속성(크기)을 설명하는 서술부의 화자 관점은 1인칭 회상이다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "QUAL008:u1",
+          "text": "사실 서른 살 때 자격증 공부를 했을 때는 그냥 뭔가 내가 갖고 있어야지 그런 욕심이 더 컸고요.",
+          "span": [
+            0,
+            54
+          ],
+          "kind": "문장 전체",
+          "parent_index": null,
+          "meaning": "서른 살 때 자격증 공부를 하던 시기에 화자가 자격증을 갖고 싶은 욕심이 컸음을 회상하는 문장",
+          "form_queries": [
+            "사실 서른 살 때 자격증 공부를 했을 때는 그냥 뭔가 내가 갖고 있어야지 그런 욕심이 더 컸고요"
+          ],
+          "semantic_queries": [
+            "과거 특정 시점의 심리 상태 회상",
+            "자격증 취득에 대한 동기 서술"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL008:u2",
+          "text": "서른 살 때 자격증 공부를 했을 때는",
+          "span": [
+            3,
+            23
+          ],
+          "kind": "시간 관형절",
+          "parent_index": 0,
+          "meaning": "서른 살이 되어서 자격증 공부를 하던 그 시점을 나타내는 관형절",
+          "form_queries": [
+            "서른 살 때",
+            "자격증 공부를 했을 때"
+          ],
+          "semantic_queries": [
+            "과거 특정 연령과 활동이 결합된 시간 부사절"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL008:u3",
+          "text": "그냥 뭔가 내가 갖고 있어야지",
+          "span": [
+            24,
+            40
+          ],
+          "kind": "인용된 내면 독백",
+          "parent_index": 0,
+          "meaning": "화자가 당시 가졌던 '자격증을 갖고 싶다'는 내면의 목소리나 욕구를 인용한 표현",
+          "form_queries": [
+            "갖고 있어야지"
+          ],
+          "semantic_queries": [
+            "소유에 대한 욕구를 나타내는 1인칭 내면 화법"
+          ],
+          "features": {
+            "quotation_type": "statement"
+          }
+        },
+        {
+          "unit_id": "QUAL008:u4",
+          "text": "그런 욕심이 더 컸고요",
+          "span": [
+            41,
+            53
+          ],
+          "kind": "주절 서술부",
+          "parent_index": 0,
+          "meaning": "그런 욕심이 더 컸다는 사실을 서술하고 화제를 부드럽게 마무리하는 종결 표현",
+          "form_queries": [
+            "더 컸고요"
+          ],
+          "semantic_queries": [
+            "과거의 정도를 나타내는 서술",
+            "연결 및 종결 기능을 겸한 어미"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "QUAL009",
+      "input": "또 막상 그걸 배우고 나니까 그런 쪽으로 되게 전문적으로 일하고 싶은 그런 마음들이 크더라고요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "문장 내 '그걸', '그런 쪽으로' 등 지시 대명사 및 관형사구의 구체적인 가리킴 대상은 문맥상 불명확하여 별도 분석에서 제외한다.",
+      "clauses": [
+        {
+          "clause_id": "QUAL009:c1",
+          "predicate_complex_id": "QUAL009:c1:predicate",
+          "text": "또 막상 그걸 배우고 나니까 그런 쪽으로 되게 전문적으로 일하고 싶은 그런 마음들이 크더라고요.",
+          "span": [
+            0,
+            53
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "adjective",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "크다",
+            "sentence_type": "declarative",
+            "speech_act": null,
+            "subject_person": "first",
+            "meaning": "마음이 크다",
+            "source_form": "크더라고요"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {},
+          "scope_note": "종결 어미 '-더라고요'는 과거 경험이나 감상을 회고하며 전달하는 뉘앙스를 가진다. 선어말 '-었-'이 결합되어 과거 시제를 나타낸다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "QUAL009:u1",
+          "text": "또 막상 그걸 배우고 나니까 그런 쪽으로 되게 전문적으로 일하고 싶은 그런 마음들이 크더라고요.",
+          "span": [
+            0,
+            53
+          ],
+          "kind": "문장 전체",
+          "parent_index": null,
+          "meaning": "배운 후 전문적으로 일하고 싶은 마음이 커졌다는 회고",
+          "form_queries": [
+            "크더라고요"
+          ],
+          "semantic_queries": [
+            "과거 경험 회고",
+            "감상 전달"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL009:u2",
+          "text": "배우고 나니까",
+          "span": [
+            8,
+            15
+          ],
+          "kind": "연결절",
+          "parent_index": 0,
+          "meaning": "배운 후에",
+          "form_queries": [
+            "배우고",
+            "나니까"
+          ],
+          "semantic_queries": [
+            "시간적 선후 관계",
+            "원인/기점"
+          ],
+          "features": {
+            "clause_relation": "cause"
+          }
+        },
+        {
+          "unit_id": "QUAL009:u3",
+          "text": "일하고 싶은",
+          "span": [
+            32,
+            38
+          ],
+          "kind": "관형절",
+          "parent_index": 0,
+          "meaning": "일하고 싶어하는",
+          "form_queries": [
+            "일하고",
+            "싶은"
+          ],
+          "semantic_queries": [
+            "욕망 표현",
+            "관형형"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL009:u4",
+          "text": "크더라고요",
+          "span": [
+            47,
+            52
+          ],
+          "kind": "종결 서술부",
+          "parent_index": 0,
+          "meaning": "크다는 감상을 회고적으로 전달",
+          "form_queries": [
+            "크다",
+            "-었-",
+            "-더라고요"
+          ],
+          "semantic_queries": [
+            "과거 회고",
+            "경험 전달"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "QUAL010",
+      "input": "그렇게 하면서 어쨌든 감사하게도 지금까지 그때 배웠던 거를 중간에 한 번 업그레이드하면서 지금도 그 일을 하고 있어서 되게 보람되고 정말 잘 선택했다는 생각이 들더라고요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "문장 내 '그렇게 하면서'의 구체적 지시 대상과 '그때'의 정확한 시간 지점이 원문 밖 정보에 의존하므로 미확인 상태로 둔다.",
+      "clauses": [
+        {
+          "clause_id": "QUAL010:c1",
+          "predicate_complex_id": "QUAL010:c1:predicate",
+          "text": "그렇게 하면서",
+          "span": [
+            0,
+            7
+          ],
+          "role": "connective",
+          "features": {
+            "host_pos": "verb",
+            "host_form": "하다",
+            "clause_relation": "simultaneous_action",
+            "source_form": "하면서"
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "동시적 행동을 나타내는 연결어미 -면서. 주절의 높임이 연결절에 적용되지 않으므로 unknown으로 처리.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "QUAL010:c2",
+          "predicate_complex_id": "QUAL010:c2:predicate",
+          "text": "어쨌든 감사하게도 지금까지 그때 배웠던 거를 중간에 한 번 업그레이드하면서 지금도 그 일을 하고 있어서",
+          "span": [
+            8,
+            65
+          ],
+          "role": "connective",
+          "features": {
+            "host_pos": "verb",
+            "host_form": "하다",
+            "clause_relation": "cause",
+            "source_form": "있어서"
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "현재 진행 중인 상태(하고 있다)가 원인/이유가 되어 후행 절로 이어지는 연결어미 -아서. '배웠던'은 과거 선어말 -았-을 포함하지만, 이 연결절의 종결 서술부 '있어서'는 현재 시제이므로 해당 서술부의 observed_prefinals는 비어 있음.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "QUAL010:c3",
+          "predicate_complex_id": "QUAL010:c3:predicate",
+          "text": "되게 보람되고 정말 잘 선택했다는 생각이 들더라고요.",
+          "span": [
+            66,
+            95
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_form": "들다",
+            "sentence_type": "declarative",
+            "speech_act": "state_intention",
+            "subject_person": "first",
+            "source_form": "들더라고요"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {},
+          "scope_note": "종결 어미 -더라고요는 과거 경험/관찰을 바탕으로 한 회상/확인 표현. '보람되고', '선택했다는'은 인용/관형절 내부의 서술부이며, main의 features는 종결 서술부 '들더라고요'에 초점을 맞춤.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "QUAL010:u1",
+          "text": "그렇게 하면서 어쨌든 감사하게도 지금까지 그때 배웠던 거를 중간에 한 번 업그레이드하면서 지금도 그 일을 하고 있어서 되게 보람되고 정말 잘 선택했다는 생각이 들더라고요.",
+          "span": [
+            0,
+            95
+          ],
+          "kind": "문장 전체",
+          "parent_index": null,
+          "meaning": "과거에 배운 일을 현재까지 수행하며 보람을 느끼고 잘 선택했다고 생각하는 화자의 회고",
+          "form_queries": [
+            "그렇게 하면서",
+            "어쨌든",
+            "감사하게도",
+            "들더라고요"
+          ],
+          "semantic_queries": [
+            "경험 회고",
+            "감사 표현",
+            "보람 있는 일",
+            "과거 학습의 현재적 가치"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL010:u2",
+          "text": "그렇게 하면서",
+          "span": [
+            0,
+            7
+          ],
+          "kind": "연결절",
+          "parent_index": 0,
+          "meaning": "앞선 상황과 동시에 이루어지는 행동",
+          "form_queries": [
+            "하면서"
+          ],
+          "semantic_queries": [
+            "동시적 행동",
+            "연결어미 -면서"
+          ],
+          "features": {
+            "clause_relation": "simultaneous_action",
+            "quotation_type": null
+          }
+        },
+        {
+          "unit_id": "QUAL010:u3",
+          "text": "어쨌든",
+          "span": [
+            8,
+            11
+          ],
+          "kind": "부사",
+          "parent_index": 0,
+          "meaning": "어떤 상황이나 조건이 있든 간에",
+          "form_queries": [
+            "어쨌든"
+          ],
+          "semantic_queries": [
+            "양보/전환 부사"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL010:u4",
+          "text": "감사하게도",
+          "span": [
+            12,
+            17
+          ],
+          "kind": "부사",
+          "parent_index": 0,
+          "meaning": "감사하는 마음으로, 고맙게도",
+          "form_queries": [
+            "감사하다",
+            "감사하게도"
+          ],
+          "semantic_queries": [
+            "감사 표현",
+            "긍정적 태도"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL010:u5",
+          "text": "그때 배웠던 거를",
+          "span": [
+            23,
+            32
+          ],
+          "kind": "관형절+목적어",
+          "parent_index": 0,
+          "meaning": "과거에 배운 것",
+          "form_queries": [
+            "배우다",
+            "배웠던",
+            "거"
+          ],
+          "semantic_queries": [
+            "과거 학습 경험",
+            "관형형 -던"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL010:u6",
+          "text": "중간에 한 번 업그레이드하면서",
+          "span": [
+            33,
+            49
+          ],
+          "kind": "연결절",
+          "parent_index": 0,
+          "meaning": "과정에서 한 번 개량/향상시키면서",
+          "form_queries": [
+            "업그레이드하다",
+            "업그레이드하면서"
+          ],
+          "semantic_queries": [
+            "기술/기능 향상",
+            "동시적 행동"
+          ],
+          "features": {
+            "clause_relation": "simultaneous_action",
+            "quotation_type": null
+          }
+        },
+        {
+          "unit_id": "QUAL010:u7",
+          "text": "지금도 그 일을 하고 있어서",
+          "span": [
+            50,
+            65
+          ],
+          "kind": "연결절",
+          "parent_index": 0,
+          "meaning": "현재도 그 일을 수행하고 있기 때문에",
+          "form_queries": [
+            "하다",
+            "하고 있다",
+            "있어서"
+          ],
+          "semantic_queries": [
+            "현재 진행 상태",
+            "원인/이유 연결"
+          ],
+          "features": {
+            "clause_relation": "cause",
+            "quotation_type": null
+          }
+        },
+        {
+          "unit_id": "QUAL010:u8",
+          "text": "되게 보람되고 정말 잘 선택했다는 생각이 들더라고요.",
+          "span": [
+            66,
+            95
+          ],
+          "kind": "주절",
+          "parent_index": 0,
+          "meaning": "보람 있고 잘 선택했다는 생각이 들었다",
+          "form_queries": [
+            "보람되다",
+            "선택하다",
+            "생각이 들다",
+            "들더라고요"
+          ],
+          "semantic_queries": [
+            "긍정적 평가",
+            "회상/확인 종결어미"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL010:u9",
+          "text": "보람되고",
+          "span": [
+            69,
+            73
+          ],
+          "kind": "관형절/인용절 내부 서술부",
+          "parent_index": 7,
+          "meaning": "보람이 있고",
+          "form_queries": [
+            "보람되다",
+            "보람되고"
+          ],
+          "semantic_queries": [
+            "성취감",
+            "긍정적 감정"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL010:u10",
+          "text": "잘 선택했다는",
+          "span": [
+            77,
+            84
+          ],
+          "kind": "관형절/인용절 내부 서술부",
+          "parent_index": 7,
+          "meaning": "잘 선택했다는 (사실/생각)",
+          "form_queries": [
+            "선택하다",
+            "선택했다는"
+          ],
+          "semantic_queries": [
+            "과거 결정에 대한 긍정적 평가",
+            "인용/관형형 -ㄴ"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL010:u11",
+          "text": "생각이 들더라고요",
+          "span": [
+            85,
+            94
+          ],
+          "kind": "종결 서술부",
+          "parent_index": 7,
+          "meaning": "생각이 났다(회상/확인)",
+          "form_queries": [
+            "생각이 들다",
+            "들더라고요"
+          ],
+          "semantic_queries": [
+            "과거 경험 기반 회상",
+            "존댓말 종결어미"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "QUAL011",
+      "input": "아무래도 사회복지학과 나왔고, 또 배운 것도 있고, 또 엄마한테 보여야 할 것도 있으니까 자격증을 따게 됐거든요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "문장 내 '나왔고', '있고', '있으니까' 등 연결어미가 포함된 절들은 독립적인 종결 서술부가 아니므로 main으로 분리하지 않고, 마지막 종결절 '됐거든요'를 중심으로 전체 문장을 하나의 main으로 분석했다. '엄마한테 보여야 할 것도'의 관형절 구조는 source_units에 보존했다.",
+      "clauses": [
+        {
+          "clause_id": "QUAL011:c1",
+          "predicate_complex_id": "QUAL011:c1:predicate",
+          "text": "아무래도 사회복지학과 나왔고, 또 배운 것도 있고, 또 엄마한테 보여야 할 것도 있으니까 자격증을 따게 됐거든요.",
+          "span": [
+            0,
+            63
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "되다",
+            "sentence_type": "declarative",
+            "speech_act": "state_intention",
+            "subject_person": "first",
+            "meaning": "자격증을 취득하게 되었다는 사실과 그 이유를 설명한다.",
+            "clause_relation": "cause",
+            "source_form": "됐거든요"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "종결어미 '-거든요'는 친밀한 관계에서 상대에게 설명하거나 변명할 때 쓰이는 반말체(또는 친근한 존댓말)로 분석된다. '따게'는 '따다'의 관형형 '따' + '-게'로, '자격증을 따게'라는 관형절이 '됐거든요'의 주격 성분을 수식한다. '됐거든요'의 '-었-'은 과거 시제를 나타낸다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "QUAL011:u1",
+          "text": "아무래도 사회복지학과 나왔고, 또 배운 것도 있고, 또 엄마한테 보여야 할 것도 있으니까 자격증을 따게 됐거든요.",
+          "span": [
+            0,
+            63
+          ],
+          "kind": "복합문(인과 관계)",
+          "parent_index": null,
+          "meaning": "여러 가지 원인이 모여 자격증 취득이라는 결과로 이어졌음을 설명하는 문장",
+          "form_queries": [
+            "아무래도",
+            "나왔고",
+            "있으니까",
+            "따게 됐거든요"
+          ],
+          "semantic_queries": [
+            "인과 관계 표현",
+            "자격증 취득 이유 설명",
+            "과거 경험 회고"
+          ],
+          "features": {
+            "clause_relation": "cause",
+            "quotation_type": null
+          }
+        },
+        {
+          "unit_id": "QUAL011:u2",
+          "text": "자격증을 따게 됐거든요",
+          "span": [
+            50,
+            62
+          ],
+          "kind": "주절(종결절)",
+          "parent_index": 0,
+          "meaning": "자격증을 취득하게 되었다는 결과 서술",
+          "form_queries": [
+            "자격증을 따게",
+            "됐거든요"
+          ],
+          "semantic_queries": [
+            "자격증 취득 결과",
+            "과거 완료 상태"
+          ],
+          "features": {
+            "clause_relation": null,
+            "quotation_type": null
+          }
+        },
+        {
+          "unit_id": "QUAL011:u3",
+          "text": "자격증을 따게",
+          "span": [
+            50,
+            57
+          ],
+          "kind": "관형절",
+          "parent_index": 1,
+          "meaning": "취득하게 된 대상인 자격증을 수식하는 관형절",
+          "form_queries": [
+            "자격증을",
+            "따게"
+          ],
+          "semantic_queries": [
+            "자격증 취득 행위",
+            "관형형 결합"
+          ],
+          "features": {
+            "clause_relation": null,
+            "quotation_type": null
+          }
+        },
+        {
+          "unit_id": "QUAL011:u4",
+          "text": "엄마한테 보여야 할 것도",
+          "span": [
+            31,
+            44
+          ],
+          "kind": "관형절",
+          "parent_index": 0,
+          "meaning": "어머니에게 보여줄 필요가 있는 것(자격증 등)을 수식하는 관형절",
+          "form_queries": [
+            "엄마한테",
+            "보여야 할",
+            "것도"
+          ],
+          "semantic_queries": [
+            "어머니에게 보여줄 필요성",
+            "의무/필요 표현"
+          ],
+          "features": {
+            "clause_relation": null,
+            "quotation_type": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "QUAL012",
+      "input": "그리고 졸업 하고 나서 취업 하려고 컴퓨터 활용 능력 자격증을 땄고요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "문장 전체가 하나의 복합 문장 구조로 분석되었으며, 별도 미분석 구조는 없다.",
+      "clauses": [
+        {
+          "clause_id": "QUAL012:c1",
+          "predicate_complex_id": "QUAL012:c1:predicate",
+          "text": "그리고 졸업 하고 나서 취업 하려고 컴퓨터 활용 능력 자격증을 땄고요.",
+          "span": [
+            0,
+            39
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "땄고요",
+            "sentence_type": "declarative",
+            "speech_act": null,
+            "subject_person": "first",
+            "meaning": "과거에 자격증을 취득했다는 사실을 보고하고, 다음 문장으로 연결한다.",
+            "source_form": "땄고요"
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {},
+          "scope_note": "종결 어미 '-고요'는 연결 어미 '-고'와 종결 어미 '-요'의 결합으로 보이며, 높임체(합쇼체/해요체 혼합 또는 해요체 계열)로 분석된다. '땄'은 '다'의 과거형 '땄'이다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "QUAL012:u1",
+          "text": "그리고 졸업 하고 나서 취업 하려고 컴퓨터 활용 능력 자격증을 땄고요.",
+          "span": [
+            0,
+            39
+          ],
+          "kind": "문장 전체",
+          "parent_index": null,
+          "meaning": "졸업 후 취업 준비를 위해 컴퓨터 자격증을 취득했다는 과거 경험의 서술",
+          "form_queries": [
+            "그리고 졸업 하고 나서 취업 하려고 컴퓨터 활용 능력 자격증을 땄고요."
+          ],
+          "semantic_queries": [
+            "과거 경험 서술",
+            "자격증 취득",
+            "취업 준비 목적"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL012:u2",
+          "text": "졸업 하고 나서",
+          "span": [
+            4,
+            12
+          ],
+          "kind": "시간 부사절",
+          "parent_index": 0,
+          "meaning": "졸업한 시점 이후라는 시간적 조건",
+          "form_queries": [
+            "하고 나서"
+          ],
+          "semantic_queries": [
+            "시간 순서",
+            "이후"
+          ],
+          "features": {
+            "clause_relation": "retrospective_sequence"
+          }
+        },
+        {
+          "unit_id": "QUAL012:u3",
+          "text": "취업 하려고",
+          "span": [
+            13,
+            19
+          ],
+          "kind": "목적 부사절",
+          "parent_index": 0,
+          "meaning": "취업을 하려는 목적",
+          "form_queries": [
+            "-려고"
+          ],
+          "semantic_queries": [
+            "목적",
+            "의도"
+          ],
+          "features": {
+            "clause_relation": "purpose_intention"
+          }
+        },
+        {
+          "unit_id": "QUAL012:u4",
+          "text": "컴퓨터 활용 능력 자격증",
+          "span": [
+            20,
+            33
+          ],
+          "kind": "목적어",
+          "parent_index": 0,
+          "meaning": "취득한 자격증의 명칭",
+          "form_queries": [
+            "컴퓨터 활용 능력 자격증"
+          ],
+          "semantic_queries": [
+            "자격증 명칭"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL012:u5",
+          "text": "땄고요",
+          "span": [
+            35,
+            38
+          ],
+          "kind": "종결 서술부",
+          "parent_index": 0,
+          "meaning": "자격증을 취득했다는 과거의 사실과 연결",
+          "form_queries": [
+            "다",
+            "땄고요"
+          ],
+          "semantic_queries": [
+            "과거 완료",
+            "연결 종결"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "QUAL013",
+      "input": "근데 요즘은 아무래도 취업이 어려우니까 점점 더 자격증을 많이 따게 되는 것 같아요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "문두 연결어 '근데'는 전 문맥과의 전환 관계를 나타내며, 현재 문장 내 독립적인 종결 서술부가 아니므로 별도 클로즈로 분리하지 않음.",
+      "clauses": [
+        {
+          "clause_id": "QUAL013:c1",
+          "predicate_complex_id": "QUAL013:c1:predicate",
+          "text": "근데 요즘은 아무래도 취업이 어려우니까 점점 더 자격증을 많이 따게 되는 것 같아요.",
+          "span": [
+            0,
+            47
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "adjective",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "같다",
+            "sentence_type": "declarative",
+            "speech_act": null,
+            "subject_person": null,
+            "clause_relation": null,
+            "quotation_type": null
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none"
+          },
+          "scope_note": "종결 어미 '-아요'는 반말체(비격식체)의 평서형으로 청자 높임이 없는 형태임. '것 같아요'는 화자의 추측을 나타내는 표현임.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "QUAL013:u1",
+          "text": "근데 요즘은 아무래도 취업이 어려우니까 점점 더 자격증을 많이 따게 되는 것 같아요.",
+          "span": [
+            0,
+            47
+          ],
+          "kind": "문장 전체",
+          "parent_index": null,
+          "meaning": "취업이 어렵다는 원인으로 인해 자격증을 많이 따게 된다는 화자의 추측을 담은 문장",
+          "form_queries": [
+            "취업이 어려우니까",
+            "자격증을 많이 따게 되는 것 같아요"
+          ],
+          "semantic_queries": [
+            "인과 관계 표현",
+            "추측 표현",
+            "자격증 취득 증가"
+          ],
+          "features": {
+            "clause_relation": null,
+            "quotation_type": null
+          }
+        },
+        {
+          "unit_id": "QUAL013:u2",
+          "text": "취업이 어려우니까",
+          "span": [
+            12,
+            21
+          ],
+          "kind": "원인 연결절",
+          "parent_index": 0,
+          "meaning": "취업이 어렵다는 사실을 원인으로 제시",
+          "form_queries": [
+            "어려우니까"
+          ],
+          "semantic_queries": [
+            "원인 연결어미",
+            "취업난"
+          ],
+          "features": {
+            "clause_relation": "cause",
+            "quotation_type": null
+          }
+        },
+        {
+          "unit_id": "QUAL013:u3",
+          "text": "자격증을 많이 따게 되는 것 같아요",
+          "span": [
+            27,
+            46
+          ],
+          "kind": "주절 서술부",
+          "parent_index": 0,
+          "meaning": "자격증을 많이 따게 된다는 상태에 대한 화자의 추측",
+          "form_queries": [
+            "따게 되는 것 같아요"
+          ],
+          "semantic_queries": [
+            "추측 표현",
+            "자격증 취득"
+          ],
+          "features": {
+            "clause_relation": null,
+            "quotation_type": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "QUAL014",
+      "input": "그리고 자격증의 범위도 생각보다 되게 많더라고요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "문장 전체가 하나의 종결 서술부로 분석되며, 별도 연결절은 없다. '그리고'는 전 문맥과의 연결을 나타내는 접속 부사어이다.",
+      "clauses": [
+        {
+          "clause_id": "QUAL014:c1",
+          "predicate_complex_id": "QUAL014:c1:predicate",
+          "text": "그리고 자격증의 범위도 생각보다 되게 많더라고요.",
+          "span": [
+            0,
+            27
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "adjective",
+            "sentence_type": "declarative",
+            "question_type": null,
+            "host_class": "predicate_other_than_anida",
+            "nominal_coda": null,
+            "host_form": "많다",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "meaning": "자격증의 범위가 생각보다 많았다는 회상적 서술",
+            "speech_act": null,
+            "action_participants": null,
+            "intention_holder": null,
+            "beneficiary": null,
+            "subject_person": "third",
+            "clause_relation": null,
+            "response_orientation": null,
+            "following_predicate_role": null,
+            "construction_kind": null,
+            "source_form": "많더라고요",
+            "quotation_type": null
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "retrospective",
+          "preserved_candidate_features": {},
+          "scope_note": "'-더라고요'는 과거에 알지 못했던 사실을 현재에 깨달았거나 확인했다는 회상적 뉘앙스를 가진 종결 어미이다. '되게'는 '매우'와 같은 의미의 부사이다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "QUAL014:u1",
+          "text": "그리고 자격증의 범위도 생각보다 되게 많더라고요.",
+          "span": [
+            0,
+            27
+          ],
+          "kind": "문장 전체",
+          "parent_index": null,
+          "meaning": "자격증의 범위가 생각보다 많았다는 회상적 서술",
+          "form_queries": [
+            "많더라고요",
+            "많다 + -더 + -아/어 + -요"
+          ],
+          "semantic_queries": [
+            "회상적 종결 어미",
+            "생각보다 많았다는 의미",
+            "경어체 종결"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL014:u2",
+          "text": "자격증의 범위",
+          "span": [
+            4,
+            11
+          ],
+          "kind": "주어",
+          "parent_index": 0,
+          "meaning": "자격증의 종류나 영역",
+          "form_queries": [
+            "자격증",
+            "범위"
+          ],
+          "semantic_queries": [
+            "자격증의 종류",
+            "자격증의 영역"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL014:u3",
+          "text": "생각보다",
+          "span": [
+            13,
+            17
+          ],
+          "kind": "부사구",
+          "parent_index": 0,
+          "meaning": "예상했던 것보다",
+          "form_queries": [
+            "생각보다"
+          ],
+          "semantic_queries": [
+            "예상 대비",
+            "비교 부사구"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL014:u4",
+          "text": "되게",
+          "span": [
+            18,
+            20
+          ],
+          "kind": "부사",
+          "parent_index": 0,
+          "meaning": "매우, 아주",
+          "form_queries": [
+            "되게"
+          ],
+          "semantic_queries": [
+            "강조 부사",
+            "매우"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL014:u5",
+          "text": "많더라고요",
+          "span": [
+            21,
+            26
+          ],
+          "kind": "서술부",
+          "parent_index": 0,
+          "meaning": "많았다는 것을 깨달았거나 확인했다는 회상적 표현",
+          "form_queries": [
+            "많다",
+            "-더라고요"
+          ],
+          "semantic_queries": [
+            "회상적 종결",
+            "경어체 종결",
+            "과거 경험의 현재 인식"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "QUAL015",
+      "input": "저는 그런 게 있는지 몰랐어요. 그냥 대충 한복 잘 만드시는 분이 이렇게 하는 줄 알았는데 그런 자격증이 있더라고요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "명사구 '한복 잘 만드시는 분'의 내부 수식 관계와 '그렇게'의 지시 대상이 문맥에 의존하여 구체화되지 않은 점은 추가 분석 대상에서 제외한다.",
+      "clauses": [
+        {
+          "clause_id": "QUAL015:c1",
+          "predicate_complex_id": "QUAL015:c1:predicate",
+          "text": "저는 그런 게 있는지 몰랐어요.",
+          "span": [
+            0,
+            17
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "몰랐어요",
+            "sentence_type": "declarative",
+            "speech_act": null,
+            "subject_person": "first",
+            "stem_vowel": "ㅏ",
+            "stem_coda": "absent",
+            "meaning": "화자가 해당 사물의 존재 여부를 알지 못했음을 서술"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "내포절 '그런 게 있는지'는 화자의 무지를 나타내는 보조 용언 '모르다'의 목적절로 기능한다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "QUAL015:c2",
+          "predicate_complex_id": "QUAL015:c2:predicate",
+          "text": "그냥 대충 한복 잘 만드시는 분이 이렇게 하는 줄 알았는데",
+          "span": [
+            18,
+            50
+          ],
+          "role": "connective",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "알았는데",
+            "sentence_type": "declarative",
+            "speech_act": null,
+            "subject_person": "first",
+            "stem_vowel": "ㅏ",
+            "stem_coda": "absent",
+            "meaning": "화자가 특정 인물의 행동을 단순한 기술로만 추측했음을 서술하며, 후행 절과의 대비를 위해 연결",
+            "clause_relation": "retrospective_contrast"
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "si",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "관형절 '한복 잘 만드시는'에서 '-시-'는 주체 높임으로 분석된다. 연결어미 '-는데'는 후행 절의 내용과 대비되는 이전의 인식을 나타낸다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "QUAL015:c3",
+          "predicate_complex_id": "QUAL015:c3:predicate",
+          "text": "그런 자격증이 있더라고요.",
+          "span": [
+            51,
+            65
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "있더라고요",
+            "sentence_type": "declarative",
+            "speech_act": null,
+            "subject_person": "third",
+            "stem_vowel": "ㅓ",
+            "stem_coda": "absent",
+            "meaning": "화자가 자격증의 존재를 확인하거나 깨달았음을 서술"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {},
+          "scope_note": "'-더라고요'는 화자의 새로운 인식이나 확인을 나타내는 종결 어미로, 과거 시제와 결합하여 사용된다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "QUAL015:u1",
+          "text": "저는 그런 게 있는지 몰랐어요.",
+          "span": [
+            0,
+            17
+          ],
+          "kind": "문장",
+          "parent_index": null,
+          "meaning": "화자의 무지를 표현하는 평서문",
+          "form_queries": [
+            "저는",
+            "그런 게 있는지",
+            "몰랐어요"
+          ],
+          "semantic_queries": [
+            "1인칭 주어",
+            "존재 여부 무지",
+            "과거 평서"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL015:u2",
+          "text": "그런 게 있는지",
+          "span": [
+            3,
+            11
+          ],
+          "kind": "내포절",
+          "parent_index": 0,
+          "meaning": "모르다의 목적절로 기능하는 존재 여부 질문",
+          "form_queries": [
+            "그런 게",
+            "있는지"
+          ],
+          "semantic_queries": [
+            "존재 의문 내포",
+            "의존명사 게"
+          ],
+          "features": {
+            "quotation_type": "question"
+          }
+        },
+        {
+          "unit_id": "QUAL015:u3",
+          "text": "그냥 대충 한복 잘 만드시는 분이 이렇게 하는 줄 알았는데",
+          "span": [
+            18,
+            50
+          ],
+          "kind": "연결절",
+          "parent_index": null,
+          "meaning": "화자의 이전 추측을 나타내는 연결절",
+          "form_queries": [
+            "그냥 대충",
+            "한복 잘 만드시는 분",
+            "이렇게 하는 줄",
+            "알았는데"
+          ],
+          "semantic_queries": [
+            "추측 표현",
+            "주체 높임 관형절",
+            "대비 연결"
+          ],
+          "features": {
+            "clause_relation": "retrospective_contrast"
+          }
+        },
+        {
+          "unit_id": "QUAL015:u4",
+          "text": "한복 잘 만드시는 분",
+          "span": [
+            24,
+            35
+          ],
+          "kind": "관형절",
+          "parent_index": 2,
+          "meaning": "한복을 잘 만드는 사람을 수식하는 관형절",
+          "form_queries": [
+            "한복",
+            "잘",
+            "만드시는",
+            "분"
+          ],
+          "semantic_queries": [
+            "기술 능력 수식",
+            "주체 높임 -시-"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL015:u5",
+          "text": "그런 자격증이 있더라고요.",
+          "span": [
+            51,
+            65
+          ],
+          "kind": "문장",
+          "parent_index": null,
+          "meaning": "화자의 확인이나 깨달음을 표현하는 평서문",
+          "form_queries": [
+            "그런 자격증이",
+            "있더라고요"
+          ],
+          "semantic_queries": [
+            "존재 확인",
+            "새로운 인식 종결"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "QUAL016",
+      "input": "자격증이라는 거는 있으면 나쁠 건 없고 우리나라가 보면 국비 같은 것도 잘 돼 있고요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "문장 전체가 하나의 긴 서술 구조로 이어지며, '자격증이라는 거는'의 관형절과 '있으면'의 조건절, '나쁠 건 없고'의 부정 서술, '우리나라가 보면'의 관점 제시, '국비 같은 것도 잘 돼 있고요'의 종결 서술로 나뉘어 분석했다.",
+      "clauses": [
+        {
+          "clause_id": "QUAL016:c1",
+          "predicate_complex_id": "QUAL016:c1:predicate",
+          "text": "자격증이라는 거는 있으면 나쁠 건 없고",
+          "span": [
+            0,
+            21
+          ],
+          "role": "connective",
+          "features": {
+            "host_pos": "adjective",
+            "sentence_type": "declarative",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "없다",
+            "stem_vowel": "e",
+            "stem_coda": "absent",
+            "clause_relation": "addition",
+            "meaning": "자격증이 있으면 나쁜 점이 없다는 의미의 부정 서술"
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none"
+          },
+          "scope_note": "앞절 '있으면'은 조건 관계이며, '나쁠 건 없고'는 '없다'의 관형형 '나쁠'과 의존명사 '건'이 결합한 구조로, '없고'가 종결이 아닌 연결어미 '-고'로 이어진다. '없다'의 어간은 '없-'으로 받침이 없다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "QUAL016:c2",
+          "predicate_complex_id": "QUAL016:c2:predicate",
+          "text": "우리나라가 보면 국비 같은 것도 잘 돼 있고요",
+          "span": [
+            22,
+            47
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "adjective",
+            "sentence_type": "declarative",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "되다",
+            "stem_vowel": "e",
+            "stem_coda": "absent",
+            "speech_act": "state_intention",
+            "subject_person": "third",
+            "meaning": "우리나라의 관점에서 국비 지원 등이 잘 되어 있다는 평가"
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {},
+          "scope_note": "'돼'는 '되다'의 활용형으로, '잘'이 부사로 수식한다. '있고요'는 연결어미 '-고'와 종결어미 '-요'가 결합한 형태로, 청자 높임(존댓말)이 나타난다. '우리나라가 보면'은 관점 제시를 위한 절로, 주절의 높임과 시제를 하위 구성에 복사하지 않는다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "QUAL016:u1",
+          "text": "자격증이라는 거는 있으면 나쁠 건 없고 우리나라가 보면 국비 같은 것도 잘 돼 있고요.",
+          "span": [
+            0,
+            48
+          ],
+          "kind": "문장 전체",
+          "parent_index": null,
+          "meaning": "자격증의 유용성과 국비 지원 혜택에 대한 화자의 설명",
+          "form_queries": [
+            "자격증이라는 거는 있으면 나쁠 건 없고 우리나라가 보면 국비 같은 것도 잘 돼 있고요."
+          ],
+          "semantic_queries": [
+            "자격증 보유의 장점과 국비 지원 혜택에 대한 평서문"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL016:u2",
+          "text": "자격증이라는 거는",
+          "span": [
+            0,
+            9
+          ],
+          "kind": "주어 구",
+          "parent_index": 0,
+          "meaning": "자격증이라는 것에 대해",
+          "form_queries": [
+            "자격증이라는 거는"
+          ],
+          "semantic_queries": [
+            "자격증이라는 것을 지칭하는 주어"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL016:u3",
+          "text": "있으면",
+          "span": [
+            10,
+            13
+          ],
+          "kind": "조건절",
+          "parent_index": 0,
+          "meaning": "자격증이 있으면",
+          "form_queries": [
+            "있으면"
+          ],
+          "semantic_queries": [
+            "자격증 보유를 전제로 하는 조건"
+          ],
+          "features": {
+            "clause_relation": "condition"
+          }
+        },
+        {
+          "unit_id": "QUAL016:u4",
+          "text": "나쁠 건 없고",
+          "span": [
+            14,
+            21
+          ],
+          "kind": "부정 서술 연결절",
+          "parent_index": 0,
+          "meaning": "나쁜 점이 없고",
+          "form_queries": [
+            "나쁠 건 없고"
+          ],
+          "semantic_queries": [
+            "나쁜 점이 없다는 부정적 평가"
+          ],
+          "features": {
+            "clause_relation": "addition"
+          }
+        },
+        {
+          "unit_id": "QUAL016:u5",
+          "text": "우리나라가 보면",
+          "span": [
+            22,
+            30
+          ],
+          "kind": "관점 제시 절",
+          "parent_index": 0,
+          "meaning": "우리나라의 관점에서 보면",
+          "form_queries": [
+            "우리나라가 보면"
+          ],
+          "semantic_queries": [
+            "화자가 우리나라의 관점을 기준으로 삼는다는 의미"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL016:u6",
+          "text": "국비 같은 것도",
+          "span": [
+            31,
+            39
+          ],
+          "kind": "주어 구",
+          "parent_index": 0,
+          "meaning": "국비 지원 같은 것도",
+          "form_queries": [
+            "국비 같은 것도"
+          ],
+          "semantic_queries": [
+            "국비 지원과 유사한 혜택들을 포함하는 주어"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL016:u7",
+          "text": "잘 돼 있고요",
+          "span": [
+            40,
+            47
+          ],
+          "kind": "종결 서술부",
+          "parent_index": 0,
+          "meaning": "잘 되어 있고요",
+          "form_queries": [
+            "잘 돼 있고요"
+          ],
+          "semantic_queries": [
+            "국비 지원 등이 잘 되어 있다는 긍정적 평가"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "QUAL017",
+      "input": "이번에 저는 마지막으로 도전하려고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "문장 내 '저번에', '올해까지' 등 시간 부사구의 세부 시제적 함의는 문맥에 따라 해석될 수 있어 별도 분석에서 제외함.",
+      "clauses": [
+        {
+          "clause_id": "QUAL017:c1",
+          "predicate_complex_id": "QUAL017:c1:predicate",
+          "text": "이번에 저는 마지막으로 도전하려고 하거든요.",
+          "span": [
+            0,
+            24
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "하다",
+            "sentence_type": "declarative",
+            "speech_act": "state_intention",
+            "intention_holder": "speaker",
+            "subject_person": "first",
+            "meaning": "마지막으로 도전하려는 의도를 설명함"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "modal",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "'-려고 하다'는 의도/계획을 나타내는 보조용언 구성이며, '-거든요'는 설명/변명하는 종결 어미임.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "QUAL017:c2",
+          "predicate_complex_id": "QUAL017:c2:predicate",
+          "text": "제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데",
+          "span": [
+            25,
+            55
+          ],
+          "role": "connective",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "되다",
+            "sentence_type": "declarative",
+            "clause_relation": "cause",
+            "meaning": "2년째가 된다는 사실을 근거로 제시함"
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "'-면'은 조건/가정 연결어미, '-는데'는 원인/이유를 설명하는 연결어미로 분석됨.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "QUAL017:c3",
+          "predicate_complex_id": "QUAL017:c3:predicate",
+          "text": "2년 해 보고 안 되면 저도 다른 일 하려고요.",
+          "span": [
+            56,
+            82
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "하다",
+            "sentence_type": "declarative",
+            "speech_act": "state_intention",
+            "intention_holder": "speaker",
+            "subject_person": "first",
+            "meaning": "2년 후 실패 시 다른 일을 하겠다는 의도"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "modal",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "'-고'는 순차/동시 연결, '-면'은 조건, '-요'는 존칭 종결 어미임. '안 되면'은 부정 조건절임.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "QUAL017:u1",
+          "text": "이번에 저는 마지막으로 도전하려고 하거든요.",
+          "span": [
+            0,
+            24
+          ],
+          "kind": "문장",
+          "parent_index": null,
+          "meaning": "마지막 도전 의도를 밝히는 문장",
+          "form_queries": [
+            "도전하려고 하거든요"
+          ],
+          "semantic_queries": [
+            "의도 표현",
+            "설명 종결 어미"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL017:u2",
+          "text": "도전하려고 하거든요",
+          "span": [
+            13,
+            23
+          ],
+          "kind": "서술부",
+          "parent_index": 0,
+          "meaning": "도전하려는 의도를 설명함",
+          "form_queries": [
+            "-려고 하다",
+            "-거든요"
+          ],
+          "semantic_queries": [
+            "의도 보조용언",
+            "설명/변명 종결"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL017:u3",
+          "text": "제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데",
+          "span": [
+            25,
+            55
+          ],
+          "kind": "연결절",
+          "parent_index": null,
+          "meaning": "2년째가 된다는 근거 제시",
+          "form_queries": [
+            "이 년째 되는데"
+          ],
+          "semantic_queries": [
+            "원인/이유 연결",
+            "시간 계산 설명"
+          ],
+          "features": {
+            "clause_relation": "cause"
+          }
+        },
+        {
+          "unit_id": "QUAL017:u4",
+          "text": "2년 해 보고 안 되면 저도 다른 일 하려고요.",
+          "span": [
+            56,
+            82
+          ],
+          "kind": "문장",
+          "parent_index": null,
+          "meaning": "실패 시 다른 일 전환 의도",
+          "form_queries": [
+            "다른 일 하려고요"
+          ],
+          "semantic_queries": [
+            "조건부 의도",
+            "존칭 종결"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL017:u5",
+          "text": "안 되면",
+          "span": [
+            64,
+            68
+          ],
+          "kind": "조건절",
+          "parent_index": 3,
+          "meaning": "실패라는 조건",
+          "form_queries": [
+            "안 되다",
+            "-면"
+          ],
+          "semantic_queries": [
+            "부정 조건"
+          ],
+          "features": {
+            "clause_relation": "condition"
+          }
+        }
+      ]
+    },
+    {
+      "id": "QUAL018",
+      "input": "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "없음",
+      "clauses": [
+        {
+          "clause_id": "QUAL018:c1",
+          "predicate_complex_id": "QUAL018:c1:predicate",
+          "text": "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데",
+          "span": [
+            0,
+            28
+          ],
+          "role": "connective",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "알다",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "sentence_type": "declarative",
+            "clause_relation": "cause",
+            "meaning": "앞절의 생각(열심히 했다는 인식)이 뒤절의 기대(합격할 줄 알았음)의 원인이나 근거가 됨",
+            "subject_person": "first"
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "연결어미 -는데는 앞절의 내용을 제시하고 뒤절과 대조하거나 원인을 설명하는 기능을 함. '합격 할 줄 알았는데'는 과거의 인식/기대를 나타냄.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "QUAL018:c2",
+          "predicate_complex_id": "QUAL018:c2:predicate",
+          "text": "제가 시험 당일 날 좀 아팠어요.",
+          "span": [
+            29,
+            47
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "adjective",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "아프다",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "sentence_type": "declarative",
+            "speech_act": null,
+            "subject_person": "first"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "종결어미 -요는 반말/존경체 경계에서 존칭으로 사용됨. '아팠어요'는 과거의 상태(건강 이상)를 서술.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "QUAL018:u1",
+          "text": "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어요.",
+          "span": [
+            0,
+            47
+          ],
+          "kind": "문장 전체",
+          "parent_index": null,
+          "meaning": "화자의 과거 인식과 실제 경험(건강 문제)을 연결하여 설명하는 문장",
+          "form_queries": [
+            "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어요."
+          ],
+          "semantic_queries": [
+            "과거의 기대와 실제 상황의 대조",
+            "시험 당일 건강 문제로 인한 결과 설명"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL018:u2",
+          "text": "처음엔 열심히 했다고 생각해서",
+          "span": [
+            0,
+            16
+          ],
+          "kind": "연결절(원인/근거)",
+          "parent_index": 0,
+          "meaning": "화자가 처음에 열심히 했다고 생각했다는 내용",
+          "form_queries": [
+            "처음엔 열심히 했다고 생각해서"
+          ],
+          "semantic_queries": [
+            "과거의 자기 평가",
+            "열심히 했다는 인식"
+          ],
+          "features": {
+            "clause_relation": "cause"
+          }
+        },
+        {
+          "unit_id": "QUAL018:u3",
+          "text": "합격 할 줄 알았는데",
+          "span": [
+            17,
+            28
+          ],
+          "kind": "연결절(기대/인식)",
+          "parent_index": 0,
+          "meaning": "합격할 것이라고 예상했다는 내용",
+          "form_queries": [
+            "합격 할 줄 알았는데"
+          ],
+          "semantic_queries": [
+            "과거의 예측",
+            "합격에 대한 기대"
+          ],
+          "features": {
+            "clause_relation": "cause"
+          }
+        },
+        {
+          "unit_id": "QUAL018:u4",
+          "text": "제가 시험 당일 날 좀 아팠어요.",
+          "span": [
+            29,
+            47
+          ],
+          "kind": "주절(서술)",
+          "parent_index": 0,
+          "meaning": "시험 당일 화자가 건강이 좋지 않았다는 서술",
+          "form_queries": [
+            "제가 시험 당일 날 좀 아팠어요."
+          ],
+          "semantic_queries": [
+            "과거의 건강 상태",
+            "시험 당일의 상황"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "QUAL019",
+      "input": "이걸 땄다고 바로 취업이 되는 것도 아닌데 이렇게까지 열심히 해야 되나?",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "없음",
+      "clauses": [
+        {
+          "clause_id": "QUAL019:c1",
+          "predicate_complex_id": "QUAL019:c1:predicate",
+          "text": "이걸 땄다고 바로 취업이 되는 것도 아닌데",
+          "span": [
+            0,
+            23
+          ],
+          "role": "connective",
+          "features": {
+            "host_pos": "copula",
+            "host_class": "nominal_copula",
+            "host_form": "아니다",
+            "sentence_type": "declarative",
+            "clause_relation": "concession",
+            "meaning": "조건(땄다)이 충족되어도 결과(취업)가 보장되지 않음을 나타내는 양보/대조 관계"
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none"
+          },
+          "scope_note": "연결어미 -는데는 앞절의 내용을 뒤절과 대비시키며, '아닌'은 부정 계사이다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "QUAL019:c2",
+          "predicate_complex_id": "QUAL019:c2:predicate",
+          "text": "이렇게까지 열심히 해야 되나?",
+          "span": [
+            24,
+            40
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "되다",
+            "sentence_type": "interrogative",
+            "question_type": "polar",
+            "speech_act": "ask_intention",
+            "meaning": "이 정도 노력의 필요성에 대한 의문"
+          },
+          "observed_politeness": "non_polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "modal",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "'해야 되나'는 '해야 되느냐'의 축약형으로, 의무/필요성에 대한 의문을 나타낸다. 종결 어미 -나(냐)는 반말체이다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "QUAL019:u1",
+          "text": "이걸 땄다고 바로 취업이 되는 것도 아닌데 이렇게까지 열심히 해야 되나?",
+          "span": [
+            0,
+            40
+          ],
+          "kind": "문장 전체",
+          "parent_index": null,
+          "meaning": "자격증 취득이 취업으로 직결되지 않음에도 불구하고 과도한 노력이 필요한지에 대한 의문",
+          "form_queries": [
+            "이걸 땄다고 바로 취업이 되는 것도 아닌데 이렇게까지 열심히 해야 되나?"
+          ],
+          "semantic_queries": [
+            "양보절과 의문 종결절로 구성된 문장",
+            "노력의 필요성에 대한 회의적 질문"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL019:u2",
+          "text": "이걸 땄다고",
+          "span": [
+            0,
+            6
+          ],
+          "kind": "조건/원인 연결절",
+          "parent_index": 0,
+          "meaning": "이것을 취득했다는 조건",
+          "form_queries": [
+            "땄다고"
+          ],
+          "semantic_queries": [
+            "과거 사건을 조건으로 제시하는 연결어미 -다고"
+          ],
+          "features": {
+            "clause_relation": "condition"
+          }
+        },
+        {
+          "unit_id": "QUAL019:u3",
+          "text": "취업이 되는 것도 아닌데",
+          "span": [
+            10,
+            23
+          ],
+          "kind": "양보/대조 연결절",
+          "parent_index": 0,
+          "meaning": "취업이 된다는 것이 아니라는 내용",
+          "form_queries": [
+            "아닌데"
+          ],
+          "semantic_queries": [
+            "부정 평서형 연결어미 -는데"
+          ],
+          "features": {
+            "clause_relation": "concession"
+          }
+        },
+        {
+          "unit_id": "QUAL019:u4",
+          "text": "열심히 해야 되나",
+          "span": [
+            30,
+            39
+          ],
+          "kind": "의무/필요성 의문 서술부",
+          "parent_index": 0,
+          "meaning": "열심히 해야 하는지 묻는 의문",
+          "form_queries": [
+            "해야 되나"
+          ],
+          "semantic_queries": [
+            "의무 보조용언 '해야'와 '되다'의 결합",
+            "반말체 의문 종결어미 -나"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "QUAL020",
+      "input": "자격증이 많으면 전문성은 높아지는 것 같은데 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "문장 전체가 하나의 긴 복합문으로, '것 같은데'와 '것 같다고'라는 두 가지 추측 표현이 중첩되어 있다. '생각이 들었어요'라는 보고/인지 서술부가 최종 종결을 이룬다.",
+      "clauses": [
+        {
+          "clause_id": "QUAL020:c1",
+          "predicate_complex_id": "QUAL020:c1:predicate",
+          "text": "자격증이 많으면 전문성은 높아지는 것 같은데 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어요.",
+          "span": [
+            0,
+            79
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "생각이 들다",
+            "sentence_type": "declarative",
+            "speech_act": "state_intention",
+            "subject_person": "first",
+            "meaning": "화자가 특정 상황에 대해 추측하고 그 생각을 전달함",
+            "source_form": "생각이 들었어요"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "종결 어미 '-요'는 반말이 아닌 존댓말(합쇼체/해요체 혼합 경향의 해요체)로 분석됨. '-았-'은 '-었-'으로 정규화. '생각이 들다'는 보조동사적 의미의 인지 표현.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "QUAL020:u1",
+          "text": "자격증이 많으면 전문성은 높아지는 것 같은데 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어요.",
+          "span": [
+            0,
+            79
+          ],
+          "kind": "복합문 전체",
+          "parent_index": null,
+          "meaning": "자격증의 양이 전문성에는 긍정적이지만, 진취적인 구직자에게는 취업 장벽이 된다는 화자의 추측적 의견",
+          "form_queries": [
+            "자격증이 많으면",
+            "전문성은 높아지는 것 같은데",
+            "취업에 장벽이 되는 것 같다고",
+            "생각이 들었어요"
+          ],
+          "semantic_queries": [
+            "자격증과 전문성의 관계",
+            "취업 장벽에 대한 의견",
+            "추측 표현의 중첩",
+            "인지 서술부"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL020:u2",
+          "text": "자격증이 많으면",
+          "span": [
+            0,
+            8
+          ],
+          "kind": "조건절",
+          "parent_index": 0,
+          "meaning": "자격증의 수가 많다는 조건",
+          "form_queries": [
+            "자격증이 많으면"
+          ],
+          "semantic_queries": [
+            "자격증 수량",
+            "조건 관계"
+          ],
+          "features": {
+            "clause_relation": "condition",
+            "quotation_type": null
+          }
+        },
+        {
+          "unit_id": "QUAL020:u3",
+          "text": "전문성은 높아지는 것 같은데",
+          "span": [
+            9,
+            24
+          ],
+          "kind": "추측 서술절",
+          "parent_index": 0,
+          "meaning": "전문성이 높아진다는 추측",
+          "form_queries": [
+            "높아지는 것 같은데"
+          ],
+          "semantic_queries": [
+            "전문성 향상",
+            "추측 표현 '것 같다'"
+          ],
+          "features": {
+            "clause_relation": null,
+            "quotation_type": null
+          }
+        },
+        {
+          "unit_id": "QUAL020:u4",
+          "text": "오히려 진짜 그 일을 재밌어서 하려는 사람들한테는",
+          "span": [
+            25,
+            52
+          ],
+          "kind": "부사구/대상 지정",
+          "parent_index": 0,
+          "meaning": "진심으로 일을 좋아하는 구직자를 대상으로",
+          "form_queries": [
+            "재밌어서 하려는 사람들한테는"
+          ],
+          "semantic_queries": [
+            "진취적 구직자",
+            "대상 지정"
+          ],
+          "features": {
+            "clause_relation": null,
+            "quotation_type": null
+          }
+        },
+        {
+          "unit_id": "QUAL020:u5",
+          "text": "취업에 장벽이 되는 것 같다고",
+          "span": [
+            53,
+            69
+          ],
+          "kind": "인용된 추측 서술",
+          "parent_index": 0,
+          "meaning": "취업에 장벽이 된다는 추측 내용",
+          "form_queries": [
+            "장벽이 되는 것 같다고"
+          ],
+          "semantic_queries": [
+            "취업 장벽",
+            "추측 인용"
+          ],
+          "features": {
+            "clause_relation": null,
+            "quotation_type": "statement"
+          }
+        },
+        {
+          "unit_id": "QUAL020:u6",
+          "text": "생각이 들었어요",
+          "span": [
+            70,
+            78
+          ],
+          "kind": "인지 서술부",
+          "parent_index": 0,
+          "meaning": "화자가 그렇게 생각했다는 보고",
+          "form_queries": [
+            "생각이 들었어요"
+          ],
+          "semantic_queries": [
+            "인지 표현",
+            "의견 표출"
+          ],
+          "features": {
+            "clause_relation": null,
+            "quotation_type": null
+          }
+        }
+      ]
+    }
+  ]
+}

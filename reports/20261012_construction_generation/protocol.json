@@ -1,0 +1,66 @@
+{
+  "status": "completed",
+  "config": {
+    "requested_model": "Qwen3.8-27B",
+    "system_prompt": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요.",
+    "generation": {
+      "max_tokens": 512,
+      "temperature": 0.3,
+      "top_p": 0.8,
+      "top_k": 20,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      }
+    }
+  },
+  "inputs": 70,
+  "design": "70 fresh generations with latest construction retrieval; prior 70 final outputs are frozen comparison",
+  "analysis_policy": "reused exact prior Qwen analysis; current Kiwi and retrieval rerun",
+  "quality_policy": "one first output; at most one rule-triggered preservation repair; no quality-selected reruns",
+  "snapshot_hashes": {
+    "read_source.py": "ade7945fd83b2dee5fe8f82f60298bea50ddaba813c1f6cf4ab743e1137afbf2",
+    "author_support.py": "ba177786c9c6391793f8ad665cbd122eda5a402511b9c10a240243de4e803f65",
+    "build.py": "63783d552731ff34494c4b887a31c3b9f9ea78f1a3753610197e1a95b749ac2e",
+    "query.py": "19e11bf1564da2a5a800ed57ae35d9c92a55f4fa55a12c001837d986ab764282",
+    "test_query.py": "3003aae007f8e250cfe45330d6a4654c4464b8bd1a7683ae30384328a5cc8a40",
+    "extract_sources.py": "645ddd3ca25565d4e85b133399af5848f21815c02ae8246d887c8c9bec56262a",
+    "diagnose.py": "28afc1f59baeed4d738188d4d565ad227e6b936772a115e850248cc33da465e2",
+    "integration_audit.py": "11407dddd6f3082ac1b6491ab515073d218083d9329aa79a526b96065d9d9976",
+    "sentence_retrieval.py": "ca46940056d1b862cd46058e7fb39523f47bd60f81d05a9167c2b30ebc8d17f1",
+    "run_translation.py": "f2601ed1a0a9f62a7d639a96e28e45d6c3b2fe7414b12556b38ce8e22834f066",
+    "test_sentence_retrieval.py": "640ca629b863c2e5bbd5f73e1703b350f888027884677a4b312245fdc21ca1f8",
+    "neo4j_export.py": "c2c90f903e9d979c287bd4fab9527f940ad62d5c99e68df4b1b7c4d97c916ead",
+    "model_client.py": "e334b336f0382eb60e6749f35a991749c84de614f3d0b3189247d03129777738",
+    "summarize_translation.py": "d4127acc9184e6539ee23da3338024dce9a198fd60a0ac2313ba727ab48e6f3a",
+    "review_speech_style.py": "b48b7ef99d4c1010c451fd91232480df4a2bfa03683220388c6e4f85fcd21a47",
+    "transformation_plan.py": "2689fb1126e80970dbccc2dbec3a46ed3d9963d5312fd5c3ee9c80a55db38734",
+    "preservation_check.py": "110a96345d3af0ac4ec2e1bd9f688ba1938546c074231cdaaa405e602fd65f2b",
+    "test_pipeline_repair.py": "e190a096b5401dfea3a3edd7e1edc8ffd346954acbd8d5dda5e127c76309c72c",
+    "construction_retrieval.py": "d78ad6cb3ea62b9a8d20406fc078c669868bf795b2b66819d271ce73cfa21e68",
+    "test_construction_retrieval.py": "e4fb3b0f367a0de90016694adc496bde873982e8a0a1e19c112eb3ea45328df5",
+    "facts.jsonl": "5aab01e89a5d1d5074c9af61aa78e4d654e71217121ccd1a774c98f284186130",
+    "graph.json": "cbe51a766841aa51c12abbcdcf8f203c073c632b6524c808529bc5acfdc26f89",
+    "advisory_rules.json": "c3b3e93a2208ace4185f7188ce7ff81dc4764f6376a92e96e7e6c0e411d2b06a"
+  },
+  "job_sha256": "0d519a948981c1ddcc4bad9a06409d48b553e630f2589637df3d57b9486514e9",
+  "changed_requests": [
+    "DEV027",
+    "LONG001",
+    "LONG005",
+    "NEW012",
+    "ADVCE009B"
+  ],
+  "baseline_path": "reports/kg_v2_pipeline_repair_20261012",
+  "baseline_sha256": "ce13dd74b4a0b6ca16b87901c98292b36d4d5f35e6d7e360fac36f6402451153",
+  "analysis_calls": 0,
+  "limitations": [
+    "Development inputs, not independent human gold.",
+    "Same requests may yield different outputs despite same seed.",
+    "Bundled retrieval changes, not factorial A/B/C/D."
+  ],
+  "endpoint_sha256": "03bdfce6caff3fa12a0b14fe05a301a12c3f0915e60d3e60e89bc53308775201",
+  "first_outputs": 70,
+  "translation_calls": 75,
+  "repair_attempted": 5,
+  "repair_accepted": 1
+}

@@ -1,0 +1,148 @@
+{
+  "id": "DEV006",
+  "input": "할머니께서 지금 방에서 쉬고 계세요.",
+  "condition": "gyeongbuk40_system_only",
+  "request": {
+    "model": "Qwen3.8-27B",
+    "max_tokens": 512,
+    "temperature": 0.3,
+    "top_p": 0.8,
+    "top_k": 20,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "seed": 20260923,
+    "messages": [
+      {
+        "role": "system",
+        "content": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요.\n목표 말투는 경북 지역의 40대 이상 화자가 사용하는 사투리입니다."
+      },
+      {
+        "role": "user",
+        "content": "standard를 자연스러운 경상도 방언으로 변환하세요. analysis와 source_morphology는 원문 분석의 가설이며 원문이 우선입니다. transformation_plan 또는 references와 graph_paths는 조건부 참고 자료입니다. 의미·지역·시대·높임·결합 조건이 맞는 자료를 선택하고 관련 없는 자료는 사용하지 마세요. 조건 미확인은 적용 허용이 아니며 연결된 진술끼리 조건을 상속하지 않습니다. 기본형 대응과 완성 활용형을 구별하고 원문의 부정·시제·높임·인용·발화 의도를 유지하세요. preservation의 관형절·겸양·주체와 청자 높임·이동 관점 보존을 어휘 치환보다 우선하세요. 모델 조언 후보는 원문 확인형이 아니며 불확실하면 원문의 구조를 보존하세요. 표에 없는 활용형은 표에 실린 확인형으로 주장하지 마세요. 원문에 없는 내용을 추가하지 말고 변환한 발화만 출력하세요.\n{\"standard\":\"할머니께서 지금 방에서 쉬고 계세요.\",\"analysis\":[{\"text\":\"할머니께서 지금 방에서 쉬고 계세요.\",\"span\":[0,20],\"role\":\"main\",\"features\":{\"host_pos\":\"verb\",\"sentence_type\":\"declarative\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"쉬다\",\"stem_vowel\":\"ㅜ\",\"stem_coda\":\"absent\",\"subject_person\":\"third\",\"following_predicate_role\":\"auxiliary\"},\"observed_politeness\":\"polite\",\"observed_subject_honorific\":\"si\",\"tense_or_modality\":\"present\",\"preserved_candidate_features\":{}}],\"source_morphology\":{\"tokens\":[{\"form\":\"할머니\",\"tag\":\"NNG\",\"span\":[0,3],\"surface\":\"할머니\"},{\"form\":\"께서\",\"tag\":\"JKS\",\"span\":[3,5],\"surface\":\"께서\"},{\"form\":\"지금\",\"tag\":\"MAG\",\"span\":[6,8],\"surface\":\"지금\"},{\"form\":\"방\",\"tag\":\"NNG\",\"span\":[9,10],\"surface\":\"방\"},{\"form\":\"에서\",\"tag\":\"JKB\",\"span\":[10,12],\"surface\":\"에서\"},{\"form\":\"쉬\",\"tag\":\"VV\",\"span\":[13,14],\"surface\":\"쉬\"},{\"form\":\"고\",\"tag\":\"EC\",\"span\":[14,15],\"surface\":\"고\"},{\"form\":\"계\",\"tag\":\"NNG\",\"span\":[16,17],\"surface\":\"계\"},{\"form\":\"이\",\"tag\":\"VCP\",\"span\":[17,17],\"surface\":\"\"},{\"form\":\"세요\",\"tag\":\"EF\",\"span\":[17,19],\"surface\":\"세요\"},{\"form\":\".\",\"tag\":\"SF\",\"span\":[19,20],\"surface\":\".\"}],\"words\":[{\"form\":\"할머니\",\"tag\":\"NNG\",\"span\":[0,3],\"surface\":\"할머니\",\"lemma\":\"할머니\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":0},{\"form\":\"지금\",\"tag\":\"MAG\",\"span\":[6,8],\"surface\":\"지금\",\"lemma\":\"지금\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":2},{\"form\":\"방\",\"tag\":\"NNG\",\"span\":[9,10],\"surface\":\"방\",\"lemma\":\"방\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":3},{\"form\":\"쉬\",\"tag\":\"VV\",\"span\":[13,14],\"surface\":\"쉬\",\"lemma\":\"쉬다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"고\",\"ending_tag\":\"EC\",\"token_index\":5,\"predicate_span\":[13,15]},{\"form\":\"계시\",\"tag\":\"VV\",\"span\":[16,17],\"surface\":\"계\",\"lemma\":\"계시다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"어요\",\"ending_tag\":\"EF\",\"token_index\":8,\"predicate_span\":[16,19],\"lexical_honorific\":true,\"analysis_origin\":\"source_bound_gyeseyo_repair\"}],\"status\":\"Kiwi_hypotheses_not_gold\"},\"transformation_plan\":[{\"target_text\":\"쉬\",\"span\":[13,14],\"preserve\":[{\"features\":{\"host_pos\":\"verb\",\"sentence_type\":\"declarative\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"쉬다\",\"stem_vowel\":\"ㅜ\",\"stem_coda\":\"absent\",\"subject_person\":\"third\",\"speech_act\":null,\"action_participants\":null,\"intention_holder\":null,\"beneficiary\":null,\"clause_relation\":null,\"response_orientation\":null,\"following_predicate_role\":\"auxiliary\",\"construction_kind\":null},\"listener_politeness\":\"polite\",\"subject_honorific\":\"si\",\"tense_or_modality\":\"present\"}],\"candidates\":[{\"id\":\"NAMU_GRAMMAR_20260908:v2:full:0090\",\"source_id\":\"NAMU_GRAMMAR_20260908\",\"type\":\"inflection\",\"source_pattern\":{\"text\":\"시다\",\"domain\":\"dialect\",\"lemma\":\"시다\",\"sense\":\"쉬다\",\"features\":{}},\"target_pattern\":{\"text\":\"시고\",\"domain\":\"dialect\",\"lemma\":\"시다\",\"sense\":\"쉬다\",\"features\":{}},\"functions\":[],\"conditions\":[{\"owner\":\"candidate\",\"field\":\"lemma\",\"op\":\"eq\",\"value\":\"시다\",\"basis\":\"explicit\"},{\"owner\":\"candidate\",\"field\":\"ending\",\"op\":\"eq\",\"value\":\"-고\",\"basis\":\"explicit\"}],\"constraints\":[{\"kind\":\"scope\",\"description\":\"위키의 세부 지역·화자·시대 범위와 해당 어휘 의미를 확인한다.\"}],\"scope\":{\"regions\":[\"경북 동부 해안 이외의 해당 활용 지역\"],\"speech_levels\":[],\"registers\":[],\"period\":[],\"note\":\"2026-09-07 수정판의 서술. 재인용을 독립 근거로 중복 계산하지 않는다.\"},\"claim_status\":\"attested_form\",\"notes\":\"표의 개별 확인형. 어미 열을 결합 조건으로 보존하며 미기재 어간/어미에 일반화하지 않는다.\",\"binding\":{\"text\":\"쉬\",\"span\":[13,14],\"lemma\":\"쉬다\",\"prefinals\":[],\"ending\":\"고\",\"predicate_span\":[13,15],\"following_particle\":null},\"origin\":\"documentary_KG\",\"evidence_pages\":[{\"source_id\":\"NAMU_GRAMMAR_20260908\",\"pdf_page\":4},{\"source_id\":\"NAMU_GRAMMAR_20260908\",\"pdf_page\":4},{\"source_id\":\"NAMU_GRAMMAR_20260908\",\"pdf_page\":4},{\"source_id\":\"NAMU_GRAMMAR_20260908\",\"pdf_page\":45}]},{\"id\":\"NAMU_GRAMMAR_20260908:v2:full:1048\",\"source_id\":\"NAMU_GRAMMAR_20260908\",\"type\":\"lexical_mapping\",\"source_pattern\":{\"text\":\"쉬다\",\"domain\":\"standard\",\"lemma\":\"쉬다\",\"sense\":null,\"features\":{}},\"target_pattern\":{\"text\":\"시다\",\"domain\":\"dialect\",\"lemma\":\"시다\",\"sense\":null,\"features\":{}},\"functions\":[],\"conditions\":[],\"constraints\":[{\"kind\":\"scope\",\"description\":\"위키의 세부 지역·화자·시대 범위와 해당 어휘 의미를 확인한다.\"}],\"scope\":{\"regions\":[\"동남 방언: 개별 지역·세대 제한 우선\"],\"speech_levels\":[],\"registers\":[],\"period\":[],\"note\":\"2026-09-07 수정판의 서술. 재인용을 독립 근거로 중복 계산하지 않는다.\"},\"claim_status\":\"source_generalization\",\"notes\":\"표의 표제어와 번호가 붙은 각주 풀이를 함께 연결한 직접 대응. 먹다→묵다 뒤 활용 선택이 가능하다.\",\"binding\":{\"text\":\"쉬\",\"span\":[13,14],\"lemma\":\"쉬다\",\"prefinals\":[],\"ending\":\"고\",\"predicate_span\":[13,15],\"following_particle\":null},\"origin\":\"documentary_KG\",\"evidence_pages\":[{\"source_id\":\"NAMU_GRAMMAR_20260908\",\"pdf_page\":45},{\"source_id\":\"NAMU_GRAMMAR_20260908\",\"pdf_page\":4}]}]},{\"target_text\":\"지금\",\"span\":[6,8],\"preserve\":[{\"features\":{\"host_pos\":\"verb\",\"sentence_type\":\"declarative\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"쉬다\",\"stem_vowel\":\"ㅜ\",\"stem_coda\":\"absent\",\"subject_person\":\"third\",\"speech_act\":null,\"action_participants\":null,\"intention_holder\":null,\"beneficiary\":null,\"clause_relation\":null,\"response_orientation\":null,\"following_predicate_role\":\"auxiliary\",\"construction_kind\":null},\"listener_politeness\":\"polite\",\"subject_honorific\":\"si\",\"tense_or_modality\":\"present\"}],\"candidates\":[{\"id\":\"NAMU20260901:v2:full:0027\",\"source_id\":\"NAMU20260901\",\"type\":\"lexical_mapping\",\"source_pattern\":{\"text\":\"지금\",\"domain\":\"standard\",\"lemma\":\"지금\",\"sense\":null,\"features\":{}},\"target_pattern\":{\"text\":\"짐\",\"domain\":\"dialect\",\"lemma\":\"짐\",\"sense\":null,\"features\":{}},\"functions\":[],\"conditions\":[],\"constraints\":[{\"kind\":\"scope\",\"description\":\"2026-09-01 위키 판의 서술·재전사. 지역·세대·화용 제약 및 원영상 미검증을 고려한다.\"},{\"kind\":\"scope\",\"description\":\"49쪽 각주: 화자별 축약 단계와 발음·표기·연령 차이를 유지하며 일괄 철자 치환으로 쓰지 않는다.\"}],\"scope\":{\"regions\":[\"동남 방언: 진술별 범위 우선\"],\"speech_levels\":[],\"registers\":[],\"period\":[],\"note\":\"\"},\"claim_status\":\"source_generalization\",\"notes\":\"음변화 예의 형태 대응. 축약 단계·발음·표기·세대 차이를 모두 동일한 표기로 강제하지 않는다.\",\"binding\":{\"text\":\"지금\",\"span\":[6,8],\"lemma\":\"지금\",\"prefinals\":[],\"ending\":null,\"predicate_span\":null,\"following_particle\":null},\"origin\":\"documentary_KG\",\"evidence_pages\":[{\"source_id\":\"NAMU20260901\",\"pdf_page\":6},{\"source_id\":\"NAMU20260901\",\"pdf_page\":49}]}]},{\"target_text\":\"할머니\",\"span\":[0,3],\"preserve\":[{\"features\":{\"host_pos\":\"verb\",\"sentence_type\":\"declarative\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"쉬다\",\"stem_vowel\":\"ㅜ\",\"stem_coda\":\"absent\",\"subject_person\":\"third\",\"speech_act\":null,\"action_participants\":null,\"intention_holder\":null,\"beneficiary\":null,\"clause_relation\":null,\"response_orientation\":null,\"following_predicate_role\":\"auxiliary\",\"construction_kind\":null},\"listener_politeness\":\"polite\",\"subject_honorific\":\"si\",\"tense_or_modality\":\"present\"}],\"candidates\":[{\"id\":\"NAMU20260901:v2:full:0176\",\"source_id\":\"NAMU20260901\",\"type\":\"lexical_mapping\",\"source_pattern\":{\"text\":\"할머니\",\"domain\":\"standard\",\"lemma\":\"할머니\",\"sense\":null,\"features\":{}},\"target_pattern\":{\"text\":\"할무이\",\"domain\":\"dialect\",\"lemma\":\"할무이\",\"sense\":null,\"features\":{}},\"functions\":[],\"conditions\":[],\"constraints\":[{\"kind\":\"scope\",\"description\":\"2026-09-01 위키 판의 서술·재전사. 지역·세대·화용 제약 및 원영상 미검증을 고려한다.\"}],\"scope\":{\"regions\":[\"진주 경연 화자\"],\"speech_levels\":[],\"registers\":[],\"period\":[],\"note\":\"\"},\"claim_status\":\"analyst_interpretation\",\"notes\":\"병렬 재전사와 표준어 풀이에서 부분 대응을 분석하고 음높이/어절 경계 기호를 제거한 형태. 원영상 미검증, 문헌이 제시한 사전 기본형은 아니다.\",\"binding\":{\"text\":\"할머니\",\"span\":[0,3],\"lemma\":\"할머니\",\"prefinals\":[],\"ending\":null,\"predicate_span\":null,\"following_particle\":\"께서\"},\"origin\":\"documentary_KG\",\"evidence_pages\":[{\"source_id\":\"NAMU20260901\",\"pdf_page\":26}]}]},{\"target_text\":\"할머니께서 지금 방에서 쉬고 계세요.\",\"span\":[0,20],\"preserve\":[{\"features\":{\"host_pos\":\"verb\",\"sentence_type\":\"declarative\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"쉬다\",\"stem_vowel\":\"ㅜ\",\"stem_coda\":\"absent\",\"subject_person\":\"third\",\"speech_act\":null,\"action_participants\":null,\"intention_holder\":null,\"beneficiary\":null,\"clause_relation\":null,\"response_orientation\":null,\"following_predicate_role\":\"auxiliary\",\"construction_kind\":null},\"listener_politeness\":\"polite\",\"subject_honorific\":\"si\",\"tense_or_modality\":\"present\"}],\"candidates\":[{\"id\":\"NAMU_HONORIFICS_20260908:v2:ending_repair:0001\",\"source_id\":\"NAMU_HONORIFICS_20260908\",\"type\":\"ending\",\"source_pattern\":{\"text\":\"-어요\",\"domain\":\"standard\",\"lemma\":null,\"sense\":null,\"features\":{\"match_unit\":\"terminal_ending\"}},\"target_pattern\":{\"text\":\"-어예\",\"domain\":\"dialect\",\"lemma\":null,\"sense\":null,\"features\":{\"realization\":\"replace_ending_preserve_prefix\"}},\"functions\":[\"declarative\",\"interrogative\",\"imperative\",\"hortative\"],\"conditions\":[],\"constraints\":[{\"kind\":\"require\",\"description\":\"입력의 부정·시제·주체 높임과 명사/어간을 보존하고 명시한 종결 부분만 대응시킨다. 질문을 평서문으로 바꾸지 않는다.\"},{\"kind\":\"scope\",\"description\":\"원문 위키의 지역·세대별 변이이며 모든 경상도 화자의 의무형이 아니다. 해예 사용자는 해요도 사용한다.\"}],\"scope\":{\"regions\":[\"동남 방언: 경북 북부의 -래- 변이 및 세대 차이는 별도\"],\"speech_levels\":[\"해예\"],\"registers\":[],\"period\":[],\"note\":\"로컬 PDF 스냅샷의 서술; 독립 화자 검증이 아니다.\"},\"claim_status\":\"analyst_interpretation\",\"notes\":\"해요체/해예체 표의 대응 열을 정렬해 -아요/-어요를 각각 분리한 분석자 구성이다. 과거 -ㅆ어예는 본문에도 명시되지만 했어예 등 개별 문장은 원문 실례로 주장하지 않는다.\",\"binding\":{\"text\":\"할머니께서 지금 방에서 쉬고 계세요.\",\"span\":[0,20],\"clause_id\":\"DEV006:c1\",\"host_lemma\":\"계시다\",\"ending\":\"어요\",\"predicate_span\":[16,19],\"speech_style_preference\":{\"politeness\":\"polite\",\"register\":\"informal_polite\",\"source_ending\":\"세요\",\"basis\":\"source_terminal_form\"},\"ending_conversion\":{\"status\":\"derived_composition_not_attested_surface\",\"operation\":\"replace_terminal_ending\",\"source_morphemes\":[\"계시\",\"어요\"],\"candidate_morphemes\":[\"계시\",\"어예\"],\"preserve_prefinals\":[],\"instruction\":\"선어말어미·부정·주체 높임을 보존한다. 어간의 방언 대응은 별도 근거로만 선택한다. 이 조합은 문헌의 완성형 인용이 아니다.\"}},\"origin\":\"documentary_KG\",\"evidence_pages\":[{\"source_id\":\"NAMU_HONORIFICS_20260908\",\"pdf_page\":26},{\"source_id\":\"NAMU_HONORIFICS_20260908\",\"pdf_page\":26}]}]}],\"graph_paths\":[{\"source\":\"NAMU_GRAMMAR_20260908:v2:full:1048\",\"type\":\"candidate_has_inflection\",\"target\":\"NAMU_GRAMMAR_20260908:v2:full:0090\",\"properties\":{\"match\":\"target_lemma_equals_inflection_lemma\",\"requires_scope_and_sense_review\":true}}],\"preservation\":{\"origin\":\"reviewed_preservation_policy_not_dialect_rule\",\"relative_clauses\":[],\"supporting_knowledge\":[],\"invariants\":[\"원문의 명제·부정·시제·화행과 모든 절을 유지한다.\",\"청자 높임, 주체 높임, 저/제의 겸양을 각각 보존한다. 주어를 호격으로 바꾸지 않는다.\",\"가는/오는 이동 관점과 먼저의 시간 순서를 보존한다. 앞에의 시간 용법 자체는 금지하지 않는다.\",\"인용 내용과 보고 서술부의 시제를 구분한다. 회상 -대를 표면형만 보고 전언으로 판단하지 않는다.\"],\"source_honorific_predicates\":[{\"lemma\":\"계시다\",\"text\":\"계세요\"}]},\"plan_policy\":\"후보는 모두 적용할 목록이 아니라 대안이다. 어휘보다 의미·높임·시제·문장 역할 보존을 우선한다. 원문에 맞는 후보만 사용한다. MODEL_ADVICE는 원문에서 직접 확인된 완성형이 아닌 모델 조합 제안이다. 보존용 지식은 치환 규칙이 아니다.\"}"
+      }
+    ]
+  },
+  "status": "success",
+  "response": {
+    "id": "chatcmpl-9822b69bea7e98cf",
+    "object": "chat.completion",
+    "created": 1791849969,
+    "model": "Qwen3.8-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "할머니께서 지금 방에서 쉬고 계셔예.",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.27.1-51f03443",
+    "usage": {
+      "prompt_tokens": 3773,
+      "total_tokens": 3786,
+      "completion_tokens": 13,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  },
+  "first_output": "할머니께서 지금 방에서 쉬고 계셔예.",
+  "first_check": {
+    "status": "no_screening_flags",
+    "flags": [],
+    "repair_required": false,
+    "not_accuracy": true
+  },
+  "output": "할머니께서 지금 방에서 쉬고 계셔예.",
+  "final_check": {
+    "status": "no_screening_flags",
+    "flags": [],
+    "repair_required": false,
+    "not_accuracy": true
+  },
+  "repair_attempted": false,
+  "selection": "first_pass",
+  "calls": [
+    {
+      "request": {
+        "model": "Qwen3.8-27B",
+        "max_tokens": 512,
+        "temperature": 0.3,
+        "top_p": 0.8,
+        "top_k": 20,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "seed": 20260923,
+        "messages": [
+          {
+            "role": "system",
+            "content": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요.\n목표 말투는 경북 지역의 40대 이상 화자가 사용하는 사투리입니다."
+          },
+          {
+            "role": "user",
+            "content": "standard를 자연스러운 경상도 방언으로 변환하세요. analysis와 source_morphology는 원문 분석의 가설이며 원문이 우선입니다. transformation_plan 또는 references와 graph_paths는 조건부 참고 자료입니다. 의미·지역·시대·높임·결합 조건이 맞는 자료를 선택하고 관련 없는 자료는 사용하지 마세요. 조건 미확인은 적용 허용이 아니며 연결된 진술끼리 조건을 상속하지 않습니다. 기본형 대응과 완성 활용형을 구별하고 원문의 부정·시제·높임·인용·발화 의도를 유지하세요. preservation의 관형절·겸양·주체와 청자 높임·이동 관점 보존을 어휘 치환보다 우선하세요. 모델 조언 후보는 원문 확인형이 아니며 불확실하면 원문의 구조를 보존하세요. 표에 없는 활용형은 표에 실린 확인형으로 주장하지 마세요. 원문에 없는 내용을 추가하지 말고 변환한 발화만 출력하세요.\n{\"standard\":\"할머니께서 지금 방에서 쉬고 계세요.\",\"analysis\":[{\"text\":\"할머니께서 지금 방에서 쉬고 계세요.\",\"span\":[0,20],\"role\":\"main\",\"features\":{\"host_pos\":\"verb\",\"sentence_type\":\"declarative\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"쉬다\",\"stem_vowel\":\"ㅜ\",\"stem_coda\":\"absent\",\"subject_person\":\"third\",\"following_predicate_role\":\"auxiliary\"},\"observed_politeness\":\"polite\",\"observed_subject_honorific\":\"si\",\"tense_or_modality\":\"present\",\"preserved_candidate_features\":{}}],\"source_morphology\":{\"tokens\":[{\"form\":\"할머니\",\"tag\":\"NNG\",\"span\":[0,3],\"surface\":\"할머니\"},{\"form\":\"께서\",\"tag\":\"JKS\",\"span\":[3,5],\"surface\":\"께서\"},{\"form\":\"지금\",\"tag\":\"MAG\",\"span\":[6,8],\"surface\":\"지금\"},{\"form\":\"방\",\"tag\":\"NNG\",\"span\":[9,10],\"surface\":\"방\"},{\"form\":\"에서\",\"tag\":\"JKB\",\"span\":[10,12],\"surface\":\"에서\"},{\"form\":\"쉬\",\"tag\":\"VV\",\"span\":[13,14],\"surface\":\"쉬\"},{\"form\":\"고\",\"tag\":\"EC\",\"span\":[14,15],\"surface\":\"고\"},{\"form\":\"계\",\"tag\":\"NNG\",\"span\":[16,17],\"surface\":\"계\"},{\"form\":\"이\",\"tag\":\"VCP\",\"span\":[17,17],\"surface\":\"\"},{\"form\":\"세요\",\"tag\":\"EF\",\"span\":[17,19],\"surface\":\"세요\"},{\"form\":\".\",\"tag\":\"SF\",\"span\":[19,20],\"surface\":\".\"}],\"words\":[{\"form\":\"할머니\",\"tag\":\"NNG\",\"span\":[0,3],\"surface\":\"할머니\",\"lemma\":\"할머니\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":0},{\"form\":\"지금\",\"tag\":\"MAG\",\"span\":[6,8],\"surface\":\"지금\",\"lemma\":\"지금\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":2},{\"form\":\"방\",\"tag\":\"NNG\",\"span\":[9,10],\"surface\":\"방\",\"lemma\":\"방\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":3},{\"form\":\"쉬\",\"tag\":\"VV\",\"span\":[13,14],\"surface\":\"쉬\",\"lemma\":\"쉬다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"고\",\"ending_tag\":\"EC\",\"token_index\":5,\"predicate_span\":[13,15]},{\"form\":\"계시\",\"tag\":\"VV\",\"span\":[16,17],\"surface\":\"계\",\"lemma\":\"계시다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"어요\",\"ending_tag\":\"EF\",\"token_index\":8,\"predicate_span\":[16,19],\"lexical_honorific\":true,\"analysis_origin\":\"source_bound_gyeseyo_repair\"}],\"status\":\"Kiwi_hypotheses_not_gold\"},\"transformation_plan\":[{\"target_text\":\"쉬\",\"span\":[13,14],\"preserve\":[{\"features\":{\"host_pos\":\"verb\",\"sentence_type\":\"declarative\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"쉬다\",\"stem_vowel\":\"ㅜ\",\"stem_coda\":\"absent\",\"subject_person\":\"third\",\"speech_act\":null,\"action_participants\":null,\"intention_holder\":null,\"beneficiary\":null,\"clause_relation\":null,\"response_orientation\":null,\"following_predicate_role\":\"auxiliary\",\"construction_kind\":null},\"listener_politeness\":\"polite\",\"subject_honorific\":\"si\",\"tense_or_modality\":\"present\"}],\"candidates\":[{\"id\":\"NAMU_GRAMMAR_20260908:v2:full:0090\",\"source_id\":\"NAMU_GRAMMAR_20260908\",\"type\":\"inflection\",\"source_pattern\":{\"text\":\"시다\",\"domain\":\"dialect\",\"lemma\":\"시다\",\"sense\":\"쉬다\",\"features\":{}},\"target_pattern\":{\"text\":\"시고\",\"domain\":\"dialect\",\"lemma\":\"시다\",\"sense\":\"쉬다\",\"features\":{}},\"functions\":[],\"conditions\":[{\"owner\":\"candidate\",\"field\":\"lemma\",\"op\":\"eq\",\"value\":\"시다\",\"basis\":\"explicit\"},{\"owner\":\"candidate\",\"field\":\"ending\",\"op\":\"eq\",\"value\":\"-고\",\"basis\":\"explicit\"}],\"constraints\":[{\"kind\":\"scope\",\"description\":\"위키의 세부 지역·화자·시대 범위와 해당 어휘 의미를 확인한다.\"}],\"scope\":{\"regions\":[\"경북 동부 해안 이외의 해당 활용 지역\"],\"speech_levels\":[],\"registers\":[],\"period\":[],\"note\":\"2026-09-07 수정판의 서술. 재인용을 독립 근거로 중복 계산하지 않는다.\"},\"claim_status\":\"attested_form\",\"notes\":\"표의 개별 확인형. 어미 열을 결합 조건으로 보존하며 미기재 어간/어미에 일반화하지 않는다.\",\"binding\":{\"text\":\"쉬\",\"span\":[13,14],\"lemma\":\"쉬다\",\"prefinals\":[],\"ending\":\"고\",\"predicate_span\":[13,15],\"following_particle\":null},\"origin\":\"documentary_KG\",\"evidence_pages\":[{\"source_id\":\"NAMU_GRAMMAR_20260908\",\"pdf_page\":4},{\"source_id\":\"NAMU_GRAMMAR_20260908\",\"pdf_page\":4},{\"source_id\":\"NAMU_GRAMMAR_20260908\",\"pdf_page\":4},{\"source_id\":\"NAMU_GRAMMAR_20260908\",\"pdf_page\":45}]},{\"id\":\"NAMU_GRAMMAR_20260908:v2:full:1048\",\"source_id\":\"NAMU_GRAMMAR_20260908\",\"type\":\"lexical_mapping\",\"source_pattern\":{\"text\":\"쉬다\",\"domain\":\"standard\",\"lemma\":\"쉬다\",\"sense\":null,\"features\":{}},\"target_pattern\":{\"text\":\"시다\",\"domain\":\"dialect\",\"lemma\":\"시다\",\"sense\":null,\"features\":{}},\"functions\":[],\"conditions\":[],\"constraints\":[{\"kind\":\"scope\",\"description\":\"위키의 세부 지역·화자·시대 범위와 해당 어휘 의미를 확인한다.\"}],\"scope\":{\"regions\":[\"동남 방언: 개별 지역·세대 제한 우선\"],\"speech_levels\":[],\"registers\":[],\"period\":[],\"note\":\"2026-09-07 수정판의 서술. 재인용을 독립 근거로 중복 계산하지 않는다.\"},\"claim_status\":\"source_generalization\",\"notes\":\"표의 표제어와 번호가 붙은 각주 풀이를 함께 연결한 직접 대응. 먹다→묵다 뒤 활용 선택이 가능하다.\",\"binding\":{\"text\":\"쉬\",\"span\":[13,14],\"lemma\":\"쉬다\",\"prefinals\":[],\"ending\":\"고\",\"predicate_span\":[13,15],\"following_particle\":null},\"origin\":\"documentary_KG\",\"evidence_pages\":[{\"source_id\":\"NAMU_GRAMMAR_20260908\",\"pdf_page\":45},{\"source_id\":\"NAMU_GRAMMAR_20260908\",\"pdf_page\":4}]}]},{\"target_text\":\"지금\",\"span\":[6,8],\"preserve\":[{\"features\":{\"host_pos\":\"verb\",\"sentence_type\":\"declarative\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"쉬다\",\"stem_vowel\":\"ㅜ\",\"stem_coda\":\"absent\",\"subject_person\":\"third\",\"speech_act\":null,\"action_participants\":null,\"intention_holder\":null,\"beneficiary\":null,\"clause_relation\":null,\"response_orientation\":null,\"following_predicate_role\":\"auxiliary\",\"construction_kind\":null},\"listener_politeness\":\"polite\",\"subject_honorific\":\"si\",\"tense_or_modality\":\"present\"}],\"candidates\":[{\"id\":\"NAMU20260901:v2:full:0027\",\"source_id\":\"NAMU20260901\",\"type\":\"lexical_mapping\",\"source_pattern\":{\"text\":\"지금\",\"domain\":\"standard\",\"lemma\":\"지금\",\"sense\":null,\"features\":{}},\"target_pattern\":{\"text\":\"짐\",\"domain\":\"dialect\",\"lemma\":\"짐\",\"sense\":null,\"features\":{}},\"functions\":[],\"conditions\":[],\"constraints\":[{\"kind\":\"scope\",\"description\":\"2026-09-01 위키 판의 서술·재전사. 지역·세대·화용 제약 및 원영상 미검증을 고려한다.\"},{\"kind\":\"scope\",\"description\":\"49쪽 각주: 화자별 축약 단계와 발음·표기·연령 차이를 유지하며 일괄 철자 치환으로 쓰지 않는다.\"}],\"scope\":{\"regions\":[\"동남 방언: 진술별 범위 우선\"],\"speech_levels\":[],\"registers\":[],\"period\":[],\"note\":\"\"},\"claim_status\":\"source_generalization\",\"notes\":\"음변화 예의 형태 대응. 축약 단계·발음·표기·세대 차이를 모두 동일한 표기로 강제하지 않는다.\",\"binding\":{\"text\":\"지금\",\"span\":[6,8],\"lemma\":\"지금\",\"prefinals\":[],\"ending\":null,\"predicate_span\":null,\"following_particle\":null},\"origin\":\"documentary_KG\",\"evidence_pages\":[{\"source_id\":\"NAMU20260901\",\"pdf_page\":6},{\"source_id\":\"NAMU20260901\",\"pdf_page\":49}]}]},{\"target_text\":\"할머니\",\"span\":[0,3],\"preserve\":[{\"features\":{\"host_pos\":\"verb\",\"sentence_type\":\"declarative\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"쉬다\",\"stem_vowel\":\"ㅜ\",\"stem_coda\":\"absent\",\"subject_person\":\"third\",\"speech_act\":null,\"action_participants\":null,\"intention_holder\":null,\"beneficiary\":null,\"clause_relation\":null,\"response_orientation\":null,\"following_predicate_role\":\"auxiliary\",\"construction_kind\":null},\"listener_politeness\":\"polite\",\"subject_honorific\":\"si\",\"tense_or_modality\":\"present\"}],\"candidates\":[{\"id\":\"NAMU20260901:v2:full:0176\",\"source_id\":\"NAMU20260901\",\"type\":\"lexical_mapping\",\"source_pattern\":{\"text\":\"할머니\",\"domain\":\"standard\",\"lemma\":\"할머니\",\"sense\":null,\"features\":{}},\"target_pattern\":{\"text\":\"할무이\",\"domain\":\"dialect\",\"lemma\":\"할무이\",\"sense\":null,\"features\":{}},\"functions\":[],\"conditions\":[],\"constraints\":[{\"kind\":\"scope\",\"description\":\"2026-09-01 위키 판의 서술·재전사. 지역·세대·화용 제약 및 원영상 미검증을 고려한다.\"}],\"scope\":{\"regions\":[\"진주 경연 화자\"],\"speech_levels\":[],\"registers\":[],\"period\":[],\"note\":\"\"},\"claim_status\":\"analyst_interpretation\",\"notes\":\"병렬 재전사와 표준어 풀이에서 부분 대응을 분석하고 음높이/어절 경계 기호를 제거한 형태. 원영상 미검증, 문헌이 제시한 사전 기본형은 아니다.\",\"binding\":{\"text\":\"할머니\",\"span\":[0,3],\"lemma\":\"할머니\",\"prefinals\":[],\"ending\":null,\"predicate_span\":null,\"following_particle\":\"께서\"},\"origin\":\"documentary_KG\",\"evidence_pages\":[{\"source_id\":\"NAMU20260901\",\"pdf_page\":26}]}]},{\"target_text\":\"할머니께서 지금 방에서 쉬고 계세요.\",\"span\":[0,20],\"preserve\":[{\"features\":{\"host_pos\":\"verb\",\"sentence_type\":\"declarative\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"쉬다\",\"stem_vowel\":\"ㅜ\",\"stem_coda\":\"absent\",\"subject_person\":\"third\",\"speech_act\":null,\"action_participants\":null,\"intention_holder\":null,\"beneficiary\":null,\"clause_relation\":null,\"response_orientation\":null,\"following_predicate_role\":\"auxiliary\",\"construction_kind\":null},\"listener_politeness\":\"polite\",\"subject_honorific\":\"si\",\"tense_or_modality\":\"present\"}],\"candidates\":[{\"id\":\"NAMU_HONORIFICS_20260908:v2:ending_repair:0001\",\"source_id\":\"NAMU_HONORIFICS_20260908\",\"type\":\"ending\",\"source_pattern\":{\"text\":\"-어요\",\"domain\":\"standard\",\"lemma\":null,\"sense\":null,\"features\":{\"match_unit\":\"terminal_ending\"}},\"target_pattern\":{\"text\":\"-어예\",\"domain\":\"dialect\",\"lemma\":null,\"sense\":null,\"features\":{\"realization\":\"replace_ending_preserve_prefix\"}},\"functions\":[\"declarative\",\"interrogative\",\"imperative\",\"hortative\"],\"conditions\":[],\"constraints\":[{\"kind\":\"require\",\"description\":\"입력의 부정·시제·주체 높임과 명사/어간을 보존하고 명시한 종결 부분만 대응시킨다. 질문을 평서문으로 바꾸지 않는다.\"},{\"kind\":\"scope\",\"description\":\"원문 위키의 지역·세대별 변이이며 모든 경상도 화자의 의무형이 아니다. 해예 사용자는 해요도 사용한다.\"}],\"scope\":{\"regions\":[\"동남 방언: 경북 북부의 -래- 변이 및 세대 차이는 별도\"],\"speech_levels\":[\"해예\"],\"registers\":[],\"period\":[],\"note\":\"로컬 PDF 스냅샷의 서술; 독립 화자 검증이 아니다.\"},\"claim_status\":\"analyst_interpretation\",\"notes\":\"해요체/해예체 표의 대응 열을 정렬해 -아요/-어요를 각각 분리한 분석자 구성이다. 과거 -ㅆ어예는 본문에도 명시되지만 했어예 등 개별 문장은 원문 실례로 주장하지 않는다.\",\"binding\":{\"text\":\"할머니께서 지금 방에서 쉬고 계세요.\",\"span\":[0,20],\"clause_id\":\"DEV006:c1\",\"host_lemma\":\"계시다\",\"ending\":\"어요\",\"predicate_span\":[16,19],\"speech_style_preference\":{\"politeness\":\"polite\",\"register\":\"informal_polite\",\"source_ending\":\"세요\",\"basis\":\"source_terminal_form\"},\"ending_conversion\":{\"status\":\"derived_composition_not_attested_surface\",\"operation\":\"replace_terminal_ending\",\"source_morphemes\":[\"계시\",\"어요\"],\"candidate_morphemes\":[\"계시\",\"어예\"],\"preserve_prefinals\":[],\"instruction\":\"선어말어미·부정·주체 높임을 보존한다. 어간의 방언 대응은 별도 근거로만 선택한다. 이 조합은 문헌의 완성형 인용이 아니다.\"}},\"origin\":\"documentary_KG\",\"evidence_pages\":[{\"source_id\":\"NAMU_HONORIFICS_20260908\",\"pdf_page\":26},{\"source_id\":\"NAMU_HONORIFICS_20260908\",\"pdf_page\":26}]}]}],\"graph_paths\":[{\"source\":\"NAMU_GRAMMAR_20260908:v2:full:1048\",\"type\":\"candidate_has_inflection\",\"target\":\"NAMU_GRAMMAR_20260908:v2:full:0090\",\"properties\":{\"match\":\"target_lemma_equals_inflection_lemma\",\"requires_scope_and_sense_review\":true}}],\"preservation\":{\"origin\":\"reviewed_preservation_policy_not_dialect_rule\",\"relative_clauses\":[],\"supporting_knowledge\":[],\"invariants\":[\"원문의 명제·부정·시제·화행과 모든 절을 유지한다.\",\"청자 높임, 주체 높임, 저/제의 겸양을 각각 보존한다. 주어를 호격으로 바꾸지 않는다.\",\"가는/오는 이동 관점과 먼저의 시간 순서를 보존한다. 앞에의 시간 용법 자체는 금지하지 않는다.\",\"인용 내용과 보고 서술부의 시제를 구분한다. 회상 -대를 표면형만 보고 전언으로 판단하지 않는다.\"],\"source_honorific_predicates\":[{\"lemma\":\"계시다\",\"text\":\"계세요\"}]},\"plan_policy\":\"후보는 모두 적용할 목록이 아니라 대안이다. 어휘보다 의미·높임·시제·문장 역할 보존을 우선한다. 원문에 맞는 후보만 사용한다. MODEL_ADVICE는 원문에서 직접 확인된 완성형이 아닌 모델 조합 제안이다. 보존용 지식은 치환 규칙이 아니다.\"}"
+          }
+        ]
+      },
+      "response": {
+        "id": "chatcmpl-9822b69bea7e98cf",
+        "object": "chat.completion",
+        "created": 1791849969,
+        "model": "Qwen3.8-27B",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "할머니께서 지금 방에서 쉬고 계셔예.",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.27.1-51f03443",
+        "usage": {
+          "prompt_tokens": 3773,
+          "total_tokens": 3786,
+          "completion_tokens": 13,
+          "prompt_tokens_details": null
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      },
+      "status": "success",
+      "elapsed_seconds": 1.0292968936264515
+    }
+  ]
+}

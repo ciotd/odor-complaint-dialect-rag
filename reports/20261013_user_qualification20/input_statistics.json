@@ -1,0 +1,182 @@
+[
+  {
+    "id": "QUAL001",
+    "candidate_bindings": 8,
+    "unique_segments": 5,
+    "unique_candidate_ids": 8,
+    "graph_paths": 0,
+    "user_message_chars": 17836,
+    "terminal_plan_count": 1
+  },
+  {
+    "id": "QUAL002",
+    "candidate_bindings": 9,
+    "unique_segments": 3,
+    "unique_candidate_ids": 9,
+    "graph_paths": 0,
+    "user_message_chars": 16770,
+    "terminal_plan_count": 1
+  },
+  {
+    "id": "QUAL003",
+    "candidate_bindings": 6,
+    "unique_segments": 3,
+    "unique_candidate_ids": 6,
+    "graph_paths": 2,
+    "user_message_chars": 15099,
+    "terminal_plan_count": 1
+  },
+  {
+    "id": "QUAL004",
+    "candidate_bindings": 2,
+    "unique_segments": 2,
+    "unique_candidate_ids": 2,
+    "graph_paths": 0,
+    "user_message_chars": 8571,
+    "terminal_plan_count": 0
+  },
+  {
+    "id": "QUAL005",
+    "candidate_bindings": 1,
+    "unique_segments": 1,
+    "unique_candidate_ids": 1,
+    "graph_paths": 0,
+    "user_message_chars": 7287,
+    "terminal_plan_count": 1
+  },
+  {
+    "id": "QUAL006",
+    "candidate_bindings": 1,
+    "unique_segments": 1,
+    "unique_candidate_ids": 1,
+    "graph_paths": 0,
+    "user_message_chars": 8301,
+    "terminal_plan_count": 0
+  },
+  {
+    "id": "QUAL007",
+    "candidate_bindings": 0,
+    "unique_segments": 0,
+    "unique_candidate_ids": 0,
+    "graph_paths": 0,
+    "user_message_chars": 6539,
+    "terminal_plan_count": 0
+  },
+  {
+    "id": "QUAL008",
+    "candidate_bindings": 1,
+    "unique_segments": 1,
+    "unique_candidate_ids": 1,
+    "graph_paths": 0,
+    "user_message_chars": 7792,
+    "terminal_plan_count": 0
+  },
+  {
+    "id": "QUAL009",
+    "candidate_bindings": 1,
+    "unique_segments": 1,
+    "unique_candidate_ids": 1,
+    "graph_paths": 0,
+    "user_message_chars": 7200,
+    "terminal_plan_count": 0
+  },
+  {
+    "id": "QUAL010",
+    "candidate_bindings": 11,
+    "unique_segments": 6,
+    "unique_candidate_ids": 10,
+    "graph_paths": 0,
+    "user_message_chars": 22106,
+    "terminal_plan_count": 0
+  },
+  {
+    "id": "QUAL011",
+    "candidate_bindings": 6,
+    "unique_segments": 3,
+    "unique_candidate_ids": 6,
+    "graph_paths": 0,
+    "user_message_chars": 13703,
+    "terminal_plan_count": 0
+  },
+  {
+    "id": "QUAL012",
+    "candidate_bindings": 0,
+    "unique_segments": 0,
+    "unique_candidate_ids": 0,
+    "graph_paths": 0,
+    "user_message_chars": 4070,
+    "terminal_plan_count": 0
+  },
+  {
+    "id": "QUAL013",
+    "candidate_bindings": 7,
+    "unique_segments": 3,
+    "unique_candidate_ids": 7,
+    "graph_paths": 0,
+    "user_message_chars": 13619,
+    "terminal_plan_count": 1
+  },
+  {
+    "id": "QUAL014",
+    "candidate_bindings": 1,
+    "unique_segments": 1,
+    "unique_candidate_ids": 1,
+    "graph_paths": 0,
+    "user_message_chars": 5012,
+    "terminal_plan_count": 0
+  },
+  {
+    "id": "QUAL015",
+    "candidate_bindings": 2,
+    "unique_segments": 2,
+    "unique_candidate_ids": 2,
+    "graph_paths": 0,
+    "user_message_chars": 11502,
+    "terminal_plan_count": 1
+  },
+  {
+    "id": "QUAL016",
+    "candidate_bindings": 5,
+    "unique_segments": 1,
+    "unique_candidate_ids": 5,
+    "graph_paths": 3,
+    "user_message_chars": 12912,
+    "terminal_plan_count": 0
+  },
+  {
+    "id": "QUAL017",
+    "candidate_bindings": 12,
+    "unique_segments": 4,
+    "unique_candidate_ids": 8,
+    "graph_paths": 0,
+    "user_message_chars": 22100,
+    "terminal_plan_count": 0
+  },
+  {
+    "id": "QUAL018",
+    "candidate_bindings": 1,
+    "unique_segments": 1,
+    "unique_candidate_ids": 1,
+    "graph_paths": 0,
+    "user_message_chars": 8911,
+    "terminal_plan_count": 1
+  },
+  {
+    "id": "QUAL019",
+    "candidate_bindings": 7,
+    "unique_segments": 3,
+    "unique_candidate_ids": 4,
+    "graph_paths": 0,
+    "user_message_chars": 13894,
+    "terminal_plan_count": 1
+  },
+  {
+    "id": "QUAL020",
+    "candidate_bindings": 4,
+    "unique_segments": 2,
+    "unique_candidate_ids": 4,
+    "graph_paths": 0,
+    "user_message_chars": 13423,
+    "terminal_plan_count": 1
+  }
+]

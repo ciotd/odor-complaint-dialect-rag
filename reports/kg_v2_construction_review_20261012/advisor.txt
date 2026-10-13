@@ -1,0 +1,76 @@
+Construction architecture advisory — 2026-10-12
+Scope: local source/code/evidence audit only; no Qwen calls, no production edits, no linguistic gold claims.
+
+Observed failure
+- sentence_retrieval.py selects terminal[-1] within each cached clause. LONG005 inner 먹/으려고 is discarded in favor of 하/는데. DEV027 inner 오/ᆫ다고 is discarded in favor of 하/었/어.
+- Even if every EC is inspected, source_forms('-라고 하다') cannot intersect an ending-only form. Multi-token constructions need their own binding route.
+- Latest retrieval.json: DEV027 has only 오늘 lexical support; LONG005 has no intention/quotation references; LONG001 has no 자고 support; NEW012 has no -라고 하다 support despite 버리라고 한 being present.
+- Existing false positive: ADVCE009B 짜다고 들었어 retrieves NAMU_GRAMMAR_20260908:v2:full:0755 (-다고→-다카이, function assertion). Literal form is not sufficient to distinguish emphatic final -다고 from embedded quotation.
+
+Minimal reusable fix
+1. Keep actual terminal-host selection for terminal-ending/function routing. Add source-local inner EC units independently; never run general terminal-function routing over them.
+2. Detect typed local units from tokens/words, not raw substrings: inner predicate+EP*+EC, then adjacent 하/VV or 하/VX+EP*+(EF|EC|ETM|ETN). Match local token adjacency and whitespace-only gap. Reject intervening punctuation, unrelated material, cross-sentence pairing, and XSV-derived predicates such as 일하다. A purpose ending can also be a local EC candidate without adjacent 하다.
+3. Unit fields: kind, span/text, inner_predicate_span, inner_lemma/POS, inner_prefinals, inner_ending, outer_predicate_span, outer_lemma/POS, outer_prefinals, outer_ending/tag, source token indices, containing clause ID. Store source morphology hypothesis provenance. Preserve all suffixes and surrounding negation outside the replaced unit.
+4. Types: intention_or_prospective_hada for EC 려고/으려고 + 하; quotation_hada with subtype statement (다고/ᆫ다고/는다고), imperative_or_nominal (라고/으라고, preserving inner POS distinction), suggestion (자고). Avoid calling every 려고 speaker intention: 비가 오려고 해요 is impending event.
+5. Build facts' input/candidate owners from the local unit. Never copy outer clause_relation=cause into inner intention, outer sentence_type into quotation content, or outer tense into the inner proposition. Mark input.quotation=True only for corroborated quotative morphology + reporting head, or an already explicit local quotation analysis. Unknown conditions stay unknown.
+6. Match documentary ending facts to local EC form plus local function; match multi-morpheme construction facts to typed unit. Bind a distinct local span, so the current six-per-binding cap does not pit all inner constructions against terminal endings.
+7. Plans are structured morpheme operations, not prewritten sentence outputs. Transformation-plan candidates must include consumed morphemes/spans and separately preserved inner and outer features. Candidates with intersecting consumed spans are alternatives; suffix-only -자꼬 and whole 자고+하 contraction cannot both be applied. An outer-ending operation may compose only if its morpheme ownership is disjoint and preserved boundary is explicit.
+8. Kiwi spans overlap for conjugations (온다고: 오 [11,12], ᆫ다고 [11,14]; 했: 하 and 었 overlap). Do not string-splice by assuming one token equals disjoint characters. Use predicate/unit spans plus morpheme plans; label realization derived, not attested.
+
+Documentary support and limits
+A. Intention/purpose suffix alternatives
+- NAMU_GRAMMAR_20260908:v2:full:0732/0733/0734: -(으)려고 → -(으)ㄹ라 / -(으)ㄹ라꼬 / -(으)ㄹ라고; function intention, p28. They support local suffix alternatives. In 먹으려고 하는데, preserve following 하/는데. They do NOT attest universal deletion of 하 or every inflected output.
+- RYU2014:v2:full:0090: -(으)려고 → -(으)ㄹ라고, explicit clause_relation=purpose, Hamyang survey p19. Do not satisfy this using outer cause or assume every 려고+하다 is purpose.
+- JO2018:v2:declarative:0058: -려고 합니다 → -ㄹ라니더; input.function=intention, candidate.pos=verb, speech level 하이소, historical Gyeongbuk scope, p89. claim_status=analyst_interpretation: author assembled standard paraphrase from source components. Do not apply to casual 먹으려고 했어 or erase past.
+- NAMU20260901:v2:review_completion:0200: 먹으려고 하니까 → 무울라카이께에, p23, reference_only, context-bound Pohang transcript. This can support a separately attributed model composition proposal, never be promoted to a productive rule by retrieval alone.
+- YANG2021:v2:full:0045/0046: final intention -거로 with explicit state_intention/ask_intention and final-function evidence. Do not offer these as embedded EC replacements just because the host has 려고; source ending role matters.
+B. Literal -라고 하다 contraction
+- NAMU_GRAMMAR_20260908:v2:full:0776/0777/0778: -라카다 / -라쿠다 / -라거ᇹ다, p30.
+- NAMU_PHONOLOGY_20260908:v2:full:0106/0107/0108: same family, p8; distinct geographic scopes (0106 broad Gyeongsang, 0107 western/central Gyeongnam, 0108 northeastern Gyeongbuk).
+- NAMU_HONORIFICS_20260908:v2:full:0158: -라거다, northern Gyeongbuk, p33.
+- Literal construction mapping is documentary. Inflecting the resulting stem with preserved outer tense/honorifics/connective/adnominal ending is derived_composition_not_attested_surface. Preserve the entire inner predicate and its EP, retain 으/이 allomorph where present; do not claim finite worked outputs are quotations from these facts.
+C. Quotation suffixes separately from 하 contraction
+- NAMU20260901:v2:full:0003: -다고→-다꼬; :0004: -자고→-자꼬. Both explicitly require input.quotation=True and have function quotation, p3. Preserve following 하다 and its tense/honorific/ending. This is already-supported documentary routing.
+- Kiwi declarative allomorphs ᆫ다고/는다고 require an explicit family alignment preserving ᆫ/는 (온다고→온다꼬, 먹는다고→먹는다꼬 at morpheme-plan level), not blanket suffix clipping. Alignment/realization is a derived analysis over documentary -다고 evidence.
+- General 고+하→카 across 다고/자고, e.g. 온다고 했어→온다 캤어, is model-derived composition unless a source reviewer supplies an explicit general statement. -라고 하다 facts alone do not establish it. ADV009 proposed 온다 캤다 but marked it model advice; do not silently make it a source attestation.
+- NAMU20260901:v2:full:0058 is reference_only contextual support; its compact target mentions quotation contraction but stored evidence quote is only a Busan older-speaker observation. This fact alone is inadequate to upgrade a universal contraction rule.
+- Preserve assertion fact NAMU_GRAMMAR_20260908:v2:full:0755 for appropriate emphatic final -다고; exclude it from inner quotation spans.
+
+Critical invariants
+- Distinguish quotation's propositional tense from reporting-act tense: 갔다고 하셨어요 => inner 가+었; outer 하+시+었+어요. Do not duplicate, drop, or move EP.
+- Source outer 했어 does not license target 카더라: it adds retrospective/evidential stance (ADV009).
+- 버리라고 한 건 아니었어요 negates the reporting/intention construction, not necessarily the quoted command. Do not rewrite as 버리지 말라고 했어요.
+- Outer 하 with ETM remains adnominal in NEW012; no conversion of 한 to a sentence-final 카노.
+- Nominal 의사라고 and imperative 가라고 can share visible 라고 but retain different inner host POS and quote types.
+- Preserve local subject honorifics, listener level, argument/deictic viewpoint, negation scopes, and lexical senses separately. Existing ADV001 correctly treats compound-predicate analysis as an analysis contract, not a new dialect fact.
+
+Concrete deterministic probes (no generation needed)
+Positive retrieval:
+1 먹으려고 하는데 비가 와요. => inner intention suffix references + outer unchanged morphology.
+2 먹으려고 했던 생각을 접었어요. => discover construction with outer ETM 던, retain outer past, main 접었어요 unaffected.
+3 동생이 오늘은 늦게 온다고 했어. => quotation suffix :0003; preserve inner ᆫ and report 었/어. No assertion :0755.
+4 만나자고 했는데 늦었어. => quotation :0004; preserve 하/었/는데.
+5 그 물건을 버리라고 한 건 아니었어요. => literal quote construction references despite 하/ᆫ ETM; preserve main negative copula past and politeness.
+6 갔다고 하셨어요. => separate inner past and outer honorific+past.
+7 그는 의사라고 했어요. => local VCP host recognized, not imperative quote.
+Negative/scoping:
+8 먹으려고 열심히 일했어요. => purpose/intention EC can exist, but no immediate 하 construction (일하다 is XSV-derived).
+9 밥을 먹고 했어요. => general 고 is not quotation; no quote contraction.
+10 자고 하니까 피곤해. => Kiwi 자/VV+고/EC, not 자고/EC; no propositive quotation candidate.
+11 먹으려고. 내일 하자. => no construction crossing sentence boundary.
+12 내 말이 맞다고! => final EF assertion may use :0755; do not mark quotation simply from 다고.
+13 그 식당 음식이 짜다고 들었어. => quotation suffix may route if reporter semantics proven, but no 하 contraction and no assertion :0755.
+14 비가 오려고 해요. => prospective construction; do not synthesize speaker intention or satisfy YANG intention conditions.
+15 먹으려고 하지 않았어요. => local 하/지 detected while negation+past remains on 않/었/어요; no dropping chain or recasting intention as completed action.
+16 먹으려고 말했어. => no adjacent 하 contraction even if later clause contains 하다.
+
+Validation performed
+- Read live sentence_retrieval.py/transformation_plan.py/facts.jsonl; prior advisory ADV001/ADV009 and review boundaries; latest 70-row retrieval.json/jobs.json.
+- Ran Kiwi morphology only on 16 independent positives/counterexamples. Confirmed VV vs VX, ETM outer hosts, allomorph overlap, XSV-derived 일하다, and 자/VV+고 vs 자고/EC.
+- No server/network/model generation and no production code/fact mutation.
+
+Integration update after literature review
+- Root reports a separate reviewer found explicit '-고 + 하 = 카' in NAMU20260901 PDF12. A new narrowly scoped documentary construction fact carrying that complete quotation and interpreted quotation-only conditions can support productive quoted 다고/자고 + 하 fusion. The earlier prohibition concerns deriving that rule solely from existing -라고 하다 entries or the truncated evidence on :0058. Individual inflected output realization remains derived composition, not an attested full surface.
+- Additional morphology probes: 선생님이 오신다고 했어요 has inner 시+ᆫ다고 and outer 었+어요. 그는 학생이라고 했어요 has 이/VCP with nonzero span, while 그는 의사라고 했어요 has zero-width 이/VCP. Preserve that distinction without inventing/removing nominal content.
+- 그가 온다고는 했어요 contains JX 는 between quoted EC and 하/VX. It is a good negative for immediate 고+하 fusion: do not delete/absorb the contrastive particle. Local suffix quotation retrieval can still be considered independently if quotation status is supported.
+- 못 간다고 하지 않았어요 has both inner 못 and outer 지 않+었 negation chain. Their relative scope must remain unchanged.

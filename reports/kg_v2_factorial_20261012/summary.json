@@ -1,0 +1,17 @@
+{
+  "successful_generations": 200,
+  "selection_changed_sentences": 37,
+  "median_user_characters": {
+    "A": 13310.5,
+    "B": 13840.5,
+    "C": 11113.5,
+    "D": 12003.5
+  },
+  "output_difference_counts": {
+    "A_B": 20,
+    "A_C": 25,
+    "B_D": 20,
+    "C_D": 15
+  },
+  "warning": "Output differences and retrieval counts are NOT translation quality scores."
+}

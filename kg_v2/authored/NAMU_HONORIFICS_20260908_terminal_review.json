@@ -1,0 +1,53 @@
+{
+  "source_id": "NAMU_HONORIFICS_20260908",
+  "facts": [
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:terminal_review:0001",
+      "type": "usage",
+      "source_pattern": {
+        "text": "주체 높임과 청자 높임의 결합 예",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "할무이 좋아 하시예?",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "honorification"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "위키의 세부 지역·화자·시대 범위와 해당 어휘 의미를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "원문 예시: 경남 하동"
+        ],
+        "speech_levels": [
+          "해예"
+        ],
+        "registers": [],
+        "period": [],
+        "note": "2026-09-08 위키 전사 예시. 경북40대 사용의 직접 증거가 아님."
+      },
+      "evidence": [
+        {
+          "pdf_page": 9,
+          "quote": "아주머니: 할무이 좋아 하시예?"
+        }
+      ],
+      "claim_status": "attested_example",
+      "usability": "reference_only",
+      "notes": "하시예의 문헌 예문. 주체 높임 시가 포함된 어형이며 모든 -세요의 기계 치환을 허용하지 않는다."
+    }
+  ]
+}

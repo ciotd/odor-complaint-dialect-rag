@@ -1,0 +1,185 @@
+{
+  "id": "ADVCE010A",
+  "input": "그 서류는 이미 제출하셨죠?",
+  "morphology": {
+    "tokens": [
+      {
+        "form": "그",
+        "tag": "MM",
+        "span": [
+          0,
+          1
+        ],
+        "surface": "그"
+      },
+      {
+        "form": "서류",
+        "tag": "NNG",
+        "span": [
+          2,
+          4
+        ],
+        "surface": "서류"
+      },
+      {
+        "form": "는",
+        "tag": "JX",
+        "span": [
+          4,
+          5
+        ],
+        "surface": "는"
+      },
+      {
+        "form": "이미",
+        "tag": "MAG",
+        "span": [
+          6,
+          8
+        ],
+        "surface": "이미"
+      },
+      {
+        "form": "제출",
+        "tag": "NNG",
+        "span": [
+          9,
+          11
+        ],
+        "surface": "제출"
+      },
+      {
+        "form": "하",
+        "tag": "XSV",
+        "span": [
+          11,
+          12
+        ],
+        "surface": "하"
+      },
+      {
+        "form": "시",
+        "tag": "EP",
+        "span": [
+          12,
+          13
+        ],
+        "surface": "셨"
+      },
+      {
+        "form": "었",
+        "tag": "EP",
+        "span": [
+          12,
+          13
+        ],
+        "surface": "셨"
+      },
+      {
+        "form": "죠",
+        "tag": "EF",
+        "span": [
+          13,
+          14
+        ],
+        "surface": "죠"
+      },
+      {
+        "form": "?",
+        "tag": "SF",
+        "span": [
+          14,
+          15
+        ],
+        "surface": "?"
+      }
+    ],
+    "words": [
+      {
+        "form": "서류",
+        "tag": "NNG",
+        "span": [
+          2,
+          4
+        ],
+        "surface": "서류",
+        "lemma": "서류",
+        "pos": "nominal",
+        "prefinals": [],
+        "ending": null,
+        "ending_tag": null,
+        "token_index": 1
+      },
+      {
+        "form": "이미",
+        "tag": "MAG",
+        "span": [
+          6,
+          8
+        ],
+        "surface": "이미",
+        "lemma": "이미",
+        "pos": "nominal",
+        "prefinals": [],
+        "ending": null,
+        "ending_tag": null,
+        "token_index": 3
+      },
+      {
+        "form": "제출",
+        "tag": "NNG",
+        "span": [
+          9,
+          11
+        ],
+        "surface": "제출",
+        "lemma": "제출",
+        "pos": "nominal",
+        "prefinals": [],
+        "ending": null,
+        "ending_tag": null,
+        "token_index": 4
+      }
+    ],
+    "status": "Kiwi_hypotheses_not_gold"
+  },
+  "packets": {
+    "v2_direct": {
+      "references": [],
+      "graph_paths": []
+    },
+    "v2_graph": {
+      "references": [],
+      "graph_paths": []
+    }
+  },
+  "rejected": [],
+  "proposal_count": 0,
+  "speech_style_profiles": [
+    {
+      "clause_id": "ADVCE010A:c1",
+      "span": [
+        0,
+        15
+      ],
+      "politeness": "polite",
+      "register": "informal_polite",
+      "source_ending": "죠",
+      "basis": "source_terminal_form"
+    }
+  ],
+  "selection_audit": {
+    "v2_direct": {
+      "omitted": []
+    },
+    "v2_graph": {
+      "omitted": []
+    }
+  },
+  "limitations": [
+    "Morphology and cached semantic analysis are hypotheses.",
+    "Unknown structured conditions excluded; textual scope and sense remain explicit references.",
+    "Speech-style priority is a source-cued retrieval heuristic, not dialect equivalence or generation validation.",
+    "No missing inflections synthesized; generator must preserve unprovided tense/honorific material."
+  ]
+}

@@ -1,0 +1,610 @@
+{
+  "B001": {
+    "id": "LONG005",
+    "condition": "no_kg"
+  },
+  "B002": {
+    "id": "DEV028",
+    "condition": "v2_graph"
+  },
+  "B003": {
+    "id": "DEV023",
+    "condition": "legacy_graph"
+  },
+  "B004": {
+    "id": "DEV010",
+    "condition": "v2_graph"
+  },
+  "B005": {
+    "id": "DEV027",
+    "condition": "no_kg"
+  },
+  "B006": {
+    "id": "DEV018",
+    "condition": "v2_direct"
+  },
+  "B007": {
+    "id": "DEV030",
+    "condition": "v2_graph"
+  },
+  "B008": {
+    "id": "DEV002",
+    "condition": "legacy_graph"
+  },
+  "B009": {
+    "id": "DEV007",
+    "condition": "v2_direct"
+  },
+  "B010": {
+    "id": "LONG005",
+    "condition": "v2_direct"
+  },
+  "B011": {
+    "id": "LONG006",
+    "condition": "v2_graph"
+  },
+  "B012": {
+    "id": "LONG004",
+    "condition": "v2_graph"
+  },
+  "B013": {
+    "id": "LONG001",
+    "condition": "no_kg"
+  },
+  "B014": {
+    "id": "DEV029",
+    "condition": "v2_graph"
+  },
+  "B015": {
+    "id": "DEV021",
+    "condition": "legacy_graph"
+  },
+  "B016": {
+    "id": "DEV027",
+    "condition": "legacy_graph"
+  },
+  "B017": {
+    "id": "DEV029",
+    "condition": "v2_direct"
+  },
+  "B018": {
+    "id": "DEV028",
+    "condition": "legacy_graph"
+  },
+  "B019": {
+    "id": "DEV013",
+    "condition": "legacy_graph"
+  },
+  "B020": {
+    "id": "DEV026",
+    "condition": "v2_direct"
+  },
+  "B021": {
+    "id": "DEV011",
+    "condition": "no_kg"
+  },
+  "B022": {
+    "id": "DEV019",
+    "condition": "legacy_graph"
+  },
+  "B023": {
+    "id": "DEV028",
+    "condition": "v2_direct"
+  },
+  "B024": {
+    "id": "DEV025",
+    "condition": "v2_graph"
+  },
+  "B025": {
+    "id": "DEV029",
+    "condition": "no_kg"
+  },
+  "B026": {
+    "id": "LONG001",
+    "condition": "legacy_graph"
+  },
+  "B027": {
+    "id": "LONG008",
+    "condition": "v2_direct"
+  },
+  "B028": {
+    "id": "DEV008",
+    "condition": "no_kg"
+  },
+  "B029": {
+    "id": "DEV016",
+    "condition": "legacy_graph"
+  },
+  "B030": {
+    "id": "LONG004",
+    "condition": "v2_direct"
+  },
+  "B031": {
+    "id": "LONG001",
+    "condition": "v2_direct"
+  },
+  "B032": {
+    "id": "DEV022",
+    "condition": "legacy_graph"
+  },
+  "B033": {
+    "id": "LONG007",
+    "condition": "v2_graph"
+  },
+  "B034": {
+    "id": "LONG003",
+    "condition": "no_kg"
+  },
+  "B035": {
+    "id": "DEV020",
+    "condition": "legacy_graph"
+  },
+  "B036": {
+    "id": "DEV026",
+    "condition": "v2_graph"
+  },
+  "B037": {
+    "id": "LONG008",
+    "condition": "v2_graph"
+  },
+  "B038": {
+    "id": "DEV030",
+    "condition": "legacy_graph"
+  },
+  "B039": {
+    "id": "LONG002",
+    "condition": "legacy_graph"
+  },
+  "B040": {
+    "id": "DEV025",
+    "condition": "legacy_graph"
+  },
+  "B041": {
+    "id": "DEV012",
+    "condition": "v2_direct"
+  },
+  "B042": {
+    "id": "DEV003",
+    "condition": "v2_graph"
+  },
+  "B043": {
+    "id": "DEV005",
+    "condition": "no_kg"
+  },
+  "B044": {
+    "id": "DEV023",
+    "condition": "v2_graph"
+  },
+  "B045": {
+    "id": "DEV007",
+    "condition": "legacy_graph"
+  },
+  "B046": {
+    "id": "DEV006",
+    "condition": "v2_graph"
+  },
+  "B047": {
+    "id": "DEV012",
+    "condition": "v2_graph"
+  },
+  "B048": {
+    "id": "DEV008",
+    "condition": "legacy_graph"
+  },
+  "B049": {
+    "id": "DEV015",
+    "condition": "v2_graph"
+  },
+  "B050": {
+    "id": "DEV027",
+    "condition": "v2_direct"
+  },
+  "B051": {
+    "id": "DEV005",
+    "condition": "legacy_graph"
+  },
+  "B052": {
+    "id": "LONG007",
+    "condition": "legacy_graph"
+  },
+  "B053": {
+    "id": "DEV001",
+    "condition": "no_kg"
+  },
+  "B054": {
+    "id": "DEV015",
+    "condition": "v2_direct"
+  },
+  "B055": {
+    "id": "DEV002",
+    "condition": "no_kg"
+  },
+  "B056": {
+    "id": "DEV012",
+    "condition": "no_kg"
+  },
+  "B057": {
+    "id": "DEV012",
+    "condition": "legacy_graph"
+  },
+  "B058": {
+    "id": "DEV024",
+    "condition": "no_kg"
+  },
+  "B059": {
+    "id": "LONG008",
+    "condition": "legacy_graph"
+  },
+  "B060": {
+    "id": "DEV001",
+    "condition": "v2_direct"
+  },
+  "B061": {
+    "id": "DEV013",
+    "condition": "v2_direct"
+  },
+  "B062": {
+    "id": "LONG007",
+    "condition": "v2_direct"
+  },
+  "B063": {
+    "id": "DEV009",
+    "condition": "v2_graph"
+  },
+  "B064": {
+    "id": "DEV004",
+    "condition": "no_kg"
+  },
+  "B065": {
+    "id": "DEV014",
+    "condition": "v2_graph"
+  },
+  "B066": {
+    "id": "DEV014",
+    "condition": "v2_direct"
+  },
+  "B067": {
+    "id": "DEV030",
+    "condition": "v2_direct"
+  },
+  "B068": {
+    "id": "DEV028",
+    "condition": "no_kg"
+  },
+  "B069": {
+    "id": "DEV016",
+    "condition": "no_kg"
+  },
+  "B070": {
+    "id": "LONG003",
+    "condition": "legacy_graph"
+  },
+  "B071": {
+    "id": "DEV007",
+    "condition": "v2_graph"
+  },
+  "B072": {
+    "id": "DEV010",
+    "condition": "no_kg"
+  },
+  "B073": {
+    "id": "DEV017",
+    "condition": "v2_direct"
+  },
+  "B074": {
+    "id": "DEV010",
+    "condition": "legacy_graph"
+  },
+  "B075": {
+    "id": "LONG005",
+    "condition": "legacy_graph"
+  },
+  "B076": {
+    "id": "DEV001",
+    "condition": "v2_graph"
+  },
+  "B077": {
+    "id": "DEV011",
+    "condition": "legacy_graph"
+  },
+  "B078": {
+    "id": "DEV023",
+    "condition": "v2_direct"
+  },
+  "B079": {
+    "id": "DEV015",
+    "condition": "no_kg"
+  },
+  "B080": {
+    "id": "DEV018",
+    "condition": "no_kg"
+  },
+  "B081": {
+    "id": "DEV018",
+    "condition": "legacy_graph"
+  },
+  "B082": {
+    "id": "LONG006",
+    "condition": "v2_direct"
+  },
+  "B083": {
+    "id": "DEV024",
+    "condition": "legacy_graph"
+  },
+  "B084": {
+    "id": "DEV003",
+    "condition": "v2_direct"
+  },
+  "B085": {
+    "id": "DEV006",
+    "condition": "no_kg"
+  },
+  "B086": {
+    "id": "DEV013",
+    "condition": "v2_graph"
+  },
+  "B087": {
+    "id": "DEV021",
+    "condition": "v2_direct"
+  },
+  "B088": {
+    "id": "DEV020",
+    "condition": "v2_graph"
+  },
+  "B089": {
+    "id": "DEV008",
+    "condition": "v2_direct"
+  },
+  "B090": {
+    "id": "LONG003",
+    "condition": "v2_direct"
+  },
+  "B091": {
+    "id": "DEV009",
+    "condition": "no_kg"
+  },
+  "B092": {
+    "id": "DEV019",
+    "condition": "v2_graph"
+  },
+  "B093": {
+    "id": "DEV020",
+    "condition": "v2_direct"
+  },
+  "B094": {
+    "id": "DEV008",
+    "condition": "v2_graph"
+  },
+  "B095": {
+    "id": "DEV007",
+    "condition": "no_kg"
+  },
+  "B096": {
+    "id": "LONG007",
+    "condition": "no_kg"
+  },
+  "B097": {
+    "id": "DEV003",
+    "condition": "legacy_graph"
+  },
+  "B098": {
+    "id": "DEV018",
+    "condition": "v2_graph"
+  },
+  "B099": {
+    "id": "DEV026",
+    "condition": "legacy_graph"
+  },
+  "B100": {
+    "id": "LONG001",
+    "condition": "v2_graph"
+  },
+  "B101": {
+    "id": "DEV021",
+    "condition": "v2_graph"
+  },
+  "B102": {
+    "id": "LONG004",
+    "condition": "legacy_graph"
+  },
+  "B103": {
+    "id": "DEV021",
+    "condition": "no_kg"
+  },
+  "B104": {
+    "id": "DEV006",
+    "condition": "v2_direct"
+  },
+  "B105": {
+    "id": "DEV022",
+    "condition": "v2_direct"
+  },
+  "B106": {
+    "id": "DEV025",
+    "condition": "no_kg"
+  },
+  "B107": {
+    "id": "DEV005",
+    "condition": "v2_direct"
+  },
+  "B108": {
+    "id": "DEV009",
+    "condition": "v2_direct"
+  },
+  "B109": {
+    "id": "LONG005",
+    "condition": "v2_graph"
+  },
+  "B110": {
+    "id": "DEV024",
+    "condition": "v2_graph"
+  },
+  "B111": {
+    "id": "LONG002",
+    "condition": "v2_graph"
+  },
+  "B112": {
+    "id": "DEV026",
+    "condition": "no_kg"
+  },
+  "B113": {
+    "id": "DEV011",
+    "condition": "v2_graph"
+  },
+  "B114": {
+    "id": "DEV017",
+    "condition": "legacy_graph"
+  },
+  "B115": {
+    "id": "DEV017",
+    "condition": "no_kg"
+  },
+  "B116": {
+    "id": "DEV010",
+    "condition": "v2_direct"
+  },
+  "B117": {
+    "id": "DEV004",
+    "condition": "legacy_graph"
+  },
+  "B118": {
+    "id": "DEV030",
+    "condition": "no_kg"
+  },
+  "B119": {
+    "id": "DEV009",
+    "condition": "legacy_graph"
+  },
+  "B120": {
+    "id": "LONG003",
+    "condition": "v2_graph"
+  },
+  "B121": {
+    "id": "DEV005",
+    "condition": "v2_graph"
+  },
+  "B122": {
+    "id": "DEV020",
+    "condition": "no_kg"
+  },
+  "B123": {
+    "id": "LONG006",
+    "condition": "no_kg"
+  },
+  "B124": {
+    "id": "DEV029",
+    "condition": "legacy_graph"
+  },
+  "B125": {
+    "id": "DEV019",
+    "condition": "no_kg"
+  },
+  "B126": {
+    "id": "DEV011",
+    "condition": "v2_direct"
+  },
+  "B127": {
+    "id": "DEV017",
+    "condition": "v2_graph"
+  },
+  "B128": {
+    "id": "DEV025",
+    "condition": "v2_direct"
+  },
+  "B129": {
+    "id": "DEV013",
+    "condition": "no_kg"
+  },
+  "B130": {
+    "id": "DEV001",
+    "condition": "legacy_graph"
+  },
+  "B131": {
+    "id": "DEV022",
+    "condition": "v2_graph"
+  },
+  "B132": {
+    "id": "LONG008",
+    "condition": "no_kg"
+  },
+  "B133": {
+    "id": "DEV002",
+    "condition": "v2_graph"
+  },
+  "B134": {
+    "id": "DEV015",
+    "condition": "legacy_graph"
+  },
+  "B135": {
+    "id": "DEV022",
+    "condition": "no_kg"
+  },
+  "B136": {
+    "id": "DEV004",
+    "condition": "v2_graph"
+  },
+  "B137": {
+    "id": "DEV006",
+    "condition": "legacy_graph"
+  },
+  "B138": {
+    "id": "LONG002",
+    "condition": "no_kg"
+  },
+  "B139": {
+    "id": "DEV004",
+    "condition": "v2_direct"
+  },
+  "B140": {
+    "id": "LONG006",
+    "condition": "legacy_graph"
+  },
+  "B141": {
+    "id": "DEV014",
+    "condition": "legacy_graph"
+  },
+  "B142": {
+    "id": "LONG004",
+    "condition": "no_kg"
+  },
+  "B143": {
+    "id": "DEV003",
+    "condition": "no_kg"
+  },
+  "B144": {
+    "id": "DEV002",
+    "condition": "v2_direct"
+  },
+  "B145": {
+    "id": "DEV014",
+    "condition": "no_kg"
+  },
+  "B146": {
+    "id": "LONG002",
+    "condition": "v2_direct"
+  },
+  "B147": {
+    "id": "DEV027",
+    "condition": "v2_graph"
+  },
+  "B148": {
+    "id": "DEV016",
+    "condition": "v2_direct"
+  },
+  "B149": {
+    "id": "DEV024",
+    "condition": "v2_direct"
+  },
+  "B150": {
+    "id": "DEV019",
+    "condition": "v2_direct"
+  },
+  "B151": {
+    "id": "DEV016",
+    "condition": "v2_graph"
+  },
+  "B152": {
+    "id": "DEV023",
+    "condition": "no_kg"
+  }
+}

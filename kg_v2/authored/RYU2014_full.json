@@ -261,11 +261,23 @@
         }
       },
       "functions": [],
-      "conditions": [],
+      "conditions": [
+        {
+          "owner": "input",
+          "field": "following_particle",
+          "op": "eq",
+          "value": "는",
+          "basis": "explicit"
+        }
+      ],
       "constraints": [
         {
           "kind": "scope",
           "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+        },
+        {
+          "kind": "require",
+          "description": "인용 예의 주제 구문 나+는→내+는에 한정한다. 소유격 나의나 다른 조사 환경으로 자동 확대하지 않는다."
         }
       ],
       "scope": {
@@ -4834,11 +4846,15 @@
         {
           "pdf_page": 21,
           "quote": "지금 가는 사람은                                       지금 가는 사람이"
+        },
+        {
+          "pdf_page": 20,
+          "quote": "방언에서 관형사형 형태는 표준어와 같다. 그러나 ‘-았던’과\n같은 형태는 방언형에 없었으나 60대에서만 새롭게 쓰고 있다."
         }
       ],
       "claim_status": "source_generalization",
       "usability": "reference_only",
-      "notes": ""
+      "notes": "관형형 보존 설명 PDF20과 실제 대응표 PDF21을 함께 확인. 보존 정보로 전달하며 종결형 치환 후보로 사용하지 않는다."
     },
     {
       "id": "RYU2014:v2:full:0099",

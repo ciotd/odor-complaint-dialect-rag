@@ -1,0 +1,123 @@
+{
+  "inputs": 38,
+  "displayed_conditions": 7,
+  "new_qwen_generations": 55,
+  "successes": 55,
+  "prompt_character_counts": {
+    "qwen_plain": {
+      "n": 38,
+      "median_user_characters": 19.5
+    },
+    "saved_no_kg": {
+      "n": 38,
+      "median_user_characters": 2659.5
+    },
+    "saved_legacy_graph": {
+      "n": 38,
+      "median_user_characters": 13462.0
+    },
+    "saved_v2_direct": {
+      "n": 38,
+      "median_user_characters": 13236.5
+    },
+    "saved_v2_graph": {
+      "n": 38,
+      "median_user_characters": 13236.5
+    },
+    "full_repeat": {
+      "n": 7,
+      "median_user_characters": 30280
+    },
+    "compact_references": {
+      "n": 7,
+      "median_user_characters": 22888
+    },
+    "without_meonjeo_mapping": {
+      "n": 3,
+      "median_user_characters": 29081
+    }
+  },
+  "full_repeat_changed_ids": [
+    "LONG006"
+  ],
+  "sonnet_provenance": {
+    "origin": "user pasted outputs",
+    "exact_version": null,
+    "prompt": null,
+    "decoding_settings": null,
+    "tool_use": "not independently verified"
+  },
+  "astra_provenance": {
+    "status": "completed",
+    "requested_model": "gpt-6-astra",
+    "requested_reasoning_effort": "high",
+    "agent_task": "/root/astra_high_no_kg_translation",
+    "fork_turns": "none",
+    "inputs": 38,
+    "batching": "38 independent utterances in one task message",
+    "external_evidence": "none",
+    "tool_use_instruction": "prohibited",
+    "post_editing": "none",
+    "limitations": [
+      "Served Astra model; not a raw pretraining-only base-model checkpoint.",
+      "Subagent infrastructure system instructions still apply.",
+      "Requested model and effort are launch settings, not independently verified backend checkpoint identity.",
+      "One batch and no repetitions; earlier Qwen runs used separate requests per input."
+    ],
+    "returned_items": 38,
+    "output_source": "verbatim final answer of /root/astra_high_no_kg_translation",
+    "artifact_hashes": {
+      "prompt.txt": "a1c5bbb927281e2b5a187bea4ff602953c426cb818aba5fafabd2162bc675130",
+      "inputs.json": "9e3c868eb2bb6427974fe53a88bd9e872e2e09d197cbdc01c14aee37f6e4c96a",
+      "output.txt": "015cb5434df2eb0336a2f866cda2ef6ab95fd451c4a865741e8e10d317c47e4e"
+    }
+  },
+  "same_no_kg_and_v2_requests": [
+    "DEV011",
+    "DEV018"
+  ],
+  "single_mapping_ablation": {
+    "removed_id": "RYU2014:v2:full:0131",
+    "cases": [
+      "LONG001",
+      "LONG005",
+      "LONG008"
+    ],
+    "observation": "All three full-repeat outputs contain 앞에; all three removal outputs contain 먼저. Other output spans can also change."
+  },
+  "compact_probe": {
+    "cases": [
+      "DEV006",
+      "DEV019",
+      "LONG001",
+      "LONG005",
+      "LONG006",
+      "LONG007",
+      "LONG008"
+    ],
+    "observations": {
+      "DEV006": "계셔 -> 계세요; source morphology conflict remains; 시고 requires regional naturalness review.",
+      "DEV019": "걸으세 -> 걸으세요; standard ending retained, not increased dialect realization.",
+      "LONG006": "가노/좋아하노 -> 가던/좋아하는; 가던 still differs in aspect from 가는.",
+      "LONG007": "그리그리 repetition absent.",
+      "LONG008": "앞에/시마이 remain; 쉬이소 -> 쉬어예 not certified as an improvement."
+    }
+  },
+  "production_kg_changed_in_this_comparison": false,
+  "interpretation": "Model/generation limitations, incomplete analysis-to-retrieval paths, context-sensitive lexical applicability and reference presentation all contribute. No global accuracy score or model ranking claimed.",
+  "limitations": [
+    "Seven compact cases are post-selected diagnostics; one sample per condition.",
+    "Compact input removes evidence text as well as check logs, so token length alone is not isolated.",
+    "Same-seed full-repeat differs on LONG006; no deterministic or statistical guarantee.",
+    "Peer outputs are not ground truth; no independent native-speaker evaluation.",
+    "Astra uses high reasoning and one 38-item batch; Qwen uses per-input requests with thinking disabled."
+  ],
+  "artifact_hashes": {
+    "kg_v2/reports/translation_20261012_ending_repair/outputs.json": "3b3839b774ccccd336e156bde3c605a1f97658246823785ec49ac8ee65642835",
+    "kg_v2/reports/translation_20261012_ending_repair/jobs.json": "c36c83772d29e9d5f5043be89146798f0fc3ad8cdb84f9e29dd8c76f49e96996",
+    "reports/astra_high_no_kg_20261012/output.txt": "015cb5434df2eb0336a2f866cda2ef6ab95fd451c4a865741e8e10d317c47e4e",
+    "reports/model_comparison_20261012/sonnet_user_output.txt": "bdcbcb71445ca8677de421318abcc4c65932499cdc4b85f7da6c4cbade896586",
+    "reports/model_comparison_20261012/probe_jobs.json": "72c0566e66d05a52346eb56049e6b25c3104722bb8d134d67af706148b40729d",
+    "reports/model_comparison_20261012/probe_outputs.json": "04def230ba780c8239843373637f02003d11779007bb906a4c831bd1116a92ac"
+  }
+}

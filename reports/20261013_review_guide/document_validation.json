@@ -1,0 +1,49 @@
+{
+  "status": "passed_structural_checks",
+  "docx": "경상도_방언_KG_예시로_이해하는_복습가이드_20261013.docx",
+  "sha256": "f52c7e20f1cb07560ebce891f464d7bed4078e6a56648f6c2f908dd466dacea7",
+  "bytes": 300220,
+  "paragraphs": 289,
+  "tables": 49,
+  "embedded_images": 3,
+  "source_hashes_unchanged": true,
+  "source_hashes": {
+    "kg_v2/facts.jsonl": "70704456dda47d9cf2019b7e8ea63bc7cc4d9e000417d3216ef08983c9b3dd95",
+    "kg_v2/graph.json": "7f903cd4a1dcf9e6dd1e9109f4339b0f1b50e12d4dbc55f1789c17eb8a8c0a59",
+    "kg_v2/fact.schema.json": "922e73652fa83f5030e00dc084a482cefd93d299350013a564d15af454f06f47",
+    "kg_v2/build.py": "63783d552731ff34494c4b887a31c3b9f9ea78f1a3753610197e1a95b749ac2e",
+    "kg_v2/extract_sources.py": "645ddd3ca25565d4e85b133399af5848f21815c02ae8246d887c8c9bec56262a",
+    "kg_v2/run_translation.py": "f2601ed1a0a9f62a7d639a96e28e45d6c3b2fe7414b12556b38ce8e22834f066",
+    "kg_v2/sentence_retrieval.py": "477b0d99f85e8b2d2b24a6358736a8bcf197bf7bc7ac8086faed65260a7acd86",
+    "kg_v2/transformation_plan.py": "58f5466c072e6f594960ab99ea5f883a3e59981ebfb6be1d20f20d4073a88aa8",
+    "kg_v2/terminal_retrieval.py": "cb1aebc2ddc01d24647a83c9aef291177b93e2727cd5033d79dcd2855201b029",
+    "kg_v2/advisory_rules.json": "6154844d7659bc5e12caaeddc46da3e5296564051bc72a078b55669c4fe16578",
+    "current_kg/experiments/run_auto_analysis_development.py": "b2b4042955ef62451db1e95529436b51771202f9efc854470b8ff7db668f41df",
+    "reports/20261013_terminal_generation/jobs.json": "099fe24ca8035215a2d68af96d95c334440b55115e510620315ec22f9d577f6e",
+    "reports/20261013_terminal_generation/protocol.json": "86e6cf17219dc3b5d87bf4bc2e5cafc98b44cbc1918140d61d990c3fae3c7b78",
+    "reports/20261013_terminal_generation/final_outputs.json": "5d7c3b07d71f69a6bef6738605525ef6e4c5551c093c6f8d1d696353ca78f5ad",
+    "reports/kg_v2_factorial_20261012/protocol.json": "d569678ed9ea755661f872515cd97bd2339caf63c641203ac201fbf400c1a0cd",
+    "reports/kg_v2_factorial_20261012/summary.json": "e3f977636b91ad2073c02e33e771c694d704ef7a126533e436ecf1ee07312199",
+    "reports/kg_v2_advisory_20261012/coordinator_report.txt": "5d5faf7e93ab122d74f6c513f136bfa81630099d2624318766fde9155ceb454d",
+    "reports/kg_v2_advisory_20261012/interpretation_corrections.txt": "04101300efcfe8e6da1e56d56b1223df165718c9a4eec4e6cb02409c569bd769"
+  },
+  "model_calls": 0,
+  "production_changes": false,
+  "validation": [
+    "DOCX ZIP integrity",
+    "all XML parts parse",
+    "python-docx reopen",
+    "3 figures embedded",
+    "current graph counts asserted",
+    "latest candidate provenance counts asserted",
+    "key terms present",
+    "source hashes unchanged"
+  ],
+  "word_layout_rendered": false,
+  "layout_limit": "No Word/LibreOffice renderer installed; figures visually checked separately, pagination not claimed.",
+  "figures_visually_checked": [
+    "process.png",
+    "knowledge.png",
+    "factorial.png"
+  ]
+}

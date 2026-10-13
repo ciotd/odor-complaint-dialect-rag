@@ -1,0 +1,72 @@
+{
+  "id": "LONG005",
+  "condition": "qwen_plain",
+  "input": "어제 민수가 오늘은 늦게 온다고 했어. 그래서 우리끼리 먼저 저녁을 먹으려고 하는데 너는 어떻게 할 거야? 기다릴 거면 나한테 미리 말해 줘.",
+  "request": {
+    "model": "Qwen3.8-27B",
+    "max_tokens": 512,
+    "temperature": 0.3,
+    "top_p": 0.8,
+    "top_k": 20,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "seed": 20260923,
+    "messages": [
+      {
+        "role": "system",
+        "content": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요."
+      },
+      {
+        "role": "user",
+        "content": "어제 민수가 오늘은 늦게 온다고 했어. 그래서 우리끼리 먼저 저녁을 먹으려고 하는데 너는 어떻게 할 거야? 기다릴 거면 나한테 미리 말해 줘."
+      }
+    ]
+  },
+  "status": "success",
+  "attempts": [
+    {
+      "seconds": 2.332168523222208,
+      "response": {
+        "id": "chatcmpl-a7db75a2ced608f0",
+        "object": "chat.completion",
+        "created": 1791786552,
+        "model": "Qwen3.8-27B",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "어제 민수가 오늘 늦게 온다고 했어. 그래서 우리끼리 먼저 저녁 먹으려는데, 니는 어찌 할 건디? 기다릴 거면 나한테 미리 말해 줘라.",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.27.1-51f03443",
+        "usage": {
+          "prompt_tokens": 114,
+          "total_tokens": 159,
+          "completion_tokens": 45,
+          "prompt_tokens_details": null
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    }
+  ],
+  "output": "어제 민수가 오늘 늦게 온다고 했어. 그래서 우리끼리 먼저 저녁 먹으려는데, 니는 어찌 할 건디? 기다릴 거면 나한테 미리 말해 줘라."
+}

@@ -1,0 +1,17 @@
+최신 실행: 20261013_user_qualification20 — 입력 20개, 최종 번역 20개
+수정된 사용자 입력20개를 같은 폴더에 덮어쓰기 실행:20개 모두 번역 생성. KG·조회·생성 설정 유지. 자동 보존 경고1개 및 별도 관찰 오류가 남아 있습니다. 입력 변경 시험으로 시스템 개선율 비교는 아닙니다.
+
+최신 안내는 reports/latest/를 사용한다. 이 폴더는 원본에서 재생성하는 보기용 파일이다.
+원본 실험 폴더는 스크립트·비교·근거 링크가 참조하므로 일괄 이동/삭제하지 않는다.
+새 실험은 reports/<날짜_시각>_<내용>/에 저장하고 reports/experiment_index.json에 등록한다.
+번역을 실제 생성한 경우에만 latest_translation_run을 갱신한다. 조회만 검증했으면 latest_implementation_run만 갱신한다.
+안내 재생성 명령: python reports/update_index.py
+중앙 목록의 briefing_text와 latest_docx도 현재 상태에 맞게 갱신한다. 파일 수정 시간으로 최신 번역을 추정하지 않는다.
+유지: 원문·출력·요청·설정·조회 로그·근거·코드/KG 스냅샷·비교 기준선.
+삭제 검토: 재생성 가능한 HTML/TXT/TSV 보기 파일, 캐시·임시 파일. 참조와 재생성 방법을 확인한다.
+실패 출력은 시행착오 근거이므로 실패했다는 이유만으로 삭제하지 않는다.
+과거 DOCX는 작성 당시 기록이다. 최신 DOCX는 중앙 목록의 latest_docx를 따른다.
+
+보고 요약: briefing.txt
+최종 번역: translations.html / translations.txt / translations.tsv
+전체 안내: index.html

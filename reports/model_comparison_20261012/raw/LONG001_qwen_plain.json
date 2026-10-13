@@ -1,0 +1,72 @@
+{
+  "id": "LONG001",
+  "condition": "qwen_plain",
+  "input": "너 지금 어디야? 아까 역 앞에서 만나자고 했는데 왜 아직 안 와? 나는 배가 고파서 먼저 밥을 먹고 있을게.",
+  "request": {
+    "model": "Qwen3.8-27B",
+    "max_tokens": 512,
+    "temperature": 0.3,
+    "top_p": 0.8,
+    "top_k": 20,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "seed": 20260923,
+    "messages": [
+      {
+        "role": "system",
+        "content": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요."
+      },
+      {
+        "role": "user",
+        "content": "너 지금 어디야? 아까 역 앞에서 만나자고 했는데 왜 아직 안 와? 나는 배가 고파서 먼저 밥을 먹고 있을게."
+      }
+    ]
+  },
+  "status": "success",
+  "attempts": [
+    {
+      "seconds": 2.1029059141874313,
+      "response": {
+        "id": "chatcmpl-885d35d96dc8add4",
+        "object": "chat.completion",
+        "created": 1791786546,
+        "model": "Qwen3.8-27B",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "너 지금 어디 있노? 아까 역 앞에서 만나자고 했디 왜 아직 안 왔노? 나 배가 고파서 먼저 밥이나 먹고 있을게.",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.27.1-51f03443",
+        "usage": {
+          "prompt_tokens": 104,
+          "total_tokens": 140,
+          "completion_tokens": 36,
+          "prompt_tokens_details": null
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    }
+  ],
+  "output": "너 지금 어디 있노? 아까 역 앞에서 만나자고 했디 왜 아직 안 왔노? 나 배가 고파서 먼저 밥이나 먹고 있을게."
+}

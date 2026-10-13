@@ -1,0 +1,72 @@
+{
+  "id": "DEV002",
+  "input": "집에 가는 길에 빵을 샀어.",
+  "condition": "D",
+  "request": {
+    "model": "Qwen3.8-27B",
+    "max_tokens": 512,
+    "temperature": 0.3,
+    "top_p": 0.8,
+    "top_k": 20,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "seed": 20260923,
+    "messages": [
+      {
+        "role": "system",
+        "content": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요."
+      },
+      {
+        "role": "user",
+        "content": "standard를 자연스러운 경상도 방언으로 변환하세요. analysis와 source_morphology는 원문 분석의 가설이며 원문이 우선입니다. transformation_plan과 graph_paths는 원문 구간에 결속한 조건부 참고 자료입니다. 의미·지역·시대·높임·결합 조건이 맞는 자료를 선택하고 관련 없는 자료는 사용하지 마세요. 조건 미확인은 적용 허용이 아니며 연결된 진술끼리 조건을 상속하지 않습니다. 기본형 대응과 완성 활용형을 구별하고 원문의 부정·시제·높임·인용·발화 의도를 유지하세요. 표에 없는 활용형은 표에 실린 확인형으로 주장하지 마세요. 원문에 없는 내용을 추가하지 말고 변환한 발화만 출력하세요.\n{\"standard\":\"집에 가는 길에 빵을 샀어.\",\"analysis\":[{\"text\":\"집에 가는 길에 빵을 샀어.\",\"span\":[0,15],\"role\":\"main\",\"features\":{\"host_pos\":\"verb\",\"sentence_type\":\"declarative\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"사다\",\"stem_vowel\":\"a\",\"stem_coda\":\"absent\",\"subject_person\":\"first\"},\"observed_politeness\":\"non_polite\",\"observed_subject_honorific\":\"not_observed\",\"tense_or_modality\":\"past\",\"preserved_candidate_features\":{\"prefinal_profile\":\"switching_prefinal_present\",\"preceding_form\":\"-었-\"}}],\"source_morphology\":{\"tokens\":[{\"form\":\"집\",\"tag\":\"NNG\",\"span\":[0,1],\"surface\":\"집\"},{\"form\":\"에\",\"tag\":\"JKB\",\"span\":[1,2],\"surface\":\"에\"},{\"form\":\"가\",\"tag\":\"VV\",\"span\":[3,4],\"surface\":\"가\"},{\"form\":\"는\",\"tag\":\"ETM\",\"span\":[4,5],\"surface\":\"는\"},{\"form\":\"길\",\"tag\":\"NNG\",\"span\":[6,7],\"surface\":\"길\"},{\"form\":\"에\",\"tag\":\"JKB\",\"span\":[7,8],\"surface\":\"에\"},{\"form\":\"빵\",\"tag\":\"NNG\",\"span\":[9,10],\"surface\":\"빵\"},{\"form\":\"을\",\"tag\":\"JKO\",\"span\":[10,11],\"surface\":\"을\"},{\"form\":\"사\",\"tag\":\"VV\",\"span\":[12,13],\"surface\":\"샀\"},{\"form\":\"었\",\"tag\":\"EP\",\"span\":[12,13],\"surface\":\"샀\"},{\"form\":\"어\",\"tag\":\"EF\",\"span\":[13,14],\"surface\":\"어\"},{\"form\":\".\",\"tag\":\"SF\",\"span\":[14,15],\"surface\":\".\"}],\"words\":[{\"form\":\"집\",\"tag\":\"NNG\",\"span\":[0,1],\"surface\":\"집\",\"lemma\":\"집\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":0},{\"form\":\"가\",\"tag\":\"VV\",\"span\":[3,4],\"surface\":\"가\",\"lemma\":\"가다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"는\",\"ending_tag\":\"ETM\",\"token_index\":2,\"predicate_span\":[3,5]},{\"form\":\"길\",\"tag\":\"NNG\",\"span\":[6,7],\"surface\":\"길\",\"lemma\":\"길\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":4},{\"form\":\"빵\",\"tag\":\"NNG\",\"span\":[9,10],\"surface\":\"빵\",\"lemma\":\"빵\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":6},{\"form\":\"사\",\"tag\":\"VV\",\"span\":[12,13],\"surface\":\"샀\",\"lemma\":\"사다\",\"pos\":\"verb\",\"prefinals\":[\"었\"],\"ending\":\"어\",\"ending_tag\":\"EF\",\"token_index\":8,\"predicate_span\":[12,14]}],\"status\":\"Kiwi_hypotheses_not_gold\"},\"transformation_plan\":[{\"target_text\":\"집에 가는 길에 빵을 샀어.\",\"span\":[0,15],\"preserve\":[{\"clause_id\":\"DEV002:c1\",\"features\":{\"host_pos\":\"verb\",\"sentence_type\":\"declarative\",\"question_type\":null,\"host_class\":\"predicate_other_than_anida\",\"nominal_coda\":null,\"host_form\":\"사다\",\"stem_vowel\":\"a\",\"stem_coda\":\"absent\",\"meaning\":null,\"speech_act\":null,\"action_participants\":null,\"intention_holder\":null,\"beneficiary\":null,\"subject_person\":\"first\",\"clause_relation\":null,\"response_orientation\":null,\"following_predicate_role\":null,\"construction_kind\":null},\"listener_politeness\":\"non_polite\",\"subject_honorific\":\"not_observed\",\"tense_or_modality\":\"past\"}],\"candidates\":[{\"id\":\"NAMU_HONORIFICS_20260908:v2:full:0106\",\"source_id\":\"NAMU_HONORIFICS_20260908\",\"type\":\"ending\",\"source_pattern\":{\"text\":\"declarative\",\"domain\":\"metalinguistic\",\"lemma\":null,\"sense\":null,\"features\":{}},\"target_pattern\":{\"text\":\"-(느)ㄴ다\",\"domain\":\"dialect\",\"lemma\":null,\"sense\":null,\"features\":{}},\"functions\":[\"declarative\"],\"conditions\":[],\"constraints\":[{\"kind\":\"scope\",\"description\":\"2026-09-08 위키 판의 설명. 지역·높임·친밀도 및 세대 범위를 확인한다.\"}],\"scope\":{\"regions\":[\"동남 방언: 개별 진술의 지역 범위 우선\"],\"speech_levels\":[\"해라\"],\"registers\":[],\"period\":[],\"note\":\"위키의 직접 서술/재인용. 인용 문헌 및 동영상과 독립적인 근거로 중복 계산하지 않는다.\"},\"claim_status\":\"source_generalization\",\"usability\":\"candidate\",\"notes\":\"명사/용언 결합 및 지역 변이는 별도 조건 확인.\",\"binding\":{\"text\":\"집에 가는 길에 빵을 샀어.\",\"span\":[0,15],\"clause_id\":\"DEV002:c1\",\"host_lemma\":\"사다\",\"ending\":\"어\",\"speech_style_preference\":{\"politeness\":\"non_polite\",\"register\":\"unknown\",\"source_ending\":\"어\",\"basis\":\"cached_politeness_only\"}},\"evidence_pages\":[21,21],\"status\":\"conditional_candidate_not_validated_surface\"},{\"id\":\"JO2018:v2:informal:0004\",\"source_id\":\"JO2018\",\"type\":\"ending\",\"source_pattern\":{\"text\":\"종결형: -ㄹ낀데\",\"domain\":\"metalinguistic\",\"lemma\":null,\"sense\":null,\"features\":{}},\"target_pattern\":{\"text\":\"-ㄹ낀데\",\"domain\":\"dialect\",\"lemma\":null,\"sense\":null,\"features\":{}},\"functions\":[\"declarative\"],\"conditions\":[],\"constraints\":[{\"kind\":\"scope\",\"description\":\"1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요.\"}],\"scope\":{\"regions\":[\"경북: 세부 분포는 진술 참조\"],\"speech_levels\":[\"해\"],\"registers\":[\"구술 설화·민요·무가 및 조사 발화\"],\"period\":[\"1978–1984 채록\"],\"note\":\"\"},\"claim_status\":\"attested_form\",\"usability\":\"candidate\",\"notes\":\"목록/실례에 나타난 형태. 동일 형태의 다른 문장 기능과 합치지 않으며 결합·화용·등급 이견은 별도 진술과 함께 조회.\",\"binding\":{\"text\":\"집에 가는 길에 빵을 샀어.\",\"span\":[0,15],\"clause_id\":\"DEV002:c1\",\"host_lemma\":\"사다\",\"ending\":\"어\",\"speech_style_preference\":{\"politeness\":\"non_polite\",\"register\":\"unknown\",\"source_ending\":\"어\",\"basis\":\"cached_politeness_only\"}},\"evidence_pages\":[192],\"status\":\"conditional_candidate_not_validated_surface\"},{\"id\":\"JO2018:v2:informal:0003\",\"source_id\":\"JO2018\",\"type\":\"ending\",\"source_pattern\":{\"text\":\"종결형: -ㄴ갑데\",\"domain\":\"metalinguistic\",\"lemma\":null,\"sense\":null,\"features\":{}},\"target_pattern\":{\"text\":\"-ㄴ갑데\",\"domain\":\"dialect\",\"lemma\":null,\"sense\":null,\"features\":{}},\"functions\":[\"declarative\"],\"conditions\":[],\"constraints\":[{\"kind\":\"scope\",\"description\":\"1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요.\"}],\"scope\":{\"regions\":[\"경북: 세부 분포는 진술 참조\"],\"speech_levels\":[\"해\"],\"registers\":[\"구술 설화·민요·무가 및 조사 발화\"],\"period\":[\"1978–1984 채록\"],\"note\":\"\"},\"claim_status\":\"attested_form\",\"usability\":\"candidate\",\"notes\":\"목록/실례에 나타난 형태. 동일 형태의 다른 문장 기능과 합치지 않으며 결합·화용·등급 이견은 별도 진술과 함께 조회.\",\"binding\":{\"text\":\"집에 가는 길에 빵을 샀어.\",\"span\":[0,15],\"clause_id\":\"DEV002:c1\",\"host_lemma\":\"사다\",\"ending\":\"어\",\"speech_style_preference\":{\"politeness\":\"non_polite\",\"register\":\"unknown\",\"source_ending\":\"어\",\"basis\":\"cached_politeness_only\"}},\"evidence_pages\":[192],\"status\":\"conditional_candidate_not_validated_surface\"},{\"id\":\"JO2018:v2:declarative:0100\",\"source_id\":\"JO2018\",\"type\":\"ending\",\"source_pattern\":{\"text\":\"종결형: -ㅅ다\",\"domain\":\"metalinguistic\",\"lemma\":null,\"sense\":null,\"features\":{}},\"target_pattern\":{\"text\":\"-ㅅ다\",\"domain\":\"dialect\",\"lemma\":null,\"sense\":null,\"features\":{}},\"functions\":[\"declarative\"],\"conditions\":[],\"constraints\":[{\"kind\":\"scope\",\"description\":\"1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요.\"}],\"scope\":{\"regions\":[\"경북: 세부 분포는 진술 참조\"],\"speech_levels\":[\"해라\"],\"registers\":[\"구술 설화·민요·무가 및 조사 발화\"],\"period\":[\"1978–1984 채록\"],\"note\":\"\"},\"claim_status\":\"attested_form\",\"usability\":\"candidate\",\"notes\":\"문법 범주는 서술; 세부 추측·감탄·약속과 결합 조건을 구분.\",\"binding\":{\"text\":\"집에 가는 길에 빵을 샀어.\",\"span\":[0,15],\"clause_id\":\"DEV002:c1\",\"host_lemma\":\"사다\",\"ending\":\"어\",\"speech_style_preference\":{\"politeness\":\"non_polite\",\"register\":\"unknown\",\"source_ending\":\"어\",\"basis\":\"cached_politeness_only\"}},\"evidence_pages\":[109],\"status\":\"conditional_candidate_not_validated_surface\"},{\"id\":\"JO2018:v2:informal:0007\",\"source_id\":\"JO2018\",\"type\":\"ending\",\"source_pattern\":{\"text\":\"종결형: -래이\",\"domain\":\"metalinguistic\",\"lemma\":null,\"sense\":null,\"features\":{}},\"target_pattern\":{\"text\":\"-래이\",\"domain\":\"dialect\",\"lemma\":null,\"sense\":null,\"features\":{}},\"functions\":[\"declarative\"],\"conditions\":[],\"constraints\":[{\"kind\":\"scope\",\"description\":\"1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요.\"}],\"scope\":{\"regions\":[\"경북: 세부 분포는 진술 참조\"],\"speech_levels\":[\"해\"],\"registers\":[\"구술 설화·민요·무가 및 조사 발화\"],\"period\":[\"1978–1984 채록\"],\"note\":\"\"},\"claim_status\":\"attested_form\",\"usability\":\"candidate\",\"notes\":\"목록/실례에 나타난 형태. 동일 형태의 다른 문장 기능과 합치지 않으며 결합·화용·등급 이견은 별도 진술과 함께 조회.\",\"binding\":{\"text\":\"집에 가는 길에 빵을 샀어.\",\"span\":[0,15],\"clause_id\":\"DEV002:c1\",\"host_lemma\":\"사다\",\"ending\":\"어\",\"speech_style_preference\":{\"politeness\":\"non_polite\",\"register\":\"unknown\",\"source_ending\":\"어\",\"basis\":\"cached_politeness_only\"}},\"evidence_pages\":[192],\"status\":\"conditional_candidate_not_validated_surface\"},{\"id\":\"JO2018:v2:informal:0006\",\"source_id\":\"JO2018\",\"type\":\"ending\",\"source_pattern\":{\"text\":\"종결형: -래\",\"domain\":\"metalinguistic\",\"lemma\":null,\"sense\":null,\"features\":{}},\"target_pattern\":{\"text\":\"-래\",\"domain\":\"dialect\",\"lemma\":null,\"sense\":null,\"features\":{}},\"functions\":[\"declarative\"],\"conditions\":[],\"constraints\":[{\"kind\":\"scope\",\"description\":\"1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요.\"}],\"scope\":{\"regions\":[\"경북: 세부 분포는 진술 참조\"],\"speech_levels\":[\"해\"],\"registers\":[\"구술 설화·민요·무가 및 조사 발화\"],\"period\":[\"1978–1984 채록\"],\"note\":\"\"},\"claim_status\":\"attested_form\",\"usability\":\"candidate\",\"notes\":\"목록/실례에 나타난 형태. 동일 형태의 다른 문장 기능과 합치지 않으며 결합·화용·등급 이견은 별도 진술과 함께 조회.\",\"binding\":{\"text\":\"집에 가는 길에 빵을 샀어.\",\"span\":[0,15],\"clause_id\":\"DEV002:c1\",\"host_lemma\":\"사다\",\"ending\":\"어\",\"speech_style_preference\":{\"politeness\":\"non_polite\",\"register\":\"unknown\",\"source_ending\":\"어\",\"basis\":\"cached_politeness_only\"}},\"evidence_pages\":[192],\"status\":\"conditional_candidate_not_validated_surface\"}]}],\"graph_paths\":[],\"plan_policy\":\"후보는 대안이며 모두 적용하지 않는다. 대상 구간에만 적용하고 원문의 의미·부정·시제·주체 높임·청자 높임·이동 방향·인용을 보존한다. 조건과 문맥이 불확실하면 억지로 치환하지 않는다. 기본형·인용형을 완성 활용형으로 복사하지 않는다. derived_composition_not_attested_surface는 규칙 조합이며 문헌의 실제 완성형이 아니다.\"}"
+      }
+    ]
+  },
+  "status": "success",
+  "attempts": [
+    {
+      "seconds": 1.3461668454110622,
+      "response": {
+        "id": "chatcmpl-91e10cd20f098b34",
+        "object": "chat.completion",
+        "created": 1791789768,
+        "model": "Qwen3.8-27B",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "집에 가던 길에 빵을 샀어.",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.27.1-51f03443",
+        "usage": {
+          "prompt_tokens": 3161,
+          "total_tokens": 3174,
+          "completion_tokens": 13,
+          "prompt_tokens_details": null
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    }
+  ],
+  "output": "집에 가던 길에 빵을 샀어."
+}

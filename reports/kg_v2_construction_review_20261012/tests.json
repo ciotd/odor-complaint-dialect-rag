@@ -1,0 +1,10 @@
+{
+  "command": "PYTHONPATH=kg_v2 .venv/retrieval/bin/python -m unittest discover -s kg_v2 -p 'test_*.py'",
+  "passed": 61,
+  "failed": 0,
+  "new_tests": 16,
+  "qwen_calls": 0,
+  "scope": "implementation/source-routing regression, not translation accuracy",
+  "source_code_diff_check": "passed",
+  "repository_wide_diff_check_note": "Generated page_coverage.tsv has pre-existing changed CRLF rows flagged by git whitespace check; TSV serialization was not changed in this task."
+}

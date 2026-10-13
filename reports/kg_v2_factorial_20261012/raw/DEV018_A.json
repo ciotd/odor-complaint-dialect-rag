@@ -1,0 +1,72 @@
+{
+  "id": "DEV018",
+  "input": "이 상자 옮기는 것 좀 도와줄래?",
+  "condition": "A",
+  "request": {
+    "model": "Qwen3.8-27B",
+    "max_tokens": 512,
+    "temperature": 0.3,
+    "top_p": 0.8,
+    "top_k": 20,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "seed": 20260923,
+    "messages": [
+      {
+        "role": "system",
+        "content": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요."
+      },
+      {
+        "role": "user",
+        "content": "standard를 자연스러운 경상도 방언으로 변환하세요. analysis와 source_morphology는 원문 분석의 가설이며 원문이 우선입니다. references와 graph_paths는 원문 구간에 결속한 조건부 참고 자료입니다. 의미·지역·시대·높임·결합 조건이 맞는 자료를 선택하고 관련 없는 자료는 사용하지 마세요. 조건 미확인은 적용 허용이 아니며 연결된 진술끼리 조건을 상속하지 않습니다. 기본형 대응과 완성 활용형을 구별하고 원문의 부정·시제·높임·인용·발화 의도를 유지하세요. 표에 없는 활용형은 표에 실린 확인형으로 주장하지 마세요. 원문에 없는 내용을 추가하지 말고 변환한 발화만 출력하세요.\n{\"standard\":\"이 상자 옮기는 것 좀 도와줄래?\",\"analysis\":[{\"text\":\"이 상자 옮기는 것 좀 도와줄래?\",\"span\":[0,18],\"role\":\"main\",\"features\":{\"host_pos\":\"verb\",\"sentence_type\":\"interrogative\",\"question_type\":\"polar\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"돕다\",\"stem_vowel\":\"ㅗ\",\"stem_coda\":\"absent\",\"speech_act\":\"request\",\"action_participants\":\"addressee_only\",\"intention_holder\":\"speaker\",\"beneficiary\":\"speaker\",\"subject_person\":\"second\",\"response_orientation\":\"addressee\"},\"observed_politeness\":\"non_polite\",\"observed_subject_honorific\":\"not_observed\",\"tense_or_modality\":\"modal\",\"preserved_candidate_features\":{\"prefinal_profile\":\"none\",\"preceding_form\":\"verb_stem_direct\"}}],\"source_morphology\":{\"tokens\":[{\"form\":\"이\",\"tag\":\"MM\",\"span\":[0,1],\"surface\":\"이\"},{\"form\":\"상자\",\"tag\":\"NNG\",\"span\":[2,4],\"surface\":\"상자\"},{\"form\":\"옮기\",\"tag\":\"VV\",\"span\":[5,7],\"surface\":\"옮기\"},{\"form\":\"는\",\"tag\":\"ETM\",\"span\":[7,8],\"surface\":\"는\"},{\"form\":\"것\",\"tag\":\"NNB\",\"span\":[9,10],\"surface\":\"것\"},{\"form\":\"좀\",\"tag\":\"MAG\",\"span\":[11,12],\"surface\":\"좀\"},{\"form\":\"돕\",\"tag\":\"VV\",\"span\":[13,14],\"surface\":\"도\"},{\"form\":\"어\",\"tag\":\"EC\",\"span\":[14,15],\"surface\":\"와\"},{\"form\":\"주\",\"tag\":\"VX\",\"span\":[15,16],\"surface\":\"줄\"},{\"form\":\"ᆯ래\",\"tag\":\"EF\",\"span\":[15,17],\"surface\":\"줄래\"},{\"form\":\"?\",\"tag\":\"SF\",\"span\":[17,18],\"surface\":\"?\"}],\"words\":[{\"form\":\"상자\",\"tag\":\"NNG\",\"span\":[2,4],\"surface\":\"상자\",\"lemma\":\"상자\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":1},{\"form\":\"옮기\",\"tag\":\"VV\",\"span\":[5,7],\"surface\":\"옮기\",\"lemma\":\"옮기다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"는\",\"ending_tag\":\"ETM\",\"token_index\":2,\"predicate_span\":[5,8]},{\"form\":\"좀\",\"tag\":\"MAG\",\"span\":[11,12],\"surface\":\"좀\",\"lemma\":\"좀\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":5},{\"form\":\"돕\",\"tag\":\"VV\",\"span\":[13,14],\"surface\":\"도\",\"lemma\":\"돕다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"어\",\"ending_tag\":\"EC\",\"token_index\":6,\"predicate_span\":[13,15]},{\"form\":\"주\",\"tag\":\"VX\",\"span\":[15,16],\"surface\":\"줄\",\"lemma\":\"주다\",\"pos\":\"auxiliary\",\"prefinals\":[],\"ending\":\"ᆯ래\",\"ending_tag\":\"EF\",\"token_index\":8,\"predicate_span\":[15,17]}],\"status\":\"Kiwi_hypotheses_not_gold\"},\"references\":[],\"graph_paths\":[]}"
+      }
+    ]
+  },
+  "status": "success",
+  "attempts": [
+    {
+      "seconds": 0.4734092056751251,
+      "response": {
+        "id": "chatcmpl-a7a9cf63d00da057",
+        "object": "chat.completion",
+        "created": 1791789866,
+        "model": "Qwen3.8-27B",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "이 상자 옮기는 거 좀 도와줄래?",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.27.1-51f03443",
+        "usage": {
+          "prompt_tokens": 932,
+          "total_tokens": 943,
+          "completion_tokens": 11,
+          "prompt_tokens_details": null
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    }
+  ],
+  "output": "이 상자 옮기는 거 좀 도와줄래?"
+}

@@ -1,0 +1,2989 @@
+{
+  "id": "ADVCE003B",
+  "input": "이 문이 저절로 닫힐까요?",
+  "morphology": {
+    "tokens": [
+      {
+        "form": "이",
+        "tag": "MM",
+        "span": [
+          0,
+          1
+        ],
+        "surface": "이"
+      },
+      {
+        "form": "문",
+        "tag": "NNG",
+        "span": [
+          2,
+          3
+        ],
+        "surface": "문"
+      },
+      {
+        "form": "이",
+        "tag": "JKS",
+        "span": [
+          3,
+          4
+        ],
+        "surface": "이"
+      },
+      {
+        "form": "저절로",
+        "tag": "MAG",
+        "span": [
+          5,
+          8
+        ],
+        "surface": "저절로"
+      },
+      {
+        "form": "닫히",
+        "tag": "VV",
+        "span": [
+          9,
+          11
+        ],
+        "surface": "닫힐"
+      },
+      {
+        "form": "ᆯ까요",
+        "tag": "EF",
+        "span": [
+          10,
+          13
+        ],
+        "surface": "힐까요"
+      },
+      {
+        "form": "?",
+        "tag": "SF",
+        "span": [
+          13,
+          14
+        ],
+        "surface": "?"
+      }
+    ],
+    "words": [
+      {
+        "form": "문",
+        "tag": "NNG",
+        "span": [
+          2,
+          3
+        ],
+        "surface": "문",
+        "lemma": "문",
+        "pos": "nominal",
+        "prefinals": [],
+        "ending": null,
+        "ending_tag": null,
+        "token_index": 1
+      },
+      {
+        "form": "저절로",
+        "tag": "MAG",
+        "span": [
+          5,
+          8
+        ],
+        "surface": "저절로",
+        "lemma": "저절로",
+        "pos": "nominal",
+        "prefinals": [],
+        "ending": null,
+        "ending_tag": null,
+        "token_index": 3
+      },
+      {
+        "form": "닫히",
+        "tag": "VV",
+        "span": [
+          9,
+          11
+        ],
+        "surface": "닫힐",
+        "lemma": "닫히다",
+        "pos": "verb",
+        "prefinals": [],
+        "ending": "ᆯ까요",
+        "ending_tag": "EF",
+        "token_index": 4,
+        "predicate_span": [
+          9,
+          13
+        ]
+      }
+    ],
+    "status": "Kiwi_hypotheses_not_gold"
+  },
+  "packets": {
+    "v2_direct": {
+      "references": [
+        {
+          "id": "RYU2014:v2:full:0135",
+          "source_id": "RYU2014",
+          "type": "lexical_mapping",
+          "source_pattern": {
+            "text": "저절로",
+            "domain": "standard",
+            "lemma": null,
+            "sense": null,
+            "features": {
+              "pos": "adverb"
+            }
+          },
+          "target_pattern": {
+            "text": "절로",
+            "domain": "dialect",
+            "lemma": null,
+            "sense": null,
+            "features": {
+              "pos": "adverb"
+            }
+          },
+          "functions": [],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+            ],
+            "speech_levels": [],
+            "registers": [],
+            "period": [],
+            "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+          },
+          "evidence": [
+            {
+              "pdf_page": 27,
+              "quote": "저절로 돈이 생기는 줄\n                   저절로     0    0     절로      절로 움직인다."
+            }
+          ],
+          "claim_status": "source_generalization",
+          "usability": "candidate",
+          "notes": "대조표 예문의 의미에 한정. 다른 동음·다의적 용법과 구별.",
+          "input_binding": {
+            "text": "저절로",
+            "span": [
+              5,
+              8
+            ],
+            "lemma": "저절로",
+            "prefinals": [],
+            "ending": null,
+            "predicate_span": null,
+            "following_particle": null
+          },
+          "retrieval_route": "bound_lexical_mapping",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        },
+        {
+          "id": "JO2018:v2:informal:0066",
+          "source_id": "JO2018",
+          "type": "ending",
+          "source_pattern": {
+            "text": "종결형: -예",
+            "domain": "metalinguistic",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "-예",
+            "domain": "dialect",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "functions": [
+            "interrogative"
+          ],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "경북: 세부 분포는 진술 참조"
+            ],
+            "speech_levels": [
+              "해예"
+            ],
+            "registers": [
+              "구술 설화·민요·무가 및 조사 발화"
+            ],
+            "period": [
+              "1978–1984 채록"
+            ],
+            "note": ""
+          },
+          "evidence": [
+            {
+              "pdf_page": 213,
+              "quote": "라요,해요체-래요,-세요,-시요,-제요,-지요,-까요,-께요비격식체해예체-예,-가예,-네예,-데예,-지예해여체-여,-디여,-래여-201-"
+            }
+          ],
+          "claim_status": "attested_form",
+          "usability": "candidate",
+          "notes": "목록/실례에 나타난 형태. 동일 형태의 다른 문장 기능과 합치지 않으며 결합·화용·등급 이견은 별도 진술과 함께 조회.",
+          "input_binding": {
+            "text": "이 문이 저절로 닫힐까요?",
+            "span": [
+              0,
+              14
+            ],
+            "clause_id": "ADVCE003B:c1",
+            "host_lemma": "닫히다",
+            "ending": "ᆯ까요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "ᆯ까요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "retrieval_route": "clause_function",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        },
+        {
+          "id": "JO2018:v2:informal:0067",
+          "source_id": "JO2018",
+          "type": "ending",
+          "source_pattern": {
+            "text": "종결형: -가예",
+            "domain": "metalinguistic",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "-가예",
+            "domain": "dialect",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "functions": [
+            "interrogative"
+          ],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "경북: 세부 분포는 진술 참조"
+            ],
+            "speech_levels": [
+              "해예"
+            ],
+            "registers": [
+              "구술 설화·민요·무가 및 조사 발화"
+            ],
+            "period": [
+              "1978–1984 채록"
+            ],
+            "note": ""
+          },
+          "evidence": [
+            {
+              "pdf_page": 213,
+              "quote": "해요체-래요,-세요,-시요,-제요,-지요,-까요,-께요비격식체해예체-예,-가예,-네예,-데예,-지예해여체-여,-디여,-래여-201-"
+            }
+          ],
+          "claim_status": "attested_form",
+          "usability": "candidate",
+          "notes": "목록/실례에 나타난 형태. 동일 형태의 다른 문장 기능과 합치지 않으며 결합·화용·등급 이견은 별도 진술과 함께 조회.",
+          "input_binding": {
+            "text": "이 문이 저절로 닫힐까요?",
+            "span": [
+              0,
+              14
+            ],
+            "clause_id": "ADVCE003B:c1",
+            "host_lemma": "닫히다",
+            "ending": "ᆯ까요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "ᆯ까요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "retrieval_route": "clause_function",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        },
+        {
+          "id": "JO2018:v2:informal:0068",
+          "source_id": "JO2018",
+          "type": "ending",
+          "source_pattern": {
+            "text": "종결형: -네예",
+            "domain": "metalinguistic",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "-네예",
+            "domain": "dialect",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "functions": [
+            "interrogative"
+          ],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "경북: 세부 분포는 진술 참조"
+            ],
+            "speech_levels": [
+              "해예"
+            ],
+            "registers": [
+              "구술 설화·민요·무가 및 조사 발화"
+            ],
+            "period": [
+              "1978–1984 채록"
+            ],
+            "note": ""
+          },
+          "evidence": [
+            {
+              "pdf_page": 213,
+              "quote": "래요,-세요,-시요,-제요,-지요,-까요,-께요비격식체해예체-예,-가예,-네예,-데예,-지예해여체-여,-디여,-래여-201-"
+            }
+          ],
+          "claim_status": "attested_form",
+          "usability": "candidate",
+          "notes": "목록/실례에 나타난 형태. 동일 형태의 다른 문장 기능과 합치지 않으며 결합·화용·등급 이견은 별도 진술과 함께 조회.",
+          "input_binding": {
+            "text": "이 문이 저절로 닫힐까요?",
+            "span": [
+              0,
+              14
+            ],
+            "clause_id": "ADVCE003B:c1",
+            "host_lemma": "닫히다",
+            "ending": "ᆯ까요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "ᆯ까요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "retrieval_route": "clause_function",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        },
+        {
+          "id": "JO2018:v2:informal:0069",
+          "source_id": "JO2018",
+          "type": "ending",
+          "source_pattern": {
+            "text": "종결형: -데예",
+            "domain": "metalinguistic",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "-데예",
+            "domain": "dialect",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "functions": [
+            "interrogative"
+          ],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "경북: 세부 분포는 진술 참조"
+            ],
+            "speech_levels": [
+              "해예"
+            ],
+            "registers": [
+              "구술 설화·민요·무가 및 조사 발화"
+            ],
+            "period": [
+              "1978–1984 채록"
+            ],
+            "note": ""
+          },
+          "evidence": [
+            {
+              "pdf_page": 213,
+              "quote": "세요,-시요,-제요,-지요,-까요,-께요비격식체해예체-예,-가예,-네예,-데예,-지예해여체-여,-디여,-래여-201-"
+            }
+          ],
+          "claim_status": "attested_form",
+          "usability": "candidate",
+          "notes": "목록/실례에 나타난 형태. 동일 형태의 다른 문장 기능과 합치지 않으며 결합·화용·등급 이견은 별도 진술과 함께 조회.",
+          "input_binding": {
+            "text": "이 문이 저절로 닫힐까요?",
+            "span": [
+              0,
+              14
+            ],
+            "clause_id": "ADVCE003B:c1",
+            "host_lemma": "닫히다",
+            "ending": "ᆯ까요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "ᆯ까요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "retrieval_route": "clause_function",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        },
+        {
+          "id": "JO2018:v2:informal:0070",
+          "source_id": "JO2018",
+          "type": "ending",
+          "source_pattern": {
+            "text": "종결형: -지예",
+            "domain": "metalinguistic",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "-지예",
+            "domain": "dialect",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "functions": [
+            "interrogative"
+          ],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "경북: 세부 분포는 진술 참조"
+            ],
+            "speech_levels": [
+              "해예"
+            ],
+            "registers": [
+              "구술 설화·민요·무가 및 조사 발화"
+            ],
+            "period": [
+              "1978–1984 채록"
+            ],
+            "note": ""
+          },
+          "evidence": [
+            {
+              "pdf_page": 213,
+              "quote": "시요,-제요,-지요,-까요,-께요비격식체해예체-예,-가예,-네예,-데예,-지예해여체-여,-디여,-래여-201-"
+            }
+          ],
+          "claim_status": "attested_form",
+          "usability": "candidate",
+          "notes": "목록/실례에 나타난 형태. 동일 형태의 다른 문장 기능과 합치지 않으며 결합·화용·등급 이견은 별도 진술과 함께 조회.",
+          "input_binding": {
+            "text": "이 문이 저절로 닫힐까요?",
+            "span": [
+              0,
+              14
+            ],
+            "clause_id": "ADVCE003B:c1",
+            "host_lemma": "닫히다",
+            "ending": "ᆯ까요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "ᆯ까요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "retrieval_route": "clause_function",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+          "source_id": "NAMU_HONORIFICS_20260908",
+          "type": "ending",
+          "source_pattern": {
+            "text": "비격식 높임 종결",
+            "domain": "metalinguistic",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "-어/아예",
+            "domain": "dialect",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "functions": [
+            "declarative",
+            "interrogative",
+            "imperative",
+            "hortative"
+          ],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "2026-09-08 위키 판의 설명. 지역·높임·친밀도 및 세대 범위를 확인한다."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "동남 방언: 개별 진술의 지역 범위 우선"
+            ],
+            "speech_levels": [
+              "해예"
+            ],
+            "registers": [],
+            "period": [],
+            "note": "위키의 직접 서술/재인용. 인용 문헌 및 동영상과 독립적인 근거로 중복 계산하지 않는다."
+          },
+          "evidence": [
+            {
+              "pdf_page": 26,
+              "quote": "해요체 -어/아요 -어/아요 -어/아요 -어/아요\n   해예체 -어/아예 -어/아예 -어/아예 -어/아예"
+            },
+            {
+              "pdf_page": 26,
+              "quote": "평서법 명령법 청유법 의문법\n   해요체 -어/아요 -어/아요 -어/아요 -어/아요\n   해예체 -어/아예 -어/아예 -어/아예 -어/아예\n      -요는 요~여 사이 발음으로 발화되기도 한다\n\n 동남 방언에서 해요체는"
+            }
+          ],
+          "claim_status": "source_generalization",
+          "usability": "candidate",
+          "notes": "",
+          "input_binding": {
+            "text": "이 문이 저절로 닫힐까요?",
+            "span": [
+              0,
+              14
+            ],
+            "clause_id": "ADVCE003B:c1",
+            "host_lemma": "닫히다",
+            "ending": "ᆯ까요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "ᆯ까요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "retrieval_route": "clause_function",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        }
+      ],
+      "graph_paths": []
+    },
+    "v2_graph": {
+      "references": [
+        {
+          "id": "RYU2014:v2:full:0135",
+          "source_id": "RYU2014",
+          "type": "lexical_mapping",
+          "source_pattern": {
+            "text": "저절로",
+            "domain": "standard",
+            "lemma": null,
+            "sense": null,
+            "features": {
+              "pos": "adverb"
+            }
+          },
+          "target_pattern": {
+            "text": "절로",
+            "domain": "dialect",
+            "lemma": null,
+            "sense": null,
+            "features": {
+              "pos": "adverb"
+            }
+          },
+          "functions": [],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위"
+            ],
+            "speech_levels": [],
+            "registers": [],
+            "period": [],
+            "note": "2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다."
+          },
+          "evidence": [
+            {
+              "pdf_page": 27,
+              "quote": "저절로 돈이 생기는 줄\n                   저절로     0    0     절로      절로 움직인다."
+            }
+          ],
+          "claim_status": "source_generalization",
+          "usability": "candidate",
+          "notes": "대조표 예문의 의미에 한정. 다른 동음·다의적 용법과 구별.",
+          "input_binding": {
+            "text": "저절로",
+            "span": [
+              5,
+              8
+            ],
+            "lemma": "저절로",
+            "prefinals": [],
+            "ending": null,
+            "predicate_span": null,
+            "following_particle": null
+          },
+          "retrieval_route": "bound_lexical_mapping",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        },
+        {
+          "id": "JO2018:v2:informal:0066",
+          "source_id": "JO2018",
+          "type": "ending",
+          "source_pattern": {
+            "text": "종결형: -예",
+            "domain": "metalinguistic",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "-예",
+            "domain": "dialect",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "functions": [
+            "interrogative"
+          ],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "경북: 세부 분포는 진술 참조"
+            ],
+            "speech_levels": [
+              "해예"
+            ],
+            "registers": [
+              "구술 설화·민요·무가 및 조사 발화"
+            ],
+            "period": [
+              "1978–1984 채록"
+            ],
+            "note": ""
+          },
+          "evidence": [
+            {
+              "pdf_page": 213,
+              "quote": "라요,해요체-래요,-세요,-시요,-제요,-지요,-까요,-께요비격식체해예체-예,-가예,-네예,-데예,-지예해여체-여,-디여,-래여-201-"
+            }
+          ],
+          "claim_status": "attested_form",
+          "usability": "candidate",
+          "notes": "목록/실례에 나타난 형태. 동일 형태의 다른 문장 기능과 합치지 않으며 결합·화용·등급 이견은 별도 진술과 함께 조회.",
+          "input_binding": {
+            "text": "이 문이 저절로 닫힐까요?",
+            "span": [
+              0,
+              14
+            ],
+            "clause_id": "ADVCE003B:c1",
+            "host_lemma": "닫히다",
+            "ending": "ᆯ까요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "ᆯ까요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "retrieval_route": "clause_function",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        },
+        {
+          "id": "JO2018:v2:informal:0067",
+          "source_id": "JO2018",
+          "type": "ending",
+          "source_pattern": {
+            "text": "종결형: -가예",
+            "domain": "metalinguistic",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "-가예",
+            "domain": "dialect",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "functions": [
+            "interrogative"
+          ],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "경북: 세부 분포는 진술 참조"
+            ],
+            "speech_levels": [
+              "해예"
+            ],
+            "registers": [
+              "구술 설화·민요·무가 및 조사 발화"
+            ],
+            "period": [
+              "1978–1984 채록"
+            ],
+            "note": ""
+          },
+          "evidence": [
+            {
+              "pdf_page": 213,
+              "quote": "해요체-래요,-세요,-시요,-제요,-지요,-까요,-께요비격식체해예체-예,-가예,-네예,-데예,-지예해여체-여,-디여,-래여-201-"
+            }
+          ],
+          "claim_status": "attested_form",
+          "usability": "candidate",
+          "notes": "목록/실례에 나타난 형태. 동일 형태의 다른 문장 기능과 합치지 않으며 결합·화용·등급 이견은 별도 진술과 함께 조회.",
+          "input_binding": {
+            "text": "이 문이 저절로 닫힐까요?",
+            "span": [
+              0,
+              14
+            ],
+            "clause_id": "ADVCE003B:c1",
+            "host_lemma": "닫히다",
+            "ending": "ᆯ까요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "ᆯ까요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "retrieval_route": "clause_function",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        },
+        {
+          "id": "JO2018:v2:informal:0068",
+          "source_id": "JO2018",
+          "type": "ending",
+          "source_pattern": {
+            "text": "종결형: -네예",
+            "domain": "metalinguistic",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "-네예",
+            "domain": "dialect",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "functions": [
+            "interrogative"
+          ],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "경북: 세부 분포는 진술 참조"
+            ],
+            "speech_levels": [
+              "해예"
+            ],
+            "registers": [
+              "구술 설화·민요·무가 및 조사 발화"
+            ],
+            "period": [
+              "1978–1984 채록"
+            ],
+            "note": ""
+          },
+          "evidence": [
+            {
+              "pdf_page": 213,
+              "quote": "래요,-세요,-시요,-제요,-지요,-까요,-께요비격식체해예체-예,-가예,-네예,-데예,-지예해여체-여,-디여,-래여-201-"
+            }
+          ],
+          "claim_status": "attested_form",
+          "usability": "candidate",
+          "notes": "목록/실례에 나타난 형태. 동일 형태의 다른 문장 기능과 합치지 않으며 결합·화용·등급 이견은 별도 진술과 함께 조회.",
+          "input_binding": {
+            "text": "이 문이 저절로 닫힐까요?",
+            "span": [
+              0,
+              14
+            ],
+            "clause_id": "ADVCE003B:c1",
+            "host_lemma": "닫히다",
+            "ending": "ᆯ까요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "ᆯ까요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "retrieval_route": "clause_function",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        },
+        {
+          "id": "JO2018:v2:informal:0069",
+          "source_id": "JO2018",
+          "type": "ending",
+          "source_pattern": {
+            "text": "종결형: -데예",
+            "domain": "metalinguistic",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "-데예",
+            "domain": "dialect",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "functions": [
+            "interrogative"
+          ],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "경북: 세부 분포는 진술 참조"
+            ],
+            "speech_levels": [
+              "해예"
+            ],
+            "registers": [
+              "구술 설화·민요·무가 및 조사 발화"
+            ],
+            "period": [
+              "1978–1984 채록"
+            ],
+            "note": ""
+          },
+          "evidence": [
+            {
+              "pdf_page": 213,
+              "quote": "세요,-시요,-제요,-지요,-까요,-께요비격식체해예체-예,-가예,-네예,-데예,-지예해여체-여,-디여,-래여-201-"
+            }
+          ],
+          "claim_status": "attested_form",
+          "usability": "candidate",
+          "notes": "목록/실례에 나타난 형태. 동일 형태의 다른 문장 기능과 합치지 않으며 결합·화용·등급 이견은 별도 진술과 함께 조회.",
+          "input_binding": {
+            "text": "이 문이 저절로 닫힐까요?",
+            "span": [
+              0,
+              14
+            ],
+            "clause_id": "ADVCE003B:c1",
+            "host_lemma": "닫히다",
+            "ending": "ᆯ까요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "ᆯ까요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "retrieval_route": "clause_function",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        },
+        {
+          "id": "JO2018:v2:informal:0070",
+          "source_id": "JO2018",
+          "type": "ending",
+          "source_pattern": {
+            "text": "종결형: -지예",
+            "domain": "metalinguistic",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "-지예",
+            "domain": "dialect",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "functions": [
+            "interrogative"
+          ],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "1978~1984년 채록 구술 자료. 현대 일상회화에 적용하려면 지역·세대·화용 검토 필요."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "경북: 세부 분포는 진술 참조"
+            ],
+            "speech_levels": [
+              "해예"
+            ],
+            "registers": [
+              "구술 설화·민요·무가 및 조사 발화"
+            ],
+            "period": [
+              "1978–1984 채록"
+            ],
+            "note": ""
+          },
+          "evidence": [
+            {
+              "pdf_page": 213,
+              "quote": "시요,-제요,-지요,-까요,-께요비격식체해예체-예,-가예,-네예,-데예,-지예해여체-여,-디여,-래여-201-"
+            }
+          ],
+          "claim_status": "attested_form",
+          "usability": "candidate",
+          "notes": "목록/실례에 나타난 형태. 동일 형태의 다른 문장 기능과 합치지 않으며 결합·화용·등급 이견은 별도 진술과 함께 조회.",
+          "input_binding": {
+            "text": "이 문이 저절로 닫힐까요?",
+            "span": [
+              0,
+              14
+            ],
+            "clause_id": "ADVCE003B:c1",
+            "host_lemma": "닫히다",
+            "ending": "ᆯ까요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "ᆯ까요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "retrieval_route": "clause_function",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908:v2:full:0124",
+          "source_id": "NAMU_HONORIFICS_20260908",
+          "type": "ending",
+          "source_pattern": {
+            "text": "비격식 높임 종결",
+            "domain": "metalinguistic",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "target_pattern": {
+            "text": "-어/아예",
+            "domain": "dialect",
+            "lemma": null,
+            "sense": null,
+            "features": {}
+          },
+          "functions": [
+            "declarative",
+            "interrogative",
+            "imperative",
+            "hortative"
+          ],
+          "conditions": [],
+          "constraints": [
+            {
+              "kind": "scope",
+              "description": "2026-09-08 위키 판의 설명. 지역·높임·친밀도 및 세대 범위를 확인한다."
+            }
+          ],
+          "scope": {
+            "regions": [
+              "동남 방언: 개별 진술의 지역 범위 우선"
+            ],
+            "speech_levels": [
+              "해예"
+            ],
+            "registers": [],
+            "period": [],
+            "note": "위키의 직접 서술/재인용. 인용 문헌 및 동영상과 독립적인 근거로 중복 계산하지 않는다."
+          },
+          "evidence": [
+            {
+              "pdf_page": 26,
+              "quote": "해요체 -어/아요 -어/아요 -어/아요 -어/아요\n   해예체 -어/아예 -어/아예 -어/아예 -어/아예"
+            },
+            {
+              "pdf_page": 26,
+              "quote": "평서법 명령법 청유법 의문법\n   해요체 -어/아요 -어/아요 -어/아요 -어/아요\n   해예체 -어/아예 -어/아예 -어/아예 -어/아예\n      -요는 요~여 사이 발음으로 발화되기도 한다\n\n 동남 방언에서 해요체는"
+            }
+          ],
+          "claim_status": "source_generalization",
+          "usability": "candidate",
+          "notes": "",
+          "input_binding": {
+            "text": "이 문이 저절로 닫힐까요?",
+            "span": [
+              0,
+              14
+            ],
+            "clause_id": "ADVCE003B:c1",
+            "host_lemma": "닫히다",
+            "ending": "ᆯ까요",
+            "speech_style_preference": {
+              "politeness": "polite",
+              "register": "informal_polite",
+              "source_ending": "ᆯ까요",
+              "basis": "source_terminal_form"
+            }
+          },
+          "retrieval_route": "clause_function",
+          "checks": {
+            "rejected": false,
+            "conditions": [],
+            "review_reasons": [
+              "textual_constraints_require_review",
+              "source_scope_requires_review"
+            ]
+          },
+          "status": "conditional_reference_not_approved_for_generation"
+        }
+      ],
+      "graph_paths": []
+    }
+  },
+  "rejected": [
+    {
+      "id": "JO2018:v2:interrogative:0034",
+      "binding": {
+        "text": "이 문이 저절로 닫힐까요?",
+        "span": [
+          0,
+          14
+        ],
+        "clause_id": "ADVCE003B:c1",
+        "host_lemma": "닫히다",
+        "ending": "ᆯ까요",
+        "speech_style_preference": {
+          "politeness": "polite",
+          "register": "informal_polite",
+          "source_ending": "ᆯ까요",
+          "basis": "source_terminal_form"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [
+          {
+            "owner": "candidate",
+            "field": "pos",
+            "op": "in",
+            "value": [
+              "adjective",
+              "copula"
+            ],
+            "basis": "explicit",
+            "actual": "verb",
+            "status": "failed"
+          }
+        ],
+        "review_reasons": [
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "JO2018:v2:interrogative:0038",
+      "binding": {
+        "text": "이 문이 저절로 닫힐까요?",
+        "span": [
+          0,
+          14
+        ],
+        "clause_id": "ADVCE003B:c1",
+        "host_lemma": "닫히다",
+        "ending": "ᆯ까요",
+        "speech_style_preference": {
+          "politeness": "polite",
+          "register": "informal_polite",
+          "source_ending": "ᆯ까요",
+          "basis": "source_terminal_form"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [],
+        "review_reasons": [
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "JO2018:v2:interrogative:0039",
+      "binding": {
+        "text": "이 문이 저절로 닫힐까요?",
+        "span": [
+          0,
+          14
+        ],
+        "clause_id": "ADVCE003B:c1",
+        "host_lemma": "닫히다",
+        "ending": "ᆯ까요",
+        "speech_style_preference": {
+          "politeness": "polite",
+          "register": "informal_polite",
+          "source_ending": "ᆯ까요",
+          "basis": "source_terminal_form"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [],
+        "review_reasons": [
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "JO2018:v2:interrogative:0040",
+      "binding": {
+        "text": "이 문이 저절로 닫힐까요?",
+        "span": [
+          0,
+          14
+        ],
+        "clause_id": "ADVCE003B:c1",
+        "host_lemma": "닫히다",
+        "ending": "ᆯ까요",
+        "speech_style_preference": {
+          "politeness": "polite",
+          "register": "informal_polite",
+          "source_ending": "ᆯ까요",
+          "basis": "source_terminal_form"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [],
+        "review_reasons": [
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "JO2018:v2:interrogative:0041",
+      "binding": {
+        "text": "이 문이 저절로 닫힐까요?",
+        "span": [
+          0,
+          14
+        ],
+        "clause_id": "ADVCE003B:c1",
+        "host_lemma": "닫히다",
+        "ending": "ᆯ까요",
+        "speech_style_preference": {
+          "politeness": "polite",
+          "register": "informal_polite",
+          "source_ending": "ᆯ까요",
+          "basis": "source_terminal_form"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [],
+        "review_reasons": [
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "JO2018:v2:interrogative:0042",
+      "binding": {
+        "text": "이 문이 저절로 닫힐까요?",
+        "span": [
+          0,
+          14
+        ],
+        "clause_id": "ADVCE003B:c1",
+        "host_lemma": "닫히다",
+        "ending": "ᆯ까요",
+        "speech_style_preference": {
+          "politeness": "polite",
+          "register": "informal_polite",
+          "source_ending": "ᆯ까요",
+          "basis": "source_terminal_form"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [],
+        "review_reasons": [
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "JO2018:v2:interrogative:0043",
+      "binding": {
+        "text": "이 문이 저절로 닫힐까요?",
+        "span": [
+          0,
+          14
+        ],
+        "clause_id": "ADVCE003B:c1",
+        "host_lemma": "닫히다",
+        "ending": "ᆯ까요",
+        "speech_style_preference": {
+          "politeness": "polite",
+          "register": "informal_polite",
+          "source_ending": "ᆯ까요",
+          "basis": "source_terminal_form"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [],
+        "review_reasons": [
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "JO2018:v2:interrogative:0044",
+      "binding": {
+        "text": "이 문이 저절로 닫힐까요?",
+        "span": [
+          0,
+          14
+        ],
+        "clause_id": "ADVCE003B:c1",
+        "host_lemma": "닫히다",
+        "ending": "ᆯ까요",
+        "speech_style_preference": {
+          "politeness": "polite",
+          "register": "informal_polite",
+          "source_ending": "ᆯ까요",
+          "basis": "source_terminal_form"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [],
+        "review_reasons": [
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "JO2018:v2:interrogative:0045",
+      "binding": {
+        "text": "이 문이 저절로 닫힐까요?",
+        "span": [
+          0,
+          14
+        ],
+        "clause_id": "ADVCE003B:c1",
+        "host_lemma": "닫히다",
+        "ending": "ᆯ까요",
+        "speech_style_preference": {
+          "politeness": "polite",
+          "register": "informal_polite",
+          "source_ending": "ᆯ까요",
+          "basis": "source_terminal_form"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [],
+        "review_reasons": [
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:full:0033",
+      "binding": {
+        "text": "이 문이 저절로 닫힐까요?",
+        "span": [
+          0,
+          14
+        ],
+        "clause_id": "ADVCE003B:c1",
+        "host_lemma": "닫히다",
+        "ending": "ᆯ까요",
+        "speech_style_preference": {
+          "politeness": "polite",
+          "register": "informal_polite",
+          "source_ending": "ᆯ까요",
+          "basis": "source_terminal_form"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [
+          {
+            "owner": "candidate",
+            "field": "pos",
+            "op": "eq",
+            "value": "adjective",
+            "basis": "explicit",
+            "actual": "verb",
+            "status": "failed"
+          }
+        ],
+        "review_reasons": [
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:review:0060",
+      "binding": {
+        "text": "이 문이 저절로 닫힐까요?",
+        "span": [
+          0,
+          14
+        ],
+        "clause_id": "ADVCE003B:c1",
+        "host_lemma": "닫히다",
+        "ending": "ᆯ까요",
+        "speech_style_preference": {
+          "politeness": "polite",
+          "register": "informal_polite",
+          "source_ending": "ᆯ까요",
+          "basis": "source_terminal_form"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [
+          {
+            "owner": "target",
+            "field": "speech_level",
+            "op": "eq",
+            "value": "하소체 1형",
+            "basis": "explicit",
+            "actual": null,
+            "status": "unknown"
+          },
+          {
+            "owner": "candidate",
+            "field": "stem_final_class",
+            "op": "eq",
+            "value": "vowel_or_rieul",
+            "basis": "explicit",
+            "actual": null,
+            "status": "unknown"
+          }
+        ],
+        "review_reasons": [
+          "missing_structured_analysis",
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:review:0061",
+      "binding": {
+        "text": "이 문이 저절로 닫힐까요?",
+        "span": [
+          0,
+          14
+        ],
+        "clause_id": "ADVCE003B:c1",
+        "host_lemma": "닫히다",
+        "ending": "ᆯ까요",
+        "speech_style_preference": {
+          "politeness": "polite",
+          "register": "informal_polite",
+          "source_ending": "ᆯ까요",
+          "basis": "source_terminal_form"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [
+          {
+            "owner": "target",
+            "field": "speech_level",
+            "op": "eq",
+            "value": "하소체 1형",
+            "basis": "explicit",
+            "actual": null,
+            "status": "unknown"
+          },
+          {
+            "owner": "candidate",
+            "field": "stem_final_class",
+            "op": "eq",
+            "value": "consonant_except_rieul",
+            "basis": "explicit",
+            "actual": null,
+            "status": "unknown"
+          }
+        ],
+        "review_reasons": [
+          "missing_structured_analysis",
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:review:0067",
+      "binding": {
+        "text": "이 문이 저절로 닫힐까요?",
+        "span": [
+          0,
+          14
+        ],
+        "clause_id": "ADVCE003B:c1",
+        "host_lemma": "닫히다",
+        "ending": "ᆯ까요",
+        "speech_style_preference": {
+          "politeness": "polite",
+          "register": "informal_polite",
+          "source_ending": "ᆯ까요",
+          "basis": "source_terminal_form"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [
+          {
+            "owner": "target",
+            "field": "speech_level",
+            "op": "eq",
+            "value": "하소체 2형",
+            "basis": "explicit",
+            "actual": null,
+            "status": "unknown"
+          },
+          {
+            "owner": "candidate",
+            "field": "stem_final_class",
+            "op": "eq",
+            "value": "vowel_or_rieul",
+            "basis": "explicit",
+            "actual": null,
+            "status": "unknown"
+          }
+        ],
+        "review_reasons": [
+          "missing_structured_analysis",
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:review:0068",
+      "binding": {
+        "text": "이 문이 저절로 닫힐까요?",
+        "span": [
+          0,
+          14
+        ],
+        "clause_id": "ADVCE003B:c1",
+        "host_lemma": "닫히다",
+        "ending": "ᆯ까요",
+        "speech_style_preference": {
+          "politeness": "polite",
+          "register": "informal_polite",
+          "source_ending": "ᆯ까요",
+          "basis": "source_terminal_form"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [
+          {
+            "owner": "target",
+            "field": "speech_level",
+            "op": "eq",
+            "value": "하소체 2형",
+            "basis": "explicit",
+            "actual": null,
+            "status": "unknown"
+          },
+          {
+            "owner": "candidate",
+            "field": "stem_final_class",
+            "op": "eq",
+            "value": "consonant_except_rieul",
+            "basis": "explicit",
+            "actual": null,
+            "status": "unknown"
+          }
+        ],
+        "review_reasons": [
+          "missing_structured_analysis",
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:review:0069",
+      "binding": {
+        "text": "이 문이 저절로 닫힐까요?",
+        "span": [
+          0,
+          14
+        ],
+        "clause_id": "ADVCE003B:c1",
+        "host_lemma": "닫히다",
+        "ending": "ᆯ까요",
+        "speech_style_preference": {
+          "politeness": "polite",
+          "register": "informal_polite",
+          "source_ending": "ᆯ까요",
+          "basis": "source_terminal_form"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [
+          {
+            "owner": "target",
+            "field": "speech_level",
+            "op": "eq",
+            "value": "하소체 2형",
+            "basis": "explicit",
+            "actual": null,
+            "status": "unknown"
+          }
+        ],
+        "review_reasons": [
+          "missing_structured_analysis",
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:review:0075",
+      "binding": {
+        "text": "이 문이 저절로 닫힐까요?",
+        "span": [
+          0,
+          14
+        ],
+        "clause_id": "ADVCE003B:c1",
+        "host_lemma": "닫히다",
+        "ending": "ᆯ까요",
+        "speech_style_preference": {
+          "politeness": "polite",
+          "register": "informal_polite",
+          "source_ending": "ᆯ까요",
+          "basis": "source_terminal_form"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [
+          {
+            "owner": "target",
+            "field": "speech_level",
+            "op": "eq",
+            "value": "하소체 3형",
+            "basis": "explicit",
+            "actual": null,
+            "status": "unknown"
+          }
+        ],
+        "review_reasons": [
+          "missing_structured_analysis",
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:review:0076",
+      "binding": {
+        "text": "이 문이 저절로 닫힐까요?",
+        "span": [
+          0,
+          14
+        ],
+        "clause_id": "ADVCE003B:c1",
+        "host_lemma": "닫히다",
+        "ending": "ᆯ까요",
+        "speech_style_preference": {
+          "politeness": "polite",
+          "register": "informal_polite",
+          "source_ending": "ᆯ까요",
+          "basis": "source_terminal_form"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [
+          {
+            "owner": "target",
+            "field": "speech_level",
+            "op": "eq",
+            "value": "하소체 3형",
+            "basis": "explicit",
+            "actual": null,
+            "status": "unknown"
+          }
+        ],
+        "review_reasons": [
+          "missing_structured_analysis",
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:review:0078",
+      "binding": {
+        "text": "이 문이 저절로 닫힐까요?",
+        "span": [
+          0,
+          14
+        ],
+        "clause_id": "ADVCE003B:c1",
+        "host_lemma": "닫히다",
+        "ending": "ᆯ까요",
+        "speech_style_preference": {
+          "politeness": "polite",
+          "register": "informal_polite",
+          "source_ending": "ᆯ까요",
+          "basis": "source_terminal_form"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [
+          {
+            "owner": "target",
+            "field": "speech_level",
+            "op": "eq",
+            "value": "하이소체",
+            "basis": "explicit",
+            "actual": null,
+            "status": "unknown"
+          }
+        ],
+        "review_reasons": [
+          "missing_structured_analysis",
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:review:0082",
+      "binding": {
+        "text": "이 문이 저절로 닫힐까요?",
+        "span": [
+          0,
+          14
+        ],
+        "clause_id": "ADVCE003B:c1",
+        "host_lemma": "닫히다",
+        "ending": "ᆯ까요",
+        "speech_style_preference": {
+          "politeness": "polite",
+          "register": "informal_polite",
+          "source_ending": "ᆯ까요",
+          "basis": "source_terminal_form"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [
+          {
+            "owner": "target",
+            "field": "speech_level",
+            "op": "eq",
+            "value": "하소체 3형",
+            "basis": "explicit",
+            "actual": null,
+            "status": "unknown"
+          }
+        ],
+        "review_reasons": [
+          "missing_structured_analysis",
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:review:0093",
+      "binding": {
+        "text": "이 문이 저절로 닫힐까요?",
+        "span": [
+          0,
+          14
+        ],
+        "clause_id": "ADVCE003B:c1",
+        "host_lemma": "닫히다",
+        "ending": "ᆯ까요",
+        "speech_style_preference": {
+          "politeness": "polite",
+          "register": "informal_polite",
+          "source_ending": "ᆯ까요",
+          "basis": "source_terminal_form"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [
+          {
+            "owner": "target",
+            "field": "speech_level",
+            "op": "eq",
+            "value": "하이소-하소체",
+            "basis": "explicit",
+            "actual": null,
+            "status": "unknown"
+          }
+        ],
+        "review_reasons": [
+          "missing_structured_analysis",
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:review:0094",
+      "binding": {
+        "text": "이 문이 저절로 닫힐까요?",
+        "span": [
+          0,
+          14
+        ],
+        "clause_id": "ADVCE003B:c1",
+        "host_lemma": "닫히다",
+        "ending": "ᆯ까요",
+        "speech_style_preference": {
+          "politeness": "polite",
+          "register": "informal_polite",
+          "source_ending": "ᆯ까요",
+          "basis": "source_terminal_form"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [
+          {
+            "owner": "target",
+            "field": "speech_level",
+            "op": "eq",
+            "value": "하이소-하소체",
+            "basis": "explicit",
+            "actual": null,
+            "status": "unknown"
+          }
+        ],
+        "review_reasons": [
+          "missing_structured_analysis",
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:review:0095",
+      "binding": {
+        "text": "이 문이 저절로 닫힐까요?",
+        "span": [
+          0,
+          14
+        ],
+        "clause_id": "ADVCE003B:c1",
+        "host_lemma": "닫히다",
+        "ending": "ᆯ까요",
+        "speech_style_preference": {
+          "politeness": "polite",
+          "register": "informal_polite",
+          "source_ending": "ᆯ까요",
+          "basis": "source_terminal_form"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [
+          {
+            "owner": "target",
+            "field": "speech_level",
+            "op": "eq",
+            "value": "하이소-하소체",
+            "basis": "explicit",
+            "actual": null,
+            "status": "unknown"
+          }
+        ],
+        "review_reasons": [
+          "missing_structured_analysis",
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:review:0096",
+      "binding": {
+        "text": "이 문이 저절로 닫힐까요?",
+        "span": [
+          0,
+          14
+        ],
+        "clause_id": "ADVCE003B:c1",
+        "host_lemma": "닫히다",
+        "ending": "ᆯ까요",
+        "speech_style_preference": {
+          "politeness": "polite",
+          "register": "informal_polite",
+          "source_ending": "ᆯ까요",
+          "basis": "source_terminal_form"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [
+          {
+            "owner": "target",
+            "field": "speech_level",
+            "op": "eq",
+            "value": "하이소-하소체",
+            "basis": "explicit",
+            "actual": null,
+            "status": "unknown"
+          }
+        ],
+        "review_reasons": [
+          "missing_structured_analysis",
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:review:0097",
+      "binding": {
+        "text": "이 문이 저절로 닫힐까요?",
+        "span": [
+          0,
+          14
+        ],
+        "clause_id": "ADVCE003B:c1",
+        "host_lemma": "닫히다",
+        "ending": "ᆯ까요",
+        "speech_style_preference": {
+          "politeness": "polite",
+          "register": "informal_polite",
+          "source_ending": "ᆯ까요",
+          "basis": "source_terminal_form"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [
+          {
+            "owner": "target",
+            "field": "speech_level",
+            "op": "eq",
+            "value": "하이소-하소체",
+            "basis": "explicit",
+            "actual": null,
+            "status": "unknown"
+          }
+        ],
+        "review_reasons": [
+          "missing_structured_analysis",
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:review:0098",
+      "binding": {
+        "text": "이 문이 저절로 닫힐까요?",
+        "span": [
+          0,
+          14
+        ],
+        "clause_id": "ADVCE003B:c1",
+        "host_lemma": "닫히다",
+        "ending": "ᆯ까요",
+        "speech_style_preference": {
+          "politeness": "polite",
+          "register": "informal_polite",
+          "source_ending": "ᆯ까요",
+          "basis": "source_terminal_form"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [
+          {
+            "owner": "target",
+            "field": "speech_level",
+            "op": "eq",
+            "value": "하이소-하소체",
+            "basis": "explicit",
+            "actual": null,
+            "status": "unknown"
+          }
+        ],
+        "review_reasons": [
+          "missing_structured_analysis",
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:review:0140",
+      "binding": {
+        "text": "이 문이 저절로 닫힐까요?",
+        "span": [
+          0,
+          14
+        ],
+        "clause_id": "ADVCE003B:c1",
+        "host_lemma": "닫히다",
+        "ending": "ᆯ까요",
+        "speech_style_preference": {
+          "politeness": "polite",
+          "register": "informal_polite",
+          "source_ending": "ᆯ까요",
+          "basis": "source_terminal_form"
+        }
+      },
+      "route": "clause_function",
+      "reason": "rejected_condition_or_usability",
+      "checks": {
+        "rejected": true,
+        "conditions": [
+          {
+            "owner": "input",
+            "field": "question_type",
+            "op": "eq",
+            "value": "content",
+            "basis": "explicit",
+            "actual": "polar",
+            "status": "failed"
+          }
+        ],
+        "review_reasons": [
+          "textual_constraints_require_review",
+          "source_scope_requires_review"
+        ]
+      }
+    }
+  ],
+  "proposal_count": 48,
+  "speech_style_profiles": [
+    {
+      "clause_id": "ADVCE003B:c1",
+      "span": [
+        0,
+        14
+      ],
+      "politeness": "polite",
+      "register": "informal_polite",
+      "source_ending": "ᆯ까요",
+      "basis": "source_terminal_form"
+    }
+  ],
+  "selection_audit": {
+    "v2_direct": {
+      "omitted": [
+        {
+          "id": "JO2018:v2:informal:0071",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 4
+        },
+        {
+          "id": "JO2018:v2:informal:0072",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 4
+        },
+        {
+          "id": "JO2018:v2:informal:0073",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 4
+        },
+        {
+          "id": "JO2018:v2:informal:0051",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0052",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0053",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0054",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0055",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0056",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0057",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0058",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0059",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0060",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0061",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0062",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0063",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0064",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0065",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908:v2:full:0123",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:interrogative:0002",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0003",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0004",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0005",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0006",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0007",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0008",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0009",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0010",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0011",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0012",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0013",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0014",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0015",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0016",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0017",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0018",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0019",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0020",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908:v2:full:0034",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 1
+        },
+        {
+          "id": "JO2018:v2:interrogative:0050",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 1
+        },
+        {
+          "id": "JO2018:v2:interrogative:0051",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 1
+        }
+      ]
+    },
+    "v2_graph": {
+      "omitted": [
+        {
+          "id": "JO2018:v2:informal:0071",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 4
+        },
+        {
+          "id": "JO2018:v2:informal:0072",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 4
+        },
+        {
+          "id": "JO2018:v2:informal:0073",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 4
+        },
+        {
+          "id": "JO2018:v2:informal:0051",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0052",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0053",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0054",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0055",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0056",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0057",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0058",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0059",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0060",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0061",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0062",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0063",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0064",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:informal:0065",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908:v2:full:0123",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 3
+        },
+        {
+          "id": "JO2018:v2:interrogative:0002",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0003",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0004",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0005",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0006",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0007",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0008",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0009",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0010",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0011",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0012",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0013",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0014",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0015",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0016",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0017",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0018",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0019",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "JO2018:v2:interrogative:0020",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 2
+        },
+        {
+          "id": "NAMU_HONORIFICS_20260908:v2:full:0034",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 1
+        },
+        {
+          "id": "JO2018:v2:interrogative:0050",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 1
+        },
+        {
+          "id": "JO2018:v2:interrogative:0051",
+          "span": [
+            0,
+            14
+          ],
+          "reason": "per_binding_cap",
+          "style_rank": 1
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "Morphology and cached semantic analysis are hypotheses.",
+    "Unknown structured conditions excluded; textual scope and sense remain explicit references.",
+    "Speech-style priority is a source-cued retrieval heuristic, not dialect equivalence or generation validation.",
+    "No missing inflections synthesized; generator must preserve unprovided tense/honorific material."
+  ]
+}

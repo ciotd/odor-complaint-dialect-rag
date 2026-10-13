@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "input_revision": "user_revised_20_overwrite",
+  "inputs": 20,
+  "successful_outputs": 20,
+  "analysis_failed_ids": [],
+  "analysis_calls": 21,
+  "translation_calls": 21,
+  "preservation_repairs": 1,
+  "repair_accepted": 0,
+  "production_hashes_unchanged": true,
+  "input_integrity_checked": true,
+  "latest_index_checked": true,
+  "local_links_checked": true,
+  "independent_quality_validation": false
+}

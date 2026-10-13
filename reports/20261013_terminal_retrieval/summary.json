@@ -1,0 +1,51 @@
+{
+  "inputs": 70,
+  "model_calls": 0,
+  "request_changed_inputs": 70,
+  "selected_terminal_spans": 79,
+  "families": {
+    "polite_declarative": 21,
+    "casual_declarative": 9,
+    "polite_question": 8,
+    "casual_question": 5,
+    "polite_modal_or_confirmation": 7,
+    "polite_request": 8,
+    "casual_request": 8,
+    "polite_promise": 10,
+    "casual_permission": 1,
+    "casual_promise": 2
+  },
+  "blocked": [
+    {
+      "id": "ADVCE004A",
+      "status": "blocked",
+      "reason": "ambiguous_seyo_conflicts_with_cached_question; requires_analysis_review",
+      "binding": {
+        "text": "선생님은 매일 이 길로 걸으세요.",
+        "span": [
+          0,
+          18
+        ],
+        "clause_id": "ADVCE004A:c1",
+        "host_lemma": "걷다",
+        "ending": "으세요",
+        "predicate_span": [
+          13,
+          17
+        ],
+        "speech_style_preference": {
+          "politeness": "polite",
+          "register": "informal_polite",
+          "source_ending": "으세요",
+          "basis": "source_terminal_form"
+        }
+      },
+      "source_ending": "으세요"
+    }
+  ],
+  "deprecated_ending_candidates": 0,
+  "same_system_and_sampling": true,
+  "kg_facts": 3767,
+  "generation_status": "prepared_and_inspected_not_generated",
+  "maximum_reference_packet_chars": 22430
+}

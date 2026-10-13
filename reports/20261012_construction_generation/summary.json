@@ -1,0 +1,41 @@
+{
+  "inputs": 70,
+  "generation_calls": 75,
+  "analysis_calls": 0,
+  "repairs_attempted": 5,
+  "repairs_accepted": 1,
+  "changed_requests": [
+    "DEV027",
+    "LONG001",
+    "LONG005",
+    "NEW012",
+    "ADVCE009B"
+  ],
+  "changed_final_outputs": [
+    "DEV008",
+    "LONG001",
+    "LONG005"
+  ],
+  "unchanged_request_but_output_changed": [
+    "DEV008"
+  ],
+  "previous_final_screening": {
+    "any": 6,
+    "high": 4
+  },
+  "new_first_screening": {
+    "any": 7,
+    "high": 5
+  },
+  "new_final_screening": {
+    "any": 6,
+    "high": 4
+  },
+  "not_accuracy": true,
+  "observations": [
+    "DEV027 received quotation candidates but retains 온다고 했어.",
+    "LONG001 changed to 만나자꼬 카었는데: quotation alternatives/inflection are not stably realized.",
+    "LONG005 changes 온다고 to 온다꼬 but retains 묵으려고 하는데.",
+    "Retrieval arrival improved; overall translation improvement is not established."
+  ]
+}

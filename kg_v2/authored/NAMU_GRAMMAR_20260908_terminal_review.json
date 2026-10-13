@@ -1,0 +1,53 @@
+{
+  "source_id": "NAMU_GRAMMAR_20260908",
+  "facts": [
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001",
+      "type": "usage",
+      "source_pattern": {
+        "text": "약속·의도 표현 예",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "target_pattern": {
+        "text": "지는 이만 가보께예.",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {}
+      },
+      "functions": [
+        "intention"
+      ],
+      "conditions": [],
+      "constraints": [
+        {
+          "kind": "scope",
+          "description": "위키의 세부 지역·화자·시대 범위와 해당 어휘 의미를 확인한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "동남 방언: 개별 지역·세대 제한 우선"
+        ],
+        "speech_levels": [
+          "해예"
+        ],
+        "registers": [],
+        "period": [],
+        "note": "2026-09-07 수정판의 서술. 재인용을 독립 근거로 중복 계산하지 않는다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 21,
+          "quote": "자연스러움: 지는 이만 가보께예. 수고 많았심대이. 낼 또 배이시더. 맞다, 어제 들고 오라칸 거 안 디리고 갈 뻔 했네예."
+        }
+      ],
+      "claim_status": "attested_example",
+      "usability": "reference_only",
+      "notes": "원문의 가보께예 예문. 기존 -(으)(ㄹ)께와 예의 조합 근거를 보완한다. 새 동사의 완성형·지역·연령 적합성을 직접 증명하지 않는다."
+    }
+  ]
+}

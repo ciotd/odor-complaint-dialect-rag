@@ -1,0 +1,8 @@
+digraph G {
+graph [rankdir=LR,bgcolor="white",nodesep=.22,ranksep=.5];
+node [shape=box,style="rounded,filled",fillcolor="#eef5fc",fontname="Noto Sans CJK KR",fontsize=12];
+edge [fontname="Noto Sans CJK KR",fontsize=10];
+k[label="지식 항목 1\n먹다 → 묵다",fillcolor="#dce9f5"];s[label="입력 표현\n먹다"];t[label="방언 표현\n묵다"];e[label="원문 근거"];p[label="문헌·페이지"];
+k->s[label="입력 표현"];k->t[label="대응 표현"];k->e[label="근거"];e->p[label="실린 곳"];
+k2[label="지식 항목 2\n묵다 + 고 → 묵고",fillcolor="#dce9f5"];k->k2[label="활용형 연결"];
+}

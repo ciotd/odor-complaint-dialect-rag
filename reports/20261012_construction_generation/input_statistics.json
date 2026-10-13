@@ -1,0 +1,28 @@
+{
+  "all70": {
+    "inputs": 70,
+    "segments_total": 176,
+    "segments_per_input": 2.5142857142857142,
+    "candidates_per_segment": 1.6875,
+    "candidate_array_chars_mean": 2029.4545454545455,
+    "segment_with_shared_fields_chars_mean": 2482.755681818182,
+    "per_input_largest_candidate_array_mean": 2812.1714285714284,
+    "reference_packet_chars_mean": 7857.171428571429,
+    "generation_packet_chars_mean": 7046.242857142857,
+    "user_chars_mean": 10223.457142857143,
+    "system_chars_mean": 113
+  },
+  "previous38": {
+    "inputs": 38,
+    "segments_total": 118,
+    "segments_per_input": 3.1052631578947367,
+    "candidates_per_segment": 1.771186440677966,
+    "candidate_array_chars_mean": 2019.322033898305,
+    "segment_with_shared_fields_chars_mean": 2475.4491525423728,
+    "per_input_largest_candidate_array_mean": 3063.184210526316,
+    "reference_packet_chars_mean": 9695.947368421053,
+    "generation_packet_chars_mean": 8554.28947368421,
+    "user_chars_mean": 12317.052631578947,
+    "system_chars_mean": 113
+  }
+}

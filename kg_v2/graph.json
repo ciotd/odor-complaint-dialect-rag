@@ -9080,7 +9080,8 @@
             "NAMU_GRAMMAR_20260908:v2:review:0147",
             "NAMU_GRAMMAR_20260908:v2:review:0148",
             "NAMU_GRAMMAR_20260908:v2:review:0149",
-            "NAMU_GRAMMAR_20260908:v2:review:0150"
+            "NAMU_GRAMMAR_20260908:v2:review:0150",
+            "NAMU_GRAMMAR_20260908:v2:ending_repair:0001"
           ],
           "note": "본문·표·각주를 읽고 개별 형태/기능/범위 및 미해결 부분을 기록함. 2026-10-12 재검토: 미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
           "gaps": []
@@ -9408,7 +9409,9 @@
             "NAMU_GRAMMAR_20260908:v2:full:0756",
             "NAMU_GRAMMAR_20260908:v2:full:0757",
             "NAMU_GRAMMAR_20260908:v2:full:0758",
-            "NAMU_GRAMMAR_20260908:v2:review:0181"
+            "NAMU_GRAMMAR_20260908:v2:review:0181",
+            "NAMU_GRAMMAR_20260908:v2:ending_repair:0001",
+            "NAMU_GRAMMAR_20260908:v2:ending_repair:0002"
           ],
           "note": "본문·표·각주를 읽고 개별 형태/기능/범위 및 미해결 부분을 기록함. 2026-10-12 재검토: 미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
           "gaps": []
@@ -11377,7 +11380,12 @@
             "NAMU_HONORIFICS_20260908:v2:full:0127",
             "NAMU_HONORIFICS_20260908:v2:full:0128",
             "NAMU_HONORIFICS_20260908:v2:full:0129",
-            "NAMU_HONORIFICS_20260908:v2:review:0118"
+            "NAMU_HONORIFICS_20260908:v2:review:0118",
+            "NAMU_HONORIFICS_20260908:v2:ending_repair:0001",
+            "NAMU_HONORIFICS_20260908:v2:ending_repair:0002",
+            "NAMU_HONORIFICS_20260908:v2:advisory_examples:0001",
+            "NAMU_HONORIFICS_20260908:v2:advisory_examples:0002",
+            "NAMU_HONORIFICS_20260908:v2:advisory_examples:0003"
           ],
           "note": "상대높임법 문헌 전체 페이지를 읽고 해당 페이지의 형식·지역·화용 조건 및 재인용을 구분함. 2026-10-12 재검토: 미추출된 표 셀·의미·지역·각주 제약을 보강하고 기존 사실의 근거를 대조했다. 일반화 불가능한 작성 예문·일반어휘는 페이지 메모/참고용 용례로 보존한다.",
           "gaps": []
@@ -151586,6 +151594,159 @@
       }
     },
     {
+      "id": "NAMU20260901:v2:construction_review:0001",
+      "type": "KnowledgeStatement",
+      "properties": {
+        "id": "NAMU20260901:v2:construction_review:0001",
+        "type": "construction",
+        "functions": [
+          "quotation"
+        ],
+        "conditions": [
+          {
+            "owner": "input",
+            "field": "quotation",
+            "op": "eq",
+            "value": true,
+            "basis": "analyst_interpretation"
+          },
+          {
+            "owner": "input",
+            "field": "adjacent_hada",
+            "op": "eq",
+            "value": true,
+            "basis": "analyst_interpretation"
+          }
+        ],
+        "constraints": [
+          {
+            "kind": "require",
+            "description": "분석자 적용 제한: 인용 어미/조사 -고와 보고 동사 하-의 결합으로 확인된 span에만 사용. 인용 내용·발화 주체·인용 유형·내부/외부 부정·보고 시제·높임·종결을 각각 보존한다."
+          },
+          {
+            "kind": "require",
+            "description": "분석자 적용 제한: 일반 동작 하다, 명사+하다, 나열/연결 -고 하다, 의도 -(으)려고 하다는 이 인용 축약 claim의 적용 대상이 아니다."
+          },
+          {
+            "kind": "scope",
+            "description": "2026-09-01 나무위키 판의 직접 설명. 경북/경남 공통 서술을 현대 모든 지역·세대의 자연스러움 보증으로 확대하지 않는다. 경남 서/중부 쿠 계열과 부산 세대 차이는 별도 근거를 함께 확인한다."
+          }
+        ],
+        "scope": {
+          "regions": [
+            "경북·경남 (원문 설명)"
+          ],
+          "speech_levels": [],
+          "registers": [],
+          "period": [],
+          "note": "source_generalization은 원문의 -고 + 하 = 카 진술에 한정한다. quote-only 조건과 보존 의무는 분석자가 제한한 운영 적용 범위이다."
+        },
+        "claim_status": "source_generalization",
+        "usability": "candidate",
+        "notes": "새 문장 전체 또는 모든 인용 유형의 독립 대역 예문으로 간주하지 않는다. -다고/-자고와의 표면 결합, 카-의 시제/높임 활용은 문헌 예/분석자 합성으로 구별한다. 온다 캤다는 ADV009 모델 조언이며 이 claim에 의해 문헌 attestation이 되지 않는다. NAMU20260901 full0056/0057과 동일 설명에서 추출하므로 독립 근거로 중복 계산하지 않는다.",
+        "source_id": "NAMU20260901",
+        "authoring_file": "authored/NAMU20260901_construction_review.json"
+      }
+    },
+    {
+      "id": "NAMU20260901:v2:construction_review:0001:source",
+      "type": "ExpressionUse",
+      "properties": {
+        "text": "-고 하다",
+        "domain": "standard",
+        "lemma": null,
+        "sense": "인용 내용을 받는 보고 동사 구성",
+        "features": {
+          "match_unit": "quotative_go_hada"
+        },
+        "source_id": "NAMU20260901",
+        "scope": {
+          "regions": [
+            "경북·경남 (원문 설명)"
+          ],
+          "speech_levels": [],
+          "registers": [],
+          "period": [],
+          "note": "source_generalization은 원문의 -고 + 하 = 카 진술에 한정한다. quote-only 조건과 보존 의무는 분석자가 제한한 운영 적용 범위이다."
+        }
+      }
+    },
+    {
+      "id": "NAMU20260901:v2:construction_review:0001:target",
+      "type": "ExpressionUse",
+      "properties": {
+        "text": "-카다",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": "인용 축약 구성의 카-",
+        "features": {},
+        "source_id": "NAMU20260901",
+        "scope": {
+          "regions": [
+            "경북·경남 (원문 설명)"
+          ],
+          "speech_levels": [],
+          "registers": [],
+          "period": [],
+          "note": "source_generalization은 원문의 -고 + 하 = 카 진술에 한정한다. quote-only 조건과 보존 의무는 분석자가 제한한 운영 적용 범위이다."
+        }
+      }
+    },
+    {
+      "id": "NAMU20260901:v2:construction_review:0001:condition:1",
+      "type": "Condition",
+      "properties": {
+        "owner": "input",
+        "field": "quotation",
+        "op": "eq",
+        "value": true,
+        "basis": "analyst_interpretation"
+      }
+    },
+    {
+      "id": "NAMU20260901:v2:construction_review:0001:condition:2",
+      "type": "Condition",
+      "properties": {
+        "owner": "input",
+        "field": "adjacent_hada",
+        "op": "eq",
+        "value": true,
+        "basis": "analyst_interpretation"
+      }
+    },
+    {
+      "id": "NAMU20260901:v2:construction_review:0001:constraint:1",
+      "type": "Constraint",
+      "properties": {
+        "kind": "require",
+        "description": "분석자 적용 제한: 인용 어미/조사 -고와 보고 동사 하-의 결합으로 확인된 span에만 사용. 인용 내용·발화 주체·인용 유형·내부/외부 부정·보고 시제·높임·종결을 각각 보존한다."
+      }
+    },
+    {
+      "id": "NAMU20260901:v2:construction_review:0001:constraint:2",
+      "type": "Constraint",
+      "properties": {
+        "kind": "require",
+        "description": "분석자 적용 제한: 일반 동작 하다, 명사+하다, 나열/연결 -고 하다, 의도 -(으)려고 하다는 이 인용 축약 claim의 적용 대상이 아니다."
+      }
+    },
+    {
+      "id": "NAMU20260901:v2:construction_review:0001:constraint:3",
+      "type": "Constraint",
+      "properties": {
+        "kind": "scope",
+        "description": "2026-09-01 나무위키 판의 직접 설명. 경북/경남 공통 서술을 현대 모든 지역·세대의 자연스러움 보증으로 확대하지 않는다. 경남 서/중부 쿠 계열과 부산 세대 차이는 별도 근거를 함께 확인한다."
+      }
+    },
+    {
+      "id": "NAMU20260901:v2:construction_review:0001:evidence:1",
+      "type": "Evidence",
+      "properties": {
+        "pdf_page": 12,
+        "quote": "그래도 '뭐라고 하노'의 줄임말인 뭐라카노는 경북 경남 모두 자주 쓴다. 경남 서부/중부 지역은 '뭐라쿠노'라고 쓰기도 하는 모\n 양. 즉 '글케 + 하 → 그카', '그러 → 카'는 경북에서 자주 쓰이지만 '-고 + 하 = 카'는 경북 경남 모두 잘 쓰는 말이다."
+      }
+    },
+    {
       "id": "NAMU20260901:v2:full:0001",
       "type": "KnowledgeStatement",
       "properties": {
@@ -198325,6 +198486,312 @@
       "properties": {
         "pdf_page": 17,
         "quote": "동부 일부 하소체: 머라카는 게? / 머라카시는 긴 게?"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001",
+      "type": "KnowledgeStatement",
+      "properties": {
+        "id": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001",
+        "type": "ending",
+        "functions": [
+          "declarative"
+        ],
+        "conditions": [
+          {
+            "owner": "candidate",
+            "field": "lemma",
+            "op": "eq",
+            "value": "이다",
+            "basis": "explicit"
+          },
+          {
+            "owner": "input",
+            "field": "has_prefinals",
+            "op": "eq",
+            "value": false,
+            "basis": "analyst_interpretation"
+          }
+        ],
+        "constraints": [
+          {
+            "kind": "require",
+            "description": "입력의 부정·시제·주체 높임과 명사/어간을 보존하고 명시한 종결 부분만 대응시킨다. 질문을 평서문으로 바꾸지 않는다."
+          },
+          {
+            "kind": "scope",
+            "description": "원문 위키의 지역·세대별 변이이며 모든 경상도 화자의 의무형이 아니다. 해예 사용자는 해요도 사용한다."
+          }
+        ],
+        "scope": {
+          "regions": [
+            "동남 방언: 경북 북부의 -래- 변이 및 세대 차이는 별도"
+          ],
+          "speech_levels": [
+            "해예"
+          ],
+          "registers": [],
+          "period": [],
+          "note": "로컬 PDF 스냅샷의 서술; 독립 화자 검증이 아니다."
+        },
+        "claim_status": "source_generalization",
+        "usability": "candidate",
+        "notes": "원문 대조표의 직접 대응. 계사 이다와 종결어미를 함께 표기한 단위이며 어미 단독 분석과 정규화해 연결한다.",
+        "source_id": "NAMU_GRAMMAR_20260908",
+        "authoring_file": "authored/NAMU_GRAMMAR_20260908_ending_repair.json"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001:source",
+      "type": "ExpressionUse",
+      "properties": {
+        "text": "-이에요",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "match_unit": "terminal_ending"
+        },
+        "source_id": "NAMU_GRAMMAR_20260908",
+        "scope": {
+          "regions": [
+            "동남 방언: 경북 북부의 -래- 변이 및 세대 차이는 별도"
+          ],
+          "speech_levels": [
+            "해예"
+          ],
+          "registers": [],
+          "period": [],
+          "note": "로컬 PDF 스냅샷의 서술; 독립 화자 검증이 아니다."
+        }
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001:target",
+      "type": "ExpressionUse",
+      "properties": {
+        "text": "-이라예",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "realization": "replace_ending_preserve_prefix"
+        },
+        "source_id": "NAMU_GRAMMAR_20260908",
+        "scope": {
+          "regions": [
+            "동남 방언: 경북 북부의 -래- 변이 및 세대 차이는 별도"
+          ],
+          "speech_levels": [
+            "해예"
+          ],
+          "registers": [],
+          "period": [],
+          "note": "로컬 PDF 스냅샷의 서술; 독립 화자 검증이 아니다."
+        }
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001:condition:1",
+      "type": "Condition",
+      "properties": {
+        "owner": "candidate",
+        "field": "lemma",
+        "op": "eq",
+        "value": "이다",
+        "basis": "explicit"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001:condition:2",
+      "type": "Condition",
+      "properties": {
+        "owner": "input",
+        "field": "has_prefinals",
+        "op": "eq",
+        "value": false,
+        "basis": "analyst_interpretation"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001:constraint:1",
+      "type": "Constraint",
+      "properties": {
+        "kind": "require",
+        "description": "입력의 부정·시제·주체 높임과 명사/어간을 보존하고 명시한 종결 부분만 대응시킨다. 질문을 평서문으로 바꾸지 않는다."
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001:constraint:2",
+      "type": "Constraint",
+      "properties": {
+        "kind": "scope",
+        "description": "원문 위키의 지역·세대별 변이이며 모든 경상도 화자의 의무형이 아니다. 해예 사용자는 해요도 사용한다."
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001:evidence:1",
+      "type": "Evidence",
+      "properties": {
+        "pdf_page": 28,
+        "quote": "-이에요                            -이라요/-이라예"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001:evidence:2",
+      "type": "Evidence",
+      "properties": {
+        "pdf_page": 22,
+        "quote": "-이라예 -이랐어예 아이라예 아이랐어예"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002",
+      "type": "KnowledgeStatement",
+      "properties": {
+        "id": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002",
+        "type": "ending",
+        "functions": [
+          "declarative"
+        ],
+        "conditions": [
+          {
+            "owner": "candidate",
+            "field": "lemma",
+            "op": "eq",
+            "value": "이다",
+            "basis": "explicit"
+          },
+          {
+            "owner": "input",
+            "field": "has_prefinals",
+            "op": "eq",
+            "value": false,
+            "basis": "analyst_interpretation"
+          }
+        ],
+        "constraints": [
+          {
+            "kind": "require",
+            "description": "입력의 부정·시제·주체 높임과 명사/어간을 보존하고 명시한 종결 부분만 대응시킨다. 질문을 평서문으로 바꾸지 않는다."
+          },
+          {
+            "kind": "scope",
+            "description": "원문 위키의 지역·세대별 변이이며 모든 경상도 화자의 의무형이 아니다. 해예 사용자는 해요도 사용한다."
+          }
+        ],
+        "scope": {
+          "regions": [
+            "동남 방언: 경북 북부의 -래- 변이 및 세대 차이는 별도"
+          ],
+          "speech_levels": [
+            "해"
+          ],
+          "registers": [],
+          "period": [],
+          "note": "로컬 PDF 스냅샷의 서술; 독립 화자 검증이 아니다."
+        },
+        "claim_status": "source_generalization",
+        "usability": "candidate",
+        "notes": "원문 대조표의 직접 대응. 계사 이다와 종결어미를 함께 표기한 단위이며 어미 단독 분석과 정규화해 연결한다.",
+        "source_id": "NAMU_GRAMMAR_20260908",
+        "authoring_file": "authored/NAMU_GRAMMAR_20260908_ending_repair.json"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002:source",
+      "type": "ExpressionUse",
+      "properties": {
+        "text": "-이야",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "match_unit": "terminal_ending"
+        },
+        "source_id": "NAMU_GRAMMAR_20260908",
+        "scope": {
+          "regions": [
+            "동남 방언: 경북 북부의 -래- 변이 및 세대 차이는 별도"
+          ],
+          "speech_levels": [
+            "해"
+          ],
+          "registers": [],
+          "period": [],
+          "note": "로컬 PDF 스냅샷의 서술; 독립 화자 검증이 아니다."
+        }
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002:target",
+      "type": "ExpressionUse",
+      "properties": {
+        "text": "-이라",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "realization": "replace_ending_preserve_prefix"
+        },
+        "source_id": "NAMU_GRAMMAR_20260908",
+        "scope": {
+          "regions": [
+            "동남 방언: 경북 북부의 -래- 변이 및 세대 차이는 별도"
+          ],
+          "speech_levels": [
+            "해"
+          ],
+          "registers": [],
+          "period": [],
+          "note": "로컬 PDF 스냅샷의 서술; 독립 화자 검증이 아니다."
+        }
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002:condition:1",
+      "type": "Condition",
+      "properties": {
+        "owner": "candidate",
+        "field": "lemma",
+        "op": "eq",
+        "value": "이다",
+        "basis": "explicit"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002:condition:2",
+      "type": "Condition",
+      "properties": {
+        "owner": "input",
+        "field": "has_prefinals",
+        "op": "eq",
+        "value": false,
+        "basis": "analyst_interpretation"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002:constraint:1",
+      "type": "Constraint",
+      "properties": {
+        "kind": "require",
+        "description": "입력의 부정·시제·주체 높임과 명사/어간을 보존하고 명시한 종결 부분만 대응시킨다. 질문을 평서문으로 바꾸지 않는다."
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002:constraint:2",
+      "type": "Constraint",
+      "properties": {
+        "kind": "scope",
+        "description": "원문 위키의 지역·세대별 변이이며 모든 경상도 화자의 의무형이 아니다. 해예 사용자는 해요도 사용한다."
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002:evidence:1",
+      "type": "Evidence",
+      "properties": {
+        "pdf_page": 28,
+        "quote": "-이야                                 -이라"
       }
     },
     {
@@ -375195,6 +375662,640 @@
       }
     },
     {
+      "id": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001",
+      "type": "KnowledgeStatement",
+      "properties": {
+        "id": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001",
+        "type": "usage",
+        "functions": [
+          "intention"
+        ],
+        "conditions": [],
+        "constraints": [
+          {
+            "kind": "scope",
+            "description": "위키의 세부 지역·화자·시대 범위와 해당 어휘 의미를 확인한다."
+          }
+        ],
+        "scope": {
+          "regions": [
+            "동남 방언: 개별 지역·세대 제한 우선"
+          ],
+          "speech_levels": [
+            "해예"
+          ],
+          "registers": [],
+          "period": [],
+          "note": "2026-09-07 수정판의 서술. 재인용을 독립 근거로 중복 계산하지 않는다."
+        },
+        "claim_status": "attested_example",
+        "usability": "reference_only",
+        "notes": "원문의 가보께예 예문. 기존 -(으)(ㄹ)께와 예의 조합 근거를 보완한다. 새 동사의 완성형·지역·연령 적합성을 직접 증명하지 않는다.",
+        "source_id": "NAMU_GRAMMAR_20260908",
+        "authoring_file": "authored/NAMU_GRAMMAR_20260908_terminal_review.json"
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001:source",
+      "type": "ExpressionUse",
+      "properties": {
+        "text": "약속·의도 표현 예",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {},
+        "source_id": "NAMU_GRAMMAR_20260908",
+        "scope": {
+          "regions": [
+            "동남 방언: 개별 지역·세대 제한 우선"
+          ],
+          "speech_levels": [
+            "해예"
+          ],
+          "registers": [],
+          "period": [],
+          "note": "2026-09-07 수정판의 서술. 재인용을 독립 근거로 중복 계산하지 않는다."
+        }
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001:target",
+      "type": "ExpressionUse",
+      "properties": {
+        "text": "지는 이만 가보께예.",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {},
+        "source_id": "NAMU_GRAMMAR_20260908",
+        "scope": {
+          "regions": [
+            "동남 방언: 개별 지역·세대 제한 우선"
+          ],
+          "speech_levels": [
+            "해예"
+          ],
+          "registers": [],
+          "period": [],
+          "note": "2026-09-07 수정판의 서술. 재인용을 독립 근거로 중복 계산하지 않는다."
+        }
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001:constraint:1",
+      "type": "Constraint",
+      "properties": {
+        "kind": "scope",
+        "description": "위키의 세부 지역·화자·시대 범위와 해당 어휘 의미를 확인한다."
+      }
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001:evidence:1",
+      "type": "Evidence",
+      "properties": {
+        "pdf_page": 21,
+        "quote": "자연스러움: 지는 이만 가보께예. 수고 많았심대이. 낼 또 배이시더. 맞다, 어제 들고 오라칸 거 안 디리고 갈 뻔 했네예."
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0001",
+      "type": "KnowledgeStatement",
+      "properties": {
+        "id": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0001",
+        "type": "usage",
+        "functions": [
+          "request",
+          "honorification"
+        ],
+        "conditions": [],
+        "constraints": [
+          {
+            "kind": "uncertainty",
+            "description": "예문의 화행·형태 분해는 문맥 해석이다. 다른 어간의 완성형으로 자동 일반화하지 않는다."
+          }
+        ],
+        "scope": {
+          "regions": [
+            "동남 방언: 원문 범위 확인"
+          ],
+          "speech_levels": [
+            "해예"
+          ],
+          "registers": [],
+          "period": [],
+          "note": ""
+        },
+        "claim_status": "attested_example",
+        "usability": "reference_only",
+        "notes": "네 역할 검토 LIT03의 원문 예문 보완. 표준어 대응쌍이나 보편 결합 규칙으로 기록하지 않음.",
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "authoring_file": "authored/NAMU_HONORIFICS_20260908_advisory_examples.json"
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0001:source",
+      "type": "ExpressionUse",
+      "properties": {
+        "text": "가세예",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {},
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "scope": {
+          "regions": [
+            "동남 방언: 원문 범위 확인"
+          ],
+          "speech_levels": [
+            "해예"
+          ],
+          "registers": [],
+          "period": [],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0001:target",
+      "type": "ExpressionUse",
+      "properties": {
+        "text": "상대에게 과일을 보고 가도록 권하는 문맥의 높임 표현",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {},
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "scope": {
+          "regions": [
+            "동남 방언: 원문 범위 확인"
+          ],
+          "speech_levels": [
+            "해예"
+          ],
+          "registers": [],
+          "period": [],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0001:constraint:1",
+      "type": "Constraint",
+      "properties": {
+        "kind": "uncertainty",
+        "description": "예문의 화행·형태 분해는 문맥 해석이다. 다른 어간의 완성형으로 자동 일반화하지 않는다."
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0001:evidence:1",
+      "type": "Evidence",
+      "properties": {
+        "pdf_page": 26,
+        "quote": "할메, 오랜만이라예. 여~어 와서 과일 함 보시고 가세예."
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0002",
+      "type": "KnowledgeStatement",
+      "properties": {
+        "id": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0002",
+        "type": "usage",
+        "functions": [
+          "interrogative",
+          "request",
+          "honorification"
+        ],
+        "conditions": [],
+        "constraints": [
+          {
+            "kind": "uncertainty",
+            "description": "예문의 화행·형태 분해는 문맥 해석이다. 다른 어간의 완성형으로 자동 일반화하지 않는다."
+          }
+        ],
+        "scope": {
+          "regions": [
+            "동남 방언: 원문 범위 확인"
+          ],
+          "speech_levels": [
+            "해예"
+          ],
+          "registers": [],
+          "period": [],
+          "note": ""
+        },
+        "claim_status": "attested_example",
+        "usability": "reference_only",
+        "notes": "네 역할 검토 LIT03의 원문 예문 보완. 표준어 대응쌍이나 보편 결합 규칙으로 기록하지 않음.",
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "authoring_file": "authored/NAMU_HONORIFICS_20260908_advisory_examples.json"
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0002:source",
+      "type": "ExpressionUse",
+      "properties": {
+        "text": "보실래예",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {},
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "scope": {
+          "regions": [
+            "동남 방언: 원문 범위 확인"
+          ],
+          "speech_levels": [
+            "해예"
+          ],
+          "registers": [],
+          "period": [],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0002:target",
+      "type": "ExpressionUse",
+      "properties": {
+        "text": "맛보기를 권하는 문맥의 의향 질문. 명사 서술 -이래예와 구분",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {},
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "scope": {
+          "regions": [
+            "동남 방언: 원문 범위 확인"
+          ],
+          "speech_levels": [
+            "해예"
+          ],
+          "registers": [],
+          "period": [],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0002:constraint:1",
+      "type": "Constraint",
+      "properties": {
+        "kind": "uncertainty",
+        "description": "예문의 화행·형태 분해는 문맥 해석이다. 다른 어간의 완성형으로 자동 일반화하지 않는다."
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0002:evidence:1",
+      "type": "Evidence",
+      "properties": {
+        "pdf_page": 26,
+        "quote": "한 쪼가리 잡사 보\n      실래예?"
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0003",
+      "type": "KnowledgeStatement",
+      "properties": {
+        "id": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0003",
+        "type": "usage",
+        "functions": [
+          "interrogative",
+          "honorification"
+        ],
+        "conditions": [],
+        "constraints": [
+          {
+            "kind": "uncertainty",
+            "description": "예문의 화행·형태 분해는 문맥 해석이다. 다른 어간의 완성형으로 자동 일반화하지 않는다."
+          }
+        ],
+        "scope": {
+          "regions": [
+            "동남 방언: 원문 범위 확인"
+          ],
+          "speech_levels": [
+            "해예"
+          ],
+          "registers": [],
+          "period": [],
+          "note": ""
+        },
+        "claim_status": "attested_example",
+        "usability": "reference_only",
+        "notes": "네 역할 검토 LIT03의 원문 예문 보완. 표준어 대응쌍이나 보편 결합 규칙으로 기록하지 않음.",
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "authoring_file": "authored/NAMU_HONORIFICS_20260908_advisory_examples.json"
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0003:source",
+      "type": "ExpressionUse",
+      "properties": {
+        "text": "맛있지예",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {},
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "scope": {
+          "regions": [
+            "동남 방언: 원문 범위 확인"
+          ],
+          "speech_levels": [
+            "해예"
+          ],
+          "registers": [],
+          "period": [],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0003:target",
+      "type": "ExpressionUse",
+      "properties": {
+        "text": "맛을 확인하는 질문 문맥. 모든 죠의 의미를 확인 질문으로 단정하지 않음",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {},
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "scope": {
+          "regions": [
+            "동남 방언: 원문 범위 확인"
+          ],
+          "speech_levels": [
+            "해예"
+          ],
+          "registers": [],
+          "period": [],
+          "note": ""
+        }
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0003:constraint:1",
+      "type": "Constraint",
+      "properties": {
+        "kind": "uncertainty",
+        "description": "예문의 화행·형태 분해는 문맥 해석이다. 다른 어간의 완성형으로 자동 일반화하지 않는다."
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0003:evidence:1",
+      "type": "Evidence",
+      "properties": {
+        "pdf_page": 26,
+        "quote": "맛있지예. 하나 더 담아 돌라고예?"
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001",
+      "type": "KnowledgeStatement",
+      "properties": {
+        "id": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001",
+        "type": "ending",
+        "functions": [
+          "declarative",
+          "interrogative",
+          "imperative",
+          "hortative"
+        ],
+        "conditions": [],
+        "constraints": [
+          {
+            "kind": "require",
+            "description": "입력의 부정·시제·주체 높임과 명사/어간을 보존하고 명시한 종결 부분만 대응시킨다. 질문을 평서문으로 바꾸지 않는다."
+          },
+          {
+            "kind": "scope",
+            "description": "원문 위키의 지역·세대별 변이이며 모든 경상도 화자의 의무형이 아니다. 해예 사용자는 해요도 사용한다."
+          }
+        ],
+        "scope": {
+          "regions": [
+            "동남 방언: 경북 북부의 -래- 변이 및 세대 차이는 별도"
+          ],
+          "speech_levels": [
+            "해예"
+          ],
+          "registers": [],
+          "period": [],
+          "note": "로컬 PDF 스냅샷의 서술; 독립 화자 검증이 아니다."
+        },
+        "claim_status": "analyst_interpretation",
+        "usability": "candidate",
+        "notes": "해요체/해예체 표의 대응 열을 정렬해 -아요/-어요를 각각 분리한 분석자 구성이다. 과거 -ㅆ어예는 본문에도 명시되지만 했어예 등 개별 문장은 원문 실례로 주장하지 않는다.",
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "authoring_file": "authored/NAMU_HONORIFICS_20260908_ending_repair.json"
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001:source",
+      "type": "ExpressionUse",
+      "properties": {
+        "text": "-어요",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "match_unit": "terminal_ending"
+        },
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "scope": {
+          "regions": [
+            "동남 방언: 경북 북부의 -래- 변이 및 세대 차이는 별도"
+          ],
+          "speech_levels": [
+            "해예"
+          ],
+          "registers": [],
+          "period": [],
+          "note": "로컬 PDF 스냅샷의 서술; 독립 화자 검증이 아니다."
+        }
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001:target",
+      "type": "ExpressionUse",
+      "properties": {
+        "text": "-어예",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "realization": "replace_ending_preserve_prefix"
+        },
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "scope": {
+          "regions": [
+            "동남 방언: 경북 북부의 -래- 변이 및 세대 차이는 별도"
+          ],
+          "speech_levels": [
+            "해예"
+          ],
+          "registers": [],
+          "period": [],
+          "note": "로컬 PDF 스냅샷의 서술; 독립 화자 검증이 아니다."
+        }
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001:constraint:1",
+      "type": "Constraint",
+      "properties": {
+        "kind": "require",
+        "description": "입력의 부정·시제·주체 높임과 명사/어간을 보존하고 명시한 종결 부분만 대응시킨다. 질문을 평서문으로 바꾸지 않는다."
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001:constraint:2",
+      "type": "Constraint",
+      "properties": {
+        "kind": "scope",
+        "description": "원문 위키의 지역·세대별 변이이며 모든 경상도 화자의 의무형이 아니다. 해예 사용자는 해요도 사용한다."
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001:evidence:1",
+      "type": "Evidence",
+      "properties": {
+        "pdf_page": 26,
+        "quote": "해요체 -어/아요 -어/아요 -어/아요 -어/아요\n   해예체 -어/아예 -어/아예 -어/아예 -어/아예"
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001:evidence:2",
+      "type": "Evidence",
+      "properties": {
+        "pdf_page": 26,
+        "quote": "가끔 '-ㅆ어요/-ㅆ어예'를 '-ㅆ에요/-ㅆ에예'로 발음하기도 한다."
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002",
+      "type": "KnowledgeStatement",
+      "properties": {
+        "id": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002",
+        "type": "ending",
+        "functions": [
+          "declarative",
+          "interrogative",
+          "imperative",
+          "hortative"
+        ],
+        "conditions": [],
+        "constraints": [
+          {
+            "kind": "require",
+            "description": "입력의 부정·시제·주체 높임과 명사/어간을 보존하고 명시한 종결 부분만 대응시킨다. 질문을 평서문으로 바꾸지 않는다."
+          },
+          {
+            "kind": "scope",
+            "description": "원문 위키의 지역·세대별 변이이며 모든 경상도 화자의 의무형이 아니다. 해예 사용자는 해요도 사용한다."
+          }
+        ],
+        "scope": {
+          "regions": [
+            "동남 방언: 경북 북부의 -래- 변이 및 세대 차이는 별도"
+          ],
+          "speech_levels": [
+            "해예"
+          ],
+          "registers": [],
+          "period": [],
+          "note": "로컬 PDF 스냅샷의 서술; 독립 화자 검증이 아니다."
+        },
+        "claim_status": "analyst_interpretation",
+        "usability": "candidate",
+        "notes": "해요체/해예체 표의 대응 열을 정렬해 -아요/-어요를 각각 분리한 분석자 구성이다. 과거 -ㅆ어예는 본문에도 명시되지만 했어예 등 개별 문장은 원문 실례로 주장하지 않는다.",
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "authoring_file": "authored/NAMU_HONORIFICS_20260908_ending_repair.json"
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002:source",
+      "type": "ExpressionUse",
+      "properties": {
+        "text": "-아요",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "match_unit": "terminal_ending"
+        },
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "scope": {
+          "regions": [
+            "동남 방언: 경북 북부의 -래- 변이 및 세대 차이는 별도"
+          ],
+          "speech_levels": [
+            "해예"
+          ],
+          "registers": [],
+          "period": [],
+          "note": "로컬 PDF 스냅샷의 서술; 독립 화자 검증이 아니다."
+        }
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002:target",
+      "type": "ExpressionUse",
+      "properties": {
+        "text": "-아예",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "realization": "replace_ending_preserve_prefix"
+        },
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "scope": {
+          "regions": [
+            "동남 방언: 경북 북부의 -래- 변이 및 세대 차이는 별도"
+          ],
+          "speech_levels": [
+            "해예"
+          ],
+          "registers": [],
+          "period": [],
+          "note": "로컬 PDF 스냅샷의 서술; 독립 화자 검증이 아니다."
+        }
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002:constraint:1",
+      "type": "Constraint",
+      "properties": {
+        "kind": "require",
+        "description": "입력의 부정·시제·주체 높임과 명사/어간을 보존하고 명시한 종결 부분만 대응시킨다. 질문을 평서문으로 바꾸지 않는다."
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002:constraint:2",
+      "type": "Constraint",
+      "properties": {
+        "kind": "scope",
+        "description": "원문 위키의 지역·세대별 변이이며 모든 경상도 화자의 의무형이 아니다. 해예 사용자는 해요도 사용한다."
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002:evidence:1",
+      "type": "Evidence",
+      "properties": {
+        "pdf_page": 26,
+        "quote": "해요체 -어/아요 -어/아요 -어/아요 -어/아요\n   해예체 -어/아예 -어/아예 -어/아예 -어/아예"
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002:evidence:2",
+      "type": "Evidence",
+      "properties": {
+        "pdf_page": 26,
+        "quote": "가끔 '-ㅆ어요/-ㅆ어예'를 '-ㅆ에요/-ㅆ에예'로 발음하기도 한다."
+      }
+    },
+    {
       "id": "NAMU_HONORIFICS_20260908:v2:full:0001",
       "type": "KnowledgeStatement",
       "properties": {
@@ -408545,6 +409646,102 @@
       }
     },
     {
+      "id": "NAMU_HONORIFICS_20260908:v2:terminal_review:0001",
+      "type": "KnowledgeStatement",
+      "properties": {
+        "id": "NAMU_HONORIFICS_20260908:v2:terminal_review:0001",
+        "type": "usage",
+        "functions": [
+          "honorification"
+        ],
+        "conditions": [],
+        "constraints": [
+          {
+            "kind": "scope",
+            "description": "위키의 세부 지역·화자·시대 범위와 해당 어휘 의미를 확인한다."
+          }
+        ],
+        "scope": {
+          "regions": [
+            "원문 예시: 경남 하동"
+          ],
+          "speech_levels": [
+            "해예"
+          ],
+          "registers": [],
+          "period": [],
+          "note": "2026-09-08 위키 전사 예시. 경북40대 사용의 직접 증거가 아님."
+        },
+        "claim_status": "attested_example",
+        "usability": "reference_only",
+        "notes": "하시예의 문헌 예문. 주체 높임 시가 포함된 어형이며 모든 -세요의 기계 치환을 허용하지 않는다.",
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "authoring_file": "authored/NAMU_HONORIFICS_20260908_terminal_review.json"
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:terminal_review:0001:source",
+      "type": "ExpressionUse",
+      "properties": {
+        "text": "주체 높임과 청자 높임의 결합 예",
+        "domain": "metalinguistic",
+        "lemma": null,
+        "sense": null,
+        "features": {},
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "scope": {
+          "regions": [
+            "원문 예시: 경남 하동"
+          ],
+          "speech_levels": [
+            "해예"
+          ],
+          "registers": [],
+          "period": [],
+          "note": "2026-09-08 위키 전사 예시. 경북40대 사용의 직접 증거가 아님."
+        }
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:terminal_review:0001:target",
+      "type": "ExpressionUse",
+      "properties": {
+        "text": "할무이 좋아 하시예?",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {},
+        "source_id": "NAMU_HONORIFICS_20260908",
+        "scope": {
+          "regions": [
+            "원문 예시: 경남 하동"
+          ],
+          "speech_levels": [
+            "해예"
+          ],
+          "registers": [],
+          "period": [],
+          "note": "2026-09-08 위키 전사 예시. 경북40대 사용의 직접 증거가 아님."
+        }
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:terminal_review:0001:constraint:1",
+      "type": "Constraint",
+      "properties": {
+        "kind": "scope",
+        "description": "위키의 세부 지역·화자·시대 범위와 해당 어휘 의미를 확인한다."
+      }
+    },
+    {
+      "id": "NAMU_HONORIFICS_20260908:v2:terminal_review:0001:evidence:1",
+      "type": "Evidence",
+      "properties": {
+        "pdf_page": 9,
+        "quote": "아주머니: 할무이 좋아 하시예?"
+      }
+    },
+    {
       "id": "NAMU_PHONOLOGY_20260908:v2:full:0001",
       "type": "KnowledgeStatement",
       "properties": {
@@ -419549,11 +420746,23 @@
         "id": "RYU2014:v2:full:0007",
         "type": "lexical_mapping",
         "functions": [],
-        "conditions": [],
+        "conditions": [
+          {
+            "owner": "input",
+            "field": "following_particle",
+            "op": "eq",
+            "value": "는",
+            "basis": "explicit"
+          }
+        ],
         "constraints": [
           {
             "kind": "scope",
             "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+          },
+          {
+            "kind": "require",
+            "description": "인용 예의 주제 구문 나+는→내+는에 한정한다. 소유격 나의나 다른 조사 환경으로 자동 확대하지 않는다."
           }
         ],
         "scope": {
@@ -419623,11 +420832,30 @@
       }
     },
     {
+      "id": "RYU2014:v2:full:0007:condition:1",
+      "type": "Condition",
+      "properties": {
+        "owner": "input",
+        "field": "following_particle",
+        "op": "eq",
+        "value": "는",
+        "basis": "explicit"
+      }
+    },
+    {
       "id": "RYU2014:v2:full:0007:constraint:1",
       "type": "Constraint",
       "properties": {
         "kind": "scope",
         "description": "대조표의 해당 용법·조사 세대 범위를 확인한다."
+      }
+    },
+    {
+      "id": "RYU2014:v2:full:0007:constraint:2",
+      "type": "Constraint",
+      "properties": {
+        "kind": "require",
+        "description": "인용 예의 주제 구문 나+는→내+는에 한정한다. 소유격 나의나 다른 조사 환경으로 자동 확대하지 않는다."
       }
     },
     {
@@ -428588,7 +429816,7 @@
         },
         "claim_status": "source_generalization",
         "usability": "reference_only",
-        "notes": "",
+        "notes": "관형형 보존 설명 PDF20과 실제 대응표 PDF21을 함께 확인. 보존 정보로 전달하며 종결형 치환 후보로 사용하지 않는다.",
         "source_id": "RYU2014",
         "authoring_file": "authored/RYU2014_full.json"
       }
@@ -428641,6 +429869,14 @@
       "properties": {
         "pdf_page": 21,
         "quote": "지금 가는 사람은                                       지금 가는 사람이"
+      }
+    },
+    {
+      "id": "RYU2014:v2:full:0098:evidence:2",
+      "type": "Evidence",
+      "properties": {
+        "pdf_page": 20,
+        "quote": "방언에서 관형사형 형태는 표준어와 같다. 그러나 ‘-았던’과\n같은 형태는 방언형에 없었으나 60대에서만 새롭게 쓰고 있다."
       }
     },
     {
@@ -516980,6 +518216,76 @@
       "properties": {}
     },
     {
+      "source": "NAMU20260901:v2:construction_review:0001",
+      "type": "source_expression",
+      "target": "NAMU20260901:v2:construction_review:0001:source",
+      "properties": {}
+    },
+    {
+      "source": "NAMU20260901:v2:construction_review:0001",
+      "type": "target_expression",
+      "target": "NAMU20260901:v2:construction_review:0001:target",
+      "properties": {}
+    },
+    {
+      "source": "NAMU20260901:v2:construction_review:0001:source",
+      "type": "construction_correspondence",
+      "target": "NAMU20260901:v2:construction_review:0001:target",
+      "properties": {
+        "statement_id": "NAMU20260901:v2:construction_review:0001",
+        "claim_status": "source_generalization",
+        "usability": "candidate"
+      }
+    },
+    {
+      "source": "NAMU20260901:v2:construction_review:0001",
+      "type": "requires",
+      "target": "NAMU20260901:v2:construction_review:0001:condition:1",
+      "properties": {}
+    },
+    {
+      "source": "NAMU20260901:v2:construction_review:0001",
+      "type": "requires",
+      "target": "NAMU20260901:v2:construction_review:0001:condition:2",
+      "properties": {}
+    },
+    {
+      "source": "NAMU20260901:v2:construction_review:0001",
+      "type": "has_constraint",
+      "target": "NAMU20260901:v2:construction_review:0001:constraint:1",
+      "properties": {}
+    },
+    {
+      "source": "NAMU20260901:v2:construction_review:0001",
+      "type": "has_constraint",
+      "target": "NAMU20260901:v2:construction_review:0001:constraint:2",
+      "properties": {}
+    },
+    {
+      "source": "NAMU20260901:v2:construction_review:0001",
+      "type": "has_constraint",
+      "target": "NAMU20260901:v2:construction_review:0001:constraint:3",
+      "properties": {}
+    },
+    {
+      "source": "NAMU20260901:v2:construction_review:0001",
+      "type": "describes_function",
+      "target": "function:quotation",
+      "properties": {}
+    },
+    {
+      "source": "NAMU20260901:v2:construction_review:0001",
+      "type": "supported_by",
+      "target": "NAMU20260901:v2:construction_review:0001:evidence:1",
+      "properties": {}
+    },
+    {
+      "source": "NAMU20260901:v2:construction_review:0001:evidence:1",
+      "type": "located_on",
+      "target": "source:NAMU20260901:p12",
+      "properties": {}
+    },
+    {
       "source": "NAMU20260901:v2:full:0001",
       "type": "source_expression",
       "target": "NAMU20260901:v2:full:0001:source",
@@ -540527,6 +541833,146 @@
       "source": "NAMU20260901:v2:review_completion:0227:evidence:1",
       "type": "located_on",
       "target": "source:NAMU20260901:p17",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001",
+      "type": "source_expression",
+      "target": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001:source",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001",
+      "type": "target_expression",
+      "target": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001:target",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001:source",
+      "type": "ending_realization",
+      "target": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001:target",
+      "properties": {
+        "statement_id": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001",
+        "claim_status": "source_generalization",
+        "usability": "candidate"
+      }
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001",
+      "type": "requires",
+      "target": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001:condition:1",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001",
+      "type": "requires",
+      "target": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001:condition:2",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001",
+      "type": "has_constraint",
+      "target": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001:constraint:1",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001",
+      "type": "has_constraint",
+      "target": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001:constraint:2",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001",
+      "type": "describes_function",
+      "target": "function:declarative",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001",
+      "type": "supported_by",
+      "target": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001:evidence:1",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001:evidence:1",
+      "type": "located_on",
+      "target": "source:NAMU_GRAMMAR_20260908:p28",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001",
+      "type": "supported_by",
+      "target": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001:evidence:2",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001:evidence:2",
+      "type": "located_on",
+      "target": "source:NAMU_GRAMMAR_20260908:p22",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002",
+      "type": "source_expression",
+      "target": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002:source",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002",
+      "type": "target_expression",
+      "target": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002:target",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002:source",
+      "type": "ending_realization",
+      "target": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002:target",
+      "properties": {
+        "statement_id": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002",
+        "claim_status": "source_generalization",
+        "usability": "candidate"
+      }
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002",
+      "type": "requires",
+      "target": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002:condition:1",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002",
+      "type": "requires",
+      "target": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002:condition:2",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002",
+      "type": "has_constraint",
+      "target": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002:constraint:1",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002",
+      "type": "has_constraint",
+      "target": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002:constraint:2",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002",
+      "type": "describes_function",
+      "target": "function:declarative",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002",
+      "type": "supported_by",
+      "target": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002:evidence:1",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002:evidence:1",
+      "type": "located_on",
+      "target": "source:NAMU_GRAMMAR_20260908:p28",
       "properties": {}
     },
     {
@@ -633286,6 +634732,378 @@
       "properties": {}
     },
     {
+      "source": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001",
+      "type": "source_expression",
+      "target": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001:source",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001",
+      "type": "target_expression",
+      "target": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001:target",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001:source",
+      "type": "describes_usage",
+      "target": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001:target",
+      "properties": {
+        "statement_id": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001",
+        "claim_status": "attested_example",
+        "usability": "reference_only"
+      }
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001",
+      "type": "has_constraint",
+      "target": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001:constraint:1",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001",
+      "type": "describes_function",
+      "target": "function:intention",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001",
+      "type": "supported_by",
+      "target": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001:evidence:1",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_GRAMMAR_20260908:v2:terminal_review:0001:evidence:1",
+      "type": "located_on",
+      "target": "source:NAMU_GRAMMAR_20260908:p21",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0001",
+      "type": "source_expression",
+      "target": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0001:source",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0001",
+      "type": "target_expression",
+      "target": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0001:target",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0001:source",
+      "type": "describes_usage",
+      "target": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0001:target",
+      "properties": {
+        "statement_id": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0001",
+        "claim_status": "attested_example",
+        "usability": "reference_only"
+      }
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0001",
+      "type": "has_constraint",
+      "target": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0001:constraint:1",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0001",
+      "type": "describes_function",
+      "target": "function:request",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0001",
+      "type": "describes_function",
+      "target": "function:honorification",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0001",
+      "type": "supported_by",
+      "target": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0001:evidence:1",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0001:evidence:1",
+      "type": "located_on",
+      "target": "source:NAMU_HONORIFICS_20260908:p26",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0002",
+      "type": "source_expression",
+      "target": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0002:source",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0002",
+      "type": "target_expression",
+      "target": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0002:target",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0002:source",
+      "type": "describes_usage",
+      "target": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0002:target",
+      "properties": {
+        "statement_id": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0002",
+        "claim_status": "attested_example",
+        "usability": "reference_only"
+      }
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0002",
+      "type": "has_constraint",
+      "target": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0002:constraint:1",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0002",
+      "type": "describes_function",
+      "target": "function:interrogative",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0002",
+      "type": "describes_function",
+      "target": "function:request",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0002",
+      "type": "describes_function",
+      "target": "function:honorification",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0002",
+      "type": "supported_by",
+      "target": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0002:evidence:1",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0002:evidence:1",
+      "type": "located_on",
+      "target": "source:NAMU_HONORIFICS_20260908:p26",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0003",
+      "type": "source_expression",
+      "target": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0003:source",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0003",
+      "type": "target_expression",
+      "target": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0003:target",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0003:source",
+      "type": "describes_usage",
+      "target": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0003:target",
+      "properties": {
+        "statement_id": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0003",
+        "claim_status": "attested_example",
+        "usability": "reference_only"
+      }
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0003",
+      "type": "has_constraint",
+      "target": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0003:constraint:1",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0003",
+      "type": "describes_function",
+      "target": "function:interrogative",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0003",
+      "type": "describes_function",
+      "target": "function:honorification",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0003",
+      "type": "supported_by",
+      "target": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0003:evidence:1",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:advisory_examples:0003:evidence:1",
+      "type": "located_on",
+      "target": "source:NAMU_HONORIFICS_20260908:p26",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001",
+      "type": "source_expression",
+      "target": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001:source",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001",
+      "type": "target_expression",
+      "target": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001:target",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001:source",
+      "type": "ending_realization",
+      "target": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001:target",
+      "properties": {
+        "statement_id": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001",
+        "claim_status": "analyst_interpretation",
+        "usability": "candidate"
+      }
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001",
+      "type": "has_constraint",
+      "target": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001:constraint:1",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001",
+      "type": "has_constraint",
+      "target": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001:constraint:2",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001",
+      "type": "describes_function",
+      "target": "function:declarative",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001",
+      "type": "describes_function",
+      "target": "function:interrogative",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001",
+      "type": "describes_function",
+      "target": "function:imperative",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001",
+      "type": "describes_function",
+      "target": "function:hortative",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001",
+      "type": "supported_by",
+      "target": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001:evidence:1",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001:evidence:1",
+      "type": "located_on",
+      "target": "source:NAMU_HONORIFICS_20260908:p26",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001",
+      "type": "supported_by",
+      "target": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001:evidence:2",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:ending_repair:0001:evidence:2",
+      "type": "located_on",
+      "target": "source:NAMU_HONORIFICS_20260908:p26",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002",
+      "type": "source_expression",
+      "target": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002:source",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002",
+      "type": "target_expression",
+      "target": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002:target",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002:source",
+      "type": "ending_realization",
+      "target": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002:target",
+      "properties": {
+        "statement_id": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002",
+        "claim_status": "analyst_interpretation",
+        "usability": "candidate"
+      }
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002",
+      "type": "has_constraint",
+      "target": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002:constraint:1",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002",
+      "type": "has_constraint",
+      "target": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002:constraint:2",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002",
+      "type": "describes_function",
+      "target": "function:declarative",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002",
+      "type": "describes_function",
+      "target": "function:interrogative",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002",
+      "type": "describes_function",
+      "target": "function:imperative",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002",
+      "type": "describes_function",
+      "target": "function:hortative",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002",
+      "type": "supported_by",
+      "target": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002:evidence:1",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002:evidence:1",
+      "type": "located_on",
+      "target": "source:NAMU_HONORIFICS_20260908:p26",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002",
+      "type": "supported_by",
+      "target": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002:evidence:2",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:ending_repair:0002:evidence:2",
+      "type": "located_on",
+      "target": "source:NAMU_HONORIFICS_20260908:p26",
+      "properties": {}
+    },
+    {
       "source": "NAMU_HONORIFICS_20260908:v2:full:0001",
       "type": "source_expression",
       "target": "NAMU_HONORIFICS_20260908:v2:full:0001:source",
@@ -649980,6 +651798,52 @@
       "properties": {}
     },
     {
+      "source": "NAMU_HONORIFICS_20260908:v2:terminal_review:0001",
+      "type": "source_expression",
+      "target": "NAMU_HONORIFICS_20260908:v2:terminal_review:0001:source",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:terminal_review:0001",
+      "type": "target_expression",
+      "target": "NAMU_HONORIFICS_20260908:v2:terminal_review:0001:target",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:terminal_review:0001:source",
+      "type": "describes_usage",
+      "target": "NAMU_HONORIFICS_20260908:v2:terminal_review:0001:target",
+      "properties": {
+        "statement_id": "NAMU_HONORIFICS_20260908:v2:terminal_review:0001",
+        "claim_status": "attested_example",
+        "usability": "reference_only"
+      }
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:terminal_review:0001",
+      "type": "has_constraint",
+      "target": "NAMU_HONORIFICS_20260908:v2:terminal_review:0001:constraint:1",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:terminal_review:0001",
+      "type": "describes_function",
+      "target": "function:honorification",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:terminal_review:0001",
+      "type": "supported_by",
+      "target": "NAMU_HONORIFICS_20260908:v2:terminal_review:0001:evidence:1",
+      "properties": {}
+    },
+    {
+      "source": "NAMU_HONORIFICS_20260908:v2:terminal_review:0001:evidence:1",
+      "type": "located_on",
+      "target": "source:NAMU_HONORIFICS_20260908:p9",
+      "properties": {}
+    },
+    {
       "source": "NAMU_PHONOLOGY_20260908:v2:full:0001",
       "type": "source_expression",
       "target": "NAMU_PHONOLOGY_20260908:v2:full:0001:source",
@@ -655203,8 +657067,20 @@
     },
     {
       "source": "RYU2014:v2:full:0007",
+      "type": "requires",
+      "target": "RYU2014:v2:full:0007:condition:1",
+      "properties": {}
+    },
+    {
+      "source": "RYU2014:v2:full:0007",
       "type": "has_constraint",
       "target": "RYU2014:v2:full:0007:constraint:1",
+      "properties": {}
+    },
+    {
+      "source": "RYU2014:v2:full:0007",
+      "type": "has_constraint",
+      "target": "RYU2014:v2:full:0007:constraint:2",
       "properties": {}
     },
     {
@@ -659235,6 +661111,18 @@
       "source": "RYU2014:v2:full:0098:evidence:1",
       "type": "located_on",
       "target": "source:RYU2014:p21",
+      "properties": {}
+    },
+    {
+      "source": "RYU2014:v2:full:0098",
+      "type": "supported_by",
+      "target": "RYU2014:v2:full:0098:evidence:2",
+      "properties": {}
+    },
+    {
+      "source": "RYU2014:v2:full:0098:evidence:2",
+      "type": "located_on",
+      "target": "source:RYU2014:p20",
       "properties": {}
     },
     {

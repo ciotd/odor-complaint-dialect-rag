@@ -1,0 +1,72 @@
+{
+  "id": "DEV014",
+  "input": "아까 왜 아무 말도 안 했어?",
+  "condition": "B",
+  "request": {
+    "model": "Qwen3.8-27B",
+    "max_tokens": 512,
+    "temperature": 0.3,
+    "top_p": 0.8,
+    "top_k": 20,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "seed": 20260923,
+    "messages": [
+      {
+        "role": "system",
+        "content": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요."
+      },
+      {
+        "role": "user",
+        "content": "standard를 자연스러운 경상도 방언으로 변환하세요. analysis와 source_morphology는 원문 분석의 가설이며 원문이 우선입니다. references와 graph_paths는 원문 구간에 결속한 조건부 참고 자료입니다. 의미·지역·시대·높임·결합 조건이 맞는 자료를 선택하고 관련 없는 자료는 사용하지 마세요. 조건 미확인은 적용 허용이 아니며 연결된 진술끼리 조건을 상속하지 않습니다. 기본형 대응과 완성 활용형을 구별하고 원문의 부정·시제·높임·인용·발화 의도를 유지하세요. 표에 없는 활용형은 표에 실린 확인형으로 주장하지 마세요. 원문에 없는 내용을 추가하지 말고 변환한 발화만 출력하세요.\n{\"standard\":\"아까 왜 아무 말도 안 했어?\",\"analysis\":[{\"text\":\"아까 왜 아무 말도 안 했어?\",\"span\":[0,16],\"role\":\"main\",\"features\":{\"host_pos\":\"verb\",\"sentence_type\":\"interrogative\",\"question_type\":\"content\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"하다\",\"stem_vowel\":\"a\",\"stem_coda\":\"absent\",\"subject_person\":\"second\",\"response_orientation\":\"addressee\"},\"observed_politeness\":\"non_polite\",\"observed_subject_honorific\":\"not_observed\",\"tense_or_modality\":\"past\",\"preserved_candidate_features\":{\"prefinal_profile\":\"switching_prefinal_present\",\"preceding_form\":\"-었-\"}}],\"source_morphology\":{\"tokens\":[{\"form\":\"아까\",\"tag\":\"MAG\",\"span\":[0,2],\"surface\":\"아까\"},{\"form\":\"왜\",\"tag\":\"MAG\",\"span\":[3,4],\"surface\":\"왜\"},{\"form\":\"아무\",\"tag\":\"MM\",\"span\":[5,7],\"surface\":\"아무\"},{\"form\":\"말\",\"tag\":\"NNG\",\"span\":[8,9],\"surface\":\"말\"},{\"form\":\"도\",\"tag\":\"JX\",\"span\":[9,10],\"surface\":\"도\"},{\"form\":\"안\",\"tag\":\"MAG\",\"span\":[11,12],\"surface\":\"안\"},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[13,14],\"surface\":\"했\"},{\"form\":\"었\",\"tag\":\"EP\",\"span\":[13,14],\"surface\":\"했\"},{\"form\":\"어\",\"tag\":\"EF\",\"span\":[14,15],\"surface\":\"어\"},{\"form\":\"?\",\"tag\":\"SF\",\"span\":[15,16],\"surface\":\"?\"}],\"words\":[{\"form\":\"아까\",\"tag\":\"MAG\",\"span\":[0,2],\"surface\":\"아까\",\"lemma\":\"아까\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":0},{\"form\":\"왜\",\"tag\":\"MAG\",\"span\":[3,4],\"surface\":\"왜\",\"lemma\":\"왜\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":1},{\"form\":\"말\",\"tag\":\"NNG\",\"span\":[8,9],\"surface\":\"말\",\"lemma\":\"말\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":3},{\"form\":\"안\",\"tag\":\"MAG\",\"span\":[11,12],\"surface\":\"안\",\"lemma\":\"안\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":5},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[13,14],\"surface\":\"했\",\"lemma\":\"하다\",\"pos\":\"verb\",\"prefinals\":[\"었\"],\"ending\":\"어\",\"ending_tag\":\"EF\",\"token_index\":6,\"predicate_span\":[13,15]}],\"status\":\"Kiwi_hypotheses_not_gold\"},\"references\":[{\"id\":\"NAMU_GRAMMAR_20260908:v2:full:0334\",\"source_id\":\"NAMU_GRAMMAR_20260908\",\"type\":\"ending\",\"source_pattern\":{\"text\":\"계사 의문 + 시제/회상\",\"domain\":\"metalinguistic\",\"lemma\":null,\"sense\":null,\"features\":{}},\"target_pattern\":{\"text\":\"-노\",\"domain\":\"dialect\",\"lemma\":null,\"sense\":null,\"features\":{}},\"functions\":[\"content_question\"],\"conditions\":[{\"owner\":\"input\",\"field\":\"question_type\",\"op\":\"eq\",\"value\":\"content\",\"basis\":\"explicit\"},{\"owner\":\"candidate\",\"field\":\"tense_or_retrospective_suffix\",\"op\":\"eq\",\"value\":true,\"basis\":\"explicit\"}],\"constraints\":[{\"kind\":\"scope\",\"description\":\"위키의 세부 지역·화자·시대 범위와 해당 어휘 의미를 확인한다.\"}],\"scope\":{\"regions\":[\"동남 방언: 개별 지역·세대 제한 우선\"],\"speech_levels\":[\"해라\"],\"registers\":[],\"period\":[],\"note\":\"2026-09-07 수정판의 서술. 재인용을 독립 근거로 중복 계산하지 않는다.\"},\"evidence\":[{\"pdf_page\":11,\"quote\":\"', '-더-' 등 선어말 어미가 붙으면 어말 어미가 ㄴ 계열 어미로 바뀐다. 단, 주체 높임법에 쓰이는 '-시-'는 그대로 '-가', '-고'가\\n 이어진다. 전자와 후자가 함께 붙을 경우에는 전자의 규칙을 우선한다.\"}],\"claim_status\":\"source_generalization\",\"usability\":\"candidate\",\"notes\":\"시만 붙은 경우 ㄱ 유지; 시와 과거·겠·더 동시 결합은 ㄴ 우선. 8쪽 표와 설명상의 긴장을 보존.\",\"input_binding\":{\"text\":\"아까 왜 아무 말도 안 했어?\",\"span\":[0,16],\"clause_id\":\"DEV014:c1\",\"host_lemma\":\"하다\",\"ending\":\"어\",\"speech_style_preference\":{\"politeness\":\"non_polite\",\"register\":\"unknown\",\"source_ending\":\"어\",\"basis\":\"cached_politeness_only\"}},\"retrieval_route\":\"clause_function\",\"checks\":{\"rejected\":false,\"conditions\":[{\"owner\":\"input\",\"field\":\"question_type\",\"op\":\"eq\",\"value\":\"content\",\"basis\":\"explicit\",\"actual\":\"content\",\"status\":\"satisfied\"},{\"owner\":\"candidate\",\"field\":\"tense_or_retrospective_suffix\",\"op\":\"eq\",\"value\":true,\"basis\":\"explicit\",\"actual\":true,\"status\":\"satisfied\"}],\"review_reasons\":[\"textual_constraints_require_review\",\"source_scope_requires_review\"]},\"status\":\"conditional_reference_not_approved_for_generation\"},{\"id\":\"NAMU_GRAMMAR_20260908:v2:full:0323\",\"source_id\":\"NAMU_GRAMMAR_20260908\",\"type\":\"construction\",\"source_pattern\":{\"text\":\"뭐 먹었어?\",\"domain\":\"standard\",\"lemma\":null,\"sense\":null,\"features\":{}},\"target_pattern\":{\"text\":\"머 무웄노?\",\"domain\":\"dialect\",\"lemma\":null,\"sense\":null,\"features\":{}},\"functions\":[\"content_question\"],\"conditions\":[{\"owner\":\"input\",\"field\":\"question_type\",\"op\":\"eq\",\"value\":\"content\",\"basis\":\"explicit\"}],\"constraints\":[{\"kind\":\"scope\",\"description\":\"위키의 세부 지역·화자·시대 범위와 해당 어휘 의미를 확인한다.\"}],\"scope\":{\"regions\":[\"동남 방언: 개별 지역·세대 제한 우선\"],\"speech_levels\":[\"해라\"],\"registers\":[],\"period\":[],\"note\":\"2026-09-07 수정판의 서술. 재인용을 독립 근거로 중복 계산하지 않는다.\"},\"evidence\":[{\"pdf_page\":9,\"quote\":\"A: 머 무웄노? (뭐 먹었어?)\\n      B: 까자 하나 무웄다. (과자 하나 먹었어.)\"}],\"claim_status\":\"attested_example\",\"usability\":\"candidate\",\"notes\":\"\",\"input_binding\":{\"text\":\"아까 왜 아무 말도 안 했어?\",\"span\":[0,16],\"clause_id\":\"DEV014:c1\",\"host_lemma\":\"하다\",\"ending\":\"어\",\"speech_style_preference\":{\"politeness\":\"non_polite\",\"register\":\"unknown\",\"source_ending\":\"어\",\"basis\":\"cached_politeness_only\"}},\"retrieval_route\":\"clause_function\",\"checks\":{\"rejected\":false,\"conditions\":[{\"owner\":\"input\",\"field\":\"question_type\",\"op\":\"eq\",\"value\":\"content\",\"basis\":\"explicit\",\"actual\":\"content\",\"status\":\"satisfied\"}],\"review_reasons\":[\"textual_constraints_require_review\",\"source_scope_requires_review\"]},\"status\":\"conditional_reference_not_approved_for_generation\"},{\"id\":\"NAMU_GRAMMAR_20260908:v2:full:0344\",\"source_id\":\"NAMU_GRAMMAR_20260908\",\"type\":\"ending\",\"source_pattern\":{\"text\":\"-(으)ㄹ까\",\"domain\":\"standard\",\"lemma\":null,\"sense\":null,\"features\":{}},\"target_pattern\":{\"text\":\"-(으)꼬\",\"domain\":\"dialect\",\"lemma\":null,\"sense\":null,\"features\":{}},\"functions\":[\"content_question\"],\"conditions\":[{\"owner\":\"input\",\"field\":\"question_type\",\"op\":\"eq\",\"value\":\"content\",\"basis\":\"explicit\"}],\"constraints\":[{\"kind\":\"scope\",\"description\":\"위키의 세부 지역·화자·시대 범위와 해당 어휘 의미를 확인한다.\"}],\"scope\":{\"regions\":[\"동남 방언: 개별 지역·세대 제한 우선\"],\"speech_levels\":[],\"registers\":[],\"period\":[],\"note\":\"2026-09-07 수정판의 서술. 재인용을 독립 근거로 중복 계산하지 않는다.\"},\"evidence\":[{\"pdf_page\":12,\"quote\":\"먼저 표준어 '-(으)ㄹ까'에 해당하는 '-(으)ㄹ꼬/-(으)ㄹ까'이다. ㄹ이 탈락된다.\\n     ‘-(으)까, -(으)ㄹ까’\"}],\"claim_status\":\"source_generalization\",\"usability\":\"candidate\",\"notes\":\"ㄹ 탈락형. 고→꼬의 무조건 교체와 구분.\",\"input_binding\":{\"text\":\"아까 왜 아무 말도 안 했어?\",\"span\":[0,16],\"clause_id\":\"DEV014:c1\",\"host_lemma\":\"하다\",\"ending\":\"어\",\"speech_style_preference\":{\"politeness\":\"non_polite\",\"register\":\"unknown\",\"source_ending\":\"어\",\"basis\":\"cached_politeness_only\"}},\"retrieval_route\":\"clause_function\",\"checks\":{\"rejected\":false,\"conditions\":[{\"owner\":\"input\",\"field\":\"question_type\",\"op\":\"eq\",\"value\":\"content\",\"basis\":\"explicit\",\"actual\":\"content\",\"status\":\"satisfied\"}],\"review_reasons\":[\"textual_constraints_require_review\",\"source_scope_requires_review\"]},\"status\":\"conditional_reference_not_approved_for_generation\"},{\"id\":\"NAMU_GRAMMAR_20260908:v2:full:0342\",\"source_id\":\"NAMU_GRAMMAR_20260908\",\"type\":\"ending\",\"source_pattern\":{\"text\":\"-지?\",\"domain\":\"standard\",\"lemma\":null,\"sense\":null,\"features\":{}},\"target_pattern\":{\"text\":\"-지\",\"domain\":\"dialect\",\"lemma\":null,\"sense\":null,\"features\":{}},\"functions\":[\"content_question\"],\"conditions\":[{\"owner\":\"input\",\"field\":\"question_type\",\"op\":\"eq\",\"value\":\"content\",\"basis\":\"explicit\"}],\"constraints\":[{\"kind\":\"scope\",\"description\":\"위키의 세부 지역·화자·시대 범위와 해당 어휘 의미를 확인한다.\"}],\"scope\":{\"regions\":[\"경북 북부 제외\"],\"speech_levels\":[],\"registers\":[],\"period\":[],\"note\":\"2026-09-07 수정판의 서술. 재인용을 독립 근거로 중복 계산하지 않는다.\"},\"evidence\":[{\"pdf_page\":12,\"quote\":\"경북 북부를 제외한 방언권은 '-지'가 판정 의문문에서 '-제', 설명 의문문에서 '-지'로 나타난다.\\n        판정 의문문\"}],\"claim_status\":\"source_generalization\",\"usability\":\"candidate\",\"notes\":\"\",\"input_binding\":{\"text\":\"아까 왜 아무 말도 안 했어?\",\"span\":[0,16],\"clause_id\":\"DEV014:c1\",\"host_lemma\":\"하다\",\"ending\":\"어\",\"speech_style_preference\":{\"politeness\":\"non_polite\",\"register\":\"unknown\",\"source_ending\":\"어\",\"basis\":\"cached_politeness_only\"}},\"retrieval_route\":\"clause_function\",\"checks\":{\"rejected\":false,\"conditions\":[{\"owner\":\"input\",\"field\":\"question_type\",\"op\":\"eq\",\"value\":\"content\",\"basis\":\"explicit\",\"actual\":\"content\",\"status\":\"satisfied\"}],\"review_reasons\":[\"textual_constraints_require_review\",\"source_scope_requires_review\"]},\"status\":\"conditional_reference_not_approved_for_generation\"},{\"id\":\"NAMU_HONORIFICS_20260908:v2:full:0121\",\"source_id\":\"NAMU_HONORIFICS_20260908\",\"type\":\"ending\",\"source_pattern\":{\"text\":\"설명 의문 종결\",\"domain\":\"metalinguistic\",\"lemma\":null,\"sense\":null,\"features\":{}},\"target_pattern\":{\"text\":\"-네\",\"domain\":\"dialect\",\"lemma\":null,\"sense\":null,\"features\":{}},\"functions\":[\"content_question\"],\"conditions\":[],\"constraints\":[{\"kind\":\"scope\",\"description\":\"2026-09-08 위키 판의 설명. 지역·높임·친밀도 및 세대 범위를 확인한다.\"}],\"scope\":{\"regions\":[\"진주\",\"하동 및 인근\"],\"speech_levels\":[\"해라\"],\"registers\":[],\"period\":[],\"note\":\"위키의 직접 서술/재인용. 인용 문헌 및 동영상과 독립적인 근거로 중복 계산하지 않는다.\"},\"evidence\":[{\"pdf_page\":25,\"quote\":\"'-네'는 경상남도 서부에 있는 진주시와 남서부 끝에 있는 하동군과 주위에서 자주 쓰는 의문형 어미로, -(이)가/(이)고/나/노\\n 와 더불어 쓰인다. 어떤 이는 '-는데?'가 줄어들어서 생긴 용법으로 본다. 이게 신빙성이 있는 게 '-는데?'는 '-노?, -(이)고?'가\"}],\"claim_status\":\"source_generalization\",\"usability\":\"candidate\",\"notes\":\"\",\"input_binding\":{\"text\":\"아까 왜 아무 말도 안 했어?\",\"span\":[0,16],\"clause_id\":\"DEV014:c1\",\"host_lemma\":\"하다\",\"ending\":\"어\",\"speech_style_preference\":{\"politeness\":\"non_polite\",\"register\":\"unknown\",\"source_ending\":\"어\",\"basis\":\"cached_politeness_only\"}},\"retrieval_route\":\"clause_function\",\"checks\":{\"rejected\":false,\"conditions\":[],\"review_reasons\":[\"textual_constraints_require_review\",\"source_scope_requires_review\"]},\"status\":\"conditional_reference_not_approved_for_generation\"},{\"id\":\"NAMU_HONORIFICS_20260908:v2:full:0120\",\"source_id\":\"NAMU_HONORIFICS_20260908\",\"type\":\"ending\",\"source_pattern\":{\"text\":\"설명 의문 종결\",\"domain\":\"metalinguistic\",\"lemma\":null,\"sense\":null,\"features\":{}},\"target_pattern\":{\"text\":\"-나\",\"domain\":\"dialect\",\"lemma\":null,\"sense\":null,\"features\":{}},\"functions\":[\"content_question\"],\"conditions\":[],\"constraints\":[{\"kind\":\"scope\",\"description\":\"2026-09-08 위키 판의 설명. 지역·높임·친밀도 및 세대 범위를 확인한다.\"}],\"scope\":{\"regions\":[\"의령\",\"김천\",\"대구 일부\"],\"speech_levels\":[],\"registers\":[],\"period\":[],\"note\":\"위키의 직접 서술/재인용. 인용 문헌 및 동영상과 독립적인 근거로 중복 계산하지 않는다.\"},\"evidence\":[{\"pdf_page\":25,\"quote\":\"할머니: 머 무섭나? 한질[84]에게 사람이 짜드르[85] 때~애기[86] 쌓는데. 무섭기야 머 무섭나? (다른 지역에서는 원래\\n      '-노'가 들어갈 자리이다.)\"}],\"claim_status\":\"secondary_report\",\"usability\":\"candidate\",\"notes\":\"개별 전사/보고. 나/노 대립의 전 지역 소멸을 의미하지 않음.\",\"input_binding\":{\"text\":\"아까 왜 아무 말도 안 했어?\",\"span\":[0,16],\"clause_id\":\"DEV014:c1\",\"host_lemma\":\"하다\",\"ending\":\"어\",\"speech_style_preference\":{\"politeness\":\"non_polite\",\"register\":\"unknown\",\"source_ending\":\"어\",\"basis\":\"cached_politeness_only\"}},\"retrieval_route\":\"clause_function\",\"checks\":{\"rejected\":false,\"conditions\":[],\"review_reasons\":[\"textual_constraints_require_review\",\"source_scope_requires_review\",\"claim_status_requires_review\"]},\"status\":\"conditional_reference_not_approved_for_generation\"}],\"graph_paths\":[]}"
+      }
+    ]
+  },
+  "status": "success",
+  "attempts": [
+    {
+      "seconds": 1.0802474431693554,
+      "response": {
+        "id": "chatcmpl-81c90781a04ee121",
+        "object": "chat.completion",
+        "created": 1791789795,
+        "model": "Qwen3.8-27B",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "아까 왜 아무 말도 안 했노?",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.27.1-51f03443",
+        "usage": {
+          "prompt_tokens": 3625,
+          "total_tokens": 3636,
+          "completion_tokens": 11,
+          "prompt_tokens_details": null
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    }
+  ],
+  "output": "아까 왜 아무 말도 안 했노?"
+}

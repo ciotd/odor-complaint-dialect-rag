@@ -1,0 +1,148 @@
+{
+  "id": "NEW009",
+  "input": "동생이 좋아하는 과자를 가방에 넣었어.",
+  "condition": "terminal_function_retrieval",
+  "request": {
+    "model": "Qwen3.8-27B",
+    "max_tokens": 512,
+    "temperature": 0.3,
+    "top_p": 0.8,
+    "top_k": 20,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "seed": 20260923,
+    "messages": [
+      {
+        "role": "system",
+        "content": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요."
+      },
+      {
+        "role": "user",
+        "content": "standard를 자연스러운 경상도 방언으로 변환하세요. analysis와 source_morphology는 원문 분석의 가설이며 원문이 우선입니다. transformation_plan 또는 references와 graph_paths는 조건부 참고 자료입니다. 의미·지역·시대·높임·결합 조건이 맞는 자료를 선택하고 관련 없는 자료는 사용하지 마세요. 조건 미확인은 적용 허용이 아니며 연결된 진술끼리 조건을 상속하지 않습니다. 기본형 대응과 완성 활용형을 구별하고 원문의 부정·시제·높임·인용·발화 의도를 유지하세요. preservation의 관형절·겸양·주체와 청자 높임·이동 관점 보존을 어휘 치환보다 우선하세요. 모델 조언 후보는 원문 확인형이 아니며 불확실하면 원문의 구조를 보존하세요. 표에 없는 활용형은 표에 실린 확인형으로 주장하지 마세요. 원문에 없는 내용을 추가하지 말고 변환한 발화만 출력하세요.\n{\"standard\":\"동생이 좋아하는 과자를 가방에 넣었어.\",\"analysis\":[{\"text\":\"동생이 좋아하는 과자를 가방에 넣었어.\",\"span\":[0,21],\"role\":\"main\",\"features\":{\"host_pos\":\"verb\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"넣다\",\"sentence_type\":\"declarative\",\"stem_vowel\":\"a\",\"stem_coda\":\"absent\"},\"observed_politeness\":\"non_polite\",\"observed_subject_honorific\":\"not_observed\",\"tense_or_modality\":\"past\",\"preserved_candidate_features\":{\"prefinal_profile\":\"switching_prefinal_present\",\"preceding_form\":\"-었-\"}}],\"source_morphology\":{\"tokens\":[{\"form\":\"동생\",\"tag\":\"NNG\",\"span\":[0,2],\"surface\":\"동생\"},{\"form\":\"이\",\"tag\":\"JKS\",\"span\":[2,3],\"surface\":\"이\"},{\"form\":\"좋아하\",\"tag\":\"VV\",\"span\":[4,7],\"surface\":\"좋아하\"},{\"form\":\"는\",\"tag\":\"ETM\",\"span\":[7,8],\"surface\":\"는\"},{\"form\":\"과자\",\"tag\":\"NNG\",\"span\":[9,11],\"surface\":\"과자\"},{\"form\":\"를\",\"tag\":\"JKO\",\"span\":[11,12],\"surface\":\"를\"},{\"form\":\"가방\",\"tag\":\"NNG\",\"span\":[13,15],\"surface\":\"가방\"},{\"form\":\"에\",\"tag\":\"JKB\",\"span\":[15,16],\"surface\":\"에\"},{\"form\":\"넣\",\"tag\":\"VV\",\"span\":[17,18],\"surface\":\"넣\"},{\"form\":\"었\",\"tag\":\"EP\",\"span\":[18,19],\"surface\":\"었\"},{\"form\":\"어\",\"tag\":\"EF\",\"span\":[19,20],\"surface\":\"어\"},{\"form\":\".\",\"tag\":\"SF\",\"span\":[20,21],\"surface\":\".\"}],\"words\":[{\"form\":\"동생\",\"tag\":\"NNG\",\"span\":[0,2],\"surface\":\"동생\",\"lemma\":\"동생\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":0},{\"form\":\"좋아하\",\"tag\":\"VV\",\"span\":[4,7],\"surface\":\"좋아하\",\"lemma\":\"좋아하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"는\",\"ending_tag\":\"ETM\",\"token_index\":2,\"predicate_span\":[4,8]},{\"form\":\"과자\",\"tag\":\"NNG\",\"span\":[9,11],\"surface\":\"과자\",\"lemma\":\"과자\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":4},{\"form\":\"가방\",\"tag\":\"NNG\",\"span\":[13,15],\"surface\":\"가방\",\"lemma\":\"가방\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":6},{\"form\":\"넣\",\"tag\":\"VV\",\"span\":[17,18],\"surface\":\"넣\",\"lemma\":\"넣다\",\"pos\":\"verb\",\"prefinals\":[\"었\"],\"ending\":\"어\",\"ending_tag\":\"EF\",\"token_index\":8,\"predicate_span\":[17,20]}],\"status\":\"Kiwi_hypotheses_not_gold\"},\"transformation_plan\":[{\"target_text\":\"동생이 좋아하는 과자를 가방에 넣었어.\",\"span\":[0,21],\"preserve\":[{\"features\":{\"host_pos\":\"verb\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"넣다\",\"sentence_type\":\"declarative\",\"speech_act\":null,\"subject_person\":null,\"stem_vowel\":\"a\",\"stem_coda\":\"absent\"},\"listener_politeness\":\"non_polite\",\"subject_honorific\":\"not_observed\",\"tense_or_modality\":\"past\"}],\"candidates\":[{\"id\":\"PLAN:terminal:casual_declarative:어\",\"source_id\":\"COMPOSED_FROM_KG\",\"type\":\"ending\",\"source_pattern\":{\"text\":\"-어\",\"domain\":\"standard\",\"lemma\":null,\"sense\":null,\"features\":{\"match_unit\":\"terminal_ending\"}},\"target_pattern\":{\"text\":\"-다\",\"domain\":\"dialect\",\"lemma\":null,\"sense\":null,\"features\":{\"realization\":\"function_bound_terminal_plan\"}},\"functions\":[\"declarative\"],\"conditions\":[{\"owner\":\"input\",\"field\":\"sentence_type\",\"op\":\"eq\",\"value\":\"declarative\",\"basis\":\"analyst_interpretation\"}],\"constraints\":[{\"kind\":\"require\",\"description\":\"원문의 시제·부정·높임·화행을 보존하고 명시된 종결 구간만 바꾼다.\"},{\"kind\":\"scope\",\"description\":\"사용자가 요청한 종결 계열 우선 정책. 문헌의 지역·시대 제한을 현대 경북40대 전체의 보편 규칙으로 확대하지 않는다.\"}],\"scope\":{\"regions\":[\"경북: 세부 분포는 진술 참조\"],\"speech_levels\":[\"해라\"],\"registers\":[],\"period\":[],\"note\":\"여러 종결 계열의 선택은 운영 정책이며 문헌의 동일 높임 등급 주장과 다르다.\"},\"claim_status\":\"analyst_interpretation\",\"notes\":\"문헌의 구성요소를 원문 구간에 조합한 계획. 완성형 전체가 문헌 예문이라는 뜻이 아니다.\",\"binding\":{\"text\":\"동생이 좋아하는 과자를 가방에 넣었어.\",\"span\":[0,21],\"clause_id\":\"NEW009:c1\",\"host_lemma\":\"넣다\",\"ending\":\"어\",\"predicate_span\":[17,20],\"speech_style_preference\":{\"politeness\":\"non_polite\",\"register\":\"unknown\",\"source_ending\":\"어\",\"basis\":\"cached_politeness_only\"},\"ending_conversion\":{\"family\":\"casual_declarative\",\"status\":\"derived_surface_not_attested_complete_utterance\",\"source_text\":\"넣었어\",\"source_span\":[17,20],\"preferred_surface\":\"넣었다\",\"source_morphemes\":[\"넣\",\"었\",\"어\"],\"preserve_prefinals\":[\"었\"],\"supporting_fact_ids\":[\"JO2018:v2:declarative:0105\"],\"support_checks\":[{\"id\":\"JO2018:v2:declarative:0105\",\"role\":\"rule\",\"conditions\":[]}],\"analysis_notes\":[],\"instruction\":\"선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다.\"}},\"origin\":\"documentary_components_with_analyst_composition\",\"evidence_pages\":[{\"source_id\":\"JO2018\",\"pdf_page\":109}],\"supporting_fact_ids\":[\"JO2018:v2:declarative:0105\"]}]},{\"target_text\":\"넣\",\"span\":[17,18],\"preserve\":[{\"features\":{\"host_pos\":\"verb\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"넣다\",\"sentence_type\":\"declarative\",\"speech_act\":null,\"subject_person\":null,\"stem_vowel\":\"a\",\"stem_coda\":\"absent\"},\"listener_politeness\":\"non_polite\",\"subject_honorific\":\"not_observed\",\"tense_or_modality\":\"past\"}],\"candidates\":[{\"id\":\"NAMU_GRAMMAR_20260908:v2:full:0959\",\"source_id\":\"NAMU_GRAMMAR_20260908\",\"type\":\"lexical_mapping\",\"source_pattern\":{\"text\":\"넣다\",\"domain\":\"standard\",\"lemma\":\"넣다\",\"sense\":\"넣다\",\"features\":{}},\"target_pattern\":{\"text\":\"옇다\",\"domain\":\"dialect\",\"lemma\":\"옇다\",\"sense\":\"넣다\",\"features\":{}},\"functions\":[],\"conditions\":[],\"constraints\":[{\"kind\":\"scope\",\"description\":\"위키의 세부 지역·화자·시대 범위와 해당 어휘 의미를 확인한다.\"}],\"scope\":{\"regions\":[\"동남 방언: 개별 지역·세대 제한 우선\"],\"speech_levels\":[],\"registers\":[],\"period\":[],\"note\":\"2026-09-07 수정판의 서술. 재인용을 독립 근거로 중복 계산하지 않는다.\"},\"claim_status\":\"source_generalization\",\"notes\":\"어휘표의 뜻 열을 대응 의미로 사용. 어원 열의 추정을 의미 대응과 혼동하지 않는다.\",\"binding\":{\"text\":\"넣\",\"span\":[17,18],\"lemma\":\"넣다\",\"prefinals\":[\"었\"],\"ending\":\"어\",\"predicate_span\":[17,20],\"following_particle\":null},\"origin\":\"documentary_KG\",\"evidence_pages\":[{\"source_id\":\"NAMU_GRAMMAR_20260908\",\"pdf_page\":37},{\"source_id\":\"NAMU_GRAMMAR_20260908\",\"pdf_page\":37}]}]}],\"graph_paths\":[],\"preservation\":{\"origin\":\"reviewed_preservation_policy_not_dialect_rule\",\"relative_clauses\":[{\"text\":\"좋아하는\",\"span\":[4,8],\"lemma\":\"좋아하다\",\"ending\":\"는\",\"prefinals\":[],\"instruction\":\"관형절 역할과 이 구간 자체의 시제·상을 보존한다. 종결형으로 바꾸거나 주절 과거를 복사하지 않는다.\"}],\"supporting_knowledge\":[{\"id\":\"RYU2014:v2:full:0098\",\"usability\":\"reference_only\",\"role\":\"preservation_support_not_transformation\",\"description\":\"관형사형은 표준어와 같다는 본문 기술과 -았던의 세대 차이; 가는의 -는을 -다로 바꾸는 근거가 아님\",\"source_id\":\"RYU2014\",\"evidence_pages\":[20,21],\"scope\":{\"regions\":[\"경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위\"],\"speech_levels\":[],\"registers\":[],\"period\":[],\"note\":\"2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다.\"}}],\"invariants\":[\"원문의 명제·부정·시제·화행과 모든 절을 유지한다.\",\"청자 높임, 주체 높임, 저/제의 겸양을 각각 보존한다. 주어를 호격으로 바꾸지 않는다.\",\"가는/오는 이동 관점과 먼저의 시간 순서를 보존한다. 앞에의 시간 용법 자체는 금지하지 않는다.\",\"인용 내용과 보고 서술부의 시제를 구분한다. 회상 -대를 표면형만 보고 전언으로 판단하지 않는다.\"],\"source_honorific_predicates\":[],\"terminal_analysis_review\":[]},\"plan_policy\":\"후보는 모두 적용할 목록이 아니라 대안이다. 어휘보다 의미·높임·시제·문장 역할 보존을 우선한다. 종결은 ending_conversion의 family와 preferred_surface를 우선 사용하며 같은 끝에 여러 종결을 겹쳐 붙이지 않는다. preferred_surface는 원래 어간 기준의 조합안이고 방언 어간을 선택하면 그 어간에 맞춰 활용한다. 문헌 구성요소와 분석자 조합·완성형을 구분한다. 원문에 맞는 후보만 사용한다. MODEL_ADVICE는 원문에서 직접 확인된 완성형이 아닌 모델 조합 제안이다. 보존용 지식은 치환 규칙이 아니다.\"}"
+      }
+    ]
+  },
+  "status": "success",
+  "response": {
+    "id": "chatcmpl-a658a86029c414ac",
+    "object": "chat.completion",
+    "created": 1791853111,
+    "model": "Qwen3.8-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "동생이 좋아하는 과자를 가방에 옇었어.",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.27.1-51f03443",
+    "usage": {
+      "prompt_tokens": 2632,
+      "total_tokens": 2646,
+      "completion_tokens": 14,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  },
+  "first_output": "동생이 좋아하는 과자를 가방에 옇었어.",
+  "first_check": {
+    "status": "no_screening_flags",
+    "flags": [],
+    "repair_required": false,
+    "not_accuracy": true
+  },
+  "output": "동생이 좋아하는 과자를 가방에 옇었어.",
+  "final_check": {
+    "status": "no_screening_flags",
+    "flags": [],
+    "repair_required": false,
+    "not_accuracy": true
+  },
+  "repair_attempted": false,
+  "selection": "first_pass",
+  "calls": [
+    {
+      "request": {
+        "model": "Qwen3.8-27B",
+        "max_tokens": 512,
+        "temperature": 0.3,
+        "top_p": 0.8,
+        "top_k": 20,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "seed": 20260923,
+        "messages": [
+          {
+            "role": "system",
+            "content": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요."
+          },
+          {
+            "role": "user",
+            "content": "standard를 자연스러운 경상도 방언으로 변환하세요. analysis와 source_morphology는 원문 분석의 가설이며 원문이 우선입니다. transformation_plan 또는 references와 graph_paths는 조건부 참고 자료입니다. 의미·지역·시대·높임·결합 조건이 맞는 자료를 선택하고 관련 없는 자료는 사용하지 마세요. 조건 미확인은 적용 허용이 아니며 연결된 진술끼리 조건을 상속하지 않습니다. 기본형 대응과 완성 활용형을 구별하고 원문의 부정·시제·높임·인용·발화 의도를 유지하세요. preservation의 관형절·겸양·주체와 청자 높임·이동 관점 보존을 어휘 치환보다 우선하세요. 모델 조언 후보는 원문 확인형이 아니며 불확실하면 원문의 구조를 보존하세요. 표에 없는 활용형은 표에 실린 확인형으로 주장하지 마세요. 원문에 없는 내용을 추가하지 말고 변환한 발화만 출력하세요.\n{\"standard\":\"동생이 좋아하는 과자를 가방에 넣었어.\",\"analysis\":[{\"text\":\"동생이 좋아하는 과자를 가방에 넣었어.\",\"span\":[0,21],\"role\":\"main\",\"features\":{\"host_pos\":\"verb\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"넣다\",\"sentence_type\":\"declarative\",\"stem_vowel\":\"a\",\"stem_coda\":\"absent\"},\"observed_politeness\":\"non_polite\",\"observed_subject_honorific\":\"not_observed\",\"tense_or_modality\":\"past\",\"preserved_candidate_features\":{\"prefinal_profile\":\"switching_prefinal_present\",\"preceding_form\":\"-었-\"}}],\"source_morphology\":{\"tokens\":[{\"form\":\"동생\",\"tag\":\"NNG\",\"span\":[0,2],\"surface\":\"동생\"},{\"form\":\"이\",\"tag\":\"JKS\",\"span\":[2,3],\"surface\":\"이\"},{\"form\":\"좋아하\",\"tag\":\"VV\",\"span\":[4,7],\"surface\":\"좋아하\"},{\"form\":\"는\",\"tag\":\"ETM\",\"span\":[7,8],\"surface\":\"는\"},{\"form\":\"과자\",\"tag\":\"NNG\",\"span\":[9,11],\"surface\":\"과자\"},{\"form\":\"를\",\"tag\":\"JKO\",\"span\":[11,12],\"surface\":\"를\"},{\"form\":\"가방\",\"tag\":\"NNG\",\"span\":[13,15],\"surface\":\"가방\"},{\"form\":\"에\",\"tag\":\"JKB\",\"span\":[15,16],\"surface\":\"에\"},{\"form\":\"넣\",\"tag\":\"VV\",\"span\":[17,18],\"surface\":\"넣\"},{\"form\":\"었\",\"tag\":\"EP\",\"span\":[18,19],\"surface\":\"었\"},{\"form\":\"어\",\"tag\":\"EF\",\"span\":[19,20],\"surface\":\"어\"},{\"form\":\".\",\"tag\":\"SF\",\"span\":[20,21],\"surface\":\".\"}],\"words\":[{\"form\":\"동생\",\"tag\":\"NNG\",\"span\":[0,2],\"surface\":\"동생\",\"lemma\":\"동생\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":0},{\"form\":\"좋아하\",\"tag\":\"VV\",\"span\":[4,7],\"surface\":\"좋아하\",\"lemma\":\"좋아하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"는\",\"ending_tag\":\"ETM\",\"token_index\":2,\"predicate_span\":[4,8]},{\"form\":\"과자\",\"tag\":\"NNG\",\"span\":[9,11],\"surface\":\"과자\",\"lemma\":\"과자\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":4},{\"form\":\"가방\",\"tag\":\"NNG\",\"span\":[13,15],\"surface\":\"가방\",\"lemma\":\"가방\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":6},{\"form\":\"넣\",\"tag\":\"VV\",\"span\":[17,18],\"surface\":\"넣\",\"lemma\":\"넣다\",\"pos\":\"verb\",\"prefinals\":[\"었\"],\"ending\":\"어\",\"ending_tag\":\"EF\",\"token_index\":8,\"predicate_span\":[17,20]}],\"status\":\"Kiwi_hypotheses_not_gold\"},\"transformation_plan\":[{\"target_text\":\"동생이 좋아하는 과자를 가방에 넣었어.\",\"span\":[0,21],\"preserve\":[{\"features\":{\"host_pos\":\"verb\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"넣다\",\"sentence_type\":\"declarative\",\"speech_act\":null,\"subject_person\":null,\"stem_vowel\":\"a\",\"stem_coda\":\"absent\"},\"listener_politeness\":\"non_polite\",\"subject_honorific\":\"not_observed\",\"tense_or_modality\":\"past\"}],\"candidates\":[{\"id\":\"PLAN:terminal:casual_declarative:어\",\"source_id\":\"COMPOSED_FROM_KG\",\"type\":\"ending\",\"source_pattern\":{\"text\":\"-어\",\"domain\":\"standard\",\"lemma\":null,\"sense\":null,\"features\":{\"match_unit\":\"terminal_ending\"}},\"target_pattern\":{\"text\":\"-다\",\"domain\":\"dialect\",\"lemma\":null,\"sense\":null,\"features\":{\"realization\":\"function_bound_terminal_plan\"}},\"functions\":[\"declarative\"],\"conditions\":[{\"owner\":\"input\",\"field\":\"sentence_type\",\"op\":\"eq\",\"value\":\"declarative\",\"basis\":\"analyst_interpretation\"}],\"constraints\":[{\"kind\":\"require\",\"description\":\"원문의 시제·부정·높임·화행을 보존하고 명시된 종결 구간만 바꾼다.\"},{\"kind\":\"scope\",\"description\":\"사용자가 요청한 종결 계열 우선 정책. 문헌의 지역·시대 제한을 현대 경북40대 전체의 보편 규칙으로 확대하지 않는다.\"}],\"scope\":{\"regions\":[\"경북: 세부 분포는 진술 참조\"],\"speech_levels\":[\"해라\"],\"registers\":[],\"period\":[],\"note\":\"여러 종결 계열의 선택은 운영 정책이며 문헌의 동일 높임 등급 주장과 다르다.\"},\"claim_status\":\"analyst_interpretation\",\"notes\":\"문헌의 구성요소를 원문 구간에 조합한 계획. 완성형 전체가 문헌 예문이라는 뜻이 아니다.\",\"binding\":{\"text\":\"동생이 좋아하는 과자를 가방에 넣었어.\",\"span\":[0,21],\"clause_id\":\"NEW009:c1\",\"host_lemma\":\"넣다\",\"ending\":\"어\",\"predicate_span\":[17,20],\"speech_style_preference\":{\"politeness\":\"non_polite\",\"register\":\"unknown\",\"source_ending\":\"어\",\"basis\":\"cached_politeness_only\"},\"ending_conversion\":{\"family\":\"casual_declarative\",\"status\":\"derived_surface_not_attested_complete_utterance\",\"source_text\":\"넣었어\",\"source_span\":[17,20],\"preferred_surface\":\"넣었다\",\"source_morphemes\":[\"넣\",\"었\",\"어\"],\"preserve_prefinals\":[\"었\"],\"supporting_fact_ids\":[\"JO2018:v2:declarative:0105\"],\"support_checks\":[{\"id\":\"JO2018:v2:declarative:0105\",\"role\":\"rule\",\"conditions\":[]}],\"analysis_notes\":[],\"instruction\":\"선택한 종결 계열과 원문 시제·주체 높임을 유지한다. preferred_surface는 표준어 어간을 보존한 조합안이며 방언 어휘를 선택하면 어간에 맞춰 활용한다. 겹친 종결 대안을 중복 적용하지 않는다. 명사 앞 구간에는 적용하지 않는다.\"}},\"origin\":\"documentary_components_with_analyst_composition\",\"evidence_pages\":[{\"source_id\":\"JO2018\",\"pdf_page\":109}],\"supporting_fact_ids\":[\"JO2018:v2:declarative:0105\"]}]},{\"target_text\":\"넣\",\"span\":[17,18],\"preserve\":[{\"features\":{\"host_pos\":\"verb\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"넣다\",\"sentence_type\":\"declarative\",\"speech_act\":null,\"subject_person\":null,\"stem_vowel\":\"a\",\"stem_coda\":\"absent\"},\"listener_politeness\":\"non_polite\",\"subject_honorific\":\"not_observed\",\"tense_or_modality\":\"past\"}],\"candidates\":[{\"id\":\"NAMU_GRAMMAR_20260908:v2:full:0959\",\"source_id\":\"NAMU_GRAMMAR_20260908\",\"type\":\"lexical_mapping\",\"source_pattern\":{\"text\":\"넣다\",\"domain\":\"standard\",\"lemma\":\"넣다\",\"sense\":\"넣다\",\"features\":{}},\"target_pattern\":{\"text\":\"옇다\",\"domain\":\"dialect\",\"lemma\":\"옇다\",\"sense\":\"넣다\",\"features\":{}},\"functions\":[],\"conditions\":[],\"constraints\":[{\"kind\":\"scope\",\"description\":\"위키의 세부 지역·화자·시대 범위와 해당 어휘 의미를 확인한다.\"}],\"scope\":{\"regions\":[\"동남 방언: 개별 지역·세대 제한 우선\"],\"speech_levels\":[],\"registers\":[],\"period\":[],\"note\":\"2026-09-07 수정판의 서술. 재인용을 독립 근거로 중복 계산하지 않는다.\"},\"claim_status\":\"source_generalization\",\"notes\":\"어휘표의 뜻 열을 대응 의미로 사용. 어원 열의 추정을 의미 대응과 혼동하지 않는다.\",\"binding\":{\"text\":\"넣\",\"span\":[17,18],\"lemma\":\"넣다\",\"prefinals\":[\"었\"],\"ending\":\"어\",\"predicate_span\":[17,20],\"following_particle\":null},\"origin\":\"documentary_KG\",\"evidence_pages\":[{\"source_id\":\"NAMU_GRAMMAR_20260908\",\"pdf_page\":37},{\"source_id\":\"NAMU_GRAMMAR_20260908\",\"pdf_page\":37}]}]}],\"graph_paths\":[],\"preservation\":{\"origin\":\"reviewed_preservation_policy_not_dialect_rule\",\"relative_clauses\":[{\"text\":\"좋아하는\",\"span\":[4,8],\"lemma\":\"좋아하다\",\"ending\":\"는\",\"prefinals\":[],\"instruction\":\"관형절 역할과 이 구간 자체의 시제·상을 보존한다. 종결형으로 바꾸거나 주절 과거를 복사하지 않는다.\"}],\"supporting_knowledge\":[{\"id\":\"RYU2014:v2:full:0098\",\"usability\":\"reference_only\",\"role\":\"preservation_support_not_transformation\",\"description\":\"관형사형은 표준어와 같다는 본문 기술과 -았던의 세대 차이; 가는의 -는을 -다로 바꾸는 근거가 아님\",\"source_id\":\"RYU2014\",\"evidence_pages\":[20,21],\"scope\":{\"regions\":[\"경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위\"],\"speech_levels\":[],\"registers\":[],\"period\":[],\"note\":\"2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다.\"}}],\"invariants\":[\"원문의 명제·부정·시제·화행과 모든 절을 유지한다.\",\"청자 높임, 주체 높임, 저/제의 겸양을 각각 보존한다. 주어를 호격으로 바꾸지 않는다.\",\"가는/오는 이동 관점과 먼저의 시간 순서를 보존한다. 앞에의 시간 용법 자체는 금지하지 않는다.\",\"인용 내용과 보고 서술부의 시제를 구분한다. 회상 -대를 표면형만 보고 전언으로 판단하지 않는다.\"],\"source_honorific_predicates\":[],\"terminal_analysis_review\":[]},\"plan_policy\":\"후보는 모두 적용할 목록이 아니라 대안이다. 어휘보다 의미·높임·시제·문장 역할 보존을 우선한다. 종결은 ending_conversion의 family와 preferred_surface를 우선 사용하며 같은 끝에 여러 종결을 겹쳐 붙이지 않는다. preferred_surface는 원래 어간 기준의 조합안이고 방언 어간을 선택하면 그 어간에 맞춰 활용한다. 문헌 구성요소와 분석자 조합·완성형을 구분한다. 원문에 맞는 후보만 사용한다. MODEL_ADVICE는 원문에서 직접 확인된 완성형이 아닌 모델 조합 제안이다. 보존용 지식은 치환 규칙이 아니다.\"}"
+          }
+        ]
+      },
+      "response": {
+        "id": "chatcmpl-a658a86029c414ac",
+        "object": "chat.completion",
+        "created": 1791853111,
+        "model": "Qwen3.8-27B",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "동생이 좋아하는 과자를 가방에 옇었어.",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.27.1-51f03443",
+        "usage": {
+          "prompt_tokens": 2632,
+          "total_tokens": 2646,
+          "completion_tokens": 14,
+          "prompt_tokens_details": null
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      },
+      "status": "success",
+      "elapsed_seconds": 0.7859601266682148
+    }
+  ]
+}

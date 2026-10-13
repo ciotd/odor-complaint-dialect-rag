@@ -1,0 +1,119 @@
+{
+  "inputs": 70,
+  "generation_calls": 75,
+  "analysis_calls": 0,
+  "new_retrieval_calls": 0,
+  "only_system_suffix_changed": true,
+  "first_outputs_changed": 16,
+  "final_outputs_changed": 16,
+  "changed_first_ids": [
+    "DEV001",
+    "DEV006",
+    "DEV008",
+    "DEV015",
+    "DEV019",
+    "DEV020",
+    "DEV023",
+    "LONG001",
+    "LONG002",
+    "LONG003",
+    "LONG006",
+    "LONG007",
+    "NEW009",
+    "ADVCE001A",
+    "ADVCE002A",
+    "ADVCE004B"
+  ],
+  "changed_final_ids": [
+    "DEV001",
+    "DEV006",
+    "DEV008",
+    "DEV015",
+    "DEV019",
+    "DEV020",
+    "DEV023",
+    "LONG001",
+    "LONG002",
+    "LONG003",
+    "LONG006",
+    "LONG007",
+    "NEW009",
+    "ADVCE001A",
+    "ADVCE002A",
+    "ADVCE004B"
+  ],
+  "before": {
+    "first": {
+      "inputs_with_any_flags": 7,
+      "inputs_with_high_flags": 5,
+      "flag_counts": {
+        "question_punctuation_changed": 1,
+        "humility_replaced": 3,
+        "relative_aspect_changed": 1,
+        "negation_unrecognized": 1,
+        "relative_clause_became_terminal": 1
+      }
+    },
+    "final": {
+      "inputs_with_any_flags": 6,
+      "inputs_with_high_flags": 4,
+      "flag_counts": {
+        "question_punctuation_changed": 1,
+        "humility_replaced": 3,
+        "negation_unrecognized": 1,
+        "relative_clause_became_terminal": 1
+      }
+    }
+  },
+  "after": {
+    "first": {
+      "inputs_with_any_flags": 6,
+      "inputs_with_high_flags": 5,
+      "flag_counts": {
+        "relative_aspect_changed": 1,
+        "relative_clause_became_terminal": 1,
+        "humility_replaced": 3,
+        "question_punctuation_changed": 1
+      }
+    },
+    "final": {
+      "inputs_with_any_flags": 5,
+      "inputs_with_high_flags": 4,
+      "flag_counts": {
+        "relative_clause_became_terminal": 1,
+        "humility_replaced": 3,
+        "question_punctuation_changed": 1
+      }
+    }
+  },
+  "before_repairs": {
+    "attempted": 5,
+    "accepted": 1
+  },
+  "after_repairs": {
+    "attempted": 5,
+    "accepted": 1
+  },
+  "source_identical_before": [
+    "DEV002",
+    "DEV005",
+    "DEV009",
+    "DEV020",
+    "DEV030"
+  ],
+  "source_identical_after": [
+    "DEV002",
+    "DEV005",
+    "DEV009",
+    "DEV030",
+    "ADVCE001A",
+    "ADVCE002A"
+  ],
+  "not_accuracy": true,
+  "limitations": [
+    "One historical baseline and one treatment run, not repeated randomized trials.",
+    "Same seed does not guarantee endpoint determinism.",
+    "Speaker age/region authenticity requires speaker assessment; automatic flags are not accuracy.",
+    "Repair logic is identical but the number and content of repairs depend on first outputs."
+  ]
+}

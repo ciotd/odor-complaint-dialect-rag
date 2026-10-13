@@ -1,0 +1,20 @@
+{
+  "minimum_file_bytes": 100000,
+  "files_scanned": 718,
+  "logical_bytes": 197615805,
+  "byte_identical_groups": [
+    {
+      "bytes_each": 159458,
+      "redundant_bytes": 478374,
+      "sha256": "b6e63dd07a2a82c320de323b871138ebb3407acfeb58214e18c18fd8d66a37d6",
+      "paths": [
+        "kg_v2/reports/translation_20261012_first/analysis.json",
+        "kg_v2/reports/translation_20261012/analysis.json",
+        "kg_v2/reports/translation_20261012_speech_style/analysis.json",
+        "kg_v2/reports/translation_20261012_ending_repair/analysis.json"
+      ],
+      "decision": "do_not_delete_without_reference_check"
+    }
+  ],
+  "deleted_files": []
+}

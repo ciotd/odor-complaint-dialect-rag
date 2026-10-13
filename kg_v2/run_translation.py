@@ -22,13 +22,19 @@ DEFAULT = BASE/'local/translation_20261012_final'
 
 
 def make_request(config, item, morph, packet):
+    from transformation_plan import package_plan
+    # Legacy packets use a different contract. Preserve them verbatim for the
+    # legacy comparison instead of pretending they contain v2 bound statements.
+    packaged=(package_plan(packet,item) if all('input_binding' in r for r in packet['references']) else packet)
     body = {'standard': item['input'], 'analysis': analysis_card(item),
-            'source_morphology': morph, **packet}
+            'source_morphology': morph, **packaged}
     instruction = ('standard를 자연스러운 경상도 방언으로 변환하세요. analysis와 source_morphology는 '
-        '원문 분석의 가설이며 원문이 우선입니다. references와 graph_paths는 원문 구간에 결속한 조건부 참고 자료입니다. '
+        '원문 분석의 가설이며 원문이 우선입니다. transformation_plan 또는 references와 graph_paths는 조건부 참고 자료입니다. '
         '의미·지역·시대·높임·결합 조건이 맞는 자료를 선택하고 관련 없는 자료는 사용하지 마세요. '
         '조건 미확인은 적용 허용이 아니며 연결된 진술끼리 조건을 상속하지 않습니다. '
         '기본형 대응과 완성 활용형을 구별하고 원문의 부정·시제·높임·인용·발화 의도를 유지하세요. '
+        'preservation의 관형절·겸양·주체와 청자 높임·이동 관점 보존을 어휘 치환보다 우선하세요. '
+        '모델 조언 후보는 원문 확인형이 아니며 불확실하면 원문의 구조를 보존하세요. '
         '표에 없는 활용형은 표에 실린 확인형으로 주장하지 마세요. 원문에 없는 내용을 추가하지 말고 변환한 발화만 출력하세요.\n')
     return {'model': config['requested_model'], **config['generation'], 'seed': SEED,
             'messages': [{'role': 'system', 'content': config['system_prompt']},
@@ -75,21 +81,26 @@ def prepare(folder):
             print(item['id'], {c: len(p['references']) for c,p in r['packets'].items()},
                   'paths', len(r['packets']['v2_graph']['graph_paths']), flush=True)
     save(folder/'jobs.json', jobs); save(folder/'retrieval.json', retrieval); save(folder/'analysis.json', {'items':items})
-    for filename in ['sentence_retrieval.py', 'query.py', 'run_translation.py']:
+    for filename in ['sentence_retrieval.py', 'query.py', 'run_translation.py',
+                     'transformation_plan.py','preservation_check.py','advisory_rules.json',
+                     'construction_retrieval.py']:
         (folder/filename).write_bytes((BASE/filename).read_bytes())
+        dependencies[str((BASE/filename).relative_to(BASE.parent))]=sha(BASE/filename)
     protocol = {'status': 'prepared', 'created_utc': dt.datetime.now(dt.timezone.utc).isoformat(),
         'conditions': CONDITIONS, 'sentences': len(items), 'planned_calls': len(jobs), 'seed': SEED,
         'config': cfg, 'repetitions': 1, 'reference_budget_characters': BUDGET,
         'analysis': 'Same cached Qwen clause analysis plus fresh deterministic Kiwi morphology in all four conditions.',
         'legacy_retrieval': 'Cached final graph_hybrid packets for unchanged analysis; recomputed with the existing retriever wherever the shared source guard changes analysis.',
         'shared_analysis_guard_changes': guard_changes,
-        'v2_retrieval': 'Source-bound lexical/form/function discovery, explicit condition filtering, optional compiled inflection edges.',
+        'v2_retrieval': 'Source-bound morphology including same-eojeol derived predicates, guarded function routing, documentary candidates plus explicitly attributed bounded model composition, preservation-only support, compact plans, and optional compiled inflection edges.',
+        'post_generation_policy':'Conservative preservation screening; at most one repair; first and repaired outputs both retained. Screening is not linguistic accuracy.',
         'frozen_hashes': {n:sha(folder/n) for n in ['jobs.json','retrieval.json','analysis.json']},
         'kg_hashes': {n:sha(BASE/n) for n in ['facts.jsonl','graph.json']},
         'dependency_hashes': dependencies,
         'limitations': ['Development inputs previously seen; not a held-out benchmark.',
             'One seed and one repetition; same endpoint model ID does not prove immutable checkpoint.',
             'Candidate scope/sense and free-text constraints require generator interpretation.',
+            'Speech-style ranking is a retrieval preference, not a validated dialect-register equivalence or generated-politeness guarantee.',
             'Legacy-v2 compares the complete retrieval systems, not isolated graph topology.',
             'Direct vs graph adds both inflection statements and edges; not content-matched topology ablation.',
             'Naturalness requires human dialect-speaker review; automatic change rates are not accuracy.']}
@@ -105,7 +116,7 @@ def audit(folder, protocol):
         for mode in ['v2_direct','v2_graph']:
             p = r['packets'][mode]; by = {f['id']:f for f in p['references']}
             assert len(compact(p)) <= BUDGET
-            for f in by.values():
+            for f in p['references']:
                 assert f['usability'] == 'candidate' and not f['checks']['rejected']
                 assert all(c['status']=='satisfied' for c in f['checks']['conditions'])
                 b=f['input_binding']; assert r['input'][slice(*b['span'])] == b['text']
@@ -119,7 +130,8 @@ def audit(folder, protocol):
             refprefix,refbody=related[0]['messages'][1]['content'].split('\n',1)
             assert prefix==refprefix
             a=json.loads(body);b=json.loads(refbody)
-            assert {k:v for k,v in a.items() if k not in {'references','graph_paths'}} == {k:v for k,v in b.items() if k not in {'references','graph_paths'}}
+            variable={'references','graph_paths','transformation_plan','preservation','plan_policy'}
+            assert {k:v for k,v in a.items() if k not in variable} == {k:v for k,v in b.items() if k not in variable}
     protocol['pre_generation_review'] = {'status':'passed','sentences':len(rows),
         'checks':['same generation settings and source analysis across conditions','exact input span bindings',
                   'no blocked/reference-only/unknown-condition v2 candidates','graph endpoints included','packet budget'],
@@ -150,9 +162,10 @@ def generate(folder, reuse=None):
         for attempt in range(2):
             start=time.monotonic()
             try:
-                response=call('/chat/completions',job['request'])
-                result['attempts'].append({'seconds':time.monotonic()-start,'response':response})
-                result['output']=check_response(response,job['request']['model']);result['status']='success';break
+                from preservation_check import generate_checked
+                checked=generate_checked(call,job['request'],job['input'],check_response)
+                result['attempts'].append({'seconds':time.monotonic()-start,'response':checked['response']})
+                result.update(checked,status='success');break
             except Exception as e:result['attempts'].append({'seconds':time.monotonic()-start,**error_fields(e)})
         save(path,result);return result
     outputs=[]
@@ -209,8 +222,11 @@ def translate(text, folder):
     save(folder/'semantic_guard.json',semantic)
     r=SentenceRetriever().retrieve(item,morph);save(folder/'retrieval.json',r)
     req=make_request(cfg,item,r['morphology'],r['packets']['v2_graph'])
-    response=call('/chat/completions',req);output=check_response(response,cfg['requested_model'])
-    save(folder/'result.json',{'request':req,'response':response,'output':output});print(output)
+    from preservation_check import generate_checked
+    result=generate_checked(call,req,text,check_response)
+    save(folder/'result.json',result);print(result['output'])
+    if result['final_check']['flags']:
+        print('보존 검사: 검토 필요 — '+', '.join(f['kind'] for f in result['final_check']['flags']),file=sys.stderr)
 
 
 if __name__=='__main__':

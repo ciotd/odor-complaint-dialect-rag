@@ -1,0 +1,72 @@
+{
+  "id": "ADVCE002B",
+  "input": "선생님께서 자료를 읽고 계셨어요.",
+  "condition": "after",
+  "request": {
+    "model": "Qwen3.8-27B",
+    "max_tokens": 512,
+    "temperature": 0.3,
+    "top_p": 0.8,
+    "top_k": 20,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "seed": 20260923,
+    "messages": [
+      {
+        "role": "system",
+        "content": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요."
+      },
+      {
+        "role": "user",
+        "content": "standard를 자연스러운 경상도 방언으로 변환하세요. analysis와 source_morphology는 원문 분석의 가설이며 원문이 우선입니다. transformation_plan 또는 references와 graph_paths는 조건부 참고 자료입니다. 의미·지역·시대·높임·결합 조건이 맞는 자료를 선택하고 관련 없는 자료는 사용하지 마세요. 조건 미확인은 적용 허용이 아니며 연결된 진술끼리 조건을 상속하지 않습니다. 기본형 대응과 완성 활용형을 구별하고 원문의 부정·시제·높임·인용·발화 의도를 유지하세요. preservation의 관형절·겸양·주체와 청자 높임·이동 관점 보존을 어휘 치환보다 우선하세요. 모델 조언 후보는 원문 확인형이 아니며 불확실하면 원문의 구조를 보존하세요. 표에 없는 활용형은 표에 실린 확인형으로 주장하지 마세요. 원문에 없는 내용을 추가하지 말고 변환한 발화만 출력하세요.\n{\"standard\":\"선생님께서 자료를 읽고 계셨어요.\",\"analysis\":[{\"text\":\"선생님께서 자료를 읽고 계셨어요.\",\"span\":[0,18],\"role\":\"main\",\"features\":{\"host_pos\":\"verb\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"계시다\",\"stem_vowel\":\"ㅏ\",\"stem_coda\":\"absent\",\"sentence_type\":\"declarative\",\"subject_person\":\"third\",\"meaning\":\"과거에 진행 중이던 행위를 서술\"},\"observed_politeness\":\"polite\",\"observed_subject_honorific\":\"si\",\"tense_or_modality\":\"past\",\"preserved_candidate_features\":{\"prefinal_profile\":\"switching_prefinal_present\",\"preceding_form\":\"-었-\"}}],\"source_morphology\":{\"tokens\":[{\"form\":\"선생\",\"tag\":\"NNG\",\"span\":[0,2],\"surface\":\"선생\"},{\"form\":\"님\",\"tag\":\"XSN\",\"span\":[2,3],\"surface\":\"님\"},{\"form\":\"께서\",\"tag\":\"JKS\",\"span\":[3,5],\"surface\":\"께서\"},{\"form\":\"자료\",\"tag\":\"NNG\",\"span\":[6,8],\"surface\":\"자료\"},{\"form\":\"를\",\"tag\":\"JKO\",\"span\":[8,9],\"surface\":\"를\"},{\"form\":\"읽\",\"tag\":\"VV\",\"span\":[10,11],\"surface\":\"읽\"},{\"form\":\"고\",\"tag\":\"EC\",\"span\":[11,12],\"surface\":\"고\"},{\"form\":\"계시\",\"tag\":\"VX\",\"span\":[13,15],\"surface\":\"계셨\"},{\"form\":\"었\",\"tag\":\"EP\",\"span\":[14,15],\"surface\":\"셨\"},{\"form\":\"어요\",\"tag\":\"EF\",\"span\":[15,17],\"surface\":\"어요\"},{\"form\":\".\",\"tag\":\"SF\",\"span\":[17,18],\"surface\":\".\"}],\"words\":[{\"form\":\"선생\",\"tag\":\"NNG\",\"span\":[0,2],\"surface\":\"선생\",\"lemma\":\"선생\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":0},{\"form\":\"자료\",\"tag\":\"NNG\",\"span\":[6,8],\"surface\":\"자료\",\"lemma\":\"자료\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":3},{\"form\":\"읽\",\"tag\":\"VV\",\"span\":[10,11],\"surface\":\"읽\",\"lemma\":\"읽다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"고\",\"ending_tag\":\"EC\",\"token_index\":5,\"predicate_span\":[10,12]},{\"form\":\"계시\",\"tag\":\"VX\",\"span\":[13,15],\"surface\":\"계셨\",\"lemma\":\"계시다\",\"pos\":\"auxiliary\",\"prefinals\":[\"었\"],\"ending\":\"어요\",\"ending_tag\":\"EF\",\"token_index\":7,\"predicate_span\":[13,17]}],\"status\":\"Kiwi_hypotheses_not_gold\"},\"transformation_plan\":[{\"target_text\":\"선생님께서 자료를 읽고 계셨어요.\",\"span\":[0,18],\"preserve\":[{\"features\":{\"host_pos\":\"verb\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"계시다\",\"stem_vowel\":\"ㅏ\",\"stem_coda\":\"absent\",\"sentence_type\":\"declarative\",\"speech_act\":null,\"subject_person\":\"third\",\"meaning\":\"과거에 진행 중이던 행위를 서술\"},\"listener_politeness\":\"polite\",\"subject_honorific\":\"si\",\"tense_or_modality\":\"past\"}],\"candidates\":[{\"id\":\"NAMU_HONORIFICS_20260908:v2:ending_repair:0001\",\"source_id\":\"NAMU_HONORIFICS_20260908\",\"type\":\"ending\",\"source_pattern\":{\"text\":\"-어요\",\"domain\":\"standard\",\"lemma\":null,\"sense\":null,\"features\":{\"match_unit\":\"terminal_ending\"}},\"target_pattern\":{\"text\":\"-어예\",\"domain\":\"dialect\",\"lemma\":null,\"sense\":null,\"features\":{\"realization\":\"replace_ending_preserve_prefix\"}},\"functions\":[\"declarative\",\"interrogative\",\"imperative\",\"hortative\"],\"conditions\":[],\"constraints\":[{\"kind\":\"require\",\"description\":\"입력의 부정·시제·주체 높임과 명사/어간을 보존하고 명시한 종결 부분만 대응시킨다. 질문을 평서문으로 바꾸지 않는다.\"},{\"kind\":\"scope\",\"description\":\"원문 위키의 지역·세대별 변이이며 모든 경상도 화자의 의무형이 아니다. 해예 사용자는 해요도 사용한다.\"}],\"scope\":{\"regions\":[\"동남 방언: 경북 북부의 -래- 변이 및 세대 차이는 별도\"],\"speech_levels\":[\"해예\"],\"registers\":[],\"period\":[],\"note\":\"로컬 PDF 스냅샷의 서술; 독립 화자 검증이 아니다.\"},\"claim_status\":\"analyst_interpretation\",\"notes\":\"해요체/해예체 표의 대응 열을 정렬해 -아요/-어요를 각각 분리한 분석자 구성이다. 과거 -ㅆ어예는 본문에도 명시되지만 했어예 등 개별 문장은 원문 실례로 주장하지 않는다.\",\"binding\":{\"text\":\"선생님께서 자료를 읽고 계셨어요.\",\"span\":[0,18],\"clause_id\":\"ADVCE002B:c1\",\"host_lemma\":\"계시다\",\"ending\":\"어요\",\"predicate_span\":[13,17],\"speech_style_preference\":{\"politeness\":\"polite\",\"register\":\"informal_polite\",\"source_ending\":\"어요\",\"basis\":\"source_terminal_form\"},\"ending_conversion\":{\"status\":\"derived_composition_not_attested_surface\",\"operation\":\"replace_terminal_ending\",\"source_morphemes\":[\"계시\",\"었\",\"어요\"],\"candidate_morphemes\":[\"계시\",\"었\",\"어예\"],\"preserve_prefinals\":[\"었\"],\"instruction\":\"선어말어미·부정·주체 높임을 보존한다. 어간의 방언 대응은 별도 근거로만 선택한다. 이 조합은 문헌의 완성형 인용이 아니다.\"}},\"origin\":\"documentary_KG\",\"evidence_pages\":[{\"source_id\":\"NAMU_HONORIFICS_20260908\",\"pdf_page\":26},{\"source_id\":\"NAMU_HONORIFICS_20260908\",\"pdf_page\":26}]}]}],\"graph_paths\":[],\"preservation\":{\"origin\":\"reviewed_preservation_policy_not_dialect_rule\",\"relative_clauses\":[],\"supporting_knowledge\":[],\"invariants\":[\"원문의 명제·부정·시제·화행과 모든 절을 유지한다.\",\"청자 높임, 주체 높임, 저/제의 겸양을 각각 보존한다. 주어를 호격으로 바꾸지 않는다.\",\"가는/오는 이동 관점과 먼저의 시간 순서를 보존한다. 앞에의 시간 용법 자체는 금지하지 않는다.\",\"인용 내용과 보고 서술부의 시제를 구분한다. 회상 -대를 표면형만 보고 전언으로 판단하지 않는다.\"],\"source_honorific_predicates\":[{\"lemma\":\"계시다\",\"text\":\"계셨어요\"}]},\"plan_policy\":\"후보는 모두 적용할 목록이 아니라 대안이다. 어휘보다 의미·높임·시제·문장 역할 보존을 우선한다. 원문에 맞는 후보만 사용한다. MODEL_ADVICE는 원문에서 직접 확인된 완성형이 아닌 모델 조합 제안이다. 보존용 지식은 치환 규칙이 아니다.\"}"
+      }
+    ]
+  },
+  "status": "success",
+  "attempts": [
+    {
+      "elapsed_seconds": 0.7221282310783863,
+      "response": {
+        "id": "chatcmpl-9a31d0874323b999",
+        "object": "chat.completion",
+        "created": 1791797513,
+        "model": "Qwen3.8-27B",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "선생님께서 자료를 읽고 계셨어예.",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.27.1-51f03443",
+        "usage": {
+          "prompt_tokens": 1819,
+          "total_tokens": 1830,
+          "completion_tokens": 11,
+          "prompt_tokens_details": null
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    }
+  ],
+  "output": "선생님께서 자료를 읽고 계셨어예."
+}

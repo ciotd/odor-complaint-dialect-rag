@@ -1,0 +1,18 @@
+{
+  "status": "passed_structural_and_content_checks",
+  "file": "경상도_방언_KG_현재상황_상세보고_20261013.docx",
+  "paragraphs": 604,
+  "tables": 105,
+  "figures": 2,
+  "text_characters": 54690,
+  "source_files_hashed": 39,
+  "outputs_in_appendix": 200,
+  "new_model_calls": 0,
+  "production_files_unchanged": true,
+  "actual_Word_LibreOffice_page_render_test": false,
+  "limitations": [
+    "No Word/LibreOffice renderer is installed; page layout has not been independently rendered.",
+    "Research findings are development observations, not independently certified dialect quality."
+  ],
+  "sha256": "ee0b439f406c66357780b157bf1dbada85f48fe90f443fb5c09bb3702f29e3db"
+}

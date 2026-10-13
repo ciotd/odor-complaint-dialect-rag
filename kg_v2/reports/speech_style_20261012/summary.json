@@ -1,0 +1,31 @@
+{
+  "status": "retrieval_checks_passed",
+  "inputs": 38,
+  "model_calls": 0,
+  "generation_rerun": false,
+  "quality_improvement": "not evaluated",
+  "policy": "Source-terminal register ranking; prefer attested 해예 forms for informal polite conversion, retain formal/hasso preferences and condition exclusions.",
+  "limitations": [
+    "Register preference is an implementation hypothesis, not linguistic equivalence.",
+    "XSV/XSA predicate attachment remains unsupported by the existing predicate inventory.",
+    "Free-text constraints and generated politeness are not automatically validated."
+  ],
+  "conditions": {
+    "v2_direct": {
+      "before_inputs_with_ye_reference": 0,
+      "after_inputs_with_ye_reference": 16
+    },
+    "v2_graph": {
+      "before_inputs_with_ye_reference": 0,
+      "after_inputs_with_ye_reference": 16
+    }
+  },
+  "source_register_profiles": {
+    "informal_polite": 25,
+    "unknown": 54
+  },
+  "code_sha256": "c2b94113d5eba3dfc2f268d1dcff15014636732dd16eb8ff26003c2c0f461f13",
+  "frozen_analysis_sha256": "b6e63dd07a2a82c320de323b871138ebb3407acfeb58214e18c18fd8d66a37d6",
+  "protected_files": 20,
+  "protected_files_unchanged": true
+}

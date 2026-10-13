@@ -1,0 +1,33 @@
+{
+  "status": "completed",
+  "planned_generations": 55,
+  "requested_settings": {
+    "model": "Qwen3.8-27B",
+    "max_tokens": 512,
+    "temperature": 0.3,
+    "top_p": 0.8,
+    "top_k": 20,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "seed": 20260923
+  },
+  "jobs_sha256": "72c0566e66d05a52346eb56049e6b25c3104722bb8d134d67af706148b40729d",
+  "source_jobs_sha256": "c36c83772d29e9d5f5043be89146798f0fc3ad8cdb84f9e29dd8c76f49e96996",
+  "conditions": {
+    "qwen_plain": "Same system prompt and decoding; user message is only the original sentence. Removes analysis, morphology, references and structured-user instructions together.",
+    "full_repeat": "Exactly repeat the saved v2_graph request to observe run-to-run variability.",
+    "compact_references": "Same request except evidence quote bodies, condition-check logs and per-reference status removed. Claims/conditions/scope/notes/bindings/paths retained. Evidence text loss is a confound, not a lossless serialization claim.",
+    "without_meonjeo_mapping": "Same request except exactly one 먼저->앞에 statement and any incident paths removed."
+  },
+  "external_model_outputs_in_prompts": false,
+  "selection": "7 diagnostic failure cases chosen after observing development outputs; 3 mapping-removal cases among them.",
+  "limitations": [
+    "One new sample per condition; same seed is not a determinism guarantee.",
+    "Prompt and batch conventions differ across models; Sonnet version/settings/prompt not supplied.",
+    "No independent native-speaker quality labels or causal significance test."
+  ],
+  "endpoint_sha256": "03bdfce6caff3fa12a0b14fe05a301a12c3f0915e60d3e60e89bc53308775201",
+  "successful_generations": 55,
+  "actual_attempts": 55
+}

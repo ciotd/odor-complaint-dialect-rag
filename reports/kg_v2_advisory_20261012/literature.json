@@ -1,0 +1,1401 @@
+{
+  "role": "문헌 대조자",
+  "created_date": "2026-10-12",
+  "status": "review_proposals_only_no_production_changes",
+  "scope": "7종474페이지의 추출텍스트와3761개facts에서키워드검색; 쟁점관련페이지를직접읽음. 7종전체의의미전수재검수아님.",
+  "source_files": {
+    "kg_v2/facts.jsonl": "86b1bebf56fed23e8659880b44fe5ba04c520d1a26c780f72bbd812469761662",
+    "kg_v2/source_registry.json": "08fcebfeed1e89bc301814535ec7d6007a9aff7c5ab52297e8ec2e156faa7457",
+    "kg_v2/local/pages.jsonl": "978b2d7f5e8377437e6fd1df62a21dbd02a74a2289b9eb5b175b8f56ce40498d",
+    "reports/kg_v2_factorial_20261012/retrieval.json": "4cd37ae0bda10389c6dada8159c6e672ac2ace2c71c0f343a8ad6f1c557764e1"
+  },
+  "visual_table_checks": [
+    {
+      "source_id": "RYU2014",
+      "pdf_page": 27
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 28
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "pdf_page": 6
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "pdf_page": 26
+    },
+    {
+      "source_id": "RYU2014",
+      "pdf_page": 20
+    }
+  ],
+  "claim_policy": "모델제안은문헌사실과분리. 문자열근거있음은현대자연스러움보증아님. 못찾음을7종에없음으로일반화하지않음.",
+  "items": [
+    {
+      "id": "LIT01",
+      "issue": "해요/해예 및 과거 -ㅆ어예",
+      "related_fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:ending_repair:0001",
+        "NAMU_HONORIFICS_20260908:v2:ending_repair:0002",
+        "NAMU_HONORIFICS_20260908:v2:full:0124",
+        "NAMU_HONORIFICS_20260908:v2:review:0118"
+      ],
+      "support_status": [
+        "already_in_KG"
+      ],
+      "source_id": [
+        "NAMU_HONORIFICS_20260908"
+      ],
+      "pdf_pages": [
+        {
+          "source_id": "NAMU_HONORIFICS_20260908",
+          "pdf_page": 26
+        },
+        {
+          "source_id": "NAMU_HONORIFICS_20260908",
+          "pdf_page": 26
+        },
+        {
+          "source_id": "NAMU_HONORIFICS_20260908",
+          "pdf_page": 26
+        }
+      ],
+      "exact_quotes": [
+        {
+          "source_id": "NAMU_HONORIFICS_20260908",
+          "pdf_page": 26,
+          "text": "해요체 -어/아요 -어/아요 -어/아요 -어/아요\n   해예체 -어/아예 -어/아예 -어/아예 -어/아예",
+          "verified_exact_substring": true
+        },
+        {
+          "source_id": "NAMU_HONORIFICS_20260908",
+          "pdf_page": 26,
+          "text": "가끔 '-ㅆ어요/-ㅆ어예'를 '-ㅆ에요/-ㅆ에예'로 발음하기도 한다. 묵었어요 → 묵었에요 같은 식. 이는 서울 등 다른 지역에서도\n 자주 일어나는 현상이다.",
+          "verified_exact_substring": true
+        },
+        {
+          "source_id": "NAMU_HONORIFICS_20260908",
+          "pdf_page": 26,
+          "text": "단, 해예체를 사용한다고 해서 해요체를 사용하지 않는 것은 아니다.",
+          "verified_exact_substring": true
+        }
+      ],
+      "what_is_supported": "해요·해예 대응과 과거 -ㅆ어예가 원문에 명시되어 있고 현재 KG에도 존재. 표준어형 존속 자체는 실패가 아님.",
+      "what_is_not_supported": "모든 요를 기계적으로 예로 바꾸는 규칙, 모든 화자의 예 의무사용, 했어예 개별형이 직접 인용문이라는 주장.",
+      "proposed_retrieval_or_KG_action": "기존 ending_repair와 원문 표를 구간별 조합에 연결하고 과거 유지 검사; 공유형 허용을 평가에 반영.",
+      "search_scope": "H26 직접 독해, 관련 facts 전수검색.",
+      "uncertainty": "표에서 분리한 -어요→-어예는 이미 analyst_interpretation으로 표시됨. 조합형과 원문 개별용례 구분.",
+      "observed_selection_in_latest_experiment": [
+        {
+          "input_id": "DEV001",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "DEV003",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "DEV006",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "DEV008",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:ending_repair:0001"
+          ]
+        },
+        {
+          "input_id": "DEV008",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:ending_repair:0001"
+          ]
+        },
+        {
+          "input_id": "DEV010",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:ending_repair:0001"
+          ]
+        },
+        {
+          "input_id": "DEV010",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:ending_repair:0001"
+          ]
+        },
+        {
+          "input_id": "DEV015",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "DEV015",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "DEV017",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "DEV017",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "DEV019",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "DEV019",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "DEV021",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "DEV021",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "DEV023",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:ending_repair:0001"
+          ]
+        },
+        {
+          "input_id": "DEV023",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:ending_repair:0001"
+          ]
+        },
+        {
+          "input_id": "DEV026",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:ending_repair:0001"
+          ]
+        },
+        {
+          "input_id": "DEV026",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:ending_repair:0001"
+          ]
+        },
+        {
+          "input_id": "DEV028",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:ending_repair:0001"
+          ]
+        },
+        {
+          "input_id": "DEV028",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:ending_repair:0001"
+          ]
+        },
+        {
+          "input_id": "LONG003",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:ending_repair:0001"
+          ]
+        },
+        {
+          "input_id": "LONG003",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:ending_repair:0001"
+          ]
+        },
+        {
+          "input_id": "LONG004",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:ending_repair:0001",
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "LONG004",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:ending_repair:0001",
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "LONG008",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "LONG008",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "NEW002",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:ending_repair:0001"
+          ]
+        },
+        {
+          "input_id": "NEW002",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:ending_repair:0001"
+          ]
+        },
+        {
+          "input_id": "NEW003",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:ending_repair:0001"
+          ]
+        },
+        {
+          "input_id": "NEW003",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:ending_repair:0001"
+          ]
+        },
+        {
+          "input_id": "NEW005",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "NEW005",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "NEW006",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "NEW006",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "NEW010",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:ending_repair:0001"
+          ]
+        },
+        {
+          "input_id": "NEW010",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:ending_repair:0001",
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "NEW011",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "NEW012",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:ending_repair:0001"
+          ]
+        },
+        {
+          "input_id": "NEW012",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:ending_repair:0001"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LIT02",
+      "issue": "-이라예 / -래예 목록과 명사서술 용례",
+      "related_fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:ending_repair:0001",
+        "JO2018:v2:informal:0032",
+        "JO2018:v2:informal:0107"
+      ],
+      "support_status": [
+        "already_in_KG_but_not_linked_as_application",
+        "source_example_not_structured_as_rule"
+      ],
+      "source_id": [
+        "JO2018",
+        "NAMU_GRAMMAR_20260908",
+        "NAMU_HONORIFICS_20260908"
+      ],
+      "pdf_pages": [
+        {
+          "source_id": "NAMU_GRAMMAR_20260908",
+          "pdf_page": 28
+        },
+        {
+          "source_id": "JO2018",
+          "pdf_page": 205
+        },
+        {
+          "source_id": "NAMU_HONORIFICS_20260908",
+          "pdf_page": 26
+        }
+      ],
+      "exact_quotes": [
+        {
+          "source_id": "NAMU_GRAMMAR_20260908",
+          "pdf_page": 28,
+          "text": "-이에요                            -이라요/-이라예                                    지 께 아이고 야 끼라예",
+          "verified_exact_substring": true
+        },
+        {
+          "source_id": "JO2018",
+          "pdf_page": 205,
+          "text": "주는 거로 받아 쥐고 그래 이거로 가가서 니가,참 부자 방매이이던 모\n          양이래예.",
+          "verified_exact_substring": true
+        },
+        {
+          "source_id": "NAMU_HONORIFICS_20260908",
+          "pdf_page": 26,
+          "text": "한 쪼가리 잡사 보\n      실래예?",
+          "verified_exact_substring": true
+        }
+      ],
+      "what_is_supported": "명사서술 이라예 대응과 모양이래예 실례가 있음. 보실래예는 별도의 의향 질문 용례이며 표면문자 래예만 같음.",
+      "what_is_not_supported": "목록 -래예를 동사 약속 -ㄹ게요에 일괄 대응시키는 규칙; 말씀드릴래예가 말씀드릴게요와 동의라는 주장.",
+      "proposed_retrieval_or_KG_action": "JO 목록0032와 명사서술 용례를 연결하고 명사서술 -이래예, 동사 의향 -ㄹ래예, 약속 -ㄹ게예를 별개로 분해. 새로운 결합조건은 분석자/조언자 제안 표시.",
+      "search_scope": "J203·205,H26,G28; facts 전체 모양이래예/래예/보실래예 문자열검색.",
+      "uncertainty": "모양이래예는 context0107 증거 안에 있으나 독립 형태용법으로 안 묶임. 보실래예는 facts 전체 문자열검색0건. G28표이미지 확인.",
+      "observed_selection_in_latest_experiment": [
+        {
+          "input_id": "DEV001",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "JO2018:v2:informal:0032"
+          ]
+        },
+        {
+          "input_id": "DEV001",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "JO2018:v2:informal:0032"
+          ]
+        },
+        {
+          "input_id": "DEV003",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "JO2018:v2:informal:0032"
+          ]
+        },
+        {
+          "input_id": "DEV003",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "JO2018:v2:informal:0032"
+          ]
+        },
+        {
+          "input_id": "DEV004",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_GRAMMAR_20260908:v2:ending_repair:0001"
+          ]
+        },
+        {
+          "input_id": "DEV004",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_GRAMMAR_20260908:v2:ending_repair:0001"
+          ]
+        },
+        {
+          "input_id": "DEV006",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "JO2018:v2:informal:0032"
+          ]
+        },
+        {
+          "input_id": "DEV006",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "JO2018:v2:informal:0032"
+          ]
+        },
+        {
+          "input_id": "DEV021",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "JO2018:v2:informal:0032"
+          ]
+        },
+        {
+          "input_id": "DEV021",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "JO2018:v2:informal:0032"
+          ]
+        },
+        {
+          "input_id": "LONG003",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "JO2018:v2:informal:0032"
+          ]
+        },
+        {
+          "input_id": "LONG004",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "JO2018:v2:informal:0032"
+          ]
+        },
+        {
+          "input_id": "LONG008",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "JO2018:v2:informal:0032"
+          ]
+        },
+        {
+          "input_id": "NEW001",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_GRAMMAR_20260908:v2:ending_repair:0001"
+          ]
+        },
+        {
+          "input_id": "NEW001",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_GRAMMAR_20260908:v2:ending_repair:0001"
+          ]
+        },
+        {
+          "input_id": "NEW010",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "JO2018:v2:informal:0032"
+          ]
+        },
+        {
+          "input_id": "NEW010",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "JO2018:v2:informal:0032"
+          ]
+        },
+        {
+          "input_id": "NEW011",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "JO2018:v2:informal:0032"
+          ]
+        },
+        {
+          "input_id": "NEW011",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "JO2018:v2:informal:0032"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LIT03",
+      "issue": "세요/죠에 대응하는 가세예·맛있지예 실제 사례",
+      "related_fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:full:0124",
+        "NAMU_GRAMMAR_20260908:v2:full:0702",
+        "JO2018:v2:informal:0070",
+        "JO2018:v2:informal:0083",
+        "NAMU_HONORIFICS_20260908:v2:review:0099"
+      ],
+      "support_status": [
+        "source_example_missing_from_KG",
+        "already_in_KG_general_rule"
+      ],
+      "source_id": [
+        "NAMU_GRAMMAR_20260908",
+        "NAMU_HONORIFICS_20260908"
+      ],
+      "pdf_pages": [
+        {
+          "source_id": "NAMU_HONORIFICS_20260908",
+          "pdf_page": 26
+        },
+        {
+          "source_id": "NAMU_GRAMMAR_20260908",
+          "pdf_page": 28
+        },
+        {
+          "source_id": "NAMU_HONORIFICS_20260908",
+          "pdf_page": 4
+        }
+      ],
+      "exact_quotes": [
+        {
+          "source_id": "NAMU_HONORIFICS_20260908",
+          "pdf_page": 26,
+          "text": "할메, 오랜만이라예. 여~어 와서 과일 함 보시고 가세예. 아레 막 들어와 가지고 싱싱한 과일이라예. 한 쪼가리 잡사 보\n      실래예? 맛있지예. 하나 더 담아 돌라고예? 예, 예. 제가 인심 쪼매 썼에예이.",
+          "verified_exact_substring": true
+        },
+        {
+          "source_id": "NAMU_GRAMMAR_20260908",
+          "pdf_page": 28,
+          "text": "-요                                 -요/예                       해요와 해예           맞지예?\n                                                                       분포 차이",
+          "verified_exact_substring": true
+        },
+        {
+          "source_id": "NAMU_HONORIFICS_20260908",
+          "pdf_page": 4,
+          "text": "아지메요[14], 여~어 와 가지고 과일 함만 보고 가이소. 아레 막 들와 갖고 싱싱합니다. 한 쪼가리 잡사 보실랍니꺼? 맛\n      있지예. 하나 더 담아 돌라고예? 예, 그라입시더. 지가 인심 좀 썼십니대이.",
+          "verified_exact_substring": true
+        }
+      ],
+      "what_is_supported": "가세예, 보실래예, 맛있지예가 원문 한 문맥 안에 실제 존재. 요→예 및 맞지예 사례는 KG0702 존재.",
+      "what_is_not_supported": "가세요/걷으세요/쉬세요를 모두 동일한 문자열 치환으로 처리할 수 있다는 결론; 죠→지예를 문맥 무시해 보편화.",
+      "proposed_retrieval_or_KG_action": "해당 예문에서 결합형/주체높임/청자높임/질문을 분리해 추가추출하고 세요·죠 분석정규화와 연결. 분해조건은 해석임을 표기.",
+      "search_scope": "H26 문맥 직접 독해; facts 전체 가세예/보실래예/맛있지예/죠 검색. 후속 조정자 대조 후 모든 문자열의 공백 정규화 검색과 H review0099(PDF4) 내용을 추가 확인.",
+      "uncertainty": "가세예·보실래예는 facts 전체의 모든 문자열을 공백 정규화하여 검색해도 0건. 맛있지예는 G37 어휘 facts0941~0943뿐 아니라 H review0099의 PDF4 인용문에도 공백·줄바꿈을 사이에 두고 존재한다. 0099는 하이소 지역별 변이를 설명하는 reference_only usage이고, 인용문 안 맛있지예를 별도의 결합·변환 규칙으로 구조화하지 않는다. H26의 해예체 가세예·보실래예·맛있지예 문맥과 페이지·설명 목적이 다르다. 따라서 맛있지예 자체가 KG에 없다는 주장은 하지 않으며 H26 해당 용례의 독립 적용 지식이 없다는 범위로 한정한다. 인용만으로 모든 활용 규칙 확정 불가.",
+      "observed_selection_in_latest_experiment": [
+        {
+          "input_id": "DEV001",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "DEV003",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "DEV006",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "DEV015",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "JO2018:v2:informal:0070",
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "DEV015",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "JO2018:v2:informal:0070",
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "DEV017",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "JO2018:v2:informal:0083",
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "DEV017",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "JO2018:v2:informal:0083",
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "DEV019",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "JO2018:v2:informal:0083",
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "DEV019",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "JO2018:v2:informal:0083",
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "DEV021",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "JO2018:v2:informal:0083",
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "DEV021",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "JO2018:v2:informal:0083",
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "LONG003",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "JO2018:v2:informal:0083"
+          ]
+        },
+        {
+          "input_id": "LONG004",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "JO2018:v2:informal:0083",
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "LONG004",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "LONG008",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "JO2018:v2:informal:0083",
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "LONG008",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "JO2018:v2:informal:0070",
+            "JO2018:v2:informal:0083",
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "NEW005",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "JO2018:v2:informal:0070",
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "NEW005",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "JO2018:v2:informal:0070",
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "NEW006",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "JO2018:v2:informal:0083",
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "NEW006",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "JO2018:v2:informal:0083",
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "NEW010",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        },
+        {
+          "input_id": "NEW011",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_HONORIFICS_20260908:v2:full:0124"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LIT04",
+      "issue": "-까요 질문 검색과 -(ㄹ)까/꼬+높임",
+      "related_fact_ids": [
+        "JO2018:v2:informal:0064",
+        "JO2018:v2:informal:0117",
+        "JO2018:v2:gap_review:0307"
+      ],
+      "support_status": [
+        "already_in_KG_partial",
+        "composition_needs_adviser_review"
+      ],
+      "source_id": [
+        "JO2018",
+        "NAMU_HONORIFICS_20260908"
+      ],
+      "pdf_pages": [
+        {
+          "source_id": "NAMU_HONORIFICS_20260908",
+          "pdf_page": 28
+        },
+        {
+          "source_id": "JO2018",
+          "pdf_page": 215
+        }
+      ],
+      "exact_quotes": [
+        {
+          "source_id": "NAMU_HONORIFICS_20260908",
+          "pdf_page": 28,
+          "text": "'-(ㄹ)꼬'와 '-(ㄹ)까'는 표준어 '-ㄹ까'에 해당하는 어미인데, 설명 의문문에 ㅗ형 어미, 판정 의문문에 ㅏ형 어미가 붙는다. 예\n 를 들면 '와 하꼬(왜 할까)', '그러까(그럴까)'. 해당 문단 아래에 용례가 설명되어 있다.",
+          "verified_exact_substring": true
+        },
+        {
+          "source_id": "JO2018",
+          "pdf_page": 215,
+          "text": "대감 나도 갔다 오까요?",
+          "verified_exact_substring": true
+        }
+      ],
+      "what_is_supported": "질문형 까/꼬 구분, 까요 형태와 실제 용례 및 선행연구 목록의 까예/꼬예가 있음. DEV013 baseline/hybrid 모두 문법후보0개라 소스부재만의 문제 아님.",
+      "what_is_not_supported": "되면 될까요 등의 간접질문을 요청으로만 분류해 후보를 전부 제외할 근거; -꾜를 모든 까요와 자유 교환.",
+      "proposed_retrieval_or_KG_action": "화행요청과 의문구조를 함께 유지하여 후보를 회수. 까예/꼬예 결합은 근거목록+조언자 분해를 별도로 표시하고 최소대조실험.",
+      "search_scope": "H28,J213~216 및 facts 까요18건과 현재 DEV013 retrieval 확인.",
+      "uncertainty": "직접적인 될까요→될까예 대응문장까지 7종 전체 의미전수검증하지 않았음. 조사된 페이지의 질문체 분류는 현대선호와 다름.",
+      "observed_selection_in_latest_experiment": []
+    },
+    {
+      "id": "LIT05",
+      "issue": "주체높임 시 및 과거 선어말 요소 보존",
+      "related_fact_ids": [
+        "NAMU_HONORIFICS_20260908:v2:review:0100",
+        "NAMU_GRAMMAR_20260908:v2:full:0335",
+        "NAMU_GRAMMAR_20260908:v2:full:0336",
+        "NAMU_GRAMMAR_20260908:v2:full:0337"
+      ],
+      "support_status": [
+        "already_in_KG_specific_examples",
+        "composition_requires_analysis"
+      ],
+      "source_id": [
+        "NAMU_GRAMMAR_20260908",
+        "NAMU_HONORIFICS_20260908"
+      ],
+      "pdf_pages": [
+        {
+          "source_id": "NAMU_HONORIFICS_20260908",
+          "pdf_page": 5
+        },
+        {
+          "source_id": "NAMU_GRAMMAR_20260908",
+          "pdf_page": 11
+        },
+        {
+          "source_id": "NAMU_GRAMMAR_20260908",
+          "pdf_page": 11
+        }
+      ],
+      "exact_quotes": [
+        {
+          "source_id": "NAMU_HONORIFICS_20260908",
+          "pdf_page": 5,
+          "text": "명령형에 '-(으)시-'가 붙으면 '-(으)시이소'로 길게 발음된다.\n 오이소 → 오시이소\n 마시이소 → 마시시이소",
+          "verified_exact_substring": true
+        },
+        {
+          "source_id": "NAMU_GRAMMAR_20260908",
+          "pdf_page": 11,
+          "text": "상술한 두 ㄱ 계열 종결 어미들에 적용되는 불규칙 활용 용법으로, '~(이)가', '~(이)고'의 어간과 어말 어미 사이에 '-었-', '-겠-\n ', '-더-' 등 선어말 어미가 붙으면 어말 어미가 ㄴ 계열 어미로 바뀐다. 단, 주체 높임법에 쓰이는 '-시-'는 그대로 '-가', '-고'가\n 이어진다. 전자와 후자가 함께 붙을 경우에는 전자의 규칙을 우선한다.",
+          "verified_exact_substring": true
+        },
+        {
+          "source_id": "NAMU_GRAMMAR_20260908",
+          "pdf_page": 11,
+          "text": "사람이가? → 사람이었나?\n      그분 아이가? → 그분 아이시가?\n      그분 아이가? → 그분 아이시더나?\n      몇 개고? → 멫 개겠노?\n      와(왜) 아이고? → 와(왜) 아이더노?",
+          "verified_exact_substring": true
+        }
+      ],
+      "what_is_supported": "주체높임과 종결어미/과거의 상호작용이 원문에 상세함. 시를 단순 삭제하면 안 되며 특정 의문형은 과거등과 시 단독 결합이 다름.",
+      "what_is_not_supported": "위 특정 ㄱ계열 규칙을 모든 종결어미로 확대; 시 표면음절을 무조건 주체높임으로 판정.",
+      "proposed_retrieval_or_KG_action": "EP를 보존할 문법층으로 유지하고 용법별 명시조합을 우선 회수. 필요한 일반 조합계획은 모델 제안과 원문근거를 분리.",
+      "search_scope": "H5,G11 직접독해 및 관련 fact 점검.",
+      "uncertainty": "현재 KG의 개별 예문과 전체구성 규칙 연결 충분성은 추가그래프감사 대상.",
+      "observed_selection_in_latest_experiment": []
+    },
+    {
+      "id": "LIT06",
+      "issue": "먼저→앞에의 실재성과 적용 범위",
+      "related_fact_ids": [
+        "RYU2014:v2:full:0131"
+      ],
+      "support_status": [
+        "already_in_KG",
+        "source_scope_insufficient_for_universal_application"
+      ],
+      "source_id": [
+        "RYU2014"
+      ],
+      "pdf_pages": [
+        {
+          "source_id": "RYU2014",
+          "pdf_page": 27
+        }
+      ],
+      "exact_quotes": [
+        {
+          "source_id": "RYU2014",
+          "pdf_page": 27,
+          "text": "먼저 할 사람?           먼저      20   50    앞에      앞에 가요.",
+          "verified_exact_substring": true
+        }
+      ],
+      "what_is_supported": "대조표는 실제 먼저→앞에와 앞에 가요를 제시. 60대20/10대50은 해당 조사표 수치. 앞에 가다를 무조건 오류라고 단정할 수 없음.",
+      "what_is_not_supported": "모든 먼저 문맥 자유교체, 현대 경상도 전역의 선호, 먼저밥먹다까지 동일하게 자연스럽다는 보장.",
+      "proposed_retrieval_or_KG_action": "소스사실 보존; 시간적 우선/이동·공간 중의성과 지역·세대 범위검토. 일반사용은 조언자 반례/화자검토 후 별도 보완층.",
+      "search_scope": "R27표 원문+실제 PDF이미지 확인. 추가 먼저 용례 의미전수독해는 안함.",
+      "uncertainty": "조언자가 공간의미라고 단정하면 원문과 충돌할 수 있음. 표는 완전한 문장쌍도 아니므로 원문연구범위 존중.",
+      "observed_selection_in_latest_experiment": [
+        {
+          "input_id": "DEV030",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "RYU2014:v2:full:0131"
+          ]
+        },
+        {
+          "input_id": "DEV030",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "RYU2014:v2:full:0131"
+          ]
+        },
+        {
+          "input_id": "LONG001",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "RYU2014:v2:full:0131"
+          ]
+        },
+        {
+          "input_id": "LONG001",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "RYU2014:v2:full:0131"
+          ]
+        },
+        {
+          "input_id": "LONG005",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "RYU2014:v2:full:0131"
+          ]
+        },
+        {
+          "input_id": "LONG005",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "RYU2014:v2:full:0131"
+          ]
+        },
+        {
+          "input_id": "LONG008",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "RYU2014:v2:full:0131"
+          ]
+        },
+        {
+          "input_id": "LONG008",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "RYU2014:v2:full:0131"
+          ]
+        },
+        {
+          "input_id": "NEW007",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "RYU2014:v2:full:0131"
+          ]
+        },
+        {
+          "input_id": "NEW007",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "RYU2014:v2:full:0131"
+          ]
+        },
+        {
+          "input_id": "NEW011",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "RYU2014:v2:full:0131"
+          ]
+        },
+        {
+          "input_id": "NEW011",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "RYU2014:v2:full:0131"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LIT07",
+      "issue": "먹다→묵다→묵고 및 활용 연결",
+      "related_fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:full:1057",
+        "NAMU_GRAMMAR_20260908:v2:full:0239",
+        "NAMU_GRAMMAR_20260908:v2:full:0231",
+        "RYU2014:v2:full:0097"
+      ],
+      "support_status": [
+        "already_in_KG_and_retrieved"
+      ],
+      "source_id": [
+        "NAMU_GRAMMAR_20260908",
+        "RYU2014"
+      ],
+      "pdf_pages": [
+        {
+          "source_id": "RYU2014",
+          "pdf_page": 20
+        },
+        {
+          "source_id": "NAMU_GRAMMAR_20260908",
+          "pdf_page": 6
+        }
+      ],
+      "exact_quotes": [
+        {
+          "source_id": "RYU2014",
+          "pdf_page": 20,
+          "text": "지금 밥을 묵고 있다.",
+          "verified_exact_substring": true
+        },
+        {
+          "source_id": "NAMU_GRAMMAR_20260908",
+          "pdf_page": 6,
+          "text": "치킨 체인점 '무봤나촌닭'의 '무' 및 \"강알리 등킨드나스 무 밨나\"의 '무'가 이것이다. '무우'이므로 장음으로 발음해야 한다. 어\n 간의 받침 'ㄱ'이 사라지고 그 뒤에는 '-아/어' 대신 '-우'가 붙는다. 어간과 어미가 모두 바뀌는 불규칙 활용으로 볼 수 있는데,",
+          "verified_exact_substring": true
+        }
+      ],
+      "what_is_supported": "묵고 활용은 KG에 구체조건 lemma=묵다, ending=-고로 있음. LONG001 baseline/hybrid에서 G0239와R0097 모두 실제 전달됨. 현재는 먹고경로가 없다는 과거 설명을 그대로 적용불가.",
+      "what_is_not_supported": "모든 먹다의 의미에 먹기동사를 적용; 무우를 모든 어미 앞에 사용; 묵었다의 확인만으로 높임포함 전체 조합을 직접용례라 주장.",
+      "proposed_retrieval_or_KG_action": "이미 조회되는 구간은 생성사용 문제로분리. EP가 있는 경우 조합 경로 차단이 너무 넓은지 분석하되 활용별 검증.",
+      "search_scope": "G6표이미지확인,R20,현재 LONG001 retrieval, KG먹다/묵다 관련사실.",
+      "uncertainty": "위키와함양자료지역범위 다름. LONG001의 묵고 조회성공은 다른모든문장의 활용성공 의미하지않음.",
+      "observed_selection_in_latest_experiment": [
+        {
+          "input_id": "DEV007",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_GRAMMAR_20260908:v2:full:1057"
+          ]
+        },
+        {
+          "input_id": "DEV007",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_GRAMMAR_20260908:v2:full:1057"
+          ]
+        },
+        {
+          "input_id": "DEV022",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_GRAMMAR_20260908:v2:full:1057"
+          ]
+        },
+        {
+          "input_id": "DEV022",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_GRAMMAR_20260908:v2:full:1057"
+          ]
+        },
+        {
+          "input_id": "LONG001",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_GRAMMAR_20260908:v2:full:0239",
+            "NAMU_GRAMMAR_20260908:v2:full:1057",
+            "RYU2014:v2:full:0097"
+          ]
+        },
+        {
+          "input_id": "LONG001",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_GRAMMAR_20260908:v2:full:0239",
+            "NAMU_GRAMMAR_20260908:v2:full:1057",
+            "RYU2014:v2:full:0097"
+          ]
+        },
+        {
+          "input_id": "LONG002",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_GRAMMAR_20260908:v2:full:1057"
+          ]
+        },
+        {
+          "input_id": "LONG002",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_GRAMMAR_20260908:v2:full:1057"
+          ]
+        },
+        {
+          "input_id": "LONG003",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_GRAMMAR_20260908:v2:full:1057"
+          ]
+        },
+        {
+          "input_id": "LONG003",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_GRAMMAR_20260908:v2:full:1057"
+          ]
+        },
+        {
+          "input_id": "LONG005",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_GRAMMAR_20260908:v2:full:1057"
+          ]
+        },
+        {
+          "input_id": "LONG005",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_GRAMMAR_20260908:v2:full:1057"
+          ]
+        },
+        {
+          "input_id": "LONG006",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_GRAMMAR_20260908:v2:full:1057"
+          ]
+        },
+        {
+          "input_id": "LONG006",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_GRAMMAR_20260908:v2:full:1057"
+          ]
+        },
+        {
+          "input_id": "NEW007",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_GRAMMAR_20260908:v2:full:0239",
+            "NAMU_GRAMMAR_20260908:v2:full:1057",
+            "RYU2014:v2:full:0097"
+          ]
+        },
+        {
+          "input_id": "NEW007",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_GRAMMAR_20260908:v2:full:0239",
+            "NAMU_GRAMMAR_20260908:v2:full:1057",
+            "RYU2014:v2:full:0097"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LIT08",
+      "issue": "관형절 보존과 조회되지 않는 context",
+      "related_fact_ids": [
+        "RYU2014:v2:full:0098"
+      ],
+      "support_status": [
+        "already_in_KG_but_not_selected",
+        "source_evidence_link_can_be_improved"
+      ],
+      "source_id": [
+        "RYU2014"
+      ],
+      "pdf_pages": [
+        {
+          "source_id": "RYU2014",
+          "pdf_page": 20
+        },
+        {
+          "source_id": "RYU2014",
+          "pdf_page": 21
+        }
+      ],
+      "exact_quotes": [
+        {
+          "source_id": "RYU2014",
+          "pdf_page": 20,
+          "text": "방언에서 관형사형 형태는 표준어와 같다. 그러나 ‘-았던’과\n같은 형태는 방언형에 없었으나 60대에서만 새롭게 쓰고 있다.",
+          "verified_exact_substring": true
+        },
+        {
+          "source_id": "RYU2014",
+          "pdf_page": 21,
+          "text": "지금 가는 사람은                                       지금 가는 사람이\n                        -는                     -는\n       누구냐?                                            누고?",
+          "verified_exact_substring": true
+        }
+      ],
+      "what_is_supported": "함양 문헌은 관형사형공유와 대응표를 명시. KG0098 reference_only에 보존설명 있으나 LONG006 baseline/hybrid 둘다 선택없음.",
+      "what_is_not_supported": "좋아하는→좋아하노를 원문에서 허용; 모든 지역관형형이항상 표준어동일이라고 전역확대.",
+      "proposed_retrieval_or_KG_action": "ETM구간 보존지침에 reference_only 제약도 연결하고 KG0098 근거에 설명PDF20을 추가할지검토(현근거21).",
+      "search_scope": "R20~21직접독해,0098,LONG006선택후보확인.",
+      "uncertainty": "관형형태보존은 시제/상 보존과 함께 점검. 가는→가던도 무조건개선 아님.",
+      "observed_selection_in_latest_experiment": []
+    },
+    {
+      "id": "LIT09",
+      "issue": "인용 -라고 하다→라카다의 구조 단위",
+      "related_fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:full:0776",
+        "NAMU_GRAMMAR_20260908:v2:full:0777",
+        "NAMU_GRAMMAR_20260908:v2:full:0778",
+        "NAMU20260901:v2:review_completion:0043"
+      ],
+      "support_status": [
+        "already_in_KG",
+        "composition_needs_adviser_review"
+      ],
+      "source_id": [
+        "NAMU_GRAMMAR_20260908"
+      ],
+      "pdf_pages": [
+        {
+          "source_id": "NAMU_GRAMMAR_20260908",
+          "pdf_page": 24
+        },
+        {
+          "source_id": "NAMU_GRAMMAR_20260908",
+          "pdf_page": 30
+        }
+      ],
+      "exact_quotes": [
+        {
+          "source_id": "NAMU_GRAMMAR_20260908",
+          "pdf_page": 24,
+          "text": "'라고 하다'의 준말인' -라카다'를 많이 사용한다.",
+          "verified_exact_substring": true
+        },
+        {
+          "source_id": "NAMU_GRAMMAR_20260908",
+          "pdf_page": 30,
+          "text": "-라고 하다             -라카다/-라쿠다/-라거ᇹ     [87]                    머라카노",
+          "verified_exact_substring": true
+        }
+      ],
+      "what_is_supported": "인용구문 대응은 명시적이고 KG에도 있음. 인용의 하다와 일반행위하다/그러다를 구분할 근거가 존재.",
+      "what_is_not_supported": "온다고했어의 모든 부분을 단일어미표만으로 조합하는 완전알고리즘; 카다를 경북전용이라고단정.",
+      "proposed_retrieval_or_KG_action": "인용절과보고서술어를 하나의 구성으로 바인딩. 인용내용시제와 보고과거를 별도보존. 조합형의 세부형태는 조언자+반례검토로 제안층에저장.",
+      "search_scope": "G24·30 및 관련fact/지역예외 확인.",
+      "uncertainty": "원문의 라고 하다 표로 모든 다고/자고/냐고계열의 표면수축을 확정하지않음.",
+      "observed_selection_in_latest_experiment": []
+    },
+    {
+      "id": "LIT10",
+      "issue": "더라→대 평가의 중의성 및 소스 대/데표기",
+      "related_fact_ids": [
+        "NAMU_GRAMMAR_20260908:v2:full:0725",
+        "NAMU_GRAMMAR_20260908:v2:full:0726",
+        "NAMU_GRAMMAR_20260908:v2:full:0727"
+      ],
+      "support_status": [
+        "already_in_KG",
+        "previous_error_label_requires_review"
+      ],
+      "source_id": [
+        "NAMU_GRAMMAR_20260908"
+      ],
+      "pdf_pages": [
+        {
+          "source_id": "NAMU_GRAMMAR_20260908",
+          "pdf_page": 28
+        }
+      ],
+      "exact_quotes": [
+        {
+          "source_id": "NAMU_GRAMMAR_20260908",
+          "pdf_page": 28,
+          "text": "-더라                            -대/-더라/-더래                                       거어 참 덥데",
+          "verified_exact_substring": true
+        }
+      ],
+      "what_is_supported": "원문은 더라대응으로 대/더라/더래를 기재하고예는 덥데. KG0725도retrospective로분류. 따라서 출력 맛있대를 오직 표준어전언으로읽어 확정오류라하는것은부적절.",
+      "what_is_not_supported": "반대로 모든 맛있대출력이경상도직접경험을자연스럽게보존한다는 보증. 소스내 대/데표기차이의 정확한원인.",
+      "proposed_retrieval_or_KG_action": "기존평가에서 확정전언오류를 검토필요로하향; 증거성과표기중의성을 별도평가하고 조언자에게지역/예문대조요청.",
+      "search_scope": "G28텍스트+실제표이미지,KG0725~0727확인.",
+      "uncertainty": "직접화자판정과해당발화억양정보없음. 원문표존재는출력품질의자동보증아님.",
+      "observed_selection_in_latest_experiment": [
+        {
+          "input_id": "DEV029",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_GRAMMAR_20260908:v2:full:0725",
+            "NAMU_GRAMMAR_20260908:v2:full:0726",
+            "NAMU_GRAMMAR_20260908:v2:full:0727"
+          ]
+        },
+        {
+          "input_id": "DEV029",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_GRAMMAR_20260908:v2:full:0725",
+            "NAMU_GRAMMAR_20260908:v2:full:0726",
+            "NAMU_GRAMMAR_20260908:v2:full:0727"
+          ]
+        },
+        {
+          "input_id": "LONG002",
+          "retrieval": "baseline",
+          "fact_ids": [
+            "NAMU_GRAMMAR_20260908:v2:full:0725"
+          ]
+        },
+        {
+          "input_id": "LONG002",
+          "retrieval": "hybrid",
+          "fact_ids": [
+            "NAMU_GRAMMAR_20260908:v2:full:0726"
+          ]
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "item_count": 10,
+    "exact_quote_count": 22,
+    "all_quotes_exact_substrings": true,
+    "all_related_fact_ids_exist": true
+  },
+  "source_pdf_hashes": [
+    {
+      "source_id": "YANG2021",
+      "path": "sources/methodology/dialect_generation/georo2021.pdf",
+      "sha256": "30b90da21b6f86e1c7404d194d35f6bbb9f77f7ed9e11dcb642f5f8b7ee19f3b",
+      "matches_registry": true
+    },
+    {
+      "source_id": "JO2018",
+      "path": "sources/gyeongsang/academic/경북방언_종결어미_연구.pdf",
+      "sha256": "3b48d6356b9efe95fe06dbd9f4db61031795cb3fb48aa87da0f192fcc1ee6c3d",
+      "matches_registry": true
+    },
+    {
+      "source_id": "RYU2014",
+      "path": "sources/gyeongsang/academic/표준어 간섭 및 방언에 대한 의식으로 인한 경남 함양 방언 문법 형태의 변화 연구.pdf",
+      "sha256": "2ae9c22e1a7cc9f470909bdf9cfe5f7e002d868c208a55ce23fed479ae5d9973",
+      "matches_registry": true
+    },
+    {
+      "source_id": "NAMU20260901",
+      "path": "sources/gyeongsang/web/동남 방언.pdf",
+      "sha256": "97a5ccceeb15d9b80370f1a505c5eebd6e69e9da9a57ade1bed8e19303b9f80c",
+      "matches_registry": true
+    },
+    {
+      "source_id": "NAMU_GRAMMAR_20260908",
+      "path": "sources/gyeongsang/web/동남 방언_문법.pdf",
+      "sha256": "7bbc219e272b325a44310fe70aeed20912b38b9023d00fcbbb879edc22ec7003",
+      "matches_registry": true
+    },
+    {
+      "source_id": "NAMU_HONORIFICS_20260908",
+      "path": "sources/gyeongsang/web/동남 방언_상대높임법.pdf",
+      "sha256": "e0eb50ca37599a7c21e09c49c4c2052a6013c6073edd14391c0d2d70a15de9c4",
+      "matches_registry": true
+    },
+    {
+      "source_id": "NAMU_PHONOLOGY_20260908",
+      "path": "sources/gyeongsang/web/동남 방언_음운.pdf",
+      "sha256": "ecdde8d655782e6ebb4c86361019139f6dc6ad87c556bf1b4bcf82402b2b3366",
+      "matches_registry": true
+    }
+  ]
+}

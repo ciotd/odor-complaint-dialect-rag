@@ -1,0 +1,32 @@
+{
+  "model_calls": {
+    "qwen": 0
+  },
+  "review_workers": {
+    "requested_model": "gpt-6-astra",
+    "requested_reasoning_effort": "high",
+    "launched": [
+      "construction_advisor",
+      "construction_literature"
+    ],
+    "third_worker": "launch failed: agent thread limit; root handles counterexamples with advisor cross-review",
+    "checkpoint_identity": "requested settings, no independent backend verification"
+  },
+  "before_hashes": {
+    "kg_v2/facts.jsonl": "67f52901d624182866c519a7862da3760d1df37fb58c738e0fa4399a790740f3",
+    "kg_v2/graph.json": "a4214b728abf559b31d82a0518badb614fc955b9e12275d324c79b3136ebc156",
+    "kg_v2/sentence_retrieval.py": "b42bc3662341091667fa6911ca2b1648fa083d55d43d3d94217e44c8f5da0b47",
+    "kg_v2/transformation_plan.py": "2689fb1126e80970dbccc2dbec3a46ed3d9963d5312fd5c3ee9c80a55db38734",
+    "kg_v2/run_translation.py": "b97653d282cda45e8021f9a441ac76aec461bef566b2439defa879aa1dc2841d"
+  },
+  "after_hashes": {
+    "kg_v2/facts.jsonl": "5aab01e89a5d1d5074c9af61aa78e4d654e71217121ccd1a774c98f284186130",
+    "kg_v2/graph.json": "cbe51a766841aa51c12abbcdcf8f203c073c632b6524c808529bc5acfdc26f89",
+    "kg_v2/sentence_retrieval.py": "ca46940056d1b862cd46058e7fb39523f47bd60f81d05a9167c2b30ebc8d17f1",
+    "kg_v2/construction_retrieval.py": "d78ad6cb3ea62b9a8d20406fc078c669868bf795b2b66819d271ce73cfa21e68",
+    "kg_v2/run_translation.py": "f2601ed1a0a9f62a7d639a96e28e45d6c3b2fe7414b12556b38ce8e22834f066",
+    "kg_v2/authored/NAMU20260901_construction_review.json": "198947d9ac87f84a713bfb10a3b04cbbfb17b6c03e5422e7a700044737623a1b",
+    "kg_v2/test_construction_retrieval.py": "e4fb3b0f367a0de90016694adc496bde873982e8a0a1e19c112eb3ea45328df5"
+  },
+  "frozen_prior_retrieval_sha256": "314f7a191a39e951c735940950aea7563c7f5608f53ae02529775f37ad39329a"
+}

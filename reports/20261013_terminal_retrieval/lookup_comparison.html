@@ -1,0 +1,165 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><title>종결 조회 수정 검증</title>
+<style>body{font-family:sans-serif;line-height:1.7;margin:24px}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ccc;padding:10px;vertical-align:top}th{background:#eaf3fa}pre{white-space:pre-wrap}</style>
+<h1>종결 조회 수정 —70개 실제 요청 검증</h1><p>아래는 Qwen 번역 결과가 아니라 생성기에 전달되는 종결 조합안입니다. 기존 분석·모델 설정을 유지했고 system에 경북40대 지시를 추가하지 않았습니다.</p>
+<p><a href="coordinator_report.txt">수정 내용·원문 근거·한계</a> · <a href="lookup_comparison.tsv">전체 TSV</a> · <a href="../latest/index.html">최신 안내</a></p>
+<table><tr><th>ID·원문</th><th>이전 종결 후보</th><th>새로 전달하는 구간별 조합안</th><th>보류</th></tr><tr><td><pre>DEV001
+오늘은 날씨가 참 좋네요.</pre></td><td><pre>오늘은 날씨가 참 좋네요. → -네예</pre></td><td><pre>좋네요 → 좋네예 [polite_declarative]</pre></td><td><pre></pre></td></tr><tr><td><pre>DEV002
+집에 가는 길에 빵을 샀어.</pre></td><td><pre></pre></td><td><pre>샀어 → 샀다 [casual_declarative]</pre></td><td><pre></pre></td></tr><tr><td><pre>DEV003
+이 음식은 생각보다 맵네요.</pre></td><td><pre>이 음식은 생각보다 맵네요. → -네예</pre></td><td><pre>맵네요 → 맵네예 [polite_declarative]</pre></td><td><pre></pre></td></tr><tr><td><pre>DEV004
+아까 문 앞에 있던 사람이 제 친구예요.</pre></td><td><pre>아까 문 앞에 있던 사람이 제 친구예요. → -이라예
+아까 문 앞에 있던 사람이 제 친구예요. → -이라요
+아까 문 앞에 있던 사람이 제 친구예요. → -이래요</pre></td><td><pre>예요 → 라예 [polite_declarative]</pre></td><td><pre></pre></td></tr><tr><td><pre>DEV005
+나는 커피보다 차가 더 좋아.</pre></td><td><pre></pre></td><td><pre>좋아 → 좋다 [casual_declarative]</pre></td><td><pre></pre></td></tr><tr><td><pre>DEV006
+할머니께서 지금 방에서 쉬고 계세요.</pre></td><td><pre>할머니께서 지금 방에서 쉬고 계세요. → -어예</pre></td><td><pre>계세요 → 계셔예 [polite_declarative]</pre></td><td><pre></pre></td></tr><tr><td><pre>DEV007
+나는 아직 점심을 안 먹었어.</pre></td><td><pre></pre></td><td><pre>먹었어 → 먹었다 [casual_declarative]</pre></td><td><pre></pre></td></tr><tr><td><pre>DEV008
+비가 너무 많이 와서 밖에 못 나가겠어요.</pre></td><td><pre>밖에 못 나가겠어요. → -어예</pre></td><td><pre>나가겠어요 → 나가겠어예 [polite_declarative]</pre></td><td><pre></pre></td></tr><tr><td><pre>DEV009
+그 사람이 싫은 건 아니야.</pre></td><td><pre></pre></td><td><pre></pre></td><td><pre></pre></td></tr><tr><td><pre>DEV010
+오늘 안에 다 끝낼 수 있을 것 같아요.</pre></td><td><pre>오늘 안에 다 끝낼 수 있을 것 같아요. → -어예</pre></td><td><pre>같아요 → 같아예 [polite_declarative]</pre></td><td><pre></pre></td></tr><tr><td><pre>DEV011
+버스가 벌써 출발했나요?</pre></td><td><pre>버스가 벌써 출발했나요? → -나예</pre></td><td><pre>출발했나요 → 출발했는교 [polite_question]</pre></td><td><pre></pre></td></tr><tr><td><pre>DEV012
+열쇠를 어디에 뒀어?</pre></td><td><pre>열쇠를 어디에 뒀어? → -노
+열쇠를 어디에 뒀어? → -도</pre></td><td><pre>뒀어 → 뒀노 [casual_question]</pre></td><td><pre></pre></td></tr><tr><td><pre>DEV013
+내일 몇 시에 만나면 될까요?</pre></td><td><pre>내일 몇 시에 만나면 될까요? → -ᆯ까예</pre></td><td><pre>될까요 → 될까예 [polite_modal_or_confirmation]</pre></td><td><pre></pre></td></tr><tr><td><pre>DEV014
+아까 왜 아무 말도 안 했어?</pre></td><td><pre>아까 왜 아무 말도 안 했어? → -노
+아까 왜 아무 말도 안 했어? → -도</pre></td><td><pre>했어 → 했노 [casual_question]</pre></td><td><pre></pre></td></tr><tr><td><pre>DEV015
+이 우산은 누구 거예요?</pre></td><td><pre>이 우산은 누구 거예요? → -이껴</pre></td><td><pre>예요 → 인교 [polite_question]</pre></td><td><pre></pre></td></tr><tr><td><pre>DEV016
+너는 지금 집에 가는 거야, 아니면 회사로 돌아가는 거야?</pre></td><td><pre></pre></td><td><pre></pre></td><td><pre></pre></td></tr><tr><td><pre>DEV017
+문 좀 닫아 주세요.</pre></td><td><pre>문 좀 닫아 주세요. → -세예</pre></td><td><pre>주세요 → 주이소 [polite_request]</pre></td><td><pre></pre></td></tr><tr><td><pre>DEV018
+이 상자 옮기는 것 좀 도와줄래?</pre></td><td><pre>이 상자 옮기는 것 좀 도와줄래? → -나
+이 상자 옮기는 것 좀 도와줄래? → -다</pre></td><td><pre></pre></td><td><pre></pre></td></tr><tr><td><pre>DEV019
+바닥이 미끄러우니까 천천히 걸으세요.</pre></td><td><pre>바닥이 미끄러우니까 천천히 걸으세요. → -으세예
+바닥이 미끄러우니까 → -(으)이까
+바닥이 미끄러우니까 → -(으)니께
+바닥이 미끄러우니까 → -(으)ㄴ께
+바닥이 미끄러우니까 → -(으)이끼네
+바닥이 미끄러우니까 → -(으)이꺼네</pre></td><td><pre>걸으세요 → 걸으이소 [polite_request]</pre></td><td><pre></pre></td></tr><tr><td><pre>DEV020
+그 얘기는 다른 사람한테 하지 마.</pre></td><td><pre>그 얘기는 다른 사람한테 하지 마. → -래
+그 얘기는 다른 사람한테 하지 마. → -래이
+그 얘기는 다른 사람한테 하지 마. → -가래이
+그 얘기는 다른 사람한테 하지 마. → -거래이
+그 얘기는 다른 사람한테 하지 마. → -나래이
+그 얘기는 다른 사람한테 하지 마. → -느래이</pre></td><td><pre>마 → 마라 [casual_request]</pre></td><td><pre></pre></td></tr><tr><td><pre>DEV021
+잠깐만 기다려 주세요. 제가 확인해 볼게요.</pre></td><td><pre>잠깐만 기다려 주세요. → -세예
+제가 확인해 볼게요. → -ᆯ게예</pre></td><td><pre>주세요 → 주이소 [polite_request]
+볼게요 → 보께예 [polite_promise]</pre></td><td><pre></pre></td></tr><tr><td><pre>DEV022
+시간 괜찮으면 같이 점심 먹자.</pre></td><td><pre>시간 괜찮으면 같이 점심 먹자. → -제
+시간 괜찮으면 같이 점심 먹자. → -제이
+시간 괜찮으면 같이 점심 먹자. → -자</pre></td><td><pre></pre></td><td><pre></pre></td></tr><tr><td><pre>DEV023
+어제부터 목이 아팠는데 오늘은 좀 괜찮아요.</pre></td><td><pre>오늘은 좀 괜찮아요. → -어예</pre></td><td><pre>괜찮아요 → 괜찮아예 [polite_declarative]</pre></td><td><pre></pre></td></tr><tr><td><pre>DEV024
+내가 도착할 때까지 여기서 기다려.</pre></td><td><pre>내가 도착할 때까지 여기서 기다려. → -라
+내가 도착할 때까지 여기서 기다려. → -래이
+내가 도착할 때까지 여기서 기다려. → -래
+내가 도착할 때까지 여기서 기다려. → -가래이
+내가 도착할 때까지 여기서 기다려. → -거래이
+내가 도착할 때까지 여기서 기다려. → -나래이</pre></td><td><pre>기다려 → 기다려라 [casual_request]</pre></td><td><pre></pre></td></tr><tr><td><pre>DEV025
+시간이 없으면 내일 해도 돼.</pre></td><td><pre></pre></td><td><pre>돼 → 된다 [casual_permission]</pre></td><td><pre></pre></td></tr><tr><td><pre>DEV026
+늦을까 봐 조금 일찍 나왔어요.</pre></td><td><pre>조금 일찍 나왔어요. → -어예</pre></td><td><pre>나왔어요 → 나왔어예 [polite_declarative]</pre></td><td><pre></pre></td></tr><tr><td><pre>DEV027
+동생이 오늘은 늦게 온다고 했어.</pre></td><td><pre></pre></td><td><pre>했어 → 했다 [casual_declarative]</pre></td><td><pre></pre></td></tr><tr><td><pre>DEV028
+아까 말한 건 이걸 버리라는 뜻이 아니었어요.</pre></td><td><pre>아까 말한 건 이걸 버리라는 뜻이 아니었어요. → -어예</pre></td><td><pre>아니었어요 → 아니었어예 [polite_declarative]</pre></td><td><pre></pre></td></tr><tr><td><pre>DEV029
+그 가게에 가 봤는데 음식이 괜찮더라.</pre></td><td><pre>음식이 괜찮더라 → -대
+음식이 괜찮더라 → -더라
+음식이 괜찮더라 → -더래</pre></td><td><pre></pre></td><td><pre></pre></td></tr><tr><td><pre>DEV030
+피곤하면 먼저 자. 뒷정리는 내가 할게.</pre></td><td><pre>피곤하면 먼저 자. → -라
+피곤하면 먼저 자. → -래이
+피곤하면 먼저 자. → -래
+피곤하면 먼저 자. → -가래이
+피곤하면 먼저 자. → -거래이
+피곤하면 먼저 자. → -나래이</pre></td><td><pre>자 → 자라 [casual_request]
+할게 → 하께 [casual_promise]</pre></td><td><pre></pre></td></tr><tr><td><pre>LONG001
+너 지금 어디야? 아까 역 앞에서 만나자고 했는데 왜 아직 안 와? 나는 배가 고파서 먼저 밥을 먹고 있을게.</pre></td><td><pre>너 지금 어디야? → -(이)고
+왜 아직 안 와? → -노</pre></td><td><pre>와 → 오노 [casual_question]
+있을게 → 있으께 [casual_promise]</pre></td><td><pre></pre></td></tr><tr><td><pre>LONG002
+오늘 시장에서 사 온 사과 먹어 봤어? 보기에는 조금 작아도 생각보다 달고 맛있더라. 혼자 다 먹지 말고 동생 것도 좀 남겨 둬.</pre></td><td><pre>보기에는 조금 작아도 생각보다 달고 맛있더라. → -대</pre></td><td><pre>봤어 → 봤나 [casual_question]
+둬 → 둬라 [casual_request]</pre></td><td><pre></pre></td></tr><tr><td><pre>LONG003
+사장님, 이 국은 뭐가 들어가서 이렇게 맛있어요? 제가 매운 음식은 잘 못 먹는데 이건 괜찮네요. 반찬도 조금만 더 주세요.</pre></td><td><pre>이건 괜찮네요 → -네예
+반찬도 조금만 더 주세요 → -세예</pre></td><td><pre>맛있어요 → 맛있는교 [polite_question]
+괜찮네요 → 괜찮네예 [polite_declarative]
+주세요 → 주이소 [polite_request]</pre></td><td><pre></pre></td></tr><tr><td><pre>LONG004
+할머니, 밖에 비가 많이 오는데 우산은 챙기셨어요? 길이 미끄러우니까 혼자 나가지 마세요. 제가 집 앞까지 모셔다드릴게요.</pre></td><td><pre>길이 미끄러우니까 혼자 나가지 마세요. → -세예
+제가 집 앞까지 모셔다드릴게요. → -ᆯ게예
+할머니, 밖에 비가 많이 오는데 우산은 챙기셨어요? → -어예
+길이 미끄러우니까 → -(으)이까
+길이 미끄러우니까 → -(으)니께
+길이 미끄러우니까 → -(으)ㄴ께
+길이 미끄러우니까 → -(으)이끼네</pre></td><td><pre>챙기셨어요 → 챙기셨는교 [polite_question]
+마세요 → 마이소 [polite_request]
+드릴게요 → 드리께예 [polite_promise]</pre></td><td><pre></pre></td></tr><tr><td><pre>LONG005
+어제 민수가 오늘은 늦게 온다고 했어. 그래서 우리끼리 먼저 저녁을 먹으려고 하는데 너는 어떻게 할 거야? 기다릴 거면 나한테 미리 말해 줘.</pre></td><td><pre>먹으려고 → -(으)ㄹ라
+기다릴 거면 → -머
+기다릴 거면 → -먼
+너는 어떻게 할 거야? → -(이)고
+나한테 미리 말해 줘. → -래</pre></td><td><pre>했어 → 했다 [casual_declarative]
+줘 → 줘라 [casual_request]</pre></td><td><pre></pre></td></tr><tr><td><pre>LONG006
+집에 가는 길에 네가 좋아하는 빵을 샀어. 버스를 기다리다가 비가 와서 조금 젖었는데 빵은 괜찮아. 식탁 위에 뒀으니까 배고프면 먹어.</pre></td><td><pre>식탁 위에 뒀으니까 → -(으)이까</pre></td><td><pre>샀어 → 샀다 [casual_declarative]
+괜찮아 → 괜찮다 [casual_declarative]
+먹어 → 먹어라 [casual_request]</pre></td><td><pre></pre></td></tr><tr><td><pre>LONG007
+아까부터 뭘 그렇게 찾고 있어? 열쇠는 네가 아침에 부엌 식탁 위에 놓았잖아. 거기에도 없으면 내가 같이 찾아 줄 테니까 가방부터 다시 봐.</pre></td><td><pre>내가 같이 찾아 줄 테니까 → -(으)이까
+내가 같이 찾아 줄 테니까 → -(으)니께
+내가 같이 찾아 줄 테니까 → -(으)ㄴ께
+내가 같이 찾아 줄 테니까 → -(으)이끼네
+내가 같이 찾아 줄 테니까 → -(으)이꺼네
+아까부터 뭘 그렇게 찾고 있어? → -노
+아까부터 뭘 그렇게 찾고 있어? → -도
+가방부터 다시 봐. → -라</pre></td><td><pre>있어 → 있노 [casual_question]
+봐 → 봐라 [casual_request]</pre></td><td><pre></pre></td></tr><tr><td><pre>LONG008
+오늘 일이 많아서 많이 힘드셨죠? 급한 건 제가 마무리할 테니까 먼저 들어가서 쉬세요. 내일 아침에 오시면 어디까지 했는지 말씀드릴게요.</pre></td><td><pre>오늘 일이 많아서 많이 힘드셨죠? → -지예
+급한 건 제가 마무리할 테니까 먼저 들어가서 쉬세요. → -세예
+내일 아침에 오시면 어디까지 했는지 말씀드릴게요. → -ᆯ게예</pre></td><td><pre>힘드셨죠 → 힘드셨지예 [polite_modal_or_confirmation]
+쉬세요 → 쉬이소 [polite_request]
+드릴게요 → 드리께예 [polite_promise]</pre></td><td><pre></pre></td></tr><tr><td><pre>NEW001
+저기 창가에 앉아 있는 분이 제 선생님이에요.</pre></td><td><pre>저기 창가에 앉아 있는 분이 제 선생님이에요. → -이라예
+저기 창가에 앉아 있는 분이 제 선생님이에요. → -이라요
+저기 창가에 앉아 있는 분이 제 선생님이에요. → -이래요</pre></td><td><pre>이에요 → 이라예 [polite_declarative]</pre></td><td><pre></pre></td></tr><tr><td><pre>NEW002
+저는 어제 도서관에서 책을 빌렸어요.</pre></td><td><pre>저는 어제 도서관에서 책을 빌렸어요. → -어예</pre></td><td><pre>빌렸어요 → 빌렸어예 [polite_declarative]</pre></td><td><pre></pre></td></tr><tr><td><pre>NEW003
+아버지께서는 아직 저녁을 안 드셨어요.</pre></td><td><pre>아버지께서는 아직 저녁을 안 드셨어요. → -어예</pre></td><td><pre>드셨어요 → 드셨어예 [polite_declarative]</pre></td><td><pre></pre></td></tr><tr><td><pre>NEW004
+회의가 벌써 시작했나요?</pre></td><td><pre>회의가 벌써 시작했나요? → -나예</pre></td><td><pre>시작했나요 → 시작했는교 [polite_question]</pre></td><td><pre></pre></td></tr><tr><td><pre>NEW005
+이 서류는 어디에 놓으면 될까요?</pre></td><td><pre>이 서류는 어디에 놓으면 될까요? → -ᆯ까예</pre></td><td><pre>될까요 → 될까예 [polite_modal_or_confirmation]</pre></td><td><pre></pre></td></tr><tr><td><pre>NEW006
+계단이 어두우니까 조심해서 내려오세요.</pre></td><td><pre>조심해서 내려오세요. → -세예
+계단이 어두우니까 → -(으)이까
+계단이 어두우니까 → -(으)니께
+계단이 어두우니까 → -(으)ㄴ께
+계단이 어두우니까 → -(으)이끼네
+계단이 어두우니까 → -(으)이꺼네</pre></td><td><pre>내려오세요 → 내려오이소 [polite_request]</pre></td><td><pre></pre></td></tr><tr><td><pre>NEW007
+내가 먼저 먹고 있을 테니까 천천히 와.</pre></td><td><pre>내가 먼저 먹고 있을 테니까 → -(으)이까
+내가 먼저 먹고 있을 테니까 → -(으)니께
+내가 먼저 먹고 있을 테니까 → -(으)ㄴ께
+내가 먼저 먹고 있을 테니까 → -(으)이끼네
+내가 먼저 먹고 있을 테니까 → -(으)이꺼네
+천천히 와. → -라
+천천히 와. → -래이
+천천히 와. → -래</pre></td><td><pre>와 → 온나 [casual_request]</pre></td><td><pre></pre></td></tr><tr><td><pre>NEW008
+그건 네 잘못이 아니야.</pre></td><td><pre></pre></td><td><pre></pre></td><td><pre></pre></td></tr><tr><td><pre>NEW009
+동생이 좋아하는 과자를 가방에 넣었어.</pre></td><td><pre></pre></td><td><pre>넣었어 → 넣었다 [casual_declarative]</pre></td><td><pre></pre></td></tr><tr><td><pre>NEW010
+할아버지, 안경을 어디에 두셨어요? 제가 같이 찾아드릴게요.</pre></td><td><pre>제가 같이 찾아드릴게요. → -ᆯ게예
+할아버지, 안경을 어디에 두셨어요? → -어예</pre></td><td><pre>두셨어요 → 두셨는교 [polite_question]
+드릴게요 → 드리께예 [polite_promise]</pre></td><td><pre></pre></td></tr><tr><td><pre>NEW011
+오늘은 시간이 없어서 먼저 갈게요. 남은 일은 내일 제가 할게요.</pre></td><td><pre>오늘은 시간이 없어서 먼저 갈게요. → -ᆯ게예
+남은 일은 내일 제가 할게요. → -ᆯ게예</pre></td><td><pre>갈게요 → 가께예 [polite_promise]
+할게요 → 하께예 [polite_promise]</pre></td><td><pre></pre></td></tr><tr><td><pre>NEW012
+그 물건을 버리라고 한 건 아니었어요. 잠깐 다른 곳에 옮겨 달라는 뜻이었어요.</pre></td><td><pre>그 물건을 버리라고 한 건 아니었어요. → -어예
+잠깐 다른 곳에 옮겨 달라는 뜻이었어요. → -어예</pre></td><td><pre>아니었어요 → 아니었어예 [polite_declarative]
+이었어요 → 이었어예 [polite_declarative]</pre></td><td><pre></pre></td></tr><tr><td><pre>ADVCE001A
+기차가 지금 정차하나요?</pre></td><td><pre>기차가 지금 정차하나요? → -나예</pre></td><td><pre>정차하나요 → 정차하는교 [polite_question]</pre></td><td><pre></pre></td></tr><tr><td><pre>ADVCE001B
+기차가 어제 정차했나요?</pre></td><td><pre>기차가 어제 정차했나요? → -나예</pre></td><td><pre>정차했나요 → 정차했는교 [polite_question]</pre></td><td><pre></pre></td></tr><tr><td><pre>ADVCE002A
+선생님께서 자료를 읽고 계세요.</pre></td><td><pre>선생님께서 자료를 읽고 계세요. → -어예</pre></td><td><pre>계세요 → 계셔예 [polite_declarative]</pre></td><td><pre></pre></td></tr><tr><td><pre>ADVCE002B
+선생님께서 자료를 읽고 계셨어요.</pre></td><td><pre>선생님께서 자료를 읽고 계셨어요. → -어예</pre></td><td><pre>계셨어요 → 계셨어예 [polite_declarative]</pre></td><td><pre></pre></td></tr><tr><td><pre>ADVCE003A
+이 문을 제가 닫을까요?</pre></td><td><pre>이 문을 제가 닫을까요? → -을까예
+이 문을 제가 닫을까요? → -꾜</pre></td><td><pre>닫을까요 → 닫을까예 [polite_modal_or_confirmation]</pre></td><td><pre></pre></td></tr><tr><td><pre>ADVCE003B
+이 문이 저절로 닫힐까요?</pre></td><td><pre>이 문이 저절로 닫힐까요? → -ᆯ까예</pre></td><td><pre>닫힐까요 → 닫힐까예 [polite_modal_or_confirmation]</pre></td><td><pre></pre></td></tr><tr><td><pre>ADVCE004A
+선생님은 매일 이 길로 걸으세요.</pre></td><td><pre>선생님은 매일 이 길로 걸으세요. → -으세예</pre></td><td><pre></pre></td><td><pre>ambiguous_seyo_conflicts_with_cached_question; requires_analysis_review</pre></td></tr><tr><td><pre>ADVCE004B
+선생님, 오늘은 이 길로 걸으세요.</pre></td><td><pre>선생님, 오늘은 이 길로 걸으세요. → -으세예</pre></td><td><pre>걸으세요 → 걸으이소 [polite_request]</pre></td><td><pre></pre></td></tr><tr><td><pre>ADVCE005A
+그 사람은 제 동료예요.</pre></td><td><pre>그 사람은 제 동료예요. → -이라예
+그 사람은 제 동료예요. → -이라요
+그 사람은 제 동료예요. → -이래요</pre></td><td><pre>예요 → 라예 [polite_declarative]</pre></td><td><pre></pre></td></tr><tr><td><pre>ADVCE005B
+그 사람은 제 동료를 도와요.</pre></td><td><pre>그 사람은 제 동료를 도와요. → -어예</pre></td><td><pre>도와요 → 도와예 [polite_declarative]</pre></td><td><pre></pre></td></tr><tr><td><pre>ADVCE006A
+저는 그 내용을 설명했어요.</pre></td><td><pre>저는 그 내용을 설명했어요. → -어예</pre></td><td><pre>설명했어요 → 설명했어예 [polite_declarative]</pre></td><td><pre></pre></td></tr><tr><td><pre>ADVCE006B
+나는 그 내용을 설명했어요.</pre></td><td><pre>나는 그 내용을 설명했어요. → -어예</pre></td><td><pre>설명했어요 → 설명했어예 [polite_declarative]</pre></td><td><pre></pre></td></tr><tr><td><pre>ADVCE007A
+저는 먼저 기다릴게요.</pre></td><td><pre>저는 먼저 기다릴게요. → -ᆯ게예</pre></td><td><pre>기다릴게요 → 기다리께예 [polite_promise]</pre></td><td><pre></pre></td></tr><tr><td><pre>ADVCE007B
+저는 앞에서 기다릴게요.</pre></td><td><pre>저는 앞에서 기다릴게요. → -ᆯ게예</pre></td><td><pre>기다릴게요 → 기다리께예 [polite_promise]</pre></td><td><pre></pre></td></tr><tr><td><pre>ADVCE008A
+제가 지금 읽는 책을 빌려드릴게요.</pre></td><td><pre>제가 지금 읽는 책을 빌려드릴게요. → -ᆯ게예</pre></td><td><pre>드릴게요 → 드리께예 [polite_promise]</pre></td><td><pre></pre></td></tr><tr><td><pre>ADVCE008B
+제가 전에 읽던 책을 빌려드릴게요.</pre></td><td><pre>제가 전에 읽던 책을 빌려드릴게요. → -ᆯ게예</pre></td><td><pre>드릴게요 → 드리께예 [polite_promise]</pre></td><td><pre></pre></td></tr><tr><td><pre>ADVCE009A
+그 식당 음식이 짜더라.</pre></td><td><pre>그 식당 음식이 짜더라. → -대
+그 식당 음식이 짜더라. → -더라
+그 식당 음식이 짜더라. → -더래</pre></td><td><pre></pre></td><td><pre></pre></td></tr><tr><td><pre>ADVCE009B
+그 식당 음식이 짜다고 들었어.</pre></td><td><pre></pre></td><td><pre>들었어 → 들었다 [casual_declarative]</pre></td><td><pre></pre></td></tr><tr><td><pre>ADVCE010A
+그 서류는 이미 제출하셨죠?</pre></td><td><pre>그 서류는 이미 제출하셨죠? → -지예</pre></td><td><pre>제출하셨죠 → 제출하셨지예 [polite_modal_or_confirmation]</pre></td><td><pre></pre></td></tr><tr><td><pre>ADVCE010B
+그 서류는 이미 제출하셨죠.</pre></td><td><pre>그 서류는 이미 제출하셨죠. → -지예</pre></td><td><pre>제출하셨죠 → 제출하셨지예 [polite_modal_or_confirmation]</pre></td><td><pre></pre></td></tr></table></html>

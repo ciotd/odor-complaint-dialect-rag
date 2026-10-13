@@ -1,0 +1,151 @@
+{
+  "source_id": "NAMU_GRAMMAR_20260908",
+  "facts": [
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:ending_repair:0001",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-이에요",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "match_unit": "terminal_ending"
+        }
+      },
+      "target_pattern": {
+        "text": "-이라예",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "realization": "replace_ending_preserve_prefix"
+        }
+      },
+      "functions": [
+        "declarative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "lemma",
+          "op": "eq",
+          "value": "이다",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "has_prefinals",
+          "op": "eq",
+          "value": false,
+          "basis": "analyst_interpretation"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "입력의 부정·시제·주체 높임과 명사/어간을 보존하고 명시한 종결 부분만 대응시킨다. 질문을 평서문으로 바꾸지 않는다."
+        },
+        {
+          "kind": "scope",
+          "description": "원문 위키의 지역·세대별 변이이며 모든 경상도 화자의 의무형이 아니다. 해예 사용자는 해요도 사용한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "동남 방언: 경북 북부의 -래- 변이 및 세대 차이는 별도"
+        ],
+        "speech_levels": [
+          "해예"
+        ],
+        "registers": [],
+        "period": [],
+        "note": "로컬 PDF 스냅샷의 서술; 독립 화자 검증이 아니다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 28,
+          "quote": "-이에요                            -이라요/-이라예"
+        },
+        {
+          "pdf_page": 22,
+          "quote": "-이라예 -이랐어예 아이라예 아이랐어예"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "원문 대조표의 직접 대응. 계사 이다와 종결어미를 함께 표기한 단위이며 어미 단독 분석과 정규화해 연결한다."
+    },
+    {
+      "id": "NAMU_GRAMMAR_20260908:v2:ending_repair:0002",
+      "type": "ending",
+      "source_pattern": {
+        "text": "-이야",
+        "domain": "standard",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "match_unit": "terminal_ending"
+        }
+      },
+      "target_pattern": {
+        "text": "-이라",
+        "domain": "dialect",
+        "lemma": null,
+        "sense": null,
+        "features": {
+          "realization": "replace_ending_preserve_prefix"
+        }
+      },
+      "functions": [
+        "declarative"
+      ],
+      "conditions": [
+        {
+          "owner": "candidate",
+          "field": "lemma",
+          "op": "eq",
+          "value": "이다",
+          "basis": "explicit"
+        },
+        {
+          "owner": "input",
+          "field": "has_prefinals",
+          "op": "eq",
+          "value": false,
+          "basis": "analyst_interpretation"
+        }
+      ],
+      "constraints": [
+        {
+          "kind": "require",
+          "description": "입력의 부정·시제·주체 높임과 명사/어간을 보존하고 명시한 종결 부분만 대응시킨다. 질문을 평서문으로 바꾸지 않는다."
+        },
+        {
+          "kind": "scope",
+          "description": "원문 위키의 지역·세대별 변이이며 모든 경상도 화자의 의무형이 아니다. 해예 사용자는 해요도 사용한다."
+        }
+      ],
+      "scope": {
+        "regions": [
+          "동남 방언: 경북 북부의 -래- 변이 및 세대 차이는 별도"
+        ],
+        "speech_levels": [
+          "해"
+        ],
+        "registers": [],
+        "period": [],
+        "note": "로컬 PDF 스냅샷의 서술; 독립 화자 검증이 아니다."
+      },
+      "evidence": [
+        {
+          "pdf_page": 28,
+          "quote": "-이야                                 -이라"
+        }
+      ],
+      "claim_status": "source_generalization",
+      "usability": "candidate",
+      "notes": "원문 대조표의 직접 대응. 계사 이다와 종결어미를 함께 표기한 단위이며 어미 단독 분석과 정규화해 연결한다."
+    }
+  ]
+}

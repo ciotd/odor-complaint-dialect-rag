@@ -1,0 +1,6 @@
+digraph G {
+graph [rankdir=TB,bgcolor="white",ranksep=.48,nodesep=.45];node [shape=box,style="rounded,filled",fillcolor="#edf4fa",fontname="Noto Sans CJK KR",fontsize=13];edge [fontname="Noto Sans CJK KR",fontsize=11];
+k[label="기록 A 자체\n노드 유형: 지식 항목\n내용 유형: 단어 대응",fillcolor="#d8e9e0"];
+a[label="출발 표현: 먹다\n노드 유형: 표현"];b[label="대응 표현: 묵다\n노드 유형: 표현"];e[label="원문 인용\n노드 유형: 근거"];p[label="PDF 6·46쪽\n노드 유형: 페이지"];s[label="문법 문헌\n노드 유형: 문헌"];
+k->a[label="출발 표현이다"];k->b[label="대응 표현이다"];a->b[label="단어 대응이다"];k->e[label="근거로 뒷받침된다"];e->p[label="여기에 실렸다"];p->s[label="이 문헌의 일부다"];
+}
