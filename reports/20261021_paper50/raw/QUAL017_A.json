@@ -1,0 +1,320 @@
+{
+  "id": "QUAL017",
+  "input": "이번에 저는 마지막으로 도전하려고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.",
+  "condition": "A",
+  "request": {
+    "model": "Qwen3.8-27B",
+    "max_tokens": 512,
+    "temperature": 0.3,
+    "top_p": 0.8,
+    "top_k": 20,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "seed": 20260923,
+    "messages": [
+      {
+        "role": "system",
+        "content": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요."
+      },
+      {
+        "role": "user",
+        "content": "standard를 자연스러운 경상도 방언으로 변환하세요. analysis와 source_morphology는 원문 분석의 가설이며 원문이 우선입니다. transformation_plan 또는 references와 graph_paths는 조건부 참고 자료입니다. 의미·지역·시대·높임·결합 조건이 맞는 자료를 선택하고 관련 없는 자료는 사용하지 마세요. 조건 미확인은 적용 허용이 아니며 연결된 진술끼리 조건을 상속하지 않습니다. 기본형 대응과 완성 활용형을 구별하고 원문의 부정·시제·높임·인용·발화 의도를 유지하세요. preservation의 관형절·겸양·주체와 청자 높임·이동 관점 보존을 어휘 치환보다 우선하세요. 모델 조언 후보는 원문 확인형이 아니며 불확실하면 원문의 구조를 보존하세요. 표에 없는 활용형은 표에 실린 확인형으로 주장하지 마세요. 원문에 없는 내용을 추가하지 말고 변환한 발화만 출력하세요.\n{\"standard\":\"이번에 저는 마지막으로 도전하려고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.\",\"analysis\":[{\"text\":\"이번에 저는 마지막으로 도전하려고 하거든요.\",\"span\":[0,24],\"role\":\"main\",\"features\":{\"host_pos\":\"verb\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"하다\",\"sentence_type\":\"declarative\",\"speech_act\":\"state_intention\",\"intention_holder\":\"speaker\",\"subject_person\":\"first\",\"meaning\":\"마지막으로 도전하려는 의도를 설명함\"},\"observed_politeness\":\"polite\",\"observed_subject_honorific\":\"not_observed\",\"tense_or_modality\":\"modal\",\"preserved_candidate_features\":{\"prefinal_profile\":\"none\",\"preceding_form\":\"verb_stem_direct\"}},{\"text\":\"제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데\",\"span\":[25,55],\"role\":\"connective\",\"features\":{\"host_pos\":\"verb\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"되다\",\"sentence_type\":\"declarative\",\"clause_relation\":\"cause\",\"meaning\":\"2년째가 된다는 사실을 근거로 제시함\"},\"observed_politeness\":\"unknown\",\"observed_subject_honorific\":\"not_observed\",\"tense_or_modality\":\"present\",\"preserved_candidate_features\":{\"prefinal_profile\":\"none\",\"preceding_form\":\"verb_stem_direct\"}},{\"text\":\"2년 해 보고 안 되면 저도 다른 일 하려고요.\",\"span\":[56,82],\"role\":\"main\",\"features\":{\"host_pos\":\"verb\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"하다\",\"sentence_type\":\"declarative\",\"speech_act\":\"state_intention\",\"intention_holder\":\"speaker\",\"subject_person\":\"first\",\"meaning\":\"2년 후 실패 시 다른 일을 하겠다는 의도\"},\"observed_politeness\":\"polite\",\"observed_subject_honorific\":\"not_observed\",\"tense_or_modality\":\"modal\",\"preserved_candidate_features\":{\"prefinal_profile\":\"none\",\"preceding_form\":\"verb_stem_direct\"}}],\"source_morphology\":{\"tokens\":[{\"form\":\"이번\",\"tag\":\"NNG\",\"span\":[0,2],\"surface\":\"이번\"},{\"form\":\"에\",\"tag\":\"JKB\",\"span\":[2,3],\"surface\":\"에\"},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[4,5],\"surface\":\"저\"},{\"form\":\"는\",\"tag\":\"JX\",\"span\":[5,6],\"surface\":\"는\"},{\"form\":\"마지막\",\"tag\":\"NNG\",\"span\":[7,10],\"surface\":\"마지막\"},{\"form\":\"으로\",\"tag\":\"JKB\",\"span\":[10,12],\"surface\":\"으로\"},{\"form\":\"도전\",\"tag\":\"NNG\",\"span\":[13,15],\"surface\":\"도전\"},{\"form\":\"하\",\"tag\":\"XSV\",\"span\":[15,16],\"surface\":\"하\"},{\"form\":\"려고\",\"tag\":\"EC\",\"span\":[16,18],\"surface\":\"려고\"},{\"form\":\"하\",\"tag\":\"VX\",\"span\":[19,20],\"surface\":\"하\"},{\"form\":\"거든요\",\"tag\":\"EF\",\"span\":[20,23],\"surface\":\"거든요\"},{\"form\":\".\",\"tag\":\"SF\",\"span\":[23,24],\"surface\":\".\"},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[25,26],\"surface\":\"제\"},{\"form\":\"가\",\"tag\":\"JKS\",\"span\":[26,27],\"surface\":\"가\"},{\"form\":\"저번\",\"tag\":\"NNG\",\"span\":[28,30],\"surface\":\"저번\"},{\"form\":\"에\",\"tag\":\"JKB\",\"span\":[30,31],\"surface\":\"에\"},{\"form\":\"일\",\"tag\":\"NR\",\"span\":[32,33],\"surface\":\"일\"},{\"form\":\"년\",\"tag\":\"NNB\",\"span\":[34,35],\"surface\":\"년\"},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[36,37],\"surface\":\"하\"},{\"form\":\"고\",\"tag\":\"EC\",\"span\":[37,38],\"surface\":\"고\"},{\"form\":\"올해\",\"tag\":\"NNG\",\"span\":[39,41],\"surface\":\"올해\"},{\"form\":\"까지\",\"tag\":\"JX\",\"span\":[41,43],\"surface\":\"까지\"},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[44,45],\"surface\":\"하\"},{\"form\":\"면\",\"tag\":\"EC\",\"span\":[45,46],\"surface\":\"면\"},{\"form\":\"이\",\"tag\":\"NR\",\"span\":[47,48],\"surface\":\"이\"},{\"form\":\"년\",\"tag\":\"NNB\",\"span\":[49,50],\"surface\":\"년\"},{\"form\":\"째\",\"tag\":\"XSN\",\"span\":[50,51],\"surface\":\"째\"},{\"form\":\"되\",\"tag\":\"VV\",\"span\":[52,53],\"surface\":\"되\"},{\"form\":\"는데\",\"tag\":\"EC\",\"span\":[53,55],\"surface\":\"는데\"},{\"form\":\"2\",\"tag\":\"SN\",\"span\":[56,57],\"surface\":\"2\"},{\"form\":\"년\",\"tag\":\"NNB\",\"span\":[57,58],\"surface\":\"년\"},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[59,60],\"surface\":\"해\"},{\"form\":\"어\",\"tag\":\"EC\",\"span\":[59,60],\"surface\":\"해\"},{\"form\":\"보\",\"tag\":\"VX\",\"span\":[61,62],\"surface\":\"보\"},{\"form\":\"고\",\"tag\":\"EC\",\"span\":[62,63],\"surface\":\"고\"},{\"form\":\"안\",\"tag\":\"MAG\",\"span\":[64,65],\"surface\":\"안\"},{\"form\":\"되\",\"tag\":\"VV\",\"span\":[66,67],\"surface\":\"되\"},{\"form\":\"면\",\"tag\":\"EC\",\"span\":[67,68],\"surface\":\"면\"},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[69,70],\"surface\":\"저\"},{\"form\":\"도\",\"tag\":\"JX\",\"span\":[70,71],\"surface\":\"도\"},{\"form\":\"다른\",\"tag\":\"MM\",\"span\":[72,74],\"surface\":\"다른\"},{\"form\":\"일\",\"tag\":\"NNG\",\"span\":[75,76],\"surface\":\"일\"},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[77,78],\"surface\":\"하\"},{\"form\":\"려고\",\"tag\":\"EF\",\"span\":[78,80],\"surface\":\"려고\"},{\"form\":\"요\",\"tag\":\"JX\",\"span\":[80,81],\"surface\":\"요\"},{\"form\":\".\",\"tag\":\"SF\",\"span\":[81,82],\"surface\":\".\"}],\"words\":[{\"form\":\"이번\",\"tag\":\"NNG\",\"span\":[0,2],\"surface\":\"이번\",\"lemma\":\"이번\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":0},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[4,5],\"surface\":\"저\",\"lemma\":\"저\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":2},{\"form\":\"마지막\",\"tag\":\"NNG\",\"span\":[7,10],\"surface\":\"마지막\",\"lemma\":\"마지막\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":4},{\"form\":\"도전하\",\"tag\":\"VV\",\"span\":[13,16],\"surface\":\"도전하\",\"analysis_origin\":\"same_eojeol_derivation\",\"source_tags\":[\"NNG\",\"XSV\"],\"lemma\":\"도전하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"려고\",\"ending_tag\":\"EC\",\"token_index\":7,\"predicate_span\":[13,18]},{\"form\":\"하\",\"tag\":\"VX\",\"span\":[19,20],\"surface\":\"하\",\"lemma\":\"하다\",\"pos\":\"auxiliary\",\"prefinals\":[],\"ending\":\"거든요\",\"ending_tag\":\"EF\",\"token_index\":9,\"predicate_span\":[19,23]},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[25,26],\"surface\":\"제\",\"lemma\":\"저\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":12},{\"form\":\"저번\",\"tag\":\"NNG\",\"span\":[28,30],\"surface\":\"저번\",\"lemma\":\"저번\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":14},{\"form\":\"일\",\"tag\":\"NR\",\"span\":[32,33],\"surface\":\"일\",\"lemma\":\"일\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":16},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[36,37],\"surface\":\"하\",\"lemma\":\"하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"고\",\"ending_tag\":\"EC\",\"token_index\":18,\"predicate_span\":[36,38]},{\"form\":\"올해\",\"tag\":\"NNG\",\"span\":[39,41],\"surface\":\"올해\",\"lemma\":\"올해\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":20},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[44,45],\"surface\":\"하\",\"lemma\":\"하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"면\",\"ending_tag\":\"EC\",\"token_index\":22,\"predicate_span\":[44,46]},{\"form\":\"이\",\"tag\":\"NR\",\"span\":[47,48],\"surface\":\"이\",\"lemma\":\"이\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":24},{\"form\":\"되\",\"tag\":\"VV\",\"span\":[52,53],\"surface\":\"되\",\"lemma\":\"되다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"는데\",\"ending_tag\":\"EC\",\"token_index\":27,\"predicate_span\":[52,55]},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[59,60],\"surface\":\"해\",\"lemma\":\"하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"어\",\"ending_tag\":\"EC\",\"token_index\":31,\"predicate_span\":[59,60]},{\"form\":\"보\",\"tag\":\"VX\",\"span\":[61,62],\"surface\":\"보\",\"lemma\":\"보다\",\"pos\":\"auxiliary\",\"prefinals\":[],\"ending\":\"고\",\"ending_tag\":\"EC\",\"token_index\":33,\"predicate_span\":[61,63]},{\"form\":\"안\",\"tag\":\"MAG\",\"span\":[64,65],\"surface\":\"안\",\"lemma\":\"안\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":35},{\"form\":\"되\",\"tag\":\"VV\",\"span\":[66,67],\"surface\":\"되\",\"lemma\":\"되다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"면\",\"ending_tag\":\"EC\",\"token_index\":36,\"predicate_span\":[66,68]},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[69,70],\"surface\":\"저\",\"lemma\":\"저\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":38},{\"form\":\"일\",\"tag\":\"NNG\",\"span\":[75,76],\"surface\":\"일\",\"lemma\":\"일\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":41},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[77,78],\"surface\":\"하\",\"lemma\":\"하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"려고\",\"ending_tag\":\"EF\",\"token_index\":42,\"predicate_span\":[77,80]}],\"status\":\"Kiwi_hypotheses_not_gold\"},\"transformation_plan\":[],\"graph_paths\":[],\"preservation\":{\"origin\":\"reviewed_preservation_policy_not_dialect_rule\",\"relative_clauses\":[],\"supporting_knowledge\":[],\"invariants\":[\"원문의 명제·부정·시제·화행과 모든 절을 유지한다.\",\"청자 높임, 주체 높임, 저/제의 겸양을 각각 보존한다. 주어를 호격으로 바꾸지 않는다.\",\"가는/오는 이동 관점과 먼저의 시간 순서를 보존한다. 앞에의 시간 용법 자체는 금지하지 않는다.\",\"인용 내용과 보고 서술부의 시제를 구분한다. 회상 -대를 표면형만 보고 전언으로 판단하지 않는다.\"],\"source_honorific_predicates\":[],\"terminal_analysis_review\":[]},\"plan_policy\":\"후보는 모두 적용할 목록이 아니라 대안이다. 어휘보다 의미·높임·시제·문장 역할 보존을 우선한다. 종결은 ending_conversion의 family와 preferred_surface를 우선 사용하며 같은 끝에 여러 종결을 겹쳐 붙이지 않는다. preferred_surface는 원래 어간 기준의 조합안이고 방언 어간을 선택하면 그 어간에 맞춰 활용한다. 문헌 구성요소와 분석자 조합·완성형을 구분한다. 원문에 맞는 후보만 사용한다. MODEL_ADVICE는 원문에서 직접 확인된 완성형이 아닌 모델 조합 제안이다. 보존용 지식은 치환 규칙이 아니다.\"}"
+      }
+    ]
+  },
+  "status": "success",
+  "response": {
+    "id": "chatcmpl-91725a84c4254050",
+    "object": "chat.completion",
+    "created": 1792567241,
+    "model": "Qwen3.8-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "이번에 나마 마지막으루 도전해볼라고 하노. 내가 저번에 일 년 하고 올해까지 하면 이 년째 되는데, 2년 해 보고 안 되면 나도 다른 일 해볼라고 하노.",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.27.1-51f03443",
+    "usage": {
+      "prompt_tokens": 3047,
+      "total_tokens": 3094,
+      "completion_tokens": 47,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  },
+  "first_output": "이번에 나마 마지막으루 도전해볼라고 하노. 내가 저번에 일 년 하고 올해까지 하면 이 년째 되는데, 2년 해 보고 안 되면 나도 다른 일 해볼라고 하노.",
+  "first_check": {
+    "status": "needs_review",
+    "flags": [
+      {
+        "kind": "listener_politeness_lost",
+        "sentence_index": 0,
+        "source": "이번에 저는 마지막으로 도전하려고 하거든요.",
+        "output": "이번에 나마 마지막으루 도전해볼라고 하노.",
+        "confidence": "high",
+        "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+      },
+      {
+        "kind": "listener_politeness_lost",
+        "sentence_index": 1,
+        "source": "제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.",
+        "output": "내가 저번에 일 년 하고 올해까지 하면 이 년째 되는데, 2년 해 보고 안 되면 나도 다른 일 해볼라고 하노.",
+        "confidence": "high",
+        "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+      },
+      {
+        "kind": "humility_replaced",
+        "sentence_index": 1,
+        "source": "제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.",
+        "output": "내가 저번에 일 년 하고 올해까지 하면 이 년째 되는데, 2년 해 보고 안 되면 나도 다른 일 해볼라고 하노.",
+        "confidence": "high",
+        "instruction": "저/제의 겸양 지칭을 보존한다. 청자 높임과 별개로 검사한다."
+      }
+    ],
+    "repair_required": true,
+    "not_accuracy": true
+  },
+  "output": "이번에 저는 마지막으로 도전하려고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.",
+  "final_check": {
+    "status": "no_screening_flags",
+    "flags": [],
+    "repair_required": false,
+    "not_accuracy": true
+  },
+  "repair_attempted": true,
+  "selection": "single_preservation_repair",
+  "repair_request": {
+    "model": "Qwen3.8-27B",
+    "max_tokens": 512,
+    "temperature": 0.3,
+    "top_p": 0.8,
+    "top_k": 20,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "seed": 20260923,
+    "messages": [
+      {
+        "role": "system",
+        "content": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요."
+      },
+      {
+        "role": "user",
+        "content": "standard를 자연스러운 경상도 방언으로 변환하세요. analysis와 source_morphology는 원문 분석의 가설이며 원문이 우선입니다. transformation_plan 또는 references와 graph_paths는 조건부 참고 자료입니다. 의미·지역·시대·높임·결합 조건이 맞는 자료를 선택하고 관련 없는 자료는 사용하지 마세요. 조건 미확인은 적용 허용이 아니며 연결된 진술끼리 조건을 상속하지 않습니다. 기본형 대응과 완성 활용형을 구별하고 원문의 부정·시제·높임·인용·발화 의도를 유지하세요. preservation의 관형절·겸양·주체와 청자 높임·이동 관점 보존을 어휘 치환보다 우선하세요. 모델 조언 후보는 원문 확인형이 아니며 불확실하면 원문의 구조를 보존하세요. 표에 없는 활용형은 표에 실린 확인형으로 주장하지 마세요. 원문에 없는 내용을 추가하지 말고 변환한 발화만 출력하세요.\n{\"standard\":\"이번에 저는 마지막으로 도전하려고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.\",\"analysis\":[{\"text\":\"이번에 저는 마지막으로 도전하려고 하거든요.\",\"span\":[0,24],\"role\":\"main\",\"features\":{\"host_pos\":\"verb\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"하다\",\"sentence_type\":\"declarative\",\"speech_act\":\"state_intention\",\"intention_holder\":\"speaker\",\"subject_person\":\"first\",\"meaning\":\"마지막으로 도전하려는 의도를 설명함\"},\"observed_politeness\":\"polite\",\"observed_subject_honorific\":\"not_observed\",\"tense_or_modality\":\"modal\",\"preserved_candidate_features\":{\"prefinal_profile\":\"none\",\"preceding_form\":\"verb_stem_direct\"}},{\"text\":\"제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데\",\"span\":[25,55],\"role\":\"connective\",\"features\":{\"host_pos\":\"verb\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"되다\",\"sentence_type\":\"declarative\",\"clause_relation\":\"cause\",\"meaning\":\"2년째가 된다는 사실을 근거로 제시함\"},\"observed_politeness\":\"unknown\",\"observed_subject_honorific\":\"not_observed\",\"tense_or_modality\":\"present\",\"preserved_candidate_features\":{\"prefinal_profile\":\"none\",\"preceding_form\":\"verb_stem_direct\"}},{\"text\":\"2년 해 보고 안 되면 저도 다른 일 하려고요.\",\"span\":[56,82],\"role\":\"main\",\"features\":{\"host_pos\":\"verb\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"하다\",\"sentence_type\":\"declarative\",\"speech_act\":\"state_intention\",\"intention_holder\":\"speaker\",\"subject_person\":\"first\",\"meaning\":\"2년 후 실패 시 다른 일을 하겠다는 의도\"},\"observed_politeness\":\"polite\",\"observed_subject_honorific\":\"not_observed\",\"tense_or_modality\":\"modal\",\"preserved_candidate_features\":{\"prefinal_profile\":\"none\",\"preceding_form\":\"verb_stem_direct\"}}],\"source_morphology\":{\"tokens\":[{\"form\":\"이번\",\"tag\":\"NNG\",\"span\":[0,2],\"surface\":\"이번\"},{\"form\":\"에\",\"tag\":\"JKB\",\"span\":[2,3],\"surface\":\"에\"},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[4,5],\"surface\":\"저\"},{\"form\":\"는\",\"tag\":\"JX\",\"span\":[5,6],\"surface\":\"는\"},{\"form\":\"마지막\",\"tag\":\"NNG\",\"span\":[7,10],\"surface\":\"마지막\"},{\"form\":\"으로\",\"tag\":\"JKB\",\"span\":[10,12],\"surface\":\"으로\"},{\"form\":\"도전\",\"tag\":\"NNG\",\"span\":[13,15],\"surface\":\"도전\"},{\"form\":\"하\",\"tag\":\"XSV\",\"span\":[15,16],\"surface\":\"하\"},{\"form\":\"려고\",\"tag\":\"EC\",\"span\":[16,18],\"surface\":\"려고\"},{\"form\":\"하\",\"tag\":\"VX\",\"span\":[19,20],\"surface\":\"하\"},{\"form\":\"거든요\",\"tag\":\"EF\",\"span\":[20,23],\"surface\":\"거든요\"},{\"form\":\".\",\"tag\":\"SF\",\"span\":[23,24],\"surface\":\".\"},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[25,26],\"surface\":\"제\"},{\"form\":\"가\",\"tag\":\"JKS\",\"span\":[26,27],\"surface\":\"가\"},{\"form\":\"저번\",\"tag\":\"NNG\",\"span\":[28,30],\"surface\":\"저번\"},{\"form\":\"에\",\"tag\":\"JKB\",\"span\":[30,31],\"surface\":\"에\"},{\"form\":\"일\",\"tag\":\"NR\",\"span\":[32,33],\"surface\":\"일\"},{\"form\":\"년\",\"tag\":\"NNB\",\"span\":[34,35],\"surface\":\"년\"},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[36,37],\"surface\":\"하\"},{\"form\":\"고\",\"tag\":\"EC\",\"span\":[37,38],\"surface\":\"고\"},{\"form\":\"올해\",\"tag\":\"NNG\",\"span\":[39,41],\"surface\":\"올해\"},{\"form\":\"까지\",\"tag\":\"JX\",\"span\":[41,43],\"surface\":\"까지\"},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[44,45],\"surface\":\"하\"},{\"form\":\"면\",\"tag\":\"EC\",\"span\":[45,46],\"surface\":\"면\"},{\"form\":\"이\",\"tag\":\"NR\",\"span\":[47,48],\"surface\":\"이\"},{\"form\":\"년\",\"tag\":\"NNB\",\"span\":[49,50],\"surface\":\"년\"},{\"form\":\"째\",\"tag\":\"XSN\",\"span\":[50,51],\"surface\":\"째\"},{\"form\":\"되\",\"tag\":\"VV\",\"span\":[52,53],\"surface\":\"되\"},{\"form\":\"는데\",\"tag\":\"EC\",\"span\":[53,55],\"surface\":\"는데\"},{\"form\":\"2\",\"tag\":\"SN\",\"span\":[56,57],\"surface\":\"2\"},{\"form\":\"년\",\"tag\":\"NNB\",\"span\":[57,58],\"surface\":\"년\"},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[59,60],\"surface\":\"해\"},{\"form\":\"어\",\"tag\":\"EC\",\"span\":[59,60],\"surface\":\"해\"},{\"form\":\"보\",\"tag\":\"VX\",\"span\":[61,62],\"surface\":\"보\"},{\"form\":\"고\",\"tag\":\"EC\",\"span\":[62,63],\"surface\":\"고\"},{\"form\":\"안\",\"tag\":\"MAG\",\"span\":[64,65],\"surface\":\"안\"},{\"form\":\"되\",\"tag\":\"VV\",\"span\":[66,67],\"surface\":\"되\"},{\"form\":\"면\",\"tag\":\"EC\",\"span\":[67,68],\"surface\":\"면\"},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[69,70],\"surface\":\"저\"},{\"form\":\"도\",\"tag\":\"JX\",\"span\":[70,71],\"surface\":\"도\"},{\"form\":\"다른\",\"tag\":\"MM\",\"span\":[72,74],\"surface\":\"다른\"},{\"form\":\"일\",\"tag\":\"NNG\",\"span\":[75,76],\"surface\":\"일\"},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[77,78],\"surface\":\"하\"},{\"form\":\"려고\",\"tag\":\"EF\",\"span\":[78,80],\"surface\":\"려고\"},{\"form\":\"요\",\"tag\":\"JX\",\"span\":[80,81],\"surface\":\"요\"},{\"form\":\".\",\"tag\":\"SF\",\"span\":[81,82],\"surface\":\".\"}],\"words\":[{\"form\":\"이번\",\"tag\":\"NNG\",\"span\":[0,2],\"surface\":\"이번\",\"lemma\":\"이번\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":0},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[4,5],\"surface\":\"저\",\"lemma\":\"저\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":2},{\"form\":\"마지막\",\"tag\":\"NNG\",\"span\":[7,10],\"surface\":\"마지막\",\"lemma\":\"마지막\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":4},{\"form\":\"도전하\",\"tag\":\"VV\",\"span\":[13,16],\"surface\":\"도전하\",\"analysis_origin\":\"same_eojeol_derivation\",\"source_tags\":[\"NNG\",\"XSV\"],\"lemma\":\"도전하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"려고\",\"ending_tag\":\"EC\",\"token_index\":7,\"predicate_span\":[13,18]},{\"form\":\"하\",\"tag\":\"VX\",\"span\":[19,20],\"surface\":\"하\",\"lemma\":\"하다\",\"pos\":\"auxiliary\",\"prefinals\":[],\"ending\":\"거든요\",\"ending_tag\":\"EF\",\"token_index\":9,\"predicate_span\":[19,23]},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[25,26],\"surface\":\"제\",\"lemma\":\"저\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":12},{\"form\":\"저번\",\"tag\":\"NNG\",\"span\":[28,30],\"surface\":\"저번\",\"lemma\":\"저번\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":14},{\"form\":\"일\",\"tag\":\"NR\",\"span\":[32,33],\"surface\":\"일\",\"lemma\":\"일\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":16},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[36,37],\"surface\":\"하\",\"lemma\":\"하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"고\",\"ending_tag\":\"EC\",\"token_index\":18,\"predicate_span\":[36,38]},{\"form\":\"올해\",\"tag\":\"NNG\",\"span\":[39,41],\"surface\":\"올해\",\"lemma\":\"올해\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":20},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[44,45],\"surface\":\"하\",\"lemma\":\"하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"면\",\"ending_tag\":\"EC\",\"token_index\":22,\"predicate_span\":[44,46]},{\"form\":\"이\",\"tag\":\"NR\",\"span\":[47,48],\"surface\":\"이\",\"lemma\":\"이\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":24},{\"form\":\"되\",\"tag\":\"VV\",\"span\":[52,53],\"surface\":\"되\",\"lemma\":\"되다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"는데\",\"ending_tag\":\"EC\",\"token_index\":27,\"predicate_span\":[52,55]},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[59,60],\"surface\":\"해\",\"lemma\":\"하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"어\",\"ending_tag\":\"EC\",\"token_index\":31,\"predicate_span\":[59,60]},{\"form\":\"보\",\"tag\":\"VX\",\"span\":[61,62],\"surface\":\"보\",\"lemma\":\"보다\",\"pos\":\"auxiliary\",\"prefinals\":[],\"ending\":\"고\",\"ending_tag\":\"EC\",\"token_index\":33,\"predicate_span\":[61,63]},{\"form\":\"안\",\"tag\":\"MAG\",\"span\":[64,65],\"surface\":\"안\",\"lemma\":\"안\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":35},{\"form\":\"되\",\"tag\":\"VV\",\"span\":[66,67],\"surface\":\"되\",\"lemma\":\"되다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"면\",\"ending_tag\":\"EC\",\"token_index\":36,\"predicate_span\":[66,68]},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[69,70],\"surface\":\"저\",\"lemma\":\"저\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":38},{\"form\":\"일\",\"tag\":\"NNG\",\"span\":[75,76],\"surface\":\"일\",\"lemma\":\"일\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":41},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[77,78],\"surface\":\"하\",\"lemma\":\"하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"려고\",\"ending_tag\":\"EF\",\"token_index\":42,\"predicate_span\":[77,80]}],\"status\":\"Kiwi_hypotheses_not_gold\"},\"transformation_plan\":[],\"graph_paths\":[],\"preservation\":{\"origin\":\"reviewed_preservation_policy_not_dialect_rule\",\"relative_clauses\":[],\"supporting_knowledge\":[],\"invariants\":[\"원문의 명제·부정·시제·화행과 모든 절을 유지한다.\",\"청자 높임, 주체 높임, 저/제의 겸양을 각각 보존한다. 주어를 호격으로 바꾸지 않는다.\",\"가는/오는 이동 관점과 먼저의 시간 순서를 보존한다. 앞에의 시간 용법 자체는 금지하지 않는다.\",\"인용 내용과 보고 서술부의 시제를 구분한다. 회상 -대를 표면형만 보고 전언으로 판단하지 않는다.\"],\"source_honorific_predicates\":[],\"terminal_analysis_review\":[]},\"plan_policy\":\"후보는 모두 적용할 목록이 아니라 대안이다. 어휘보다 의미·높임·시제·문장 역할 보존을 우선한다. 종결은 ending_conversion의 family와 preferred_surface를 우선 사용하며 같은 끝에 여러 종결을 겹쳐 붙이지 않는다. preferred_surface는 원래 어간 기준의 조합안이고 방언 어간을 선택하면 그 어간에 맞춰 활용한다. 문헌 구성요소와 분석자 조합·완성형을 구분한다. 원문에 맞는 후보만 사용한다. MODEL_ADVICE는 원문에서 직접 확인된 완성형이 아닌 모델 조합 제안이다. 보존용 지식은 치환 규칙이 아니다.\"}"
+      },
+      {
+        "role": "assistant",
+        "content": "이번에 나마 마지막으루 도전해볼라고 하노. 내가 저번에 일 년 하고 올해까지 하면 이 년째 되는데, 2년 해 보고 안 되면 나도 다른 일 해볼라고 하노."
+      },
+      {
+        "role": "user",
+        "content": "다음 보존 검사 지적을 확인해 번역을 한 번 수정하세요. 원문과 적용 가능한 근거가 우선입니다. 문제가 없는 부분의 의미와 말투를 유지하고 수정한 전체 발화만 출력하세요.\n원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다. 원문: 이번에 저는 마지막으로 도전하려고 하거든요.\n원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다. 원문: 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.\n저/제의 겸양 지칭을 보존한다. 청자 높임과 별개로 검사한다. 원문: 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요."
+      }
+    ]
+  },
+  "repair_response": {
+    "id": "chatcmpl-9a98336d80f4d3d6",
+    "object": "chat.completion",
+    "created": 1792567243,
+    "model": "Qwen3.8-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "이번에 저는 마지막으로 도전하려고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.27.1-51f03443",
+    "usage": {
+      "prompt_tokens": 3296,
+      "total_tokens": 3335,
+      "completion_tokens": 39,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  },
+  "repair_output": "이번에 저는 마지막으로 도전하려고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.",
+  "repair_check": {
+    "status": "no_screening_flags",
+    "flags": [],
+    "repair_required": false,
+    "not_accuracy": true
+  },
+  "calls": [
+    {
+      "request": {
+        "model": "Qwen3.8-27B",
+        "max_tokens": 512,
+        "temperature": 0.3,
+        "top_p": 0.8,
+        "top_k": 20,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "seed": 20260923,
+        "messages": [
+          {
+            "role": "system",
+            "content": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요."
+          },
+          {
+            "role": "user",
+            "content": "standard를 자연스러운 경상도 방언으로 변환하세요. analysis와 source_morphology는 원문 분석의 가설이며 원문이 우선입니다. transformation_plan 또는 references와 graph_paths는 조건부 참고 자료입니다. 의미·지역·시대·높임·결합 조건이 맞는 자료를 선택하고 관련 없는 자료는 사용하지 마세요. 조건 미확인은 적용 허용이 아니며 연결된 진술끼리 조건을 상속하지 않습니다. 기본형 대응과 완성 활용형을 구별하고 원문의 부정·시제·높임·인용·발화 의도를 유지하세요. preservation의 관형절·겸양·주체와 청자 높임·이동 관점 보존을 어휘 치환보다 우선하세요. 모델 조언 후보는 원문 확인형이 아니며 불확실하면 원문의 구조를 보존하세요. 표에 없는 활용형은 표에 실린 확인형으로 주장하지 마세요. 원문에 없는 내용을 추가하지 말고 변환한 발화만 출력하세요.\n{\"standard\":\"이번에 저는 마지막으로 도전하려고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.\",\"analysis\":[{\"text\":\"이번에 저는 마지막으로 도전하려고 하거든요.\",\"span\":[0,24],\"role\":\"main\",\"features\":{\"host_pos\":\"verb\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"하다\",\"sentence_type\":\"declarative\",\"speech_act\":\"state_intention\",\"intention_holder\":\"speaker\",\"subject_person\":\"first\",\"meaning\":\"마지막으로 도전하려는 의도를 설명함\"},\"observed_politeness\":\"polite\",\"observed_subject_honorific\":\"not_observed\",\"tense_or_modality\":\"modal\",\"preserved_candidate_features\":{\"prefinal_profile\":\"none\",\"preceding_form\":\"verb_stem_direct\"}},{\"text\":\"제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데\",\"span\":[25,55],\"role\":\"connective\",\"features\":{\"host_pos\":\"verb\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"되다\",\"sentence_type\":\"declarative\",\"clause_relation\":\"cause\",\"meaning\":\"2년째가 된다는 사실을 근거로 제시함\"},\"observed_politeness\":\"unknown\",\"observed_subject_honorific\":\"not_observed\",\"tense_or_modality\":\"present\",\"preserved_candidate_features\":{\"prefinal_profile\":\"none\",\"preceding_form\":\"verb_stem_direct\"}},{\"text\":\"2년 해 보고 안 되면 저도 다른 일 하려고요.\",\"span\":[56,82],\"role\":\"main\",\"features\":{\"host_pos\":\"verb\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"하다\",\"sentence_type\":\"declarative\",\"speech_act\":\"state_intention\",\"intention_holder\":\"speaker\",\"subject_person\":\"first\",\"meaning\":\"2년 후 실패 시 다른 일을 하겠다는 의도\"},\"observed_politeness\":\"polite\",\"observed_subject_honorific\":\"not_observed\",\"tense_or_modality\":\"modal\",\"preserved_candidate_features\":{\"prefinal_profile\":\"none\",\"preceding_form\":\"verb_stem_direct\"}}],\"source_morphology\":{\"tokens\":[{\"form\":\"이번\",\"tag\":\"NNG\",\"span\":[0,2],\"surface\":\"이번\"},{\"form\":\"에\",\"tag\":\"JKB\",\"span\":[2,3],\"surface\":\"에\"},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[4,5],\"surface\":\"저\"},{\"form\":\"는\",\"tag\":\"JX\",\"span\":[5,6],\"surface\":\"는\"},{\"form\":\"마지막\",\"tag\":\"NNG\",\"span\":[7,10],\"surface\":\"마지막\"},{\"form\":\"으로\",\"tag\":\"JKB\",\"span\":[10,12],\"surface\":\"으로\"},{\"form\":\"도전\",\"tag\":\"NNG\",\"span\":[13,15],\"surface\":\"도전\"},{\"form\":\"하\",\"tag\":\"XSV\",\"span\":[15,16],\"surface\":\"하\"},{\"form\":\"려고\",\"tag\":\"EC\",\"span\":[16,18],\"surface\":\"려고\"},{\"form\":\"하\",\"tag\":\"VX\",\"span\":[19,20],\"surface\":\"하\"},{\"form\":\"거든요\",\"tag\":\"EF\",\"span\":[20,23],\"surface\":\"거든요\"},{\"form\":\".\",\"tag\":\"SF\",\"span\":[23,24],\"surface\":\".\"},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[25,26],\"surface\":\"제\"},{\"form\":\"가\",\"tag\":\"JKS\",\"span\":[26,27],\"surface\":\"가\"},{\"form\":\"저번\",\"tag\":\"NNG\",\"span\":[28,30],\"surface\":\"저번\"},{\"form\":\"에\",\"tag\":\"JKB\",\"span\":[30,31],\"surface\":\"에\"},{\"form\":\"일\",\"tag\":\"NR\",\"span\":[32,33],\"surface\":\"일\"},{\"form\":\"년\",\"tag\":\"NNB\",\"span\":[34,35],\"surface\":\"년\"},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[36,37],\"surface\":\"하\"},{\"form\":\"고\",\"tag\":\"EC\",\"span\":[37,38],\"surface\":\"고\"},{\"form\":\"올해\",\"tag\":\"NNG\",\"span\":[39,41],\"surface\":\"올해\"},{\"form\":\"까지\",\"tag\":\"JX\",\"span\":[41,43],\"surface\":\"까지\"},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[44,45],\"surface\":\"하\"},{\"form\":\"면\",\"tag\":\"EC\",\"span\":[45,46],\"surface\":\"면\"},{\"form\":\"이\",\"tag\":\"NR\",\"span\":[47,48],\"surface\":\"이\"},{\"form\":\"년\",\"tag\":\"NNB\",\"span\":[49,50],\"surface\":\"년\"},{\"form\":\"째\",\"tag\":\"XSN\",\"span\":[50,51],\"surface\":\"째\"},{\"form\":\"되\",\"tag\":\"VV\",\"span\":[52,53],\"surface\":\"되\"},{\"form\":\"는데\",\"tag\":\"EC\",\"span\":[53,55],\"surface\":\"는데\"},{\"form\":\"2\",\"tag\":\"SN\",\"span\":[56,57],\"surface\":\"2\"},{\"form\":\"년\",\"tag\":\"NNB\",\"span\":[57,58],\"surface\":\"년\"},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[59,60],\"surface\":\"해\"},{\"form\":\"어\",\"tag\":\"EC\",\"span\":[59,60],\"surface\":\"해\"},{\"form\":\"보\",\"tag\":\"VX\",\"span\":[61,62],\"surface\":\"보\"},{\"form\":\"고\",\"tag\":\"EC\",\"span\":[62,63],\"surface\":\"고\"},{\"form\":\"안\",\"tag\":\"MAG\",\"span\":[64,65],\"surface\":\"안\"},{\"form\":\"되\",\"tag\":\"VV\",\"span\":[66,67],\"surface\":\"되\"},{\"form\":\"면\",\"tag\":\"EC\",\"span\":[67,68],\"surface\":\"면\"},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[69,70],\"surface\":\"저\"},{\"form\":\"도\",\"tag\":\"JX\",\"span\":[70,71],\"surface\":\"도\"},{\"form\":\"다른\",\"tag\":\"MM\",\"span\":[72,74],\"surface\":\"다른\"},{\"form\":\"일\",\"tag\":\"NNG\",\"span\":[75,76],\"surface\":\"일\"},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[77,78],\"surface\":\"하\"},{\"form\":\"려고\",\"tag\":\"EF\",\"span\":[78,80],\"surface\":\"려고\"},{\"form\":\"요\",\"tag\":\"JX\",\"span\":[80,81],\"surface\":\"요\"},{\"form\":\".\",\"tag\":\"SF\",\"span\":[81,82],\"surface\":\".\"}],\"words\":[{\"form\":\"이번\",\"tag\":\"NNG\",\"span\":[0,2],\"surface\":\"이번\",\"lemma\":\"이번\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":0},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[4,5],\"surface\":\"저\",\"lemma\":\"저\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":2},{\"form\":\"마지막\",\"tag\":\"NNG\",\"span\":[7,10],\"surface\":\"마지막\",\"lemma\":\"마지막\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":4},{\"form\":\"도전하\",\"tag\":\"VV\",\"span\":[13,16],\"surface\":\"도전하\",\"analysis_origin\":\"same_eojeol_derivation\",\"source_tags\":[\"NNG\",\"XSV\"],\"lemma\":\"도전하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"려고\",\"ending_tag\":\"EC\",\"token_index\":7,\"predicate_span\":[13,18]},{\"form\":\"하\",\"tag\":\"VX\",\"span\":[19,20],\"surface\":\"하\",\"lemma\":\"하다\",\"pos\":\"auxiliary\",\"prefinals\":[],\"ending\":\"거든요\",\"ending_tag\":\"EF\",\"token_index\":9,\"predicate_span\":[19,23]},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[25,26],\"surface\":\"제\",\"lemma\":\"저\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":12},{\"form\":\"저번\",\"tag\":\"NNG\",\"span\":[28,30],\"surface\":\"저번\",\"lemma\":\"저번\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":14},{\"form\":\"일\",\"tag\":\"NR\",\"span\":[32,33],\"surface\":\"일\",\"lemma\":\"일\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":16},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[36,37],\"surface\":\"하\",\"lemma\":\"하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"고\",\"ending_tag\":\"EC\",\"token_index\":18,\"predicate_span\":[36,38]},{\"form\":\"올해\",\"tag\":\"NNG\",\"span\":[39,41],\"surface\":\"올해\",\"lemma\":\"올해\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":20},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[44,45],\"surface\":\"하\",\"lemma\":\"하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"면\",\"ending_tag\":\"EC\",\"token_index\":22,\"predicate_span\":[44,46]},{\"form\":\"이\",\"tag\":\"NR\",\"span\":[47,48],\"surface\":\"이\",\"lemma\":\"이\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":24},{\"form\":\"되\",\"tag\":\"VV\",\"span\":[52,53],\"surface\":\"되\",\"lemma\":\"되다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"는데\",\"ending_tag\":\"EC\",\"token_index\":27,\"predicate_span\":[52,55]},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[59,60],\"surface\":\"해\",\"lemma\":\"하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"어\",\"ending_tag\":\"EC\",\"token_index\":31,\"predicate_span\":[59,60]},{\"form\":\"보\",\"tag\":\"VX\",\"span\":[61,62],\"surface\":\"보\",\"lemma\":\"보다\",\"pos\":\"auxiliary\",\"prefinals\":[],\"ending\":\"고\",\"ending_tag\":\"EC\",\"token_index\":33,\"predicate_span\":[61,63]},{\"form\":\"안\",\"tag\":\"MAG\",\"span\":[64,65],\"surface\":\"안\",\"lemma\":\"안\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":35},{\"form\":\"되\",\"tag\":\"VV\",\"span\":[66,67],\"surface\":\"되\",\"lemma\":\"되다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"면\",\"ending_tag\":\"EC\",\"token_index\":36,\"predicate_span\":[66,68]},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[69,70],\"surface\":\"저\",\"lemma\":\"저\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":38},{\"form\":\"일\",\"tag\":\"NNG\",\"span\":[75,76],\"surface\":\"일\",\"lemma\":\"일\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":41},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[77,78],\"surface\":\"하\",\"lemma\":\"하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"려고\",\"ending_tag\":\"EF\",\"token_index\":42,\"predicate_span\":[77,80]}],\"status\":\"Kiwi_hypotheses_not_gold\"},\"transformation_plan\":[],\"graph_paths\":[],\"preservation\":{\"origin\":\"reviewed_preservation_policy_not_dialect_rule\",\"relative_clauses\":[],\"supporting_knowledge\":[],\"invariants\":[\"원문의 명제·부정·시제·화행과 모든 절을 유지한다.\",\"청자 높임, 주체 높임, 저/제의 겸양을 각각 보존한다. 주어를 호격으로 바꾸지 않는다.\",\"가는/오는 이동 관점과 먼저의 시간 순서를 보존한다. 앞에의 시간 용법 자체는 금지하지 않는다.\",\"인용 내용과 보고 서술부의 시제를 구분한다. 회상 -대를 표면형만 보고 전언으로 판단하지 않는다.\"],\"source_honorific_predicates\":[],\"terminal_analysis_review\":[]},\"plan_policy\":\"후보는 모두 적용할 목록이 아니라 대안이다. 어휘보다 의미·높임·시제·문장 역할 보존을 우선한다. 종결은 ending_conversion의 family와 preferred_surface를 우선 사용하며 같은 끝에 여러 종결을 겹쳐 붙이지 않는다. preferred_surface는 원래 어간 기준의 조합안이고 방언 어간을 선택하면 그 어간에 맞춰 활용한다. 문헌 구성요소와 분석자 조합·완성형을 구분한다. 원문에 맞는 후보만 사용한다. MODEL_ADVICE는 원문에서 직접 확인된 완성형이 아닌 모델 조합 제안이다. 보존용 지식은 치환 규칙이 아니다.\"}"
+          }
+        ]
+      },
+      "status": "success",
+      "response": {
+        "id": "chatcmpl-91725a84c4254050",
+        "object": "chat.completion",
+        "created": 1792567241,
+        "model": "Qwen3.8-27B",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "이번에 나마 마지막으루 도전해볼라고 하노. 내가 저번에 일 년 하고 올해까지 하면 이 년째 되는데, 2년 해 보고 안 되면 나도 다른 일 해볼라고 하노.",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.27.1-51f03443",
+        "usage": {
+          "prompt_tokens": 3047,
+          "total_tokens": 3094,
+          "completion_tokens": 47,
+          "prompt_tokens_details": null
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      },
+      "elapsed_seconds": 1.3350171595811844
+    },
+    {
+      "request": {
+        "model": "Qwen3.8-27B",
+        "max_tokens": 512,
+        "temperature": 0.3,
+        "top_p": 0.8,
+        "top_k": 20,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "seed": 20260923,
+        "messages": [
+          {
+            "role": "system",
+            "content": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요."
+          },
+          {
+            "role": "user",
+            "content": "standard를 자연스러운 경상도 방언으로 변환하세요. analysis와 source_morphology는 원문 분석의 가설이며 원문이 우선입니다. transformation_plan 또는 references와 graph_paths는 조건부 참고 자료입니다. 의미·지역·시대·높임·결합 조건이 맞는 자료를 선택하고 관련 없는 자료는 사용하지 마세요. 조건 미확인은 적용 허용이 아니며 연결된 진술끼리 조건을 상속하지 않습니다. 기본형 대응과 완성 활용형을 구별하고 원문의 부정·시제·높임·인용·발화 의도를 유지하세요. preservation의 관형절·겸양·주체와 청자 높임·이동 관점 보존을 어휘 치환보다 우선하세요. 모델 조언 후보는 원문 확인형이 아니며 불확실하면 원문의 구조를 보존하세요. 표에 없는 활용형은 표에 실린 확인형으로 주장하지 마세요. 원문에 없는 내용을 추가하지 말고 변환한 발화만 출력하세요.\n{\"standard\":\"이번에 저는 마지막으로 도전하려고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.\",\"analysis\":[{\"text\":\"이번에 저는 마지막으로 도전하려고 하거든요.\",\"span\":[0,24],\"role\":\"main\",\"features\":{\"host_pos\":\"verb\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"하다\",\"sentence_type\":\"declarative\",\"speech_act\":\"state_intention\",\"intention_holder\":\"speaker\",\"subject_person\":\"first\",\"meaning\":\"마지막으로 도전하려는 의도를 설명함\"},\"observed_politeness\":\"polite\",\"observed_subject_honorific\":\"not_observed\",\"tense_or_modality\":\"modal\",\"preserved_candidate_features\":{\"prefinal_profile\":\"none\",\"preceding_form\":\"verb_stem_direct\"}},{\"text\":\"제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데\",\"span\":[25,55],\"role\":\"connective\",\"features\":{\"host_pos\":\"verb\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"되다\",\"sentence_type\":\"declarative\",\"clause_relation\":\"cause\",\"meaning\":\"2년째가 된다는 사실을 근거로 제시함\"},\"observed_politeness\":\"unknown\",\"observed_subject_honorific\":\"not_observed\",\"tense_or_modality\":\"present\",\"preserved_candidate_features\":{\"prefinal_profile\":\"none\",\"preceding_form\":\"verb_stem_direct\"}},{\"text\":\"2년 해 보고 안 되면 저도 다른 일 하려고요.\",\"span\":[56,82],\"role\":\"main\",\"features\":{\"host_pos\":\"verb\",\"host_class\":\"predicate_other_than_anida\",\"host_form\":\"하다\",\"sentence_type\":\"declarative\",\"speech_act\":\"state_intention\",\"intention_holder\":\"speaker\",\"subject_person\":\"first\",\"meaning\":\"2년 후 실패 시 다른 일을 하겠다는 의도\"},\"observed_politeness\":\"polite\",\"observed_subject_honorific\":\"not_observed\",\"tense_or_modality\":\"modal\",\"preserved_candidate_features\":{\"prefinal_profile\":\"none\",\"preceding_form\":\"verb_stem_direct\"}}],\"source_morphology\":{\"tokens\":[{\"form\":\"이번\",\"tag\":\"NNG\",\"span\":[0,2],\"surface\":\"이번\"},{\"form\":\"에\",\"tag\":\"JKB\",\"span\":[2,3],\"surface\":\"에\"},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[4,5],\"surface\":\"저\"},{\"form\":\"는\",\"tag\":\"JX\",\"span\":[5,6],\"surface\":\"는\"},{\"form\":\"마지막\",\"tag\":\"NNG\",\"span\":[7,10],\"surface\":\"마지막\"},{\"form\":\"으로\",\"tag\":\"JKB\",\"span\":[10,12],\"surface\":\"으로\"},{\"form\":\"도전\",\"tag\":\"NNG\",\"span\":[13,15],\"surface\":\"도전\"},{\"form\":\"하\",\"tag\":\"XSV\",\"span\":[15,16],\"surface\":\"하\"},{\"form\":\"려고\",\"tag\":\"EC\",\"span\":[16,18],\"surface\":\"려고\"},{\"form\":\"하\",\"tag\":\"VX\",\"span\":[19,20],\"surface\":\"하\"},{\"form\":\"거든요\",\"tag\":\"EF\",\"span\":[20,23],\"surface\":\"거든요\"},{\"form\":\".\",\"tag\":\"SF\",\"span\":[23,24],\"surface\":\".\"},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[25,26],\"surface\":\"제\"},{\"form\":\"가\",\"tag\":\"JKS\",\"span\":[26,27],\"surface\":\"가\"},{\"form\":\"저번\",\"tag\":\"NNG\",\"span\":[28,30],\"surface\":\"저번\"},{\"form\":\"에\",\"tag\":\"JKB\",\"span\":[30,31],\"surface\":\"에\"},{\"form\":\"일\",\"tag\":\"NR\",\"span\":[32,33],\"surface\":\"일\"},{\"form\":\"년\",\"tag\":\"NNB\",\"span\":[34,35],\"surface\":\"년\"},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[36,37],\"surface\":\"하\"},{\"form\":\"고\",\"tag\":\"EC\",\"span\":[37,38],\"surface\":\"고\"},{\"form\":\"올해\",\"tag\":\"NNG\",\"span\":[39,41],\"surface\":\"올해\"},{\"form\":\"까지\",\"tag\":\"JX\",\"span\":[41,43],\"surface\":\"까지\"},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[44,45],\"surface\":\"하\"},{\"form\":\"면\",\"tag\":\"EC\",\"span\":[45,46],\"surface\":\"면\"},{\"form\":\"이\",\"tag\":\"NR\",\"span\":[47,48],\"surface\":\"이\"},{\"form\":\"년\",\"tag\":\"NNB\",\"span\":[49,50],\"surface\":\"년\"},{\"form\":\"째\",\"tag\":\"XSN\",\"span\":[50,51],\"surface\":\"째\"},{\"form\":\"되\",\"tag\":\"VV\",\"span\":[52,53],\"surface\":\"되\"},{\"form\":\"는데\",\"tag\":\"EC\",\"span\":[53,55],\"surface\":\"는데\"},{\"form\":\"2\",\"tag\":\"SN\",\"span\":[56,57],\"surface\":\"2\"},{\"form\":\"년\",\"tag\":\"NNB\",\"span\":[57,58],\"surface\":\"년\"},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[59,60],\"surface\":\"해\"},{\"form\":\"어\",\"tag\":\"EC\",\"span\":[59,60],\"surface\":\"해\"},{\"form\":\"보\",\"tag\":\"VX\",\"span\":[61,62],\"surface\":\"보\"},{\"form\":\"고\",\"tag\":\"EC\",\"span\":[62,63],\"surface\":\"고\"},{\"form\":\"안\",\"tag\":\"MAG\",\"span\":[64,65],\"surface\":\"안\"},{\"form\":\"되\",\"tag\":\"VV\",\"span\":[66,67],\"surface\":\"되\"},{\"form\":\"면\",\"tag\":\"EC\",\"span\":[67,68],\"surface\":\"면\"},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[69,70],\"surface\":\"저\"},{\"form\":\"도\",\"tag\":\"JX\",\"span\":[70,71],\"surface\":\"도\"},{\"form\":\"다른\",\"tag\":\"MM\",\"span\":[72,74],\"surface\":\"다른\"},{\"form\":\"일\",\"tag\":\"NNG\",\"span\":[75,76],\"surface\":\"일\"},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[77,78],\"surface\":\"하\"},{\"form\":\"려고\",\"tag\":\"EF\",\"span\":[78,80],\"surface\":\"려고\"},{\"form\":\"요\",\"tag\":\"JX\",\"span\":[80,81],\"surface\":\"요\"},{\"form\":\".\",\"tag\":\"SF\",\"span\":[81,82],\"surface\":\".\"}],\"words\":[{\"form\":\"이번\",\"tag\":\"NNG\",\"span\":[0,2],\"surface\":\"이번\",\"lemma\":\"이번\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":0},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[4,5],\"surface\":\"저\",\"lemma\":\"저\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":2},{\"form\":\"마지막\",\"tag\":\"NNG\",\"span\":[7,10],\"surface\":\"마지막\",\"lemma\":\"마지막\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":4},{\"form\":\"도전하\",\"tag\":\"VV\",\"span\":[13,16],\"surface\":\"도전하\",\"analysis_origin\":\"same_eojeol_derivation\",\"source_tags\":[\"NNG\",\"XSV\"],\"lemma\":\"도전하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"려고\",\"ending_tag\":\"EC\",\"token_index\":7,\"predicate_span\":[13,18]},{\"form\":\"하\",\"tag\":\"VX\",\"span\":[19,20],\"surface\":\"하\",\"lemma\":\"하다\",\"pos\":\"auxiliary\",\"prefinals\":[],\"ending\":\"거든요\",\"ending_tag\":\"EF\",\"token_index\":9,\"predicate_span\":[19,23]},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[25,26],\"surface\":\"제\",\"lemma\":\"저\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":12},{\"form\":\"저번\",\"tag\":\"NNG\",\"span\":[28,30],\"surface\":\"저번\",\"lemma\":\"저번\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":14},{\"form\":\"일\",\"tag\":\"NR\",\"span\":[32,33],\"surface\":\"일\",\"lemma\":\"일\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":16},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[36,37],\"surface\":\"하\",\"lemma\":\"하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"고\",\"ending_tag\":\"EC\",\"token_index\":18,\"predicate_span\":[36,38]},{\"form\":\"올해\",\"tag\":\"NNG\",\"span\":[39,41],\"surface\":\"올해\",\"lemma\":\"올해\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":20},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[44,45],\"surface\":\"하\",\"lemma\":\"하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"면\",\"ending_tag\":\"EC\",\"token_index\":22,\"predicate_span\":[44,46]},{\"form\":\"이\",\"tag\":\"NR\",\"span\":[47,48],\"surface\":\"이\",\"lemma\":\"이\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":24},{\"form\":\"되\",\"tag\":\"VV\",\"span\":[52,53],\"surface\":\"되\",\"lemma\":\"되다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"는데\",\"ending_tag\":\"EC\",\"token_index\":27,\"predicate_span\":[52,55]},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[59,60],\"surface\":\"해\",\"lemma\":\"하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"어\",\"ending_tag\":\"EC\",\"token_index\":31,\"predicate_span\":[59,60]},{\"form\":\"보\",\"tag\":\"VX\",\"span\":[61,62],\"surface\":\"보\",\"lemma\":\"보다\",\"pos\":\"auxiliary\",\"prefinals\":[],\"ending\":\"고\",\"ending_tag\":\"EC\",\"token_index\":33,\"predicate_span\":[61,63]},{\"form\":\"안\",\"tag\":\"MAG\",\"span\":[64,65],\"surface\":\"안\",\"lemma\":\"안\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":35},{\"form\":\"되\",\"tag\":\"VV\",\"span\":[66,67],\"surface\":\"되\",\"lemma\":\"되다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"면\",\"ending_tag\":\"EC\",\"token_index\":36,\"predicate_span\":[66,68]},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[69,70],\"surface\":\"저\",\"lemma\":\"저\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":38},{\"form\":\"일\",\"tag\":\"NNG\",\"span\":[75,76],\"surface\":\"일\",\"lemma\":\"일\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":41},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[77,78],\"surface\":\"하\",\"lemma\":\"하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"려고\",\"ending_tag\":\"EF\",\"token_index\":42,\"predicate_span\":[77,80]}],\"status\":\"Kiwi_hypotheses_not_gold\"},\"transformation_plan\":[],\"graph_paths\":[],\"preservation\":{\"origin\":\"reviewed_preservation_policy_not_dialect_rule\",\"relative_clauses\":[],\"supporting_knowledge\":[],\"invariants\":[\"원문의 명제·부정·시제·화행과 모든 절을 유지한다.\",\"청자 높임, 주체 높임, 저/제의 겸양을 각각 보존한다. 주어를 호격으로 바꾸지 않는다.\",\"가는/오는 이동 관점과 먼저의 시간 순서를 보존한다. 앞에의 시간 용법 자체는 금지하지 않는다.\",\"인용 내용과 보고 서술부의 시제를 구분한다. 회상 -대를 표면형만 보고 전언으로 판단하지 않는다.\"],\"source_honorific_predicates\":[],\"terminal_analysis_review\":[]},\"plan_policy\":\"후보는 모두 적용할 목록이 아니라 대안이다. 어휘보다 의미·높임·시제·문장 역할 보존을 우선한다. 종결은 ending_conversion의 family와 preferred_surface를 우선 사용하며 같은 끝에 여러 종결을 겹쳐 붙이지 않는다. preferred_surface는 원래 어간 기준의 조합안이고 방언 어간을 선택하면 그 어간에 맞춰 활용한다. 문헌 구성요소와 분석자 조합·완성형을 구분한다. 원문에 맞는 후보만 사용한다. MODEL_ADVICE는 원문에서 직접 확인된 완성형이 아닌 모델 조합 제안이다. 보존용 지식은 치환 규칙이 아니다.\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "이번에 나마 마지막으루 도전해볼라고 하노. 내가 저번에 일 년 하고 올해까지 하면 이 년째 되는데, 2년 해 보고 안 되면 나도 다른 일 해볼라고 하노."
+          },
+          {
+            "role": "user",
+            "content": "다음 보존 검사 지적을 확인해 번역을 한 번 수정하세요. 원문과 적용 가능한 근거가 우선입니다. 문제가 없는 부분의 의미와 말투를 유지하고 수정한 전체 발화만 출력하세요.\n원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다. 원문: 이번에 저는 마지막으로 도전하려고 하거든요.\n원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다. 원문: 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.\n저/제의 겸양 지칭을 보존한다. 청자 높임과 별개로 검사한다. 원문: 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요."
+          }
+        ]
+      },
+      "status": "success",
+      "response": {
+        "id": "chatcmpl-9a98336d80f4d3d6",
+        "object": "chat.completion",
+        "created": 1792567243,
+        "model": "Qwen3.8-27B",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "이번에 저는 마지막으로 도전하려고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.27.1-51f03443",
+        "usage": {
+          "prompt_tokens": 3296,
+          "total_tokens": 3335,
+          "completion_tokens": 39,
+          "prompt_tokens_details": null
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      },
+      "elapsed_seconds": 1.2232702001929283
+    }
+  ]
+}

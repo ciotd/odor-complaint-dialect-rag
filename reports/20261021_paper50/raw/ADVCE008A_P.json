@@ -1,0 +1,304 @@
+{
+  "id": "ADVCE008A",
+  "input": "제가 지금 읽는 책을 빌려드릴게요.",
+  "condition": "P",
+  "request": {
+    "model": "Qwen3.8-27B",
+    "max_tokens": 512,
+    "temperature": 0.3,
+    "top_p": 0.8,
+    "top_k": 20,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "seed": 20260923,
+    "messages": [
+      {
+        "role": "system",
+        "content": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요."
+      },
+      {
+        "role": "user",
+        "content": "제가 지금 읽는 책을 빌려드릴게요."
+      }
+    ]
+  },
+  "status": "success",
+  "response": {
+    "id": "chatcmpl-8913571ff2ec67a7",
+    "object": "chat.completion",
+    "created": 1792567262,
+    "model": "Qwen3.8-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "나 지금 읽는 책 빌려줄게.",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.27.1-51f03443",
+    "usage": {
+      "prompt_tokens": 83,
+      "total_tokens": 94,
+      "completion_tokens": 11,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  },
+  "first_output": "나 지금 읽는 책 빌려줄게.",
+  "first_check": {
+    "status": "needs_review",
+    "flags": [
+      {
+        "kind": "listener_politeness_lost",
+        "sentence_index": 0,
+        "source": "제가 지금 읽는 책을 빌려드릴게요.",
+        "output": "나 지금 읽는 책 빌려줄게.",
+        "confidence": "high",
+        "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+      }
+    ],
+    "repair_required": true,
+    "not_accuracy": true
+  },
+  "output": "제가 지금 읽는 책을 빌려드릴게요.",
+  "final_check": {
+    "status": "no_screening_flags",
+    "flags": [],
+    "repair_required": false,
+    "not_accuracy": true
+  },
+  "repair_attempted": true,
+  "selection": "single_preservation_repair",
+  "repair_request": {
+    "model": "Qwen3.8-27B",
+    "max_tokens": 512,
+    "temperature": 0.3,
+    "top_p": 0.8,
+    "top_k": 20,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "seed": 20260923,
+    "messages": [
+      {
+        "role": "system",
+        "content": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요."
+      },
+      {
+        "role": "user",
+        "content": "제가 지금 읽는 책을 빌려드릴게요."
+      },
+      {
+        "role": "assistant",
+        "content": "나 지금 읽는 책 빌려줄게."
+      },
+      {
+        "role": "user",
+        "content": "다음 보존 검사 지적을 확인해 번역을 한 번 수정하세요. 원문과 적용 가능한 근거가 우선입니다. 문제가 없는 부분의 의미와 말투를 유지하고 수정한 전체 발화만 출력하세요.\n원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다. 원문: 제가 지금 읽는 책을 빌려드릴게요."
+      }
+    ]
+  },
+  "repair_response": {
+    "id": "chatcmpl-ae484034efad14bf",
+    "object": "chat.completion",
+    "created": 1792567263,
+    "model": "Qwen3.8-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "제가 지금 읽는 책을 빌려드릴게요.",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.27.1-51f03443",
+    "usage": {
+      "prompt_tokens": 189,
+      "total_tokens": 201,
+      "completion_tokens": 12,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  },
+  "repair_output": "제가 지금 읽는 책을 빌려드릴게요.",
+  "repair_check": {
+    "status": "no_screening_flags",
+    "flags": [],
+    "repair_required": false,
+    "not_accuracy": true
+  },
+  "calls": [
+    {
+      "request": {
+        "model": "Qwen3.8-27B",
+        "max_tokens": 512,
+        "temperature": 0.3,
+        "top_p": 0.8,
+        "top_k": 20,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "seed": 20260923,
+        "messages": [
+          {
+            "role": "system",
+            "content": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요."
+          },
+          {
+            "role": "user",
+            "content": "제가 지금 읽는 책을 빌려드릴게요."
+          }
+        ]
+      },
+      "status": "success",
+      "response": {
+        "id": "chatcmpl-8913571ff2ec67a7",
+        "object": "chat.completion",
+        "created": 1792567262,
+        "model": "Qwen3.8-27B",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "나 지금 읽는 책 빌려줄게.",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.27.1-51f03443",
+        "usage": {
+          "prompt_tokens": 83,
+          "total_tokens": 94,
+          "completion_tokens": 11,
+          "prompt_tokens_details": null
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      },
+      "elapsed_seconds": 0.3206728957593441
+    },
+    {
+      "request": {
+        "model": "Qwen3.8-27B",
+        "max_tokens": 512,
+        "temperature": 0.3,
+        "top_p": 0.8,
+        "top_k": 20,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "seed": 20260923,
+        "messages": [
+          {
+            "role": "system",
+            "content": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요."
+          },
+          {
+            "role": "user",
+            "content": "제가 지금 읽는 책을 빌려드릴게요."
+          },
+          {
+            "role": "assistant",
+            "content": "나 지금 읽는 책 빌려줄게."
+          },
+          {
+            "role": "user",
+            "content": "다음 보존 검사 지적을 확인해 번역을 한 번 수정하세요. 원문과 적용 가능한 근거가 우선입니다. 문제가 없는 부분의 의미와 말투를 유지하고 수정한 전체 발화만 출력하세요.\n원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다. 원문: 제가 지금 읽는 책을 빌려드릴게요."
+          }
+        ]
+      },
+      "status": "success",
+      "response": {
+        "id": "chatcmpl-ae484034efad14bf",
+        "object": "chat.completion",
+        "created": 1792567263,
+        "model": "Qwen3.8-27B",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "제가 지금 읽는 책을 빌려드릴게요.",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.27.1-51f03443",
+        "usage": {
+          "prompt_tokens": 189,
+          "total_tokens": 201,
+          "completion_tokens": 12,
+          "prompt_tokens_details": null
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      },
+      "elapsed_seconds": 0.3347907029092312
+    }
+  ]
+}

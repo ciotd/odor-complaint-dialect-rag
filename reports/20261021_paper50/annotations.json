@@ -1,0 +1,3302 @@
+[
+  {
+    "id": "DEV002",
+    "condition": "P",
+    "input": "집에 가는 길에 빵을 샀어.",
+    "first_output": "집 가다 빵 사 왔어.",
+    "first_scores": {
+      "meaning": 1,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "가는 길을 가다·사 왔어로 바꿔 이동 관점이 덧붙음; 방언 표지는 부족.",
+    "final_output": "집 가다 빵 사 왔어.",
+    "final_scores": {
+      "meaning": 1,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "가는 길을 가다·사 왔어로 바꿔 이동 관점이 덧붙음; 방언 표지는 부족.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV002",
+    "condition": "A",
+    "input": "집에 가는 길에 빵을 샀어.",
+    "first_output": "집에 가던 길에 빵을 샀어.",
+    "first_scores": {
+      "meaning": 1,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "가는→가던으로 관점이 달라짐; 종결은 그대로.",
+    "final_output": "집에 가는 길에 빵을 샀어.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "가는 길로 복원했지만 최종은 원문 그대로.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV002",
+    "condition": "K",
+    "input": "집에 가는 길에 빵을 샀어.",
+    "first_output": "집에 가던 길에 빵을 샀다.",
+    "first_scores": {
+      "meaning": 1,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "가는→가던 변화는 남음. 샀다 종결은 반영됐으나 표준어와 공유하는 형태.",
+    "final_output": "집에 가는 길에 빵을 샀다.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "가는 길을 복원하고 샀다를 유지. 표준어와 공유하는 종결이므로 강한 지역 표지로 보지는 않음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV003",
+    "condition": "P",
+    "input": "이 음식은 생각보다 맵네요.",
+    "first_output": "이 음식은 생각보다 매운디.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "first_note": "매운디로 높임이 사라지고 목표 지역 표현도 불명확.",
+    "final_output": "이 음식은 생각보다 매운디.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "final_note": "매운디로 높임이 사라지고 목표 지역 표현도 불명확.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV003",
+    "condition": "A",
+    "input": "이 음식은 생각보다 맵네요.",
+    "first_output": "이 음식은 생각보다 맵다요.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "first_note": "맵다요라는 어색한 결합; 원문의 공손한 감탄 말투가 안정적으로 유지되지 않음.",
+    "final_output": "이 음식은 생각보다 맵다요.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "final_note": "맵다요라는 어색한 결합; 원문의 공손한 감탄 말투가 안정적으로 유지되지 않음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV003",
+    "condition": "K",
+    "input": "이 음식은 생각보다 맵네요.",
+    "first_output": "이 음식은 생각보다 맵네예.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "맵네예로 평서·감탄 의미와 높임 유지.",
+    "final_output": "이 음식은 생각보다 맵네예.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "맵네예로 평서·감탄 의미와 높임 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV004",
+    "condition": "P",
+    "input": "아까 문 앞에 있던 사람이 제 친구예요.",
+    "first_output": "아까 문 앞에 있던 그 사람이 제 친구여요.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "first_note": "친구여요의 목표 지역 적합성이 불분명; 의미와 제는 유지.",
+    "final_output": "아까 문 앞에 있던 그 사람이 제 친구여요.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "final_note": "친구여요의 목표 지역 적합성이 불분명; 의미와 제는 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV004",
+    "condition": "A",
+    "input": "아까 문 앞에 있던 사람이 제 친구예요.",
+    "first_output": "아까 문 앞에 있던 사람이 제 친구임.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "first_note": "친구임으로 말끝이 끊겨 높임과 문장 자연스러움 손실.",
+    "final_output": "아까 문 앞에 있던 사람이 제 친구임.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "final_note": "친구임으로 말끝이 끊겨 높임과 문장 자연스러움 손실.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV004",
+    "condition": "K",
+    "input": "아까 문 앞에 있던 사람이 제 친구예요.",
+    "first_output": "아까 문 앞에 있던 사람이 제 친구라예.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "친구라예로 명사 서술과 제·청자 높임 보존.",
+    "final_output": "아까 문 앞에 있던 사람이 제 친구라예.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "친구라예로 명사 서술과 제·청자 높임 보존.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV005",
+    "condition": "P",
+    "input": "나는 커피보다 차가 더 좋아.",
+    "first_output": "나 커피보다 차가 더 좋아.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "주어 조사는 생략됐지만 의미 유지; 방언 변화는 거의 없음.",
+    "final_output": "나 커피보다 차가 더 좋아.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "주어 조사는 생략됐지만 의미 유지; 방언 변화는 거의 없음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV005",
+    "condition": "A",
+    "input": "나는 커피보다 차가 더 좋아.",
+    "first_output": "나는 커피보다 차가 더 좋아.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "원문 그대로; 의미·자연스러움 자체는 유지.",
+    "final_output": "나는 커피보다 차가 더 좋아.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "원문 그대로; 의미·자연스러움 자체는 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV005",
+    "condition": "K",
+    "input": "나는 커피보다 차가 더 좋아.",
+    "first_output": "나는 커피보다 차가 더 좋다.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "좋다로 말끝 변화. 표준어와도 공유하므로 지역 고유 표지로 단정하지 않음.",
+    "final_output": "나는 커피보다 차가 더 좋다.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "좋다로 말끝 변화. 표준어와도 공유하므로 지역 고유 표지로 단정하지 않음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV007",
+    "condition": "P",
+    "input": "나는 아직 점심을 안 먹었어.",
+    "first_output": "나 아직 점심 안 먹었어.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "부정·과거는 유지; 방언 표현은 미약.",
+    "final_output": "나 아직 점심 안 먹었어.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "부정·과거는 유지; 방언 표현은 미약.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV007",
+    "condition": "A",
+    "input": "나는 아직 점심을 안 먹었어.",
+    "first_output": "나 아직 점심 안 먹었어.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "부정·과거는 유지; 방언 표현은 미약.",
+    "final_output": "나 아직 점심 안 먹었어.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "부정·과거는 유지; 방언 표현은 미약.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV007",
+    "condition": "K",
+    "input": "나는 아직 점심을 안 먹었어.",
+    "first_output": "나는 아직 점심을 안 묵었다.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "안 묵었다로 어휘 변환과 부정·과거 유지.",
+    "final_output": "나는 아직 점심을 안 묵었다.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "안 묵었다로 어휘 변환과 부정·과거 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV011",
+    "condition": "P",
+    "input": "버스가 벌써 출발했나요?",
+    "first_output": "버스 벌써 출발했나?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "했나로 질문은 유지되지만 청자 높임이 사라짐.",
+    "final_output": "버스 벌써 출발했습니까?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "청자 높임은 회복됐지만 표준어 출발했습니까로 복귀.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV011",
+    "condition": "A",
+    "input": "버스가 벌써 출발했나요?",
+    "first_output": "버스 벌써 출발했나?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "했나로 질문은 유지되지만 청자 높임이 사라짐.",
+    "final_output": "버스 벌써 출발했나?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "했나로 질문은 유지되지만 청자 높임이 사라짐.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV011",
+    "condition": "K",
+    "input": "버스가 벌써 출발했나요?",
+    "first_output": "버스가 벌써 출발했는교?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "했는교로 과거 질문과 청자 높임 보존.",
+    "final_output": "버스가 벌써 출발했는교?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "했는교로 과거 질문과 청자 높임 보존.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV012",
+    "condition": "P",
+    "input": "열쇠를 어디에 뒀어?",
+    "first_output": "열쇠를 어디다 놨노?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "놨노로 질문과 의미 유지; KG 없이도 방언 종결 생성.",
+    "final_output": "열쇠를 어디다 놨노?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "놨노로 질문과 의미 유지; KG 없이도 방언 종결 생성.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV012",
+    "condition": "A",
+    "input": "열쇠를 어디에 뒀어?",
+    "first_output": "열쇠를 어디에 뒀어?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "원문 그대로; 의문 의미는 유지.",
+    "final_output": "열쇠를 어디에 뒀어?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "원문 그대로; 의문 의미는 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV012",
+    "condition": "K",
+    "input": "열쇠를 어디에 뒀어?",
+    "first_output": "열쇠를 어디에 뒀노?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "뒀노가 반영됨. 이 사례는 P도 충분한 변환을 보임.",
+    "final_output": "열쇠를 어디에 뒀노?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "뒀노가 반영됨. 이 사례는 P도 충분한 변환을 보임.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV013",
+    "condition": "P",
+    "input": "내일 몇 시에 만나면 될까요?",
+    "first_output": "내일 몇 시에 만나면 될꼬?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "될꼬로 의문을 유지하지만 원문의 공손한 문의 수준은 약화.",
+    "final_output": "내일 몇 시에 만나면 될꼬?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "될꼬로 의문을 유지하지만 원문의 공손한 문의 수준은 약화.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV013",
+    "condition": "A",
+    "input": "내일 몇 시에 만나면 될까요?",
+    "first_output": "내일 몇 시에 만나면 될꼬?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "P와 같음. 분석 정보만으로 높임 회복 안 됨.",
+    "final_output": "내일 몇 시에 만나면 될꼬?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "P와 같음. 분석 정보만으로 높임 회복 안 됨.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV013",
+    "condition": "K",
+    "input": "내일 몇 시에 만나면 될까요?",
+    "first_output": "낼 몇 시에 만나면 될까예?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "될까예로 공손한 문의 유지. 낼 자체는 지역 고유 표지로 세지 않음.",
+    "final_output": "낼 몇 시에 만나면 될까예?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "될까예로 공손한 문의 유지. 낼 자체는 지역 고유 표지로 세지 않음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV014",
+    "condition": "P",
+    "input": "아까 왜 아무 말도 안 했어?",
+    "first_output": "방금 왜 아무 말도 안 혀?",
+    "first_scores": {
+      "meaning": 1,
+      "register": 2,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "first_note": "아까→방금, 했어→혀로 시간과 과거성이 약화되고 목표 지역 표현도 불분명.",
+    "final_output": "방금 왜 아무 말도 안 혀?",
+    "final_scores": {
+      "meaning": 1,
+      "register": 2,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "final_note": "아까→방금, 했어→혀로 시간과 과거성이 약화되고 목표 지역 표현도 불분명.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV014",
+    "condition": "A",
+    "input": "아까 왜 아무 말도 안 했어?",
+    "first_output": "아까 왜 아무 말도 안 했어?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "원문 그대로; 의미는 유지.",
+    "final_output": "아까 왜 아무 말도 안 했어?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "원문 그대로; 의미는 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV014",
+    "condition": "K",
+    "input": "아까 왜 아무 말도 안 했어?",
+    "first_output": "아까 왜 아무 말도 안 했노?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "안 했노로 부정·과거·의문 유지.",
+    "final_output": "아까 왜 아무 말도 안 했노?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "안 했노로 부정·과거·의문 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV017",
+    "condition": "P",
+    "input": "문 좀 닫아 주세요.",
+    "first_output": "문 좀 닫아 주이소.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "주이소로 요청·높임 모두 유지.",
+    "final_output": "문 좀 닫아 주이소.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "주이소로 요청·높임 모두 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV017",
+    "condition": "A",
+    "input": "문 좀 닫아 주세요.",
+    "first_output": "문 좀 닫아 주이소.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "P와 동일하게 주이소 생성.",
+    "final_output": "문 좀 닫아 주이소.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "P와 동일하게 주이소 생성.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV017",
+    "condition": "K",
+    "input": "문 좀 닫아 주세요.",
+    "first_output": "문 좀 닫아 주이소.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "세 조건 동일. KG만의 개선으로 셀 수 없음.",
+    "final_output": "문 좀 닫아 주이소.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "세 조건 동일. KG만의 개선으로 셀 수 없음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV019",
+    "condition": "P",
+    "input": "바닥이 미끄러우니까 천천히 걸으세요.",
+    "first_output": "바닥이 미끄러우니 천천히 걸으소.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "걸으소로 공손한 요청과 이동 행동 유지.",
+    "final_output": "바닥이 미끄러우니 천천히 걸으소.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "걸으소로 공손한 요청과 이동 행동 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV019",
+    "condition": "A",
+    "input": "바닥이 미끄러우니까 천천히 걸으세요.",
+    "first_output": "바닥이 미끄러우니까 천천히 걸으소.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "걸으소로 요청 유지.",
+    "final_output": "바닥이 미끄러우니까 천천히 걸으소.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "걸으소로 요청 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV019",
+    "condition": "K",
+    "input": "바닥이 미끄러우니까 천천히 걸으세요.",
+    "first_output": "바닥이 미끄러우니까 천천히 걸으이소.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "걸으이소 조합안 반영. P/A도 요청을 유지하므로 독점적 이득 아님.",
+    "final_output": "바닥이 미끄러우니까 천천히 걸으이소.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "걸으이소 조합안 반영. P/A도 요청을 유지하므로 독점적 이득 아님.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV020",
+    "condition": "P",
+    "input": "그 얘기는 다른 사람한테 하지 마.",
+    "first_output": "그 말은 다른 사람한테 하지 마라.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "말하지 마라로 금지 의미 유지. 마라는 표준어와 공유.",
+    "final_output": "그 말은 다른 사람한테 하지 마라.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "말하지 마라로 금지 의미 유지. 마라는 표준어와 공유.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV020",
+    "condition": "A",
+    "input": "그 얘기는 다른 사람한테 하지 마.",
+    "first_output": "그 얘기는 다른 사람한테 말 안 혀.",
+    "first_scores": {
+      "meaning": 0,
+      "register": 2,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "first_note": "하지 마를 말 안 혀로 바꿔 금지 요청이 행동 서술처럼 변함.",
+    "final_output": "그 얘기는 다른 사람한테 말 안 혀.",
+    "final_scores": {
+      "meaning": 0,
+      "register": 2,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "final_note": "하지 마를 말 안 혀로 바꿔 금지 요청이 행동 서술처럼 변함.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV020",
+    "condition": "K",
+    "input": "그 얘기는 다른 사람한테 하지 마.",
+    "first_output": "그 얘기는 다른 사람한테 하지 마라.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "하지 마라로 금지 유지. P도 적절한 금지 표현을 생성.",
+    "final_output": "그 얘기는 다른 사람한테 하지 마라.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "하지 마라로 금지 유지. P도 적절한 금지 표현을 생성.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV021",
+    "condition": "P",
+    "input": "잠깐만 기다려 주세요. 제가 확인해 볼게요.",
+    "first_output": "잠깐만 기다려 주이소. 제가 한번 확인해 볼게요.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "주이소는 반영됐지만 확인해 볼게요는 그대로.",
+    "final_output": "잠깐만 기다려 주이소. 제가 한번 확인해 볼게요.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "주이소는 반영됐지만 확인해 볼게요는 그대로.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV021",
+    "condition": "A",
+    "input": "잠깐만 기다려 주세요. 제가 확인해 볼게요.",
+    "first_output": "잠깐만 기다려 주이소. 제가 확인해 볼게요.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "주이소만 반영; 약속 종결은 그대로.",
+    "final_output": "잠깐만 기다려 주이소. 제가 확인해 볼게요.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "주이소만 반영; 약속 종결은 그대로.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV021",
+    "condition": "K",
+    "input": "잠깐만 기다려 주세요. 제가 확인해 볼게요.",
+    "first_output": "잠깐만 기다려 주이소. 제가 확인해 보께예.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "주이소와 보께예를 함께 반영; 제가 보존.",
+    "final_output": "잠깐만 기다려 주이소. 제가 확인해 보께예.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "주이소와 보께예를 함께 반영; 제가 보존.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV022",
+    "condition": "P",
+    "input": "시간 괜찮으면 같이 점심 먹자.",
+    "first_output": "시간 되시면 같이 점심 드시자.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 1,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "first_note": "되시면·드시자로 원문의 친근한 청유와 높임 조합이 달라짐.",
+    "final_output": "시간 되시면 같이 점심 드시자.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 1,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "final_note": "되시면·드시자로 원문의 친근한 청유와 높임 조합이 달라짐.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV022",
+    "condition": "A",
+    "input": "시간 괜찮으면 같이 점심 먹자.",
+    "first_output": "시간 괜찮으면 같이 점심 먹자.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "원문 그대로; 청유는 유지.",
+    "final_output": "시간 괜찮으면 같이 점심 먹자.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "원문 그대로; 청유는 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV022",
+    "condition": "K",
+    "input": "시간 괜찮으면 같이 점심 먹자.",
+    "first_output": "시간 괜찮으면 같이 점심 묵제.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "묵제로 어휘·종결 변화. 청유의 지역별 자연스러움은 화자 확인 필요.",
+    "final_output": "시간 괜찮으면 같이 점심 묵제.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "묵제로 어휘·종결 변화. 청유의 지역별 자연스러움은 화자 확인 필요.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV026",
+    "condition": "P",
+    "input": "늦을까 봐 조금 일찍 나왔어요.",
+    "first_output": "늦어질까 봐 좀 일찍 나왔제.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "나왔제로 청자 높임이 사라짐.",
+    "final_output": "늦을까 봐 조금 일찍 나왔습니다.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "청자 높임·과거 유지, 표준어 나왔습니다로 복귀.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV026",
+    "condition": "A",
+    "input": "늦을까 봐 조금 일찍 나왔어요.",
+    "first_output": "늦으까 봐 조금 일찍 나왔어.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "나왔어로 높임 소실. 늦으까는 부분 변환.",
+    "final_output": "늦으까 봐 조금 일찍 나왔어.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "나왔어로 높임 소실. 늦으까는 부분 변환.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV026",
+    "condition": "K",
+    "input": "늦을까 봐 조금 일찍 나왔어요.",
+    "first_output": "늦으까 봐 쪼매 일찍 나왔어예.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "쪼매·나왔어예로 정도·과거·높임 유지.",
+    "final_output": "늦으까 봐 쪼매 일찍 나왔어예.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "쪼매·나왔어예로 정도·과거·높임 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV028",
+    "condition": "P",
+    "input": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+    "first_output": "아까 말한 거, 이거 버리라는 뜻이 아니었어.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "아니었어로 부정·과거는 유지하지만 높임 소실.",
+    "final_output": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "원문 그대로 돌아옴. 부정·과거·높임 유지, 방언 변환 없음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV028",
+    "condition": "A",
+    "input": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+    "first_output": "아까 말한 건 이거 버리라는 뜻이 아니었어.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "아니었어로 높임 소실.",
+    "final_output": "아까 말한 건 이거 버리라는 뜻이 아니었어.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "아니었어로 높임 소실.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV028",
+    "condition": "K",
+    "input": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+    "first_output": "아까 말한 건 이걸 버리라는 뜻이 아니었어예.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "아니었어예로 부정·과거·높임 보존; 인용 내부는 대체로 그대로.",
+    "final_output": "아까 말한 건 이걸 버리라는 뜻이 아니었어예.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "아니었어예로 부정·과거·높임 보존; 인용 내부는 대체로 그대로.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV029",
+    "condition": "P",
+    "input": "그 가게에 가 봤는데 음식이 괜찮더라.",
+    "first_output": "그 가게에 가 봤는데 음식이 꽤 괜찮더라.",
+    "first_scores": {
+      "meaning": 1,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "꽤를 덧붙여 원문보다 평가 강도가 높아짐; 방언은 미약.",
+    "final_output": "그 가게에 가 봤는데 음식이 꽤 괜찮더라.",
+    "final_scores": {
+      "meaning": 1,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "꽤를 덧붙여 원문보다 평가 강도가 높아짐; 방언은 미약.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV029",
+    "condition": "A",
+    "input": "그 가게에 가 봤는데 음식이 괜찮더라.",
+    "first_output": "그 가게에 가 봤는데 음식이 괜찮더라.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "원문 그대로; 회상 의미 유지.",
+    "final_output": "그 가게에 가 봤는데 음식이 괜찮더라.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "원문 그대로; 회상 의미 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV029",
+    "condition": "K",
+    "input": "그 가게에 가 봤는데 음식이 괜찮더라.",
+    "first_output": "그 가게에 가 봤는데 음식이 갠찮더라.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 1,
+      "dialect": 1
+    },
+    "first_note": "갠찮더라로 변환됐으나 표기·지역 자연스러움은 확정하지 않음.",
+    "final_output": "그 가게에 가 봤는데 음식이 갠찮더라.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 1,
+      "dialect": 1
+    },
+    "final_note": "갠찮더라로 변환됐으나 표기·지역 자연스러움은 확정하지 않음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV030",
+    "condition": "P",
+    "input": "피곤하면 먼저 자. 뒷정리는 내가 할게.",
+    "first_output": "피곤하면 먼저 자. 뒷정리는 내가 할게.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "원문 그대로; 의미는 유지.",
+    "final_output": "피곤하면 먼저 자. 뒷정리는 내가 할게.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "원문 그대로; 의미는 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV030",
+    "condition": "A",
+    "input": "피곤하면 먼저 자. 뒷정리는 내가 할게.",
+    "first_output": "피곤하면 먼저 자. 뒷정리는 내가 할게.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "원문 그대로; 의미는 유지.",
+    "final_output": "피곤하면 먼저 자. 뒷정리는 내가 할게.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "원문 그대로; 의미는 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "DEV030",
+    "condition": "K",
+    "input": "피곤하면 먼저 자. 뒷정리는 내가 할게.",
+    "first_output": "피곤하면 먼저 자라. 뒷정리는 내가 하께.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "자라·하께로 명령과 약속을 구별해 변환.",
+    "final_output": "피곤하면 먼저 자라. 뒷정리는 내가 하께.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "자라·하께로 명령과 약속을 구별해 변환.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "LONG001",
+    "condition": "P",
+    "input": "너 지금 어디야? 아까 역 앞에서 만나자고 했는데 왜 아직 안 와? 나는 배가 고파서 먼저 밥을 먹고 있을게.",
+    "first_output": "너 지금 어디 있노? 아까 역 앞에서 만나자고 했디 왜 아직 안 왔노? 나 배가 고파서 먼저 밥이나 먹고 있을게.",
+    "first_scores": {
+      "meaning": 1,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "안 와→안 왔노와 밥이나 등 관점·태도 변화가 있음; 일부 의문 종결은 생성.",
+    "final_output": "너 지금 어디 있노? 아까 역 앞에서 만나자고 했디 왜 아직 안 왔노? 나 배가 고파서 먼저 밥이나 먹고 있을게.",
+    "final_scores": {
+      "meaning": 1,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "안 와→안 왔노와 밥이나 등 관점·태도 변화가 있음; 일부 의문 종결은 생성.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "LONG001",
+    "condition": "A",
+    "input": "너 지금 어디야? 아까 역 앞에서 만나자고 했는데 왜 아직 안 와? 나는 배가 고파서 먼저 밥을 먹고 있을게.",
+    "first_output": "너 지금 어디야? 아까 역 앞에서 만나자고 했는디 왜 아직 안 와? 나 배고파서 먼저 밥 먹고 있을게.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "했는디의 목표 지역 적합성이 불분명하고 나머지 변환이 적음.",
+    "final_output": "너 지금 어디야? 아까 역 앞에서 만나자고 했는디 왜 아직 안 와? 나 배고파서 먼저 밥 먹고 있을게.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "했는디의 목표 지역 적합성이 불분명하고 나머지 변환이 적음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "LONG001",
+    "condition": "K",
+    "input": "너 지금 어디야? 아까 역 앞에서 만나자고 했는데 왜 아직 안 와? 나는 배가 고파서 먼저 밥을 먹고 있을게.",
+    "first_output": "니 지금 어디고? 아까 역 앞에서 만나자꼬 했는데 왜 아직 안 오노? 나 배 고파서 먼저 밥 묵고 있으께.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "어디고·오노·묵고·있으께를 적용. 인용은 만나자꼬 했는데로 부분 변환에 머묾.",
+    "final_output": "니 지금 어디고? 아까 역 앞에서 만나자꼬 했는데 왜 아직 안 오노? 나 배 고파서 먼저 밥 묵고 있으께.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "어디고·오노·묵고·있으께를 적용. 인용은 만나자꼬 했는데로 부분 변환에 머묾.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "LONG002",
+    "condition": "P",
+    "input": "오늘 시장에서 사 온 사과 먹어 봤어? 보기에는 조금 작아도 생각보다 달고 맛있더라. 혼자 다 먹지 말고 동생 것도 좀 남겨 둬.",
+    "first_output": "오늘 시장에서 사 온 사과 먹어 봤나? 모양은 좀 작아도 생각보다 달고 맛있더군. 혼자 다 먹지 말고 동생 것도 좀 남겨 두어라.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "봤나·남겨 두어라는 반영; 맛있더군은 회상 유지하나 문체가 달라짐.",
+    "final_output": "오늘 시장에서 사 온 사과 먹어 봤나? 모양은 좀 작아도 생각보다 달고 맛있더군. 혼자 다 먹지 말고 동생 것도 좀 남겨 두어라.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "봤나·남겨 두어라는 반영; 맛있더군은 회상 유지하나 문체가 달라짐.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "LONG002",
+    "condition": "A",
+    "input": "오늘 시장에서 사 온 사과 먹어 봤어? 보기에는 조금 작아도 생각보다 달고 맛있더라. 혼자 다 먹지 말고 동생 것도 좀 남겨 둬.",
+    "first_output": "오늘 시장에서 사 온 사과 먹어 봤어? 보기에는 조금 작아도 생각보다 달고 맛있더라. 혼자 다 먹지 말고 동생 것도 좀 남겨 둬.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "원문 그대로.",
+    "final_output": "오늘 시장에서 사 온 사과 먹어 봤어? 보기에는 조금 작아도 생각보다 달고 맛있더라. 혼자 다 먹지 말고 동생 것도 좀 남겨 둬.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "원문 그대로.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "LONG002",
+    "condition": "K",
+    "input": "오늘 시장에서 사 온 사과 먹어 봤어? 보기에는 조금 작아도 생각보다 달고 맛있더라. 혼자 다 먹지 말고 동생 것도 좀 남겨 둬.",
+    "first_output": "올 시장에서 사 온 사과 묵어 봤나? 보기에는 쪼매 작아도 생각보다 달고 맛있더라. 혼자 다 묵지 말고 동생 것도 좀 남겨 두라.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 1,
+      "dialect": 2
+    },
+    "first_note": "묵어 봤나·쪼매·묵지·남겨 두라 반영. 올 축약의 적합성은 검토 필요.",
+    "final_output": "올 시장에서 사 온 사과 묵어 봤나? 보기에는 쪼매 작아도 생각보다 달고 맛있더라. 혼자 다 묵지 말고 동생 것도 좀 남겨 두라.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 1,
+      "dialect": 2
+    },
+    "final_note": "묵어 봤나·쪼매·묵지·남겨 두라 반영. 올 축약의 적합성은 검토 필요.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "LONG003",
+    "condition": "P",
+    "input": "사장님, 이 국은 뭐가 들어가서 이렇게 맛있어요? 제가 매운 음식은 잘 못 먹는데 이건 괜찮네요. 반찬도 조금만 더 주세요.",
+    "first_output": "사장님, 이 국은 뭐가 들어가서 이렇게 맛나요? 제가 매운 거는 잘 못 먹는데 이건 괜찮네요. 반찬도 좀 더 주세요.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "의미·높임은 대체로 유지하지만 목표 방언 변화가 미약.",
+    "final_output": "사장님, 이 국은 뭐가 들어가서 이렇게 맛나요? 제가 매운 거는 잘 못 먹는데 이건 괜찮네요. 반찬도 좀 더 주세요.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "의미·높임은 대체로 유지하지만 목표 방언 변화가 미약.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "LONG003",
+    "condition": "A",
+    "input": "사장님, 이 국은 뭐가 들어가서 이렇게 맛있어요? 제가 매운 음식은 잘 못 먹는데 이건 괜찮네요. 반찬도 조금만 더 주세요.",
+    "first_output": "사장님, 이 국은 뭐가 들어가서 이렇게 맛있소? 제가 매운 음식은 잘 못 먹는데 이건 괜찮네요. 반찬도 조금만 더 주십시오.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 1,
+      "fluency": 1,
+      "dialect": 1
+    },
+    "first_note": "맛있소·괜찮네요·주십시오가 섞여 말투 수준이 일관되지 않음.",
+    "final_output": "사장님, 이 국은 뭐가 들어가서 이렇게 맛있소? 제가 매운 음식은 잘 못 먹는데 이건 괜찮네요. 반찬도 조금만 더 주십시오.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 1,
+      "fluency": 1,
+      "dialect": 1
+    },
+    "final_note": "맛있소·괜찮네요·주십시오가 섞여 말투 수준이 일관되지 않음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "LONG003",
+    "condition": "K",
+    "input": "사장님, 이 국은 뭐가 들어가서 이렇게 맛있어요? 제가 매운 음식은 잘 못 먹는데 이건 괜찮네요. 반찬도 조금만 더 주세요.",
+    "first_output": "사장님, 이 국은 뭐가 들어가서 이렇게 맛있소? 제가 매운 음식은 잘 못 먹는데 이건 괜찮소. 반찬도 쪼매만 더 주이소.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 1,
+      "fluency": 1,
+      "dialect": 2
+    },
+    "first_note": "주이소·쪼매는 반영됐지만 맛있소·괜찮소와 높임 계열이 섞임. 완전 성공으로 보지 않음.",
+    "final_output": "사장님, 이 국은 뭐가 들어가서 이렇게 맛있소? 제가 매운 음식은 잘 못 먹는데 이건 괜찮소. 반찬도 쪼매만 더 주이소.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 1,
+      "fluency": 1,
+      "dialect": 2
+    },
+    "final_note": "주이소·쪼매는 반영됐지만 맛있소·괜찮소와 높임 계열이 섞임. 완전 성공으로 보지 않음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "LONG004",
+    "condition": "P",
+    "input": "할머니, 밖에 비가 많이 오는데 우산은 챙기셨어요? 길이 미끄러우니까 혼자 나가지 마세요. 제가 집 앞까지 모셔다드릴게요.",
+    "first_output": "할머니, 밖에서 비가 억수같이 쏟아지는데 우산은 챙기셨소? 길이 미끄러우니까 혼자 나가시지 마쇼. 제가 집 앞까지 모셔다드릴게요.",
+    "first_scores": {
+      "meaning": 1,
+      "register": 1,
+      "fluency": 1,
+      "dialect": 1
+    },
+    "first_note": "비의 강도를 강화하고 챙기셨소·마쇼·드릴게요가 섞임.",
+    "final_output": "할머니, 밖에서 비가 억수같이 쏟아지는데 우산은 챙기셨소? 길이 미끄러우니까 혼자 나가시지 마쇼. 제가 집 앞까지 모셔다드릴게요.",
+    "final_scores": {
+      "meaning": 1,
+      "register": 1,
+      "fluency": 1,
+      "dialect": 1
+    },
+    "final_note": "비의 강도를 강화하고 챙기셨소·마쇼·드릴게요가 섞임.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "LONG004",
+    "condition": "A",
+    "input": "할머니, 밖에 비가 많이 오는데 우산은 챙기셨어요? 길이 미끄러우니까 혼자 나가지 마세요. 제가 집 앞까지 모셔다드릴게요.",
+    "first_output": "할머니, 밖에 비가 많이 오는데 우산은 챙기셨어? 길이 미끄러우니까 혼자 나가지 마라. 내가 집 앞까지 모셔다줄게.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "first_note": "챙기셨어·마라·내가·모셔다줄게로 청자 높임과 겸양 소실.",
+    "final_output": "할머니, 밖에 비가 많이 오는데 우산은 챙기셨어요? 길이 미끄러우니까 혼자 나가지 마세요. 제가 집 앞까지 모셔다드릴게요.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "원문 그대로 돌아옴. 질문·금지·약속의 높임 회복, 방언 변환 없음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "LONG004",
+    "condition": "K",
+    "input": "할머니, 밖에 비가 많이 오는데 우산은 챙기셨어요? 길이 미끄러우니까 혼자 나가지 마세요. 제가 집 앞까지 모셔다드릴게요.",
+    "first_output": "할무이, 밖에 비가 이빠이 오는데 우산은 챙기셨는교? 길이 미끄러우니까 혼자 나가지 마이소. 제가 집 앞까지 모셔다드리께예.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 1,
+      "dialect": 2
+    },
+    "first_note": "질문·금지·약속의 높임을 유지. 이빠이 선택은 목표 말투의 어휘 적합성 검토 필요.",
+    "final_output": "할무이, 밖에 비가 이빠이 오는데 우산은 챙기셨는교? 길이 미끄러우니까 혼자 나가지 마이소. 제가 집 앞까지 모셔다드리께예.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 1,
+      "dialect": 2
+    },
+    "final_note": "질문·금지·약속의 높임을 유지. 이빠이 선택은 목표 말투의 어휘 적합성 검토 필요.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "NEW001",
+    "condition": "P",
+    "input": "저기 창가에 앉아 있는 분이 제 선생님이에요.",
+    "first_output": "저기 창가에 앉아 계신 분은 제 스승님이셔.",
+    "first_scores": {
+      "meaning": 1,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "주체 높임을 추가하고 선생님을 스승님으로 바꾸며 청자 높임은 잃음.",
+    "final_output": "저기 창가에 앉아 계신 분이 제 선생님이에요.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "청자 높임과 선생님은 회복됨. 계신으로 주체 높임이 추가됐으나 맥락상 허용 가능; 방언 변환 없음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "NEW001",
+    "condition": "A",
+    "input": "저기 창가에 앉아 있는 분이 제 선생님이에요.",
+    "first_output": "저기 창가에 앉아 있는 분이 제 선생님이다.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "선생님이다로 청자 높임 소실.",
+    "final_output": "저기 창가에 앉아 있는 분이 제 선생님이다.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "선생님이다로 청자 높임 소실.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "NEW001",
+    "condition": "K",
+    "input": "저기 창가에 앉아 있는 분이 제 선생님이에요.",
+    "first_output": "저기 창가에 앉아 있는 분이 제 선생님이라예.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "선생님이라예로 명사 서술과 높임 유지.",
+    "final_output": "저기 창가에 앉아 있는 분이 제 선생님이라예.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "선생님이라예로 명사 서술과 높임 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "NEW004",
+    "condition": "P",
+    "input": "회의가 벌써 시작했나요?",
+    "first_output": "회의가 벌써 시작했나?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "시작했나로 질문 유지, 높임 소실.",
+    "final_output": "회의가 벌써 시작했습니까?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "청자 높임은 회복됐지만 표준어 시작했습니까로 복귀.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "NEW004",
+    "condition": "A",
+    "input": "회의가 벌써 시작했나요?",
+    "first_output": "회의가 벌써 시작했나?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "P와 동일.",
+    "final_output": "회의가 벌써 시작했나?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "P와 동일.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "NEW004",
+    "condition": "K",
+    "input": "회의가 벌써 시작했나요?",
+    "first_output": "회의가 벌써 시작했는교?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "시작했는교로 과거 질문과 높임 유지.",
+    "final_output": "회의가 벌써 시작했는교?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "시작했는교로 과거 질문과 높임 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "NEW005",
+    "condition": "P",
+    "input": "이 서류는 어디에 놓으면 될까요?",
+    "first_output": "이 서류는 어디다 놓으면 되요?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "first_note": "되요 표기가 어색하고 목표 방언은 거의 없음.",
+    "final_output": "이 서류는 어디다 놓으면 되요?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "final_note": "되요 표기가 어색하고 목표 방언은 거의 없음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "NEW005",
+    "condition": "A",
+    "input": "이 서류는 어디에 놓으면 될까요?",
+    "first_output": "이 서류는 어디에 놓으면 될꼬?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "될꼬로 공손한 문의 수준 약화.",
+    "final_output": "이 서류는 어디에 놓으면 될꼬?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "될꼬로 공손한 문의 수준 약화.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "NEW005",
+    "condition": "K",
+    "input": "이 서류는 어디에 놓으면 될까요?",
+    "first_output": "이 서류는 어디에 놓으면 될까예?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "될까예로 원문 문의·높임 유지.",
+    "final_output": "이 서류는 어디에 놓으면 될까예?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "될까예로 원문 문의·높임 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "NEW006",
+    "condition": "P",
+    "input": "계단이 어두우니까 조심해서 내려오세요.",
+    "first_output": "계단이 어두우니 조심조심 내려오세요.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "내려오세요로 원문 높임 유지하지만 방언 변화 미약.",
+    "final_output": "계단이 어두우니 조심조심 내려오세요.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "내려오세요로 원문 높임 유지하지만 방언 변화 미약.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "NEW006",
+    "condition": "A",
+    "input": "계단이 어두우니까 조심해서 내려오세요.",
+    "first_output": "계단이 어두우니까 조심해서 내려와라.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "내려와라로 원문 높임 소실.",
+    "final_output": "계단이 어두우니까 조심해서 내려와라.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "내려와라로 원문 높임 소실.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "NEW006",
+    "condition": "K",
+    "input": "계단이 어두우니까 조심해서 내려오세요.",
+    "first_output": "계단이 어두우니까 조심해서 내려오이소.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "내려오이소로 이동 방향·요청·높임 유지.",
+    "final_output": "계단이 어두우니까 조심해서 내려오이소.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "내려오이소로 이동 방향·요청·높임 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "NEW007",
+    "condition": "P",
+    "input": "내가 먼저 먹고 있을 테니까 천천히 와.",
+    "first_output": "나 먼저 먹어놓을 테니 천천히 와.",
+    "first_scores": {
+      "meaning": 1,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "먹고 있을 진행을 먹어놓을 완료·준비 의미로 바꿈.",
+    "final_output": "나 먼저 먹어놓을 테니 천천히 와.",
+    "final_scores": {
+      "meaning": 1,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "먹고 있을 진행을 먹어놓을 완료·준비 의미로 바꿈.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "NEW007",
+    "condition": "A",
+    "input": "내가 먼저 먹고 있을 테니까 천천히 와.",
+    "first_output": "내가 먼저 묵고 있을 테니까 천천히 와.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "묵고만 변환; 천천히 와는 그대로.",
+    "final_output": "내가 먼저 묵고 있을 테니까 천천히 와.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "묵고만 변환; 천천히 와는 그대로.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "NEW007",
+    "condition": "K",
+    "input": "내가 먼저 먹고 있을 테니까 천천히 와.",
+    "first_output": "내가 먼저 묵고 있을 테니까 천천히 와.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "A와 같은 출력. 온나 후보가 전달돼도 적용하지 않음.",
+    "final_output": "내가 먼저 묵고 있을 테니까 천천히 와.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "A와 같은 출력. 온나 후보가 전달돼도 적용하지 않음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "NEW008",
+    "condition": "P",
+    "input": "그건 네 잘못이 아니야.",
+    "first_output": "그건 니 탓이 아니여.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "니는 나타나지만 아니여의 지역 적합성이 불확실.",
+    "final_output": "그건 니 탓이 아니여.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "니는 나타나지만 아니여의 지역 적합성이 불확실.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "NEW008",
+    "condition": "A",
+    "input": "그건 네 잘못이 아니야.",
+    "first_output": "그건 니 잘못이 아녀.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "니는 나타나지만 아녀는 지역 고유성이 불명확.",
+    "final_output": "그건 니 잘못이 아녀.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "니는 나타나지만 아녀는 지역 고유성이 불명확.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "NEW008",
+    "condition": "K",
+    "input": "그건 네 잘못이 아니야.",
+    "first_output": "그건 니 잘못이 아니야.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "니만 변환하고 아니야는 그대로; 완전한 부정 표현 변환은 아님.",
+    "final_output": "그건 니 잘못이 아니야.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "니만 변환하고 아니야는 그대로; 완전한 부정 표현 변환은 아님.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "NEW009",
+    "condition": "P",
+    "input": "동생이 좋아하는 과자를 가방에 넣었어.",
+    "first_output": "동생이 좋아허는 과자를 가방에 넣었어.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "first_note": "좋아허는의 목표 지역 적합성이 불명확; 구조는 대체로 유지.",
+    "final_output": "동생이 좋아허는 과자를 가방에 넣었어.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "final_note": "좋아허는의 목표 지역 적합성이 불명확; 구조는 대체로 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "NEW009",
+    "condition": "A",
+    "input": "동생이 좋아하는 과자를 가방에 넣었어.",
+    "first_output": "동생이 좋아허는 과자를 가방에 넣었어.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "first_note": "P와 동일.",
+    "final_output": "동생이 좋아허는 과자를 가방에 넣었어.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "final_note": "P와 동일.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "NEW009",
+    "condition": "K",
+    "input": "동생이 좋아하는 과자를 가방에 넣었어.",
+    "first_output": "동생이 좋아하는 과자를 가방에 옇었어.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "옇었어 어휘 대응은 반영; 종결은 표준어 형태가 남음.",
+    "final_output": "동생이 좋아하는 과자를 가방에 옇었어.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "옇었어 어휘 대응은 반영; 종결은 표준어 형태가 남음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "NEW012",
+    "condition": "P",
+    "input": "그 물건을 버리라고 한 건 아니었어요. 잠깐 다른 곳에 옮겨 달라는 뜻이었어요.",
+    "first_output": "그 물건 버리라고 한 건 아니었어. 잠깐 다른 데로 옮겨 달라는 뜻이었어.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "두 문장의 아니었어·뜻이었어에서 높임 소실.",
+    "final_output": "그 물건을 버리라고 한 건 아니었어요. 잠깐 다른 곳에 옮겨 달라는 뜻이었어요.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "원문 그대로 돌아옴. 부정·과거·높임 유지, 방언 변환 없음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "NEW012",
+    "condition": "A",
+    "input": "그 물건을 버리라고 한 건 아니었어요. 잠깐 다른 곳에 옮겨 달라는 뜻이었어요.",
+    "first_output": "그 물건 버리라고 한 건 아니었어. 잠깐 다른 데로 옮겨 달라는 뜻이었어.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "P와 동일하게 높임 소실.",
+    "final_output": "그 물건 버리라고 한 건 아니었어. 잠깐 다른 데로 옮겨 달라는 뜻이었어.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "P와 동일하게 높임 소실.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "NEW012",
+    "condition": "K",
+    "input": "그 물건을 버리라고 한 건 아니었어요. 잠깐 다른 곳에 옮겨 달라는 뜻이었어요.",
+    "first_output": "그 물건을 버리라고 한 건 아니었어예. 잠깐 다른 곳에 옮겨 달라는 뜻이었어예.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "두 과거 종결의 높임 유지. 버리라고·옮겨 달라는 인용 구성은 그대로.",
+    "final_output": "그 물건을 버리라고 한 건 아니었어예. 잠깐 다른 곳에 옮겨 달라는 뜻이었어예.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "두 과거 종결의 높임 유지. 버리라고·옮겨 달라는 인용 구성은 그대로.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE001A",
+    "condition": "P",
+    "input": "기차가 지금 정차하나요?",
+    "first_output": "기차 지금 멈춰 서 있나?",
+    "first_scores": {
+      "meaning": 1,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "정차하나요를 멈춰 서 있나로 바꿔 행위와 상태의 관점이 달라지고 높임 소실.",
+    "final_output": "기차 지금 정차하고 계신가요?",
+    "final_scores": {
+      "meaning": 1,
+      "register": 1,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "final_note": "기차에 계신가요를 붙여 불필요한 주체 높임과 진행 의미를 더함. 자동 경고가 없어도 적절한 번역은 아님.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE001A",
+    "condition": "A",
+    "input": "기차가 지금 정차하나요?",
+    "first_output": "기차 지금 멈추노?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 1,
+      "dialect": 1
+    },
+    "first_note": "높임 소실. 의문사 없는 질문에 멈추노를 써 기능 적합성 의문.",
+    "final_output": "기차 지금 멈추노?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 1,
+      "dialect": 1
+    },
+    "final_note": "높임 소실. 의문사 없는 질문에 멈추노를 써 기능 적합성 의문.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE001A",
+    "condition": "K",
+    "input": "기차가 지금 정차하나요?",
+    "first_output": "기차가 짐 정차하는교?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "정차하는교로 현재 질문·높임 유지. 짐은 지역 고유성 판단에서 제외.",
+    "final_output": "기차가 짐 정차하는교?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "정차하는교로 현재 질문·높임 유지. 짐은 지역 고유성 판단에서 제외.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE001B",
+    "condition": "P",
+    "input": "기차가 어제 정차했나요?",
+    "first_output": "기차 어제 멈추었나?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "멈추었나로 과거 질문은 유지, 높임 소실.",
+    "final_output": "기차 어제 정차했습니까?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "정차·과거·높임은 회복됐지만 표준어 정차했습니까로 복귀.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE001B",
+    "condition": "A",
+    "input": "기차가 어제 정차했나요?",
+    "first_output": "기차가 어제 정차했나?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "정차했나로 높임 소실.",
+    "final_output": "기차가 어제 정차했나?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "정차했나로 높임 소실.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE001B",
+    "condition": "K",
+    "input": "기차가 어제 정차했나요?",
+    "first_output": "기차가 어제 정차했는교?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "정차했는교로 과거·질문·높임 유지.",
+    "final_output": "기차가 어제 정차했는교?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "정차했는교로 과거·질문·높임 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE002A",
+    "condition": "P",
+    "input": "선생님께서 자료를 읽고 계세요.",
+    "first_output": "선생님, 자료 보고 계세요.",
+    "first_scores": {
+      "meaning": 1,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "선생님을 부르는 말처럼 바꾸고 읽다를 보다로 넓혀 원문 구조·행동 의미가 달라짐.",
+    "final_output": "선생님, 자료 보고 계세요.",
+    "final_scores": {
+      "meaning": 1,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "선생님을 부르는 말처럼 바꾸고 읽다를 보다로 넓혀 원문 구조·행동 의미가 달라짐.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE002A",
+    "condition": "A",
+    "input": "선생님께서 자료를 읽고 계세요.",
+    "first_output": "선생님이 자료를 읽고 계세요.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "께서→이지만 계세요로 주체·청자 높임의 핵심은 유지. 방언은 미약.",
+    "final_output": "선생님이 자료를 읽고 계세요.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "께서→이지만 계세요로 주체·청자 높임의 핵심은 유지. 방언은 미약.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE002A",
+    "condition": "K",
+    "input": "선생님께서 자료를 읽고 계세요.",
+    "first_output": "선생님께서 자료를 읽고 계셔예.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 1,
+      "dialect": 2
+    },
+    "first_note": "께서·계셔예로 높임을 유지하지만 계셔예의 지역·세대 자연스러움은 추가 검토 필요.",
+    "final_output": "선생님께서 자료를 읽고 계셔예.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 1,
+      "dialect": 2
+    },
+    "final_note": "께서·계셔예로 높임을 유지하지만 계셔예의 지역·세대 자연스러움은 추가 검토 필요.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE002B",
+    "condition": "P",
+    "input": "선생님께서 자료를 읽고 계셨어요.",
+    "first_output": "선생님이 자료를 읽고 계셨어.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "계셨어로 청자 높임 소실; 과거·주체 높임은 남음.",
+    "final_output": "선생님께서 자료를 읽고 계셨어요.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "원문 그대로 돌아옴. 의미와 높임 회복, 방언 변환 없음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE002B",
+    "condition": "A",
+    "input": "선생님께서 자료를 읽고 계셨어요.",
+    "first_output": "선생님이 자료를 읽고 계셨어.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "P와 동일.",
+    "final_output": "선생님이 자료를 읽고 계셨어.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "P와 동일.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE002B",
+    "condition": "K",
+    "input": "선생님께서 자료를 읽고 계셨어요.",
+    "first_output": "선생님께서 자료를 읽고 계셨어예.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "계셨어예로 과거와 두 종류 높임 유지.",
+    "final_output": "선생님께서 자료를 읽고 계셨어예.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "계셨어예로 과거와 두 종류 높임 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE003A",
+    "condition": "P",
+    "input": "이 문을 제가 닫을까요?",
+    "first_output": "이 문 제가 닫아 드릴까요?",
+    "first_scores": {
+      "meaning": 1,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "닫아 드릴까요로 수혜 대상을 추가. 높임은 유지.",
+    "final_output": "이 문 제가 닫아 드릴까요?",
+    "final_scores": {
+      "meaning": 1,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "닫아 드릴까요로 수혜 대상을 추가. 높임은 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE003A",
+    "condition": "A",
+    "input": "이 문을 제가 닫을까요?",
+    "first_output": "이 문 내가 닫을래?",
+    "first_scores": {
+      "meaning": 0,
+      "register": 0,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "first_note": "제가→내가, 닫을까요→닫을래로 겸양·제안 의도 손상.",
+    "final_output": "이 문 제가 닫을래요?",
+    "final_scores": {
+      "meaning": 1,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "제가의 겸양은 회복됐지만 닫을래요는 원문의 공손한 제안형 질문과 뉘앙스가 다름.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE003A",
+    "condition": "K",
+    "input": "이 문을 제가 닫을까요?",
+    "first_output": "이 문을 제가 닫을까예?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "닫을까예로 제가와 제안형 질문 유지.",
+    "final_output": "이 문을 제가 닫을까예?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "닫을까예로 제가와 제안형 질문 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE003B",
+    "condition": "P",
+    "input": "이 문이 저절로 닫힐까요?",
+    "first_output": "이 문이 저절로 닫히나?",
+    "first_scores": {
+      "meaning": 1,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "닫힐까요를 닫히나로 바꿔 미래 가능성의 뉘앙스 약화와 높임 소실.",
+    "final_output": "이 문이 저절로 닫힐까요?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "원문 그대로 돌아옴. 가능성·높임 회복, 방언 변환 없음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE003B",
+    "condition": "A",
+    "input": "이 문이 저절로 닫힐까요?",
+    "first_output": "이 문이 저절로 닫히겄나?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "닫히겄나로 가능성은 남지만 청자 높임 소실.",
+    "final_output": "이 문이 저절로 닫히겄소?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 1,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "가능성은 유지됐지만 닫히겄소의 목표 지역 적합성과 원문 높임 수준은 추가 검토 필요.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE003B",
+    "condition": "K",
+    "input": "이 문이 저절로 닫힐까요?",
+    "first_output": "이 문이 절로 닫힐까예?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "절로 닫힐까예로 자발적 닫힘·가능성·높임 유지.",
+    "final_output": "이 문이 절로 닫힐까예?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "절로 닫힐까예로 자발적 닫힘·가능성·높임 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE005A",
+    "condition": "P",
+    "input": "그 사람은 제 동료예요.",
+    "first_output": "그 사람은 제 동료임서.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "first_note": "동료임서의 결합이 어색하고 원문 청자 높임이 안정적으로 드러나지 않음.",
+    "final_output": "그 사람은 제 동료임서.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "final_note": "동료임서의 결합이 어색하고 원문 청자 높임이 안정적으로 드러나지 않음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE005A",
+    "condition": "A",
+    "input": "그 사람은 제 동료예요.",
+    "first_output": "그 사람은 제 동료임서.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "first_note": "P와 동일.",
+    "final_output": "그 사람은 제 동료임서.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "final_note": "P와 동일.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE005A",
+    "condition": "K",
+    "input": "그 사람은 제 동료예요.",
+    "first_output": "그 사람은 제 동료라예.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "동료라예로 명사 서술과 높임 유지.",
+    "final_output": "그 사람은 제 동료라예.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "동료라예로 명사 서술과 높임 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE005B",
+    "condition": "P",
+    "input": "그 사람은 제 동료를 도와요.",
+    "first_output": "그 사람은 제 동료한테 도와주제.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 1,
+      "dialect": 1
+    },
+    "first_note": "동료한테 도와주제의 조사 결합이 어색하고 청자 높임 소실.",
+    "final_output": "그 사람은 제 동료한테 도와주셔요.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 1,
+      "fluency": 1,
+      "dialect": 0
+    },
+    "final_note": "동료한테 도와주셔요의 조사 결합이 어색하고 원문에 없던 주체 높임을 추가함.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE005B",
+    "condition": "A",
+    "input": "그 사람은 제 동료를 도와요.",
+    "first_output": "그 사람은 제 동료를 도우제.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 1,
+      "dialect": 1
+    },
+    "first_note": "도우제의 결합과 높임 유지가 불안정.",
+    "final_output": "그 사람은 제 동료를 도우제.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 1,
+      "dialect": 1
+    },
+    "final_note": "도우제의 결합과 높임 유지가 불안정.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE005B",
+    "condition": "K",
+    "input": "그 사람은 제 동료를 도와요.",
+    "first_output": "그 사람은 제 동료를 도와예.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "도와예로 동료를 돕는 행동과 높임 유지; 명사 서술 동료라예와 구별됨.",
+    "final_output": "그 사람은 제 동료를 도와예.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "도와예로 동료를 돕는 행동과 높임 유지; 명사 서술 동료라예와 구별됨.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE006A",
+    "condition": "P",
+    "input": "저는 그 내용을 설명했어요.",
+    "first_output": "나 그 내용 설명했어.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "저는→나, 했어요→했어로 겸양과 청자 높임 소실.",
+    "final_output": "저는 그 내용을 설명했습니다.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "겸양·청자 높임은 회복됐지만 표준어 설명했습니다로 복귀.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE006A",
+    "condition": "A",
+    "input": "저는 그 내용을 설명했어요.",
+    "first_output": "나는 그 내용을 설명했어.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "저는→나는과 했어로 겸양·높임 소실.",
+    "final_output": "나는 그 내용을 설명했어.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "저는→나는과 했어로 겸양·높임 소실.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE006A",
+    "condition": "K",
+    "input": "저는 그 내용을 설명했어요.",
+    "first_output": "저는 그 내용을 설명했어예.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "저는·했어예로 과거·겸양·높임 유지.",
+    "final_output": "저는 그 내용을 설명했어예.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "저는·했어예로 과거·겸양·높임 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE006B",
+    "condition": "P",
+    "input": "나는 그 내용을 설명했어요.",
+    "first_output": "나는 그 내용을 설명했어.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "했어로 청자 높임 소실. 나는는 원문에도 있으므로 별도 오류 아님.",
+    "final_output": "나는 그 내용을 설명했습니다.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "청자 높임 회복, 표준어 설명했습니다 사용.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE006B",
+    "condition": "A",
+    "input": "나는 그 내용을 설명했어요.",
+    "first_output": "나는 그 내용을 설명했어.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "P와 동일.",
+    "final_output": "나는 그 내용을 설명했어요.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "원문 그대로 돌아옴. 원문의 나는와 청자 높임을 유지하지만 방언 변환 없음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE006B",
+    "condition": "K",
+    "input": "나는 그 내용을 설명했어요.",
+    "first_output": "나는 그 내용을 설명했어예.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "나는는 원문대로 유지하고 했어예로 청자 높임 보존.",
+    "final_output": "나는 그 내용을 설명했어예.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "나는는 원문대로 유지하고 했어예로 청자 높임 보존.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE008A",
+    "condition": "P",
+    "input": "제가 지금 읽는 책을 빌려드릴게요.",
+    "first_output": "나 지금 읽는 책 빌려줄게.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "제가→나, 드릴게요→줄게로 겸양·높임 소실.",
+    "final_output": "제가 지금 읽는 책을 빌려드릴게요.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "원문 그대로 돌아옴. 수식 구조·겸양·높임 회복, 방언 변환 없음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE008A",
+    "condition": "A",
+    "input": "제가 지금 읽는 책을 빌려드릴게요.",
+    "first_output": "나 지금 읽는 책 빌려줄게요.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 1,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "나·줄게요로 일부 청자 높임은 남지만 겸양·수혜 높임이 약화.",
+    "final_output": "나 지금 읽는 책 빌려줄게요.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 1,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "나·줄게요로 일부 청자 높임은 남지만 겸양·수혜 높임이 약화.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE008A",
+    "condition": "K",
+    "input": "제가 지금 읽는 책을 빌려드릴게요.",
+    "first_output": "제가 지금 읽는 책을 빌려드리께예.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "제가·읽는·드리께예로 현재 수식과 겸양·약속 높임 유지.",
+    "final_output": "제가 지금 읽는 책을 빌려드리께예.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "제가·읽는·드리께예로 현재 수식과 겸양·약속 높임 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE008B",
+    "condition": "P",
+    "input": "제가 전에 읽던 책을 빌려드릴게요.",
+    "first_output": "나 전에 읽던 책 빌려줄게.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "읽던은 유지하지만 제가→나와 드릴게요→줄게로 겸양·높임 소실.",
+    "final_output": "제가 전에 읽던 책을 빌려드릴게요.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "원문 그대로 돌아옴. 회상 수식·겸양·높임 회복, 방언 변환 없음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE008B",
+    "condition": "A",
+    "input": "제가 전에 읽던 책을 빌려드릴게요.",
+    "first_output": "나 전에 읽던 책 빌려줄게.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "P와 동일.",
+    "final_output": "나 전에 읽던 책 빌려드릴게요.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 1,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "드릴게요는 회복했지만 제가가 나로 남음. 현재 검사기는 이 겸양 약화를 놓침.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE008B",
+    "condition": "K",
+    "input": "제가 전에 읽던 책을 빌려드릴게요.",
+    "first_output": "제가 전에 읽던 책을 빌려드리께예.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "읽던과 제가·드리께예를 보존해 회상 수식과 약속 높임 유지.",
+    "final_output": "제가 전에 읽던 책을 빌려드리께예.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "읽던과 제가·드리께예를 보존해 회상 수식과 약속 높임 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE010A",
+    "condition": "P",
+    "input": "그 서류는 이미 제출하셨죠?",
+    "first_output": "그 서류는 이미 내셨제?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "제출→내다는 문맥상 허용 가능하나 내셨제의 청자 높임은 약화.",
+    "final_output": "그 서류는 이미 제출하셨죠?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "원문 그대로 돌아옴. 주체·청자 높임 회복, 방언 변환 없음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE010A",
+    "condition": "A",
+    "input": "그 서류는 이미 제출하셨죠?",
+    "first_output": "그 서류는 이미 제출하셨제?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "제출하셨제로 주체 높임은 남지만 청자 높임이 약화.",
+    "final_output": "그 서류는 이미 제출하셨제?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "제출하셨제로 주체 높임은 남지만 청자 높임이 약화.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE010A",
+    "condition": "K",
+    "input": "그 서류는 이미 제출하셨죠?",
+    "first_output": "그 서류는 이미 제출하셨지예?",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "제출하셨지예?로 주체·청자 높임과 확인 질문 유지.",
+    "final_output": "그 서류는 이미 제출하셨지예?",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "제출하셨지예?로 주체·청자 높임과 확인 질문 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE010B",
+    "condition": "P",
+    "input": "그 서류는 이미 제출하셨죠.",
+    "first_output": "그 서류는 이미 내셨제.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "내셨제로 청자 높임 약화; 평서 문장부호는 유지.",
+    "final_output": "그 서류는 이미 제출하셨죠.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "원문 그대로 돌아옴. 평서 문장부호·높임 유지, 방언 변환 없음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE010B",
+    "condition": "A",
+    "input": "그 서류는 이미 제출하셨죠.",
+    "first_output": "그 서류는 이미 제출하셨제.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "제출하셨제로 청자 높임 약화.",
+    "final_output": "그 서류는 이미 제출하셨제.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "제출하셨제로 청자 높임 약화.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "ADVCE010B",
+    "condition": "K",
+    "input": "그 서류는 이미 제출하셨죠.",
+    "first_output": "그 서류는 이미 제출하셨지예.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "제출하셨지예.로 평서 문장부호와 높임 유지.",
+    "final_output": "그 서류는 이미 제출하셨지예.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "제출하셨지예.로 평서 문장부호와 높임 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "QUAL002",
+    "condition": "P",
+    "input": "그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요.",
+    "first_output": "그런데 대학 졸업하고 사회생활 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거라.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "거라로 명사 서술은 변환됐지만 청자 높임 소실.",
+    "final_output": "그런데 대학 졸업하고 사회생활 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거라.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "거라로 명사 서술은 변환됐지만 청자 높임 소실.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "QUAL002",
+    "condition": "A",
+    "input": "그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요.",
+    "first_output": "그런디 이제 대학을 졸업하고 사회생활을 하면서 내가 좀 늦게, 그런 배움의 눈을 뜨게 된 거라.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 1,
+      "dialect": 1
+    },
+    "first_note": "내가·거라로 겸양·높임 소실, 그런디의 목표 지역 적합성 불명확.",
+    "final_output": "그런디 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거라.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 1,
+      "dialect": 1
+    },
+    "final_note": "제가만 회복되고 거라가 남아 청자 높임은 여전히 사라짐. 그런디의 지역 적합성도 불분명. 자동 검사 통과가 정답을 뜻하지 않음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "QUAL002",
+    "condition": "K",
+    "input": "그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요.",
+    "first_output": "그런데 인자 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거라예.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "인자·거라예로 어휘와 종결 변환; 제가와 된 거 구조 유지.",
+    "final_output": "그런데 인자 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거라예.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "인자·거라예로 어휘와 종결 변환; 제가와 된 거 구조 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "QUAL003",
+    "condition": "P",
+    "input": "제가 좀 어떻게 보면 과를 잘못 선정해가지고 이십 대는 거의 시간을 날리면서 보낸 것 같아요.",
+    "first_output": "제가 좀 어떻게 보면 과를 잘못 고르다 보니까 이십 대는 거의 시간을 허비하면서 보낸 것 같애.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "같애로 높임 소실; 일부 자연스러운 바꿔쓰기는 있으나 방언 표지는 미약.",
+    "final_output": "제가 좀 어떻게 보면 과를 잘못 고르다 보니까 이십 대는 거의 시간을 허비하면서 보낸 것 같애.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "같애로 높임 소실; 일부 자연스러운 바꿔쓰기는 있으나 방언 표지는 미약.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "QUAL003",
+    "condition": "A",
+    "input": "제가 좀 어떻게 보면 과를 잘못 선정해가지고 이십 대는 거의 시간을 날리면서 보낸 것 같아요.",
+    "first_output": "나 좀 어떻게 보면 과를 잘못 고르다 보니까 이십 대는 거의 시간을 날리면서 보낸 것 같아.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "나·같아로 겸양·높임 소실.",
+    "final_output": "제가 좀 어떻게 보면 과를 잘못 고르다 보니까 이십 대는 거의 시간을 날리면서 보낸 것 같아요.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "제가·같아요로 겸양·높임 회복, 방언 변환은 미약.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "QUAL003",
+    "condition": "K",
+    "input": "제가 좀 어떻게 보면 과를 잘못 선정해가지고 이십 대는 거의 시간을 날리면서 보낸 것 같아요.",
+    "first_output": "제가 좀 어떻게 보면 과를 잘못 선정해가지고 이십 대는 거의 시간을 날리면서 보낸 것 같아예.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "제가·같아예로 원문 의미와 겸양·높임 유지.",
+    "final_output": "제가 좀 어떻게 보면 과를 잘못 선정해가지고 이십 대는 거의 시간을 날리면서 보낸 것 같아예.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "제가·같아예로 원문 의미와 겸양·높임 유지.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "QUAL005",
+    "condition": "P",
+    "input": "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어요.",
+    "first_output": "그때 나랑 같이 공부하던 애들이 대학교 졸업반 애들이었어.",
+    "first_scores": {
+      "meaning": 1,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "공부했던→공부하던으로 완료/회상 관점 변화, 나랑·었어로 높임 소실.",
+    "final_output": "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어요.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "원문 그대로 돌아옴. 공부했던·저랑·높임 회복, 방언 변환 없음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "QUAL005",
+    "condition": "A",
+    "input": "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어요.",
+    "first_output": "그때 나랑 같이 공부했던 애들이 대학교 졸업반 애들이었어.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "나랑·었어로 겸양·높임 소실.",
+    "final_output": "그때 나랑 같이 공부했던 애들이 대학교 졸업반 애들이었어.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "나랑·었어로 겸양·높임 소실.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "QUAL005",
+    "condition": "K",
+    "input": "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어요.",
+    "first_output": "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어예.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "저랑·공부했던·애들이었어예를 보존.",
+    "final_output": "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어예.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "저랑·공부했던·애들이었어예를 보존.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "QUAL017",
+    "condition": "P",
+    "input": "이번에 저는 마지막으로 도전하려고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.",
+    "first_output": "이번에 나마는 맨마지막으로 도전해볼라고 하노. 지난번에 일 년 하고 올해까지면 이 년째 되는데, 2년 해 보고 안 되면 나도 다른 일 해볼라고 하노.",
+    "first_scores": {
+      "meaning": 1,
+      "register": 0,
+      "fluency": 1,
+      "dialect": 1
+    },
+    "first_note": "나마는·하노의 결합이 어색하고 높임 소실; 해볼라고는 시도 의미를 덧붙임.",
+    "final_output": "이번에 저는 마지막으로 도전하려고 하거든요.\n제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데, 2년 해 보고 안 되면 저도 다른 일 하려고요.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "줄바꿈·쉼표 차이를 제외하면 원문으로 복귀. 의미·높임 회복, 방언 변환 없음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "QUAL017",
+    "condition": "A",
+    "input": "이번에 저는 마지막으로 도전하려고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.",
+    "first_output": "이번에 나마 마지막으루 도전해볼라고 하노. 내가 저번에 일 년 하고 올해까지 하면 이 년째 되는데, 2년 해 보고 안 되면 나도 다른 일 해볼라고 하노.",
+    "first_scores": {
+      "meaning": 1,
+      "register": 0,
+      "fluency": 1,
+      "dialect": 1
+    },
+    "first_note": "나마·마지막으루·하노로 구조·말투가 불안정하고 겸양·높임 소실.",
+    "final_output": "이번에 저는 마지막으로 도전하려고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "원문 그대로 돌아옴. 의미·겸양·높임 회복, 방언 변환 없음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "QUAL017",
+    "condition": "K",
+    "input": "이번에 저는 마지막으로 도전하려고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.",
+    "first_output": "이번에 저는 마지막으로 도전할라고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 할라고요.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "first_note": "할라고를 두 곳에 반영하고 저는·제가·저도를 유지. 하거든요 등은 남는 부분 변환.",
+    "final_output": "이번에 저는 마지막으로 도전할라고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 할라고요.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 1
+    },
+    "final_note": "할라고를 두 곳에 반영하고 저는·제가·저도를 유지. 하거든요 등은 남는 부분 변환.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "QUAL018",
+    "condition": "P",
+    "input": "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어요.",
+    "first_output": "처음엔 열심히 했다고 생각해서 합격할 줄 알았는데, 제가 시험 당일에 좀 아팠어유.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "아팠어유는 공손함을 유지하지만 목표 경상도 표현으로 보기 어려움.",
+    "final_output": "처음엔 열심히 했다고 생각해서 합격할 줄 알았는데, 제가 시험 당일에 좀 아팠어유.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "아팠어유는 공손함을 유지하지만 목표 경상도 표현으로 보기 어려움.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "QUAL018",
+    "condition": "A",
+    "input": "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어요.",
+    "first_output": "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "아팠어로 청자 높임 소실.",
+    "final_output": "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어요.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "원문 그대로 돌아옴. 과거·높임 회복, 방언 변환 없음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "QUAL018",
+    "condition": "K",
+    "input": "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어요.",
+    "first_output": "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어예.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "아팠어예로 과거·높임 유지. 긴 인용 구조는 원문 보존.",
+    "final_output": "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어예.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "아팠어예로 과거·높임 유지. 긴 인용 구조는 원문 보존.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "QUAL020",
+    "condition": "P",
+    "input": "자격증이 많으면 전문성은 높아지는 것 같은데 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어요.",
+    "first_output": "자격증이 많으면 전문성은 높아지는 것 같긴 한데, 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "들었어로 높임 소실; 같긴 한데로 약한 강조가 추가됨.",
+    "final_output": "자격증이 많으면 전문성은 높아지는 것 같은데 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었습니다.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "표준어 들었습니다로 높임 회복. 방언 변환 없음.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "QUAL020",
+    "condition": "A",
+    "input": "자격증이 많으면 전문성은 높아지는 것 같은데 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어요.",
+    "first_output": "자격증이 많으면 전문성은 높아지는 것 같은디 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 0,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "first_note": "같은디·들었어로 목표 지역 표현이 불명확하고 높임 소실.",
+    "final_output": "자격증이 많으면 전문성은 높아지는 것 같은디 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어요.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 0
+    },
+    "final_note": "청자 높임은 회복됐지만 같은디의 지역 적합성이 불분명하고 전체 방언 실현은 부족.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  },
+  {
+    "id": "QUAL020",
+    "condition": "K",
+    "input": "자격증이 많으면 전문성은 높아지는 것 같은데 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어요.",
+    "first_output": "자격증이 많으면 전문성은 높아지는 것 같은데 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어예.",
+    "first_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "first_note": "들었어예로 긴 문장의 원문 의미·과거·높임 보존.",
+    "final_output": "자격증이 많으면 전문성은 높아지는 것 같은데 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어예.",
+    "final_scores": {
+      "meaning": 2,
+      "register": 2,
+      "fluency": 2,
+      "dialect": 2
+    },
+    "final_note": "들었어예로 긴 문장의 원문 의미·과거·높임 보존.",
+    "reviewer": "Codex, non-blind qualitative review, not independent human validation"
+  }
+]

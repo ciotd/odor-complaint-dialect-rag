@@ -1,0 +1,812 @@
+[
+  {
+    "id": "ADVCE001A",
+    "input": "기차가 지금 정차하나요?",
+    "prior_output": "기차가 짐 정차하는교?",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "ADVCE001B",
+    "input": "기차가 어제 정차했나요?",
+    "prior_output": "기차가 어제 정차했는교?",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "ADVCE002A",
+    "input": "선생님께서 자료를 읽고 계세요.",
+    "prior_output": "선생님께서 자료를 읽고 계셔예.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "ADVCE002B",
+    "input": "선생님께서 자료를 읽고 계셨어요.",
+    "prior_output": "선생님께서 자료를 읽고 계셨어예.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "ADVCE003A",
+    "input": "이 문을 제가 닫을까요?",
+    "prior_output": "이 문을 제가 닫을까예?",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "ADVCE003B",
+    "input": "이 문이 저절로 닫힐까요?",
+    "prior_output": "이 문이 절로 닫힐까예?",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "ADVCE004A",
+    "input": "선생님은 매일 이 길로 걸으세요.",
+    "prior_output": "선생님은 매일 이 길로 걸으세요?",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "ADVCE004B",
+    "input": "선생님, 오늘은 이 길로 걸으세요.",
+    "prior_output": "선생님, 올은 이 길로 걸으이소.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "ADVCE005A",
+    "input": "그 사람은 제 동료예요.",
+    "prior_output": "그 사람은 제 동료라예.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "ADVCE005B",
+    "input": "그 사람은 제 동료를 도와요.",
+    "prior_output": "그 사람은 제 동료를 도와예.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "ADVCE006A",
+    "input": "저는 그 내용을 설명했어요.",
+    "prior_output": "저는 그 내용을 설명했어예.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "ADVCE006B",
+    "input": "나는 그 내용을 설명했어요.",
+    "prior_output": "나는 그 내용을 설명했어예.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "ADVCE007A",
+    "input": "저는 먼저 기다릴게요.",
+    "prior_output": "나는 먼저 기다릴께예.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "ADVCE007B",
+    "input": "저는 앞에서 기다릴게요.",
+    "prior_output": "나는 앞에서 기다릴께예.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "ADVCE008A",
+    "input": "제가 지금 읽는 책을 빌려드릴게요.",
+    "prior_output": "제가 지금 읽는 책을 빌려드리께예.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "ADVCE008B",
+    "input": "제가 전에 읽던 책을 빌려드릴게요.",
+    "prior_output": "제가 전에 읽던 책을 빌려드리께예.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "ADVCE009A",
+    "input": "그 식당 음식이 짜더라.",
+    "prior_output": "그 식당 음식이 짭더라.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "ADVCE009B",
+    "input": "그 식당 음식이 짜다고 들었어.",
+    "prior_output": "그 식당 음식이 짭다고 들었어.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "ADVCE010A",
+    "input": "그 서류는 이미 제출하셨죠?",
+    "prior_output": "그 서류는 이미 제출하셨지예?",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "ADVCE010B",
+    "input": "그 서류는 이미 제출하셨죠.",
+    "prior_output": "그 서류는 이미 제출하셨지예.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV001",
+    "input": "오늘은 날씨가 참 좋네요.",
+    "prior_output": "올은 날씨가 참 좋네예.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV002",
+    "input": "집에 가는 길에 빵을 샀어.",
+    "prior_output": "집에 가는 길에 빵을 샀다.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV003",
+    "input": "이 음식은 생각보다 맵네요.",
+    "prior_output": "이 음식은 생각보다 맵네예.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV004",
+    "input": "아까 문 앞에 있던 사람이 제 친구예요.",
+    "prior_output": "아까 문 앞에 있던 사람이 제 친구라예.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV005",
+    "input": "나는 커피보다 차가 더 좋아.",
+    "prior_output": "나는 커피보다 차가 더 좋다.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV006",
+    "input": "할머니께서 지금 방에서 쉬고 계세요.",
+    "prior_output": "할무이께서 짐 방에서 시고 계시예.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV007",
+    "input": "나는 아직 점심을 안 먹었어.",
+    "prior_output": "나는 아직 점심을 안 묵었다.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV008",
+    "input": "비가 너무 많이 와서 밖에 못 나가겠어요.",
+    "prior_output": "비가 이빠이 와서로 밖에 몬 나가겠어예.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV009",
+    "input": "그 사람이 싫은 건 아니야.",
+    "prior_output": "그 사람이 싫은 건 아니야.",
+    "selected": false,
+    "source_identical": true,
+    "reason": "원문 완전 동일 출력 제외",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV010",
+    "input": "오늘 안에 다 끝낼 수 있을 것 같아요.",
+    "prior_output": "올 안에 다 끝낼 수 있을 것 같아예.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV011",
+    "input": "버스가 벌써 출발했나요?",
+    "prior_output": "버스가 벌써 출발했는교?",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV012",
+    "input": "열쇠를 어디에 뒀어?",
+    "prior_output": "열쇠를 어디에 뒀노?",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV013",
+    "input": "내일 몇 시에 만나면 될까요?",
+    "prior_output": "낼 몇 시에 만나면 될까예?",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV014",
+    "input": "아까 왜 아무 말도 안 했어?",
+    "prior_output": "아까 왜 아무 말도 안 했노?",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV015",
+    "input": "이 우산은 누구 거예요?",
+    "prior_output": "이 우산은 누우 거인교?",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV016",
+    "input": "너는 지금 집에 가는 거야, 아니면 회사로 돌아가는 거야?",
+    "prior_output": "니는 지금 집에 가노, 아니면 회사로 돌아가노?",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV017",
+    "input": "문 좀 닫아 주세요.",
+    "prior_output": "문 좀 닫아 주이소.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV018",
+    "input": "이 상자 옮기는 것 좀 도와줄래?",
+    "prior_output": "이 상자 옮기는 거 좀 도와줄래?",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV019",
+    "input": "바닥이 미끄러우니까 천천히 걸으세요.",
+    "prior_output": "바닥이 미끄러우니까 천천히 걸으이소.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV020",
+    "input": "그 얘기는 다른 사람한테 하지 마.",
+    "prior_output": "그 얘기는 다른 사람한테 하지 마라.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV021",
+    "input": "잠깐만 기다려 주세요. 제가 확인해 볼게요.",
+    "prior_output": "잠깐만 기다려 주이소. 제가 확인해 보께예.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV022",
+    "input": "시간 괜찮으면 같이 점심 먹자.",
+    "prior_output": "시간 괜찮으면 같이 점심 묵제.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV023",
+    "input": "어제부터 목이 아팠는데 오늘은 좀 괜찮아요.",
+    "prior_output": "어제부터 목이 아팄는데 오늘은 좀 개찮아예.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV024",
+    "input": "내가 도착할 때까지 여기서 기다려.",
+    "prior_output": "내가 올 때까지 여게서 기다려라.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV025",
+    "input": "시간이 없으면 내일 해도 돼.",
+    "prior_output": "시간이 없으면 낼 해도 돼.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV026",
+    "input": "늦을까 봐 조금 일찍 나왔어요.",
+    "prior_output": "늦으까 봐 쪼매 일찍 나왔어예.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV027",
+    "input": "동생이 오늘은 늦게 온다고 했어.",
+    "prior_output": "동생이 올은 늦게 온다고 했어.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV028",
+    "input": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+    "prior_output": "아까 말한 건 이걸 버리라는 뜻이 아니었어예.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV029",
+    "input": "그 가게에 가 봤는데 음식이 괜찮더라.",
+    "prior_output": "그 가게에 가 봤는데 음식이 갠찮더라.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "DEV030",
+    "input": "피곤하면 먼저 자. 뒷정리는 내가 할게.",
+    "prior_output": "피곤하면 먼저 자라. 뒷정리는 내가 하께.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "LONG001",
+    "input": "너 지금 어디야? 아까 역 앞에서 만나자고 했는데 왜 아직 안 와? 나는 배가 고파서 먼저 밥을 먹고 있을게.",
+    "prior_output": "니 지금 어디고? 아까 역 앞에서 만나자꼬 했는데 왜 아직 안 오노? 나 배 고파서 먼저 밥 묵고 있으께.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "LONG002",
+    "input": "오늘 시장에서 사 온 사과 먹어 봤어? 보기에는 조금 작아도 생각보다 달고 맛있더라. 혼자 다 먹지 말고 동생 것도 좀 남겨 둬.",
+    "prior_output": "올 시장에서 사 온 사과 묵어 봤나? 보기에는 쪼매 작아도 생각보다 달고 맛있더라. 혼자 다 묵지 말고 동생 것도 좀 남겨 두라.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "LONG003",
+    "input": "사장님, 이 국은 뭐가 들어가서 이렇게 맛있어요? 제가 매운 음식은 잘 못 먹는데 이건 괜찮네요. 반찬도 조금만 더 주세요.",
+    "prior_output": "사장님, 이 국은 뭐가 들어가서 이렇게 맛있소? 제가 매운 음식은 잘 못 먹는데 이건 괜찮소. 반찬도 쪼매만 더 주이소.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "LONG004",
+    "input": "할머니, 밖에 비가 많이 오는데 우산은 챙기셨어요? 길이 미끄러우니까 혼자 나가지 마세요. 제가 집 앞까지 모셔다드릴게요.",
+    "prior_output": "할무이, 밖에 비가 이빠이 오는데 우산은 챙기셨는교? 길이 미끄러우니까 혼자 나가지 마이소. 제가 집 앞까지 모셔다드리께예.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "LONG005",
+    "input": "어제 민수가 오늘은 늦게 온다고 했어. 그래서 우리끼리 먼저 저녁을 먹으려고 하는데 너는 어떻게 할 거야? 기다릴 거면 나한테 미리 말해 줘.",
+    "prior_output": "어제 민수가 올은 늦게 온다꼬 캤어. 그래서 우리끼리 먼저 저녁 묵으려 하는데 너는 어떻게 할 거야? 기다릴 거면 나한테 미리 말해 줘라.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "LONG006",
+    "input": "집에 가는 길에 네가 좋아하는 빵을 샀어. 버스를 기다리다가 비가 와서 조금 젖었는데 빵은 괜찮아. 식탁 위에 뒀으니까 배고프면 먹어.",
+    "prior_output": "집에 가노 길에 니가 좋아하노 빵을 샀다. 버스를 기다리다가 비가 와서 쪼매 젖었으나 빵은 개않다. 식탁 위에 뒀으니까 배고프면 묵어라.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "LONG007",
+    "input": "아까부터 뭘 그렇게 찾고 있어? 열쇠는 네가 아침에 부엌 식탁 위에 놓았잖아. 거기에도 없으면 내가 같이 찾아 줄 테니까 가방부터 다시 봐.",
+    "prior_output": "아까부터 머를 그렇게 찾고 있노? 열쇠는 니가 아침에 정지 식탁 위에 놓았잖아. 거에도 없으면 내가 같이 찾아 줄 테니까 가방부터 다시 봐라.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "LONG008",
+    "input": "오늘 일이 많아서 많이 힘드셨죠? 급한 건 제가 마무리할 테니까 먼저 들어가서 쉬세요. 내일 아침에 오시면 어디까지 했는지 말씀드릴게요.",
+    "prior_output": "올 일이 마이 많아서 마이 힘드셨지예? 급한 건 제가 마무리할 테니까 앞에 들어가서 쉬이소. 낼 아침에 오시면 어디까지 했는지 말씀드릴께예.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "NEW001",
+    "input": "저기 창가에 앉아 있는 분이 제 선생님이에요.",
+    "prior_output": "저기 창가에 앉아 있는 분이 제 선생님이라예.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "NEW002",
+    "input": "저는 어제 도서관에서 책을 빌렸어요.",
+    "prior_output": "나는 어제 도서관에서 책을 빌렸어예.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "NEW003",
+    "input": "아버지께서는 아직 저녁을 안 드셨어요.",
+    "prior_output": "아버지께는 아직 저녁을 안 드셨어예.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "NEW004",
+    "input": "회의가 벌써 시작했나요?",
+    "prior_output": "회의가 벌써 시작했는교?",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "NEW005",
+    "input": "이 서류는 어디에 놓으면 될까요?",
+    "prior_output": "이 서류는 어디에 놓으면 될까예?",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "NEW006",
+    "input": "계단이 어두우니까 조심해서 내려오세요.",
+    "prior_output": "계단이 어두우니까 조심해서 내려오이소.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "NEW007",
+    "input": "내가 먼저 먹고 있을 테니까 천천히 와.",
+    "prior_output": "내가 먼저 묵고 있을 테니까 천천히 와.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "NEW008",
+    "input": "그건 네 잘못이 아니야.",
+    "prior_output": "그건 니 잘못이 아니야.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "NEW009",
+    "input": "동생이 좋아하는 과자를 가방에 넣었어.",
+    "prior_output": "동생이 좋아하는 과자를 가방에 옇었어.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "NEW010",
+    "input": "할아버지, 안경을 어디에 두셨어요? 제가 같이 찾아드릴게요.",
+    "prior_output": "할바시, 안경을 어디에 두셨는교? 제가 같이 찾아드리께예.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "NEW011",
+    "input": "오늘은 시간이 없어서 먼저 갈게요. 남은 일은 내일 제가 할게요.",
+    "prior_output": "올은 시간이 없어서 앞에 가께예. 남은 일은 낼 제가 하께예.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "NEW012",
+    "input": "그 물건을 버리라고 한 건 아니었어요. 잠깐 다른 곳에 옮겨 달라는 뜻이었어요.",
+    "prior_output": "그 물건을 버리라고 한 건 아니었어예. 잠깐 다른 곳에 옮겨 달라는 뜻이었어예.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "id": "QUAL001",
+    "input": "사실 저 같은 경우에는 학교 다닐 때는 자격증이나 그런 뭔가를 배운다는 거에 대해서 생각을 많이 하진 않았어요.",
+    "prior_output": "사실 저 같은 경우에는 학교 다닐 때는 자격증이나 그런 머나를 배운다는 거에 대해서 생각을 마이 하진 않았어예.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_user_qualification20"
+  },
+  {
+    "id": "QUAL002",
+    "input": "그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요.",
+    "prior_output": "그런데 인자 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거라예.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_user_qualification20"
+  },
+  {
+    "id": "QUAL003",
+    "input": "제가 좀 어떻게 보면 과를 잘못 선정해가지고 이십 대는 거의 시간을 날리면서 보낸 것 같아요.",
+    "prior_output": "제가 좀 어떻게 보면 과를 잘못 선정해가지고 이십 대는 거의 시간을 날리면서 보낸 것 같아예.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_user_qualification20"
+  },
+  {
+    "id": "QUAL004",
+    "input": "이게 마음이, 열정은 뜨거운데 머리가 좀 잘 안 따라주는 게 있더라고요.",
+    "prior_output": "이게 마음이, 열정은 뜨거운데 머리가 좀 잘 안 따라주는 게 있더라고요.",
+    "selected": false,
+    "source_identical": true,
+    "reason": "원문 완전 동일 출력 제외",
+    "source_folder": "reports/20261013_user_qualification20"
+  },
+  {
+    "id": "QUAL005",
+    "input": "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어요.",
+    "prior_output": "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어예.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_user_qualification20"
+  },
+  {
+    "id": "QUAL006",
+    "input": "저 같은 경우에는 감각이 없어서인지 모르겠는데 머리가 잘 안 돌아가고 되게 힘들더라고요.",
+    "prior_output": "나 같은 경우에는 감각이 없어서인지 모르겠는데 머리가 잘 안 돌아가고 되게 힘들더라고.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_user_qualification20"
+  },
+  {
+    "id": "QUAL007",
+    "input": "이걸 배우고 컴퓨터가 손에 익으면서 그때부터는 되게 보람 있고 더 배우고 싶다는 그런 마음도 강하게 들었고요.",
+    "prior_output": "이거 배우고 컴퓨터가 손에 익으면서 그때부터는 되게 보람 있고 더 배우고 싶다는 그런 마음도 강하게 들었고요.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_user_qualification20"
+  },
+  {
+    "id": "QUAL008",
+    "input": "사실 서른 살 때 자격증 공부를 했을 때는 그냥 뭔가 내가 갖고 있어야지 그런 욕심이 더 컸고요.",
+    "prior_output": "사실 서른 살 때 자격증 공부를 했을 때는 그냥 머 내가 갖고 있어야지 그런 욕심이 더 컸고요.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_user_qualification20"
+  },
+  {
+    "id": "QUAL009",
+    "input": "또 막상 그걸 배우고 나니까 그런 쪽으로 되게 전문적으로 일하고 싶은 그런 마음들이 크더라고요.",
+    "prior_output": "또 막상 그걸 배우고 나니까 그런 쪽으로 되게 전문적으로 일하고 싶은 그런 마음들이 크더라고.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_user_qualification20"
+  },
+  {
+    "id": "QUAL010",
+    "input": "그렇게 하면서 어쨌든 감사하게도 지금까지 그때 배웠던 거를 중간에 한 번 업그레이드하면서 지금도 그 일을 하고 있어서 되게 보람되고 정말 잘 선택했다는 생각이 들더라고요.",
+    "prior_output": "그렇게 하면서 어쨌든 감사하게도 짐까지 그때 배웠던 거를 중간에 한 번 업그레이드하면서 짐도 그 일을 하고 있어서로 되게 보람되고 참말 잘 선택했다는 생각이 들더라고.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_user_qualification20"
+  },
+  {
+    "id": "QUAL011",
+    "input": "아무래도 사회복지학과 나왔고, 또 배운 것도 있고, 또 엄마한테 보여야 할 것도 있으니까 자격증을 따게 됐거든요.",
+    "prior_output": "아무래도 사회복지학과 나왔고, 또 배운 것도 있고, 또 엄마한테 비여야 할 것도 있으니까 자격증을 따게 댔거든요.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_user_qualification20"
+  },
+  {
+    "id": "QUAL012",
+    "input": "그리고 졸업 하고 나서 취업 하려고 컴퓨터 활용 능력 자격증을 땄고요.",
+    "prior_output": "그리고 졸업 하고 나서 취업 하려고 컴퓨터 활용 능력 자격증을 땄고요.",
+    "selected": false,
+    "source_identical": true,
+    "reason": "원문 완전 동일 출력 제외",
+    "source_folder": "reports/20261013_user_qualification20"
+  },
+  {
+    "id": "QUAL013",
+    "input": "근데 요즘은 아무래도 취업이 어려우니까 점점 더 자격증을 많이 따게 되는 것 같아요.",
+    "prior_output": "근데 요즘은 아무래도 취업이 어려우니까 점점 더 자격증을 이빠이 따게 대는 것 같아예.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_user_qualification20"
+  },
+  {
+    "id": "QUAL014",
+    "input": "그리고 자격증의 범위도 생각보다 되게 많더라고요.",
+    "prior_output": "그리고 자격증 범위도 생각보다 되게 많더라고.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_user_qualification20"
+  },
+  {
+    "id": "QUAL015",
+    "input": "저는 그런 게 있는지 몰랐어요. 그냥 대충 한복 잘 만드시는 분이 이렇게 하는 줄 알았는데 그런 자격증이 있더라고요.",
+    "prior_output": "나는 그런 거 있는지 몰랐어예. 그냥 대충 한복 잘 만드시는 분이 이렇게 하는 줄 알았는데 그런 자격증이 있더예.",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_user_qualification20"
+  },
+  {
+    "id": "QUAL016",
+    "input": "자격증이라는 거는 있으면 나쁠 건 없고 우리나라가 보면 국비 같은 것도 잘 돼 있고요.",
+    "prior_output": "자격증이라는 거는 있으면 나쁠 건 없고 우리나라가 보면 국비 같은 것도 잘 돼 있고요.",
+    "selected": false,
+    "source_identical": true,
+    "reason": "원문 완전 동일 출력 제외",
+    "source_folder": "reports/20261013_user_qualification20"
+  },
+  {
+    "id": "QUAL017",
+    "input": "이번에 저는 마지막으로 도전하려고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.",
+    "prior_output": "이번에 저는 마지막으로 도전할라고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 할라고요.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_user_qualification20"
+  },
+  {
+    "id": "QUAL018",
+    "input": "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어요.",
+    "prior_output": "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어예.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_user_qualification20"
+  },
+  {
+    "id": "QUAL019",
+    "input": "이걸 땄다고 바로 취업이 되는 것도 아닌데 이렇게까지 열심히 해야 되나?",
+    "prior_output": "이거 땄다고 바로 취업이 되는 것도 아닌디, 이렇게까지 열심히 해야 되나?",
+    "selected": false,
+    "source_identical": false,
+    "reason": "높임/의미/구조 오류 또는 방언 실현 부족을 고려한 수동 제외",
+    "source_folder": "reports/20261013_user_qualification20"
+  },
+  {
+    "id": "QUAL020",
+    "input": "자격증이 많으면 전문성은 높아지는 것 같은데 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어요.",
+    "prior_output": "자격증이 많으면 전문성은 높아지는 것 같은데 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어예.",
+    "selected": true,
+    "source_identical": false,
+    "reason": "상대적으로 의미·높임·구조 보존과 방언 실현이 나은 사례 선정",
+    "source_folder": "reports/20261013_user_qualification20"
+  }
+]

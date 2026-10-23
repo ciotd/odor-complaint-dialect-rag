@@ -1,0 +1,5766 @@
+{
+  "items": [
+    {
+      "id": "DEV002",
+      "input": "집에 가는 길에 빵을 샀어.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "없음",
+      "clauses": [
+        {
+          "clause_id": "DEV002:c1",
+          "predicate_complex_id": "DEV002:c1:predicate",
+          "text": "집에 가는 길에 빵을 샀어.",
+          "span": [
+            0,
+            15
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "declarative",
+            "question_type": null,
+            "host_class": "predicate_other_than_anida",
+            "nominal_coda": null,
+            "host_form": "사다",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "meaning": null,
+            "speech_act": null,
+            "action_participants": null,
+            "intention_holder": null,
+            "beneficiary": null,
+            "subject_person": "first",
+            "clause_relation": null,
+            "response_orientation": null,
+            "following_predicate_role": null,
+            "construction_kind": null
+          },
+          "observed_politeness": "non_polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "종결어미 '-어'는 반말체(비격식체)로 분석된다. '가는'은 관형사형으로, 이 규격의 독립 종결 서술부 분석 대상이 아니므로 features에는 반영하지 않았다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ]
+    },
+    {
+      "id": "DEV003",
+      "input": "이 음식은 생각보다 맵네요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "없음",
+      "clauses": [
+        {
+          "clause_id": "DEV003:c1",
+          "predicate_complex_id": "DEV003:c1:predicate",
+          "text": "이 음식은 생각보다 맵네요.",
+          "span": [
+            0,
+            15
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "adjective",
+            "sentence_type": "declarative",
+            "question_type": null,
+            "host_class": "predicate_other_than_anida",
+            "nominal_coda": null,
+            "host_form": "맵다",
+            "stem_vowel": "ㅏ",
+            "stem_coda": "absent",
+            "meaning": null,
+            "speech_act": null,
+            "action_participants": null,
+            "intention_holder": null,
+            "beneficiary": null,
+            "subject_person": "third",
+            "clause_relation": null,
+            "response_orientation": null,
+            "following_predicate_role": null,
+            "construction_kind": null
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none"
+          },
+          "scope_note": "종결어미 '-네요'는 화자의 새로운 발견이나 깨달음을 나타내는 정중한 종결 표현임. 주어 '이 음식'은 3인칭.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ]
+    },
+    {
+      "id": "DEV004",
+      "input": "아까 문 앞에 있던 사람이 제 친구예요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "관형절 '문 앞에 있던'은 종결 서술부가 아니므로 규격상 별도 클로즈로 분리하지 않고 주절의 수식 성분으로 처리함.",
+      "clauses": [
+        {
+          "clause_id": "DEV004:c1",
+          "predicate_complex_id": "DEV004:c1:predicate",
+          "text": "아까 문 앞에 있던 사람이 제 친구예요.",
+          "span": [
+            0,
+            22
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "copula",
+            "host_class": "nominal_copula",
+            "host_form": "이다",
+            "sentence_type": "declarative",
+            "speech_act": null,
+            "subject_person": "third",
+            "nominal_coda": "absent",
+            "stem_vowel": "a",
+            "stem_coda": "absent"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {},
+          "scope_note": "종결어미 '-요'는 반말이 아닌 존댓말(합쇼체/해요체 경계)로 분석. '친구'의 받침이 없으므로 '예요'로 실현.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ]
+    },
+    {
+      "id": "DEV005",
+      "input": "나는 커피보다 차가 더 좋아.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "비교 부사구 '커피보다'는 현재 규격의 분석 대상이 아님.",
+      "clauses": [
+        {
+          "clause_id": "DEV005:c1",
+          "predicate_complex_id": "DEV005:c1:predicate",
+          "text": "나는 커피보다 차가 더 좋아.",
+          "span": [
+            0,
+            16
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "adjective",
+            "sentence_type": "declarative",
+            "question_type": null,
+            "host_class": "predicate_other_than_anida",
+            "nominal_coda": null,
+            "host_form": "좋다",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "meaning": null,
+            "speech_act": null,
+            "action_participants": null,
+            "intention_holder": null,
+            "beneficiary": null,
+            "subject_person": "first",
+            "clause_relation": null,
+            "response_orientation": null,
+            "following_predicate_role": null,
+            "construction_kind": null
+          },
+          "observed_politeness": "non_polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none"
+          },
+          "scope_note": "선어말어미가 없는 현재형 평서문. '더'는 비교 부사.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ]
+    },
+    {
+      "id": "DEV007",
+      "input": "나는 아직 점심을 안 먹었어.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "없음",
+      "clauses": [
+        {
+          "clause_id": "DEV007:c1",
+          "predicate_complex_id": "DEV007:c1:predicate",
+          "text": "나는 아직 점심을 안 먹었어.",
+          "span": [
+            0,
+            16
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "declarative",
+            "question_type": null,
+            "host_class": "predicate_other_than_anida",
+            "nominal_coda": null,
+            "host_form": "먹다",
+            "stem_vowel": "e",
+            "stem_coda": "absent",
+            "meaning": null,
+            "speech_act": null,
+            "action_participants": null,
+            "intention_holder": null,
+            "beneficiary": null,
+            "subject_person": "first",
+            "clause_relation": null,
+            "response_orientation": null,
+            "following_predicate_role": null,
+            "construction_kind": null
+          },
+          "observed_politeness": "non_polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "선어말어미 -았-은 -었-으로 정규화함. 종결어미 -어는 반말체(비격식체)로 분석함.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ]
+    },
+    {
+      "id": "DEV011",
+      "input": "버스가 벌써 출발했나요?",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "없음",
+      "clauses": [
+        {
+          "clause_id": "DEV011:c1",
+          "predicate_complex_id": "DEV011:c1:predicate",
+          "text": "버스가 벌써 출발했나요?",
+          "span": [
+            0,
+            13
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "interrogative",
+            "question_type": "polar",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "출발하다",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "speech_act": null,
+            "subject_person": "third",
+            "response_orientation": "addressee"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "선어말어미 -았-은 -었-으로 정규화함. 종결어미 -나요는 청자 높임 표현임.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ]
+    },
+    {
+      "id": "DEV012",
+      "input": "열쇠를 어디에 뒀어?",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "명사구 '열쇠를'과 부사구 '어디에'는 규격의 분석 대상이 아니므로 생략한다.",
+      "clauses": [
+        {
+          "clause_id": "DEV012:c1",
+          "predicate_complex_id": "DEV012:c1:predicate",
+          "text": "열쇠를 어디에 뒀어?",
+          "span": [
+            0,
+            11
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "interrogative",
+            "question_type": "content",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "두다",
+            "stem_vowel": "u",
+            "stem_coda": "absent",
+            "speech_act": null,
+            "subject_person": "second",
+            "response_orientation": "addressee"
+          },
+          "observed_politeness": "non_polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "주어는 생략되었으나 문맥상 청자를 가리킨다. 종결어미 '-어'는 반말체이다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ]
+    },
+    {
+      "id": "DEV013",
+      "input": "내일 몇 시에 만나면 될까요?",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "없음",
+      "clauses": [
+        {
+          "clause_id": "DEV013:c1",
+          "predicate_complex_id": "DEV013:c1:predicate",
+          "text": "내일 몇 시에 만나면 될까요?",
+          "span": [
+            0,
+            16
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "interrogative",
+            "question_type": "content",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "되다",
+            "stem_vowel": "ㅗ",
+            "stem_coda": "absent",
+            "speech_act": "request",
+            "subject_person": null,
+            "response_orientation": "addressee"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "modal",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "주어는 생략되어 인칭을 특정할 수 없으므로 null로 처리한다. '만나면'은 조건 연결어미 -면이 결합한 형태이며 선어말어미가 없다. '될까요'는 -ㄹ까-가 결합한 형태로 선어말어미가 없다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ]
+    },
+    {
+      "id": "DEV014",
+      "input": "아까 왜 아무 말도 안 했어?",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "없음",
+      "clauses": [
+        {
+          "clause_id": "DEV014:c1",
+          "predicate_complex_id": "DEV014:c1:predicate",
+          "text": "아까 왜 아무 말도 안 했어?",
+          "span": [
+            0,
+            16
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "interrogative",
+            "question_type": "content",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "하다",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "speech_act": null,
+            "subject_person": "second",
+            "response_orientation": "addressee"
+          },
+          "observed_politeness": "non_polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "주어 '너'는 생략되었으나 문맥상 청자를 가리킴. '아무 말도'는 목적어, '아까'는 시간 부사, '왜'는 원인 의문사.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ]
+    },
+    {
+      "id": "DEV017",
+      "input": "문 좀 닫아 주세요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "없음",
+      "clauses": [
+        {
+          "clause_id": "DEV017:c1",
+          "predicate_complex_id": "DEV017:c1:predicate",
+          "text": "문 좀 닫아 주세요.",
+          "span": [
+            0,
+            11
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "imperative",
+            "question_type": null,
+            "host_class": "predicate_other_than_anida",
+            "nominal_coda": null,
+            "host_form": "닫다",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "meaning": null,
+            "speech_act": "request",
+            "action_participants": "addressee_only",
+            "intention_holder": "speaker",
+            "beneficiary": null,
+            "subject_person": "second",
+            "clause_relation": null,
+            "response_orientation": null,
+            "following_predicate_role": null,
+            "construction_kind": null
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "modal",
+          "preserved_candidate_features": {},
+          "scope_note": "종결어미 '-아 주세요'는 청자 높임 표현임. '좀'은 완곡한 요청의 부사적 기능.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ]
+    },
+    {
+      "id": "DEV019",
+      "input": "바닥이 미끄러우니까 천천히 걸으세요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "명사구 '바닥이'와 형용사 '미끄러우'의 세부 형태론적 분석은 종결 서술부 분석 규격에 따라 생략되었습니다.",
+      "clauses": [
+        {
+          "clause_id": "DEV019:c1",
+          "predicate_complex_id": "DEV019:c1:predicate",
+          "text": "바닥이 미끄러우니까",
+          "span": [
+            0,
+            10
+          ],
+          "role": "connective",
+          "features": {
+            "host_pos": "adjective",
+            "sentence_type": "declarative",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "미끄러우",
+            "stem_vowel": "u",
+            "stem_coda": "absent",
+            "clause_relation": "cause",
+            "subject_person": "third"
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none"
+          },
+          "scope_note": "원인 연결어미 -니까가 결합한 절입니다. 연결절 자체에는 청자 높임이 드러나지 않아 unknown으로 처리했습니다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "DEV019:c2",
+          "predicate_complex_id": "DEV019:c2:predicate",
+          "text": "바닥이 미끄러우니까 천천히 걸으세요.",
+          "span": [
+            0,
+            20
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "imperative",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "걸으",
+            "stem_vowel": "u",
+            "stem_coda": "absent",
+            "speech_act": "request",
+            "action_participants": "addressee_only",
+            "subject_person": "second"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "종결 어미 -세요는 청자 높임(존칭) 명령형입니다. 주체 높임(-시-)은 관찰되지 않았습니다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ]
+    },
+    {
+      "id": "DEV020",
+      "input": "그 얘기는 다른 사람한테 하지 마.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "없음",
+      "clauses": [
+        {
+          "clause_id": "DEV020:c1",
+          "predicate_complex_id": "DEV020:c1:predicate",
+          "text": "그 얘기는 다른 사람한테 하지 마.",
+          "span": [
+            0,
+            19
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "imperative",
+            "question_type": null,
+            "host_class": "predicate_other_than_anida",
+            "nominal_coda": null,
+            "host_form": "하다",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "meaning": "금지",
+            "speech_act": "request",
+            "action_participants": "addressee_only",
+            "intention_holder": "speaker",
+            "beneficiary": null,
+            "subject_person": "second",
+            "clause_relation": null,
+            "response_orientation": null,
+            "following_predicate_role": null,
+            "construction_kind": null
+          },
+          "observed_politeness": "non_polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "modal",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "선어말어미가 없는 평서형 명령문(하지 마)으로 분석됨.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ]
+    },
+    {
+      "id": "DEV021",
+      "input": "잠깐만 기다려 주세요. 제가 확인해 볼게요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "원문에 인용절이나 관형절 등 규격 외 구조는 없다.",
+      "clauses": [
+        {
+          "clause_id": "DEV021:c1",
+          "predicate_complex_id": "DEV021:c1:predicate",
+          "text": "잠깐만 기다려 주세요.",
+          "span": [
+            0,
+            12
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "imperative",
+            "question_type": null,
+            "host_class": "predicate_other_than_anida",
+            "nominal_coda": null,
+            "host_form": "기다리다",
+            "stem_vowel": "이",
+            "stem_coda": "absent",
+            "meaning": null,
+            "speech_act": "request",
+            "action_participants": "addressee_only",
+            "intention_holder": null,
+            "beneficiary": null,
+            "subject_person": "second",
+            "clause_relation": null,
+            "response_orientation": null,
+            "following_predicate_role": null,
+            "construction_kind": null
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "modal",
+          "preserved_candidate_features": {},
+          "scope_note": "기다려 주세요는 청자를 대상으로 한 요청이다. 선어말어미는 관찰되지 않는다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "DEV021:c2",
+          "predicate_complex_id": "DEV021:c2:predicate",
+          "text": "제가 확인해 볼게요.",
+          "span": [
+            13,
+            24
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "declarative",
+            "question_type": null,
+            "host_class": "predicate_other_than_anida",
+            "nominal_coda": null,
+            "host_form": "확인하다",
+            "stem_vowel": "아",
+            "stem_coda": "absent",
+            "meaning": null,
+            "speech_act": "state_intention",
+            "action_participants": null,
+            "intention_holder": "speaker",
+            "beneficiary": null,
+            "subject_person": "first",
+            "clause_relation": null,
+            "response_orientation": null,
+            "following_predicate_role": "auxiliary",
+            "construction_kind": null
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "modal",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "확인해 보다에서 확인하다가 본용언, 보다가 보조용언으로 기능하며 화자의 의도를 나타낸다. 선어말어미는 관찰되지 않는다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ]
+    },
+    {
+      "id": "DEV022",
+      "input": "시간 괜찮으면 같이 점심 먹자.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "없음",
+      "clauses": [
+        {
+          "clause_id": "DEV022:c1",
+          "predicate_complex_id": "DEV022:c1:predicate",
+          "text": "시간 괜찮으면",
+          "span": [
+            0,
+            7
+          ],
+          "role": "connective",
+          "features": {
+            "host_pos": "adjective",
+            "sentence_type": "declarative",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "괜찮다",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "clause_relation": "condition",
+            "subject_person": "second"
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none"
+          },
+          "scope_note": "조건절. '괜찮으면'은 형용사 '괜찮다'의 조건 연결어미 '-(으)면' 결합형이다. 청자 높임은 연결절 자체에서 드러나지 않아 unknown으로 처리.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "DEV022:c2",
+          "predicate_complex_id": "DEV022:c2:predicate",
+          "text": "시간 괜찮으면 같이 점심 먹자.",
+          "span": [
+            0,
+            17
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "hortative",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "먹다",
+            "stem_vowel": "e",
+            "stem_coda": "absent",
+            "speech_act": "request",
+            "action_participants": "speaker_and_addressee",
+            "intention_holder": "speaker",
+            "subject_person": "first"
+          },
+          "observed_politeness": "non_polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "modal",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "종결 서술부 '먹자'는 비격식체 종결어미 '-자'로 화자의 제안/요청을 나타낸다. '같이'는 화자와 청자가 함께 행함을 의미한다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ]
+    },
+    {
+      "id": "DEV026",
+      "input": "늦을까 봐 조금 일찍 나왔어요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "없음",
+      "clauses": [
+        {
+          "clause_id": "DEV026:c1",
+          "predicate_complex_id": "DEV026:c1:predicate",
+          "text": "늦을까 봐",
+          "span": [
+            0,
+            5
+          ],
+          "role": "connective",
+          "features": {
+            "host_pos": "adjective",
+            "host_form": "늦다",
+            "stem_vowel": "ㅜ",
+            "stem_coda": "absent",
+            "clause_relation": "cause",
+            "subject_person": null
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "modal",
+          "preserved_candidate_features": {},
+          "scope_note": "연결어미 -ㄹ까 봐는 미래 가능성에 대한 우려를 나타내며, 선어말어미 -겠-이 결합된 형태이다. 연결절 자체에는 청자 높임이 드러나지 않아 unknown으로 처리한다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "DEV026:c2",
+          "predicate_complex_id": "DEV026:c2:predicate",
+          "text": "조금 일찍 나왔어요.",
+          "span": [
+            6,
+            17
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_form": "나오다",
+            "stem_vowel": "ㅗ",
+            "stem_coda": "absent",
+            "sentence_type": "declarative",
+            "speech_act": null,
+            "subject_person": "first"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "종결어미 -아요는 반말(비격식체)로 분석된다. 선어말어미 -았-은 -었-으로 정규화하여 기록한다. 주어는 생략되었으나 화자(1인칭)로 추정된다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ]
+    },
+    {
+      "id": "DEV028",
+      "input": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "없음",
+      "clauses": [
+        {
+          "clause_id": "DEV028:c1",
+          "predicate_complex_id": "DEV028:c1:predicate",
+          "text": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+          "span": [
+            0,
+            25
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "copula",
+            "host_class": "negative_copula",
+            "host_form": "아니다",
+            "sentence_type": "declarative",
+            "speech_act": null,
+            "subject_person": "third",
+            "stem_coda": "absent",
+            "stem_vowel": "a"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "주어 '아까 말한 건'은 3인칭 명사구. 서술부 '아니었어요'는 부정 계사 '아니다'의 과거 종결형. 선어말어미 -었- 확인.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ]
+    },
+    {
+      "id": "DEV029",
+      "input": "그 가게에 가 봤는데 음식이 괜찮더라.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "없음",
+      "clauses": [
+        {
+          "clause_id": "DEV029:c1",
+          "predicate_complex_id": "DEV029:c1:predicate",
+          "text": "그 가게에 가 봤는데",
+          "span": [
+            0,
+            11
+          ],
+          "role": "connective",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "declarative",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "가다",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "subject_person": "first",
+            "clause_relation": "cause"
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "보조용언 '보다'가 결합된 구성으로, '가다'의 어간 분석을 중심으로 함. '봤는데'는 경험의 완결을 나타냄.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "DEV029:c2",
+          "predicate_complex_id": "DEV029:c2:predicate",
+          "text": "음식이 괜찮더라",
+          "span": [
+            12,
+            20
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "adjective",
+            "sentence_type": "declarative",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "괜찮다",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "subject_person": "third"
+          },
+          "observed_politeness": "non_polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "retrospective",
+          "preserved_candidate_features": {},
+          "scope_note": "종결어미 '-더라'는 화자가 직접 경험하거나 들은 내용을 전달하는 회상/전달 뉘앙스를 가짐. 비격식체(반말)로 판단.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ]
+    },
+    {
+      "id": "DEV030",
+      "input": "피곤하면 먼저 자. 뒷정리는 내가 할게.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "관형절 '뒷정리는'은 주어 성분으로 분석 범위에 포함되지 않는다.",
+      "clauses": [
+        {
+          "clause_id": "DEV030:c1",
+          "predicate_complex_id": "DEV030:c1:predicate",
+          "text": "피곤하면 먼저 자.",
+          "span": [
+            0,
+            10
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "imperative",
+            "question_type": null,
+            "host_class": "predicate_other_than_anida",
+            "nominal_coda": null,
+            "host_form": "자",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "meaning": null,
+            "speech_act": "request",
+            "action_participants": "addressee_only",
+            "intention_holder": null,
+            "beneficiary": null,
+            "subject_person": "second",
+            "clause_relation": null,
+            "response_orientation": null,
+            "following_predicate_role": null,
+            "construction_kind": null
+          },
+          "observed_politeness": "non_polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "종결 어미 '-아/어'의 반말형으로 청자 높임이 없다. 주어는 생략되었으나 명령 대상인 청자(2인칭)로 해석된다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "DEV030:c2",
+          "predicate_complex_id": "DEV030:c2:predicate",
+          "text": "뒷정리는 내가 할게.",
+          "span": [
+            11,
+            22
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "declarative",
+            "question_type": null,
+            "host_class": "predicate_other_than_anida",
+            "nominal_coda": null,
+            "host_form": "할게",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "meaning": null,
+            "speech_act": "state_intention",
+            "action_participants": null,
+            "intention_holder": "speaker",
+            "beneficiary": null,
+            "subject_person": "first",
+            "clause_relation": null,
+            "response_orientation": null,
+            "following_predicate_role": null,
+            "construction_kind": null
+          },
+          "observed_politeness": "non_polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "modal",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "'-ㄹ게'는 화자의 의도나 약속을 나타내는 종결 어미로, 선어말 '-겠-'의 기능과 유사하나 형태론적으로 독립된 종결 어미로 분석된다. 주어가 '내가'로 명시되어 1인칭이다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ]
+    },
+    {
+      "id": "LONG001",
+      "input": "너 지금 어디야? 아까 역 앞에서 만나자고 했는데 왜 아직 안 와? 나는 배가 고파서 먼저 밥을 먹고 있을게.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "없음",
+      "clauses": [
+        {
+          "clause_id": "LONG001:c1",
+          "predicate_complex_id": "LONG001:c1:predicate",
+          "text": "너 지금 어디야?",
+          "span": [
+            0,
+            9
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "adjective",
+            "sentence_type": "interrogative",
+            "question_type": "content",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "어디",
+            "stem_vowel": "i",
+            "stem_coda": "absent",
+            "speech_act": null,
+            "subject_person": "second",
+            "response_orientation": "addressee"
+          },
+          "observed_politeness": "non_polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {},
+          "scope_note": "현재 위치를 묻는 내용 질문. 비격식체.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "LONG001:c2",
+          "predicate_complex_id": "LONG001:c2:predicate",
+          "text": "아까 역 앞에서 만나자고 했는데",
+          "span": [
+            10,
+            27
+          ],
+          "role": "connective",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "declarative",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "하다",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "clause_relation": "cause",
+            "construction_kind": "quotative_rago_hada",
+            "quotation_type": "suggestion"
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "과거에 제안했다는 내용을 후행절의 원인/전제로 연결. 인용된 내용은 '만나자'로 제안.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "LONG001:c3",
+          "predicate_complex_id": "LONG001:c3:predicate",
+          "text": "왜 아직 안 와?",
+          "span": [
+            28,
+            37
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "interrogative",
+            "question_type": "content",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "오다",
+            "stem_vowel": "o",
+            "stem_coda": "absent",
+            "speech_act": null,
+            "subject_person": "second",
+            "response_orientation": "addressee"
+          },
+          "observed_politeness": "non_polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "도착하지 않은 상태에 대한 이유 질문. 부정 부사 '안' 포함.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "LONG001:c4",
+          "predicate_complex_id": "LONG001:c4:predicate",
+          "text": "나는 배가 고파서",
+          "span": [
+            38,
+            47
+          ],
+          "role": "connective",
+          "features": {
+            "host_pos": "adjective",
+            "sentence_type": "declarative",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "고프다",
+            "stem_vowel": "o",
+            "stem_coda": "absent",
+            "clause_relation": "cause",
+            "subject_person": "first"
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none"
+          },
+          "scope_note": "배가 고프다는 원인을 후행 행동에 연결.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "LONG001:c5",
+          "predicate_complex_id": "LONG001:c5:predicate",
+          "text": "먼저 밥을 먹고 있을게.",
+          "span": [
+            48,
+            61
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "declarative",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "있다",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "speech_act": "state_intention",
+            "intention_holder": "speaker",
+            "subject_person": "first"
+          },
+          "observed_politeness": "non_polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "modal",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "화자의 의도 표현. '먹고'는 동시/순차적 보조적 행동으로 해석되며, 핵심 서술부는 '있을게'.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "LONG001:u1",
+          "text": "너 지금 어디야?",
+          "span": [
+            0,
+            9
+          ],
+          "kind": "interrogative_sentence",
+          "parent_index": null,
+          "meaning": "상대의 현재 위치를 묻는 문장",
+          "form_queries": [
+            "어디야",
+            "현재 위치 질문"
+          ],
+          "semantic_queries": [
+            "상대 위치 확인",
+            "비격식체 질문"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "LONG001:u2",
+          "text": "아까 역 앞에서 만나자고 했는데",
+          "span": [
+            10,
+            27
+          ],
+          "kind": "connective_clause_with_quotation",
+          "parent_index": null,
+          "meaning": "과거에 역 앞에서 만나자는 제안을 했다는 전제",
+          "form_queries": [
+            "만나자고 했는데",
+            "과거 제안 인용"
+          ],
+          "semantic_queries": [
+            "과거 약속 언급",
+            "인용된 제안"
+          ],
+          "features": {
+            "clause_relation": "cause",
+            "quotation_type": "suggestion"
+          }
+        },
+        {
+          "unit_id": "LONG001:u3",
+          "text": "만나자",
+          "span": [
+            19,
+            22
+          ],
+          "kind": "quoted_suggestion",
+          "parent_index": 1,
+          "meaning": "함께 만나자는 제안",
+          "form_queries": [
+            "만나자"
+          ],
+          "semantic_queries": [
+            "만남 제안"
+          ],
+          "features": {
+            "quotation_type": "suggestion"
+          }
+        },
+        {
+          "unit_id": "LONG001:u4",
+          "text": "왜 아직 안 와?",
+          "span": [
+            28,
+            37
+          ],
+          "kind": "interrogative_sentence",
+          "parent_index": null,
+          "meaning": "상대가 아직 도착하지 않은 이유를 묻는 문장",
+          "form_queries": [
+            "왜 안 와",
+            "지연 이유 질문"
+          ],
+          "semantic_queries": [
+            "도착 지연 확인",
+            "불만 섞인 질문"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "LONG001:u5",
+          "text": "나는 배가 고파서",
+          "span": [
+            38,
+            47
+          ],
+          "kind": "connective_clause",
+          "parent_index": null,
+          "meaning": "배가 고프다는 원인 설명",
+          "form_queries": [
+            "배가 고파서",
+            "배고픔 원인"
+          ],
+          "semantic_queries": [
+            "식욕 표현",
+            "행동 원인"
+          ],
+          "features": {
+            "clause_relation": "cause"
+          }
+        },
+        {
+          "unit_id": "LONG001:u6",
+          "text": "먼저 밥을 먹고 있을게.",
+          "span": [
+            48,
+            61
+          ],
+          "kind": "declarative_sentence_with_intention",
+          "parent_index": null,
+          "meaning": "화자가 먼저 밥을 먹고 대기할 의도",
+          "form_queries": [
+            "밥을 먹고 있을게",
+            "식사 후 대기 의도"
+          ],
+          "semantic_queries": [
+            "화자 행동 계획",
+            "식사 및 대기"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "LONG002",
+      "input": "오늘 시장에서 사 온 사과 먹어 봤어? 보기에는 조금 작아도 생각보다 달고 맛있더라. 혼자 다 먹지 말고 동생 것도 좀 남겨 둬.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "사과, 시장, 동생 등 명사구의 세부 의미 분석은 생략하고, 문장 구조와 종결 표현에 초점을 맞췄다.",
+      "clauses": [
+        {
+          "clause_id": "LONG002:c1",
+          "predicate_complex_id": "LONG002:c1:predicate",
+          "text": "오늘 시장에서 사 온 사과 먹어 봤어?",
+          "span": [
+            0,
+            21
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "먹다",
+            "sentence_type": "interrogative",
+            "question_type": "polar",
+            "speech_act": "ask_intention",
+            "subject_person": "second",
+            "meaning": "청자가 사 온 사과를 먹어 보았는지 묻는 확인 질문"
+          },
+          "observed_politeness": "non_polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "종결 어미 '-어?'는 반말 평서/의문형으로 분석된다. '사 온'은 관형절로 분석되어 main의 features에는 포함되지 않는다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "LONG002:c2",
+          "predicate_complex_id": "LONG002:c2:predicate",
+          "text": "보기에는 조금 작아도 생각보다 달고 맛있더라.",
+          "span": [
+            22,
+            47
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "adjective",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "맛있다",
+            "sentence_type": "declarative",
+            "speech_act": "state_intention",
+            "subject_person": "third",
+            "meaning": "사과의 맛이 생각보다 달고 좋았다는 화자의 경험 보고"
+          },
+          "observed_politeness": "non_polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {},
+          "scope_note": "'-더라'는 과거 경험의 보고를 나타내는 종결 어미로, 과거 시제와 결합한다. '작아도'는 양보 연결절이다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "LONG002:c3",
+          "predicate_complex_id": "LONG002:c3:predicate",
+          "text": "혼자 다 먹지 말고 동생 것도 좀 남겨 둬.",
+          "span": [
+            48,
+            72
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "남기다",
+            "sentence_type": "imperative",
+            "speech_act": "request",
+            "action_participants": "addressee_only",
+            "subject_person": "second",
+            "meaning": "청자가 혼자 다 먹지 말고 동생 몫을 남겨 두라는 요청"
+          },
+          "observed_politeness": "non_polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "modal",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "'-고'는 부정 명령 연결어미, '-줘'는 요청을 나타내는 종결 어미이다. '남겨'는 보조용언 '두다'와 결합한 보조동사 구성이다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "LONG002:u1",
+          "text": "오늘 시장에서 사 온 사과 먹어 봤어?",
+          "span": [
+            0,
+            21
+          ],
+          "kind": "interrogative_sentence",
+          "parent_index": null,
+          "meaning": "사과를 먹어 보았는지 묻는 문장",
+          "form_queries": [
+            "먹어 봤어",
+            "사 온"
+          ],
+          "semantic_queries": [
+            "과거 경험 확인 질문",
+            "반말 의문문"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "LONG002:u2",
+          "text": "사 온",
+          "span": [
+            8,
+            11
+          ],
+          "kind": "relative_clause",
+          "parent_index": 0,
+          "meaning": "시장에서 사 온 것을 수식하는 관형절",
+          "form_queries": [
+            "사 온"
+          ],
+          "semantic_queries": [
+            "과거 관형형",
+            "수식절"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "LONG002:u3",
+          "text": "먹어 봤어",
+          "span": [
+            15,
+            20
+          ],
+          "kind": "predicate_phrase",
+          "parent_index": 0,
+          "meaning": "먹어 본 경험에 대한 질문",
+          "form_queries": [
+            "먹어 보다",
+            "-었-"
+          ],
+          "semantic_queries": [
+            "경험 보조동사",
+            "과거 시제"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "LONG002:u4",
+          "text": "보기에는 조금 작아도 생각보다 달고 맛있더라.",
+          "span": [
+            22,
+            47
+          ],
+          "kind": "declarative_sentence",
+          "parent_index": null,
+          "meaning": "사과의 맛에 대한 평가와 보고",
+          "form_queries": [
+            "맛있더라",
+            "작아도"
+          ],
+          "semantic_queries": [
+            "과거 경험 보고",
+            "양보 연결"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "LONG002:u5",
+          "text": "작아도",
+          "span": [
+            30,
+            33
+          ],
+          "kind": "connective_clause",
+          "parent_index": 3,
+          "meaning": "작다는 점을 양보하는 연결절",
+          "form_queries": [
+            "작다",
+            "-아도"
+          ],
+          "semantic_queries": [
+            "양보 연결어미",
+            "형용사 연결형"
+          ],
+          "features": {
+            "clause_relation": "concession"
+          }
+        },
+        {
+          "unit_id": "LONG002:u6",
+          "text": "달고",
+          "span": [
+            39,
+            41
+          ],
+          "kind": "connective_clause",
+          "parent_index": 3,
+          "meaning": "달다는 점을 나열하는 연결절",
+          "form_queries": [
+            "달다",
+            "-고"
+          ],
+          "semantic_queries": [
+            "나열 연결어미",
+            "형용사 연결형"
+          ],
+          "features": {
+            "clause_relation": "addition"
+          }
+        },
+        {
+          "unit_id": "LONG002:u7",
+          "text": "맛있더라",
+          "span": [
+            42,
+            46
+          ],
+          "kind": "predicate_phrase",
+          "parent_index": 3,
+          "meaning": "맛있었다는 경험 보고",
+          "form_queries": [
+            "맛있다",
+            "-더라"
+          ],
+          "semantic_queries": [
+            "과거 경험 보고 종결어미",
+            "형용사 종결형"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "LONG002:u8",
+          "text": "혼자 다 먹지 말고 동생 것도 좀 남겨 둬.",
+          "span": [
+            48,
+            72
+          ],
+          "kind": "imperative_sentence",
+          "parent_index": null,
+          "meaning": "남겨 두라는 요청 문장",
+          "form_queries": [
+            "남겨 둬",
+            "먹지 말고"
+          ],
+          "semantic_queries": [
+            "부정 명령",
+            "요청 종결어미"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "LONG002:u9",
+          "text": "먹지 말고",
+          "span": [
+            53,
+            58
+          ],
+          "kind": "connective_clause",
+          "parent_index": 7,
+          "meaning": "먹지 말라는 부정 명령 연결절",
+          "form_queries": [
+            "먹다",
+            "-지 말고"
+          ],
+          "semantic_queries": [
+            "부정 명령 연결어미",
+            "동사 부정형"
+          ],
+          "features": {
+            "clause_relation": "contrast"
+          }
+        },
+        {
+          "unit_id": "LONG002:u10",
+          "text": "남겨 둬",
+          "span": [
+            67,
+            71
+          ],
+          "kind": "predicate_phrase",
+          "parent_index": 7,
+          "meaning": "남겨 두라는 요청",
+          "form_queries": [
+            "남기다",
+            "두다",
+            "-줘"
+          ],
+          "semantic_queries": [
+            "보조동사 구성",
+            "요청 종결어미"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "LONG003",
+      "input": "사장님, 이 국은 뭐가 들어가서 이렇게 맛있어요? 제가 매운 음식은 잘 못 먹는데 이건 괜찮네요. 반찬도 조금만 더 주세요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "전체 문장의 화자-청자 관계(고객-사장님)와 맥락적 배경은 원문 텍스트만으로 제한적으로 분석하였다.",
+      "clauses": [
+        {
+          "clause_id": "LONG003:c1",
+          "predicate_complex_id": "LONG003:c1:predicate",
+          "text": "사장님, 이 국은 뭐가 들어가서 이렇게 맛있어요?",
+          "span": [
+            0,
+            27
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "adjective",
+            "sentence_type": "interrogative",
+            "question_type": "content",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "맛있다",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "speech_act": "ask_intention",
+            "subject_person": "third",
+            "response_orientation": "addressee"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none"
+          },
+          "scope_note": "의문사 '뭐가'가 포함된 내용 질문이다. '이렇게'는 정도를 나타내는 부사이다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "LONG003:c2",
+          "predicate_complex_id": "LONG003:c2:predicate",
+          "text": "제가 매운 음식은 잘 못 먹는데",
+          "span": [
+            28,
+            45
+          ],
+          "role": "connective",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "declarative",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "먹다",
+            "stem_vowel": "e",
+            "stem_coda": "absent",
+            "subject_person": "first",
+            "clause_relation": "cause"
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "부정 표현 '못'이 결합된 서술부이다. 연결어미 '-는데'로 후행절과 인과/대조 관계를 맺는다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "LONG003:c3",
+          "predicate_complex_id": "LONG003:c3:predicate",
+          "text": "이건 괜찮네요",
+          "span": [
+            46,
+            53
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "adjective",
+            "sentence_type": "declarative",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "괜찮다",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "speech_act": "state_intention",
+            "subject_person": "third"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none"
+          },
+          "scope_note": "종결 어미 '-네요'는 화자의 새로운 인식이나 감탄을 나타낸다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "LONG003:c4",
+          "predicate_complex_id": "LONG003:c4:predicate",
+          "text": "반찬도 조금만 더 주세요",
+          "span": [
+            55,
+            68
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "imperative",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "주다",
+            "stem_vowel": "u",
+            "stem_coda": "absent",
+            "speech_act": "request",
+            "action_participants": "addressee_only",
+            "beneficiary": "speaker"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {},
+          "scope_note": "청자를 대상으로 한 요청(명령) 발화이다. '조금만 더'는 양을 제한하는 부사구이다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "LONG003:u1",
+          "text": "사장님, 이 국은 뭐가 들어가서 이렇게 맛있어요?",
+          "span": [
+            0,
+            27
+          ],
+          "kind": "interrogative_sentence",
+          "parent_index": null,
+          "meaning": "국에 들어간 재료를 묻고 그 맛에 대해 호기심을 표현하는 질문",
+          "form_queries": [
+            "이 국은 뭐가 들어가서 이렇게 맛있어요"
+          ],
+          "semantic_queries": [
+            "음식 재료 질문",
+            "맛에 대한 호기심 표현"
+          ],
+          "features": {
+            "clause_relation": null,
+            "quotation_type": null
+          }
+        },
+        {
+          "unit_id": "LONG003:u2",
+          "text": "이 국은",
+          "span": [
+            5,
+            9
+          ],
+          "kind": "topic_phrase",
+          "parent_index": 0,
+          "meaning": "질문의 대상이 되는 국",
+          "form_queries": [
+            "이 국은"
+          ],
+          "semantic_queries": [
+            "주제 조사 포함 명사구"
+          ],
+          "features": {
+            "clause_relation": null,
+            "quotation_type": null
+          }
+        },
+        {
+          "unit_id": "LONG003:u3",
+          "text": "뭐가 들어가서",
+          "span": [
+            10,
+            17
+          ],
+          "kind": "causal_subordinate_clause",
+          "parent_index": 0,
+          "meaning": "맛있는 원인이 되는 재료의 투입",
+          "form_queries": [
+            "뭐가 들어가서"
+          ],
+          "semantic_queries": [
+            "원인 연결어미 포함 절"
+          ],
+          "features": {
+            "clause_relation": "cause",
+            "quotation_type": null
+          }
+        },
+        {
+          "unit_id": "LONG003:u4",
+          "text": "이렇게 맛있어요",
+          "span": [
+            18,
+            26
+          ],
+          "kind": "main_predicate",
+          "parent_index": 0,
+          "meaning": "높은 정도의 맛을 나타내는 서술",
+          "form_queries": [
+            "이렇게 맛있어요"
+          ],
+          "semantic_queries": [
+            "정도를 나타내는 부사와 형용사 결합"
+          ],
+          "features": {
+            "clause_relation": null,
+            "quotation_type": null
+          }
+        },
+        {
+          "unit_id": "LONG003:u5",
+          "text": "제가 매운 음식은 잘 못 먹는데",
+          "span": [
+            28,
+            45
+          ],
+          "kind": "connective_clause",
+          "parent_index": null,
+          "meaning": "화자의 매운 음식에 대한 불호감 표현",
+          "form_queries": [
+            "매운 음식은 잘 못 먹는데"
+          ],
+          "semantic_queries": [
+            "부정 능력 표현",
+            "인과/대조 연결어미"
+          ],
+          "features": {
+            "clause_relation": "cause",
+            "quotation_type": null
+          }
+        },
+        {
+          "unit_id": "LONG003:u6",
+          "text": "매운 음식은",
+          "span": [
+            31,
+            37
+          ],
+          "kind": "topic_phrase",
+          "parent_index": 4,
+          "meaning": "화자가 잘 못 먹는 음식의 종류",
+          "form_queries": [
+            "매운 음식은"
+          ],
+          "semantic_queries": [
+            "주제 조사 포함 명사구"
+          ],
+          "features": {
+            "clause_relation": null,
+            "quotation_type": null
+          }
+        },
+        {
+          "unit_id": "LONG003:u7",
+          "text": "잘 못 먹는데",
+          "span": [
+            38,
+            45
+          ],
+          "kind": "predicate_with_negation",
+          "parent_index": 4,
+          "meaning": "먹는 행위의 부정적 능력",
+          "form_queries": [
+            "잘 못 먹는데"
+          ],
+          "semantic_queries": [
+            "부정 부사 '잘 못' 결합 동사"
+          ],
+          "features": {
+            "clause_relation": null,
+            "quotation_type": null
+          }
+        },
+        {
+          "unit_id": "LONG003:u8",
+          "text": "이건 괜찮네요",
+          "span": [
+            46,
+            53
+          ],
+          "kind": "declarative_sentence",
+          "parent_index": null,
+          "meaning": "현재의 음식에 대한 긍정적 평가",
+          "form_queries": [
+            "이건 괜찮네요"
+          ],
+          "semantic_queries": [
+            "인식/감탄 종결 어미 포함 평서문"
+          ],
+          "features": {
+            "clause_relation": null,
+            "quotation_type": null
+          }
+        },
+        {
+          "unit_id": "LONG003:u9",
+          "text": "반찬도 조금만 더 주세요",
+          "span": [
+            55,
+            68
+          ],
+          "kind": "imperative_sentence",
+          "parent_index": null,
+          "meaning": "반찬의 추가 제공 요청",
+          "form_queries": [
+            "반찬도 조금만 더 주세요"
+          ],
+          "semantic_queries": [
+            "요청/명령 종결 어미 포함 문장"
+          ],
+          "features": {
+            "clause_relation": null,
+            "quotation_type": null
+          }
+        },
+        {
+          "unit_id": "LONG003:u10",
+          "text": "조금만 더",
+          "span": [
+            59,
+            64
+          ],
+          "kind": "adverbial_phrase",
+          "parent_index": 8,
+          "meaning": "추가되는 양의 제한",
+          "form_queries": [
+            "조금만 더"
+          ],
+          "semantic_queries": [
+            "양을 나타내는 부사구"
+          ],
+          "features": {
+            "clause_relation": null,
+            "quotation_type": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "LONG004",
+      "input": "할머니, 밖에 비가 많이 오는데 우산은 챙기셨어요? 길이 미끄러우니까 혼자 나가지 마세요. 제가 집 앞까지 모셔다드릴게요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "문장 내 모든 종결 서술부와 주요 연결절이 분석됨. '할머니'는 호칭으로 별도 절이 아님.",
+      "clauses": [
+        {
+          "clause_id": "LONG004:c1",
+          "predicate_complex_id": "LONG004:c1:predicate",
+          "text": "할머니, 밖에 비가 많이 오는데 우산은 챙기셨어요?",
+          "span": [
+            0,
+            28
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "챙기다",
+            "sentence_type": "interrogative",
+            "question_type": "polar",
+            "speech_act": "request",
+            "subject_person": "second",
+            "meaning": "우산을 챙겼는지 묻는 확인 질문이자 챙기라는 요청"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "si",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "연결절 '비가 많이 오는데'는 원인/상황을 나타냄. '챙기셨어요'는 주체 높임(-시-)과 과거(-었-)가 결합된 평서형 의문문.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "LONG004:c2",
+          "predicate_complex_id": "LONG004:c2:predicate",
+          "text": "비가 많이 오는데",
+          "span": [
+            8,
+            17
+          ],
+          "role": "connective",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "오다",
+            "clause_relation": "cause",
+            "meaning": "비가 많이 온다는 상황을 후행절의 원인이나 배경으로 제시"
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "연결어미 -는데는 원인이나 상황을 나타냄.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "LONG004:c3",
+          "predicate_complex_id": "LONG004:c3:predicate",
+          "text": "길이 미끄러우니까 혼자 나가지 마세요.",
+          "span": [
+            29,
+            50
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "나가다",
+            "sentence_type": "imperative",
+            "speech_act": "request",
+            "subject_person": "second",
+            "meaning": "혼자 나가지 말라는 금지/요청"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "modal",
+          "preserved_candidate_features": {},
+          "scope_note": "부정 명령형. '마세요'는 청자 높임.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "LONG004:c4",
+          "predicate_complex_id": "LONG004:c4:predicate",
+          "text": "길이 미끄러우니까",
+          "span": [
+            29,
+            38
+          ],
+          "role": "connective",
+          "features": {
+            "host_pos": "adjective",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "미끄럽다",
+            "clause_relation": "cause",
+            "meaning": "길이 미끄럽다는 사실을 후행 금지의 원인으로 제시"
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none"
+          },
+          "scope_note": "형용사 '미끄럽다'에 연결어미 -니까가 결합.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "LONG004:c5",
+          "predicate_complex_id": "LONG004:c5:predicate",
+          "text": "제가 집 앞까지 모셔다드릴게요.",
+          "span": [
+            51,
+            68
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "모셔다드리다",
+            "sentence_type": "declarative",
+            "speech_act": "state_intention",
+            "subject_person": "first",
+            "meaning": "화자가 할머니를 집 앞까지 모셔다주겠다는 의지 표명"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "si",
+          "tense_or_modality": "modal",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "'모셔다드리다'는 '모시다'와 '다드리다'의 복합 동사로, 주체 높임(-시-)이 포함됨. '-ㄹ게요'는 화자의 의지/약속을 나타냄.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "LONG004:u1",
+          "text": "할머니, 밖에 비가 많이 오는데 우산은 챙기셨어요?",
+          "span": [
+            0,
+            28
+          ],
+          "kind": "문장",
+          "parent_index": null,
+          "meaning": "비가 오는 상황에서 할머니에게 우산을 챙겼는지 묻는 문장",
+          "form_queries": [
+            "챙기셨어요",
+            "오는데"
+          ],
+          "semantic_queries": [
+            "우산 챙김 확인 질문",
+            "비 오는 상황 설명"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "LONG004:u2",
+          "text": "비가 많이 오는데",
+          "span": [
+            8,
+            17
+          ],
+          "kind": "연결절",
+          "parent_index": 0,
+          "meaning": "비가 많이 온다는 원인/상황 절",
+          "form_queries": [
+            "오는데"
+          ],
+          "semantic_queries": [
+            "원인 연결어미 -는데"
+          ],
+          "features": {
+            "clause_relation": "cause"
+          }
+        },
+        {
+          "unit_id": "LONG004:u3",
+          "text": "챙기셨어요",
+          "span": [
+            22,
+            27
+          ],
+          "kind": "종결 서술부",
+          "parent_index": 0,
+          "meaning": "챙기다 + 시 + 었 + 어요 (주체 높임, 과거, 청자 높임 의문)",
+          "form_queries": [
+            "챙기셨어요",
+            "챙기다"
+          ],
+          "semantic_queries": [
+            "주체 높임 과거 의문"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "LONG004:u4",
+          "text": "길이 미끄러우니까 혼자 나가지 마세요.",
+          "span": [
+            29,
+            50
+          ],
+          "kind": "문장",
+          "parent_index": null,
+          "meaning": "길이 미끄럽다는 이유로 혼자 나가지 말라고 하는 문장",
+          "form_queries": [
+            "미끄러우니까",
+            "나가지 마세요"
+          ],
+          "semantic_queries": [
+            "원인 연결어미 -니까",
+            "부정 명령"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "LONG004:u5",
+          "text": "길이 미끄러우니까",
+          "span": [
+            29,
+            38
+          ],
+          "kind": "연결절",
+          "parent_index": 3,
+          "meaning": "길이 미끄럽다는 원인 절",
+          "form_queries": [
+            "미끄러우니까"
+          ],
+          "semantic_queries": [
+            "원인 연결어미 -니까"
+          ],
+          "features": {
+            "clause_relation": "cause"
+          }
+        },
+        {
+          "unit_id": "LONG004:u6",
+          "text": "나가지 마세요",
+          "span": [
+            42,
+            49
+          ],
+          "kind": "종결 서술부",
+          "parent_index": 3,
+          "meaning": "나가다 + 지 + 마 + 세요 (부정, 청자 높임 명령)",
+          "form_queries": [
+            "나가지 마세요",
+            "나가다"
+          ],
+          "semantic_queries": [
+            "부정 명령형"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "LONG004:u7",
+          "text": "제가 집 앞까지 모셔다드릴게요.",
+          "span": [
+            51,
+            68
+          ],
+          "kind": "문장",
+          "parent_index": null,
+          "meaning": "화자가 할머니를 모셔다주겠다는 의지를 표명하는 문장",
+          "form_queries": [
+            "모셔다드릴게요",
+            "모셔다드리다"
+          ],
+          "semantic_queries": [
+            "의지 표현 -ㄹ게요",
+            "주체 높임 복합 동사"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "LONG004:u8",
+          "text": "모셔다드릴게요",
+          "span": [
+            60,
+            67
+          ],
+          "kind": "종결 서술부",
+          "parent_index": 6,
+          "meaning": "모셔다드리다 + 려 + 겠 + 어요 (주체 높임, 의지, 청자 높임)",
+          "form_queries": [
+            "모셔다드릴게요",
+            "모시다",
+            "다드리다"
+          ],
+          "semantic_queries": [
+            "의지 표현",
+            "주체 높임"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "NEW001",
+      "input": "저기 창가에 앉아 있는 분이 제 선생님이에요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "문장 내 모든 주요 성분(주어, 서술어, 관형절)이 분석되어 미분석 구조는 없다.",
+      "clauses": [
+        {
+          "clause_id": "NEW001:c1",
+          "predicate_complex_id": "NEW001:c1:predicate",
+          "text": "저기 창가에 앉아 있는 분이 제 선생님이에요.",
+          "span": [
+            0,
+            25
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "copula",
+            "host_class": "nominal_copula",
+            "host_form": "이에요",
+            "sentence_type": "declarative",
+            "speech_act": null,
+            "subject_person": "third",
+            "nominal_coda": "absent",
+            "stem_vowel": "o",
+            "stem_coda": "absent"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none"
+          },
+          "scope_note": "주어 '분'은 높임 표현이지만, 서술부 '이에요' 자체에는 주체 높임 선어말어미 -시-가 결합되어 있지 않으므로 observed_subject_honorific은 not_observed로 판정한다. '이에요'는 '이다'의 평서형으로, 앞 체언 '선생님'의 받침이 없으므로 '이에요'가 결합한다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "NEW001:u1",
+          "text": "저기 창가에 앉아 있는 분이 제 선생님이에요.",
+          "span": [
+            0,
+            25
+          ],
+          "kind": "문장 전체",
+          "parent_index": null,
+          "meaning": "저기 창가에 앉아 있는 사람이 화자의 선생님임을 서술하는 문장",
+          "form_queries": [
+            "저기 창가에 앉아 있는 분이 제 선생님이에요."
+          ],
+          "semantic_queries": [
+            "창가에 앉아 있는 분을 선생님으로 소개하는 평서문"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "NEW001:u2",
+          "text": "저기 창가에 앉아 있는 분",
+          "span": [
+            0,
+            14
+          ],
+          "kind": "관형절 + 체언 (주어)",
+          "parent_index": 0,
+          "meaning": "저기 창가에 앉아 있는 사람(높임 표현)",
+          "form_queries": [
+            "저기 창가에 앉아 있는 분"
+          ],
+          "semantic_queries": [
+            "창가에 앉아 있는 사람을 지칭하는 관형절 구조"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "NEW001:u3",
+          "text": "저기 창가에 앉아 있는",
+          "span": [
+            0,
+            12
+          ],
+          "kind": "관형절",
+          "parent_index": 1,
+          "meaning": "창가에 앉아 있는 상태를 나타내는 관형형",
+          "form_queries": [
+            "저기 창가에 앉아 있는"
+          ],
+          "semantic_queries": [
+            "창가에 앉아 있는 상태를 수식하는 관형절"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "NEW001:u4",
+          "text": "제 선생님",
+          "span": [
+            16,
+            21
+          ],
+          "kind": "소유구 (서술어 앞 체언)",
+          "parent_index": 0,
+          "meaning": "화자의 선생님",
+          "form_queries": [
+            "제 선생님"
+          ],
+          "semantic_queries": [
+            "화자가 소유한 선생님"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "NEW001:u5",
+          "text": "이에요",
+          "span": [
+            21,
+            24
+          ],
+          "kind": "평서 종결어미 (계사 결합형)",
+          "parent_index": 0,
+          "meaning": "평서형 종결어미, 앞 체언이 비받침일 때 사용",
+          "form_queries": [
+            "이에요",
+            "이다"
+          ],
+          "semantic_queries": [
+            "비받침 체언 뒤에 오는 평서형 종결어미"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "NEW004",
+      "input": "회의가 벌써 시작했나요?",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "주어 '회의'와 부사 '벌써'는 독립적인 종결 서술부가 아니므로 별도 클로즈로 분리하지 않았다.",
+      "clauses": [
+        {
+          "clause_id": "NEW004:c1",
+          "predicate_complex_id": "NEW004:c1:predicate",
+          "text": "회의가 벌써 시작했나요?",
+          "span": [
+            0,
+            13
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "interrogative",
+            "question_type": "polar",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "시작하다",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "speech_act": "ask_intention",
+            "subject_person": "third",
+            "response_orientation": "addressee"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "선어말어미 -었-은 과거 시제를 나타내며, 종결어미 -나요는 청자 높임과 의문을 나타낸다. '시작'의 어간은 '시작'으로 받침이 없다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "NEW004:u1",
+          "text": "회의가 벌써 시작했나요?",
+          "span": [
+            0,
+            13
+          ],
+          "kind": "interrogative_sentence",
+          "parent_index": null,
+          "meaning": "회의가 이미 시작되었는지 묻는 문장",
+          "form_queries": [
+            "시작하다",
+            "시작했나요"
+          ],
+          "semantic_queries": [
+            "회의 시작 여부 확인",
+            "과거 시제 의문문"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "NEW004:u2",
+          "text": "시작했나요",
+          "span": [
+            7,
+            12
+          ],
+          "kind": "predicate_phrase",
+          "parent_index": 0,
+          "meaning": "시작했다는 과거 시제와 의문 어미가 결합된 서술부",
+          "form_queries": [
+            "시작하다",
+            "시작했-",
+            "-나요"
+          ],
+          "semantic_queries": [
+            "과거 시제 의문 종결어미",
+            "동사 시작하다 활용형"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "NEW005",
+      "input": "이 서류는 어디에 놓으면 될까요?",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "주어 '이 서류는'은 별도 분석 단위로 분리하지 않고 문장 전체에 포함시켰다.",
+      "clauses": [
+        {
+          "clause_id": "NEW005:c1",
+          "predicate_complex_id": "NEW005:c1:predicate",
+          "text": "이 서류는 어디에 놓으면 될까요?",
+          "span": [
+            0,
+            18
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "되다",
+            "sentence_type": "interrogative",
+            "question_type": "content",
+            "speech_act": null,
+            "subject_person": "third",
+            "response_orientation": "addressee"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "modal",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "'-ㄹ까요'는 '-겠-' + '-ㄹ까요'로 분석되며, '-겠-'은 선어말어미로, '-ㄹ까요'는 종결어미로 분석된다. '어디'는 의문사로서 정보 질문의 대상이다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "NEW005:u1",
+          "text": "이 서류는 어디에 놓으면 될까요?",
+          "span": [
+            0,
+            18
+          ],
+          "kind": "문장 전체",
+          "parent_index": null,
+          "meaning": "서류를 놓을 장소를 묻는 질문",
+          "form_queries": [
+            "이 서류는 어디에 놓으면 될까요?"
+          ],
+          "semantic_queries": [
+            "서류 위치 질문",
+            "놓을 장소 문의"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "NEW005:u2",
+          "text": "놓으면",
+          "span": [
+            10,
+            13
+          ],
+          "kind": "연결절 서술부",
+          "parent_index": 0,
+          "meaning": "서류를 놓는다는 조건/전제",
+          "form_queries": [
+            "놓다",
+            "놓으면"
+          ],
+          "semantic_queries": [
+            "놓는다는 가정",
+            "행위 전제"
+          ],
+          "features": {
+            "clause_relation": "condition"
+          }
+        },
+        {
+          "unit_id": "NEW005:u3",
+          "text": "될까요",
+          "span": [
+            14,
+            17
+          ],
+          "kind": "종결 서술부",
+          "parent_index": 0,
+          "meaning": "가능성/적절성을 묻는 의문 표현",
+          "form_queries": [
+            "되다",
+            "될까요"
+          ],
+          "semantic_queries": [
+            "될 수 있는가",
+            "적절한가"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "NEW006",
+      "input": "계단이 어두우니까 조심해서 내려오세요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "분석 범위는 원문의 문법적 구조와 발화 의도에 한정된다.",
+      "clauses": [
+        {
+          "clause_id": "NEW006:c1",
+          "predicate_complex_id": "NEW006:c1:predicate",
+          "text": "계단이 어두우니까",
+          "span": [
+            0,
+            9
+          ],
+          "role": "connective",
+          "features": {
+            "host_pos": "adjective",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "어두우니까",
+            "stem_vowel": "u",
+            "stem_coda": "absent",
+            "clause_relation": "cause",
+            "sentence_type": "declarative"
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none"
+          },
+          "scope_note": "원인/이유를 나타내는 연결어미 -니까가 결합된 형용사 서술부이다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "NEW006:c2",
+          "predicate_complex_id": "NEW006:c2:predicate",
+          "text": "조심해서 내려오세요.",
+          "span": [
+            10,
+            21
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "내려오세요",
+            "stem_vowel": "o",
+            "stem_coda": "absent",
+            "sentence_type": "imperative",
+            "speech_act": "request",
+            "action_participants": "addressee_only",
+            "subject_person": "second"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {},
+          "scope_note": "부사절 '조심해서'와 결합하여 청자에게 행동을 요청하는 종결 서술부이다. -세요는 청자 높임 종결 어미이다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "NEW006:u1",
+          "text": "계단이 어두우니까 조심해서 내려오세요.",
+          "span": [
+            0,
+            21
+          ],
+          "kind": "문장 전체",
+          "parent_index": null,
+          "meaning": "계단이 어둡다는 이유를 들어 청자에게 조심해서 내려오라고 요청하는 문장",
+          "form_queries": [
+            "계단이 어두우니까 조심해서 내려오세요"
+          ],
+          "semantic_queries": [
+            "원인 연결어미 -니까",
+            "부사절 '조심해서'와 종결절 '내려오세요'의 결합",
+            "청자 높임 명령/요청"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "NEW006:u2",
+          "text": "계단이 어두우니까",
+          "span": [
+            0,
+            9
+          ],
+          "kind": "원인 연결절",
+          "parent_index": 0,
+          "meaning": "계단이 어둡다는 사실을 원인으로 제시",
+          "form_queries": [
+            "어두우니까",
+            "어둡다 + -니까"
+          ],
+          "semantic_queries": [
+            "형용사 어간 '어둡-'",
+            "원인/이유 연결어미 '-니까'"
+          ],
+          "features": {
+            "clause_relation": "cause"
+          }
+        },
+        {
+          "unit_id": "NEW006:u3",
+          "text": "조심해서 내려오세요",
+          "span": [
+            10,
+            20
+          ],
+          "kind": "부사절과 종결절 결합",
+          "parent_index": 0,
+          "meaning": "조심하는 방식으로 내려오라는 요청",
+          "form_queries": [
+            "조심해서",
+            "내려오세요"
+          ],
+          "semantic_queries": [
+            "부사적 용법 '-아서/어서'",
+            "청자 높임 종결 어미 '-세요'"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "NEW007",
+      "input": "내가 먼저 먹고 있을 테니까 천천히 와.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "주어 '내가'와 부사 '먼저', '천천히'는 문맥상 필수적인 의미 요소이지만, 분석 규격상 독립적인 종결 서술부나 핵심 문법 구성으로 분리하지 않고 문장 전체의 의미에 포함하여 처리한다.",
+      "clauses": [
+        {
+          "clause_id": "NEW007:c1",
+          "predicate_complex_id": "NEW007:c1:predicate",
+          "text": "내가 먼저 먹고 있을 테니까",
+          "span": [
+            0,
+            15
+          ],
+          "role": "connective",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "먹다",
+            "stem_vowel": "o",
+            "stem_coda": "absent",
+            "sentence_type": "declarative",
+            "speech_act": "state_intention",
+            "intention_holder": "speaker",
+            "subject_person": "first",
+            "clause_relation": "cause",
+            "source_form": "먹고 있을 테니까"
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "modal",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "선어말어미 -겠-이 결합하여 미래/의도를 나타내며, 연결어미 -니까로 종결된다. '있을'은 보조용언 '있다'의 관형형으로 분석된다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "NEW007:c2",
+          "predicate_complex_id": "NEW007:c2:predicate",
+          "text": "천천히 와.",
+          "span": [
+            16,
+            22
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "오다",
+            "stem_vowel": "o",
+            "stem_coda": "absent",
+            "sentence_type": "imperative",
+            "speech_act": "request",
+            "action_participants": "addressee_only",
+            "subject_person": "second",
+            "source_form": "와"
+          },
+          "observed_politeness": "non_polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "명령형 어미 -아/어(와)로 종결되어 청자를 향한 요청/명령을 나타낸다. 높임이 없는 반말체이다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "NEW007:u1",
+          "text": "내가 먼저 먹고 있을 테니까 천천히 와.",
+          "span": [
+            0,
+            22
+          ],
+          "kind": "복합문",
+          "parent_index": null,
+          "meaning": "화자가 먼저 먹을 의도가 있으므로 청자는 천천히 오라는 내용의 문장",
+          "form_queries": [
+            "먹고 있을 테니까",
+            "천천히 와"
+          ],
+          "semantic_queries": [
+            "인과 관계 연결어미 -니까",
+            "명령형 종결어미 -아/어"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "NEW007:u2",
+          "text": "내가 먼저 먹고 있을 테니까",
+          "span": [
+            0,
+            15
+          ],
+          "kind": "연결절",
+          "parent_index": 0,
+          "meaning": "화자가 먼저 먹을 것이라는 의도를 나타내는 인과절",
+          "form_queries": [
+            "먹고",
+            "있을",
+            "테니까"
+          ],
+          "semantic_queries": [
+            "의도 표현 -겠-",
+            "인과 연결어미 -니까"
+          ],
+          "features": {
+            "clause_relation": "cause"
+          }
+        },
+        {
+          "unit_id": "NEW007:u3",
+          "text": "천천히 와.",
+          "span": [
+            16,
+            22
+          ],
+          "kind": "주절",
+          "parent_index": 0,
+          "meaning": "청자에게 천천히 오라고 요청하는 명령문",
+          "form_queries": [
+            "천천히",
+            "와"
+          ],
+          "semantic_queries": [
+            "부사 '천천히'와 결합한 명령문",
+            "반말체 명령형"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "NEW008",
+      "input": "그건 네 잘못이 아니야.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "분석되지 않은 구조 없음",
+      "clauses": [
+        {
+          "clause_id": "NEW008:c1",
+          "predicate_complex_id": "NEW008:c1:predicate",
+          "text": "그건 네 잘못이 아니야.",
+          "span": [
+            0,
+            13
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "copula",
+            "host_class": "negative_copula",
+            "host_form": "아니다",
+            "sentence_type": "declarative",
+            "subject_person": "third",
+            "nominal_coda": "present"
+          },
+          "observed_politeness": "non_polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none"
+          },
+          "scope_note": "주어 '그건'은 3인칭 지시 대명사. '네'는 2인칭 소유 대명사. 종결 어미 '-아'는 반말 평서형.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "NEW008:u1",
+          "text": "그건 네 잘못이 아니야.",
+          "span": [
+            0,
+            13
+          ],
+          "kind": "문장",
+          "parent_index": null,
+          "meaning": "그것은 너의 잘못이 아니다라는 의미의 평서문",
+          "form_queries": [
+            "그건",
+            "네",
+            "잘못이",
+            "아니야"
+          ],
+          "semantic_queries": [
+            "3인칭 주어",
+            "2인칭 소유",
+            "부정 평서"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "NEW008:u2",
+          "text": "그건",
+          "span": [
+            0,
+            2
+          ],
+          "kind": "주어",
+          "parent_index": 0,
+          "meaning": "그것은",
+          "form_queries": [
+            "그",
+            "건"
+          ],
+          "semantic_queries": [
+            "3인칭 지시 대명사",
+            "주격 조사"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "NEW008:u3",
+          "text": "네",
+          "span": [
+            3,
+            4
+          ],
+          "kind": "관형사",
+          "parent_index": 0,
+          "meaning": "너의",
+          "form_queries": [
+            "네"
+          ],
+          "semantic_queries": [
+            "2인칭 소유 대명사"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "NEW008:u4",
+          "text": "잘못이",
+          "span": [
+            5,
+            8
+          ],
+          "kind": "서술어 앞 체언",
+          "parent_index": 0,
+          "meaning": "잘못이",
+          "form_queries": [
+            "잘못",
+            "이"
+          ],
+          "semantic_queries": [
+            "명사",
+            "주격 조사"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "NEW008:u5",
+          "text": "아니야",
+          "span": [
+            9,
+            12
+          ],
+          "kind": "서술어",
+          "parent_index": 0,
+          "meaning": "아니다",
+          "form_queries": [
+            "아니다",
+            "아니야"
+          ],
+          "semantic_queries": [
+            "부정 계사",
+            "반말 평서"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "NEW009",
+      "input": "동생이 좋아하는 과자를 가방에 넣었어.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "분석 범위는 종결 서술부와 관형절의 구조적 관계로 한정된다.",
+      "clauses": [
+        {
+          "clause_id": "NEW009:c1",
+          "predicate_complex_id": "NEW009:c1:predicate",
+          "text": "동생이 좋아하는 과자를 가방에 넣었어.",
+          "span": [
+            0,
+            21
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "넣다",
+            "sentence_type": "declarative",
+            "speech_act": null,
+            "subject_person": null,
+            "stem_vowel": "a",
+            "stem_coda": "absent"
+          },
+          "observed_politeness": "non_polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "종결 어미 '-었어'는 친밀한 관계에서 쓰는 비격식체 과거형이다. 주어는 생략되어 인칭을 특정할 수 없다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "NEW009:u1",
+          "text": "동생이 좋아하는 과자를 가방에 넣었어.",
+          "span": [
+            0,
+            21
+          ],
+          "kind": "문장",
+          "parent_index": null,
+          "meaning": "화자가 동생이 좋아하는 과자를 가방에 넣었다는 과거의 행위를 서술한다.",
+          "form_queries": [
+            "넣다",
+            "넣었어"
+          ],
+          "semantic_queries": [
+            "과자를 가방에 넣다",
+            "과거의 행동 서술"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "NEW009:u2",
+          "text": "동생이 좋아하는",
+          "span": [
+            0,
+            8
+          ],
+          "kind": "관형절",
+          "parent_index": 0,
+          "meaning": "과자를 수식하며, 그 과자가 동생이 좋아하는 것임을 나타낸다.",
+          "form_queries": [
+            "좋아하다",
+            "좋아하는"
+          ],
+          "semantic_queries": [
+            "동생의 취향",
+            "좋아하는 것"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "NEW009:u3",
+          "text": "좋아하는",
+          "span": [
+            4,
+            8
+          ],
+          "kind": "관형형",
+          "parent_index": 1,
+          "meaning": "좋아하다의 관형형으로, 명사를 수식한다.",
+          "form_queries": [
+            "좋아하다",
+            "좋아하는"
+          ],
+          "semantic_queries": [
+            "좋아하는"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "NEW009:u4",
+          "text": "넣었어",
+          "span": [
+            17,
+            20
+          ],
+          "kind": "종결 서술부",
+          "parent_index": 0,
+          "meaning": "넣다의 과거 비격식체 종결형.",
+          "form_queries": [
+            "넣다",
+            "넣었어"
+          ],
+          "semantic_queries": [
+            "넣다",
+            "과거"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "NEW012",
+      "input": "그 물건을 버리라고 한 건 아니었어요. 잠깐 다른 곳에 옮겨 달라는 뜻이었어요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "명사구 '그 물건'과 '다른 곳'의 내부 구조는 별도 분석 대상이 아니므로 생략함.",
+      "clauses": [
+        {
+          "clause_id": "NEW012:c1",
+          "predicate_complex_id": "NEW012:c1:predicate",
+          "text": "그 물건을 버리라고 한 건 아니었어요.",
+          "span": [
+            0,
+            21
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "copula",
+            "host_class": "negative_copula",
+            "host_form": "아니다",
+            "sentence_type": "declarative",
+            "speech_act": null,
+            "subject_person": "first",
+            "nominal_coda": "absent",
+            "stem_vowel": "a",
+            "stem_coda": "absent"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "주어 '한 건'은 '한 것'의 축약형으로 보이며, 서술부 '아니었어요'는 과거 부정 평서형이다. '버리라고'는 인용된 명령/요청 내용이다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "NEW012:c2",
+          "predicate_complex_id": "NEW012:c2:predicate",
+          "text": "잠깐 다른 곳에 옮겨 달라는 뜻이었어요.",
+          "span": [
+            22,
+            44
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "copula",
+            "host_class": "nominal_copula",
+            "host_form": "이다",
+            "sentence_type": "declarative",
+            "speech_act": null,
+            "subject_person": "first",
+            "nominal_coda": "absent",
+            "stem_vowel": "a",
+            "stem_coda": "absent"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "주어 '뜻'은 '옮겨 달라는'이라는 관형절로 수식된다. 서술부 '이었어요'는 과거 평서형이다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "NEW012:u1",
+          "text": "그 물건을 버리라고 한 건 아니었어요.",
+          "span": [
+            0,
+            21
+          ],
+          "kind": "문장",
+          "parent_index": null,
+          "meaning": "화자가 물건을 버리라고 지시한 것이 아니라고 해명하는 문장",
+          "form_queries": [
+            "그 물건을 버리라고 한 건 아니었어요"
+          ],
+          "semantic_queries": [
+            "부정 해명",
+            "과거 평서",
+            "인용 부정"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "NEW012:u2",
+          "text": "버리라고",
+          "span": [
+            6,
+            10
+          ],
+          "kind": "인용 관형절",
+          "parent_index": 0,
+          "meaning": "버리라는 명령/요청을 인용한 형태",
+          "form_queries": [
+            "버리라고"
+          ],
+          "semantic_queries": [
+            "명령 인용",
+            "요청 인용"
+          ],
+          "features": {
+            "quotation_type": "command"
+          }
+        },
+        {
+          "unit_id": "NEW012:u3",
+          "text": "한 건",
+          "span": [
+            11,
+            14
+          ],
+          "kind": "명사구",
+          "parent_index": 0,
+          "meaning": "한 것(행위)을 의미하는 명사구",
+          "form_queries": [
+            "한 건"
+          ],
+          "semantic_queries": [
+            "명사화",
+            "축약형"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "NEW012:u4",
+          "text": "아니었어요",
+          "span": [
+            15,
+            20
+          ],
+          "kind": "서술부",
+          "parent_index": 0,
+          "meaning": "부정 평서 종결어미",
+          "form_queries": [
+            "아니었어요"
+          ],
+          "semantic_queries": [
+            "부정",
+            "과거",
+            "존경체"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "NEW012:u5",
+          "text": "잠깐 다른 곳에 옮겨 달라는 뜻이었어요.",
+          "span": [
+            22,
+            44
+          ],
+          "kind": "문장",
+          "parent_index": null,
+          "meaning": "화자의 의도가 잠깐 다른 곳으로 옮기는 것이었다고 설명하는 문장",
+          "form_queries": [
+            "잠깐 다른 곳에 옮겨 달라는 뜻이었어요"
+          ],
+          "semantic_queries": [
+            "의도 설명",
+            "과거 평서",
+            "요청 인용"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "NEW012:u6",
+          "text": "옮겨 달라는",
+          "span": [
+            31,
+            37
+          ],
+          "kind": "인용 관형절",
+          "parent_index": 4,
+          "meaning": "옮겨 달라는 요청을 인용한 관형형",
+          "form_queries": [
+            "옮겨 달라는"
+          ],
+          "semantic_queries": [
+            "요청 인용",
+            "관형형"
+          ],
+          "features": {
+            "quotation_type": "suggestion"
+          }
+        },
+        {
+          "unit_id": "NEW012:u7",
+          "text": "뜻이었어요",
+          "span": [
+            38,
+            43
+          ],
+          "kind": "서술부",
+          "parent_index": 4,
+          "meaning": "뜻이었다는 평서 종결어미",
+          "form_queries": [
+            "뜻이었어요"
+          ],
+          "semantic_queries": [
+            "평서",
+            "과거",
+            "존경체"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "ADVCE001A",
+      "input": "기차가 지금 정차하나요?",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "없음",
+      "clauses": [
+        {
+          "clause_id": "ADVCE001A:c1",
+          "predicate_complex_id": "ADVCE001A:c1:predicate",
+          "text": "기차가 지금 정차하나요?",
+          "span": [
+            0,
+            13
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "interrogative",
+            "question_type": "polar",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "정차하다",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "speech_act": null,
+            "subject_person": "third",
+            "response_orientation": "addressee"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "주어 '기차'는 3인칭. '지금'은 현재 시점을 명시. '하나요'는 현재 시점의 상태/행동을 묻는 의문 종결어미.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "ADVCE001A:u1",
+          "text": "기차가 지금 정차하나요?",
+          "span": [
+            0,
+            13
+          ],
+          "kind": "문장 전체",
+          "parent_index": null,
+          "meaning": "기차가 현재 정차 상태인지 묻는 질문",
+          "form_queries": [
+            "기차가 지금 정차하나요?"
+          ],
+          "semantic_queries": [
+            "기차 현재 정차 여부 질문",
+            "지금 정차하나요"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE001A:u2",
+          "text": "기차가",
+          "span": [
+            0,
+            3
+          ],
+          "kind": "주어",
+          "parent_index": 0,
+          "meaning": "질문의 대상인 기차",
+          "form_queries": [
+            "기차"
+          ],
+          "semantic_queries": [
+            "기차"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE001A:u3",
+          "text": "지금",
+          "span": [
+            4,
+            6
+          ],
+          "kind": "시간 부사",
+          "parent_index": 0,
+          "meaning": "현재 시점",
+          "form_queries": [
+            "지금"
+          ],
+          "semantic_queries": [
+            "현재",
+            "지금"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE001A:u4",
+          "text": "정차하나요",
+          "span": [
+            7,
+            12
+          ],
+          "kind": "서술부",
+          "parent_index": 0,
+          "meaning": "정차하는 상태인지 묻는 의문 표현",
+          "form_queries": [
+            "정차하다",
+            "정차하나요"
+          ],
+          "semantic_queries": [
+            "정차하다 의문",
+            "현재 진행/상태 의문"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "ADVCE001B",
+      "input": "기차가 어제 정차했나요?",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "주어 '기차'와 부사 '어제'는 별도 분석 단위로 분리하지 않음.",
+      "clauses": [
+        {
+          "clause_id": "ADVCE001B:c1",
+          "predicate_complex_id": "ADVCE001B:c1:predicate",
+          "text": "기차가 어제 정차했나요?",
+          "span": [
+            0,
+            13
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "interrogative",
+            "question_type": "polar",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "정차하다",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "speech_act": null,
+            "subject_person": "third",
+            "response_orientation": "addressee"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "의문사 '나'와 종결 어미 '요'로 청자 높임과 의문문임을 확인. '정차'의 어간은 '정차'로 받침이 없음.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "ADVCE001B:u1",
+          "text": "기차가 어제 정차했나요?",
+          "span": [
+            0,
+            13
+          ],
+          "kind": "문장 전체",
+          "parent_index": null,
+          "meaning": "기차가 어제 정차했는지를 묻는 문장",
+          "form_queries": [
+            "기차가 어제 정차했나요?"
+          ],
+          "semantic_queries": [
+            "기차의 과거 정차 여부 질문"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE001B:u2",
+          "text": "정차했나요",
+          "span": [
+            7,
+            12
+          ],
+          "kind": "서술부",
+          "parent_index": 0,
+          "meaning": "정차했다는 과거 사실을 확인하는 의문 표현",
+          "form_queries": [
+            "정차하다",
+            "정차했- + -나요"
+          ],
+          "semantic_queries": [
+            "과거 정차 여부 의문",
+            "정차하다 + 과거 선어말어미 + 의문 종결어미"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "ADVCE002A",
+      "input": "선생님께서 자료를 읽고 계세요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "분석 불가 구조 없음",
+      "clauses": [
+        {
+          "clause_id": "ADVCE002A:c1",
+          "predicate_complex_id": "ADVCE002A:c1:predicate",
+          "text": "선생님께서 자료를 읽고 계세요.",
+          "span": [
+            0,
+            17
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "계시다",
+            "stem_vowel": "e",
+            "stem_coda": "absent",
+            "sentence_type": "declarative",
+            "speech_act": null,
+            "subject_person": "third",
+            "meaning": "주체가 현재 어떤 행위를 하고 있는 상태임을 서술"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "si",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {},
+          "scope_note": "본용언 '읽다'와 보조용언 '계시다'의 결합으로 현재 진행을 나타냄. 종결 어미 '-세요'로 청자 높임 확인.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "ADVCE002A:u1",
+          "text": "선생님께서 자료를 읽고 계세요.",
+          "span": [
+            0,
+            17
+          ],
+          "kind": "문장",
+          "parent_index": null,
+          "meaning": "선생님이 자료를 읽는 행위를 현재 진행 중임을 높임으로 서술한 문장",
+          "form_queries": [
+            "선생님께서 자료를 읽고 계세요."
+          ],
+          "semantic_queries": [
+            "주체 높임",
+            "현재 진행",
+            "보조용언 결합"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE002A:u2",
+          "text": "선생님께서",
+          "span": [
+            0,
+            5
+          ],
+          "kind": "주어",
+          "parent_index": 0,
+          "meaning": "행위의 주체, 높임 대상",
+          "form_queries": [
+            "선생님",
+            "께서"
+          ],
+          "semantic_queries": [
+            "주체",
+            "높임 조사"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE002A:u3",
+          "text": "자료를",
+          "span": [
+            6,
+            9
+          ],
+          "kind": "목적어",
+          "parent_index": 0,
+          "meaning": "읽는 대상",
+          "form_queries": [
+            "자료",
+            "를"
+          ],
+          "semantic_queries": [
+            "목적어"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE002A:u4",
+          "text": "읽고 계세요",
+          "span": [
+            10,
+            16
+          ],
+          "kind": "서술부",
+          "parent_index": 0,
+          "meaning": "읽는 행위를 하고 있는 상태",
+          "form_queries": [
+            "읽다",
+            "계시다",
+            "읽고 계세요"
+          ],
+          "semantic_queries": [
+            "본용언+보조용언",
+            "현재 진행",
+            "주체 높임"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE002A:u5",
+          "text": "읽고",
+          "span": [
+            10,
+            12
+          ],
+          "kind": "본용언 연결형",
+          "parent_index": 3,
+          "meaning": "읽다 + 고 (보조용언 연결)",
+          "form_queries": [
+            "읽다",
+            "고"
+          ],
+          "semantic_queries": [
+            "본용언",
+            "연결어미"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE002A:u6",
+          "text": "계세요",
+          "span": [
+            13,
+            16
+          ],
+          "kind": "보조용언 종결형",
+          "parent_index": 3,
+          "meaning": "계시다 + 시 + 세요 (주체 높임 + 청자 높임)",
+          "form_queries": [
+            "계시다",
+            "계세요"
+          ],
+          "semantic_queries": [
+            "보조용언",
+            "주체 높임",
+            "청자 높임"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "ADVCE002B",
+      "input": "선생님께서 자료를 읽고 계셨어요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "분석 불가 구조 없음.",
+      "clauses": [
+        {
+          "clause_id": "ADVCE002B:c1",
+          "predicate_complex_id": "ADVCE002B:c1:predicate",
+          "text": "선생님께서 자료를 읽고 계셨어요.",
+          "span": [
+            0,
+            18
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "계시다",
+            "stem_vowel": "ㅏ",
+            "stem_coda": "absent",
+            "sentence_type": "declarative",
+            "speech_act": null,
+            "subject_person": "third",
+            "meaning": "과거에 진행 중이던 행위를 서술"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "si",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "본용언 '읽다'와 보조용언 '계시다'의 결합. '읽고'는 관형형/연결형으로 분석되며, 높임과 과거는 보조용언 '계시다'에 결합되어 나타남.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "ADVCE002B:u1",
+          "text": "선생님께서 자료를 읽고 계셨어요.",
+          "span": [
+            0,
+            18
+          ],
+          "kind": "문장",
+          "parent_index": null,
+          "meaning": "선생님이 자료를 읽는 행위가 과거에 진행 중이었다는 서술",
+          "form_queries": [
+            "선생님께서 자료를 읽고 계셨어요"
+          ],
+          "semantic_queries": [
+            "과거 진행",
+            "주체 높임",
+            "청자 높임"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE002B:u2",
+          "text": "선생님께서",
+          "span": [
+            0,
+            5
+          ],
+          "kind": "주어",
+          "parent_index": 0,
+          "meaning": "행위의 주체, 높임 대상",
+          "form_queries": [
+            "선생님",
+            "께서"
+          ],
+          "semantic_queries": [
+            "주체",
+            "높임 조사"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE002B:u3",
+          "text": "자료를",
+          "span": [
+            6,
+            9
+          ],
+          "kind": "목적어",
+          "parent_index": 0,
+          "meaning": "읽는 대상",
+          "form_queries": [
+            "자료",
+            "를"
+          ],
+          "semantic_queries": [
+            "목적어"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE002B:u4",
+          "text": "읽고 계셨어요",
+          "span": [
+            10,
+            17
+          ],
+          "kind": "서술부",
+          "parent_index": 0,
+          "meaning": "읽는 행위의 과거 진행 상태",
+          "form_queries": [
+            "읽다",
+            "계시다",
+            "읽고 계셨어요"
+          ],
+          "semantic_queries": [
+            "본용언+보조용언",
+            "과거 진행",
+            "높임"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE002B:u5",
+          "text": "읽고",
+          "span": [
+            10,
+            12
+          ],
+          "kind": "본용언 연결형",
+          "parent_index": 3,
+          "meaning": "읽다의 연결형, 보조용언과 결합",
+          "form_queries": [
+            "읽다",
+            "읽고"
+          ],
+          "semantic_queries": [
+            "본용언",
+            "연결형"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE002B:u6",
+          "text": "계셨어요",
+          "span": [
+            13,
+            17
+          ],
+          "kind": "보조용언 종결형",
+          "parent_index": 3,
+          "meaning": "계시다의 과거 높임 종결형",
+          "form_queries": [
+            "계시다",
+            "계셨어요"
+          ],
+          "semantic_queries": [
+            "보조용언",
+            "과거",
+            "높임",
+            "종결어미"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "ADVCE003A",
+      "input": "이 문을 제가 닫을까요?",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "분석되지 않은 구조 없음",
+      "clauses": [
+        {
+          "clause_id": "ADVCE003A:c1",
+          "predicate_complex_id": "ADVCE003A:c1:predicate",
+          "text": "이 문을 제가 닫을까요?",
+          "span": [
+            0,
+            13
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "interrogative",
+            "question_type": "polar",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "닫다",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "speech_act": "ask_intention",
+            "action_participants": "speaker_and_addressee",
+            "intention_holder": "speaker",
+            "subject_person": "first",
+            "response_orientation": "addressee"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "modal",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "'-ㄹ까요'는 화자의 의도나 제안을 나타내는 의문형 종결 어미이다. '제가'는 화자가 행위의 주체임을 명시한다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "ADVCE003A:u1",
+          "text": "이 문을 제가 닫을까요?",
+          "span": [
+            0,
+            13
+          ],
+          "kind": "문장",
+          "parent_index": null,
+          "meaning": "화자가 문을 닫을지 묻는 제안형 의문문",
+          "form_queries": [
+            "이 문을 제가 닫을까요?"
+          ],
+          "semantic_queries": [
+            "화자가 행동을 제안하며 동의 여부를 묻는 문장",
+            "1인칭 주어가 있는 제안형 의문문"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE003A:u2",
+          "text": "이 문을",
+          "span": [
+            0,
+            4
+          ],
+          "kind": "목적어 구",
+          "parent_index": 0,
+          "meaning": "닫는 행위의 대상인 문",
+          "form_queries": [
+            "이 문을"
+          ],
+          "semantic_queries": [
+            "목적격 조사 '을'이 붙은 명사구"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE003A:u3",
+          "text": "제가",
+          "span": [
+            5,
+            7
+          ],
+          "kind": "주어",
+          "parent_index": 0,
+          "meaning": "행위의 주체인 화자",
+          "form_queries": [
+            "제가"
+          ],
+          "semantic_queries": [
+            "1인칭 대명사 '저'에 주격 조사 '가'가 결합한 형태"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE003A:u4",
+          "text": "닫을까요",
+          "span": [
+            8,
+            12
+          ],
+          "kind": "서술부",
+          "parent_index": 0,
+          "meaning": "닫는 행동을 제안하며 묻는 종결 어미",
+          "form_queries": [
+            "닫을까요",
+            "닫다"
+          ],
+          "semantic_queries": [
+            "동사 '닫다'의 어간 '닫-'에 의문형 종결 어미 '-ㄹ까요'가 결합한 형태",
+            "제안이나 의도를 묻는 문법적 기능"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "ADVCE003B",
+      "input": "이 문이 저절로 닫힐까요?",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "주어 '이 문'의 지시 대명사 '이'와 명사 '문'의 세부 의미 분석은 생략한다.",
+      "clauses": [
+        {
+          "clause_id": "ADVCE003B:c1",
+          "predicate_complex_id": "ADVCE003B:c1:predicate",
+          "text": "이 문이 저절로 닫힐까요?",
+          "span": [
+            0,
+            14
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "interrogative",
+            "question_type": "polar",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "닫다",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "speech_act": null,
+            "subject_person": "third",
+            "response_orientation": "addressee"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "modal",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "선어말어미 -겠-이 결합하여 추측/가능성을 나타내며, 의문 어미 -ㄹ까요로 종결된다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "ADVCE003B:u1",
+          "text": "이 문이 저절로 닫힐까요?",
+          "span": [
+            0,
+            14
+          ],
+          "kind": "interrogative_sentence",
+          "parent_index": null,
+          "meaning": "문이 저절로 닫히는지에 대한 예의 있는 질문",
+          "form_queries": [
+            "닫힐까요",
+            "닫다",
+            "-겠-"
+          ],
+          "semantic_queries": [
+            "자동으로 닫히다",
+            "가능성 질문",
+            "예의 있는 의문"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE003B:u2",
+          "text": "닫힐까요",
+          "span": [
+            9,
+            13
+          ],
+          "kind": "predicate_phrase",
+          "parent_index": 0,
+          "meaning": "닫히다 + 추측/가능성 선어말어미 + 의문 종결어미",
+          "form_queries": [
+            "닫힐까요",
+            "닫히다",
+            "-겠-"
+          ],
+          "semantic_queries": [
+            "닫히다",
+            "추측",
+            "의문"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "ADVCE005A",
+      "input": "그 사람은 제 동료예요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "분석되지 않은 구조 없음.",
+      "clauses": [
+        {
+          "clause_id": "ADVCE005A:c1",
+          "predicate_complex_id": "ADVCE005A:c1:predicate",
+          "text": "그 사람은 제 동료예요.",
+          "span": [
+            0,
+            13
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "copula",
+            "host_class": "nominal_copula",
+            "host_form": "이다",
+            "sentence_type": "declarative",
+            "subject_person": "third",
+            "nominal_coda": "absent",
+            "stem_vowel": "a",
+            "stem_coda": "absent"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {},
+          "scope_note": "체언 '동료' 뒤에 결합한 평서형 종결 어미 '-예요'는 '이다'의 활용형이다. '동료'의 받침이 없으므로 '-예요'가 결합했다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "ADVCE005A:u1",
+          "text": "그 사람은 제 동료예요.",
+          "span": [
+            0,
+            13
+          ],
+          "kind": "문장",
+          "parent_index": null,
+          "meaning": "그 사람이 화자의 동료임을 서술하는 문장",
+          "form_queries": [
+            "그 사람은 제 동료예요."
+          ],
+          "semantic_queries": [
+            "제3자 화자 동료 평서문"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE005A:u2",
+          "text": "그 사람은",
+          "span": [
+            0,
+            5
+          ],
+          "kind": "주어",
+          "parent_index": 0,
+          "meaning": "문장의 주체, 제3자",
+          "form_queries": [
+            "그 사람",
+            "은"
+          ],
+          "semantic_queries": [
+            "제3자 지시 대명사",
+            "주격 조사"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE005A:u3",
+          "text": "제 동료예요",
+          "span": [
+            6,
+            12
+          ],
+          "kind": "서술부",
+          "parent_index": 0,
+          "meaning": "화자의 동료임을 나타내는 서술",
+          "form_queries": [
+            "제",
+            "동료",
+            "예요"
+          ],
+          "semantic_queries": [
+            "소유 대명사",
+            "명사",
+            "평서형 종결 어미"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "ADVCE005B",
+      "input": "그 사람은 제 동료를 도와요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "분석되지 않은 구조 없음.",
+      "clauses": [
+        {
+          "clause_id": "ADVCE005B:c1",
+          "predicate_complex_id": "ADVCE005B:c1:predicate",
+          "text": "그 사람은 제 동료를 도와요.",
+          "span": [
+            0,
+            16
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "declarative",
+            "question_type": null,
+            "host_class": "predicate_other_than_anida",
+            "nominal_coda": null,
+            "host_form": "도와요",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "meaning": "제 동료를 돕는다는 사실을 서술함",
+            "speech_act": null,
+            "action_participants": null,
+            "intention_holder": null,
+            "beneficiary": null,
+            "subject_person": "third",
+            "clause_relation": null,
+            "response_orientation": null,
+            "following_predicate_role": null,
+            "construction_kind": null,
+            "source_form": "도와요",
+            "quotation_type": null
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "주어 '그 사람'은 3인칭이나, 서술어 '도와요'에는 주체 높임 선어말어미 -시-가 결합하지 않았다. 종결어미 -아요는 청자 높임(반말이 아닌 존댓말)을 나타낸다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "ADVCE005B:u1",
+          "text": "그 사람은 제 동료를 도와요.",
+          "span": [
+            0,
+            16
+          ],
+          "kind": "문장",
+          "parent_index": null,
+          "meaning": "그 사람이 제 동료를 돕는다는 평서문",
+          "form_queries": [
+            "그 사람은 제 동료를 도와요."
+          ],
+          "semantic_queries": [
+            "3인칭 주어가 1인칭 소유 목적어를 돕는다는 평서문"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE005B:u2",
+          "text": "그 사람은",
+          "span": [
+            0,
+            5
+          ],
+          "kind": "주어",
+          "parent_index": 0,
+          "meaning": "행위의 주체, 3인칭",
+          "form_queries": [
+            "그 사람",
+            "그 사람은"
+          ],
+          "semantic_queries": [
+            "3인칭 지시명사",
+            "주격 조사"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE005B:u3",
+          "text": "제 동료를",
+          "span": [
+            6,
+            11
+          ],
+          "kind": "목적어",
+          "parent_index": 0,
+          "meaning": "도움의 대상, 화자의 동료",
+          "form_queries": [
+            "제 동료",
+            "제 동료를"
+          ],
+          "semantic_queries": [
+            "1인칭 소유 대명사",
+            "목적격 조사"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE005B:u4",
+          "text": "도와요",
+          "span": [
+            12,
+            15
+          ],
+          "kind": "서술어",
+          "parent_index": 0,
+          "meaning": "돕다의 현재 평서형, 청자 높임",
+          "form_queries": [
+            "도와요",
+            "돕다"
+          ],
+          "semantic_queries": [
+            "보조동사 돕다",
+            "현재시제",
+            "존댓말"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "ADVCE006A",
+      "input": "저는 그 내용을 설명했어요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "분석되지 않은 구조 없음.",
+      "clauses": [
+        {
+          "clause_id": "ADVCE006A:c1",
+          "predicate_complex_id": "ADVCE006A:c1:predicate",
+          "text": "저는 그 내용을 설명했어요.",
+          "span": [
+            0,
+            15
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "declarative",
+            "question_type": null,
+            "host_class": "predicate_other_than_anida",
+            "nominal_coda": null,
+            "host_form": "설명하다",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "meaning": "과거에 설명했다는 사실의 보고",
+            "speech_act": null,
+            "action_participants": null,
+            "intention_holder": null,
+            "beneficiary": null,
+            "subject_person": "first",
+            "clause_relation": null,
+            "response_orientation": null,
+            "following_predicate_role": null,
+            "construction_kind": null,
+            "source_form": "설명했어요",
+            "quotation_type": null
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "종결 어미 '-요'는 반말/존경체 경계에서 존칭으로 해석되며, 선어말 '-았-'은 '-었-'으로 정규화됨.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "ADVCE006A:u1",
+          "text": "저는 그 내용을 설명했어요.",
+          "span": [
+            0,
+            15
+          ],
+          "kind": "문장",
+          "parent_index": null,
+          "meaning": "화자가 그 내용을 설명했다는 과거의 사실을 보고하는 문장",
+          "form_queries": [
+            "저는 그 내용을 설명했어요."
+          ],
+          "semantic_queries": [
+            "1인칭 주어가 목적어를 설명했다는 과거 평서문"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE006A:u2",
+          "text": "저는",
+          "span": [
+            0,
+            2
+          ],
+          "kind": "주어",
+          "parent_index": 0,
+          "meaning": "1인칭 대명사 '저'와 조사 '는'으로 이루어진 주어",
+          "form_queries": [
+            "저는"
+          ],
+          "semantic_queries": [
+            "1인칭 화자를 가리키는 주어"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE006A:u3",
+          "text": "그 내용을",
+          "span": [
+            3,
+            8
+          ],
+          "kind": "목적어",
+          "parent_index": 0,
+          "meaning": "지시대명사 '그'와 명사 '내용', 조사 '을'로 이루어진 목적어",
+          "form_queries": [
+            "그 내용을"
+          ],
+          "semantic_queries": [
+            "앞서 언급된 내용을 가리키는 목적어"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE006A:u4",
+          "text": "설명했어요",
+          "span": [
+            9,
+            14
+          ],
+          "kind": "서술어",
+          "parent_index": 0,
+          "meaning": "동사 '설명하다'의 과거 종결형",
+          "form_queries": [
+            "설명하다",
+            "설명했어요"
+          ],
+          "semantic_queries": [
+            "과거에 설명했다는 의미를 가진 서술어"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "ADVCE006B",
+      "input": "나는 그 내용을 설명했어요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "주어 '나는'과 목적어 '그 내용을'은 문맥상 명확하므로 별도 분석 단위로 분리하지 않고 문장 전체의 의미 구성으로 처리했다.",
+      "clauses": [
+        {
+          "clause_id": "ADVCE006B:c1",
+          "predicate_complex_id": "ADVCE006B:c1:predicate",
+          "text": "나는 그 내용을 설명했어요.",
+          "span": [
+            0,
+            15
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "설명하다",
+            "sentence_type": "declarative",
+            "speech_act": null,
+            "subject_person": "first",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "meaning": "과거에 화자가 특정 내용을 설명했다는 사실의 보고"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "종결 어미 '-요'는 반말이 아닌 존댓말(합쇼체/해요체 경계)로 분석되며, 선어말 '-았-'은 '-었-'으로 정규화했다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "ADVCE006B:u1",
+          "text": "나는 그 내용을 설명했어요.",
+          "span": [
+            0,
+            15
+          ],
+          "kind": "문장 전체",
+          "parent_index": null,
+          "meaning": "화자가 과거에 특정 내용을 설명했다는 평서문",
+          "form_queries": [
+            "설명했어요",
+            "설명하다 + -았- + -어요"
+          ],
+          "semantic_queries": [
+            "과거의 설명 행위 보고",
+            "1인칭 주체의 과거 행동 서술"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE006B:u2",
+          "text": "설명했어요",
+          "span": [
+            9,
+            14
+          ],
+          "kind": "서술부",
+          "parent_index": 0,
+          "meaning": "과거에 설명했다는 의미를 담는 용언 구성",
+          "form_queries": [
+            "설명했어요",
+            "설명 + -았- + -어요"
+          ],
+          "semantic_queries": [
+            "과거 시제와 존댓말 종결 어미 결합",
+            "설명하다 동사의 과거형 활용"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "ADVCE008A",
+      "input": "제가 지금 읽는 책을 빌려드릴게요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "분석 범위는 종결 서술부와 주요 관형절에 한정됩니다. '제가'의 주격 조사와 '책을'의 목적격 조사는 별도 의미 구성으로 분리하지 않고 문장 전체에 포함시켰습니다.",
+      "clauses": [
+        {
+          "clause_id": "ADVCE008A:c1",
+          "predicate_complex_id": "ADVCE008A:c1:predicate",
+          "text": "제가 지금 읽는 책을 빌려드릴게요.",
+          "span": [
+            0,
+            19
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "빌려드리다",
+            "sentence_type": "declarative",
+            "speech_act": "state_intention",
+            "subject_person": "first",
+            "intention_holder": "speaker",
+            "beneficiary": "speaker",
+            "source_form": "빌려드릴게요"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "modal",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "'빌려드리다'는 '빌리다'와 '주다'의 결합으로, 수혜 의미를 포함합니다. '-ㄹ게요'는 화자의 의지를 나타내는 종결 어미입니다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "ADVCE008A:u1",
+          "text": "제가 지금 읽는 책을 빌려드릴게요.",
+          "span": [
+            0,
+            19
+          ],
+          "kind": "문장 전체",
+          "parent_index": null,
+          "meaning": "화자가 현재 읽고 있는 책을 청자에게 빌려주겠다는 의도를 밝히는 문장",
+          "form_queries": [
+            "빌려드릴게요",
+            "읽는 책을"
+          ],
+          "semantic_queries": [
+            "의지 표현",
+            "수혜 의미 포함",
+            "현재 진행 관형절"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE008A:u2",
+          "text": "읽는",
+          "span": [
+            6,
+            8
+          ],
+          "kind": "관형형 어미",
+          "parent_index": 0,
+          "meaning": "현재 진행 중인 행위를 나타내며, '책'을 수식함",
+          "form_queries": [
+            "읽-는"
+          ],
+          "semantic_queries": [
+            "현재 진행",
+            "관형형"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE008A:u3",
+          "text": "빌려드릴게요",
+          "span": [
+            12,
+            18
+          ],
+          "kind": "종결 서술부",
+          "parent_index": 0,
+          "meaning": "빌려주겠다는 의지를 나타냄",
+          "form_queries": [
+            "빌려드리-ㄹ게요",
+            "빌려 주다"
+          ],
+          "semantic_queries": [
+            "의지",
+            "수혜",
+            "친근한 높임"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "ADVCE008B",
+      "input": "제가 전에 읽던 책을 빌려드릴게요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "관형절 '전에 읽던'의 내부 시제/양태 분석은 본 종결 서술부 분석 범위에서 제외됨.",
+      "clauses": [
+        {
+          "clause_id": "ADVCE008B:c1",
+          "predicate_complex_id": "ADVCE008B:c1:predicate",
+          "text": "제가 전에 읽던 책을 빌려드릴게요.",
+          "span": [
+            0,
+            19
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "빌려드리다",
+            "sentence_type": "declarative",
+            "speech_act": "state_intention",
+            "subject_person": "first",
+            "beneficiary": "speaker",
+            "intention_holder": "speaker",
+            "action_participants": "speaker_and_addressee",
+            "source_form": "빌려드릴게요"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "modal",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "'-ㄹ게요'는 화자의 의도/약속을 나타내는 양태 표현으로 분석됨. '드리다'는 주체 높임이 아닌 수혜자(청자)를 위한 높임 표현으로 기능함.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "ADVCE008B:u1",
+          "text": "제가 전에 읽던 책을 빌려드릴게요.",
+          "span": [
+            0,
+            19
+          ],
+          "kind": "문장 전체",
+          "parent_index": null,
+          "meaning": "화자가 이전에 읽었던 책을 청자에게 빌려주겠다는 의도를 표명하는 문장",
+          "form_queries": [
+            "빌려드릴게요",
+            "빌려드리다 + -ㄹ게요"
+          ],
+          "semantic_queries": [
+            "의도 표현",
+            "빌려주다",
+            "높임 표현"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE008B:u2",
+          "text": "전에 읽던",
+          "span": [
+            3,
+            8
+          ],
+          "kind": "관형절",
+          "parent_index": 0,
+          "meaning": "책의 속성을 나타내는 관형절, '전에 읽었던'이라는 과거 경험의 지속/상태를 나타냄",
+          "form_queries": [
+            "읽다 + -던",
+            "관형형 어미 -던"
+          ],
+          "semantic_queries": [
+            "과거 경험",
+            "관형형"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE008B:u3",
+          "text": "빌려드릴게요",
+          "span": [
+            12,
+            18
+          ],
+          "kind": "종결 서술부",
+          "parent_index": 0,
+          "meaning": "빌려주다(본용언) + 드리다(보조용언, 높임) + -ㄹ게요(의도/약속 종결어미)",
+          "form_queries": [
+            "빌려드리다",
+            "-ㄹ게요",
+            "드리다"
+          ],
+          "semantic_queries": [
+            "의도 표명",
+            "수혜자 높임",
+            "빌려주다"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "ADVCE010A",
+      "input": "그 서류는 이미 제출하셨죠?",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "주어 '그 서류'와 부사 '이미'는 별도 분석 단위로 분리하지 않고 문장 전체 의미에 포함하여 처리했다.",
+      "clauses": [
+        {
+          "clause_id": "ADVCE010A:c1",
+          "predicate_complex_id": "ADVCE010A:c1:predicate",
+          "text": "그 서류는 이미 제출하셨죠?",
+          "span": [
+            0,
+            15
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "interrogative",
+            "question_type": "polar",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "제출하다",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "speech_act": "ask_intention",
+            "subject_person": "second",
+            "response_orientation": "addressee"
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "si",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "주어 '그 서류'는 3인칭 사물이나, 행위의 주체(제출하는 사람)는 청자(2인칭)로 해석되어 subject_person을 second로 판정했다. '하셨죠'는 -시-와 -었- 선어말어미와 -죠 종결어미가 결합한 형태이다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "ADVCE010A:u1",
+          "text": "그 서류는 이미 제출하셨죠?",
+          "span": [
+            0,
+            15
+          ],
+          "kind": "문장 전체",
+          "parent_index": null,
+          "meaning": "청자가 서류를 이미 제출했는지 확인하는 의문문",
+          "form_queries": [
+            "제출하다",
+            "제출하셨죠"
+          ],
+          "semantic_queries": [
+            "과거 완료 확인 질문",
+            "주체 높임 포함 의문문"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE010A:u2",
+          "text": "제출하셨죠",
+          "span": [
+            9,
+            14
+          ],
+          "kind": "서술부",
+          "parent_index": 0,
+          "meaning": "제출했다는 과거 사실을 확인하는 서술",
+          "form_queries": [
+            "제출하다",
+            "제출하셨죠"
+          ],
+          "semantic_queries": [
+            "주체 높임 과거 의문 종결"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "ADVCE010B",
+      "input": "그 서류는 이미 제출하셨죠.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "주어 '그 서류'와 부사 '이미'는 별도 분석 대상이 아니므로 생략함.",
+      "clauses": [
+        {
+          "clause_id": "ADVCE010B:c1",
+          "predicate_complex_id": "ADVCE010B:c1:predicate",
+          "text": "그 서류는 이미 제출하셨죠.",
+          "span": [
+            0,
+            15
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "sentence_type": "interrogative",
+            "question_type": "polar",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "제출하다",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "speech_act": "ask_intention",
+            "subject_person": "second",
+            "source_form": "제출하셨죠"
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "si",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "종결 어미 '-죠'는 화자의 추측을 바탕으로 청자의 확인을 구하는 의문 표현이다. '-시-'는 주체 높임, '-었-'은 과거 시제 선어말어미이다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "ADVCE010B:u1",
+          "text": "그 서류는 이미 제출하셨죠.",
+          "span": [
+            0,
+            15
+          ],
+          "kind": "문장",
+          "parent_index": null,
+          "meaning": "청자가 서류를 이미 제출했다는 사실을 확인하는 의문문",
+          "form_queries": [
+            "제출하셨죠"
+          ],
+          "semantic_queries": [
+            "과거 행위의 확인 요청",
+            "추측형 의문문"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "ADVCE010B:u2",
+          "text": "제출하셨죠",
+          "span": [
+            9,
+            14
+          ],
+          "kind": "서술부",
+          "parent_index": 0,
+          "meaning": "제출하다 + 시 + 었 + 죠",
+          "form_queries": [
+            "제출하다",
+            "제출하셨죠"
+          ],
+          "semantic_queries": [
+            "높임법과 과거 시제가 결합된 종결 표현"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "QUAL002",
+      "input": "그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "문장 전체가 하나의 종결 서술부로 분석되며, 별도 연결절은 없다. '그런데'는 문두 접속 부사로 취급되어 독립적인 절로 분리하지 않았다.",
+      "clauses": [
+        {
+          "clause_id": "QUAL002:c1",
+          "predicate_complex_id": "QUAL002:c1:predicate",
+          "text": "그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요.",
+          "span": [
+            0,
+            54
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "copula",
+            "host_class": "nominal_copula",
+            "host_form": "이다",
+            "sentence_type": "declarative",
+            "speech_act": null,
+            "subject_person": "first",
+            "nominal_coda": "present",
+            "stem_coda": "absent",
+            "stem_vowel": "a",
+            "meaning": "배움의 눈을 뜨게 된 것임을 서술",
+            "source_form": "된 거예요"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {},
+          "scope_note": "서술부는 '된 거예요'로, 의존명사 '거'와 결합된 '이다'의 활용형이다. '뜨게'는 관형형 어미 '-게'가 결합한 형태이며, 이는 '눈'을 수식하는 관형절 내부의 형태이므로 주절의 선어말어미 목록에는 포함하지 않는다. '된'은 '되다'의 관형형 어미 '-ㄴ'이다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "QUAL002:u1",
+          "text": "그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요.",
+          "span": [
+            0,
+            54
+          ],
+          "kind": "문장 전체",
+          "parent_index": null,
+          "meaning": "대학 졸업 후 사회생활을 하면서 배움의 눈을 늦게 떴다는 회고",
+          "form_queries": [
+            "그런데",
+            "졸업하고",
+            "사회생활을 하면서",
+            "배움의 눈을 뜨게 된 거예요"
+          ],
+          "semantic_queries": [
+            "회고적 서술",
+            "시간 경과와 변화",
+            "배움의 시작"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL002:u2",
+          "text": "대학을 졸업하고",
+          "span": [
+            7,
+            15
+          ],
+          "kind": "연결절 (동사+연결어미)",
+          "parent_index": 0,
+          "meaning": "대학을 졸업한 후",
+          "form_queries": [
+            "졸업하다",
+            "-고"
+          ],
+          "semantic_queries": [
+            "순차적 사건",
+            "대학 졸업"
+          ],
+          "features": {
+            "clause_relation": "retrospective_sequence"
+          }
+        },
+        {
+          "unit_id": "QUAL002:u3",
+          "text": "사회생활을 하면서",
+          "span": [
+            16,
+            25
+          ],
+          "kind": "연결절 (명사+조사+동사+연결어미)",
+          "parent_index": 0,
+          "meaning": "사회생활을 하는 동안",
+          "form_queries": [
+            "사회생활",
+            "하면서"
+          ],
+          "semantic_queries": [
+            "동시적 상황",
+            "사회생활 중"
+          ],
+          "features": {
+            "clause_relation": "simultaneous_action"
+          }
+        },
+        {
+          "unit_id": "QUAL002:u4",
+          "text": "배움의 눈을 뜨게 된 거예요",
+          "span": [
+            38,
+            53
+          ],
+          "kind": "주절 서술부 (관형절+의존명사+계사)",
+          "parent_index": 0,
+          "meaning": "배움의 눈을 뜨게 된 것임을 나타냄",
+          "form_queries": [
+            "눈을 뜨다",
+            "-게",
+            "-ㄴ",
+            "거예요"
+          ],
+          "semantic_queries": [
+            "깨달음",
+            "배움의 시작",
+            "과거 완료"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL002:u5",
+          "text": "배움의 눈을 뜨게",
+          "span": [
+            38,
+            47
+          ],
+          "kind": "관형절 (관용 표현+관형형 어미)",
+          "parent_index": 3,
+          "meaning": "배움의 눈을 뜨게 (된)",
+          "form_queries": [
+            "눈을 뜨다",
+            "-게"
+          ],
+          "semantic_queries": [
+            "관용 표현",
+            "깨달음"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "QUAL003",
+      "input": "제가 좀 어떻게 보면 과를 잘못 선정해가지고 이십 대는 거의 시간을 날리면서 보낸 것 같아요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "어미 '해가지고'의 정확한 문법적 분류(연결어미 -아/어 가지고의 구어적 축약인지, 관용적 인과 연결인지)는 원문만으로는 표준어 규격과의 정합성이 불명확하여 별도 분석을 보류한다.",
+      "clauses": [
+        {
+          "clause_id": "QUAL003:c1",
+          "predicate_complex_id": "QUAL003:c1:predicate",
+          "text": "제가 좀 어떻게 보면 과를 잘못 선정해가지고 이십 대는 거의 시간을 날리면서 보낸 것 같아요.",
+          "span": [
+            0,
+            52
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "copula",
+            "host_class": "nominal_copula",
+            "host_form": "같다",
+            "sentence_type": "declarative",
+            "speech_act": null,
+            "subject_person": "first",
+            "nominal_coda": "absent",
+            "stem_vowel": "a",
+            "stem_coda": "absent"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none"
+          },
+          "scope_note": "종결 어미 '-아요'는 반말체(비격식체)의 평서형이다. '것 같아요'는 화자의 추측이나 주관적 판단을 나타내는 구성이다. 앞절 '선정해가지고'는 인과 관계를 나타내는 연결절로 해석되나, '해가지고'의 형태가 표준어 규격의 연결어미 목록에 명확히 대응되지 않아 features에 clause_relation을 기입하지 않았다.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "QUAL003:u1",
+          "text": "제가 좀 어떻게 보면 과를 잘못 선정해가지고 이십 대는 거의 시간을 날리면서 보낸 것 같아요.",
+          "span": [
+            0,
+            52
+          ],
+          "kind": "문장 전체",
+          "parent_index": null,
+          "meaning": "화자가 과를 잘못 선택하여 20대 시간을 낭비했다고 느끼는 내용을 담은 평서문",
+          "form_queries": [
+            "선정해가지고",
+            "날리면서",
+            "보낸 것 같아요"
+          ],
+          "semantic_queries": [
+            "인과 관계 연결어미",
+            "동시성 연결어미",
+            "추측/판단 표현"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL003:u2",
+          "text": "제가 좀 어떻게 보면 과를 잘못 선정해가지고",
+          "span": [
+            0,
+            24
+          ],
+          "kind": "인과 연결절",
+          "parent_index": 0,
+          "meaning": "과를 잘못 선택했다는 원인을 나타내는 절",
+          "form_queries": [
+            "선정해가지고"
+          ],
+          "semantic_queries": [
+            "인과 관계",
+            "구어적 인과 연결"
+          ],
+          "features": {
+            "clause_relation": "cause"
+          }
+        },
+        {
+          "unit_id": "QUAL003:u3",
+          "text": "선정해가지고",
+          "span": [
+            18,
+            24
+          ],
+          "kind": "연결 용언 구성",
+          "parent_index": 1,
+          "meaning": "선정하다 + 해가지고(인과 연결)",
+          "form_queries": [
+            "선정하다",
+            "해가지고"
+          ],
+          "semantic_queries": [
+            "인과 연결어미",
+            "구어체 인과 표현"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL003:u4",
+          "text": "이십 대는 거의 시간을 날리면서 보낸",
+          "span": [
+            25,
+            45
+          ],
+          "kind": "관형절",
+          "parent_index": 0,
+          "meaning": "20대 동안 시간을 낭비하면서 보냈다는 내용을 '것'을 수식하는 관형절",
+          "form_queries": [
+            "날리면서",
+            "보낸"
+          ],
+          "semantic_queries": [
+            "동시성 연결",
+            "과거 관형형"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL003:u5",
+          "text": "날리면서",
+          "span": [
+            38,
+            42
+          ],
+          "kind": "연결 용언",
+          "parent_index": 3,
+          "meaning": "시간을 낭비하는 행위가 '보내다'와 동시에 일어남을 나타냄",
+          "form_queries": [
+            "날리다",
+            "-면서"
+          ],
+          "semantic_queries": [
+            "동시성 연결어미"
+          ],
+          "features": {
+            "clause_relation": "simultaneous_action"
+          }
+        },
+        {
+          "unit_id": "QUAL003:u6",
+          "text": "보낸",
+          "span": [
+            43,
+            45
+          ],
+          "kind": "관형형 용언",
+          "parent_index": 3,
+          "meaning": "보내다의 과거 관형형",
+          "form_queries": [
+            "보내다",
+            "-ㄴ"
+          ],
+          "semantic_queries": [
+            "과거 관형형"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL003:u7",
+          "text": "것 같아요",
+          "span": [
+            46,
+            51
+          ],
+          "kind": "추측/판단 종결 구성",
+          "parent_index": 0,
+          "meaning": "화자의 주관적 판단이나 추측을 나타내는 종결 표현",
+          "form_queries": [
+            "같다",
+            "-아요"
+          ],
+          "semantic_queries": [
+            "추측 표현",
+            "주관적 판단"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "QUAL005",
+      "input": "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "명사구 '대학교 졸업반 애들이'의 내부 수식 관계는 별도 분석 대상이 아님.",
+      "clauses": [
+        {
+          "clause_id": "QUAL005:c1",
+          "predicate_complex_id": "QUAL005:c1:predicate",
+          "text": "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어요.",
+          "span": [
+            0,
+            33
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "copula",
+            "host_class": "nominal_copula",
+            "host_form": "이다",
+            "sentence_type": "declarative",
+            "speech_act": null,
+            "subject_person": "third",
+            "nominal_coda": "present",
+            "source_form": "이에요"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "주어 '애들이'의 받침 'ㄹ'이 있어 '이에요'로 실현됨. 선어말 '-었-'은 과거 시제를 나타냄.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "QUAL005:u1",
+          "text": "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어요.",
+          "span": [
+            0,
+            33
+          ],
+          "kind": "문장",
+          "parent_index": null,
+          "meaning": "과거에 화자와 함께 공부했던 사람들이 대학교 졸업반이었다는 서술",
+          "form_queries": [
+            "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어요."
+          ],
+          "semantic_queries": [
+            "과거 경험 서술",
+            "동료의 학년 상태 설명"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL005:u2",
+          "text": "그때 저랑 같이 공부했던",
+          "span": [
+            0,
+            13
+          ],
+          "kind": "관형절",
+          "parent_index": 0,
+          "meaning": "주어 '애들이'를 수식하는 관형절. 과거에 화자와 함께 공부했다는 내용",
+          "form_queries": [
+            "공부했던"
+          ],
+          "semantic_queries": [
+            "과거 경험 수식",
+            "화자 포함 동반 행위"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL005:u3",
+          "text": "공부했던",
+          "span": [
+            9,
+            13
+          ],
+          "kind": "관형형",
+          "parent_index": 1,
+          "meaning": "동사 '공부하다'의 관형형. 과거 시제 포함",
+          "form_queries": [
+            "공부하다",
+            "-았-"
+          ],
+          "semantic_queries": [
+            "과거 행위",
+            "공부"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL005:u4",
+          "text": "대학교 졸업반 애들이",
+          "span": [
+            18,
+            29
+          ],
+          "kind": "명사구",
+          "parent_index": 0,
+          "meaning": "서술부의 주어. 대학교 졸업반인 아이들",
+          "form_queries": [
+            "대학교 졸업반 애들이"
+          ],
+          "semantic_queries": [
+            "대학 졸업반 학생"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL005:u5",
+          "text": "애들이었어요",
+          "span": [
+            26,
+            32
+          ],
+          "kind": "서술부",
+          "parent_index": 0,
+          "meaning": "명사 '애들'과 계사 '이다'의 결합. 과거 평서",
+          "form_queries": [
+            "이다",
+            "이에요",
+            "-었-"
+          ],
+          "semantic_queries": [
+            "과거 평서",
+            "명사 서술"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "QUAL017",
+      "input": "이번에 저는 마지막으로 도전하려고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "문장 내 '저번에', '올해까지' 등 시간 부사구의 세부 시제적 함의는 문맥에 따라 해석될 수 있어 별도 분석에서 제외함.",
+      "clauses": [
+        {
+          "clause_id": "QUAL017:c1",
+          "predicate_complex_id": "QUAL017:c1:predicate",
+          "text": "이번에 저는 마지막으로 도전하려고 하거든요.",
+          "span": [
+            0,
+            24
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "하다",
+            "sentence_type": "declarative",
+            "speech_act": "state_intention",
+            "intention_holder": "speaker",
+            "subject_person": "first",
+            "meaning": "마지막으로 도전하려는 의도를 설명함"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "modal",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "'-려고 하다'는 의도/계획을 나타내는 보조용언 구성이며, '-거든요'는 설명/변명하는 종결 어미임.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "QUAL017:c2",
+          "predicate_complex_id": "QUAL017:c2:predicate",
+          "text": "제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데",
+          "span": [
+            25,
+            55
+          ],
+          "role": "connective",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "되다",
+            "sentence_type": "declarative",
+            "clause_relation": "cause",
+            "meaning": "2년째가 된다는 사실을 근거로 제시함"
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "present",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "'-면'은 조건/가정 연결어미, '-는데'는 원인/이유를 설명하는 연결어미로 분석됨.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "QUAL017:c3",
+          "predicate_complex_id": "QUAL017:c3:predicate",
+          "text": "2년 해 보고 안 되면 저도 다른 일 하려고요.",
+          "span": [
+            56,
+            82
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "하다",
+            "sentence_type": "declarative",
+            "speech_act": "state_intention",
+            "intention_holder": "speaker",
+            "subject_person": "first",
+            "meaning": "2년 후 실패 시 다른 일을 하겠다는 의도"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "modal",
+          "preserved_candidate_features": {
+            "prefinal_profile": "none",
+            "preceding_form": "verb_stem_direct"
+          },
+          "scope_note": "'-고'는 순차/동시 연결, '-면'은 조건, '-요'는 존칭 종결 어미임. '안 되면'은 부정 조건절임.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "QUAL017:u1",
+          "text": "이번에 저는 마지막으로 도전하려고 하거든요.",
+          "span": [
+            0,
+            24
+          ],
+          "kind": "문장",
+          "parent_index": null,
+          "meaning": "마지막 도전 의도를 밝히는 문장",
+          "form_queries": [
+            "도전하려고 하거든요"
+          ],
+          "semantic_queries": [
+            "의도 표현",
+            "설명 종결 어미"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL017:u2",
+          "text": "도전하려고 하거든요",
+          "span": [
+            13,
+            23
+          ],
+          "kind": "서술부",
+          "parent_index": 0,
+          "meaning": "도전하려는 의도를 설명함",
+          "form_queries": [
+            "-려고 하다",
+            "-거든요"
+          ],
+          "semantic_queries": [
+            "의도 보조용언",
+            "설명/변명 종결"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL017:u3",
+          "text": "제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데",
+          "span": [
+            25,
+            55
+          ],
+          "kind": "연결절",
+          "parent_index": null,
+          "meaning": "2년째가 된다는 근거 제시",
+          "form_queries": [
+            "이 년째 되는데"
+          ],
+          "semantic_queries": [
+            "원인/이유 연결",
+            "시간 계산 설명"
+          ],
+          "features": {
+            "clause_relation": "cause"
+          }
+        },
+        {
+          "unit_id": "QUAL017:u4",
+          "text": "2년 해 보고 안 되면 저도 다른 일 하려고요.",
+          "span": [
+            56,
+            82
+          ],
+          "kind": "문장",
+          "parent_index": null,
+          "meaning": "실패 시 다른 일 전환 의도",
+          "form_queries": [
+            "다른 일 하려고요"
+          ],
+          "semantic_queries": [
+            "조건부 의도",
+            "존칭 종결"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL017:u5",
+          "text": "안 되면",
+          "span": [
+            64,
+            68
+          ],
+          "kind": "조건절",
+          "parent_index": 3,
+          "meaning": "실패라는 조건",
+          "form_queries": [
+            "안 되다",
+            "-면"
+          ],
+          "semantic_queries": [
+            "부정 조건"
+          ],
+          "features": {
+            "clause_relation": "condition"
+          }
+        }
+      ]
+    },
+    {
+      "id": "QUAL018",
+      "input": "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "없음",
+      "clauses": [
+        {
+          "clause_id": "QUAL018:c1",
+          "predicate_complex_id": "QUAL018:c1:predicate",
+          "text": "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데",
+          "span": [
+            0,
+            28
+          ],
+          "role": "connective",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "알다",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "sentence_type": "declarative",
+            "clause_relation": "cause",
+            "meaning": "앞절의 생각(열심히 했다는 인식)이 뒤절의 기대(합격할 줄 알았음)의 원인이나 근거가 됨",
+            "subject_person": "first"
+          },
+          "observed_politeness": "unknown",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "연결어미 -는데는 앞절의 내용을 제시하고 뒤절과 대조하거나 원인을 설명하는 기능을 함. '합격 할 줄 알았는데'는 과거의 인식/기대를 나타냄.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        },
+        {
+          "clause_id": "QUAL018:c2",
+          "predicate_complex_id": "QUAL018:c2:predicate",
+          "text": "제가 시험 당일 날 좀 아팠어요.",
+          "span": [
+            29,
+            47
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "adjective",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "아프다",
+            "stem_vowel": "a",
+            "stem_coda": "absent",
+            "sentence_type": "declarative",
+            "speech_act": null,
+            "subject_person": "first"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "종결어미 -요는 반말/존경체 경계에서 존칭으로 사용됨. '아팠어요'는 과거의 상태(건강 이상)를 서술.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "QUAL018:u1",
+          "text": "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어요.",
+          "span": [
+            0,
+            47
+          ],
+          "kind": "문장 전체",
+          "parent_index": null,
+          "meaning": "화자의 과거 인식과 실제 경험(건강 문제)을 연결하여 설명하는 문장",
+          "form_queries": [
+            "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어요."
+          ],
+          "semantic_queries": [
+            "과거의 기대와 실제 상황의 대조",
+            "시험 당일 건강 문제로 인한 결과 설명"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL018:u2",
+          "text": "처음엔 열심히 했다고 생각해서",
+          "span": [
+            0,
+            16
+          ],
+          "kind": "연결절(원인/근거)",
+          "parent_index": 0,
+          "meaning": "화자가 처음에 열심히 했다고 생각했다는 내용",
+          "form_queries": [
+            "처음엔 열심히 했다고 생각해서"
+          ],
+          "semantic_queries": [
+            "과거의 자기 평가",
+            "열심히 했다는 인식"
+          ],
+          "features": {
+            "clause_relation": "cause"
+          }
+        },
+        {
+          "unit_id": "QUAL018:u3",
+          "text": "합격 할 줄 알았는데",
+          "span": [
+            17,
+            28
+          ],
+          "kind": "연결절(기대/인식)",
+          "parent_index": 0,
+          "meaning": "합격할 것이라고 예상했다는 내용",
+          "form_queries": [
+            "합격 할 줄 알았는데"
+          ],
+          "semantic_queries": [
+            "과거의 예측",
+            "합격에 대한 기대"
+          ],
+          "features": {
+            "clause_relation": "cause"
+          }
+        },
+        {
+          "unit_id": "QUAL018:u4",
+          "text": "제가 시험 당일 날 좀 아팠어요.",
+          "span": [
+            29,
+            47
+          ],
+          "kind": "주절(서술)",
+          "parent_index": 0,
+          "meaning": "시험 당일 화자가 건강이 좋지 않았다는 서술",
+          "form_queries": [
+            "제가 시험 당일 날 좀 아팠어요."
+          ],
+          "semantic_queries": [
+            "과거의 건강 상태",
+            "시험 당일의 상황"
+          ],
+          "features": {}
+        }
+      ]
+    },
+    {
+      "id": "QUAL020",
+      "input": "자격증이 많으면 전문성은 높아지는 것 같은데 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어요.",
+      "preservation_note": "원문의 의미·부정·발화 의도·청자 높임·주체 높임·시제를 보존하세요. 형태 분석 미확인은 허용 조건이 아닙니다.",
+      "unqueried_structure_note": "문장 전체가 하나의 긴 복합문으로, '것 같은데'와 '것 같다고'라는 두 가지 추측 표현이 중첩되어 있다. '생각이 들었어요'라는 보고/인지 서술부가 최종 종결을 이룬다.",
+      "clauses": [
+        {
+          "clause_id": "QUAL020:c1",
+          "predicate_complex_id": "QUAL020:c1:predicate",
+          "text": "자격증이 많으면 전문성은 높아지는 것 같은데 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어요.",
+          "span": [
+            0,
+            79
+          ],
+          "role": "main",
+          "features": {
+            "host_pos": "verb",
+            "host_class": "predicate_other_than_anida",
+            "host_form": "생각이 들다",
+            "sentence_type": "declarative",
+            "speech_act": "state_intention",
+            "subject_person": "first",
+            "meaning": "화자가 특정 상황에 대해 추측하고 그 생각을 전달함",
+            "source_form": "생각이 들었어요"
+          },
+          "observed_politeness": "polite",
+          "observed_subject_honorific": "not_observed",
+          "tense_or_modality": "past",
+          "preserved_candidate_features": {
+            "prefinal_profile": "switching_prefinal_present",
+            "preceding_form": "-었-"
+          },
+          "scope_note": "종결 어미 '-요'는 반말이 아닌 존댓말(합쇼체/해요체 혼합 경향의 해요체)로 분석됨. '-았-'은 '-었-'으로 정규화. '생각이 들다'는 보조동사적 의미의 인지 표현.",
+          "candidate_analysis_limit": "Kiwi의 원문 결속 형태 분석으로 지원되는 선어말만 구성 가정에 사용. 형태 분석 자체의 오분석은 가능하며 미지원·융합형은 보류.",
+          "annotations": {}
+        }
+      ],
+      "source_units": [
+        {
+          "unit_id": "QUAL020:u1",
+          "text": "자격증이 많으면 전문성은 높아지는 것 같은데 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어요.",
+          "span": [
+            0,
+            79
+          ],
+          "kind": "복합문 전체",
+          "parent_index": null,
+          "meaning": "자격증의 양이 전문성에는 긍정적이지만, 진취적인 구직자에게는 취업 장벽이 된다는 화자의 추측적 의견",
+          "form_queries": [
+            "자격증이 많으면",
+            "전문성은 높아지는 것 같은데",
+            "취업에 장벽이 되는 것 같다고",
+            "생각이 들었어요"
+          ],
+          "semantic_queries": [
+            "자격증과 전문성의 관계",
+            "취업 장벽에 대한 의견",
+            "추측 표현의 중첩",
+            "인지 서술부"
+          ],
+          "features": {}
+        },
+        {
+          "unit_id": "QUAL020:u2",
+          "text": "자격증이 많으면",
+          "span": [
+            0,
+            8
+          ],
+          "kind": "조건절",
+          "parent_index": 0,
+          "meaning": "자격증의 수가 많다는 조건",
+          "form_queries": [
+            "자격증이 많으면"
+          ],
+          "semantic_queries": [
+            "자격증 수량",
+            "조건 관계"
+          ],
+          "features": {
+            "clause_relation": "condition",
+            "quotation_type": null
+          }
+        },
+        {
+          "unit_id": "QUAL020:u3",
+          "text": "전문성은 높아지는 것 같은데",
+          "span": [
+            9,
+            24
+          ],
+          "kind": "추측 서술절",
+          "parent_index": 0,
+          "meaning": "전문성이 높아진다는 추측",
+          "form_queries": [
+            "높아지는 것 같은데"
+          ],
+          "semantic_queries": [
+            "전문성 향상",
+            "추측 표현 '것 같다'"
+          ],
+          "features": {
+            "clause_relation": null,
+            "quotation_type": null
+          }
+        },
+        {
+          "unit_id": "QUAL020:u4",
+          "text": "오히려 진짜 그 일을 재밌어서 하려는 사람들한테는",
+          "span": [
+            25,
+            52
+          ],
+          "kind": "부사구/대상 지정",
+          "parent_index": 0,
+          "meaning": "진심으로 일을 좋아하는 구직자를 대상으로",
+          "form_queries": [
+            "재밌어서 하려는 사람들한테는"
+          ],
+          "semantic_queries": [
+            "진취적 구직자",
+            "대상 지정"
+          ],
+          "features": {
+            "clause_relation": null,
+            "quotation_type": null
+          }
+        },
+        {
+          "unit_id": "QUAL020:u5",
+          "text": "취업에 장벽이 되는 것 같다고",
+          "span": [
+            53,
+            69
+          ],
+          "kind": "인용된 추측 서술",
+          "parent_index": 0,
+          "meaning": "취업에 장벽이 된다는 추측 내용",
+          "form_queries": [
+            "장벽이 되는 것 같다고"
+          ],
+          "semantic_queries": [
+            "취업 장벽",
+            "추측 인용"
+          ],
+          "features": {
+            "clause_relation": null,
+            "quotation_type": "statement"
+          }
+        },
+        {
+          "unit_id": "QUAL020:u6",
+          "text": "생각이 들었어요",
+          "span": [
+            70,
+            78
+          ],
+          "kind": "인지 서술부",
+          "parent_index": 0,
+          "meaning": "화자가 그렇게 생각했다는 보고",
+          "form_queries": [
+            "생각이 들었어요"
+          ],
+          "semantic_queries": [
+            "인지 표현",
+            "의견 표출"
+          ],
+          "features": {
+            "clause_relation": null,
+            "quotation_type": null
+          }
+        }
+      ]
+    }
+  ]
+}

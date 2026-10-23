@@ -1,0 +1,39 @@
+{
+  "scope": "Executed K condition of the frozen 50-input experiment; conceptual figure, not a statement-level call graph",
+  "request_reconstruction_check": {
+    "P": 50,
+    "A": 50,
+    "K": 50,
+    "all_equal_to_frozen_jobs": true
+  },
+  "new_model_calls": 0,
+  "production_unchanged": true,
+  "corrections_from_prior_sketch": [
+    "Lookup routes are internal code paths, not parallel agents.",
+    "Condition checks occur during lookup.",
+    "Terminal/construction conversion proposals are composed before final candidate selection.",
+    "Final input includes preservation policy and shared instructions.",
+    "Post-generation checking and at most one repair are included.",
+    "Qwen analysis was cached in this experiment."
+  ],
+  "code_references": [
+    "kg_v2/sentence_retrieval.py:217",
+    "kg_v2/query.py:67",
+    "kg_v2/terminal_retrieval.py:20",
+    "kg_v2/transformation_plan.py:76",
+    "kg_v2/run_translation.py:26",
+    "kg_v2/preservation_check.py:91",
+    "reports/20261021_paper50/run.py:56"
+  ],
+  "frozen_jobs_sha256": "11fac4b74c8af150590ee673ac9ef498e79a0e13ba5f5d53f187e6cdf88e143c",
+  "formats": {
+    "svg": "editable, 180 mm wide",
+    "pdf": "vector, Korean fonts embedded",
+    "png": "600 dpi, 4252 x 2806 pixels"
+  },
+  "figure_sha256": {
+    "kg_pipeline_K.svg": "57d60d8f95cf96a5efbc4841f391fe24c92baaae8cac3ca4e84866e166f51d2a",
+    "kg_pipeline_K.pdf": "9ed54b74dd48d6f667c55cecf3806b437826cab29087ad677f608f879a01d914",
+    "kg_pipeline_K.png": "4c2c2005a2e79bfda912ed9481c4a139ce8d3ffd74ba27a53b78c837eca60e5d"
+  }
+}

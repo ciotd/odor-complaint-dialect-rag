@@ -1,0 +1,96 @@
+{
+  "canonical_report": "reports/20261021_paper50/report.html",
+  "deleted_html": [
+    {
+      "path": "reports/20261021_paper50/easy_report.html",
+      "sha256": "f7959db1b6adf67460d58e463e5db763245837227cb136d0b23f9cac8eb05f7d",
+      "category": "1. 최신 논문용 자료"
+    },
+    {
+      "path": "reports/20261013_user_qualification20/translations.html",
+      "sha256": "58169639524dd5899479b5cabed4f6c5a1bd915b9259b4bb55311d1c27431c6b",
+      "category": "2. 사용자 예문 20개"
+    },
+    {
+      "path": "reports/20261013_user_qualification20/comparison.html",
+      "sha256": "1a1fa48875d72cff25de9c94743717b5b59dd2d019ecb1aba7894141ae863a3d",
+      "category": "2. 사용자 예문 20개"
+    },
+    {
+      "path": "reports/20261013_user_qualification20/QUAL002_trace.html",
+      "sha256": "11c102d42c6d34ad1cc6f2500e24b10d9b0bd25db49b0cb80828313957bc289a",
+      "category": "2. 사용자 예문 20개"
+    },
+    {
+      "path": "reports/20261013_terminal_generation/comparison.html",
+      "sha256": "8c4a5b1bd925663aee3d6cd935d5e5ad9b12cfd30e945ca028f576977938c332",
+      "category": "3. 이전 실험 비교"
+    },
+    {
+      "path": "reports/20261013_terminal_generation/history.html",
+      "sha256": "f6b71cb24bc58ca11283e7450dec77c04e808b919617ee3bd1ecff0e2b647bfc",
+      "category": "3. 이전 실험 비교"
+    },
+    {
+      "path": "reports/20261013_terminal_retrieval/lookup_comparison.html",
+      "sha256": "ba3babbd5eebdbd29d6abb7adc9cca61ae3e74082466a15b719cceb3550b48ed",
+      "category": "3. 이전 실험 비교"
+    },
+    {
+      "path": "reports/20261013_gyeongbuk40_prompt/comparison.html",
+      "sha256": "22aa519d893c2b2b8feca01fb5ae3b61e717be22f4650d165ea744e99054dcbd",
+      "category": "3. 이전 실험 비교"
+    },
+    {
+      "path": "reports/20261012_construction_generation/comparison.html",
+      "sha256": "f9f95d12fbfaf428ff54e36b342dea46d6479a330abf1260418e15e8cc80a65a",
+      "category": "3. 이전 실험 비교"
+    },
+    {
+      "path": "reports/20261012_construction_generation/peer_comparison.html",
+      "sha256": "91b173887a7f6a35d382515497abe32d5f82c99225ea0e0919f8a496e4453b1c",
+      "category": "3. 이전 실험 비교"
+    },
+    {
+      "path": "reports/20261012_easy_briefing/sonnet_comparison_70.html",
+      "sha256": "06c7f4279e00fca68379334d20bc8319eca776e041f7e067a34c6a02d077a4ec",
+      "category": "3. 이전 실험 비교"
+    },
+    {
+      "path": "reports/kg_v2_pipeline_repair_20261012/comparison.html",
+      "sha256": "696f4b0bfb56d4a6c29a6bd38e31ac7adca5fa70300ba5bf7584645c78ec5460",
+      "category": "3. 이전 실험 비교"
+    },
+    {
+      "path": "reports/model_comparison_after_repair_20261012/comparison.html",
+      "sha256": "9013b35a281b262300c744ad383a6b5eaeb555610c04dd57db7b343ddc5d2eb0",
+      "category": "3. 이전 실험 비교"
+    },
+    {
+      "path": "reports/model_comparison_20261012/comparison.html",
+      "sha256": "96808c2be5095c8158c8dd984be14b2f4a887d3d7e3b15f067577e98874d8296",
+      "category": "3. 이전 실험 비교"
+    },
+    {
+      "path": "reports/kg_v2_factorial_20261012/comparison.html",
+      "sha256": "3d7e67ef57c9cc3905718690ec93e405e8ea688c42f0f0e7e8160dd804688247",
+      "category": "3. 이전 실험 비교"
+    },
+    {
+      "path": "reports/latest/index.html",
+      "sha256": "06b654a889e753b087f06f9a62265c41e92667b00cc30e6510c5793d8f13e561",
+      "category": "4. 통합 안내·자동 생성 보기"
+    },
+    {
+      "path": "reports/latest/translations.html",
+      "sha256": "b49cae8f4e1d6c3d3b6e7b92939d2f22dddd982984fd469e17753f1c59a27175",
+      "category": "4. 통합 안내·자동 생성 보기"
+    },
+    {
+      "path": "reports/html_report_catalog.html",
+      "category": "duplicate_navigation"
+    }
+  ],
+  "retained": "Original datasets, outputs, retrieval logs, provenance and historical report builders.",
+  "model_calls": 0
+}

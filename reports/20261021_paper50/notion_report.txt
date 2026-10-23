@@ -1,0 +1,481 @@
+## 1. 이번 실험에서 확인한 핵심
+
+작성일 2026-10-21 · 논문 초안 작성자를 위한 연구 이관 자료 · 운영 KG와 조회·생성 코드는 변경하지 않았다.
+
+- 동일한 Qwen3.8-27B 서버 모델에 원문만(P), 분석만(A), KG 자료 포함(K)을 각각 제공했다. 총 150개 최초 출력과 46개 재검토 출력을 저장했다. 응답이 없던 통신 실패 2회를 포함한 요청 시도는 198회다.
+- 최초 출력에서 높임 보존에 뚜렷한 문제가 없다고 평가한 사례는 P 23/50, A 18/50, K 49/50이었다. 충분한 방언 표현이 관찰된 사례는 P 3/50, A 2/50, K 41/50이었다. 이는 Codex의 사례 판정이며 공인 정확도나 독립 화자 평가 점수가 아니다.
+- KG의 기능별 종결 계획은 친구라예·했어예·했는교·주이소·께예 등의 실현을 돕는 양상을 보였다. 분석 JSON을 추가하는 것만으로 같은 개선이 나오지는 않았다.
+- KG에도 오류가 남았다. DEV002의 가는→가던은 재검토로 복원됐지만, NEW007의 온나 후보 미반영과 LONG003의 높임 계열 혼용은 남았다. 단어를 많이 바꾸는 것만으로 자연스러움을 설명할 수 없다.
+- 결과는 이번 50개 사례에서의 동작과 오류 양상을 보여 준다.
+
+## 2. 비교 조건과 무엇을 비교하는지
+
+대상 50개는 이전 KG 번역 결과가 상대적으로 양호했던 사례에서 선정했으므로, 아래 결과는 이 사례들에서의 비교이며 새로운 문장 전반의 성능을 나타내지는 않는다.
+
+<table header-row="true">
+<tr><td>조건</td><td>생성기에 제공한 내용</td><td>비교가 답하는 질문</td></tr>
+<tr><td>P 원문만</td><td>동일한 system 지시 + 표준어 원문. 최초 요청에 분석·Kiwi·KG 없음</td><td>이 설정에서 Qwen이 스스로 어느 정도 바꾸는가?</td></tr>
+<tr><td>A 분석만</td><td>K와 같은 공통 지시·Qwen 분석·Kiwi·원문 보존 지침. transformation_plan·graph_paths·supporting_knowledge는 빈 배열</td><td>분석 정보를 전달하는 것만으로 달라지는가?</td></tr>
+<tr><td>K KG 사용</td><td>A의 정보 + 조회 후보·구간별 변환 계획·출처·연결 관계·보존용 지식</td><td>분석 입력 위에 실제 지식 묶음을 더하면 달라지는가?</td></tr>
+</table>
+
+- A는 KG 조회 결과를 생성 입력에서 비우는 비교 조건이다. 실행 준비 단계에서는 같은 조회 결과로 A/K 요청을 만들었으므로 “A 준비 과정에서 조회 코드조차 실행하지 않았다”는 뜻은 아니다.
+- P와 A는 입력의 길이·구조·공통 지시도 다르다. A와 K는 지식이 들어가는 세 필드만 다르지만, 지식 길이와 구체적인 변환 지침까지 함께 바뀐다. 그래프 연결 구조만의 효과를 분리한 비교는 아니다.
+- 기존 A/B/C/D 실험과 명칭을 혼동하지 않도록 이번에는 P/A/K를 사용했다. 과거 A/B/C/D는 조회 방식(기존/의미 검색 추가)과 전달 형식(기존/변환 계획)의 2×2 비교였다. 이번 실행은 현재 최종 조회 방식을 고정한 3조건 비교이며 과거 결과를 새 비교 수치에 섞지 않았다.
+- 이번 50건의 Qwen 분석은 기존 실험의 저장 결과를 재사용했다. Kiwi와 현재 조회는 다시 수행했고, 번역 생성 150건은 새로 호출했다. 생성 모델을 재학습하거나 Claude/Astra 번역을 정답으로 제공하지 않았다.
+
+<table header-row="true">
+<tr><td>항목</td><td>실제 설정</td></tr>
+<tr><td>모델 식별자</td><td>Qwen3.8-27B</td></tr>
+<tr><td>최대 출력 토큰</td><td>512</td></tr>
+<tr><td>temperature / top_p / top_k</td><td>0.3 / 0.8 / 20</td></tr>
+<tr><td>seed / 추론 표시 설정</td><td>20260923 / enable_thinking=false</td></tr>
+<tr><td>실행 순서</td><td>seed 20261021로 150개 요청 순서를 섞음; 동시 요청 2개</td></tr>
+<tr><td>분석 호출</td><td>기존 분석 고정 재사용. 이번 새 분석 모델 호출 0회</td></tr>
+<tr><td>재검토</td><td>모든 조건에 같은 검사. 강한 경고가 있으면 최대 1회; 새 오류가 생기거나 강한 경고가 남으면 최초 결과 유지</td></tr>
+<tr><td>통신 재시도</td><td>ADVCE005A_K, ADVCE008A_K만 응답 없음으로 동일 요청 재시도. 원래 실패 기록 별도 보존</td></tr>
+<tr><td>모델 검증 범위</td><td>서버 /models 및 응답의 ID 확인. 실제 가중치·학습 데이터·체크포인트는 별도 확인하지 못함</td></tr>
+</table>
+
+## 3. 평가 기준과 전체 결과
+
+<table header-row="true">
+<tr><td>평가 축</td><td>보는 내용</td><td>판정 2 / 1 / 0</td></tr>
+<tr><td>의미 보존</td><td>누가 무엇을 하는지, 부정·시제·이동 방향·의도가 유지되는가</td><td>2: 뚜렷한 문제 없음·충분한 실현 / 1: 부분 보존·부분 실현·우려 / 0: 뚜렷한 손상·미실현</td></tr>
+<tr><td>높임 보존</td><td>청자 높임·주체 높임·저/제 지칭을 원문 수준대로 유지하는가</td><td>2: 뚜렷한 문제 없음·충분한 실현 / 1: 부분 보존·부분 실현·우려 / 0: 뚜렷한 손상·미실현</td></tr>
+<tr><td>문장 자연스러움</td><td>문장 구조와 어미 결합이 읽기 자연스러운가; 지역 표기 확정과 구분</td><td>2: 뚜렷한 문제 없음·충분한 실현 / 1: 부분 보존·부분 실현·우려 / 0: 뚜렷한 손상·미실현</td></tr>
+<tr><td>방언 표현 실현</td><td>문맥에 맞는 방언 어휘·종결 표현이 드러나는가; 단순 축약이나 표준어 그대로는 충분한 실현으로 세지 않음</td><td>2: 뚜렷한 문제 없음·충분한 실현 / 1: 부분 보존·부분 실현·우려 / 0: 뚜렷한 손상·미실현</td></tr>
+</table>
+
+- 원문과 출력을 직접 읽고 의미·높임·문장 연결·방언 실현을 구분했다. 네 축 점수를 합쳐 하나의 성능 점수로 만들지 않았다.
+- 평가자는 이 보고서를 작성한 Codex다. 조건을 알고 평가했으며 독립 방언 화자의 눈가림 평가가 아니다. 지역·세대에 따른 자연스러움이 불명확한 형태는 사례 메모에 남겼다.
+- 정답 번역이 없으므로 정답 문자열과의 일치율을 계산하지 않았다. -다·-라처럼 표준어에도 있는 형태, 낼·짐 같은 일반 축약만으로 충분한 방언 실현을 인정하지 않았다.
+- 최초 출력은 세 조건의 기본 생성 차이를, 최종 출력은 동일 검사와 최대 1회 재검토까지 포함한 운영 결과를 보여 준다. 재검토 후 결과도 같은 기준으로 직접 확인했고, 바뀐 32건의 판정 근거를 별도 기록했다.
+
+최초 출력: 각 판정에 해당하는 건수 — 표의 숫자는 순서대로 2점 / 1점 / 0점 건수이며 각 칸 합계는 50이다.
+
+<table header-row="true">
+<tr><td>평가 축</td><td>P 원문만</td><td>A 분석만</td><td>K KG 사용</td></tr>
+<tr><td>의미 보존</td><td>37 / 13 / 0</td><td>46 / 2 / 2</td><td>49 / 1 / 0</td></tr>
+<tr><td>높임 보존</td><td>23 / 2 / 25</td><td>18 / 2 / 30</td><td>49 / 1 / 0</td></tr>
+<tr><td>문장 자연스러움</td><td>40 / 10 / 0</td><td>38 / 12 / 0</td><td>45 / 5 / 0</td></tr>
+<tr><td>방언 표현 실현</td><td>3 / 18 / 29</td><td>2 / 18 / 30</td><td>41 / 9 / 0</td></tr>
+</table>
+
+재검토 후 최종 출력: 각 판정에 해당하는 건수 — 표의 숫자는 순서대로 2점 / 1점 / 0점 건수이며 각 칸 합계는 50이다.
+
+<table header-row="true">
+<tr><td>평가 축</td><td>P 원문만</td><td>A 분석만</td><td>K KG 사용</td></tr>
+<tr><td>의미 보존</td><td>41 / 9 / 0</td><td>48 / 1 / 1</td><td>50 / 0 / 0</td></tr>
+<tr><td>높임 보존</td><td>41 / 4 / 5</td><td>25 / 4 / 21</td><td>49 / 1 / 0</td></tr>
+<tr><td>문장 자연스러움</td><td>40 / 10 / 0</td><td>41 / 9 / 0</td><td>45 / 5 / 0</td></tr>
+<tr><td>방언 표현 실현</td><td>3 / 8 / 39</td><td>2 / 17 / 31</td><td>41 / 9 / 0</td></tr>
+</table>
+
+<table header-row="true">
+<tr><td>자동 기록 · 50건 기준</td><td>P</td><td>A</td><td>K</td></tr>
+<tr><td>최초: 원문과 글자 단위 완전 동일</td><td>1</td><td>7</td><td>0</td></tr>
+<tr><td>최종: 원문과 글자 단위 완전 동일</td><td>10</td><td>12</td><td>0</td></tr>
+<tr><td>최초: 검사 경고가 있는 입력</td><td>21</td><td>25</td><td>1</td></tr>
+<tr><td>재검토 호출 입력</td><td>20</td><td>25</td><td>1</td></tr>
+<tr><td>재검토 결과를 채택한 입력</td><td>20</td><td>11</td><td>1</td></tr>
+<tr><td>최종: 검사 경고가 남은 입력</td><td>1</td><td>14</td><td>0</td></tr>
+</table>
+
+원문 완전 동일 여부는 공백·문장부호까지 포함한 정확한 비교다. 동일하지 않다는 것만으로 방언 변환 성공은 아니다. 자동 경고는 오류 탐지 결과이고, 위의 수동 정성 판정과 다른 지표다.
+
+- 자동 재검토는 P/A의 높임을 상당 부분 되살렸지만 표준어 원문 또는 표준어 정중체로 되돌리는 경우가 많았다. 보존 검사만으로 방언 표현의 생성을 확보하지 못했다.
+- 자동 검사 통과도 충분하지 않았다. P/ADVCE001A의 “기차 지금 정차하고 계신가요?”는 기차에 불필요한 높임을 붙였고, A/QUAL002의 “거라”는 높임이 복원되지 않았지만 최종 강한 경고가 남지 않았다.
+- 후보 제공과 적용은 별개다. K/NEW007은 온나를 받았지만 와를 유지했고, P/DEV017은 KG 없이도 K와 같은 주이소를 생성했다. 개별 출력의 자연스러움을 KG만의 효과로 자동 계산하지 않았다.
+
+## 4. 실제 전달량과 후보의 성격
+
+<table header-row="true">
+<tr><td>측정값</td><td>평균</td><td>최소</td><td>최대</td><td>계산 대상</td></tr>
+<tr><td>입력당 대상 구간 수</td><td>2.24</td><td>1</td><td>9</td><td>50개 K 요청의 transformation_plan 그룹</td></tr>
+<tr><td>구간당 후보 수</td><td>1.69</td><td>1</td><td>6</td><td>실제 전달된 모든 구간; 합계 후보/합계 구간</td></tr>
+<tr><td>구간당 후보 배열 글자 수</td><td>2248.18</td><td>825</td><td>6236</td><td>candidate JSON 전체: 속성명·조건·출처 포함, 압축 직렬화</td></tr>
+<tr><td>입력당 조회 자료 묶음 글자 수</td><td>7703.02</td><td>1627</td><td>22399</td><td>계획으로 줄이기 전 references+관계+보존 정보</td></tr>
+<tr><td>입력당 변환 계획 글자 수</td><td>6041.06</td><td>1231</td><td>19438</td><td>생성기에 실제 전달된 transformation_plan 전체</td></tr>
+<tr><td>입력당 명시 관계 경로 수</td><td>0.22</td><td>0</td><td>3</td><td>실제 graph_paths 배열 항목 수</td></tr>
+</table>
+
+<table header-row="true">
+<tr><td>조건</td><td>전체 user 메시지 평균 글자 수</td><td>실제 최초 요청 prompt 토큰 평균</td></tr>
+<tr><td>P · 원문만</td><td>26.5</td><td>86.1</td></tr>
+<tr><td>A · 분석만</td><td>4071.7</td><td>1524.2</td></tr>
+<tr><td>K · KG 사용</td><td>10292.2</td><td>3599.5</td></tr>
+</table>
+
+- 입력 1건은 긴 발화에서 여러 문장을 포함할 수 있다. 구간은 단어 하나일 수도, 종결을 가진 절 전체일 수도 있으며 서로 겹칠 수 있다. 따라서 구간 수는 띄어쓰기 단어 수나 문장 수와 다르다.
+- 후보는 해당 구간에 쓸 수 있을지 검토하는 대안이다. 모든 후보를 한꺼번에 적용하라는 뜻이 아니다. 같은 후보 ID가 서로 다른 구간에 붙으면 각각 하나로 세었다.
+- 구간당 최대 6개 후보. 24,000자는 구간마다가 아니라 입력 한 건의 조회 자료 묶음 전체 제한이다. 관계 경로용 2,000자를 미리 남겨 후보 추가는 22,000자 선에서 제한한다. 이후 분석과 지시를 합친 user 메시지에는 이 제한이 그대로 적용되지 않는다.
+- 글자 수는 Python len 기준으로 JSON의 속성명·공백 없는 구분기호까지 포함한다. 토큰 수는 서버의 usage.prompt_tokens로 system·user·대화 형식이 모두 포함된다. 글자와 토큰은 다른 단위다.
+- 최대 6개·글자 제한의 영향은 후보 제외 기록으로 확인할 수 있다. 다만 이번에는 후보 수를 바꿔 재실험하지 않았으므로 너무 많아서/적어서 실패했다고 인과적으로 단정할 수 없다.
+
+<table header-row="true">
+<tr><td>후보 제외 사유</td><td>구간·후보 처리 건수</td></tr>
+<tr><td>구간당 6개 제한</td><td>13</td></tr>
+<tr><td>입력당 전체 글자 제한</td><td>26</td></tr>
+<tr><td>같은 구간의 복합 구성 대안 제한</td><td>2</td></tr>
+</table>
+
+<table header-row="true">
+<tr><td>전달 후보의 출처 성격</td><td>구간에 붙은 후보 건수</td></tr>
+<tr><td>문헌 구성요소를 입력에 맞게 조합한 계획</td><td>55</td></tr>
+<tr><td>문헌에서 구조화한 항목</td><td>134</td></tr>
+</table>
+
+이번 50건에 실제 전달된 후보는 문헌 항목 134건과 문헌 구성요소를 조합한 계획 55건이었다. 별도 MODEL_ADVICE 후보는 실제 전달되지 않았다. 모델 조언으로 발전시킨 운영 정책과 문헌 조합 코드의 영향까지 없다는 뜻은 아니다.
+
+<table header-row="true">
+<tr><td>조회 경로 코드</td><td>쉬운 설명</td><td>전달 후보 수</td></tr>
+<tr><td>function_bound_terminal</td><td>원문 끝의 기능·높임에 묶인 종결 계획</td><td>55</td></tr>
+<tr><td>bound_lexical_mapping</td><td>원문 단어의 기본형과 뜻에 묶은 어휘 대응</td><td>72</td></tr>
+<tr><td>source_form</td><td>원문에 나타난 표현 형태와 맞춘 후보</td><td>33</td></tr>
+<tr><td>clause_function</td><td>평서·질문 등 절의 기능으로 찾은 후보</td><td>3</td></tr>
+<tr><td>source_bound_construction</td><td>인용·의도 등 여러 요소가 결합한 원문 구성 후보</td><td>5</td></tr>
+<tr><td>lexical_to_inflection</td><td>어휘 대응에서 연결 관계를 따라 찾은 활용 후보</td><td>21</td></tr>
+</table>
+
+전체 50건 중 5건에서 명시적인 graph_paths가 전달됐고 경로 항목은 총 11개였다. 대부분은 출처·조건을 포함한 지식 항목과 변환 계획 자체를 사용했다. 따라서 K의 개선을 모두 다단계 관계 탐색의 효과로 설명할 수 없다.
+
+구체적인 추천 표면형이 붙은 후보 55건 중 49건은 그 문자열이 최초 출력에 나타났다. 이는 활용이 달라지면 놓칠 수 있고 짧은 문자열이면 우연히 일치할 수 있는 관찰이다. 지식 사용률·정확도·검색 재현율로 해석하지 않는다.
+
+## 5. 전체 처리 순서: 문헌에서 번역까지
+
+<table header-row="true">
+<tr><td>순서</td><td>무엇을 하는가</td><td>산출물·주의점</td><td>관련 파일</td></tr>
+<tr><td>1. 원문 확보</td><td>논문 3종과 웹 문서 PDF 4종, 총 7종·474쪽을 등록한다.</td><td>파일 경로·문헌 이름·PDF 페이지·파일 해시</td><td>source_registry.json</td></tr>
+<tr><td>2. PDF 텍스트 추출</td><td>pdftotext -layout 프로그램으로 쪽별 텍스트와 표 배치를 추출한다. Astra가 PDF를 텍스트로 변환하는 프로그램 자체를 대신한 것은 아니다.</td><td>쪽별 추출문. 복잡한 표 등은 필요 부분의 원본 이미지와 대조</td><td>extract_sources.py / local/pages.jsonl (로컬)</td></tr>
+<tr><td>3. 지식 항목 작성·검토</td><td>Astra가 대응 표현·적용 조건·예외·출처를 JSON으로 작성했다. 전체 문헌 작업 후 남은 검토는 Astra 작업자 3개와 조정자가 분담했고, 후속 조언·반례·문헌 검토를 반영했다.</td><td>출처별 authored 자료 및 reviews. 같은 모델 계열의 검토로 독립 화자 검증은 아님</td><td>authored/ / reviews/</td></tr>
+<tr><td>4. 구조 검사와 그래프 구성</td><td>필수 속성과 근거 페이지를 검사하고, 인용문이 해당 추출문에 나타나는지 확인한다. 지식 항목을 표현·조건·근거 노드와 연결한다. 이 검사는 내용의 언어학적 진실을 보증하지 않는다.</td><td>3,767개 지식 항목 / 25,818개 노드 / 35,410개 관계</td><td>build.py / facts.jsonl / graph.json</td></tr>
+<tr><td>5. 표준어 분석</td><td>Qwen은 번역하지 않고 평서·질문·요청, 높임·시제와 원문 구간을 JSON으로 분석한다. Kiwi는 단어·조사·어미를 나누고 코드가 기본형과 위치를 정리한다.</td><td>Qwen 의미·기능 가설과 Kiwi 형태 정보. 이번에는 기존 Qwen 분석을 고정 재사용</td><td>analysis.json / source_analysis_guard.py</td></tr>
+<tr><td>6. 원문 대조·조회</td><td>원문에 없는 형태를 확정하지 않도록 일부 분석을 보정한다. Python이 어휘 기본형·문장 기능·어미·구성에 맞는 지식 항목을 찾고 필요한 활용 관계를 따라간다.</td><td>구간에 연결된 후보, 근거, 제외 사유. 현재 실행은 로컬 JSON 그래프 조회이며 Neo4j 서버나 벡터 검색을 호출하지 않음</td><td>sentence_retrieval.py / construction_retrieval.py / terminal_retrieval.py</td></tr>
+<tr><td>7. 적용 조건 검사</td><td>조건값이 맞으면 후보로 남기고, 틀리거나 필요한 값이 없으면 제외한다. 다만 자연어로 적힌 의미·지역 제약은 모두 판정하지 못해 검토 필요 후보가 함께 전달될 수 있다.</td><td>satisfied=명시 조건 충족, failed=불일치, unknown=판단값 없음. 조건 없음은 적합성 증명이 아님</td><td>query.py / retrieval.json</td></tr>
+<tr><td>8. 생성 입력 구성</td><td>전체 문맥을 유지하면서 대상 구간·변환 후보·보존 사항·출처를 묶는다. 문헌 대응형과 코드로 조합한 추천형, 모델 제안을 구별한다.</td><td>system 고정 지시 + user 공통 지시·JSON. P는 원문만, A는 지식 묶음 비움, K는 지식 포함</td><td>transformation_plan.py / jobs.json</td></tr>
+<tr><td>9. Qwen 생성</td><td>세 조건에 같은 모델·고정 지시·생성 설정을 사용한다. 50건×3조건의 최초 출력을 모두 새로 생성한다. 분석·Kiwi 자료는 A/K에서 동일하다.</td><td>최초 번역 150개. 순서를 고정 난수로 섞고 동시 요청 2개</td><td>raw/ / outputs.json</td></tr>
+<tr><td>10. 생성 후 보존 검사</td><td>코드가 높임·겸양·부정·시제·이동 방향·명사 앞 문장 구조 등을 부분적으로 검사한다. 강한 경고가 있으면 같은 조건에서 Qwen에 최대 1회 수정 요청한다.</td><td>모든 조건에 동일 적용. 본 비교는 최초 출력, 수정 후 결과는 보조 결과</td><td>preservation_check.py / final_outputs.json</td></tr>
+<tr><td>11. 사례 분석과 보고</td><td>원문과 세 출력을 직접 대조하고 KG 후보가 전달됐는지와 출력에 나타났는지를 구별해 설명한다. 평가자는 Codex이며 원어민 전문가 패널이 아니다.</td><td>의미·높임·자연스러움·방언 표현의 축별 판정과 사례별 근거</td><td>annotations.json / report.html</td></tr>
+</table>
+
+## 6. 원문 7종과 KG 구축
+
+<table header-row="true">
+<tr><td>출처 ID</td><td>소개</td><td>원본 PDF 상대 경로</td></tr>
+<tr><td>YANG2021</td><td>양지현(2021), 경남방언 어말어미 -거로의 용법·제약을 다룬 학술논문. 22쪽.</td><td>sources/methodology/dialect_generation/georo2021.pdf</td></tr>
+<tr><td>JO2018</td><td>조현준(2018), 경북방언의 종결어미 연구 박사학위논문. 구비문학대계의 과거 구술 자료를 분석. 265쪽.</td><td>sources/gyeongsang/academic/경북방언_종결어미_연구.pdf</td></tr>
+<tr><td>RYU2014</td><td>류성기(2014), 경남 함양 방언 문법 형태의 변화 연구. 세대·표준어 간섭과 실제 사용 차이. 38쪽.</td><td>sources/gyeongsang/academic/표준어 간섭 및 방언에 대한 의식으로 인한 경남 함양 방언 문법 형태의 변화 연구.pdf</td></tr>
+<tr><td>NAMU20260901</td><td>나무위키 동남 방언 개요의 로컬 PDF. 어휘·지역·사용 예가 함께 있는 공동 편집 자료. 55쪽.</td><td>sources/gyeongsang/web/동남 방언.pdf</td></tr>
+<tr><td>NAMU_GRAMMAR_20260908</td><td>나무위키 동남 방언/문법 PDF. 활용표·어미·어휘·구성 설명. 51쪽.</td><td>sources/gyeongsang/web/동남 방언_문법.pdf</td></tr>
+<tr><td>NAMU_HONORIFICS_20260908</td><td>나무위키 동남 방언/상대 높임법 PDF. 높임 체계·지역 차이·예문. 35쪽.</td><td>sources/gyeongsang/web/동남 방언_상대높임법.pdf</td></tr>
+<tr><td>NAMU_PHONOLOGY_20260908</td><td>나무위키 동남 방언/음운 PDF. 소리 변화와 표기·변이형. 8쪽.</td><td>sources/gyeongsang/web/동남 방언_음운.pdf</td></tr>
+</table>
+
+- 총 474쪽은 PDF 파일의 페이지 수다. 논문 인쇄 페이지와 다를 수 있어 근거는 pdf_page로 추적한다. PDF는 프로젝트 로컬 자료이며 이 보고서에 원문 파일 자체를 공개 첨부하지 않는다.
+- PDF 텍스트 추출은 프로그램이, 내용 선택·구조화는 Astra가 담당했다. 이후 Astra 작업자 3개와 조정자의 검토, 후속 조언자·반례 검토자·문헌 대조자 검토를 거쳤다. 같은 모델 계열의 다중 검토가 독립 화자 검증을 대신하지는 않는다.
+- 현재 자료는 학술 문헌과 공동 편집 위키가 섞여 있다. 과거 조사 발화와 현대 용법, 경북과 경남의 범위를 모든 화자에게 공통인 단일 규칙으로 보아서는 안 된다.
+
+지식 항목(진술)은 “어떤 표현이 어떤 조건에서 어떻게 쓰이는가”를 기록한 한 묶음이다. JSON은 이 묶음의 저장 형식이고, 그래프는 같은 정보를 연결 구조로 펼친 표현이다.
+
+<table header-row="true">
+<tr><td>속성</td><td>뜻</td><td>쓰임</td></tr>
+<tr><td>id / source_id</td><td>지식 항목 번호와 출처 번호</td><td>어떤 근거를 사용했는지 추적</td></tr>
+<tr><td>type</td><td>지식이 설명하는 내용의 종류</td><td>어휘·종결·활용 등 조회 경로 선택</td></tr>
+<tr><td>source_pattern / target_pattern</td><td>바꾸기 전 표현과 대응 표현, 기본형·뜻</td><td>원문과 후보의 형태·의미 대조</td></tr>
+<tr><td>functions</td><td>설명·질문·요청 등 표현의 기능</td><td>기능이 다른 어미의 혼용 제한</td></tr>
+<tr><td>conditions</td><td>값으로 검사할 적용 조건</td><td>기본형·시제 형태·기능 등의 일치 검사</td></tr>
+<tr><td>constraints</td><td>글로 적힌 예외·주의 사항</td><td>모든 항목을 자동 판정하지는 못함</td></tr>
+<tr><td>scope</td><td>지역·시대·높임 범위</td><td>특정 자료의 표현을 모든 화자로 확대하지 않음</td></tr>
+<tr><td>evidence</td><td>원문 인용과 PDF 페이지</td><td>조회 후보의 근거 추적</td></tr>
+<tr><td>claim_status / usability</td><td>확인형·일반화·해석 등의 성격 / 변환 후보 또는 참고용</td><td>원문 사실과 해석·모델 제안을 구별</td></tr>
+<tr><td>notes</td><td>추출·적용의 추가 설명</td><td>불확실성 및 특수한 사용 범위 기록</td></tr>
+</table>
+
+<table header-row="true">
+<tr><td>구분</td><td>무엇을 나누는가</td><td>예</td></tr>
+<tr><td>지식 유형 9개</td><td>한 지식 항목이 설명하는 내용</td><td>단어 대응인지, 어미인지, 활용인지</td></tr>
+<tr><td>노드 유형 8개</td><td>그래프에 저장하는 요소</td><td>지식 항목, 표현, 조건, 근거, 문헌</td></tr>
+<tr><td>관계 유형 19개</td><td>요소 사이 연결의 뜻</td><td>이 항목의 입력 표현이다 / 이 쪽의 근거가 뒷받침한다</td></tr>
+</table>
+
+예: “명사 뒤 예요를 라예로 표현할 수 있다”는 어미 지식 항목 하나다. 중심 노드에서 입력 표현·대응 표현·조건·근거로 연결되고, 근거는 PDF 쪽과 문헌으로 이어진다. 지식 유형 ending은 어미 조회 경로의 후보를 찾는 데 쓰이고, 노드 유형 Evidence는 출처를 따라갈 때 쓰인다. 두 분류는 같은 것을 중복해서 세는 것이 아니다.
+
+실제 지식 JSON 예시는 첨부 HTML의 6절에서 펼칠 수 있다. 항목 ID: NAMU_GRAMMAR_20260908:v2:ending_repair:0001.
+
+지식 유형 전체 목록
+
+<table header-row="true">
+<tr><td>코드 이름</td><td>쉬운 설명</td><td>개수</td></tr>
+<tr><td>lexical_mapping</td><td>어휘 대응: 먹다→묵다처럼 단어 사이의 대응</td><td>650</td></tr>
+<tr><td>inflection</td><td>활용: 묵다에 어미가 붙을 때 나타나는 형태</td><td>675</td></tr>
+<tr><td>ending</td><td>종결·연결 어미: 말끝 표현과 기능</td><td>612</td></tr>
+<tr><td>construction</td><td>여러 요소의 결합: 인용·의도 등 전체 구성</td><td>293</td></tr>
+<tr><td>particle</td><td>조사: 명사 등에 붙는 짧은 문법 표현</td><td>126</td></tr>
+<tr><td>phonology</td><td>음운: 소리·표기 변화와 제한</td><td>88</td></tr>
+<tr><td>usage</td><td>사용 설명: 어떤 상황에서 쓰이는지</td><td>625</td></tr>
+<tr><td>constraint</td><td>제약: 사용하지 못하는 조건·예외</td><td>10</td></tr>
+<tr><td>context</td><td>배경: 지역·조사·화자 등 해석 맥락</td><td>688</td></tr>
+</table>
+
+노드 유형 전체 목록
+
+<table header-row="true">
+<tr><td>코드 이름</td><td>쉬운 설명</td><td>개수</td></tr>
+<tr><td>KnowledgeStatement</td><td>지식 항목의 중심 노드</td><td>3767</td></tr>
+<tr><td>ExpressionUse</td><td>출처와 용법을 구별한 표현</td><td>7534</td></tr>
+<tr><td>Condition</td><td>값으로 검사할 적용 조건</td><td>2125</td></tr>
+<tr><td>Constraint</td><td>글로 적힌 예외·제약</td><td>4049</td></tr>
+<tr><td>Function</td><td>평서·질문·요청 등의 기능</td><td>58</td></tr>
+<tr><td>Evidence</td><td>원문 근거 인용</td><td>7804</td></tr>
+<tr><td>SourcePage</td><td>근거가 있는 PDF 쪽</td><td>474</td></tr>
+<tr><td>Source</td><td>문헌 자체</td><td>7</td></tr>
+</table>
+
+관계 유형 전체 목록
+
+<table header-row="true">
+<tr><td>코드 이름</td><td>쉬운 설명</td><td>개수</td></tr>
+<tr><td>source_expression</td><td>지식 항목→입력 쪽 표현</td><td>3767</td></tr>
+<tr><td>target_expression</td><td>지식 항목→대응 표현</td><td>3767</td></tr>
+<tr><td>requires</td><td>지식 항목→적용 조건</td><td>2125</td></tr>
+<tr><td>has_constraint</td><td>지식 항목→예외·제약</td><td>4049</td></tr>
+<tr><td>describes_function</td><td>지식 항목→언어 기능</td><td>1364</td></tr>
+<tr><td>supported_by</td><td>지식 항목→근거 인용</td><td>7804</td></tr>
+<tr><td>located_on</td><td>근거 인용→PDF 쪽</td><td>7804</td></tr>
+<tr><td>part_of</td><td>PDF 쪽→문헌</td><td>474</td></tr>
+<tr><td>document_dependency</td><td>문헌→재인용·공유 관계가 있는 문헌</td><td>5</td></tr>
+<tr><td>candidate_has_inflection</td><td>어휘 대응→기본형이 일치하는 활용 항목</td><td>484</td></tr>
+<tr><td>lexical_correspondence</td><td>표현 사이의 어휘 대응</td><td>650</td></tr>
+<tr><td>attested_or_described_inflection</td><td>표현 사이의 활용 대응</td><td>675</td></tr>
+<tr><td>ending_realization</td><td>표현 사이의 어미 대응</td><td>612</td></tr>
+<tr><td>construction_correspondence</td><td>표현 사이의 구성 대응</td><td>293</td></tr>
+<tr><td>particle_correspondence</td><td>표현 사이의 조사 대응</td><td>126</td></tr>
+<tr><td>phonological_correspondence</td><td>표현 사이의 음운 대응</td><td>88</td></tr>
+<tr><td>describes_usage</td><td>표현 사이의 사용 설명</td><td>625</td></tr>
+<tr><td>restricts</td><td>표현 사이의 제약 설명</td><td>10</td></tr>
+<tr><td>documents</td><td>표현 사이의 배경 기술</td><td>688</td></tr>
+</table>
+
+- 외부 모델 번역은 정답 지식으로 그대로 넣지 않았다. 문헌으로 다시 확인한 부분은 출처 있는 항목·조건·조회 경로로 보완했고, 문헌에 직접 없는 제안은 advisory_rules.json에서 model_advice_not_documentary_fact로 구별했다.
+- 문헌의 어미 구성요소를 원문에 맞게 조합한 PLAN 항목은 실행 시 만든 적용 계획이다. 3,767개 문헌 항목과 같은 의미의 새 문헌 근거가 아니며, 완성 발화 전체가 원문에 나왔다는 뜻도 아니다.
+- 사용자가 요청한 종결 계열 우선 선택은 운영 정책으로 코드에 반영돼 있다. 따라서 K는 순수한 문헌 검색뿐 아니라 구조화한 근거·조합 규칙·우선순위·전달 지시를 묶은 제안 시스템이다.
+
+## 7. Qwen·Kiwi 분석, 조회와 조건 검사
+
+<table header-row="true">
+<tr><td>단계</td><td>입력</td><td>출력</td><td>누가 판단하는가</td></tr>
+<tr><td>Qwen 분석</td><td>표준어 전체 발화</td><td>절 위치, 평서/질문/요청, 높임, 시제, 서술 유형 등의 JSON 가설</td><td>Qwen. 이번에는 저장 분석 재사용</td></tr>
+<tr><td>Kiwi</td><td>동일 표준어</td><td>형태소·품사·위치. 코드가 기본형과 어미 묶음을 정리</td><td>Kiwi + Python</td></tr>
+<tr><td>원문 대조</td><td>두 분석과 실제 글자 위치</td><td>원문에 붙인 구간, 기본형, 기능, 높임 등의 조회 조건</td><td>Python. 불확실한 분석은 확정 정답 아님</td></tr>
+<tr><td>후보 찾기</td><td>조회 조건</td><td>어휘/활용/종결/복합 구성에 맞는 지식 항목</td><td>Python 로컬 그래프 조회</td></tr>
+<tr><td>조건 확인</td><td>후보 조건 + 입력/후보 속성</td><td>충족·불일치·모름, 추가 검토 이유</td><td>Python 규칙 검사</td></tr>
+<tr><td>후보 정렬·묶기</td><td>조건 검사 후 후보</td><td>우선순위·구간 균형·최대6개·전체 글자 제한을 적용한 자료</td><td>Python</td></tr>
+<tr><td>실제 적용</td><td>원문·분석·후보·보존 지침</td><td>방언 발화 텍스트</td><td>Qwen 생성 모델</td></tr>
+</table>
+
+- 조회 코드는 Python이다. JSON은 조회 코드 그 자체가 아니라 코드가 읽는 분석값·후보·생성 요청의 형식이다. Qwen이 임의의 Cypher나 Python을 작성해 실행시키는 구조가 아니다.
+- 현재 조회는 기본형/표현 일치와 문장 기능을 함께 사용한다. 예를 들어 먹다의 대응을 찾고 candidate_has_inflection 관계로 활용을 따라가거나, 높임 평서문이라는 기능에 맞는 종결 계획을 먼저 만든다.
+- Qwen과 Kiwi를 각각 사용하지만, “항상 두 모델이 동시에 병렬 실행된다”는 뜻은 아니다. 이번 실행은 기존 Qwen 분석을 읽고 Kiwi·조회·요청 구성을 순서대로 수행했다. 병렬 실행 2개는 번역 API 요청에 관한 설정이다.
+- 시제·높임·화행 등 보존 목표 전체가 하나의 완전한 검사기로 증명되는 것은 아니다. 값으로 적힌 조건은 코드가 검사하지만, 자연어 의미·지역·시대·예외는 검토 지시로 남을 수 있다.
+
+<table header-row="true">
+<tr><td>조건 판정</td><td>뜻</td><td>현재 처리</td></tr>
+<tr><td>satisfied 충족</td><td>필요한 값과 실제 값이 같음</td><td>후보 자격 검토를 계속함. 최종 자연스러움 보증 아님</td></tr>
+<tr><td>failed 불일치</td><td>필요한 값과 실제 값이 다름</td><td>제외</td></tr>
+<tr><td>unknown 모름</td><td>필요한 값이 없거나 불명확</td><td>현재 문장 조회에서 제외</td></tr>
+<tr><td>조건 배열이 비어 있음</td><td>검사할 구조화 조건이 없음</td><td>아무 조건이나 맞는다는 증거가 아님. 자연어 범위·뜻 검토가 필요</td></tr>
+</table>
+
+## 8. 생성 프롬프트와 실제 한 사례의 전체 흐름
+
+system 메시지는 매 요청에 공통인 역할·목표 지시다. user 메시지도 프롬프트의 일부이며 원문과 해당 입력의 분석·지식 자료가 들어간다. 자연어 지시와 JSON 데이터가 함께 프롬프트를 구성한다.
+
+이번 실험의 정확한 고정 system 지시
+
+```text
+다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요.
+```
+
+분석용 Qwen 지시는 생성 지시와 다르다. “번역하거나 방언 표현을 제안하지 말고 JSON 객체 하나만 출력”하도록 요구하고, 평서/질문/요청·높임·시제의 분석값과 원문 구성을 출력하게 한다. 현재 분석 코드의 요청 기본값은 temperature=0, top_p=1, max_tokens=4200이다. 이번 실험은 그 단계의 저장 분석을 재사용했으므로 이 설정으로 새 분석 50건을 호출했다고 보고하지 않는다. 분석 프롬프트와 JSON 출력 규격은 snapshot/current_kg/experiments/run_auto_analysis_development.py의 analysis_system/raw_schema에서 확인할 수 있다.
+
+A/K의 정확한 공통 user 지시
+
+```text
+standard를 자연스러운 경상도 방언으로 변환하세요. analysis와 source_morphology는 원문 분석의 가설이며 원문이 우선입니다. transformation_plan 또는 references와 graph_paths는 조건부 참고 자료입니다. 의미·지역·시대·높임·결합 조건이 맞는 자료를 선택하고 관련 없는 자료는 사용하지 마세요. 조건 미확인은 적용 허용이 아니며 연결된 진술끼리 조건을 상속하지 않습니다. 기본형 대응과 완성 활용형을 구별하고 원문의 부정·시제·높임·인용·발화 의도를 유지하세요. preservation의 관형절·겸양·주체와 청자 높임·이동 관점 보존을 어휘 치환보다 우선하세요. 모델 조언 후보는 원문 확인형이 아니며 불확실하면 원문의 구조를 보존하세요. 표에 없는 활용형은 표에 실린 확인형으로 주장하지 마세요. 원문에 없는 내용을 추가하지 말고 변환한 발화만 출력하세요.
+```
+
+<table header-row="true">
+<tr><td>user JSON 속성</td><td>무엇이 들어가는가</td><td>A와 K의 차이</td></tr>
+<tr><td>standard</td><td>번역할 표준어 전체 발화</td><td>동일</td></tr>
+<tr><td>analysis</td><td>Qwen의 절·기능·높임·시제 분석 가설</td><td>동일</td></tr>
+<tr><td>source_morphology</td><td>Kiwi 단어/어미, 기본형, 글자 위치</td><td>동일</td></tr>
+<tr><td>transformation_plan</td><td>대상 구간별 후보·조건·추천형·출처·보존 사항</td><td>A 빈 배열 / K 실제 자료</td></tr>
+<tr><td>graph_paths</td><td>선택한 어휘와 활용 지식 사이 연결</td><td>A 빈 배열 / K 조회된 연결</td></tr>
+<tr><td>preservation</td><td>원문의 의미·높임·수식·이동 관점 보존 지침</td><td>지침은 동일; supporting_knowledge만 A에서 비움</td></tr>
+<tr><td>plan_policy</td><td>후보는 대안이며 보존을 우선하라는 공통 고정 지시</td><td>동일</td></tr>
+</table>
+
+<table header-row="true">
+<tr><td>DEV004 처리 단계</td><td>실제 기록의 요약</td></tr>
+<tr><td>원문</td><td>아까 문 앞에 있던 사람이 제 친구예요.</td></tr>
+<tr><td>Qwen 분석</td><td>[{&quot;text&quot;:&quot;아까 문 앞에 있던 사람이 제 친구예요.&quot;,&quot;span&quot;:[0,22],&quot;role&quot;:&quot;main&quot;,&quot;features&quot;:{&quot;host_pos&quot;:&quot;copula&quot;,&quot;host_class&quot;:&quot;nominal_copula&quot;,&quot;host_form&quot;:&quot;이다&quot;,&quot;sentence_type&quot;:&quot;declarative&quot;,&quot;subject_person&quot;:&quot;third&quot;,&quot;nominal_coda&quot;:&quot;absent&quot;,&quot;stem_vowel&quot;:&quot;a&quot;,&quot;stem_coda&quot;:&quot;absent&quot;},&quot;observed_politeness&quot;:&quot;polite&quot;,&quot;observed_subject_honorific&quot;:&quot;not_observed&quot;,&quot;tense_or_modality&quot;:&quot;present&quot;,&quot;preserved_candidate_features&quot;:{}}]</td></tr>
+<tr><td>Kiwi 결과</td><td>친구: 명사 / 이: 명사 서술 / 예요: 종결. 실제 위치·형태소는 아래 JSON 참조</td></tr>
+<tr><td>조회 결과</td><td>PLAN:terminal:polite_declarative:예요</td></tr>
+<tr><td>생성에 전달한 추천</td><td>라예</td></tr>
+<tr><td>원문 근거</td><td>NAMU_GRAMMAR_20260908 PDF 28쪽; NAMU_GRAMMAR_20260908 PDF 22쪽</td></tr>
+<tr><td>첫 생성</td><td>아까 문 앞에 있던 사람이 제 친구라예.</td></tr>
+<tr><td>자동 검사</td><td>{&quot;status&quot;:&quot;no_screening_flags&quot;,&quot;flags&quot;:[],&quot;repair_required&quot;:false,&quot;not_accuracy&quot;:true}</td></tr>
+<tr><td>최종 선택</td><td>아까 문 앞에 있던 사람이 제 친구라예.</td></tr>
+</table>
+
+DEV004의 전체 요청 JSON은 첨부 HTML과 raw/DEV004_K.json에 보존되어 있다. 표의 요약은 실제 요청에서 추출했다.
+
+- DEV004는 라예가 전달되고 출력에도 친구라예가 나타난 사례다. 문헌의 관련 구성요소와 입력 조건을 바탕으로 만든 계획의 실현이지, 문헌에 이 전체 발화가 실려 있다는 뜻은 아니다.
+- 반대로 NEW007은 먹다 관련 후보와 온나 추천을 함께 받았지만 묵고만 적용됐다. 조회 성공만으로 생성 적용 성공을 판단해서는 안 된다.
+- 구간 후보와 출처 페이지, 조건 판정·검토 이유·추천형의 표면 관찰을 아래 50건 상세표와 candidate_trace.json에서 모두 확인할 수 있다.
+
+## 9. 생성 후 보존 검사: 할 수 있는 것과 한계
+
+<table header-row="true">
+<tr><td>검사 대상</td><td>실제 구현 개요</td><td>주요 한계</td></tr>
+<tr><td>청자 높임</td><td>원문 높임 끝과 출력의 명백한 반말 끝을 규칙으로 비교</td><td>목록에 없는 거라 등은 놓칠 수 있음</td></tr>
+<tr><td>겸양 저/제</td><td>제가·저는 등이 내가·나는 등으로 바뀌었는지 검사</td><td>나처럼 목록 밖 축약은 놓칠 수 있음</td></tr>
+<tr><td>부정·과거</td><td>Kiwi와 표면 패턴으로 부정 및 과거 흔적 확인</td><td>방언 형태를 잘못 분석할 수 있어 검토 경고로 처리</td></tr>
+<tr><td>이동 관점</td><td>가는 길 ↔ 오는 길 교환 등 명시 패턴 검사</td><td>모든 이동 의미 변화를 포괄하지 못함</td></tr>
+<tr><td>명사 앞 문장 구조</td><td>같은 서술어와 뒤 명사를 맞춰 -는→-던, 종결형 오치환 검사</td><td>대응 형태가 크게 바뀌면 놓칠 수 있음</td></tr>
+<tr><td>주체 높임</td><td>께서·시·계시다 등의 존재 확인</td><td>불필요하게 추가한 높임이나 자연스러움을 전부 판정하지 못함</td></tr>
+<tr><td>문장 수·질문 부호</td><td>입출력 문장 대응과 ? 차이 확인</td><td>부호 차이만으로 문장 의도를 확정하지 않음</td></tr>
+</table>
+
+강한 경고가 있으면 동일 요청의 대화 뒤에 최초 출력과 수정 지시를 붙여 1회 다시 호출한다. 새 강한 경고가 없고 경고 종류가 늘지 않은 경우에만 채택한다. KG나 코드를 자동으로 수정하는 단계는 아니다. 최종 경고 0개와 언어적으로 올바른 번역은 다르다.
+
+## 10. 확정한 50개 표준어 예문
+
+아래 목록이 고정한 논문용_테스트_데이터셋 v1이다. 원래 출처는 DEV/LONG/NEW/ADVCE가 reports/20261013_terminal_generation, QUAL은 reports/20261013_user_qualification20이다.
+
+<table header-row="true">
+<tr><td>번호</td><td>ID</td><td>확정 표준어 원문</td></tr>
+<tr><td>1</td><td>DEV002</td><td>집에 가는 길에 빵을 샀어.</td></tr>
+<tr><td>2</td><td>DEV003</td><td>이 음식은 생각보다 맵네요.</td></tr>
+<tr><td>3</td><td>DEV004</td><td>아까 문 앞에 있던 사람이 제 친구예요.</td></tr>
+<tr><td>4</td><td>DEV005</td><td>나는 커피보다 차가 더 좋아.</td></tr>
+<tr><td>5</td><td>DEV007</td><td>나는 아직 점심을 안 먹었어.</td></tr>
+<tr><td>6</td><td>DEV011</td><td>버스가 벌써 출발했나요?</td></tr>
+<tr><td>7</td><td>DEV012</td><td>열쇠를 어디에 뒀어?</td></tr>
+<tr><td>8</td><td>DEV013</td><td>내일 몇 시에 만나면 될까요?</td></tr>
+<tr><td>9</td><td>DEV014</td><td>아까 왜 아무 말도 안 했어?</td></tr>
+<tr><td>10</td><td>DEV017</td><td>문 좀 닫아 주세요.</td></tr>
+<tr><td>11</td><td>DEV019</td><td>바닥이 미끄러우니까 천천히 걸으세요.</td></tr>
+<tr><td>12</td><td>DEV020</td><td>그 얘기는 다른 사람한테 하지 마.</td></tr>
+<tr><td>13</td><td>DEV021</td><td>잠깐만 기다려 주세요. 제가 확인해 볼게요.</td></tr>
+<tr><td>14</td><td>DEV022</td><td>시간 괜찮으면 같이 점심 먹자.</td></tr>
+<tr><td>15</td><td>DEV026</td><td>늦을까 봐 조금 일찍 나왔어요.</td></tr>
+<tr><td>16</td><td>DEV028</td><td>아까 말한 건 이걸 버리라는 뜻이 아니었어요.</td></tr>
+<tr><td>17</td><td>DEV029</td><td>그 가게에 가 봤는데 음식이 괜찮더라.</td></tr>
+<tr><td>18</td><td>DEV030</td><td>피곤하면 먼저 자. 뒷정리는 내가 할게.</td></tr>
+<tr><td>19</td><td>LONG001</td><td>너 지금 어디야? 아까 역 앞에서 만나자고 했는데 왜 아직 안 와? 나는 배가 고파서 먼저 밥을 먹고 있을게.</td></tr>
+<tr><td>20</td><td>LONG002</td><td>오늘 시장에서 사 온 사과 먹어 봤어? 보기에는 조금 작아도 생각보다 달고 맛있더라. 혼자 다 먹지 말고 동생 것도 좀 남겨 둬.</td></tr>
+<tr><td>21</td><td>LONG003</td><td>사장님, 이 국은 뭐가 들어가서 이렇게 맛있어요? 제가 매운 음식은 잘 못 먹는데 이건 괜찮네요. 반찬도 조금만 더 주세요.</td></tr>
+<tr><td>22</td><td>LONG004</td><td>할머니, 밖에 비가 많이 오는데 우산은 챙기셨어요? 길이 미끄러우니까 혼자 나가지 마세요. 제가 집 앞까지 모셔다드릴게요.</td></tr>
+<tr><td>23</td><td>NEW001</td><td>저기 창가에 앉아 있는 분이 제 선생님이에요.</td></tr>
+<tr><td>24</td><td>NEW004</td><td>회의가 벌써 시작했나요?</td></tr>
+<tr><td>25</td><td>NEW005</td><td>이 서류는 어디에 놓으면 될까요?</td></tr>
+<tr><td>26</td><td>NEW006</td><td>계단이 어두우니까 조심해서 내려오세요.</td></tr>
+<tr><td>27</td><td>NEW007</td><td>내가 먼저 먹고 있을 테니까 천천히 와.</td></tr>
+<tr><td>28</td><td>NEW008</td><td>그건 네 잘못이 아니야.</td></tr>
+<tr><td>29</td><td>NEW009</td><td>동생이 좋아하는 과자를 가방에 넣었어.</td></tr>
+<tr><td>30</td><td>NEW012</td><td>그 물건을 버리라고 한 건 아니었어요. 잠깐 다른 곳에 옮겨 달라는 뜻이었어요.</td></tr>
+<tr><td>31</td><td>ADVCE001A</td><td>기차가 지금 정차하나요?</td></tr>
+<tr><td>32</td><td>ADVCE001B</td><td>기차가 어제 정차했나요?</td></tr>
+<tr><td>33</td><td>ADVCE002A</td><td>선생님께서 자료를 읽고 계세요.</td></tr>
+<tr><td>34</td><td>ADVCE002B</td><td>선생님께서 자료를 읽고 계셨어요.</td></tr>
+<tr><td>35</td><td>ADVCE003A</td><td>이 문을 제가 닫을까요?</td></tr>
+<tr><td>36</td><td>ADVCE003B</td><td>이 문이 저절로 닫힐까요?</td></tr>
+<tr><td>37</td><td>ADVCE005A</td><td>그 사람은 제 동료예요.</td></tr>
+<tr><td>38</td><td>ADVCE005B</td><td>그 사람은 제 동료를 도와요.</td></tr>
+<tr><td>39</td><td>ADVCE006A</td><td>저는 그 내용을 설명했어요.</td></tr>
+<tr><td>40</td><td>ADVCE006B</td><td>나는 그 내용을 설명했어요.</td></tr>
+<tr><td>41</td><td>ADVCE008A</td><td>제가 지금 읽는 책을 빌려드릴게요.</td></tr>
+<tr><td>42</td><td>ADVCE008B</td><td>제가 전에 읽던 책을 빌려드릴게요.</td></tr>
+<tr><td>43</td><td>ADVCE010A</td><td>그 서류는 이미 제출하셨죠?</td></tr>
+<tr><td>44</td><td>ADVCE010B</td><td>그 서류는 이미 제출하셨죠.</td></tr>
+<tr><td>45</td><td>QUAL002</td><td>그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요.</td></tr>
+<tr><td>46</td><td>QUAL003</td><td>제가 좀 어떻게 보면 과를 잘못 선정해가지고 이십 대는 거의 시간을 날리면서 보낸 것 같아요.</td></tr>
+<tr><td>47</td><td>QUAL005</td><td>그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어요.</td></tr>
+<tr><td>48</td><td>QUAL017</td><td>이번에 저는 마지막으로 도전하려고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.</td></tr>
+<tr><td>49</td><td>QUAL018</td><td>처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어요.</td></tr>
+<tr><td>50</td><td>QUAL020</td><td>자격증이 많으면 전문성은 높아지는 것 같은데 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어요.</td></tr>
+</table>
+
+## 11. 50건 실제 결과와 근거
+
+각 행의 평가는 [의미, 높임, 자연스러움, 방언 실현] 순서다. 최초·최종이 같으면 동일로 표시한다. 상세 후보 표의 “표면 관찰”은 추천형이 출력에 글자 그대로 나타났는지만 뜻하며, 모델 내부의 지식 사용 증명이 아니다.
+
+상세표의 검토 표시: textual_constraints_require_review는 글로 적힌 제약 검토, source_scope_requires_review는 지역·시대 범위 검토, claim_status_requires_review는 근거 성격 검토, interpreted_condition_requires_review는 해석해서 만든 조건 검토, sense_requires_review는 단어 뜻 검토를 뜻한다. 이 표시는 오류 확정이나 모든 조건 검사 완료를 뜻하지 않는다.
+
+## 12. 결과 해석과 남은 문제
+
+<table header-row="true">
+<tr><td>관찰</td><td>실제 예</td><td>해석</td><td>후속 확인 방법</td></tr>
+<tr><td>기능에 맞는 종결 개선</td><td>DEV004 친구라예 / DEV011 출발했는교 / DEV021 보께예</td><td>구체적인 기능·높임·추천형을 함께 준 K에서 안정적으로 드러남</td><td>동일 문법의 새로운 입력을 따로 고정해 확인</td></tr>
+<tr><td>분석만으로는 부족</td><td>A의 친구임, 맵다요, 높임 소실</td><td>분석은 원문 설명이지 방언 형태를 생성하는 구체적 예시가 아님. 실제 방언 후보의 역할이 있음</td><td>A/K의 길이·지시 효과를 별도 실험으로 분리</td></tr>
+<tr><td>KG 없이도 성공</td><td>DEV017 세 조건 주이소</td><td>모든 성공이 KG로 새로 생긴 것은 아님</td><td>중복 성공과 K에만 관찰된 개선을 구별</td></tr>
+<tr><td>조회됐지만 적용 안 됨</td><td>NEW007 온나 전달, 출력은 와</td><td>검색 누락보다 생성 적용의 병목으로 추정</td><td>같은 후보를 더 명확하게 전달하는 실험; 현재는 변경 안 함</td></tr>
+<tr><td>구성 표현은 부분 변환</td><td>LONG001 만나자꼬 했는데 / NEW012 인용 표현 유지</td><td>단일 어미 변환보다 인용·의도 전체 결합의 연결과 적용이 덜 안정적</td><td>구성 후보의 대상 범위·바깥 시제·안쪽 인용 연결을 추적</td></tr>
+<tr><td>의미 회귀와 수정</td><td>DEV002 가는→가던→가는</td><td>KG가 있어도 원문 수식 의미를 바꿀 수 있음. 검사가 이 사례는 복원</td><td>검사의 놓침·잘못 경고를 독립 평가</td></tr>
+<tr><td>말투 혼용·어휘 범위</td><td>LONG003 맛있소/주이소, LONG004 이빠이, LONG002 올</td><td>문헌에 존재하는 표현도 동일 화자 맥락의 자연스러움을 보장하지 못함</td><td>지역·세대 화자 판단으로 후보 범위 보완</td></tr>
+<tr><td>검사 통과와 정답의 차이</td><td>최종 P/ADVCE001A 계신가요, A/QUAL002 거라</td><td>표면 패턴 검사의 범위 밖 오류가 남음</td><td>방언 화자 평가와 의미·높임 항목별 누락 점검</td></tr>
+</table>
+
+- 위 해석은 이번 로그와 출력의 관찰에 근거한 원인 가설이다. 후보 개수·문장 길이·특정 규칙 하나의 인과효과를 별도 실험으로 증명한 것은 아니다.
+- 이번 50개 발화에서는 동일 생성 모델에 조건부 KG 자료와 변환 계획을 제공했을 때 높임과 종결 표현의 보존·실현이 개선되는 양상을 관찰했다.
+- 후속 평가는 새로운 입력과 조건을 가린 복수 방언 화자 평가로 확장할 수 있다.
+
+## 13. 연구원 이관 파일과 재현 범위
+
+<table header-row="true">
+<tr><td>파일</td><td>용도</td></tr>
+<tr><td>report.html</td><td>이 보고서. 인터넷 연결 없이 열 수 있고 인쇄/PDF 저장 가능</td></tr>
+<tr><td>논문용_테스트_데이터셋.json / .tsv / .txt</td><td>고정 50개 원문과 선정 시 정보</td></tr>
+<tr><td>selection_audit.json</td><td>기존 90건 전체의 선정·제외 근거</td></tr>
+<tr><td>comparison.tsv / translations.txt</td><td>150개 최초 및 최종 출력 전체 비교</td></tr>
+<tr><td>annotations.json / annotation_notes.tsv / final_annotation_overrides.tsv</td><td>조건별·축별 수동 정성 판정과 설명</td></tr>
+<tr><td>metrics.json</td><td>집계 수치와 실제 전달량</td></tr>
+<tr><td>candidate_trace.json / retrieval.json</td><td>후보·조건·출처·관계·제외 기록</td></tr>
+<tr><td>jobs.json / raw/ / outputs.json</td><td>실제 생성 요청·응답·검사·재검토 기록</td></tr>
+<tr><td>analysis.json</td><td>고정 재사용한 Qwen 분석</td></tr>
+<tr><td>protocol.json / model_identity.json</td><td>실험 설정·파일 해시·서버 모델 응답</td></tr>
+<tr><td>transport_failures/</td><td>응답 없는 통신 실패 2건의 원래 기록</td></tr>
+<tr><td>snapshot/</td><td>이번 실험에서 사용한 KG·조회·생성·검사 코드와 데이터 복사본</td></tr>
+<tr><td>run.py / recover_transport.py / report.py</td><td>실험 준비·생성, 통신 복구, 오프라인 보고서 재생성</td></tr>
+<tr><td>verification.json</td><td>150건·고정 데이터·생산 파일 불변 검증 결과</td></tr>
+</table>
+
+보고서와 표는 프로젝트 루트에서 아래 명령으로 다시 만들 수 있다. API 호출은 하지 않는다. 실험 재호출은 run.py execute가 담당하지만 기존 raw 파일이 있으면 재사용하므로, 새 반복 실험은 별도 경로·버전으로 준비해야 한다.
+
+```bash
+.venv/retrieval/bin/python reports/20261021_paper50/report.py
+```
+
+<table header-row="true">
+<tr><td>고정 대상</td><td>SHA-256</td></tr>
+<tr><td>데이터셋 JSON</td><td>b8a2470c8cb5251494c05d30989bb89f1afb831d096e99fcb501ca593c9c74f9</td></tr>
+<tr><td>150개 최초 요청 jobs.json</td><td>11fac4b74c8af150590ee673ac9ef498e79a0e13ba5f5d53f187e6cdf88e143c</td></tr>
+<tr><td>실행 코드 run.py</td><td>fde2f4924b65e0e529d643f49e8fe4713ebd5beb7e4fa41974ac6d9ab0e0b001</td></tr>
+</table>
+
+이전 기준 결과 위치: reports/20261013_terminal_generation/translations.txt (70건), reports/20261013_user_qualification20/translations.txt (수정한 20건). 이번 자료는 reports/20261021_paper50에 모았으며 이전 실험은 덮어쓰지 않았다.
+
+평가 항목을 구분하고 평가자·절차·한계를 공개하는 설계는 자연어 생성 평가 연구의 일반적인 권고를 참고했다. 이 보고서의 자동 모델 평가는 그 논문의 독립 사람 평가를 수행했다는 뜻이 아니다.
+
+[평가 설계 참고 논문](https://aclanthology.org/W19-8643/)
+
+- 문헌 3종과 위키 PDF 4종은 근거의 성격이 다르다. 서로 재인용한 내용은 독립된 증거로 중복 계산하지 않는다.
+- 9가지 지식 유형은 항목 내용의 분류, 8가지 노드 유형은 저장 요소의 분류, 19가지 관계 유형은 요소 사이 연결의 분류다. 같은 지식 항목 하나가 여러 노드와 관계로 펼쳐진다.
+- 문헌 밖 모델 조언은 advisory_rules.json의 별도 제안으로 유지하고 원문 직접 확인형으로 쓰지 않는다. 문헌 구성요소를 조합한 PLAN도 완성 문장의 원문 확인을 뜻하지 않는다.
+- Neo4j는 이전 시각화·검증에 사용했다. 이번 생성 경로는 facts.jsonl과 graph.json을 읽는 Python이며 Neo4j나 의미 임베딩 검색을 호출하지 않는다.
+- 경북40대 이상 별도 페르소나는 이번 고정 지시에 없다. 목표는 자연스러운 경상도 방언이며 출처의 세부 지역·세대 범위가 혼재한다.
+- 이 실험은 가중치를 학습하는 방식이 아니다. Qwen의 분석·생성 호출과 외부 지식 제공을 비교한다. Claude API 자동 피드백 시스템은 아직 구현하지 않았다.
+- 분석과 조회는 오류를 포함할 수 있다. JSON 형식 검사 통과나 자동 경고0개를 번역 정답으로 취급하지 않는다.
+- 이 보고서의 모델 평가는 관찰과 해석이다. 독립 화자 평가, 정답 기반 점수, 통계적 우월성 검정은 수행하지 않았다.

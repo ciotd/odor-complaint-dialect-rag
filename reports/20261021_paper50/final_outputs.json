@@ -1,0 +1,4404 @@
+[
+  {
+    "id": "ADVCE001A",
+    "input": "기차가 지금 정차하나요?",
+    "condition": "A",
+    "status": "success",
+    "output": "기차 지금 멈추노?",
+    "first_output": "기차 지금 멈추노?",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "기차가 지금 정차하나요?",
+          "output": "기차 지금 멈추노?",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "기차가 지금 정차하나요?",
+          "output": "기차 지금 멈추노?",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "first_pass_repair_not_accepted",
+    "repair_output": "기차 지금 멈추노?",
+    "repair_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "기차가 지금 정차하나요?",
+          "output": "기차 지금 멈추노?",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "ADVCE001A",
+    "input": "기차가 지금 정차하나요?",
+    "condition": "K",
+    "status": "success",
+    "output": "기차가 짐 정차하는교?",
+    "first_output": "기차가 짐 정차하는교?",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "ADVCE001A",
+    "input": "기차가 지금 정차하나요?",
+    "condition": "P",
+    "status": "success",
+    "output": "기차 지금 정차하고 계신가요?",
+    "first_output": "기차 지금 멈춰 서 있나?",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "기차가 지금 정차하나요?",
+          "output": "기차 지금 멈춰 서 있나?",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "기차 지금 정차하고 계신가요?",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "ADVCE001B",
+    "input": "기차가 어제 정차했나요?",
+    "condition": "A",
+    "status": "success",
+    "output": "기차가 어제 정차했나?",
+    "first_output": "기차가 어제 정차했나?",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "기차가 어제 정차했나요?",
+          "output": "기차가 어제 정차했나?",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "기차가 어제 정차했나요?",
+          "output": "기차가 어제 정차했나?",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "first_pass_repair_not_accepted",
+    "repair_output": "기차가 어제 정차했나?",
+    "repair_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "기차가 어제 정차했나요?",
+          "output": "기차가 어제 정차했나?",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "ADVCE001B",
+    "input": "기차가 어제 정차했나요?",
+    "condition": "K",
+    "status": "success",
+    "output": "기차가 어제 정차했는교?",
+    "first_output": "기차가 어제 정차했는교?",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "ADVCE001B",
+    "input": "기차가 어제 정차했나요?",
+    "condition": "P",
+    "status": "success",
+    "output": "기차 어제 정차했습니까?",
+    "first_output": "기차 어제 멈추었나?",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "기차가 어제 정차했나요?",
+          "output": "기차 어제 멈추었나?",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "기차 어제 정차했습니까?",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "ADVCE002A",
+    "input": "선생님께서 자료를 읽고 계세요.",
+    "condition": "A",
+    "status": "success",
+    "output": "선생님이 자료를 읽고 계세요.",
+    "first_output": "선생님이 자료를 읽고 계세요.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "ADVCE002A",
+    "input": "선생님께서 자료를 읽고 계세요.",
+    "condition": "K",
+    "status": "success",
+    "output": "선생님께서 자료를 읽고 계셔예.",
+    "first_output": "선생님께서 자료를 읽고 계셔예.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "ADVCE002A",
+    "input": "선생님께서 자료를 읽고 계세요.",
+    "condition": "P",
+    "status": "success",
+    "output": "선생님, 자료 보고 계세요.",
+    "first_output": "선생님, 자료 보고 계세요.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "ADVCE002B",
+    "input": "선생님께서 자료를 읽고 계셨어요.",
+    "condition": "A",
+    "status": "success",
+    "output": "선생님이 자료를 읽고 계셨어.",
+    "first_output": "선생님이 자료를 읽고 계셨어.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "선생님께서 자료를 읽고 계셨어요.",
+          "output": "선생님이 자료를 읽고 계셨어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "선생님께서 자료를 읽고 계셨어요.",
+          "output": "선생님이 자료를 읽고 계셨어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "first_pass_repair_not_accepted",
+    "repair_output": "선생님이 자료를 읽고 계셨어.",
+    "repair_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "선생님께서 자료를 읽고 계셨어요.",
+          "output": "선생님이 자료를 읽고 계셨어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "ADVCE002B",
+    "input": "선생님께서 자료를 읽고 계셨어요.",
+    "condition": "K",
+    "status": "success",
+    "output": "선생님께서 자료를 읽고 계셨어예.",
+    "first_output": "선생님께서 자료를 읽고 계셨어예.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "ADVCE002B",
+    "input": "선생님께서 자료를 읽고 계셨어요.",
+    "condition": "P",
+    "status": "success",
+    "output": "선생님께서 자료를 읽고 계셨어요.",
+    "first_output": "선생님이 자료를 읽고 계셨어.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "선생님께서 자료를 읽고 계셨어요.",
+          "output": "선생님이 자료를 읽고 계셨어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "선생님께서 자료를 읽고 계셨어요.",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "ADVCE003A",
+    "input": "이 문을 제가 닫을까요?",
+    "condition": "A",
+    "status": "success",
+    "output": "이 문 제가 닫을래요?",
+    "first_output": "이 문 내가 닫을래?",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "이 문을 제가 닫을까요?",
+          "output": "이 문 내가 닫을래?",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        },
+        {
+          "kind": "humility_replaced",
+          "sentence_index": 0,
+          "source": "이 문을 제가 닫을까요?",
+          "output": "이 문 내가 닫을래?",
+          "confidence": "high",
+          "instruction": "저/제의 겸양 지칭을 보존한다. 청자 높임과 별개로 검사한다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "이 문 제가 닫을래요?",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "ADVCE003A",
+    "input": "이 문을 제가 닫을까요?",
+    "condition": "K",
+    "status": "success",
+    "output": "이 문을 제가 닫을까예?",
+    "first_output": "이 문을 제가 닫을까예?",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "ADVCE003A",
+    "input": "이 문을 제가 닫을까요?",
+    "condition": "P",
+    "status": "success",
+    "output": "이 문 제가 닫아 드릴까요?",
+    "first_output": "이 문 제가 닫아 드릴까요?",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "ADVCE003B",
+    "input": "이 문이 저절로 닫힐까요?",
+    "condition": "A",
+    "status": "success",
+    "output": "이 문이 저절로 닫히겄소?",
+    "first_output": "이 문이 저절로 닫히겄나?",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "이 문이 저절로 닫힐까요?",
+          "output": "이 문이 저절로 닫히겄나?",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "이 문이 저절로 닫히겄소?",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "ADVCE003B",
+    "input": "이 문이 저절로 닫힐까요?",
+    "condition": "K",
+    "status": "success",
+    "output": "이 문이 절로 닫힐까예?",
+    "first_output": "이 문이 절로 닫힐까예?",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "ADVCE003B",
+    "input": "이 문이 저절로 닫힐까요?",
+    "condition": "P",
+    "status": "success",
+    "output": "이 문이 저절로 닫힐까요?",
+    "first_output": "이 문이 저절로 닫히나?",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "이 문이 저절로 닫힐까요?",
+          "output": "이 문이 저절로 닫히나?",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "이 문이 저절로 닫힐까요?",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "ADVCE005A",
+    "input": "그 사람은 제 동료예요.",
+    "condition": "A",
+    "status": "success",
+    "output": "그 사람은 제 동료임서.",
+    "first_output": "그 사람은 제 동료임서.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "ADVCE005A",
+    "input": "그 사람은 제 동료예요.",
+    "condition": "K",
+    "status": "success",
+    "output": "그 사람은 제 동료라예.",
+    "first_output": "그 사람은 제 동료라예.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "ADVCE005A",
+    "input": "그 사람은 제 동료예요.",
+    "condition": "P",
+    "status": "success",
+    "output": "그 사람은 제 동료임서.",
+    "first_output": "그 사람은 제 동료임서.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "ADVCE005B",
+    "input": "그 사람은 제 동료를 도와요.",
+    "condition": "A",
+    "status": "success",
+    "output": "그 사람은 제 동료를 도우제.",
+    "first_output": "그 사람은 제 동료를 도우제.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "그 사람은 제 동료를 도와요.",
+          "output": "그 사람은 제 동료를 도우제.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "그 사람은 제 동료를 도와요.",
+          "output": "그 사람은 제 동료를 도우제.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "first_pass_repair_not_accepted",
+    "repair_output": "그 사람은 제 동료를 도우제.",
+    "repair_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "그 사람은 제 동료를 도와요.",
+          "output": "그 사람은 제 동료를 도우제.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "ADVCE005B",
+    "input": "그 사람은 제 동료를 도와요.",
+    "condition": "K",
+    "status": "success",
+    "output": "그 사람은 제 동료를 도와예.",
+    "first_output": "그 사람은 제 동료를 도와예.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "ADVCE005B",
+    "input": "그 사람은 제 동료를 도와요.",
+    "condition": "P",
+    "status": "success",
+    "output": "그 사람은 제 동료한테 도와주셔요.",
+    "first_output": "그 사람은 제 동료한테 도와주제.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "그 사람은 제 동료를 도와요.",
+          "output": "그 사람은 제 동료한테 도와주제.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "그 사람은 제 동료한테 도와주셔요.",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "ADVCE006A",
+    "input": "저는 그 내용을 설명했어요.",
+    "condition": "A",
+    "status": "success",
+    "output": "나는 그 내용을 설명했어.",
+    "first_output": "나는 그 내용을 설명했어.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "저는 그 내용을 설명했어요.",
+          "output": "나는 그 내용을 설명했어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        },
+        {
+          "kind": "humility_replaced",
+          "sentence_index": 0,
+          "source": "저는 그 내용을 설명했어요.",
+          "output": "나는 그 내용을 설명했어.",
+          "confidence": "high",
+          "instruction": "저/제의 겸양 지칭을 보존한다. 청자 높임과 별개로 검사한다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "저는 그 내용을 설명했어요.",
+          "output": "나는 그 내용을 설명했어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        },
+        {
+          "kind": "humility_replaced",
+          "sentence_index": 0,
+          "source": "저는 그 내용을 설명했어요.",
+          "output": "나는 그 내용을 설명했어.",
+          "confidence": "high",
+          "instruction": "저/제의 겸양 지칭을 보존한다. 청자 높임과 별개로 검사한다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "first_pass_repair_not_accepted",
+    "repair_output": "나는 그 내용을 설명했어요.",
+    "repair_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "humility_replaced",
+          "sentence_index": 0,
+          "source": "저는 그 내용을 설명했어요.",
+          "output": "나는 그 내용을 설명했어요.",
+          "confidence": "high",
+          "instruction": "저/제의 겸양 지칭을 보존한다. 청자 높임과 별개로 검사한다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "ADVCE006A",
+    "input": "저는 그 내용을 설명했어요.",
+    "condition": "K",
+    "status": "success",
+    "output": "저는 그 내용을 설명했어예.",
+    "first_output": "저는 그 내용을 설명했어예.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "ADVCE006A",
+    "input": "저는 그 내용을 설명했어요.",
+    "condition": "P",
+    "status": "success",
+    "output": "저는 그 내용을 설명했습니다.",
+    "first_output": "나 그 내용 설명했어.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "저는 그 내용을 설명했어요.",
+          "output": "나 그 내용 설명했어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "저는 그 내용을 설명했습니다.",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "ADVCE006B",
+    "input": "나는 그 내용을 설명했어요.",
+    "condition": "A",
+    "status": "success",
+    "output": "나는 그 내용을 설명했어요.",
+    "first_output": "나는 그 내용을 설명했어.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "나는 그 내용을 설명했어요.",
+          "output": "나는 그 내용을 설명했어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "나는 그 내용을 설명했어요.",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "ADVCE006B",
+    "input": "나는 그 내용을 설명했어요.",
+    "condition": "K",
+    "status": "success",
+    "output": "나는 그 내용을 설명했어예.",
+    "first_output": "나는 그 내용을 설명했어예.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "ADVCE006B",
+    "input": "나는 그 내용을 설명했어요.",
+    "condition": "P",
+    "status": "success",
+    "output": "나는 그 내용을 설명했습니다.",
+    "first_output": "나는 그 내용을 설명했어.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "나는 그 내용을 설명했어요.",
+          "output": "나는 그 내용을 설명했어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "나는 그 내용을 설명했습니다.",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "ADVCE008A",
+    "input": "제가 지금 읽는 책을 빌려드릴게요.",
+    "condition": "A",
+    "status": "success",
+    "output": "나 지금 읽는 책 빌려줄게요.",
+    "first_output": "나 지금 읽는 책 빌려줄게요.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "ADVCE008A",
+    "input": "제가 지금 읽는 책을 빌려드릴게요.",
+    "condition": "K",
+    "status": "success",
+    "output": "제가 지금 읽는 책을 빌려드리께예.",
+    "first_output": "제가 지금 읽는 책을 빌려드리께예.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "ADVCE008A",
+    "input": "제가 지금 읽는 책을 빌려드릴게요.",
+    "condition": "P",
+    "status": "success",
+    "output": "제가 지금 읽는 책을 빌려드릴게요.",
+    "first_output": "나 지금 읽는 책 빌려줄게.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "제가 지금 읽는 책을 빌려드릴게요.",
+          "output": "나 지금 읽는 책 빌려줄게.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "제가 지금 읽는 책을 빌려드릴게요.",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "ADVCE008B",
+    "input": "제가 전에 읽던 책을 빌려드릴게요.",
+    "condition": "A",
+    "status": "success",
+    "output": "나 전에 읽던 책 빌려드릴게요.",
+    "first_output": "나 전에 읽던 책 빌려줄게.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "제가 전에 읽던 책을 빌려드릴게요.",
+          "output": "나 전에 읽던 책 빌려줄게.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "나 전에 읽던 책 빌려드릴게요.",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "ADVCE008B",
+    "input": "제가 전에 읽던 책을 빌려드릴게요.",
+    "condition": "K",
+    "status": "success",
+    "output": "제가 전에 읽던 책을 빌려드리께예.",
+    "first_output": "제가 전에 읽던 책을 빌려드리께예.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "ADVCE008B",
+    "input": "제가 전에 읽던 책을 빌려드릴게요.",
+    "condition": "P",
+    "status": "success",
+    "output": "제가 전에 읽던 책을 빌려드릴게요.",
+    "first_output": "나 전에 읽던 책 빌려줄게.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "제가 전에 읽던 책을 빌려드릴게요.",
+          "output": "나 전에 읽던 책 빌려줄게.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "제가 전에 읽던 책을 빌려드릴게요.",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "ADVCE010A",
+    "input": "그 서류는 이미 제출하셨죠?",
+    "condition": "A",
+    "status": "success",
+    "output": "그 서류는 이미 제출하셨제?",
+    "first_output": "그 서류는 이미 제출하셨제?",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "그 서류는 이미 제출하셨죠?",
+          "output": "그 서류는 이미 제출하셨제?",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "그 서류는 이미 제출하셨죠?",
+          "output": "그 서류는 이미 제출하셨제?",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "first_pass_repair_not_accepted",
+    "repair_output": "그 서류는 이미 제출하셨제?",
+    "repair_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "그 서류는 이미 제출하셨죠?",
+          "output": "그 서류는 이미 제출하셨제?",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "ADVCE010A",
+    "input": "그 서류는 이미 제출하셨죠?",
+    "condition": "K",
+    "status": "success",
+    "output": "그 서류는 이미 제출하셨지예?",
+    "first_output": "그 서류는 이미 제출하셨지예?",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "ADVCE010A",
+    "input": "그 서류는 이미 제출하셨죠?",
+    "condition": "P",
+    "status": "success",
+    "output": "그 서류는 이미 제출하셨죠?",
+    "first_output": "그 서류는 이미 내셨제?",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "그 서류는 이미 제출하셨죠?",
+          "output": "그 서류는 이미 내셨제?",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "그 서류는 이미 제출하셨죠?",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "ADVCE010B",
+    "input": "그 서류는 이미 제출하셨죠.",
+    "condition": "A",
+    "status": "success",
+    "output": "그 서류는 이미 제출하셨제.",
+    "first_output": "그 서류는 이미 제출하셨제.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "그 서류는 이미 제출하셨죠.",
+          "output": "그 서류는 이미 제출하셨제.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "그 서류는 이미 제출하셨죠.",
+          "output": "그 서류는 이미 제출하셨제.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "first_pass_repair_not_accepted",
+    "repair_output": "그 서류는 이미 제출하셨제.",
+    "repair_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "그 서류는 이미 제출하셨죠.",
+          "output": "그 서류는 이미 제출하셨제.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "ADVCE010B",
+    "input": "그 서류는 이미 제출하셨죠.",
+    "condition": "K",
+    "status": "success",
+    "output": "그 서류는 이미 제출하셨지예.",
+    "first_output": "그 서류는 이미 제출하셨지예.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "ADVCE010B",
+    "input": "그 서류는 이미 제출하셨죠.",
+    "condition": "P",
+    "status": "success",
+    "output": "그 서류는 이미 제출하셨죠.",
+    "first_output": "그 서류는 이미 내셨제.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "그 서류는 이미 제출하셨죠.",
+          "output": "그 서류는 이미 내셨제.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "그 서류는 이미 제출하셨죠.",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "DEV002",
+    "input": "집에 가는 길에 빵을 샀어.",
+    "condition": "A",
+    "status": "success",
+    "output": "집에 가는 길에 빵을 샀어.",
+    "first_output": "집에 가던 길에 빵을 샀어.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "relative_aspect_changed",
+          "sentence_index": 0,
+          "source": "집에 가는 길에 빵을 샀어.",
+          "output": "집에 가던 길에 빵을 샀어.",
+          "confidence": "high",
+          "instruction": "현재 관형형 -는을 회상 관형형 -던으로 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "집에 가는 길에 빵을 샀어.",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "DEV002",
+    "input": "집에 가는 길에 빵을 샀어.",
+    "condition": "K",
+    "status": "success",
+    "output": "집에 가는 길에 빵을 샀다.",
+    "first_output": "집에 가던 길에 빵을 샀다.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "relative_aspect_changed",
+          "sentence_index": 0,
+          "source": "집에 가는 길에 빵을 샀어.",
+          "output": "집에 가던 길에 빵을 샀다.",
+          "confidence": "high",
+          "instruction": "현재 관형형 -는을 회상 관형형 -던으로 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "집에 가는 길에 빵을 샀다.",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "DEV002",
+    "input": "집에 가는 길에 빵을 샀어.",
+    "condition": "P",
+    "status": "success",
+    "output": "집 가다 빵 사 왔어.",
+    "first_output": "집 가다 빵 사 왔어.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV003",
+    "input": "이 음식은 생각보다 맵네요.",
+    "condition": "A",
+    "status": "success",
+    "output": "이 음식은 생각보다 맵다요.",
+    "first_output": "이 음식은 생각보다 맵다요.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV003",
+    "input": "이 음식은 생각보다 맵네요.",
+    "condition": "K",
+    "status": "success",
+    "output": "이 음식은 생각보다 맵네예.",
+    "first_output": "이 음식은 생각보다 맵네예.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV003",
+    "input": "이 음식은 생각보다 맵네요.",
+    "condition": "P",
+    "status": "success",
+    "output": "이 음식은 생각보다 매운디.",
+    "first_output": "이 음식은 생각보다 매운디.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV004",
+    "input": "아까 문 앞에 있던 사람이 제 친구예요.",
+    "condition": "A",
+    "status": "success",
+    "output": "아까 문 앞에 있던 사람이 제 친구임.",
+    "first_output": "아까 문 앞에 있던 사람이 제 친구임.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV004",
+    "input": "아까 문 앞에 있던 사람이 제 친구예요.",
+    "condition": "K",
+    "status": "success",
+    "output": "아까 문 앞에 있던 사람이 제 친구라예.",
+    "first_output": "아까 문 앞에 있던 사람이 제 친구라예.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV004",
+    "input": "아까 문 앞에 있던 사람이 제 친구예요.",
+    "condition": "P",
+    "status": "success",
+    "output": "아까 문 앞에 있던 그 사람이 제 친구여요.",
+    "first_output": "아까 문 앞에 있던 그 사람이 제 친구여요.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV005",
+    "input": "나는 커피보다 차가 더 좋아.",
+    "condition": "A",
+    "status": "success",
+    "output": "나는 커피보다 차가 더 좋아.",
+    "first_output": "나는 커피보다 차가 더 좋아.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV005",
+    "input": "나는 커피보다 차가 더 좋아.",
+    "condition": "K",
+    "status": "success",
+    "output": "나는 커피보다 차가 더 좋다.",
+    "first_output": "나는 커피보다 차가 더 좋다.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV005",
+    "input": "나는 커피보다 차가 더 좋아.",
+    "condition": "P",
+    "status": "success",
+    "output": "나 커피보다 차가 더 좋아.",
+    "first_output": "나 커피보다 차가 더 좋아.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV007",
+    "input": "나는 아직 점심을 안 먹었어.",
+    "condition": "A",
+    "status": "success",
+    "output": "나 아직 점심 안 먹었어.",
+    "first_output": "나 아직 점심 안 먹었어.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV007",
+    "input": "나는 아직 점심을 안 먹었어.",
+    "condition": "K",
+    "status": "success",
+    "output": "나는 아직 점심을 안 묵었다.",
+    "first_output": "나는 아직 점심을 안 묵었다.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV007",
+    "input": "나는 아직 점심을 안 먹었어.",
+    "condition": "P",
+    "status": "success",
+    "output": "나 아직 점심 안 먹었어.",
+    "first_output": "나 아직 점심 안 먹었어.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV011",
+    "input": "버스가 벌써 출발했나요?",
+    "condition": "A",
+    "status": "success",
+    "output": "버스 벌써 출발했나?",
+    "first_output": "버스 벌써 출발했나?",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "버스가 벌써 출발했나요?",
+          "output": "버스 벌써 출발했나?",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "버스가 벌써 출발했나요?",
+          "output": "버스 벌써 출발했나?",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "first_pass_repair_not_accepted",
+    "repair_output": "버스 벌써 출발했나?",
+    "repair_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "버스가 벌써 출발했나요?",
+          "output": "버스 벌써 출발했나?",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "DEV011",
+    "input": "버스가 벌써 출발했나요?",
+    "condition": "K",
+    "status": "success",
+    "output": "버스가 벌써 출발했는교?",
+    "first_output": "버스가 벌써 출발했는교?",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV011",
+    "input": "버스가 벌써 출발했나요?",
+    "condition": "P",
+    "status": "success",
+    "output": "버스 벌써 출발했습니까?",
+    "first_output": "버스 벌써 출발했나?",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "버스가 벌써 출발했나요?",
+          "output": "버스 벌써 출발했나?",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "버스 벌써 출발했습니까?",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "DEV012",
+    "input": "열쇠를 어디에 뒀어?",
+    "condition": "A",
+    "status": "success",
+    "output": "열쇠를 어디에 뒀어?",
+    "first_output": "열쇠를 어디에 뒀어?",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV012",
+    "input": "열쇠를 어디에 뒀어?",
+    "condition": "K",
+    "status": "success",
+    "output": "열쇠를 어디에 뒀노?",
+    "first_output": "열쇠를 어디에 뒀노?",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV012",
+    "input": "열쇠를 어디에 뒀어?",
+    "condition": "P",
+    "status": "success",
+    "output": "열쇠를 어디다 놨노?",
+    "first_output": "열쇠를 어디다 놨노?",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV013",
+    "input": "내일 몇 시에 만나면 될까요?",
+    "condition": "A",
+    "status": "success",
+    "output": "내일 몇 시에 만나면 될꼬?",
+    "first_output": "내일 몇 시에 만나면 될꼬?",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV013",
+    "input": "내일 몇 시에 만나면 될까요?",
+    "condition": "K",
+    "status": "success",
+    "output": "낼 몇 시에 만나면 될까예?",
+    "first_output": "낼 몇 시에 만나면 될까예?",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV013",
+    "input": "내일 몇 시에 만나면 될까요?",
+    "condition": "P",
+    "status": "success",
+    "output": "내일 몇 시에 만나면 될꼬?",
+    "first_output": "내일 몇 시에 만나면 될꼬?",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV014",
+    "input": "아까 왜 아무 말도 안 했어?",
+    "condition": "A",
+    "status": "success",
+    "output": "아까 왜 아무 말도 안 했어?",
+    "first_output": "아까 왜 아무 말도 안 했어?",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV014",
+    "input": "아까 왜 아무 말도 안 했어?",
+    "condition": "K",
+    "status": "success",
+    "output": "아까 왜 아무 말도 안 했노?",
+    "first_output": "아까 왜 아무 말도 안 했노?",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV014",
+    "input": "아까 왜 아무 말도 안 했어?",
+    "condition": "P",
+    "status": "success",
+    "output": "방금 왜 아무 말도 안 혀?",
+    "first_output": "방금 왜 아무 말도 안 혀?",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "past_unrecognized",
+          "sentence_index": 0,
+          "source": "아까 왜 아무 말도 안 했어?",
+          "output": "방금 왜 아무 말도 안 혀?",
+          "confidence": "review",
+          "instruction": "과거를 보존했는지 확인한다. 방언 활용의 형태 분석이 불완전할 수 있다."
+        }
+      ],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "past_unrecognized",
+          "sentence_index": 0,
+          "source": "아까 왜 아무 말도 안 했어?",
+          "output": "방금 왜 아무 말도 안 혀?",
+          "confidence": "review",
+          "instruction": "과거를 보존했는지 확인한다. 방언 활용의 형태 분석이 불완전할 수 있다."
+        }
+      ],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV017",
+    "input": "문 좀 닫아 주세요.",
+    "condition": "A",
+    "status": "success",
+    "output": "문 좀 닫아 주이소.",
+    "first_output": "문 좀 닫아 주이소.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV017",
+    "input": "문 좀 닫아 주세요.",
+    "condition": "K",
+    "status": "success",
+    "output": "문 좀 닫아 주이소.",
+    "first_output": "문 좀 닫아 주이소.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV017",
+    "input": "문 좀 닫아 주세요.",
+    "condition": "P",
+    "status": "success",
+    "output": "문 좀 닫아 주이소.",
+    "first_output": "문 좀 닫아 주이소.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV019",
+    "input": "바닥이 미끄러우니까 천천히 걸으세요.",
+    "condition": "A",
+    "status": "success",
+    "output": "바닥이 미끄러우니까 천천히 걸으소.",
+    "first_output": "바닥이 미끄러우니까 천천히 걸으소.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV019",
+    "input": "바닥이 미끄러우니까 천천히 걸으세요.",
+    "condition": "K",
+    "status": "success",
+    "output": "바닥이 미끄러우니까 천천히 걸으이소.",
+    "first_output": "바닥이 미끄러우니까 천천히 걸으이소.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV019",
+    "input": "바닥이 미끄러우니까 천천히 걸으세요.",
+    "condition": "P",
+    "status": "success",
+    "output": "바닥이 미끄러우니 천천히 걸으소.",
+    "first_output": "바닥이 미끄러우니 천천히 걸으소.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV020",
+    "input": "그 얘기는 다른 사람한테 하지 마.",
+    "condition": "A",
+    "status": "success",
+    "output": "그 얘기는 다른 사람한테 말 안 혀.",
+    "first_output": "그 얘기는 다른 사람한테 말 안 혀.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV020",
+    "input": "그 얘기는 다른 사람한테 하지 마.",
+    "condition": "K",
+    "status": "success",
+    "output": "그 얘기는 다른 사람한테 하지 마라.",
+    "first_output": "그 얘기는 다른 사람한테 하지 마라.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV020",
+    "input": "그 얘기는 다른 사람한테 하지 마.",
+    "condition": "P",
+    "status": "success",
+    "output": "그 말은 다른 사람한테 하지 마라.",
+    "first_output": "그 말은 다른 사람한테 하지 마라.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV021",
+    "input": "잠깐만 기다려 주세요. 제가 확인해 볼게요.",
+    "condition": "A",
+    "status": "success",
+    "output": "잠깐만 기다려 주이소. 제가 확인해 볼게요.",
+    "first_output": "잠깐만 기다려 주이소. 제가 확인해 볼게요.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV021",
+    "input": "잠깐만 기다려 주세요. 제가 확인해 볼게요.",
+    "condition": "K",
+    "status": "success",
+    "output": "잠깐만 기다려 주이소. 제가 확인해 보께예.",
+    "first_output": "잠깐만 기다려 주이소. 제가 확인해 보께예.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV021",
+    "input": "잠깐만 기다려 주세요. 제가 확인해 볼게요.",
+    "condition": "P",
+    "status": "success",
+    "output": "잠깐만 기다려 주이소. 제가 한번 확인해 볼게요.",
+    "first_output": "잠깐만 기다려 주이소. 제가 한번 확인해 볼게요.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV022",
+    "input": "시간 괜찮으면 같이 점심 먹자.",
+    "condition": "A",
+    "status": "success",
+    "output": "시간 괜찮으면 같이 점심 먹자.",
+    "first_output": "시간 괜찮으면 같이 점심 먹자.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV022",
+    "input": "시간 괜찮으면 같이 점심 먹자.",
+    "condition": "K",
+    "status": "success",
+    "output": "시간 괜찮으면 같이 점심 묵제.",
+    "first_output": "시간 괜찮으면 같이 점심 묵제.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV022",
+    "input": "시간 괜찮으면 같이 점심 먹자.",
+    "condition": "P",
+    "status": "success",
+    "output": "시간 되시면 같이 점심 드시자.",
+    "first_output": "시간 되시면 같이 점심 드시자.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV026",
+    "input": "늦을까 봐 조금 일찍 나왔어요.",
+    "condition": "A",
+    "status": "success",
+    "output": "늦으까 봐 조금 일찍 나왔어.",
+    "first_output": "늦으까 봐 조금 일찍 나왔어.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "늦을까 봐 조금 일찍 나왔어요.",
+          "output": "늦으까 봐 조금 일찍 나왔어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "늦을까 봐 조금 일찍 나왔어요.",
+          "output": "늦으까 봐 조금 일찍 나왔어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "first_pass_repair_not_accepted",
+    "repair_output": "늦으까 봐 조금 일찍 나왔어.",
+    "repair_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "늦을까 봐 조금 일찍 나왔어요.",
+          "output": "늦으까 봐 조금 일찍 나왔어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "DEV026",
+    "input": "늦을까 봐 조금 일찍 나왔어요.",
+    "condition": "K",
+    "status": "success",
+    "output": "늦으까 봐 쪼매 일찍 나왔어예.",
+    "first_output": "늦으까 봐 쪼매 일찍 나왔어예.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV026",
+    "input": "늦을까 봐 조금 일찍 나왔어요.",
+    "condition": "P",
+    "status": "success",
+    "output": "늦을까 봐 조금 일찍 나왔습니다.",
+    "first_output": "늦어질까 봐 좀 일찍 나왔제.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "늦을까 봐 조금 일찍 나왔어요.",
+          "output": "늦어질까 봐 좀 일찍 나왔제.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "늦을까 봐 조금 일찍 나왔습니다.",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "DEV028",
+    "input": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+    "condition": "A",
+    "status": "success",
+    "output": "아까 말한 건 이거 버리라는 뜻이 아니었어.",
+    "first_output": "아까 말한 건 이거 버리라는 뜻이 아니었어.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+          "output": "아까 말한 건 이거 버리라는 뜻이 아니었어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+          "output": "아까 말한 건 이거 버리라는 뜻이 아니었어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "first_pass_repair_not_accepted",
+    "repair_output": "아까 말한 건 이거 버리라는 뜻이 아니었어.",
+    "repair_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+          "output": "아까 말한 건 이거 버리라는 뜻이 아니었어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "DEV028",
+    "input": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+    "condition": "K",
+    "status": "success",
+    "output": "아까 말한 건 이걸 버리라는 뜻이 아니었어예.",
+    "first_output": "아까 말한 건 이걸 버리라는 뜻이 아니었어예.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV028",
+    "input": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+    "condition": "P",
+    "status": "success",
+    "output": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+    "first_output": "아까 말한 거, 이거 버리라는 뜻이 아니었어.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+          "output": "아까 말한 거, 이거 버리라는 뜻이 아니었어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "DEV029",
+    "input": "그 가게에 가 봤는데 음식이 괜찮더라.",
+    "condition": "A",
+    "status": "success",
+    "output": "그 가게에 가 봤는데 음식이 괜찮더라.",
+    "first_output": "그 가게에 가 봤는데 음식이 괜찮더라.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV029",
+    "input": "그 가게에 가 봤는데 음식이 괜찮더라.",
+    "condition": "K",
+    "status": "success",
+    "output": "그 가게에 가 봤는데 음식이 갠찮더라.",
+    "first_output": "그 가게에 가 봤는데 음식이 갠찮더라.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV029",
+    "input": "그 가게에 가 봤는데 음식이 괜찮더라.",
+    "condition": "P",
+    "status": "success",
+    "output": "그 가게에 가 봤는데 음식이 꽤 괜찮더라.",
+    "first_output": "그 가게에 가 봤는데 음식이 꽤 괜찮더라.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV030",
+    "input": "피곤하면 먼저 자. 뒷정리는 내가 할게.",
+    "condition": "A",
+    "status": "success",
+    "output": "피곤하면 먼저 자. 뒷정리는 내가 할게.",
+    "first_output": "피곤하면 먼저 자. 뒷정리는 내가 할게.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV030",
+    "input": "피곤하면 먼저 자. 뒷정리는 내가 할게.",
+    "condition": "K",
+    "status": "success",
+    "output": "피곤하면 먼저 자라. 뒷정리는 내가 하께.",
+    "first_output": "피곤하면 먼저 자라. 뒷정리는 내가 하께.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "DEV030",
+    "input": "피곤하면 먼저 자. 뒷정리는 내가 할게.",
+    "condition": "P",
+    "status": "success",
+    "output": "피곤하면 먼저 자. 뒷정리는 내가 할게.",
+    "first_output": "피곤하면 먼저 자. 뒷정리는 내가 할게.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "LONG001",
+    "input": "너 지금 어디야? 아까 역 앞에서 만나자고 했는데 왜 아직 안 와? 나는 배가 고파서 먼저 밥을 먹고 있을게.",
+    "condition": "A",
+    "status": "success",
+    "output": "너 지금 어디야? 아까 역 앞에서 만나자고 했는디 왜 아직 안 와? 나 배고파서 먼저 밥 먹고 있을게.",
+    "first_output": "너 지금 어디야? 아까 역 앞에서 만나자고 했는디 왜 아직 안 와? 나 배고파서 먼저 밥 먹고 있을게.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "LONG001",
+    "input": "너 지금 어디야? 아까 역 앞에서 만나자고 했는데 왜 아직 안 와? 나는 배가 고파서 먼저 밥을 먹고 있을게.",
+    "condition": "K",
+    "status": "success",
+    "output": "니 지금 어디고? 아까 역 앞에서 만나자꼬 했는데 왜 아직 안 오노? 나 배 고파서 먼저 밥 묵고 있으께.",
+    "first_output": "니 지금 어디고? 아까 역 앞에서 만나자꼬 했는데 왜 아직 안 오노? 나 배 고파서 먼저 밥 묵고 있으께.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "LONG001",
+    "input": "너 지금 어디야? 아까 역 앞에서 만나자고 했는데 왜 아직 안 와? 나는 배가 고파서 먼저 밥을 먹고 있을게.",
+    "condition": "P",
+    "status": "success",
+    "output": "너 지금 어디 있노? 아까 역 앞에서 만나자고 했디 왜 아직 안 왔노? 나 배가 고파서 먼저 밥이나 먹고 있을게.",
+    "first_output": "너 지금 어디 있노? 아까 역 앞에서 만나자고 했디 왜 아직 안 왔노? 나 배가 고파서 먼저 밥이나 먹고 있을게.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "LONG002",
+    "input": "오늘 시장에서 사 온 사과 먹어 봤어? 보기에는 조금 작아도 생각보다 달고 맛있더라. 혼자 다 먹지 말고 동생 것도 좀 남겨 둬.",
+    "condition": "A",
+    "status": "success",
+    "output": "오늘 시장에서 사 온 사과 먹어 봤어? 보기에는 조금 작아도 생각보다 달고 맛있더라. 혼자 다 먹지 말고 동생 것도 좀 남겨 둬.",
+    "first_output": "오늘 시장에서 사 온 사과 먹어 봤어? 보기에는 조금 작아도 생각보다 달고 맛있더라. 혼자 다 먹지 말고 동생 것도 좀 남겨 둬.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "LONG002",
+    "input": "오늘 시장에서 사 온 사과 먹어 봤어? 보기에는 조금 작아도 생각보다 달고 맛있더라. 혼자 다 먹지 말고 동생 것도 좀 남겨 둬.",
+    "condition": "K",
+    "status": "success",
+    "output": "올 시장에서 사 온 사과 묵어 봤나? 보기에는 쪼매 작아도 생각보다 달고 맛있더라. 혼자 다 묵지 말고 동생 것도 좀 남겨 두라.",
+    "first_output": "올 시장에서 사 온 사과 묵어 봤나? 보기에는 쪼매 작아도 생각보다 달고 맛있더라. 혼자 다 묵지 말고 동생 것도 좀 남겨 두라.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "LONG002",
+    "input": "오늘 시장에서 사 온 사과 먹어 봤어? 보기에는 조금 작아도 생각보다 달고 맛있더라. 혼자 다 먹지 말고 동생 것도 좀 남겨 둬.",
+    "condition": "P",
+    "status": "success",
+    "output": "오늘 시장에서 사 온 사과 먹어 봤나? 모양은 좀 작아도 생각보다 달고 맛있더군. 혼자 다 먹지 말고 동생 것도 좀 남겨 두어라.",
+    "first_output": "오늘 시장에서 사 온 사과 먹어 봤나? 모양은 좀 작아도 생각보다 달고 맛있더군. 혼자 다 먹지 말고 동생 것도 좀 남겨 두어라.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "LONG003",
+    "input": "사장님, 이 국은 뭐가 들어가서 이렇게 맛있어요? 제가 매운 음식은 잘 못 먹는데 이건 괜찮네요. 반찬도 조금만 더 주세요.",
+    "condition": "A",
+    "status": "success",
+    "output": "사장님, 이 국은 뭐가 들어가서 이렇게 맛있소? 제가 매운 음식은 잘 못 먹는데 이건 괜찮네요. 반찬도 조금만 더 주십시오.",
+    "first_output": "사장님, 이 국은 뭐가 들어가서 이렇게 맛있소? 제가 매운 음식은 잘 못 먹는데 이건 괜찮네요. 반찬도 조금만 더 주십시오.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "LONG003",
+    "input": "사장님, 이 국은 뭐가 들어가서 이렇게 맛있어요? 제가 매운 음식은 잘 못 먹는데 이건 괜찮네요. 반찬도 조금만 더 주세요.",
+    "condition": "K",
+    "status": "success",
+    "output": "사장님, 이 국은 뭐가 들어가서 이렇게 맛있소? 제가 매운 음식은 잘 못 먹는데 이건 괜찮소. 반찬도 쪼매만 더 주이소.",
+    "first_output": "사장님, 이 국은 뭐가 들어가서 이렇게 맛있소? 제가 매운 음식은 잘 못 먹는데 이건 괜찮소. 반찬도 쪼매만 더 주이소.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "LONG003",
+    "input": "사장님, 이 국은 뭐가 들어가서 이렇게 맛있어요? 제가 매운 음식은 잘 못 먹는데 이건 괜찮네요. 반찬도 조금만 더 주세요.",
+    "condition": "P",
+    "status": "success",
+    "output": "사장님, 이 국은 뭐가 들어가서 이렇게 맛나요? 제가 매운 거는 잘 못 먹는데 이건 괜찮네요. 반찬도 좀 더 주세요.",
+    "first_output": "사장님, 이 국은 뭐가 들어가서 이렇게 맛나요? 제가 매운 거는 잘 못 먹는데 이건 괜찮네요. 반찬도 좀 더 주세요.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "LONG004",
+    "input": "할머니, 밖에 비가 많이 오는데 우산은 챙기셨어요? 길이 미끄러우니까 혼자 나가지 마세요. 제가 집 앞까지 모셔다드릴게요.",
+    "condition": "A",
+    "status": "success",
+    "output": "할머니, 밖에 비가 많이 오는데 우산은 챙기셨어요? 길이 미끄러우니까 혼자 나가지 마세요. 제가 집 앞까지 모셔다드릴게요.",
+    "first_output": "할머니, 밖에 비가 많이 오는데 우산은 챙기셨어? 길이 미끄러우니까 혼자 나가지 마라. 내가 집 앞까지 모셔다줄게.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "할머니, 밖에 비가 많이 오는데 우산은 챙기셨어요?",
+          "output": "할머니, 밖에 비가 많이 오는데 우산은 챙기셨어?",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        },
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 2,
+          "source": "제가 집 앞까지 모셔다드릴게요.",
+          "output": "내가 집 앞까지 모셔다줄게.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        },
+        {
+          "kind": "humility_replaced",
+          "sentence_index": 2,
+          "source": "제가 집 앞까지 모셔다드릴게요.",
+          "output": "내가 집 앞까지 모셔다줄게.",
+          "confidence": "high",
+          "instruction": "저/제의 겸양 지칭을 보존한다. 청자 높임과 별개로 검사한다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "할머니, 밖에 비가 많이 오는데 우산은 챙기셨어요? 길이 미끄러우니까 혼자 나가지 마세요. 제가 집 앞까지 모셔다드릴게요.",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "LONG004",
+    "input": "할머니, 밖에 비가 많이 오는데 우산은 챙기셨어요? 길이 미끄러우니까 혼자 나가지 마세요. 제가 집 앞까지 모셔다드릴게요.",
+    "condition": "K",
+    "status": "success",
+    "output": "할무이, 밖에 비가 이빠이 오는데 우산은 챙기셨는교? 길이 미끄러우니까 혼자 나가지 마이소. 제가 집 앞까지 모셔다드리께예.",
+    "first_output": "할무이, 밖에 비가 이빠이 오는데 우산은 챙기셨는교? 길이 미끄러우니까 혼자 나가지 마이소. 제가 집 앞까지 모셔다드리께예.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "LONG004",
+    "input": "할머니, 밖에 비가 많이 오는데 우산은 챙기셨어요? 길이 미끄러우니까 혼자 나가지 마세요. 제가 집 앞까지 모셔다드릴게요.",
+    "condition": "P",
+    "status": "success",
+    "output": "할머니, 밖에서 비가 억수같이 쏟아지는데 우산은 챙기셨소? 길이 미끄러우니까 혼자 나가시지 마쇼. 제가 집 앞까지 모셔다드릴게요.",
+    "first_output": "할머니, 밖에서 비가 억수같이 쏟아지는데 우산은 챙기셨소? 길이 미끄러우니까 혼자 나가시지 마쇼. 제가 집 앞까지 모셔다드릴게요.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "NEW001",
+    "input": "저기 창가에 앉아 있는 분이 제 선생님이에요.",
+    "condition": "A",
+    "status": "success",
+    "output": "저기 창가에 앉아 있는 분이 제 선생님이다.",
+    "first_output": "저기 창가에 앉아 있는 분이 제 선생님이다.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "저기 창가에 앉아 있는 분이 제 선생님이에요.",
+          "output": "저기 창가에 앉아 있는 분이 제 선생님이다.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "저기 창가에 앉아 있는 분이 제 선생님이에요.",
+          "output": "저기 창가에 앉아 있는 분이 제 선생님이다.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "first_pass_repair_not_accepted",
+    "repair_output": "저기 창가에 앉아 있는 분이 제 선생님이다.",
+    "repair_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "저기 창가에 앉아 있는 분이 제 선생님이에요.",
+          "output": "저기 창가에 앉아 있는 분이 제 선생님이다.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "NEW001",
+    "input": "저기 창가에 앉아 있는 분이 제 선생님이에요.",
+    "condition": "K",
+    "status": "success",
+    "output": "저기 창가에 앉아 있는 분이 제 선생님이라예.",
+    "first_output": "저기 창가에 앉아 있는 분이 제 선생님이라예.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "NEW001",
+    "input": "저기 창가에 앉아 있는 분이 제 선생님이에요.",
+    "condition": "P",
+    "status": "success",
+    "output": "저기 창가에 앉아 계신 분이 제 선생님이에요.",
+    "first_output": "저기 창가에 앉아 계신 분은 제 스승님이셔.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "저기 창가에 앉아 있는 분이 제 선생님이에요.",
+          "output": "저기 창가에 앉아 계신 분은 제 스승님이셔.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "저기 창가에 앉아 계신 분이 제 선생님이에요.",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "NEW004",
+    "input": "회의가 벌써 시작했나요?",
+    "condition": "A",
+    "status": "success",
+    "output": "회의가 벌써 시작했나?",
+    "first_output": "회의가 벌써 시작했나?",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "회의가 벌써 시작했나요?",
+          "output": "회의가 벌써 시작했나?",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "회의가 벌써 시작했나요?",
+          "output": "회의가 벌써 시작했나?",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "first_pass_repair_not_accepted",
+    "repair_output": "회의가 벌써 시작했나?",
+    "repair_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "회의가 벌써 시작했나요?",
+          "output": "회의가 벌써 시작했나?",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "NEW004",
+    "input": "회의가 벌써 시작했나요?",
+    "condition": "K",
+    "status": "success",
+    "output": "회의가 벌써 시작했는교?",
+    "first_output": "회의가 벌써 시작했는교?",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "NEW004",
+    "input": "회의가 벌써 시작했나요?",
+    "condition": "P",
+    "status": "success",
+    "output": "회의가 벌써 시작했습니까?",
+    "first_output": "회의가 벌써 시작했나?",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "회의가 벌써 시작했나요?",
+          "output": "회의가 벌써 시작했나?",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "회의가 벌써 시작했습니까?",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "NEW005",
+    "input": "이 서류는 어디에 놓으면 될까요?",
+    "condition": "A",
+    "status": "success",
+    "output": "이 서류는 어디에 놓으면 될꼬?",
+    "first_output": "이 서류는 어디에 놓으면 될꼬?",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "NEW005",
+    "input": "이 서류는 어디에 놓으면 될까요?",
+    "condition": "K",
+    "status": "success",
+    "output": "이 서류는 어디에 놓으면 될까예?",
+    "first_output": "이 서류는 어디에 놓으면 될까예?",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "NEW005",
+    "input": "이 서류는 어디에 놓으면 될까요?",
+    "condition": "P",
+    "status": "success",
+    "output": "이 서류는 어디다 놓으면 되요?",
+    "first_output": "이 서류는 어디다 놓으면 되요?",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "NEW006",
+    "input": "계단이 어두우니까 조심해서 내려오세요.",
+    "condition": "A",
+    "status": "success",
+    "output": "계단이 어두우니까 조심해서 내려와라.",
+    "first_output": "계단이 어두우니까 조심해서 내려와라.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "NEW006",
+    "input": "계단이 어두우니까 조심해서 내려오세요.",
+    "condition": "K",
+    "status": "success",
+    "output": "계단이 어두우니까 조심해서 내려오이소.",
+    "first_output": "계단이 어두우니까 조심해서 내려오이소.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "NEW006",
+    "input": "계단이 어두우니까 조심해서 내려오세요.",
+    "condition": "P",
+    "status": "success",
+    "output": "계단이 어두우니 조심조심 내려오세요.",
+    "first_output": "계단이 어두우니 조심조심 내려오세요.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "NEW007",
+    "input": "내가 먼저 먹고 있을 테니까 천천히 와.",
+    "condition": "A",
+    "status": "success",
+    "output": "내가 먼저 묵고 있을 테니까 천천히 와.",
+    "first_output": "내가 먼저 묵고 있을 테니까 천천히 와.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "NEW007",
+    "input": "내가 먼저 먹고 있을 테니까 천천히 와.",
+    "condition": "K",
+    "status": "success",
+    "output": "내가 먼저 묵고 있을 테니까 천천히 와.",
+    "first_output": "내가 먼저 묵고 있을 테니까 천천히 와.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "NEW007",
+    "input": "내가 먼저 먹고 있을 테니까 천천히 와.",
+    "condition": "P",
+    "status": "success",
+    "output": "나 먼저 먹어놓을 테니 천천히 와.",
+    "first_output": "나 먼저 먹어놓을 테니 천천히 와.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "NEW008",
+    "input": "그건 네 잘못이 아니야.",
+    "condition": "A",
+    "status": "success",
+    "output": "그건 니 잘못이 아녀.",
+    "first_output": "그건 니 잘못이 아녀.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "NEW008",
+    "input": "그건 네 잘못이 아니야.",
+    "condition": "K",
+    "status": "success",
+    "output": "그건 니 잘못이 아니야.",
+    "first_output": "그건 니 잘못이 아니야.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "NEW008",
+    "input": "그건 네 잘못이 아니야.",
+    "condition": "P",
+    "status": "success",
+    "output": "그건 니 탓이 아니여.",
+    "first_output": "그건 니 탓이 아니여.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "NEW009",
+    "input": "동생이 좋아하는 과자를 가방에 넣었어.",
+    "condition": "A",
+    "status": "success",
+    "output": "동생이 좋아허는 과자를 가방에 넣었어.",
+    "first_output": "동생이 좋아허는 과자를 가방에 넣었어.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "NEW009",
+    "input": "동생이 좋아하는 과자를 가방에 넣었어.",
+    "condition": "K",
+    "status": "success",
+    "output": "동생이 좋아하는 과자를 가방에 옇었어.",
+    "first_output": "동생이 좋아하는 과자를 가방에 옇었어.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "NEW009",
+    "input": "동생이 좋아하는 과자를 가방에 넣었어.",
+    "condition": "P",
+    "status": "success",
+    "output": "동생이 좋아허는 과자를 가방에 넣었어.",
+    "first_output": "동생이 좋아허는 과자를 가방에 넣었어.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "NEW012",
+    "input": "그 물건을 버리라고 한 건 아니었어요. 잠깐 다른 곳에 옮겨 달라는 뜻이었어요.",
+    "condition": "A",
+    "status": "success",
+    "output": "그 물건 버리라고 한 건 아니었어. 잠깐 다른 데로 옮겨 달라는 뜻이었어.",
+    "first_output": "그 물건 버리라고 한 건 아니었어. 잠깐 다른 데로 옮겨 달라는 뜻이었어.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "그 물건을 버리라고 한 건 아니었어요.",
+          "output": "그 물건 버리라고 한 건 아니었어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        },
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 1,
+          "source": "잠깐 다른 곳에 옮겨 달라는 뜻이었어요.",
+          "output": "잠깐 다른 데로 옮겨 달라는 뜻이었어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "그 물건을 버리라고 한 건 아니었어요.",
+          "output": "그 물건 버리라고 한 건 아니었어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        },
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 1,
+          "source": "잠깐 다른 곳에 옮겨 달라는 뜻이었어요.",
+          "output": "잠깐 다른 데로 옮겨 달라는 뜻이었어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "first_pass_repair_not_accepted",
+    "repair_output": "그 물건 버리라고 한 건 아니었어. 잠깐 다른 데로 옮겨 달라는 뜻이었어.",
+    "repair_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "그 물건을 버리라고 한 건 아니었어요.",
+          "output": "그 물건 버리라고 한 건 아니었어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        },
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 1,
+          "source": "잠깐 다른 곳에 옮겨 달라는 뜻이었어요.",
+          "output": "잠깐 다른 데로 옮겨 달라는 뜻이었어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "NEW012",
+    "input": "그 물건을 버리라고 한 건 아니었어요. 잠깐 다른 곳에 옮겨 달라는 뜻이었어요.",
+    "condition": "K",
+    "status": "success",
+    "output": "그 물건을 버리라고 한 건 아니었어예. 잠깐 다른 곳에 옮겨 달라는 뜻이었어예.",
+    "first_output": "그 물건을 버리라고 한 건 아니었어예. 잠깐 다른 곳에 옮겨 달라는 뜻이었어예.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "NEW012",
+    "input": "그 물건을 버리라고 한 건 아니었어요. 잠깐 다른 곳에 옮겨 달라는 뜻이었어요.",
+    "condition": "P",
+    "status": "success",
+    "output": "그 물건을 버리라고 한 건 아니었어요. 잠깐 다른 곳에 옮겨 달라는 뜻이었어요.",
+    "first_output": "그 물건 버리라고 한 건 아니었어. 잠깐 다른 데로 옮겨 달라는 뜻이었어.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "그 물건을 버리라고 한 건 아니었어요.",
+          "output": "그 물건 버리라고 한 건 아니었어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        },
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 1,
+          "source": "잠깐 다른 곳에 옮겨 달라는 뜻이었어요.",
+          "output": "잠깐 다른 데로 옮겨 달라는 뜻이었어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "그 물건을 버리라고 한 건 아니었어요. 잠깐 다른 곳에 옮겨 달라는 뜻이었어요.",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "QUAL002",
+    "input": "그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요.",
+    "condition": "A",
+    "status": "success",
+    "output": "그런디 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거라.",
+    "first_output": "그런디 이제 대학을 졸업하고 사회생활을 하면서 내가 좀 늦게, 그런 배움의 눈을 뜨게 된 거라.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "humility_replaced",
+          "sentence_index": 0,
+          "source": "그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요.",
+          "output": "그런디 이제 대학을 졸업하고 사회생활을 하면서 내가 좀 늦게, 그런 배움의 눈을 뜨게 된 거라.",
+          "confidence": "high",
+          "instruction": "저/제의 겸양 지칭을 보존한다. 청자 높임과 별개로 검사한다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "그런디 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거라.",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "QUAL002",
+    "input": "그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요.",
+    "condition": "K",
+    "status": "success",
+    "output": "그런데 인자 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거라예.",
+    "first_output": "그런데 인자 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거라예.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "QUAL002",
+    "input": "그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요.",
+    "condition": "P",
+    "status": "success",
+    "output": "그런데 대학 졸업하고 사회생활 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거라.",
+    "first_output": "그런데 대학 졸업하고 사회생활 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거라.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "QUAL003",
+    "input": "제가 좀 어떻게 보면 과를 잘못 선정해가지고 이십 대는 거의 시간을 날리면서 보낸 것 같아요.",
+    "condition": "A",
+    "status": "success",
+    "output": "제가 좀 어떻게 보면 과를 잘못 고르다 보니까 이십 대는 거의 시간을 날리면서 보낸 것 같아요.",
+    "first_output": "나 좀 어떻게 보면 과를 잘못 고르다 보니까 이십 대는 거의 시간을 날리면서 보낸 것 같아.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "제가 좀 어떻게 보면 과를 잘못 선정해가지고 이십 대는 거의 시간을 날리면서 보낸 것 같아요.",
+          "output": "나 좀 어떻게 보면 과를 잘못 고르다 보니까 이십 대는 거의 시간을 날리면서 보낸 것 같아.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "제가 좀 어떻게 보면 과를 잘못 고르다 보니까 이십 대는 거의 시간을 날리면서 보낸 것 같아요.",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "QUAL003",
+    "input": "제가 좀 어떻게 보면 과를 잘못 선정해가지고 이십 대는 거의 시간을 날리면서 보낸 것 같아요.",
+    "condition": "K",
+    "status": "success",
+    "output": "제가 좀 어떻게 보면 과를 잘못 선정해가지고 이십 대는 거의 시간을 날리면서 보낸 것 같아예.",
+    "first_output": "제가 좀 어떻게 보면 과를 잘못 선정해가지고 이십 대는 거의 시간을 날리면서 보낸 것 같아예.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "QUAL003",
+    "input": "제가 좀 어떻게 보면 과를 잘못 선정해가지고 이십 대는 거의 시간을 날리면서 보낸 것 같아요.",
+    "condition": "P",
+    "status": "success",
+    "output": "제가 좀 어떻게 보면 과를 잘못 고르다 보니까 이십 대는 거의 시간을 허비하면서 보낸 것 같애.",
+    "first_output": "제가 좀 어떻게 보면 과를 잘못 고르다 보니까 이십 대는 거의 시간을 허비하면서 보낸 것 같애.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "QUAL005",
+    "input": "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어요.",
+    "condition": "A",
+    "status": "success",
+    "output": "그때 나랑 같이 공부했던 애들이 대학교 졸업반 애들이었어.",
+    "first_output": "그때 나랑 같이 공부했던 애들이 대학교 졸업반 애들이었어.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어요.",
+          "output": "그때 나랑 같이 공부했던 애들이 대학교 졸업반 애들이었어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어요.",
+          "output": "그때 나랑 같이 공부했던 애들이 대학교 졸업반 애들이었어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "first_pass_repair_not_accepted",
+    "repair_output": "그때 나랑 같이 공부했던 애들이 대학교 졸업반 애들이었어.",
+    "repair_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어요.",
+          "output": "그때 나랑 같이 공부했던 애들이 대학교 졸업반 애들이었어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "QUAL005",
+    "input": "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어요.",
+    "condition": "K",
+    "status": "success",
+    "output": "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어예.",
+    "first_output": "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어예.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "QUAL005",
+    "input": "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어요.",
+    "condition": "P",
+    "status": "success",
+    "output": "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어요.",
+    "first_output": "그때 나랑 같이 공부하던 애들이 대학교 졸업반 애들이었어.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어요.",
+          "output": "그때 나랑 같이 공부하던 애들이 대학교 졸업반 애들이었어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어요.",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "QUAL017",
+    "input": "이번에 저는 마지막으로 도전하려고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.",
+    "condition": "A",
+    "status": "success",
+    "output": "이번에 저는 마지막으로 도전하려고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.",
+    "first_output": "이번에 나마 마지막으루 도전해볼라고 하노. 내가 저번에 일 년 하고 올해까지 하면 이 년째 되는데, 2년 해 보고 안 되면 나도 다른 일 해볼라고 하노.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "이번에 저는 마지막으로 도전하려고 하거든요.",
+          "output": "이번에 나마 마지막으루 도전해볼라고 하노.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        },
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 1,
+          "source": "제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.",
+          "output": "내가 저번에 일 년 하고 올해까지 하면 이 년째 되는데, 2년 해 보고 안 되면 나도 다른 일 해볼라고 하노.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        },
+        {
+          "kind": "humility_replaced",
+          "sentence_index": 1,
+          "source": "제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.",
+          "output": "내가 저번에 일 년 하고 올해까지 하면 이 년째 되는데, 2년 해 보고 안 되면 나도 다른 일 해볼라고 하노.",
+          "confidence": "high",
+          "instruction": "저/제의 겸양 지칭을 보존한다. 청자 높임과 별개로 검사한다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "이번에 저는 마지막으로 도전하려고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "QUAL017",
+    "input": "이번에 저는 마지막으로 도전하려고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.",
+    "condition": "K",
+    "status": "success",
+    "output": "이번에 저는 마지막으로 도전할라고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 할라고요.",
+    "first_output": "이번에 저는 마지막으로 도전할라고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 할라고요.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "QUAL017",
+    "input": "이번에 저는 마지막으로 도전하려고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.",
+    "condition": "P",
+    "status": "success",
+    "output": "이번에 저는 마지막으로 도전하려고 하거든요.\n제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데, 2년 해 보고 안 되면 저도 다른 일 하려고요.",
+    "first_output": "이번에 나마는 맨마지막으로 도전해볼라고 하노. 지난번에 일 년 하고 올해까지면 이 년째 되는데, 2년 해 보고 안 되면 나도 다른 일 해볼라고 하노.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "이번에 저는 마지막으로 도전하려고 하거든요.",
+          "output": "이번에 나마는 맨마지막으로 도전해볼라고 하노.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        },
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 1,
+          "source": "제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.",
+          "output": "지난번에 일 년 하고 올해까지면 이 년째 되는데, 2년 해 보고 안 되면 나도 다른 일 해볼라고 하노.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "이번에 저는 마지막으로 도전하려고 하거든요.\n제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데, 2년 해 보고 안 되면 저도 다른 일 하려고요.",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "QUAL018",
+    "input": "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어요.",
+    "condition": "A",
+    "status": "success",
+    "output": "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어요.",
+    "first_output": "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어요.",
+          "output": "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어요.",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "QUAL018",
+    "input": "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어요.",
+    "condition": "K",
+    "status": "success",
+    "output": "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어예.",
+    "first_output": "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어예.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "QUAL018",
+    "input": "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어요.",
+    "condition": "P",
+    "status": "success",
+    "output": "처음엔 열심히 했다고 생각해서 합격할 줄 알았는데, 제가 시험 당일에 좀 아팠어유.",
+    "first_output": "처음엔 열심히 했다고 생각해서 합격할 줄 알았는데, 제가 시험 당일에 좀 아팠어유.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "QUAL020",
+    "input": "자격증이 많으면 전문성은 높아지는 것 같은데 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어요.",
+    "condition": "A",
+    "status": "success",
+    "output": "자격증이 많으면 전문성은 높아지는 것 같은디 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어요.",
+    "first_output": "자격증이 많으면 전문성은 높아지는 것 같은디 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "자격증이 많으면 전문성은 높아지는 것 같은데 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어요.",
+          "output": "자격증이 많으면 전문성은 높아지는 것 같은디 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "자격증이 많으면 전문성은 높아지는 것 같은디 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어요.",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  },
+  {
+    "id": "QUAL020",
+    "input": "자격증이 많으면 전문성은 높아지는 것 같은데 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어요.",
+    "condition": "K",
+    "status": "success",
+    "output": "자격증이 많으면 전문성은 높아지는 것 같은데 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어예.",
+    "first_output": "자격증이 많으면 전문성은 높아지는 것 같은데 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어예.",
+    "first_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": false,
+    "selection": "first_pass"
+  },
+  {
+    "id": "QUAL020",
+    "input": "자격증이 많으면 전문성은 높아지는 것 같은데 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어요.",
+    "condition": "P",
+    "status": "success",
+    "output": "자격증이 많으면 전문성은 높아지는 것 같은데 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었습니다.",
+    "first_output": "자격증이 많으면 전문성은 높아지는 것 같긴 한데, 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어.",
+    "first_check": {
+      "status": "needs_review",
+      "flags": [
+        {
+          "kind": "listener_politeness_lost",
+          "sentence_index": 0,
+          "source": "자격증이 많으면 전문성은 높아지는 것 같은데 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어요.",
+          "output": "자격증이 많으면 전문성은 높아지는 것 같긴 한데, 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어.",
+          "confidence": "high",
+          "instruction": "원문의 청자 높임을 복원하되 질문·요청·약속 기능은 바꾸지 않는다."
+        }
+      ],
+      "repair_required": true,
+      "not_accuracy": true
+    },
+    "final_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    },
+    "repair_attempted": true,
+    "selection": "single_preservation_repair",
+    "repair_output": "자격증이 많으면 전문성은 높아지는 것 같은데 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었습니다.",
+    "repair_check": {
+      "status": "no_screening_flags",
+      "flags": [],
+      "repair_required": false,
+      "not_accuracy": true
+    }
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "verified_utc": "2026-10-23T15:37:41.362302+00:00",
+  "unique_inputs": 50,
+  "successful_cells": 150,
+  "annotations": 150,
+  "accepted_repair_annotations": 32,
+  "production_hashes_unchanged": true,
+  "frozen_requests_unchanged": true,
+  "dataset_unchanged": true,
+  "html_bytes": 237231,
+  "metrics_sha256": "44ad3a86270a28f05a9a95a698d15097185056f069443a4df425692c88103f03",
+  "report_sha256": "dffcef7f265d2a3a1085e2bc3ac3abd0847ae38f63cf81ae974fe75ee16ca8c5",
+  "report_model_calls": 0,
+  "report_html_count": 1,
+  "local_links_valid": true,
+  "chart_heatmap_scores_match_records": true
+}

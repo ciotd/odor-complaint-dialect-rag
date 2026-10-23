@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-10-21T07:21:05.274103+00:00",
+  "reviewer": "Codex qualitative analyst; not independent human annotation",
+  "primary_output": "first_output",
+  "scale": {
+    "2": "뚜렷한 문제 없음 / 충분히 실현",
+    "1": "부분 보존·부분 실현 또는 경미한 우려",
+    "0": "뚜렷한 손상 또는 방언 실현 없음"
+  },
+  "dimensions": {
+    "meaning": "누가 무엇을 하는지, 부정·시제·이동 방향·의도가 유지되는가",
+    "register": "청자 높임·주체 높임·저/제 지칭을 원문 수준대로 유지하는가",
+    "fluency": "문장 구조와 어미 결합이 읽기 자연스러운가; 지역 표기 확정과 구분",
+    "dialect": "문맥에 맞는 방언 어휘·종결 표현이 드러나는가; 단순 축약이나 표준어 그대로는 충분한 실현으로 세지 않음"
+  },
+  "aggregation": "각 축별 분포와 기술 평균만 제시; 네 축 합산 순위·정확도·유의성 주장 없음",
+  "uncertainty": "지역형·표기 적합성이 불명확하면 메모로 남김. KG/Claude/Astra와 일치한다는 이유만으로 정답 인정하지 않음.",
+  "knowledge_trace": "후보 ID·출처·조건·실제 user 메시지와 출력 연결. 문자열 포함은 표면 관찰이며 모델 내부 사용 증거가 아님.",
+  "reference": "https://aclanthology.org/W19-8643/",
+  "selection_disclosure": "기존 KG 결과를 보고 선정했으므로 선택 편향이 있음. 이50건 밖의 일반 성능으로 확대하지 않음."
+}

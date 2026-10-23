@@ -1,23 +1,14 @@
 {
-  "updated": "2026-10-13",
-  "latest_translation_run": "20261013_user_qualification20",
-  "latest_implementation_run": "20261013_terminal_retrieval",
-  "latest_model_comparison": "20261013_terminal_generation",
-  "translation_matches_latest_implementation": true,
-  "latest_model_comparison_entry": "history.html",
-  "briefing_text": "20261013_user_qualification20/briefing.txt",
-  "latest_docx": "20261013_review_guide/경상도_방언_KG_예시로_이해하는_복습가이드_20261013.docx",
-  "latest_user_feedback_comparison": "20261013_terminal_generation/history.html",
-  "translation_note": "수정된 사용자 입력20개를 같은 폴더에 덮어쓰기 실행:20개 모두 번역 생성. KG·조회·생성 설정 유지. 자동 보존 경고1개 및 별도 관찰 오류가 남아 있습니다. 입력 변경 시험으로 시스템 개선율 비교는 아닙니다.",
-  "latest_docx_label": "복습용 DOCX — 기존70개까지의 시스템 설명, 새20개 결과는 현재 요약 참고",
-  "model_comparison_label": "이전 실험27조건·참고 모델 비교 — 새20개는 별도",
-  "user_feedback_label": "Sonnet 두 버전 및 최신 Qwen을 선택해 비교",
-  "translation_comparison_label": "수정된20개 최초 출력·최종 선택 비교",
-  "source_output_file": "reports/20261013_user_qualification20/final_outputs.json",
-  "source_output_sha256": "87724cc11fcc5ecd3531b782aa586cff1d4f12d3dbe6e9198a063cd21304e1db",
-  "input_count": 20,
-  "output_count": 20,
-  "failed_input_ids": [],
-  "model_calls": 0,
-  "deleted_files": []
+  "updated": "2026-10-24",
+  "report": "reports/20261021_paper50/report.html",
+  "experiment": "reports/20261021_paper50",
+  "conditions": {
+    "P": "원문만 제공",
+    "A": "문장 분석 추가",
+    "K": "분석과 KG 지식 추가"
+  },
+  "input_count": 50,
+  "initial_output_count": 150,
+  "regenerate": ".venv/retrieval/bin/python reports/20261021_paper50/build_report.py",
+  "report_sha256": "dffcef7f265d2a3a1085e2bc3ac3abd0847ae38f63cf81ae974fe75ee16ca8c5"
 }

@@ -1,0 +1,304 @@
+{
+  "id": "QUAL002",
+  "input": "그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요.",
+  "condition": "A",
+  "request": {
+    "model": "Qwen3.8-27B",
+    "max_tokens": 512,
+    "temperature": 0.3,
+    "top_p": 0.8,
+    "top_k": 20,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "seed": 20260923,
+    "messages": [
+      {
+        "role": "system",
+        "content": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요."
+      },
+      {
+        "role": "user",
+        "content": "standard를 자연스러운 경상도 방언으로 변환하세요. analysis와 source_morphology는 원문 분석의 가설이며 원문이 우선입니다. transformation_plan 또는 references와 graph_paths는 조건부 참고 자료입니다. 의미·지역·시대·높임·결합 조건이 맞는 자료를 선택하고 관련 없는 자료는 사용하지 마세요. 조건 미확인은 적용 허용이 아니며 연결된 진술끼리 조건을 상속하지 않습니다. 기본형 대응과 완성 활용형을 구별하고 원문의 부정·시제·높임·인용·발화 의도를 유지하세요. preservation의 관형절·겸양·주체와 청자 높임·이동 관점 보존을 어휘 치환보다 우선하세요. 모델 조언 후보는 원문 확인형이 아니며 불확실하면 원문의 구조를 보존하세요. 표에 없는 활용형은 표에 실린 확인형으로 주장하지 마세요. 원문에 없는 내용을 추가하지 말고 변환한 발화만 출력하세요.\n{\"standard\":\"그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요.\",\"analysis\":[{\"text\":\"그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요.\",\"span\":[0,54],\"role\":\"main\",\"features\":{\"host_pos\":\"copula\",\"host_class\":\"nominal_copula\",\"host_form\":\"이다\",\"sentence_type\":\"declarative\",\"subject_person\":\"first\",\"nominal_coda\":\"present\",\"stem_coda\":\"absent\",\"stem_vowel\":\"a\",\"meaning\":\"배움의 눈을 뜨게 된 것임을 서술\",\"source_form\":\"된 거예요\"},\"observed_politeness\":\"polite\",\"observed_subject_honorific\":\"not_observed\",\"tense_or_modality\":\"past\",\"preserved_candidate_features\":{}}],\"source_morphology\":{\"tokens\":[{\"form\":\"그런데\",\"tag\":\"MAJ\",\"span\":[0,3],\"surface\":\"그런데\"},{\"form\":\"이제\",\"tag\":\"MAG\",\"span\":[4,6],\"surface\":\"이제\"},{\"form\":\"대학\",\"tag\":\"NNG\",\"span\":[7,9],\"surface\":\"대학\"},{\"form\":\"을\",\"tag\":\"JKO\",\"span\":[9,10],\"surface\":\"을\"},{\"form\":\"졸업\",\"tag\":\"NNG\",\"span\":[11,13],\"surface\":\"졸업\"},{\"form\":\"하\",\"tag\":\"XSV\",\"span\":[13,14],\"surface\":\"하\"},{\"form\":\"고\",\"tag\":\"EC\",\"span\":[14,15],\"surface\":\"고\"},{\"form\":\"사회생활\",\"tag\":\"NNG\",\"span\":[16,20],\"surface\":\"사회생활\"},{\"form\":\"을\",\"tag\":\"JKO\",\"span\":[20,21],\"surface\":\"을\"},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[22,23],\"surface\":\"하\"},{\"form\":\"면서\",\"tag\":\"EC\",\"span\":[23,25],\"surface\":\"면서\"},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[26,27],\"surface\":\"제\"},{\"form\":\"가\",\"tag\":\"JKS\",\"span\":[27,28],\"surface\":\"가\"},{\"form\":\"좀\",\"tag\":\"MAG\",\"span\":[29,30],\"surface\":\"좀\"},{\"form\":\"늦\",\"tag\":\"VA\",\"span\":[31,32],\"surface\":\"늦\"},{\"form\":\"게\",\"tag\":\"EC\",\"span\":[32,33],\"surface\":\"게\"},{\"form\":\",\",\"tag\":\"SP\",\"span\":[33,34],\"surface\":\",\"},{\"form\":\"그런\",\"tag\":\"MM\",\"span\":[35,37],\"surface\":\"그런\"},{\"form\":\"배우\",\"tag\":\"VV\",\"span\":[38,40],\"surface\":\"배움\"},{\"form\":\"ᆷ\",\"tag\":\"ETN\",\"span\":[39,40],\"surface\":\"움\"},{\"form\":\"의\",\"tag\":\"JKG\",\"span\":[40,41],\"surface\":\"의\"},{\"form\":\"눈\",\"tag\":\"NNG\",\"span\":[42,43],\"surface\":\"눈\"},{\"form\":\"을\",\"tag\":\"JKO\",\"span\":[43,44],\"surface\":\"을\"},{\"form\":\"뜨\",\"tag\":\"VV\",\"span\":[45,46],\"surface\":\"뜨\"},{\"form\":\"게\",\"tag\":\"EC\",\"span\":[46,47],\"surface\":\"게\"},{\"form\":\"되\",\"tag\":\"VV\",\"span\":[48,49],\"surface\":\"된\"},{\"form\":\"ᆫ\",\"tag\":\"ETM\",\"span\":[48,49],\"surface\":\"된\"},{\"form\":\"거\",\"tag\":\"NNB\",\"span\":[50,51],\"surface\":\"거\"},{\"form\":\"이\",\"tag\":\"VCP\",\"span\":[51,51],\"surface\":\"\"},{\"form\":\"예요\",\"tag\":\"EF\",\"span\":[51,53],\"surface\":\"예요\"},{\"form\":\".\",\"tag\":\"SF\",\"span\":[53,54],\"surface\":\".\"}],\"words\":[{\"form\":\"이제\",\"tag\":\"MAG\",\"span\":[4,6],\"surface\":\"이제\",\"lemma\":\"이제\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":1},{\"form\":\"대학\",\"tag\":\"NNG\",\"span\":[7,9],\"surface\":\"대학\",\"lemma\":\"대학\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":2},{\"form\":\"졸업하\",\"tag\":\"VV\",\"span\":[11,14],\"surface\":\"졸업하\",\"analysis_origin\":\"same_eojeol_derivation\",\"source_tags\":[\"NNG\",\"XSV\"],\"lemma\":\"졸업하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"고\",\"ending_tag\":\"EC\",\"token_index\":5,\"predicate_span\":[11,15]},{\"form\":\"사회생활\",\"tag\":\"NNG\",\"span\":[16,20],\"surface\":\"사회생활\",\"lemma\":\"사회생활\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":7},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[22,23],\"surface\":\"하\",\"lemma\":\"하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"면서\",\"ending_tag\":\"EC\",\"token_index\":9,\"predicate_span\":[22,25]},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[26,27],\"surface\":\"제\",\"lemma\":\"저\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":11},{\"form\":\"좀\",\"tag\":\"MAG\",\"span\":[29,30],\"surface\":\"좀\",\"lemma\":\"좀\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":13},{\"form\":\"늦\",\"tag\":\"VA\",\"span\":[31,32],\"surface\":\"늦\",\"lemma\":\"늦다\",\"pos\":\"adjective\",\"prefinals\":[],\"ending\":\"게\",\"ending_tag\":\"EC\",\"token_index\":14,\"predicate_span\":[31,33]},{\"form\":\"배우\",\"tag\":\"VV\",\"span\":[38,40],\"surface\":\"배움\",\"lemma\":\"배우다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"ᆷ\",\"ending_tag\":\"ETN\",\"token_index\":18,\"predicate_span\":[38,40]},{\"form\":\"눈\",\"tag\":\"NNG\",\"span\":[42,43],\"surface\":\"눈\",\"lemma\":\"눈\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":21},{\"form\":\"뜨\",\"tag\":\"VV\",\"span\":[45,46],\"surface\":\"뜨\",\"lemma\":\"뜨다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"게\",\"ending_tag\":\"EC\",\"token_index\":23,\"predicate_span\":[45,47]},{\"form\":\"되\",\"tag\":\"VV\",\"span\":[48,49],\"surface\":\"된\",\"lemma\":\"되다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"ᆫ\",\"ending_tag\":\"ETM\",\"token_index\":25,\"predicate_span\":[48,49]},{\"form\":\"이\",\"tag\":\"VCP\",\"span\":[51,51],\"surface\":\"\",\"lemma\":\"이다\",\"pos\":\"copula\",\"prefinals\":[],\"ending\":\"예요\",\"ending_tag\":\"EF\",\"token_index\":28,\"predicate_span\":[51,53]}],\"status\":\"Kiwi_hypotheses_not_gold\"},\"transformation_plan\":[],\"graph_paths\":[],\"preservation\":{\"origin\":\"reviewed_preservation_policy_not_dialect_rule\",\"relative_clauses\":[{\"text\":\"된\",\"span\":[48,49],\"lemma\":\"되다\",\"ending\":\"ᆫ\",\"prefinals\":[],\"instruction\":\"관형절 역할과 이 구간 자체의 시제·상을 보존한다. 종결형으로 바꾸거나 주절 과거를 복사하지 않는다.\"}],\"supporting_knowledge\":[],\"invariants\":[\"원문의 명제·부정·시제·화행과 모든 절을 유지한다.\",\"청자 높임, 주체 높임, 저/제의 겸양을 각각 보존한다. 주어를 호격으로 바꾸지 않는다.\",\"가는/오는 이동 관점과 먼저의 시간 순서를 보존한다. 앞에의 시간 용법 자체는 금지하지 않는다.\",\"인용 내용과 보고 서술부의 시제를 구분한다. 회상 -대를 표면형만 보고 전언으로 판단하지 않는다.\"],\"source_honorific_predicates\":[],\"terminal_analysis_review\":[]},\"plan_policy\":\"후보는 모두 적용할 목록이 아니라 대안이다. 어휘보다 의미·높임·시제·문장 역할 보존을 우선한다. 종결은 ending_conversion의 family와 preferred_surface를 우선 사용하며 같은 끝에 여러 종결을 겹쳐 붙이지 않는다. preferred_surface는 원래 어간 기준의 조합안이고 방언 어간을 선택하면 그 어간에 맞춰 활용한다. 문헌 구성요소와 분석자 조합·완성형을 구분한다. 원문에 맞는 후보만 사용한다. MODEL_ADVICE는 원문에서 직접 확인된 완성형이 아닌 모델 조합 제안이다. 보존용 지식은 치환 규칙이 아니다.\"}"
+      }
+    ]
+  },
+  "status": "success",
+  "response": {
+    "id": "chatcmpl-814f6e7eef463b57",
+    "object": "chat.completion",
+    "created": 1792567233,
+    "model": "Qwen3.8-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "그런디 이제 대학을 졸업하고 사회생활을 하면서 내가 좀 늦게, 그런 배움의 눈을 뜨게 된 거라.",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.27.1-51f03443",
+    "usage": {
+      "prompt_tokens": 2215,
+      "total_tokens": 2244,
+      "completion_tokens": 29,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  },
+  "first_output": "그런디 이제 대학을 졸업하고 사회생활을 하면서 내가 좀 늦게, 그런 배움의 눈을 뜨게 된 거라.",
+  "first_check": {
+    "status": "needs_review",
+    "flags": [
+      {
+        "kind": "humility_replaced",
+        "sentence_index": 0,
+        "source": "그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요.",
+        "output": "그런디 이제 대학을 졸업하고 사회생활을 하면서 내가 좀 늦게, 그런 배움의 눈을 뜨게 된 거라.",
+        "confidence": "high",
+        "instruction": "저/제의 겸양 지칭을 보존한다. 청자 높임과 별개로 검사한다."
+      }
+    ],
+    "repair_required": true,
+    "not_accuracy": true
+  },
+  "output": "그런디 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거라.",
+  "final_check": {
+    "status": "no_screening_flags",
+    "flags": [],
+    "repair_required": false,
+    "not_accuracy": true
+  },
+  "repair_attempted": true,
+  "selection": "single_preservation_repair",
+  "repair_request": {
+    "model": "Qwen3.8-27B",
+    "max_tokens": 512,
+    "temperature": 0.3,
+    "top_p": 0.8,
+    "top_k": 20,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "seed": 20260923,
+    "messages": [
+      {
+        "role": "system",
+        "content": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요."
+      },
+      {
+        "role": "user",
+        "content": "standard를 자연스러운 경상도 방언으로 변환하세요. analysis와 source_morphology는 원문 분석의 가설이며 원문이 우선입니다. transformation_plan 또는 references와 graph_paths는 조건부 참고 자료입니다. 의미·지역·시대·높임·결합 조건이 맞는 자료를 선택하고 관련 없는 자료는 사용하지 마세요. 조건 미확인은 적용 허용이 아니며 연결된 진술끼리 조건을 상속하지 않습니다. 기본형 대응과 완성 활용형을 구별하고 원문의 부정·시제·높임·인용·발화 의도를 유지하세요. preservation의 관형절·겸양·주체와 청자 높임·이동 관점 보존을 어휘 치환보다 우선하세요. 모델 조언 후보는 원문 확인형이 아니며 불확실하면 원문의 구조를 보존하세요. 표에 없는 활용형은 표에 실린 확인형으로 주장하지 마세요. 원문에 없는 내용을 추가하지 말고 변환한 발화만 출력하세요.\n{\"standard\":\"그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요.\",\"analysis\":[{\"text\":\"그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요.\",\"span\":[0,54],\"role\":\"main\",\"features\":{\"host_pos\":\"copula\",\"host_class\":\"nominal_copula\",\"host_form\":\"이다\",\"sentence_type\":\"declarative\",\"subject_person\":\"first\",\"nominal_coda\":\"present\",\"stem_coda\":\"absent\",\"stem_vowel\":\"a\",\"meaning\":\"배움의 눈을 뜨게 된 것임을 서술\",\"source_form\":\"된 거예요\"},\"observed_politeness\":\"polite\",\"observed_subject_honorific\":\"not_observed\",\"tense_or_modality\":\"past\",\"preserved_candidate_features\":{}}],\"source_morphology\":{\"tokens\":[{\"form\":\"그런데\",\"tag\":\"MAJ\",\"span\":[0,3],\"surface\":\"그런데\"},{\"form\":\"이제\",\"tag\":\"MAG\",\"span\":[4,6],\"surface\":\"이제\"},{\"form\":\"대학\",\"tag\":\"NNG\",\"span\":[7,9],\"surface\":\"대학\"},{\"form\":\"을\",\"tag\":\"JKO\",\"span\":[9,10],\"surface\":\"을\"},{\"form\":\"졸업\",\"tag\":\"NNG\",\"span\":[11,13],\"surface\":\"졸업\"},{\"form\":\"하\",\"tag\":\"XSV\",\"span\":[13,14],\"surface\":\"하\"},{\"form\":\"고\",\"tag\":\"EC\",\"span\":[14,15],\"surface\":\"고\"},{\"form\":\"사회생활\",\"tag\":\"NNG\",\"span\":[16,20],\"surface\":\"사회생활\"},{\"form\":\"을\",\"tag\":\"JKO\",\"span\":[20,21],\"surface\":\"을\"},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[22,23],\"surface\":\"하\"},{\"form\":\"면서\",\"tag\":\"EC\",\"span\":[23,25],\"surface\":\"면서\"},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[26,27],\"surface\":\"제\"},{\"form\":\"가\",\"tag\":\"JKS\",\"span\":[27,28],\"surface\":\"가\"},{\"form\":\"좀\",\"tag\":\"MAG\",\"span\":[29,30],\"surface\":\"좀\"},{\"form\":\"늦\",\"tag\":\"VA\",\"span\":[31,32],\"surface\":\"늦\"},{\"form\":\"게\",\"tag\":\"EC\",\"span\":[32,33],\"surface\":\"게\"},{\"form\":\",\",\"tag\":\"SP\",\"span\":[33,34],\"surface\":\",\"},{\"form\":\"그런\",\"tag\":\"MM\",\"span\":[35,37],\"surface\":\"그런\"},{\"form\":\"배우\",\"tag\":\"VV\",\"span\":[38,40],\"surface\":\"배움\"},{\"form\":\"ᆷ\",\"tag\":\"ETN\",\"span\":[39,40],\"surface\":\"움\"},{\"form\":\"의\",\"tag\":\"JKG\",\"span\":[40,41],\"surface\":\"의\"},{\"form\":\"눈\",\"tag\":\"NNG\",\"span\":[42,43],\"surface\":\"눈\"},{\"form\":\"을\",\"tag\":\"JKO\",\"span\":[43,44],\"surface\":\"을\"},{\"form\":\"뜨\",\"tag\":\"VV\",\"span\":[45,46],\"surface\":\"뜨\"},{\"form\":\"게\",\"tag\":\"EC\",\"span\":[46,47],\"surface\":\"게\"},{\"form\":\"되\",\"tag\":\"VV\",\"span\":[48,49],\"surface\":\"된\"},{\"form\":\"ᆫ\",\"tag\":\"ETM\",\"span\":[48,49],\"surface\":\"된\"},{\"form\":\"거\",\"tag\":\"NNB\",\"span\":[50,51],\"surface\":\"거\"},{\"form\":\"이\",\"tag\":\"VCP\",\"span\":[51,51],\"surface\":\"\"},{\"form\":\"예요\",\"tag\":\"EF\",\"span\":[51,53],\"surface\":\"예요\"},{\"form\":\".\",\"tag\":\"SF\",\"span\":[53,54],\"surface\":\".\"}],\"words\":[{\"form\":\"이제\",\"tag\":\"MAG\",\"span\":[4,6],\"surface\":\"이제\",\"lemma\":\"이제\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":1},{\"form\":\"대학\",\"tag\":\"NNG\",\"span\":[7,9],\"surface\":\"대학\",\"lemma\":\"대학\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":2},{\"form\":\"졸업하\",\"tag\":\"VV\",\"span\":[11,14],\"surface\":\"졸업하\",\"analysis_origin\":\"same_eojeol_derivation\",\"source_tags\":[\"NNG\",\"XSV\"],\"lemma\":\"졸업하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"고\",\"ending_tag\":\"EC\",\"token_index\":5,\"predicate_span\":[11,15]},{\"form\":\"사회생활\",\"tag\":\"NNG\",\"span\":[16,20],\"surface\":\"사회생활\",\"lemma\":\"사회생활\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":7},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[22,23],\"surface\":\"하\",\"lemma\":\"하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"면서\",\"ending_tag\":\"EC\",\"token_index\":9,\"predicate_span\":[22,25]},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[26,27],\"surface\":\"제\",\"lemma\":\"저\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":11},{\"form\":\"좀\",\"tag\":\"MAG\",\"span\":[29,30],\"surface\":\"좀\",\"lemma\":\"좀\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":13},{\"form\":\"늦\",\"tag\":\"VA\",\"span\":[31,32],\"surface\":\"늦\",\"lemma\":\"늦다\",\"pos\":\"adjective\",\"prefinals\":[],\"ending\":\"게\",\"ending_tag\":\"EC\",\"token_index\":14,\"predicate_span\":[31,33]},{\"form\":\"배우\",\"tag\":\"VV\",\"span\":[38,40],\"surface\":\"배움\",\"lemma\":\"배우다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"ᆷ\",\"ending_tag\":\"ETN\",\"token_index\":18,\"predicate_span\":[38,40]},{\"form\":\"눈\",\"tag\":\"NNG\",\"span\":[42,43],\"surface\":\"눈\",\"lemma\":\"눈\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":21},{\"form\":\"뜨\",\"tag\":\"VV\",\"span\":[45,46],\"surface\":\"뜨\",\"lemma\":\"뜨다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"게\",\"ending_tag\":\"EC\",\"token_index\":23,\"predicate_span\":[45,47]},{\"form\":\"되\",\"tag\":\"VV\",\"span\":[48,49],\"surface\":\"된\",\"lemma\":\"되다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"ᆫ\",\"ending_tag\":\"ETM\",\"token_index\":25,\"predicate_span\":[48,49]},{\"form\":\"이\",\"tag\":\"VCP\",\"span\":[51,51],\"surface\":\"\",\"lemma\":\"이다\",\"pos\":\"copula\",\"prefinals\":[],\"ending\":\"예요\",\"ending_tag\":\"EF\",\"token_index\":28,\"predicate_span\":[51,53]}],\"status\":\"Kiwi_hypotheses_not_gold\"},\"transformation_plan\":[],\"graph_paths\":[],\"preservation\":{\"origin\":\"reviewed_preservation_policy_not_dialect_rule\",\"relative_clauses\":[{\"text\":\"된\",\"span\":[48,49],\"lemma\":\"되다\",\"ending\":\"ᆫ\",\"prefinals\":[],\"instruction\":\"관형절 역할과 이 구간 자체의 시제·상을 보존한다. 종결형으로 바꾸거나 주절 과거를 복사하지 않는다.\"}],\"supporting_knowledge\":[],\"invariants\":[\"원문의 명제·부정·시제·화행과 모든 절을 유지한다.\",\"청자 높임, 주체 높임, 저/제의 겸양을 각각 보존한다. 주어를 호격으로 바꾸지 않는다.\",\"가는/오는 이동 관점과 먼저의 시간 순서를 보존한다. 앞에의 시간 용법 자체는 금지하지 않는다.\",\"인용 내용과 보고 서술부의 시제를 구분한다. 회상 -대를 표면형만 보고 전언으로 판단하지 않는다.\"],\"source_honorific_predicates\":[],\"terminal_analysis_review\":[]},\"plan_policy\":\"후보는 모두 적용할 목록이 아니라 대안이다. 어휘보다 의미·높임·시제·문장 역할 보존을 우선한다. 종결은 ending_conversion의 family와 preferred_surface를 우선 사용하며 같은 끝에 여러 종결을 겹쳐 붙이지 않는다. preferred_surface는 원래 어간 기준의 조합안이고 방언 어간을 선택하면 그 어간에 맞춰 활용한다. 문헌 구성요소와 분석자 조합·완성형을 구분한다. 원문에 맞는 후보만 사용한다. MODEL_ADVICE는 원문에서 직접 확인된 완성형이 아닌 모델 조합 제안이다. 보존용 지식은 치환 규칙이 아니다.\"}"
+      },
+      {
+        "role": "assistant",
+        "content": "그런디 이제 대학을 졸업하고 사회생활을 하면서 내가 좀 늦게, 그런 배움의 눈을 뜨게 된 거라."
+      },
+      {
+        "role": "user",
+        "content": "다음 보존 검사 지적을 확인해 번역을 한 번 수정하세요. 원문과 적용 가능한 근거가 우선입니다. 문제가 없는 부분의 의미와 말투를 유지하고 수정한 전체 발화만 출력하세요.\n저/제의 겸양 지칭을 보존한다. 청자 높임과 별개로 검사한다. 원문: 그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요."
+      }
+    ]
+  },
+  "repair_response": {
+    "id": "chatcmpl-ac9cac52cba1b16d",
+    "object": "chat.completion",
+    "created": 1792567234,
+    "model": "Qwen3.8-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "그런디 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거라.",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.27.1-51f03443",
+    "usage": {
+      "prompt_tokens": 2352,
+      "total_tokens": 2381,
+      "completion_tokens": 29,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  },
+  "repair_output": "그런디 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거라.",
+  "repair_check": {
+    "status": "no_screening_flags",
+    "flags": [],
+    "repair_required": false,
+    "not_accuracy": true
+  },
+  "calls": [
+    {
+      "request": {
+        "model": "Qwen3.8-27B",
+        "max_tokens": 512,
+        "temperature": 0.3,
+        "top_p": 0.8,
+        "top_k": 20,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "seed": 20260923,
+        "messages": [
+          {
+            "role": "system",
+            "content": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요."
+          },
+          {
+            "role": "user",
+            "content": "standard를 자연스러운 경상도 방언으로 변환하세요. analysis와 source_morphology는 원문 분석의 가설이며 원문이 우선입니다. transformation_plan 또는 references와 graph_paths는 조건부 참고 자료입니다. 의미·지역·시대·높임·결합 조건이 맞는 자료를 선택하고 관련 없는 자료는 사용하지 마세요. 조건 미확인은 적용 허용이 아니며 연결된 진술끼리 조건을 상속하지 않습니다. 기본형 대응과 완성 활용형을 구별하고 원문의 부정·시제·높임·인용·발화 의도를 유지하세요. preservation의 관형절·겸양·주체와 청자 높임·이동 관점 보존을 어휘 치환보다 우선하세요. 모델 조언 후보는 원문 확인형이 아니며 불확실하면 원문의 구조를 보존하세요. 표에 없는 활용형은 표에 실린 확인형으로 주장하지 마세요. 원문에 없는 내용을 추가하지 말고 변환한 발화만 출력하세요.\n{\"standard\":\"그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요.\",\"analysis\":[{\"text\":\"그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요.\",\"span\":[0,54],\"role\":\"main\",\"features\":{\"host_pos\":\"copula\",\"host_class\":\"nominal_copula\",\"host_form\":\"이다\",\"sentence_type\":\"declarative\",\"subject_person\":\"first\",\"nominal_coda\":\"present\",\"stem_coda\":\"absent\",\"stem_vowel\":\"a\",\"meaning\":\"배움의 눈을 뜨게 된 것임을 서술\",\"source_form\":\"된 거예요\"},\"observed_politeness\":\"polite\",\"observed_subject_honorific\":\"not_observed\",\"tense_or_modality\":\"past\",\"preserved_candidate_features\":{}}],\"source_morphology\":{\"tokens\":[{\"form\":\"그런데\",\"tag\":\"MAJ\",\"span\":[0,3],\"surface\":\"그런데\"},{\"form\":\"이제\",\"tag\":\"MAG\",\"span\":[4,6],\"surface\":\"이제\"},{\"form\":\"대학\",\"tag\":\"NNG\",\"span\":[7,9],\"surface\":\"대학\"},{\"form\":\"을\",\"tag\":\"JKO\",\"span\":[9,10],\"surface\":\"을\"},{\"form\":\"졸업\",\"tag\":\"NNG\",\"span\":[11,13],\"surface\":\"졸업\"},{\"form\":\"하\",\"tag\":\"XSV\",\"span\":[13,14],\"surface\":\"하\"},{\"form\":\"고\",\"tag\":\"EC\",\"span\":[14,15],\"surface\":\"고\"},{\"form\":\"사회생활\",\"tag\":\"NNG\",\"span\":[16,20],\"surface\":\"사회생활\"},{\"form\":\"을\",\"tag\":\"JKO\",\"span\":[20,21],\"surface\":\"을\"},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[22,23],\"surface\":\"하\"},{\"form\":\"면서\",\"tag\":\"EC\",\"span\":[23,25],\"surface\":\"면서\"},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[26,27],\"surface\":\"제\"},{\"form\":\"가\",\"tag\":\"JKS\",\"span\":[27,28],\"surface\":\"가\"},{\"form\":\"좀\",\"tag\":\"MAG\",\"span\":[29,30],\"surface\":\"좀\"},{\"form\":\"늦\",\"tag\":\"VA\",\"span\":[31,32],\"surface\":\"늦\"},{\"form\":\"게\",\"tag\":\"EC\",\"span\":[32,33],\"surface\":\"게\"},{\"form\":\",\",\"tag\":\"SP\",\"span\":[33,34],\"surface\":\",\"},{\"form\":\"그런\",\"tag\":\"MM\",\"span\":[35,37],\"surface\":\"그런\"},{\"form\":\"배우\",\"tag\":\"VV\",\"span\":[38,40],\"surface\":\"배움\"},{\"form\":\"ᆷ\",\"tag\":\"ETN\",\"span\":[39,40],\"surface\":\"움\"},{\"form\":\"의\",\"tag\":\"JKG\",\"span\":[40,41],\"surface\":\"의\"},{\"form\":\"눈\",\"tag\":\"NNG\",\"span\":[42,43],\"surface\":\"눈\"},{\"form\":\"을\",\"tag\":\"JKO\",\"span\":[43,44],\"surface\":\"을\"},{\"form\":\"뜨\",\"tag\":\"VV\",\"span\":[45,46],\"surface\":\"뜨\"},{\"form\":\"게\",\"tag\":\"EC\",\"span\":[46,47],\"surface\":\"게\"},{\"form\":\"되\",\"tag\":\"VV\",\"span\":[48,49],\"surface\":\"된\"},{\"form\":\"ᆫ\",\"tag\":\"ETM\",\"span\":[48,49],\"surface\":\"된\"},{\"form\":\"거\",\"tag\":\"NNB\",\"span\":[50,51],\"surface\":\"거\"},{\"form\":\"이\",\"tag\":\"VCP\",\"span\":[51,51],\"surface\":\"\"},{\"form\":\"예요\",\"tag\":\"EF\",\"span\":[51,53],\"surface\":\"예요\"},{\"form\":\".\",\"tag\":\"SF\",\"span\":[53,54],\"surface\":\".\"}],\"words\":[{\"form\":\"이제\",\"tag\":\"MAG\",\"span\":[4,6],\"surface\":\"이제\",\"lemma\":\"이제\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":1},{\"form\":\"대학\",\"tag\":\"NNG\",\"span\":[7,9],\"surface\":\"대학\",\"lemma\":\"대학\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":2},{\"form\":\"졸업하\",\"tag\":\"VV\",\"span\":[11,14],\"surface\":\"졸업하\",\"analysis_origin\":\"same_eojeol_derivation\",\"source_tags\":[\"NNG\",\"XSV\"],\"lemma\":\"졸업하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"고\",\"ending_tag\":\"EC\",\"token_index\":5,\"predicate_span\":[11,15]},{\"form\":\"사회생활\",\"tag\":\"NNG\",\"span\":[16,20],\"surface\":\"사회생활\",\"lemma\":\"사회생활\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":7},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[22,23],\"surface\":\"하\",\"lemma\":\"하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"면서\",\"ending_tag\":\"EC\",\"token_index\":9,\"predicate_span\":[22,25]},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[26,27],\"surface\":\"제\",\"lemma\":\"저\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":11},{\"form\":\"좀\",\"tag\":\"MAG\",\"span\":[29,30],\"surface\":\"좀\",\"lemma\":\"좀\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":13},{\"form\":\"늦\",\"tag\":\"VA\",\"span\":[31,32],\"surface\":\"늦\",\"lemma\":\"늦다\",\"pos\":\"adjective\",\"prefinals\":[],\"ending\":\"게\",\"ending_tag\":\"EC\",\"token_index\":14,\"predicate_span\":[31,33]},{\"form\":\"배우\",\"tag\":\"VV\",\"span\":[38,40],\"surface\":\"배움\",\"lemma\":\"배우다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"ᆷ\",\"ending_tag\":\"ETN\",\"token_index\":18,\"predicate_span\":[38,40]},{\"form\":\"눈\",\"tag\":\"NNG\",\"span\":[42,43],\"surface\":\"눈\",\"lemma\":\"눈\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":21},{\"form\":\"뜨\",\"tag\":\"VV\",\"span\":[45,46],\"surface\":\"뜨\",\"lemma\":\"뜨다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"게\",\"ending_tag\":\"EC\",\"token_index\":23,\"predicate_span\":[45,47]},{\"form\":\"되\",\"tag\":\"VV\",\"span\":[48,49],\"surface\":\"된\",\"lemma\":\"되다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"ᆫ\",\"ending_tag\":\"ETM\",\"token_index\":25,\"predicate_span\":[48,49]},{\"form\":\"이\",\"tag\":\"VCP\",\"span\":[51,51],\"surface\":\"\",\"lemma\":\"이다\",\"pos\":\"copula\",\"prefinals\":[],\"ending\":\"예요\",\"ending_tag\":\"EF\",\"token_index\":28,\"predicate_span\":[51,53]}],\"status\":\"Kiwi_hypotheses_not_gold\"},\"transformation_plan\":[],\"graph_paths\":[],\"preservation\":{\"origin\":\"reviewed_preservation_policy_not_dialect_rule\",\"relative_clauses\":[{\"text\":\"된\",\"span\":[48,49],\"lemma\":\"되다\",\"ending\":\"ᆫ\",\"prefinals\":[],\"instruction\":\"관형절 역할과 이 구간 자체의 시제·상을 보존한다. 종결형으로 바꾸거나 주절 과거를 복사하지 않는다.\"}],\"supporting_knowledge\":[],\"invariants\":[\"원문의 명제·부정·시제·화행과 모든 절을 유지한다.\",\"청자 높임, 주체 높임, 저/제의 겸양을 각각 보존한다. 주어를 호격으로 바꾸지 않는다.\",\"가는/오는 이동 관점과 먼저의 시간 순서를 보존한다. 앞에의 시간 용법 자체는 금지하지 않는다.\",\"인용 내용과 보고 서술부의 시제를 구분한다. 회상 -대를 표면형만 보고 전언으로 판단하지 않는다.\"],\"source_honorific_predicates\":[],\"terminal_analysis_review\":[]},\"plan_policy\":\"후보는 모두 적용할 목록이 아니라 대안이다. 어휘보다 의미·높임·시제·문장 역할 보존을 우선한다. 종결은 ending_conversion의 family와 preferred_surface를 우선 사용하며 같은 끝에 여러 종결을 겹쳐 붙이지 않는다. preferred_surface는 원래 어간 기준의 조합안이고 방언 어간을 선택하면 그 어간에 맞춰 활용한다. 문헌 구성요소와 분석자 조합·완성형을 구분한다. 원문에 맞는 후보만 사용한다. MODEL_ADVICE는 원문에서 직접 확인된 완성형이 아닌 모델 조합 제안이다. 보존용 지식은 치환 규칙이 아니다.\"}"
+          }
+        ]
+      },
+      "status": "success",
+      "response": {
+        "id": "chatcmpl-814f6e7eef463b57",
+        "object": "chat.completion",
+        "created": 1792567233,
+        "model": "Qwen3.8-27B",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "그런디 이제 대학을 졸업하고 사회생활을 하면서 내가 좀 늦게, 그런 배움의 눈을 뜨게 된 거라.",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.27.1-51f03443",
+        "usage": {
+          "prompt_tokens": 2215,
+          "total_tokens": 2244,
+          "completion_tokens": 29,
+          "prompt_tokens_details": null
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      },
+      "elapsed_seconds": 1.025358822196722
+    },
+    {
+      "request": {
+        "model": "Qwen3.8-27B",
+        "max_tokens": 512,
+        "temperature": 0.3,
+        "top_p": 0.8,
+        "top_k": 20,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "seed": 20260923,
+        "messages": [
+          {
+            "role": "system",
+            "content": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요."
+          },
+          {
+            "role": "user",
+            "content": "standard를 자연스러운 경상도 방언으로 변환하세요. analysis와 source_morphology는 원문 분석의 가설이며 원문이 우선입니다. transformation_plan 또는 references와 graph_paths는 조건부 참고 자료입니다. 의미·지역·시대·높임·결합 조건이 맞는 자료를 선택하고 관련 없는 자료는 사용하지 마세요. 조건 미확인은 적용 허용이 아니며 연결된 진술끼리 조건을 상속하지 않습니다. 기본형 대응과 완성 활용형을 구별하고 원문의 부정·시제·높임·인용·발화 의도를 유지하세요. preservation의 관형절·겸양·주체와 청자 높임·이동 관점 보존을 어휘 치환보다 우선하세요. 모델 조언 후보는 원문 확인형이 아니며 불확실하면 원문의 구조를 보존하세요. 표에 없는 활용형은 표에 실린 확인형으로 주장하지 마세요. 원문에 없는 내용을 추가하지 말고 변환한 발화만 출력하세요.\n{\"standard\":\"그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요.\",\"analysis\":[{\"text\":\"그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요.\",\"span\":[0,54],\"role\":\"main\",\"features\":{\"host_pos\":\"copula\",\"host_class\":\"nominal_copula\",\"host_form\":\"이다\",\"sentence_type\":\"declarative\",\"subject_person\":\"first\",\"nominal_coda\":\"present\",\"stem_coda\":\"absent\",\"stem_vowel\":\"a\",\"meaning\":\"배움의 눈을 뜨게 된 것임을 서술\",\"source_form\":\"된 거예요\"},\"observed_politeness\":\"polite\",\"observed_subject_honorific\":\"not_observed\",\"tense_or_modality\":\"past\",\"preserved_candidate_features\":{}}],\"source_morphology\":{\"tokens\":[{\"form\":\"그런데\",\"tag\":\"MAJ\",\"span\":[0,3],\"surface\":\"그런데\"},{\"form\":\"이제\",\"tag\":\"MAG\",\"span\":[4,6],\"surface\":\"이제\"},{\"form\":\"대학\",\"tag\":\"NNG\",\"span\":[7,9],\"surface\":\"대학\"},{\"form\":\"을\",\"tag\":\"JKO\",\"span\":[9,10],\"surface\":\"을\"},{\"form\":\"졸업\",\"tag\":\"NNG\",\"span\":[11,13],\"surface\":\"졸업\"},{\"form\":\"하\",\"tag\":\"XSV\",\"span\":[13,14],\"surface\":\"하\"},{\"form\":\"고\",\"tag\":\"EC\",\"span\":[14,15],\"surface\":\"고\"},{\"form\":\"사회생활\",\"tag\":\"NNG\",\"span\":[16,20],\"surface\":\"사회생활\"},{\"form\":\"을\",\"tag\":\"JKO\",\"span\":[20,21],\"surface\":\"을\"},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[22,23],\"surface\":\"하\"},{\"form\":\"면서\",\"tag\":\"EC\",\"span\":[23,25],\"surface\":\"면서\"},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[26,27],\"surface\":\"제\"},{\"form\":\"가\",\"tag\":\"JKS\",\"span\":[27,28],\"surface\":\"가\"},{\"form\":\"좀\",\"tag\":\"MAG\",\"span\":[29,30],\"surface\":\"좀\"},{\"form\":\"늦\",\"tag\":\"VA\",\"span\":[31,32],\"surface\":\"늦\"},{\"form\":\"게\",\"tag\":\"EC\",\"span\":[32,33],\"surface\":\"게\"},{\"form\":\",\",\"tag\":\"SP\",\"span\":[33,34],\"surface\":\",\"},{\"form\":\"그런\",\"tag\":\"MM\",\"span\":[35,37],\"surface\":\"그런\"},{\"form\":\"배우\",\"tag\":\"VV\",\"span\":[38,40],\"surface\":\"배움\"},{\"form\":\"ᆷ\",\"tag\":\"ETN\",\"span\":[39,40],\"surface\":\"움\"},{\"form\":\"의\",\"tag\":\"JKG\",\"span\":[40,41],\"surface\":\"의\"},{\"form\":\"눈\",\"tag\":\"NNG\",\"span\":[42,43],\"surface\":\"눈\"},{\"form\":\"을\",\"tag\":\"JKO\",\"span\":[43,44],\"surface\":\"을\"},{\"form\":\"뜨\",\"tag\":\"VV\",\"span\":[45,46],\"surface\":\"뜨\"},{\"form\":\"게\",\"tag\":\"EC\",\"span\":[46,47],\"surface\":\"게\"},{\"form\":\"되\",\"tag\":\"VV\",\"span\":[48,49],\"surface\":\"된\"},{\"form\":\"ᆫ\",\"tag\":\"ETM\",\"span\":[48,49],\"surface\":\"된\"},{\"form\":\"거\",\"tag\":\"NNB\",\"span\":[50,51],\"surface\":\"거\"},{\"form\":\"이\",\"tag\":\"VCP\",\"span\":[51,51],\"surface\":\"\"},{\"form\":\"예요\",\"tag\":\"EF\",\"span\":[51,53],\"surface\":\"예요\"},{\"form\":\".\",\"tag\":\"SF\",\"span\":[53,54],\"surface\":\".\"}],\"words\":[{\"form\":\"이제\",\"tag\":\"MAG\",\"span\":[4,6],\"surface\":\"이제\",\"lemma\":\"이제\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":1},{\"form\":\"대학\",\"tag\":\"NNG\",\"span\":[7,9],\"surface\":\"대학\",\"lemma\":\"대학\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":2},{\"form\":\"졸업하\",\"tag\":\"VV\",\"span\":[11,14],\"surface\":\"졸업하\",\"analysis_origin\":\"same_eojeol_derivation\",\"source_tags\":[\"NNG\",\"XSV\"],\"lemma\":\"졸업하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"고\",\"ending_tag\":\"EC\",\"token_index\":5,\"predicate_span\":[11,15]},{\"form\":\"사회생활\",\"tag\":\"NNG\",\"span\":[16,20],\"surface\":\"사회생활\",\"lemma\":\"사회생활\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":7},{\"form\":\"하\",\"tag\":\"VV\",\"span\":[22,23],\"surface\":\"하\",\"lemma\":\"하다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"면서\",\"ending_tag\":\"EC\",\"token_index\":9,\"predicate_span\":[22,25]},{\"form\":\"저\",\"tag\":\"NP\",\"span\":[26,27],\"surface\":\"제\",\"lemma\":\"저\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":11},{\"form\":\"좀\",\"tag\":\"MAG\",\"span\":[29,30],\"surface\":\"좀\",\"lemma\":\"좀\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":13},{\"form\":\"늦\",\"tag\":\"VA\",\"span\":[31,32],\"surface\":\"늦\",\"lemma\":\"늦다\",\"pos\":\"adjective\",\"prefinals\":[],\"ending\":\"게\",\"ending_tag\":\"EC\",\"token_index\":14,\"predicate_span\":[31,33]},{\"form\":\"배우\",\"tag\":\"VV\",\"span\":[38,40],\"surface\":\"배움\",\"lemma\":\"배우다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"ᆷ\",\"ending_tag\":\"ETN\",\"token_index\":18,\"predicate_span\":[38,40]},{\"form\":\"눈\",\"tag\":\"NNG\",\"span\":[42,43],\"surface\":\"눈\",\"lemma\":\"눈\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":21},{\"form\":\"뜨\",\"tag\":\"VV\",\"span\":[45,46],\"surface\":\"뜨\",\"lemma\":\"뜨다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"게\",\"ending_tag\":\"EC\",\"token_index\":23,\"predicate_span\":[45,47]},{\"form\":\"되\",\"tag\":\"VV\",\"span\":[48,49],\"surface\":\"된\",\"lemma\":\"되다\",\"pos\":\"verb\",\"prefinals\":[],\"ending\":\"ᆫ\",\"ending_tag\":\"ETM\",\"token_index\":25,\"predicate_span\":[48,49]},{\"form\":\"이\",\"tag\":\"VCP\",\"span\":[51,51],\"surface\":\"\",\"lemma\":\"이다\",\"pos\":\"copula\",\"prefinals\":[],\"ending\":\"예요\",\"ending_tag\":\"EF\",\"token_index\":28,\"predicate_span\":[51,53]}],\"status\":\"Kiwi_hypotheses_not_gold\"},\"transformation_plan\":[],\"graph_paths\":[],\"preservation\":{\"origin\":\"reviewed_preservation_policy_not_dialect_rule\",\"relative_clauses\":[{\"text\":\"된\",\"span\":[48,49],\"lemma\":\"되다\",\"ending\":\"ᆫ\",\"prefinals\":[],\"instruction\":\"관형절 역할과 이 구간 자체의 시제·상을 보존한다. 종결형으로 바꾸거나 주절 과거를 복사하지 않는다.\"}],\"supporting_knowledge\":[],\"invariants\":[\"원문의 명제·부정·시제·화행과 모든 절을 유지한다.\",\"청자 높임, 주체 높임, 저/제의 겸양을 각각 보존한다. 주어를 호격으로 바꾸지 않는다.\",\"가는/오는 이동 관점과 먼저의 시간 순서를 보존한다. 앞에의 시간 용법 자체는 금지하지 않는다.\",\"인용 내용과 보고 서술부의 시제를 구분한다. 회상 -대를 표면형만 보고 전언으로 판단하지 않는다.\"],\"source_honorific_predicates\":[],\"terminal_analysis_review\":[]},\"plan_policy\":\"후보는 모두 적용할 목록이 아니라 대안이다. 어휘보다 의미·높임·시제·문장 역할 보존을 우선한다. 종결은 ending_conversion의 family와 preferred_surface를 우선 사용하며 같은 끝에 여러 종결을 겹쳐 붙이지 않는다. preferred_surface는 원래 어간 기준의 조합안이고 방언 어간을 선택하면 그 어간에 맞춰 활용한다. 문헌 구성요소와 분석자 조합·완성형을 구분한다. 원문에 맞는 후보만 사용한다. MODEL_ADVICE는 원문에서 직접 확인된 완성형이 아닌 모델 조합 제안이다. 보존용 지식은 치환 규칙이 아니다.\"}"
+          },
+          {
+            "role": "assistant",
+            "content": "그런디 이제 대학을 졸업하고 사회생활을 하면서 내가 좀 늦게, 그런 배움의 눈을 뜨게 된 거라."
+          },
+          {
+            "role": "user",
+            "content": "다음 보존 검사 지적을 확인해 번역을 한 번 수정하세요. 원문과 적용 가능한 근거가 우선입니다. 문제가 없는 부분의 의미와 말투를 유지하고 수정한 전체 발화만 출력하세요.\n저/제의 겸양 지칭을 보존한다. 청자 높임과 별개로 검사한다. 원문: 그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요."
+          }
+        ]
+      },
+      "status": "success",
+      "response": {
+        "id": "chatcmpl-ac9cac52cba1b16d",
+        "object": "chat.completion",
+        "created": 1792567234,
+        "model": "Qwen3.8-27B",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "그런디 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거라.",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.27.1-51f03443",
+        "usage": {
+          "prompt_tokens": 2352,
+          "total_tokens": 2381,
+          "completion_tokens": 29,
+          "prompt_tokens_details": null
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      },
+      "elapsed_seconds": 0.977968979626894
+    }
+  ]
+}

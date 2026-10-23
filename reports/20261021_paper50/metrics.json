@@ -1,0 +1,319 @@
+{
+  "input_count": 50,
+  "condition_count": 3,
+  "generation_calls": 198,
+  "transport_failed_calls": 2,
+  "conditions": {
+    "P": {
+      "first_identical": 1,
+      "final_identical": 10,
+      "first_flagged": 21,
+      "final_flagged": 1,
+      "repairs": 20,
+      "accepted": 20,
+      "first_flag_types": {
+        "listener_politeness_lost": 22,
+        "past_unrecognized": 1
+      },
+      "user_chars_mean": 26.5,
+      "prompt_tokens_mean": 86.1,
+      "first_scores": {
+        "meaning": {
+          "distribution": {
+            "0": 0,
+            "1": 13,
+            "2": 37
+          },
+          "mean": 1.74
+        },
+        "register": {
+          "distribution": {
+            "0": 25,
+            "1": 2,
+            "2": 23
+          },
+          "mean": 0.96
+        },
+        "fluency": {
+          "distribution": {
+            "0": 0,
+            "1": 10,
+            "2": 40
+          },
+          "mean": 1.8
+        },
+        "dialect": {
+          "distribution": {
+            "0": 29,
+            "1": 18,
+            "2": 3
+          },
+          "mean": 0.48
+        }
+      },
+      "final_scores": {
+        "meaning": {
+          "distribution": {
+            "0": 0,
+            "1": 9,
+            "2": 41
+          },
+          "mean": 1.82
+        },
+        "register": {
+          "distribution": {
+            "0": 5,
+            "1": 4,
+            "2": 41
+          },
+          "mean": 1.72
+        },
+        "fluency": {
+          "distribution": {
+            "0": 0,
+            "1": 10,
+            "2": 40
+          },
+          "mean": 1.8
+        },
+        "dialect": {
+          "distribution": {
+            "0": 39,
+            "1": 8,
+            "2": 3
+          },
+          "mean": 0.28
+        }
+      }
+    },
+    "A": {
+      "first_identical": 7,
+      "final_identical": 12,
+      "first_flagged": 25,
+      "final_flagged": 14,
+      "repairs": 25,
+      "accepted": 11,
+      "first_flag_types": {
+        "listener_politeness_lost": 26,
+        "humility_replaced": 5,
+        "relative_aspect_changed": 1
+      },
+      "user_chars_mean": 4071.7,
+      "prompt_tokens_mean": 1524.2,
+      "first_scores": {
+        "meaning": {
+          "distribution": {
+            "0": 2,
+            "1": 2,
+            "2": 46
+          },
+          "mean": 1.88
+        },
+        "register": {
+          "distribution": {
+            "0": 30,
+            "1": 2,
+            "2": 18
+          },
+          "mean": 0.76
+        },
+        "fluency": {
+          "distribution": {
+            "0": 0,
+            "1": 12,
+            "2": 38
+          },
+          "mean": 1.76
+        },
+        "dialect": {
+          "distribution": {
+            "0": 30,
+            "1": 18,
+            "2": 2
+          },
+          "mean": 0.44
+        }
+      },
+      "final_scores": {
+        "meaning": {
+          "distribution": {
+            "0": 1,
+            "1": 1,
+            "2": 48
+          },
+          "mean": 1.94
+        },
+        "register": {
+          "distribution": {
+            "0": 21,
+            "1": 4,
+            "2": 25
+          },
+          "mean": 1.08
+        },
+        "fluency": {
+          "distribution": {
+            "0": 0,
+            "1": 9,
+            "2": 41
+          },
+          "mean": 1.82
+        },
+        "dialect": {
+          "distribution": {
+            "0": 31,
+            "1": 17,
+            "2": 2
+          },
+          "mean": 0.42
+        }
+      }
+    },
+    "K": {
+      "first_identical": 0,
+      "final_identical": 0,
+      "first_flagged": 1,
+      "final_flagged": 0,
+      "repairs": 1,
+      "accepted": 1,
+      "first_flag_types": {
+        "relative_aspect_changed": 1
+      },
+      "user_chars_mean": 10292.2,
+      "prompt_tokens_mean": 3599.5,
+      "first_scores": {
+        "meaning": {
+          "distribution": {
+            "0": 0,
+            "1": 1,
+            "2": 49
+          },
+          "mean": 1.98
+        },
+        "register": {
+          "distribution": {
+            "0": 0,
+            "1": 1,
+            "2": 49
+          },
+          "mean": 1.98
+        },
+        "fluency": {
+          "distribution": {
+            "0": 0,
+            "1": 5,
+            "2": 45
+          },
+          "mean": 1.9
+        },
+        "dialect": {
+          "distribution": {
+            "0": 0,
+            "1": 9,
+            "2": 41
+          },
+          "mean": 1.82
+        }
+      },
+      "final_scores": {
+        "meaning": {
+          "distribution": {
+            "0": 0,
+            "1": 0,
+            "2": 50
+          },
+          "mean": 2
+        },
+        "register": {
+          "distribution": {
+            "0": 0,
+            "1": 1,
+            "2": 49
+          },
+          "mean": 1.98
+        },
+        "fluency": {
+          "distribution": {
+            "0": 0,
+            "1": 5,
+            "2": 45
+          },
+          "mean": 1.9
+        },
+        "dialect": {
+          "distribution": {
+            "0": 0,
+            "1": 9,
+            "2": 41
+          },
+          "mean": 1.82
+        }
+      }
+    }
+  },
+  "retrieval": {
+    "groups_per_input": {
+      "mean": 2.24,
+      "min": 1,
+      "max": 9,
+      "sum": 112
+    },
+    "candidates_per_group": {
+      "mean": 1.69,
+      "min": 1,
+      "max": 6,
+      "sum": 189
+    },
+    "candidate_json_chars_per_group": {
+      "mean": 2248.18,
+      "min": 825,
+      "max": 6236,
+      "sum": 251796
+    },
+    "packet_chars_per_input": {
+      "mean": 7703.02,
+      "min": 1627,
+      "max": 22399,
+      "sum": 385151
+    },
+    "plan_chars_per_input": {
+      "mean": 6041.06,
+      "min": 1231,
+      "max": 19438,
+      "sum": 302053
+    },
+    "graph_edges_per_input": {
+      "mean": 0.22,
+      "min": 0,
+      "max": 3,
+      "sum": 11
+    },
+    "candidate_origins": {
+      "documentary_components_with_analyst_composition": 55,
+      "documentary_KG": 134
+    },
+    "candidate_routes": {
+      "function_bound_terminal": 55,
+      "bound_lexical_mapping": 72,
+      "source_form": 33,
+      "clause_function": 3,
+      "source_bound_construction": 5,
+      "lexical_to_inflection": 21
+    },
+    "structured_condition_statuses": {
+      "satisfied": 101
+    },
+    "omission_reasons": {
+      "per_binding_cap": 13,
+      "packet_budget": 26,
+      "construction_alternative_cap": 2
+    },
+    "preferred_surface_count": 55,
+    "preferred_surface_observed_count": 49
+  },
+  "pairwise_identical_first": {
+    "PA": 12,
+    "PK": 1,
+    "AK": 2
+  }
+}

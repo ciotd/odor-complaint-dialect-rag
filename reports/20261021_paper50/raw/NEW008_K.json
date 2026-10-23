@@ -1,0 +1,148 @@
+{
+  "id": "NEW008",
+  "input": "그건 네 잘못이 아니야.",
+  "condition": "K",
+  "request": {
+    "model": "Qwen3.8-27B",
+    "max_tokens": 512,
+    "temperature": 0.3,
+    "top_p": 0.8,
+    "top_k": 20,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "seed": 20260923,
+    "messages": [
+      {
+        "role": "system",
+        "content": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요."
+      },
+      {
+        "role": "user",
+        "content": "standard를 자연스러운 경상도 방언으로 변환하세요. analysis와 source_morphology는 원문 분석의 가설이며 원문이 우선입니다. transformation_plan 또는 references와 graph_paths는 조건부 참고 자료입니다. 의미·지역·시대·높임·결합 조건이 맞는 자료를 선택하고 관련 없는 자료는 사용하지 마세요. 조건 미확인은 적용 허용이 아니며 연결된 진술끼리 조건을 상속하지 않습니다. 기본형 대응과 완성 활용형을 구별하고 원문의 부정·시제·높임·인용·발화 의도를 유지하세요. preservation의 관형절·겸양·주체와 청자 높임·이동 관점 보존을 어휘 치환보다 우선하세요. 모델 조언 후보는 원문 확인형이 아니며 불확실하면 원문의 구조를 보존하세요. 표에 없는 활용형은 표에 실린 확인형으로 주장하지 마세요. 원문에 없는 내용을 추가하지 말고 변환한 발화만 출력하세요.\n{\"standard\":\"그건 네 잘못이 아니야.\",\"analysis\":[{\"text\":\"그건 네 잘못이 아니야.\",\"span\":[0,13],\"role\":\"main\",\"features\":{\"host_pos\":\"copula\",\"host_class\":\"negative_copula\",\"host_form\":\"아니다\",\"sentence_type\":\"declarative\",\"subject_person\":\"third\",\"nominal_coda\":\"present\"},\"observed_politeness\":\"non_polite\",\"observed_subject_honorific\":\"not_observed\",\"tense_or_modality\":\"present\",\"preserved_candidate_features\":{\"prefinal_profile\":\"none\"}}],\"source_morphology\":{\"tokens\":[{\"form\":\"그거\",\"tag\":\"NP\",\"span\":[0,2],\"surface\":\"그건\"},{\"form\":\"ᆫ\",\"tag\":\"JX\",\"span\":[1,2],\"surface\":\"건\"},{\"form\":\"너\",\"tag\":\"NP\",\"span\":[3,4],\"surface\":\"네\"},{\"form\":\"의\",\"tag\":\"JKG\",\"span\":[3,4],\"surface\":\"네\"},{\"form\":\"잘못\",\"tag\":\"NNG\",\"span\":[5,7],\"surface\":\"잘못\"},{\"form\":\"이\",\"tag\":\"JKC\",\"span\":[7,8],\"surface\":\"이\"},{\"form\":\"아니\",\"tag\":\"VCN\",\"span\":[9,11],\"surface\":\"아니\"},{\"form\":\"야\",\"tag\":\"EF\",\"span\":[11,12],\"surface\":\"야\"},{\"form\":\".\",\"tag\":\"SF\",\"span\":[12,13],\"surface\":\".\"}],\"words\":[{\"form\":\"그거\",\"tag\":\"NP\",\"span\":[0,2],\"surface\":\"그건\",\"lemma\":\"그거\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":0},{\"form\":\"너\",\"tag\":\"NP\",\"span\":[3,4],\"surface\":\"네\",\"lemma\":\"너\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":2},{\"form\":\"잘못\",\"tag\":\"NNG\",\"span\":[5,7],\"surface\":\"잘못\",\"lemma\":\"잘못\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":4},{\"form\":\"아니\",\"tag\":\"VCN\",\"span\":[9,11],\"surface\":\"아니\",\"lemma\":\"아니다\",\"pos\":\"negative_copula\",\"prefinals\":[],\"ending\":\"야\",\"ending_tag\":\"EF\",\"token_index\":6,\"predicate_span\":[9,12]}],\"status\":\"Kiwi_hypotheses_not_gold\"},\"transformation_plan\":[{\"target_text\":\"네\",\"span\":[3,4],\"preserve\":[{\"features\":{\"host_pos\":\"copula\",\"host_class\":\"negative_copula\",\"host_form\":\"아니다\",\"sentence_type\":\"declarative\",\"subject_person\":\"third\",\"nominal_coda\":\"present\"},\"listener_politeness\":\"non_polite\",\"subject_honorific\":\"not_observed\",\"tense_or_modality\":\"present\"}],\"candidates\":[{\"id\":\"RYU2014:v2:full:0010\",\"source_id\":\"RYU2014\",\"type\":\"lexical_mapping\",\"source_pattern\":{\"text\":\"너\",\"domain\":\"standard\",\"lemma\":null,\"sense\":null,\"features\":{\"pos\":\"pronoun\",\"person\":2,\"number\":\"singular\"}},\"target_pattern\":{\"text\":\"니\",\"domain\":\"dialect\",\"lemma\":null,\"sense\":null,\"features\":{\"pos\":\"pronoun\",\"person\":2,\"number\":\"singular\"}},\"functions\":[],\"conditions\":[],\"constraints\":[{\"kind\":\"scope\",\"description\":\"대조표의 해당 용법·조사 세대 범위를 확인한다.\"}],\"scope\":{\"regions\":[\"경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위\"],\"speech_levels\":[],\"registers\":[],\"period\":[],\"note\":\"2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다.\"},\"claim_status\":\"source_generalization\",\"notes\":\"단수 주제 용법.\",\"binding\":{\"text\":\"네\",\"span\":[3,4],\"lemma\":\"너\",\"prefinals\":[],\"ending\":null,\"predicate_span\":null,\"following_particle\":\"의\"},\"origin\":\"documentary_KG\",\"evidence_pages\":[{\"source_id\":\"RYU2014\",\"pdf_page\":8}]}]}],\"graph_paths\":[],\"preservation\":{\"origin\":\"reviewed_preservation_policy_not_dialect_rule\",\"relative_clauses\":[],\"supporting_knowledge\":[],\"invariants\":[\"원문의 명제·부정·시제·화행과 모든 절을 유지한다.\",\"청자 높임, 주체 높임, 저/제의 겸양을 각각 보존한다. 주어를 호격으로 바꾸지 않는다.\",\"가는/오는 이동 관점과 먼저의 시간 순서를 보존한다. 앞에의 시간 용법 자체는 금지하지 않는다.\",\"인용 내용과 보고 서술부의 시제를 구분한다. 회상 -대를 표면형만 보고 전언으로 판단하지 않는다.\"],\"source_honorific_predicates\":[],\"terminal_analysis_review\":[]},\"plan_policy\":\"후보는 모두 적용할 목록이 아니라 대안이다. 어휘보다 의미·높임·시제·문장 역할 보존을 우선한다. 종결은 ending_conversion의 family와 preferred_surface를 우선 사용하며 같은 끝에 여러 종결을 겹쳐 붙이지 않는다. preferred_surface는 원래 어간 기준의 조합안이고 방언 어간을 선택하면 그 어간에 맞춰 활용한다. 문헌 구성요소와 분석자 조합·완성형을 구분한다. 원문에 맞는 후보만 사용한다. MODEL_ADVICE는 원문에서 직접 확인된 완성형이 아닌 모델 조합 제안이다. 보존용 지식은 치환 규칙이 아니다.\"}"
+      }
+    ]
+  },
+  "status": "success",
+  "response": {
+    "id": "chatcmpl-bd07b24670ae647d",
+    "object": "chat.completion",
+    "created": 1792567412,
+    "model": "Qwen3.8-27B",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "그건 니 잘못이 아니야.",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.27.1-51f03443",
+    "usage": {
+      "prompt_tokens": 1470,
+      "total_tokens": 1479,
+      "completion_tokens": 9,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  },
+  "first_output": "그건 니 잘못이 아니야.",
+  "first_check": {
+    "status": "no_screening_flags",
+    "flags": [],
+    "repair_required": false,
+    "not_accuracy": true
+  },
+  "output": "그건 니 잘못이 아니야.",
+  "final_check": {
+    "status": "no_screening_flags",
+    "flags": [],
+    "repair_required": false,
+    "not_accuracy": true
+  },
+  "repair_attempted": false,
+  "selection": "first_pass",
+  "calls": [
+    {
+      "request": {
+        "model": "Qwen3.8-27B",
+        "max_tokens": 512,
+        "temperature": 0.3,
+        "top_p": 0.8,
+        "top_k": 20,
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        },
+        "seed": 20260923,
+        "messages": [
+          {
+            "role": "system",
+            "content": "다음 표준어 발화를 자연스러운 경상도 방언으로 바꿔 주세요. 원래 의미, 질문·부탁 등의 발화 의도, 상대를 대하는 높임 수준을 유지하세요. 원문에 없는 내용은 추가하지 말고, 변환한 발화만 출력하세요."
+          },
+          {
+            "role": "user",
+            "content": "standard를 자연스러운 경상도 방언으로 변환하세요. analysis와 source_morphology는 원문 분석의 가설이며 원문이 우선입니다. transformation_plan 또는 references와 graph_paths는 조건부 참고 자료입니다. 의미·지역·시대·높임·결합 조건이 맞는 자료를 선택하고 관련 없는 자료는 사용하지 마세요. 조건 미확인은 적용 허용이 아니며 연결된 진술끼리 조건을 상속하지 않습니다. 기본형 대응과 완성 활용형을 구별하고 원문의 부정·시제·높임·인용·발화 의도를 유지하세요. preservation의 관형절·겸양·주체와 청자 높임·이동 관점 보존을 어휘 치환보다 우선하세요. 모델 조언 후보는 원문 확인형이 아니며 불확실하면 원문의 구조를 보존하세요. 표에 없는 활용형은 표에 실린 확인형으로 주장하지 마세요. 원문에 없는 내용을 추가하지 말고 변환한 발화만 출력하세요.\n{\"standard\":\"그건 네 잘못이 아니야.\",\"analysis\":[{\"text\":\"그건 네 잘못이 아니야.\",\"span\":[0,13],\"role\":\"main\",\"features\":{\"host_pos\":\"copula\",\"host_class\":\"negative_copula\",\"host_form\":\"아니다\",\"sentence_type\":\"declarative\",\"subject_person\":\"third\",\"nominal_coda\":\"present\"},\"observed_politeness\":\"non_polite\",\"observed_subject_honorific\":\"not_observed\",\"tense_or_modality\":\"present\",\"preserved_candidate_features\":{\"prefinal_profile\":\"none\"}}],\"source_morphology\":{\"tokens\":[{\"form\":\"그거\",\"tag\":\"NP\",\"span\":[0,2],\"surface\":\"그건\"},{\"form\":\"ᆫ\",\"tag\":\"JX\",\"span\":[1,2],\"surface\":\"건\"},{\"form\":\"너\",\"tag\":\"NP\",\"span\":[3,4],\"surface\":\"네\"},{\"form\":\"의\",\"tag\":\"JKG\",\"span\":[3,4],\"surface\":\"네\"},{\"form\":\"잘못\",\"tag\":\"NNG\",\"span\":[5,7],\"surface\":\"잘못\"},{\"form\":\"이\",\"tag\":\"JKC\",\"span\":[7,8],\"surface\":\"이\"},{\"form\":\"아니\",\"tag\":\"VCN\",\"span\":[9,11],\"surface\":\"아니\"},{\"form\":\"야\",\"tag\":\"EF\",\"span\":[11,12],\"surface\":\"야\"},{\"form\":\".\",\"tag\":\"SF\",\"span\":[12,13],\"surface\":\".\"}],\"words\":[{\"form\":\"그거\",\"tag\":\"NP\",\"span\":[0,2],\"surface\":\"그건\",\"lemma\":\"그거\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":0},{\"form\":\"너\",\"tag\":\"NP\",\"span\":[3,4],\"surface\":\"네\",\"lemma\":\"너\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":2},{\"form\":\"잘못\",\"tag\":\"NNG\",\"span\":[5,7],\"surface\":\"잘못\",\"lemma\":\"잘못\",\"pos\":\"nominal\",\"prefinals\":[],\"ending\":null,\"ending_tag\":null,\"token_index\":4},{\"form\":\"아니\",\"tag\":\"VCN\",\"span\":[9,11],\"surface\":\"아니\",\"lemma\":\"아니다\",\"pos\":\"negative_copula\",\"prefinals\":[],\"ending\":\"야\",\"ending_tag\":\"EF\",\"token_index\":6,\"predicate_span\":[9,12]}],\"status\":\"Kiwi_hypotheses_not_gold\"},\"transformation_plan\":[{\"target_text\":\"네\",\"span\":[3,4],\"preserve\":[{\"features\":{\"host_pos\":\"copula\",\"host_class\":\"negative_copula\",\"host_form\":\"아니다\",\"sentence_type\":\"declarative\",\"subject_person\":\"third\",\"nominal_coda\":\"present\"},\"listener_politeness\":\"non_polite\",\"subject_honorific\":\"not_observed\",\"tense_or_modality\":\"present\"}],\"candidates\":[{\"id\":\"RYU2014:v2:full:0010\",\"source_id\":\"RYU2014\",\"type\":\"lexical_mapping\",\"source_pattern\":{\"text\":\"너\",\"domain\":\"standard\",\"lemma\":null,\"sense\":null,\"features\":{\"pos\":\"pronoun\",\"person\":2,\"number\":\"singular\"}},\"target_pattern\":{\"text\":\"니\",\"domain\":\"dialect\",\"lemma\":null,\"sense\":null,\"features\":{\"pos\":\"pronoun\",\"person\":2,\"number\":\"singular\"}},\"functions\":[],\"conditions\":[],\"constraints\":[{\"kind\":\"scope\",\"description\":\"대조표의 해당 용법·조사 세대 범위를 확인한다.\"}],\"scope\":{\"regions\":[\"경남 함양: 서하면 신기·오현 및 함양읍의 조사 범위\"],\"speech_levels\":[],\"registers\":[],\"period\":[],\"note\":\"2014년 조사. 고령 제보자의 전통형과 60대/10대 확인자의 사용 양상을 구별한다. 사용 비율을 현대 모집단의 확률로 쓰지 않는다.\"},\"claim_status\":\"source_generalization\",\"notes\":\"단수 주제 용법.\",\"binding\":{\"text\":\"네\",\"span\":[3,4],\"lemma\":\"너\",\"prefinals\":[],\"ending\":null,\"predicate_span\":null,\"following_particle\":\"의\"},\"origin\":\"documentary_KG\",\"evidence_pages\":[{\"source_id\":\"RYU2014\",\"pdf_page\":8}]}]}],\"graph_paths\":[],\"preservation\":{\"origin\":\"reviewed_preservation_policy_not_dialect_rule\",\"relative_clauses\":[],\"supporting_knowledge\":[],\"invariants\":[\"원문의 명제·부정·시제·화행과 모든 절을 유지한다.\",\"청자 높임, 주체 높임, 저/제의 겸양을 각각 보존한다. 주어를 호격으로 바꾸지 않는다.\",\"가는/오는 이동 관점과 먼저의 시간 순서를 보존한다. 앞에의 시간 용법 자체는 금지하지 않는다.\",\"인용 내용과 보고 서술부의 시제를 구분한다. 회상 -대를 표면형만 보고 전언으로 판단하지 않는다.\"],\"source_honorific_predicates\":[],\"terminal_analysis_review\":[]},\"plan_policy\":\"후보는 모두 적용할 목록이 아니라 대안이다. 어휘보다 의미·높임·시제·문장 역할 보존을 우선한다. 종결은 ending_conversion의 family와 preferred_surface를 우선 사용하며 같은 끝에 여러 종결을 겹쳐 붙이지 않는다. preferred_surface는 원래 어간 기준의 조합안이고 방언 어간을 선택하면 그 어간에 맞춰 활용한다. 문헌 구성요소와 분석자 조합·완성형을 구분한다. 원문에 맞는 후보만 사용한다. MODEL_ADVICE는 원문에서 직접 확인된 완성형이 아닌 모델 조합 제안이다. 보존용 지식은 치환 규칙이 아니다.\"}"
+          }
+        ]
+      },
+      "status": "success",
+      "response": {
+        "id": "chatcmpl-bd07b24670ae647d",
+        "object": "chat.completion",
+        "created": 1792567412,
+        "model": "Qwen3.8-27B",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "그건 니 잘못이 아니야.",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.27.1-51f03443",
+        "usage": {
+          "prompt_tokens": 1470,
+          "total_tokens": 1479,
+          "completion_tokens": 9,
+          "prompt_tokens_details": null
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      },
+      "elapsed_seconds": 0.3894828371703625
+    }
+  ]
+}

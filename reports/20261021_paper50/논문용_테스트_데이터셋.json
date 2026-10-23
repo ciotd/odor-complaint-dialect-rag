@@ -1,0 +1,452 @@
+[
+  {
+    "number": 1,
+    "id": "DEV002",
+    "standard": "집에 가는 길에 빵을 샀어.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "집에 가는 길에 빵을 샀다.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 2,
+    "id": "DEV003",
+    "standard": "이 음식은 생각보다 맵네요.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "이 음식은 생각보다 맵네예.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 3,
+    "id": "DEV004",
+    "standard": "아까 문 앞에 있던 사람이 제 친구예요.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "아까 문 앞에 있던 사람이 제 친구라예.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 4,
+    "id": "DEV005",
+    "standard": "나는 커피보다 차가 더 좋아.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "나는 커피보다 차가 더 좋다.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 5,
+    "id": "DEV007",
+    "standard": "나는 아직 점심을 안 먹었어.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "나는 아직 점심을 안 묵었다.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 6,
+    "id": "DEV011",
+    "standard": "버스가 벌써 출발했나요?",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "버스가 벌써 출발했는교?",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 7,
+    "id": "DEV012",
+    "standard": "열쇠를 어디에 뒀어?",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "열쇠를 어디에 뒀노?",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 8,
+    "id": "DEV013",
+    "standard": "내일 몇 시에 만나면 될까요?",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "낼은 전국 구어에서도 쓰이므로 그 자체를 방언 성공으로 세지 않음.",
+    "prior_output": "낼 몇 시에 만나면 될까예?",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 9,
+    "id": "DEV014",
+    "standard": "아까 왜 아무 말도 안 했어?",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "아까 왜 아무 말도 안 했노?",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 10,
+    "id": "DEV017",
+    "standard": "문 좀 닫아 주세요.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "문 좀 닫아 주이소.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 11,
+    "id": "DEV019",
+    "standard": "바닥이 미끄러우니까 천천히 걸으세요.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "바닥이 미끄러우니까 천천히 걸으이소.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 12,
+    "id": "DEV020",
+    "standard": "그 얘기는 다른 사람한테 하지 마.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "그 얘기는 다른 사람한테 하지 마라.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 13,
+    "id": "DEV021",
+    "standard": "잠깐만 기다려 주세요. 제가 확인해 볼게요.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "잠깐만 기다려 주이소. 제가 확인해 보께예.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 14,
+    "id": "DEV022",
+    "standard": "시간 괜찮으면 같이 점심 먹자.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "묵제의 청유 해석은 독립 화자 검토 필요.",
+    "prior_output": "시간 괜찮으면 같이 점심 묵제.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 15,
+    "id": "DEV026",
+    "standard": "늦을까 봐 조금 일찍 나왔어요.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "늦으까 봐 쪼매 일찍 나왔어예.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 16,
+    "id": "DEV028",
+    "standard": "아까 말한 건 이걸 버리라는 뜻이 아니었어요.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "아까 말한 건 이걸 버리라는 뜻이 아니었어예.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 17,
+    "id": "DEV029",
+    "standard": "그 가게에 가 봤는데 음식이 괜찮더라.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "갠찮더라의 표기 적합성은 추가 검토 필요.",
+    "prior_output": "그 가게에 가 봤는데 음식이 갠찮더라.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 18,
+    "id": "DEV030",
+    "standard": "피곤하면 먼저 자. 뒷정리는 내가 할게.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "피곤하면 먼저 자라. 뒷정리는 내가 하께.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 19,
+    "id": "LONG001",
+    "standard": "너 지금 어디야? 아까 역 앞에서 만나자고 했는데 왜 아직 안 와? 나는 배가 고파서 먼저 밥을 먹고 있을게.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "만나자꼬 했는데 등 인용 표현의 변환은 부분적임.",
+    "prior_output": "니 지금 어디고? 아까 역 앞에서 만나자꼬 했는데 왜 아직 안 오노? 나 배 고파서 먼저 밥 묵고 있으께.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 20,
+    "id": "LONG002",
+    "standard": "오늘 시장에서 사 온 사과 먹어 봤어? 보기에는 조금 작아도 생각보다 달고 맛있더라. 혼자 다 먹지 말고 동생 것도 좀 남겨 둬.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "올 등 어휘 축약 적합성은 추가 검토 필요.",
+    "prior_output": "올 시장에서 사 온 사과 묵어 봤나? 보기에는 쪼매 작아도 생각보다 달고 맛있더라. 혼자 다 묵지 말고 동생 것도 좀 남겨 두라.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 21,
+    "id": "LONG003",
+    "standard": "사장님, 이 국은 뭐가 들어가서 이렇게 맛있어요? 제가 매운 음식은 잘 못 먹는데 이건 괜찮네요. 반찬도 조금만 더 주세요.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "맛있소/괜찮소 등 높임 계열 혼용이 남지만 요청과 의미는 대체로 보존됨.",
+    "prior_output": "사장님, 이 국은 뭐가 들어가서 이렇게 맛있소? 제가 매운 음식은 잘 못 먹는데 이건 괜찮소. 반찬도 쪼매만 더 주이소.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 22,
+    "id": "LONG004",
+    "standard": "할머니, 밖에 비가 많이 오는데 우산은 챙기셨어요? 길이 미끄러우니까 혼자 나가지 마세요. 제가 집 앞까지 모셔다드릴게요.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "이빠이 어휘 선택은 목표 말투 적합성 검토 필요.",
+    "prior_output": "할무이, 밖에 비가 이빠이 오는데 우산은 챙기셨는교? 길이 미끄러우니까 혼자 나가지 마이소. 제가 집 앞까지 모셔다드리께예.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 23,
+    "id": "NEW001",
+    "standard": "저기 창가에 앉아 있는 분이 제 선생님이에요.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "저기 창가에 앉아 있는 분이 제 선생님이라예.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 24,
+    "id": "NEW004",
+    "standard": "회의가 벌써 시작했나요?",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "회의가 벌써 시작했는교?",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 25,
+    "id": "NEW005",
+    "standard": "이 서류는 어디에 놓으면 될까요?",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "이 서류는 어디에 놓으면 될까예?",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 26,
+    "id": "NEW006",
+    "standard": "계단이 어두우니까 조심해서 내려오세요.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "계단이 어두우니까 조심해서 내려오이소.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 27,
+    "id": "NEW007",
+    "standard": "내가 먼저 먹고 있을 테니까 천천히 와.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "천천히 와는 미변환; 묵다 어휘 대응만 반영된 부분 성공.",
+    "prior_output": "내가 먼저 묵고 있을 테니까 천천히 와.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 28,
+    "id": "NEW008",
+    "standard": "그건 네 잘못이 아니야.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "아니야는 미변환; 니 대명사 대응만 반영된 부분 성공.",
+    "prior_output": "그건 니 잘못이 아니야.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 29,
+    "id": "NEW009",
+    "standard": "동생이 좋아하는 과자를 가방에 넣었어.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "옇다 어휘 대응만 반영; 반말 종결은 표준어 형태가 남음.",
+    "prior_output": "동생이 좋아하는 과자를 가방에 옇었어.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 30,
+    "id": "NEW012",
+    "standard": "그 물건을 버리라고 한 건 아니었어요. 잠깐 다른 곳에 옮겨 달라는 뜻이었어요.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "그 물건을 버리라고 한 건 아니었어예. 잠깐 다른 곳에 옮겨 달라는 뜻이었어예.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 31,
+    "id": "ADVCE001A",
+    "standard": "기차가 지금 정차하나요?",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "짐은 지역 고유 표지로 확정하지 않음.",
+    "prior_output": "기차가 짐 정차하는교?",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 32,
+    "id": "ADVCE001B",
+    "standard": "기차가 어제 정차했나요?",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "기차가 어제 정차했는교?",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 33,
+    "id": "ADVCE002A",
+    "standard": "선생님께서 자료를 읽고 계세요.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "계셔예의 자연스러움은 독립 화자 확인 필요.",
+    "prior_output": "선생님께서 자료를 읽고 계셔예.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 34,
+    "id": "ADVCE002B",
+    "standard": "선생님께서 자료를 읽고 계셨어요.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "선생님께서 자료를 읽고 계셨어예.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 35,
+    "id": "ADVCE003A",
+    "standard": "이 문을 제가 닫을까요?",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "이 문을 제가 닫을까예?",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 36,
+    "id": "ADVCE003B",
+    "standard": "이 문이 저절로 닫힐까요?",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "저절로→절로는 방언 고유 변환으로 세지 않음.",
+    "prior_output": "이 문이 절로 닫힐까예?",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 37,
+    "id": "ADVCE005A",
+    "standard": "그 사람은 제 동료예요.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "그 사람은 제 동료라예.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 38,
+    "id": "ADVCE005B",
+    "standard": "그 사람은 제 동료를 도와요.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "그 사람은 제 동료를 도와예.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 39,
+    "id": "ADVCE006A",
+    "standard": "저는 그 내용을 설명했어요.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "저는 그 내용을 설명했어예.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 40,
+    "id": "ADVCE006B",
+    "standard": "나는 그 내용을 설명했어요.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "원문 자체가 나는+존대 혼합이므로 그대로 보존하는 것을 감점하지 않음.",
+    "prior_output": "나는 그 내용을 설명했어예.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 41,
+    "id": "ADVCE008A",
+    "standard": "제가 지금 읽는 책을 빌려드릴게요.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "제가 지금 읽는 책을 빌려드리께예.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 42,
+    "id": "ADVCE008B",
+    "standard": "제가 전에 읽던 책을 빌려드릴게요.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "제가 전에 읽던 책을 빌려드리께예.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 43,
+    "id": "ADVCE010A",
+    "standard": "그 서류는 이미 제출하셨죠?",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "그 서류는 이미 제출하셨지예?",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 44,
+    "id": "ADVCE010B",
+    "standard": "그 서류는 이미 제출하셨죠.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "그 서류는 이미 제출하셨지예.",
+    "source_folder": "reports/20261013_terminal_generation"
+  },
+  {
+    "number": 45,
+    "id": "QUAL002",
+    "standard": "그런데 이제 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거예요.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "그런데 인자 대학을 졸업하고 사회생활을 하면서 제가 좀 늦게, 그런 배움의 눈을 뜨게 된 거라예.",
+    "source_folder": "reports/20261013_user_qualification20"
+  },
+  {
+    "number": 46,
+    "id": "QUAL003",
+    "standard": "제가 좀 어떻게 보면 과를 잘못 선정해가지고 이십 대는 거의 시간을 날리면서 보낸 것 같아요.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "제가 좀 어떻게 보면 과를 잘못 선정해가지고 이십 대는 거의 시간을 날리면서 보낸 것 같아예.",
+    "source_folder": "reports/20261013_user_qualification20"
+  },
+  {
+    "number": 47,
+    "id": "QUAL005",
+    "standard": "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어요.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "그때 저랑 같이 공부했던 애들이 대학교 졸업반 애들이었어예.",
+    "source_folder": "reports/20261013_user_qualification20"
+  },
+  {
+    "number": 48,
+    "id": "QUAL017",
+    "standard": "이번에 저는 마지막으로 도전하려고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 하려고요.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "할라고는 나타났지만 하거든요는 남아 있는 부분 변환.",
+    "prior_output": "이번에 저는 마지막으로 도전할라고 하거든요. 제가 저번에 일 년 하고 올해까지 하면 이 년째 되는데 2년 해 보고 안 되면 저도 다른 일 할라고요.",
+    "source_folder": "reports/20261013_user_qualification20"
+  },
+  {
+    "number": 49,
+    "id": "QUAL018",
+    "standard": "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어요.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "처음엔 열심히 했다고 생각해서 합격 할 줄 알았는데 제가 시험 당일 날 좀 아팠어예.",
+    "source_folder": "reports/20261013_user_qualification20"
+  },
+  {
+    "number": 50,
+    "id": "QUAL020",
+    "standard": "자격증이 많으면 전문성은 높아지는 것 같은데 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어요.",
+    "selection_basis": "Prior KG output manually judged relatively usable; outcome-selected, not held-out.",
+    "selection_note": "주요 의미·높임을 유지하면서 어휘 또는 종결의 방언 변환이 관찰됨. 정답 판정은 아님.",
+    "prior_output": "자격증이 많으면 전문성은 높아지는 것 같은데 오히려 진짜 그 일을 재밌어서 하려는 사람들한테는 취업에 장벽이 되는 것 같다고 생각이 들었어예.",
+    "source_folder": "reports/20261013_user_qualification20"
+  }
+]
