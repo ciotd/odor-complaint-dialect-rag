@@ -1,0 +1,3101 @@
+{
+  "scope": "All Git-tracked Markdown; local targets must also be tracked for public links. Repository Git URLs and heading/line anchors are checked against local Git objects. External HTTP availability is not checked.",
+  "markdown_files": 25,
+  "links": 445,
+  "counts": {
+    "git_history": 15,
+    "local_ok": 389,
+    "external_not_checked": 41
+  },
+  "rows": [
+    {
+      "file": "CLAUDE_REVIEW_LOG.md",
+      "line": 3,
+      "destination": "https://github.com/ciotd/odor-complaint-dialect-rag/blob/4d6998be399df717762231fa3ea1c23f17212b85/archive/research_notes_20261024/CLAUDE_REVIEW_LOG.md",
+      "status": "git_history",
+      "target": "archive/research_notes_20261024/CLAUDE_REVIEW_LOG.md",
+      "ref": "4d6998be399df717762231fa3ea1c23f17212b85"
+    },
+    {
+      "file": "CLAUDE_REVIEW_LOG.md",
+      "line": 5,
+      "destination": "reports/20261021_paper50/report.html",
+      "status": "local_ok",
+      "target": "reports/20261021_paper50/report.html"
+    },
+    {
+      "file": "PROJECT_MAP.md",
+      "line": 3,
+      "destination": "reports/20261021_paper50/report.html",
+      "status": "local_ok",
+      "target": "reports/20261021_paper50/report.html"
+    },
+    {
+      "file": "PROJECT_MAP.md",
+      "line": 5,
+      "destination": "sources/methodology/선행연구.md",
+      "status": "local_ok",
+      "target": "sources/methodology/선행연구.md"
+    },
+    {
+      "file": "PROJECT_MAP.md",
+      "line": 27,
+      "destination": "https://github.com/ciotd/odor-complaint-dialect-rag/tree/4d6998be399df717762231fa3ea1c23f17212b85",
+      "status": "git_history",
+      "target": "",
+      "ref": "4d6998be399df717762231fa3ea1c23f17212b85"
+    },
+    {
+      "file": "PROJECT_MAP.md",
+      "line": 37,
+      "destination": "reports/repository_audit.json",
+      "status": "local_ok",
+      "target": "reports/repository_audit.json"
+    },
+    {
+      "file": "README.md",
+      "line": 5,
+      "destination": "reports/20261021_paper50/report.html",
+      "status": "local_ok",
+      "target": "reports/20261021_paper50/report.html"
+    },
+    {
+      "file": "README.md",
+      "line": 13,
+      "destination": "reports/20261021_paper50/논문용_테스트_데이터셋.txt",
+      "status": "local_ok",
+      "target": "reports/20261021_paper50/논문용_테스트_데이터셋.txt"
+    },
+    {
+      "file": "README.md",
+      "line": 14,
+      "destination": "reports/20261021_paper50/translations.txt",
+      "status": "local_ok",
+      "target": "reports/20261021_paper50/translations.txt"
+    },
+    {
+      "file": "README.md",
+      "line": 14,
+      "destination": "reports/20261021_paper50/comparison.tsv",
+      "status": "local_ok",
+      "target": "reports/20261021_paper50/comparison.tsv"
+    },
+    {
+      "file": "README.md",
+      "line": 15,
+      "destination": "reports/20261021_paper50/figures/kg_pipeline_K.png",
+      "status": "local_ok",
+      "target": "reports/20261021_paper50/figures/kg_pipeline_K.png"
+    },
+    {
+      "file": "README.md",
+      "line": 15,
+      "destination": "reports/20261021_paper50/figures/kg_pipeline_K.svg",
+      "status": "local_ok",
+      "target": "reports/20261021_paper50/figures/kg_pipeline_K.svg"
+    },
+    {
+      "file": "README.md",
+      "line": 16,
+      "destination": "reports/20261021_paper50/",
+      "status": "local_ok",
+      "target": "reports/20261021_paper50"
+    },
+    {
+      "file": "README.md",
+      "line": 17,
+      "destination": "sources/methodology/선행연구.md",
+      "status": "local_ok",
+      "target": "sources/methodology/선행연구.md"
+    },
+    {
+      "file": "README.md",
+      "line": 18,
+      "destination": "PROJECT_MAP.md",
+      "status": "local_ok",
+      "target": "PROJECT_MAP.md"
+    },
+    {
+      "file": "README.md",
+      "line": 19,
+      "destination": "kg_v2/README.md",
+      "status": "local_ok",
+      "target": "kg_v2/README.md"
+    },
+    {
+      "file": "README.md",
+      "line": 53,
+      "destination": "https://github.com/ciotd/odor-complaint-dialect-rag/tree/4d6998be399df717762231fa3ea1c23f17212b85",
+      "status": "git_history",
+      "target": "",
+      "ref": "4d6998be399df717762231fa3ea1c23f17212b85"
+    },
+    {
+      "file": "README.md",
+      "line": 53,
+      "destination": "reports/repository_audit.json",
+      "status": "local_ok",
+      "target": "reports/repository_audit.json"
+    },
+    {
+      "file": "README.md",
+      "line": 55,
+      "destination": "kg_v2/source_registry.json",
+      "status": "local_ok",
+      "target": "kg_v2/source_registry.json"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 3,
+      "destination": "현재역할.txt",
+      "status": "local_ok",
+      "target": "current_kg/현재역할.txt"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 3,
+      "destination": "../reports/20261021_paper50/report.html",
+      "status": "local_ok",
+      "target": "reports/20261021_paper50/report.html"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 7,
+      "destination": "https://github.com/ciotd/odor-complaint-dialect-rag/blob/4d6998be399df717762231fa3ea1c23f17212b85/archive/research_notes_20261024/%EC%97%B0%EA%B5%AC%EB%AF%B8%ED%8C%85.md#2026-10-08-%ED%9B%84%EC%86%8D-%EC%82%AC%EC%9A%A9%EC%9E%90-%EA%B2%B0%EC%A0%95--%EC%8B%A4%ED%97%98-%EC%A0%95%EB%A6%AC%EC%99%80-1%EC%B0%A8-%EC%B4%88%EC%95%88-%EC%9A%B0%EC%84%A0",
+      "status": "git_history",
+      "target": "archive/research_notes_20261024/연구미팅.md",
+      "ref": "4d6998be399df717762231fa3ea1c23f17212b85"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 11,
+      "destination": "experiments/reports/long_dialogue_development/comparison.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/long_dialogue_development/comparison.txt"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 11,
+      "destination": "experiments/reports/long_dialogue_development/diagnosis.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/long_dialogue_development/diagnosis.txt"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 17,
+      "destination": "experiments/reports/long_dialogue_development/comparison.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/long_dialogue_development/comparison.txt"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 17,
+      "destination": "experiments/reports/long_dialogue_development/retrieval.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/long_dialogue_development/retrieval.txt"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 17,
+      "destination": "experiments/reports/long_dialogue_development/diagnosis.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/long_dialogue_development/diagnosis.txt"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 18,
+      "destination": "experiments/reports/integrated_development/comparison.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/integrated_development/comparison.txt"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 18,
+      "destination": "experiments/reports/integrated_development/comparison.tsv",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/integrated_development/comparison.tsv"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 18,
+      "destination": "experiments/reports/integrated_development/summary.json",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/integrated_development/summary.json"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 19,
+      "destination": "experiments/reports/source_expansion/retrieval_integration.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/source_expansion/retrieval_integration.txt"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 19,
+      "destination": "experiments/reports/source_expansion/retrieval_integration.tsv",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/source_expansion/retrieval_integration.tsv"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 19,
+      "destination": "experiments/reports/source_expansion/retrieval_integration.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/source_expansion/retrieval_integration.txt"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 20,
+      "destination": "experiments/reports/source_expansion/kg_repairs.tsv",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/source_expansion/kg_repairs.tsv"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 20,
+      "destination": "experiments/reports/source_expansion/kg_repairs.json",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/source_expansion/kg_repairs.json"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 21,
+      "destination": "experiments/reports/controlled_development/comparison.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/controlled_development/comparison.txt"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 21,
+      "destination": "experiments/reports/controlled_development/comparison.tsv",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/controlled_development/comparison.tsv"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 21,
+      "destination": "experiments/reports/controlled_development/retrieval.tsv",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/controlled_development/retrieval.tsv"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 22,
+      "destination": "docs/구축방법.md#10월-8일-후속-원문-예문-보완과-통제된-개발-비교",
+      "status": "local_ok",
+      "target": "current_kg/docs/구축방법.md"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 22,
+      "destination": "experiments/reports/controlled_development/summary.json",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/controlled_development/summary.json"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 23,
+      "destination": "https://github.com/ciotd/odor-complaint-dialect-rag/blob/4d6998be399df717762231fa3ea1c23f17212b85/archive/research_notes_20261024/%EC%97%B0%EA%B5%AC%EB%AF%B8%ED%8C%85.md#2026-10-08-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%8A%B9%EC%9D%B8-%EB%B0%A9%ED%96%A5--%EC%9D%B4%ED%9B%84-%EC%9E%91%EC%97%85%EC%9D%98-%EA%B8%B0%EC%A4%80",
+      "status": "git_history",
+      "target": "archive/research_notes_20261024/연구미팅.md",
+      "ref": "4d6998be399df717762231fa3ea1c23f17212b85"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 23,
+      "destination": "docs/구축방법.md#2026-10-08-조회-설계와-비교-기준",
+      "status": "local_ok",
+      "target": "current_kg/docs/구축방법.md"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 24,
+      "destination": "docs/구축방법.md#10월-8일-실제-진행-결과-문헌-복구와-neo4j-확인용-적재",
+      "status": "local_ok",
+      "target": "current_kg/docs/구축방법.md"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 24,
+      "destination": "experiments/reports/neo4j/inspection.cypher",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/neo4j/inspection.cypher"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 24,
+      "destination": "experiments/reports/neo4j/schema.svg",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/neo4j/schema.svg"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 25,
+      "destination": "experiments/reports/source_expansion/review_units.tsv",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/source_expansion/review_units.tsv"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 26,
+      "destination": "experiments/reports/source_expansion/progress.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/source_expansion/progress.txt"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 26,
+      "destination": "docs/구축방법.md#2026-10-07-문헌-보존과-조회-입구-확장",
+      "status": "local_ok",
+      "target": "current_kg/docs/구축방법.md"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 27,
+      "destination": "grammar/source_evidence/alignment.tsv",
+      "status": "local_ok",
+      "target": "current_kg/grammar/source_evidence/alignment.tsv"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 28,
+      "destination": "experiments/reports/source_expansion/retrieval_20261007T074045678730Z.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/source_expansion/retrieval_20261007T074045678730Z.txt"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 28,
+      "destination": "experiments/reports/source_expansion/binding_recheck.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/source_expansion/binding_recheck.txt"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 29,
+      "destination": "experiments/reports/latest/translations.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/latest/translations.txt"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 29,
+      "destination": "experiments/reports/latest/translations.tsv",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/latest/translations.tsv"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 30,
+      "destination": "experiments/reports/diagnostics/preservation_only_20261006T005939770914Z.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/diagnostics/preservation_only_20261006T005939770914Z.txt"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 31,
+      "destination": "experiments/reports/diagnostics/question_pair_20261006T025911838343Z.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/diagnostics/question_pair_20261006T025911838343Z.txt"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 32,
+      "destination": "docs/구축방법.md#2026-10-06-생성-입력-감사와-다음-작업",
+      "status": "local_ok",
+      "target": "current_kg/docs/구축방법.md"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 33,
+      "destination": "experiments/reports/latest/qwen_inputs.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/latest/qwen_inputs.txt"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 34,
+      "destination": "experiments/reports/latest/file_disposition.tsv",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/latest/file_disposition.tsv"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 77,
+      "destination": "experiments/run_controlled_retrieval.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/run_controlled_retrieval.py"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 78,
+      "destination": "experiments/integrated_retrieval.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/integrated_retrieval.py"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 78,
+      "destination": "experiments/source_bindings.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/source_bindings.py"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 79,
+      "destination": "experiments/review_integrated_retrieval.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/review_integrated_retrieval.py"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 80,
+      "destination": "experiments/run_auto_analysis_development.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/run_auto_analysis_development.py"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 81,
+      "destination": "experiments/analysis_input.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/analysis_input.py"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 82,
+      "destination": "experiments/source_analysis_guard.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/source_analysis_guard.py"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 83,
+      "destination": "experiments/run_manual_kg_development.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/run_manual_kg_development.py"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 84,
+      "destination": "grammar/query_review.py",
+      "status": "local_ok",
+      "target": "current_kg/grammar/query_review.py"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 85,
+      "destination": "experiments/run_seeded_kg.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/run_seeded_kg.py"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 86,
+      "destination": "experiments/audit_generation_requests.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/audit_generation_requests.py"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 87,
+      "destination": "grammar/source_inventory.py",
+      "status": "local_ok",
+      "target": "current_kg/grammar/source_inventory.py"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 88,
+      "destination": "grammar/neo4j_view.py",
+      "status": "local_ok",
+      "target": "current_kg/grammar/neo4j_view.py"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 89,
+      "destination": "experiments/source_retrieval.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/source_retrieval.py"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 90,
+      "destination": "experiments/run_source_expansion.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/run_source_expansion.py"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 91,
+      "destination": "experiments/review_source_inventory.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/review_source_inventory.py"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 91,
+      "destination": "grammar/source_evidence/review_status.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/source_evidence/review_status.json"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 92,
+      "destination": "experiments/embedding_retrieval.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/embedding_retrieval.py"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 92,
+      "destination": "experiments/run_controlled_retrieval.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/run_controlled_retrieval.py"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 92,
+      "destination": "experiments/summarize_controlled_retrieval.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/summarize_controlled_retrieval.py"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 93,
+      "destination": "experiments/requirements-analysis.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/requirements-analysis.txt"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 93,
+      "destination": "experiments/requirements-retrieval.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/requirements-retrieval.txt"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 116,
+      "destination": "docs/구축방법.md#2026-10-06-인용-용례-누락과-의문형-두-문장-재확인",
+      "status": "local_ok",
+      "target": "current_kg/docs/구축방법.md"
+    },
+    {
+      "file": "current_kg/README.md",
+      "line": 123,
+      "destination": "docs/history/README.md#2026-10-06-이전-작업-안내-원문-보관",
+      "status": "local_ok",
+      "target": "current_kg/docs/history/README.md"
+    },
+    {
+      "file": "current_kg/docs/history/CLAIM_FORMAT_V3_DRAFT.md",
+      "line": 5,
+      "destination": "https://github.com/ciotd/odor-complaint-dialect-rag/blob/2faf35d8819091efda9879ed4de6e7256063d3d7/current_kg/design_probe/README.md",
+      "status": "git_history",
+      "target": "current_kg/design_probe/README.md",
+      "ref": "2faf35d8819091efda9879ed4de6e7256063d3d7"
+    },
+    {
+      "file": "current_kg/docs/history/GRAMMAR_SCOPE_AND_KG_DESIGN_2026-09-08.md",
+      "line": 6,
+      "destination": "KG_FEASIBILITY_2026-09-09.md",
+      "status": "local_ok",
+      "target": "current_kg/docs/history/KG_FEASIBILITY_2026-09-09.md"
+    },
+    {
+      "file": "current_kg/docs/history/GRAMMAR_SCOPE_AND_KG_DESIGN_2026-09-08.md",
+      "line": 37,
+      "destination": "../../grammar/source_registry.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/source_registry.json"
+    },
+    {
+      "file": "current_kg/docs/history/GRAMMAR_SCOPE_AND_KG_DESIGN_2026-09-08.md",
+      "line": 38,
+      "destination": "../../grammar/source_registry.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/source_registry.json"
+    },
+    {
+      "file": "current_kg/docs/history/GRAMMAR_SCOPE_AND_KG_DESIGN_2026-09-08.md",
+      "line": 39,
+      "destination": "../../grammar/source_registry.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/source_registry.json"
+    },
+    {
+      "file": "current_kg/docs/history/GRAMMAR_SCOPE_AND_KG_DESIGN_2026-09-08.md",
+      "line": 300,
+      "destination": "../../grammar/source_registry.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/source_registry.json"
+    },
+    {
+      "file": "current_kg/docs/history/GRAMMAR_SCOPE_AND_KG_DESIGN_2026-09-08.md",
+      "line": 304,
+      "destination": "../../grammar/source_registry.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/source_registry.json"
+    },
+    {
+      "file": "current_kg/docs/history/KG_FEASIBILITY_2026-09-09.md",
+      "line": 16,
+      "destination": "CLAIM_FORMAT_V3_DRAFT.md",
+      "status": "local_ok",
+      "target": "current_kg/docs/history/CLAIM_FORMAT_V3_DRAFT.md"
+    },
+    {
+      "file": "current_kg/docs/history/KG_FEASIBILITY_2026-09-09.md",
+      "line": 16,
+      "destination": "../../README.md",
+      "status": "local_ok",
+      "target": "current_kg/README.md"
+    },
+    {
+      "file": "current_kg/docs/history/KG_FEASIBILITY_2026-09-09.md",
+      "line": 16,
+      "destination": "GRAMMAR_SCOPE_AND_KG_DESIGN_2026-09-08.md",
+      "status": "local_ok",
+      "target": "current_kg/docs/history/GRAMMAR_SCOPE_AND_KG_DESIGN_2026-09-08.md"
+    },
+    {
+      "file": "current_kg/docs/history/KG_FEASIBILITY_2026-09-09.md",
+      "line": 35,
+      "destination": "../../grammar/source_registry.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/source_registry.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 3,
+      "destination": "../../../PROJECT_MAP.md",
+      "status": "local_ok",
+      "target": "PROJECT_MAP.md"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 3,
+      "destination": "https://github.com/ciotd/odor-complaint-dialect-rag/tree/4d6998be399df717762231fa3ea1c23f17212b85/archive",
+      "status": "git_history",
+      "target": "archive",
+      "ref": "4d6998be399df717762231fa3ea1c23f17212b85"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 5,
+      "destination": "../../../README.md",
+      "status": "local_ok",
+      "target": "README.md"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 5,
+      "destination": "../../README.md",
+      "status": "local_ok",
+      "target": "current_kg/README.md"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 5,
+      "destination": "CLAIM_FORMAT_V3_DRAFT.md",
+      "status": "local_ok",
+      "target": "current_kg/docs/history/CLAIM_FORMAT_V3_DRAFT.md"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 9,
+      "destination": "RESET_2026-08-31.md",
+      "status": "local_ok",
+      "target": "current_kg/docs/history/RESET_2026-08-31.md"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 10,
+      "destination": "SOURCE_REVIEW_2026-09-07.md",
+      "status": "local_ok",
+      "target": "current_kg/docs/history/SOURCE_REVIEW_2026-09-07.md"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 11,
+      "destination": "GRAMMAR_SCOPE_AND_KG_DESIGN_2026-09-08.md",
+      "status": "local_ok",
+      "target": "current_kg/docs/history/GRAMMAR_SCOPE_AND_KG_DESIGN_2026-09-08.md"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 26,
+      "destination": "../../experiments/reports/latest/translations.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/latest/translations.txt"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 26,
+      "destination": "../../experiments/reports/latest/translations.tsv",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/latest/translations.tsv"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 26,
+      "destination": "../../experiments/reports/latest/comparison.json",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/latest/comparison.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 26,
+      "destination": "../../experiments/reports/latest/review.json",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/latest/review.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 31,
+      "destination": "../../experiments/source_analysis_guard.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/source_analysis_guard.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 36,
+      "destination": "https://github.com/bab2min/kiwipiepy",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 38,
+      "destination": "../../experiments/requirements-analysis.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/requirements-analysis.txt"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 40,
+      "destination": "../../experiments/archive/tools/run_guarded_development.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/archive/tools/run_guarded_development.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 66,
+      "destination": "../../experiments/archive/reports/automatic_kg_20261002T042957751249Z/translations.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/archive/reports/automatic_kg_20261002T042957751249Z/translations.txt"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 66,
+      "destination": "../../experiments/archive/reports/automatic_kg_20261002T042957751249Z/translations.tsv",
+      "status": "local_ok",
+      "target": "current_kg/experiments/archive/reports/automatic_kg_20261002T042957751249Z/translations.tsv"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 66,
+      "destination": "../../experiments/archive/reports/automatic_kg_20261002T042957751249Z/recovered.comparison.json",
+      "status": "local_ok",
+      "target": "current_kg/experiments/archive/reports/automatic_kg_20261002T042957751249Z/recovered.comparison.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 66,
+      "destination": "../../experiments/archive/reports/automatic_kg_20261002T042957751249Z/review.json",
+      "status": "local_ok",
+      "target": "current_kg/experiments/archive/reports/automatic_kg_20261002T042957751249Z/review.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 70,
+      "destination": "../../experiments/run_auto_analysis_development.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/run_auto_analysis_development.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 74,
+      "destination": "../../experiments/archive/tools/repair_failed_auto_analysis.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/archive/tools/repair_failed_auto_analysis.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 77,
+      "destination": "../../experiments/archive/tools/retry_failed_development_translations.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/archive/tools/retry_failed_development_translations.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 115,
+      "destination": "../../experiments/analysis_input.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/analysis_input.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 115,
+      "destination": "../../experiments/run_manual_kg_development.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/run_manual_kg_development.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 115,
+      "destination": "../../grammar/analysis_contract.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/analysis_contract.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 132,
+      "destination": "../../experiments/archive/diagnostics/analysis_validation.results.json",
+      "status": "local_ok",
+      "target": "current_kg/experiments/archive/diagnostics/analysis_validation.results.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 144,
+      "destination": "../../grammar/records.jsonl",
+      "status": "local_ok",
+      "target": "current_kg/grammar/records.jsonl"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 145,
+      "destination": "../../grammar/grammar.graph.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/grammar.graph.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 146,
+      "destination": "../../grammar/작성검토.md",
+      "status": "local_ok",
+      "target": "current_kg/grammar/작성검토.md"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 147,
+      "destination": "../구축방법.md",
+      "status": "local_ok",
+      "target": "current_kg/docs/구축방법.md"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 149,
+      "destination": "../../grammar/authored",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 149,
+      "destination": "../../grammar/triples.tsv",
+      "status": "local_ok",
+      "target": "current_kg/grammar/triples.tsv"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 172,
+      "destination": "../../grammar/progress.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/progress.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 172,
+      "destination": "../../grammar/작성검토.md",
+      "status": "local_ok",
+      "target": "current_kg/grammar/작성검토.md"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 182,
+      "destination": "../../grammar/source_registry.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/source_registry.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 194,
+      "destination": "../../grammar/record.schema.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/record.schema.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 194,
+      "destination": "../../grammar/analysis_contract.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/analysis_contract.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 194,
+      "destination": "../../grammar/build.py",
+      "status": "local_ok",
+      "target": "current_kg/grammar/build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 195,
+      "destination": "../../grammar/test_build.py",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 196,
+      "destination": "../../grammar/test_query_review.py",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_query_review.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 197,
+      "destination": "../../grammar/test_integration.py",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_integration.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 198,
+      "destination": "../../grammar/test_structure_repair.py",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_structure_repair.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 199,
+      "destination": "../../grammar/query_review.py",
+      "status": "local_ok",
+      "target": "current_kg/grammar/query_review.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 199,
+      "destination": "../../grammar/query_review.results.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/query_review.results.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 200,
+      "destination": "../../grammar/integration_review.py",
+      "status": "local_ok",
+      "target": "current_kg/grammar/integration_review.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 200,
+      "destination": "../../grammar/integration_review.results.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/integration_review.results.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 201,
+      "destination": "../../grammar/authoring_audit.py",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authoring_audit.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 201,
+      "destination": "../../grammar/authoring_audit.results.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authoring_audit.results.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 201,
+      "destination": "../../grammar/작성검토.md",
+      "status": "local_ok",
+      "target": "current_kg/grammar/작성검토.md"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 226,
+      "destination": "../../experiments/build_baseline_testset.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/build_baseline_testset.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 231,
+      "destination": "../../experiments/inputs/development_30.jsonl",
+      "status": "local_ok",
+      "target": "current_kg/experiments/inputs/development_30.jsonl"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 238,
+      "destination": "../../experiments/inputs/development_30.config.json",
+      "status": "local_ok",
+      "target": "current_kg/experiments/inputs/development_30.config.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 238,
+      "destination": "../../experiments/archive/tools/run_development_30.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/archive/tools/run_development_30.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 297,
+      "destination": "../../experiments/archive/legacy_development/development_30.seeded_comparison.json",
+      "status": "local_ok",
+      "target": "current_kg/experiments/archive/legacy_development/development_30.seeded_comparison.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 297,
+      "destination": "../../experiments/archive/legacy_development/development_30.kg_plan.json",
+      "status": "local_ok",
+      "target": "current_kg/experiments/archive/legacy_development/development_30.kg_plan.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 297,
+      "destination": "../../experiments/archive/legacy_development/development_30.kg_packets.json",
+      "status": "local_ok",
+      "target": "current_kg/experiments/archive/legacy_development/development_30.kg_packets.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 297,
+      "destination": "../../experiments/build_development_kg_packets.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/build_development_kg_packets.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 297,
+      "destination": "../../experiments/run_seeded_kg.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/run_seeded_kg.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 297,
+      "destination": "../../experiments/test_seeded_kg.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/test_seeded_kg.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 383,
+      "destination": "../../experiments/inputs/ending_review.inputs.json",
+      "status": "local_ok",
+      "target": "current_kg/experiments/inputs/ending_review.inputs.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 384,
+      "destination": "../../experiments/review_ending_retrieval.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/review_ending_retrieval.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 385,
+      "destination": "../../experiments/archive/diagnostics/ending_review.results.json",
+      "status": "local_ok",
+      "target": "current_kg/experiments/archive/diagnostics/ending_review.results.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 386,
+      "destination": "../../experiments/test_ending_retrieval.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/test_ending_retrieval.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 388,
+      "destination": "../../grammar/authored/namu_honorific_expansion_03.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_honorific_expansion_03.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 408,
+      "destination": "../../grammar/authoring_audit.results.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authoring_audit.results.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 408,
+      "destination": "../../grammar/작성검토.md",
+      "status": "local_ok",
+      "target": "current_kg/grammar/작성검토.md"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 431,
+      "destination": "../../grammar/작성검토.md",
+      "status": "local_ok",
+      "target": "current_kg/grammar/작성검토.md"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 454,
+      "destination": "../../grammar/query_review.results.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/query_review.results.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 454,
+      "destination": "../../grammar/작성검토.md",
+      "status": "local_ok",
+      "target": "current_kg/grammar/작성검토.md"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 460,
+      "destination": "../../grammar/작성검토.md",
+      "status": "local_ok",
+      "target": "current_kg/grammar/작성검토.md"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 487,
+      "destination": "../../experiments/inputs/development_30.manual_analysis.json",
+      "status": "local_ok",
+      "target": "current_kg/experiments/inputs/development_30.manual_analysis.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 488,
+      "destination": "../../experiments/archive/legacy_development/development_30.manual_retrieval.json",
+      "status": "local_ok",
+      "target": "current_kg/experiments/archive/legacy_development/development_30.manual_retrieval.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 489,
+      "destination": "../../experiments/archive/legacy_development/development_30.manual_kg_results.json",
+      "status": "local_ok",
+      "target": "current_kg/experiments/archive/legacy_development/development_30.manual_kg_results.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 490,
+      "destination": "../../experiments/run_manual_kg_development.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/run_manual_kg_development.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 884,
+      "destination": "../../grammar/structure_repair.results.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/structure_repair.results.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 884,
+      "destination": "../../grammar/verify_structure_repair.py",
+      "status": "local_ok",
+      "target": "current_kg/grammar/verify_structure_repair.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 884,
+      "destination": "../../grammar/test_structure_repair.py",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_structure_repair.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 898,
+      "destination": "../../grammar/source_structure_audit.results.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/source_structure_audit.results.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 898,
+      "destination": "../../grammar/source_structure_audit.py",
+      "status": "local_ok",
+      "target": "current_kg/grammar/source_structure_audit.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 949,
+      "destination": "../../experiments/archive/legacy_development/development_30.manual_retrieval.json",
+      "status": "local_ok",
+      "target": "current_kg/experiments/archive/legacy_development/development_30.manual_retrieval.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1508,
+      "destination": "../../grammar/analysis_contract.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/analysis_contract.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1509,
+      "destination": "../../grammar/analysis_links.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/analysis_links.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1510,
+      "destination": "../../grammar/authored/jo2018_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/jo2018_01.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1511,
+      "destination": "../../grammar/authored/jo2018_expansion_02.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/jo2018_expansion_02.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1512,
+      "destination": "../../grammar/authored/jo2018_expansion_03.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/jo2018_expansion_03.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1513,
+      "destination": "../../grammar/authored/namu_cross_categories_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_cross_categories_01.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1514,
+      "destination": "../../grammar/authored/namu_grammar_expansion_02.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_grammar_expansion_02.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1515,
+      "destination": "../../grammar/authored/namu_hage_questions_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_hage_questions_01.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1516,
+      "destination": "../../grammar/authored/namu_honorific_compositions_02.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_honorific_compositions_02.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1517,
+      "destination": "../../grammar/authored/namu_honorific_expansion_03.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_honorific_expansion_03.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1518,
+      "destination": "../../grammar/authored/namu_honorifics_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_honorifics_01.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1519,
+      "destination": "../../grammar/authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1520,
+      "destination": "../../grammar/authored/namu_interrogatives_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_interrogatives_01.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1521,
+      "destination": "../../grammar/authored/namu_lexical_constructions_03.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_lexical_constructions_03.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1522,
+      "destination": "../../grammar/authored/namu_overview_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_overview_01.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1523,
+      "destination": "../../grammar/authored/namu_overview_expansion_02.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_overview_expansion_02.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1524,
+      "destination": "../../grammar/authored/namu_phonology_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_phonology_01.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1525,
+      "destination": "../../grammar/authored/namu_phonology_expansion_02.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_phonology_expansion_02.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1526,
+      "destination": "../../grammar/authored/ryu2014_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/ryu2014_01.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1527,
+      "destination": "../../grammar/authored/ryu2014_conflict_03.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/ryu2014_conflict_03.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1528,
+      "destination": "../../grammar/authored/ryu2014_expansion_02.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/ryu2014_expansion_02.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1529,
+      "destination": "../../grammar/authored/yang2021_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/yang2021_01.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1530,
+      "destination": "../../grammar/authoring_audit.py",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authoring_audit.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1531,
+      "destination": "../../grammar/authoring_audit.results.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authoring_audit.results.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1532,
+      "destination": "../../grammar/build.py",
+      "status": "local_ok",
+      "target": "current_kg/grammar/build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1533,
+      "destination": "../../grammar/example_review.md",
+      "status": "local_ok",
+      "target": "current_kg/grammar/example_review.md"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1534,
+      "destination": "../../grammar/gaps.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/gaps.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1535,
+      "destination": "../../grammar/grammar.graph.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/grammar.graph.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1536,
+      "destination": "../../grammar/integration.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/integration.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1537,
+      "destination": "../../grammar/integration_review.py",
+      "status": "local_ok",
+      "target": "current_kg/grammar/integration_review.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1538,
+      "destination": "../../grammar/integration_review.results.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/integration_review.results.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1539,
+      "destination": "../../grammar/manifest.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/manifest.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1540,
+      "destination": "../../grammar/ontology.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/ontology.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1541,
+      "destination": "../../grammar/progress.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/progress.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1542,
+      "destination": "../../grammar/query_review.py",
+      "status": "local_ok",
+      "target": "current_kg/grammar/query_review.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1543,
+      "destination": "../../grammar/query_review.results.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/query_review.results.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1544,
+      "destination": "../../grammar/record.schema.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/record.schema.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1545,
+      "destination": "../../grammar/records.jsonl",
+      "status": "local_ok",
+      "target": "current_kg/grammar/records.jsonl"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1546,
+      "destination": "../../grammar/retired/context_records_2026-09-15.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/retired/context_records_2026-09-15.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1547,
+      "destination": "../../grammar/source_notes.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/source_notes.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1548,
+      "destination": "../../grammar/test_build.py",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1549,
+      "destination": "../../grammar/test_integration.py",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_integration.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1550,
+      "destination": "../../grammar/test_query_review.py",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_query_review.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1551,
+      "destination": "../../grammar/triples.tsv",
+      "status": "local_ok",
+      "target": "current_kg/grammar/triples.tsv"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1552,
+      "destination": "../../grammar/work_plan.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/work_plan.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1553,
+      "destination": "../../grammar/작성검토.md",
+      "status": "local_ok",
+      "target": "current_kg/grammar/작성검토.md"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1556,
+      "destination": "../../grammar/source_registry.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/source_registry.json"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1565,
+      "destination": "../../grammar/test_build.py#L36",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1566,
+      "destination": "../../grammar/test_build.py#L50",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1567,
+      "destination": "../../grammar/test_build.py#L56",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1568,
+      "destination": "../../grammar/test_build.py#L62",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1569,
+      "destination": "../../grammar/test_build.py#L69",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1570,
+      "destination": "../../grammar/test_build.py#L76",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1571,
+      "destination": "../../grammar/test_build.py#L83",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1572,
+      "destination": "../../grammar/test_build.py#L89",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1573,
+      "destination": "../../grammar/test_build.py#L117",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1574,
+      "destination": "../../grammar/test_build.py#L128",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1575,
+      "destination": "../../grammar/test_build.py#L135",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1576,
+      "destination": "../../grammar/test_build.py#L144",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1577,
+      "destination": "../../grammar/test_build.py#L163",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1578,
+      "destination": "../../grammar/test_build.py#L166",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1579,
+      "destination": "../../grammar/test_build.py#L179",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1580,
+      "destination": "../../grammar/test_build.py#L185",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1581,
+      "destination": "../../grammar/test_build.py#L200",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1582,
+      "destination": "../../grammar/test_build.py#L215",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1583,
+      "destination": "../../grammar/test_build.py#L221",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1584,
+      "destination": "../../grammar/test_build.py#L227",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1585,
+      "destination": "../../grammar/test_build.py#L233",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1586,
+      "destination": "../../grammar/test_build.py#L237",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1587,
+      "destination": "../../grammar/test_build.py#L243",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1588,
+      "destination": "../../grammar/test_build.py#L249",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1589,
+      "destination": "../../grammar/test_build.py#L265",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1590,
+      "destination": "../../grammar/test_build.py#L274",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1591,
+      "destination": "../../grammar/test_build.py#L286",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1592,
+      "destination": "../../grammar/test_build.py#L295",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1593,
+      "destination": "../../grammar/test_build.py#L307",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1594,
+      "destination": "../../grammar/test_build.py#L318",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_build.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1598,
+      "destination": "../../grammar/test_integration.py#L16",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_integration.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1599,
+      "destination": "../../grammar/test_integration.py#L19",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_integration.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1600,
+      "destination": "../../grammar/test_integration.py#L22",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_integration.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1601,
+      "destination": "../../grammar/test_integration.py#L31",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_integration.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1602,
+      "destination": "../../grammar/test_integration.py#L38",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_integration.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1603,
+      "destination": "../../grammar/test_integration.py#L44",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_integration.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1604,
+      "destination": "../../grammar/test_integration.py#L49",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_integration.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1605,
+      "destination": "../../grammar/test_integration.py#L54",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_integration.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1606,
+      "destination": "../../grammar/test_integration.py#L58",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_integration.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1607,
+      "destination": "../../grammar/test_integration.py#L63",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_integration.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1608,
+      "destination": "../../grammar/test_integration.py#L70",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_integration.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1609,
+      "destination": "../../grammar/test_integration.py#L75",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_integration.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1610,
+      "destination": "../../grammar/test_integration.py#L80",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_integration.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1611,
+      "destination": "../../grammar/test_integration.py#L85",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_integration.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1612,
+      "destination": "../../grammar/test_integration.py#L93",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_integration.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1613,
+      "destination": "../../grammar/test_integration.py#L98",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_integration.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1614,
+      "destination": "../../grammar/test_integration.py#L103",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_integration.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1615,
+      "destination": "../../grammar/test_integration.py#L109",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_integration.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1619,
+      "destination": "../../grammar/test_query_review.py#L27",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_query_review.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1620,
+      "destination": "../../grammar/test_query_review.py#L43",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_query_review.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1621,
+      "destination": "../../grammar/test_query_review.py#L49",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_query_review.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1622,
+      "destination": "../../grammar/test_query_review.py#L52",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_query_review.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1623,
+      "destination": "../../grammar/test_query_review.py#L55",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_query_review.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1624,
+      "destination": "../../grammar/test_query_review.py#L61",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_query_review.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1625,
+      "destination": "../../grammar/test_query_review.py#L68",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_query_review.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1626,
+      "destination": "../../grammar/test_query_review.py#L74",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_query_review.py"
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "line": 1627,
+      "destination": "../../grammar/test_query_review.py#L82",
+      "status": "local_ok",
+      "target": "current_kg/grammar/test_query_review.py"
+    },
+    {
+      "file": "current_kg/docs/history/RESET_2026-08-31.md",
+      "line": 3,
+      "destination": "../../../PROJECT_MAP.md",
+      "status": "local_ok",
+      "target": "PROJECT_MAP.md"
+    },
+    {
+      "file": "current_kg/docs/history/RESET_2026-08-31.md",
+      "line": 3,
+      "destination": "https://github.com/ciotd/odor-complaint-dialect-rag/tree/4d6998be399df717762231fa3ea1c23f17212b85/archive",
+      "status": "git_history",
+      "target": "archive",
+      "ref": "4d6998be399df717762231fa3ea1c23f17212b85"
+    },
+    {
+      "file": "current_kg/docs/history/SOURCE_REVIEW_2026-09-07.md",
+      "line": 4,
+      "destination": "KG_FEASIBILITY_2026-09-09.md",
+      "status": "local_ok",
+      "target": "current_kg/docs/history/KG_FEASIBILITY_2026-09-09.md"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 7,
+      "destination": "전체원문검토.md",
+      "status": "local_ok",
+      "target": "current_kg/docs/전체원문검토.md"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 7,
+      "destination": "../../연구미팅.md",
+      "status": "local_ok",
+      "target": "연구미팅.md"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 13,
+      "destination": "../grammar/작성검토.md",
+      "status": "local_ok",
+      "target": "current_kg/grammar/작성검토.md"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 13,
+      "destination": "../grammar/progress.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/progress.json"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 152,
+      "destination": "전체원문검토.md#9-우선-처리해야-할-문제-장부",
+      "status": "local_ok",
+      "target": "current_kg/docs/전체원문검토.md"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 152,
+      "destination": "../grammar/integration.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/integration.json"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 152,
+      "destination": "../grammar/작성검토.md",
+      "status": "local_ok",
+      "target": "current_kg/grammar/작성검토.md"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 233,
+      "destination": "https://catalog.ldc.upenn.edu/LDC2006T03",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 234,
+      "destination": "https://aclanthology.org/2025.naacl-demo.24/",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 235,
+      "destination": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002110862",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 236,
+      "destination": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001043073",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 237,
+      "destination": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001228038",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 238,
+      "destination": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001836048",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 239,
+      "destination": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002783541",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 257,
+      "destination": "../experiments/reports/latest/qwen_inputs.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/latest/qwen_inputs.txt"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 257,
+      "destination": "../experiments/reports/latest/request_audit.tsv",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/latest/request_audit.tsv"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 257,
+      "destination": "../experiments/reports/latest/comparison.json",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/latest/comparison.json"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 281,
+      "destination": "../experiments/audit_generation_requests.py",
+      "status": "local_ok",
+      "target": "current_kg/experiments/audit_generation_requests.py"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 281,
+      "destination": "../experiments/reports/diagnostics/preservation_only_20261006T005939770914Z.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/diagnostics/preservation_only_20261006T005939770914Z.txt"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 281,
+      "destination": "../experiments/reports/diagnostics/preservation_only_20261006T005939770914Z.json",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/diagnostics/preservation_only_20261006T005939770914Z.json"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 325,
+      "destination": "../experiments/reports/diagnostics/question_pair_20261006T025911838343Z.json",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/diagnostics/question_pair_20261006T025911838343Z.json"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 325,
+      "destination": "../experiments/reports/diagnostics/question_pair_20261006T025911838343Z.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/diagnostics/question_pair_20261006T025911838343Z.txt"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 338,
+      "destination": "../experiments/reports/source_expansion/progress.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/source_expansion/progress.txt"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 354,
+      "destination": "../experiments/reports/source_expansion/retrieval_20261007T074045678730Z.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/source_expansion/retrieval_20261007T074045678730Z.txt"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 360,
+      "destination": "../experiments/reports/source_expansion/binding_recheck.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/source_expansion/binding_recheck.txt"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 366,
+      "destination": "../grammar/source_evidence/review_status.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/source_evidence/review_status.json"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 376,
+      "destination": "https://github.com/ciotd/odor-complaint-dialect-rag/blob/4d6998be399df717762231fa3ea1c23f17212b85/archive/research_notes_20261024/%EC%97%B0%EA%B5%AC%EB%AF%B8%ED%8C%85.md#2026-10-08-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%8A%B9%EC%9D%B8-%EB%B0%A9%ED%96%A5--%EC%9D%B4%ED%9B%84-%EC%9E%91%EC%97%85%EC%9D%98-%EA%B8%B0%EC%A4%80",
+      "status": "git_history",
+      "target": "archive/research_notes_20261024/연구미팅.md",
+      "ref": "4d6998be399df717762231fa3ea1c23f17212b85"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 421,
+      "destination": "https://neo4j.com/docs/getting-started/cypher/",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 421,
+      "destination": "https://neo4j.com/docs/neo4j-graphrag-python/current/user_guide_rag.html",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 421,
+      "destination": "https://aclanthology.org/2023.matching-1.7/",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 421,
+      "destination": "https://aclanthology.org/2025.naacl-long.449/",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 429,
+      "destination": "https://protege.stanford.edu/publications/ontology_development/ontology101-noy-mcguinness.html",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 441,
+      "destination": "../grammar/neo4j_view.py",
+      "status": "local_ok",
+      "target": "current_kg/grammar/neo4j_view.py"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 442,
+      "destination": "../experiments/reports/neo4j/verification.json",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/neo4j/verification.json"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 443,
+      "destination": "../experiments/reports/neo4j/inspection.cypher",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/neo4j/inspection.cypher"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 444,
+      "destination": "../experiments/reports/neo4j/schema.svg",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/neo4j/schema.svg"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 457,
+      "destination": "../experiments/reports/source_expansion/review_units.tsv",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/source_expansion/review_units.tsv"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 467,
+      "destination": "../experiments/reports/controlled_development/source_repairs.json",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/controlled_development/source_repairs.json"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 469,
+      "destination": "https://huggingface.co/intfloat/multilingual-e5-small",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 494,
+      "destination": "../experiments/reports/controlled_development/comparison.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/controlled_development/comparison.txt"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 494,
+      "destination": "../experiments/reports/controlled_development/retrieval.tsv",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/controlled_development/retrieval.tsv"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 494,
+      "destination": "../experiments/reports/controlled_development/summary.json",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/controlled_development/summary.json"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 494,
+      "destination": "../experiments/reports/controlled_development/blind_review.tsv",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/controlled_development/blind_review.tsv"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 504,
+      "destination": "https://github.com/ciotd/odor-complaint-dialect-rag/blob/4d6998be399df717762231fa3ea1c23f17212b85/archive/research_notes_20261024/%EC%97%B0%EA%B5%AC%EB%AF%B8%ED%8C%85.md#2026-10-08-%ED%9B%84%EC%86%8D-%EC%82%AC%EC%9A%A9%EC%9E%90-%EA%B2%B0%EC%A0%95--%EC%8B%A4%ED%97%98-%EC%A0%95%EB%A6%AC%EC%99%80-1%EC%B0%A8-%EC%B4%88%EC%95%88-%EC%9A%B0%EC%84%A0",
+      "status": "git_history",
+      "target": "archive/research_notes_20261024/연구미팅.md",
+      "ref": "4d6998be399df717762231fa3ea1c23f17212b85"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 522,
+      "destination": "../experiments/reports/source_expansion/kg_repairs.tsv",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/source_expansion/kg_repairs.tsv"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 522,
+      "destination": "../experiments/reports/source_expansion/kg_repairs.json",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/source_expansion/kg_repairs.json"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 555,
+      "destination": "../experiments/reports/source_expansion/retrieval_integration.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/source_expansion/retrieval_integration.txt"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 555,
+      "destination": "../experiments/reports/source_expansion/retrieval_integration.tsv",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/source_expansion/retrieval_integration.tsv"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 567,
+      "destination": "../experiments/reports/integrated_development/comparison.txt",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/integrated_development/comparison.txt"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 567,
+      "destination": "../experiments/reports/integrated_development/comparison.tsv",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/integrated_development/comparison.tsv"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "line": 567,
+      "destination": "../experiments/reports/integrated_development/summary.json",
+      "status": "local_ok",
+      "target": "current_kg/experiments/reports/integrated_development/summary.json"
+    },
+    {
+      "file": "current_kg/docs/전체원문검토.md",
+      "line": 3,
+      "destination": "../grammar/작성검토.md",
+      "status": "local_ok",
+      "target": "current_kg/grammar/작성검토.md"
+    },
+    {
+      "file": "current_kg/docs/전체원문검토.md",
+      "line": 190,
+      "destination": "구축방법.md",
+      "status": "local_ok",
+      "target": "current_kg/docs/구축방법.md"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 19,
+      "destination": "authored/namu_honorifics_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_honorifics_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 39,
+      "destination": "authored/namu_honorifics_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_honorifics_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 59,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 79,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 99,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 113,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 133,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 158,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 178,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 198,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 218,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 243,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 263,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 283,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 303,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 317,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 337,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 357,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 377,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 397,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 417,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 437,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 451,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 471,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 491,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 511,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 531,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 551,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 571,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 591,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 611,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 631,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 651,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 671,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 691,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 711,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 736,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 756,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 776,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 796,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 816,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 836,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 856,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 876,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 896,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 916,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 936,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 956,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 976,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 990,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 1015,
+      "destination": "authored/namu_inflection_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_inflection_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 1029,
+      "destination": "authored/namu_interrogatives_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_interrogatives_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 1049,
+      "destination": "authored/namu_interrogatives_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_interrogatives_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 1069,
+      "destination": "authored/namu_interrogatives_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_interrogatives_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 1094,
+      "destination": "authored/namu_interrogatives_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_interrogatives_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 1119,
+      "destination": "authored/namu_interrogatives_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_interrogatives_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 1139,
+      "destination": "authored/namu_interrogatives_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_interrogatives_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 1159,
+      "destination": "authored/namu_interrogatives_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_interrogatives_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 1173,
+      "destination": "authored/namu_interrogatives_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_interrogatives_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 1198,
+      "destination": "authored/namu_interrogatives_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_interrogatives_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 1223,
+      "destination": "authored/namu_interrogatives_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_interrogatives_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 1248,
+      "destination": "authored/namu_interrogatives_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_interrogatives_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 1268,
+      "destination": "authored/namu_interrogatives_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_interrogatives_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 1293,
+      "destination": "authored/namu_interrogatives_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_interrogatives_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 1313,
+      "destination": "authored/namu_interrogatives_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_interrogatives_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 1338,
+      "destination": "authored/namu_interrogatives_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_interrogatives_01.json"
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "line": 1358,
+      "destination": "authored/namu_interrogatives_01.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authored/namu_interrogatives_01.json"
+    },
+    {
+      "file": "current_kg/grammar/작성검토.md",
+      "line": 21,
+      "destination": "authoring_audit.results.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/authoring_audit.results.json"
+    },
+    {
+      "file": "current_kg/grammar/작성검토.md",
+      "line": 437,
+      "destination": "query_review.results.json",
+      "status": "local_ok",
+      "target": "current_kg/grammar/query_review.results.json"
+    },
+    {
+      "file": "kg_v2/README.md",
+      "line": 5,
+      "destination": "../reports/20261021_paper50/report.html",
+      "status": "local_ok",
+      "target": "reports/20261021_paper50/report.html"
+    },
+    {
+      "file": "kg_v2/README.md",
+      "line": 5,
+      "destination": "AUTHORING.md",
+      "status": "local_ok",
+      "target": "kg_v2/AUTHORING.md"
+    },
+    {
+      "file": "kg_v2/README.md",
+      "line": 29,
+      "destination": "https://github.com/ciotd/odor-complaint-dialect-rag/blob/4d6998be399df717762231fa3ea1c23f17212b85/archive/research_notes_20261024/kg_v2/README.md",
+      "status": "git_history",
+      "target": "archive/research_notes_20261024/kg_v2/README.md",
+      "ref": "4d6998be399df717762231fa3ea1c23f17212b85"
+    },
+    {
+      "file": "reports/20261013_terminal_generation/README.md",
+      "line": 5,
+      "destination": "https://github.com/ciotd/odor-complaint-dialect-rag/tree/4d6998be399df717762231fa3ea1c23f17212b85/reports/20261013_terminal_generation",
+      "status": "git_history",
+      "target": "reports/20261013_terminal_generation",
+      "ref": "4d6998be399df717762231fa3ea1c23f17212b85"
+    },
+    {
+      "file": "reports/20261013_user_qualification20/README.md",
+      "line": 5,
+      "destination": "https://github.com/ciotd/odor-complaint-dialect-rag/tree/4d6998be399df717762231fa3ea1c23f17212b85/reports/20261013_user_qualification20",
+      "status": "git_history",
+      "target": "reports/20261013_user_qualification20",
+      "ref": "4d6998be399df717762231fa3ea1c23f17212b85"
+    },
+    {
+      "file": "sources/README.md",
+      "line": 15,
+      "destination": "methodology/선행연구.md",
+      "status": "local_ok",
+      "target": "sources/methodology/선행연구.md"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 13,
+      "destination": "https://aclanthology.org/2024.emnlp-main.548.pdf",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 14,
+      "destination": "https://arxiv.org/pdf/2409.19151v2",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 15,
+      "destination": "https://arxiv.org/pdf/2402.18025v2",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 16,
+      "destination": "https://arxiv.org/pdf/2511.06680v3",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 17,
+      "destination": "https://aclanthology.org/2025.coling-main.681.pdf",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 18,
+      "destination": "https://aclanthology.org/2025.findings-acl.177.pdf",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 19,
+      "destination": "https://arxiv.org/pdf/2306.04136v1",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 19,
+      "destination": "https://aclanthology.org/2023.matching-1.7/",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 20,
+      "destination": "https://arxiv.org/pdf/2305.18846v1",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 21,
+      "destination": "https://arxiv.org/pdf/2404.16130v2",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 22,
+      "destination": "https://doi.org/10.32431/kace.2022.25.1.005",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 23,
+      "destination": "https://doi.org/10.3390/app15179459",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 60,
+      "destination": ".",
+      "status": "local_ok",
+      "target": "sources/methodology"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 105,
+      "destination": "https://aclanthology.org/2025.findings-acl.177.pdf",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 125,
+      "destination": "https://arxiv.org/pdf/2306.04136v1",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 125,
+      "destination": "https://aclanthology.org/2023.matching-1.7/",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 144,
+      "destination": "https://arxiv.org/pdf/2305.18846v1",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 165,
+      "destination": "https://arxiv.org/pdf/2404.16130v2",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 179,
+      "destination": "https://doi.org/10.32431/kace.2022.25.1.005",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 200,
+      "destination": "https://doi.org/10.3390/app15179459",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 235,
+      "destination": "https://doi.org/10.3390/app15179459",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 235,
+      "destination": "https://arxiv.org/pdf/2511.06680v3",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 237,
+      "destination": "https://arxiv.org/pdf/2402.18025v2",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 237,
+      "destination": "https://arxiv.org/pdf/2409.19151v2",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 237,
+      "destination": "https://arxiv.org/pdf/2306.04136v1",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 237,
+      "destination": "https://arxiv.org/pdf/2305.18846v1",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 239,
+      "destination": "https://aclanthology.org/2024.emnlp-main.548.pdf",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 239,
+      "destination": "https://arxiv.org/pdf/2404.16130v2",
+      "status": "external_not_checked"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 268,
+      "destination": "../../연구미팅.md",
+      "status": "local_ok",
+      "target": "연구미팅.md"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 272,
+      "destination": "../../연구미팅.md",
+      "status": "local_ok",
+      "target": "연구미팅.md"
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "line": 302,
+      "destination": "../../current_kg/grammar/작성검토.md",
+      "status": "local_ok",
+      "target": "current_kg/grammar/작성검토.md"
+    },
+    {
+      "file": "연구미팅.md",
+      "line": 3,
+      "destination": "reports/20261021_paper50/report.html",
+      "status": "local_ok",
+      "target": "reports/20261021_paper50/report.html"
+    },
+    {
+      "file": "연구미팅.md",
+      "line": 5,
+      "destination": "https://github.com/ciotd/odor-complaint-dialect-rag/blob/4d6998be399df717762231fa3ea1c23f17212b85/archive/research_notes_20261024/연구미팅.md",
+      "status": "git_history",
+      "target": "archive/research_notes_20261024/연구미팅.md",
+      "ref": "4d6998be399df717762231fa3ea1c23f17212b85"
+    },
+    {
+      "file": "이관.md",
+      "line": 3,
+      "destination": "reports/20261021_paper50/report.html",
+      "status": "local_ok",
+      "target": "reports/20261021_paper50/report.html"
+    },
+    {
+      "file": "이관.md",
+      "line": 3,
+      "destination": "PROJECT_MAP.md",
+      "status": "local_ok",
+      "target": "PROJECT_MAP.md"
+    },
+    {
+      "file": "이관.md",
+      "line": 14,
+      "destination": "https://github.com/ciotd/odor-complaint-dialect-rag/blob/4d6998be399df717762231fa3ea1c23f17212b85/archive/research_notes_20261024/이관.md",
+      "status": "git_history",
+      "target": "archive/research_notes_20261024/이관.md",
+      "ref": "4d6998be399df717762231fa3ea1c23f17212b85"
+    }
+  ]
+}

@@ -378,7 +378,7 @@ def render_example_review(records):
         lines += [f"## {r['id']} — {k['label']}", "",
                   f"상태: {labels[review['decision']]} / 검수일: {review['reviewed_on']}", "",
                   f"근거: {source_titles[r['source_id']]} / PDF 쪽: {', '.join(map(str, review['source_pages']))}", "",
-                  f"작성 원본: [{r['authored_file']}]({ROOT / r['authored_file']})", "",
+                  f"작성 원본: [{r['authored_file']}]({(ROOT / r['authored_file']).relative_to(BASE).as_posix()})", "",
                   review["note"], ""]
         if not examples:
             lines += ["예문: `null`", ""]

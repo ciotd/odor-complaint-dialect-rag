@@ -1,0 +1,273 @@
+{
+  "date": "2026-10-24",
+  "base_commit": "bfaf3ca6f4ee2f4eec1fb95273296974bf62c935",
+  "markdown_files_checked": 25,
+  "modified_markdown_files": [
+    "current_kg/README.md",
+    "current_kg/docs/history/CLAIM_FORMAT_V3_DRAFT.md",
+    "current_kg/docs/history/GRAMMAR_SCOPE_AND_KG_DESIGN_2026-09-08.md",
+    "current_kg/docs/history/KG_FEASIBILITY_2026-09-09.md",
+    "current_kg/docs/history/README.md",
+    "current_kg/docs/history/RESET_2026-08-31.md",
+    "current_kg/docs/구축방법.md",
+    "current_kg/grammar/example_review.md",
+    "sources/README.md",
+    "sources/methodology/선행연구.md"
+  ],
+  "before_counts": {
+    "git_history": 8,
+    "local_ok": 309,
+    "missing_heading_anchor": 4,
+    "local_only_not_published": 12,
+    "missing_local_path": 74,
+    "external_not_checked": 41
+  },
+  "after_counts": {
+    "git_history": 15,
+    "local_ok": 389,
+    "external_not_checked": 41
+  },
+  "link_audit": "reports/markdown_link_audit.json",
+  "path_context_review": {
+    "moved_run_directories": "Three inline paths under experiments/results were corrected to existing current_kg/experiments/archive/runs locations.",
+    "historical_commands": "RESET and historical README retain commands from the old implementation, explicitly labelled as historical with a verified Git archive link.",
+    "removed_folder_mentions": "paper/ mentions in current README and PROJECT_MAP describe its deletion, not a usable path.",
+    "local_artifacts": "PDFs and Git-ignored execution records are marked local-only; source registry or public summaries are linked instead.",
+    "relative_module_paths": "Current guide references to grammar/authored and experiments/archive were expanded to repository-root paths."
+  },
+  "renderer_change": "current_kg/grammar/build.py now emits relative source links in example_review.md. No knowledge data or generation behavior changed.",
+  "digest_maintenance": "kg_v2/reports/legacy_baseline.json records before/after hashes and the previous commit for each documentation-only change.",
+  "edits": [
+    {
+      "file": "current_kg/README.md",
+      "old": "../연구미팅.md#2026-10-08-후속-사용자-결정--실험-정리와-1차-초안-우선",
+      "new": "https://github.com/ciotd/odor-complaint-dialect-rag/blob/4d6998be399df717762231fa3ea1c23f17212b85/archive/research_notes_20261024/%EC%97%B0%EA%B5%AC%EB%AF%B8%ED%8C%85.md#2026-10-08-%ED%9B%84%EC%86%8D-%EC%82%AC%EC%9A%A9%EC%9E%90-%EA%B2%B0%EC%A0%95--%EC%8B%A4%ED%97%98-%EC%A0%95%EB%A6%AC%EC%99%80-1%EC%B0%A8-%EC%B4%88%EC%95%88-%EC%9A%B0%EC%84%A0",
+      "occurrences": 1
+    },
+    {
+      "file": "current_kg/README.md",
+      "old": "../연구미팅.md#2026-10-08-사용자-승인-방향--이후-작업의-기준",
+      "new": "https://github.com/ciotd/odor-complaint-dialect-rag/blob/4d6998be399df717762231fa3ea1c23f17212b85/archive/research_notes_20261024/%EC%97%B0%EA%B5%AC%EB%AF%B8%ED%8C%85.md#2026-10-08-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%8A%B9%EC%9D%B8-%EB%B0%A9%ED%96%A5--%EC%9D%B4%ED%9B%84-%EC%9E%91%EC%97%85%EC%9D%98-%EA%B8%B0%EC%A4%80",
+      "occurrences": 1
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "old": "../../연구미팅.md#2026-10-08-후속-사용자-결정--실험-정리와-1차-초안-우선",
+      "new": "https://github.com/ciotd/odor-complaint-dialect-rag/blob/4d6998be399df717762231fa3ea1c23f17212b85/archive/research_notes_20261024/%EC%97%B0%EA%B5%AC%EB%AF%B8%ED%8C%85.md#2026-10-08-%ED%9B%84%EC%86%8D-%EC%82%AC%EC%9A%A9%EC%9E%90-%EA%B2%B0%EC%A0%95--%EC%8B%A4%ED%97%98-%EC%A0%95%EB%A6%AC%EC%99%80-1%EC%B0%A8-%EC%B4%88%EC%95%88-%EC%9A%B0%EC%84%A0",
+      "occurrences": 1
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "old": "../../연구미팅.md#2026-10-08-사용자-승인-방향--이후-작업의-기준",
+      "new": "https://github.com/ciotd/odor-complaint-dialect-rag/blob/4d6998be399df717762231fa3ea1c23f17212b85/archive/research_notes_20261024/%EC%97%B0%EA%B5%AC%EB%AF%B8%ED%8C%85.md#2026-10-08-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%8A%B9%EC%9D%B8-%EB%B0%A9%ED%96%A5--%EC%9D%B4%ED%9B%84-%EC%9E%91%EC%97%85%EC%9D%98-%EA%B8%B0%EC%A4%80",
+      "occurrences": 1
+    },
+    {
+      "file": "current_kg/docs/history/GRAMMAR_SCOPE_AND_KG_DESIGN_2026-09-08.md",
+      "old": "../../claims/source_registry.json",
+      "new": "../../grammar/source_registry.json",
+      "occurrences": 1
+    },
+    {
+      "file": "current_kg/docs/history/KG_FEASIBILITY_2026-09-09.md",
+      "old": "../../claims/source_registry.json",
+      "new": "../../grammar/source_registry.json",
+      "occurrences": 1
+    },
+    {
+      "file": "current_kg/docs/history/CLAIM_FORMAT_V3_DRAFT.md",
+      "old": "../../design_probe/README.md",
+      "new": "https://github.com/ciotd/odor-complaint-dialect-rag/blob/2faf35d8819091efda9879ed4de6e7256063d3d7/current_kg/design_probe/README.md",
+      "occurrences": 1
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "old": "(/home/ciot28/odor-complaint-dialect-rag/sources/methodology)",
+      "new": "(.)",
+      "occurrences": 1
+    },
+    {
+      "file": "current_kg/grammar/build.py",
+      "old": "({ROOT / r['authored_file']})",
+      "new": "({(ROOT / r['authored_file']).relative_to(BASE).as_posix()})",
+      "occurrences": 1
+    },
+    {
+      "file": "current_kg/grammar/example_review.md",
+      "old": "/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/",
+      "new": "",
+      "occurrences": 67
+    },
+    {
+      "file": "current_kg/docs/history/GRAMMAR_SCOPE_AND_KG_DESIGN_2026-09-08.md",
+      "old": "[경북방언 종결어미 연구](../../../sources/gyeongsang/academic/경북방언_종결어미_연구.pdf)",
+      "new": "경북방언 종결어미 연구 ([문헌 등록표](../../grammar/source_registry.json), JO2018; PDF 로컬 보관)",
+      "occurrences": 1
+    },
+    {
+      "file": "current_kg/docs/history/GRAMMAR_SCOPE_AND_KG_DESIGN_2026-09-08.md",
+      "old": "[함양 문법 변화 연구](../sources/gyeongsang/academic/표준어 간섭 및 방언에 대한 의식으로 인한 경남 함양 방언 문법 형태의 변화 연구.pdf>)",
+      "new": "함양 문법 변화 연구 ([문헌 등록표](../../grammar/source_registry.json), RYU2014; PDF 로컬 보관)",
+      "occurrences": 1
+    },
+    {
+      "file": "current_kg/docs/history/GRAMMAR_SCOPE_AND_KG_DESIGN_2026-09-08.md",
+      "old": "[동남 방언 PDF](../sources/gyeongsang/web/동남 방언.pdf>)",
+      "new": "동남 방언 PDF ([문헌 등록표](../../grammar/source_registry.json), NAMU20260901; PDF 로컬 보관)",
+      "occurrences": 1
+    },
+    {
+      "file": "current_kg/docs/history/GRAMMAR_SCOPE_AND_KG_DESIGN_2026-09-08.md",
+      "old": "[동남 방언_문법.pdf](../sources/gyeongsang/web/동남 방언_문법.pdf>)",
+      "new": "동남 방언_문법.pdf ([문헌 등록표](../../grammar/source_registry.json), NAMU_GRAMMAR_20260908; PDF 로컬 보관)",
+      "occurrences": 1
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "old": "[로컬 PDF](knowledge_injection/grammarllm2025.pdf)",
+      "new": "로컬 사본 `sources/methodology/knowledge_injection/grammarllm2025.pdf` (Git 미포함)",
+      "occurrences": 1
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "old": "[로컬 PDF](kg/kaping2023.pdf)",
+      "new": "로컬 사본 `sources/methodology/kg/kaping2023.pdf` (Git 미포함)",
+      "occurrences": 1
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "old": "[로컬 PDF](kg/surge2023.pdf)",
+      "new": "로컬 사본 `sources/methodology/kg/surge2023.pdf` (Git 미포함)",
+      "occurrences": 1
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "old": "[로컬 PDF](kg/graphrag2024.pdf)",
+      "new": "로컬 사본 `sources/methodology/kg/graphrag2024.pdf` (Git 미포함)",
+      "occurrences": 1
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "old": "[로컬 PDF](kg/ontologykg2022.pdf)",
+      "new": "로컬 사본 `sources/methodology/kg/ontologykg2022.pdf` (Git 미포함)",
+      "occurrences": 1
+    },
+    {
+      "file": "sources/methodology/선행연구.md",
+      "old": "[로컬 PDF](dialect_generation/pivotnmt2025.pdf)",
+      "new": "로컬 사본 `sources/methodology/dialect_generation/pivotnmt2025.pdf` (Git 미포함)",
+      "occurrences": 1
+    },
+    {
+      "file": "current_kg/README.md",
+      "old": "[요약·전체 원본 위치 JSON](experiments/reports/source_expansion/retrieval_integration.json)",
+      "new": "[공개 조회 요약](experiments/reports/source_expansion/retrieval_integration.txt); 상세 JSON은 로컬 보관",
+      "occurrences": 1
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "old": "(../experiments/reports/source_expansion/retrieval_integration.json)",
+      "new": "(../experiments/reports/source_expansion/retrieval_integration.txt)",
+      "occurrences": 1
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "old": "[development_30_20260923T101958571647Z](../../experiments/archive/runs/development_30_20260923T101958571647Z/manifest.json)",
+      "new": "development_30_20260923T101958571647Z: `current_kg/experiments/archive/runs/development_30_20260923T101958571647Z/manifest.json` (로컬 전용, Git 미포함)",
+      "occurrences": 1
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "old": "[outputs.jsonl](../../experiments/archive/runs/seeded_kg_20260923T104422227583Z/outputs.jsonl)",
+      "new": "outputs.jsonl: `current_kg/experiments/archive/runs/seeded_kg_20260923T104422227583Z/outputs.jsonl` (로컬 전용, Git 미포함)",
+      "occurrences": 1
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "old": "[시드 확인 기록](../../experiments/archive/runs/seed_probe_20260923T104009535787Z/probe.json)",
+      "new": "시드 확인 기록: `current_kg/experiments/archive/runs/seed_probe_20260923T104009535787Z/probe.json` (로컬 전용, Git 미포함)",
+      "occurrences": 1
+    },
+    {
+      "file": "current_kg/docs/history/RESET_2026-08-31.md",
+      "old": "current_kg/docs/CLAIM_FORMAT_V3_DRAFT.md",
+      "new": "current_kg/docs/history/CLAIM_FORMAT_V3_DRAFT.md",
+      "occurrences": 1
+    },
+    {
+      "file": "current_kg/README.md",
+      "old": "# 현재 문법 KG: 시작 안내",
+      "new": "# 이전 KG와 공통 모듈\n\n현재 역할은 [현재역할.txt](현재역할.txt), 최신 연구는 [통합 보고서](../reports/20261021_paper50/report.html)를 따른다. 아래 수치·진행 상황·실행 안내는 2026-10-08 당시 기록이다.",
+      "occurrences": 1
+    },
+    {
+      "file": "current_kg/README.md",
+      "old": "`archive/runs/`",
+      "new": "`experiments/archive/runs/`",
+      "occurrences": 1
+    },
+    {
+      "file": "current_kg/README.md",
+      "old": "`archive/tools/`",
+      "new": "`experiments/archive/tools/`",
+      "occurrences": 1
+    },
+    {
+      "file": "current_kg/docs/history/README.md",
+      "action": "Explain historical command and path context"
+    },
+    {
+      "file": "current_kg/docs/history/RESET_2026-08-31.md",
+      "action": "Explain historical command and path context"
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "old": "`grammar/source_inventory.py`",
+      "new": "`current_kg/grammar/source_inventory.py`",
+      "occurrences": 1
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "old": "`experiments/archive/runs/source_review_20261007/`",
+      "new": "`current_kg/experiments/archive/runs/source_review_20261007/`",
+      "occurrences": 1
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "old": "`grammar/source_evidence/review_status.json`",
+      "new": "`current_kg/grammar/source_evidence/review_status.json`",
+      "occurrences": 1
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "old": "`authored/ryu2014_01.json`",
+      "new": "`current_kg/grammar/authored/ryu2014_01.json`",
+      "occurrences": 1
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "old": "`authored/namu_overview_expansion_02.json`",
+      "new": "`current_kg/grammar/authored/namu_overview_expansion_02.json`",
+      "occurrences": 1
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "old": "`archive/runs/controlled_retrieval_20261008/`",
+      "new": "`current_kg/experiments/archive/runs/controlled_retrieval_20261008/`",
+      "occurrences": 1
+    },
+    {
+      "file": "current_kg/docs/구축방법.md",
+      "old": "`archive/runs/integrated_probes_20261008/`",
+      "new": "`current_kg/experiments/archive/runs/integrated_probes_20261008/`",
+      "occurrences": 1
+    }
+  ],
+  "validation": {
+    "markdown_link_errors_after": 0,
+    "grammar_tests_passed": 98,
+    "derived_example_document_reproduction": "passed",
+    "frozen_50_case_experiment_hashes": "passed",
+    "model_calls": 0
+  }
+}

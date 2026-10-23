@@ -16,7 +16,7 @@
 
 근거: 동남 방언/상대 높임법 / PDF 쪽: 8, 31, 32
 
-작성 원본: [current_kg/grammar/authored/namu_honorifics_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_honorifics_01.json)
+작성 원본: [current_kg/grammar/authored/namu_honorifics_01.json](authored/namu_honorifics_01.json)
 
 8쪽 및 31~32쪽의 부산 일부 지역·친근 장면 예외를 재확인했다. 하소체 전역의 예문을 부산 하이소체의 독립 증거로 가산하지 않는다.
 
@@ -36,7 +36,7 @@
 
 근거: 동남 방언/상대 높임법 / PDF 쪽: 8, 31, 32
 
-작성 원본: [current_kg/grammar/authored/namu_honorifics_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_honorifics_01.json)
+작성 원본: [current_kg/grammar/authored/namu_honorifics_01.json](authored/namu_honorifics_01.json)
 
 격식 장면의 권고와 그 대안형을 확인했다. 금지 관계를 어기는 는교형의 긍정 예문을 만들지 않고 대안 -ㅂ니꺼 관계만 예시한다.
 
@@ -56,7 +56,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 3, 4
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 3~4쪽의 ㅣ형 설명과 뎁히다 행·45쪽 뜻풀이를 대조했다. 뎁히라 한 예만 설명하고 짧은 어간의 예외를 해소한 것으로 간주하지 않는다.
 
@@ -76,7 +76,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 3, 4
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 3쪽 재인용 설명과 4쪽 ㅔ형 병기, 뎁히다의 뜻을 대조했다. 재인용 원전을 직접 검증한 것은 아니다.
 
@@ -96,7 +96,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 4
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 2음절 이하 제한이 어느 변이를 얼마나 제한하는지 불분명하고 이어도/치어도의 기저 용언 의미도 원문에서 특정하지 않는다. 뜻을 선택한 문장을 만들지 않고 null을 유지한다.
 
@@ -110,7 +110,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 4
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 주다의 1음절 어간과 원문 조라 행은 분명하여 그 사례만 예시한다. 복합어의 마지막 형태소 길이 판정은 미해결이다.
 
@@ -130,7 +130,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 4
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 남쪽에서 제시된 ㅗ/ㅜ형을 별도 예문으로 보여준다. 두 문장은 모든 화자가 자유롭게 교체해 쓴다는 증거가 아니다.
 
@@ -155,7 +155,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 5
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 일반 규칙의 마지막 형태소 길이 문제는 유지하고 표에 실제 제시된 뎁하라를 연결했다. '-아가 결합'으로 오독될 설명은 "'-아'가 결합"으로 명확히 한다.
 
@@ -175,7 +175,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 5
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 뱉다의 표 행을 일반 ㅐ형 설명과 연결했다. 남쪽 일부에서 사용하지 않는다는 원문의 제한도 유지한다.
 
@@ -195,7 +195,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 5
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 일반 ㅔ형 설명은 추정으로 유지하고 표에 제시된 겎어와 각주 뜻풀이만 예시한다.
 
@@ -215,7 +215,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 5, 46
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 각주 15의 자동사/사동사와 첫째·둘째 음절 강세 구별을 대조했다. 글자만으로 강세가 전달된다고 주장하지 않는다.
 
@@ -240,7 +240,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 4, 45
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 각주 3의 이유 의미와 묵다 표의 묵어가를 연결했다. 선후 관계 등 다른 연결어미 의미는 이 예로 확정하지 않는다.
 
@@ -260,7 +260,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 4, 45
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 각주 5의 조건·가정 뜻과 묵으모 행을 대조했다. 단순 어휘 교체가 아니라 앞절 조건을 설명한다.
 
@@ -280,7 +280,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 4, 45
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 각주 4의 선택적 ㄴ 생략을 묵으니에 적용한 설명 예다. 발음 가능성을 모든 화자의 의무 표기로 승격하지 않는다.
 
@@ -300,7 +300,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 4
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 4쪽 표의 삐/뻬 형태는 확인했지만 이 행의 삐다가 어떤 의미·용법인지 직접 뜻풀이가 없다. 뒤쪽 버리다 관련 용법과도 자동 동일시하지 않고 예문은 null로 둔다.
 
@@ -314,7 +314,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 4, 45
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 직이다=죽이다라는 각주와 과거형 직있다를 대조했다. 비유적 매우 좋다 용법을 가져오지 않고 문자적 의미만 설명한다.
 
@@ -334,7 +334,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 4, 45
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 각주가 속된 죽다로 풀이함을 확인했다. 명령형을 억지로 쓰지 않고 과거 사건을 설명한다.
 
@@ -354,7 +354,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 4, 45
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 뎁히다=데우다와 -아라 열의 뎁히라를 확인했다. ㅔ형 변이의 일반 분포는 별도 설명에 남긴다.
 
@@ -374,7 +374,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 4, 45
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 보이다라는 각주를 확인하고 산이 눈에 보이는 용법만 구성했다. 보여 주다의 사동적 용법까지 확대하지 않는다.
 
@@ -394,7 +394,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 4, 45
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 쉬다라는 뜻풀이와 시라를 확인했다. 시다의 맛·색 관련 동음이의 의미와 혼동하지 않는다.
 
@@ -414,7 +414,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 4
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 주다의 -아라 열에서 조라를 확인했다. 받는 사람을 명시해 달다의 나에게 달라와 구별한다.
 
@@ -434,7 +434,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 4
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 꾸다의 형태표는 있지만 꿈을 꾸다와 돈을 꾸다 등의 의미 가운데 이 행이 어떤 용법을 대상으로 하는지 원문이 특정하지 않는다. 새 어휘 의미의 적용 범위를 임의 확정하지 않고 null로 둔다.
 
@@ -448,7 +448,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 4
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 두다의 -아라 열 도라를 확인했다. 회전하다 또는 나에게 달라의 형태와 혼동하지 않게 장소와 목적어를 명시한다.
 
@@ -468,7 +468,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 5, 45
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 내리다라는 각주 뜻과 내라라를 확인했다. 짐을 아래로 옮기는 의미로 한정한다.
 
@@ -488,7 +488,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 5, 45
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 사우다=싸우다와 사았다를 확인했다. 싸오다의 지역적 역사 설명을 현재 행에 합치지 않는다.
 
@@ -508,7 +508,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 5, 45
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 부수다라는 뜻과 뿌사라를 대조했다. 활용형만 설명하는 최소 문장을 구성했다.
 
@@ -528,7 +528,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 5, 45, 46
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 각주 14~15에서 마르다의 사동과 강세 구별을 확인했다. 싸움을 말리다의 의미는 넣지 않는다.
 
@@ -548,7 +548,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 5, 46
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 데우다라는 뜻과 뎁하라를 대조했다. 경남에서 더 자주 쓰이는 것 같다는 원문의 추정은 빈도 사실로 확정하지 않는다.
 
@@ -568,7 +568,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 5, 46
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 각주 18의 섞다와 표의 섞아라를 확인했다. 표의 어간이 섞우다인 점을 보존한다.
 
@@ -588,7 +588,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 5
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 기존 예문을 다시 확인했다. 배우다의 -아라 열 배아라만 설명하며 표준어 대응과 명령 해석은 작성자의 설명이다.
 
@@ -608,7 +608,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 5
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 뱉다의 -아라 열 뱉아라를 확인했다. ㅐ형의 모든 지역 사용 가능성을 단정하지 않는다.
 
@@ -628,7 +628,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 5
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 뺏다의 -았다 열 뺏았다를 확인했다. 재산을 빼앗으라는 지시가 아니라 사건 서술로 구성했다.
 
@@ -648,7 +648,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 5
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 맺다의 -았다 열 맺았다를 확인했다. 계약을 맺는 의미는 예문을 이해시키기 위한 작성자 선택이다.
 
@@ -668,7 +668,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 5, 46
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 겎다=겪다라는 각주와 겎었다를 확인했다. 괴로움에 한정된 의미라는 조건은 새로 넣지 않는다.
 
@@ -688,7 +688,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 5, 46
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 젭다=힘에 겹다라는 뜻을 확인했다. 형용사의 표에 -아라 열이 있다는 이유만으로 명령형 문장을 만들지 않았다.
 
@@ -708,7 +708,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 6, 46
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 묵다 표의 묵어라/무우라와 먹다 뜻을 대조했다. 무우의 장음 설명은 별도 기록에 연결하되 실제 발음을 검증하지 않는다.
 
@@ -733,7 +733,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 6, 46
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 가줗다와 가주다의 병합 셀을 구별하며 가자라를 확인했다. 가지다의 명령이지 가다의 청유 가자가 아니다.
 
@@ -753,7 +753,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 6, 46
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 같은 표의 가주다 행에서 가아라를 확인했다. 주다 단독형과 다른 가지다 계열의 기록임을 명시한다.
 
@@ -773,7 +773,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 6
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 가지다(표준어)라는 원문 행 제목은 보존하되 가이라 등 행 안의 모든 형태가 표준어라는 의미로 읽지 않는다.
 
@@ -793,7 +793,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 6, 46
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 각주 24의 화자에게 달라는 뜻과 도가를 대조했다. 돌다의 회전 의미 및 두다의 -아가 결합형과 구별한다.
 
@@ -813,7 +813,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 7
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 오다 표의 온나를 대조했다. 원문의 다른 명령형과 지역·태도별 선택 확률은 만들지 않는다.
 
@@ -833,7 +833,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 6
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 묵다의 무우와 장음 설명을 확인했다. 장음을 보여 주는 표기를 유지하되 음성 생성 결과로 제시하지 않는다.
 
@@ -853,7 +853,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 6
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 가아의 장음 활용만 예시한다. 같은 기록의 -아가 기원·강세 설명까지 이 문장으로 입증하지 않는다.
 
@@ -873,7 +873,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 6
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 대구·경주의 도고와 안동의 다고를 구별했다. 이 예문은 대구·경주에 연결된 도고 관계만 설명한다.
 
@@ -893,7 +893,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 7
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 원문이 직접 든 합성어 나온나를 예시한다. 다른 변이형의 태도·세대 의미는 새로 만들지 않는다.
 
@@ -913,7 +913,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 7
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 옸다가 왔다의 변이라는 원문 관찰은 분명하므로 그 대응만 예시한다. 표본·시점·대표성은 미해결로 유지한다.
 
@@ -933,7 +933,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 7
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 보조 보다의 추정 맥락으로 자는가 배 한 사례만 구성했다. 일반 시각 동사와 구별하며 통사적 제약 전체는 미해결이다.
 
@@ -953,7 +953,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 7
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 들어+가다 등의 원문 분해 표현을 입력용 표제어와 혼동한 점을 발견했다. 들어가다·들어오다·일어나다로 정규화하고 원문 분해는 details에 보존한다. 내버리다의 다의성은 예시하지 않는다.
 
@@ -973,7 +973,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 7
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 뚜디/뚜울(기)/뚜까 맞다와 세 기저형의 정확한 대응 및 형태소 경계를 확정하지 못했다. 나열 순서로 대응을 추측하지 않고 null을 유지한다.
 
@@ -987,7 +987,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 7, 8, 46
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 8쪽의 깨끗타 및 시얺네를 직접 대조했다. ㅎ+ㅅ의 전산화 관련 원문 주장은 예문의 기술적 근거로 승인하지 않는다.
 
@@ -1012,7 +1012,7 @@
 
 근거: 동남 방언/문법 / PDF 쪽: 5
 
-작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_inflection_01.json)
+작성 원본: [current_kg/grammar/authored/namu_inflection_01.json](authored/namu_inflection_01.json)
 
 I011의 역사 해석을 제거하고 싸우다에 대응하는 일부 경남의 싸오다만 재작성했다. 어미별 활용이 미확보여서 문장 예문과 생성 사용은 보류한다.
 
@@ -1026,7 +1026,7 @@ I011의 역사 해석을 제거하고 싸우다에 대응하는 일부 경남의
 
 근거: 동남 방언/문법 / PDF 쪽: 8, 9, 11
 
-작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_interrogatives_01.json)
+작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](authored/namu_interrogatives_01.json)
 
 해라체·용언·판정 의문 조건을 대조했다. 가는지 여부를 묻는 용법만 예시하며 지역별 배타성을 주장하지 않는다.
 
@@ -1046,7 +1046,7 @@ I011의 역사 해석을 제거하고 싸우다에 대응하는 일부 경남의
 
 근거: 동남 방언/문법 / PDF 쪽: 8, 9, 11
 
-작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_interrogatives_01.json)
+작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](authored/namu_interrogatives_01.json)
 
 설명 의문의 구체적 응답 요구를 확인했다. 장소를 물으며 판정 질문과 구별한다.
 
@@ -1066,7 +1066,7 @@ I011의 역사 해석을 제거하고 싸우다에 대응하는 일부 경남의
 
 근거: 동남 방언/문법 / PDF 쪽: 8, 9, 10, 11
 
-작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_interrogatives_01.json)
+작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](authored/namu_interrogatives_01.json)
 
 체언 받침 유무에 따른 두 관계를 각각 예시한다. 주격조사 가와 의문 종결 가를 구별한다.
 
@@ -1091,7 +1091,7 @@ I011의 역사 해석을 제거하고 싸우다에 대응하는 일부 경남의
 
 근거: 동남 방언/문법 / PDF 쪽: 8, 9, 10, 11
 
-작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_interrogatives_01.json)
+작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](authored/namu_interrogatives_01.json)
 
 받침 있는 일과 받침 없는 뭐의 설명 의문을 각각 예시한다.
 
@@ -1116,7 +1116,7 @@ I011의 역사 해석을 제거하고 싸우다에 대응하는 일부 경남의
 
 근거: 동남 방언/문법 / PDF 쪽: 8, 9, 10, 11
 
-작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_interrogatives_01.json)
+작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](authored/namu_interrogatives_01.json)
 
 아니다 계열의 판정형만 구성했다. 설명 의문이나 선어말어미 결합형까지 예문으로 검증한 것은 아니다.
 
@@ -1136,7 +1136,7 @@ I011의 역사 해석을 제거하고 싸우다에 대응하는 일부 경남의
 
 근거: 동남 방언/문법 / PDF 쪽: 8, 9, 11
 
-작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_interrogatives_01.json)
+작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](authored/namu_interrogatives_01.json)
 
 명시된 -었- 결합의 계사 판정 의문을 예시한다. -겠-/-더- 및 혼합형 전체를 승인하지 않는다.
 
@@ -1156,7 +1156,7 @@ I011의 역사 해석을 제거하고 싸우다에 대응하는 일부 경남의
 
 근거: 동남 방언/문법 / PDF 쪽: 8, 9, 11
 
-작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_interrogatives_01.json)
+작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](authored/namu_interrogatives_01.json)
 
 8쪽 표는 -으시-를 ㄴ 계열에 포함하지만 11쪽은 -시- 단독일 때 ㄱ 계열을 유지한다고 한다. 충돌을 해소하지 못했으므로 예문으로 어느 쪽도 확정하지 않는다.
 
@@ -1170,7 +1170,7 @@ I011의 역사 해석을 제거하고 싸우다에 대응하는 일부 경남의
 
 근거: 동남 방언/문법 / PDF 쪽: 9
 
-작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_interrogatives_01.json)
+작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](authored/namu_interrogatives_01.json)
 
 불명확성을 임의 해소하는 대신 동일 입력의 두 가능한 해석을 별도 예문으로 제시한다. 예문은 분석기의 자동 판정 결과가 아니다.
 
@@ -1195,7 +1195,7 @@ I011의 역사 해석을 제거하고 싸우다에 대응하는 일부 경남의
 
 근거: 동남 방언/문법 / PDF 쪽: 8, 9, 11, 12
 
-작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_interrogatives_01.json)
+작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](authored/namu_interrogatives_01.json)
 
 명시된 수사 의문의 내부 판정/설명 구별을 두 예문에 적용했다. 반어 해석은 작성한 맥락에 한정한다.
 
@@ -1220,7 +1220,7 @@ I011의 역사 해석을 제거하고 싸우다에 대응하는 일부 경남의
 
 근거: 동남 방언/문법 / PDF 쪽: 12
 
-작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_interrogatives_01.json)
+작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](authored/namu_interrogatives_01.json)
 
 -제/-지의 두 질문 기능을 예시한다. -지는 표준어와 표기가 같을 수 있으며 같은 표기가 곧 전환 실패는 아니다.
 
@@ -1245,7 +1245,7 @@ I011의 역사 해석을 제거하고 싸우다에 대응하는 일부 경남의
 
 근거: 동남 방언/문법 / PDF 쪽: 12, 13
 
-작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_interrogatives_01.json)
+작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](authored/namu_interrogatives_01.json)
 
 원문이 직접 든 자까 유형에 한정하여 판정형 예문을 구성했다. ㄹ 탈락의 일반 환경 및 청유·내포 용법은 미해결로 유지한다.
 
@@ -1265,7 +1265,7 @@ I011의 역사 해석을 제거하고 싸우다에 대응하는 일부 경남의
 
 근거: 동남 방언/문법 / PDF 쪽: 12, 13
 
-작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_interrogatives_01.json)
+작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](authored/namu_interrogatives_01.json)
 
 원문의 모음 말음 체언 대조를 다른 명사로 구성했다. -꼬의 자문 해석과 -고의 답 요구를 구별하며 모든 세대의 이해도를 단정하지 않는다.
 
@@ -1290,7 +1290,7 @@ I011의 역사 해석을 제거하고 싸우다에 대응하는 일부 경남의
 
 근거: 동남 방언/문법 / PDF 쪽: 13
 
-작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_interrogatives_01.json)
+작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](authored/namu_interrogatives_01.json)
 
 원문에 명시된 자는강의 혼잣말 용법만 예시한다. 하게체 종결·연결절·세대별 분포를 통합한 기존 관계는 여전히 세분화 대상이다.
 
@@ -1310,7 +1310,7 @@ I011의 역사 해석을 제거하고 싸우다에 대응하는 일부 경남의
 
 근거: 동남 방언/문법 / PDF 쪽: 14
 
-작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_interrogatives_01.json)
+작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](authored/namu_interrogatives_01.json)
 
 안동·청송의 체언 판정/설명 의문을 각각 구성했다. 억양 정보와 경남형을 혼합하지 않는다.
 
@@ -1335,7 +1335,7 @@ I011의 역사 해석을 제거하고 싸우다에 대응하는 일부 경남의
 
 근거: 동남 방언/문법 / PDF 쪽: 14
 
-작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_interrogatives_01.json)
+작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](authored/namu_interrogatives_01.json)
 
 서부의 -노 자리에 -나가 나타나는 경향 중 용언 질문만 구성했다. 체언의 결합형이나 빈도는 미확보로 남긴다.
 
@@ -1355,7 +1355,7 @@ I011의 역사 해석을 제거하고 싸우다에 대응하는 일부 경남의
 
 근거: 동남 방언/문법 / PDF 쪽: 14
 
-작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](/home/ciot28/odor-complaint-dialect-rag/current_kg/grammar/authored/namu_interrogatives_01.json)
+작성 원본: [current_kg/grammar/authored/namu_interrogatives_01.json](authored/namu_interrogatives_01.json)
 
 원문에 제시된 뭐 하네 유형의 설명 의문에 한정한다. 판정형 분포 및 억양·감정별 차이는 여전히 미해결이다.
 

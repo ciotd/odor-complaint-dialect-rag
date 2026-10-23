@@ -1,8 +1,10 @@
-# 현재 문법 KG: 시작 안내
+# 이전 KG와 공통 모듈
+
+현재 역할은 [현재역할.txt](현재역할.txt), 최신 연구는 [통합 보고서](../reports/20261021_paper50/report.html)를 따른다. 아래 수치·진행 상황·실행 안내는 2026-10-08 당시 기록이다.
 
 갱신: 2026-10-08. **자연스러운 방언 생성의 성공이나 KG의 우월성을 아직 입증하지 못했다.** 코드 검사를 통과한 것과 번역 품질은 별개다.
 
-**현재 우선순위:** 확인된 KG·조회 결함을 범위를 정해 실제 수정하고, 생성 전 조회로 확인한 다음 비교 생성과 1차 논문 초안으로 진행한다. Neo4j 추가 작업·확인은 뒤로 미룬다. “무한 보완을 중단”을 “필요한 수정도 생략”으로 해석하지 않는다. 기존 120개 출력은 별도 혼합 검색 경로의 개발 진단이며 기존 기능/조건 조회의 보완을 모두 통합한 결과가 아니다. [정정된 사용자 결정과 수정 범위](../연구미팅.md#2026-10-08-후속-사용자-결정--실험-정리와-1차-초안-우선)를 따른다.
+**현재 우선순위:** 확인된 KG·조회 결함을 범위를 정해 실제 수정하고, 생성 전 조회로 확인한 다음 비교 생성과 1차 논문 초안으로 진행한다. Neo4j 추가 작업·확인은 뒤로 미룬다. “무한 보완을 중단”을 “필요한 수정도 생략”으로 해석하지 않는다. 기존 120개 출력은 별도 혼합 검색 경로의 개발 진단이며 기존 기능/조건 조회의 보완을 모두 통합한 결과가 아니다. [정정된 사용자 결정과 수정 범위](https://github.com/ciotd/odor-complaint-dialect-rag/blob/4d6998be399df717762231fa3ea1c23f17212b85/archive/research_notes_20261024/%EC%97%B0%EA%B5%AC%EB%AF%B8%ED%8C%85.md#2026-10-08-%ED%9B%84%EC%86%8D-%EC%82%AC%EC%9A%A9%EC%9E%90-%EA%B2%B0%EC%A0%95--%EC%8B%A4%ED%97%98-%EC%A0%95%EB%A6%AC%EC%99%80-1%EC%B0%A8-%EC%B4%88%EC%95%88-%EC%9A%B0%EC%84%A0)를 따른다.
 
 **현재 단계(10월 8일 최신):** ① KG 보완 → ② 조회 통합 → ③ 생성 전 확인을 거쳐 **④ 고정된 30문장×4조건의 번역 120개를 생성·저장했다.** 재시도 0회이며 원문 응답을 수정하지 않았다. 일부 의문 어미와 높임 보존에 변화가 있지만 관형/인용 구성 오류가 남는다. C/D의 출력은 30건 모두 같아 추가 관계 확장의 이점을 입증하지 못했다. 현재 KG는 **334기록·6,214노드·15,978관계**다. 다음은 결과와 한계를 반영한 초안 정리이며 자동 보완 주기는 시작하지 않는다. Neo4j와 수정 전 120개 출력도 보존했다.
 
@@ -14,11 +16,11 @@
 |---|---|
 | **최신 진단 — 긴 대화 입력 8개×4조건** | [32개 원본 출력 TXT](experiments/reports/long_dialogue_development/comparison.txt) · [KG 전달 내용](experiments/reports/long_dialogue_development/retrieval.txt) · [원인 진단](experiments/reports/long_dialogue_development/diagnosis.txt) |
 | **통합 조회 적용 후 30문장×4조건** | [120개 원본 출력 TXT](experiments/reports/integrated_development/comparison.txt) · [비교표 TSV](experiments/reports/integrated_development/comparison.tsv) · [실행 요약](experiments/reports/integrated_development/summary.json) |
-| **이번 통합 조회 결과 — 번역 전 점검** | [문장별 설명 TXT](experiments/reports/source_expansion/retrieval_integration.txt) · [위치·후보·관계·제외 이유 TSV](experiments/reports/source_expansion/retrieval_integration.tsv) · [요약·전체 원본 위치 JSON](experiments/reports/source_expansion/retrieval_integration.json) |
+| **이번 통합 조회 결과 — 번역 전 점검** | [문장별 설명 TXT](experiments/reports/source_expansion/retrieval_integration.txt) · [위치·후보·관계·제외 이유 TSV](experiments/reports/source_expansion/retrieval_integration.tsv) · [공개 조회 요약](experiments/reports/source_expansion/retrieval_integration.txt); 상세 JSON은 로컬 보관 |
 | **이번 KG 실제 수정 내역** | [기록별 변경표 TSV](experiments/reports/source_expansion/kg_repairs.tsv) · [전후 내용·원문 근거·모델 제안 판정](experiments/reports/source_expansion/kg_repairs.json) |
 | **수정 전 10월 8일 혼합 검색 개발 진단: 30문장 × 4조건** | [120개 원본 출력 TXT](experiments/reports/controlled_development/comparison.txt) · [비교표 TSV](experiments/reports/controlled_development/comparison.tsv) · [조회 시작점·추가 경로](experiments/reports/controlled_development/retrieval.tsv) |
 | 이번 변경·비교 방법과 남은 문제 | [방법과 한계](docs/구축방법.md#10월-8일-후속-원문-예문-보완과-통제된-개발-비교) · [실행 요약](experiments/reports/controlled_development/summary.json) |
-| 합의한 연구 방향과 조회 방식의 근거 | [연구 방향](../연구미팅.md#2026-10-08-사용자-승인-방향--이후-작업의-기준) · [실제 조회 설계](docs/구축방법.md#2026-10-08-조회-설계와-비교-기준) |
+| 합의한 연구 방향과 조회 방식의 근거 | [연구 방향](https://github.com/ciotd/odor-complaint-dialect-rag/blob/4d6998be399df717762231fa3ea1c23f17212b85/archive/research_notes_20261024/%EC%97%B0%EA%B5%AC%EB%AF%B8%ED%8C%85.md#2026-10-08-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%8A%B9%EC%9D%B8-%EB%B0%A9%ED%96%A5--%EC%9D%B4%ED%9B%84-%EC%9E%91%EC%97%85%EC%9D%98-%EA%B8%B0%EC%A4%80) · [실제 조회 설계](docs/구축방법.md#2026-10-08-조회-설계와-비교-기준) |
 | 이후 확인할 Neo4j 자료 — 현재 작업 보류 | [접속·적재 설명](docs/구축방법.md#10월-8일-실제-진행-결과-문헌-복구와-neo4j-확인용-적재) · [실행할 Cypher](experiments/reports/neo4j/inspection.cypher) · [구조 그림](experiments/reports/neo4j/schema.svg) |
 | 문헌 1차 처리 결과와 다시 검토할 항목 | [1,064개 단위 검토표](experiments/reports/source_expansion/review_units.tsv) — 모델 제안이며 의미 승인 아님. 연결 재검토 61개, 화면 검토 표시 307개(중복 가능) |
 | 10월 7일 문헌·조회 확장 작업 기록 | [터미널 진행 기록](experiments/reports/source_expansion/progress.txt) · [작업 내용과 한계](docs/구축방법.md#2026-10-07-문헌-보존과-조회-입구-확장) |
@@ -64,7 +66,7 @@ current_kg/
     └── history/                초기 설계와 이전 상세 작업 안내
 ```
 
-`archive/runs/`는 상세 기록이므로 Git 제외 상태를 유지한다. 보고서와 원본 파일의 해시·실행 ID로 연결한다. 과거 JSON 안에 남은 옛 경로는 당시 기록이며 일괄 수정하지 않았다. 현재 위치는 파일 처리 장부를 따른다. AI-Hub 파생 입력 두 파일도 이동 후 Git 제외를 유지했다.
+`experiments/archive/runs/`는 상세 기록이므로 Git 제외 상태를 유지한다. 보고서와 원본 파일의 해시·실행 ID로 연결한다. 과거 JSON 안에 남은 옛 경로는 당시 기록이며 일괄 수정하지 않았다. 현재 위치는 파일 처리 장부를 따른다. AI-Hub 파생 입력 두 파일도 이동 후 Git 제외를 유지했다.
 
 ## 현재 실행은 무엇인가
 
@@ -90,7 +92,7 @@ current_kg/
 | 임베딩/문자/혼합 검색 개발 비교 | [embedding_retrieval.py](experiments/embedding_retrieval.py) · [고정 분석 4조건 실행](experiments/run_controlled_retrieval.py) · [보고서 재현](experiments/summarize_controlled_retrieval.py) |
 | 패키지 버전 | [분석 환경](experiments/requirements-analysis.txt) · [임베딩 환경](experiments/requirements-retrieval.txt) |
 
-`build_development_kg_packets.py` 등 과거 방식의 공유·검사 모듈은 참조가 있어 유지했다. 현재 자동 실행의 주 진입점은 아니다. 과거 진입 스크립트 4개는 `archive/tools/`로 이동했다. 과거 결과를 현재 코드로 덮어써 재생성하지 않는다.
+`build_development_kg_packets.py` 등 과거 방식의 공유·검사 모듈은 참조가 있어 유지했다. 현재 자동 실행의 주 진입점은 아니다. 과거 진입 스크립트 4개는 `experiments/archive/tools/`로 이동했다. 과거 결과를 현재 코드로 덮어써 재생성하지 않는다.
 
 현재 통합 실행은 Kiwi와 임베딩 모델이 함께 설치된 `.venv/retrieval/bin/python`을 사용한다. 기존 분석 환경 `.venv/analysis/bin/python`도 보존했다. 네트워크 없는 확인:
 

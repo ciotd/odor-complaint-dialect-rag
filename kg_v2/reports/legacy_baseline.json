@@ -2,7 +2,7 @@
   "protected_files": [
     {
       "path": "current_kg/README.md",
-      "sha256": "82566ff5f06cdaa27f78723745a21f97bdb237e2a1b59eed17b204585965f1ce"
+      "sha256": "ac846da05873acbaaa8e10d9e86b74b14e8b1404be12dc0aaff0361dc2822d06"
     },
     {
       "path": "current_kg/docs/전체원문검토.md",
@@ -10,7 +10,7 @@
     },
     {
       "path": "current_kg/docs/구축방법.md",
-      "sha256": "0c79b9ad0733dbecb00dcca29b81d18781f6da72467f30ca5ef5a9ee5cdb2623"
+      "sha256": "ce780ab5737b8cbbe2429e0c9012051481111ed0b04b2ee29b1046f924c04be9"
     },
     {
       "path": "current_kg/experiments/model_smoke.py",
@@ -138,7 +138,7 @@
     },
     {
       "path": "current_kg/grammar/build.py",
-      "sha256": "5ba79042253661d9e846cbb79f7bd862b832cb2dd6539d127bf4f2918ed89f83"
+      "sha256": "8c66f1c6bc534a6cf61cbc23e3bbaf561d00c7d2421e8db43bd01833d7b189b4"
     },
     {
       "path": "current_kg/grammar/manifest.json",
@@ -182,7 +182,7 @@
     },
     {
       "path": "current_kg/grammar/example_review.md",
-      "sha256": "abd33ac9ed4387c69806a96ed297b9951059b18f5f28ec2de1619d619b9c8e15"
+      "sha256": "350f17b4df69df92d3c4c2303c62dfb61208af467dabcca89089db821d20ae42"
     },
     {
       "path": "current_kg/grammar/source_notes.json",
@@ -650,15 +650,15 @@
     },
     {
       "path": "current_kg/docs/history/GRAMMAR_SCOPE_AND_KG_DESIGN_2026-09-08.md",
-      "sha256": "edeb6cf942f63d56bb8a2070c3c75f10107cc8200a1c38cd12474307d1ba2760"
+      "sha256": "f27ce6929fab11fa6670abc965d749a66fb10bcaca6a2c9dd21da4ec6258f986"
     },
     {
       "path": "current_kg/docs/history/README.md",
-      "sha256": "ca8ef60dcb61bb9f89397bb5528aeeb66a44a02afa788a40795b3581f8db2773"
+      "sha256": "f9c540d6f07cb5d8ed7e55f1401ae82ceeaebc666495d742d14a30ef282f61d0"
     },
     {
       "path": "current_kg/docs/history/RESET_2026-08-31.md",
-      "sha256": "1953bd5ea0cb9ac217c3e7b579e0e187e9dba6cf970e7f18e1c37cc9102bf395"
+      "sha256": "36a9659da11abf6f70e7b16b7a30690896fac897097befe1b6914b63d172b862"
     },
     {
       "path": "current_kg/docs/history/SOURCE_REVIEW_2026-09-07.md",
@@ -666,7 +666,7 @@
     },
     {
       "path": "current_kg/docs/history/CLAIM_FORMAT_V3_DRAFT.md",
-      "sha256": "b8ac7fe3c51e079b15982c0e590e9312eedc3113daa70b08dbe3be4a310cb60a"
+      "sha256": "9ebf159850ec848ba46c9a6a742770f1f26c9bc28bf7eb7e3f38572ecdfd85e4"
     },
     {
       "path": "current_kg/docs/history/DESIGN_CHECK_01_NIDEO_IDEO.md",
@@ -674,8 +674,73 @@
     },
     {
       "path": "current_kg/docs/history/KG_FEASIBILITY_2026-09-09.md",
-      "sha256": "4949ab6baafbdaa455e0edd829b6aea22be8aab5253d9927cd66652098579404"
+      "sha256": "03e30387239b7d5ab473be85802469e7ee5041367bd2d829526068d937c7283c"
     }
   ],
-  "policy": "read only; runtime caches and historical run archive excluded from hashing"
+  "policy": "Research data and runtime behavior remain protected; audited document-link maintenance updates are recorded in document_maintenance. Runtime caches and historical run archive remain excluded from hashing.",
+  "document_maintenance": [
+    {
+      "date": "2026-10-24",
+      "previous_commit": "bfaf3ca6f4ee2f4eec1fb95273296974bf62c935",
+      "previous_manifest_sha256": "c910fc2de42933d86bff71bb630457abeefb504844987762516612349b98648b",
+      "previous_policy": "read only; runtime caches and historical run archive excluded from hashing",
+      "reason": "Repair repository-relative and historical Markdown links; mark untracked local files explicitly. The only Python edit changes a generated Markdown link target. KG records, graph construction and generation behavior are unchanged.",
+      "files": [
+        {
+          "path": "current_kg/README.md",
+          "previous_sha256": "82566ff5f06cdaa27f78723745a21f97bdb237e2a1b59eed17b204585965f1ce",
+          "sha256": "ac846da05873acbaaa8e10d9e86b74b14e8b1404be12dc0aaff0361dc2822d06",
+          "kind": "documentation_links"
+        },
+        {
+          "path": "current_kg/docs/구축방법.md",
+          "previous_sha256": "0c79b9ad0733dbecb00dcca29b81d18781f6da72467f30ca5ef5a9ee5cdb2623",
+          "sha256": "ce780ab5737b8cbbe2429e0c9012051481111ed0b04b2ee29b1046f924c04be9",
+          "kind": "documentation_links"
+        },
+        {
+          "path": "current_kg/grammar/build.py",
+          "previous_sha256": "5ba79042253661d9e846cbb79f7bd862b832cb2dd6539d127bf4f2918ed89f83",
+          "sha256": "8c66f1c6bc534a6cf61cbc23e3bbaf561d00c7d2421e8db43bd01833d7b189b4",
+          "kind": "markdown_link_renderer_only"
+        },
+        {
+          "path": "current_kg/grammar/example_review.md",
+          "previous_sha256": "abd33ac9ed4387c69806a96ed297b9951059b18f5f28ec2de1619d619b9c8e15",
+          "sha256": "350f17b4df69df92d3c4c2303c62dfb61208af467dabcca89089db821d20ae42",
+          "kind": "documentation_links"
+        },
+        {
+          "path": "current_kg/docs/history/GRAMMAR_SCOPE_AND_KG_DESIGN_2026-09-08.md",
+          "previous_sha256": "edeb6cf942f63d56bb8a2070c3c75f10107cc8200a1c38cd12474307d1ba2760",
+          "sha256": "f27ce6929fab11fa6670abc965d749a66fb10bcaca6a2c9dd21da4ec6258f986",
+          "kind": "documentation_links"
+        },
+        {
+          "path": "current_kg/docs/history/README.md",
+          "previous_sha256": "ca8ef60dcb61bb9f89397bb5528aeeb66a44a02afa788a40795b3581f8db2773",
+          "sha256": "f9c540d6f07cb5d8ed7e55f1401ae82ceeaebc666495d742d14a30ef282f61d0",
+          "kind": "documentation_links"
+        },
+        {
+          "path": "current_kg/docs/history/RESET_2026-08-31.md",
+          "previous_sha256": "1953bd5ea0cb9ac217c3e7b579e0e187e9dba6cf970e7f18e1c37cc9102bf395",
+          "sha256": "36a9659da11abf6f70e7b16b7a30690896fac897097befe1b6914b63d172b862",
+          "kind": "documentation_links"
+        },
+        {
+          "path": "current_kg/docs/history/CLAIM_FORMAT_V3_DRAFT.md",
+          "previous_sha256": "b8ac7fe3c51e079b15982c0e590e9312eedc3113daa70b08dbe3be4a310cb60a",
+          "sha256": "9ebf159850ec848ba46c9a6a742770f1f26c9bc28bf7eb7e3f38572ecdfd85e4",
+          "kind": "documentation_links"
+        },
+        {
+          "path": "current_kg/docs/history/KG_FEASIBILITY_2026-09-09.md",
+          "previous_sha256": "4949ab6baafbdaa455e0edd829b6aea22be8aab5253d9927cd66652098579404",
+          "sha256": "03e30387239b7d5ab473be85802469e7ee5041367bd2d829526068d937c7283c",
+          "kind": "documentation_links"
+        }
+      ]
+    }
+  ]
 }

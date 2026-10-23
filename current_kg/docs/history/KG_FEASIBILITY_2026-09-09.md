@@ -32,7 +32,7 @@ KG는 ‘어미 목록에 지역 태그를 붙인 표’에 머물러서는 안 
 
 여기서 ‘보유 자료 전부’는 현재 연구 입력으로 합의한 문법 자료 여섯 종이다. 기존 39규칙·오류가 확인된 구형 문법 JSON은 다시 근거로 포함하지 않았다. AI-Hub는 독립 평가 후보, 네이버 기반 어휘 JSON은 별도 보류 후보이며 이번에 전수 감사하지 않았다. 원본·318개 Claim은 변경하지 않았다.
 
-등록 상세와 파일 위치·해시는 [source_registry.json](../../claims/source_registry.json)에 있다. 새 자료 ID는 `NAMU_HONORIFICS_20260908`, `NAMU_PHONOLOGY_20260908`이며 날짜는 수집일을 뜻한다. 등록·검토일은 2026-09-09다.
+등록 상세와 파일 위치·해시는 [source_registry.json](../../grammar/source_registry.json)에 있다. 새 자료 ID는 `NAMU_HONORIFICS_20260908`, `NAMU_PHONOLOGY_20260908`이며 날짜는 수집일을 뜻한다. 등록·검토일은 2026-09-09다.
 
 ## 3. 전체 자료를 합쳤을 때의 문법 범위
 

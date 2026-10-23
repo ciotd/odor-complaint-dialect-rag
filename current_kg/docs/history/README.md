@@ -1,6 +1,8 @@
 # 이전 설계·검토 문서
 
-이 폴더는 이력 보관용이다. 현재 작업은 [현재 안내](../../README.md)와 [새 Claim 포맷](CLAIM_FORMAT_V3_DRAFT.md)을 따른다.
+> 과거 작업 기록입니다. 본문의 명령과 코드 경로는 작성 당시 배치를 기준으로 합니다. 현재 파일 배치는 [프로젝트 안내](../../../PROJECT_MAP.md)를 따르며, 폐기한 구현은 [이전 커밋의 보관 자료](https://github.com/ciotd/odor-complaint-dialect-rag/tree/4d6998be399df717762231fa3ea1c23f17212b85/archive)에서 확인할 수 있습니다.
+
+이 폴더는 이력 보관용이다. 현재 작업은 [최신 안내](../../../README.md)를 따른다. [이전 KG 안내](../../README.md)와 [당시 Claim 포맷 초안](CLAIM_FORMAT_V3_DRAFT.md)은 과거 설계 기록이다.
 
 2026-09-10 아래 세 문서를 `current_kg/docs/`에서 이동했다. 파일은 삭제하지 않았으며 다시 옮길 수 있다.
 
@@ -53,7 +55,7 @@ Kiwi는 [공식 문서](https://github.com/bab2min/kiwipiepy)의 형태소·품�
 - HOLD005: 전후 모두 ‘도서관에 들러자.’로 생성되어 활용·자연스러움 문제가 남았다.
 - DEV024 ‘도착할 때까지’를 조건 연결절로 분류한 분석 등은 여전히 의심스럽다. 후보가 도달 가능해진 것과 적합한 용법을 찾은 것을 구분해야 한다.
 
-실제 실행 폴더는 `experiments/results/guarded_kg_20261002T063104410680Z/`다. `snapshot/`에 당시 코드·KG·분석 원본, `guard_audit.json`에 50개 단위의 원문 형태 근거, `prior_code_retrieval.json`/`retrieval_only_retrieval.json`/`full_repair_retrieval.json`에 단계별 조회 전체, `translations/`에 원본 요청·응답이 있다. 실험 종료 후 일반 자동 실행 경로에도 동일 guard를 연결했으므로 현재 코드와 당시 snapshot을 구분한다. snapshot 해시와 모든 출력이 응답 원문 그대로임을 검증했다.
+실제 실행 폴더는 `current_kg/experiments/archive/runs/guarded_kg_20261002T063104410680Z/`다. `snapshot/`에 당시 코드·KG·분석 원본, `guard_audit.json`에 50개 단위의 원문 형태 근거, `prior_code_retrieval.json`/`retrieval_only_retrieval.json`/`full_repair_retrieval.json`에 단계별 조회 전체, `translations/`에 원본 요청·응답이 있다. 실험 종료 후 일반 자동 실행 경로에도 동일 guard를 연결했으므로 현재 코드와 당시 snapshot을 구분한다. snapshot 해시와 모든 출력이 응답 원문 그대로임을 검증했다.
 
 결론은 **특정 분석 오류와 연결절의 과잉 차단은 보완했고 그 효과를 확인했지만, 전체 번역 품질 개선 완료는 아니다.** 새 8건도 연구자가 만든 소규모 적용 확인 자료이며 독립 코퍼스/방언 화자 평가를 대신하지 않는다. 다음 병목은 절 관계·의도의 적합성, 후보의 실제 활용형 구성, 전달 지식의 생성 단계 활용이다.
 
@@ -75,7 +77,7 @@ Kiwi는 [공식 문서](https://github.com/bab2min/kiwipiepy)의 형태소·품�
 | 통신 실패 | 최초 번역 87/90 성공. DEV016 자동, DEV018 수동, DEV019 KG 없음은 시간 초과/연결 오류. [통신 재시도 코드](../../experiments/archive/tools/retry_failed_development_translations.py)로 3건만 동일 요청을 재시도하여 모두 저장했다. 최초 비교 JSON과 실패 기록도 남아 있다. |
 | 검증 | 신규 경계 검사 7개를 포함해 실험 코드 검사 36개 통과. 실제 90개 요청의 번역 모델·시스템 프롬프트·생성 설정·시드가 동일함을 확인했다. 분석 형식 통과는 의미 분석 정답률이 아니다. |
 
-작업 폴더는 `experiments/results/automatic_kg_20261002T042957751249Z/`다. 이 폴더의 `analysis_requests/`는 분석 요청·응답 전체, `automatic_analysis.json`은 규격화한 분석, `automatic_retrieval.json`/`manual_retrieval.json`은 모든 후보·조건·제외·전달 경로, `analysis_comparison.json`은 수동/자동 차이, `pre_generation_review.json`은 생성 전 검토, `translations/`와 `translation_transport_retries/`는 생성 원본이다. `snapshot/`에는 이번에 사용한 코드·규격·그래프·설정·입력을 보존했다. 로컬 `results/`는 Git 제외지만 위 연결한 비교·검토·TXT/TSV는 Git 제외 대상이 아니다. 과거 9월 실험은 덮어쓰지 않았다.
+작업 폴더는 `current_kg/experiments/archive/runs/automatic_kg_20261002T042957751249Z/`다. 이 폴더의 `analysis_requests/`는 분석 요청·응답 전체, `automatic_analysis.json`은 규격화한 분석, `automatic_retrieval.json`/`manual_retrieval.json`은 모든 후보·조건·제외·전달 경로, `analysis_comparison.json`은 수동/자동 차이, `pre_generation_review.json`은 생성 전 검토, `translations/`와 `translation_transport_retries/`는 생성 원본이다. `snapshot/`에는 이번에 사용한 코드·규격·그래프·설정·입력을 보존했다. 로컬 `results/`는 Git 제외지만 위 연결한 비교·검토·TXT/TSV는 Git 제외 대상이 아니다. 과거 9월 실험은 덮어쓰지 않았다.
 
 예비 검토 결과는 다음과 같다. 수치는 개발 자료에 대한 Codex 검토이며 독립 평가자의 채점이나 방언 화자 자연스러움 점수가 아니다.
 
@@ -234,7 +236,7 @@ git diff --check
 - 설정: temperature 0.3, top_p 0.8, top_k 20, max_tokens 512, enable_thinking false. 과거 연결 점검 설정을 출발점으로 사용했으며 최적값 주장은 아님.
 - 실행: 30/30 응답 저장, 모두 finish_reason stop. 생성 완료와 품질 검증은 구별한다.
 - [실행 설정](../../experiments/inputs/development_30.config.json), [실행 코드](../../experiments/archive/tools/run_development_30.py).
-- 로컬 실행 기록: [development_30_20260923T101958571647Z](../../experiments/archive/runs/development_30_20260923T101958571647Z/manifest.json). 같은 폴더의 inputs.json과 outputs.jsonl에 입력 스냅샷·정확한 요청·응답·사용량을 보존한다. results/는 현재 Git 제외이므로 아래 표에도 입력·출력을 기록한다. 인증정보는 결과에 저장하지 않는다.
+- 로컬 실행 기록: development_30_20260923T101958571647Z: `current_kg/experiments/archive/runs/development_30_20260923T101958571647Z/manifest.json` (로컬 전용, Git 미포함). 같은 폴더의 inputs.json과 outputs.jsonl에 입력 스냅샷·정확한 요청·응답·사용량을 보존한다. results/는 현재 Git 제외이므로 아래 표에도 입력·출력을 기록한다. 인증정보는 결과에 저장하지 않는다.
 
 초기 관찰(작성자 검토, 정식 평가 아님): DEV003은 존댓말이 반말로 바뀌었다. DEV006은 ‘쉬고 계세요’가 ‘쉬고 계시대’로 바뀌어 전달 방식 변화가 의심된다. DEV027도 인용 전달의 층위가 달라졌는지 검토 대상이다. 자연스러움·지역 적절성의 독립 판정은 아직 없다.
 
@@ -294,7 +296,7 @@ git diff --check
 
 [30쌍 비교 및 설정](../../experiments/archive/legacy_development/development_30.seeded_comparison.json), [수동 선택·분석](../../experiments/archive/legacy_development/development_30.kg_plan.json), [조회 근거·보류 로그](../../experiments/archive/legacy_development/development_30.kg_packets.json), [조회 코드](../../experiments/build_development_kg_packets.py), [실행 코드](../../experiments/run_seeded_kg.py), [구현 검사](../../experiments/test_seeded_kg.py).
 
-원본 요청·응답·사용량은 로컬 [outputs.jsonl](../../experiments/archive/runs/seeded_kg_20260923T104422227583Z/outputs.jsonl), 입력·KG 스냅샷과 상태는 같은 폴더에 저장했다. [시드 확인 기록](../../experiments/archive/runs/seed_probe_20260923T104009535787Z/probe.json)도 별도 보존한다. results/는 Git 제외이며 비교 JSON에는 정확한 출력과 조건을 별도로 보존했다. 최초 비교 실행은 시드 확인 파일의 상대경로 처리 ValueError로 생성 0건에서 종료했고, 경로 수정 후 새 실행 폴더에서 수행했다. 실패 폴더 seeded_kg_20260923T104354787579Z를 보존했다.
+원본 요청·응답·사용량은 로컬 outputs.jsonl: `current_kg/experiments/archive/runs/seeded_kg_20260923T104422227583Z/outputs.jsonl` (로컬 전용, Git 미포함), 입력·KG 스냅샷과 상태는 같은 폴더에 저장했다. 시드 확인 기록: `current_kg/experiments/archive/runs/seed_probe_20260923T104009535787Z/probe.json` (로컬 전용, Git 미포함)도 별도 보존한다. results/는 Git 제외이며 비교 JSON에는 정확한 출력과 조건을 별도로 보존했다. 최초 비교 실행은 시드 확인 파일의 상대경로 처리 ValueError로 생성 0건에서 종료했고, 경로 수정 후 새 실행 폴더에서 수행했다. 실패 폴더 seeded_kg_20260923T104354787579Z를 보존했다.
 
 ### 관찰과 한계
 
@@ -487,7 +489,7 @@ DEV012의 Q002 -노는 목표 speech_level 미정으로 unknown이며, HAERACHE 
 | 실제 요청·모델 원본 응답·출력·사후 검토 | [development_30.manual_kg_results.json](../../experiments/archive/legacy_development/development_30.manual_kg_results.json) |
 | 실행 코드 | [run_manual_kg_development.py](../../experiments/run_manual_kg_development.py) |
 
-실제 전달된 참고 진술은 중복 포함 73건, 고유 진술 23개다. 같은 지식이 여러 문장에 반복될 수 있다. 실행별 그래프·코드·분석·조회·출력 스냅샷은 `current_kg/experiments/results/manual_kg_20260928T051155524659Z`에 있다(로컬 results 폴더는 Git 제외). 위 세 JSON은 Git 제외 대상이 아니다. 검사는 문법·조회 79개와 실험 코드 20개를 통과했다.
+실제 전달된 참고 진술은 중복 포함 73건, 고유 진술 23개다. 같은 지식이 여러 문장에 반복될 수 있다. 실행별 그래프·코드·분석·조회·출력 스냅샷은 `current_kg/experiments/archive/runs/manual_kg_20260928T051155524659Z`에 있다(로컬 results 폴더는 Git 제외). 위 세 JSON은 Git 제외 대상이 아니다. 검사는 문법·조회 79개와 실험 코드 20개를 통과했다.
 
 조회된 -노·-이소·-먼 계열에 대응하는 출력이 관찰됐지만 내부적으로 어떤 지식을 사용했는지를 증명하지는 않는다. 9개 출력은 입력과 완전히 같다. DEV010·026·028에는 명확한 청자 높임 손실이 있으며 DEV026의 늦을까 봐→늦을라꼬는 우려를 목적/의도처럼 바꾸는 오류다. 다음 개선은 높임·양태 보존 점검, 매개모음/활용 조건, 선택 질문·의문형 부탁의 조회 공백이다. 결과를 보고 추가 수정·재생성한 문장은 없다.
 
