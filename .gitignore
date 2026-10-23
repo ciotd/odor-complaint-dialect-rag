@@ -71,3 +71,6 @@ current_kg/grammar/source_evidence/review*.jsonl
 current_kg/grammar/source_evidence/review.lock
 current_kg/experiments/reports/source_expansion/retrieval_*.json
 current_kg/experiments/reports/source_expansion/binding_recheck.json
+
+# Retired implementations are available in Git history, not in the active tree.
+/archive/

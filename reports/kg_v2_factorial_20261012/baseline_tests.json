@@ -1,6 +1,0 @@
-{
-  "command": ".venv/retrieval/bin/python -m unittest discover -s kg_v2 -p 'test_*.py' -v",
-  "tests_run": 31,
-  "status": "passed",
-  "note": "Existing production tests; experimental paired-content invariants are separately recorded in validation.json."
-}

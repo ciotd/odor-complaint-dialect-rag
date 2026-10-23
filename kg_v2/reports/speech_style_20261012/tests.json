@@ -1,6 +1,0 @@
-{
-  "status": "passed",
-  "tests": 23,
-  "seconds": 7.349,
-  "command": ".venv/retrieval/bin/python -m unittest discover -s kg_v2 -p 'test_*.py' -v"
-}

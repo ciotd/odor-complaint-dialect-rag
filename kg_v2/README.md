@@ -26,4 +26,4 @@
 .venv/retrieval/bin/python -m unittest discover -s kg_v2 -p 'test_*.py' -v
 ```
 
-원문 PDF는 로컬 등록 경로에 별도로 필요하다. PDF 전체 텍스트 추출·KG 재빌드는 데이터 수정 작업이므로 단순 보고서 열람에는 필요하지 않다. 재빌드 절차와 과거 검토 내용은 [정리 전 KG 안내](../archive/research_notes_20261024/kg_v2/README.md)에 보관했다.
+원문 PDF는 로컬 등록 경로에 별도로 필요하다. PDF 전체 텍스트 추출·KG 재빌드는 데이터 수정 작업이므로 단순 보고서 열람에는 필요하지 않다. 재빌드 절차와 과거 검토 내용은 [정리 전 KG 안내](https://github.com/ciotd/odor-complaint-dialect-rag/blob/4d6998be399df717762231fa3ea1c23f17212b85/archive/research_notes_20261024/kg_v2/README.md)에 보관했다.

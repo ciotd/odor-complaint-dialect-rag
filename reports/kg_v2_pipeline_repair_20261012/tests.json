@@ -1,8 +1,0 @@
-{
-  "command": ".venv/retrieval/bin/python -m unittest discover -s kg_v2 -p test_*.py",
-  "result": "OK",
-  "tests_run": 45,
-  "observed_elapsed_seconds": 8.029,
-  "build": "--require-full passed; 474 pages and 3764 facts",
-  "scope": "local regression and source binding; not translation quality"
-}

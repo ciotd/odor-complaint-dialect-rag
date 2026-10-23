@@ -1,5 +1,0 @@
-# 코어(대화 생성기): 외부 의존성 없음 — Python 3.9+ 표준 라이브러리만 사용
-# (urllib / json / csv / re / random / concurrent.futures)
-
-# RAG 확장(C_kb 검색기): 형태소 BM25 검색용
-kiwipiepy>=0.20

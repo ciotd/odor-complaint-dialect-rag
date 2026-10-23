@@ -1,7 +1,0 @@
-digraph G {
-graph [rankdir=LR,bgcolor="white",fontname="Noto Sans CJK KR",nodesep=.22,ranksep=.3];
-node [shape=box,style="rounded,filled",fillcolor="#eef5fc",fontname="Noto Sans CJK KR",fontsize=12];
-edge [fontname="Noto Sans CJK KR",fontsize=10];
-subgraph cluster_a {label="미리 준비하는 지식";color="#a7bdd1";p[label="문헌 7종\n474쪽"];a[label="Astra 작업\n근거·조건 추출"];k[label="KG 구축\n지식 항목 + 연결"];p->a->k;}
-subgraph cluster_b {label="표준어를 번역할 때";color="#a7bdd1";s[label="표준어 원문"];q[label="Qwen\n의미·말투 분석"];w[label="Kiwi\n단어·어미 분석"];r[label="코드로 합치기\n조회·조건 확인"];b[label="관련 지식 묶음\n구간별 변환 계획"];g[label="Qwen\n번역 생성"];c[label="검사 코드\n필요시 1회 수정"];s->q;s->w;q->r;w->r;r->b->g->c;} k->r;
-}

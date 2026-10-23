@@ -1,7 +1,0 @@
-{
-  "first_run": "../translation_20261012_first/comparison.txt",
-  "final_revision": "Function routing is now restricted to metalinguistic patterns. Explicit standard-source patterns require actual bound ending match.",
-  "reason": "First output/packet review exposed purpose-specific source patterns admitted via overly broad function labels.",
-  "baseline_policy": "Reuse only successful no_kg and legacy_graph results whose complete request object is identical; generate both v2 conditions again.",
-  "evaluation_boundary": "Final system was revised after viewing the development outputs; this is iterative debugging, not a held-out comparison."
-}

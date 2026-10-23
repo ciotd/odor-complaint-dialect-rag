@@ -1,0 +1,13 @@
+이 폴더는 이전 KG와 공통 코드가 함께 있는 호환 영역입니다.
+최신 K 조건의 실제 지식은 ../kg_v2/facts.jsonl 및 graph.json입니다.
+이 폴더의 README.md는 2026-10-08 당시 기록이며 현행 상태 안내가 아닙니다.
+
+현재도 필요한 연결:
+- kg_v2/run_translation.py → experiments/run_seeded_kg.py: 호출·응답 확인 등 공통 함수
+- kg_v2/run_translation.py → experiments/run_controlled_retrieval.py: 입력 분석 카드 구성
+- 문장 분석 → experiments/analysis_input.py, source_analysis_guard.py 및 grammar/analysis_contract.json
+- kg_v2/build.py → kg_v2/reports/legacy_baseline.json: 이전 169개 파일의 보존 확인
+- 최신 50건의 protocol.json: 당시 코드와 현재 코드·사본의 해시 비교
+
+따라서 폴더 전체 삭제는 문서 정리가 아니라 모듈 분리와 검증 방식 변경이 필요합니다.
+이번 정리에서는 실행 결과를 바꾸지 않기 위해 이 연결을 유지했습니다.

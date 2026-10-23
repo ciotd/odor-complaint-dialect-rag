@@ -1,6 +1,0 @@
-digraph G {
-graph [rankdir=TB,bgcolor="white",ranksep=.65,nodesep=.6];node [shape=box,style="rounded,filled",fontname="Noto Sans CJK KR",fontsize=14,fillcolor="#edf4fa"];edge [fontname="Noto Sans CJK KR",fontsize=11];
-a[label="A\n기존 조회\n기존 자료 형식"];b[label="B\n벡터 검색 추가\n기존 자료 형식"];c[label="C\nA와 같은 후보\n구간별 변환 계획",fillcolor="#e2f1e8"];d[label="D\nB와 같은 후보\n구간별 변환 계획",fillcolor="#e2f1e8"];
-{rank=same;a;b}{rank=same;c;d}
-a->b[label="검색을 바꿈"];c->d[label="검색을 바꿈"];a->c[label="전달 형식을 바꿈"];b->d[label="전달 형식을 바꿈"];
-}
