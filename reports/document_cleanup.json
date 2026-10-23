@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-24",
+  "archived_original_documents": [
+    "README.md",
+    "PROJECT_MAP.md",
+    "이관.md",
+    "연구미팅.md",
+    "CLAUDE_REVIEW_LOG.md",
+    "kg_v2/README.md"
+  ],
+  "archive_directory": "archive/research_notes_20261024",
+  "archived_report_exports": "reports/20261021_paper50/archive_documents",
+  "deleted_generated_documents": [
+    {
+      "path": "reports/briefing_20261012/경상도_방언_KG_연구_상세브리핑_20261012.docx",
+      "sha256": "b6f792d42257b9a5cb810956813b08f4b18243e5a75897384164c9f18d2d2c05"
+    },
+    {
+      "path": "reports/current_briefing_20261012/경상도_방언_KG_현재상황_상세보고_20261013.docx",
+      "sha256": "ee0b439f406c66357780b157bf1dbada85f48fe90f443fb5c09bb3702f29e3db"
+    },
+    {
+      "path": "reports/20261012_easy_briefing/경상도_방언_연구_쉽게보는_전체과정_20261013.docx",
+      "sha256": "a03a87f2da9c8280ead2c5e039e4dc0f04cc4c03909efe0cb79f266075000bea"
+    },
+    {
+      "path": "reports/20261013_review_guide/경상도_방언_KG_예시로_이해하는_복습가이드_20261013.docx",
+      "sha256": "f52c7e20f1cb07560ebce891f464d7bed4078e6a56648f6c2f908dd466dacea7"
+    },
+    {
+      "path": "reports/latest/briefing.txt",
+      "sha256": "d8ed661d6541908f33bfa48121e7d1e6af2df0e09e4bc61b02462e039fd4bd36"
+    },
+    {
+      "path": "reports/latest/translations.txt",
+      "sha256": "c9400f499b73c63f55563fe05d33a53094d7556293e7b705bc4afd17fdeb5e3b"
+    },
+    {
+      "path": "reports/latest/translations.tsv",
+      "sha256": "977ea08157dc29bba3d4e8048a77b1ca9eca818c310b962c02f7a82452ff78a2"
+    }
+  ],
+  "preserved": "All original experiment inputs, outputs, retrieval records, evidence, and report generation scripts."
+}

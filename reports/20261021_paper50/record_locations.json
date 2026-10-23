@@ -27,6 +27,42 @@
       ]
     },
     {
+      "path": "reports/20261021_paper50/archive_documents/notion_before_readability_revision.txt",
+      "kind": "workspace_file",
+      "matches": 3,
+      "line_numbers": [
+        604,
+        613,
+        614
+      ]
+    },
+    {
+      "path": "reports/20261021_paper50/archive_documents/notion_easy_report.txt",
+      "kind": "workspace_file",
+      "matches": 1,
+      "line_numbers": [
+        57
+      ]
+    },
+    {
+      "path": "reports/20261021_paper50/archive_documents/notion_report.txt",
+      "kind": "workspace_file",
+      "matches": 3,
+      "line_numbers": [
+        13,
+        440,
+        441
+      ]
+    },
+    {
+      "path": "reports/20261021_paper50/archive_documents/readability_revision.json",
+      "kind": "workspace_file",
+      "matches": 1,
+      "line_numbers": [
+        8
+      ]
+    },
+    {
       "path": "reports/20261021_paper50/build_report.py",
       "kind": "workspace_file",
       "matches": 1,
@@ -51,48 +87,12 @@
       ]
     },
     {
-      "path": "reports/20261021_paper50/notion_before_readability_revision.txt",
-      "kind": "workspace_file",
-      "matches": 3,
-      "line_numbers": [
-        604,
-        613,
-        614
-      ]
-    },
-    {
-      "path": "reports/20261021_paper50/notion_easy_report.txt",
-      "kind": "workspace_file",
-      "matches": 1,
-      "line_numbers": [
-        57
-      ]
-    },
-    {
-      "path": "reports/20261021_paper50/notion_report.txt",
-      "kind": "workspace_file",
-      "matches": 3,
-      "line_numbers": [
-        13,
-        440,
-        441
-      ]
-    },
-    {
       "path": "reports/20261021_paper50/protocol.json",
       "kind": "workspace_file",
       "matches": 2,
       "line_numbers": [
         89,
         94
-      ]
-    },
-    {
-      "path": "reports/20261021_paper50/readability_revision.json",
-      "kind": "workspace_file",
-      "matches": 1,
-      "line_numbers": [
-        8
       ]
     },
     {
@@ -347,6 +347,42 @@
       ]
     },
     {
+      "path": "reports/20261021_paper50/논문용_50문장_실험_이관자료.zip!/20261021_paper50/archive_documents/notion_before_readability_revision.txt",
+      "kind": "zip_member",
+      "matches": 3,
+      "line_numbers": [
+        604,
+        613,
+        614
+      ]
+    },
+    {
+      "path": "reports/20261021_paper50/논문용_50문장_실험_이관자료.zip!/20261021_paper50/archive_documents/notion_easy_report.txt",
+      "kind": "zip_member",
+      "matches": 1,
+      "line_numbers": [
+        57
+      ]
+    },
+    {
+      "path": "reports/20261021_paper50/논문용_50문장_실험_이관자료.zip!/20261021_paper50/archive_documents/notion_report.txt",
+      "kind": "zip_member",
+      "matches": 3,
+      "line_numbers": [
+        13,
+        440,
+        441
+      ]
+    },
+    {
+      "path": "reports/20261021_paper50/논문용_50문장_실험_이관자료.zip!/20261021_paper50/archive_documents/readability_revision.json",
+      "kind": "zip_member",
+      "matches": 1,
+      "line_numbers": [
+        8
+      ]
+    },
+    {
       "path": "reports/20261021_paper50/논문용_50문장_실험_이관자료.zip!/20261021_paper50/build_report.py",
       "kind": "zip_member",
       "matches": 1,
@@ -371,48 +407,12 @@
       ]
     },
     {
-      "path": "reports/20261021_paper50/논문용_50문장_실험_이관자료.zip!/20261021_paper50/notion_before_readability_revision.txt",
-      "kind": "zip_member",
-      "matches": 3,
-      "line_numbers": [
-        604,
-        613,
-        614
-      ]
-    },
-    {
-      "path": "reports/20261021_paper50/논문용_50문장_실험_이관자료.zip!/20261021_paper50/notion_easy_report.txt",
-      "kind": "zip_member",
-      "matches": 1,
-      "line_numbers": [
-        57
-      ]
-    },
-    {
-      "path": "reports/20261021_paper50/논문용_50문장_실험_이관자료.zip!/20261021_paper50/notion_report.txt",
-      "kind": "zip_member",
-      "matches": 3,
-      "line_numbers": [
-        13,
-        440,
-        441
-      ]
-    },
-    {
       "path": "reports/20261021_paper50/논문용_50문장_실험_이관자료.zip!/20261021_paper50/protocol.json",
       "kind": "zip_member",
       "matches": 2,
       "line_numbers": [
         89,
         94
-      ]
-    },
-    {
-      "path": "reports/20261021_paper50/논문용_50문장_실험_이관자료.zip!/20261021_paper50/readability_revision.json",
-      "kind": "zip_member",
-      "matches": 1,
-      "line_numbers": [
-        8
       ]
     },
     {
@@ -642,5 +642,5 @@
       ]
     }
   ],
-  "git_history_matches": ""
+  "git_history_matches": "96a85c6 Consolidate conference report and preserve frozen 50-case comparison\n\nreports/20261021_paper50/archive_builders/easy_report.py\nreports/20261021_paper50/archive_builders/report.py\nreports/20261021_paper50/build_report.py\nreports/20261021_paper50/notion_easy_report.txt\nreports/20261021_paper50/notion_report.txt\nreports/20261021_paper50/report.html\nreports/20261021_paper50/run.py\nreports/20261021_paper50/scan_record_locations.py\n\"reports/20261021_paper50/\\353\\205\\274\\353\\254\\270\\354\\232\\251_\\355\\205\\214\\354\\212\\244\\355\\212\\270_\\353\\215\\260\\354\\235\\264\\355\\204\\260\\354\\205\\213.json\""
 }
